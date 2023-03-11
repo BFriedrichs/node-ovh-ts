@@ -1,5 +1,9 @@
 name: CI
-on: [push]
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   build:
     name: Build, lint, and test on Node ${{ matrix.node }} and ${{ matrix.os }}
@@ -12,18 +16,20 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 6.32.9
 
       - name: Use Node ${{ matrix.node }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
-
-      - name: Install PNPM
-        run: npm install -g pnpm
+          cache: 'pnpm'
 
       - name: Install deps and build (with cache)
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: Lint
         run: npm run lint
@@ -33,3 +39,8 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          greater-version-only: true

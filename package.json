@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "OVH API wrapper library for TypeScript",
   "license": "MIT",
+  "homepage": "https://github.com/BFriedrichs/node-ovh-ts",
   "author": "Björn Friedrichs <mail@bjornf.dev>",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
