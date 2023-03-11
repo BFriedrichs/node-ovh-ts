@@ -1,0 +1,26 @@
+/* WARNING: This file is auto-generated . Do not edit manually. */
+
+export type ReferenceCountryEnum =
+  | 'all'
+  | 'ca'
+  | 'cz'
+  | 'de'
+  | 'en'
+  | 'es'
+  | 'fi'
+  | 'fr'
+  | 'gb'
+  | 'ie'
+  | 'it'
+  | 'lt'
+  | 'ma'
+  | 'nl'
+  | 'pl'
+  | 'pp'
+  | 'pt'
+  | 'qc'
+  | 'ru'
+  | 'sk'
+  | 'sn'
+  | 'tn'
+  | 'we';

@@ -1,0 +1,21 @@
+/* WARNING: This file is auto-generated . Do not edit manually. */
+
+export type CloudKubeNodeStatusEnum =
+  | 'DELETED'
+  | 'DELETING'
+  | 'ERROR'
+  | 'FLAVOR_OUT_OF_STOCK_ERROR'
+  | 'INSTALLING'
+  | 'MAINTENANCE'
+  | 'READY'
+  | 'REDEPLOYING'
+  | 'REOPENING'
+  | 'RESETTING'
+  | 'SUSPENDED'
+  | 'SUSPENDING'
+  | 'UPDATING'
+  | 'USER_ERROR'
+  | 'USER_NODE_NOT_FOUND_ERROR'
+  | 'USER_NODE_SUSPENDED_SERVICE'
+  | 'USER_QUOTA_ERROR'
+  | 'USER_WEBHOOK_PREVENTING_OPERATIONS_ERROR';

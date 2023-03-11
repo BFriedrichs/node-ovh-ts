@@ -1,0 +1,26 @@
+/* WARNING: This file is auto-generated . Do not edit manually. */
+
+export type DedicatedAvailabilityDatacenterEnum =
+  | 'au'
+  | 'bhs'
+  | 'ca'
+  | 'de'
+  | 'default'
+  | 'fr'
+  | 'fra'
+  | 'gb'
+  | 'gra'
+  | 'hil'
+  | 'in'
+  | 'lon'
+  | 'pl'
+  | 'rbx'
+  | 'rbx-hz'
+  | 'sbg'
+  | 'sg'
+  | 'sgp'
+  | 'syd'
+  | 'us'
+  | 'vin'
+  | 'waw'
+  | 'ynm';

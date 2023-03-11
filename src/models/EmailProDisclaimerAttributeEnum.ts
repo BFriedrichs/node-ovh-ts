@@ -1,0 +1,28 @@
+/* WARNING: This file is auto-generated . Do not edit manually. */
+
+export type EmailProDisclaimerAttributeEnum =
+  | 'City'
+  | 'Company'
+  | 'Country'
+  | 'Department'
+  | 'DisplayName'
+  | 'Email'
+  | 'FaxNumber'
+  | 'FirstName'
+  | 'HomePhoneNumber'
+  | 'Initials'
+  | 'LastName'
+  | 'Manager'
+  | 'MobileNumber'
+  | 'Notes'
+  | 'Office'
+  | 'OtherFaxNumber'
+  | 'OtherHomePhoneNumber'
+  | 'OtherPhoneNumber'
+  | 'PagerNumber'
+  | 'PhoneNumber'
+  | 'State'
+  | 'Street'
+  | 'Title'
+  | 'UserLogonName'
+  | 'ZipCode';

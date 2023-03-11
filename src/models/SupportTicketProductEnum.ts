@@ -1,0 +1,28 @@
+/* WARNING: This file is auto-generated . Do not edit manually. */
+
+export type SupportTicketProductEnum =
+  | 'adsl'
+  | 'cdn'
+  | 'dedicated'
+  | 'dedicated-billing'
+  | 'dedicated-other'
+  | 'dedicatedcloud'
+  | 'domain'
+  | 'exchange'
+  | 'fax'
+  | 'hosting'
+  | 'housing'
+  | 'iaas'
+  | 'mail'
+  | 'network'
+  | 'publiccloud'
+  | 'sms'
+  | 'ssl'
+  | 'storage'
+  | 'telecom-billing'
+  | 'telecom-other'
+  | 'vac'
+  | 'voip'
+  | 'vps'
+  | 'web-billing'
+  | 'web-other';

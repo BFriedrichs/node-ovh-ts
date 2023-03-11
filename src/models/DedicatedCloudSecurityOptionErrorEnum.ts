@@ -1,0 +1,16 @@
+/* WARNING: This file is auto-generated . Do not edit manually. */
+
+export type DedicatedCloudSecurityOptionErrorEnum =
+  | 'ACTION_IMPOSSIBLE'
+  | 'ALREADY_DISABLED'
+  | 'ALREADY_ENABLED'
+  | 'BAD_ZONE'
+  | 'BREAKING_REQUIREMENTS'
+  | 'CONFLICTING_OPTIONS'
+  | 'DEFINITIVE_OPTION'
+  | 'GENERIC_ERROR'
+  | 'HAS_UNSUPPORTED_DEPENDENCIES'
+  | 'MISSING_REQUIREMENTS_OPTIONS'
+  | 'NOT_ENABLED'
+  | 'NOT_MANAGEABLE_DIRECTLY'
+  | 'SERVICE_SUSPENDED';

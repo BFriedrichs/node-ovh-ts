@@ -1,0 +1,25 @@
+/* WARNING: This file is auto-generated . Do not edit manually. */
+
+export type TelephonyTypeEnum =
+  | 'carrierSip'
+  | 'cloudHunting'
+  | 'cloudIvr'
+  | 'conference'
+  | 'contactCenterSolution'
+  | 'contactCenterSolutionExpert'
+  | 'ddi'
+  | 'easyHunting'
+  | 'easyPabx'
+  | 'empty'
+  | 'fax'
+  | 'freefax'
+  | 'mgcp'
+  | 'miniPabx'
+  | 'oldConference'
+  | 'plugAndFax'
+  | 'redirect'
+  | 'sip'
+  | 'svi'
+  | 'voicefax'
+  | 'voicemail'
+  | 'vxml';

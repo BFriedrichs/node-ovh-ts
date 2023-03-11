@@ -1,0 +1,15 @@
+/* WARNING: This file is auto-generated . Do not edit manually. */
+
+export type HostingWebDatabaseSqlPersoOfferEnum =
+  | 'SQLPERSO_1_BASES_400_MB'
+  | 'SQLPERSO_1_BASES_800_MB'
+  | 'SQLPERSO_20_BASES_100_MB'
+  | 'SQLPERSO_20_BASES_200_MB'
+  | 'SQLPERSO_2_BASES_400_MB'
+  | 'SQLPERSO_2_BASES_800_MB'
+  | 'SQLPERSO_50_BASES_100_MB'
+  | 'SQLPERSO_50_BASES_200_MB'
+  | 'SQLPERSO_5_BASES_100_MB'
+  | 'SQLPERSO_5_BASES_200_MB'
+  | 'SQLPERSO_5_BASES_400_MB'
+  | 'SQLPERSO_5_BASES_800_MB';

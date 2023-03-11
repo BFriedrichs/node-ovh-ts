@@ -1,0 +1,1 @@
+{"apiVersion":"1.0","resourcePath":"/products","basePath":"https://api.ovh.com/1.0","models":{"products.list.Item.RegionTagsEnum":{"id":"RegionTagsEnum","namespace":"products.list.Item","description":"Item tags for region where it is available","enum":["CA","EU","US"],"enumType":"string"}}}

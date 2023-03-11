@@ -1,0 +1,28 @@
+/* WARNING: This file is auto-generated . Do not edit manually. */
+
+export type CloudProjectDatabaseServiceEndpointComponentEnum =
+  | 'cassandra'
+  | 'grafana'
+  | 'graphite'
+  | 'influxdb'
+  | 'kafka'
+  | 'kafkaConnect'
+  | 'kafkaRestApi'
+  | 'kafkaSASL'
+  | 'kafkaSchemaRegistry'
+  | 'kibana'
+  | 'm3coordinator'
+  | 'mongodb'
+  | 'mongodbAnalytics'
+  | 'mongodbSrv'
+  | 'mongodbSrvAnalytics'
+  | 'mysql'
+  | 'mysqlRead'
+  | 'mysqlx'
+  | 'opensearch'
+  | 'postgresql'
+  | 'postgresqlRead'
+  | 'postgresqlReadReplica'
+  | 'prometheusRead'
+  | 'prometheusWrite'
+  | 'redis';

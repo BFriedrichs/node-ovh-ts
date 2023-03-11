@@ -1,0 +1,26 @@
+/* WARNING: This file is auto-generated . Do not edit manually. */
+
+export type XdslLineDiagnosticRobotActionsEnum =
+  | 'alignmentLockTest'
+  | 'alignmentResetTest'
+  | 'alignmentTestResult'
+  | 'checkCustomerTicket'
+  | 'checkIfAccessPing'
+  | 'checkIfResolvedAfterConnectionTests'
+  | 'checkIfResolvedAfterInstallationCheck'
+  | 'checkIfResolvedAfterTests'
+  | 'checkIfSeveralConnections'
+  | 'checkInstallation'
+  | 'checkProblem'
+  | 'checkSynchronizationWithoutOtherModems'
+  | 'customerPrelocChecks'
+  | 'findProblem'
+  | 'installationCheck'
+  | 'lockUnlock'
+  | 'needToRequestMonitoring'
+  | 'needToRequestOperatorIntervention'
+  | 'needToRequestOvhIntervention'
+  | 'requestMonitoring'
+  | 'requestOperatorIntervention'
+  | 'requestOvhIntervention'
+  | 'seltTest';

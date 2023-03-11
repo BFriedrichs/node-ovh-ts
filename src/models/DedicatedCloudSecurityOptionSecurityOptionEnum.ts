@@ -1,0 +1,27 @@
+/* WARNING: This file is auto-generated . Do not edit manually. */
+
+export type DedicatedCloudSecurityOptionSecurityOptionEnum =
+  | 'accessNetworkFiltered'
+  | 'advancedSecurity'
+  | 'base'
+  | 'contentLibrary'
+  | 'grsecKernel'
+  | 'hds'
+  | 'hids'
+  | 'hipaa'
+  | 'nids'
+  | 'pcidss'
+  | 'privateCustomerVlan'
+  | 'privateGw'
+  | 'sendLogToCustomer'
+  | 'sessionTimeout'
+  | 'sftp'
+  | 'snc'
+  | 'spla'
+  | 'sslV3'
+  | 'tls1.2'
+  | 'tokenValidation'
+  | 'twoFa'
+  | 'twoFaFail2ban'
+  | 'vrliForwarder'
+  | 'waf';
