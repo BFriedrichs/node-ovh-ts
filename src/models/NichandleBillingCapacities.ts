@@ -3,7 +3,7 @@
 import { NichandleRequiredPaymentMethodEnum } from './NichandleRequiredPaymentMethodEnum';
 
 export type NichandleBillingCapacities = {
-  canUseDebtSystem: boolean;
-  canUsePostalMailForInvoices: boolean;
-  requiredPaymentMethod: NichandleRequiredPaymentMethodEnum;
+  canUseDebtSystem?: boolean;
+  canUsePostalMailForInvoices?: boolean;
+  requiredPaymentMethod?: NichandleRequiredPaymentMethodEnum;
 };

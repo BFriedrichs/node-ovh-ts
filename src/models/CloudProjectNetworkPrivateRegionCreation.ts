@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type CloudProjectNetworkPrivateRegionCreation = { region?: string };
+export type CloudProjectNetworkPrivateRegionCreation = { region: string };

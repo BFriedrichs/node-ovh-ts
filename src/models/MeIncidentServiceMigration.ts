@@ -4,8 +4,8 @@ import { MeIncidentProposedOffer } from './MeIncidentProposedOffer';
 import { MeIncidentServiceToMigrate } from './MeIncidentServiceToMigrate';
 
 export type MeIncidentServiceMigration = {
-  addons: MeIncidentServiceMigration[];
-  orderId: number | null;
-  proposedOffer: MeIncidentProposedOffer;
-  serviceToMigrate: MeIncidentServiceToMigrate | null;
+  addons?: MeIncidentServiceMigration[];
+  orderId?: number | null;
+  proposedOffer?: MeIncidentProposedOffer;
+  serviceToMigrate?: MeIncidentServiceToMigrate | null;
 };

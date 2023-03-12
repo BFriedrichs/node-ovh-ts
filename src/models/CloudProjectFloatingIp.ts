@@ -4,10 +4,10 @@ import { CloudProjectFloatingIpStatusEnum } from './CloudProjectFloatingIpStatus
 import { CloudProjectFloatingIpAssociatedEntity } from './CloudProjectFloatingIpAssociatedEntity';
 
 export type CloudProjectFloatingIp = {
-  associatedEntity: CloudProjectFloatingIpAssociatedEntity | null;
-  id: string;
-  ip: string;
-  networkId: string;
-  region: string | null;
-  status: CloudProjectFloatingIpStatusEnum;
+  associatedEntity?: CloudProjectFloatingIpAssociatedEntity | null;
+  id?: string;
+  ip?: string;
+  networkId?: string;
+  region?: string | null;
+  status?: CloudProjectFloatingIpStatusEnum;
 };

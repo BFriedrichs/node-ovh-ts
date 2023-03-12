@@ -3,8 +3,8 @@
 import { StartupInfrastructureUsingEnum } from './StartupInfrastructureUsingEnum';
 
 export type StartupStartupProjectTechnicalNeed = {
-  infrastructureUsing?: StartupInfrastructureUsingEnum;
-  otherCloudProvider: boolean | null;
-  otherCloudProviderInfo: string | null;
-  technicalNeeds?: string;
+  infrastructureUsing: StartupInfrastructureUsingEnum;
+  otherCloudProvider?: boolean | null;
+  otherCloudProviderInfo?: string | null;
+  technicalNeeds: string;
 };

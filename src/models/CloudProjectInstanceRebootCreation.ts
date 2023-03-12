@@ -2,4 +2,4 @@
 
 import { CloudInstanceRebootTypeEnum } from './CloudInstanceRebootTypeEnum';
 
-export type CloudProjectInstanceRebootCreation = { type?: CloudInstanceRebootTypeEnum };
+export type CloudProjectInstanceRebootCreation = { type: CloudInstanceRebootTypeEnum };

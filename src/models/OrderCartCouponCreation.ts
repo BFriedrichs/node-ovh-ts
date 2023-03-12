@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type OrderCartCouponCreation = { coupon?: string };
+export type OrderCartCouponCreation = { coupon: string };

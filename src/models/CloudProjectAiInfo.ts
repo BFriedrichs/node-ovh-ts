@@ -2,4 +2,4 @@
 
 import { CloudProjectAiInfoCodeEnum } from './CloudProjectAiInfoCodeEnum';
 
-export type CloudProjectAiInfo = { code: CloudProjectAiInfoCodeEnum; message: string };
+export type CloudProjectAiInfo = { code?: CloudProjectAiInfoCodeEnum; message?: string };

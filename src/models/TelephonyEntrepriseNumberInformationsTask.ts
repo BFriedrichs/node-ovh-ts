@@ -4,6 +4,6 @@ import { TelephonyTaskStatusEnum } from './TelephonyTaskStatusEnum';
 import { TelephonyEntrepriseNumberInformations } from './TelephonyEntrepriseNumberInformations';
 
 export type TelephonyEntrepriseNumberInformationsTask = {
-  informations: TelephonyEntrepriseNumberInformations;
-  status: TelephonyTaskStatusEnum;
+  informations?: TelephonyEntrepriseNumberInformations;
+  status?: TelephonyTaskStatusEnum;
 };

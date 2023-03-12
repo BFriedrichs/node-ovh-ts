@@ -2,4 +2,4 @@
 
 import { ServicePlanProduct } from './ServicePlanProduct';
 
-export type ServicePlan = { code: string | null; product: ServicePlanProduct };
+export type ServicePlan = { code?: string | null; product?: ServicePlanProduct };

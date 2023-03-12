@@ -3,8 +3,8 @@
 import { OrderCatalogPccServicePackOption } from './OrderCatalogPccServicePackOption';
 
 export type OrderCatalogPccServicePack = {
-  name: string;
-  options: OrderCatalogPccServicePackOption[];
-  planCode: string;
-  upgradableTo: string[];
+  name?: string;
+  options?: OrderCatalogPccServicePackOption[];
+  planCode?: string;
+  upgradableTo?: string[];
 };

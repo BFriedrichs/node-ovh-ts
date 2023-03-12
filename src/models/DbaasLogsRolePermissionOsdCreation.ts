@@ -3,6 +3,6 @@
 import { DbaasLogsPermissionTypeEnum } from './DbaasLogsPermissionTypeEnum';
 
 export type DbaasLogsRolePermissionOsdCreation = {
-  osdId?: string;
-  permissionType: DbaasLogsPermissionTypeEnum | null;
+  osdId: string;
+  permissionType?: DbaasLogsPermissionTypeEnum | null;
 };

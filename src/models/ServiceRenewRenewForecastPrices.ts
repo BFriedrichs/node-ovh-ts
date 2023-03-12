@@ -3,7 +3,7 @@
 import { OrderPrice } from './OrderPrice';
 
 export type ServiceRenewRenewForecastPrices = {
-  tax: OrderPrice;
-  withTax: OrderPrice;
-  withoutTax: OrderPrice;
+  tax?: OrderPrice;
+  withTax?: OrderPrice;
+  withoutTax?: OrderPrice;
 };

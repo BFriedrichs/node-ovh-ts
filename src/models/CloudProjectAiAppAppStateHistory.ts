@@ -2,4 +2,7 @@
 
 import { CloudProjectAiAppAppStateEnum } from './CloudProjectAiAppAppStateEnum';
 
-export type CloudProjectAiAppAppStateHistory = { date: Date; state: CloudProjectAiAppAppStateEnum };
+export type CloudProjectAiAppAppStateHistory = {
+  date?: Date;
+  state?: CloudProjectAiAppAppStateEnum;
+};

@@ -3,8 +3,8 @@
 import { ClusterHadoopClusterStateEnum } from './ClusterHadoopClusterStateEnum';
 
 export type ClusterHadoopHadoop = {
-  clouderaVersion: string;
-  maxOrderableNodes: number;
-  name: string;
-  state: ClusterHadoopClusterStateEnum;
+  clouderaVersion?: string;
+  maxOrderableNodes?: number;
+  name?: string;
+  state?: ClusterHadoopClusterStateEnum;
 };

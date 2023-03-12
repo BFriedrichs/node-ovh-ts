@@ -1,69 +1,69 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailExchangeMailingListDepartRestrictionEnum } from '../models/EmailExchangeMailingListDepartRestrictionEnum';
-import { EmailExchangeExchangeServiceDevice } from '../models/EmailExchangeExchangeServiceDevice';
-import { EmailExchangeExchangeAccountFullAccess } from '../models/EmailExchangeExchangeAccountFullAccess';
-import { EmailExchangeExchangeServiceAuthorizedIp } from '../models/EmailExchangeExchangeServiceAuthorizedIp';
-import { EmailExchangeExchangeMailingListAlias } from '../models/EmailExchangeExchangeMailingListAlias';
-import { EmailExchangeMailingList } from '../models/EmailExchangeMailingList';
-import { EmailExchangeOvhLicenceEnum } from '../models/EmailExchangeOvhLicenceEnum';
-import { EmailExchangeExchangeServiceActiveSyncNotification } from '../models/EmailExchangeExchangeServiceActiveSyncNotification';
-import { EmailExchangeExchangeResourceAccountDelegate } from '../models/EmailExchangeExchangeResourceAccountDelegate';
-import { EmailExchangeMailingFilterEnum } from '../models/EmailExchangeMailingFilterEnum';
-import { EmailExchangeOutlookUrl } from '../models/EmailExchangeOutlookUrl';
-import { EmailExchangeExchangeAccountAlias } from '../models/EmailExchangeExchangeAccountAlias';
-import { EmailExchangeExchangeAccountSendOnBehalfTo } from '../models/EmailExchangeExchangeAccountSendOnBehalfTo';
-import { EmailExchangeOvhCustomIsolationFieldEnum } from '../models/EmailExchangeOvhCustomIsolationFieldEnum';
-import { EmailExchangeExchangeDistributionGroupSendAs } from '../models/EmailExchangeExchangeDistributionGroupSendAs';
-import { EmailExchangePublicFolderTypeEnum } from '../models/EmailExchangePublicFolderTypeEnum';
-import { EmailExchangeExchangeExternalContact } from '../models/EmailExchangeExchangeExternalContact';
-import { EmailExchangeDeviceActiveSyncStateEnum } from '../models/EmailExchangeDeviceActiveSyncStateEnum';
-import { EmailExchangeExchangeAccountArchive } from '../models/EmailExchangeExchangeAccountArchive';
-import { EmailExchangeExchangeAccountDiagnosis } from '../models/EmailExchangeExchangeAccountDiagnosis';
-import { EmailExchangeServer } from '../models/EmailExchangeServer';
-import { EmailExchangeSmartHostAuthMechanismEnum } from '../models/EmailExchangeSmartHostAuthMechanismEnum';
-import { EmailExchangeExchangeServiceProtocol } from '../models/EmailExchangeExchangeServiceProtocol';
-import { EmailExchangePasswordPolicy } from '../models/EmailExchangePasswordPolicy';
-import { EmailExchangeSharedAccountQuota } from '../models/EmailExchangeSharedAccountQuota';
-import { EmailExchangeExchangeService } from '../models/EmailExchangeExchangeService';
-import { EmailExchangeExchangeAccountSendAs } from '../models/EmailExchangeExchangeAccountSendAs';
-import { EmailExchangeExchangeCustomIsolation } from '../models/EmailExchangeExchangeCustomIsolation';
-import { EmailExchangeAccount } from '../models/EmailExchangeAccount';
-import { EmailExchangeExchangeSharedAccountAlias } from '../models/EmailExchangeExchangeSharedAccountAlias';
-import { EmailExchangeDkim } from '../models/EmailExchangeDkim';
-import { EmailExchangeExchangeDistributionGroupSendOnBehalfTo } from '../models/EmailExchangeExchangeDistributionGroupSendOnBehalfTo';
-import { EmailExchangeMailingListJoinRestrictionEnum } from '../models/EmailExchangeMailingListJoinRestrictionEnum';
-import { EmailExchangeLanguageEnum } from '../models/EmailExchangeLanguageEnum';
-import { EmailExchangeOutlookVersions } from '../models/EmailExchangeOutlookVersions';
-import { EmailExchangeExport } from '../models/EmailExchangeExport';
-import { EmailExchangeExchangeAccountImpersonation } from '../models/EmailExchangeExchangeAccountImpersonation';
-import { EmailExchangeExchangeAccountProtocol } from '../models/EmailExchangeExchangeAccountProtocol';
-import { EmailExchangeExchangePublicFolderPermission } from '../models/EmailExchangeExchangePublicFolderPermission';
-import { EmailExchangeObjectStateEnum } from '../models/EmailExchangeObjectStateEnum';
-import { EmailExchangeDailyLicense } from '../models/EmailExchangeDailyLicense';
-import { EmailExchangeExchangeSharedAccountSendOnBehalfTo } from '../models/EmailExchangeExchangeSharedAccountSendOnBehalfTo';
-import { EmailExchangeCountryCodeEnum } from '../models/EmailExchangeCountryCodeEnum';
-import { EmailExchangeSharedAccount } from '../models/EmailExchangeSharedAccount';
-import { EmailExchangeExchangeDistributionGroupMember } from '../models/EmailExchangeExchangeDistributionGroupMember';
-import { EmailExchangeOutlookVersionEnum } from '../models/EmailExchangeOutlookVersionEnum';
-import { EmailExchangeResourceTypeEnum } from '../models/EmailExchangeResourceTypeEnum';
-import { EmailExchangeExchangeSharedAccountSendAs } from '../models/EmailExchangeExchangeSharedAccountSendAs';
-import { EmailExchangeExchangeDistributionGroupManager } from '../models/EmailExchangeExchangeDistributionGroupManager';
-import { EmailExchangeDisclaimer } from '../models/EmailExchangeDisclaimer';
-import { ServicesService } from '../models/ServicesService';
-import { EmailExchangeDomainTypeEnum } from '../models/EmailExchangeDomainTypeEnum';
-import { EmailExchangeResourceAccount } from '../models/EmailExchangeResourceAccount';
-import { EmailExchangePublicFolderQuota } from '../models/EmailExchangePublicFolderQuota';
 import { EmailExchangePublicFolderRightTypeEnum } from '../models/EmailExchangePublicFolderRightTypeEnum';
-import { EmailExchangeDomain } from '../models/EmailExchangeDomain';
-import { EmailExchangeSpamAndVirusConfiguration } from '../models/EmailExchangeSpamAndVirusConfiguration';
-import { EmailExchangeSendConnector } from '../models/EmailExchangeSendConnector';
-import { EmailExchangeExchangeSharedAccountFullAccess } from '../models/EmailExchangeExchangeSharedAccountFullAccess';
+import { EmailExchangeCountryCodeEnum } from '../models/EmailExchangeCountryCodeEnum';
+import { EmailExchangeExchangeCustomIsolation } from '../models/EmailExchangeExchangeCustomIsolation';
 import { EmailExchangeDisclaimerAttributeEnum } from '../models/EmailExchangeDisclaimerAttributeEnum';
 import { EmailExchangePublicFolder } from '../models/EmailExchangePublicFolder';
+import { EmailExchangeSpamAndVirusConfiguration } from '../models/EmailExchangeSpamAndVirusConfiguration';
+import { EmailExchangeExchangeAccountImpersonation } from '../models/EmailExchangeExchangeAccountImpersonation';
 import { EmailExchangeShowMeetingDetailsEnum } from '../models/EmailExchangeShowMeetingDetailsEnum';
-import { EmailExchangeExportUrl } from '../models/EmailExchangeExportUrl';
+import { EmailExchangeResourceAccount } from '../models/EmailExchangeResourceAccount';
+import { EmailExchangeExchangeServiceProtocol } from '../models/EmailExchangeExchangeServiceProtocol';
+import { ServicesService } from '../models/ServicesService';
+import { EmailExchangeExchangeService } from '../models/EmailExchangeExchangeService';
+import { EmailExchangeDailyLicense } from '../models/EmailExchangeDailyLicense';
+import { EmailExchangeExchangeAccountArchive } from '../models/EmailExchangeExchangeAccountArchive';
+import { EmailExchangeSmartHostAuthMechanismEnum } from '../models/EmailExchangeSmartHostAuthMechanismEnum';
+import { EmailExchangeSendConnector } from '../models/EmailExchangeSendConnector';
+import { EmailExchangeExchangeAccountSendAs } from '../models/EmailExchangeExchangeAccountSendAs';
+import { EmailExchangeDkim } from '../models/EmailExchangeDkim';
+import { EmailExchangeExchangeAccountProtocol } from '../models/EmailExchangeExchangeAccountProtocol';
+import { EmailExchangeSharedAccount } from '../models/EmailExchangeSharedAccount';
+import { EmailExchangeExchangeServiceAuthorizedIp } from '../models/EmailExchangeExchangeServiceAuthorizedIp';
+import { EmailExchangeExchangeMailingListAlias } from '../models/EmailExchangeExchangeMailingListAlias';
+import { EmailExchangeExchangeDistributionGroupSendAs } from '../models/EmailExchangeExchangeDistributionGroupSendAs';
+import { EmailExchangeResourceTypeEnum } from '../models/EmailExchangeResourceTypeEnum';
+import { EmailExchangeExchangeExternalContact } from '../models/EmailExchangeExchangeExternalContact';
+import { EmailExchangeExchangeSharedAccountAlias } from '../models/EmailExchangeExchangeSharedAccountAlias';
+import { EmailExchangeOutlookVersions } from '../models/EmailExchangeOutlookVersions';
+import { EmailExchangeExchangeServiceActiveSyncNotification } from '../models/EmailExchangeExchangeServiceActiveSyncNotification';
+import { EmailExchangeMailingListJoinRestrictionEnum } from '../models/EmailExchangeMailingListJoinRestrictionEnum';
+import { EmailExchangeExchangeAccountFullAccess } from '../models/EmailExchangeExchangeAccountFullAccess';
+import { EmailExchangeOvhLicenceEnum } from '../models/EmailExchangeOvhLicenceEnum';
+import { EmailExchangeExchangeAccountDiagnosis } from '../models/EmailExchangeExchangeAccountDiagnosis';
 import { EmailExchangeTask } from '../models/EmailExchangeTask';
+import { EmailExchangeExchangeAccountSendOnBehalfTo } from '../models/EmailExchangeExchangeAccountSendOnBehalfTo';
+import { EmailExchangePasswordPolicy } from '../models/EmailExchangePasswordPolicy';
+import { EmailExchangeExport } from '../models/EmailExchangeExport';
+import { EmailExchangeLanguageEnum } from '../models/EmailExchangeLanguageEnum';
+import { EmailExchangeOutlookVersionEnum } from '../models/EmailExchangeOutlookVersionEnum';
+import { EmailExchangeExchangeDistributionGroupManager } from '../models/EmailExchangeExchangeDistributionGroupManager';
+import { EmailExchangePublicFolderTypeEnum } from '../models/EmailExchangePublicFolderTypeEnum';
+import { EmailExchangeOvhCustomIsolationFieldEnum } from '../models/EmailExchangeOvhCustomIsolationFieldEnum';
+import { EmailExchangeExchangeDistributionGroupSendOnBehalfTo } from '../models/EmailExchangeExchangeDistributionGroupSendOnBehalfTo';
+import { EmailExchangeExchangeResourceAccountDelegate } from '../models/EmailExchangeExchangeResourceAccountDelegate';
+import { EmailExchangeExchangeSharedAccountSendAs } from '../models/EmailExchangeExchangeSharedAccountSendAs';
+import { EmailExchangeOutlookUrl } from '../models/EmailExchangeOutlookUrl';
+import { EmailExchangeMailingListDepartRestrictionEnum } from '../models/EmailExchangeMailingListDepartRestrictionEnum';
+import { EmailExchangePublicFolderQuota } from '../models/EmailExchangePublicFolderQuota';
+import { EmailExchangeObjectStateEnum } from '../models/EmailExchangeObjectStateEnum';
+import { EmailExchangeDomain } from '../models/EmailExchangeDomain';
+import { EmailExchangeExchangeServiceDevice } from '../models/EmailExchangeExchangeServiceDevice';
+import { EmailExchangeDomainTypeEnum } from '../models/EmailExchangeDomainTypeEnum';
+import { EmailExchangeMailingList } from '../models/EmailExchangeMailingList';
+import { EmailExchangeExchangeAccountAlias } from '../models/EmailExchangeExchangeAccountAlias';
+import { EmailExchangeExchangeSharedAccountFullAccess } from '../models/EmailExchangeExchangeSharedAccountFullAccess';
+import { EmailExchangeDeviceActiveSyncStateEnum } from '../models/EmailExchangeDeviceActiveSyncStateEnum';
+import { EmailExchangeExchangePublicFolderPermission } from '../models/EmailExchangeExchangePublicFolderPermission';
+import { EmailExchangeExchangeSharedAccountSendOnBehalfTo } from '../models/EmailExchangeExchangeSharedAccountSendOnBehalfTo';
+import { EmailExchangeSharedAccountQuota } from '../models/EmailExchangeSharedAccountQuota';
+import { EmailExchangeMailingFilterEnum } from '../models/EmailExchangeMailingFilterEnum';
+import { EmailExchangeAccount } from '../models/EmailExchangeAccount';
+import { EmailExchangeExportUrl } from '../models/EmailExchangeExportUrl';
+import { EmailExchangeDisclaimer } from '../models/EmailExchangeDisclaimer';
+import { EmailExchangeExchangeDistributionGroupMember } from '../models/EmailExchangeExchangeDistributionGroupMember';
+import { EmailExchangeServer } from '../models/EmailExchangeServer';
 import OVHBase from '../ovh';
 
 class EmailExchangeHandler {
@@ -74,12 +74,12 @@ class EmailExchangeHandler {
   }
 
   /** List available services */
-  listExchanges = (): Promise<string[]> => {
+  listExchange = (): Promise<string[]> => {
     return this.ovh.request('GET', '/email/exchange');
   };
 
   /** List available services */
-  listExchangeServicesByOrganizationName = (organizationName: string): Promise<string[]> => {
+  listExchangeServiceByOrganizationName = (organizationName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/exchange/${organizationName}/service`);
   };
 
@@ -825,7 +825,7 @@ class EmailExchangeHandler {
   };
 
   /** List of your ActiveSync devices registered on this Exchange service */
-  listExchangeServiceDevicesByOrganizationNameAndExchangeService = (
+  listExchangeServiceDeviceByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<string[]> => {
@@ -2046,7 +2046,7 @@ class EmailExchangeHandler {
     };
 
   /** List of your send connectors on this Exchange service */
-  listExchangeServiceSendConnectorsByOrganizationNameAndExchangeService = (
+  listExchangeServiceSendConnectorByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<number[]> => {

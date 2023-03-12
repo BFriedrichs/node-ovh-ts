@@ -1,20 +1,20 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailMxplanAccountSendOnBehalfTo } from '../models/EmailMxplanAccountSendOnBehalfTo';
-import { EmailMxplanAccountSendAs } from '../models/EmailMxplanAccountSendAs';
-import { EmailMxplanExternalContact } from '../models/EmailMxplanExternalContact';
-import { EmailMxplanAccountDiagnosis } from '../models/EmailMxplanAccountDiagnosis';
-import { EmailProDisclaimerAttributeEnum } from '../models/EmailProDisclaimerAttributeEnum';
-import { EmailMxplanService } from '../models/EmailMxplanService';
-import { EmailProObjectStateEnum } from '../models/EmailProObjectStateEnum';
 import { EmailMxplanAccountCapabilities } from '../models/EmailMxplanAccountCapabilities';
-import { EmailProDisclaimer } from '../models/EmailProDisclaimer';
-import { EmailProTask } from '../models/EmailProTask';
-import { EmailMxplanAccountAlias } from '../models/EmailMxplanAccountAlias';
-import { EmailMxplanServer } from '../models/EmailMxplanServer';
-import { EmailMxplanDomain } from '../models/EmailMxplanDomain';
 import { EmailMxplanAccountFullAccess } from '../models/EmailMxplanAccountFullAccess';
+import { EmailMxplanService } from '../models/EmailMxplanService';
+import { EmailMxplanAccountDiagnosis } from '../models/EmailMxplanAccountDiagnosis';
+import { EmailMxplanAccountSendOnBehalfTo } from '../models/EmailMxplanAccountSendOnBehalfTo';
+import { EmailProDisclaimerAttributeEnum } from '../models/EmailProDisclaimerAttributeEnum';
+import { EmailProDisclaimer } from '../models/EmailProDisclaimer';
+import { EmailMxplanAccountAlias } from '../models/EmailMxplanAccountAlias';
+import { EmailProObjectStateEnum } from '../models/EmailProObjectStateEnum';
+import { EmailMxplanServer } from '../models/EmailMxplanServer';
+import { EmailMxplanAccountSendAs } from '../models/EmailMxplanAccountSendAs';
 import { EmailMxplanAccount } from '../models/EmailMxplanAccount';
+import { EmailProTask } from '../models/EmailProTask';
+import { EmailMxplanExternalContact } from '../models/EmailMxplanExternalContact';
+import { EmailMxplanDomain } from '../models/EmailMxplanDomain';
 import OVHBase from '../ovh';
 
 class EmailMxplanHandler {
@@ -25,7 +25,7 @@ class EmailMxplanHandler {
   }
 
   /** List available services */
-  listMxplans = (): Promise<string[]> => {
+  listMxplan = (): Promise<string[]> => {
     return this.ovh.request('GET', '/email/mxplan');
   };
 

@@ -4,10 +4,10 @@ import { EmailDomainDomainDiagnoseFunctionEnum } from './EmailDomainDomainDiagno
 import { EmailDomainDomainDiagnoseResultEnum } from './EmailDomainDomainDiagnoseResultEnum';
 
 export type EmailDomainDiagnose = {
-  date: Date;
-  function: EmailDomainDomainDiagnoseFunctionEnum;
-  id: number;
-  name: string | null;
-  result: EmailDomainDomainDiagnoseResultEnum | null;
-  trace: EmailDomainDomainDiagnoseResultEnum | null;
+  date?: Date;
+  function?: EmailDomainDomainDiagnoseFunctionEnum;
+  id?: number;
+  name?: string | null;
+  result?: EmailDomainDomainDiagnoseResultEnum | null;
+  trace?: EmailDomainDomainDiagnoseResultEnum | null;
 };

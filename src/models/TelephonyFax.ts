@@ -4,9 +4,9 @@ import { TelephonyLineNotificationsOptions } from './TelephonyLineNotificationsO
 import { TelephonyTypeServiceEnum } from './TelephonyTypeServiceEnum';
 
 export type TelephonyFax = {
-  description: string;
-  notifications: TelephonyLineNotificationsOptions | null;
-  offers: string[];
-  serviceName: string;
-  serviceType: TelephonyTypeServiceEnum;
+  description?: string;
+  notifications?: TelephonyLineNotificationsOptions | null;
+  offers?: string[];
+  serviceName?: string;
+  serviceType?: TelephonyTypeServiceEnum;
 };

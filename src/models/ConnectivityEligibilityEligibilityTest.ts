@@ -4,7 +4,7 @@ import { ConnectivityEligibilityEndpoint } from './ConnectivityEligibilityEndpoi
 import { ConnectivityEligibilityOffer } from './ConnectivityEligibilityOffer';
 
 export type ConnectivityEligibilityEligibilityTest = {
-  eligibilityReference: string;
-  endpoint: ConnectivityEligibilityEndpoint;
-  offers: ConnectivityEligibilityOffer[];
+  eligibilityReference?: string;
+  endpoint?: ConnectivityEligibilityEndpoint;
+  offers?: ConnectivityEligibilityOffer[];
 };

@@ -3,6 +3,6 @@
 import { OrderPrice } from './OrderPrice';
 
 export type MeMigrationStepDebt = {
-  balanceAmount: OrderPrice | null;
-  ovhAccountAmount: OrderPrice | null;
+  balanceAmount?: OrderPrice | null;
+  ovhAccountAmount?: OrderPrice | null;
 };

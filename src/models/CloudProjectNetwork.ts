@@ -3,9 +3,9 @@
 import { CloudNetworkNetworkVisibilityEnum } from './CloudNetworkNetworkVisibilityEnum';
 
 export type CloudProjectNetwork = {
-  id: string;
-  name: string;
-  region: string | null;
-  visibility: CloudNetworkNetworkVisibilityEnum;
-  vlanId: number | null;
+  id?: string;
+  name?: string;
+  region?: string | null;
+  visibility?: CloudNetworkNetworkVisibilityEnum;
+  vlanId?: number | null;
 };

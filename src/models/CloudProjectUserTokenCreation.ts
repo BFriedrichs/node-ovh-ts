@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type CloudProjectUserTokenCreation = { password?: string };
+export type CloudProjectUserTokenCreation = { password: string };

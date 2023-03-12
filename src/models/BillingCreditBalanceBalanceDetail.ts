@@ -2,4 +2,4 @@
 
 import { OrderPrice } from './OrderPrice';
 
-export type BillingCreditBalanceBalanceDetail = { amount: OrderPrice; serviceId: number | null };
+export type BillingCreditBalanceBalanceDetail = { amount?: OrderPrice; serviceId?: number | null };

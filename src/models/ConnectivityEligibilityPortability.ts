@@ -4,7 +4,7 @@ import { ConnectivityEligibilityPortabilityEligibility } from './ConnectivityEli
 import { ConnectivityEligibilityPortabilityTypeEnum } from './ConnectivityEligibilityPortabilityTypeEnum';
 
 export type ConnectivityEligibilityPortability = {
-  eligibility: ConnectivityEligibilityPortabilityEligibility;
-  quarantineEndDate: Date | null;
-  type: ConnectivityEligibilityPortabilityTypeEnum | null;
+  eligibility?: ConnectivityEligibilityPortabilityEligibility;
+  quarantineEndDate?: Date | null;
+  type?: ConnectivityEligibilityPortabilityTypeEnum | null;
 };

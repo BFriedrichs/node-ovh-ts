@@ -4,6 +4,6 @@ import { DedicatedServerRoutingDetailsIpv6 } from './DedicatedServerRoutingDetai
 import { DedicatedServerRoutingDetailsIpv4 } from './DedicatedServerRoutingDetailsIpv4';
 
 export type DedicatedServerRoutingDetails = {
-  ipv4: DedicatedServerRoutingDetailsIpv4 | null;
-  ipv6: DedicatedServerRoutingDetailsIpv6 | null;
+  ipv4?: DedicatedServerRoutingDetailsIpv4 | null;
+  ipv6?: DedicatedServerRoutingDetailsIpv6 | null;
 };

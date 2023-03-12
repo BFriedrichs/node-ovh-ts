@@ -3,7 +3,7 @@
 import { ServicesExpandedTechnicalNutanixClusterFeatures } from './ServicesExpandedTechnicalNutanixClusterFeatures';
 
 export type ServicesExpandedTechnicalNutanixClusterLicense = {
-  distribution: string;
-  edition: string;
-  features: ServicesExpandedTechnicalNutanixClusterFeatures[] | null;
+  distribution?: string;
+  edition?: string;
+  features?: ServicesExpandedTechnicalNutanixClusterFeatures[] | null;
 };

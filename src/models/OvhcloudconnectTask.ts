@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OvhcloudconnectTaskFunctionEnum } from './OvhcloudconnectTaskFunctionEnum';
 import { OvhcloudconnectTaskStatusEnum } from './OvhcloudconnectTaskStatusEnum';
+import { OvhcloudconnectTaskFunctionEnum } from './OvhcloudconnectTaskFunctionEnum';
 
 export type OvhcloudconnectTask = {
-  function: OvhcloudconnectTaskFunctionEnum;
-  id: number;
-  resourceId: number;
-  status: OvhcloudconnectTaskStatusEnum;
+  function?: OvhcloudconnectTaskFunctionEnum;
+  id?: number;
+  resourceId?: number;
+  status?: OvhcloudconnectTaskStatusEnum;
 };

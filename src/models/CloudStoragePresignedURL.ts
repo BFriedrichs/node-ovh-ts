@@ -2,4 +2,7 @@
 
 import { CloudStoragePresignedURLMethodEnum } from './CloudStoragePresignedURLMethodEnum';
 
-export type CloudStoragePresignedURL = { method: CloudStoragePresignedURLMethodEnum; url: string };
+export type CloudStoragePresignedURL = {
+  method?: CloudStoragePresignedURLMethodEnum;
+  url?: string;
+};

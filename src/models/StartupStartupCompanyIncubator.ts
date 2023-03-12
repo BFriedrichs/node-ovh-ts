@@ -3,7 +3,7 @@
 import { NichandleCountryEnum } from './NichandleCountryEnum';
 
 export type StartupStartupCompanyIncubator = {
-  city?: string | null;
-  country?: NichandleCountryEnum | null;
-  name?: string | null;
+  city: string | null;
+  country: NichandleCountryEnum | null;
+  name: string | null;
 };

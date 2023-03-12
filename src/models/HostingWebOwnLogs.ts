@@ -3,10 +3,10 @@
 import { HostingWebOwnLogsStatusEnum } from './HostingWebOwnLogsStatusEnum';
 
 export type HostingWebOwnLogs = {
-  fqdn: string;
-  id: number;
-  logs: string;
-  stats: string;
-  status: HostingWebOwnLogsStatusEnum;
-  taskId: number | null;
+  fqdn?: string;
+  id?: number;
+  logs?: string;
+  stats?: string;
+  status?: HostingWebOwnLogsStatusEnum;
+  taskId?: number | null;
 };

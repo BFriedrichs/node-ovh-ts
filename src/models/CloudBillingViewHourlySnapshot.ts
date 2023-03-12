@@ -4,8 +4,8 @@ import { CloudBillingViewInstanceSnapshot } from './CloudBillingViewInstanceSnap
 import { CloudBillingViewVolumeSnapshot } from './CloudBillingViewVolumeSnapshot';
 
 export type CloudBillingViewHourlySnapshot = {
-  instance: CloudBillingViewInstanceSnapshot | null;
-  region: string;
-  totalPrice: number;
-  volume: CloudBillingViewVolumeSnapshot | null;
+  instance?: CloudBillingViewInstanceSnapshot | null;
+  region?: string;
+  totalPrice?: number;
+  volume?: CloudBillingViewVolumeSnapshot | null;
 };

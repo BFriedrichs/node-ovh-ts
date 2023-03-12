@@ -3,9 +3,9 @@
 import { OrderPrice } from './OrderPrice';
 
 export type PackXdslMigrationOfferAvailableOption = {
-  duration: number;
-  included: number;
-  name: string;
-  optional: number;
-  optionalPrice: OrderPrice | null;
+  duration?: number;
+  included?: number;
+  name?: string;
+  optional?: number;
+  optionalPrice?: OrderPrice | null;
 };

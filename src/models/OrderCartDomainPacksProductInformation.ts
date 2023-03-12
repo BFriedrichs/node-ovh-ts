@@ -4,7 +4,7 @@ import { OrderCartGenericProductPricing } from './OrderCartGenericProductPricing
 import { OrderCartDomainPacksDescription } from './OrderCartDomainPacksDescription';
 
 export type OrderCartDomainPacksProductInformation = {
-  description: OrderCartDomainPacksDescription;
-  planCode: string;
-  prices: OrderCartGenericProductPricing[];
+  description?: OrderCartDomainPacksDescription;
+  planCode?: string;
+  prices?: OrderCartGenericProductPricing[];
 };

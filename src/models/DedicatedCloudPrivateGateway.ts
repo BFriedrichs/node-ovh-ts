@@ -3,8 +3,8 @@
 import { DedicatedCloudOptionStateEnum } from './DedicatedCloudOptionStateEnum';
 
 export type DedicatedCloudPrivateGateway = {
-  customerIp: string | null;
-  customerNetmask: string | null;
-  customerPortGroup: string | null;
-  state: DedicatedCloudOptionStateEnum;
+  customerIp?: string | null;
+  customerNetmask?: string | null;
+  customerPortGroup?: string | null;
+  state?: DedicatedCloudOptionStateEnum;
 };

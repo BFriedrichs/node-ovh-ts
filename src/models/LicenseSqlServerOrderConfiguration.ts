@@ -4,6 +4,6 @@ import { LicenseLicenseTypeEnum } from './LicenseLicenseTypeEnum';
 import { LicenseOrderableSqlServerCompatibilityInfos } from './LicenseOrderableSqlServerCompatibilityInfos';
 
 export type LicenseSqlServerOrderConfiguration = {
-  orderableVersions: LicenseOrderableSqlServerCompatibilityInfos[];
-  serviceType: LicenseLicenseTypeEnum;
+  orderableVersions?: LicenseOrderableSqlServerCompatibilityInfos[];
+  serviceType?: LicenseLicenseTypeEnum;
 };

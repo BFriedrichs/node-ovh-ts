@@ -4,6 +4,6 @@ import { LicenseLicenseTypeEnum } from './LicenseLicenseTypeEnum';
 import { LicenseOrderableDirectAdminCompatibilityInfos } from './LicenseOrderableDirectAdminCompatibilityInfos';
 
 export type LicenseDirectAdminOrderConfiguration = {
-  orderableVersions: LicenseOrderableDirectAdminCompatibilityInfos[];
-  serviceType: LicenseLicenseTypeEnum;
+  orderableVersions?: LicenseOrderableDirectAdminCompatibilityInfos[];
+  serviceType?: LicenseLicenseTypeEnum;
 };

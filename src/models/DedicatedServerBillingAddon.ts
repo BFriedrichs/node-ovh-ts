@@ -3,6 +3,6 @@
 import { DedicatedServerAddonFamilyEnum } from './DedicatedServerAddonFamilyEnum';
 
 export type DedicatedServerBillingAddon = {
-  family: DedicatedServerAddonFamilyEnum;
-  planCode: string;
+  family?: DedicatedServerAddonFamilyEnum;
+  planCode?: string;
 };

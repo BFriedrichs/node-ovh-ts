@@ -3,7 +3,7 @@
 import { CloudProjectAiServingBackendIdEnum } from './CloudProjectAiServingBackendIdEnum';
 
 export type CloudProjectAiServingBackend = {
-  id: CloudProjectAiServingBackendIdEnum;
-  link: string;
-  name: string;
+  id?: CloudProjectAiServingBackendIdEnum;
+  link?: string;
+  name?: string;
 };

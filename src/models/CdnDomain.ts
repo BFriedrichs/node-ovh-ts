@@ -3,9 +3,9 @@
 import { CdnDomainStatusEnum } from './CdnDomainStatusEnum';
 
 export type CdnDomain = {
-  creationDate: Date;
-  name: string;
-  needRefresh: boolean;
-  status: CdnDomainStatusEnum;
-  updatedDate: Date;
+  creationDate?: Date;
+  name?: string;
+  needRefresh?: boolean;
+  status?: CdnDomainStatusEnum;
+  updatedDate?: Date;
 };

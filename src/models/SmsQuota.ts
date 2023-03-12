@@ -2,4 +2,4 @@
 
 import { SmsQuotaStatusUserEnum } from './SmsQuotaStatusUserEnum';
 
-export type SmsQuota = { quotaLeft: number; quotaStatus: SmsQuotaStatusUserEnum };
+export type SmsQuota = { quotaLeft?: number; quotaStatus?: SmsQuotaStatusUserEnum };

@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type DbaasLogsOsdCreation = { description?: string };
+export type DbaasLogsOsdCreation = { description: string };

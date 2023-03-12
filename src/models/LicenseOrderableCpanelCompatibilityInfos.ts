@@ -3,5 +3,5 @@
 import { LicenseOrderableCpanelVersionEnum } from './LicenseOrderableCpanelVersionEnum';
 
 export type LicenseOrderableCpanelCompatibilityInfos = {
-  version: LicenseOrderableCpanelVersionEnum;
+  version?: LicenseOrderableCpanelVersionEnum;
 };

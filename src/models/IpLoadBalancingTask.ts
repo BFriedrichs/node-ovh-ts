@@ -3,8 +3,8 @@
 import { IpLoadBalancingTaskActionEnum } from './IpLoadBalancingTaskActionEnum';
 
 export type IpLoadBalancingTask = {
-  action: IpLoadBalancingTaskActionEnum;
-  creationDate: Date;
-  id: number;
-  status: string;
+  action?: IpLoadBalancingTaskActionEnum;
+  creationDate?: Date;
+  id?: number;
+  status?: string;
 };

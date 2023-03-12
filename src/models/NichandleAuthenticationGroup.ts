@@ -3,10 +3,10 @@
 import { NichandleAuthenticationRoleEnum } from './NichandleAuthenticationRoleEnum';
 
 export type NichandleAuthenticationGroup = {
-  creation: Date;
-  defaultGroup: boolean;
-  description: string;
-  lastUpdate: Date;
-  name: string;
-  role: NichandleAuthenticationRoleEnum;
+  creation?: Date;
+  defaultGroup?: boolean;
+  description?: string;
+  lastUpdate?: Date;
+  name?: string;
+  role?: NichandleAuthenticationRoleEnum;
 };

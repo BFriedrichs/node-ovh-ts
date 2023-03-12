@@ -4,7 +4,7 @@ import { HostingWebCapabilities } from './HostingWebCapabilities';
 import { OrderCartGenericProductPricing } from './OrderCartGenericProductPricing';
 
 export type OrderCartWebHostingProductInformation = {
-  description: HostingWebCapabilities;
-  planCode: string;
-  prices: OrderCartGenericProductPricing[];
+  description?: HostingWebCapabilities;
+  planCode?: string;
+  prices?: OrderCartGenericProductPricing[];
 };

@@ -4,6 +4,6 @@ import { OrderCatalogPublicProductBlobTechnicalVolumeCapacity } from './OrderCat
 import { OrderCatalogPublicProductBlobTechnicalVolumeIops } from './OrderCatalogPublicProductBlobTechnicalVolumeIops';
 
 export type OrderCatalogPublicProductBlobTechnicalVolume = {
-  capacity: OrderCatalogPublicProductBlobTechnicalVolumeCapacity;
-  iops: OrderCatalogPublicProductBlobTechnicalVolumeIops;
+  capacity?: OrderCatalogPublicProductBlobTechnicalVolumeCapacity;
+  iops?: OrderCatalogPublicProductBlobTechnicalVolumeIops;
 };

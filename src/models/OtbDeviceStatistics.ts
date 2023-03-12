@@ -5,8 +5,8 @@ import { OtbDeviceStatisticsTag } from './OtbDeviceStatisticsTag';
 import { OtbDeviceStatisticsUnitEnum } from './OtbDeviceStatisticsUnitEnum';
 
 export type OtbDeviceStatistics = {
-  name: string;
-  points: OtbDeviceStatisticsPoint[];
-  tags: OtbDeviceStatisticsTag[];
-  unit: OtbDeviceStatisticsUnitEnum;
+  name?: string;
+  points?: OtbDeviceStatisticsPoint[];
+  tags?: OtbDeviceStatisticsTag[];
+  unit?: OtbDeviceStatisticsUnitEnum;
 };

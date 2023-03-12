@@ -3,7 +3,7 @@
 import { TelephonyLineNotificationsLogsFrequencyEnum } from './TelephonyLineNotificationsLogsFrequencyEnum';
 
 export type TelephonyLineNotificationsLogsOptions = {
-  email: string | null;
-  frequency: TelephonyLineNotificationsLogsFrequencyEnum | null;
-  sendIfNull: boolean | null;
+  email?: string | null;
+  frequency?: TelephonyLineNotificationsLogsFrequencyEnum | null;
+  sendIfNull?: boolean | null;
 };

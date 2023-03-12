@@ -3,7 +3,7 @@
 import { CloudProjectIoStreamTokenActionEnum } from './CloudProjectIoStreamTokenActionEnum';
 
 export type CloudProjectIoStreamToken = {
-  action: CloudProjectIoStreamTokenActionEnum;
-  id: string;
-  token: string;
+  action?: CloudProjectIoStreamTokenActionEnum;
+  id?: string;
+  token?: string;
 };

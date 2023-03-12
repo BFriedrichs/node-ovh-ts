@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 export type DomainExtensionsRegistryConfigurationsLabelDomainRegistryConfiguration = {
-  isIDNSupported: boolean;
-  maxLength: number | null;
-  minLength: number | null;
+  isIDNSupported?: boolean;
+  maxLength?: number | null;
+  minLength?: number | null;
 };

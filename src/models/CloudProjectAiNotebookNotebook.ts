@@ -4,10 +4,10 @@ import { CloudProjectAiNotebookNotebookStatus } from './CloudProjectAiNotebookNo
 import { CloudProjectAiNotebookNotebookSpec } from './CloudProjectAiNotebookNotebookSpec';
 
 export type CloudProjectAiNotebookNotebook = {
-  createdAt: Date;
-  id: string;
-  spec: CloudProjectAiNotebookNotebookSpec;
-  status: CloudProjectAiNotebookNotebookStatus;
-  updatedAt: Date;
-  user: string;
+  createdAt?: Date;
+  id?: string;
+  spec?: CloudProjectAiNotebookNotebookSpec;
+  status?: CloudProjectAiNotebookNotebookStatus;
+  updatedAt?: Date;
+  user?: string;
 };

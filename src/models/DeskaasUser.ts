@@ -4,9 +4,9 @@ import { DeskaasUserStateEnum } from './DeskaasUserStateEnum';
 import { DeskaasUserActivationStateEnum } from './DeskaasUserActivationStateEnum';
 
 export type DeskaasUser = {
-  activationState: DeskaasUserActivationStateEnum;
-  email: string;
-  name: string;
-  state: DeskaasUserStateEnum;
-  userId: number;
+  activationState?: DeskaasUserActivationStateEnum;
+  email?: string;
+  name?: string;
+  state?: DeskaasUserStateEnum;
+  userId?: number;
 };

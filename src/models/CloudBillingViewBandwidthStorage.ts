@@ -3,6 +3,6 @@
 import { CloudBillingViewQuantity } from './CloudBillingViewQuantity';
 
 export type CloudBillingViewBandwidthStorage = {
-  quantity: CloudBillingViewQuantity;
-  totalPrice: number;
+  quantity?: CloudBillingViewQuantity;
+  totalPrice?: number;
 };

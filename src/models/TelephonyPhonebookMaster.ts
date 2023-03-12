@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type TelephonyPhonebookMaster = { bookKey: string; name: string };
+export type TelephonyPhonebookMaster = { bookKey?: string; name?: string };

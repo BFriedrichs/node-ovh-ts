@@ -3,9 +3,9 @@
 import { OrderPrice } from './OrderPrice';
 
 export type PackXdslMigrationSubServiceDetails = {
-  isAllowed: boolean;
-  price: OrderPrice;
-  renewPeriod: number;
-  renewPrice: OrderPrice;
-  service: string;
+  isAllowed?: boolean;
+  price?: OrderPrice;
+  renewPeriod?: number;
+  renewPrice?: OrderPrice;
+  service?: string;
 };

@@ -3,9 +3,9 @@
 import { LicenseOfficeTaskStatusEnum } from './LicenseOfficeTaskStatusEnum';
 
 export type LicenseOfficeOfficeTask = {
-  finishDate: Date | null;
-  function: string;
-  id: number;
-  status: LicenseOfficeTaskStatusEnum;
-  todoDate: Date;
+  finishDate?: Date | null;
+  function?: string;
+  id?: number;
+  status?: LicenseOfficeTaskStatusEnum;
+  todoDate?: Date;
 };

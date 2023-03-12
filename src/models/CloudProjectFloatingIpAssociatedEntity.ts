@@ -3,8 +3,8 @@
 import { CloudProjectFloatingIpAssociatedEntityTypeEnum } from './CloudProjectFloatingIpAssociatedEntityTypeEnum';
 
 export type CloudProjectFloatingIpAssociatedEntity = {
-  gatewayId: string;
-  id: string;
-  ip: string;
-  type: CloudProjectFloatingIpAssociatedEntityTypeEnum;
+  gatewayId?: string;
+  id?: string;
+  ip?: string;
+  type?: CloudProjectFloatingIpAssociatedEntityTypeEnum;
 };

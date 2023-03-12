@@ -3,8 +3,8 @@
 import { DedicatedServerBandwidthOrderEnum } from './DedicatedServerBandwidthOrderEnum';
 
 export type DedicatedServerBandwidthOrderable = {
-  orderable: boolean;
-  platinum: DedicatedServerBandwidthOrderEnum[] | null;
-  premium: DedicatedServerBandwidthOrderEnum[] | null;
-  ultimate: DedicatedServerBandwidthOrderEnum[] | null;
+  orderable?: boolean;
+  platinum?: DedicatedServerBandwidthOrderEnum[] | null;
+  premium?: DedicatedServerBandwidthOrderEnum[] | null;
+  ultimate?: DedicatedServerBandwidthOrderEnum[] | null;
 };

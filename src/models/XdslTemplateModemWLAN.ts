@@ -5,15 +5,15 @@ import { XdslXdslModemConfigChannelModeEnum } from './XdslXdslModemConfigChannel
 import { XdslXdslModemConfigFrequencyEnum } from './XdslXdslModemConfigFrequencyEnum';
 
 export type XdslTemplateModemWLAN = {
-  SSID: string;
-  SSIDAdvertisementEnabled: boolean;
-  bandSteering: boolean;
-  channel: number;
-  channelMode: XdslXdslModemConfigChannelModeEnum;
-  enabled: boolean;
-  frequency: XdslXdslModemConfigFrequencyEnum;
-  guest: boolean;
-  securityKey: string;
-  securityType: XdslTemplateModemSecurityTypeEnum;
-  wifiName: string;
+  SSID?: string;
+  SSIDAdvertisementEnabled?: boolean;
+  bandSteering?: boolean;
+  channel?: number;
+  channelMode?: XdslXdslModemConfigChannelModeEnum;
+  enabled?: boolean;
+  frequency?: XdslXdslModemConfigFrequencyEnum;
+  guest?: boolean;
+  securityKey?: string;
+  securityType?: XdslTemplateModemSecurityTypeEnum;
+  wifiName?: string;
 };

@@ -2,4 +2,4 @@
 
 import { CloudStorageTypeEnum } from './CloudStorageTypeEnum';
 
-export type CloudProjectStorageUpdate = { containerType: CloudStorageTypeEnum | null };
+export type CloudProjectStorageUpdate = { containerType?: CloudStorageTypeEnum | null };

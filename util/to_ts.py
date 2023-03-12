@@ -172,7 +172,7 @@ def model_to_response_type(model):
 
   if 'properties' in model:
     for key, prop in model['properties'].items():
-      optional = '?' if prop['required'] else ''
+      optional = '' if prop['required'] else '?'
       can_be_null = ' | null' if prop['canBeNull'] else ''
       resolved, import_name = translate_type(prop["type"])
       if '-' in key or key[0].isdigit():
@@ -244,8 +244,8 @@ for api_file in sorted(api_files):
             op_name = test_op
           extra = extra.replace(test_op[0].upper() + test_op[1:], '', 1)
           break
-      if op_name == 'list' and not extra.endswith('s'):
-        extra += 's'
+      # if op_name == 'list' and not extra.endswith('s'):
+      #   extra += 's'
       name = op_name + extra + by_ending
 
       js_param_str = ''

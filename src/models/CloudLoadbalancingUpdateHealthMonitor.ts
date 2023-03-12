@@ -3,10 +3,10 @@
 import { CloudLoadbalancingHealthMonitorHTTPConfiguration } from './CloudLoadbalancingHealthMonitorHTTPConfiguration';
 
 export type CloudLoadbalancingUpdateHealthMonitor = {
-  httpConfiguration: CloudLoadbalancingHealthMonitorHTTPConfiguration;
-  maxRetries: number;
-  maxRetriesDown: number;
-  name: string;
-  periodicity: number;
-  timeout: number;
+  httpConfiguration?: CloudLoadbalancingHealthMonitorHTTPConfiguration;
+  maxRetries?: number;
+  maxRetriesDown?: number;
+  name?: string;
+  periodicity?: number;
+  timeout?: number;
 };

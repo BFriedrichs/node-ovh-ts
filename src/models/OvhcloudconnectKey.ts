@@ -4,8 +4,8 @@ import { OvhcloudconnectServiceProviderEnum } from './OvhcloudconnectServiceProv
 import { OvhcloudconnectKeyStatusEnum } from './OvhcloudconnectKeyStatusEnum';
 
 export type OvhcloudconnectKey = {
-  id: number;
-  key: string;
-  provider: OvhcloudconnectServiceProviderEnum;
-  status: OvhcloudconnectKeyStatusEnum;
+  id?: number;
+  key?: string;
+  provider?: OvhcloudconnectServiceProviderEnum;
+  status?: OvhcloudconnectKeyStatusEnum;
 };

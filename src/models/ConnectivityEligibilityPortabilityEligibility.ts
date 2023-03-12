@@ -3,7 +3,7 @@
 import { ConnectivityEligibilityMessage } from './ConnectivityEligibilityMessage';
 
 export type ConnectivityEligibilityPortabilityEligibility = {
-  eligible: boolean;
-  reasons: ConnectivityEligibilityMessage[];
-  underConditions: ConnectivityEligibilityMessage[];
+  eligible?: boolean;
+  reasons?: ConnectivityEligibilityMessage[];
+  underConditions?: ConnectivityEligibilityMessage[];
 };

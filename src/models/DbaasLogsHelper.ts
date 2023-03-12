@@ -3,9 +3,9 @@
 import { DbaasLogsHelperSection } from './DbaasLogsHelperSection';
 
 export type DbaasLogsHelper = {
-  description: string;
-  engineId: string;
-  helperId: string;
-  sections: DbaasLogsHelperSection[];
-  title: string;
+  description?: string;
+  engineId?: string;
+  helperId?: string;
+  sections?: DbaasLogsHelperSection[];
+  title?: string;
 };

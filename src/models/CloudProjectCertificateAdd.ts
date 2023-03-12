@@ -3,6 +3,6 @@
 import { CloudProjectCertificateImport } from './CloudProjectCertificateImport';
 
 export type CloudProjectCertificateAdd = {
-  import: CloudProjectCertificateImport | null;
-  name?: string;
+  import?: CloudProjectCertificateImport | null;
+  name: string;
 };

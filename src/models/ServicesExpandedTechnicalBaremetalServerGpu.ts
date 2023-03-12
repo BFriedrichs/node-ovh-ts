@@ -3,8 +3,8 @@
 import { ServicesExpandedTechnicalBaremetalServerGpuMemory } from './ServicesExpandedTechnicalBaremetalServerGpuMemory';
 
 export type ServicesExpandedTechnicalBaremetalServerGpu = {
-  brand: string;
-  memory: ServicesExpandedTechnicalBaremetalServerGpuMemory;
-  model: string;
-  number: number;
+  brand?: string;
+  memory?: ServicesExpandedTechnicalBaremetalServerGpuMemory;
+  model?: string;
+  number?: number;
 };

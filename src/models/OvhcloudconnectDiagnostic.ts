@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { OvhcloudconnectTaskStatusEnum } from './OvhcloudconnectTaskStatusEnum';
-import { OvhcloudconnectDiagnosticFunctionEnum } from './OvhcloudconnectDiagnosticFunctionEnum';
 import { OvhcloudconnectDiagnosticResult } from './OvhcloudconnectDiagnosticResult';
+import { OvhcloudconnectDiagnosticFunctionEnum } from './OvhcloudconnectDiagnosticFunctionEnum';
 
 export type OvhcloudconnectDiagnostic = {
-  function: OvhcloudconnectDiagnosticFunctionEnum;
-  id: number;
-  result: OvhcloudconnectDiagnosticResult[] | null;
-  status: OvhcloudconnectTaskStatusEnum;
+  function?: OvhcloudconnectDiagnosticFunctionEnum;
+  id?: number;
+  result?: OvhcloudconnectDiagnosticResult[] | null;
+  status?: OvhcloudconnectTaskStatusEnum;
 };

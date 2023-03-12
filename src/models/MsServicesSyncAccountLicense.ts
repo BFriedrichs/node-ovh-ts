@@ -3,6 +3,6 @@
 import { MsServicesSyncLicenseEnum } from './MsServicesSyncLicenseEnum';
 
 export type MsServicesSyncAccountLicense = {
-  license: MsServicesSyncLicenseEnum;
-  licenseQuantity: number;
+  license?: MsServicesSyncLicenseEnum;
+  licenseQuantity?: number;
 };

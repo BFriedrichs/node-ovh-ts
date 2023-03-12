@@ -4,8 +4,8 @@ import { DnssecKeyFlagEnum } from './DnssecKeyFlagEnum';
 import { DnssecKeyAlgorithmEnum } from './DnssecKeyAlgorithmEnum';
 
 export type DnssecKey = {
-  algorithm: DnssecKeyAlgorithmEnum;
-  flags: DnssecKeyFlagEnum;
-  publicKey: string;
-  tag: number;
+  algorithm?: DnssecKeyAlgorithmEnum;
+  flags?: DnssecKeyFlagEnum;
+  publicKey?: string;
+  tag?: number;
 };

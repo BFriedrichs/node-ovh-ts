@@ -1,23 +1,23 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedCloudBackupRestorePoint } from './DedicatedCloudBackupRestorePoint';
 import { DedicatedCloudBackupBackupDaysEnum } from './DedicatedCloudBackupBackupDaysEnum';
 import { DedicatedCloudBackupJobStateEnum } from './DedicatedCloudBackupJobStateEnum';
-import { DedicatedCloudBackupStateEnum } from './DedicatedCloudBackupStateEnum';
+import { DedicatedCloudBackupRestorePoint } from './DedicatedCloudBackupRestorePoint';
 import { DedicatedCloudBackupOfferTypeEnum } from './DedicatedCloudBackupOfferTypeEnum';
+import { DedicatedCloudBackupStateEnum } from './DedicatedCloudBackupStateEnum';
 
 export type DedicatedCloudBackupBackup = {
-  allocatedDisk: number | null;
-  backupDays: DedicatedCloudBackupBackupDaysEnum[] | null;
-  backupRepositoryId: number | null;
-  encryption: boolean | null;
-  lastCreationTime: Date | null;
-  lastDuration: number | null;
-  lastResult: DedicatedCloudBackupJobStateEnum | null;
-  lastSuccessfulCreationTime: Date | null;
-  lastSuccessfulDuration: number | null;
-  offerType: DedicatedCloudBackupOfferTypeEnum | null;
-  restorePoints: DedicatedCloudBackupRestorePoint[] | null;
-  retentionTime: number | null;
-  state: DedicatedCloudBackupStateEnum | null;
+  allocatedDisk?: number | null;
+  backupDays?: DedicatedCloudBackupBackupDaysEnum[] | null;
+  backupRepositoryId?: number | null;
+  encryption?: boolean | null;
+  lastCreationTime?: Date | null;
+  lastDuration?: number | null;
+  lastResult?: DedicatedCloudBackupJobStateEnum | null;
+  lastSuccessfulCreationTime?: Date | null;
+  lastSuccessfulDuration?: number | null;
+  offerType?: DedicatedCloudBackupOfferTypeEnum | null;
+  restorePoints?: DedicatedCloudBackupRestorePoint[] | null;
+  retentionTime?: number | null;
+  state?: DedicatedCloudBackupStateEnum | null;
 };

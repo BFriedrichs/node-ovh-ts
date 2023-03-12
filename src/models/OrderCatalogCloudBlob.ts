@@ -2,4 +2,4 @@
 
 import { OrderCatalogCloudBlobUnit } from './OrderCatalogCloudBlobUnit';
 
-export type OrderCatalogCloudBlob = { unit: OrderCatalogCloudBlobUnit | null };
+export type OrderCatalogCloudBlob = { unit?: OrderCatalogCloudBlobUnit | null };

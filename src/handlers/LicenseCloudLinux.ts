@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { LicenseCloudLinuxOrderConfiguration } from '../models/LicenseCloudLinuxOrderConfiguration';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
-import { LicenseTask } from '../models/LicenseTask';
-import { LicenseActionType } from '../models/LicenseActionType';
-import { ServicesService } from '../models/ServicesService';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { LicenseCloudLinuxCloudLinux } from '../models/LicenseCloudLinuxCloudLinux';
+import { ServicesService } from '../models/ServicesService';
+import { LicenseTask } from '../models/LicenseTask';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseActionType } from '../models/LicenseActionType';
 import OVHBase from '../ovh';
 
 class LicenseCloudLinuxHandler {
@@ -18,7 +18,7 @@ class LicenseCloudLinuxHandler {
   }
 
   /** List available services */
-  listCloudLinuxs = (): Promise<string[]> => {
+  listCloudLinux = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/cloudLinux');
   };
 

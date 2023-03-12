@@ -1,59 +1,59 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { XdslPendingAction } from '../models/XdslPendingAction';
-import { XdslTask } from '../models/XdslTask';
-import { XdslLineDiagnosticFaultTypeEnum } from '../models/XdslLineDiagnosticFaultTypeEnum';
-import { XdslMonitoringNotificationsTypeEnum } from '../models/XdslMonitoringNotificationsTypeEnum';
-import { XdslResiliationSurvey } from '../models/XdslResiliationSurvey';
-import { XdslResiliationFollowUpDetail } from '../models/XdslResiliationFollowUpDetail';
-import { XdslModemInfo } from '../models/XdslModemInfo';
-import { XdslModem } from '../models/XdslModem';
+import { XdslDHCP } from '../models/XdslDHCP';
+import { XdslServiceStatusEnum } from '../models/XdslServiceStatusEnum';
+import { XdslAccessDiagnostic } from '../models/XdslAccessDiagnostic';
 import { XdslLineDiagnosticAnswers } from '../models/XdslLineDiagnosticAnswers';
-import { XdslConnectedDevice } from '../models/XdslConnectedDevice';
-import { TelephonyRma } from '../models/TelephonyRma';
-import { XdslEmailProTask } from '../models/XdslEmailProTask';
-import { XdslLineDiagnosticCustomerActionsEnum } from '../models/XdslLineDiagnosticCustomerActionsEnum';
-import { XdslMonitoringNotificationsFrequencyEnum } from '../models/XdslMonitoringNotificationsFrequencyEnum';
-import { SpareXdslXdslSpare } from '../models/SpareXdslXdslSpare';
-import { XdslFiberEligibilityStatusEnum } from '../models/XdslFiberEligibilityStatusEnum';
-import { XdslIncident } from '../models/XdslIncident';
+import { XdslMonitoringNotificationsTypeEnum } from '../models/XdslMonitoringNotificationsTypeEnum';
+import { ServicesService } from '../models/ServicesService';
 import { XdslLineDiagnosticDiagnostic } from '../models/XdslLineDiagnosticDiagnostic';
-import { XdslExtraIpRangeMove } from '../models/XdslExtraIpRangeMove';
-import { XdslAccess } from '../models/XdslAccess';
-import { XdslFiberEligibility } from '../models/XdslFiberEligibility';
-import { XdslAntiSpamEvidencesInfo } from '../models/XdslAntiSpamEvidencesInfo';
-import { XdslDHCPStaticAddress } from '../models/XdslDHCPStaticAddress';
-import { XdslXdslEmailPro } from '../models/XdslXdslEmailPro';
-import { XdslTemplateModem } from '../models/XdslTemplateModem';
+import { XdslDslamPortLog } from '../models/XdslDslamPortLog';
+import { XdslIncident } from '../models/XdslIncident';
+import { TelephonyRma } from '../models/TelephonyRma';
+import { XdslTimestampAndValue } from '../models/XdslTimestampAndValue';
+import { XdslConnectedDevice } from '../models/XdslConnectedDevice';
+import { XdslModemInfo } from '../models/XdslModemInfo';
+import { XdslWLAN } from '../models/XdslWLAN';
+import { XdslResiliationTerms } from '../models/XdslResiliationTerms';
 import { XdslDeconsolidationTerms } from '../models/XdslDeconsolidationTerms';
 import { XdslIP } from '../models/XdslIP';
-import { OrderOrder } from '../models/OrderOrder';
-import { XdslXdslModemConfigProtocolTypeEnum } from '../models/XdslXdslModemConfigProtocolTypeEnum';
-import { XdslAntiSpam } from '../models/XdslAntiSpam';
-import { XdslDslamPort } from '../models/XdslDslamPort';
-import { XdslMonitoringNotification } from '../models/XdslMonitoringNotification';
-import { XdslDslamPortLog } from '../models/XdslDslamPortLog';
-import { XdslTaskStatusEnum } from '../models/XdslTaskStatusEnum';
-import { XdslServiceStatusEnum } from '../models/XdslServiceStatusEnum';
-import { ConnectivityEligibilityMeetings } from '../models/ConnectivityEligibilityMeetings';
-import { XdslAccessDiagnostic } from '../models/XdslAccessDiagnostic';
-import { XdslLAN } from '../models/XdslLAN';
-import { XdslWLAN } from '../models/XdslWLAN';
-import { XdslRadiusConnectionLog } from '../models/XdslRadiusConnectionLog';
-import { XdslStatisticsPeriodEnum } from '../models/XdslStatisticsPeriodEnum';
-import { ServicesService } from '../models/ServicesService';
+import { XdslLineDiagnosticFaultTypeEnum } from '../models/XdslLineDiagnosticFaultTypeEnum';
+import { XdslAccess } from '../models/XdslAccess';
 import { XdslDslamLineProfile } from '../models/XdslDslamLineProfile';
-import { XdslLineStatisticsTypeEnum } from '../models/XdslLineStatisticsTypeEnum';
-import { TelephonyRmaChangeTypeEnum } from '../models/TelephonyRmaChangeTypeEnum';
+import { XdslStatisticsPeriodEnum } from '../models/XdslStatisticsPeriodEnum';
+import { XdslMonitoringNotificationsFrequencyEnum } from '../models/XdslMonitoringNotificationsFrequencyEnum';
 import { XdslAccessStatisticsTypeEnum } from '../models/XdslAccessStatisticsTypeEnum';
-import { XdslWLANFrequencyEnum } from '../models/XdslWLANFrequencyEnum';
-import { XdslModemExchangeInfo } from '../models/XdslModemExchangeInfo';
-import { XdslLine } from '../models/XdslLine';
-import { XdslOrderFollowupStep } from '../models/XdslOrderFollowupStep';
-import { XdslTimestampAndValue } from '../models/XdslTimestampAndValue';
-import { XdslResiliationTerms } from '../models/XdslResiliationTerms';
+import { XdslFiberEligibilityStatusEnum } from '../models/XdslFiberEligibilityStatusEnum';
 import { XdslPortMapping } from '../models/XdslPortMapping';
-import { XdslDHCP } from '../models/XdslDHCP';
+import { XdslTaskStatusEnum } from '../models/XdslTaskStatusEnum';
+import { XdslExtraIpRangeMove } from '../models/XdslExtraIpRangeMove';
+import { XdslLine } from '../models/XdslLine';
+import { XdslWLANFrequencyEnum } from '../models/XdslWLANFrequencyEnum';
+import { ConnectivityEligibilityMeetings } from '../models/ConnectivityEligibilityMeetings';
+import { XdslPendingAction } from '../models/XdslPendingAction';
+import { XdslResiliationSurvey } from '../models/XdslResiliationSurvey';
+import { TelephonyRmaChangeTypeEnum } from '../models/TelephonyRmaChangeTypeEnum';
+import { OrderOrder } from '../models/OrderOrder';
+import { XdslFiberEligibility } from '../models/XdslFiberEligibility';
+import { XdslXdslModemConfigProtocolTypeEnum } from '../models/XdslXdslModemConfigProtocolTypeEnum';
+import { XdslLAN } from '../models/XdslLAN';
+import { XdslXdslEmailPro } from '../models/XdslXdslEmailPro';
+import { XdslDHCPStaticAddress } from '../models/XdslDHCPStaticAddress';
+import { XdslTask } from '../models/XdslTask';
+import { XdslModem } from '../models/XdslModem';
+import { XdslMonitoringNotification } from '../models/XdslMonitoringNotification';
+import { XdslResiliationFollowUpDetail } from '../models/XdslResiliationFollowUpDetail';
+import { XdslEmailProTask } from '../models/XdslEmailProTask';
+import { SpareXdslXdslSpare } from '../models/SpareXdslXdslSpare';
+import { XdslDslamPort } from '../models/XdslDslamPort';
+import { XdslLineStatisticsTypeEnum } from '../models/XdslLineStatisticsTypeEnum';
+import { XdslModemExchangeInfo } from '../models/XdslModemExchangeInfo';
+import { XdslTemplateModem } from '../models/XdslTemplateModem';
+import { XdslOrderFollowupStep } from '../models/XdslOrderFollowupStep';
+import { XdslRadiusConnectionLog } from '../models/XdslRadiusConnectionLog';
+import { XdslLineDiagnosticCustomerActionsEnum } from '../models/XdslLineDiagnosticCustomerActionsEnum';
+import { XdslAntiSpam } from '../models/XdslAntiSpam';
+import { XdslAntiSpamEvidencesInfo } from '../models/XdslAntiSpamEvidencesInfo';
 import OVHBase from '../ovh';
 
 class XdslHandler {
@@ -64,12 +64,12 @@ class XdslHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/xdsl');
   };
 
   /** List available services */
-  listEmailPros = (): Promise<string[]> => {
+  listEmailPro = (): Promise<string[]> => {
     return this.ovh.request('GET', '/xdsl/email/pro');
   };
 
@@ -107,7 +107,7 @@ class XdslHandler {
   };
 
   /** List available services */
-  listSpares = (): Promise<string[]> => {
+  listSpare = (): Promise<string[]> => {
     return this.ovh.request('GET', '/xdsl/spare');
   };
 
@@ -152,7 +152,7 @@ class XdslHandler {
   };
 
   /** List of TemplateModem */
-  listTemplateModems = (): Promise<string[]> => {
+  listTemplateModem = (): Promise<string[]> => {
     return this.ovh.request('GET', '/xdsl/templateModem');
   };
 
@@ -399,12 +399,12 @@ class XdslHandler {
   };
 
   /** List available ACS backend for this modem */
-  listModemAvailableACSBackendsByServiceName = (serviceName: string): Promise<string[]> => {
+  listModemAvailableACSBackendByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/availableACSBackend`);
   };
 
   /** List available WLAN channel for this modem */
-  listModemAvailableWLANChannelsByServiceName = (serviceName: string): Promise<number[]> => {
+  listModemAvailableWLANChannelByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/availableWLANChannel`);
   };
 
@@ -487,7 +487,7 @@ class XdslHandler {
   };
 
   /** List available firmware for this modem */
-  listModemFirmwareAvailablesByServiceName = (serviceName: string): Promise<string[]> => {
+  listModemFirmwareAvailableByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/firmwareAvailable`);
   };
 
@@ -518,7 +518,7 @@ class XdslHandler {
   };
 
   /** List of LANs on this modem */
-  listModemLansByServiceName = (serviceName: string): Promise<string[]> => {
+  listModemLanByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/lan`);
   };
 
@@ -537,7 +537,7 @@ class XdslHandler {
   };
 
   /** List of DHCP on this modem */
-  listModemLanDhcpsByServiceNameAndLanName = (
+  listModemLanDhcpByServiceNameAndLanName = (
     lanName: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -745,7 +745,7 @@ class XdslHandler {
   };
 
   /** List of WLANs on this modem */
-  listModemWifisByServiceName = (serviceName: string): Promise<string[]> => {
+  listModemWifiByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/wifi`);
   };
 

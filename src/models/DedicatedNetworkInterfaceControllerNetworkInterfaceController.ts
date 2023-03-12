@@ -3,7 +3,7 @@
 import { DedicatedNetworkInterfaceControllerNetworkInterfaceControllerLinkTypeEnum } from './DedicatedNetworkInterfaceControllerNetworkInterfaceControllerLinkTypeEnum';
 
 export type DedicatedNetworkInterfaceControllerNetworkInterfaceController = {
-  linkType: DedicatedNetworkInterfaceControllerNetworkInterfaceControllerLinkTypeEnum;
-  mac: string;
-  virtualNetworkInterface: string | null;
+  linkType?: DedicatedNetworkInterfaceControllerNetworkInterfaceControllerLinkTypeEnum;
+  mac?: string;
+  virtualNetworkInterface?: string | null;
 };

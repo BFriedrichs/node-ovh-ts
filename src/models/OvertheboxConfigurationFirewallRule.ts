@@ -4,8 +4,8 @@ import { OvertheboxConfigurationStatusEnum } from './OvertheboxConfigurationStat
 import { OvertheboxConfigurationTypesFirewallRule } from './OvertheboxConfigurationTypesFirewallRule';
 
 export type OvertheboxConfigurationFirewallRule = {
-  configuration: OvertheboxConfigurationTypesFirewallRule;
-  id: string;
-  priority: number;
-  status: OvertheboxConfigurationStatusEnum;
+  configuration?: OvertheboxConfigurationTypesFirewallRule;
+  id?: string;
+  priority?: number;
+  status?: OvertheboxConfigurationStatusEnum;
 };

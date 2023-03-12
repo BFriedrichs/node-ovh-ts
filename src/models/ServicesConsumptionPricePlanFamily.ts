@@ -2,4 +2,4 @@
 
 import { OrderPrice } from './OrderPrice';
 
-export type ServicesConsumptionPricePlanFamily = { planFamily: string; price: OrderPrice };
+export type ServicesConsumptionPricePlanFamily = { planFamily?: string; price?: OrderPrice };

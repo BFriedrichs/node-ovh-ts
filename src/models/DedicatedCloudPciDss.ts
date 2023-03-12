@@ -2,4 +2,4 @@
 
 import { DedicatedCloudOptionStateEnum } from './DedicatedCloudOptionStateEnum';
 
-export type DedicatedCloudPciDss = { state: DedicatedCloudOptionStateEnum };
+export type DedicatedCloudPciDss = { state?: DedicatedCloudOptionStateEnum };

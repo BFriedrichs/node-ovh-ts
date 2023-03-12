@@ -4,7 +4,7 @@ import { DedicatedVirtualNetworkInterfaceVirtualNetworkInterfaceModeEnum } from 
 import { DedicatedServerOlaAvailableModes } from './DedicatedServerOlaAvailableModes';
 
 export type DedicatedServerOlaDetails = {
-  available: boolean;
-  availableModes: DedicatedServerOlaAvailableModes[];
-  supportedModes: DedicatedVirtualNetworkInterfaceVirtualNetworkInterfaceModeEnum[] | null;
+  available?: boolean;
+  availableModes?: DedicatedServerOlaAvailableModes[];
+  supportedModes?: DedicatedVirtualNetworkInterfaceVirtualNetworkInterfaceModeEnum[] | null;
 };

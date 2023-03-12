@@ -3,9 +3,9 @@
 import { DedicatedServerBackupStorageTypeEnum } from './DedicatedServerBackupStorageTypeEnum';
 
 export type DedicatedServerBackupFtp = {
-  ftpBackupName: string;
-  quota: number | null;
-  readOnlyDate: Date | null;
-  type: DedicatedServerBackupStorageTypeEnum;
-  usage: number | null;
+  ftpBackupName?: string;
+  quota?: number | null;
+  readOnlyDate?: Date | null;
+  type?: DedicatedServerBackupStorageTypeEnum;
+  usage?: number | null;
 };

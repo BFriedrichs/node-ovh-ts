@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedNasTaskTask } from '../models/DedicatedNasTaskTask';
-import { DedicatedStorageProtocolEnum } from '../models/DedicatedStorageProtocolEnum';
-import { DedicatedNasPartition } from '../models/DedicatedNasPartition';
 import { DedicatedNasNas } from '../models/DedicatedNasNas';
-import { DedicatedNasQuota } from '../models/DedicatedNasQuota';
-import { DedicatedStorageTaskFunctionEnum } from '../models/DedicatedStorageTaskFunctionEnum';
 import { DedicatedNasAccess } from '../models/DedicatedNasAccess';
+import { DedicatedNasTaskTask } from '../models/DedicatedNasTaskTask';
+import { DedicatedNasQuota } from '../models/DedicatedNasQuota';
+import { DedicatedNasPartition } from '../models/DedicatedNasPartition';
 import { ServicesService } from '../models/ServicesService';
+import { DedicatedStorageTaskFunctionEnum } from '../models/DedicatedStorageTaskFunctionEnum';
 import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
+import { DedicatedStorageProtocolEnum } from '../models/DedicatedStorageProtocolEnum';
 import OVHBase from '../ovh';
 
 class DedicatedNasHandler {

@@ -3,9 +3,9 @@
 import { VeeamEnterpriseActivationStatusEnum } from './VeeamEnterpriseActivationStatusEnum';
 
 export type VeeamVeeamEnterpriseAccount = {
-  activationStatus: VeeamEnterpriseActivationStatusEnum;
-  ip: string | null;
-  port: number | null;
-  serviceName: string;
-  sourceIp: string;
+  activationStatus?: VeeamEnterpriseActivationStatusEnum;
+  ip?: string | null;
+  port?: number | null;
+  serviceName?: string;
+  sourceIp?: string;
 };

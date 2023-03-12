@@ -2,4 +2,4 @@
 
 import { CoreTypesCountryEnum } from './CoreTypesCountryEnum';
 
-export type VpsDatacenter = { country: CoreTypesCountryEnum; longName: string; name: string };
+export type VpsDatacenter = { country?: CoreTypesCountryEnum; longName?: string; name?: string };

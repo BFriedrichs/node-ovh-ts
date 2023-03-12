@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type DedicatedServerBmcJavaKvmValue = { expirationDate: Date; jnlp: string };
+export type DedicatedServerBmcJavaKvmValue = { expirationDate?: Date; jnlp?: string };

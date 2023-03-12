@@ -3,5 +3,5 @@
 import { LicenseOrderableDirectAdminVersionEnum } from './LicenseOrderableDirectAdminVersionEnum';
 
 export type LicenseOrderableDirectAdminCompatibilityInfos = {
-  version: LicenseOrderableDirectAdminVersionEnum;
+  version?: LicenseOrderableDirectAdminVersionEnum;
 };

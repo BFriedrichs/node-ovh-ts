@@ -3,7 +3,7 @@
 import { CloudNetworkCreateGatewaySummary } from './CloudNetworkCreateGatewaySummary';
 
 export type CloudLoadbalancingAssociateFloatingIp = {
-  floatingIpId?: string;
-  gateway: CloudNetworkCreateGatewaySummary | null;
-  ip?: string;
+  floatingIpId: string;
+  gateway?: CloudNetworkCreateGatewaySummary | null;
+  ip: string;
 };

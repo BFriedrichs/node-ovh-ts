@@ -2,4 +2,4 @@
 
 import { NutanixPctypeEnum } from './NutanixPctypeEnum';
 
-export type NutanixPrismcentral = { ips: string[]; type: NutanixPctypeEnum; vip: string };
+export type NutanixPrismcentral = { ips?: string[]; type?: NutanixPctypeEnum; vip?: string };

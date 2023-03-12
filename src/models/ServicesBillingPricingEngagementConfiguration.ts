@@ -4,7 +4,7 @@ import { ServicesBillingEngagementEndStrategyEnum } from './ServicesBillingEngag
 import { ServicesBillingEngagementTypeEnum } from './ServicesBillingEngagementTypeEnum';
 
 export type ServicesBillingPricingEngagementConfiguration = {
-  defaultEndAction: ServicesBillingEngagementEndStrategyEnum;
-  duration: number;
-  type: ServicesBillingEngagementTypeEnum;
+  defaultEndAction?: ServicesBillingEngagementEndStrategyEnum;
+  duration?: number;
+  type?: ServicesBillingEngagementTypeEnum;
 };

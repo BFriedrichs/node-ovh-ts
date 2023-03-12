@@ -3,6 +3,6 @@
 import { CloudProjectAiServingMetricsEndpoint } from './CloudProjectAiServingMetricsEndpoint';
 
 export type CloudProjectAiServingMetrics = {
-  endpoints: CloudProjectAiServingMetricsEndpoint[];
-  token: string;
+  endpoints?: CloudProjectAiServingMetricsEndpoint[];
+  token?: string;
 };

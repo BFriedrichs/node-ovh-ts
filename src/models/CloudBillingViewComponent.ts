@@ -3,7 +3,7 @@
 import { CloudBillingViewQuantity } from './CloudBillingViewQuantity';
 
 export type CloudBillingViewComponent = {
-  name: string;
-  quantity: CloudBillingViewQuantity;
-  totalPrice: number;
+  name?: string;
+  quantity?: CloudBillingViewQuantity;
+  totalPrice?: number;
 };

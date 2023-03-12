@@ -4,6 +4,6 @@ import { CloudProjectInstanceUsageDetail } from './CloudProjectInstanceUsageDeta
 import { OrderPrice } from './OrderPrice';
 
 export type CloudProjectInstancesUsage = {
-  detail: CloudProjectInstanceUsageDetail[];
-  total: OrderPrice;
+  detail?: CloudProjectInstanceUsageDetail[];
+  total?: OrderPrice;
 };

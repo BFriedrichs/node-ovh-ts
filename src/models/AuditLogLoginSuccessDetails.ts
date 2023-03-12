@@ -3,6 +3,6 @@
 import { AuditLogAuthMFATypeEnum } from './AuditLogAuthMFATypeEnum';
 
 export type AuditLogLoginSuccessDetails = {
-  mfaType: AuditLogAuthMFATypeEnum | null;
-  userAgent: string;
+  mfaType?: AuditLogAuthMFATypeEnum | null;
+  userAgent?: string;
 };

@@ -2,12 +2,12 @@
 
 import { CloudProjectLoadbalancerActionDispatch } from './CloudProjectLoadbalancerActionDispatch';
 import { CloudProjectLoadbalancerActionRewrite } from './CloudProjectLoadbalancerActionRewrite';
-import { CloudProjectLoadbalancerActionRedirect } from './CloudProjectLoadbalancerActionRedirect';
 import { CloudProjectLoadbalancerActionReject } from './CloudProjectLoadbalancerActionReject';
+import { CloudProjectLoadbalancerActionRedirect } from './CloudProjectLoadbalancerActionRedirect';
 
 export type CloudProjectLoadbalancerActions = {
-  dispatch: CloudProjectLoadbalancerActionDispatch[] | null;
-  redirect: CloudProjectLoadbalancerActionRedirect[] | null;
-  reject: CloudProjectLoadbalancerActionReject[] | null;
-  rewrite: CloudProjectLoadbalancerActionRewrite[] | null;
+  dispatch?: CloudProjectLoadbalancerActionDispatch[] | null;
+  redirect?: CloudProjectLoadbalancerActionRedirect[] | null;
+  reject?: CloudProjectLoadbalancerActionReject[] | null;
+  rewrite?: CloudProjectLoadbalancerActionRewrite[] | null;
 };

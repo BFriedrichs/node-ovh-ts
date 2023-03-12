@@ -3,6 +3,6 @@
 import { BillingOrderAssociatedObjectTypeEnum } from './BillingOrderAssociatedObjectTypeEnum';
 
 export type BillingOrderAssociatedObject = {
-  id: string | null;
-  type: BillingOrderAssociatedObjectTypeEnum | null;
+  id?: string | null;
+  type?: BillingOrderAssociatedObjectTypeEnum | null;
 };

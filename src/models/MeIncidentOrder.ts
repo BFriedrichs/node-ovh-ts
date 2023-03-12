@@ -2,4 +2,4 @@
 
 import { OrderOrder } from './OrderOrder';
 
-export type MeIncidentOrder = { order: OrderOrder };
+export type MeIncidentOrder = { order?: OrderOrder };

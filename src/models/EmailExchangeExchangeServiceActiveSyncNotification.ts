@@ -3,8 +3,8 @@
 import { EmailExchangeActiveSyncNotificationStateEnum } from './EmailExchangeActiveSyncNotificationStateEnum';
 
 export type EmailExchangeExchangeServiceActiveSyncNotification = {
-  creationDate: Date;
-  notifiedAccountId: number;
-  primaryEmailAddress: string;
-  state: EmailExchangeActiveSyncNotificationStateEnum;
+  creationDate?: Date;
+  notifiedAccountId?: number;
+  primaryEmailAddress?: string;
+  state?: EmailExchangeActiveSyncNotificationStateEnum;
 };

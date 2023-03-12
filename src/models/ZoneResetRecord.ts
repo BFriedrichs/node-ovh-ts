@@ -3,6 +3,6 @@
 import { ZoneResettableNamedResolutionFieldTypeEnum } from './ZoneResettableNamedResolutionFieldTypeEnum';
 
 export type ZoneResetRecord = {
-  fieldType: ZoneResettableNamedResolutionFieldTypeEnum;
-  target: string;
+  fieldType?: ZoneResettableNamedResolutionFieldTypeEnum;
+  target?: string;
 };

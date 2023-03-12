@@ -3,8 +3,8 @@
 import { TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum } from './TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum';
 
 export type TelephonyOvhPabxDialplanExtensionConditionTime = {
-  conditionId: number;
-  timeFrom: Date;
-  timeTo: Date;
-  weekDay: TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum;
+  conditionId?: number;
+  timeFrom?: Date;
+  timeTo?: Date;
+  weekDay?: TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum;
 };

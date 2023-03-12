@@ -3,8 +3,8 @@
 import { TelephonyPcsFileStatusEnum } from './TelephonyPcsFileStatusEnum';
 
 export type TelephonyPcsFile = {
-  filename: string;
-  status: TelephonyPcsFileStatusEnum;
-  url: string;
-  urlExpirationDatetime: Date;
+  filename?: string;
+  status?: TelephonyPcsFileStatusEnum;
+  url?: string;
+  urlExpirationDatetime?: Date;
 };

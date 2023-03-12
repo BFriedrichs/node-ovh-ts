@@ -4,8 +4,8 @@ import { TelephonySipDomainProductTypeEnum } from './TelephonySipDomainProductTy
 import { TelephonyServiceNumberCountryEnum } from './TelephonyServiceNumberCountryEnum';
 
 export type TelephonyDefaultSipDomains = {
-  country: TelephonyServiceNumberCountryEnum;
-  currentDomain: string;
-  list: string[];
-  productType: TelephonySipDomainProductTypeEnum;
+  country?: TelephonyServiceNumberCountryEnum;
+  currentDomain?: string;
+  list?: string[];
+  productType?: TelephonySipDomainProductTypeEnum;
 };

@@ -1,166 +1,166 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MeCreditBalanceTypeEnum } from '../models/MeCreditBalanceTypeEnum';
-import { NichandleIpRegistryEnum } from '../models/NichandleIpRegistryEnum';
-import { MePaymentMethodChallenge } from '../models/MePaymentMethodChallenge';
-import { NichandleIpRestrictionDefaultRule } from '../models/NichandleIpRestrictionDefaultRule';
-import { NichandleIpxe } from '../models/NichandleIpxe';
-import { NichandleSubscription } from '../models/NichandleSubscription';
-import { AgreementsContractAgreement } from '../models/AgreementsContractAgreement';
-import { MePaymentPaymentMethod } from '../models/MePaymentPaymentMethod';
-import { BillingArchiveTypeEnum } from '../models/BillingArchiveTypeEnum';
-import { BillingOvhAccount } from '../models/BillingOvhAccount';
-import { MeSupportLevelLevel } from '../models/MeSupportLevelLevel';
 import { AuthCredentialStateEnum } from '../models/AuthCredentialStateEnum';
-import { BillingOrderFollowUp } from '../models/BillingOrderFollowUp';
-import { BillingMovement } from '../models/BillingMovement';
-import { BillingAutomaticPaymentMean } from '../models/BillingAutomaticPaymentMean';
-import { NichandleAccessRestrictionSOTPAccount } from '../models/NichandleAccessRestrictionSOTPAccount';
-import { MePaymentMeanDeferred } from '../models/MePaymentMeanDeferred';
-import { NichandleDeveloperModeRestriction } from '../models/NichandleDeveloperModeRestriction';
-import { BillingOrderDetail } from '../models/BillingOrderDetail';
-import { NichandleSubAccountConsumerKey } from '../models/NichandleSubAccountConsumerKey';
-import { BillingOrderRegisteredPaymentMean } from '../models/BillingOrderRegisteredPaymentMean';
-import { MePaymentMeanBankAccountCreation } from '../models/MePaymentMeanBankAccountCreation';
-import { BillingBillDetail } from '../models/BillingBillDetail';
-import { MeBillingPurchaseOrderUpdate } from '../models/MeBillingPurchaseOrderUpdate';
-import { MePaymentMethodValidation } from '../models/MePaymentMethodValidation';
-import { MeBillingGroupBillingGroup } from '../models/MeBillingGroupBillingGroup';
-import { NichandleCountryEnum } from '../models/NichandleCountryEnum';
-import { MeAgreementsContractAgreement } from '../models/MeAgreementsContractAgreement';
-import { TelephonySettings } from '../models/TelephonySettings';
-import { MeMigration } from '../models/MeMigration';
-import { BillingWithdrawal } from '../models/BillingWithdrawal';
 import { NichandleNicAutorenewInfos } from '../models/NichandleNicAutorenewInfos';
-import { MeBillingPurchaseOrderCreation } from '../models/MeBillingPurchaseOrderCreation';
-import { NichandleSubAccount } from '../models/NichandleSubAccount';
-import { MeBillingPurchaseOrderPurchaseOrder } from '../models/MeBillingPurchaseOrderPurchaseOrder';
-import { MeBillingGroupServiceCreate } from '../models/MeBillingGroupServiceCreate';
-import { ContactFieldInformation } from '../models/ContactFieldInformation';
-import { NichandleUser } from '../models/NichandleUser';
-import { MePaymentAvailablePaymentMethod } from '../models/MePaymentAvailablePaymentMethod';
-import { MePaymentMethodFinalize } from '../models/MePaymentMethodFinalize';
-import { BillingFidelityMovement } from '../models/BillingFidelityMovement';
-import { NichandleVoucherStatus } from '../models/NichandleVoucherStatus';
-import { ApiLog } from '../models/ApiLog';
-import { MePaymentMethodDetails } from '../models/MePaymentMethodDetails';
-import { BillingRefundDetail } from '../models/BillingRefundDetail';
-import { NichandleNichandle } from '../models/NichandleNichandle';
-import { BillingBill } from '../models/BillingBill';
-import { NichandleDocumentDocument } from '../models/NichandleDocumentDocument';
-import { NichandleIpRestriction } from '../models/NichandleIpRestriction';
-import { NichandleEmailChangeTask } from '../models/NichandleEmailChangeTask';
-import { BillingRefund } from '../models/BillingRefund';
-import { MeIncidentOrder } from '../models/MeIncidentOrder';
-import { MeCreditBalance } from '../models/MeCreditBalance';
-import { InsightAccess } from '../models/InsightAccess';
+import { NichandleAuthenticationRoleEnum } from '../models/NichandleAuthenticationRoleEnum';
+import { MePaymentMeanPaypal } from '../models/MePaymentMeanPaypal';
+import { NichandleDomainTaskProgressBar } from '../models/NichandleDomainTaskProgressBar';
+import { BillingPayment } from '../models/BillingPayment';
+import { MePaymentTransaction } from '../models/MePaymentTransaction';
+import { TelephonyMailDomain2Service } from '../models/TelephonyMailDomain2Service';
 import { MeConsentCampaign } from '../models/MeConsentCampaign';
-import { AuditLog } from '../models/AuditLog';
-import { BillingOrderPayWithPaymentMethod } from '../models/BillingOrderPayWithPaymentMethod';
-import { BillingDeposit } from '../models/BillingDeposit';
-import { AuthApiCredential } from '../models/AuthApiCredential';
-import { NichandleAccessRestrictionSmsSecret } from '../models/NichandleAccessRestrictionSmsSecret';
-import { MePaymentMeanPaypalChallengeCreation } from '../models/MePaymentMeanPaypalChallengeCreation';
+import { MePaymentMeanBankAccountChallengeCreation } from '../models/MePaymentMeanBankAccountChallengeCreation';
+import { BillingCreditBalance } from '../models/BillingCreditBalance';
+import { BillingMovement } from '../models/BillingMovement';
+import { MePaymentMeanCreditCard } from '../models/MePaymentMeanCreditCard';
+import { XdslSetting } from '../models/XdslSetting';
+import { NichandleUser } from '../models/NichandleUser';
+import { MeIncidentServiceMigration } from '../models/MeIncidentServiceMigration';
+import { BillingOrderRegisteredPaymentMean } from '../models/BillingOrderRegisteredPaymentMean';
+import { DedicatedServerPartitionRaidEnum } from '../models/DedicatedServerPartitionRaidEnum';
+import { DomainTask } from '../models/DomainTask';
+import { MeBillingGroupService } from '../models/MeBillingGroupService';
+import { BillingBill } from '../models/BillingBill';
+import { NichandleDomainTaskArgument } from '../models/NichandleDomainTaskArgument';
+import { TelephonyDefaultIpRestriction } from '../models/TelephonyDefaultIpRestriction';
+import { NichandleIpxe } from '../models/NichandleIpxe';
+import { NichandleSubAccount } from '../models/NichandleSubAccount';
+import { NichandleEmailChangeTask } from '../models/NichandleEmailChangeTask';
+import { BillingOvhAccount } from '../models/BillingOvhAccount';
+import { BillingOrderRetractionReasonEnum } from '../models/BillingOrderRetractionReasonEnum';
+import { NichandleAccessRestrictionU2FAccount } from '../models/NichandleAccessRestrictionU2FAccount';
+import { MePaymentMeanBankAccount } from '../models/MePaymentMeanBankAccount';
+import { MeSupportLevelLevel } from '../models/MeSupportLevelLevel';
+import { NichandleAccessRestrictionIpRestrictionRuleEnum } from '../models/NichandleAccessRestrictionIpRestrictionRuleEnum';
+import { MeIncidentOrder } from '../models/MeIncidentOrder';
+import { BillingBillDetail } from '../models/BillingBillDetail';
+import { NichandleDeveloperModeRestriction } from '../models/NichandleDeveloperModeRestriction';
+import { NichandleAccessRestrictionU2FRegisterChallenge } from '../models/NichandleAccessRestrictionU2FRegisterChallenge';
+import { NichandleSshKey } from '../models/NichandleSshKey';
+import { MeConsumptionTransaction } from '../models/MeConsumptionTransaction';
+import { DedicatedInstallationTemplateTemplatePartitioningSchemes } from '../models/DedicatedInstallationTemplateTemplatePartitioningSchemes';
+import { DomainOperationStatusEnum } from '../models/DomainOperationStatusEnum';
+import { MeAbuseAbuse } from '../models/MeAbuseAbuse';
+import { NichandleAccessRestrictionTOTPSecret } from '../models/NichandleAccessRestrictionTOTPSecret';
+import { BillingOrderConsumptionDetails } from '../models/BillingOrderConsumptionDetails';
+import { MePaymentMethodDetails } from '../models/MePaymentMethodDetails';
+import { MePaymentMeanBankAccountStateEnum } from '../models/MePaymentMeanBankAccountStateEnum';
 import { BillingReverseBill } from '../models/BillingReverseBill';
+import { NichandleAccessRestrictionU2FSignChallenge } from '../models/NichandleAccessRestrictionU2FSignChallenge';
+import { BillingOrderAssociatedObject } from '../models/BillingOrderAssociatedObject';
+import { MePaymentMeanBankAccountValidation } from '../models/MePaymentMeanBankAccountValidation';
+import { TelephonyProtocolEnum } from '../models/TelephonyProtocolEnum';
+import { DedicatedTemplateOsHardwareRaidEnum } from '../models/DedicatedTemplateOsHardwareRaidEnum';
+import { NichandleNichandle } from '../models/NichandleNichandle';
+import { NichandleAccessRestrictionSmsAccount } from '../models/NichandleAccessRestrictionSmsAccount';
+import { BillingOrderOrderStatusEnum } from '../models/BillingOrderOrderStatusEnum';
+import { ContactFieldInformation } from '../models/ContactFieldInformation';
+import { MeGeolocationContinentCountryLocation } from '../models/MeGeolocationContinentCountryLocation';
 import { MeCreditBalanceMovement } from '../models/MeCreditBalanceMovement';
 import { AgreementsContract } from '../models/AgreementsContract';
-import { NichandleAuthenticationGroup } from '../models/NichandleAuthenticationGroup';
-import { BillingOrderOrderStatusEnum } from '../models/BillingOrderOrderStatusEnum';
-import { DedicatedInstallationTemplateTemplatePartitioningSchemes } from '../models/DedicatedInstallationTemplateTemplatePartitioningSchemes';
-import { MePaymentMeanBankAccountStateEnum } from '../models/MePaymentMeanBankAccountStateEnum';
-import { DedicatedInstallationTemplateHardwareRaid } from '../models/DedicatedInstallationTemplateHardwareRaid';
-import { MePaymentMeanBankAccountChallengeCreation } from '../models/MePaymentMeanBankAccountChallengeCreation';
-import { MeTagCreation } from '../models/MeTagCreation';
-import { MeContactContact } from '../models/MeContactContact';
-import { BillingItemDetail } from '../models/BillingItemDetail';
-import { MePaymentTransaction } from '../models/MePaymentTransaction';
-import { NichandleVipStatus } from '../models/NichandleVipStatus';
-import { DedicatedTemplateOsHardwareRaidEnum } from '../models/DedicatedTemplateOsHardwareRaidEnum';
-import { DebtEntryAssociatedObject } from '../models/DebtEntryAssociatedObject';
-import { DedicatedTemplatePartitionTypeEnum } from '../models/DedicatedTemplatePartitionTypeEnum';
-import { NichandleDomainTaskProgressBar } from '../models/NichandleDomainTaskProgressBar';
-import { MeGeolocationContinentCountryLocation } from '../models/MeGeolocationContinentCountryLocation';
-import { NichandleChangeContactTaskStateEnum } from '../models/NichandleChangeContactTaskStateEnum';
-import { BillingOrderConsumptionDetails } from '../models/BillingOrderConsumptionDetails';
-import { NichandleEmailNotification } from '../models/NichandleEmailNotification';
-import { DomainOperationStatusEnum } from '../models/DomainOperationStatusEnum';
-import { DebtOperation } from '../models/DebtOperation';
-import { NichandleAccessRestrictionTOTPSecret } from '../models/NichandleAccessRestrictionTOTPSecret';
-import { MePaymentMeanPaypalCreation } from '../models/MePaymentMeanPaypalCreation';
-import { DebtDebt } from '../models/DebtDebt';
-import { NichandleAccessRestrictionU2FRegisterChallenge } from '../models/NichandleAccessRestrictionU2FRegisterChallenge';
-import { RecommendationsProductRangesEnum } from '../models/RecommendationsProductRangesEnum';
-import { NichandleAuthenticationProviderExtensions } from '../models/NichandleAuthenticationProviderExtensions';
-import { MePaymentMeanPaypal } from '../models/MePaymentMeanPaypal';
-import { DedicatedInstallationTemplateTemplates } from '../models/DedicatedInstallationTemplateTemplates';
-import { MeIncidentMigrateServices } from '../models/MeIncidentMigrateServices';
-import { NichandleAccessRestrictionSOTPValidate } from '../models/NichandleAccessRestrictionSOTPValidate';
-import { DebtBalance } from '../models/DebtBalance';
-import { XdslSetting } from '../models/XdslSetting';
-import { BillingOrderPaymentMeans } from '../models/BillingOrderPaymentMeans';
-import { MeConsumptionTransaction } from '../models/MeConsumptionTransaction';
-import { BillingReusablePaymentMeanEnum } from '../models/BillingReusablePaymentMeanEnum';
-import { NichandleOvhCompanyEnum } from '../models/NichandleOvhCompanyEnum';
-import { BillingWithdrawalDetail } from '../models/BillingWithdrawalDetail';
-import { MeTagTag } from '../models/MeTagTag';
-import { BillingCategoryEnum } from '../models/BillingCategoryEnum';
-import { MeMigrationContract } from '../models/MeMigrationContract';
-import { DedicatedTemplateOsFileSystemEnum } from '../models/DedicatedTemplateOsFileSystemEnum';
-import { BillingSlaOperationService } from '../models/BillingSlaOperationService';
-import { DomainOperationFunctionEnum } from '../models/DomainOperationFunctionEnum';
-import { MePartnerLevelLevel } from '../models/MePartnerLevelLevel';
-import { MePaymentMethodCreation } from '../models/MePaymentMethodCreation';
-import { NichandleDomainTaskArgument } from '../models/NichandleDomainTaskArgument';
-import { DomainTask } from '../models/DomainTask';
-import { MeIncidentServiceMigration } from '../models/MeIncidentServiceMigration';
-import { BillingOrderPaymentMethods } from '../models/BillingOrderPaymentMethods';
-import { BillingOrderAssociatedObject } from '../models/BillingOrderAssociatedObject';
-import { MeTagAvailableTag } from '../models/MeTagAvailableTag';
-import { AuthApiApplication } from '../models/AuthApiApplication';
-import { BillingOrder } from '../models/BillingOrder';
-import { DedicatedServerPartitionRaidEnum } from '../models/DedicatedServerPartitionRaidEnum';
-import { NichandleAccessRestrictionSmsAccount } from '../models/NichandleAccessRestrictionSmsAccount';
-import { BillingFidelityAccount } from '../models/BillingFidelityAccount';
-import { RecommendationsRecommendations } from '../models/RecommendationsRecommendations';
-import { BillingSlaOperation } from '../models/BillingSlaOperation';
-import { IpCampusEnum } from '../models/IpCampusEnum';
-import { NichandleAccessRestrictionSOTPSecret } from '../models/NichandleAccessRestrictionSOTPSecret';
-import { MeAbuseAbuse } from '../models/MeAbuseAbuse';
-import { TelephonyDefaultIpRestriction } from '../models/TelephonyDefaultIpRestriction';
-import { NichandleChangeEmailTaskStateEnum } from '../models/NichandleChangeEmailTaskStateEnum';
-import { NichandleIpv4Org } from '../models/NichandleIpv4Org';
+import { ApiLog } from '../models/ApiLog';
 import { MePaymentMeanPaypalValidation } from '../models/MePaymentMeanPaypalValidation';
-import { NichandleAccessRestrictionSmsCode } from '../models/NichandleAccessRestrictionSmsCode';
-import { ConsumptionConsumptionExportFormatsEnum } from '../models/ConsumptionConsumptionExportFormatsEnum';
-import { MeCreditCodeRedeem } from '../models/MeCreditCodeRedeem';
-import { MePaymentMeanBankAccount } from '../models/MePaymentMeanBankAccount';
-import { NichandleAccessRestrictionU2FAccount } from '../models/NichandleAccessRestrictionU2FAccount';
-import { NichandleAuthenticationRoleEnum } from '../models/NichandleAuthenticationRoleEnum';
-import { MePaymentTransactionStatusEnum } from '../models/MePaymentTransactionStatusEnum';
-import { BillingPayment } from '../models/BillingPayment';
-import { MePaymentMeanCreditCardValidation } from '../models/MePaymentMeanCreditCardValidation';
-import { DedicatedTemplateOsLanguageEnum } from '../models/DedicatedTemplateOsLanguageEnum';
-import { MePaymentMeanCreditCard } from '../models/MePaymentMeanCreditCard';
-import { MeBillingGroupService } from '../models/MeBillingGroupService';
-import { BillingReversableBillDetail } from '../models/BillingReversableBillDetail';
-import { TelephonyMailDomain2Service } from '../models/TelephonyMailDomain2Service';
-import { MePaymentMethodStatusEnum } from '../models/MePaymentMethodStatusEnum';
-import { MePaymentMeanCreditCardChallengeCreation } from '../models/MePaymentMeanCreditCardChallengeCreation';
-import { BillingOrderRetractionReasonEnum } from '../models/BillingOrderRetractionReasonEnum';
-import { NichandleAccessRestrictionIpRestrictionRuleEnum } from '../models/NichandleAccessRestrictionIpRestrictionRuleEnum';
-import { NichandleAccessRestrictionU2FSignChallenge } from '../models/NichandleAccessRestrictionU2FSignChallenge';
-import { NichandleContactChangeTask } from '../models/NichandleContactChangeTask';
-import { AgreementsAgreementStateEnum } from '../models/AgreementsAgreementStateEnum';
-import { MePaymentMeanBankAccountValidation } from '../models/MePaymentMeanBankAccountValidation';
-import { NichandleSshKey } from '../models/NichandleSshKey';
-import { TelephonyProtocolEnum } from '../models/TelephonyProtocolEnum';
-import { NichandleAuthenticationProvider } from '../models/NichandleAuthenticationProvider';
-import { NichandleAccessRestrictionTOTPAccount } from '../models/NichandleAccessRestrictionTOTPAccount';
-import { MePaymentMeanCreditCardCreation } from '../models/MePaymentMeanCreditCardCreation';
-import { BillingDepositDetail } from '../models/BillingDepositDetail';
+import { DedicatedInstallationTemplateHardwareRaid } from '../models/DedicatedInstallationTemplateHardwareRaid';
+import { NichandleAuthenticationGroup } from '../models/NichandleAuthenticationGroup';
 import { DedicatedInstallationTemplateTemplatePartitions } from '../models/DedicatedInstallationTemplateTemplatePartitions';
+import { BillingCategoryEnum } from '../models/BillingCategoryEnum';
+import { MeCreditBalance } from '../models/MeCreditBalance';
+import { NichandleAccessRestrictionSOTPValidate } from '../models/NichandleAccessRestrictionSOTPValidate';
+import { MeBillingPurchaseOrderCreation } from '../models/MeBillingPurchaseOrderCreation';
+import { BillingOrderPayWithPaymentMethod } from '../models/BillingOrderPayWithPaymentMethod';
+import { MePaymentTransactionStatusEnum } from '../models/MePaymentTransactionStatusEnum';
+import { NichandleIpRestriction } from '../models/NichandleIpRestriction';
+import { AgreementsContractAgreement } from '../models/AgreementsContractAgreement';
+import { TelephonySettings } from '../models/TelephonySettings';
 import { MeConsentConsent } from '../models/MeConsentConsent';
-import { BillingCreditBalance } from '../models/BillingCreditBalance';
+import { MeMigration } from '../models/MeMigration';
+import { MeTagTag } from '../models/MeTagTag';
+import { DebtDebt } from '../models/DebtDebt';
+import { NichandleDocumentDocument } from '../models/NichandleDocumentDocument';
+import { BillingOrderDetail } from '../models/BillingOrderDetail';
+import { DebtOperation } from '../models/DebtOperation';
+import { NichandleChangeContactTaskStateEnum } from '../models/NichandleChangeContactTaskStateEnum';
+import { BillingArchiveTypeEnum } from '../models/BillingArchiveTypeEnum';
+import { NichandleAccessRestrictionSOTPSecret } from '../models/NichandleAccessRestrictionSOTPSecret';
+import { DedicatedTemplateOsFileSystemEnum } from '../models/DedicatedTemplateOsFileSystemEnum';
+import { MeMigrationContract } from '../models/MeMigrationContract';
+import { BillingWithdrawalDetail } from '../models/BillingWithdrawalDetail';
+import { RecommendationsProductRangesEnum } from '../models/RecommendationsProductRangesEnum';
+import { AuthApiApplication } from '../models/AuthApiApplication';
+import { MePaymentMeanCreditCardChallengeCreation } from '../models/MePaymentMeanCreditCardChallengeCreation';
+import { NichandleAccessRestrictionSmsCode } from '../models/NichandleAccessRestrictionSmsCode';
+import { MeBillingGroupBillingGroup } from '../models/MeBillingGroupBillingGroup';
+import { MePaymentMethodFinalize } from '../models/MePaymentMethodFinalize';
+import { MePaymentAvailablePaymentMethod } from '../models/MePaymentAvailablePaymentMethod';
+import { IpCampusEnum } from '../models/IpCampusEnum';
+import { InsightAccess } from '../models/InsightAccess';
+import { DebtBalance } from '../models/DebtBalance';
+import { NichandleChangeEmailTaskStateEnum } from '../models/NichandleChangeEmailTaskStateEnum';
+import { MeCreditCodeRedeem } from '../models/MeCreditCodeRedeem';
+import { MeIncidentMigrateServices } from '../models/MeIncidentMigrateServices';
+import { NichandleAccessRestrictionSOTPAccount } from '../models/NichandleAccessRestrictionSOTPAccount';
+import { BillingOrder } from '../models/BillingOrder';
+import { DedicatedTemplateOsLanguageEnum } from '../models/DedicatedTemplateOsLanguageEnum';
+import { AuditLog } from '../models/AuditLog';
+import { ConsumptionConsumptionExportFormatsEnum } from '../models/ConsumptionConsumptionExportFormatsEnum';
+import { NichandleEmailNotification } from '../models/NichandleEmailNotification';
+import { BillingOrderFollowUp } from '../models/BillingOrderFollowUp';
+import { BillingItemDetail } from '../models/BillingItemDetail';
+import { BillingOrderPaymentMeans } from '../models/BillingOrderPaymentMeans';
+import { BillingReversableBillDetail } from '../models/BillingReversableBillDetail';
+import { AuthApiCredential } from '../models/AuthApiCredential';
+import { NichandleAuthenticationProvider } from '../models/NichandleAuthenticationProvider';
+import { BillingAutomaticPaymentMean } from '../models/BillingAutomaticPaymentMean';
+import { MeBillingGroupServiceCreate } from '../models/MeBillingGroupServiceCreate';
+import { BillingOrderPaymentMethods } from '../models/BillingOrderPaymentMethods';
+import { NichandleSubAccountConsumerKey } from '../models/NichandleSubAccountConsumerKey';
+import { DedicatedInstallationTemplateTemplates } from '../models/DedicatedInstallationTemplateTemplates';
+import { NichandleCountryEnum } from '../models/NichandleCountryEnum';
+import { BillingDepositDetail } from '../models/BillingDepositDetail';
+import { BillingDeposit } from '../models/BillingDeposit';
+import { MePaymentMeanPaypalChallengeCreation } from '../models/MePaymentMeanPaypalChallengeCreation';
+import { BillingWithdrawal } from '../models/BillingWithdrawal';
+import { DedicatedTemplatePartitionTypeEnum } from '../models/DedicatedTemplatePartitionTypeEnum';
+import { NichandleIpRestrictionDefaultRule } from '../models/NichandleIpRestrictionDefaultRule';
+import { MeBillingPurchaseOrderPurchaseOrder } from '../models/MeBillingPurchaseOrderPurchaseOrder';
+import { MePaymentMethodValidation } from '../models/MePaymentMethodValidation';
+import { BillingRefundDetail } from '../models/BillingRefundDetail';
+import { NichandleVipStatus } from '../models/NichandleVipStatus';
+import { NichandleVoucherStatus } from '../models/NichandleVoucherStatus';
+import { NichandleAccessRestrictionTOTPAccount } from '../models/NichandleAccessRestrictionTOTPAccount';
+import { NichandleAuthenticationProviderExtensions } from '../models/NichandleAuthenticationProviderExtensions';
+import { MePaymentPaymentMethod } from '../models/MePaymentPaymentMethod';
+import { MePaymentMeanBankAccountCreation } from '../models/MePaymentMeanBankAccountCreation';
+import { MePaymentMethodCreation } from '../models/MePaymentMethodCreation';
+import { DomainOperationFunctionEnum } from '../models/DomainOperationFunctionEnum';
+import { MePaymentMeanCreditCardCreation } from '../models/MePaymentMeanCreditCardCreation';
+import { NichandleIpv4Org } from '../models/NichandleIpv4Org';
+import { NichandleAccessRestrictionSmsSecret } from '../models/NichandleAccessRestrictionSmsSecret';
+import { MePaymentMeanPaypalCreation } from '../models/MePaymentMeanPaypalCreation';
+import { MeAgreementsContractAgreement } from '../models/MeAgreementsContractAgreement';
+import { MeBillingPurchaseOrderUpdate } from '../models/MeBillingPurchaseOrderUpdate';
+import { MeTagCreation } from '../models/MeTagCreation';
+import { NichandleContactChangeTask } from '../models/NichandleContactChangeTask';
+import { MeCreditBalanceTypeEnum } from '../models/MeCreditBalanceTypeEnum';
+import { NichandleOvhCompanyEnum } from '../models/NichandleOvhCompanyEnum';
+import { MePartnerLevelLevel } from '../models/MePartnerLevelLevel';
+import { NichandleSubscription } from '../models/NichandleSubscription';
+import { MePaymentMeanCreditCardValidation } from '../models/MePaymentMeanCreditCardValidation';
+import { MeContactContact } from '../models/MeContactContact';
+import { MePaymentMethodStatusEnum } from '../models/MePaymentMethodStatusEnum';
+import { AgreementsAgreementStateEnum } from '../models/AgreementsAgreementStateEnum';
+import { BillingSlaOperationService } from '../models/BillingSlaOperationService';
+import { BillingFidelityAccount } from '../models/BillingFidelityAccount';
+import { BillingRefund } from '../models/BillingRefund';
+import { DebtEntryAssociatedObject } from '../models/DebtEntryAssociatedObject';
+import { BillingReusablePaymentMeanEnum } from '../models/BillingReusablePaymentMeanEnum';
+import { MePaymentMethodChallenge } from '../models/MePaymentMethodChallenge';
+import { RecommendationsRecommendations } from '../models/RecommendationsRecommendations';
+import { MePaymentMeanDeferred } from '../models/MePaymentMeanDeferred';
+import { BillingFidelityMovement } from '../models/BillingFidelityMovement';
+import { MeTagAvailableTag } from '../models/MeTagAvailableTag';
+import { NichandleIpRegistryEnum } from '../models/NichandleIpRegistryEnum';
+import { BillingSlaOperation } from '../models/BillingSlaOperation';
 import OVHBase from '../ovh';
 
 class MeHandler {
@@ -235,7 +235,7 @@ class MeHandler {
   };
 
   /** List of IP restrictions */
-  listAccessRestrictionIps = (): Promise<number[]> => {
+  listAccessRestrictionIp = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/accessRestriction/ip');
   };
 
@@ -326,7 +326,7 @@ class MeHandler {
   };
 
   /** List of TOTP accounts */
-  listAccessRestrictionTotps = (): Promise<number[]> => {
+  listAccessRestrictionTotp = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/accessRestriction/totp');
   };
 
@@ -369,7 +369,7 @@ class MeHandler {
   };
 
   /** List of U2F accounts */
-  listAccessRestrictionU2fs = (): Promise<number[]> => {
+  listAccessRestrictionU2f = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/accessRestriction/u2f');
   };
 
@@ -493,7 +493,7 @@ class MeHandler {
   };
 
   /** List of Api calls done with your account */
-  listApiLogsSelfs = (): Promise<number[]> => {
+  listApiLogsSelf = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/api/logs/self');
   };
 
@@ -533,7 +533,7 @@ class MeHandler {
   };
 
   /** List of all the bills the logged account has */
-  listBills = (): Promise<string[]> => {
+  listBill = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/bill');
   };
 
@@ -722,7 +722,7 @@ class MeHandler {
   };
 
   /** List all consent campaign available */
-  listConsents = (): Promise<MeConsentCampaign[]> => {
+  listConsent = (): Promise<MeConsentCampaign[]> => {
     return this.ovh.request('GET', '/me/consent');
   };
 
@@ -865,7 +865,7 @@ class MeHandler {
   };
 
   /** List of all the deposits made to your prepaid account or debt account */
-  listDeposits = (): Promise<string[]> => {
+  listDeposit = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/deposit');
   };
 
@@ -982,7 +982,7 @@ class MeHandler {
   };
 
   /** List of documents added in your account */
-  listDocuments = (): Promise<string[]> => {
+  listDocument = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/document');
   };
 
@@ -1407,7 +1407,7 @@ class MeHandler {
   };
 
   /** List of organisations */
-  listIpOrganisations = (): Promise<string[]> => {
+  listIpOrganisation = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/ipOrganisation');
   };
 
@@ -1446,7 +1446,7 @@ class MeHandler {
   };
 
   /** List of all your IPXE scripts */
-  listIpxeScripts = (): Promise<string[]> => {
+  listIpxeScript = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/ipxeScript');
   };
 
@@ -1539,7 +1539,7 @@ class MeHandler {
   };
 
   /** List of all the orders the logged account has */
-  listOrders = (): Promise<number[]> => {
+  listOrder = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/order');
   };
 
@@ -1554,14 +1554,14 @@ class MeHandler {
   };
 
   /** List of registered payment mean you can use to pay this order */
-  listOrderAvailableRegisteredPaymentMeansByOrderId = (
+  listOrderAvailableRegisteredPaymentMeanByOrderId = (
     orderId: number
   ): Promise<BillingOrderRegisteredPaymentMean[]> => {
     return this.ovh.request('GET', `/me/order/${orderId}/availableRegisteredPaymentMean`);
   };
 
   /** List credit balances applied on this Order */
-  listOrderBalancesByOrderId = (orderId: number): Promise<string[]> => {
+  listOrderBalanceByOrderId = (orderId: number): Promise<string[]> => {
     return this.ovh.request('GET', `/me/order/${orderId}/balance`);
   };
 
@@ -1706,7 +1706,7 @@ class MeHandler {
   };
 
   /** List of OVH accounts the logged account has */
-  listOvhAccounts = (): Promise<string[]> => {
+  listOvhAccount = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/ovhAccount');
   };
 
@@ -1850,7 +1850,7 @@ class MeHandler {
   };
 
   /** List of bank accounts */
-  listPaymentMeanBankAccounts = (): Promise<number[]> => {
+  listPaymentMeanBankAccount = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/paymentMean/bankAccount');
   };
 
@@ -1893,7 +1893,7 @@ class MeHandler {
   };
 
   /** List of payment mean credit cards */
-  listPaymentMeanCreditCards = (): Promise<number[]> => {
+  listPaymentMeanCreditCard = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/paymentMean/creditCard');
   };
 
@@ -1933,7 +1933,7 @@ class MeHandler {
   };
 
   /** List of payment mean deferred accounts */
-  listPaymentMeanDeferredPaymentAccounts = (): Promise<number[]> => {
+  listPaymentMeanDeferredPaymentAccount = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/paymentMean/deferredPaymentAccount');
   };
 
@@ -1961,7 +1961,7 @@ class MeHandler {
   };
 
   /** List of payment mean paypals */
-  listPaymentMeanPaypals = (): Promise<number[]> => {
+  listPaymentMeanPaypal = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/paymentMean/paypal');
   };
 
@@ -2006,7 +2006,7 @@ class MeHandler {
   };
 
   /** List of all the refunds the logged account has */
-  listRefunds = (): Promise<string[]> => {
+  listRefund = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/refund');
   };
 
@@ -2044,7 +2044,7 @@ class MeHandler {
   };
 
   /** List all the bills sent by the current account */
-  listReverseBills = (): Promise<string[]> => {
+  listReverseBill = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/reverseBill');
   };
 
@@ -2075,7 +2075,7 @@ class MeHandler {
   };
 
   /** List active SLA */
-  listSlas = (): Promise<number[]> => {
+  listSla = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/sla');
   };
 
@@ -2105,7 +2105,7 @@ class MeHandler {
   };
 
   /** List of your public SSH keys */
-  listSshKeys = (): Promise<string[]> => {
+  listSshKey = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/sshKey');
   };
 
@@ -2130,7 +2130,7 @@ class MeHandler {
   };
 
   /** List of sub-accounts */
-  listSubAccounts = (): Promise<number[]> => {
+  listSubAccount = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/subAccount');
   };
 
@@ -2155,7 +2155,7 @@ class MeHandler {
   };
 
   /** List of all OVH things you can subscribe to */
-  listSubscriptions = (): Promise<string[]> => {
+  listSubscription = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/subscription');
   };
 
@@ -2205,7 +2205,7 @@ class MeHandler {
   };
 
   /** List of service contact change tasks you are involved in */
-  listTaskContactChanges = (): Promise<number[]> => {
+  listTaskContactChange = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/task/contactChange');
   };
 
@@ -2230,7 +2230,7 @@ class MeHandler {
   };
 
   /** List of domain tasks */
-  listTaskDomains = (): Promise<number[]> => {
+  listTaskDomain = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/task/domain');
   };
 
@@ -2245,7 +2245,7 @@ class MeHandler {
   };
 
   /** List of arguments */
-  listTaskDomainArgumentsById = (id: number): Promise<string[]> => {
+  listTaskDomainArgumentById = (id: number): Promise<string[]> => {
     return this.ovh.request('GET', `/me/task/domain/${id}/argument`);
   };
 
@@ -2282,7 +2282,7 @@ class MeHandler {
   };
 
   /** List of email change tasks you are involved in */
-  listTaskEmailChanges = (): Promise<number[]> => {
+  listTaskEmailChange = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/task/emailChange');
   };
 
@@ -2345,7 +2345,7 @@ class MeHandler {
   };
 
   /** List of all the withdrawals made from your prepaid account */
-  listWithdrawals = (): Promise<string[]> => {
+  listWithdrawal = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/withdrawal');
   };
 

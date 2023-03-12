@@ -3,9 +3,9 @@
 import { TelephonyOvhPabxIvrMenuEntryActionEnum } from './TelephonyOvhPabxIvrMenuEntryActionEnum';
 
 export type TelephonyOvhPabxMenuEntry = {
-  action: TelephonyOvhPabxIvrMenuEntryActionEnum;
-  actionParam: string;
-  dtmf: string;
-  entryId: number;
-  position: number;
+  action?: TelephonyOvhPabxIvrMenuEntryActionEnum;
+  actionParam?: string;
+  dtmf?: string;
+  entryId?: number;
+  position?: number;
 };

@@ -4,8 +4,8 @@ import { VpsSoftwareStatusEnum } from './VpsSoftwareStatusEnum';
 import { VpsSoftwareTypeEnum } from './VpsSoftwareTypeEnum';
 
 export type VpsSoftware = {
-  id: number;
-  name: string;
-  status: VpsSoftwareStatusEnum;
-  type: VpsSoftwareTypeEnum;
+  id?: number;
+  name?: string;
+  status?: VpsSoftwareStatusEnum;
+  type?: VpsSoftwareTypeEnum;
 };

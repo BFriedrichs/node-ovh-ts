@@ -3,14 +3,14 @@
 import { EmailProObjectStateEnum } from './EmailProObjectStateEnum';
 
 export type EmailProExternalContactNative = {
-  creationDate: Date;
-  displayName: string;
-  externalEmailAddress: string;
-  firstName: string | null;
-  hiddenFromGAL: boolean;
-  id: number;
-  initials: string | null;
-  lastName: string | null;
-  state: EmailProObjectStateEnum;
-  taskPendingId: number;
+  creationDate?: Date;
+  displayName?: string;
+  externalEmailAddress?: string;
+  firstName?: string | null;
+  hiddenFromGAL?: boolean;
+  id?: number;
+  initials?: string | null;
+  lastName?: string | null;
+  state?: EmailProObjectStateEnum;
+  taskPendingId?: number;
 };

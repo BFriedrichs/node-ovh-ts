@@ -3,10 +3,10 @@
 import { OrderCatalogProductPlan } from './OrderCatalogProductPlan';
 
 export type OrderCatalogPrivateCloudZone = {
-  cityName: string;
-  country: string;
-  defaultHypervisor: string;
-  defaultVersion: string;
-  internalName: string;
-  plans: OrderCatalogProductPlan[];
+  cityName?: string;
+  country?: string;
+  defaultHypervisor?: string;
+  defaultVersion?: string;
+  internalName?: string;
+  plans?: OrderCatalogProductPlan[];
 };

@@ -2,4 +2,8 @@
 
 import { TelephonyOvhPabxTtsVoiceEnum } from './TelephonyOvhPabxTtsVoiceEnum';
 
-export type TelephonyOvhPabxTts = { id: number; text: string; voice: TelephonyOvhPabxTtsVoiceEnum };
+export type TelephonyOvhPabxTts = {
+  id?: number;
+  text?: string;
+  voice?: TelephonyOvhPabxTtsVoiceEnum;
+};

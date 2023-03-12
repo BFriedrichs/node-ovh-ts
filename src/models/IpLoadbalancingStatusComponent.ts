@@ -3,6 +3,6 @@
 import { IpLoadbalancingStatusComponentStatus } from './IpLoadbalancingStatusComponentStatus';
 
 export type IpLoadbalancingStatusComponent = {
-  status: IpLoadbalancingStatusComponentStatus;
-  total: number;
+  status?: IpLoadbalancingStatusComponentStatus;
+  total?: number;
 };

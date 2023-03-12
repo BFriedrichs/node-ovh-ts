@@ -2,4 +2,4 @@
 
 import { OrderCurrencyCodeEnum } from './OrderCurrencyCodeEnum';
 
-export type OrderPrice = { currencyCode: OrderCurrencyCodeEnum; text: string; value: number };
+export type OrderPrice = { currencyCode?: OrderCurrencyCodeEnum; text?: string; value?: number };

@@ -4,8 +4,8 @@ import { DedicatedDatacenterEnum } from './DedicatedDatacenterEnum';
 import { IpCampusEnum } from './IpCampusEnum';
 
 export type IpCampus = {
-  bringYourOwnIpSupportedRirForIp: string[];
-  datacenters: DedicatedDatacenterEnum[];
-  description: string;
-  name: IpCampusEnum;
+  bringYourOwnIpSupportedRirForIp?: string[];
+  datacenters?: DedicatedDatacenterEnum[];
+  description?: string;
+  name?: IpCampusEnum;
 };

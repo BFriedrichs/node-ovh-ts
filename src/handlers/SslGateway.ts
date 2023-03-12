@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { SslGatewayDomain } from '../models/SslGatewayDomain';
-import { SslGatewayTask } from '../models/SslGatewayTask';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { SslGatewayServer } from '../models/SslGatewayServer';
-import { SslGatewayNatIps } from '../models/SslGatewayNatIps';
 import { SslGatewayEligibilityStatus } from '../models/SslGatewayEligibilityStatus';
-import { ServicesService } from '../models/ServicesService';
+import { SslGatewayDomain } from '../models/SslGatewayDomain';
 import { SslGatewaySslGateway } from '../models/SslGatewaySslGateway';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { ServicesService } from '../models/ServicesService';
+import { SslGatewayServer } from '../models/SslGatewayServer';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { SslGatewayNatIps } from '../models/SslGatewayNatIps';
+import { SslGatewayTask } from '../models/SslGatewayTask';
 import OVHBase from '../ovh';
 
 class SslGatewayHandler {
@@ -19,7 +19,7 @@ class SslGatewayHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/sslGateway');
   };
 

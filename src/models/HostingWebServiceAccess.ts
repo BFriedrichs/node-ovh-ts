@@ -3,7 +3,7 @@
 import { HostingWebAddress } from './HostingWebAddress';
 
 export type HostingWebServiceAccess = {
-  ftp: HostingWebAddress;
-  http: HostingWebAddress;
-  ssh: HostingWebAddress;
+  ftp?: HostingWebAddress;
+  http?: HostingWebAddress;
+  ssh?: HostingWebAddress;
 };

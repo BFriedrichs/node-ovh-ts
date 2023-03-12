@@ -4,6 +4,6 @@ import { DedicatedServerBiosSettingsSgxPrmrrEnum } from './DedicatedServerBiosSe
 import { DedicatedServerBiosSettingsSgxStatusEnum } from './DedicatedServerBiosSettingsSgxStatusEnum';
 
 export type DedicatedServerBiosSettingsSupportSgxOptions = {
-  prmrr: DedicatedServerBiosSettingsSgxPrmrrEnum[];
-  status: DedicatedServerBiosSettingsSgxStatusEnum[];
+  prmrr?: DedicatedServerBiosSettingsSgxPrmrrEnum[];
+  status?: DedicatedServerBiosSettingsSgxStatusEnum[];
 };

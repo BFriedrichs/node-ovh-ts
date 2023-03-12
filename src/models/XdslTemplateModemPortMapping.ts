@@ -3,12 +3,12 @@
 import { XdslXdslModemConfigProtocolTypeEnum } from './XdslXdslModemConfigProtocolTypeEnum';
 
 export type XdslTemplateModemPortMapping = {
-  allowedRemoteIp: string | null;
-  description: string | null;
-  externalPortEnd: number | null;
-  externalPortStart: number;
-  internalClient: string;
-  internalPort: number;
-  name: string;
-  protocol: XdslXdslModemConfigProtocolTypeEnum;
+  allowedRemoteIp?: string | null;
+  description?: string | null;
+  externalPortEnd?: number | null;
+  externalPortStart?: number;
+  internalClient?: string;
+  internalPort?: number;
+  name?: string;
+  protocol?: XdslXdslModemConfigProtocolTypeEnum;
 };

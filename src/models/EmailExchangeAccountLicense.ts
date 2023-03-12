@@ -3,6 +3,6 @@
 import { EmailExchangeOvhLicenceEnum } from './EmailExchangeOvhLicenceEnum';
 
 export type EmailExchangeAccountLicense = {
-  license: EmailExchangeOvhLicenceEnum;
-  licenseQuantity: number;
+  license?: EmailExchangeOvhLicenceEnum;
+  licenseQuantity?: number;
 };

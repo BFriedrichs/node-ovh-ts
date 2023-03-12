@@ -3,10 +3,10 @@
 import { TelephonyVoicemailMessageFolderDirectoryEnum } from './TelephonyVoicemailMessageFolderDirectoryEnum';
 
 export type TelephonyVoicemailMessages = {
-  callee: string;
-  caller: string;
-  creationDatetime: Date;
-  dir: TelephonyVoicemailMessageFolderDirectoryEnum;
-  duration: number;
-  id: number;
+  callee?: string;
+  caller?: string;
+  creationDatetime?: Date;
+  dir?: TelephonyVoicemailMessageFolderDirectoryEnum;
+  duration?: number;
+  id?: number;
 };

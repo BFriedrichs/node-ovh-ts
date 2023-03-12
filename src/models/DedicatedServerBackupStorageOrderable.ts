@@ -3,6 +3,6 @@
 import { DedicatedServerBackupStorageCapacityEnum } from './DedicatedServerBackupStorageCapacityEnum';
 
 export type DedicatedServerBackupStorageOrderable = {
-  capacities: DedicatedServerBackupStorageCapacityEnum[] | null;
-  orderable: boolean;
+  capacities?: DedicatedServerBackupStorageCapacityEnum[] | null;
+  orderable?: boolean;
 };

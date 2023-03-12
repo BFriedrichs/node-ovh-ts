@@ -3,10 +3,10 @@
 import { IpLoadbalancingRouteRuleMatchesEnum } from './IpLoadbalancingRouteRuleMatchesEnum';
 
 export type IpLoadbalancingRouteRule = {
-  field: string;
-  match: IpLoadbalancingRouteRuleMatchesEnum;
-  negate: boolean;
-  pattern: string | null;
-  ruleId: number;
-  subField: string | null;
+  field?: string;
+  match?: IpLoadbalancingRouteRuleMatchesEnum;
+  negate?: boolean;
+  pattern?: string | null;
+  ruleId?: number;
+  subField?: string | null;
 };

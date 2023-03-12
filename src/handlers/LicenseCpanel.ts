@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
-import { LicenseCpanelCpanel } from '../models/LicenseCpanelCpanel';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { LicenseCpanelOrderConfiguration } from '../models/LicenseCpanelOrderConfiguration';
-import { LicenseTask } from '../models/LicenseTask';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
-import { LicenseActionType } from '../models/LicenseActionType';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicenseTask } from '../models/LicenseTask';
 import { ServicesService } from '../models/ServicesService';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseActionType } from '../models/LicenseActionType';
+import { LicenseCpanelCpanel } from '../models/LicenseCpanelCpanel';
+import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
 import OVHBase from '../ovh';
 
 class LicenseCpanelHandler {
@@ -19,7 +19,7 @@ class LicenseCpanelHandler {
   }
 
   /** List available services */
-  listCpanels = (): Promise<string[]> => {
+  listCpanel = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/cpanel');
   };
 

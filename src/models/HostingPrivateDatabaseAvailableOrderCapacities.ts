@@ -6,8 +6,8 @@ import { HostingPrivateDatabaseDatacenterEnum } from './HostingPrivateDatabaseDa
 import { HostingPrivateDatabaseOfferEnum } from './HostingPrivateDatabaseOfferEnum';
 
 export type HostingPrivateDatabaseAvailableOrderCapacities = {
-  datacenter: HostingPrivateDatabaseDatacenterEnum[];
-  offer: HostingPrivateDatabaseOfferEnum;
-  ram: HostingPrivateDatabaseAvailableRamSizeEnum[];
-  version: HostingPrivateDatabaseAvailableVersionEnum[];
+  datacenter?: HostingPrivateDatabaseDatacenterEnum[];
+  offer?: HostingPrivateDatabaseOfferEnum;
+  ram?: HostingPrivateDatabaseAvailableRamSizeEnum[];
+  version?: HostingPrivateDatabaseAvailableVersionEnum[];
 };

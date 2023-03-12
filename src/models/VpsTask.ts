@@ -4,9 +4,9 @@ import { VpsTaskStateEnum } from './VpsTaskStateEnum';
 import { VpsTaskTypeEnum } from './VpsTaskTypeEnum';
 
 export type VpsTask = {
-  date: Date;
-  id: number;
-  progress: number;
-  state: VpsTaskStateEnum;
-  type: VpsTaskTypeEnum;
+  date?: Date;
+  id?: number;
+  progress?: number;
+  state?: VpsTaskStateEnum;
+  type?: VpsTaskTypeEnum;
 };

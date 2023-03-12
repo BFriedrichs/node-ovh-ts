@@ -3,9 +3,9 @@
 import { OrderPrice } from './OrderPrice';
 
 export type DebtBalance = {
-  active: boolean;
-  dueAmount: OrderPrice;
-  pendingAmount: OrderPrice;
-  todoAmount: OrderPrice;
-  unmaturedAmount: OrderPrice;
+  active?: boolean;
+  dueAmount?: OrderPrice;
+  pendingAmount?: OrderPrice;
+  todoAmount?: OrderPrice;
+  unmaturedAmount?: OrderPrice;
 };

@@ -1,22 +1,22 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CdnanycastStatsPeriodEnum } from '../models/CdnanycastStatsPeriodEnum';
+import { CdnanycastCacheRuleCacheTypeEnum } from '../models/CdnanycastCacheRuleCacheTypeEnum';
 import { CdnanycastLogsURL } from '../models/CdnanycastLogsURL';
 import { CdnanycastDomain } from '../models/CdnanycastDomain';
-import { CdnanycastCacheRuleFileTypeEnum } from '../models/CdnanycastCacheRuleFileTypeEnum';
-import { ServicesService } from '../models/ServicesService';
 import { CdnanycastTask } from '../models/CdnanycastTask';
-import { CdnanycastCacheRuleCacheTypeEnum } from '../models/CdnanycastCacheRuleCacheTypeEnum';
-import { CdnanycastCacheRule } from '../models/CdnanycastCacheRule';
-import { CdnanycastSsl } from '../models/CdnanycastSsl';
-import { CdnanycastPop } from '../models/CdnanycastPop';
-import { CdnanycastStatsValueEnum } from '../models/CdnanycastStatsValueEnum';
-import { CdnanycastTaskStateEnum } from '../models/CdnanycastTaskStateEnum';
 import { CdnanycastStatsTypeEnum } from '../models/CdnanycastStatsTypeEnum';
+import { CdnanycastPop } from '../models/CdnanycastPop';
+import { CdnanycastCacheRule } from '../models/CdnanycastCacheRule';
+import { CdnanycastAnycast } from '../models/CdnanycastAnycast';
+import { CdnanycastCacheRuleFileTypeEnum } from '../models/CdnanycastCacheRuleFileTypeEnum';
 import { CdnanycastBackend } from '../models/CdnanycastBackend';
 import { CdnanycastStatsDataType } from '../models/CdnanycastStatsDataType';
-import { CdnanycastAnycast } from '../models/CdnanycastAnycast';
+import { ServicesService } from '../models/ServicesService';
 import { CdnanycastTaskFunctionEnum } from '../models/CdnanycastTaskFunctionEnum';
+import { CdnanycastSsl } from '../models/CdnanycastSsl';
+import { CdnanycastTaskStateEnum } from '../models/CdnanycastTaskStateEnum';
+import { CdnanycastStatsPeriodEnum } from '../models/CdnanycastStatsPeriodEnum';
+import { CdnanycastStatsValueEnum } from '../models/CdnanycastStatsValueEnum';
 import OVHBase from '../ovh';
 
 class CdnDedicatedHandler {
@@ -27,7 +27,7 @@ class CdnDedicatedHandler {
   }
 
   /** List available services */
-  listDedicateds = (): Promise<string[]> => {
+  listDedicated = (): Promise<string[]> => {
     return this.ovh.request('GET', '/cdn/dedicated');
   };
 

@@ -2,4 +2,4 @@
 
 import { AuditLogAuthUserDetails } from './AuditLogAuthUserDetails';
 
-export type AuditLogAuthDetails = { userDetails: AuditLogAuthUserDetails };
+export type AuditLogAuthDetails = { userDetails?: AuditLogAuthUserDetails };

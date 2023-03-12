@@ -3,9 +3,9 @@
 import { XdslDslTypeEnum } from './XdslDslTypeEnum';
 
 export type PackXdslPackDetail = {
-  accessname: string;
-  description: string;
-  number: string;
-  packname: string;
-  type: XdslDslTypeEnum;
+  accessname?: string;
+  description?: string;
+  number?: string;
+  packname?: string;
+  type?: XdslDslTypeEnum;
 };

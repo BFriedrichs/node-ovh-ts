@@ -3,6 +3,6 @@
 import { HostingWebLocalSeoSearchData } from './HostingWebLocalSeoSearchData';
 
 export type HostingWebLocalSeoVisibilityCheckResponse = {
-  alreadyManaged: boolean | null;
-  searchData: HostingWebLocalSeoSearchData;
+  alreadyManaged?: boolean | null;
+  searchData?: HostingWebLocalSeoSearchData;
 };

@@ -3,7 +3,7 @@
 import { DedicatedProfileFirewallEnum } from './DedicatedProfileFirewallEnum';
 
 export type DedicatedBinaryFirewall = {
-  asa: string[];
-  asdm: string[];
-  type: DedicatedProfileFirewallEnum;
+  asa?: string[];
+  asdm?: string[];
+  type?: DedicatedProfileFirewallEnum;
 };

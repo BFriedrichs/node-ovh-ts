@@ -2,4 +2,4 @@
 
 import { AuthHTTPMethodEnum } from './AuthHTTPMethodEnum';
 
-export type AuthAccessRule = { method: AuthHTTPMethodEnum; path: string };
+export type AuthAccessRule = { method?: AuthHTTPMethodEnum; path?: string };

@@ -3,6 +3,6 @@
 import { OrderCatalogDedicatedProductCompatibilityRestrictionSection } from './OrderCatalogDedicatedProductCompatibilityRestrictionSection';
 
 export type OrderCatalogDedicatedProductCompatibilityRestriction = {
-  name: string;
-  sections: OrderCatalogDedicatedProductCompatibilityRestrictionSection[];
+  name?: string;
+  sections?: OrderCatalogDedicatedProductCompatibilityRestrictionSection[];
 };

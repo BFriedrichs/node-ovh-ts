@@ -3,9 +3,9 @@
 import { PackXdslMigrationAndAddressMovePromotionDetails } from './PackXdslMigrationAndAddressMovePromotionDetails';
 
 export type PackXdslMigrationAndAddressMovePromotion = {
-  endDate: Date | null;
-  id: string;
-  installFee: PackXdslMigrationAndAddressMovePromotionDetails | null;
-  startDate: Date | null;
-  subscription: PackXdslMigrationAndAddressMovePromotionDetails | null;
+  endDate?: Date | null;
+  id?: string;
+  installFee?: PackXdslMigrationAndAddressMovePromotionDetails | null;
+  startDate?: Date | null;
+  subscription?: PackXdslMigrationAndAddressMovePromotionDetails | null;
 };

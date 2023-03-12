@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { IpLoadBalancingBackendProbeEnum } from './IpLoadBalancingBackendProbeEnum';
 import { IpLoadBalancingZoneEnum } from './IpLoadBalancingZoneEnum';
+import { IpLoadBalancingBackendProbeEnum } from './IpLoadBalancingBackendProbeEnum';
 
 export type IpLoadBalancingBackendIp = {
-  backend: string;
-  mainBackendIp: string | null;
-  probe: IpLoadBalancingBackendProbeEnum;
-  weight: number;
-  zone: IpLoadBalancingZoneEnum;
+  backend?: string;
+  mainBackendIp?: string | null;
+  probe?: IpLoadBalancingBackendProbeEnum;
+  weight?: number;
+  zone?: IpLoadBalancingZoneEnum;
 };

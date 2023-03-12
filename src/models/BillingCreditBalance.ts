@@ -2,4 +2,4 @@
 
 import { OrderPrice } from './OrderPrice';
 
-export type BillingCreditBalance = { amount: OrderPrice; balanceName: string };
+export type BillingCreditBalance = { amount?: OrderPrice; balanceName?: string };

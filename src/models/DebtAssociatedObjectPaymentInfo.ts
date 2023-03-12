@@ -3,7 +3,7 @@
 import { BillingPaymentMeanEnum } from './BillingPaymentMeanEnum';
 
 export type DebtAssociatedObjectPaymentInfo = {
-  description: string | null;
-  paymentType: BillingPaymentMeanEnum;
-  publicLabel: string | null;
+  description?: string | null;
+  paymentType?: BillingPaymentMeanEnum;
+  publicLabel?: string | null;
 };

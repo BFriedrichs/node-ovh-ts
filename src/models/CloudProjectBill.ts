@@ -2,4 +2,4 @@
 
 import { CloudProjectBillTypeEnum } from './CloudProjectBillTypeEnum';
 
-export type CloudProjectBill = { billId: string; type: CloudProjectBillTypeEnum };
+export type CloudProjectBill = { billId?: string; type?: CloudProjectBillTypeEnum };

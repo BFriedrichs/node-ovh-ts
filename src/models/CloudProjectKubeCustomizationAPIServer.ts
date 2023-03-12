@@ -3,5 +3,5 @@
 import { CloudProjectKubeCustomizationAPIServerAdmissionPlugins } from './CloudProjectKubeCustomizationAPIServerAdmissionPlugins';
 
 export type CloudProjectKubeCustomizationAPIServer = {
-  admissionPlugins: CloudProjectKubeCustomizationAPIServerAdmissionPlugins | null;
+  admissionPlugins?: CloudProjectKubeCustomizationAPIServerAdmissionPlugins | null;
 };

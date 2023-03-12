@@ -3,9 +3,9 @@
 import { CloudNetworkIPPool } from './CloudNetworkIPPool';
 
 export type CloudNetworkSubnet = {
-  cidr: string;
-  dhcpEnabled: boolean;
-  gatewayIp: string | null;
-  id: string;
-  ipPools: CloudNetworkIPPool[];
+  cidr?: string;
+  dhcpEnabled?: boolean;
+  gatewayIp?: string | null;
+  id?: string;
+  ipPools?: CloudNetworkIPPool[];
 };

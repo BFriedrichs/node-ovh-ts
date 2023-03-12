@@ -3,7 +3,7 @@
 import { TelephonyProtocolEnum } from './TelephonyProtocolEnum';
 
 export type SpareTelephonyTelephonySpare = {
-  brand: string;
-  macAddress: string;
-  protocol: TelephonyProtocolEnum;
+  brand?: string;
+  macAddress?: string;
+  protocol?: TelephonyProtocolEnum;
 };

@@ -4,8 +4,8 @@ import { OrderCartGenericProductPricing } from './OrderCartGenericProductPricing
 import { OrderCartGenericProductTypeEnum } from './OrderCartGenericProductTypeEnum';
 
 export type OrderCartGenericProductDefinition = {
-  planCode: string;
-  prices: OrderCartGenericProductPricing[];
-  productName: string;
-  productType: OrderCartGenericProductTypeEnum;
+  planCode?: string;
+  prices?: OrderCartGenericProductPricing[];
+  productName?: string;
+  productType?: OrderCartGenericProductTypeEnum;
 };

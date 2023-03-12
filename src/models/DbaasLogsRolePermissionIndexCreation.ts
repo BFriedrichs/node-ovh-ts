@@ -3,6 +3,6 @@
 import { DbaasLogsPermissionTypeEnum } from './DbaasLogsPermissionTypeEnum';
 
 export type DbaasLogsRolePermissionIndexCreation = {
-  indexId?: string;
-  permissionType: DbaasLogsPermissionTypeEnum | null;
+  indexId: string;
+  permissionType?: DbaasLogsPermissionTypeEnum | null;
 };

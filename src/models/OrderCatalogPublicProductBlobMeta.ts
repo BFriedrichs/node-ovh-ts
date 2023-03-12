@@ -3,5 +3,5 @@
 import { OrderCatalogPublicProductBlobMetaConfigurations } from './OrderCatalogPublicProductBlobMetaConfigurations';
 
 export type OrderCatalogPublicProductBlobMeta = {
-  configurations: OrderCatalogPublicProductBlobMetaConfigurations[];
+  configurations?: OrderCatalogPublicProductBlobMetaConfigurations[];
 };

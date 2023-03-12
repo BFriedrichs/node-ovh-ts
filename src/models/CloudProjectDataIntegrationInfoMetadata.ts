@@ -3,7 +3,7 @@
 import { CloudProjectDataIntegrationStatusEnum } from './CloudProjectDataIntegrationStatusEnum';
 
 export type CloudProjectDataIntegrationInfoMetadata = {
-  description: string;
-  startDate: Date;
-  status: CloudProjectDataIntegrationStatusEnum;
+  description?: string;
+  startDate?: Date;
+  status?: CloudProjectDataIntegrationStatusEnum;
 };

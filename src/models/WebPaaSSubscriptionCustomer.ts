@@ -3,8 +3,8 @@
 import { WebPaaSCustomerTypeEnum } from './WebPaaSCustomerTypeEnum';
 
 export type WebPaaSSubscriptionCustomer = {
-  accountName: string;
-  createdAt: Date;
-  customerId: string;
-  customerType: WebPaaSCustomerTypeEnum;
+  accountName?: string;
+  createdAt?: Date;
+  customerId?: string;
+  customerType?: WebPaaSCustomerTypeEnum;
 };

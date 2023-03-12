@@ -3,7 +3,7 @@
 import { OrderPrice } from './OrderPrice';
 
 export type CloudProjectSnapshotUsageDetail = {
-  price: OrderPrice;
-  region: string;
-  storedSize: number;
+  price?: OrderPrice;
+  region?: string;
+  storedSize?: number;
 };

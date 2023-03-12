@@ -3,12 +3,12 @@
 import { OrderPrice } from './OrderPrice';
 
 export type BillingWithdrawal = {
-  amount: OrderPrice;
-  country: string;
-  date: Date;
-  orderId: number;
-  password: string;
-  pdfUrl: string;
-  url: string;
-  withdrawalId: string;
+  amount?: OrderPrice;
+  country?: string;
+  date?: Date;
+  orderId?: number;
+  password?: string;
+  pdfUrl?: string;
+  url?: string;
+  withdrawalId?: string;
 };

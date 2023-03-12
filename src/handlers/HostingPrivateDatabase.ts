@@ -1,29 +1,29 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HostingPrivateDatabaseAvailableVersionEnum } from '../models/HostingPrivateDatabaseAvailableVersionEnum';
-import { HostingPrivateDatabaseWhitelist } from '../models/HostingPrivateDatabaseWhitelist';
 import { HostingPrivateDatabaseAvailableOrderCapacities } from '../models/HostingPrivateDatabaseAvailableOrderCapacities';
-import { HostingPrivateDatabaseDatabaseDump } from '../models/HostingPrivateDatabaseDatabaseDump';
-import { HostingPrivateDatabaseTaskStatusEnum } from '../models/HostingPrivateDatabaseTaskStatusEnum';
-import { HostingPrivateDatabaseOfferEnum } from '../models/HostingPrivateDatabaseOfferEnum';
-import { HostingPrivateDatabaseConfiguration } from '../models/HostingPrivateDatabaseConfiguration';
-import { HostingPrivateDatabaseGrant } from '../models/HostingPrivateDatabaseGrant';
-import { HostingPrivateDatabaseTemporaryLogsLink } from '../models/HostingPrivateDatabaseTemporaryLogsLink';
+import { ServicesService } from '../models/ServicesService';
 import { HostingPrivateDatabaseTaskFunctionEnum } from '../models/HostingPrivateDatabaseTaskFunctionEnum';
-import { HostingPrivateDatabaseCpuThrottle } from '../models/HostingPrivateDatabaseCpuThrottle';
-import { HostingPrivateDatabaseGrantGrantEnum } from '../models/HostingPrivateDatabaseGrantGrantEnum';
-import { HostingPrivateDatabaseService } from '../models/HostingPrivateDatabaseService';
-import { HostingPrivateDatabaseDump } from '../models/HostingPrivateDatabaseDump';
-import { HostingPrivateDatabaseTask } from '../models/HostingPrivateDatabaseTask';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { HostingPrivateDatabaseAvailableVersionEnum } from '../models/HostingPrivateDatabaseAvailableVersionEnum';
+import { HostingPrivateDatabaseTaskStatusEnum } from '../models/HostingPrivateDatabaseTaskStatusEnum';
+import { HostingPrivateDatabaseConfiguration } from '../models/HostingPrivateDatabaseConfiguration';
+import { HostingPrivateDatabaseDatabaseDump } from '../models/HostingPrivateDatabaseDatabaseDump';
 import { HostingPrivateDatabaseDatabaseExtension } from '../models/HostingPrivateDatabaseDatabaseExtension';
+import { HostingPrivateDatabaseUser } from '../models/HostingPrivateDatabaseUser';
+import { HostingPrivateDatabaseTask } from '../models/HostingPrivateDatabaseTask';
+import { HostingPrivateDatabaseWhitelist } from '../models/HostingPrivateDatabaseWhitelist';
+import { HostingPrivateDatabaseService } from '../models/HostingPrivateDatabaseService';
+import { HostingPrivateDatabaseGrantGrantEnum } from '../models/HostingPrivateDatabaseGrantGrantEnum';
+import { HostingPrivateDatabaseGrant } from '../models/HostingPrivateDatabaseGrant';
 import { HostingPrivateDatabaseDatabaseExtensionStatus } from '../models/HostingPrivateDatabaseDatabaseExtensionStatus';
 import { HostingPrivateDatabaseOom } from '../models/HostingPrivateDatabaseOom';
-import { HostingPrivateDatabaseDatabase } from '../models/HostingPrivateDatabaseDatabase';
-import { ServicesService } from '../models/ServicesService';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { HostingPrivateDatabaseWebhostingNetwork } from '../models/HostingPrivateDatabaseWebhostingNetwork';
+import { HostingPrivateDatabaseCpuThrottle } from '../models/HostingPrivateDatabaseCpuThrottle';
+import { HostingPrivateDatabaseDump } from '../models/HostingPrivateDatabaseDump';
+import { HostingPrivateDatabaseOfferEnum } from '../models/HostingPrivateDatabaseOfferEnum';
 import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { HostingPrivateDatabaseUser } from '../models/HostingPrivateDatabaseUser';
+import { HostingPrivateDatabaseTemporaryLogsLink } from '../models/HostingPrivateDatabaseTemporaryLogsLink';
+import { HostingPrivateDatabaseDatabase } from '../models/HostingPrivateDatabaseDatabase';
+import { HostingPrivateDatabaseWebhostingNetwork } from '../models/HostingPrivateDatabaseWebhostingNetwork';
 import OVHBase from '../ovh';
 
 class HostingPrivateDatabaseHandler {
@@ -34,7 +34,7 @@ class HostingPrivateDatabaseHandler {
   }
 
   /** List available services */
-  listPrivateDatabases = (): Promise<string[]> => {
+  listPrivateDatabase = (): Promise<string[]> => {
     return this.ovh.request('GET', '/hosting/privateDatabase');
   };
 
@@ -127,7 +127,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** List of privatesql CPU throttle */
-  listPrivateDatabaseCpuThrottlesByServiceName = (
+  listPrivateDatabaseCpuThrottleByServiceName = (
     serviceName: string
   ): Promise<HostingPrivateDatabaseCpuThrottle[]> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/cpuThrottle`);
@@ -346,7 +346,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** List of privatesql OOM kill */
-  listPrivateDatabaseOomsByServiceName = (
+  listPrivateDatabaseOomByServiceName = (
     serviceName: string
   ): Promise<HostingPrivateDatabaseOom[]> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/oom`);

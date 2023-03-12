@@ -3,6 +3,6 @@
 import { IpLoadBalancingAdditionalPortEnum } from './IpLoadBalancingAdditionalPortEnum';
 
 export type IpLoadBalancingIpLoadBalancingPort = {
-  dstPort: number;
-  srcPort: IpLoadBalancingAdditionalPortEnum;
+  dstPort?: number;
+  srcPort?: IpLoadBalancingAdditionalPortEnum;
 };

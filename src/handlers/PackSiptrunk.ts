@@ -12,7 +12,7 @@ class PackSiptrunkHandler {
   }
 
   /** List available services */
-  listSiptrunks = (): Promise<string[]> => {
+  listSiptrunk = (): Promise<string[]> => {
     return this.ovh.request('GET', '/pack/siptrunk');
   };
 

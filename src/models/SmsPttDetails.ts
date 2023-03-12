@@ -3,7 +3,7 @@
 import { SmsPttDurationTypeEnum } from './SmsPttDurationTypeEnum';
 
 export type SmsPttDetails = {
-  comment: string;
-  description: string;
-  duration: SmsPttDurationTypeEnum;
+  comment?: string;
+  description?: string;
+  duration?: SmsPttDurationTypeEnum;
 };

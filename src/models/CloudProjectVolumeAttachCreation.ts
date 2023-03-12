@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type CloudProjectVolumeAttachCreation = { instanceId?: string };
+export type CloudProjectVolumeAttachCreation = { instanceId: string };

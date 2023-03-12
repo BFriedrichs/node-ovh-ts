@@ -3,8 +3,8 @@
 import { PackXdslTaskStatusEnum } from './PackXdslTaskStatusEnum';
 
 export type PackXdslTask = {
-  function: string;
-  id: number;
-  status: PackXdslTaskStatusEnum;
-  updateDate: Date;
+  function?: string;
+  id?: number;
+  status?: PackXdslTaskStatusEnum;
+  updateDate?: Date;
 };

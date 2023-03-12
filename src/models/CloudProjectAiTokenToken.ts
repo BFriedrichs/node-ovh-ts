@@ -4,9 +4,9 @@ import { CloudProjectAiTokenTokenStatus } from './CloudProjectAiTokenTokenStatus
 import { CloudProjectAiTokenTokenSpec } from './CloudProjectAiTokenTokenSpec';
 
 export type CloudProjectAiTokenToken = {
-  createdAt: Date;
-  id: string;
-  spec: CloudProjectAiTokenTokenSpec;
-  status: CloudProjectAiTokenTokenStatus;
-  updatedAt: Date;
+  createdAt?: Date;
+  id?: string;
+  spec?: CloudProjectAiTokenTokenSpec;
+  status?: CloudProjectAiTokenTokenStatus;
+  updatedAt?: Date;
 };

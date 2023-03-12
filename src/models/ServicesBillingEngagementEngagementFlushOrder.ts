@@ -2,4 +2,4 @@
 
 import { OrderOrder } from './OrderOrder';
 
-export type ServicesBillingEngagementEngagementFlushOrder = { order: OrderOrder };
+export type ServicesBillingEngagementEngagementFlushOrder = { order?: OrderOrder };

@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { NichandleOvhSubsidiaryEnum } from './NichandleOvhSubsidiaryEnum';
 import { OrderCurrencyCodeEnum } from './OrderCurrencyCodeEnum';
+import { NichandleOvhSubsidiaryEnum } from './NichandleOvhSubsidiaryEnum';
 
 export type OrderCatalogPublicLocale = {
-  currencyCode: OrderCurrencyCodeEnum;
-  subsidiary: NichandleOvhSubsidiaryEnum;
-  taxRate: number;
+  currencyCode?: OrderCurrencyCodeEnum;
+  subsidiary?: NichandleOvhSubsidiaryEnum;
+  taxRate?: number;
 };

@@ -3,9 +3,9 @@
 import { NichandleChangeEmailTaskStateEnum } from './NichandleChangeEmailTaskStateEnum';
 
 export type NichandleEmailChangeTask = {
-  dateDone: Date | null;
-  dateRequest: Date;
-  id: number;
-  newEmail: string;
-  state: NichandleChangeEmailTaskStateEnum;
+  dateDone?: Date | null;
+  dateRequest?: Date;
+  id?: number;
+  newEmail?: string;
+  state?: NichandleChangeEmailTaskStateEnum;
 };

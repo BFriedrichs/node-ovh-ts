@@ -1,15 +1,15 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderCatalogPublicLocale } from './OrderCatalogPublicLocale';
+import { OrderCatalogPublicDedicatedServerProduct } from './OrderCatalogPublicDedicatedServerProduct';
 import { OrderCatalogPublicAddonFamily } from './OrderCatalogPublicAddonFamily';
 import { OrderCatalogPublicPlan } from './OrderCatalogPublicPlan';
-import { OrderCatalogPublicDedicatedServerProduct } from './OrderCatalogPublicDedicatedServerProduct';
+import { OrderCatalogPublicLocale } from './OrderCatalogPublicLocale';
 
 export type OrderCatalogPublicDedicatedServerCatalog = {
-  addons: OrderCatalogPublicPlan[];
-  catalogId: number;
-  locale: OrderCatalogPublicLocale;
-  planFamilies: OrderCatalogPublicAddonFamily[];
-  plans: OrderCatalogPublicPlan[];
-  products: OrderCatalogPublicDedicatedServerProduct[];
+  addons?: OrderCatalogPublicPlan[];
+  catalogId?: number;
+  locale?: OrderCatalogPublicLocale;
+  planFamilies?: OrderCatalogPublicAddonFamily[];
+  plans?: OrderCatalogPublicPlan[];
+  products?: OrderCatalogPublicDedicatedServerProduct[];
 };

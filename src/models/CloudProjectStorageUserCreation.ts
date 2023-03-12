@@ -3,6 +3,6 @@
 import { CloudStorageRightEnum } from './CloudStorageRightEnum';
 
 export type CloudProjectStorageUserCreation = {
-  description: string | null;
-  right?: CloudStorageRightEnum;
+  description?: string | null;
+  right: CloudStorageRightEnum;
 };

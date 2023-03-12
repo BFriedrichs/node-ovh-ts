@@ -2,4 +2,4 @@
 
 import { DedicatedCloudSecurityOptionStateEnum } from './DedicatedCloudSecurityOptionStateEnum';
 
-export type DedicatedCloudSecurityOption = { state: DedicatedCloudSecurityOptionStateEnum };
+export type DedicatedCloudSecurityOption = { state?: DedicatedCloudSecurityOptionStateEnum };

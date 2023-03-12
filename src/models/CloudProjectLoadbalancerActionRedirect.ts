@@ -3,7 +3,7 @@
 import { CloudProjectLoadbalancerActionRedirectStatusCodeEnum } from './CloudProjectLoadbalancerActionRedirectStatusCodeEnum';
 
 export type CloudProjectLoadbalancerActionRedirect = {
-  location?: string;
-  name?: string;
-  statusCode?: CloudProjectLoadbalancerActionRedirectStatusCodeEnum;
+  location: string;
+  name: string;
+  statusCode: CloudProjectLoadbalancerActionRedirectStatusCodeEnum;
 };

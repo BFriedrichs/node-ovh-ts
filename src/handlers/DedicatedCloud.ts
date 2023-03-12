@@ -1,87 +1,87 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { DedicatedCloudRobot } from '../models/DedicatedCloudRobot';
+import { DedicatedCloudUserLogoutPolicyEnum } from '../models/DedicatedCloudUserLogoutPolicyEnum';
+import { DedicatedCloudFilerProfile } from '../models/DedicatedCloudFilerProfile';
+import { DedicatedCloudObjectRight } from '../models/DedicatedCloudObjectRight';
+import { DedicatedCloudRestorePoint } from '../models/DedicatedCloudRestorePoint';
+import { DedicatedCloudTwoFAWhitelist } from '../models/DedicatedCloudTwoFAWhitelist';
+import { DedicatedCloudHost } from '../models/DedicatedCloudHost';
+import { DedicatedCloudUserAccessPolicyEnum } from '../models/DedicatedCloudUserAccessPolicyEnum';
+import { DedicatedCloudHostProfile } from '../models/DedicatedCloudHostProfile';
+import { DedicatedCloudTaskStateEnum } from '../models/DedicatedCloudTaskStateEnum';
 import { DedicatedCloudAllowedNetwork } from '../models/DedicatedCloudAllowedNetwork';
-import { DedicatedCloudPccZone } from '../models/DedicatedCloudPccZone';
+import { DedicatedCloudBackupBackupDaysEnum } from '../models/DedicatedCloudBackupBackupDaysEnum';
+import { DedicatedCloudSecurityOption } from '../models/DedicatedCloudSecurityOption';
+import { DedicatedCloudDisasterRecoveryZertoProtectedVm } from '../models/DedicatedCloudDisasterRecoveryZertoProtectedVm';
+import { DedicatedCloudHds } from '../models/DedicatedCloudHds';
+import { DedicatedCloudCommercialRange } from '../models/DedicatedCloudCommercialRange';
+import { DedicatedCloudRightUserObjectRightTypeEnum } from '../models/DedicatedCloudRightUserObjectRightTypeEnum';
+import { DedicatedCloudBackupOptimizeProxies } from '../models/DedicatedCloudBackupOptimizeProxies';
+import { DedicatedCloudPccStockProfile } from '../models/DedicatedCloudPccStockProfile';
+import { DedicatedCloudBackupJob } from '../models/DedicatedCloudBackupJob';
+import { DedicatedCloudHostStockProfile } from '../models/DedicatedCloudHostStockProfile';
+import { DedicatedCloudVMEncryption } from '../models/DedicatedCloudVMEncryption';
+import { DedicatedCloudDisasterRecoveryProfile } from '../models/DedicatedCloudDisasterRecoveryProfile';
+import { DedicatedCloudBackupRepository } from '../models/DedicatedCloudBackupRepository';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { DedicatedCloudRightNetworkRoleEnum } from '../models/DedicatedCloudRightNetworkRoleEnum';
+import { DedicatedCloudPrivateGateway } from '../models/DedicatedCloudPrivateGateway';
 import { VrackTask } from '../models/VrackTask';
+import { DedicatedCloudFederationAccessNetwork } from '../models/DedicatedCloudFederationAccessNetwork';
+import { DedicatedCloudOs } from '../models/DedicatedCloudOs';
+import { DedicatedCloudVendorObjectTypeEnum } from '../models/DedicatedCloudVendorObjectTypeEnum';
+import { DedicatedCloudOptionCompatibility } from '../models/DedicatedCloudOptionCompatibility';
+import { DedicatedCloudBackupOfferTypeEnum } from '../models/DedicatedCloudBackupOfferTypeEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { DedicatedCloudFiler } from '../models/DedicatedCloudFiler';
+import { DedicatedCloudVrops } from '../models/DedicatedCloudVrops';
+import { DedicatedCloudFederation } from '../models/DedicatedCloudFederation';
+import { ServicesService } from '../models/ServicesService';
+import { DedicatedCloudServicePack } from '../models/DedicatedCloudServicePack';
+import { DedicatedCloudBackup } from '../models/DedicatedCloudBackup';
+import { DedicatedCloudFilerNodeTypeEnum } from '../models/DedicatedCloudFilerNodeTypeEnum';
+import { DedicatedCloudFilerHourlyConsumption } from '../models/DedicatedCloudFilerHourlyConsumption';
+import { DedicatedCloudDatacenter } from '../models/DedicatedCloudDatacenter';
+import { DedicatedCloudVendor } from '../models/DedicatedCloudVendor';
+import { DedicatedCloudSecurityOptionSecurityOptionEnum } from '../models/DedicatedCloudSecurityOptionSecurityOptionEnum';
+import { DedicatedCloudRight } from '../models/DedicatedCloudRight';
+import { DedicatedCloudPccZone } from '../models/DedicatedCloudPccZone';
+import { DedicatedCloudHostHourlyConsumption } from '../models/DedicatedCloudHostHourlyConsumption';
 import { DedicatedCloudResourceNewPrices } from '../models/DedicatedCloudResourceNewPrices';
-import { DedicatedCloudSecurityOptionCompatibilityMatrixEntry } from '../models/DedicatedCloudSecurityOptionCompatibilityMatrixEntry';
+import { DedicatedCloudIp } from '../models/DedicatedCloudIp';
+import { DedicatedCloudVcenter } from '../models/DedicatedCloudVcenter';
+import { DedicatedCloudVlan } from '../models/DedicatedCloudVlan';
+import { DedicatedCloudHcx } from '../models/DedicatedCloudHcx';
+import { DedicatedCloudNsxt } from '../models/DedicatedCloudNsxt';
+import { DedicatedCloudVMEncryptionAccessNetwork } from '../models/DedicatedCloudVMEncryptionAccessNetwork';
+import { DedicatedCloudUser } from '../models/DedicatedCloudUser';
+import { DedicatedCloudCapabilities } from '../models/DedicatedCloudCapabilities';
+import { VrackDedicatedCloud } from '../models/VrackDedicatedCloud';
+import { DedicatedCloudHostResilience } from '../models/DedicatedCloudHostResilience';
+import { DedicatedCloudIpDetails } from '../models/DedicatedCloudIpDetails';
 import { DedicatedCloudRightVmNetworkRoleEnum } from '../models/DedicatedCloudRightVmNetworkRoleEnum';
 import { DedicatedCloudDedicatedCloud } from '../models/DedicatedCloudDedicatedCloud';
-import { DedicatedCloudFilerNodeTypeEnum } from '../models/DedicatedCloudFilerNodeTypeEnum';
-import { DedicatedCloudIpCountriesEnum } from '../models/DedicatedCloudIpCountriesEnum';
-import { DedicatedCloudNsx } from '../models/DedicatedCloudNsx';
-import { DedicatedCloudBackupJob } from '../models/DedicatedCloudBackupJob';
-import { DedicatedCloudReleaseEnum } from '../models/DedicatedCloudReleaseEnum';
-import { DedicatedCloudFiler } from '../models/DedicatedCloudFiler';
-import { DedicatedCloudHcx } from '../models/DedicatedCloudHcx';
-import { DedicatedCloudVMEncryptionAccessNetwork } from '../models/DedicatedCloudVMEncryptionAccessNetwork';
-import { DedicatedCloudDisasterRecoveryProfile } from '../models/DedicatedCloudDisasterRecoveryProfile';
-import { DedicatedCloudIp } from '../models/DedicatedCloudIp';
-import { DedicatedCloudRightNetworkRoleEnum } from '../models/DedicatedCloudRightNetworkRoleEnum';
-import { DedicatedCloudFederation } from '../models/DedicatedCloudFederation';
-import { DedicatedCloudDisasterRecoveryZertoProtectedVm } from '../models/DedicatedCloudDisasterRecoveryZertoProtectedVm';
-import { DedicatedCloudVMEncryption } from '../models/DedicatedCloudVMEncryption';
-import { DedicatedCloudTaskStateEnum } from '../models/DedicatedCloudTaskStateEnum';
-import { DedicatedCloudFilerHourlyConsumption } from '../models/DedicatedCloudFilerHourlyConsumption';
-import { DedicatedCloudSecurityOptionDependenciesTree } from '../models/DedicatedCloudSecurityOptionDependenciesTree';
-import { DedicatedCloudFilerProfile } from '../models/DedicatedCloudFilerProfile';
-import { DedicatedCloudVrops } from '../models/DedicatedCloudVrops';
-import { DedicatedCloudPccStockProfile } from '../models/DedicatedCloudPccStockProfile';
-import { DedicatedCloudVcenter } from '../models/DedicatedCloudVcenter';
-import { DedicatedCloudCommercialRange } from '../models/DedicatedCloudCommercialRange';
-import { DedicatedCloudOptionCompatibility } from '../models/DedicatedCloudOptionCompatibility';
-import { DedicatedCloudCapabilities } from '../models/DedicatedCloudCapabilities';
-import { DedicatedCloudHds } from '../models/DedicatedCloudHds';
-import { DedicatedCloudHost } from '../models/DedicatedCloudHost';
-import { DedicatedCloudSecurityOption } from '../models/DedicatedCloudSecurityOption';
-import { DedicatedCloudBackupBackupCapabilities } from '../models/DedicatedCloudBackupBackupCapabilities';
-import { DedicatedCloudBackup } from '../models/DedicatedCloudBackup';
-import { DedicatedCloudBackupOptimizeProxies } from '../models/DedicatedCloudBackupOptimizeProxies';
-import { DedicatedCloudBackupBackupDaysEnum } from '../models/DedicatedCloudBackupBackupDaysEnum';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { VrackDedicatedCloud } from '../models/VrackDedicatedCloud';
-import { DedicatedCloudServicePackStatus } from '../models/DedicatedCloudServicePackStatus';
-import { DedicatedCloudUserAccessPolicyEnum } from '../models/DedicatedCloudUserAccessPolicyEnum';
-import { DedicatedCloudTask } from '../models/DedicatedCloudTask';
-import { DedicatedCloudRightUserObjectRightTypeEnum } from '../models/DedicatedCloudRightUserObjectRightTypeEnum';
-import { DedicatedCloudObjectRight } from '../models/DedicatedCloudObjectRight';
-import { DedicatedCloudHipaa } from '../models/DedicatedCloudHipaa';
-import { DedicatedCloudBackupOfferTypeEnum } from '../models/DedicatedCloudBackupOfferTypeEnum';
-import { DedicatedCloudPrivateGateway } from '../models/DedicatedCloudPrivateGateway';
-import { DedicatedCloudNsxt } from '../models/DedicatedCloudNsxt';
-import { DedicatedCloudVendorOvhId } from '../models/DedicatedCloudVendorOvhId';
-import { DedicatedCloudRight } from '../models/DedicatedCloudRight';
-import { DedicatedCloudUser } from '../models/DedicatedCloudUser';
-import { DedicatedCloudHostStockProfile } from '../models/DedicatedCloudHostStockProfile';
-import { DedicatedCloudServicePack } from '../models/DedicatedCloudServicePack';
-import { DedicatedCloudCluster } from '../models/DedicatedCloudCluster';
-import { DedicatedCloudFilerLocation } from '../models/DedicatedCloudFilerLocation';
-import { ServicesService } from '../models/ServicesService';
-import { DedicatedCloudZpoolStockProfile } from '../models/DedicatedCloudZpoolStockProfile';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { DedicatedCloudHostLocation } from '../models/DedicatedCloudHostLocation';
+import { DedicatedCloudSecurityOptionDependenciesTree } from '../models/DedicatedCloudSecurityOptionDependenciesTree';
+import { DedicatedCloudReleaseEnum } from '../models/DedicatedCloudReleaseEnum';
 import { DedicatedCloudPciDss } from '../models/DedicatedCloudPciDss';
-import { DedicatedCloudVendorObjectTypeEnum } from '../models/DedicatedCloudVendorObjectTypeEnum';
-import { DedicatedCloudTwoFAWhitelist } from '../models/DedicatedCloudTwoFAWhitelist';
+import { DedicatedCloudNsx } from '../models/DedicatedCloudNsx';
+import { DedicatedCloudHipaa } from '../models/DedicatedCloudHipaa';
 import { DedicatedCloudVm } from '../models/DedicatedCloudVm';
-import { DedicatedCloudRightRightEnum } from '../models/DedicatedCloudRightRightEnum';
-import { DedicatedCloudDatacenter } from '../models/DedicatedCloudDatacenter';
-import { DedicatedCloudIpDetails } from '../models/DedicatedCloudIpDetails';
-import { DedicatedCloudVlan } from '../models/DedicatedCloudVlan';
-import { DedicatedCloudRobot } from '../models/DedicatedCloudRobot';
-import { DedicatedCloudHostHourlyConsumption } from '../models/DedicatedCloudHostHourlyConsumption';
-import { DedicatedCloudHostProfile } from '../models/DedicatedCloudHostProfile';
-import { DedicatedCloudSecurityOptionSecurityOptionEnum } from '../models/DedicatedCloudSecurityOptionSecurityOptionEnum';
-import { DedicatedCloudHostResilience } from '../models/DedicatedCloudHostResilience';
-import { DedicatedCloudFederationAccessNetwork } from '../models/DedicatedCloudFederationAccessNetwork';
-import { DedicatedCloudUserLogoutPolicyEnum } from '../models/DedicatedCloudUserLogoutPolicyEnum';
-import { DedicatedCloudCompliantRanges } from '../models/DedicatedCloudCompliantRanges';
 import { DedicatedCloudPasswordPolicy } from '../models/DedicatedCloudPasswordPolicy';
-import { DedicatedCloudVendor } from '../models/DedicatedCloudVendor';
+import { DedicatedCloudBackupBackupCapabilities } from '../models/DedicatedCloudBackupBackupCapabilities';
+import { DedicatedCloudIpCountriesEnum } from '../models/DedicatedCloudIpCountriesEnum';
+import { DedicatedCloudSecurityOptionCompatibilityMatrixEntry } from '../models/DedicatedCloudSecurityOptionCompatibilityMatrixEntry';
+import { DedicatedCloudServicePackStatus } from '../models/DedicatedCloudServicePackStatus';
+import { DedicatedCloudVendorOvhId } from '../models/DedicatedCloudVendorOvhId';
+import { DedicatedCloudRightRightEnum } from '../models/DedicatedCloudRightRightEnum';
+import { DedicatedCloudZpoolStockProfile } from '../models/DedicatedCloudZpoolStockProfile';
+import { DedicatedCloudFilerLocation } from '../models/DedicatedCloudFilerLocation';
+import { DedicatedCloudCluster } from '../models/DedicatedCloudCluster';
+import { DedicatedCloudCompliantRanges } from '../models/DedicatedCloudCompliantRanges';
+import { DedicatedCloudTask } from '../models/DedicatedCloudTask';
 import { DedicatedCloudMetricsToken } from '../models/DedicatedCloudMetricsToken';
-import { DedicatedCloudOs } from '../models/DedicatedCloudOs';
-import { DedicatedCloudRestorePoint } from '../models/DedicatedCloudRestorePoint';
-import { DedicatedCloudBackupRepository } from '../models/DedicatedCloudBackupRepository';
 import OVHBase from '../ovh';
 
 class DedicatedCloudHandler {
@@ -92,12 +92,12 @@ class DedicatedCloudHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicatedCloud');
   };
 
   /** List of commercial Ranges available in a Dedicated Cloud */
-  listCommercialRanges = (): Promise<string[]> => {
+  listCommercialRange = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicatedCloud/commercialRange');
   };
 
@@ -109,7 +109,7 @@ class DedicatedCloudHandler {
   };
 
   /** List of locations available in a Dedicated Cloud */
-  listLocations = (): Promise<string[]> => {
+  listLocation = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicatedCloud/location');
   };
 

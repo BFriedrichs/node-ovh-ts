@@ -3,7 +3,7 @@
 import { StorageNetAppSnapshotPolicySchedule } from './StorageNetAppSnapshotPolicySchedule';
 
 export type StorageNetAppSnapshotPolicyRule = {
-  copies?: number | null;
-  prefix?: string | null;
-  schedule?: StorageNetAppSnapshotPolicySchedule | null;
+  copies: number | null;
+  prefix: string | null;
+  schedule: StorageNetAppSnapshotPolicySchedule | null;
 };

@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { WebPaaSOfferEnum } from '../models/WebPaaSOfferEnum';
+import { WebPaaSSubscriptionProjectAddCustomer } from '../models/WebPaaSSubscriptionProjectAddCustomer';
 import { WebPaaSCapabilities } from '../models/WebPaaSCapabilities';
 import { WebPaaSSubscription } from '../models/WebPaaSSubscription';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { ServicesService } from '../models/ServicesService';
-import { WebPaaSSubscriptionProjectAddCustomer } from '../models/WebPaaSSubscriptionProjectAddCustomer';
 import { WebPaaSSubscriptionCustomer } from '../models/WebPaaSSubscriptionCustomer';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import OVHBase from '../ovh';
 
 class WebPaaSHandler {
@@ -23,7 +23,7 @@ class WebPaaSHandler {
   };
 
   /** List your subscriptions */
-  listSubscriptions = (): Promise<string[]> => {
+  listSubscription = (): Promise<string[]> => {
     return this.ovh.request('GET', '/webPaaS/subscription');
   };
 
@@ -50,7 +50,7 @@ class WebPaaSHandler {
   };
 
   /** List customers added to a project */
-  listSubscriptionCustomersByServiceName = (
+  listSubscriptionCustomerByServiceName = (
     serviceName: string
   ): Promise<WebPaaSSubscriptionCustomer[]> => {
     return this.ovh.request('GET', `/webPaaS/subscription/${serviceName}/customer`);

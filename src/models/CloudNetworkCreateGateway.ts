@@ -4,7 +4,7 @@ import { CloudNetworkCreateNetworkForGatewaySummary } from './CloudNetworkCreate
 import { CloudNetworkGatewayModelEnum } from './CloudNetworkGatewayModelEnum';
 
 export type CloudNetworkCreateGateway = {
-  model?: CloudNetworkGatewayModelEnum;
-  name?: string;
-  network?: CloudNetworkCreateNetworkForGatewaySummary;
+  model: CloudNetworkGatewayModelEnum;
+  name: string;
+  network: CloudNetworkCreateNetworkForGatewaySummary;
 };

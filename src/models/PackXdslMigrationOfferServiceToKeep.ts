@@ -3,6 +3,6 @@
 import { PackXdslServiceNameEnum } from './PackXdslServiceNameEnum';
 
 export type PackXdslMigrationOfferServiceToKeep = {
-  service: string;
-  type: PackXdslServiceNameEnum;
+  service?: string;
+  type?: PackXdslServiceNameEnum;
 };

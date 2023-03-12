@@ -3,7 +3,7 @@
 import { DedicatedDatacenterEnum } from './DedicatedDatacenterEnum';
 
 export type DedicatedCloudHostLocation = {
-  datacenter: DedicatedDatacenterEnum;
-  rack: string;
-  room: string;
+  datacenter?: DedicatedDatacenterEnum;
+  rack?: string;
+  room?: string;
 };

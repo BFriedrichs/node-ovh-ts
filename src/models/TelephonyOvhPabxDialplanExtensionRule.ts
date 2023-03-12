@@ -3,9 +3,9 @@
 import { TelephonyOvhPabxDialplanExtensionRuleActionEnum } from './TelephonyOvhPabxDialplanExtensionRuleActionEnum';
 
 export type TelephonyOvhPabxDialplanExtensionRule = {
-  action: TelephonyOvhPabxDialplanExtensionRuleActionEnum;
-  actionParam: string | null;
-  negativeAction: boolean;
-  position: number;
-  ruleId: number;
+  action?: TelephonyOvhPabxDialplanExtensionRuleActionEnum;
+  actionParam?: string | null;
+  negativeAction?: boolean;
+  position?: number;
+  ruleId?: number;
 };

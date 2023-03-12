@@ -4,8 +4,8 @@ import { CloudStackSection } from './CloudStackSection';
 import { CloudStackContent } from './CloudStackContent';
 
 export type CloudStackInstructionGuide = {
-  content: CloudStackContent[];
-  language: string;
-  sections: CloudStackSection[];
-  title: string;
+  content?: CloudStackContent[];
+  language?: string;
+  sections?: CloudStackSection[];
+  title?: string;
 };

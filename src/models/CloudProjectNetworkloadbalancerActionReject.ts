@@ -3,6 +3,6 @@
 import { CloudProjectNetworkloadbalancerActionRejectTypeEnum } from './CloudProjectNetworkloadbalancerActionRejectTypeEnum';
 
 export type CloudProjectNetworkloadbalancerActionReject = {
-  name?: string;
-  type?: CloudProjectNetworkloadbalancerActionRejectTypeEnum;
+  name: string;
+  type: CloudProjectNetworkloadbalancerActionRejectTypeEnum;
 };

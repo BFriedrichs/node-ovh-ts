@@ -3,6 +3,6 @@
 import { CloudProjectDataIntegrationMetadataDescription } from './CloudProjectDataIntegrationMetadataDescription';
 
 export type CloudProjectDataIntegrationMetadata = {
-  metadata: CloudProjectDataIntegrationMetadataDescription[];
-  table_name: string;
+  metadata?: CloudProjectDataIntegrationMetadataDescription[];
+  table_name?: string;
 };

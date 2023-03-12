@@ -2,4 +2,4 @@
 
 import { DedicatedStorageSnapshotEnum } from './DedicatedStorageSnapshotEnum';
 
-export type DedicatedNashaSnapshot = { snapshotType: DedicatedStorageSnapshotEnum };
+export type DedicatedNashaSnapshot = { snapshotType?: DedicatedStorageSnapshotEnum };

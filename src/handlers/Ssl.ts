@@ -13,7 +13,7 @@ class SslHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/ssl');
   };
 

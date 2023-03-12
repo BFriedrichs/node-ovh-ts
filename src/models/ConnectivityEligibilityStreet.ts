@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type ConnectivityEligibilityStreet = { streetCode: string; streetName: string };
+export type ConnectivityEligibilityStreet = { streetCode?: string; streetName?: string };

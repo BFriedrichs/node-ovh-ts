@@ -3,9 +3,9 @@
 import { AuthApplicationStatusEnum } from './AuthApplicationStatusEnum';
 
 export type AuthApiApplication = {
-  applicationId: number;
-  applicationKey: string;
-  description: string;
-  name: string;
-  status: AuthApplicationStatusEnum;
+  applicationId?: number;
+  applicationKey?: string;
+  description?: string;
+  name?: string;
+  status?: AuthApplicationStatusEnum;
 };

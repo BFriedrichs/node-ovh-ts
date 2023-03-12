@@ -3,8 +3,8 @@
 import { OrderPrice } from './OrderPrice';
 
 export type BillingVoucherAccount = {
-  balance: OrderPrice;
-  lastUpdate: Date;
-  openDate: Date;
-  voucherAccountId: string;
+  balance?: OrderPrice;
+  lastUpdate?: Date;
+  openDate?: Date;
+  voucherAccountId?: string;
 };

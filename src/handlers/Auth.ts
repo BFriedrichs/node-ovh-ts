@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { AuthApiCredential } from '../models/AuthApiCredential';
+import { AuthApiCredentialRequestParams } from '../models/AuthApiCredentialRequestParams';
 import { AuthApiCredentialRequest } from '../models/AuthApiCredentialRequest';
 import { AuthDetails } from '../models/AuthDetails';
-import { AuthApiCredentialRequestParams } from '../models/AuthApiCredentialRequestParams';
+import { AuthApiCredential } from '../models/AuthApiCredential';
 import OVHBase from '../ovh';
 
 class AuthHandler {

@@ -3,7 +3,7 @@
 import { IpLoadbalancingVrackStateEnum } from './IpLoadbalancingVrackStateEnum';
 
 export type IpLoadbalancingVrackInformation = {
-  state: IpLoadbalancingVrackStateEnum;
-  task: number[];
-  vrackName: string | null;
+  state?: IpLoadbalancingVrackStateEnum;
+  task?: number[];
+  vrackName?: string | null;
 };

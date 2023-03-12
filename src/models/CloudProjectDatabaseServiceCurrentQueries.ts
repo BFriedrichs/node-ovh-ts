@@ -3,5 +3,5 @@
 import { CloudProjectDatabaseServiceCurrentqueriesQuery } from './CloudProjectDatabaseServiceCurrentqueriesQuery';
 
 export type CloudProjectDatabaseServiceCurrentQueries = {
-  queries: CloudProjectDatabaseServiceCurrentqueriesQuery[];
+  queries?: CloudProjectDatabaseServiceCurrentqueriesQuery[];
 };

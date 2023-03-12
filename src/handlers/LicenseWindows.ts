@@ -2,15 +2,15 @@
 
 import { LicenseOptionLabel } from '../models/LicenseOptionLabel';
 import { LicenseOption } from '../models/LicenseOption';
-import { LicenseWindowsWindows } from '../models/LicenseWindowsWindows';
+import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicenseWindowsSqlVersionEnum } from '../models/LicenseWindowsSqlVersionEnum';
+import { LicenseTask } from '../models/LicenseTask';
+import { ServicesService } from '../models/ServicesService';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { LicenseWindowsOrderConfiguration } from '../models/LicenseWindowsOrderConfiguration';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { LicenseTask } from '../models/LicenseTask';
-import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
 import { LicenseActionType } from '../models/LicenseActionType';
-import { LicenseWindowsSqlVersionEnum } from '../models/LicenseWindowsSqlVersionEnum';
-import { ServicesService } from '../models/ServicesService';
+import { LicenseWindowsWindows } from '../models/LicenseWindowsWindows';
 import OVHBase from '../ovh';
 
 class LicenseWindowsHandler {

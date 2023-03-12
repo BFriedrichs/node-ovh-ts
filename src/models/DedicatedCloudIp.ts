@@ -3,12 +3,12 @@
 import { DedicatedCloudBlockRegisterEnum } from './DedicatedCloudBlockRegisterEnum';
 
 export type DedicatedCloudIp = {
-  country: string;
-  description: string;
-  gateway: string;
-  netmask: string;
-  network: string;
-  networkName: string;
-  register: DedicatedCloudBlockRegisterEnum;
-  vlanNumber: number;
+  country?: string;
+  description?: string;
+  gateway?: string;
+  netmask?: string;
+  network?: string;
+  networkName?: string;
+  register?: DedicatedCloudBlockRegisterEnum;
+  vlanNumber?: number;
 };

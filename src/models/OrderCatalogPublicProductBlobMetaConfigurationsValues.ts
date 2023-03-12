@@ -3,6 +3,6 @@
 import { OrderCatalogPublicProductBlob } from './OrderCatalogPublicProductBlob';
 
 export type OrderCatalogPublicProductBlobMetaConfigurationsValues = {
-  blobs: OrderCatalogPublicProductBlob;
-  value: string;
+  blobs?: OrderCatalogPublicProductBlob;
+  value?: string;
 };

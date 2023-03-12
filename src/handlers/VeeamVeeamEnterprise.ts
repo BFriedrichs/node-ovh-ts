@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { VeeamEnterpriseTaskStateEnum } from '../models/VeeamEnterpriseTaskStateEnum';
 import { VeeamVeeamEnterpriseTask } from '../models/VeeamVeeamEnterpriseTask';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { VeeamVeeamEnterpriseAccount } from '../models/VeeamVeeamEnterpriseAccount';
 import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { ServicesService } from '../models/ServicesService';
+import { VeeamVeeamEnterpriseAccount } from '../models/VeeamVeeamEnterpriseAccount';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { VeeamEnterpriseTaskStateEnum } from '../models/VeeamEnterpriseTaskStateEnum';
 import OVHBase from '../ovh';
 
 class VeeamVeeamEnterpriseHandler {
@@ -16,7 +16,7 @@ class VeeamVeeamEnterpriseHandler {
   }
 
   /** List available services */
-  listVeeamEnterprises = (): Promise<string[]> => {
+  listVeeamEnterprise = (): Promise<string[]> => {
     return this.ovh.request('GET', '/veeam/veeamEnterprise');
   };
 

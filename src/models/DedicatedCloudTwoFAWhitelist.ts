@@ -3,9 +3,9 @@
 import { DedicatedCloudTwoFAWhitelistStateEnum } from './DedicatedCloudTwoFAWhitelistStateEnum';
 
 export type DedicatedCloudTwoFAWhitelist = {
-  cidrNetmask: number;
-  description: string;
-  id: number;
-  ip: string;
-  state: DedicatedCloudTwoFAWhitelistStateEnum;
+  cidrNetmask?: number;
+  description?: string;
+  id?: number;
+  ip?: string;
+  state?: DedicatedCloudTwoFAWhitelistStateEnum;
 };

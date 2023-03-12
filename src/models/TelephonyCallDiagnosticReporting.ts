@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type TelephonyCallDiagnosticReporting = { message: string };
+export type TelephonyCallDiagnosticReporting = { message?: string };

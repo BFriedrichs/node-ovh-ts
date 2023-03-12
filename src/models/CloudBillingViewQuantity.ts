@@ -2,4 +2,4 @@
 
 import { CloudBillingViewUnitQuantityEnum } from './CloudBillingViewUnitQuantityEnum';
 
-export type CloudBillingViewQuantity = { unit: CloudBillingViewUnitQuantityEnum; value: number };
+export type CloudBillingViewQuantity = { unit?: CloudBillingViewUnitQuantityEnum; value?: number };

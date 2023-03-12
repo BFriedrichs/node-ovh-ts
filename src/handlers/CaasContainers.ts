@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesService } from '../models/ServicesService';
-import { DockerSlaveFlavor } from '../models/DockerSlaveFlavor';
 import { DockerStackCustomSslMessage } from '../models/DockerStackCustomSslMessage';
-import { DockerStackRegistryCredentials } from '../models/DockerStackRegistryCredentials';
-import { DockerStackCustomSsl } from '../models/DockerStackCustomSsl';
 import { DockerFrameworkPassword } from '../models/DockerFrameworkPassword';
-import { DockerStack } from '../models/DockerStack';
-import { StackFrameworkApplication } from '../models/StackFrameworkApplication';
-import { StackFramework } from '../models/StackFramework';
-import { DockerSlave } from '../models/DockerSlave';
 import { DockerStackInputCustomSsl } from '../models/DockerStackInputCustomSsl';
+import { DockerStack } from '../models/DockerStack';
+import { DockerSlave } from '../models/DockerSlave';
+import { ServicesService } from '../models/ServicesService';
+import { StackFrameworkApplication } from '../models/StackFrameworkApplication';
+import { DockerStackCustomSsl } from '../models/DockerStackCustomSsl';
+import { DockerStackRegistryCredentials } from '../models/DockerStackRegistryCredentials';
+import { StackFramework } from '../models/StackFramework';
+import { DockerSlaveFlavor } from '../models/DockerSlaveFlavor';
 import OVHBase from '../ovh';
 
 class CaasContainersHandler {

@@ -4,10 +4,10 @@ import { LicenseStateEnum } from './LicenseStateEnum';
 import { LicenseCloudLinuxVersionEnum } from './LicenseCloudLinuxVersionEnum';
 
 export type LicenseCloudLinuxCloudLinux = {
-  creation: Date;
-  domain: string;
-  ip: string;
-  licenseId: string;
-  status: LicenseStateEnum;
-  version: LicenseCloudLinuxVersionEnum;
+  creation?: Date;
+  domain?: string;
+  ip?: string;
+  licenseId?: string;
+  status?: LicenseStateEnum;
+  version?: LicenseCloudLinuxVersionEnum;
 };

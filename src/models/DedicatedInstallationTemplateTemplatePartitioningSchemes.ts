@@ -1,6 +1,6 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 export type DedicatedInstallationTemplateTemplatePartitioningSchemes = {
-  name: string;
-  priority: number;
+  name?: string;
+  priority?: number;
 };

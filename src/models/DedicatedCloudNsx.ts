@@ -2,4 +2,4 @@
 
 import { DedicatedCloudOptionStateEnum } from './DedicatedCloudOptionStateEnum';
 
-export type DedicatedCloudNsx = { state: DedicatedCloudOptionStateEnum; url: string | null };
+export type DedicatedCloudNsx = { state?: DedicatedCloudOptionStateEnum; url?: string | null };

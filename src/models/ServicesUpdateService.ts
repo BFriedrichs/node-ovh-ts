@@ -4,7 +4,7 @@ import { ServicesUpdateServiceRenew } from './ServicesUpdateServiceRenew';
 import { ServicesExpandedTerminationPolicyEnum } from './ServicesExpandedTerminationPolicyEnum';
 
 export type ServicesUpdateService = {
-  displayName: string | null;
-  renew: ServicesUpdateServiceRenew | null;
-  terminationPolicy: ServicesExpandedTerminationPolicyEnum | null;
+  displayName?: string | null;
+  renew?: ServicesUpdateServiceRenew | null;
+  terminationPolicy?: ServicesExpandedTerminationPolicyEnum | null;
 };

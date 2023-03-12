@@ -4,9 +4,9 @@ import { TelephonyTypeEnum } from './TelephonyTypeEnum';
 import { TelephonyTypeServiceEnum } from './TelephonyTypeServiceEnum';
 
 export type TelephonyOvhPabx = {
-  description: string;
-  featureType: TelephonyTypeEnum;
-  isCCS: boolean;
-  serviceName: string;
-  serviceType: TelephonyTypeServiceEnum;
+  description?: string;
+  featureType?: TelephonyTypeEnum;
+  isCCS?: boolean;
+  serviceName?: string;
+  serviceType?: TelephonyTypeServiceEnum;
 };

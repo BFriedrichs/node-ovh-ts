@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type CloudInstanceAutoBackup = { cron: string; rotation: number };
+export type CloudInstanceAutoBackup = { cron?: string; rotation?: number };

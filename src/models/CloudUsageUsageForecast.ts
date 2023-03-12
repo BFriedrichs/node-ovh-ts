@@ -7,10 +7,10 @@ import { CloudBillingViewUsedCredits } from './CloudBillingViewUsedCredits';
 import { CloudBillingViewTypedResources } from './CloudBillingViewTypedResources';
 
 export type CloudUsageUsageForecast = {
-  hourlyUsage: CloudBillingViewHourlyResources | null;
-  lastUpdate: Date;
-  monthlyUsage: CloudBillingViewMonthlyResources | null;
-  period: CloudUsagePeriod;
-  resourcesUsage: CloudBillingViewTypedResources[] | null;
-  usableCredits: CloudBillingViewUsedCredits | null;
+  hourlyUsage?: CloudBillingViewHourlyResources | null;
+  lastUpdate?: Date;
+  monthlyUsage?: CloudBillingViewMonthlyResources | null;
+  period?: CloudUsagePeriod;
+  resourcesUsage?: CloudBillingViewTypedResources[] | null;
+  usableCredits?: CloudBillingViewUsedCredits | null;
 };

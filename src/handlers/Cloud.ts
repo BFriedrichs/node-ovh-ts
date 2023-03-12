@@ -1,322 +1,322 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudInstancegroupInstanceGroup } from '../models/CloudInstancegroupInstanceGroup';
-import { CloudAclTypeEnum } from '../models/CloudAclTypeEnum';
-import { CloudProjectDatabaseIpRestriction } from '../models/CloudProjectDatabaseIpRestriction';
-import { CloudContainerRegistryPlan } from '../models/CloudContainerRegistryPlan';
-import { CloudProjectDatabaseServiceUserWithRoles } from '../models/CloudProjectDatabaseServiceUserWithRoles';
-import { CloudProjectAiLogs } from '../models/CloudProjectAiLogs';
-import { CloudInstanceMetricsTypeEnum } from '../models/CloudInstanceMetricsTypeEnum';
-import { CloudProjectInstanceReinstallCreation } from '../models/CloudProjectInstanceReinstallCreation';
-import { CloudProjectDatabasePostgresqlConnectionPool } from '../models/CloudProjectDatabasePostgresqlConnectionPool';
-import { CloudMigrationMigration } from '../models/CloudMigrationMigration';
 import { CloudLoadbalancingL7PolicyUpdate } from '../models/CloudLoadbalancingL7PolicyUpdate';
-import { CloudProjectAiVolumeDataSync } from '../models/CloudProjectAiVolumeDataSync';
-import { CloudProjectNetworkPrivateUpdate } from '../models/CloudProjectNetworkPrivateUpdate';
-import { CloudAlerting } from '../models/CloudAlerting';
-import { CloudProjectAiCapabilitiesPreset } from '../models/CloudProjectAiCapabilitiesPreset';
-import { CloudRoleRole } from '../models/CloudRoleRole';
-import { CloudInstanceInterfaceInterface } from '../models/CloudInstanceInterfaceInterface';
-import { CloudProjectKubeOpenIdConnectUpdate } from '../models/CloudProjectKubeOpenIdConnectUpdate';
-import { CloudProjectActivateMonthlyBillingCreation } from '../models/CloudProjectActivateMonthlyBillingCreation';
-import { CloudProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationProperty } from '../models/CloudProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationProperty';
-import { CloudUserS3CredentialsWithSecret } from '../models/CloudUserS3CredentialsWithSecret';
-import { CloudProjectAiOrderEnum } from '../models/CloudProjectAiOrderEnum';
-import { CloudContainerRegistryPlanUpdate } from '../models/CloudContainerRegistryPlanUpdate';
-import { CloudProjectVolumeDetachCreation } from '../models/CloudProjectVolumeDetachCreation';
-import { CloudProjectKubeUpdateCreation } from '../models/CloudProjectKubeUpdateCreation';
-import { CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty } from '../models/CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty';
-import { CloudProjectIoStreamStats } from '../models/CloudProjectIoStreamStats';
-import { CloudStorageContainerObjectTempURL } from '../models/CloudStorageContainerObjectTempURL';
-import { CloudProjectDatabaseM3dbUserWithPassword } from '../models/CloudProjectDatabaseM3dbUserWithPassword';
-import { CloudSshkeySshKey } from '../models/CloudSshkeySshKey';
-import { CloudOrderRuleAvailability } from '../models/CloudOrderRuleAvailability';
-import { CloudOperation } from '../models/CloudOperation';
-import { CloudPrice } from '../models/CloudPrice';
-import { CloudProjectDatabaseOpensearchUser } from '../models/CloudProjectDatabaseOpensearchUser';
-import { CloudIpFailoverIp } from '../models/CloudIpFailoverIp';
-import { CloudProjectStorageCreation } from '../models/CloudProjectStorageCreation';
-import { CloudProjectContainerRegistryCreation } from '../models/CloudProjectContainerRegistryCreation';
-import { CloudProjectDatabaseServiceUserCreation } from '../models/CloudProjectDatabaseServiceUserCreation';
-import { CloudProjectDatabaseKafkaPermissions } from '../models/CloudProjectDatabaseKafkaPermissions';
-import { CloudProjectInstanceRescueModeCreation } from '../models/CloudProjectInstanceRescueModeCreation';
-import { CloudVolumeBackupVolumeBackupCreation } from '../models/CloudVolumeBackupVolumeBackupCreation';
-import { CloudProjectKubeCustomization } from '../models/CloudProjectKubeCustomization';
-import { CloudProjectKubeRestart } from '../models/CloudProjectKubeRestart';
-import { CloudLabAgreements } from '../models/CloudLabAgreements';
-import { CloudProjectStorageCorsCreation } from '../models/CloudProjectStorageCorsCreation';
-import { CloudProjectAiServingBackend } from '../models/CloudProjectAiServingBackend';
-import { CloudLoadbalancingAssociateFloatingIp } from '../models/CloudLoadbalancingAssociateFloatingIp';
-import { CloudProjectInstanceRebootCreation } from '../models/CloudProjectInstanceRebootCreation';
-import { CloudProjectInstanceInterfaceCreation } from '../models/CloudProjectInstanceInterfaceCreation';
-import { CloudProjectKubeNodeCreation } from '../models/CloudProjectKubeNodeCreation';
-import { CloudProjectDatabaseMysqlQueryStatistics } from '../models/CloudProjectDatabaseMysqlQueryStatistics';
-import { CloudProjectKubeUpdate } from '../models/CloudProjectKubeUpdate';
-import { CloudProjectDatabaseM3dbUserCreation } from '../models/CloudProjectDatabaseM3dbUserCreation';
-import { CloudProjectUserRoleCreation } from '../models/CloudProjectUserRoleCreation';
-import { CloudStorageAddContainerPolicy } from '../models/CloudStorageAddContainerPolicy';
-import { CloudProjectDatabaseServiceIntegration } from '../models/CloudProjectDatabaseServiceIntegration';
-import { CloudProjectVolumeCreation } from '../models/CloudProjectVolumeCreation';
-import { CloudProjectIoStream } from '../models/CloudProjectIoStream';
-import { CloudProjectAiAppAppStateEnum } from '../models/CloudProjectAiAppAppStateEnum';
-import { CloudLab } from '../models/CloudLab';
-import { CloudProjectLoadbalancerConfigurationCreation } from '../models/CloudProjectLoadbalancerConfigurationCreation';
-import { CloudProjectDataProcessingNotebookCapability } from '../models/CloudProjectDataProcessingNotebookCapability';
-import { CloudCredit } from '../models/CloudCredit';
-import { CloudProjectAiServingPresetImage } from '../models/CloudProjectAiServingPresetImage';
-import { CloudInstanceRescueAdminPassword } from '../models/CloudInstanceRescueAdminPassword';
-import { CloudStoragePresignedURL } from '../models/CloudStoragePresignedURL';
-import { CloudProjectDatabaseM3dbUser } from '../models/CloudProjectDatabaseM3dbUser';
-import { CloudProject } from '../models/CloudProject';
-import { CloudProjectAiCommand } from '../models/CloudProjectAiCommand';
-import { CloudProjectKubeIpRestrictionUpsert } from '../models/CloudProjectKubeIpRestrictionUpsert';
-import { CloudProjectDataProcessingAuthorizationStatus } from '../models/CloudProjectDataProcessingAuthorizationStatus';
-import { CloudAlertingDelayEnum } from '../models/CloudAlertingDelayEnum';
-import { CloudNetworkGatewayCreateInterface } from '../models/CloudNetworkGatewayCreateInterface';
-import { CloudProjectSubnet } from '../models/CloudProjectSubnet';
-import { CloudProjectDataProcessingNotebookNotebook } from '../models/CloudProjectDataProcessingNotebookNotebook';
-import { CloudStackStack } from '../models/CloudStackStack';
-import { CloudStoragePresignedURLInput } from '../models/CloudStoragePresignedURLInput';
-import { CloudProjectEligibilityInfo } from '../models/CloudProjectEligibilityInfo';
-import { CloudProjectUserRoleUpdate } from '../models/CloudProjectUserRoleUpdate';
-import { CloudProjectStorageUserCreation } from '../models/CloudProjectStorageUserCreation';
-import { CloudContainerRegistryRegistry } from '../models/CloudContainerRegistryRegistry';
-import { CloudProjectIoStreamTokenCreation } from '../models/CloudProjectIoStreamTokenCreation';
-import { CloudLoadbalancingUpdateHealthMonitor } from '../models/CloudLoadbalancingUpdateHealthMonitor';
-import { CloudStorageContainer } from '../models/CloudStorageContainer';
-import { CloudProjectDatabaseKafkaAcl } from '../models/CloudProjectDatabaseKafkaAcl';
-import { CloudNetworkGatewayInterface } from '../models/CloudNetworkGatewayInterface';
-import { CloudVolumeBackupVolumeBackup } from '../models/CloudVolumeBackupVolumeBackup';
-import { CloudProjectLoadbalancerConfiguration } from '../models/CloudProjectLoadbalancerConfiguration';
-import { CloudAuthenticationToken } from '../models/CloudAuthenticationToken';
-import { CloudProjectDatabaseTemporaryWriteDeadline } from '../models/CloudProjectDatabaseTemporaryWriteDeadline';
-import { CloudProjectAiNotebookFramework } from '../models/CloudProjectAiNotebookFramework';
-import { CloudProjectAiNotebookNotebookSpecInput } from '../models/CloudProjectAiNotebookNotebookSpecInput';
-import { CloudProjectAiCapabilitiesFeatures } from '../models/CloudProjectAiCapabilitiesFeatures';
-import { CloudProjectRegionQuotaCreation } from '../models/CloudProjectRegionQuotaCreation';
-import { CloudContainerRegistryUser } from '../models/CloudContainerRegistryUser';
-import { CloudProjectDatabaseServiceUserWithRolesCreation } from '../models/CloudProjectDatabaseServiceUserWithRolesCreation';
-import { CloudRegion } from '../models/CloudRegion';
-import { CloudProjectAiServingFlavor } from '../models/CloudProjectAiServingFlavor';
-import { CloudAlertingAlert } from '../models/CloudAlertingAlert';
-import { CloudRoleRoles } from '../models/CloudRoleRoles';
-import { CloudProjectDatabaseKafkaConnectConnectorCreation } from '../models/CloudProjectDatabaseKafkaConnectConnectorCreation';
-import { CloudLoadbalancingPoolCreate } from '../models/CloudLoadbalancingPoolCreate';
-import { CloudUsageUsageCurrent } from '../models/CloudUsageUsageCurrent';
-import { CloudProjectVolumeSnapshotCreation } from '../models/CloudProjectVolumeSnapshotCreation';
-import { CloudProjectDatabaseServiceReplication } from '../models/CloudProjectDatabaseServiceReplication';
-import { CloudProjectDataProcessingJobLogs } from '../models/CloudProjectDataProcessingJobLogs';
-import { CloudProjectDatabaseM3dbNamespaceCreation } from '../models/CloudProjectDatabaseM3dbNamespaceCreation';
-import { CloudLoadbalancingPoolMemberUpdate } from '../models/CloudLoadbalancingPoolMemberUpdate';
-import { CloudNetworkGateway } from '../models/CloudNetworkGateway';
-import { CloudProjectAiTokenToken } from '../models/CloudProjectAiTokenToken';
-import { CloudUsageUsageHistoryDetail } from '../models/CloudUsageUsageHistoryDetail';
-import { CloudProjectProductNameEnum } from '../models/CloudProjectProductNameEnum';
-import { CloudProjectLoadBalancerCreation } from '../models/CloudProjectLoadBalancerCreation';
-import { CloudNetworkCreateGateway } from '../models/CloudNetworkCreateGateway';
-import { CloudProjectVolumeUpsizeCreation } from '../models/CloudProjectVolumeUpsizeCreation';
-import { CloudBackup } from '../models/CloudBackup';
-import { CloudProjectNetwork } from '../models/CloudProjectNetwork';
-import { CloudProjectUserTokenCreation } from '../models/CloudProjectUserTokenCreation';
 import { CloudProjectDatabaseServiceRestore } from '../models/CloudProjectDatabaseServiceRestore';
-import { CloudProjectDatabaseRedisUserWithPassword } from '../models/CloudProjectDatabaseRedisUserWithPassword';
-import { CloudProjectKubeUpdatePolicyUpdate } from '../models/CloudProjectKubeUpdatePolicyUpdate';
-import { CloudUserRCloneServiceEnum } from '../models/CloudUserRCloneServiceEnum';
-import { CloudProjectDatabaseKafkaUserAccess } from '../models/CloudProjectDatabaseKafkaUserAccess';
-import { CloudProjectDatabasePostgresqlQueryStatistics } from '../models/CloudProjectDatabasePostgresqlQueryStatistics';
-import { CloudProjectDatabaseServiceLogEntry } from '../models/CloudProjectDatabaseServiceLogEntry';
-import { CloudProjectDatabaseKafkaConnectConnectorTask } from '../models/CloudProjectDatabaseKafkaConnectConnectorTask';
-import { CloudProjectAiNotebookBackup } from '../models/CloudProjectAiNotebookBackup';
-import { CloudProjectAiJobJobSpecInput } from '../models/CloudProjectAiJobJobSpecInput';
-import { CloudKubeKubeconfig } from '../models/CloudKubeKubeconfig';
-import { CloudStorageContainerCreation } from '../models/CloudStorageContainerCreation';
-import { CloudProjectDatabaseServiceMaintenance } from '../models/CloudProjectDatabaseServiceMaintenance';
-import { CloudForecastProjectForecast } from '../models/CloudForecastProjectForecast';
-import { CloudProjectAiRegistryRegistry } from '../models/CloudProjectAiRegistryRegistry';
-import { ServicesService } from '../models/ServicesService';
-import { CloudProjectDatabaseOpensearchUserCreation } from '../models/CloudProjectDatabaseOpensearchUserCreation';
-import { CloudStorageContainerDetail } from '../models/CloudStorageContainerDetail';
-import { CloudProjectInstanceBulkCreation } from '../models/CloudProjectInstanceBulkCreation';
-import { CloudKubeOpenIdConnect } from '../models/CloudKubeOpenIdConnect';
-import { CloudProjectDatabaseRedisUser } from '../models/CloudProjectDatabaseRedisUser';
-import { CloudProjectAiNotebookNotebook } from '../models/CloudProjectAiNotebookNotebook';
-import { CloudImageOSTypeEnum } from '../models/CloudImageOSTypeEnum';
-import { CloudInstanceApplicationAccess } from '../models/CloudInstanceApplicationAccess';
-import { CloudNetworkSubnet } from '../models/CloudNetworkSubnet';
-import { CloudProjectDatabaseKafkaConnectConnector } from '../models/CloudProjectDatabaseKafkaConnectConnector';
-import { CloudProjectKubeNodePoolCreation } from '../models/CloudProjectKubeNodePoolCreation';
-import { CloudProjectDatabaseCapabilities } from '../models/CloudProjectDatabaseCapabilities';
-import { CloudProjectInstanceGroupCreation } from '../models/CloudProjectInstanceGroupCreation';
-import { CloudProjectAiAppAppSpecInput } from '../models/CloudProjectAiAppAppSpecInput';
-import { CloudInstanceInstance } from '../models/CloudInstanceInstance';
-import { CloudProjectAiVolumeDataSyncSpec } from '../models/CloudProjectAiVolumeDataSyncSpec';
-import { CloudNetworkUpdateGateway } from '../models/CloudNetworkUpdateGateway';
-import { CloudProjectDatabaseServiceMetricPeriodEnum } from '../models/CloudProjectDatabaseServiceMetricPeriodEnum';
-import { CloudProjectDatabaseKafkaConnectCapabilitiesConnector } from '../models/CloudProjectDatabaseKafkaConnectCapabilitiesConnector';
-import { CloudProjectDatabaseAvailability } from '../models/CloudProjectDatabaseAvailability';
-import { CloudProjectAiServingMetrics } from '../models/CloudProjectAiServingMetrics';
-import { CloudProjectDatabaseOpensearchIndex } from '../models/CloudProjectDatabaseOpensearchIndex';
-import { CloudProjectDataProcessingCapability } from '../models/CloudProjectDataProcessingCapability';
-import { CloudProjectInstanceSnapshotCreation } from '../models/CloudProjectInstanceSnapshotCreation';
-import { CloudQuotaStorageQuotaUpdate } from '../models/CloudQuotaStorageQuotaUpdate';
-import { CloudProjectDatabaseServiceUser } from '../models/CloudProjectDatabaseServiceUser';
-import { CloudVolumeBackupVolumeBackupRestore } from '../models/CloudVolumeBackupVolumeBackupRestore';
-import { CloudProjectAiServingModelDefinition } from '../models/CloudProjectAiServingModelDefinition';
-import { CloudLoadbalancingCreateFloatingIp } from '../models/CloudLoadbalancingCreateFloatingIp';
-import { CloudInstanceMetricsPeriodEnum } from '../models/CloudInstanceMetricsPeriodEnum';
+import { CloudRoleRoles } from '../models/CloudRoleRoles';
+import { CloudProjectNetworkPrivateRegionCreation } from '../models/CloudProjectNetworkPrivateRegionCreation';
+import { CloudLoadbalancingPoolMember } from '../models/CloudLoadbalancingPoolMember';
+import { CloudProjectDatabaseServiceCurrentQueries } from '../models/CloudProjectDatabaseServiceCurrentQueries';
 import { CloudProjectDatabaseServiceCertificates } from '../models/CloudProjectDatabaseServiceCertificates';
+import { CloudInstanceRescueAdminPassword } from '../models/CloudInstanceRescueAdminPassword';
+import { CloudProjectKubeNodeCreation } from '../models/CloudProjectKubeNodeCreation';
+import { CloudProjectStorageUserCreation } from '../models/CloudProjectStorageUserCreation';
+import { CloudProjectProductAgreements } from '../models/CloudProjectProductAgreements';
+import { CloudContainerRegistryRegistry } from '../models/CloudContainerRegistryRegistry';
+import { CloudKeymanagerSecret } from '../models/CloudKeymanagerSecret';
+import { CloudLabAgreements } from '../models/CloudLabAgreements';
+import { CloudProjectInstanceUpdate } from '../models/CloudProjectInstanceUpdate';
+import { CloudProjectDataProcessingJob } from '../models/CloudProjectDataProcessingJob';
+import { CloudIpFailoverIp } from '../models/CloudIpFailoverIp';
+import { CloudProjectDataProcessingNotebookCapability } from '../models/CloudProjectDataProcessingNotebookCapability';
+import { CloudProjectContainerRegistryUpdate } from '../models/CloudProjectContainerRegistryUpdate';
+import { CloudProjectIpFailoverAttachCreation } from '../models/CloudProjectIpFailoverAttachCreation';
+import { CloudProjectKubeNodePoolUpdate } from '../models/CloudProjectKubeNodePoolUpdate';
+import { CloudUsageUsageHistory } from '../models/CloudUsageUsageHistory';
+import { CloudLoadbalancingUpdateHealthMonitor } from '../models/CloudLoadbalancingUpdateHealthMonitor';
+import { CloudProjectIoStreamCreation } from '../models/CloudProjectIoStreamCreation';
+import { CloudNetworkGatewayCreateInterface } from '../models/CloudNetworkGatewayCreateInterface';
+import { CloudProjectAiRegistryRegistryUpdateInput } from '../models/CloudProjectAiRegistryRegistryUpdateInput';
+import { CloudProjectVolumeSnapshotCreation } from '../models/CloudProjectVolumeSnapshotCreation';
+import { CloudKeymanagerCertificate } from '../models/CloudKeymanagerCertificate';
+import { CloudProjectDatabaseKafkaTopic } from '../models/CloudProjectDatabaseKafkaTopic';
+import { CloudProjectNetworkPrivateSubnetCreation } from '../models/CloudProjectNetworkPrivateSubnetCreation';
+import { CloudUsageUsageHistoryDetail } from '../models/CloudUsageUsageHistoryDetail';
+import { CloudProjectAiNotebookFramework } from '../models/CloudProjectAiNotebookFramework';
+import { CloudProjectAiJobPresetImage } from '../models/CloudProjectAiJobPresetImage';
+import { CloudForecastProjectForecast } from '../models/CloudForecastProjectForecast';
+import { CloudProjectDatabaseM3dbUserWithPassword } from '../models/CloudProjectDatabaseM3dbUserWithPassword';
+import { CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum } from '../models/CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum';
+import { CloudBackup } from '../models/CloudBackup';
+import { CloudProjectAiAuthorizationStatus } from '../models/CloudProjectAiAuthorizationStatus';
+import { CloudProjectDatabaseOpensearchPattern } from '../models/CloudProjectDatabaseOpensearchPattern';
+import { CloudQuotaAllowedQuota } from '../models/CloudQuotaAllowedQuota';
+import { CloudQuotaStorageQuota } from '../models/CloudQuotaStorageQuota';
+import { CloudProjectBill } from '../models/CloudProjectBill';
+import { CloudAclTypeEnum } from '../models/CloudAclTypeEnum';
+import { CloudProjectDatabaseServiceNode } from '../models/CloudProjectDatabaseServiceNode';
+import { CloudLoadbalancingAssociateFloatingIp } from '../models/CloudLoadbalancingAssociateFloatingIp';
+import { CloudNetworkCreateGateway } from '../models/CloudNetworkCreateGateway';
+import { CloudOrderOrder } from '../models/CloudOrderOrder';
+import { CloudProjectAiServingNamespace } from '../models/CloudProjectAiServingNamespace';
+import { CloudProjectSubnet } from '../models/CloudProjectSubnet';
+import { CloudStorageContainerAccess } from '../models/CloudStorageContainerAccess';
+import { CloudLoadbalancingCreateListener } from '../models/CloudLoadbalancingCreateListener';
+import { CloudProjectDatabaseM3dbUser } from '../models/CloudProjectDatabaseM3dbUser';
+import { CloudStorageContainer } from '../models/CloudStorageContainer';
+import { CloudProjectAiVolumeDataSyncSpec } from '../models/CloudProjectAiVolumeDataSyncSpec';
+import { CloudProjectAiCapabilitiesPreset } from '../models/CloudProjectAiCapabilitiesPreset';
+import { CloudProjectInstanceReinstallCreation } from '../models/CloudProjectInstanceReinstallCreation';
+import { CloudProjectAiJobJob } from '../models/CloudProjectAiJobJob';
+import { CloudLoadbalancingLoadbalancerCreate } from '../models/CloudLoadbalancingLoadbalancerCreate';
+import { CloudLoadbalancingCreateFloatingIp } from '../models/CloudLoadbalancingCreateFloatingIp';
+import { CloudProjectAiNotebookBackup } from '../models/CloudProjectAiNotebookBackup';
+import { CloudVolumeVolume } from '../models/CloudVolumeVolume';
+import { CloudLoadbalancingPool } from '../models/CloudLoadbalancingPool';
+import { CloudProjectKubeUpdatePolicyUpdate } from '../models/CloudProjectKubeUpdatePolicyUpdate';
+import { CloudPrice } from '../models/CloudPrice';
+import { CloudProjectDatabaseServiceMaintenance } from '../models/CloudProjectDatabaseServiceMaintenance';
+import { CloudProjectAiCapabilitiesProjectQuotas } from '../models/CloudProjectAiCapabilitiesProjectQuotas';
+import { CloudLoadbalancingLoadBalancer } from '../models/CloudLoadbalancingLoadBalancer';
+import { CloudUsageUsageForecast } from '../models/CloudUsageUsageForecast';
+import { CloudKubeEtcdUsage } from '../models/CloudKubeEtcdUsage';
+import { CloudProjectDatabaseKafkaConnectConnectorTask } from '../models/CloudProjectDatabaseKafkaConnectConnectorTask';
+import { CloudProjectDatabaseServiceNodeCreation } from '../models/CloudProjectDatabaseServiceNodeCreation';
+import { CloudProjectIoStreamSubscriptionStats } from '../models/CloudProjectIoStreamSubscriptionStats';
+import { CloudProjectRegionWorkflowBackupCreation } from '../models/CloudProjectRegionWorkflowBackupCreation';
+import { CloudStackStack } from '../models/CloudStackStack';
+import { CloudKubeResponseMessage } from '../models/CloudKubeResponseMessage';
+import { CloudUserUserDetail } from '../models/CloudUserUserDetail';
+import { CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty } from '../models/CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty';
+import { CloudProjectAiNotebookNotebookStateEnum } from '../models/CloudProjectAiNotebookNotebookStateEnum';
+import { CloudContainerRegistryPlanUpdate } from '../models/CloudContainerRegistryPlanUpdate';
+import { CloudProjectStorageUpdate } from '../models/CloudProjectStorageUpdate';
+import { CloudSshkeySshKey } from '../models/CloudSshkeySshKey';
+import { CloudProjectDatabaseServiceReplicationCreation } from '../models/CloudProjectDatabaseServiceReplicationCreation';
+import { CloudProjectKubeCustomization } from '../models/CloudProjectKubeCustomization';
+import { CloudProjectDataProcessingAuthorizationStatus } from '../models/CloudProjectDataProcessingAuthorizationStatus';
+import { CloudProjectDatabaseServiceUserWithPasswordAndRoles } from '../models/CloudProjectDatabaseServiceUserWithPasswordAndRoles';
+import { CloudNetworkGatewayInterface } from '../models/CloudNetworkGatewayInterface';
+import { CloudLoadbalancingListener } from '../models/CloudLoadbalancingListener';
+import { CloudProjectAiServingModelDefinition } from '../models/CloudProjectAiServingModelDefinition';
+import { CloudProjectDatabaseOpensearchUserWithPassword } from '../models/CloudProjectDatabaseOpensearchUserWithPassword';
+import { CloudInstanceInstance } from '../models/CloudInstanceInstance';
+import { CloudProjectFloatingIp } from '../models/CloudProjectFloatingIp';
+import { CloudProjectAiServingRegistryResponse } from '../models/CloudProjectAiServingRegistryResponse';
+import { CloudProjectAiOrderEnum } from '../models/CloudProjectAiOrderEnum';
+import { CloudProjectAiAppAppImageInput } from '../models/CloudProjectAiAppAppImageInput';
+import { CloudUserOpenrc } from '../models/CloudUserOpenrc';
+import { CloudImageOSTypeEnum } from '../models/CloudImageOSTypeEnum';
+import { CloudKubeAuditLogs } from '../models/CloudKubeAuditLogs';
+import { CloudProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationProperty } from '../models/CloudProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationProperty';
+import { CloudProjectInstanceRescueModeCreation } from '../models/CloudProjectInstanceRescueModeCreation';
+import { CloudProjectDatabaseRedisUserWithPassword } from '../models/CloudProjectDatabaseRedisUserWithPassword';
+import { CloudProjectDatabaseServiceUser } from '../models/CloudProjectDatabaseServiceUser';
+import { CloudProjectKubeCreation } from '../models/CloudProjectKubeCreation';
+import { CloudInstanceInstanceMetrics } from '../models/CloudInstanceInstanceMetrics';
+import { CloudContainerRegistryPlan } from '../models/CloudContainerRegistryPlan';
+import { CloudProjectStoragePublicUrlCreation } from '../models/CloudProjectStoragePublicUrlCreation';
 import { CloudProjectKubeOpenIdConnectCreation } from '../models/CloudProjectKubeOpenIdConnectCreation';
 import { CloudFlavorFlavor } from '../models/CloudFlavorFlavor';
-import { CloudProjectStoragePublicUrlCreation } from '../models/CloudProjectStoragePublicUrlCreation';
-import { CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum } from '../models/CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum';
-import { CloudProjectNewProjectInfo } from '../models/CloudProjectNewProjectInfo';
-import { CloudLoadbalancingPoolUpdate } from '../models/CloudLoadbalancingPoolUpdate';
-import { CloudUserRclone } from '../models/CloudUserRclone';
-import { CloudLoadbalancingFlavor } from '../models/CloudLoadbalancingFlavor';
-import { CloudLoadbalancingLoadbalancerCreate } from '../models/CloudLoadbalancingLoadbalancerCreate';
-import { CloudProjectDatabaseServiceCurrentQueries } from '../models/CloudProjectDatabaseServiceCurrentQueries';
-import { CloudLoadbalancingHealthMonitor } from '../models/CloudLoadbalancingHealthMonitor';
-import { CloudQuotaQuotas } from '../models/CloudQuotaQuotas';
-import { CloudProjectIoStreamSubscriptionCreation } from '../models/CloudProjectIoStreamSubscriptionCreation';
-import { CloudUserUserDetail } from '../models/CloudUserUserDetail';
-import { CloudProjectAiServingRegistry } from '../models/CloudProjectAiServingRegistry';
-import { CloudLoadbalancingL7Policy } from '../models/CloudLoadbalancingL7Policy';
-import { CloudVolumeVolume } from '../models/CloudVolumeVolume';
-import { CloudProjectAiServingModel } from '../models/CloudProjectAiServingModel';
-import { CloudProjectDatabaseIpRestrictionCreation } from '../models/CloudProjectDatabaseIpRestrictionCreation';
-import { CloudNetworkCreateNetwork } from '../models/CloudNetworkCreateNetwork';
-import { CloudStorageContainerAccess } from '../models/CloudStorageContainerAccess';
-import { CloudKubeNode } from '../models/CloudKubeNode';
-import { CloudProjectDatabaseCapabilitiesIntegration } from '../models/CloudProjectDatabaseCapabilitiesIntegration';
-import { CloudOrderOrder } from '../models/CloudOrderOrder';
-import { CloudCapabilitiesAvailability } from '../models/CloudCapabilitiesAvailability';
-import { CloudProjectAiAppApp } from '../models/CloudProjectAiAppApp';
-import { CloudProjectDatabaseServiceReplicationCreation } from '../models/CloudProjectDatabaseServiceReplicationCreation';
-import { CloudVrack } from '../models/CloudVrack';
-import { CloudLoadbalancingListener } from '../models/CloudLoadbalancingListener';
-import { CloudProjectMigrationUpdate } from '../models/CloudProjectMigrationUpdate';
-import { CloudInstanceInstanceMetrics } from '../models/CloudInstanceInstanceMetrics';
-import { CloudQuotaAllowedQuota } from '../models/CloudQuotaAllowedQuota';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { CloudVolumeBackupVolumeCreationFromBackup } from '../models/CloudVolumeBackupVolumeCreationFromBackup';
-import { CloudProjectProductAgreements } from '../models/CloudProjectProductAgreements';
-import { CloudKeymanagerCertificate } from '../models/CloudKeymanagerCertificate';
-import { CloudProjectDatabaseRedisUserCreation } from '../models/CloudProjectDatabaseRedisUserCreation';
-import { CloudProjectAiNotebookEditor } from '../models/CloudProjectAiNotebookEditor';
-import { CloudProjectAiAppAppImageInput } from '../models/CloudProjectAiAppAppImageInput';
-import { CloudProjectAiNotebookNotebookUpdate } from '../models/CloudProjectAiNotebookNotebookUpdate';
-import { CloudProjectBill } from '../models/CloudProjectBill';
-import { CloudKubeEtcdUsage } from '../models/CloudKubeEtcdUsage';
-import { CloudProjectDataProcessingMetrics } from '../models/CloudProjectDataProcessingMetrics';
-import { CloudProjectAiServingRegistryResponse } from '../models/CloudProjectAiServingRegistryResponse';
-import { CloudProjectDatabaseOpensearchPermissions } from '../models/CloudProjectDatabaseOpensearchPermissions';
-import { CloudLoadbalancingPool } from '../models/CloudLoadbalancingPool';
-import { CloudVolumeSnapshot } from '../models/CloudVolumeSnapshot';
-import { CloudProjectDatabaseOpensearchUserWithPassword } from '../models/CloudProjectDatabaseOpensearchUserWithPassword';
-import { CloudProjectAiServingToken } from '../models/CloudProjectAiServingToken';
-import { CloudProjectIoStreamRegion } from '../models/CloudProjectIoStreamRegion';
-import { CloudProjectIoStreamCreation } from '../models/CloudProjectIoStreamCreation';
-import { CloudProjectContainerRegistryUsersCreation } from '../models/CloudProjectContainerRegistryUsersCreation';
-import { CloudProjectIoStreamSubscription } from '../models/CloudProjectIoStreamSubscription';
-import { CloudProjectAiCapabilitiesProjectQuotas } from '../models/CloudProjectAiCapabilitiesProjectQuotas';
-import { CloudProjectDatabaseKafkaConnectCapabilitiesConnectorTransform } from '../models/CloudProjectDatabaseKafkaConnectCapabilitiesConnectorTransform';
-import { CloudProjectDatabaseKafkaService } from '../models/CloudProjectDatabaseKafkaService';
-import { CloudLoadbalancingCreateListener } from '../models/CloudLoadbalancingCreateListener';
-import { CloudUsageUsageForecast } from '../models/CloudUsageUsageForecast';
-import { CloudProjectLoadBalancer } from '../models/CloudProjectLoadBalancer';
-import { CloudProjectInstanceCreation } from '../models/CloudProjectInstanceCreation';
-import { CloudProjectInstanceResizeCreation } from '../models/CloudProjectInstanceResizeCreation';
-import { CloudProjectDatabaseServiceCreation } from '../models/CloudProjectDatabaseServiceCreation';
-import { CloudProjectAiServingFeatures } from '../models/CloudProjectAiServingFeatures';
-import { CloudProjectNewProject } from '../models/CloudProjectNewProject';
-import { CloudProjectIoStreamSubscriptionStats } from '../models/CloudProjectIoStreamSubscriptionStats';
-import { CloudColdArchiveContainer } from '../models/CloudColdArchiveContainer';
-import { CloudProjectNetworkPrivateRegionCreation } from '../models/CloudProjectNetworkPrivateRegionCreation';
-import { CloudStorageQuota } from '../models/CloudStorageQuota';
-import { CloudProjectNetworkPrivateCreation } from '../models/CloudProjectNetworkPrivateCreation';
-import { CloudProjectFloatingIp } from '../models/CloudProjectFloatingIp';
-import { CloudProjectDatabaseOpensearchService } from '../models/CloudProjectDatabaseOpensearchService';
-import { CloudKubeCluster } from '../models/CloudKubeCluster';
-import { CloudProjectUserCreation } from '../models/CloudProjectUserCreation';
-import { CloudProjectAiJobJob } from '../models/CloudProjectAiJobJob';
-import { CloudProjectAiServingNamespaceCreation } from '../models/CloudProjectAiServingNamespaceCreation';
-import { CloudKubeRegionEnum } from '../models/CloudKubeRegionEnum';
-import { CloudUserUser } from '../models/CloudUserUser';
-import { CloudProjectKubeCreation } from '../models/CloudProjectKubeCreation';
-import { CloudKubeAuditLogs } from '../models/CloudKubeAuditLogs';
-import { CloudIpCloudIp } from '../models/CloudIpCloudIp';
-import { CloudProjectDataProcessingNotebookNotebookSpec } from '../models/CloudProjectDataProcessingNotebookNotebookSpec';
-import { CloudProjectAiAuthorizationStatus } from '../models/CloudProjectAiAuthorizationStatus';
-import { CloudInstanceInstanceDetail } from '../models/CloudInstanceInstanceDetail';
-import { CloudKubeNodePool } from '../models/CloudKubeNodePool';
-import { CloudProjectProjectUsage } from '../models/CloudProjectProjectUsage';
-import { CloudProjectDatabasePostgresqlConnectionPoolCreation } from '../models/CloudProjectDatabasePostgresqlConnectionPoolCreation';
-import { CloudLoadbalancingL7Rule } from '../models/CloudLoadbalancingL7Rule';
-import { CloudProjectVolumeAttachCreation } from '../models/CloudProjectVolumeAttachCreation';
-import { CloudProjectAiNotebookNotebookStateEnum } from '../models/CloudProjectAiNotebookNotebookStateEnum';
-import { CloudLoadbalancingLoadBalancer } from '../models/CloudLoadbalancingLoadBalancer';
-import { CloudProjectKubeNodePoolUpdate } from '../models/CloudProjectKubeNodePoolUpdate';
-import { CloudAvailableRegion } from '../models/CloudAvailableRegion';
-import { CloudProjectStorageUpdate } from '../models/CloudProjectStorageUpdate';
-import { CloudProjectDatabaseServiceNode } from '../models/CloudProjectDatabaseServiceNode';
-import { CloudProjectAiCapabilitiesRegion } from '../models/CloudProjectAiCapabilitiesRegion';
-import { CloudKeymanagerCertificateCreate } from '../models/CloudKeymanagerCertificateCreate';
-import { CloudProjectVolumeUpdate } from '../models/CloudProjectVolumeUpdate';
-import { CloudProjectAiRegistryRegistryUpdateInput } from '../models/CloudProjectAiRegistryRegistryUpdateInput';
-import { CloudProjectDatabaseServiceCurrentqueriesQueryCancelRequest } from '../models/CloudProjectDatabaseServiceCurrentqueriesQueryCancelRequest';
-import { CloudProjectDatabaseServiceBackup } from '../models/CloudProjectDatabaseServiceBackup';
-import { CloudKubeFlavor } from '../models/CloudKubeFlavor';
-import { CloudProjectIpFailoverAttachCreation } from '../models/CloudProjectIpFailoverAttachCreation';
-import { CloudProjectSshkeyCreation } from '../models/CloudProjectSshkeyCreation';
-import { CloudProjectAiServingFramework } from '../models/CloudProjectAiServingFramework';
-import { CloudProjectDatabaseM3dbNamespace } from '../models/CloudProjectDatabaseM3dbNamespace';
-import { CloudSshkeySshKeyDetail } from '../models/CloudSshkeySshKeyDetail';
-import { CloudProjectDatabaseServiceDatabase } from '../models/CloudProjectDatabaseServiceDatabase';
-import { CloudNetworkNetwork } from '../models/CloudNetworkNetwork';
-import { CloudProjectNetworkPrivateSubnetCreation } from '../models/CloudProjectNetworkPrivateSubnetCreation';
-import { CloudKeymanagerSecret } from '../models/CloudKeymanagerSecret';
-import { CloudProjectDataProcessingJob } from '../models/CloudProjectDataProcessingJob';
-import { CloudProjectAiJobPresetImage } from '../models/CloudProjectAiJobPresetImage';
-import { CloudProjectIoStreamToken } from '../models/CloudProjectIoStreamToken';
-import { CloudProjectAiAppScalingStrategyInput } from '../models/CloudProjectAiAppScalingStrategyInput';
-import { CloudProjectAiCapabilitiesFlavor } from '../models/CloudProjectAiCapabilitiesFlavor';
-import { CloudAcl } from '../models/CloudAcl';
-import { CloudProjectDatabaseServiceUserWithPasswordAndRoles } from '../models/CloudProjectDatabaseServiceUserWithPasswordAndRoles';
-import { CloudProjectLoadbalancerRegion } from '../models/CloudProjectLoadbalancerRegion';
-import { CloudProjectContainerRegistryUpdate } from '../models/CloudProjectContainerRegistryUpdate';
-import { CloudNetworkCreateGatewaySummary } from '../models/CloudNetworkCreateGatewaySummary';
-import { CloudProjectDatabaseKafkaTopicCreation } from '../models/CloudProjectDatabaseKafkaTopicCreation';
-import { CloudInstanceCreateFloatingIp } from '../models/CloudInstanceCreateFloatingIp';
-import { CloudUserOpenrcVersionEnum } from '../models/CloudUserOpenrcVersionEnum';
-import { CloudProjectDatabaseKafkaTopic } from '../models/CloudProjectDatabaseKafkaTopic';
-import { CloudKubePrivateNetworkConfiguration } from '../models/CloudKubePrivateNetworkConfiguration';
-import { CloudUsageUsageHistory } from '../models/CloudUsageUsageHistory';
-import { CloudProjectAiTokenTokenSpec } from '../models/CloudProjectAiTokenTokenSpec';
-import { CloudProjectRegionCreation } from '../models/CloudProjectRegionCreation';
-import { CloudProjectDatabaseServiceNodeCreation } from '../models/CloudProjectDatabaseServiceNodeCreation';
-import { CloudLoadbalancingPoolMember } from '../models/CloudLoadbalancingPoolMember';
-import { CloudKubeResponseMessage } from '../models/CloudKubeResponseMessage';
-import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
-import { CloudProjectInstanceUpdate } from '../models/CloudProjectInstanceUpdate';
-import { CloudProjectKubeResetCreation } from '../models/CloudProjectKubeResetCreation';
-import { CloudProjectRegionWorkflowBackupCreation } from '../models/CloudProjectRegionWorkflowBackupCreation';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { CloudUserOpenrc } from '../models/CloudUserOpenrc';
-import { CloudProjectDatabaseServiceUserWithPassword } from '../models/CloudProjectDatabaseServiceUserWithPassword';
-import { CloudProjectAiServingNamespace } from '../models/CloudProjectAiServingNamespace';
-import { CloudInstanceAssociateFloatingIp } from '../models/CloudInstanceAssociateFloatingIp';
 import { CloudImageImage } from '../models/CloudImageImage';
-import { CloudProjectDatabaseOpensearchPattern } from '../models/CloudProjectDatabaseOpensearchPattern';
-import { CloudProjectAiJobJobStateEnum } from '../models/CloudProjectAiJobJobStateEnum';
-import { CloudInstanceInstanceVnc } from '../models/CloudInstanceInstanceVnc';
-import { CloudQuotaStorageQuota } from '../models/CloudQuotaStorageQuota';
-import { CloudStoragePolicyRaw } from '../models/CloudStoragePolicyRaw';
-import { CloudOrderRuleInstanceCategories } from '../models/CloudOrderRuleInstanceCategories';
-import { CloudProjectAiLabel } from '../models/CloudProjectAiLabel';
-import { CloudProjectDatabaseServiceMetric } from '../models/CloudProjectDatabaseServiceMetric';
-import { CloudProjectDatabaseServiceCurrentqueriesQueryCancelResponse } from '../models/CloudProjectDatabaseServiceCurrentqueriesQueryCancelResponse';
+import { CloudProjectDatabaseRedisUserCreation } from '../models/CloudProjectDatabaseRedisUserCreation';
+import { CloudProjectActivateMonthlyBillingCreation } from '../models/CloudProjectActivateMonthlyBillingCreation';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { CloudProjectAiAppAppSpecInput } from '../models/CloudProjectAiAppAppSpecInput';
+import { CloudProjectDatabaseCapabilitiesIntegration } from '../models/CloudProjectDatabaseCapabilitiesIntegration';
+import { CloudQuotaQuotas } from '../models/CloudQuotaQuotas';
+import { CloudProjectAiCommand } from '../models/CloudProjectAiCommand';
+import { CloudProjectLoadbalancerConfigurationCreation } from '../models/CloudProjectLoadbalancerConfigurationCreation';
+import { CloudUserUser } from '../models/CloudUserUser';
+import { CloudProjectAiCapabilitiesFeatures } from '../models/CloudProjectAiCapabilitiesFeatures';
+import { CloudLoadbalancingPoolMemberUpdate } from '../models/CloudLoadbalancingPoolMemberUpdate';
+import { CloudProjectAiServingToken } from '../models/CloudProjectAiServingToken';
+import { CloudProjectInstanceBulkCreation } from '../models/CloudProjectInstanceBulkCreation';
+import { CloudProjectMigrationUpdate } from '../models/CloudProjectMigrationUpdate';
+import { CloudProjectAiServingFlavor } from '../models/CloudProjectAiServingFlavor';
+import { CloudUserRCloneServiceEnum } from '../models/CloudUserRCloneServiceEnum';
+import { CloudNetworkNetwork } from '../models/CloudNetworkNetwork';
+import { CloudProjectVolumeCreation } from '../models/CloudProjectVolumeCreation';
+import { CloudProjectDatabaseM3dbUserCreation } from '../models/CloudProjectDatabaseM3dbUserCreation';
+import { CloudVolumeBackupVolumeBackupCreation } from '../models/CloudVolumeBackupVolumeBackupCreation';
+import { CloudStorageQuota } from '../models/CloudStorageQuota';
+import { CloudProjectDatabaseKafkaService } from '../models/CloudProjectDatabaseKafkaService';
+import { CloudProjectVolumeDetachCreation } from '../models/CloudProjectVolumeDetachCreation';
+import { CloudProjectDatabaseKafkaAcl } from '../models/CloudProjectDatabaseKafkaAcl';
+import { CloudProjectDatabaseServiceLogEntry } from '../models/CloudProjectDatabaseServiceLogEntry';
+import { CloudLoadbalancingL7Rule } from '../models/CloudLoadbalancingL7Rule';
+import { CloudProjectAiServingNamespaceCreation } from '../models/CloudProjectAiServingNamespaceCreation';
+import { CloudProjectAiRegistryRegistry } from '../models/CloudProjectAiRegistryRegistry';
+import { CloudProjectKubeUpdateCreation } from '../models/CloudProjectKubeUpdateCreation';
+import { CloudProjectInstanceGroupCreation } from '../models/CloudProjectInstanceGroupCreation';
+import { CloudStoragePresignedURL } from '../models/CloudStoragePresignedURL';
+import { CloudVolumeBackupVolumeBackup } from '../models/CloudVolumeBackupVolumeBackup';
+import { CloudVolumeSnapshot } from '../models/CloudVolumeSnapshot';
+import { CloudProjectDatabaseKafkaTopicCreation } from '../models/CloudProjectDatabaseKafkaTopicCreation';
+import { CloudInstanceInstanceDetail } from '../models/CloudInstanceInstanceDetail';
+import { CloudProjectIoStreamSubscription } from '../models/CloudProjectIoStreamSubscription';
+import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
+import { CloudAcl } from '../models/CloudAcl';
+import { CloudProjectAiLogs } from '../models/CloudProjectAiLogs';
+import { CloudProjectNetworkPrivateUpdate } from '../models/CloudProjectNetworkPrivateUpdate';
+import { CloudVolumeBackupVolumeCreationFromBackup } from '../models/CloudVolumeBackupVolumeCreationFromBackup';
+import { CloudStoragePresignedURLInput } from '../models/CloudStoragePresignedURLInput';
+import { CloudProjectDatabaseIpRestriction } from '../models/CloudProjectDatabaseIpRestriction';
+import { CloudUserOpenrcVersionEnum } from '../models/CloudUserOpenrcVersionEnum';
+import { CloudLoadbalancingPoolUpdate } from '../models/CloudLoadbalancingPoolUpdate';
+import { CloudProjectVolumeAttachCreation } from '../models/CloudProjectVolumeAttachCreation';
+import { CloudProjectKubeUpdate } from '../models/CloudProjectKubeUpdate';
+import { CloudNetworkUpdateGateway } from '../models/CloudNetworkUpdateGateway';
+import { CloudLoadbalancingHealthMonitor } from '../models/CloudLoadbalancingHealthMonitor';
+import { CloudKubeCluster } from '../models/CloudKubeCluster';
+import { CloudProjectDatabaseServiceUserWithPassword } from '../models/CloudProjectDatabaseServiceUserWithPassword';
+import { CloudProjectDataProcessingNotebookNotebook } from '../models/CloudProjectDataProcessingNotebookNotebook';
+import { CloudProjectAiServingModel } from '../models/CloudProjectAiServingModel';
+import { CloudLoadbalancingPoolCreate } from '../models/CloudLoadbalancingPoolCreate';
+import { CloudStorageContainerDetail } from '../models/CloudStorageContainerDetail';
+import { CloudProjectAiVolumeDataSync } from '../models/CloudProjectAiVolumeDataSync';
+import { CloudProjectDatabaseServiceUserWithRolesCreation } from '../models/CloudProjectDatabaseServiceUserWithRolesCreation';
+import { CloudProjectNetwork } from '../models/CloudProjectNetwork';
+import { CloudProjectLoadbalancerConfiguration } from '../models/CloudProjectLoadbalancerConfiguration';
+import { CloudProjectAiNotebookNotebookUpdate } from '../models/CloudProjectAiNotebookNotebookUpdate';
+import { CloudProjectAiServingMetrics } from '../models/CloudProjectAiServingMetrics';
+import { CloudStorageAddContainerPolicy } from '../models/CloudStorageAddContainerPolicy';
+import { CloudProjectEligibilityInfo } from '../models/CloudProjectEligibilityInfo';
+import { CloudIpCloudIp } from '../models/CloudIpCloudIp';
+import { CloudProjectDatabaseOpensearchIndex } from '../models/CloudProjectDatabaseOpensearchIndex';
+import { CloudKubeFlavor } from '../models/CloudKubeFlavor';
+import { CloudProjectInstanceResizeCreation } from '../models/CloudProjectInstanceResizeCreation';
+import { CloudInstanceMetricsPeriodEnum } from '../models/CloudInstanceMetricsPeriodEnum';
+import { CloudProjectDatabaseKafkaConnectCapabilitiesConnectorTransform } from '../models/CloudProjectDatabaseKafkaConnectCapabilitiesConnectorTransform';
+import { CloudKubeNode } from '../models/CloudKubeNode';
+import { CloudProjectUserTokenCreation } from '../models/CloudProjectUserTokenCreation';
+import { CloudLoadbalancingL7Policy } from '../models/CloudLoadbalancingL7Policy';
+import { CloudProjectNetworkPrivateCreation } from '../models/CloudProjectNetworkPrivateCreation';
+import { CloudProjectDatabaseOpensearchUser } from '../models/CloudProjectDatabaseOpensearchUser';
+import { CloudInstanceApplicationAccess } from '../models/CloudInstanceApplicationAccess';
+import { CloudLoadbalancingFlavor } from '../models/CloudLoadbalancingFlavor';
+import { CloudProjectNewProject } from '../models/CloudProjectNewProject';
+import { CloudProject } from '../models/CloudProject';
+import { CloudRoleRole } from '../models/CloudRoleRole';
+import { CloudProjectDatabasePostgresqlConnectionPoolCreation } from '../models/CloudProjectDatabasePostgresqlConnectionPoolCreation';
+import { CloudProjectDatabaseServiceMetricPeriodEnum } from '../models/CloudProjectDatabaseServiceMetricPeriodEnum';
+import { CloudProjectDatabaseMysqlQueryStatistics } from '../models/CloudProjectDatabaseMysqlQueryStatistics';
+import { CloudProjectStorageCreation } from '../models/CloudProjectStorageCreation';
+import { CloudMigrationMigration } from '../models/CloudMigrationMigration';
+import { CloudProjectDatabaseCapabilities } from '../models/CloudProjectDatabaseCapabilities';
+import { CloudVolumeBackupVolumeBackupRestore } from '../models/CloudVolumeBackupVolumeBackupRestore';
+import { CloudProjectIoStreamRegion } from '../models/CloudProjectIoStreamRegion';
+import { CloudLab } from '../models/CloudLab';
+import { CloudProjectAiNotebookEditor } from '../models/CloudProjectAiNotebookEditor';
+import { CloudProjectDatabaseServiceBackup } from '../models/CloudProjectDatabaseServiceBackup';
+import { CloudProjectAiServingFramework } from '../models/CloudProjectAiServingFramework';
+import { CloudProjectKubeOpenIdConnectUpdate } from '../models/CloudProjectKubeOpenIdConnectUpdate';
+import { CloudProjectRegionQuotaCreation } from '../models/CloudProjectRegionQuotaCreation';
+import { CloudKubePrivateNetworkConfiguration } from '../models/CloudKubePrivateNetworkConfiguration';
+import { CloudProjectDataProcessingJobLogs } from '../models/CloudProjectDataProcessingJobLogs';
+import { CloudProjectDatabaseM3dbNamespaceCreation } from '../models/CloudProjectDatabaseM3dbNamespaceCreation';
+import { CloudProjectDatabaseServiceUserCreation } from '../models/CloudProjectDatabaseServiceUserCreation';
+import { CloudProjectAiCapabilitiesRegion } from '../models/CloudProjectAiCapabilitiesRegion';
+import { CloudNetworkCreateGatewaySummary } from '../models/CloudNetworkCreateGatewaySummary';
+import { ServicesService } from '../models/ServicesService';
+import { CloudProjectRegionCreation } from '../models/CloudProjectRegionCreation';
+import { CloudUserRclone } from '../models/CloudUserRclone';
+import { CloudProjectIoStream } from '../models/CloudProjectIoStream';
+import { CloudProjectAiNotebookNotebookSpecInput } from '../models/CloudProjectAiNotebookNotebookSpecInput';
+import { CloudProjectInstanceRebootCreation } from '../models/CloudProjectInstanceRebootCreation';
+import { CloudProjectAiNotebookNotebook } from '../models/CloudProjectAiNotebookNotebook';
+import { CloudProjectIoStreamStats } from '../models/CloudProjectIoStreamStats';
+import { CloudProjectAiServingPresetImage } from '../models/CloudProjectAiServingPresetImage';
 import { CloudContainerRegistryCapability } from '../models/CloudContainerRegistryCapability';
+import { CloudAuthenticationToken } from '../models/CloudAuthenticationToken';
+import { CloudProjectDatabaseOpensearchUserCreation } from '../models/CloudProjectDatabaseOpensearchUserCreation';
+import { CloudProjectIoStreamTokenCreation } from '../models/CloudProjectIoStreamTokenCreation';
+import { CloudProjectDatabaseServiceCurrentqueriesQueryCancelResponse } from '../models/CloudProjectDatabaseServiceCurrentqueriesQueryCancelResponse';
+import { CloudProjectContainerRegistryCreation } from '../models/CloudProjectContainerRegistryCreation';
+import { CloudUsageUsageCurrent } from '../models/CloudUsageUsageCurrent';
+import { CloudOperation } from '../models/CloudOperation';
+import { CloudProjectKubeResetCreation } from '../models/CloudProjectKubeResetCreation';
+import { CloudNetworkSubnet } from '../models/CloudNetworkSubnet';
+import { CloudProjectAiTokenToken } from '../models/CloudProjectAiTokenToken';
+import { CloudSshkeySshKeyDetail } from '../models/CloudSshkeySshKeyDetail';
+import { CloudProjectKubeRestart } from '../models/CloudProjectKubeRestart';
+import { CloudInstancegroupInstanceGroup } from '../models/CloudInstancegroupInstanceGroup';
+import { CloudCapabilitiesAvailability } from '../models/CloudCapabilitiesAvailability';
+import { CloudNetworkCreateNetwork } from '../models/CloudNetworkCreateNetwork';
+import { CloudProjectProjectUsage } from '../models/CloudProjectProjectUsage';
+import { CloudStoragePolicyRaw } from '../models/CloudStoragePolicyRaw';
+import { CloudProjectAiCapabilitiesFlavor } from '../models/CloudProjectAiCapabilitiesFlavor';
+import { CloudInstanceCreateFloatingIp } from '../models/CloudInstanceCreateFloatingIp';
+import { CloudProjectAiServingBackend } from '../models/CloudProjectAiServingBackend';
+import { CloudAlertingAlert } from '../models/CloudAlertingAlert';
+import { CloudProjectIoStreamToken } from '../models/CloudProjectIoStreamToken';
+import { CloudProjectUserRoleUpdate } from '../models/CloudProjectUserRoleUpdate';
+import { CloudProjectProductNameEnum } from '../models/CloudProjectProductNameEnum';
+import { CloudProjectDatabaseKafkaConnectCapabilitiesConnector } from '../models/CloudProjectDatabaseKafkaConnectCapabilitiesConnector';
+import { CloudProjectDatabaseServiceIntegration } from '../models/CloudProjectDatabaseServiceIntegration';
+import { CloudProjectAiLabel } from '../models/CloudProjectAiLabel';
+import { CloudProjectVolumeUpsizeCreation } from '../models/CloudProjectVolumeUpsizeCreation';
+import { CloudProjectDataProcessingMetrics } from '../models/CloudProjectDataProcessingMetrics';
+import { CloudProjectKubeNodePoolCreation } from '../models/CloudProjectKubeNodePoolCreation';
+import { CloudStorageContainerObjectTempURL } from '../models/CloudStorageContainerObjectTempURL';
+import { CloudProjectDatabaseIpRestrictionCreation } from '../models/CloudProjectDatabaseIpRestrictionCreation';
+import { CloudStorageContainerCreation } from '../models/CloudStorageContainerCreation';
+import { CloudProjectDatabasePostgresqlQueryStatistics } from '../models/CloudProjectDatabasePostgresqlQueryStatistics';
+import { CloudVrack } from '../models/CloudVrack';
+import { CloudProjectStorageCorsCreation } from '../models/CloudProjectStorageCorsCreation';
+import { CloudProjectDatabasePostgresqlConnectionPool } from '../models/CloudProjectDatabasePostgresqlConnectionPool';
+import { CloudProjectUserRoleCreation } from '../models/CloudProjectUserRoleCreation';
+import { CloudProjectInstanceSnapshotCreation } from '../models/CloudProjectInstanceSnapshotCreation';
+import { CloudProjectNewProjectInfo } from '../models/CloudProjectNewProjectInfo';
+import { CloudProjectDatabaseRedisUser } from '../models/CloudProjectDatabaseRedisUser';
+import { CloudProjectAiAppApp } from '../models/CloudProjectAiAppApp';
+import { CloudProjectDataProcessingCapability } from '../models/CloudProjectDataProcessingCapability';
+import { CloudOrderRuleInstanceCategories } from '../models/CloudOrderRuleInstanceCategories';
+import { CloudProjectDatabaseServiceCreation } from '../models/CloudProjectDatabaseServiceCreation';
+import { CloudProjectKubeIpRestrictionUpsert } from '../models/CloudProjectKubeIpRestrictionUpsert';
+import { CloudProjectDatabaseKafkaConnectConnectorCreation } from '../models/CloudProjectDatabaseKafkaConnectConnectorCreation';
+import { CloudRegion } from '../models/CloudRegion';
+import { CloudAlerting } from '../models/CloudAlerting';
+import { CloudProjectAiServingRegistry } from '../models/CloudProjectAiServingRegistry';
+import { CloudProjectDatabaseKafkaPermissions } from '../models/CloudProjectDatabaseKafkaPermissions';
+import { CloudProjectAiServingFeatures } from '../models/CloudProjectAiServingFeatures';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { CloudKubeOpenIdConnect } from '../models/CloudKubeOpenIdConnect';
+import { CloudProjectLoadBalancer } from '../models/CloudProjectLoadBalancer';
+import { CloudProjectDatabaseTemporaryWriteDeadline } from '../models/CloudProjectDatabaseTemporaryWriteDeadline';
+import { CloudProjectSshkeyCreation } from '../models/CloudProjectSshkeyCreation';
+import { CloudProjectInstanceInterfaceCreation } from '../models/CloudProjectInstanceInterfaceCreation';
+import { CloudProjectAiJobJobSpecInput } from '../models/CloudProjectAiJobJobSpecInput';
+import { CloudKubeRegionEnum } from '../models/CloudKubeRegionEnum';
+import { CloudProjectDatabaseOpensearchService } from '../models/CloudProjectDatabaseOpensearchService';
+import { CloudInstanceInstanceVnc } from '../models/CloudInstanceInstanceVnc';
+import { CloudOrderRuleAvailability } from '../models/CloudOrderRuleAvailability';
+import { CloudProjectInstanceCreation } from '../models/CloudProjectInstanceCreation';
+import { CloudProjectAiAppAppStateEnum } from '../models/CloudProjectAiAppAppStateEnum';
+import { CloudProjectAiTokenTokenSpec } from '../models/CloudProjectAiTokenTokenSpec';
+import { CloudProjectLoadbalancerRegion } from '../models/CloudProjectLoadbalancerRegion';
+import { CloudUserS3CredentialsWithSecret } from '../models/CloudUserS3CredentialsWithSecret';
+import { CloudProjectDataProcessingNotebookNotebookSpec } from '../models/CloudProjectDataProcessingNotebookNotebookSpec';
+import { CloudKubeNodePool } from '../models/CloudKubeNodePool';
 import { CloudProjectDatabaseService } from '../models/CloudProjectDatabaseService';
+import { CloudProjectDatabaseServiceReplication } from '../models/CloudProjectDatabaseServiceReplication';
+import { CloudProjectDatabaseServiceUserWithRoles } from '../models/CloudProjectDatabaseServiceUserWithRoles';
+import { CloudNetworkGateway } from '../models/CloudNetworkGateway';
+import { CloudProjectDatabaseAvailability } from '../models/CloudProjectDatabaseAvailability';
+import { CloudInstanceInterfaceInterface } from '../models/CloudInstanceInterfaceInterface';
+import { CloudProjectDatabaseServiceDatabase } from '../models/CloudProjectDatabaseServiceDatabase';
+import { CloudKubeKubeconfig } from '../models/CloudKubeKubeconfig';
+import { CloudAvailableRegion } from '../models/CloudAvailableRegion';
+import { CloudProjectLoadBalancerCreation } from '../models/CloudProjectLoadBalancerCreation';
+import { CloudProjectDatabaseKafkaConnectConnector } from '../models/CloudProjectDatabaseKafkaConnectConnector';
+import { CloudProjectDatabaseOpensearchPermissions } from '../models/CloudProjectDatabaseOpensearchPermissions';
+import { CloudProjectDatabaseM3dbNamespace } from '../models/CloudProjectDatabaseM3dbNamespace';
+import { CloudProjectDatabaseServiceMetric } from '../models/CloudProjectDatabaseServiceMetric';
+import { CloudProjectIoStreamSubscriptionCreation } from '../models/CloudProjectIoStreamSubscriptionCreation';
+import { CloudProjectAiAppScalingStrategyInput } from '../models/CloudProjectAiAppScalingStrategyInput';
+import { CloudProjectContainerRegistryUsersCreation } from '../models/CloudProjectContainerRegistryUsersCreation';
+import { CloudInstanceMetricsTypeEnum } from '../models/CloudInstanceMetricsTypeEnum';
+import { CloudContainerRegistryUser } from '../models/CloudContainerRegistryUser';
+import { CloudQuotaStorageQuotaUpdate } from '../models/CloudQuotaStorageQuotaUpdate';
+import { CloudProjectVolumeUpdate } from '../models/CloudProjectVolumeUpdate';
+import { CloudColdArchiveContainer } from '../models/CloudColdArchiveContainer';
+import { CloudProjectUserCreation } from '../models/CloudProjectUserCreation';
+import { CloudProjectDatabaseServiceCurrentqueriesQueryCancelRequest } from '../models/CloudProjectDatabaseServiceCurrentqueriesQueryCancelRequest';
+import { CloudProjectDatabaseKafkaUserAccess } from '../models/CloudProjectDatabaseKafkaUserAccess';
+import { CloudProjectAiJobJobStateEnum } from '../models/CloudProjectAiJobJobStateEnum';
+import { CloudInstanceAssociateFloatingIp } from '../models/CloudInstanceAssociateFloatingIp';
+import { CloudAlertingDelayEnum } from '../models/CloudAlertingDelayEnum';
+import { CloudKeymanagerCertificateCreate } from '../models/CloudKeymanagerCertificateCreate';
+import { CloudCredit } from '../models/CloudCredit';
 import OVHBase from '../ovh';
 
 class CloudHandler {
@@ -371,7 +371,7 @@ class CloudHandler {
   };
 
   /** List available services */
-  listProjects = (): Promise<string[]> => {
+  listProject = (): Promise<string[]> => {
     return this.ovh.request('GET', '/cloud/project');
   };
 
@@ -423,7 +423,7 @@ class CloudHandler {
   };
 
   /** List apps */
-  listProjectAiAppsByServiceName = (serviceName: string): Promise<CloudProjectAiAppApp[]> => {
+  listProjectAiAppByServiceName = (serviceName: string): Promise<CloudProjectAiAppApp[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/app`);
   };
 
@@ -533,21 +533,21 @@ class CloudHandler {
   };
 
   /** List AI Solutions available features */
-  listProjectAiCapabilitiesFeaturesByServiceName = (
+  listProjectAiCapabilitiesFeatureByServiceName = (
     serviceName: string
   ): Promise<CloudProjectAiCapabilitiesFeatures> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/capabilities/feature`);
   };
 
   /** List AI Solutions available quotas */
-  listProjectAiCapabilitiesQuotasByServiceName = (
+  listProjectAiCapabilitiesQuotaByServiceName = (
     serviceName: string
   ): Promise<CloudProjectAiCapabilitiesProjectQuotas> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/capabilities/quota`);
   };
 
   /** List Region */
-  listProjectAiCapabilitiesRegionsByServiceName = (
+  listProjectAiCapabilitiesRegionByServiceName = (
     serviceName: string
   ): Promise<CloudProjectAiCapabilitiesRegion[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/capabilities/region`);
@@ -576,7 +576,7 @@ class CloudHandler {
   };
 
   /** List Flavors */
-  listProjectAiCapabilitiesRegionFlavorsByServiceNameAndRegion = (
+  listProjectAiCapabilitiesRegionFlavorByServiceNameAndRegion = (
     region: string,
     serviceName: string
   ): Promise<CloudProjectAiCapabilitiesFlavor[]> => {
@@ -599,7 +599,7 @@ class CloudHandler {
   };
 
   /** List Presets */
-  listProjectAiCapabilitiesRegionPresetsByServiceNameAndRegion = (
+  listProjectAiCapabilitiesRegionPresetByServiceNameAndRegion = (
     region: string,
     serviceName: string
   ): Promise<CloudProjectAiCapabilitiesPreset[]> => {
@@ -668,7 +668,7 @@ class CloudHandler {
   };
 
   /** List jobs */
-  listProjectAiJobsByServiceName = (serviceName: string): Promise<CloudProjectAiJobJob[]> => {
+  listProjectAiJobByServiceName = (serviceName: string): Promise<CloudProjectAiJobJob[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/job`);
   };
 
@@ -681,7 +681,7 @@ class CloudHandler {
   };
 
   /** List AI Solutions Preset Model Images */
-  listProjectAiJobCapabilitiesPresetImagesByServiceName = (
+  listProjectAiJobCapabilitiesPresetImageByServiceName = (
     serviceName: string
   ): Promise<CloudProjectAiJobPresetImage[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/job/capabilities/presetImage`);
@@ -743,7 +743,7 @@ class CloudHandler {
   };
 
   /** List notebooks */
-  listProjectAiNotebooksByServiceName = (
+  listProjectAiNotebookByServiceName = (
     serviceName: string
   ): Promise<CloudProjectAiNotebookNotebook[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/notebook`);
@@ -758,14 +758,14 @@ class CloudHandler {
   };
 
   /** List AI Solutions Notebook available code editors */
-  listProjectAiNotebookCapabilitiesEditorsByServiceName = (
+  listProjectAiNotebookCapabilitiesEditorByServiceName = (
     serviceName: string
   ): Promise<CloudProjectAiNotebookEditor[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/notebook/capabilities/editor`);
   };
 
   /** List AI Solutions Notebook available frameworks */
-  listProjectAiNotebookCapabilitiesFrameworksByServiceName = (
+  listProjectAiNotebookCapabilitiesFrameworkByServiceName = (
     serviceName: string
   ): Promise<CloudProjectAiNotebookFramework[]> => {
     return this.ovh.request(
@@ -808,7 +808,7 @@ class CloudHandler {
   };
 
   /** List all backups of an AI Solutions notebook */
-  listProjectAiNotebookBackupsByServiceNameAndNotebookId = (
+  listProjectAiNotebookBackupByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string
   ): Promise<CloudProjectAiNotebookBackup[]> => {
@@ -893,7 +893,7 @@ class CloudHandler {
   };
 
   /** List Docker registries */
-  listProjectAiRegistrysByServiceName = (
+  listProjectAiRegistryByServiceName = (
     serviceName: string
   ): Promise<CloudProjectAiRegistryRegistry[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/registry`);
@@ -1124,7 +1124,7 @@ class CloudHandler {
   };
 
   /** List application tokens */
-  listProjectAiTokensByServiceName = (serviceName: string): Promise<CloudProjectAiTokenToken[]> => {
+  listProjectAiTokenByServiceName = (serviceName: string): Promise<CloudProjectAiTokenToken[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/token`);
   };
 
@@ -1220,7 +1220,7 @@ class CloudHandler {
   };
 
   /** List container registry capabilities per region */
-  listProjectCapabilitiesContainerRegistrysByServiceName = (
+  listProjectCapabilitiesContainerRegistryByServiceName = (
     serviceName: string
   ): Promise<CloudContainerRegistryCapability[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/capabilities/containerRegistry`);
@@ -1251,7 +1251,7 @@ class CloudHandler {
   };
 
   /** List all available regions */
-  listProjectCapabilitiesLoadbalancerRegionsByServiceName = (
+  listProjectCapabilitiesLoadbalancerRegionByServiceName = (
     serviceName: string
   ): Promise<string[]> => {
     return this.ovh.request(
@@ -1272,7 +1272,7 @@ class CloudHandler {
   };
 
   /** List product availability */
-  listProjectCapabilitiesProductAvailabilitysByServiceName = (
+  listProjectCapabilitiesProductAvailabilityByServiceName = (
     serviceName: string
   ): Promise<CloudCapabilitiesAvailability> => {
     return this.ovh.request(
@@ -1308,7 +1308,7 @@ class CloudHandler {
   };
 
   /** List registries of the project */
-  listProjectContainerRegistrysByServiceName = (
+  listProjectContainerRegistryByServiceName = (
     serviceName: string
   ): Promise<CloudContainerRegistryRegistry[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/containerRegistry`);
@@ -1588,7 +1588,7 @@ class CloudHandler {
   };
 
   /** List all the cassandra clusters of the project */
-  listProjectDatabaseCassandrasByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectDatabaseCassandraByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/cassandra`);
   };
 
@@ -1657,7 +1657,7 @@ class CloudHandler {
   };
 
   /** List backups of the cassandra */
-  listProjectDatabaseCassandraBackupsByServiceNameAndClusterId = (
+  listProjectDatabaseCassandraBackupByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -1713,7 +1713,7 @@ class CloudHandler {
   };
 
   /** List integrations */
-  listProjectDatabaseCassandraIntegrationsByServiceNameAndClusterId = (
+  listProjectDatabaseCassandraIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -1761,7 +1761,7 @@ class CloudHandler {
   };
 
   /** List cassandra ip restrictions */
-  listProjectDatabaseCassandraIpRestrictionsByServiceNameAndClusterId = (
+  listProjectDatabaseCassandraIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -1834,7 +1834,7 @@ class CloudHandler {
   };
 
   /** List maintenances for the cassandra cluster */
-  listProjectDatabaseCassandraMaintenancesByServiceNameAndClusterId = (
+  listProjectDatabaseCassandraMaintenanceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -1869,7 +1869,7 @@ class CloudHandler {
   };
 
   /** List available metrics for the cassandra cluster */
-  listProjectDatabaseCassandraMetricsByServiceNameAndClusterId = (
+  listProjectDatabaseCassandraMetricByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -1892,7 +1892,7 @@ class CloudHandler {
   };
 
   /** List nodes of the cassandra */
-  listProjectDatabaseCassandraNodesByServiceNameAndClusterId = (
+  listProjectDatabaseCassandraNodeByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -1915,7 +1915,7 @@ class CloudHandler {
   };
 
   /** List users of the cassandra */
-  listProjectDatabaseCassandraUsersByServiceNameAndClusterId = (
+  listProjectDatabaseCassandraUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -1975,7 +1975,7 @@ class CloudHandler {
   };
 
   /** List all the grafana of the project */
-  listProjectDatabaseGrafanasByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectDatabaseGrafanaByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/grafana`);
   };
 
@@ -2044,7 +2044,7 @@ class CloudHandler {
   };
 
   /** List backups of the grafana */
-  listProjectDatabaseGrafanaBackupsByServiceNameAndClusterId = (
+  listProjectDatabaseGrafanaBackupByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2089,7 +2089,7 @@ class CloudHandler {
   };
 
   /** List integrations */
-  listProjectDatabaseGrafanaIntegrationsByServiceNameAndClusterId = (
+  listProjectDatabaseGrafanaIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2137,7 +2137,7 @@ class CloudHandler {
   };
 
   /** List grafana ip restrictions */
-  listProjectDatabaseGrafanaIpRestrictionsByServiceNameAndClusterId = (
+  listProjectDatabaseGrafanaIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2210,7 +2210,7 @@ class CloudHandler {
   };
 
   /** List maintenances for the grafana cluster */
-  listProjectDatabaseGrafanaMaintenancesByServiceNameAndClusterId = (
+  listProjectDatabaseGrafanaMaintenanceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2245,7 +2245,7 @@ class CloudHandler {
   };
 
   /** List available metrics for the grafana cluster */
-  listProjectDatabaseGrafanaMetricsByServiceNameAndClusterId = (
+  listProjectDatabaseGrafanaMetricByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2268,7 +2268,7 @@ class CloudHandler {
   };
 
   /** List nodes of the grafana */
-  listProjectDatabaseGrafanaNodesByServiceNameAndClusterId = (
+  listProjectDatabaseGrafanaNodeByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2291,7 +2291,7 @@ class CloudHandler {
   };
 
   /** List users of the grafana */
-  listProjectDatabaseGrafanaUsersByServiceNameAndClusterId = (
+  listProjectDatabaseGrafanaUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2326,7 +2326,7 @@ class CloudHandler {
   };
 
   /** List all the kafka of the project */
-  listProjectDatabaseKafkasByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectDatabaseKafkaByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/kafka`);
   };
 
@@ -2368,7 +2368,7 @@ class CloudHandler {
   };
 
   /** List acls of the kafka */
-  listProjectDatabaseKafkaAclsByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaAclByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2470,7 +2470,7 @@ class CloudHandler {
   };
 
   /** List integrations */
-  listProjectDatabaseKafkaIntegrationsByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2518,7 +2518,7 @@ class CloudHandler {
   };
 
   /** List kafka ip restrictions */
-  listProjectDatabaseKafkaIpRestrictionsByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2591,7 +2591,7 @@ class CloudHandler {
   };
 
   /** List maintenances for the kafka cluster */
-  listProjectDatabaseKafkaMaintenancesByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaMaintenanceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2626,7 +2626,7 @@ class CloudHandler {
   };
 
   /** List available metrics for the kafka cluster */
-  listProjectDatabaseKafkaMetricsByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaMetricByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2649,7 +2649,7 @@ class CloudHandler {
   };
 
   /** List nodes of the kafka */
-  listProjectDatabaseKafkaNodesByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaNodeByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2683,7 +2683,7 @@ class CloudHandler {
   };
 
   /** List topics of the kafka */
-  listProjectDatabaseKafkaTopicsByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaTopicByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2745,7 +2745,7 @@ class CloudHandler {
   };
 
   /** List users of the kafka */
-  listProjectDatabaseKafkaUsersByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2817,7 +2817,7 @@ class CloudHandler {
   };
 
   /** List all the kafkaConnect of the project */
-  listProjectDatabaseKafkaConnectsByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectDatabaseKafkaConnectByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/kafkaConnect`);
   };
 
@@ -2900,7 +2900,7 @@ class CloudHandler {
   };
 
   /** List Kafka Connect connectors */
-  listProjectDatabaseKafkaConnectCapabilitiesConnectorsByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaConnectCapabilitiesConnectorByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -2960,7 +2960,7 @@ class CloudHandler {
   };
 
   /** List the connectors */
-  listProjectDatabaseKafkaConnectConnectorsByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaConnectConnectorByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3058,7 +3058,7 @@ class CloudHandler {
   };
 
   /** List the connector tasks */
-  listProjectDatabaseKafkaConnectConnectorTasksByServiceNameAndClusterIdAndConnectorId = (
+  listProjectDatabaseKafkaConnectConnectorTaskByServiceNameAndClusterIdAndConnectorId = (
     clusterId: string,
     connectorId: string,
     serviceName: string
@@ -3097,7 +3097,7 @@ class CloudHandler {
     };
 
   /** List integrations */
-  listProjectDatabaseKafkaConnectIntegrationsByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaConnectIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3145,7 +3145,7 @@ class CloudHandler {
   };
 
   /** List kafkaConnect ip restrictions */
-  listProjectDatabaseKafkaConnectIpRestrictionsByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaConnectIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3218,7 +3218,7 @@ class CloudHandler {
   };
 
   /** List maintenances for the kafka connect cluster */
-  listProjectDatabaseKafkaConnectMaintenancesByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaConnectMaintenanceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3253,7 +3253,7 @@ class CloudHandler {
   };
 
   /** List available metrics for the kafkaConnect cluster */
-  listProjectDatabaseKafkaConnectMetricsByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaConnectMetricByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3276,7 +3276,7 @@ class CloudHandler {
   };
 
   /** List nodes of the kafkaConnect */
-  listProjectDatabaseKafkaConnectNodesByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaConnectNodeByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3299,7 +3299,7 @@ class CloudHandler {
   };
 
   /** List users of the kafkaConnect */
-  listProjectDatabaseKafkaConnectUsersByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaConnectUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3359,7 +3359,7 @@ class CloudHandler {
   };
 
   /** List all the kafkaMirrorMaker of the project */
-  listProjectDatabaseKafkaMirrorMakersByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectDatabaseKafkaMirrorMakerByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/kafkaMirrorMaker`);
   };
 
@@ -3422,7 +3422,7 @@ class CloudHandler {
   };
 
   /** List integrations */
-  listProjectDatabaseKafkaMirrorMakerIntegrationsByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaMirrorMakerIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3481,7 +3481,7 @@ class CloudHandler {
   };
 
   /** List maintenances for the kafka mirror maker cluster */
-  listProjectDatabaseKafkaMirrorMakerMaintenancesByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaMirrorMakerMaintenanceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3516,7 +3516,7 @@ class CloudHandler {
   };
 
   /** List available metrics for the kafkaMirrorMaker */
-  listProjectDatabaseKafkaMirrorMakerMetricsByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaMirrorMakerMetricByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3539,7 +3539,7 @@ class CloudHandler {
   };
 
   /** List nodes of the kafkaMirrorMaker */
-  listProjectDatabaseKafkaMirrorMakerNodesByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaMirrorMakerNodeByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3562,7 +3562,7 @@ class CloudHandler {
   };
 
   /** List replication of the kafkaMirrorMaker */
-  listProjectDatabaseKafkaMirrorMakerReplicationsByServiceNameAndClusterId = (
+  listProjectDatabaseKafkaMirrorMakerReplicationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3624,7 +3624,7 @@ class CloudHandler {
   };
 
   /** List all the m3aggregator of the project */
-  listProjectDatabaseM3aggregatorsByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectDatabaseM3aggregatorByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/m3aggregator`);
   };
 
@@ -3683,7 +3683,7 @@ class CloudHandler {
   };
 
   /** List integrations */
-  listProjectDatabaseM3aggregatorIntegrationsByServiceNameAndClusterId = (
+  listProjectDatabaseM3aggregatorIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3742,7 +3742,7 @@ class CloudHandler {
   };
 
   /** List maintenances for the m3aggregator cluster */
-  listProjectDatabaseM3aggregatorMaintenancesByServiceNameAndClusterId = (
+  listProjectDatabaseM3aggregatorMaintenanceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3777,7 +3777,7 @@ class CloudHandler {
   };
 
   /** List available metrics for the m3aggregator */
-  listProjectDatabaseM3aggregatorMetricsByServiceNameAndClusterId = (
+  listProjectDatabaseM3aggregatorMetricByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3800,7 +3800,7 @@ class CloudHandler {
   };
 
   /** List nodes of the m3aggregator */
-  listProjectDatabaseM3aggregatorNodesByServiceNameAndClusterId = (
+  listProjectDatabaseM3aggregatorNodeByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3823,7 +3823,7 @@ class CloudHandler {
   };
 
   /** List all the m3db clusters of the project */
-  listProjectDatabaseM3dbsByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectDatabaseM3dbByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/m3db`);
   };
 
@@ -3889,7 +3889,7 @@ class CloudHandler {
   };
 
   /** List backups of the m3db */
-  listProjectDatabaseM3dbBackupsByServiceNameAndClusterId = (
+  listProjectDatabaseM3dbBackupByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3934,7 +3934,7 @@ class CloudHandler {
   };
 
   /** List integrations */
-  listProjectDatabaseM3dbIntegrationsByServiceNameAndClusterId = (
+  listProjectDatabaseM3dbIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -3982,7 +3982,7 @@ class CloudHandler {
   };
 
   /** List m3db ip restrictions */
-  listProjectDatabaseM3dbIpRestrictionsByServiceNameAndClusterId = (
+  listProjectDatabaseM3dbIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4052,7 +4052,7 @@ class CloudHandler {
   };
 
   /** List maintenances for the m3db cluster */
-  listProjectDatabaseM3dbMaintenancesByServiceNameAndClusterId = (
+  listProjectDatabaseM3dbMaintenanceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4087,7 +4087,7 @@ class CloudHandler {
   };
 
   /** List available metrics for the m3db cluster */
-  listProjectDatabaseM3dbMetricsByServiceNameAndClusterId = (
+  listProjectDatabaseM3dbMetricByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4110,7 +4110,7 @@ class CloudHandler {
   };
 
   /** List namespaces of the m3db */
-  listProjectDatabaseM3dbNamespacesByServiceNameAndClusterId = (
+  listProjectDatabaseM3dbNamespaceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4172,7 +4172,7 @@ class CloudHandler {
   };
 
   /** List nodes of the m3db */
-  listProjectDatabaseM3dbNodesByServiceNameAndClusterId = (
+  listProjectDatabaseM3dbNodeByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4192,7 +4192,7 @@ class CloudHandler {
   };
 
   /** List users of the m3db */
-  listProjectDatabaseM3dbUsersByServiceNameAndClusterId = (
+  listProjectDatabaseM3dbUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4263,7 +4263,7 @@ class CloudHandler {
   };
 
   /** List mongodbs of the project */
-  listProjectDatabaseMongodbsByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectDatabaseMongodbByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/mongodb`);
   };
 
@@ -4308,7 +4308,7 @@ class CloudHandler {
   };
 
   /** List backups of the mongodb */
-  listProjectDatabaseMongodbBackupsByServiceNameAndClusterId = (
+  listProjectDatabaseMongodbBackupByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4343,7 +4343,7 @@ class CloudHandler {
   };
 
   /** List mongodb ip restrictions */
-  listProjectDatabaseMongodbIpRestrictionsByServiceNameAndClusterId = (
+  listProjectDatabaseMongodbIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4416,7 +4416,7 @@ class CloudHandler {
   };
 
   /** List maintenances for the mongodb cluster */
-  listProjectDatabaseMongodbMaintenancesByServiceNameAndClusterId = (
+  listProjectDatabaseMongodbMaintenanceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4451,7 +4451,7 @@ class CloudHandler {
   };
 
   /** List available metrics for the mongodb cluster */
-  listProjectDatabaseMongodbMetricsByServiceNameAndClusterId = (
+  listProjectDatabaseMongodbMetricByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4474,7 +4474,7 @@ class CloudHandler {
   };
 
   /** List nodes of the mongodb */
-  listProjectDatabaseMongodbNodesByServiceNameAndClusterId = (
+  listProjectDatabaseMongodbNodeByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4560,7 +4560,7 @@ class CloudHandler {
   };
 
   /** List users of the mongodb */
-  listProjectDatabaseMongodbUsersByServiceNameAndClusterId = (
+  listProjectDatabaseMongodbUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4634,7 +4634,7 @@ class CloudHandler {
   };
 
   /** List all the mysql of the project */
-  listProjectDatabaseMysqlsByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectDatabaseMysqlByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/mysql`);
   };
 
@@ -4700,7 +4700,7 @@ class CloudHandler {
   };
 
   /** List backups of the mysql */
-  listProjectDatabaseMysqlBackupsByServiceNameAndClusterId = (
+  listProjectDatabaseMysqlBackupByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4838,7 +4838,7 @@ class CloudHandler {
   };
 
   /** List integrations */
-  listProjectDatabaseMysqlIntegrationsByServiceNameAndClusterId = (
+  listProjectDatabaseMysqlIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4886,7 +4886,7 @@ class CloudHandler {
   };
 
   /** List mysql ip restrictions */
-  listProjectDatabaseMysqlIpRestrictionsByServiceNameAndClusterId = (
+  listProjectDatabaseMysqlIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4959,7 +4959,7 @@ class CloudHandler {
   };
 
   /** List maintenances for the mysql cluster */
-  listProjectDatabaseMysqlMaintenancesByServiceNameAndClusterId = (
+  listProjectDatabaseMysqlMaintenanceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -4994,7 +4994,7 @@ class CloudHandler {
   };
 
   /** List available metrics for the mysql cluster */
-  listProjectDatabaseMysqlMetricsByServiceNameAndClusterId = (
+  listProjectDatabaseMysqlMetricByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5017,7 +5017,7 @@ class CloudHandler {
   };
 
   /** List nodes of the mysql */
-  listProjectDatabaseMysqlNodesByServiceNameAndClusterId = (
+  listProjectDatabaseMysqlNodeByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5062,7 +5062,7 @@ class CloudHandler {
   };
 
   /** List users of the mysql */
-  listProjectDatabaseMysqlUsersByServiceNameAndClusterId = (
+  listProjectDatabaseMysqlUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5122,7 +5122,7 @@ class CloudHandler {
   };
 
   /** List all the opensearch of the project */
-  listProjectDatabaseOpensearchsByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectDatabaseOpensearchByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/opensearch`);
   };
 
@@ -5194,7 +5194,7 @@ class CloudHandler {
   };
 
   /** List backups of the opensearch */
-  listProjectDatabaseOpensearchBackupsByServiceNameAndClusterId = (
+  listProjectDatabaseOpensearchBackupByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5239,7 +5239,7 @@ class CloudHandler {
   };
 
   /** List indexes of the opensearch */
-  listProjectDatabaseOpensearchIndexsByServiceNameAndClusterId = (
+  listProjectDatabaseOpensearchIndexByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5274,7 +5274,7 @@ class CloudHandler {
   };
 
   /** List integrations */
-  listProjectDatabaseOpensearchIntegrationsByServiceNameAndClusterId = (
+  listProjectDatabaseOpensearchIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5322,7 +5322,7 @@ class CloudHandler {
   };
 
   /** List opensearch ip restrictions */
-  listProjectDatabaseOpensearchIpRestrictionsByServiceNameAndClusterId = (
+  listProjectDatabaseOpensearchIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5395,7 +5395,7 @@ class CloudHandler {
   };
 
   /** List maintenances for the opensearch cluster */
-  listProjectDatabaseOpensearchMaintenancesByServiceNameAndClusterId = (
+  listProjectDatabaseOpensearchMaintenanceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5430,7 +5430,7 @@ class CloudHandler {
   };
 
   /** List available metrics for the opensearch cluster */
-  listProjectDatabaseOpensearchMetricsByServiceNameAndClusterId = (
+  listProjectDatabaseOpensearchMetricByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5453,7 +5453,7 @@ class CloudHandler {
   };
 
   /** List nodes of the opensearch */
-  listProjectDatabaseOpensearchNodesByServiceNameAndClusterId = (
+  listProjectDatabaseOpensearchNodeByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5476,7 +5476,7 @@ class CloudHandler {
   };
 
   /** List patterns of the opensearch */
-  listProjectDatabaseOpensearchPatternsByServiceNameAndClusterId = (
+  listProjectDatabaseOpensearchPatternByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5535,7 +5535,7 @@ class CloudHandler {
   };
 
   /** List users of the opensearch */
-  listProjectDatabaseOpensearchUsersByServiceNameAndClusterId = (
+  listProjectDatabaseOpensearchUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5609,7 +5609,7 @@ class CloudHandler {
   };
 
   /** List all the postgresql of the project */
-  listProjectDatabasePostgresqlsByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectDatabasePostgresqlByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/postgresql`);
   };
 
@@ -5681,7 +5681,7 @@ class CloudHandler {
   };
 
   /** List backups of the postgresql */
-  listProjectDatabasePostgresqlBackupsByServiceNameAndClusterId = (
+  listProjectDatabasePostgresqlBackupByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5880,7 +5880,7 @@ class CloudHandler {
   };
 
   /** List integrations */
-  listProjectDatabasePostgresqlIntegrationsByServiceNameAndClusterId = (
+  listProjectDatabasePostgresqlIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -5928,7 +5928,7 @@ class CloudHandler {
   };
 
   /** List postgresql ip restrictions */
-  listProjectDatabasePostgresqlIpRestrictionsByServiceNameAndClusterId = (
+  listProjectDatabasePostgresqlIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -6001,7 +6001,7 @@ class CloudHandler {
   };
 
   /** List maintenances for the postgresql cluster */
-  listProjectDatabasePostgresqlMaintenancesByServiceNameAndClusterId = (
+  listProjectDatabasePostgresqlMaintenanceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -6036,7 +6036,7 @@ class CloudHandler {
   };
 
   /** List available metrics for the postgresql cluster */
-  listProjectDatabasePostgresqlMetricsByServiceNameAndClusterId = (
+  listProjectDatabasePostgresqlMetricByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -6059,7 +6059,7 @@ class CloudHandler {
   };
 
   /** List nodes of the postgresql */
-  listProjectDatabasePostgresqlNodesByServiceNameAndClusterId = (
+  listProjectDatabasePostgresqlNodeByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -6115,7 +6115,7 @@ class CloudHandler {
   };
 
   /** List users of the postgresql */
-  listProjectDatabasePostgresqlUsersByServiceNameAndClusterId = (
+  listProjectDatabasePostgresqlUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -6255,7 +6255,7 @@ class CloudHandler {
   };
 
   /** List backups of the redis */
-  listProjectDatabaseRedisBackupsByServiceNameAndClusterId = (
+  listProjectDatabaseRedisBackupByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -6322,7 +6322,7 @@ class CloudHandler {
   };
 
   /** List integrations */
-  listProjectDatabaseRedisIntegrationsByServiceNameAndClusterId = (
+  listProjectDatabaseRedisIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -6370,7 +6370,7 @@ class CloudHandler {
   };
 
   /** List redis ip restrictions */
-  listProjectDatabaseRedisIpRestrictionsByServiceNameAndClusterId = (
+  listProjectDatabaseRedisIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -6443,7 +6443,7 @@ class CloudHandler {
   };
 
   /** List maintenances for the redis cluster */
-  listProjectDatabaseRedisMaintenancesByServiceNameAndClusterId = (
+  listProjectDatabaseRedisMaintenanceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -6478,7 +6478,7 @@ class CloudHandler {
   };
 
   /** List available metrics for the redis cluster */
-  listProjectDatabaseRedisMetricsByServiceNameAndClusterId = (
+  listProjectDatabaseRedisMetricByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -6501,7 +6501,7 @@ class CloudHandler {
   };
 
   /** List nodes of the redis */
-  listProjectDatabaseRedisNodesByServiceNameAndClusterId = (
+  listProjectDatabaseRedisNodeByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -6524,7 +6524,7 @@ class CloudHandler {
   };
 
   /** List users of the redis */
-  listProjectDatabaseRedisUsersByServiceNameAndClusterId = (
+  listProjectDatabaseRedisUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<string[]> => {
@@ -6598,7 +6598,7 @@ class CloudHandler {
   };
 
   /** List database services of the project */
-  listProjectDatabaseServicesByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectDatabaseServiceByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/service`);
   };
 
@@ -6918,9 +6918,7 @@ class CloudHandler {
   };
 
   /** List all available regions */
-  listProjectIoCapabilitiesStreamRegionsByServiceName = (
-    serviceName: string
-  ): Promise<string[]> => {
+  listProjectIoCapabilitiesStreamRegionByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/io/capabilities/stream/region`);
   };
 
@@ -6936,7 +6934,7 @@ class CloudHandler {
   };
 
   /** List all stream for a tenant */
-  listProjectIoStreamsByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectIoStreamByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/io/stream`);
   };
 
@@ -6982,7 +6980,7 @@ class CloudHandler {
   };
 
   /** List all subscriptions for a stream */
-  listProjectIoStreamSubscriptionsByServiceNameAndStreamId = (
+  listProjectIoStreamSubscriptionByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string
   ): Promise<string[]> => {
@@ -7054,7 +7052,7 @@ class CloudHandler {
   };
 
   /** List all tokens for a stream */
-  listProjectIoStreamTokensByServiceNameAndStreamId = (
+  listProjectIoStreamTokenByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string
   ): Promise<string[]> => {
@@ -7126,7 +7124,7 @@ class CloudHandler {
   };
 
   /** List your managed Kubernetes clusters */
-  listProjectKubesByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectKubeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/kube`);
   };
 
@@ -7271,7 +7269,7 @@ class CloudHandler {
   };
 
   /** List available metrics for this cluster */
-  listProjectKubeMetricsEtcdUsagesByServiceNameAndKubeId = (
+  listProjectKubeMetricsEtcdUsageByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
   ): Promise<CloudKubeEtcdUsage> => {
@@ -7282,7 +7280,7 @@ class CloudHandler {
   };
 
   /** List your nodes */
-  listProjectKubeNodesByServiceNameAndKubeId = (
+  listProjectKubeNodeByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
   ): Promise<CloudKubeNode[]> => {
@@ -7320,7 +7318,7 @@ class CloudHandler {
   };
 
   /** List your nodepools */
-  listProjectKubeNodepoolsByServiceNameAndKubeId = (
+  listProjectKubeNodepoolByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
   ): Promise<CloudKubeNodePool[]> => {
@@ -7493,7 +7491,7 @@ class CloudHandler {
   };
 
   /** List available public cloud labs */
-  listProjectLabsByServiceName = (serviceName: string): Promise<CloudLab[]> => {
+  listProjectLabByServiceName = (serviceName: string): Promise<CloudLab[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/lab`);
   };
 
@@ -7511,7 +7509,7 @@ class CloudHandler {
   };
 
   /** List required agreements to active this lab */
-  listProjectLabAgreementsByServiceNameAndLabId = (
+  listProjectLabAgreementByServiceNameAndLabId = (
     labId: string,
     serviceName: string
   ): Promise<CloudLabAgreements> => {
@@ -7519,7 +7517,7 @@ class CloudHandler {
   };
 
   /** List all load balancer for a tenant */
-  listProjectLoadbalancersByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectLoadbalancerByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/loadbalancer`);
   };
 
@@ -7564,7 +7562,7 @@ class CloudHandler {
   };
 
   /** List all versions of the configuration */
-  listProjectLoadbalancerConfigurationsByServiceNameAndLoadBalancerId = (
+  listProjectLoadbalancerConfigurationByServiceNameAndLoadBalancerId = (
     loadBalancerId: string,
     serviceName: string
   ): Promise<number[]> => {
@@ -7742,7 +7740,7 @@ class CloudHandler {
   };
 
   /** List your operations */
-  listProjectOperationsByServiceName = (serviceName: string): Promise<CloudOperation[]> => {
+  listProjectOperationByServiceName = (serviceName: string): Promise<CloudOperation[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/operation`);
   };
 
@@ -7755,12 +7753,12 @@ class CloudHandler {
   };
 
   /** List quotas */
-  listProjectQuotasByServiceName = (serviceName: string): Promise<CloudQuotaQuotas[]> => {
+  listProjectQuotaByServiceName = (serviceName: string): Promise<CloudQuotaQuotas[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/quota`);
   };
 
   /** List your regions */
-  listProjectRegionsByServiceName = (serviceName: string): Promise<string[]> => {
+  listProjectRegionByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/region`);
   };
 
@@ -7951,7 +7949,7 @@ class CloudHandler {
   };
 
   /** List gateways */
-  listProjectRegionGatewaysByServiceNameAndRegionName = (
+  listProjectRegionGatewayByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudNetworkGateway[]> => {
@@ -8022,7 +8020,7 @@ class CloudHandler {
   };
 
   /** List interfaces */
-  listProjectRegionGatewayInterfacesByServiceNameAndRegionNameAndId = (
+  listProjectRegionGatewayInterfaceByServiceNameAndRegionNameAndId = (
     id: string,
     regionName: string,
     serviceName: string
@@ -8102,7 +8100,7 @@ class CloudHandler {
   };
 
   /** List certificates */
-  listProjectRegionKeymanagerCertificatesByServiceNameAndRegionName = (
+  listProjectRegionKeymanagerCertificateByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudKeymanagerCertificate[]> => {
@@ -8150,7 +8148,7 @@ class CloudHandler {
   };
 
   /** List secrets */
-  listProjectRegionKeymanagerSecretsByServiceNameAndRegionName = (
+  listProjectRegionKeymanagerSecretByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudKeymanagerSecret[]> => {
@@ -8185,7 +8183,7 @@ class CloudHandler {
   };
 
   /** List flavors */
-  listProjectRegionLoadbalancingFlavorsByServiceNameAndRegionName = (
+  listProjectRegionLoadbalancingFlavorByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudLoadbalancingFlavor[]> => {
@@ -8208,7 +8206,7 @@ class CloudHandler {
   };
 
   /** List health monitors */
-  listProjectRegionLoadbalancingHealthMonitorsByServiceNameAndRegionName = (
+  listProjectRegionLoadbalancingHealthMonitorByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudLoadbalancingHealthMonitor[]> => {
@@ -8390,7 +8388,7 @@ class CloudHandler {
   };
 
   /** List your loadbalancer listeners */
-  listProjectRegionLoadbalancingenersByServiceNameAndRegionName = (
+  listProjectRegionLoadbalancingenerByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudLoadbalancingListener[]> => {
@@ -8438,7 +8436,7 @@ class CloudHandler {
   };
 
   /** List your load balancers */
-  listProjectRegionLoadbalancingLoadbalancersByServiceNameAndRegionName = (
+  listProjectRegionLoadbalancingLoadbalancerByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudLoadbalancingLoadBalancer[]> => {
@@ -8516,7 +8514,7 @@ class CloudHandler {
     };
 
   /** List your loadbalancer pools */
-  listProjectRegionLoadbalancingPoolsByServiceNameAndRegionName = (
+  listProjectRegionLoadbalancingPoolByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudLoadbalancingPool[]> => {
@@ -8578,7 +8576,7 @@ class CloudHandler {
   };
 
   /** List your pool members */
-  listProjectRegionLoadbalancingPoolMembersByServiceNameAndRegionNameAndPoolId = (
+  listProjectRegionLoadbalancingPoolMemberByServiceNameAndRegionNameAndPoolId = (
     poolId: string,
     regionName: string,
     serviceName: string
@@ -8645,7 +8643,7 @@ class CloudHandler {
   };
 
   /** List networks */
-  listProjectRegionNetworksByServiceNameAndRegionName = (
+  listProjectRegionNetworkByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudProjectNetwork[]> => {
@@ -8690,7 +8688,7 @@ class CloudHandler {
   };
 
   /** List subnets */
-  listProjectRegionNetworkSubnetsByServiceNameAndRegionNameAndNetworkId = (
+  listProjectRegionNetworkSubnetByServiceNameAndRegionNameAndNetworkId = (
     networkId: string,
     regionName: string,
     serviceName: string
@@ -8743,7 +8741,7 @@ class CloudHandler {
   };
 
   /** List quotas */
-  listProjectRegionQuotasByServiceNameAndRegionName = (
+  listProjectRegionQuotaByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudQuotaQuotas> => {
@@ -8897,7 +8895,7 @@ class CloudHandler {
   };
 
   /** List volume backups */
-  listProjectRegionVolumeBackupsByServiceNameAndRegionName = (
+  listProjectRegionVolumeBackupByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudVolumeBackupVolumeBackup[]> => {
@@ -8973,7 +8971,7 @@ class CloudHandler {
   };
 
   /** List your automated backups */
-  listProjectRegionWorkflowBackupsByServiceNameAndRegionName = (
+  listProjectRegionWorkflowBackupByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudBackup[]> => {
@@ -9021,7 +9019,7 @@ class CloudHandler {
   };
 
   /** List the regions on which you can ask an access to */
-  listProjectRegionAvailablesByServiceName = (
+  listProjectRegionAvailableByServiceName = (
     serviceName: string
   ): Promise<CloudAvailableRegion[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/regionAvailable`);
@@ -9141,7 +9139,7 @@ class CloudHandler {
   };
 
   /** List storage quotas */
-  listProjectStorageQuotasByServiceName = (serviceName: string): Promise<CloudStorageQuota> => {
+  listProjectStorageQuotaByServiceName = (serviceName: string): Promise<CloudStorageQuota> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/storage/quota`);
   };
 

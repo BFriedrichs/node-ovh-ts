@@ -2,4 +2,4 @@
 
 import { LicenseWorkLightVersionEnum } from './LicenseWorkLightVersionEnum';
 
-export type LicenseOrderableWorkLightCompatibilityInfos = { version: LicenseWorkLightVersionEnum };
+export type LicenseOrderableWorkLightCompatibilityInfos = { version?: LicenseWorkLightVersionEnum };

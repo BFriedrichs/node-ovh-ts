@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type CloudProjectAiVolumePublicSwift = { url?: string };
+export type CloudProjectAiVolumePublicSwift = { url: string };

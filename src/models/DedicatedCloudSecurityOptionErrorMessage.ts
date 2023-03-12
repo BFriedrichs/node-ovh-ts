@@ -3,6 +3,6 @@
 import { DedicatedCloudSecurityOptionErrorEnum } from './DedicatedCloudSecurityOptionErrorEnum';
 
 export type DedicatedCloudSecurityOptionErrorMessage = {
-  code: DedicatedCloudSecurityOptionErrorEnum;
-  message: string;
+  code?: DedicatedCloudSecurityOptionErrorEnum;
+  message?: string;
 };

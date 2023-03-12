@@ -3,7 +3,7 @@
 import { PackXdslResiliationReasonEnum } from './PackXdslResiliationReasonEnum';
 
 export type PackXdslResiliationSurvey = {
-  comment: string | null;
-  subsidiary: string | null;
-  type: PackXdslResiliationReasonEnum;
+  comment?: string | null;
+  subsidiary?: string | null;
+  type?: PackXdslResiliationReasonEnum;
 };

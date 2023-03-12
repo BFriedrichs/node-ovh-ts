@@ -2,4 +2,4 @@
 
 import { HostingWebDiskTypeEnum } from './HostingWebDiskTypeEnum';
 
-export type HostingWebDiskType = { type: HostingWebDiskTypeEnum; unit: string; value: number };
+export type HostingWebDiskType = { type?: HostingWebDiskTypeEnum; unit?: string; value?: number };

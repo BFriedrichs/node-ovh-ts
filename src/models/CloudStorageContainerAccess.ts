@@ -2,4 +2,4 @@
 
 import { CloudStorageEndpoint } from './CloudStorageEndpoint';
 
-export type CloudStorageContainerAccess = { endpoints: CloudStorageEndpoint[]; token: string };
+export type CloudStorageContainerAccess = { endpoints?: CloudStorageEndpoint[]; token?: string };

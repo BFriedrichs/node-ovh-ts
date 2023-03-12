@@ -2,4 +2,4 @@
 
 import { VrackVrackZoneEnum } from './VrackVrackZoneEnum';
 
-export type VrackIp = { gateway: string | null; ip: string; zone: VrackVrackZoneEnum | null };
+export type VrackIp = { gateway?: string | null; ip?: string; zone?: VrackVrackZoneEnum | null };

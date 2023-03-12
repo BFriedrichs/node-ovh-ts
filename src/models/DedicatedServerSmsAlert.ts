@@ -3,11 +3,11 @@
 import { DedicatedServerAlertLanguageEnum } from './DedicatedServerAlertLanguageEnum';
 
 export type DedicatedServerSmsAlert = {
-  alertId: number;
-  enabled: boolean;
-  fromHour: number | null;
-  language: DedicatedServerAlertLanguageEnum;
-  phoneNumberTo: string;
-  smsAccount: string;
-  toHour: number | null;
+  alertId?: number;
+  enabled?: boolean;
+  fromHour?: number | null;
+  language?: DedicatedServerAlertLanguageEnum;
+  phoneNumberTo?: string;
+  smsAccount?: string;
+  toHour?: number | null;
 };

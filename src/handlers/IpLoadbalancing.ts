@@ -1,53 +1,53 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { IpLoadbalancingBackendHttpBackendHttp } from '../models/IpLoadbalancingBackendHttpBackendHttp';
-import { IpLoadbalancingPendingChanges } from '../models/IpLoadbalancingPendingChanges';
 import { IpLoadbalancingBackendUdpCustomerServerBackendUDPServer } from '../models/IpLoadbalancingBackendUdpCustomerServerBackendUDPServer';
-import { IpLoadbalancingBalanceHTTPEnum } from '../models/IpLoadbalancingBalanceHTTPEnum';
-import { IpLoadbalancingZoneZone } from '../models/IpLoadbalancingZoneZone';
-import { IpLoadbalancingStickinessTCPEnum } from '../models/IpLoadbalancingStickinessTCPEnum';
-import { IpLoadbalancingQuotaQuota } from '../models/IpLoadbalancingQuotaQuota';
-import { IpLoadbalancingRouteAvailableAction } from '../models/IpLoadbalancingRouteAvailableAction';
-import { IpLoadbalancingTaskStatusEnum } from '../models/IpLoadbalancingTaskStatusEnum';
 import { IpLoadbalancingRouteHttpRouteHttp } from '../models/IpLoadbalancingRouteHttpRouteHttp';
-import { IpLoadbalancingFrontendUdpFrontendUdp } from '../models/IpLoadbalancingFrontendUdpFrontendUdp';
 import { IpLoadbalancingSslTypeEnum } from '../models/IpLoadbalancingSslTypeEnum';
-import { IpLoadbalancingBackendUdpBackendUdp } from '../models/IpLoadbalancingBackendUdpBackendUdp';
-import { IpLoadbalancingVrackNetworkVrackNetwork } from '../models/IpLoadbalancingVrackNetworkVrackNetwork';
-import { IpLoadbalancingVrackInformation } from '../models/IpLoadbalancingVrackInformation';
-import { IpLoadbalancingBackendProbe } from '../models/IpLoadbalancingBackendProbe';
-import { IpLoadbalancingNatIps } from '../models/IpLoadbalancingNatIps';
-import { IpLoadbalancingBackendTcpBackendTcp } from '../models/IpLoadbalancingBackendTcpBackendTcp';
-import { IpLoadbalancingOnMarkedDownEnum } from '../models/IpLoadbalancingOnMarkedDownEnum';
-import { IpLoadbalancingDefinedFarm } from '../models/IpLoadbalancingDefinedFarm';
-import { IpLoadbalancingFrontendHttpFrontendHttp } from '../models/IpLoadbalancingFrontendHttpFrontendHttp';
-import { IpLoadbalancingBackendTcpCustomerServerBackendTCPServer } from '../models/IpLoadbalancingBackendTcpCustomerServerBackendTCPServer';
-import { IpLoadbalancingDefinedRoute } from '../models/IpLoadbalancingDefinedRoute';
-import { IpLoadbalancingRouteAvailableRule } from '../models/IpLoadbalancingRouteAvailableRule';
-import { IpLoadbalancingVrackNetworkCreationRules } from '../models/IpLoadbalancingVrackNetworkCreationRules';
-import { IpLoadbalancingDefinedFrontend } from '../models/IpLoadbalancingDefinedFrontend';
-import { IpLoadbalancingStickinessHTTPEnum } from '../models/IpLoadbalancingStickinessHTTPEnum';
-import { IpLoadbalancingBackendCustomerServerStatusEnum } from '../models/IpLoadbalancingBackendCustomerServerStatusEnum';
-import { IpLoadbalancingBackendHttpCustomerServerBackendHTTPServer } from '../models/IpLoadbalancingBackendHttpCustomerServerBackendHTTPServer';
-import { IpLoadbalancingTaskTask } from '../models/IpLoadbalancingTaskTask';
-import { IpLoadbalancingProxyProtocolVersionEnum } from '../models/IpLoadbalancingProxyProtocolVersionEnum';
-import { ServicesService } from '../models/ServicesService';
-import { IpLoadbalancingSslSsl } from '../models/IpLoadbalancingSslSsl';
-import { IpLoadbalancingBalanceTCPEnum } from '../models/IpLoadbalancingBalanceTCPEnum';
-import { IpLoadbalancingRouteTcpRouteTcp } from '../models/IpLoadbalancingRouteTcpRouteTcp';
-import { IpLoadBalancingIp } from '../models/IpLoadBalancingIp';
-import { IpLoadbalancingQuotaHistoryQuotaHistory } from '../models/IpLoadbalancingQuotaHistoryQuotaHistory';
-import { IpLoadBalancingTaskActionEnum } from '../models/IpLoadBalancingTaskActionEnum';
-import { IpLoadbalancingRouteRuleRouteRule } from '../models/IpLoadbalancingRouteRuleRouteRule';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { IpLoadbalancingRouteRuleMatchesEnum } from '../models/IpLoadbalancingRouteRuleMatchesEnum';
-import { IpLoadbalancingFrontendTcpFrontendTcp } from '../models/IpLoadbalancingFrontendTcpFrontendTcp';
-import { IpLoadbalancingRouteHttpAction } from '../models/IpLoadbalancingRouteHttpAction';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { IpLoadbalancingInstancesState } from '../models/IpLoadbalancingInstancesState';
 import { IpLoadbalancingStatus } from '../models/IpLoadbalancingStatus';
-import { IpLoadbalancingRouteTcpAction } from '../models/IpLoadbalancingRouteTcpAction';
+import { IpLoadbalancingZoneZone } from '../models/IpLoadbalancingZoneZone';
+import { IpLoadbalancingBalanceHTTPEnum } from '../models/IpLoadbalancingBalanceHTTPEnum';
+import { ServicesService } from '../models/ServicesService';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { IpLoadbalancingRouteAvailableAction } from '../models/IpLoadbalancingRouteAvailableAction';
+import { IpLoadbalancingPendingChanges } from '../models/IpLoadbalancingPendingChanges';
+import { IpLoadbalancingBackendHttpBackendHttp } from '../models/IpLoadbalancingBackendHttpBackendHttp';
+import { IpLoadbalancingFrontendTcpFrontendTcp } from '../models/IpLoadbalancingFrontendTcpFrontendTcp';
+import { IpLoadbalancingSslSsl } from '../models/IpLoadbalancingSslSsl';
+import { IpLoadbalancingOnMarkedDownEnum } from '../models/IpLoadbalancingOnMarkedDownEnum';
+import { IpLoadbalancingProxyProtocolVersionEnum } from '../models/IpLoadbalancingProxyProtocolVersionEnum';
+import { IpLoadbalancingBalanceTCPEnum } from '../models/IpLoadbalancingBalanceTCPEnum';
+import { IpLoadbalancingBackendUdpBackendUdp } from '../models/IpLoadbalancingBackendUdpBackendUdp';
+import { IpLoadbalancingInstancesState } from '../models/IpLoadbalancingInstancesState';
+import { IpLoadbalancingTaskStatusEnum } from '../models/IpLoadbalancingTaskStatusEnum';
+import { IpLoadbalancingRouteHttpAction } from '../models/IpLoadbalancingRouteHttpAction';
 import { IpLoadbalancingFarmAvailableProbe } from '../models/IpLoadbalancingFarmAvailableProbe';
+import { IpLoadBalancingIp } from '../models/IpLoadBalancingIp';
+import { IpLoadbalancingBackendTcpBackendTcp } from '../models/IpLoadbalancingBackendTcpBackendTcp';
+import { IpLoadbalancingStickinessHTTPEnum } from '../models/IpLoadbalancingStickinessHTTPEnum';
+import { IpLoadbalancingVrackInformation } from '../models/IpLoadbalancingVrackInformation';
+import { IpLoadbalancingStickinessTCPEnum } from '../models/IpLoadbalancingStickinessTCPEnum';
+import { IpLoadbalancingDefinedFarm } from '../models/IpLoadbalancingDefinedFarm';
+import { IpLoadbalancingVrackNetworkVrackNetwork } from '../models/IpLoadbalancingVrackNetworkVrackNetwork';
+import { IpLoadbalancingRouteRuleRouteRule } from '../models/IpLoadbalancingRouteRuleRouteRule';
+import { IpLoadbalancingBackendTcpCustomerServerBackendTCPServer } from '../models/IpLoadbalancingBackendTcpCustomerServerBackendTCPServer';
+import { IpLoadbalancingFrontendHttpFrontendHttp } from '../models/IpLoadbalancingFrontendHttpFrontendHttp';
+import { IpLoadbalancingRouteTcpAction } from '../models/IpLoadbalancingRouteTcpAction';
+import { IpLoadbalancingDefinedRoute } from '../models/IpLoadbalancingDefinedRoute';
+import { IpLoadbalancingNatIps } from '../models/IpLoadbalancingNatIps';
+import { IpLoadbalancingBackendCustomerServerStatusEnum } from '../models/IpLoadbalancingBackendCustomerServerStatusEnum';
+import { IpLoadbalancingFrontendUdpFrontendUdp } from '../models/IpLoadbalancingFrontendUdpFrontendUdp';
+import { IpLoadbalancingQuotaHistoryQuotaHistory } from '../models/IpLoadbalancingQuotaHistoryQuotaHistory';
+import { IpLoadbalancingVrackNetworkCreationRules } from '../models/IpLoadbalancingVrackNetworkCreationRules';
+import { IpLoadbalancingRouteTcpRouteTcp } from '../models/IpLoadbalancingRouteTcpRouteTcp';
+import { IpLoadbalancingRouteAvailableRule } from '../models/IpLoadbalancingRouteAvailableRule';
+import { IpLoadbalancingQuotaQuota } from '../models/IpLoadbalancingQuotaQuota';
+import { IpLoadbalancingBackendProbe } from '../models/IpLoadbalancingBackendProbe';
+import { IpLoadbalancingDefinedFrontend } from '../models/IpLoadbalancingDefinedFrontend';
+import { IpLoadbalancingBackendHttpCustomerServerBackendHTTPServer } from '../models/IpLoadbalancingBackendHttpCustomerServerBackendHTTPServer';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { IpLoadbalancingTaskTask } from '../models/IpLoadbalancingTaskTask';
+import { IpLoadbalancingRouteRuleMatchesEnum } from '../models/IpLoadbalancingRouteRuleMatchesEnum';
+import { IpLoadBalancingTaskActionEnum } from '../models/IpLoadBalancingTaskActionEnum';
 import OVHBase from '../ovh';
 
 class IpLoadbalancingHandler {
@@ -58,7 +58,7 @@ class IpLoadbalancingHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/ipLoadbalancing');
   };
 
@@ -149,7 +149,7 @@ class IpLoadbalancingHandler {
   };
 
   /** List all failover ip routed to this IPLB */
-  listFailoversByServiceName = (serviceName: string): Promise<string[]> => {
+  listFailoverByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/failover`);
   };
 

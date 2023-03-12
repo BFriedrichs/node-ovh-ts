@@ -3,7 +3,7 @@
 import { IpGameMitigationStateEnum } from './IpGameMitigationStateEnum';
 
 export type IpGameMitigation = {
-  firewallModeEnabled: boolean;
-  ipOnGame: string;
-  state: IpGameMitigationStateEnum;
+  firewallModeEnabled?: boolean;
+  ipOnGame?: string;
+  state?: IpGameMitigationStateEnum;
 };

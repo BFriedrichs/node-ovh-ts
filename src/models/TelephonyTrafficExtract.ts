@@ -3,10 +3,10 @@
 import { TelephonyTaskStatusEnum } from './TelephonyTaskStatusEnum';
 
 export type TelephonyTrafficExtract = {
-  dateEnd: Date;
-  dateStart: Date;
-  fileSize: number;
-  fileUrl: string;
-  id: number;
-  status: TelephonyTaskStatusEnum;
+  dateEnd?: Date;
+  dateStart?: Date;
+  fileSize?: number;
+  fileUrl?: string;
+  id?: number;
+  status?: TelephonyTaskStatusEnum;
 };

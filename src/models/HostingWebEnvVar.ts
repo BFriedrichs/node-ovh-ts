@@ -4,9 +4,9 @@ import { HostingWebEnvVarTypeEnum } from './HostingWebEnvVarTypeEnum';
 import { HostingWebEnvVarStatusEnum } from './HostingWebEnvVarStatusEnum';
 
 export type HostingWebEnvVar = {
-  key: string;
-  status: HostingWebEnvVarStatusEnum;
-  taskId: number | null;
-  type: HostingWebEnvVarTypeEnum;
-  value: string;
+  key?: string;
+  status?: HostingWebEnvVarStatusEnum;
+  taskId?: number | null;
+  type?: HostingWebEnvVarTypeEnum;
+  value?: string;
 };

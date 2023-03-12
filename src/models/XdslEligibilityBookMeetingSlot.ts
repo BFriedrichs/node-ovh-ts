@@ -3,7 +3,7 @@
 import { XdslEligibilityMeetingSlot } from './XdslEligibilityMeetingSlot';
 
 export type XdslEligibilityBookMeetingSlot = {
-  fakeMeeting: boolean;
-  meetingSlot: XdslEligibilityMeetingSlot | null;
-  name: string | null;
+  fakeMeeting?: boolean;
+  meetingSlot?: XdslEligibilityMeetingSlot | null;
+  name?: string | null;
 };

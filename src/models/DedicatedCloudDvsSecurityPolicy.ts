@@ -3,7 +3,7 @@
 import { DedicatedCloudVmwareBoolPolicy } from './DedicatedCloudVmwareBoolPolicy';
 
 export type DedicatedCloudDvsSecurityPolicy = {
-  allowPromiscuous: DedicatedCloudVmwareBoolPolicy;
-  forgedTransmits: DedicatedCloudVmwareBoolPolicy;
-  macChanges: DedicatedCloudVmwareBoolPolicy;
+  allowPromiscuous?: DedicatedCloudVmwareBoolPolicy;
+  forgedTransmits?: DedicatedCloudVmwareBoolPolicy;
+  macChanges?: DedicatedCloudVmwareBoolPolicy;
 };

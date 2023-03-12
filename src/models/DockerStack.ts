@@ -3,11 +3,11 @@
 import { DockerSlaveMetrics } from './DockerSlaveMetrics';
 
 export type DockerStack = {
-  cluster: string | null;
-  createdAt: Date;
-  loadBalancer: string;
-  metrics: DockerSlaveMetrics;
-  name: string;
-  slaves: string[];
-  updatedAt: Date;
+  cluster?: string | null;
+  createdAt?: Date;
+  loadBalancer?: string;
+  metrics?: DockerSlaveMetrics;
+  name?: string;
+  slaves?: string[];
+  updatedAt?: Date;
 };

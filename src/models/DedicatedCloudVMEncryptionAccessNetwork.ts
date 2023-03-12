@@ -3,10 +3,10 @@
 import { DedicatedCloudOptionAccessNetworkStateEnum } from './DedicatedCloudOptionAccessNetworkStateEnum';
 
 export type DedicatedCloudVMEncryptionAccessNetwork = {
-  description: string;
-  ip: string;
-  kmsId: number;
-  kmsTcpPort: number;
-  sslThumbprint: string;
-  state: DedicatedCloudOptionAccessNetworkStateEnum;
+  description?: string;
+  ip?: string;
+  kmsId?: number;
+  kmsTcpPort?: number;
+  sslThumbprint?: string;
+  state?: DedicatedCloudOptionAccessNetworkStateEnum;
 };

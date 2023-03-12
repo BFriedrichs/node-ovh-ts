@@ -4,10 +4,10 @@ import { SslOperationFunctionEnum } from './SslOperationFunctionEnum';
 import { SslOperationStatusEnum } from './SslOperationStatusEnum';
 
 export type SslOperation = {
-  doneDate: Date | null;
-  function: SslOperationFunctionEnum;
-  lastUpdate: Date;
-  startDate: Date;
-  status: SslOperationStatusEnum;
-  taskId: number;
+  doneDate?: Date | null;
+  function?: SslOperationFunctionEnum;
+  lastUpdate?: Date;
+  startDate?: Date;
+  status?: SslOperationStatusEnum;
+  taskId?: number;
 };

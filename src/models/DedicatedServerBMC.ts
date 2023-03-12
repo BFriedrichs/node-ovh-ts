@@ -3,6 +3,6 @@
 import { DedicatedServerBmcSupportedFeatures } from './DedicatedServerBmcSupportedFeatures';
 
 export type DedicatedServerBMC = {
-  available: boolean;
-  supportedFeatures: DedicatedServerBmcSupportedFeatures;
+  available?: boolean;
+  supportedFeatures?: DedicatedServerBmcSupportedFeatures;
 };

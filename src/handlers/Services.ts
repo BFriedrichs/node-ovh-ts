@@ -1,25 +1,25 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesBillingPricing } from '../models/ServicesBillingPricing';
-import { ServicesBillingEngagementEngagement } from '../models/ServicesBillingEngagementEngagement';
-import { ServicesExpandedService } from '../models/ServicesExpandedService';
-import { ServicesFormDescription } from '../models/ServicesFormDescription';
 import { ServicesOperationDetachExecutionRequest } from '../models/ServicesOperationDetachExecutionRequest';
-import { ServicesOperationOrder } from '../models/ServicesOperationOrder';
 import { ServicesConsumptionSummary } from '../models/ServicesConsumptionSummary';
-import { ServicesFormResponse } from '../models/ServicesFormResponse';
+import { ServicesFormForm } from '../models/ServicesFormForm';
+import { ServicesFormDescription } from '../models/ServicesFormDescription';
 import { ServicesExpandedTechnicalDetails } from '../models/ServicesExpandedTechnicalDetails';
 import { ServicesBillingEngagementEngagementRequestCreation } from '../models/ServicesBillingEngagementEngagementRequestCreation';
-import { ServicesOperationExecutionRequest } from '../models/ServicesOperationExecutionRequest';
+import { ServicesFormResponse } from '../models/ServicesFormResponse';
+import { ServicesOperationOrder } from '../models/ServicesOperationOrder';
+import { ServicesBillingEngagementEngagementFlushOrder } from '../models/ServicesBillingEngagementEngagementFlushOrder';
+import { OrderCartGenericProductDefinition } from '../models/OrderCartGenericProductDefinition';
+import { ServicesBillingEngagementEngagement } from '../models/ServicesBillingEngagementEngagement';
+import { ServicesUpdateService } from '../models/ServicesUpdateService';
 import { ServicesBillingEngagementEngagementRequest } from '../models/ServicesBillingEngagementEngagementRequest';
+import { ServicesBillingPricing } from '../models/ServicesBillingPricing';
+import { ServicesOperationExecutionRequest } from '../models/ServicesOperationExecutionRequest';
 import { ServicesOperationDetachOptionsDefinition } from '../models/ServicesOperationDetachOptionsDefinition';
+import { ServicesExpandedService } from '../models/ServicesExpandedService';
 import { ServicesConsumptionElement } from '../models/ServicesConsumptionElement';
 import { ServicesBillingEngagementUpdateEndRuleRequest } from '../models/ServicesBillingEngagementUpdateEndRuleRequest';
-import { ServicesBillingEngagementEngagementFlushOrder } from '../models/ServicesBillingEngagementEngagementFlushOrder';
-import { ServicesUpdateService } from '../models/ServicesUpdateService';
 import { ServicesBillingEngagementEngagementFlushRequest } from '../models/ServicesBillingEngagementEngagementFlushRequest';
-import { ServicesFormForm } from '../models/ServicesFormForm';
-import { OrderCartGenericProductDefinition } from '../models/OrderCartGenericProductDefinition';
 import OVHBase from '../ovh';
 
 class ServicesHandler {
@@ -30,7 +30,7 @@ class ServicesHandler {
   }
 
   /** List available services */
-  lists = (): Promise<number[]> => {
+  list = (): Promise<number[]> => {
     return this.ovh.request('GET', '/services');
   };
 
@@ -52,7 +52,7 @@ class ServicesHandler {
   };
 
   /** List all available engagements a given service can subscribe to */
-  listBillingEngagementAvailablesByServiceId = (
+  listBillingEngagementAvailableByServiceId = (
     serviceId: number
   ): Promise<ServicesBillingPricing[]> => {
     return this.ovh.request('GET', `/services/${serviceId}/billing/engagement/available`);
@@ -117,7 +117,7 @@ class ServicesHandler {
   };
 
   /** List consumption history of your service */
-  listConsumptionHistorysByServiceId = (serviceId: number): Promise<number[]> => {
+  listConsumptionHistoryByServiceId = (serviceId: number): Promise<number[]> => {
     return this.ovh.request('GET', `/services/${serviceId}/consumption/history`);
   };
 
@@ -138,7 +138,7 @@ class ServicesHandler {
   };
 
   /** List offers this option can be converted to */
-  listDetachsByServiceId = (serviceId: number): Promise<OrderCartGenericProductDefinition[]> => {
+  listDetachByServiceId = (serviceId: number): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/services/${serviceId}/detach`);
   };
 
@@ -177,7 +177,7 @@ class ServicesHandler {
   };
 
   /** List available forms for service */
-  listFormsByServiceId = (serviceId: number): Promise<ServicesFormDescription[]> => {
+  listFormByServiceId = (serviceId: number): Promise<ServicesFormDescription[]> => {
     return this.ovh.request('GET', `/services/${serviceId}/form`);
   };
 
@@ -216,7 +216,7 @@ class ServicesHandler {
   };
 
   /** List offers this option can be converted to */
-  listUpgradesByServiceId = (serviceId: number): Promise<OrderCartGenericProductDefinition[]> => {
+  listUpgradeByServiceId = (serviceId: number): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/services/${serviceId}/upgrade`);
   };
 

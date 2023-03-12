@@ -4,10 +4,10 @@ import { CloudProjectDataProcessingNotebookNotebookStateEnum } from './CloudProj
 import { CloudProjectDataProcessingInfo } from './CloudProjectDataProcessingInfo';
 
 export type CloudProjectDataProcessingNotebookNotebookStatus = {
-  duration: number | null;
-  info: CloudProjectDataProcessingInfo;
-  lastStartedAt: Date | null;
-  lastStoppedAt: Date | null;
-  state: CloudProjectDataProcessingNotebookNotebookStateEnum | null;
-  url: string | null;
+  duration?: number | null;
+  info?: CloudProjectDataProcessingInfo;
+  lastStartedAt?: Date | null;
+  lastStoppedAt?: Date | null;
+  state?: CloudProjectDataProcessingNotebookNotebookStateEnum | null;
+  url?: string | null;
 };

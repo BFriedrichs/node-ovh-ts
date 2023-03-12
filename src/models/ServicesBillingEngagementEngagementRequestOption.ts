@@ -3,6 +3,6 @@
 import { ServicesBillingPricing } from './ServicesBillingPricing';
 
 export type ServicesBillingEngagementEngagementRequestOption = {
-  pricing: ServicesBillingPricing;
-  serviceId: number;
+  pricing?: ServicesBillingPricing;
+  serviceId?: number;
 };

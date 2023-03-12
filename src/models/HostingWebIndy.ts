@@ -3,8 +3,8 @@
 import { HostingWebUserStateEnum } from './HostingWebUserStateEnum';
 
 export type HostingWebIndy = {
-  attachedDomains: string[];
-  home: string;
-  login: string;
-  state: HostingWebUserStateEnum;
+  attachedDomains?: string[];
+  home?: string;
+  login?: string;
+  state?: HostingWebUserStateEnum;
 };

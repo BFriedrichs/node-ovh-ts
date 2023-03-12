@@ -2,4 +2,4 @@
 
 import { OvhcloudconnectMessageCodeEnum } from './OvhcloudconnectMessageCodeEnum';
 
-export type OvhcloudconnectSendKeyAnswer = { messageCode: OvhcloudconnectMessageCodeEnum };
+export type OvhcloudconnectSendKeyAnswer = { messageCode?: OvhcloudconnectMessageCodeEnum };

@@ -3,7 +3,7 @@
 import { ClusterHadoopBillingNameEnum } from './ClusterHadoopBillingNameEnum';
 
 export type ClusterHadoopNodeConsumption = {
-  hostname: string;
-  nodeProfile: ClusterHadoopBillingNameEnum;
-  quantity: number;
+  hostname?: string;
+  nodeProfile?: ClusterHadoopBillingNameEnum;
+  quantity?: number;
 };

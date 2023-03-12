@@ -3,11 +3,11 @@
 import { BillingOrderPaymentMeanHttpParameter } from './BillingOrderPaymentMeanHttpParameter';
 
 export type BillingOrderPaymentMean = {
-  fee: number;
-  htmlForm: string | null;
-  httpMethod: string;
-  logo: string | null;
-  parameters: BillingOrderPaymentMeanHttpParameter[];
-  subType: string | null;
-  url: string;
+  fee?: number;
+  htmlForm?: string | null;
+  httpMethod?: string;
+  logo?: string | null;
+  parameters?: BillingOrderPaymentMeanHttpParameter[];
+  subType?: string | null;
+  url?: string;
 };

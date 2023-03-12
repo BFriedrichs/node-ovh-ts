@@ -3,8 +3,8 @@
 import { TelephonyOutplanNotificationBlockEnum } from './TelephonyOutplanNotificationBlockEnum';
 
 export type TelephonyConsumptionThreshold = {
-  block: TelephonyOutplanNotificationBlockEnum;
-  id: number;
-  notifyEmail: string;
-  percentage: number;
+  block?: TelephonyOutplanNotificationBlockEnum;
+  id?: number;
+  notifyEmail?: string;
+  percentage?: number;
 };

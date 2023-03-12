@@ -3,10 +3,10 @@
 import { OrderCatalogPrivateCloudZone } from './OrderCatalogPrivateCloudZone';
 
 export type OrderCatalogPrivateCloudZonesListing = {
-  bhs: OrderCatalogPrivateCloudZone;
-  eri: OrderCatalogPrivateCloudZone;
-  lim: OrderCatalogPrivateCloudZone;
-  rbx: OrderCatalogPrivateCloudZone;
-  sbg: OrderCatalogPrivateCloudZone;
-  waw: OrderCatalogPrivateCloudZone;
+  bhs?: OrderCatalogPrivateCloudZone;
+  eri?: OrderCatalogPrivateCloudZone;
+  lim?: OrderCatalogPrivateCloudZone;
+  rbx?: OrderCatalogPrivateCloudZone;
+  sbg?: OrderCatalogPrivateCloudZone;
+  waw?: OrderCatalogPrivateCloudZone;
 };

@@ -2,4 +2,4 @@
 
 import { DedicatedAnthosStorageTypeEnum } from './DedicatedAnthosStorageTypeEnum';
 
-export type DedicatedAnthosStorage = { accessUrl: string; type: DedicatedAnthosStorageTypeEnum };
+export type DedicatedAnthosStorage = { accessUrl?: string; type?: DedicatedAnthosStorageTypeEnum };

@@ -3,9 +3,9 @@
 import { CloudProjectDatabaseKafkaConnectConnectorStatusEnum } from './CloudProjectDatabaseKafkaConnectConnectorStatusEnum';
 
 export type CloudProjectDatabaseKafkaConnectConnector = {
-  configuration?: Record<string, string>;
-  connectorId: string;
-  id: string;
-  name: string;
-  status: CloudProjectDatabaseKafkaConnectConnectorStatusEnum;
+  configuration: Record<string, string>;
+  connectorId?: string;
+  id?: string;
+  name?: string;
+  status?: CloudProjectDatabaseKafkaConnectConnectorStatusEnum;
 };

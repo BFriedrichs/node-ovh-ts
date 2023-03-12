@@ -1,15 +1,15 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { AnalyticsCluster } from '../models/AnalyticsCluster';
+import { AnalyticsClusterDestroy } from '../models/AnalyticsClusterDestroy';
 import { AnalyticsClusterNode } from '../models/AnalyticsClusterNode';
-import { AnalyticsClusterDeployStatus } from '../models/AnalyticsClusterDeployStatus';
-import { AnalyticsPlatformCapability } from '../models/AnalyticsPlatformCapability';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { AnalyticsClusterDeploy } from '../models/AnalyticsClusterDeploy';
 import { AnalyticsClusterActivity } from '../models/AnalyticsClusterActivity';
 import { ServicesService } from '../models/ServicesService';
-import { AnalyticsClusterDestroy } from '../models/AnalyticsClusterDestroy';
+import { AnalyticsClusterDeployStatus } from '../models/AnalyticsClusterDeployStatus';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { AnalyticsCluster } from '../models/AnalyticsCluster';
+import { AnalyticsPlatformCapability } from '../models/AnalyticsPlatformCapability';
+import { AnalyticsClusterDeploy } from '../models/AnalyticsClusterDeploy';
 import OVHBase from '../ovh';
 
 class AnalyticsHandler {

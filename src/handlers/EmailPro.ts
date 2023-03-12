@@ -1,26 +1,26 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailProAccountSendOnBehalfTo } from '../models/EmailProAccountSendOnBehalfTo';
-import { EmailProDisclaimerAttributeEnum } from '../models/EmailProDisclaimerAttributeEnum';
-import { EmailProAccountAlias } from '../models/EmailProAccountAlias';
-import { EmailProDisclaimer } from '../models/EmailProDisclaimer';
-import { EmailProExternalContactNative } from '../models/EmailProExternalContactNative';
-import { EmailProServer } from '../models/EmailProServer';
-import { EmailProServiceNative } from '../models/EmailProServiceNative';
-import { EmailProAccountSendAs } from '../models/EmailProAccountSendAs';
-import { EmailProDisclaimerNative } from '../models/EmailProDisclaimerNative';
-import { EmailProExternalContact } from '../models/EmailProExternalContact';
-import { EmailProDomainTypeEnum } from '../models/EmailProDomainTypeEnum';
 import { EmailProAccountDiagnosis } from '../models/EmailProAccountDiagnosis';
-import { EmailProObjectStateEnum } from '../models/EmailProObjectStateEnum';
-import { EmailProAccount } from '../models/EmailProAccount';
-import { EmailProDomainNative } from '../models/EmailProDomainNative';
+import { EmailProAccountAlias } from '../models/EmailProAccountAlias';
 import { ServicesService } from '../models/ServicesService';
-import { EmailProService } from '../models/EmailProService';
-import { EmailProDomain } from '../models/EmailProDomain';
-import { EmailProAccountNative } from '../models/EmailProAccountNative';
-import { EmailProTask } from '../models/EmailProTask';
+import { EmailProDomainNative } from '../models/EmailProDomainNative';
+import { EmailProDisclaimerAttributeEnum } from '../models/EmailProDisclaimerAttributeEnum';
 import { EmailProAccountFullAccess } from '../models/EmailProAccountFullAccess';
+import { EmailProObjectStateEnum } from '../models/EmailProObjectStateEnum';
+import { EmailProAccountSendAs } from '../models/EmailProAccountSendAs';
+import { EmailProAccountNative } from '../models/EmailProAccountNative';
+import { EmailProExternalContactNative } from '../models/EmailProExternalContactNative';
+import { EmailProDomain } from '../models/EmailProDomain';
+import { EmailProAccount } from '../models/EmailProAccount';
+import { EmailProDisclaimer } from '../models/EmailProDisclaimer';
+import { EmailProServer } from '../models/EmailProServer';
+import { EmailProDisclaimerNative } from '../models/EmailProDisclaimerNative';
+import { EmailProTask } from '../models/EmailProTask';
+import { EmailProExternalContact } from '../models/EmailProExternalContact';
+import { EmailProAccountSendOnBehalfTo } from '../models/EmailProAccountSendOnBehalfTo';
+import { EmailProDomainTypeEnum } from '../models/EmailProDomainTypeEnum';
+import { EmailProServiceNative } from '../models/EmailProServiceNative';
+import { EmailProService } from '../models/EmailProService';
 import OVHBase from '../ovh';
 
 class EmailProHandler {
@@ -31,7 +31,7 @@ class EmailProHandler {
   }
 
   /** List available services */
-  listPros = (): Promise<string[]> => {
+  listPro = (): Promise<string[]> => {
     return this.ovh.request('GET', '/email/pro');
   };
 

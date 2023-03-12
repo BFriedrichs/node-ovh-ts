@@ -3,7 +3,7 @@
 import { XdslAsyncTaskStatusEnum } from './XdslAsyncTaskStatusEnum';
 
 export type XdslAsyncTaskArray = {
-  error: string | null;
-  result: any[] | null;
-  status: XdslAsyncTaskStatusEnum;
+  error?: string | null;
+  result?: any[] | null;
+  status?: XdslAsyncTaskStatusEnum;
 };

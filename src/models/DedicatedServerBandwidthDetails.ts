@@ -3,8 +3,8 @@
 import { DedicatedServerBandwidthTypeEnum } from './DedicatedServerBandwidthTypeEnum';
 
 export type DedicatedServerBandwidthDetails = {
-  InternetToOvh: number | null;
-  OvhToInternet: number | null;
-  OvhToOvh: number | null;
-  type: DedicatedServerBandwidthTypeEnum | null;
+  InternetToOvh?: number | null;
+  OvhToInternet?: number | null;
+  OvhToOvh?: number | null;
+  type?: DedicatedServerBandwidthTypeEnum | null;
 };

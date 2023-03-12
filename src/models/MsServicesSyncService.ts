@@ -2,4 +2,4 @@
 
 import { MsServicesServiceStateEnum } from './MsServicesServiceStateEnum';
 
-export type MsServicesSyncService = { state: MsServicesServiceStateEnum; taskPendingId: number };
+export type MsServicesSyncService = { state?: MsServicesServiceStateEnum; taskPendingId?: number };

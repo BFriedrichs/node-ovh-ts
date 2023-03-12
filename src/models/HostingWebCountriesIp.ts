@@ -3,7 +3,7 @@
 import { HostingWebCountryEnum } from './HostingWebCountryEnum';
 
 export type HostingWebCountriesIp = {
-  country: HostingWebCountryEnum;
-  ip: string;
-  ipv6: string | null;
+  country?: HostingWebCountryEnum;
+  ip?: string;
+  ipv6?: string | null;
 };

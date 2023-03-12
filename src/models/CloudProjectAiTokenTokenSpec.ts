@@ -3,8 +3,8 @@
 import { CloudProjectAiTokenRoleEnum } from './CloudProjectAiTokenRoleEnum';
 
 export type CloudProjectAiTokenTokenSpec = {
-  labelSelector: string | null;
-  name?: string;
-  region?: string;
-  role?: CloudProjectAiTokenRoleEnum;
+  labelSelector?: string | null;
+  name: string;
+  region: string;
+  role: CloudProjectAiTokenRoleEnum;
 };

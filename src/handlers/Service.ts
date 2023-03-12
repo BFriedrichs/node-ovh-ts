@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServiceListService } from '../models/ServiceListService';
 import { ServiceRenewRenewDescription } from '../models/ServiceRenewRenewDescription';
 import { ServiceRenewRenewOrder } from '../models/ServiceRenewRenewOrder';
+import { ServiceListService } from '../models/ServiceListService';
 import OVHBase from '../ovh';
 
 class ServiceHandler {
@@ -13,7 +13,7 @@ class ServiceHandler {
   }
 
   /** List available services */
-  lists = (): Promise<number[]> => {
+  list = (): Promise<number[]> => {
     return this.ovh.request('GET', '/service');
   };
 
@@ -28,7 +28,7 @@ class ServiceHandler {
   };
 
   /** List possible renews for this service */
-  listRenewsByServiceId = (serviceId: string): Promise<ServiceRenewRenewDescription[]> => {
+  listRenewByServiceId = (serviceId: string): Promise<ServiceRenewRenewDescription[]> => {
     return this.ovh.request('GET', `/service/${serviceId}/renew`);
   };
 

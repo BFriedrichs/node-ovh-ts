@@ -4,6 +4,6 @@ import { CloudProjectLoadbalancerNetworkingEgress } from './CloudProjectLoadbala
 import { CloudProjectLoadbalancerNetworkingIngress } from './CloudProjectLoadbalancerNetworkingIngress';
 
 export type CloudProjectLoadbalancerNetworkingNetworking = {
-  egress: CloudProjectLoadbalancerNetworkingEgress;
-  ingress: CloudProjectLoadbalancerNetworkingIngress;
+  egress?: CloudProjectLoadbalancerNetworkingEgress;
+  ingress?: CloudProjectLoadbalancerNetworkingIngress;
 };

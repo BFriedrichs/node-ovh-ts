@@ -4,6 +4,6 @@ import { TelephonyBillingSettings } from './TelephonyBillingSettings';
 import { TelephonyLineDescriptionSettings } from './TelephonyLineDescriptionSettings';
 
 export type TelephonySettings = {
-  billingPolicies: TelephonyBillingSettings;
-  lineDescriptionPolicies: TelephonyLineDescriptionSettings;
+  billingPolicies?: TelephonyBillingSettings;
+  lineDescriptionPolicies?: TelephonyLineDescriptionSettings;
 };

@@ -4,8 +4,8 @@ import { CloudLoadbalancingLoadbalancerNetworkInformationCreate } from './CloudL
 import { CloudLoadbalancingLoadbalancerListenerCreate } from './CloudLoadbalancingLoadbalancerListenerCreate';
 
 export type CloudLoadbalancingLoadbalancerCreate = {
-  flavorId?: string;
-  listeners: CloudLoadbalancingLoadbalancerListenerCreate[];
-  name: string;
-  networkInformation?: CloudLoadbalancingLoadbalancerNetworkInformationCreate;
+  flavorId: string;
+  listeners?: CloudLoadbalancingLoadbalancerListenerCreate[];
+  name?: string;
+  networkInformation: CloudLoadbalancingLoadbalancerNetworkInformationCreate;
 };

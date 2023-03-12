@@ -3,8 +3,8 @@
 import { CdnanycastPopStatusEnum } from './CdnanycastPopStatusEnum';
 
 export type CdnanycastPop = {
-  city: string;
-  comment: string;
-  name: string;
-  status: CdnanycastPopStatusEnum;
+  city?: string;
+  comment?: string;
+  name?: string;
+  status?: CdnanycastPopStatusEnum;
 };

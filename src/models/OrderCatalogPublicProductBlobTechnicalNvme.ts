@@ -3,5 +3,5 @@
 import { OrderCatalogPublicProductBlobTechnicalDisk } from './OrderCatalogPublicProductBlobTechnicalDisk';
 
 export type OrderCatalogPublicProductBlobTechnicalNvme = {
-  disks: OrderCatalogPublicProductBlobTechnicalDisk[] | null;
+  disks?: OrderCatalogPublicProductBlobTechnicalDisk[] | null;
 };

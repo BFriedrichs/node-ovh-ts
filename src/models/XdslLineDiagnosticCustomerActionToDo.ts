@@ -3,6 +3,6 @@
 import { XdslLineDiagnosticCustomerActionsEnum } from './XdslLineDiagnosticCustomerActionsEnum';
 
 export type XdslLineDiagnosticCustomerActionToDo = {
-  description: string;
-  name: XdslLineDiagnosticCustomerActionsEnum;
+  description?: string;
+  name?: XdslLineDiagnosticCustomerActionsEnum;
 };

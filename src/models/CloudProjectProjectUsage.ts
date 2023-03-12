@@ -2,4 +2,4 @@
 
 import { CloudProjectCurrentUsage } from './CloudProjectCurrentUsage';
 
-export type CloudProjectProjectUsage = { current: CloudProjectCurrentUsage };
+export type CloudProjectProjectUsage = { current?: CloudProjectCurrentUsage };

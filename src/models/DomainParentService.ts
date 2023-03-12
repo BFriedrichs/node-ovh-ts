@@ -2,4 +2,4 @@
 
 import { DomainParentServiceTypeEnum } from './DomainParentServiceTypeEnum';
 
-export type DomainParentService = { name: string; type: DomainParentServiceTypeEnum };
+export type DomainParentService = { name?: string; type?: DomainParentServiceTypeEnum };

@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type CloudProjectInstanceSnapshotCreation = { snapshotName?: string };
+export type CloudProjectInstanceSnapshotCreation = { snapshotName: string };

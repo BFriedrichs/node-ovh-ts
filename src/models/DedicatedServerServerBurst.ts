@@ -3,6 +3,6 @@
 import { DedicatedServerBurstStatusEnum } from './DedicatedServerBurstStatusEnum';
 
 export type DedicatedServerServerBurst = {
-  capacity: number | null;
-  status: DedicatedServerBurstStatusEnum;
+  capacity?: number | null;
+  status?: DedicatedServerBurstStatusEnum;
 };

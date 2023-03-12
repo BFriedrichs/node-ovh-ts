@@ -3,5 +3,5 @@
 import { TelephonyEasyHuntingScreenListsConditionsStatusEnum } from './TelephonyEasyHuntingScreenListsConditionsStatusEnum';
 
 export type TelephonyEasyHuntingScreenListsConditionsSettings = {
-  status: TelephonyEasyHuntingScreenListsConditionsStatusEnum;
+  status?: TelephonyEasyHuntingScreenListsConditionsStatusEnum;
 };

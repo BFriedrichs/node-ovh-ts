@@ -4,11 +4,11 @@ import { LicenseStateEnum } from './LicenseStateEnum';
 import { LicenseWorkLightVersionEnum } from './LicenseWorkLightVersionEnum';
 
 export type LicenseWorklightWorkLight = {
-  creation: Date;
-  deleteAtExpiration: boolean;
-  domain: string;
-  ip: string;
-  licenseId: string;
-  status: LicenseStateEnum;
-  version: LicenseWorkLightVersionEnum;
+  creation?: Date;
+  deleteAtExpiration?: boolean;
+  domain?: string;
+  ip?: string;
+  licenseId?: string;
+  status?: LicenseStateEnum;
+  version?: LicenseWorkLightVersionEnum;
 };

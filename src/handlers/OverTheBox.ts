@@ -1,31 +1,31 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OtbDeviceStatisticsPeriodEnum } from '../models/OtbDeviceStatisticsPeriodEnum';
-import { OverTheBoxHardware } from '../models/OverTheBoxHardware';
-import { OverTheBoxService } from '../models/OverTheBoxService';
-import { OverTheBoxRemoteAccess } from '../models/OverTheBoxRemoteAccess';
-import { OverTheBoxDeviceForRegistration } from '../models/OverTheBoxDeviceForRegistration';
-import { OverTheBoxAvailableStatusEnum } from '../models/OverTheBoxAvailableStatusEnum';
-import { OverTheBoxTemporaryLogsLink } from '../models/OverTheBoxTemporaryLogsLink';
-import { OverTheBoxDevice } from '../models/OverTheBoxDevice';
 import { OvertheboxConfigurationDnsNameserver } from '../models/OvertheboxConfigurationDnsNameserver';
-import { OvertheboxConfigurationFirewallRedirect } from '../models/OvertheboxConfigurationFirewallRedirect';
-import { OverTheBoxDeviceAction } from '../models/OverTheBoxDeviceAction';
-import { OverTheBoxActionStatusEnum } from '../models/OverTheBoxActionStatusEnum';
-import { OverTheBoxBackup } from '../models/OverTheBoxBackup';
-import { OverTheBoxTask } from '../models/OverTheBoxTask';
-import { OvertheboxConfigurationDnsLocalDomain } from '../models/OvertheboxConfigurationDnsLocalDomain';
-import { OverTheBoxAvailableMigrationOffer } from '../models/OverTheBoxAvailableMigrationOffer';
-import { OtbDeviceStatistics } from '../models/OtbDeviceStatistics';
-import { OverTheBoxAvailableDeviceAction } from '../models/OverTheBoxAvailableDeviceAction';
-import { OvertheboxConfigurationNetworkInterface } from '../models/OvertheboxConfigurationNetworkInterface';
-import { ServicesService } from '../models/ServicesService';
-import { OtbDeviceStatisticsTypeEnum } from '../models/OtbDeviceStatisticsTypeEnum';
-import { PriceOverTheBoxOfferEnum } from '../models/PriceOverTheBoxOfferEnum';
-import { OvertheboxConfigurationDhcpStaticLease } from '../models/OvertheboxConfigurationDhcpStaticLease';
+import { OverTheBoxDevice } from '../models/OverTheBoxDevice';
 import { OverTheBoxTaskStatusEnum } from '../models/OverTheBoxTaskStatusEnum';
+import { OverTheBoxAvailableMigrationOffer } from '../models/OverTheBoxAvailableMigrationOffer';
+import { ServicesService } from '../models/ServicesService';
+import { OvertheboxConfigurationDnsLocalDomain } from '../models/OvertheboxConfigurationDnsLocalDomain';
+import { OverTheBoxTask } from '../models/OverTheBoxTask';
+import { OverTheBoxService } from '../models/OverTheBoxService';
+import { OvertheboxConfigurationFirewallRedirect } from '../models/OvertheboxConfigurationFirewallRedirect';
+import { OvertheboxConfigurationDhcpStaticLease } from '../models/OvertheboxConfigurationDhcpStaticLease';
+import { OverTheBoxAvailableDeviceAction } from '../models/OverTheBoxAvailableDeviceAction';
+import { OverTheBoxActionStatusEnum } from '../models/OverTheBoxActionStatusEnum';
+import { OtbDeviceStatisticsTypeEnum } from '../models/OtbDeviceStatisticsTypeEnum';
+import { OverTheBoxAvailableStatusEnum } from '../models/OverTheBoxAvailableStatusEnum';
 import { OvertheboxConfigurationDhcpConfig } from '../models/OvertheboxConfigurationDhcpConfig';
+import { OverTheBoxDeviceForRegistration } from '../models/OverTheBoxDeviceForRegistration';
+import { OverTheBoxBackup } from '../models/OverTheBoxBackup';
+import { OvertheboxConfigurationNetworkInterface } from '../models/OvertheboxConfigurationNetworkInterface';
+import { OtbDeviceStatisticsPeriodEnum } from '../models/OtbDeviceStatisticsPeriodEnum';
 import { OvertheboxConfigurationFirewallRule } from '../models/OvertheboxConfigurationFirewallRule';
+import { OverTheBoxHardware } from '../models/OverTheBoxHardware';
+import { OverTheBoxRemoteAccess } from '../models/OverTheBoxRemoteAccess';
+import { OverTheBoxDeviceAction } from '../models/OverTheBoxDeviceAction';
+import { PriceOverTheBoxOfferEnum } from '../models/PriceOverTheBoxOfferEnum';
+import { OtbDeviceStatistics } from '../models/OtbDeviceStatistics';
+import { OverTheBoxTemporaryLogsLink } from '../models/OverTheBoxTemporaryLogsLink';
 import OVHBase from '../ovh';
 
 class OverTheBoxHandler {
@@ -36,7 +36,7 @@ class OverTheBoxHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/overTheBox');
   };
 
@@ -51,12 +51,12 @@ class OverTheBoxHandler {
   };
 
   /** List available services */
-  listHardwares = (): Promise<string[]> => {
+  listHardware = (): Promise<string[]> => {
     return this.ovh.request('GET', '/overTheBox/hardware');
   };
 
   /** List hardware that can be linked to a service */
-  listHardwareAvailables = (): Promise<string[]> => {
+  listHardwareAvailable = (): Promise<string[]> => {
     return this.ovh.request('GET', '/overTheBox/hardware/available');
   };
 

@@ -3,6 +3,6 @@
 import { CloudProjectLoadbalancerNetworkingEgressKindEnum } from './CloudProjectLoadbalancerNetworkingEgressKindEnum';
 
 export type CloudProjectLoadbalancerConfigurationNetworkingEgress = {
-  id: string | null;
-  kind?: CloudProjectLoadbalancerNetworkingEgressKindEnum;
+  id?: string | null;
+  kind: CloudProjectLoadbalancerNetworkingEgressKindEnum;
 };

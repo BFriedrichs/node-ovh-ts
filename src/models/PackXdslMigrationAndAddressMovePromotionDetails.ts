@@ -3,6 +3,6 @@
 import { OrderPrice } from './OrderPrice';
 
 export type PackXdslMigrationAndAddressMovePromotionDetails = {
-  discount: OrderPrice;
-  duration: number | null;
+  discount?: OrderPrice;
+  duration?: number | null;
 };

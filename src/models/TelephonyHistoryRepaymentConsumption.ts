@@ -4,8 +4,8 @@ import { OrderPrice } from './OrderPrice';
 import { TelephonyBillStatusEnum } from './TelephonyBillStatusEnum';
 
 export type TelephonyHistoryRepaymentConsumption = {
-  billingNumber: string;
-  date: Date;
-  price: OrderPrice;
-  status: TelephonyBillStatusEnum;
+  billingNumber?: string;
+  date?: Date;
+  price?: OrderPrice;
+  status?: TelephonyBillStatusEnum;
 };

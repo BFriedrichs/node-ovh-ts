@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CdnanycastDomainTypeEnum } from './CdnanycastDomainTypeEnum';
 import { CdnanycastDomainStatusEnum } from './CdnanycastDomainStatusEnum';
+import { CdnanycastDomainTypeEnum } from './CdnanycastDomainTypeEnum';
 
 export type CdnanycastDomain = {
-  cacheRuleUse: number;
-  cname: string;
-  domain: string;
-  status: CdnanycastDomainStatusEnum;
-  type: CdnanycastDomainTypeEnum;
+  cacheRuleUse?: number;
+  cname?: string;
+  domain?: string;
+  status?: CdnanycastDomainStatusEnum;
+  type?: CdnanycastDomainTypeEnum;
 };

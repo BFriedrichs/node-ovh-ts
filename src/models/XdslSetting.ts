@@ -1,3 +1,6 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type XdslSetting = { resellerFastModemShipping: boolean; resellerModemBasicConfig: boolean };
+export type XdslSetting = {
+  resellerFastModemShipping?: boolean;
+  resellerModemBasicConfig?: boolean;
+};

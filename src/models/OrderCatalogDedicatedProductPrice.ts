@@ -3,7 +3,7 @@
 import { OrderCatalogDedicatedProductPriceDefault } from './OrderCatalogDedicatedProductPriceDefault';
 
 export type OrderCatalogDedicatedProductPrice = {
-  default: OrderCatalogDedicatedProductPriceDefault;
-  hardzone: string | null;
-  week: string | null;
+  default?: OrderCatalogDedicatedProductPriceDefault;
+  hardzone?: string | null;
+  week?: string | null;
 };

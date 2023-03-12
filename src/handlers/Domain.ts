@@ -1,65 +1,65 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DomainDomainOptionEnum } from '../models/DomainDomainOptionEnum';
-import { DomainOperationStatusEnum } from '../models/DomainOperationStatusEnum';
-import { DomainConfigurationRulesRuleData } from '../models/DomainConfigurationRulesRuleData';
-import { DomainDataSmdSmd } from '../models/DomainDataSmdSmd';
-import { DomainExtensionsExtensionsPricingAttributes } from '../models/DomainExtensionsExtensionsPricingAttributes';
-import { DomainExtensionsRegistryConfigurationsRegistryConfigurations } from '../models/DomainExtensionsRegistryConfigurationsRegistryConfigurations';
-import { DomainDataClaimNoticeClaimNotice } from '../models/DomainDataClaimNoticeClaimNotice';
-import { DomainUkRegistrar } from '../models/DomainUkRegistrar';
-import { ZoneStatus } from '../models/ZoneStatus';
-import { DnssecKey } from '../models/DnssecKey';
-import { DomainConfigurationsOptinUpdatePayload } from '../models/DomainConfigurationsOptinUpdatePayload';
-import { DomainDataSmdSmdBody } from '../models/DomainDataSmdSmdBody';
-import { DnssecKeyStatusEnum } from '../models/DnssecKeyStatusEnum';
-import { DomainZoneDnssec } from '../models/DomainZoneDnssec';
-import { DomainConfigurationRulesRule } from '../models/DomainConfigurationRulesRule';
-import { DomainOwo } from '../models/DomainOwo';
-import { DomainDnssecKey } from '../models/DomainDnssecKey';
-import { DomainZoneTask } from '../models/DomainZoneTask';
-import { DomainExtensionsExtensionsByCategory } from '../models/DomainExtensionsExtensionsByCategory';
-import { DomainExtensionsExtension } from '../models/DomainExtensionsExtension';
-import { DomainZoneZoneRestorePoint } from '../models/DomainZoneZoneRestorePoint';
-import { DomainZoneDynHostLogin } from '../models/DomainZoneDynHostLogin';
-import { DomainConfigurationsObfuscatedEmail } from '../models/DomainConfigurationsObfuscatedEmail';
-import { DomainExtensionsOrderByTypeEnum } from '../models/DomainExtensionsOrderByTypeEnum';
 import { DomainWhoisObfuscatorFieldsEnum } from '../models/DomainWhoisObfuscatorFieldsEnum';
-import { DomainNameServerFullNameServer } from '../models/DomainNameServerFullNameServer';
-import { DomainNameServerCreatePayload } from '../models/DomainNameServerCreatePayload';
-import { DomainOption } from '../models/DomainOption';
-import { ZoneRedirectionTypeEnum } from '../models/ZoneRedirectionTypeEnum';
 import { ZoneNamedResolutionFieldTypeEnum } from '../models/ZoneNamedResolutionFieldTypeEnum';
-import { ZoneCapabilities } from '../models/ZoneCapabilities';
-import { DomainZoneDynHostRecord } from '../models/DomainZoneDynHostRecord';
-import { DomainZoneOption } from '../models/DomainZoneOption';
+import { DnssecKeyStatusEnum } from '../models/DnssecKeyStatusEnum';
+import { DomainZoneZoneRestorePoint } from '../models/DomainZoneZoneRestorePoint';
+import { DomainNameServerFullNameServer } from '../models/DomainNameServerFullNameServer';
+import { DomainConfigurationsContactTypeEnum } from '../models/DomainConfigurationsContactTypeEnum';
+import { DomainContact } from '../models/DomainContact';
+import { DomainZoneDnssec } from '../models/DomainZoneDnssec';
+import { ServicesService } from '../models/ServicesService';
+import { DomainConfigurationRulesRule } from '../models/DomainConfigurationRulesRule';
+import { DomainExtensionsExtensionsPricingAttributes } from '../models/DomainExtensionsExtensionsPricingAttributes';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { DomainDnssecKey } from '../models/DomainDnssecKey';
+import { DomainNameServerCreatePayload } from '../models/DomainNameServerCreatePayload';
+import { DomainZoneZone } from '../models/DomainZoneZone';
+import { DomainExtensionsExtension } from '../models/DomainExtensionsExtension';
+import { ZoneRedirectionTypeEnum } from '../models/ZoneRedirectionTypeEnum';
+import { DomainOperationStatusEnum } from '../models/DomainOperationStatusEnum';
+import { DomainGlueRecordGlueRecord } from '../models/DomainGlueRecordGlueRecord';
 import { DomainZoneRecord } from '../models/DomainZoneRecord';
+import { DomainZoneDynHostLogin } from '../models/DomainZoneDynHostLogin';
+import { DomainZoneTask } from '../models/DomainZoneTask';
+import { DomainConfigurationRulesRuleData } from '../models/DomainConfigurationRulesRuleData';
+import { ZoneStatus } from '../models/ZoneStatus';
+import { DomainNameServerNameServerStatus } from '../models/DomainNameServerNameServerStatus';
+import { DomainOption } from '../models/DomainOption';
 import { DomainNameServerUpdatePayload } from '../models/DomainNameServerUpdatePayload';
 import { DomainOutgoingTransferApprove } from '../models/DomainOutgoingTransferApprove';
-import { ServiceRenewType } from '../models/ServiceRenewType';
-import { DomainConfigurationsOptin } from '../models/DomainConfigurationsOptin';
-import { DomainRulesOptin } from '../models/DomainRulesOptin';
-import { ServicesService } from '../models/ServicesService';
-import { DomainConfigurationsContactTypeEnum } from '../models/DomainConfigurationsContactTypeEnum';
-import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
-import { DomainActionEnum } from '../models/DomainActionEnum';
-import { DomainDomain } from '../models/DomainDomain';
-import { DomainConfigurationsObfuscatedEmailRefreshPayload } from '../models/DomainConfigurationsObfuscatedEmailRefreshPayload';
-import { DomainNameServerNameServerStatus } from '../models/DomainNameServerNameServerStatus';
-import { DomainGlueRecordGlueRecord } from '../models/DomainGlueRecordGlueRecord';
-import { DomainExtensionsCategoryTypeEnum } from '../models/DomainExtensionsCategoryTypeEnum';
-import { DomainContact } from '../models/DomainContact';
-import { ZoneResetRecord } from '../models/ZoneResetRecord';
-import { DomainZoneZone } from '../models/DomainZoneZone';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { DnssecKeyFlagEnum } from '../models/DnssecKeyFlagEnum';
+import { DomainExtensionsOrderByTypeEnum } from '../models/DomainExtensionsOrderByTypeEnum';
 import { DomainZoneRedirection } from '../models/DomainZoneRedirection';
+import { ZoneCapabilities } from '../models/ZoneCapabilities';
+import { DomainDataClaimNoticeClaimNotice } from '../models/DomainDataClaimNoticeClaimNotice';
+import { ServiceRenewType } from '../models/ServiceRenewType';
+import { DomainDomainOptionEnum } from '../models/DomainDomainOptionEnum';
+import { DomainUkRegistrar } from '../models/DomainUkRegistrar';
+import { DomainConfigurationsObfuscatedEmail } from '../models/DomainConfigurationsObfuscatedEmail';
+import { DomainDomain } from '../models/DomainDomain';
+import { DnssecKey } from '../models/DnssecKey';
 import { DomainTask } from '../models/DomainTask';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { DomainZoneSoa } from '../models/DomainZoneSoa';
-import { DomainServiceOptions } from '../models/DomainServiceOptions';
-import { DomainGlueRecordCreatePayload } from '../models/DomainGlueRecordCreatePayload';
+import { DomainConfigurationsObfuscatedEmailRefreshPayload } from '../models/DomainConfigurationsObfuscatedEmailRefreshPayload';
+import { DomainActionEnum } from '../models/DomainActionEnum';
+import { DnssecKeyFlagEnum } from '../models/DnssecKeyFlagEnum';
 import { DomainConfigurationsObfuscatedEmailUpdatePayload } from '../models/DomainConfigurationsObfuscatedEmailUpdatePayload';
+import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
+import { ZoneResetRecord } from '../models/ZoneResetRecord';
+import { DomainDataSmdSmdBody } from '../models/DomainDataSmdSmdBody';
+import { DomainExtensionsRegistryConfigurationsRegistryConfigurations } from '../models/DomainExtensionsRegistryConfigurationsRegistryConfigurations';
+import { DomainZoneSoa } from '../models/DomainZoneSoa';
+import { DomainConfigurationsOptinUpdatePayload } from '../models/DomainConfigurationsOptinUpdatePayload';
+import { DomainGlueRecordCreatePayload } from '../models/DomainGlueRecordCreatePayload';
+import { DomainServiceOptions } from '../models/DomainServiceOptions';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { DomainZoneDynHostRecord } from '../models/DomainZoneDynHostRecord';
+import { DomainOwo } from '../models/DomainOwo';
+import { DomainExtensionsExtensionsByCategory } from '../models/DomainExtensionsExtensionsByCategory';
+import { DomainConfigurationsOptin } from '../models/DomainConfigurationsOptin';
+import { DomainZoneOption } from '../models/DomainZoneOption';
+import { DomainRulesOptin } from '../models/DomainRulesOptin';
+import { DomainExtensionsCategoryTypeEnum } from '../models/DomainExtensionsCategoryTypeEnum';
+import { DomainDataSmdSmd } from '../models/DomainDataSmdSmd';
 import OVHBase from '../ovh';
 
 class DomainHandler {
@@ -70,7 +70,7 @@ class DomainHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/domain');
   };
 
@@ -85,7 +85,7 @@ class DomainHandler {
   };
 
   /** List all contacts */
-  listContacts = (): Promise<DomainContact[]> => {
+  listContact = (): Promise<DomainContact[]> => {
     return this.ovh.request('GET', '/domain/contact');
   };
 
@@ -110,12 +110,12 @@ class DomainHandler {
   };
 
   /** List all the extensions for a specific country */
-  listDataExtensions = (): Promise<string[]> => {
+  listDataExtension = (): Promise<string[]> => {
     return this.ovh.request('GET', '/domain/data/extension');
   };
 
   /** List all SMD files */
-  listDataSmds = (): Promise<DomainDataSmdSmd[]> => {
+  listDataSmd = (): Promise<DomainDataSmdSmd[]> => {
     return this.ovh.request('GET', '/domain/data/smd');
   };
 
@@ -145,12 +145,12 @@ class DomainHandler {
   };
 
   /** List extensions, grouped by category types (like 'thematic', 'geolocalization') and category names (like 'europe') */
-  listExtensionsByCategorys = (): Promise<DomainExtensionsExtensionsByCategory> => {
+  listExtensionsByCategory = (): Promise<DomainExtensionsExtensionsByCategory> => {
     return this.ovh.request('GET', '/domain/extensions/byCategory');
   };
 
   /** List highlighted extensions, ordered by decreased importance */
-  listExtensionsHighlighteds = (): Promise<string[]> => {
+  listExtensionsHighlighted = (): Promise<string[]> => {
     return this.ovh.request('GET', '/domain/extensions/highlighted');
   };
 
@@ -172,7 +172,7 @@ class DomainHandler {
   };
 
   /** List available services */
-  listZones = (): Promise<string[]> => {
+  listZone = (): Promise<string[]> => {
     return this.ovh.request('GET', '/domain/zone');
   };
 
@@ -340,7 +340,7 @@ class DomainHandler {
   };
 
   /** List zone options */
-  listZoneOptionsByZoneName = (zoneName: string): Promise<string[]> => {
+  listZoneOptionByZoneName = (zoneName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/option`);
   };
 
@@ -579,7 +579,7 @@ class DomainHandler {
   };
 
   /** List of domain's DS Records */
-  listDsRecordsByServiceName = (serviceName: string): Promise<number[]> => {
+  listDsRecordByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/dsRecord`);
   };
 
@@ -597,7 +597,7 @@ class DomainHandler {
   };
 
   /** List of glue records */
-  listGlueRecordsByServiceName = (serviceName: string): Promise<string[]> => {
+  listGlueRecordByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/glueRecord`);
   };
 
@@ -635,7 +635,7 @@ class DomainHandler {
   };
 
   /** List of current name servers */
-  listNameServersByServiceName = (serviceName: string): Promise<number[]> => {
+  listNameServerByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/nameServer`);
   };
 
@@ -685,7 +685,7 @@ class DomainHandler {
   };
 
   /** List domain options */
-  listOptionsByServiceName = (serviceName: string): Promise<DomainDomainOptionEnum[]> => {
+  listOptionByServiceName = (serviceName: string): Promise<DomainDomainOptionEnum[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/option`);
   };
 
@@ -719,7 +719,7 @@ class DomainHandler {
   };
 
   /** List of whois obfuscators */
-  listOwosByServiceName = (serviceName: string): Promise<DomainWhoisObfuscatorFieldsEnum[]> => {
+  listOwoByServiceName = (serviceName: string): Promise<DomainWhoisObfuscatorFieldsEnum[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/owo`);
   };
 
@@ -770,7 +770,7 @@ class DomainHandler {
   };
 
   /** List all domain tasks */
-  listTasksByServiceName = (serviceName: string): Promise<number[]> => {
+  listTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/task`);
   };
 

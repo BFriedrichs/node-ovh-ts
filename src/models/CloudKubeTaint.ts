@@ -2,4 +2,4 @@
 
 import { CloudKubeTaintEffectEnum } from './CloudKubeTaintEffectEnum';
 
-export type CloudKubeTaint = { effect?: CloudKubeTaintEffectEnum; key?: string; value?: string };
+export type CloudKubeTaint = { effect: CloudKubeTaintEffectEnum; key: string; value: string };

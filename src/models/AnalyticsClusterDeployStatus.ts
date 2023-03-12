@@ -3,7 +3,7 @@
 import { AnalyticsStatusEnum } from './AnalyticsStatusEnum';
 
 export type AnalyticsClusterDeployStatus = {
-  percentage: number;
-  status: AnalyticsStatusEnum;
-  task: string;
+  percentage?: number;
+  status?: AnalyticsStatusEnum;
+  task?: string;
 };

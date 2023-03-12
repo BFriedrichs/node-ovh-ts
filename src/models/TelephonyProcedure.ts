@@ -3,9 +3,9 @@
 import { TelephonyProcedureStatusEnum } from './TelephonyProcedureStatusEnum';
 
 export type TelephonyProcedure = {
-  finishDate: Date | null;
-  id: number;
-  pdfUrl: string;
-  requestDate: Date;
-  status: TelephonyProcedureStatusEnum;
+  finishDate?: Date | null;
+  id?: number;
+  pdfUrl?: string;
+  requestDate?: Date;
+  status?: TelephonyProcedureStatusEnum;
 };

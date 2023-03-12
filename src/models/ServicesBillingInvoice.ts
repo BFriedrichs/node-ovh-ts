@@ -3,7 +3,7 @@
 import { ServicesBillingInvoiceLine } from './ServicesBillingInvoiceLine';
 
 export type ServicesBillingInvoice = {
-  date: Date;
-  id: string;
-  lines: ServicesBillingInvoiceLine[];
+  date?: Date;
+  id?: string;
+  lines?: ServicesBillingInvoiceLine[];
 };

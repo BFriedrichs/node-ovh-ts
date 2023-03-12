@@ -4,14 +4,14 @@ import { CloudLoadbalancingLoadBalancerProvisioningStatusEnum } from './CloudLoa
 import { CloudLoadbalancingLoadBalancerOperatingStatusEnum } from './CloudLoadbalancingLoadBalancerOperatingStatusEnum';
 
 export type CloudLoadbalancingLoadBalancer = {
-  createdAt: Date;
-  flavorId: string;
-  id: string;
-  name: string;
-  operatingStatus: CloudLoadbalancingLoadBalancerOperatingStatusEnum;
-  provisioningStatus: CloudLoadbalancingLoadBalancerProvisioningStatusEnum;
-  updatedAt: Date;
-  vipAddress: string;
-  vipNetworkId: string;
-  vipSubnetId: string;
+  createdAt?: Date;
+  flavorId?: string;
+  id?: string;
+  name?: string;
+  operatingStatus?: CloudLoadbalancingLoadBalancerOperatingStatusEnum;
+  provisioningStatus?: CloudLoadbalancingLoadBalancerProvisioningStatusEnum;
+  updatedAt?: Date;
+  vipAddress?: string;
+  vipNetworkId?: string;
+  vipSubnetId?: string;
 };

@@ -3,6 +3,6 @@
 import { NutanixAvailabilityEnum } from './NutanixAvailabilityEnum';
 
 export type NutanixDatacenterAvailability = {
-  availability: NutanixAvailabilityEnum;
-  datacenter: string;
+  availability?: NutanixAvailabilityEnum;
+  datacenter?: string;
 };

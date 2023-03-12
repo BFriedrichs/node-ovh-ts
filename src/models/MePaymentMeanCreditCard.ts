@@ -4,13 +4,13 @@ import { MePaymentMeanCreditCardStateEnum } from './MePaymentMeanCreditCardState
 import { MePaymentMeanIconData } from './MePaymentMeanIconData';
 
 export type MePaymentMeanCreditCard = {
-  defaultPaymentMean: boolean;
-  description: string | null;
-  expirationDate: Date;
-  icon: MePaymentMeanIconData | null;
-  id: number;
-  number: string;
-  state: MePaymentMeanCreditCardStateEnum;
-  threeDsValidated: boolean;
-  type: string;
+  defaultPaymentMean?: boolean;
+  description?: string | null;
+  expirationDate?: Date;
+  icon?: MePaymentMeanIconData | null;
+  id?: number;
+  number?: string;
+  state?: MePaymentMeanCreditCardStateEnum;
+  threeDsValidated?: boolean;
+  type?: string;
 };

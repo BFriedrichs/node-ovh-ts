@@ -1,17 +1,17 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SaasCsp2OfficeSubscription } from '../models/SaasCsp2OfficeSubscription';
-import { MsServicesLicensePeriodEnum } from '../models/MsServicesLicensePeriodEnum';
 import { SaasCsp2SubscriptionChangeQuantityCreation } from '../models/SaasCsp2SubscriptionChangeQuantityCreation';
+import { MsServicesLicensePeriodEnum } from '../models/MsServicesLicensePeriodEnum';
+import { SaasCsp2OfficeLicence } from '../models/SaasCsp2OfficeLicence';
+import { SaasCsp2OfficeTask } from '../models/SaasCsp2OfficeTask';
+import { SaasCsp2OfficeSubscription } from '../models/SaasCsp2OfficeSubscription';
+import { SaasCsp2SubscriptionCreation } from '../models/SaasCsp2SubscriptionCreation';
+import { ServicesService } from '../models/ServicesService';
+import { SaasCsp2OfficeTenant } from '../models/SaasCsp2OfficeTenant';
 import { SaasCsp2Statistics } from '../models/SaasCsp2Statistics';
 import { SaasCsp2BillingStatistics } from '../models/SaasCsp2BillingStatistics';
-import { SaasCsp2OfficeLicence } from '../models/SaasCsp2OfficeLicence';
-import { SaasCsp2SubscriptionOrderAddonCreation } from '../models/SaasCsp2SubscriptionOrderAddonCreation';
-import { SaasCsp2OfficeTenant } from '../models/SaasCsp2OfficeTenant';
-import { ServicesService } from '../models/ServicesService';
-import { SaasCsp2SubscriptionCreation } from '../models/SaasCsp2SubscriptionCreation';
 import { SaasCsp2SupportedServiceEnum } from '../models/SaasCsp2SupportedServiceEnum';
-import { SaasCsp2OfficeTask } from '../models/SaasCsp2OfficeTask';
+import { SaasCsp2SubscriptionOrderAddonCreation } from '../models/SaasCsp2SubscriptionOrderAddonCreation';
 import OVHBase from '../ovh';
 
 class SaasCsp2Handler {
@@ -22,7 +22,7 @@ class SaasCsp2Handler {
   }
 
   /** List available services */
-  listCsp2s = (): Promise<string[]> => {
+  listCsp2 = (): Promise<string[]> => {
     return this.ovh.request('GET', '/saas/csp2');
   };
 

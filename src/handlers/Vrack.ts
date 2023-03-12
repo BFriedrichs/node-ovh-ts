@@ -1,26 +1,26 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { VrackDedicatedServer } from '../models/VrackDedicatedServer';
-import { VrackTask } from '../models/VrackTask';
-import { VrackDedicatedServerInterface } from '../models/VrackDedicatedServerInterface';
-import { VrackPccDatacenter } from '../models/VrackPccDatacenter';
-import { VrackCloudProject } from '../models/VrackCloudProject';
-import { VrackIplb } from '../models/VrackIplb';
-import { DedicatedServerMrtgPeriodEnum } from '../models/DedicatedServerMrtgPeriodEnum';
-import { DedicatedServerMrtgTypeEnum } from '../models/DedicatedServerMrtgTypeEnum';
 import { VrackVrackZoneEnum } from '../models/VrackVrackZoneEnum';
-import { VrackVrack } from '../models/VrackVrack';
-import { VrackAllowedServices } from '../models/VrackAllowedServices';
+import { VrackIplb } from '../models/VrackIplb';
+import { VrackDedicatedServerInterface } from '../models/VrackDedicatedServerInterface';
+import { ServicesNonExpiringService } from '../models/ServicesNonExpiringService';
+import { VrackTask } from '../models/VrackTask';
+import { VrackPccDatacenter } from '../models/VrackPccDatacenter';
 import { VrackEligibleServicesResponse } from '../models/VrackEligibleServicesResponse';
 import { VrackAllowedDedicatedServerInterfaces } from '../models/VrackAllowedDedicatedServerInterfaces';
-import { VrackDedicatedConnect } from '../models/VrackDedicatedConnect';
-import { VrackAllowedServiceEnum } from '../models/VrackAllowedServiceEnum';
 import { VrackIp } from '../models/VrackIp';
+import { DedicatedServerMrtgPeriodEnum } from '../models/DedicatedServerMrtgPeriodEnum';
+import { VrackDedicatedServer } from '../models/VrackDedicatedServer';
 import { VrackLegacyVrack } from '../models/VrackLegacyVrack';
-import { ServicesNonExpiringService } from '../models/ServicesNonExpiringService';
+import { VrackVrack } from '../models/VrackVrack';
+import { VrackDedicatedConnect } from '../models/VrackDedicatedConnect';
 import { VrackOvhCloudConnect } from '../models/VrackOvhCloudConnect';
-import { VrackDedicatedCloud } from '../models/VrackDedicatedCloud';
+import { VrackCloudProject } from '../models/VrackCloudProject';
+import { DedicatedServerMrtgTypeEnum } from '../models/DedicatedServerMrtgTypeEnum';
 import { DedicatedServerMrtgTimestampValue } from '../models/DedicatedServerMrtgTimestampValue';
+import { VrackAllowedServiceEnum } from '../models/VrackAllowedServiceEnum';
+import { VrackDedicatedCloud } from '../models/VrackDedicatedCloud';
+import { VrackAllowedServices } from '../models/VrackAllowedServices';
 import OVHBase from '../ovh';
 
 class VrackHandler {
@@ -31,7 +31,7 @@ class VrackHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/vrack');
   };
 

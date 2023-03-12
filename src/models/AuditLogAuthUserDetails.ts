@@ -2,4 +2,4 @@
 
 import { AuditLogAuthUserTypeEnum } from './AuditLogAuthUserTypeEnum';
 
-export type AuditLogAuthUserDetails = { type: AuditLogAuthUserTypeEnum; user: string | null };
+export type AuditLogAuthUserDetails = { type?: AuditLogAuthUserTypeEnum; user?: string | null };

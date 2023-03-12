@@ -3,6 +3,6 @@
 import { StorageNetAppShareSnapshotPolicyStatusEnum } from './StorageNetAppShareSnapshotPolicyStatusEnum';
 
 export type StorageNetAppShareSnapshotPolicy = {
-  id: string;
-  status: StorageNetAppShareSnapshotPolicyStatusEnum;
+  id?: string;
+  status?: StorageNetAppShareSnapshotPolicyStatusEnum;
 };

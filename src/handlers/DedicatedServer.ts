@@ -1,116 +1,116 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedServerRtmPci } from '../models/DedicatedServerRtmPci';
-import { DedicatedBinaryFirewall } from '../models/DedicatedBinaryFirewall';
-import { DedicatedAvailabilities } from '../models/DedicatedAvailabilities';
-import { DedicatedServerRtmMemory } from '../models/DedicatedServerRtmMemory';
-import { DedicatedServerServerBurst } from '../models/DedicatedServerServerBurst';
-import { DedicatedAvailabilitiesRaw } from '../models/DedicatedAvailabilitiesRaw';
-import { LicenseWindowsOsVersionEnum } from '../models/LicenseWindowsOsVersionEnum';
-import { ComplexTypeChartReturn } from '../models/ComplexTypeChartReturn';
-import { VrackTask } from '../models/VrackTask';
-import { DedicatedServerOptionEnum } from '../models/DedicatedServerOptionEnum';
-import { DedicatedServerBackupBackupOffer } from '../models/DedicatedServerBackupBackupOffer';
-import { DedicatedServerRtmCommandSize } from '../models/DedicatedServerRtmCommandSize';
-import { DedicatedPublicLog } from '../models/DedicatedPublicLog';
-import { DedicatedCheckSumTypesEnum } from '../models/DedicatedCheckSumTypesEnum';
 import { DedicatedServerInstallCustom } from '../models/DedicatedServerInstallCustom';
-import { DedicatedServerFirewall } from '../models/DedicatedServerFirewall';
-import { DedicatedServerRtmMotherboardHw } from '../models/DedicatedServerRtmMotherboardHw';
-import { DedicatedServerVirtualMacManagement } from '../models/DedicatedServerVirtualMacManagement';
-import { DedicatedServerOrderableSysFeatureEnum } from '../models/DedicatedServerOrderableSysFeatureEnum';
-import { DedicatedServerIpmiAccessValue } from '../models/DedicatedServerIpmiAccessValue';
-import { DedicatedServerTask } from '../models/DedicatedServerTask';
-import { DedicatedImageTypesEnum } from '../models/DedicatedImageTypesEnum';
-import { DedicatedServerSupportReplaceHddInfo } from '../models/DedicatedServerSupportReplaceHddInfo';
-import { DedicatedServerDedicated } from '../models/DedicatedServerDedicated';
-import { DedicatedExposedTask } from '../models/DedicatedExposedTask';
-import { LicenseWindowsSqlVersionEnum } from '../models/LicenseWindowsSqlVersionEnum';
-import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
-import { DedicatedServerHardwareRaidProfile } from '../models/DedicatedServerHardwareRaidProfile';
-import { DedicatedServerBackupBackupPassword } from '../models/DedicatedServerBackupBackupPassword';
-import { DedicatedServerIpmiAccessTypeEnum } from '../models/DedicatedServerIpmiAccessTypeEnum';
-import { DedicatedServerNetboot } from '../models/DedicatedServerNetboot';
-import { DedicatedServerRtmDiskSmart } from '../models/DedicatedServerRtmDiskSmart';
+import { DedicatedServerSmsAlert } from '../models/DedicatedServerSmsAlert';
+import { DedicatedAvailabilities } from '../models/DedicatedAvailabilities';
 import { DedicatedServerRtmRaidVolumePort } from '../models/DedicatedServerRtmRaidVolumePort';
-import { DedicatedPlannedInterventionTimeSlot } from '../models/DedicatedPlannedInterventionTimeSlot';
-import { DedicatedServerBootTypeEnum } from '../models/DedicatedServerBootTypeEnum';
-import { DedicatedServerRtmChartTypeEnum } from '../models/DedicatedServerRtmChartTypeEnum';
-import { DedicatedServerPlannedIntervention } from '../models/DedicatedServerPlannedIntervention';
-import { DedicatedServerRtmRaid } from '../models/DedicatedServerRtmRaid';
-import { DedicatedServerVirtualMac } from '../models/DedicatedServerVirtualMac';
-import { SecondaryDnsSecondaryDNS } from '../models/SecondaryDnsSecondaryDNS';
-import { DedicatedBinaryFirewallLink } from '../models/DedicatedBinaryFirewallLink';
-import { DedicatedServerIpmiTestResult } from '../models/DedicatedServerIpmiTestResult';
-import { DedicatedVirtualNetworkInterfaceVirtualNetworkInterfaceModeEnum } from '../models/DedicatedVirtualNetworkInterfaceVirtualNetworkInterfaceModeEnum';
-import { DedicatedServerRtmRaidVolume } from '../models/DedicatedServerRtmRaidVolume';
-import { DedicatedServerSpla } from '../models/DedicatedServerSpla';
-import { DedicatedBiosSettingsSgxBiosSettingsSgx } from '../models/DedicatedBiosSettingsSgxBiosSettingsSgx';
-import { DedicatedServerBandwidthvRackOrderable } from '../models/DedicatedServerBandwidthvRackOrderable';
-import { DedicatedServerMrtgTypeEnum } from '../models/DedicatedServerMrtgTypeEnum';
-import { DedicatedServerIntervention } from '../models/DedicatedServerIntervention';
-import { SecondaryDnsSecondaryDNSNameServer } from '../models/SecondaryDnsSecondaryDNSNameServer';
-import { DedicatedServerBackupStorageOrderable } from '../models/DedicatedServerBackupStorageOrderable';
-import { DedicatedServerAccess } from '../models/DedicatedServerAccess';
-import { DedicatedServerMonitoringIntervalEnum } from '../models/DedicatedServerMonitoringIntervalEnum';
-import { DedicatedServerBackupFtpAcl } from '../models/DedicatedServerBackupFtpAcl';
-import { DedicatedServerRtmChartPeriodEnum } from '../models/DedicatedServerRtmChartPeriodEnum';
-import { DedicatedServerSplaStatusEnum } from '../models/DedicatedServerSplaStatusEnum';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { DedicatedServerMrtgTimestampValue } from '../models/DedicatedServerMrtgTimestampValue';
-import { DedicatedServerConfigDrive } from '../models/DedicatedServerConfigDrive';
-import { VrackDedicatedServer } from '../models/VrackDedicatedServer';
-import { DedicatedServerBandwidthOrderable } from '../models/DedicatedServerBandwidthOrderable';
-import { SupportNewMessageInfo } from '../models/SupportNewMessageInfo';
-import { DedicatedServerEmailAlert } from '../models/DedicatedServerEmailAlert';
-import { DedicatedServerBootOptionEnum } from '../models/DedicatedServerBootOptionEnum';
 import { DedicatedServerIpmi } from '../models/DedicatedServerIpmi';
 import { DedicatedServerHardwareRaidSize } from '../models/DedicatedServerHardwareRaidSize';
-import { DedicatedNetworkInterfaceControllerNetworkInterfaceController } from '../models/DedicatedNetworkInterfaceControllerNetworkInterfaceController';
-import { DedicatedServerOption } from '../models/DedicatedServerOption';
-import { DedicatedServerTrafficOrderable } from '../models/DedicatedServerTrafficOrderable';
-import { DedicatedServerInstallationProgressStatus } from '../models/DedicatedServerInstallationProgressStatus';
-import { DedicatedServerBackupCloud } from '../models/DedicatedServerBackupCloud';
-import { DedicatedServerInstallTemplate } from '../models/DedicatedServerInstallTemplate';
-import { DedicatedServerNetbootOption } from '../models/DedicatedServerNetbootOption';
-import { DedicatedServerMrtgPeriodEnum } from '../models/DedicatedServerMrtgPeriodEnum';
-import { SecondaryDnsSecondaryDNSCheckField } from '../models/SecondaryDnsSecondaryDNSCheckField';
-import { DedicatedServerUsbKeyOrderableDetails } from '../models/DedicatedServerUsbKeyOrderableDetails';
-import { DedicatedDatacenterEnum } from '../models/DedicatedDatacenterEnum';
-import { ServicesService } from '../models/ServicesService';
-import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
-import { DedicatedServerIpCountryEnum } from '../models/DedicatedServerIpCountryEnum';
-import { DedicatedServerRtmOs } from '../models/DedicatedServerRtmOs';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { DedicatedServerAlertLanguageEnum } from '../models/DedicatedServerAlertLanguageEnum';
-import { DedicatedServerMonitoringProtocolEnum } from '../models/DedicatedServerMonitoringProtocolEnum';
-import { DedicatedServerRtm } from '../models/DedicatedServerRtm';
-import { DedicatedServerBackupFtp } from '../models/DedicatedServerBackupFtp';
-import { DedicatedServerKvm } from '../models/DedicatedServerKvm';
-import { DedicatedVirtualNetworkInterfaceVirtualNetworkInterface } from '../models/DedicatedVirtualNetworkInterfaceVirtualNetworkInterface';
-import { DedicatedServerByoiStatus } from '../models/DedicatedServerByoiStatus';
-import { DedicatedServerRtmConnection } from '../models/DedicatedServerRtmConnection';
-import { DedicatedBiosSettingsBiosSettings } from '../models/DedicatedBiosSettingsBiosSettings';
-import { DedicatedServerRtmDisk } from '../models/DedicatedServerRtmDisk';
-import { DedicatedServerRtmLoad } from '../models/DedicatedServerRtmLoad';
-import { DedicatedNetworkInterfaceControllerNetworkInterfaceControllerLinkTypeEnum } from '../models/DedicatedNetworkInterfaceControllerNetworkInterfaceControllerLinkTypeEnum';
 import { DedicatedDatacenterAvailability } from '../models/DedicatedDatacenterAvailability';
-import { DedicatedServerHardwareSpecifications } from '../models/DedicatedServerHardwareSpecifications';
-import { DedicatedServerBiosSettingsSgxPrmrrEnum } from '../models/DedicatedServerBiosSettingsSgxPrmrrEnum';
-import { DedicatedServerIpmiTestTypeEnum } from '../models/DedicatedServerIpmiTestTypeEnum';
-import { DedicatedServerSplaTypeEnum } from '../models/DedicatedServerSplaTypeEnum';
-import { DedicatedTaskFunctionEnum } from '../models/DedicatedTaskFunctionEnum';
-import { DedicatedServerVmacTypeEnum } from '../models/DedicatedServerVmacTypeEnum';
-import { DedicatedServerBiosSettingsSgxStatusEnum } from '../models/DedicatedServerBiosSettingsSgxStatusEnum';
+import { DedicatedServerOptionEnum } from '../models/DedicatedServerOptionEnum';
+import { DedicatedServerNetbootOption } from '../models/DedicatedServerNetbootOption';
+import { DedicatedServerServerBurst } from '../models/DedicatedServerServerBurst';
+import { DedicatedServerBackupBackupPassword } from '../models/DedicatedServerBackupBackupPassword';
+import { DedicatedServerRtmDisk } from '../models/DedicatedServerRtmDisk';
+import { DedicatedBiosSettingsBiosSettings } from '../models/DedicatedBiosSettingsBiosSettings';
+import { DedicatedVirtualNetworkInterfaceVirtualNetworkInterfaceModeEnum } from '../models/DedicatedVirtualNetworkInterfaceVirtualNetworkInterfaceModeEnum';
+import { DedicatedServerRtmChartTypeEnum } from '../models/DedicatedServerRtmChartTypeEnum';
 import { DedicatedDatacenterRawAvailability } from '../models/DedicatedDatacenterRawAvailability';
-import { DedicatedServerTemplateCaps } from '../models/DedicatedServerTemplateCaps';
-import { DedicatedServerRtmCpu } from '../models/DedicatedServerRtmCpu';
-import { DedicatedServerServiceMonitoring } from '../models/DedicatedServerServiceMonitoring';
-import { DedicatedServerSmsAlert } from '../models/DedicatedServerSmsAlert';
+import { DedicatedServerRtmCommandSize } from '../models/DedicatedServerRtmCommandSize';
+import { DedicatedServerSpla } from '../models/DedicatedServerSpla';
+import { DedicatedVirtualNetworkInterfaceVirtualNetworkInterface } from '../models/DedicatedVirtualNetworkInterfaceVirtualNetworkInterface';
+import { DedicatedServerConfigDrive } from '../models/DedicatedServerConfigDrive';
+import { DedicatedServerFirewall } from '../models/DedicatedServerFirewall';
 import { DedicatedServerNetworkSpecifications } from '../models/DedicatedServerNetworkSpecifications';
+import { DedicatedServerKvm } from '../models/DedicatedServerKvm';
+import { DedicatedServerTemplateCaps } from '../models/DedicatedServerTemplateCaps';
+import { DedicatedServerRtmConnection } from '../models/DedicatedServerRtmConnection';
+import { LicenseWindowsOsVersionEnum } from '../models/LicenseWindowsOsVersionEnum';
+import { DedicatedServerBackupBackupOffer } from '../models/DedicatedServerBackupBackupOffer';
+import { DedicatedServerBackupStorageOrderable } from '../models/DedicatedServerBackupStorageOrderable';
+import { DedicatedServerBackupCloud } from '../models/DedicatedServerBackupCloud';
+import { DedicatedServerMonitoringIntervalEnum } from '../models/DedicatedServerMonitoringIntervalEnum';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { VrackTask } from '../models/VrackTask';
+import { DedicatedPublicLog } from '../models/DedicatedPublicLog';
+import { DedicatedBiosSettingsSgxBiosSettingsSgx } from '../models/DedicatedBiosSettingsSgxBiosSettingsSgx';
+import { DedicatedServerSplaTypeEnum } from '../models/DedicatedServerSplaTypeEnum';
+import { DedicatedServerBackupFtpAcl } from '../models/DedicatedServerBackupFtpAcl';
+import { LicenseWindowsSqlVersionEnum } from '../models/LicenseWindowsSqlVersionEnum';
+import { DedicatedServerHardwareRaidProfile } from '../models/DedicatedServerHardwareRaidProfile';
+import { DedicatedServerMrtgPeriodEnum } from '../models/DedicatedServerMrtgPeriodEnum';
+import { DedicatedServerBootTypeEnum } from '../models/DedicatedServerBootTypeEnum';
+import { DedicatedNetworkInterfaceControllerNetworkInterfaceControllerLinkTypeEnum } from '../models/DedicatedNetworkInterfaceControllerNetworkInterfaceControllerLinkTypeEnum';
+import { SecondaryDnsSecondaryDNS } from '../models/SecondaryDnsSecondaryDNS';
+import { DedicatedServerRtmMemory } from '../models/DedicatedServerRtmMemory';
+import { DedicatedServerTask } from '../models/DedicatedServerTask';
+import { DedicatedBinaryFirewallLink } from '../models/DedicatedBinaryFirewallLink';
+import { DedicatedServerBiosSettingsSgxStatusEnum } from '../models/DedicatedServerBiosSettingsSgxStatusEnum';
+import { DedicatedTaskFunctionEnum } from '../models/DedicatedTaskFunctionEnum';
+import { DedicatedImageTypesEnum } from '../models/DedicatedImageTypesEnum';
+import { DedicatedServerVmacTypeEnum } from '../models/DedicatedServerVmacTypeEnum';
+import { DedicatedServerEmailAlert } from '../models/DedicatedServerEmailAlert';
+import { SecondaryDnsSecondaryDNSCheckField } from '../models/SecondaryDnsSecondaryDNSCheckField';
+import { DedicatedServerSplaStatusEnum } from '../models/DedicatedServerSplaStatusEnum';
+import { DedicatedPlannedInterventionTimeSlot } from '../models/DedicatedPlannedInterventionTimeSlot';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { DedicatedServerUsbKeyOrderableDetails } from '../models/DedicatedServerUsbKeyOrderableDetails';
+import { DedicatedServerRtmDiskSmart } from '../models/DedicatedServerRtmDiskSmart';
+import { SupportNewMessageInfo } from '../models/SupportNewMessageInfo';
 import { DedicatedServerIpOrderable } from '../models/DedicatedServerIpOrderable';
-import { DedicatedServerCacheTTLEnum } from '../models/DedicatedServerCacheTTLEnum';
+import { DedicatedServerRtmChartPeriodEnum } from '../models/DedicatedServerRtmChartPeriodEnum';
+import { DedicatedServerRtmLoad } from '../models/DedicatedServerRtmLoad';
+import { DedicatedServerBiosSettingsSgxPrmrrEnum } from '../models/DedicatedServerBiosSettingsSgxPrmrrEnum';
+import { DedicatedServerBandwidthOrderable } from '../models/DedicatedServerBandwidthOrderable';
+import { DedicatedServerInstallationProgressStatus } from '../models/DedicatedServerInstallationProgressStatus';
+import { ServicesService } from '../models/ServicesService';
+import { DedicatedServerSupportReplaceHddInfo } from '../models/DedicatedServerSupportReplaceHddInfo';
+import { DedicatedServerNetboot } from '../models/DedicatedServerNetboot';
+import { DedicatedExposedTask } from '../models/DedicatedExposedTask';
+import { DedicatedServerIpCountryEnum } from '../models/DedicatedServerIpCountryEnum';
+import { ComplexTypeChartReturn } from '../models/ComplexTypeChartReturn';
+import { DedicatedBinaryFirewall } from '../models/DedicatedBinaryFirewall';
+import { DedicatedServerVirtualMacManagement } from '../models/DedicatedServerVirtualMacManagement';
+import { DedicatedServerPlannedIntervention } from '../models/DedicatedServerPlannedIntervention';
+import { DedicatedServerServiceMonitoring } from '../models/DedicatedServerServiceMonitoring';
+import { DedicatedServerOption } from '../models/DedicatedServerOption';
+import { DedicatedServerIntervention } from '../models/DedicatedServerIntervention';
+import { DedicatedServerAlertLanguageEnum } from '../models/DedicatedServerAlertLanguageEnum';
+import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
+import { DedicatedServerByoiStatus } from '../models/DedicatedServerByoiStatus';
+import { DedicatedAvailabilitiesRaw } from '../models/DedicatedAvailabilitiesRaw';
+import { DedicatedServerInstallTemplate } from '../models/DedicatedServerInstallTemplate';
+import { SecondaryDnsSecondaryDNSNameServer } from '../models/SecondaryDnsSecondaryDNSNameServer';
+import { DedicatedServerOrderableSysFeatureEnum } from '../models/DedicatedServerOrderableSysFeatureEnum';
+import { DedicatedServerRtmMotherboardHw } from '../models/DedicatedServerRtmMotherboardHw';
 import { DedicatedServerRtmPartition } from '../models/DedicatedServerRtmPartition';
+import { DedicatedServerMonitoringProtocolEnum } from '../models/DedicatedServerMonitoringProtocolEnum';
+import { DedicatedServerMrtgTimestampValue } from '../models/DedicatedServerMrtgTimestampValue';
+import { DedicatedCheckSumTypesEnum } from '../models/DedicatedCheckSumTypesEnum';
+import { DedicatedServerAccess } from '../models/DedicatedServerAccess';
+import { DedicatedServerIpmiTestResult } from '../models/DedicatedServerIpmiTestResult';
+import { DedicatedServerRtmCpu } from '../models/DedicatedServerRtmCpu';
+import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
+import { DedicatedServerBandwidthvRackOrderable } from '../models/DedicatedServerBandwidthvRackOrderable';
+import { DedicatedServerIpmiTestTypeEnum } from '../models/DedicatedServerIpmiTestTypeEnum';
+import { DedicatedNetworkInterfaceControllerNetworkInterfaceController } from '../models/DedicatedNetworkInterfaceControllerNetworkInterfaceController';
+import { DedicatedServerCacheTTLEnum } from '../models/DedicatedServerCacheTTLEnum';
+import { DedicatedServerHardwareSpecifications } from '../models/DedicatedServerHardwareSpecifications';
+import { DedicatedServerRtmOs } from '../models/DedicatedServerRtmOs';
+import { DedicatedServerTrafficOrderable } from '../models/DedicatedServerTrafficOrderable';
+import { DedicatedServerIpmiAccessValue } from '../models/DedicatedServerIpmiAccessValue';
+import { DedicatedServerBootOptionEnum } from '../models/DedicatedServerBootOptionEnum';
+import { VrackDedicatedServer } from '../models/VrackDedicatedServer';
+import { DedicatedServerRtmRaidVolume } from '../models/DedicatedServerRtmRaidVolume';
+import { DedicatedServerRtmRaid } from '../models/DedicatedServerRtmRaid';
+import { DedicatedServerIpmiAccessTypeEnum } from '../models/DedicatedServerIpmiAccessTypeEnum';
+import { DedicatedServerDedicated } from '../models/DedicatedServerDedicated';
+import { DedicatedServerVirtualMac } from '../models/DedicatedServerVirtualMac';
+import { DedicatedDatacenterEnum } from '../models/DedicatedDatacenterEnum';
+import { DedicatedServerBackupFtp } from '../models/DedicatedServerBackupFtp';
+import { DedicatedServerMrtgTypeEnum } from '../models/DedicatedServerMrtgTypeEnum';
+import { DedicatedServerRtm } from '../models/DedicatedServerRtm';
+import { DedicatedServerRtmPci } from '../models/DedicatedServerRtmPci';
 import OVHBase from '../ovh';
 
 class DedicatedServerHandler {
@@ -121,7 +121,7 @@ class DedicatedServerHandler {
   }
 
   /** List available services */
-  listServers = (): Promise<string[]> => {
+  listServer = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicated/server');
   };
 
@@ -131,7 +131,7 @@ class DedicatedServerHandler {
   };
 
   /** List the availability of dedicated server */
-  listServerAvailabilitiesRaws = (): Promise<DedicatedAvailabilitiesRaw[]> => {
+  listServerAvailabilitiesRaw = (): Promise<DedicatedAvailabilitiesRaw[]> => {
     return this.ovh.request('GET', '/dedicated/server/availabilities/raw');
   };
 
@@ -141,7 +141,7 @@ class DedicatedServerHandler {
   };
 
   /** List the raw availability of dedicated server */
-  listServerDatacenterAvailabilitiesRaws = (): Promise<DedicatedDatacenterRawAvailability[]> => {
+  listServerDatacenterAvailabilitiesRaw = (): Promise<DedicatedDatacenterRawAvailability[]> => {
     return this.ovh.request('GET', '/dedicated/server/datacenter/availabilities/raw');
   };
 
@@ -665,7 +665,7 @@ class DedicatedServerHandler {
   };
 
   /** List server networkInterfaceController */
-  listServerNetworkInterfaceControllersByServiceName = (serviceName: string): Promise<string[]> => {
+  listServerNetworkInterfaceControllerByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/networkInterfaceController`);
   };
 
@@ -729,7 +729,7 @@ class DedicatedServerHandler {
   };
 
   /** List of dedicated server options */
-  listServerOptionsByServiceName = (serviceName: string): Promise<DedicatedServerOptionEnum[]> => {
+  listServerOptionByServiceName = (serviceName: string): Promise<DedicatedServerOptionEnum[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/option`);
   };
 
@@ -1491,7 +1491,7 @@ class DedicatedServerHandler {
   };
 
   /** List server VirtualNetworkInterfaces */
-  listServerVirtualNetworkInterfacesByServiceName = (serviceName: string): Promise<string[]> => {
+  listServerVirtualNetworkInterfaceByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/virtualNetworkInterface`);
   };
 

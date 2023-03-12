@@ -2,4 +2,4 @@
 
 import { ServicesExpandedRenewModeEnum } from './ServicesExpandedRenewModeEnum';
 
-export type ServicesUpdateServiceRenew = { mode: ServicesExpandedRenewModeEnum; period: number };
+export type ServicesUpdateServiceRenew = { mode?: ServicesExpandedRenewModeEnum; period?: number };

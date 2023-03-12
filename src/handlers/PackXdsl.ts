@@ -1,35 +1,35 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { PackXdslMigrationOfferOption } from '../models/PackXdslMigrationOfferOption';
 import { PackXdslHostedEmailService } from '../models/PackXdslHostedEmailService';
-import { PackXdslMigrationOfferServiceToKeep } from '../models/PackXdslMigrationOfferServiceToKeep';
-import { PackXdslServiceInformation } from '../models/PackXdslServiceInformation';
-import { PackXdslDomainActionEnum } from '../models/PackXdslDomainActionEnum';
-import { PackXdslUnpackTerms } from '../models/PackXdslUnpackTerms';
-import { PackXdslHostedEmailConfiguration } from '../models/PackXdslHostedEmailConfiguration';
-import { PackXdslResiliationSurvey } from '../models/PackXdslResiliationSurvey';
-import { PackXdslService } from '../models/PackXdslService';
-import { PackXdslContactInfos } from '../models/PackXdslContactInfos';
-import { PackXdslResiliationTerms } from '../models/PackXdslResiliationTerms';
-import { PackXdslVoIPLineOrder } from '../models/PackXdslVoIPLineOrder';
-import { PackXdslPackAdsl } from '../models/PackXdslPackAdsl';
-import { XdslEligibilityBookMeetingSlot } from '../models/XdslEligibilityBookMeetingSlot';
-import { PackXdslTask } from '../models/PackXdslTask';
-import { PackXdslResiliationFollowUpDetail } from '../models/PackXdslResiliationFollowUpDetail';
-import { PackXdslModemOptionEnum } from '../models/PackXdslModemOptionEnum';
-import { PackXdslAddressMoveMoveOfferResponse } from '../models/PackXdslAddressMoveMoveOfferResponse';
-import { PackXdslMigrationOfferServiceToDelete } from '../models/PackXdslMigrationOfferServiceToDelete';
-import { PackXdslHostedEmailAccount } from '../models/PackXdslHostedEmailAccount';
-import { PackXdslExchangeAccountService } from '../models/PackXdslExchangeAccountService';
-import { PackXdslMigrationMigrationOfferResponse } from '../models/PackXdslMigrationMigrationOfferResponse';
-import { PackXdslShippingAddress } from '../models/PackXdslShippingAddress';
-import { PackXdslShippingAddressContextEnum } from '../models/PackXdslShippingAddressContextEnum';
-import { PackXdslTaskStatusEnum } from '../models/PackXdslTaskStatusEnum';
-import { ServicesService } from '../models/ServicesService';
-import { PackXdslVoIPHardware } from '../models/PackXdslVoIPHardware';
-import { PackXdslPromotionCodeCapabilities } from '../models/PackXdslPromotionCodeCapabilities';
 import { PackXdslMigrationSubServicesDetailsToDelete } from '../models/PackXdslMigrationSubServicesDetailsToDelete';
+import { ServicesService } from '../models/ServicesService';
+import { PackXdslAddressMoveMoveOfferResponse } from '../models/PackXdslAddressMoveMoveOfferResponse';
+import { PackXdslDomainActionEnum } from '../models/PackXdslDomainActionEnum';
+import { PackXdslMigrationMigrationOfferResponse } from '../models/PackXdslMigrationMigrationOfferResponse';
+import { PackXdslMigrationOfferOption } from '../models/PackXdslMigrationOfferOption';
+import { PackXdslHostedEmailAccount } from '../models/PackXdslHostedEmailAccount';
+import { PackXdslTask } from '../models/PackXdslTask';
+import { PackXdslShippingAddressContextEnum } from '../models/PackXdslShippingAddressContextEnum';
+import { PackXdslVoIPHardware } from '../models/PackXdslVoIPHardware';
 import { PackXdslVoipLineService } from '../models/PackXdslVoipLineService';
+import { PackXdslContactInfos } from '../models/PackXdslContactInfos';
+import { PackXdslShippingAddress } from '../models/PackXdslShippingAddress';
+import { PackXdslExchangeAccountService } from '../models/PackXdslExchangeAccountService';
+import { PackXdslHostedEmailConfiguration } from '../models/PackXdslHostedEmailConfiguration';
+import { XdslEligibilityBookMeetingSlot } from '../models/XdslEligibilityBookMeetingSlot';
+import { PackXdslService } from '../models/PackXdslService';
+import { PackXdslResiliationSurvey } from '../models/PackXdslResiliationSurvey';
+import { PackXdslServiceInformation } from '../models/PackXdslServiceInformation';
+import { PackXdslTaskStatusEnum } from '../models/PackXdslTaskStatusEnum';
+import { PackXdslMigrationOfferServiceToKeep } from '../models/PackXdslMigrationOfferServiceToKeep';
+import { PackXdslMigrationOfferServiceToDelete } from '../models/PackXdslMigrationOfferServiceToDelete';
+import { PackXdslUnpackTerms } from '../models/PackXdslUnpackTerms';
+import { PackXdslModemOptionEnum } from '../models/PackXdslModemOptionEnum';
+import { PackXdslPackAdsl } from '../models/PackXdslPackAdsl';
+import { PackXdslResiliationFollowUpDetail } from '../models/PackXdslResiliationFollowUpDetail';
+import { PackXdslVoIPLineOrder } from '../models/PackXdslVoIPLineOrder';
+import { PackXdslResiliationTerms } from '../models/PackXdslResiliationTerms';
+import { PackXdslPromotionCodeCapabilities } from '../models/PackXdslPromotionCodeCapabilities';
 import OVHBase from '../ovh';
 
 class PackXdslHandler {
@@ -40,7 +40,7 @@ class PackXdslHandler {
   }
 
   /** List available services */
-  listXdsls = (): Promise<string[]> => {
+  listXdsl = (): Promise<string[]> => {
     return this.ovh.request('GET', '/pack/xdsl');
   };
 

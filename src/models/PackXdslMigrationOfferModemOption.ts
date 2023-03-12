@@ -2,4 +2,4 @@
 
 import { OrderPrice } from './OrderPrice';
 
-export type PackXdslMigrationOfferModemOption = { name: string; price: OrderPrice | null };
+export type PackXdslMigrationOfferModemOption = { name?: string; price?: OrderPrice | null };

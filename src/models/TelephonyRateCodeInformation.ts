@@ -3,7 +3,7 @@
 import { OrderPrice } from './OrderPrice';
 
 export type TelephonyRateCodeInformation = {
-  code: string;
-  pricePerCallWithoutTax: OrderPrice;
-  pricePerMinuteWithoutTax: OrderPrice;
+  code?: string;
+  pricePerCallWithoutTax?: OrderPrice;
+  pricePerMinuteWithoutTax?: OrderPrice;
 };

@@ -3,6 +3,6 @@
 import { TelephonyServiceVoicemailMailOptionEnum } from './TelephonyServiceVoicemailMailOptionEnum';
 
 export type TelephonyServiceVoicemailNotifications = {
-  email: string;
-  type: TelephonyServiceVoicemailMailOptionEnum;
+  email?: string;
+  type?: TelephonyServiceVoicemailMailOptionEnum;
 };

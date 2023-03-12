@@ -3,8 +3,8 @@
 import { DomainDomainFilterOperandEnum } from './DomainDomainFilterOperandEnum';
 
 export type EmailDomainRule = {
-  header: string;
-  id: number;
-  operand: DomainDomainFilterOperandEnum;
-  value: string;
+  header?: string;
+  id?: number;
+  operand?: DomainDomainFilterOperandEnum;
+  value?: string;
 };

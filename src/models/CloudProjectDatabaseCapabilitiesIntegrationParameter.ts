@@ -3,6 +3,6 @@
 import { CloudProjectDatabaseCapabilitiesIntegrationParameterTypeEnum } from './CloudProjectDatabaseCapabilitiesIntegrationParameterTypeEnum';
 
 export type CloudProjectDatabaseCapabilitiesIntegrationParameter = {
-  name: string;
-  type: CloudProjectDatabaseCapabilitiesIntegrationParameterTypeEnum;
+  name?: string;
+  type?: CloudProjectDatabaseCapabilitiesIntegrationParameterTypeEnum;
 };

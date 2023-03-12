@@ -3,7 +3,7 @@
 import { BillingPaymentMeanEnum } from './BillingPaymentMeanEnum';
 
 export type BillingPayment = {
-  paymentDate: Date;
-  paymentIdentifier: string | null;
-  paymentType: BillingPaymentMeanEnum;
+  paymentDate?: Date;
+  paymentIdentifier?: string | null;
+  paymentType?: BillingPaymentMeanEnum;
 };

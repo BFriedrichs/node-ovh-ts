@@ -4,7 +4,7 @@ import { XdslAntiSpamEvidencesInfoStatusEnum } from './XdslAntiSpamEvidencesInfo
 import { XdslAntiSpamEvidencesInfoDetail } from './XdslAntiSpamEvidencesInfoDetail';
 
 export type XdslAntiSpamEvidencesInfo = {
-  error: string | null;
-  result: XdslAntiSpamEvidencesInfoDetail[] | null;
-  status: XdslAntiSpamEvidencesInfoStatusEnum;
+  error?: string | null;
+  result?: XdslAntiSpamEvidencesInfoDetail[] | null;
+  status?: XdslAntiSpamEvidencesInfoStatusEnum;
 };

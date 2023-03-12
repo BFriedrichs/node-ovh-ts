@@ -3,8 +3,8 @@
 import { NichandleAccessRestrictionIpRestrictionRuleEnum } from './NichandleAccessRestrictionIpRestrictionRuleEnum';
 
 export type NichandleIpRestriction = {
-  id: number;
-  ip: string;
-  rule: NichandleAccessRestrictionIpRestrictionRuleEnum;
-  warning: boolean;
+  id?: number;
+  ip?: string;
+  rule?: NichandleAccessRestrictionIpRestrictionRuleEnum;
+  warning?: boolean;
 };

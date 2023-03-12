@@ -3,7 +3,7 @@
 import { OrderPrice } from './OrderPrice';
 
 export type CloudProjectStorageVolumeUsage = {
-  region: string;
-  storedBytes: number;
-  total: OrderPrice;
+  region?: string;
+  storedBytes?: number;
+  total?: OrderPrice;
 };

@@ -2,4 +2,4 @@
 
 import { CloudKubeUpdatePolicyEnum } from './CloudKubeUpdatePolicyEnum';
 
-export type CloudProjectKubeUpdatePolicyUpdate = { updatePolicy?: CloudKubeUpdatePolicyEnum };
+export type CloudProjectKubeUpdatePolicyUpdate = { updatePolicy: CloudKubeUpdatePolicyEnum };

@@ -2,4 +2,4 @@
 
 import { OverTheBoxTaskStatusEnum } from './OverTheBoxTaskStatusEnum';
 
-export type OverTheBoxTask = { name: string; status: OverTheBoxTaskStatusEnum; taskId: string };
+export type OverTheBoxTask = { name?: string; status?: OverTheBoxTaskStatusEnum; taskId?: string };

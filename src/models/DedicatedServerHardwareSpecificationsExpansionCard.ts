@@ -3,6 +3,6 @@
 import { DedicatedServerHardwareSpecificationsExpansionCardTypeEnum } from './DedicatedServerHardwareSpecificationsExpansionCardTypeEnum';
 
 export type DedicatedServerHardwareSpecificationsExpansionCard = {
-  description: string;
-  type: DedicatedServerHardwareSpecificationsExpansionCardTypeEnum;
+  description?: string;
+  type?: DedicatedServerHardwareSpecificationsExpansionCardTypeEnum;
 };

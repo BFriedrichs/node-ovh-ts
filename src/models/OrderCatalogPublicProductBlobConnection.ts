@@ -3,6 +3,6 @@
 import { OrderCatalogPublicProductBlobConnectionClients } from './OrderCatalogPublicProductBlobConnectionClients';
 
 export type OrderCatalogPublicProductBlobConnection = {
-  clients: OrderCatalogPublicProductBlobConnectionClients;
-  total: number;
+  clients?: OrderCatalogPublicProductBlobConnectionClients;
+  total?: number;
 };

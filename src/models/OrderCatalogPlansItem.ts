@@ -2,4 +2,4 @@
 
 import { OrderCatalogProductPlan } from './OrderCatalogProductPlan';
 
-export type OrderCatalogPlansItem = { family: string; plans: OrderCatalogProductPlan[] };
+export type OrderCatalogPlansItem = { family?: string; plans?: OrderCatalogProductPlan[] };

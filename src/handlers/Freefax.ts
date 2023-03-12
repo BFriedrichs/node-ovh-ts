@@ -1,15 +1,15 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyEntrepriseNumberInformationsTask } from '../models/TelephonyEntrepriseNumberInformationsTask';
-import { FreefaxBalanceInformations } from '../models/FreefaxBalanceInformations';
 import { TelephonyVoicemailProperties } from '../models/TelephonyVoicemailProperties';
-import { TelephonyVoicemailNumbers } from '../models/TelephonyVoicemailNumbers';
-import { TelephonyDirectoryHeadingPJ } from '../models/TelephonyDirectoryHeadingPJ';
-import { TelephonyDirectoryWayType } from '../models/TelephonyDirectoryWayType';
+import { TelephonyVoicefaxRoutingEnum } from '../models/TelephonyVoicefaxRoutingEnum';
 import { TelephonyDirectoryInfo } from '../models/TelephonyDirectoryInfo';
+import { TelephonyDirectoryWayType } from '../models/TelephonyDirectoryWayType';
+import { FreefaxBalanceInformations } from '../models/FreefaxBalanceInformations';
+import { TelephonyDirectoryHeadingPJ } from '../models/TelephonyDirectoryHeadingPJ';
+import { TelephonyEntrepriseNumberInformationsTask } from '../models/TelephonyEntrepriseNumberInformationsTask';
 import { FreefaxFreefaxProperties } from '../models/FreefaxFreefaxProperties';
 import { ServicesService } from '../models/ServicesService';
-import { TelephonyVoicefaxRoutingEnum } from '../models/TelephonyVoicefaxRoutingEnum';
+import { TelephonyVoicemailNumbers } from '../models/TelephonyVoicemailNumbers';
 import OVHBase from '../ovh';
 
 class FreefaxHandler {
@@ -20,7 +20,7 @@ class FreefaxHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/freefax');
   };
 

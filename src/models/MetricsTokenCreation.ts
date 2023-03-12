@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MetricsApiPermissionEnum } from './MetricsApiPermissionEnum';
 import { MetricsApiLabel } from './MetricsApiLabel';
+import { MetricsApiPermissionEnum } from './MetricsApiPermissionEnum';
 
 export type MetricsTokenCreation = {
-  description: string | null;
-  labels: MetricsApiLabel[] | null;
-  permission?: MetricsApiPermissionEnum;
+  description?: string | null;
+  labels?: MetricsApiLabel[] | null;
+  permission: MetricsApiPermissionEnum;
 };

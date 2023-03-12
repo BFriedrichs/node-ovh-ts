@@ -3,8 +3,8 @@
 import { OrderPrice } from './OrderPrice';
 
 export type XdslModemExchangeInfo = {
-  canExchange: boolean;
-  newModel: string;
-  price: OrderPrice;
-  priceWithTax: OrderPrice;
+  canExchange?: boolean;
+  newModel?: string;
+  price?: OrderPrice;
+  priceWithTax?: OrderPrice;
 };

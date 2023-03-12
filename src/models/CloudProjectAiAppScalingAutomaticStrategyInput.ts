@@ -3,8 +3,8 @@
 import { CloudProjectAiAppScalingAutomaticStrategyResourceTypeEnum } from './CloudProjectAiAppScalingAutomaticStrategyResourceTypeEnum';
 
 export type CloudProjectAiAppScalingAutomaticStrategyInput = {
-  averageUsageTarget: number;
-  replicasMax: number;
-  replicasMin: number;
-  resourceType: CloudProjectAiAppScalingAutomaticStrategyResourceTypeEnum;
+  averageUsageTarget?: number;
+  replicasMax?: number;
+  replicasMin?: number;
+  resourceType?: CloudProjectAiAppScalingAutomaticStrategyResourceTypeEnum;
 };

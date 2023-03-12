@@ -3,7 +3,7 @@
 import { DedicatedStorageAclTypeEnum } from './DedicatedStorageAclTypeEnum';
 
 export type DedicatedNashaAccess = {
-  accessId: number;
-  ip: string;
-  type: DedicatedStorageAclTypeEnum;
+  accessId?: number;
+  ip?: string;
+  type?: DedicatedStorageAclTypeEnum;
 };

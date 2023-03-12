@@ -3,9 +3,9 @@
 import { XdslLineTestEnum } from './XdslLineTestEnum';
 
 export type XdslLineDiagnostic = {
-  lineTest: XdslLineTestEnum | null;
-  lineTestTime: Date | null;
-  number: string;
-  proposedProfileId: number | null;
-  sync: boolean;
+  lineTest?: XdslLineTestEnum | null;
+  lineTestTime?: Date | null;
+  number?: string;
+  proposedProfileId?: number | null;
+  sync?: boolean;
 };

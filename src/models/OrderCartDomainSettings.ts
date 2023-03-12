@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type OrderCartDomainSettings = { domain: string };
+export type OrderCartDomainSettings = { domain?: string };

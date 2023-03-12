@@ -3,6 +3,6 @@
 import { CloudProjectDataProcessingInfoCodeEnum } from './CloudProjectDataProcessingInfoCodeEnum';
 
 export type CloudProjectDataProcessingInfo = {
-  code: CloudProjectDataProcessingInfoCodeEnum;
-  message: string;
+  code?: CloudProjectDataProcessingInfoCodeEnum;
+  message?: string;
 };

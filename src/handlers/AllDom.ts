@@ -13,7 +13,7 @@ class AllDomHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/allDom');
   };
 

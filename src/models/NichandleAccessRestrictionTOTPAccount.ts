@@ -3,9 +3,9 @@
 import { NichandleAccessRestrictionTOTPStatusEnum } from './NichandleAccessRestrictionTOTPStatusEnum';
 
 export type NichandleAccessRestrictionTOTPAccount = {
-  creationDate: Date;
-  description: string;
-  id: number;
-  lastUsedDate: Date | null;
-  status: NichandleAccessRestrictionTOTPStatusEnum;
+  creationDate?: Date;
+  description?: string;
+  id?: number;
+  lastUsedDate?: Date | null;
+  status?: NichandleAccessRestrictionTOTPStatusEnum;
 };

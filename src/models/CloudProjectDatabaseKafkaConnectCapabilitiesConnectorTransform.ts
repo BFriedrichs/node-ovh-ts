@@ -3,11 +3,11 @@
 import { CloudProjectDatabaseKafkaConnectConnectorPropertyTypeEnum } from './CloudProjectDatabaseKafkaConnectConnectorPropertyTypeEnum';
 
 export type CloudProjectDatabaseKafkaConnectCapabilitiesConnectorTransform = {
-  description: string;
-  displayName: string;
-  name: string;
-  required: boolean;
-  transformType: string;
-  type: CloudProjectDatabaseKafkaConnectConnectorPropertyTypeEnum;
-  values: string[] | null;
+  description?: string;
+  displayName?: string;
+  name?: string;
+  required?: boolean;
+  transformType?: string;
+  type?: CloudProjectDatabaseKafkaConnectConnectorPropertyTypeEnum;
+  values?: string[] | null;
 };

@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 export type TelephonyAbbreviatedNumber = {
-  abbreviatedNumber: number;
-  destinationNumber: string;
-  name: string;
-  surname: string;
+  abbreviatedNumber?: number;
+  destinationNumber?: string;
+  name?: string;
+  surname?: string;
 };

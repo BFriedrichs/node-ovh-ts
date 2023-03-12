@@ -4,6 +4,6 @@ import { ServicesExpandedLifecycleCapacities } from './ServicesExpandedLifecycle
 import { ServicesExpandedLifecycleCurrent } from './ServicesExpandedLifecycleCurrent';
 
 export type ServicesExpandedLifecycle = {
-  capacities: ServicesExpandedLifecycleCapacities;
-  current: ServicesExpandedLifecycleCurrent;
+  capacities?: ServicesExpandedLifecycleCapacities;
+  current?: ServicesExpandedLifecycleCurrent;
 };

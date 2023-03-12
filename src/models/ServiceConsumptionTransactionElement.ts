@@ -4,8 +4,8 @@ import { ServiceConsumptionTransactionElementDetail } from './ServiceConsumption
 import { OrderPrice } from './OrderPrice';
 
 export type ServiceConsumptionTransactionElement = {
-  details: ServiceConsumptionTransactionElementDetail[];
-  planCode: string;
-  price: OrderPrice;
-  quantity: number;
+  details?: ServiceConsumptionTransactionElementDetail[];
+  planCode?: string;
+  price?: OrderPrice;
+  quantity?: number;
 };

@@ -4,8 +4,8 @@ import { CloudProjectDataProcessingNotebookNotebookSpec } from './CloudProjectDa
 import { CloudProjectDataProcessingNotebookNotebookStatus } from './CloudProjectDataProcessingNotebookNotebookStatus';
 
 export type CloudProjectDataProcessingNotebookNotebook = {
-  id: string;
-  spec: CloudProjectDataProcessingNotebookNotebookSpec;
-  status: CloudProjectDataProcessingNotebookNotebookStatus;
-  updatedAt: Date;
+  id?: string;
+  spec?: CloudProjectDataProcessingNotebookNotebookSpec;
+  status?: CloudProjectDataProcessingNotebookNotebookStatus;
+  updatedAt?: Date;
 };

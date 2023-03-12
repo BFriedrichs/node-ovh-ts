@@ -3,6 +3,6 @@
 import { IpFirewallTCPOptionEnum } from './IpFirewallTCPOptionEnum';
 
 export type IpFirewallOptionTCP = {
-  fragments: boolean | null;
-  option: IpFirewallTCPOptionEnum | null;
+  fragments?: boolean | null;
+  option?: IpFirewallTCPOptionEnum | null;
 };

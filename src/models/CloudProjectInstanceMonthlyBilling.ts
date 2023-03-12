@@ -2,4 +2,4 @@
 
 import { OrderPrice } from './OrderPrice';
 
-export type CloudProjectInstanceMonthlyBilling = { activatedOn: Date; cost: OrderPrice };
+export type CloudProjectInstanceMonthlyBilling = { activatedOn?: Date; cost?: OrderPrice };

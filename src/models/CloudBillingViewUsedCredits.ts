@@ -3,6 +3,6 @@
 import { CloudBillingViewUsedCredit } from './CloudBillingViewUsedCredit';
 
 export type CloudBillingViewUsedCredits = {
-  details: CloudBillingViewUsedCredit[];
-  totalCredit: number;
+  details?: CloudBillingViewUsedCredit[];
+  totalCredit?: number;
 };

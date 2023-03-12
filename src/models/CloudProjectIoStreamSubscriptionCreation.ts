@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type CloudProjectIoStreamSubscriptionCreation = { name?: string };
+export type CloudProjectIoStreamSubscriptionCreation = { name: string };

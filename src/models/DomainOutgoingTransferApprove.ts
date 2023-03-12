@@ -2,4 +2,4 @@
 
 import { DomainApproveTypeEnum } from './DomainApproveTypeEnum';
 
-export type DomainOutgoingTransferApprove = { approveType: DomainApproveTypeEnum; ident: string };
+export type DomainOutgoingTransferApprove = { approveType?: DomainApproveTypeEnum; ident?: string };

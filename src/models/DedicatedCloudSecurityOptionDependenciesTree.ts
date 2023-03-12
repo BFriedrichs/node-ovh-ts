@@ -3,7 +3,7 @@
 import { DedicatedCloudSecurityOptionSecurityOptionEnum } from './DedicatedCloudSecurityOptionSecurityOptionEnum';
 
 export type DedicatedCloudSecurityOptionDependenciesTree = {
-  conflicts: DedicatedCloudSecurityOptionSecurityOptionEnum[];
-  depends: DedicatedCloudSecurityOptionSecurityOptionEnum[];
-  requires: DedicatedCloudSecurityOptionSecurityOptionEnum[];
+  conflicts?: DedicatedCloudSecurityOptionSecurityOptionEnum[];
+  depends?: DedicatedCloudSecurityOptionSecurityOptionEnum[];
+  requires?: DedicatedCloudSecurityOptionSecurityOptionEnum[];
 };

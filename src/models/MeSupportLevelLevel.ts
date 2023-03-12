@@ -2,4 +2,4 @@
 
 import { MeSupportLevelLevelTypeEnum } from './MeSupportLevelLevelTypeEnum';
 
-export type MeSupportLevelLevel = { level: MeSupportLevelLevelTypeEnum };
+export type MeSupportLevelLevel = { level?: MeSupportLevelLevelTypeEnum };

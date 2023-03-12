@@ -4,6 +4,6 @@ import { LicenseLicenseTypeEnum } from './LicenseLicenseTypeEnum';
 import { LicenseOrderablePleskCompatibilityInfos } from './LicenseOrderablePleskCompatibilityInfos';
 
 export type LicensePleskOrderConfiguration = {
-  orderableVersions: LicenseOrderablePleskCompatibilityInfos[];
-  serviceType: LicenseLicenseTypeEnum;
+  orderableVersions?: LicenseOrderablePleskCompatibilityInfos[];
+  serviceType?: LicenseLicenseTypeEnum;
 };

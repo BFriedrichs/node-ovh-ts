@@ -3,7 +3,7 @@
 import { TelephonyScreenListChoosingEnum } from './TelephonyScreenListChoosingEnum';
 
 export type TelephonyScreen = {
-  incomingScreenList: TelephonyScreenListChoosingEnum;
-  outgoingScreenList: TelephonyScreenListChoosingEnum;
-  serviceName: string;
+  incomingScreenList?: TelephonyScreenListChoosingEnum;
+  outgoingScreenList?: TelephonyScreenListChoosingEnum;
+  serviceName?: string;
 };

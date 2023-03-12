@@ -3,7 +3,7 @@
 import { RecommendationsRecommendationAdvice } from './RecommendationsRecommendationAdvice';
 
 export type RecommendationsRecommendation = {
-  advices: RecommendationsRecommendationAdvice[];
-  localizedDescription: Record<string, string>;
-  rank: number;
+  advices?: RecommendationsRecommendationAdvice[];
+  localizedDescription?: Record<string, string>;
+  rank?: number;
 };

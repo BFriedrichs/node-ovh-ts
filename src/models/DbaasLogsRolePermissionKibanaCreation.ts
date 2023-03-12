@@ -3,6 +3,6 @@
 import { DbaasLogsPermissionTypeEnum } from './DbaasLogsPermissionTypeEnum';
 
 export type DbaasLogsRolePermissionKibanaCreation = {
-  kibanaId?: string;
-  permissionType: DbaasLogsPermissionTypeEnum | null;
+  kibanaId: string;
+  permissionType?: DbaasLogsPermissionTypeEnum | null;
 };

@@ -3,5 +3,5 @@
 import { OrderCatalogPublicProductBlobMarketingContent } from './OrderCatalogPublicProductBlobMarketingContent';
 
 export type OrderCatalogPublicProductBlobMarketing = {
-  content: OrderCatalogPublicProductBlobMarketingContent[];
+  content?: OrderCatalogPublicProductBlobMarketingContent[];
 };

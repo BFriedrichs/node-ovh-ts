@@ -3,12 +3,12 @@
 import { RegistryPermissionStatus } from './RegistryPermissionStatus';
 
 export type RegistryPermissions = {
-  canRead: boolean;
-  canWrite: boolean;
-  createdAt: Date;
-  id: string;
-  isAdmin: boolean;
-  status: RegistryPermissionStatus;
-  updatedAt: Date;
-  userId: string;
+  canRead?: boolean;
+  canWrite?: boolean;
+  createdAt?: Date;
+  id?: string;
+  isAdmin?: boolean;
+  status?: RegistryPermissionStatus;
+  updatedAt?: Date;
+  userId?: string;
 };

@@ -1,20 +1,20 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ClusterHadoopUser } from '../models/ClusterHadoopUser';
-import { ClusterHadoopClusterConsumption } from '../models/ClusterHadoopClusterConsumption';
 import { ClusterHadoopNodeBillingProfile } from '../models/ClusterHadoopNodeBillingProfile';
-import { ClusterHadoopOrderInformations } from '../models/ClusterHadoopOrderInformations';
 import { ClusterHadoopRole } from '../models/ClusterHadoopRole';
-import { ClusterHadoopNodeProfileEnum } from '../models/ClusterHadoopNodeProfileEnum';
-import { ClusterHadoopTask } from '../models/ClusterHadoopTask';
-import { ClusterHadoopClusterServiceNameEnum } from '../models/ClusterHadoopClusterServiceNameEnum';
+import { ClusterHadoopOrderInformations } from '../models/ClusterHadoopOrderInformations';
+import { ClusterHadoopClusterConsumption } from '../models/ClusterHadoopClusterConsumption';
 import { ClusterHadoopNetworkAcl } from '../models/ClusterHadoopNetworkAcl';
-import { ClusterHadoopOperationStateEnum } from '../models/ClusterHadoopOperationStateEnum';
-import { ClusterHadoopNode } from '../models/ClusterHadoopNode';
-import { ClusterHadoopRoleTypeEnum } from '../models/ClusterHadoopRoleTypeEnum';
-import { ServicesService } from '../models/ServicesService';
-import { ClusterHadoopHadoop } from '../models/ClusterHadoopHadoop';
 import { ClusterHadoopNodeConsumption } from '../models/ClusterHadoopNodeConsumption';
+import { ClusterHadoopNodeProfileEnum } from '../models/ClusterHadoopNodeProfileEnum';
+import { ClusterHadoopRoleTypeEnum } from '../models/ClusterHadoopRoleTypeEnum';
+import { ClusterHadoopClusterServiceNameEnum } from '../models/ClusterHadoopClusterServiceNameEnum';
+import { ClusterHadoopOperationStateEnum } from '../models/ClusterHadoopOperationStateEnum';
+import { ClusterHadoopUser } from '../models/ClusterHadoopUser';
+import { ServicesService } from '../models/ServicesService';
+import { ClusterHadoopNode } from '../models/ClusterHadoopNode';
+import { ClusterHadoopTask } from '../models/ClusterHadoopTask';
+import { ClusterHadoopHadoop } from '../models/ClusterHadoopHadoop';
 import OVHBase from '../ovh';
 
 class ClusterHadoopHandler {
@@ -25,7 +25,7 @@ class ClusterHadoopHandler {
   }
 
   /** List available services */
-  listHadoops = (): Promise<string[]> => {
+  listHadoop = (): Promise<string[]> => {
     return this.ovh.request('GET', '/cluster/hadoop');
   };
 

@@ -3,8 +3,8 @@
 import { NichandleAccessRestrictionSOTPStatusEnum } from './NichandleAccessRestrictionSOTPStatusEnum';
 
 export type NichandleAccessRestrictionSOTPAccount = {
-  creationDate: Date;
-  lastUsedDate: Date | null;
-  remaining: number;
-  status: NichandleAccessRestrictionSOTPStatusEnum;
+  creationDate?: Date;
+  lastUsedDate?: Date | null;
+  remaining?: number;
+  status?: NichandleAccessRestrictionSOTPStatusEnum;
 };

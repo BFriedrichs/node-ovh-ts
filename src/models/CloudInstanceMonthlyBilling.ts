@@ -3,6 +3,6 @@
 import { CloudInstanceMonthlyBillingStatusEnum } from './CloudInstanceMonthlyBillingStatusEnum';
 
 export type CloudInstanceMonthlyBilling = {
-  since: Date;
-  status: CloudInstanceMonthlyBillingStatusEnum;
+  since?: Date;
+  status?: CloudInstanceMonthlyBillingStatusEnum;
 };

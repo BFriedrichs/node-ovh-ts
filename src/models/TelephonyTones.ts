@@ -4,8 +4,8 @@ import { TelephonyTonesOnHoldEnum } from './TelephonyTonesOnHoldEnum';
 import { TelephonyTonesEnum } from './TelephonyTonesEnum';
 
 export type TelephonyTones = {
-  callWaiting: TelephonyTonesEnum;
-  endCall: TelephonyTonesEnum;
-  onHold: TelephonyTonesOnHoldEnum;
-  ringback: TelephonyTonesEnum;
+  callWaiting?: TelephonyTonesEnum;
+  endCall?: TelephonyTonesEnum;
+  onHold?: TelephonyTonesOnHoldEnum;
+  ringback?: TelephonyTonesEnum;
 };

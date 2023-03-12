@@ -3,12 +3,12 @@
 import { BillingFidelityAccountOperationEnum } from './BillingFidelityAccountOperationEnum';
 
 export type BillingFidelityMovement = {
-  amount: number;
-  balance: number;
-  date: Date;
-  description: string;
-  movementId: number;
-  operation: BillingFidelityAccountOperationEnum;
-  order: number;
-  previousBalance: number;
+  amount?: number;
+  balance?: number;
+  date?: Date;
+  description?: string;
+  movementId?: number;
+  operation?: BillingFidelityAccountOperationEnum;
+  order?: number;
+  previousBalance?: number;
 };

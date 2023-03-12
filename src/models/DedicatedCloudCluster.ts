@@ -5,12 +5,12 @@ import { DedicatedCloudClusterAutoScale } from './DedicatedCloudClusterAutoScale
 import { DedicatedCloudClusterClusterConfigsStatusEnum } from './DedicatedCloudClusterClusterConfigsStatusEnum';
 
 export type DedicatedCloudCluster = {
-  autoscale: DedicatedCloudClusterAutoScale | null;
-  drsMode: DedicatedCloudClusterClusterDrsModeEnum;
-  drsStatus: DedicatedCloudClusterClusterConfigsStatusEnum;
-  evcMode: string;
-  haStatus: DedicatedCloudClusterClusterConfigsStatusEnum;
-  id: number;
-  name: string;
-  vmwareClusterId: string;
+  autoscale?: DedicatedCloudClusterAutoScale | null;
+  drsMode?: DedicatedCloudClusterClusterDrsModeEnum;
+  drsStatus?: DedicatedCloudClusterClusterConfigsStatusEnum;
+  evcMode?: string;
+  haStatus?: DedicatedCloudClusterClusterConfigsStatusEnum;
+  id?: number;
+  name?: string;
+  vmwareClusterId?: string;
 };

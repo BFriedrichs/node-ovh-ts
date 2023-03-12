@@ -2,4 +2,4 @@
 
 import { StackStackTypeEnum } from './StackStackTypeEnum';
 
-export type StackMisProduct = { domain: string; type: StackStackTypeEnum };
+export type StackMisProduct = { domain?: string; type?: StackStackTypeEnum };

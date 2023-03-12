@@ -3,9 +3,9 @@
 import { IpBlockedIpStateEnum } from './IpBlockedIpStateEnum';
 
 export type IpBlockedIp = {
-  blockedSince: Date;
-  ipBlocked: string;
-  logs: string | null;
-  state: IpBlockedIpStateEnum;
-  time: number;
+  blockedSince?: Date;
+  ipBlocked?: string;
+  logs?: string | null;
+  state?: IpBlockedIpStateEnum;
+  time?: number;
 };

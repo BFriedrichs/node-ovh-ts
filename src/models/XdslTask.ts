@@ -3,9 +3,9 @@
 import { XdslTaskStatusEnum } from './XdslTaskStatusEnum';
 
 export type XdslTask = {
-  function: string;
-  id: number;
-  status: XdslTaskStatusEnum;
-  todoDate: Date;
-  updateDate: Date;
+  function?: string;
+  id?: number;
+  status?: XdslTaskStatusEnum;
+  todoDate?: Date;
+  updateDate?: Date;
 };

@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedInstallationTemplateHardwareRaid } from '../models/DedicatedInstallationTemplateHardwareRaid';
 import { DedicatedInstallationTemplateTemplatePartitions } from '../models/DedicatedInstallationTemplateTemplatePartitions';
+import { DedicatedInstallationTemplateTemplates } from '../models/DedicatedInstallationTemplateTemplates';
 import { DedicatedTemplateOsInfo } from '../models/DedicatedTemplateOsInfo';
 import { DedicatedInstallationTemplateTemplatePartitioningSchemes } from '../models/DedicatedInstallationTemplateTemplatePartitioningSchemes';
-import { DedicatedInstallationTemplateTemplates } from '../models/DedicatedInstallationTemplateTemplates';
+import { DedicatedInstallationTemplateHardwareRaid } from '../models/DedicatedInstallationTemplateHardwareRaid';
 import OVHBase from '../ovh';
 
 class DedicatedInstallationTemplateHandler {

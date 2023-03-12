@@ -4,8 +4,8 @@ import { DedicatedServerOptionRequiredEnum } from './DedicatedServerOptionRequir
 import { DedicatedServerUsbKeyCapacityEnum } from './DedicatedServerUsbKeyCapacityEnum';
 
 export type DedicatedServerUsbKeyOrderableDetails = {
-  capacity: DedicatedServerUsbKeyCapacityEnum[];
-  number: number;
-  optionRequired: DedicatedServerOptionRequiredEnum | null;
-  orderable: boolean;
+  capacity?: DedicatedServerUsbKeyCapacityEnum[];
+  number?: number;
+  optionRequired?: DedicatedServerOptionRequiredEnum | null;
+  orderable?: boolean;
 };

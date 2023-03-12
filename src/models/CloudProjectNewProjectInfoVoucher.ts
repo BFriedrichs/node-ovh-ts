@@ -3,6 +3,6 @@
 import { OrderPrice } from './OrderPrice';
 
 export type CloudProjectNewProjectInfoVoucher = {
-  credit: OrderPrice;
-  paymentMethodRequired: boolean;
+  credit?: OrderPrice;
+  paymentMethodRequired?: boolean;
 };

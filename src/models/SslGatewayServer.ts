@@ -3,8 +3,8 @@
 import { SslGatewayServerStateEnum } from './SslGatewayServerStateEnum';
 
 export type SslGatewayServer = {
-  address: string;
-  id: number;
-  port: number;
-  state: SslGatewayServerStateEnum;
+  address?: string;
+  id?: number;
+  port?: number;
+  state?: SslGatewayServerStateEnum;
 };

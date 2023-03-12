@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type ServicesTerminateConfirmServiceTerminationRequest = { token?: string };
+export type ServicesTerminateConfirmServiceTerminationRequest = { token: string };

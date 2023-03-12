@@ -3,6 +3,6 @@
 import { TelephonyCallDiagnosticCdrsBasic } from './TelephonyCallDiagnosticCdrsBasic';
 
 export type TelephonyCallDiagnosticCdrs = {
-  basic: TelephonyCallDiagnosticCdrsBasic;
-  timestamp: Date;
+  basic?: TelephonyCallDiagnosticCdrsBasic;
+  timestamp?: Date;
 };

@@ -3,8 +3,8 @@
 import { CloudKeymanagerSecretRef } from './CloudKeymanagerSecretRef';
 
 export type CloudKeymanagerCertificate = {
-  id: string;
-  name: string;
-  region: string;
-  secrets: CloudKeymanagerSecretRef[];
+  id?: string;
+  name?: string;
+  region?: string;
+  secrets?: CloudKeymanagerSecretRef[];
 };

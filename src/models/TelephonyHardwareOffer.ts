@@ -3,8 +3,8 @@
 import { OrderPrice } from './OrderPrice';
 
 export type TelephonyHardwareOffer = {
-  description: string | null;
-  name: string;
-  price: OrderPrice;
-  url: string | null;
+  description?: string | null;
+  name?: string;
+  price?: OrderPrice;
+  url?: string | null;
 };

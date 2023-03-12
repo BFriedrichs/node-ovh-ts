@@ -3,8 +3,8 @@
 import { DedicatedCephAclListResponseFamilyEnum } from './DedicatedCephAclListResponseFamilyEnum';
 
 export type DedicatedCephAclListResponse = {
-  family: DedicatedCephAclListResponseFamilyEnum;
-  id: number;
-  netmask: string;
-  network: string;
+  family?: DedicatedCephAclListResponseFamilyEnum;
+  id?: number;
+  netmask?: string;
+  network?: string;
 };

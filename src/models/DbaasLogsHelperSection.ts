@@ -2,4 +2,4 @@
 
 import { DbaasLogsHelperSectionNameEnum } from './DbaasLogsHelperSectionNameEnum';
 
-export type DbaasLogsHelperSection = { content: string; name: DbaasLogsHelperSectionNameEnum };
+export type DbaasLogsHelperSection = { content?: string; name?: DbaasLogsHelperSectionNameEnum };

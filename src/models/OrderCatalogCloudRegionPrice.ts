@@ -3,6 +3,6 @@
 import { OrderCatalogCloudRegionPricePrice } from './OrderCatalogCloudRegionPricePrice';
 
 export type OrderCatalogCloudRegionPrice = {
-  price: OrderCatalogCloudRegionPricePrice;
-  region: string;
+  price?: OrderCatalogCloudRegionPricePrice;
+  region?: string;
 };

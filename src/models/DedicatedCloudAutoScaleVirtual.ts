@@ -2,4 +2,4 @@
 
 import { DedicatedCloudOptionStateEnum } from './DedicatedCloudOptionStateEnum';
 
-export type DedicatedCloudAutoScaleVirtual = { state: DedicatedCloudOptionStateEnum };
+export type DedicatedCloudAutoScaleVirtual = { state?: DedicatedCloudOptionStateEnum };

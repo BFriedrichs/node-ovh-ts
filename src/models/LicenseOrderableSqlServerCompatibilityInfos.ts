@@ -2,4 +2,4 @@
 
 import { LicenseSqlServerVersionEnum } from './LicenseSqlServerVersionEnum';
 
-export type LicenseOrderableSqlServerCompatibilityInfos = { version: LicenseSqlServerVersionEnum };
+export type LicenseOrderableSqlServerCompatibilityInfos = { version?: LicenseSqlServerVersionEnum };

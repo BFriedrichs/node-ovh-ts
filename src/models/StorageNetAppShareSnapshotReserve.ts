@@ -3,6 +3,6 @@
 import { StorageNetAppShareSnapshotReserveStatusEnum } from './StorageNetAppShareSnapshotReserveStatusEnum';
 
 export type StorageNetAppShareSnapshotReserve = {
-  percent: number;
-  status: StorageNetAppShareSnapshotReserveStatusEnum;
+  percent?: number;
+  status?: StorageNetAppShareSnapshotReserveStatusEnum;
 };

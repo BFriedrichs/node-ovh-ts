@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type DomainExtensionsExtension = { name: string };
+export type DomainExtensionsExtension = { name?: string };

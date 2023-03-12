@@ -3,7 +3,7 @@
 import { SmsResponseTrackingMediaEnum } from './SmsResponseTrackingMediaEnum';
 
 export type SmsResponseTrackingOptions = {
-  media: SmsResponseTrackingMediaEnum;
-  sender: string;
-  target: string;
+  media?: SmsResponseTrackingMediaEnum;
+  sender?: string;
+  target?: string;
 };

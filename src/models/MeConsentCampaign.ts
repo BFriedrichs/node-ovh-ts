@@ -3,7 +3,7 @@
 import { MeConsentCampaignTypeEnum } from './MeConsentCampaignTypeEnum';
 
 export type MeConsentCampaign = {
-  description: string;
-  name: string;
-  type: MeConsentCampaignTypeEnum;
+  description?: string;
+  name?: string;
+  type?: MeConsentCampaignTypeEnum;
 };

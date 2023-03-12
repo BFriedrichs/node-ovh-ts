@@ -2,4 +2,4 @@
 
 import { DedicatedCloudOptionStateEnum } from './DedicatedCloudOptionStateEnum';
 
-export type DedicatedCloudHipaa = { state: DedicatedCloudOptionStateEnum };
+export type DedicatedCloudHipaa = { state?: DedicatedCloudOptionStateEnum };

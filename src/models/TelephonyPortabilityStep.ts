@@ -1,15 +1,15 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyPortabilityStepStatusEnum } from './TelephonyPortabilityStepStatusEnum';
 import { TelephonyPortabilityStepNameEnum } from './TelephonyPortabilityStepNameEnum';
-import { TelephonyPortabilityStepInfos } from './TelephonyPortabilityStepInfos';
+import { TelephonyPortabilityStepStatusEnum } from './TelephonyPortabilityStepStatusEnum';
 import { TelephonyPortabilityStepDuration } from './TelephonyPortabilityStepDuration';
+import { TelephonyPortabilityStepInfos } from './TelephonyPortabilityStepInfos';
 
 export type TelephonyPortabilityStep = {
-  description: string | null;
-  doneDate: Date | null;
-  duration: TelephonyPortabilityStepDuration;
-  infos: TelephonyPortabilityStepInfos | null;
-  name: TelephonyPortabilityStepNameEnum;
-  status: TelephonyPortabilityStepStatusEnum;
+  description?: string | null;
+  doneDate?: Date | null;
+  duration?: TelephonyPortabilityStepDuration;
+  infos?: TelephonyPortabilityStepInfos | null;
+  name?: TelephonyPortabilityStepNameEnum;
+  status?: TelephonyPortabilityStepStatusEnum;
 };

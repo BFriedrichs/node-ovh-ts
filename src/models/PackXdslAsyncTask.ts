@@ -3,7 +3,7 @@
 import { PackXdslAsyncTaskStatusEnum } from './PackXdslAsyncTaskStatusEnum';
 
 export type PackXdslAsyncTask = {
-  error: string | null;
-  result: any | null;
-  status: PackXdslAsyncTaskStatusEnum;
+  error?: string | null;
+  result?: any | null;
+  status?: PackXdslAsyncTaskStatusEnum;
 };

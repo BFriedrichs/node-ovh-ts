@@ -3,11 +3,11 @@
 import { HttpMethodEnum } from './HttpMethodEnum';
 
 export type ApiLog = {
-  account: string;
-  date: Date;
-  ip: string | null;
-  logId: number;
-  method: HttpMethodEnum;
-  path: string;
-  route: string;
+  account?: string;
+  date?: Date;
+  ip?: string | null;
+  logId?: number;
+  method?: HttpMethodEnum;
+  path?: string;
+  route?: string;
 };

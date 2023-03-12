@@ -2,4 +2,4 @@
 
 import { BillingItemDetailOrder } from './BillingItemDetailOrder';
 
-export type BillingItemDetail = { order: BillingItemDetailOrder };
+export type BillingItemDetail = { order?: BillingItemDetailOrder };

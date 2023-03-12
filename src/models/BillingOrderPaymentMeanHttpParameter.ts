@@ -3,7 +3,7 @@
 import { BillingOrderPaymentMeanHttpParameterChoice } from './BillingOrderPaymentMeanHttpParameterChoice';
 
 export type BillingOrderPaymentMeanHttpParameter = {
-  choice: BillingOrderPaymentMeanHttpParameterChoice[] | null;
-  name: string;
-  value: string | null;
+  choice?: BillingOrderPaymentMeanHttpParameterChoice[] | null;
+  name?: string;
+  value?: string | null;
 };

@@ -3,6 +3,6 @@
 import { DbaasLogsPermissionTypeEnum } from './DbaasLogsPermissionTypeEnum';
 
 export type DbaasLogsRolePermissionDashboardCreation = {
-  dashboardId?: string;
-  permissionType: DbaasLogsPermissionTypeEnum | null;
+  dashboardId: string;
+  permissionType?: DbaasLogsPermissionTypeEnum | null;
 };

@@ -2,4 +2,4 @@
 
 import { SmsAllowedIPsActionEnum } from './SmsAllowedIPsActionEnum';
 
-export type SmsAllowedIPs = { action?: SmsAllowedIPsActionEnum; ips?: string[] };
+export type SmsAllowedIPs = { action: SmsAllowedIPsActionEnum; ips: string[] };

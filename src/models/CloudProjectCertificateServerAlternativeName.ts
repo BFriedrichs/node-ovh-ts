@@ -3,6 +3,6 @@
 import { CloudProjectCertificateServerAlternativeNameKindEnum } from './CloudProjectCertificateServerAlternativeNameKindEnum';
 
 export type CloudProjectCertificateServerAlternativeName = {
-  kind: CloudProjectCertificateServerAlternativeNameKindEnum;
-  name: string;
+  kind?: CloudProjectCertificateServerAlternativeNameKindEnum;
+  name?: string;
 };

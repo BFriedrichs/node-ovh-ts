@@ -3,7 +3,7 @@
 import { HostingPrivateDatabaseGrantGrantEnum } from './HostingPrivateDatabaseGrantGrantEnum';
 
 export type HostingPrivateDatabaseDatabaseUser = {
-  grantId: number;
-  grantType: HostingPrivateDatabaseGrantGrantEnum;
-  userName: string;
+  grantId?: number;
+  grantType?: HostingPrivateDatabaseGrantGrantEnum;
+  userName?: string;
 };

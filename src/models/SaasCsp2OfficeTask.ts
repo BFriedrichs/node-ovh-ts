@@ -3,9 +3,9 @@
 import { SaasCsp2TaskStatusEnum } from './SaasCsp2TaskStatusEnum';
 
 export type SaasCsp2OfficeTask = {
-  finishDate: Date | null;
-  function: string;
-  id: number;
-  status: SaasCsp2TaskStatusEnum;
-  todoDate: Date;
+  finishDate?: Date | null;
+  function?: string;
+  id?: number;
+  status?: SaasCsp2TaskStatusEnum;
+  todoDate?: Date;
 };

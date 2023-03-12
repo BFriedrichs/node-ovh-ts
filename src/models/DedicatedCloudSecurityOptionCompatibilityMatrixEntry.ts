@@ -5,10 +5,10 @@ import { DedicatedCloudSecurityOptionStateEnum } from './DedicatedCloudSecurityO
 import { DedicatedCloudSecurityOptionErrorMessage } from './DedicatedCloudSecurityOptionErrorMessage';
 
 export type DedicatedCloudSecurityOptionCompatibilityMatrixEntry = {
-  compatible: boolean;
-  description: string;
-  enabled: boolean;
-  name: DedicatedCloudSecurityOptionSecurityOptionEnum;
-  reason: DedicatedCloudSecurityOptionErrorMessage | null;
-  state: DedicatedCloudSecurityOptionStateEnum;
+  compatible?: boolean;
+  description?: string;
+  enabled?: boolean;
+  name?: DedicatedCloudSecurityOptionSecurityOptionEnum;
+  reason?: DedicatedCloudSecurityOptionErrorMessage | null;
+  state?: DedicatedCloudSecurityOptionStateEnum;
 };

@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyTrunkSimultaneousPack } from './TelephonyTrunkSimultaneousPack';
 import { OrderPrice } from './OrderPrice';
+import { TelephonyTrunkSimultaneousPack } from './TelephonyTrunkSimultaneousPack';
 
 export type TelephonyTrunkSimultaneousPacksRepartition = {
-  optimizedChannelsQuantity: number;
-  packsRepartition: TelephonyTrunkSimultaneousPack[];
-  totalPrice: OrderPrice;
+  optimizedChannelsQuantity?: number;
+  packsRepartition?: TelephonyTrunkSimultaneousPack[];
+  totalPrice?: OrderPrice;
 };

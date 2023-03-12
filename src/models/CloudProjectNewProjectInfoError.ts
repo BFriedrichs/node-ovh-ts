@@ -3,6 +3,6 @@
 import { CloudProjectNewProjectInfoErrorCodeEnum } from './CloudProjectNewProjectInfoErrorCodeEnum';
 
 export type CloudProjectNewProjectInfoError = {
-  code: CloudProjectNewProjectInfoErrorCodeEnum;
-  message: string;
+  code?: CloudProjectNewProjectInfoErrorCodeEnum;
+  message?: string;
 };

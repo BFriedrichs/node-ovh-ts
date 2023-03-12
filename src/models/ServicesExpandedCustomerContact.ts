@@ -3,6 +3,6 @@
 import { ServicesExpandedCustomerContactTypeEnum } from './ServicesExpandedCustomerContactTypeEnum';
 
 export type ServicesExpandedCustomerContact = {
-  customerCode: string;
-  type: ServicesExpandedCustomerContactTypeEnum;
+  customerCode?: string;
+  type?: ServicesExpandedCustomerContactTypeEnum;
 };

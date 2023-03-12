@@ -2,4 +2,4 @@
 
 import { OvhcloudconnectMetricsValue } from './OvhcloudconnectMetricsValue';
 
-export type OvhcloudconnectMetrics = { timestamp: number; value: OvhcloudconnectMetricsValue };
+export type OvhcloudconnectMetrics = { timestamp?: number; value?: OvhcloudconnectMetricsValue };

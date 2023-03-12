@@ -4,9 +4,9 @@ import { TelephonyScreenListNatureEnum } from './TelephonyScreenListNatureEnum';
 import { TelephonyScreenListTypeEnum } from './TelephonyScreenListTypeEnum';
 
 export type TelephonyScreenList = {
-  callNumber: string;
-  id: number;
-  nature: TelephonyScreenListNatureEnum;
-  status: string;
-  type: TelephonyScreenListTypeEnum;
+  callNumber?: string;
+  id?: number;
+  nature?: TelephonyScreenListNatureEnum;
+  status?: string;
+  type?: TelephonyScreenListTypeEnum;
 };

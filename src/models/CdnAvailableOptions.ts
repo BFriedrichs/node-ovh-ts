@@ -4,8 +4,8 @@ import { CdnAvailableOptionsConfig } from './CdnAvailableOptionsConfig';
 import { CdnOptionCategoryEnum } from './CdnOptionCategoryEnum';
 
 export type CdnAvailableOptions = {
-  category: CdnOptionCategoryEnum | null;
-  config: CdnAvailableOptionsConfig | null;
-  maxItems: number;
-  type: string;
+  category?: CdnOptionCategoryEnum | null;
+  config?: CdnAvailableOptionsConfig | null;
+  maxItems?: number;
+  type?: string;
 };

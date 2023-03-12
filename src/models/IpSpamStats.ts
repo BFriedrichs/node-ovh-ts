@@ -3,9 +3,9 @@
 import { IpSpamTarget } from './IpSpamTarget';
 
 export type IpSpamStats = {
-  averageSpamscore: number | null;
-  detectedSpams: IpSpamTarget[] | null;
-  numberOfSpams: number;
-  timestamp: number;
-  total: number;
+  averageSpamscore?: number | null;
+  detectedSpams?: IpSpamTarget[] | null;
+  numberOfSpams?: number;
+  timestamp?: number;
+  total?: number;
 };

@@ -2,4 +2,4 @@
 
 import { HostingWebPhpVersionStateEnum } from './HostingWebPhpVersionStateEnum';
 
-export type HostingWebPhpVersion = { support: HostingWebPhpVersionStateEnum; version: string };
+export type HostingWebPhpVersion = { support?: HostingWebPhpVersionStateEnum; version?: string };

@@ -4,11 +4,11 @@ import { VpsIpServiceStatusService } from './VpsIpServiceStatusService';
 import { VpsIpServiceStatusStateEnum } from './VpsIpServiceStatusStateEnum';
 
 export type VpsIpServiceStatus = {
-  dns: VpsIpServiceStatusService;
-  http: VpsIpServiceStatusService;
-  https: VpsIpServiceStatusService;
-  ping: VpsIpServiceStatusStateEnum;
-  smtp: VpsIpServiceStatusService;
-  ssh: VpsIpServiceStatusService;
-  tools: VpsIpServiceStatusStateEnum | null;
+  dns?: VpsIpServiceStatusService;
+  http?: VpsIpServiceStatusService;
+  https?: VpsIpServiceStatusService;
+  ping?: VpsIpServiceStatusStateEnum;
+  smtp?: VpsIpServiceStatusService;
+  ssh?: VpsIpServiceStatusService;
+  tools?: VpsIpServiceStatusStateEnum | null;
 };

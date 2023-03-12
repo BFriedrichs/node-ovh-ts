@@ -2,12 +2,12 @@
 
 import { NutanixState } from '../models/NutanixState';
 import { NutanixCluster } from '../models/NutanixCluster';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { NutanixRequirements } from '../models/NutanixRequirements';
 import { NutanixAvailability } from '../models/NutanixAvailability';
 import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { NutanixRedundancyFactorEnum } from '../models/NutanixRedundancyFactorEnum';
 import { ServicesService } from '../models/ServicesService';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { NutanixRedundancyFactorEnum } from '../models/NutanixRedundancyFactorEnum';
+import { NutanixRequirements } from '../models/NutanixRequirements';
 import OVHBase from '../ovh';
 
 class NutanixHandler {

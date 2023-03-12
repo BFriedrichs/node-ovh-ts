@@ -2,4 +2,4 @@
 
 import { SmsSenderRefererEnum } from './SmsSenderRefererEnum';
 
-export type SmsSenderAvailable = { referer: SmsSenderRefererEnum; sender: string };
+export type SmsSenderAvailable = { referer?: SmsSenderRefererEnum; sender?: string };

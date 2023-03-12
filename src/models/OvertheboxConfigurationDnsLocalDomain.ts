@@ -4,8 +4,8 @@ import { OvertheboxConfigurationTypesDnsLocalDomain } from './OvertheboxConfigur
 import { OvertheboxConfigurationStatusEnum } from './OvertheboxConfigurationStatusEnum';
 
 export type OvertheboxConfigurationDnsLocalDomain = {
-  configuration: OvertheboxConfigurationTypesDnsLocalDomain;
-  id: string;
-  priority: number;
-  status: OvertheboxConfigurationStatusEnum;
+  configuration?: OvertheboxConfigurationTypesDnsLocalDomain;
+  id?: string;
+  priority?: number;
+  status?: OvertheboxConfigurationStatusEnum;
 };

@@ -3,5 +3,5 @@
 import { CloudProjectDatabasePostgresqlQuerystatisticsQuery } from './CloudProjectDatabasePostgresqlQuerystatisticsQuery';
 
 export type CloudProjectDatabasePostgresqlQueryStatistics = {
-  queries: CloudProjectDatabasePostgresqlQuerystatisticsQuery[];
+  queries?: CloudProjectDatabasePostgresqlQuerystatisticsQuery[];
 };

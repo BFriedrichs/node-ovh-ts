@@ -3,5 +3,5 @@
 import { DedicatedCloudResourceNewPricesEntry } from './DedicatedCloudResourceNewPricesEntry';
 
 export type DedicatedCloudResourceNewPrices = {
-  resources: DedicatedCloudResourceNewPricesEntry[] | null;
+  resources?: DedicatedCloudResourceNewPricesEntry[] | null;
 };

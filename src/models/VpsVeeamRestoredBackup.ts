@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { VpsVeeamStateEnum } from './VpsVeeamStateEnum';
 import { VpsVeeamInfos } from './VpsVeeamInfos';
+import { VpsVeeamStateEnum } from './VpsVeeamStateEnum';
 
 export type VpsVeeamRestoredBackup = {
-  accessInfos: VpsVeeamInfos;
-  restorePointId: number;
-  state: VpsVeeamStateEnum;
+  accessInfos?: VpsVeeamInfos;
+  restorePointId?: number;
+  state?: VpsVeeamStateEnum;
 };

@@ -3,6 +3,6 @@
 import { MsServicesSyncAccountLicense } from './MsServicesSyncAccountLicense';
 
 export type MsServicesSyncDailyLicense = {
-  accountLicense: MsServicesSyncAccountLicense[];
-  date: Date;
+  accountLicense?: MsServicesSyncAccountLicense[];
+  date?: Date;
 };

@@ -1,57 +1,57 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { IpLoadBalancingBackendProbeEnum } from '../models/IpLoadBalancingBackendProbeEnum';
-import { IpLoadBalancingTask } from '../models/IpLoadBalancingTask';
-import { IpLoadBalancingIpLoadBalancingPort } from '../models/IpLoadBalancingIpLoadBalancingPort';
-import { IpArpBlockedIp } from '../models/IpArpBlockedIp';
-import { IpBlockedIp } from '../models/IpBlockedIp';
-import { IpGameMitigationRuleProtocolEnum } from '../models/IpGameMitigationRuleProtocolEnum';
-import { IpMitigationStateEnum } from '../models/IpMitigationStateEnum';
+import { IpLoadBalancingZoneEnum } from '../models/IpLoadBalancingZoneEnum';
 import { IpCampus } from '../models/IpCampus';
+import { IpGameMitigationRule } from '../models/IpGameMitigationRule';
+import { ServicesService } from '../models/ServicesService';
+import { IpServiceIp } from '../models/IpServiceIp';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { IpMitigationStatsScaleEnum } from '../models/IpMitigationStatsScaleEnum';
+import { IpReverseIp } from '../models/IpReverseIp';
+import { IpSpamStats } from '../models/IpSpamStats';
+import { IpFirewallRuleStateEnum } from '../models/IpFirewallRuleStateEnum';
+import { IpLoadBalancingIpLoadBalancingPort } from '../models/IpLoadBalancingIpLoadBalancingPort';
+import { IpMitigationStateEnum } from '../models/IpMitigationStateEnum';
+import { IpFirewallSequenceRangeEnum } from '../models/IpFirewallSequenceRangeEnum';
+import { IpMitigationIp } from '../models/IpMitigationIp';
 import { IpIpVersionEnum } from '../models/IpIpVersionEnum';
+import { IpIpTypeEnum } from '../models/IpIpTypeEnum';
+import { IpFirewallNetworkRule } from '../models/IpFirewallNetworkRule';
+import { IpArpStateEnum } from '../models/IpArpStateEnum';
+import { IpMitigationProfile } from '../models/IpMitigationProfile';
+import { IpLoadBalancingIp } from '../models/IpLoadBalancingIp';
+import { IpMitigationStats } from '../models/IpMitigationStats';
 import { IpFirewallActionEnum } from '../models/IpFirewallActionEnum';
 import { IpDestinations } from '../models/IpDestinations';
-import { IpFirewallIp } from '../models/IpFirewallIp';
-import { IpMitigationDetailedStats } from '../models/IpMitigationDetailedStats';
-import { IpServiceIp } from '../models/IpServiceIp';
-import { IpLoadBalancingZoneEnum } from '../models/IpLoadBalancingZoneEnum';
-import { IpMitigationStats } from '../models/IpMitigationStats';
-import { IpMitigationProfileAutoMitigationTimeOutEnum } from '../models/IpMitigationProfileAutoMitigationTimeOutEnum';
-import { IpLoadBalancingBackendIp } from '../models/IpLoadBalancingBackendIp';
-import { IpSpamStateEnum } from '../models/IpSpamStateEnum';
-import { IpIpMigrationToken } from '../models/IpIpMigrationToken';
-import { IpIp } from '../models/IpIp';
-import { IpMitigationStatsScaleEnum } from '../models/IpMitigationStatsScaleEnum';
-import { IpFirewallStateEnum } from '../models/IpFirewallStateEnum';
-import { IpSpamIp } from '../models/IpSpamIp';
-import { IpReverseDelegation } from '../models/IpReverseDelegation';
-import { IpSpamStats } from '../models/IpSpamStats';
-import { IpFirewallProtocolEnum } from '../models/IpFirewallProtocolEnum';
-import { IpArpStateEnum } from '../models/IpArpStateEnum';
-import { IpIpTask } from '../models/IpIpTask';
-import { IpLoadBalancingStickinessEnum } from '../models/IpLoadBalancingStickinessEnum';
-import { IpGameMitigationRule } from '../models/IpGameMitigationRule';
-import { IpMitigationProfile } from '../models/IpMitigationProfile';
-import { IpFirewallOptionTCP } from '../models/IpFirewallOptionTCP';
-import { IpGameMitigation } from '../models/IpGameMitigation';
-import { IpAntiphishing } from '../models/IpAntiphishing';
-import { IpLoadbalancingTaskTask } from '../models/IpLoadbalancingTaskTask';
-import { IpReverseIp } from '../models/IpReverseIp';
-import { IpFirewallNetworkRule } from '../models/IpFirewallNetworkRule';
-import { IpAntiphishingStateEnum } from '../models/IpAntiphishingStateEnum';
 import { IpRipeInfos } from '../models/IpRipeInfos';
-import { IpBlockedIpStateEnum } from '../models/IpBlockedIpStateEnum';
-import { IpTaskStatusEnum } from '../models/IpTaskStatusEnum';
-import { ServicesService } from '../models/ServicesService';
-import { IpLoadBalancingAdditionalPortEnum } from '../models/IpLoadBalancingAdditionalPortEnum';
-import { IpLoadBalancingIp } from '../models/IpLoadBalancingIp';
-import { IpIpTypeEnum } from '../models/IpIpTypeEnum';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { IpFirewallRuleStateEnum } from '../models/IpFirewallRuleStateEnum';
-import { IpMitigationIp } from '../models/IpMitigationIp';
+import { IpSpamIp } from '../models/IpSpamIp';
+import { IpLoadBalancingBackendProbeEnum } from '../models/IpLoadBalancingBackendProbeEnum';
+import { IpLoadBalancingBackendIp } from '../models/IpLoadBalancingBackendIp';
+import { IpMitigationProfileAutoMitigationTimeOutEnum } from '../models/IpMitigationProfileAutoMitigationTimeOutEnum';
+import { IpSpamStateEnum } from '../models/IpSpamStateEnum';
+import { IpLoadBalancingStickinessEnum } from '../models/IpLoadBalancingStickinessEnum';
 import { IpTaskFunctionEnum } from '../models/IpTaskFunctionEnum';
-import { IpFirewallSequenceRangeEnum } from '../models/IpFirewallSequenceRangeEnum';
+import { IpIp } from '../models/IpIp';
+import { IpLoadBalancingAdditionalPortEnum } from '../models/IpLoadBalancingAdditionalPortEnum';
+import { IpGameMitigation } from '../models/IpGameMitigation';
+import { IpLoadBalancingTask } from '../models/IpLoadBalancingTask';
+import { IpIpMigrationToken } from '../models/IpIpMigrationToken';
+import { IpAntiphishing } from '../models/IpAntiphishing';
+import { IpAntiphishingStateEnum } from '../models/IpAntiphishingStateEnum';
+import { IpReverseDelegation } from '../models/IpReverseDelegation';
+import { IpFirewallIp } from '../models/IpFirewallIp';
+import { IpTaskStatusEnum } from '../models/IpTaskStatusEnum';
+import { IpMitigationDetailedStats } from '../models/IpMitigationDetailedStats';
 import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { IpLoadbalancingTaskTask } from '../models/IpLoadbalancingTaskTask';
+import { IpArpBlockedIp } from '../models/IpArpBlockedIp';
+import { IpGameMitigationRuleProtocolEnum } from '../models/IpGameMitigationRuleProtocolEnum';
+import { IpFirewallOptionTCP } from '../models/IpFirewallOptionTCP';
+import { IpBlockedIp } from '../models/IpBlockedIp';
+import { IpBlockedIpStateEnum } from '../models/IpBlockedIpStateEnum';
+import { IpFirewallProtocolEnum } from '../models/IpFirewallProtocolEnum';
+import { IpFirewallStateEnum } from '../models/IpFirewallStateEnum';
+import { IpIpTask } from '../models/IpIpTask';
 import OVHBase from '../ovh';
 
 class IpHandler {
@@ -72,7 +72,7 @@ class IpHandler {
   };
 
   /** List available services */
-  listLoadBalancings = (): Promise<string[]> => {
+  listLoadBalancing = (): Promise<string[]> => {
     return this.ovh.request('GET', '/ip/loadBalancing');
   };
 
@@ -254,7 +254,7 @@ class IpHandler {
   };
 
   /** List available services */
-  listServices = (): Promise<string[]> => {
+  listService = (): Promise<string[]> => {
     return this.ovh.request('GET', '/ip/service');
   };
 
@@ -638,7 +638,7 @@ class IpHandler {
   };
 
   /** List services available as a destination */
-  listMovesByIp = (ip: string): Promise<IpDestinations> => {
+  listMoveByIp = (ip: string): Promise<IpDestinations> => {
     return this.ovh.request('GET', `/ip/${ip}/move`);
   };
 

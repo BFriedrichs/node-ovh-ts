@@ -3,8 +3,8 @@
 import { OrderCatalogPublicProductBlobCommercialPriceDisplay } from './OrderCatalogPublicProductBlobCommercialPriceDisplay';
 
 export type OrderCatalogPublicProductBlobCommercialPrice = {
-  display: OrderCatalogPublicProductBlobCommercialPriceDisplay | null;
-  interval: string | null;
-  precision: number | null;
-  unit: string | null;
+  display?: OrderCatalogPublicProductBlobCommercialPriceDisplay | null;
+  interval?: string | null;
+  precision?: number | null;
+  unit?: string | null;
 };

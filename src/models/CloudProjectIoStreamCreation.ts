@@ -3,8 +3,8 @@
 import { CloudProjectIoStreamKindEnum } from './CloudProjectIoStreamKindEnum';
 
 export type CloudProjectIoStreamCreation = {
-  description?: string;
-  kind?: CloudProjectIoStreamKindEnum;
-  name?: string;
-  region?: string;
+  description: string;
+  kind: CloudProjectIoStreamKindEnum;
+  name: string;
+  region: string;
 };

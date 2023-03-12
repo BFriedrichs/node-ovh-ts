@@ -3,9 +3,9 @@
 import { DomainDomainPopActionEnum } from './DomainDomainPopActionEnum';
 
 export type EmailDomainTaskPop = {
-  action: DomainDomainPopActionEnum;
-  date: Date;
-  domain: string;
-  id: number;
-  name: string;
+  action?: DomainDomainPopActionEnum;
+  date?: Date;
+  domain?: string;
+  id?: number;
+  name?: string;
 };

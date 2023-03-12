@@ -3,5 +3,5 @@
 import { TelephonyLineNotificationsLogsOptions } from './TelephonyLineNotificationsLogsOptions';
 
 export type TelephonyLineNotificationsOptions = {
-  logs: TelephonyLineNotificationsLogsOptions | null;
+  logs?: TelephonyLineNotificationsLogsOptions | null;
 };

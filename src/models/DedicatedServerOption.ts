@@ -4,6 +4,6 @@ import { DedicatedServerOptionEnum } from './DedicatedServerOptionEnum';
 import { DedicatedServerOptionStateEnum } from './DedicatedServerOptionStateEnum';
 
 export type DedicatedServerOption = {
-  option: DedicatedServerOptionEnum;
-  state: DedicatedServerOptionStateEnum;
+  option?: DedicatedServerOptionEnum;
+  state?: DedicatedServerOptionStateEnum;
 };

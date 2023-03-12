@@ -2,4 +2,4 @@
 
 import { OrderCatalogPricing } from './OrderCatalogPricing';
 
-export type OrderCatalogPricingDefault = { default: OrderCatalogPricing[] };
+export type OrderCatalogPricingDefault = { default?: OrderCatalogPricing[] };

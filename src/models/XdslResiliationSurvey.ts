@@ -2,4 +2,4 @@
 
 import { XdslResiliationReasonEnum } from './XdslResiliationReasonEnum';
 
-export type XdslResiliationSurvey = { comment: string | null; type: XdslResiliationReasonEnum };
+export type XdslResiliationSurvey = { comment?: string | null; type?: XdslResiliationReasonEnum };

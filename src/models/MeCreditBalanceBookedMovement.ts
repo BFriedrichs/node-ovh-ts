@@ -3,7 +3,7 @@
 import { OrderPrice } from './OrderPrice';
 
 export type MeCreditBalanceBookedMovement = {
-  amount: OrderPrice;
-  balanceSubName: string | null;
-  orderId: number;
+  amount?: OrderPrice;
+  balanceSubName?: string | null;
+  orderId?: number;
 };

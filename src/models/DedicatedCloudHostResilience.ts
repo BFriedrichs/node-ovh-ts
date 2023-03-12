@@ -2,4 +2,4 @@
 
 import { DedicatedCloudOptionStateEnum } from './DedicatedCloudOptionStateEnum';
 
-export type DedicatedCloudHostResilience = { state: DedicatedCloudOptionStateEnum };
+export type DedicatedCloudHostResilience = { state?: DedicatedCloudOptionStateEnum };

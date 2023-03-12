@@ -3,8 +3,8 @@
 import { TelephonyTrunkExternalDisplayedNumberStatusEnum } from './TelephonyTrunkExternalDisplayedNumberStatusEnum';
 
 export type TelephonyTrunkExternalDisplayedNumber = {
-  createdAt: Date;
-  number: string;
-  status: TelephonyTrunkExternalDisplayedNumberStatusEnum;
-  validatedAt: Date | null;
+  createdAt?: Date;
+  number?: string;
+  status?: TelephonyTrunkExternalDisplayedNumberStatusEnum;
+  validatedAt?: Date | null;
 };

@@ -3,10 +3,10 @@
 import { OrderCatalogPccHostSpecifications } from './OrderCatalogPccHostSpecifications';
 
 export type OrderCatalogPccHost = {
-  name: string;
-  onInitialOrder: boolean;
-  onUpgradeOrder: boolean;
-  planCode: string;
-  specifications: OrderCatalogPccHostSpecifications;
-  storagesPack: string[] | null;
+  name?: string;
+  onInitialOrder?: boolean;
+  onUpgradeOrder?: boolean;
+  planCode?: string;
+  specifications?: OrderCatalogPccHostSpecifications;
+  storagesPack?: string[] | null;
 };

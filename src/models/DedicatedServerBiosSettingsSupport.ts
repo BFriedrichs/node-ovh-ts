@@ -3,6 +3,6 @@
 import { DedicatedServerBiosSettingsSupportSgxOptions } from './DedicatedServerBiosSettingsSupportSgxOptions';
 
 export type DedicatedServerBiosSettingsSupport = {
-  sgx: boolean;
-  sgxOptions: DedicatedServerBiosSettingsSupportSgxOptions;
+  sgx?: boolean;
+  sgxOptions?: DedicatedServerBiosSettingsSupportSgxOptions;
 };

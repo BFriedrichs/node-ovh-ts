@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectDataProcessingEngineVersion } from './CloudProjectDataProcessingEngineVersion';
 import { CloudProjectDataProcessingCapabilitiesNotebookTemplate } from './CloudProjectDataProcessingCapabilitiesNotebookTemplate';
+import { CloudProjectDataProcessingEngineVersion } from './CloudProjectDataProcessingEngineVersion';
 
 export type CloudProjectDataProcessingNotebookCapability = {
-  availableVersions: CloudProjectDataProcessingEngineVersion[];
-  name: string;
-  templates: CloudProjectDataProcessingCapabilitiesNotebookTemplate[];
+  availableVersions?: CloudProjectDataProcessingEngineVersion[];
+  name?: string;
+  templates?: CloudProjectDataProcessingCapabilitiesNotebookTemplate[];
 };

@@ -2,4 +2,4 @@
 
 import { CloudUsagePeriod } from './CloudUsagePeriod';
 
-export type CloudUsageUsageHistory = { id: string; lastUpdate: Date; period: CloudUsagePeriod };
+export type CloudUsageUsageHistory = { id?: string; lastUpdate?: Date; period?: CloudUsagePeriod };

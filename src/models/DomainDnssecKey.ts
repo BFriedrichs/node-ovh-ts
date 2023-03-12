@@ -5,10 +5,10 @@ import { DnssecKeyAlgorithmEnum } from './DnssecKeyAlgorithmEnum';
 import { DnssecKeyStatusEnum } from './DnssecKeyStatusEnum';
 
 export type DomainDnssecKey = {
-  algorithm: DnssecKeyAlgorithmEnum;
-  flags: DnssecKeyFlagEnum;
-  id: number;
-  publicKey: string;
-  status: DnssecKeyStatusEnum;
-  tag: number;
+  algorithm?: DnssecKeyAlgorithmEnum;
+  flags?: DnssecKeyFlagEnum;
+  id?: number;
+  publicKey?: string;
+  status?: DnssecKeyStatusEnum;
+  tag?: number;
 };

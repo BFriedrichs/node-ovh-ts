@@ -3,4 +3,4 @@
 import { XdslDeviceModemInfo } from './XdslDeviceModemInfo';
 import { XdslStatsModemInfo } from './XdslStatsModemInfo';
 
-export type XdslModemInfo = { device: XdslDeviceModemInfo; statistics: XdslStatsModemInfo };
+export type XdslModemInfo = { device?: XdslDeviceModemInfo; statistics?: XdslStatsModemInfo };

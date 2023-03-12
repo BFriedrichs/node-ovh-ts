@@ -2,4 +2,4 @@
 
 import { CloudStackContent } from './CloudStackContent';
 
-export type CloudStackStep = { content: CloudStackContent[]; title: string };
+export type CloudStackStep = { content?: CloudStackContent[]; title?: string };

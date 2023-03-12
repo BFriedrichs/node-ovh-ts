@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type CloudProjectDatabaseIpRestrictionCreation = { description: string; ip: string };
+export type CloudProjectDatabaseIpRestrictionCreation = { description?: string; ip?: string };

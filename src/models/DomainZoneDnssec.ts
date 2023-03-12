@@ -2,4 +2,4 @@
 
 import { DnssecDnssecStatusEnum } from './DnssecDnssecStatusEnum';
 
-export type DomainZoneDnssec = { status: DnssecDnssecStatusEnum };
+export type DomainZoneDnssec = { status?: DnssecDnssecStatusEnum };

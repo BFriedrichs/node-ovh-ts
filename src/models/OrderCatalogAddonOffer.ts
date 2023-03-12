@@ -3,9 +3,9 @@
 import { OrderCatalogProductPlan } from './OrderCatalogProductPlan';
 
 export type OrderCatalogAddonOffer = {
-  default: boolean | null;
-  invoiceName: string;
-  maximumQuantity: number | null;
-  minimumQuantity: number | null;
-  plan: OrderCatalogProductPlan;
+  default?: boolean | null;
+  invoiceName?: string;
+  maximumQuantity?: number | null;
+  minimumQuantity?: number | null;
+  plan?: OrderCatalogProductPlan;
 };

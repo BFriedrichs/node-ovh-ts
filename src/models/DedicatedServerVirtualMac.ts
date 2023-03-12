@@ -2,4 +2,4 @@
 
 import { DedicatedServerVmacTypeEnum } from './DedicatedServerVmacTypeEnum';
 
-export type DedicatedServerVirtualMac = { macAddress: string; type: DedicatedServerVmacTypeEnum };
+export type DedicatedServerVirtualMac = { macAddress?: string; type?: DedicatedServerVmacTypeEnum };

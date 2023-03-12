@@ -1,19 +1,19 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedAnthosUsage } from '../models/DedicatedAnthosUsage';
-import { DedicatedAnthosPrivateAddressRange } from '../models/DedicatedAnthosPrivateAddressRange';
 import { DedicatedAnthosPublicAddressRange } from '../models/DedicatedAnthosPublicAddressRange';
-import { DedicatedAnthosUpgradeAnthosRequest } from '../models/DedicatedAnthosUpgradeAnthosRequest';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { DedicatedAnthosVersionInfo } from '../models/DedicatedAnthosVersionInfo';
-import { DedicatedAnthosTenantAccess } from '../models/DedicatedAnthosTenantAccess';
-import { DedicatedAnthosCapabilities } from '../models/DedicatedAnthosCapabilities';
-import { DedicatedAnthosBaremetal } from '../models/DedicatedAnthosBaremetal';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { DedicatedAnthosIpRestrictionUpsert } from '../models/DedicatedAnthosIpRestrictionUpsert';
 import { DedicatedAnthosTenant } from '../models/DedicatedAnthosTenant';
+import { DedicatedAnthosTenantAccess } from '../models/DedicatedAnthosTenantAccess';
+import { DedicatedAnthosVersionInfo } from '../models/DedicatedAnthosVersionInfo';
+import { DedicatedAnthosBaremetal } from '../models/DedicatedAnthosBaremetal';
+import { DedicatedAnthosCapabilities } from '../models/DedicatedAnthosCapabilities';
+import { DedicatedAnthosUsage } from '../models/DedicatedAnthosUsage';
 import { DedicatedAnthosStorageVM } from '../models/DedicatedAnthosStorageVM';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { ServicesService } from '../models/ServicesService';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { DedicatedAnthosIpRestrictionUpsert } from '../models/DedicatedAnthosIpRestrictionUpsert';
+import { DedicatedAnthosPrivateAddressRange } from '../models/DedicatedAnthosPrivateAddressRange';
+import { DedicatedAnthosUpgradeAnthosRequest } from '../models/DedicatedAnthosUpgradeAnthosRequest';
 import OVHBase from '../ovh';
 
 class DedicatedAnthosHandler {
@@ -185,7 +185,7 @@ class DedicatedAnthosHandler {
   };
 
   /** List private IP ranges */
-  listAnthosTenantsIpsPrivatesByServiceName = (serviceName: string): Promise<string[]> => {
+  listAnthosTenantsIpsPrivateByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/anthos/tenants/${serviceName}/ips/private`);
   };
 
@@ -220,7 +220,7 @@ class DedicatedAnthosHandler {
   };
 
   /** List public IP ranges */
-  listAnthosTenantsIpsPublicsByServiceName = (serviceName: string): Promise<string[]> => {
+  listAnthosTenantsIpsPublicByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/anthos/tenants/${serviceName}/ips/public`);
   };
 

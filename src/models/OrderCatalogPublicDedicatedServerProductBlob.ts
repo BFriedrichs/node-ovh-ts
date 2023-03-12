@@ -3,5 +3,5 @@
 import { OrderCatalogPublicDedicatedServerProductBlobTechnical } from './OrderCatalogPublicDedicatedServerProductBlobTechnical';
 
 export type OrderCatalogPublicDedicatedServerProductBlob = {
-  technical: OrderCatalogPublicDedicatedServerProductBlobTechnical | null;
+  technical?: OrderCatalogPublicDedicatedServerProductBlobTechnical | null;
 };

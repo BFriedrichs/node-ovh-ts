@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type CloudQuotaVolumeQuota = { gigabytes: number; snapshots: number; volumes: number };
+export type CloudQuotaVolumeQuota = { gigabytes?: number; snapshots?: number; volumes?: number };

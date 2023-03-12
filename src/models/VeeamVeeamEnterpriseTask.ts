@@ -3,10 +3,10 @@
 import { VeeamEnterpriseTaskStateEnum } from './VeeamEnterpriseTaskStateEnum';
 
 export type VeeamVeeamEnterpriseTask = {
-  endDate: Date | null;
-  name: string;
-  progress: number;
-  startDate: Date | null;
-  state: VeeamEnterpriseTaskStateEnum;
-  taskId: number;
+  endDate?: Date | null;
+  name?: string;
+  progress?: number;
+  startDate?: Date | null;
+  state?: VeeamEnterpriseTaskStateEnum;
+  taskId?: number;
 };

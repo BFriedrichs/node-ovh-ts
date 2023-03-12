@@ -3,7 +3,7 @@
 import { OrderPrice } from './OrderPrice';
 
 export type TelephonyTrunkSimultaneousPack = {
-  channels: number;
-  quantity: number;
-  unitPrice: OrderPrice;
+  channels?: number;
+  quantity?: number;
+  unitPrice?: OrderPrice;
 };

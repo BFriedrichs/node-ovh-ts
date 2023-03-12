@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MarketPlacePartnerProduct } from '../models/MarketPlacePartnerProduct';
 import { MarketPlaceDocument } from '../models/MarketPlaceDocument';
-import { MarketPlaceContact } from '../models/MarketPlaceContact';
 import { MarketPlacePartner } from '../models/MarketPlacePartner';
+import { MarketPlacePartnerProduct } from '../models/MarketPlacePartnerProduct';
+import { MarketPlaceContact } from '../models/MarketPlaceContact';
 import OVHBase from '../ovh';
 
 class StoreHandler {
@@ -14,7 +14,7 @@ class StoreHandler {
   }
 
   /** List current customer contacts */
-  listContacts = (): Promise<MarketPlaceContact[]> => {
+  listContact = (): Promise<MarketPlaceContact[]> => {
     return this.ovh.request('GET', '/store/contact');
   };
 
@@ -64,7 +64,7 @@ class StoreHandler {
   };
 
   /** List document associated with contact */
-  listContactDocumentsByContactId = (contactId: string): Promise<string[]> => {
+  listContactDocumentByContactId = (contactId: string): Promise<string[]> => {
     return this.ovh.request('GET', `/store/contact/${contactId}/document`);
   };
 
@@ -85,7 +85,7 @@ class StoreHandler {
   };
 
   /** List current customer documents */
-  listDocuments = (): Promise<MarketPlaceDocument[]> => {
+  listDocument = (): Promise<MarketPlaceDocument[]> => {
     return this.ovh.request('GET', '/store/document');
   };
 
@@ -110,7 +110,7 @@ class StoreHandler {
   };
 
   /** List current customer partners */
-  listPartners = (): Promise<MarketPlacePartner[]> => {
+  listPartner = (): Promise<MarketPlacePartner[]> => {
     return this.ovh.request('GET', '/store/partner');
   };
 
@@ -172,7 +172,7 @@ class StoreHandler {
   };
 
   /** List document associated with partner */
-  listPartnerDocumentsByPartnerId = (partnerId: string): Promise<string[]> => {
+  listPartnerDocumentByPartnerId = (partnerId: string): Promise<string[]> => {
     return this.ovh.request('GET', `/store/partner/${partnerId}/document`);
   };
 
@@ -193,7 +193,7 @@ class StoreHandler {
   };
 
   /** List partner's products */
-  listPartnerProductsByPartnerId = (partnerId: string): Promise<MarketPlacePartnerProduct[]> => {
+  listPartnerProductByPartnerId = (partnerId: string): Promise<MarketPlacePartnerProduct[]> => {
     return this.ovh.request('GET', `/store/partner/${partnerId}/product`);
   };
 
@@ -231,7 +231,7 @@ class StoreHandler {
   };
 
   /** List document associated with product */
-  listPartnerProductDocumentsByPartnerIdAndProductId = (
+  listPartnerProductDocumentByPartnerIdAndProductId = (
     partnerId: string,
     productId: string
   ): Promise<string[]> => {

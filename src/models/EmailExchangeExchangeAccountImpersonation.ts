@@ -3,9 +3,9 @@
 import { EmailExchangeObjectStateEnum } from './EmailExchangeObjectStateEnum';
 
 export type EmailExchangeExchangeAccountImpersonation = {
-  creationDate: Date;
-  lastPasswordChange: Date | null;
-  state: EmailExchangeObjectStateEnum;
-  taskPendingId: number | null;
-  upn: string;
+  creationDate?: Date;
+  lastPasswordChange?: Date | null;
+  state?: EmailExchangeObjectStateEnum;
+  taskPendingId?: number | null;
+  upn?: string;
 };

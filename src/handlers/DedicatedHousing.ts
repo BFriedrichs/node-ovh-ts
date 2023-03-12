@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedHousingTaskFunctionEnum } from '../models/DedicatedHousingTaskFunctionEnum';
 import { DedicatedServerBackupFtp } from '../models/DedicatedServerBackupFtp';
 import { DedicatedHousingTask } from '../models/DedicatedHousingTask';
-import { DedicatedHousingHousing } from '../models/DedicatedHousingHousing';
-import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
-import { DedicatedHousingApcOrderable } from '../models/DedicatedHousingApcOrderable';
-import { ServicesService } from '../models/ServicesService';
 import { DedicatedServerBackupFtpAcl } from '../models/DedicatedServerBackupFtpAcl';
+import { DedicatedHousingApcOrderable } from '../models/DedicatedHousingApcOrderable';
+import { DedicatedHousingHousing } from '../models/DedicatedHousingHousing';
 import { DedicatedServerTask } from '../models/DedicatedServerTask';
+import { ServicesService } from '../models/ServicesService';
+import { DedicatedHousingTaskFunctionEnum } from '../models/DedicatedHousingTaskFunctionEnum';
+import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
 import OVHBase from '../ovh';
 
 class DedicatedHousingHandler {
@@ -19,7 +19,7 @@ class DedicatedHousingHandler {
   }
 
   /** List available services */
-  listHousings = (): Promise<string[]> => {
+  listHousing = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicated/housing');
   };
 

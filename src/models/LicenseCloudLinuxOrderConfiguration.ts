@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseLicenseTypeEnum } from './LicenseLicenseTypeEnum';
 import { LicenseOrderableCloudLinuxCompatibilityInfos } from './LicenseOrderableCloudLinuxCompatibilityInfos';
+import { LicenseLicenseTypeEnum } from './LicenseLicenseTypeEnum';
 
 export type LicenseCloudLinuxOrderConfiguration = {
-  orderableVersions: LicenseOrderableCloudLinuxCompatibilityInfos[];
-  serviceType: LicenseLicenseTypeEnum;
+  orderableVersions?: LicenseOrderableCloudLinuxCompatibilityInfos[];
+  serviceType?: LicenseLicenseTypeEnum;
 };

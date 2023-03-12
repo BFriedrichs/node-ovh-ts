@@ -3,6 +3,6 @@
 import { CloudProjectLoadbalancerActionRejectStatusCodeEnum } from './CloudProjectLoadbalancerActionRejectStatusCodeEnum';
 
 export type CloudProjectLoadbalancerActionReject = {
-  name?: string;
-  statusCode?: CloudProjectLoadbalancerActionRejectStatusCodeEnum;
+  name: string;
+  statusCode: CloudProjectLoadbalancerActionRejectStatusCodeEnum;
 };

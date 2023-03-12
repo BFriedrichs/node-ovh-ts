@@ -4,11 +4,11 @@ import { CloudProjectLoadbalancerNetworkingNetworkingCreation } from './CloudPro
 import { CloudProjectLoadbalancerSizeEnum } from './CloudProjectLoadbalancerSizeEnum';
 
 export type CloudProjectApplicationLoadBalancerCreation = {
-  description: string | null;
-  id: string;
-  name: string | null;
-  networking: CloudProjectLoadbalancerNetworkingNetworkingCreation | null;
-  openstackRegion: string;
-  region?: string;
-  size: CloudProjectLoadbalancerSizeEnum | null;
+  description?: string | null;
+  id?: string;
+  name?: string | null;
+  networking?: CloudProjectLoadbalancerNetworkingNetworkingCreation | null;
+  openstackRegion?: string;
+  region: string;
+  size?: CloudProjectLoadbalancerSizeEnum | null;
 };

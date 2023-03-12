@@ -1,28 +1,28 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { MsServicesLicensePeriodEnum } from '../models/MsServicesLicensePeriodEnum';
-import { MsServicesSyncDailyLicense } from '../models/MsServicesSyncDailyLicense';
-import { MsServicesSharepointTask } from '../models/MsServicesSharepointTask';
-import { MsServicesSharepointServiceInfo } from '../models/MsServicesSharepointServiceInfo';
-import { MsServicesSharepointLicenseEnum } from '../models/MsServicesSharepointLicenseEnum';
-import { MsServicesActiveDirectorySyncClientUrl } from '../models/MsServicesActiveDirectorySyncClientUrl';
-import { MsServicesTaskStatusEnum } from '../models/MsServicesTaskStatusEnum';
-import { MsServicesSyncLicenseEnum } from '../models/MsServicesSyncLicenseEnum';
-import { MsServicesSharepointDailyLicense } from '../models/MsServicesSharepointDailyLicense';
-import { MsServicesTaskFunctionEnum } from '../models/MsServicesTaskFunctionEnum';
-import { MsServicesSharepointService } from '../models/MsServicesSharepointService';
-import { MsServicesSharepointInformation } from '../models/MsServicesSharepointInformation';
-import { MsServicesExchangeService } from '../models/MsServicesExchangeService';
-import { MsServicesSyncService } from '../models/MsServicesSyncService';
-import { MsServicesAccount } from '../models/MsServicesAccount';
-import { MsServicesExchangeTask } from '../models/MsServicesExchangeTask';
-import { MsServicesMfaInformation } from '../models/MsServicesMfaInformation';
-import { ServicesService } from '../models/ServicesService';
-import { MsServicesUpnSuffix } from '../models/MsServicesUpnSuffix';
-import { MsServicesExchangeInformation } from '../models/MsServicesExchangeInformation';
 import { MsServicesTask } from '../models/MsServicesTask';
-import { MsServicesSyncInformation } from '../models/MsServicesSyncInformation';
 import { MsServicesActiveDirectoryOrganizationalUnit } from '../models/MsServicesActiveDirectoryOrganizationalUnit';
+import { MsServicesSyncDailyLicense } from '../models/MsServicesSyncDailyLicense';
+import { MsServicesTaskFunctionEnum } from '../models/MsServicesTaskFunctionEnum';
+import { ServicesService } from '../models/ServicesService';
+import { MsServicesExchangeService } from '../models/MsServicesExchangeService';
+import { MsServicesTaskStatusEnum } from '../models/MsServicesTaskStatusEnum';
+import { MsServicesSharepointDailyLicense } from '../models/MsServicesSharepointDailyLicense';
+import { MsServicesAccount } from '../models/MsServicesAccount';
+import { MsServicesSharepointServiceInfo } from '../models/MsServicesSharepointServiceInfo';
+import { MsServicesSharepointService } from '../models/MsServicesSharepointService';
+import { MsServicesSharepointTask } from '../models/MsServicesSharepointTask';
+import { MsServicesExchangeInformation } from '../models/MsServicesExchangeInformation';
+import { MsServicesSharepointInformation } from '../models/MsServicesSharepointInformation';
+import { MsServicesSyncInformation } from '../models/MsServicesSyncInformation';
+import { MsServicesSharepointLicenseEnum } from '../models/MsServicesSharepointLicenseEnum';
+import { MsServicesSyncLicenseEnum } from '../models/MsServicesSyncLicenseEnum';
+import { MsServicesActiveDirectorySyncClientUrl } from '../models/MsServicesActiveDirectorySyncClientUrl';
+import { MsServicesUpnSuffix } from '../models/MsServicesUpnSuffix';
+import { MsServicesMfaInformation } from '../models/MsServicesMfaInformation';
+import { MsServicesSyncService } from '../models/MsServicesSyncService';
+import { MsServicesExchangeTask } from '../models/MsServicesExchangeTask';
 import OVHBase from '../ovh';
 
 class MsServicesHandler {
@@ -33,12 +33,12 @@ class MsServicesHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/msServices');
   };
 
   /** List available services */
-  listSharepoints = (): Promise<string[]> => {
+  listSharepoint = (): Promise<string[]> => {
     return this.ovh.request('GET', '/msServices/sharepoint');
   };
 

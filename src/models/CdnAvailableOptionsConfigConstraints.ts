@@ -3,9 +3,9 @@
 import { CdnOptionConfigParamTypeEnum } from './CdnOptionConfigParamTypeEnum';
 
 export type CdnAvailableOptionsConfigConstraints = {
-  length: number | null;
-  maximum: number | null;
-  message: string | null;
-  minimum: number | null;
-  type: CdnOptionConfigParamTypeEnum | null;
+  length?: number | null;
+  maximum?: number | null;
+  message?: string | null;
+  minimum?: number | null;
+  type?: CdnOptionConfigParamTypeEnum | null;
 };

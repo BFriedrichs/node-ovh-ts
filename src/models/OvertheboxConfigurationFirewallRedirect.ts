@@ -4,8 +4,8 @@ import { OvertheboxConfigurationTypesFirewallRedirect } from './OvertheboxConfig
 import { OvertheboxConfigurationStatusEnum } from './OvertheboxConfigurationStatusEnum';
 
 export type OvertheboxConfigurationFirewallRedirect = {
-  configuration: OvertheboxConfigurationTypesFirewallRedirect;
-  id: string;
-  priority: number;
-  status: OvertheboxConfigurationStatusEnum;
+  configuration?: OvertheboxConfigurationTypesFirewallRedirect;
+  id?: string;
+  priority?: number;
+  status?: OvertheboxConfigurationStatusEnum;
 };

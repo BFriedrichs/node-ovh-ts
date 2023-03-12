@@ -3,4 +3,4 @@
 import { CloudRoleService } from './CloudRoleService';
 import { CloudRoleRole } from './CloudRoleRole';
 
-export type CloudRoleRoles = { roles: CloudRoleRole[]; services: CloudRoleService[] };
+export type CloudRoleRoles = { roles?: CloudRoleRole[]; services?: CloudRoleService[] };

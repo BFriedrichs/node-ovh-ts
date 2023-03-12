@@ -4,6 +4,6 @@ import { CloudProjectAiAppScalingFixedStrategy } from './CloudProjectAiAppScalin
 import { CloudProjectAiAppScalingAutomaticStrategy } from './CloudProjectAiAppScalingAutomaticStrategy';
 
 export type CloudProjectAiAppScalingStrategy = {
-  automatic: CloudProjectAiAppScalingAutomaticStrategy | null;
-  fixed: CloudProjectAiAppScalingFixedStrategy | null;
+  automatic?: CloudProjectAiAppScalingAutomaticStrategy | null;
+  fixed?: CloudProjectAiAppScalingFixedStrategy | null;
 };

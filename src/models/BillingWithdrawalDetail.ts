@@ -3,10 +3,10 @@
 import { OrderPrice } from './OrderPrice';
 
 export type BillingWithdrawalDetail = {
-  description: string;
-  domain: string;
-  quantity: string;
-  totalPrice: OrderPrice;
-  unitPrice: OrderPrice;
-  withdrawalDetailId: string;
+  description?: string;
+  domain?: string;
+  quantity?: string;
+  totalPrice?: OrderPrice;
+  unitPrice?: OrderPrice;
+  withdrawalDetailId?: string;
 };

@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseOfficeOfficeDomain } from '../models/LicenseOfficeOfficeDomain';
 import { LicenseOfficeOfficeTenant } from '../models/LicenseOfficeOfficeTenant';
-import { CoreTypesCountryEnum } from '../models/CoreTypesCountryEnum';
 import { LicenseOfficeStatistics } from '../models/LicenseOfficeStatistics';
+import { LicenseOfficeOfficeUser } from '../models/LicenseOfficeOfficeUser';
+import { CoreTypesCountryEnum } from '../models/CoreTypesCountryEnum';
+import { ServicesService } from '../models/ServicesService';
 import { LicenseOfficeLicenceEnum } from '../models/LicenseOfficeLicenceEnum';
 import { LicenseOfficeOfficeTask } from '../models/LicenseOfficeOfficeTask';
-import { LicenseOfficeOfficeUser } from '../models/LicenseOfficeOfficeUser';
-import { ServicesService } from '../models/ServicesService';
+import { LicenseOfficeOfficeDomain } from '../models/LicenseOfficeOfficeDomain';
 import OVHBase from '../ovh';
 
 class LicenseOfficeHandler {
@@ -18,7 +18,7 @@ class LicenseOfficeHandler {
   }
 
   /** List available services */
-  listOffices = (): Promise<string[]> => {
+  listOffice = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/office');
   };
 

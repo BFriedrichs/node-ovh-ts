@@ -2,4 +2,4 @@
 
 import { CloudFlavorCapabilityNameEnum } from './CloudFlavorCapabilityNameEnum';
 
-export type CloudFlavorCapability = { enabled: boolean; name: CloudFlavorCapabilityNameEnum };
+export type CloudFlavorCapability = { enabled?: boolean; name?: CloudFlavorCapabilityNameEnum };

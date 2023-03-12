@@ -3,6 +3,6 @@
 import { ComplexTypeChartTimestampValue } from './ComplexTypeChartTimestampValue';
 
 export type ComplexTypeChartReturn = {
-  unit: string | null;
-  values: ComplexTypeChartTimestampValue[] | null;
+  unit?: string | null;
+  values?: ComplexTypeChartTimestampValue[] | null;
 };

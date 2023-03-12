@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type OrderCatalogDedicatedMetadataPrice = { max: number; min: number };
+export type OrderCatalogDedicatedMetadataPrice = { max?: number; min?: number };

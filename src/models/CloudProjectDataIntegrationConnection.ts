@@ -3,6 +3,6 @@
 import { CloudProjectDataIntegrationConnectionStatusEnum } from './CloudProjectDataIntegrationConnectionStatusEnum';
 
 export type CloudProjectDataIntegrationConnection = {
-  date: Date | null;
-  status: CloudProjectDataIntegrationConnectionStatusEnum;
+  date?: Date | null;
+  status?: CloudProjectDataIntegrationConnectionStatusEnum;
 };

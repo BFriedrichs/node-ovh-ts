@@ -1,40 +1,40 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DomainDomainUsageAccountStruct } from '../models/DomainDomainUsageAccountStruct';
 import { EmailDomainTaskFilter } from '../models/EmailDomainTaskFilter';
-import { EmailDomainMigrationService } from '../models/EmailDomainMigrationService';
-import { EmailDomainTaskSpecialAccount } from '../models/EmailDomainTaskSpecialAccount';
-import { EmailDomainAccountDelegated } from '../models/EmailDomainAccountDelegated';
-import { EmailDomainMigrationCheckStruct } from '../models/EmailDomainMigrationCheckStruct';
-import { EmailDomainRedirectionChangeRedirectionCreation } from '../models/EmailDomainRedirectionChangeRedirectionCreation';
-import { EmailDomainTaskPop } from '../models/EmailDomainTaskPop';
-import { EmailDomainFilter } from '../models/EmailDomainFilter';
-import { EmailDomainResponderAccount } from '../models/EmailDomainResponderAccount';
-import { EmailDomainModerator } from '../models/EmailDomainModerator';
-import { DomainDomainMlOptionsStruct } from '../models/DomainDomainMlOptionsStruct';
-import { EmailDomainSubscriber } from '../models/EmailDomainSubscriber';
-import { EmailDomainAccount } from '../models/EmailDomainAccount';
-import { EmailDomainMigrationAccount } from '../models/EmailDomainMigrationAccount';
-import { EmailDomainRule } from '../models/EmailDomainRule';
-import { EmailDomainDelegation } from '../models/EmailDomainDelegation';
+import { EmailDomainAcl } from '../models/EmailDomainAcl';
 import { EmailDomainDomainService } from '../models/EmailDomainDomainService';
-import { EmailDomainMigrationServiceType } from '../models/EmailDomainMigrationServiceType';
-import { EmailDomainTaskMl } from '../models/EmailDomainTaskMl';
-import { EmailDomainRedirectionGlobal } from '../models/EmailDomainRedirectionGlobal';
-import { DomainDomainMlLimits } from '../models/DomainDomainMlLimits';
+import { DomainDomainFilterActionEnum } from '../models/DomainDomainFilterActionEnum';
+import { EmailDomainRedirectionChangeRedirectionCreation } from '../models/EmailDomainRedirectionChangeRedirectionCreation';
 import { EmailDomainRedirectionCreation } from '../models/EmailDomainRedirectionCreation';
+import { EmailDomainMigrationService } from '../models/EmailDomainMigrationService';
+import { EmailDomainMigrationAccount } from '../models/EmailDomainMigrationAccount';
+import { ServicesService } from '../models/ServicesService';
+import { DomainDomainMXFilterEnum } from '../models/DomainDomainMXFilterEnum';
+import { EmailDomainTaskSpecialAccount } from '../models/EmailDomainTaskSpecialAccount';
+import { EmailDomainModerator } from '../models/EmailDomainModerator';
 import { DomainDomainSummary } from '../models/DomainDomainSummary';
 import { DomainZoneRecord } from '../models/DomainZoneRecord';
-import { DomainDomainMlLanguageEnum } from '../models/DomainDomainMlLanguageEnum';
-import { ServicesService } from '../models/ServicesService';
-import { DomainDomainFilterActionEnum } from '../models/DomainDomainFilterActionEnum';
-import { EmailDomainAcl } from '../models/EmailDomainAcl';
-import { DomainDomainMXFilterEnum } from '../models/DomainDomainMXFilterEnum';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { EmailDomainAccountDelegated } from '../models/EmailDomainAccountDelegated';
 import { DomainDomainFilterOperandEnum } from '../models/DomainDomainFilterOperandEnum';
-import { EmailDomainResponder } from '../models/EmailDomainResponder';
+import { EmailDomainFilter } from '../models/EmailDomainFilter';
+import { EmailDomainRedirectionGlobal } from '../models/EmailDomainRedirectionGlobal';
+import { DomainDomainMlOptionsStruct } from '../models/DomainDomainMlOptionsStruct';
+import { DomainDomainMlLanguageEnum } from '../models/DomainDomainMlLanguageEnum';
+import { EmailDomainMigrationCheckStruct } from '../models/EmailDomainMigrationCheckStruct';
+import { DomainDomainUsageAccountStruct } from '../models/DomainDomainUsageAccountStruct';
 import { EmailDomainMailingList } from '../models/EmailDomainMailingList';
+import { EmailDomainResponderAccount } from '../models/EmailDomainResponderAccount';
 import { DomainDomainQuota } from '../models/DomainDomainQuota';
+import { EmailDomainAccount } from '../models/EmailDomainAccount';
+import { EmailDomainMigrationServiceType } from '../models/EmailDomainMigrationServiceType';
+import { EmailDomainSubscriber } from '../models/EmailDomainSubscriber';
+import { EmailDomainTaskMl } from '../models/EmailDomainTaskMl';
+import { EmailDomainRule } from '../models/EmailDomainRule';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { EmailDomainResponder } from '../models/EmailDomainResponder';
+import { DomainDomainMlLimits } from '../models/DomainDomainMlLimits';
+import { EmailDomainDelegation } from '../models/EmailDomainDelegation';
+import { EmailDomainTaskPop } from '../models/EmailDomainTaskPop';
 import OVHBase from '../ovh';
 
 class EmailDomainHandler {
@@ -45,7 +45,7 @@ class EmailDomainHandler {
   }
 
   /** List available services */
-  listDomains = (): Promise<string[]> => {
+  listDomain = (): Promise<string[]> => {
     return this.ovh.request('GET', '/email/domain');
   };
 
@@ -669,10 +669,7 @@ class EmailDomainHandler {
   };
 
   /** List of moderators */
-  listDomainMailingModeratorsByDomainAndName = (
-    domain: string,
-    name: string
-  ): Promise<string[]> => {
+  listDomainMailingModeratorByDomainAndName = (domain: string, name: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/mailingList/${name}/moderator`);
   };
 
@@ -723,7 +720,7 @@ class EmailDomainHandler {
   };
 
   /** List of subscribers */
-  listDomainMailingSubscribersByDomainAndName = (
+  listDomainMailingSubscriberByDomainAndName = (
     domain: string,
     name: string
   ): Promise<string[]> => {
@@ -769,7 +766,7 @@ class EmailDomainHandler {
   };
 
   /** List all quotas for this domain */
-  listDomainQuotasByDomain = (domain: string): Promise<DomainDomainQuota> => {
+  listDomainQuotaByDomain = (domain: string): Promise<DomainDomainQuota> => {
     return this.ovh.request('GET', `/email/domain/${domain}/quota`);
   };
 

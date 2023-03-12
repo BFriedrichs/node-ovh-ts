@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DeskaasDeskaas } from '../models/DeskaasDeskaas';
-import { DeskaasUser } from '../models/DeskaasUser';
-import { DeskaasTask } from '../models/DeskaasTask';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { DeskaasTaskStateEnum } from '../models/DeskaasTaskStateEnum';
 import { DeskaasPasswordPolicy } from '../models/DeskaasPasswordPolicy';
 import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { ServicesService } from '../models/ServicesService';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { DeskaasUser } from '../models/DeskaasUser';
+import { DeskaasTask } from '../models/DeskaasTask';
+import { DeskaasDeskaas } from '../models/DeskaasDeskaas';
 import OVHBase from '../ovh';
 
 class DeskaasHandler {
@@ -18,7 +18,7 @@ class DeskaasHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/deskaas');
   };
 

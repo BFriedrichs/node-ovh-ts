@@ -3,4 +3,4 @@
 import { WebPaaSTemplate } from './WebPaaSTemplate';
 import { WebPaaSRegionEnum } from './WebPaaSRegionEnum';
 
-export type WebPaaSCapabilities = { regions: WebPaaSRegionEnum[]; templates: WebPaaSTemplate[] };
+export type WebPaaSCapabilities = { regions?: WebPaaSRegionEnum[]; templates?: WebPaaSTemplate[] };

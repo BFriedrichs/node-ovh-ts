@@ -3,10 +3,10 @@
 import { CloudProjectDataProcessingParameterValidator } from './CloudProjectDataProcessingParameterValidator';
 
 export type CloudProjectDataProcessingCapabilitiesEngineParameter = {
-  default: string | null;
-  description: string;
-  mandatory: boolean;
-  name: string;
-  type: string;
-  validator: CloudProjectDataProcessingParameterValidator;
+  default?: string | null;
+  description?: string;
+  mandatory?: boolean;
+  name?: string;
+  type?: string;
+  validator?: CloudProjectDataProcessingParameterValidator;
 };

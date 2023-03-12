@@ -3,13 +3,13 @@
 import { OrderPrice } from './OrderPrice';
 
 export type BillingReverseBill = {
-  date: Date;
-  orderId: number;
-  password: string;
-  pdfUrl: string;
-  priceWithTax: OrderPrice;
-  priceWithoutTax: OrderPrice;
-  reverseBillId: string;
-  tax: OrderPrice;
-  url: string;
+  date?: Date;
+  orderId?: number;
+  password?: string;
+  pdfUrl?: string;
+  priceWithTax?: OrderPrice;
+  priceWithoutTax?: OrderPrice;
+  reverseBillId?: string;
+  tax?: OrderPrice;
+  url?: string;
 };

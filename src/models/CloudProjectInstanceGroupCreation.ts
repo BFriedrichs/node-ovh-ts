@@ -3,7 +3,7 @@
 import { CloudInstancegroupInstanceGroupTypeEnum } from './CloudInstancegroupInstanceGroupTypeEnum';
 
 export type CloudProjectInstanceGroupCreation = {
-  name?: string;
-  region?: string;
-  type?: CloudInstancegroupInstanceGroupTypeEnum;
+  name: string;
+  region: string;
+  type: CloudInstancegroupInstanceGroupTypeEnum;
 };

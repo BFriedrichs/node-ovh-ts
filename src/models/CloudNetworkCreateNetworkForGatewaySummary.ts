@@ -3,7 +3,7 @@
 import { CloudNetworkCreateSubnetForGatewaySummary } from './CloudNetworkCreateSubnetForGatewaySummary';
 
 export type CloudNetworkCreateNetworkForGatewaySummary = {
-  name?: string;
-  subnet?: CloudNetworkCreateSubnetForGatewaySummary;
-  vlanId: number;
+  name: string;
+  subnet: CloudNetworkCreateSubnetForGatewaySummary;
+  vlanId?: number;
 };

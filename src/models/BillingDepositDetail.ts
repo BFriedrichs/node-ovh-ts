@@ -3,10 +3,10 @@
 import { OrderPrice } from './OrderPrice';
 
 export type BillingDepositDetail = {
-  depositDetailId: string;
-  description: string;
-  domain: string;
-  quantity: string;
-  totalPrice: OrderPrice;
-  unitPrice: OrderPrice;
+  depositDetailId?: string;
+  description?: string;
+  domain?: string;
+  quantity?: string;
+  totalPrice?: OrderPrice;
+  unitPrice?: OrderPrice;
 };

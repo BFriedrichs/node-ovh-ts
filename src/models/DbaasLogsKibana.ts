@@ -3,11 +3,11 @@
 import { DbaasLogsDeliveryStatusEnum } from './DbaasLogsDeliveryStatusEnum';
 
 export type DbaasLogsKibana = {
-  createdAt: Date;
-  deliveryStatus: DbaasLogsDeliveryStatusEnum;
-  description: string;
-  isEditable: boolean;
-  kibanaId: string;
-  name: string;
-  updatedAt: Date | null;
+  createdAt?: Date;
+  deliveryStatus?: DbaasLogsDeliveryStatusEnum;
+  description?: string;
+  isEditable?: boolean;
+  kibanaId?: string;
+  name?: string;
+  updatedAt?: Date | null;
 };

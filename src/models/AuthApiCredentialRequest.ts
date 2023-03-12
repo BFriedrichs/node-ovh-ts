@@ -3,7 +3,7 @@
 import { AuthCredentialStateEnum } from './AuthCredentialStateEnum';
 
 export type AuthApiCredentialRequest = {
-  consumerKey: string;
-  state: AuthCredentialStateEnum;
-  validationUrl: string;
+  consumerKey?: string;
+  state?: AuthCredentialStateEnum;
+  validationUrl?: string;
 };

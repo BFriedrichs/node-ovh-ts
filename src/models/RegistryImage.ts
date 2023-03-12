@@ -3,10 +3,10 @@
 import { RegistryImageStatus } from './RegistryImageStatus';
 
 export type RegistryImage = {
-  createdAt: Date;
-  id: string;
-  name: string;
-  public: boolean;
-  status: RegistryImageStatus;
-  updatedAt: Date;
+  createdAt?: Date;
+  id?: string;
+  name?: string;
+  public?: boolean;
+  status?: RegistryImageStatus;
+  updatedAt?: Date;
 };

@@ -3,9 +3,9 @@
 import { CloudProjectAiServingTokenGroupEnum } from './CloudProjectAiServingTokenGroupEnum';
 
 export type CloudProjectAiServingToken = {
-  createdAt: Date;
-  groups?: CloudProjectAiServingTokenGroupEnum[];
-  id: string;
-  resource?: string;
-  token: string | null;
+  createdAt?: Date;
+  groups: CloudProjectAiServingTokenGroupEnum[];
+  id?: string;
+  resource: string;
+  token?: string | null;
 };

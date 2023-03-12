@@ -4,12 +4,12 @@ import { DedicatedCloudVirtualDeviceConnectInfoStatus } from './DedicatedCloudVi
 import { DedicatedCloudVmNetworkBacking } from './DedicatedCloudVmNetworkBacking';
 
 export type DedicatedCloudVmNetwork = {
-  allowGuestControl: boolean;
-  backing: DedicatedCloudVmNetworkBacking;
-  connected: boolean;
-  controler: string;
-  label: string;
-  macAddress: string;
-  startConnected: boolean;
-  status: DedicatedCloudVirtualDeviceConnectInfoStatus;
+  allowGuestControl?: boolean;
+  backing?: DedicatedCloudVmNetworkBacking;
+  connected?: boolean;
+  controler?: string;
+  label?: string;
+  macAddress?: string;
+  startConnected?: boolean;
+  status?: DedicatedCloudVirtualDeviceConnectInfoStatus;
 };

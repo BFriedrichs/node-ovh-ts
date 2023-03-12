@@ -4,9 +4,9 @@ import { TelephonyTypeEnum } from './TelephonyTypeEnum';
 import { TelephonyTypeServiceEnum } from './TelephonyTypeServiceEnum';
 
 export type TelephonyRedirect = {
-  description: string;
-  destination: string | null;
-  featureType: TelephonyTypeEnum;
-  serviceName: string;
-  serviceType: TelephonyTypeServiceEnum;
+  description?: string;
+  destination?: string | null;
+  featureType?: TelephonyTypeEnum;
+  serviceName?: string;
+  serviceType?: TelephonyTypeServiceEnum;
 };

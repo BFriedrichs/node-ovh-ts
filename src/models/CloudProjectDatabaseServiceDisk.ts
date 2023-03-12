@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type CloudProjectDatabaseServiceDisk = { size: number; type: string };
+export type CloudProjectDatabaseServiceDisk = { size?: number; type?: string };

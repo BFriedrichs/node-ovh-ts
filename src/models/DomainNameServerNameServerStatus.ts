@@ -4,7 +4,7 @@ import { DomainNameServerNameServerTypeEnum } from './DomainNameServerNameServer
 import { DomainNameServerNameServerStateEnum } from './DomainNameServerNameServerStateEnum';
 
 export type DomainNameServerNameServerStatus = {
-  state: DomainNameServerNameServerStateEnum;
-  type: DomainNameServerNameServerTypeEnum;
-  usedSince: Date | null;
+  state?: DomainNameServerNameServerStateEnum;
+  type?: DomainNameServerNameServerTypeEnum;
+  usedSince?: Date | null;
 };

@@ -3,10 +3,10 @@
 import { HostingWebMailStateEnum } from './HostingWebMailStateEnum';
 
 export type HostingWebEmail = {
-  bounce: number;
-  email: string | null;
-  maxPerDay: number;
-  sent: number;
-  sentToday: number;
-  state: HostingWebMailStateEnum;
+  bounce?: number;
+  email?: string | null;
+  maxPerDay?: number;
+  sent?: number;
+  sentToday?: number;
+  state?: HostingWebMailStateEnum;
 };

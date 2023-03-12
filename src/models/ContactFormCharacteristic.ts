@@ -2,4 +2,4 @@
 
 import { ContactKeyFormCharacteristic } from './ContactKeyFormCharacteristic';
 
-export type ContactFormCharacteristic = { keys: ContactKeyFormCharacteristic[]; type: string };
+export type ContactFormCharacteristic = { keys?: ContactKeyFormCharacteristic[]; type?: string };

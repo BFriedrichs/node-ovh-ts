@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedAvailabilityDatacenterEnum } from './DedicatedAvailabilityDatacenterEnum';
 import { DedicatedAvailabilityEnum } from './DedicatedAvailabilityEnum';
+import { DedicatedAvailabilityDatacenterEnum } from './DedicatedAvailabilityDatacenterEnum';
 
 export type DedicatedAvailabilityDatacenter = {
-  availability: DedicatedAvailabilityEnum;
-  datacenter: DedicatedAvailabilityDatacenterEnum;
+  availability?: DedicatedAvailabilityEnum;
+  datacenter?: DedicatedAvailabilityDatacenterEnum;
 };

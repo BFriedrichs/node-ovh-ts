@@ -3,6 +3,6 @@
 import { OrderCartGenericProductDefinition } from './OrderCartGenericProductDefinition';
 
 export type ServicesOperationDetachOptionsDefinition = {
-  plans: OrderCartGenericProductDefinition[];
-  serviceId: number;
+  plans?: OrderCartGenericProductDefinition[];
+  serviceId?: number;
 };

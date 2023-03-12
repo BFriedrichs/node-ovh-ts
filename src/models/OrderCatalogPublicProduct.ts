@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderCatalogPublicProductBlob } from './OrderCatalogPublicProductBlob';
 import { OrderCatalogPublicConfiguration } from './OrderCatalogPublicConfiguration';
+import { OrderCatalogPublicProductBlob } from './OrderCatalogPublicProductBlob';
 
 export type OrderCatalogPublicProduct = {
-  blobs: OrderCatalogPublicProductBlob | null;
-  configurations: OrderCatalogPublicConfiguration[] | null;
-  description: string;
-  name: string;
+  blobs?: OrderCatalogPublicProductBlob | null;
+  configurations?: OrderCatalogPublicConfiguration[] | null;
+  description?: string;
+  name?: string;
 };

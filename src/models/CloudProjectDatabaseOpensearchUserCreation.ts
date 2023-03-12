@@ -3,6 +3,6 @@
 import { CloudProjectDatabaseOpensearchUserAcl } from './CloudProjectDatabaseOpensearchUserAcl';
 
 export type CloudProjectDatabaseOpensearchUserCreation = {
-  acls: CloudProjectDatabaseOpensearchUserAcl[];
-  name?: string;
+  acls?: CloudProjectDatabaseOpensearchUserAcl[];
+  name: string;
 };

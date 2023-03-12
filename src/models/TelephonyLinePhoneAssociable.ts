@@ -4,8 +4,8 @@ import { TelephonyLinePhoneAssociableConfiguredLines } from './TelephonyLinePhon
 import { TelephonyProtocolEnum } from './TelephonyProtocolEnum';
 
 export type TelephonyLinePhoneAssociable = {
-  associatedLines: TelephonyLinePhoneAssociableConfiguredLines[];
-  brand: string;
-  maxLines: number;
-  protocol: TelephonyProtocolEnum;
+  associatedLines?: TelephonyLinePhoneAssociableConfiguredLines[];
+  brand?: string;
+  maxLines?: number;
+  protocol?: TelephonyProtocolEnum;
 };

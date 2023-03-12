@@ -3,9 +3,9 @@
 import { ApiApplicationStatusEnum } from './ApiApplicationStatusEnum';
 
 export type ApiApplication = {
-  applicationId: number;
-  applicationKey: string;
-  description: string;
-  name: string;
-  status: ApiApplicationStatusEnum;
+  applicationId?: number;
+  applicationKey?: string;
+  description?: string;
+  name?: string;
+  status?: ApiApplicationStatusEnum;
 };

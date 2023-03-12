@@ -3,8 +3,8 @@
 import { XdslXdslModemConfigAddressingTypeEnum } from './XdslXdslModemConfigAddressingTypeEnum';
 
 export type XdslTemplateModemLAN = {
-  IPAddress: string;
-  addressingType: XdslXdslModemConfigAddressingTypeEnum;
-  lanName: string;
-  subnetMask: string;
+  IPAddress?: string;
+  addressingType?: XdslXdslModemConfigAddressingTypeEnum;
+  lanName?: string;
+  subnetMask?: string;
 };

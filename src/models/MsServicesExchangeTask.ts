@@ -3,9 +3,9 @@
 import { MsServicesTaskStatusEnum } from './MsServicesTaskStatusEnum';
 
 export type MsServicesExchangeTask = {
-  finishDate: Date | null;
-  function: string;
-  id: number;
-  status: MsServicesTaskStatusEnum;
-  todoDate: Date;
+  finishDate?: Date | null;
+  function?: string;
+  id?: number;
+  status?: MsServicesTaskStatusEnum;
+  todoDate?: Date;
 };

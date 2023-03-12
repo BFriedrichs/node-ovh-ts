@@ -3,6 +3,6 @@
 import { VpsAutomatedBackupAttachedInfos } from './VpsAutomatedBackupAttachedInfos';
 
 export type VpsAutomatedBackupAttached = {
-  access: VpsAutomatedBackupAttachedInfos;
-  restorePoint: Date;
+  access?: VpsAutomatedBackupAttachedInfos;
+  restorePoint?: Date;
 };

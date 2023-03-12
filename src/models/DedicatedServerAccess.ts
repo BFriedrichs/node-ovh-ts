@@ -3,8 +3,8 @@
 import { DedicatedServerAccessTypeEnum } from './DedicatedServerAccessTypeEnum';
 
 export type DedicatedServerAccess = {
-  password: string;
-  type: DedicatedServerAccessTypeEnum;
-  url: string | null;
-  user: string | null;
+  password?: string;
+  type?: DedicatedServerAccessTypeEnum;
+  url?: string | null;
+  user?: string | null;
 };

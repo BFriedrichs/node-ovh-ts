@@ -5,11 +5,11 @@ import { CloudProjectAiCapabilitiesFlavorResourcesPerUnit } from './CloudProject
 import { CloudProjectAiCapabilitiesFlavorGpuInformation } from './CloudProjectAiCapabilitiesFlavorGpuInformation';
 
 export type CloudProjectAiCapabilitiesFlavor = {
-  default: boolean;
-  description: string;
-  gpuInformation: CloudProjectAiCapabilitiesFlavorGpuInformation | null;
-  id: string;
-  max: number;
-  resourcesPerUnit: CloudProjectAiCapabilitiesFlavorResourcesPerUnit;
-  type: CloudProjectAiCapabilitiesFlavorTypeEnum;
+  default?: boolean;
+  description?: string;
+  gpuInformation?: CloudProjectAiCapabilitiesFlavorGpuInformation | null;
+  id?: string;
+  max?: number;
+  resourcesPerUnit?: CloudProjectAiCapabilitiesFlavorResourcesPerUnit;
+  type?: CloudProjectAiCapabilitiesFlavorTypeEnum;
 };

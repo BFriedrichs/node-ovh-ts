@@ -4,7 +4,7 @@ import { DedicatedServerInterfaces } from './DedicatedServerInterfaces';
 import { DedicatedServerNetworkingOperationEnum } from './DedicatedServerNetworkingOperationEnum';
 
 export type DedicatedServerNetworking = {
-  description: string | null;
-  interfaces: DedicatedServerInterfaces[];
-  status: DedicatedServerNetworkingOperationEnum | null;
+  description?: string | null;
+  interfaces?: DedicatedServerInterfaces[];
+  status?: DedicatedServerNetworkingOperationEnum | null;
 };

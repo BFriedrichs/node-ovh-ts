@@ -3,8 +3,8 @@
 import { DedicatedServerByoiStatusEnum } from './DedicatedServerByoiStatusEnum';
 
 export type DedicatedServerByoiStatus = {
-  checksum: string | null;
-  message: string | null;
-  servername: string | null;
-  status: DedicatedServerByoiStatusEnum | null;
+  checksum?: string | null;
+  message?: string | null;
+  servername?: string | null;
+  status?: DedicatedServerByoiStatusEnum | null;
 };

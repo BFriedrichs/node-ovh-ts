@@ -2,4 +2,4 @@
 
 import { VpsOrderRuleOSChoice } from './VpsOrderRuleOSChoice';
 
-export type VpsOrderRuleOSChoices = { choices: VpsOrderRuleOSChoice[] };
+export type VpsOrderRuleOSChoices = { choices?: VpsOrderRuleOSChoice[] };

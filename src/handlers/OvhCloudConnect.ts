@@ -1,24 +1,24 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OvhcloudconnectInterfaceMetricsTypeEnum } from '../models/OvhcloudconnectInterfaceMetricsTypeEnum';
-import { OvhcloudconnectUpdate } from '../models/OvhcloudconnectUpdate';
-import { OvhcloudconnectTo } from '../models/OvhcloudconnectTo';
-import { OvhcloudconnectDatacenterExtraConfig } from '../models/OvhcloudconnectDatacenterExtraConfig';
-import { OvhcloudconnectPopConfig } from '../models/OvhcloudconnectPopConfig';
-import { OvhcloudconnectService } from '../models/OvhcloudconnectService';
 import { OvhcloudconnectKey } from '../models/OvhcloudconnectKey';
+import { OvhcloudconnectService } from '../models/OvhcloudconnectService';
+import { OvhcloudconnectInterfaceMetricsPeriodEnum } from '../models/OvhcloudconnectInterfaceMetricsPeriodEnum';
+import { OvhcloudconnectTo } from '../models/OvhcloudconnectTo';
 import { ServicesService } from '../models/ServicesService';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { OvhcloudconnectMetrics } from '../models/OvhcloudconnectMetrics';
 import { OvhcloudconnectInterface } from '../models/OvhcloudconnectInterface';
 import { OvhcloudconnectDatacenter } from '../models/OvhcloudconnectDatacenter';
-import { OvhcloudconnectDiagnosticConfiguration } from '../models/OvhcloudconnectDiagnosticConfiguration';
-import { OvhcloudconnectInterfaceMetricsPeriodEnum } from '../models/OvhcloudconnectInterfaceMetricsPeriodEnum';
-import { OvhcloudconnectSendKeyAnswer } from '../models/OvhcloudconnectSendKeyAnswer';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { OvhcloudconnectTask } from '../models/OvhcloudconnectTask';
-import { OvhcloudconnectMetrics } from '../models/OvhcloudconnectMetrics';
+import { OvhcloudconnectDiagnostic } from '../models/OvhcloudconnectDiagnostic';
+import { OvhcloudconnectPopConfig } from '../models/OvhcloudconnectPopConfig';
+import { OvhcloudconnectDiagnosticConfiguration } from '../models/OvhcloudconnectDiagnosticConfiguration';
+import { OvhcloudconnectDatacenterExtraConfig } from '../models/OvhcloudconnectDatacenterExtraConfig';
+import { OvhcloudconnectInterfaceMetricsTypeEnum } from '../models/OvhcloudconnectInterfaceMetricsTypeEnum';
 import { OvhcloudconnectDatacenterConfig } from '../models/OvhcloudconnectDatacenterConfig';
 import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { OvhcloudconnectDiagnostic } from '../models/OvhcloudconnectDiagnostic';
+import { OvhcloudconnectSendKeyAnswer } from '../models/OvhcloudconnectSendKeyAnswer';
+import { OvhcloudconnectUpdate } from '../models/OvhcloudconnectUpdate';
 import OVHBase from '../ovh';
 
 class OvhCloudConnectHandler {
@@ -29,7 +29,7 @@ class OvhCloudConnectHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/ovhCloudConnect');
   };
 
@@ -194,7 +194,7 @@ class OvhCloudConnectHandler {
   };
 
   /** List available Datacenter */
-  listDatacentersByServiceName = (serviceName: string): Promise<number[]> => {
+  listDatacenterByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ovhCloudConnect/${serviceName}/datacenter`);
   };
 
@@ -228,7 +228,7 @@ class OvhCloudConnectHandler {
   };
 
   /** List interfaces linked to the Service */
-  listInterfacesByServiceName = (serviceName: string): Promise<number[]> => {
+  listInterfaceByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ovhCloudConnect/${serviceName}/interface`);
   };
 

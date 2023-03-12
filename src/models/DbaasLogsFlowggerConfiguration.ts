@@ -4,6 +4,6 @@ import { DbaasLogsFlowggerConfigurationLogFramingEnum } from './DbaasLogsFlowgge
 import { DbaasLogsFlowggerConfigurationLogFormatEnum } from './DbaasLogsFlowggerConfigurationLogFormatEnum';
 
 export type DbaasLogsFlowggerConfiguration = {
-  logFormat: DbaasLogsFlowggerConfigurationLogFormatEnum;
-  logFraming: DbaasLogsFlowggerConfigurationLogFramingEnum;
+  logFormat?: DbaasLogsFlowggerConfigurationLogFormatEnum;
+  logFraming?: DbaasLogsFlowggerConfigurationLogFramingEnum;
 };

@@ -4,11 +4,11 @@ import { DedicatedCloudClusterAutoScaleModeEnum } from './DedicatedCloudClusterA
 import { DedicatedCloudOptionStateEnum } from './DedicatedCloudOptionStateEnum';
 
 export type DedicatedCloudClusterAutoScale = {
-  autoScaleInHost: DedicatedCloudClusterAutoScaleModeEnum;
-  autoScaleOutHost: DedicatedCloudClusterAutoScaleModeEnum;
-  autoScaleOutStorage: DedicatedCloudClusterAutoScaleModeEnum;
-  configId: number;
-  id: number;
-  inMaintenanceMode: boolean;
-  state: DedicatedCloudOptionStateEnum;
+  autoScaleInHost?: DedicatedCloudClusterAutoScaleModeEnum;
+  autoScaleOutHost?: DedicatedCloudClusterAutoScaleModeEnum;
+  autoScaleOutStorage?: DedicatedCloudClusterAutoScaleModeEnum;
+  configId?: number;
+  id?: number;
+  inMaintenanceMode?: boolean;
+  state?: DedicatedCloudOptionStateEnum;
 };

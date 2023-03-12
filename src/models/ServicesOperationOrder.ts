@@ -2,4 +2,4 @@
 
 import { OrderOrder } from './OrderOrder';
 
-export type ServicesOperationOrder = { order: OrderOrder | null };
+export type ServicesOperationOrder = { order?: OrderOrder | null };

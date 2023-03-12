@@ -3,7 +3,7 @@
 import { BillingOrderFollowUpHistoryStatusEnum } from './BillingOrderFollowUpHistoryStatusEnum';
 
 export type BillingOrderFollowUpHistory = {
-  date: Date;
-  description: string;
-  label: BillingOrderFollowUpHistoryStatusEnum;
+  date?: Date;
+  description?: string;
+  label?: BillingOrderFollowUpHistoryStatusEnum;
 };

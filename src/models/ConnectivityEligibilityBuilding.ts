@@ -4,9 +4,9 @@ import { ConnectivityEligibilityBuildingTypeEnum } from './ConnectivityEligibili
 import { ConnectivityEligibilityBuildingStair } from './ConnectivityEligibilityBuildingStair';
 
 export type ConnectivityEligibilityBuilding = {
-  name: string;
-  nro: string | null;
-  reference: string;
-  stairs: ConnectivityEligibilityBuildingStair[];
-  type: ConnectivityEligibilityBuildingTypeEnum;
+  name?: string;
+  nro?: string | null;
+  reference?: string;
+  stairs?: ConnectivityEligibilityBuildingStair[];
+  type?: ConnectivityEligibilityBuildingTypeEnum;
 };

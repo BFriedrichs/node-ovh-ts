@@ -3,8 +3,8 @@
 import { CloudProjectLoadbalancerSizeEnum } from './CloudProjectLoadbalancerSizeEnum';
 
 export type CloudProjectNetworkloadbalancerLoadBalancerSizeCapability = {
-  bandwidth: number;
-  maximumConnection: number;
-  newConnectionPerSecond: number;
-  size: CloudProjectLoadbalancerSizeEnum;
+  bandwidth?: number;
+  maximumConnection?: number;
+  newConnectionPerSecond?: number;
+  size?: CloudProjectLoadbalancerSizeEnum;
 };

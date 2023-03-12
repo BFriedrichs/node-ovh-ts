@@ -3,6 +3,6 @@
 import { DedicatedTemplateOsInfoProjectItem } from './DedicatedTemplateOsInfoProjectItem';
 
 export type DedicatedTemplateOsInfoProject = {
-  os: DedicatedTemplateOsInfoProjectItem | null;
-  usage: DedicatedTemplateOsInfoProjectItem | null;
+  os?: DedicatedTemplateOsInfoProjectItem | null;
+  usage?: DedicatedTemplateOsInfoProjectItem | null;
 };

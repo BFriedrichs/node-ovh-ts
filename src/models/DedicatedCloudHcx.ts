@@ -3,7 +3,7 @@
 import { DedicatedCloudOptionStateEnum } from './DedicatedCloudOptionStateEnum';
 
 export type DedicatedCloudHcx = {
-  build: string | null;
-  state: DedicatedCloudOptionStateEnum;
-  version: string | null;
+  build?: string | null;
+  state?: DedicatedCloudOptionStateEnum;
+  version?: string | null;
 };

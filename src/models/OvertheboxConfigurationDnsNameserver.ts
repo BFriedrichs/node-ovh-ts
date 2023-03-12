@@ -4,8 +4,8 @@ import { OvertheboxConfigurationTypesDnsNameserver } from './OvertheboxConfigura
 import { OvertheboxConfigurationStatusEnum } from './OvertheboxConfigurationStatusEnum';
 
 export type OvertheboxConfigurationDnsNameserver = {
-  configuration: OvertheboxConfigurationTypesDnsNameserver;
-  id: string;
-  priority: number;
-  status: OvertheboxConfigurationStatusEnum;
+  configuration?: OvertheboxConfigurationTypesDnsNameserver;
+  id?: string;
+  priority?: number;
+  status?: OvertheboxConfigurationStatusEnum;
 };

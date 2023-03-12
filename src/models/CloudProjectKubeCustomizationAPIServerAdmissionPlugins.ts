@@ -3,6 +3,6 @@
 import { CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum } from './CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum';
 
 export type CloudProjectKubeCustomizationAPIServerAdmissionPlugins = {
-  disabled: CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum[] | null;
-  enabled: CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum[] | null;
+  disabled?: CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum[] | null;
+  enabled?: CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum[] | null;
 };

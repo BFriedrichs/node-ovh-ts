@@ -3,8 +3,8 @@
 import { OrderCurrencyCodeEnum } from './OrderCurrencyCodeEnum';
 
 export type MeConsumptionPrice = {
-  currencyCode: OrderCurrencyCodeEnum;
-  text: string;
-  value: number;
-  valueInUcents: number;
+  currencyCode?: OrderCurrencyCodeEnum;
+  text?: string;
+  value?: number;
+  valueInUcents?: number;
 };

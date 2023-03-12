@@ -5,11 +5,11 @@ import { OrderPrice } from './OrderPrice';
 import { TelephonyRmaOfferTypeEnum } from './TelephonyRmaOfferTypeEnum';
 
 export type TelephonyLinePhone = {
-  brand: string;
-  description: string;
-  fees: OrderPrice | null;
-  maxline: number;
-  offerType: TelephonyRmaOfferTypeEnum;
-  price: OrderPrice;
-  protocol: TelephonyProtocolEnum;
+  brand?: string;
+  description?: string;
+  fees?: OrderPrice | null;
+  maxline?: number;
+  offerType?: TelephonyRmaOfferTypeEnum;
+  price?: OrderPrice;
+  protocol?: TelephonyProtocolEnum;
 };

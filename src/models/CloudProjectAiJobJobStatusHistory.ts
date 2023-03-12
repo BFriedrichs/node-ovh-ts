@@ -3,6 +3,6 @@
 import { CloudProjectAiJobJobStateEnum } from './CloudProjectAiJobJobStateEnum';
 
 export type CloudProjectAiJobJobStatusHistory = {
-  date: Date;
-  state: CloudProjectAiJobJobStateEnum;
+  date?: Date;
+  state?: CloudProjectAiJobJobStateEnum;
 };

@@ -3,8 +3,8 @@
 import { CloudRegionContinentEnum } from './CloudRegionContinentEnum';
 
 export type CloudCapabilitiesAvailabilityRegion = {
-  continentCode: CloudRegionContinentEnum;
-  datacenter: string;
-  enabled: boolean;
-  name: string;
+  continentCode?: CloudRegionContinentEnum;
+  datacenter?: string;
+  enabled?: boolean;
+  name?: string;
 };

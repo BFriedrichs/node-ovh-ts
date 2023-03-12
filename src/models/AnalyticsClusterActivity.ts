@@ -3,8 +3,8 @@
 import { AnalyticsStatusEnum } from './AnalyticsStatusEnum';
 
 export type AnalyticsClusterActivity = {
-  description: string;
-  status: AnalyticsStatusEnum;
-  timestamp: Date;
-  user: string | null;
+  description?: string;
+  status?: AnalyticsStatusEnum;
+  timestamp?: Date;
+  user?: string | null;
 };

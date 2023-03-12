@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type DbaasLogsTemporaryLogsLink = { expirationDate: Date; url: string };
+export type DbaasLogsTemporaryLogsLink = { expirationDate?: Date; url?: string };

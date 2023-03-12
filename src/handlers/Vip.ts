@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesService } from '../models/ServicesService';
 import { VipSupportVip } from '../models/VipSupportVip';
+import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class VipHandler {
@@ -12,7 +12,7 @@ class VipHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/vip');
   };
 

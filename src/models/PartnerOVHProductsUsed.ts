@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { PartnerOVHProductsUsedMobileHosting } from './PartnerOVHProductsUsedMobileHosting';
 import { PartnerOVHProductsUsedTelecom } from './PartnerOVHProductsUsedTelecom';
-import { PartnerOVHProductsUsedWeb } from './PartnerOVHProductsUsedWeb';
+import { PartnerOVHProductsUsedMobileHosting } from './PartnerOVHProductsUsedMobileHosting';
 import { PartnerOVHProductsUsedCloud } from './PartnerOVHProductsUsedCloud';
+import { PartnerOVHProductsUsedWeb } from './PartnerOVHProductsUsedWeb';
 
 export type PartnerOVHProductsUsed = {
-  cloud: PartnerOVHProductsUsedCloud;
-  mobileHosting: PartnerOVHProductsUsedMobileHosting;
-  telecom: PartnerOVHProductsUsedTelecom;
-  web: PartnerOVHProductsUsedWeb;
+  cloud?: PartnerOVHProductsUsedCloud;
+  mobileHosting?: PartnerOVHProductsUsedMobileHosting;
+  telecom?: PartnerOVHProductsUsedTelecom;
+  web?: PartnerOVHProductsUsedWeb;
 };

@@ -3,8 +3,8 @@
 import { MeAgreementsAgreementStatusEnum } from './MeAgreementsAgreementStatusEnum';
 
 export type MeAgreementsContractAgreement = {
-  agreed: MeAgreementsAgreementStatusEnum;
-  contractId: number;
-  date: Date;
-  id: number;
+  agreed?: MeAgreementsAgreementStatusEnum;
+  contractId?: number;
+  date?: Date;
+  id?: number;
 };

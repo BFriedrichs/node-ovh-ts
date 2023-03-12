@@ -3,6 +3,6 @@
 import { CloudProjectLoadbalancerStatsTargetServerStatusEnum } from './CloudProjectLoadbalancerStatsTargetServerStatusEnum';
 
 export type CloudProjectLoadbalancerStatsTargetServer = {
-  name: string;
-  status: CloudProjectLoadbalancerStatsTargetServerStatusEnum;
+  name?: string;
+  status?: CloudProjectLoadbalancerStatsTargetServerStatusEnum;
 };

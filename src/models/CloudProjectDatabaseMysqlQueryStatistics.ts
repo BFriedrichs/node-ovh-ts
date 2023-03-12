@@ -3,5 +3,5 @@
 import { CloudProjectDatabaseMysqlQuerystatisticsQuery } from './CloudProjectDatabaseMysqlQuerystatisticsQuery';
 
 export type CloudProjectDatabaseMysqlQueryStatistics = {
-  queries: CloudProjectDatabaseMysqlQuerystatisticsQuery[];
+  queries?: CloudProjectDatabaseMysqlQuerystatisticsQuery[];
 };

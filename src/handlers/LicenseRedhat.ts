@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseRedhatRedHat } from '../models/LicenseRedhatRedHat';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
-import { LicenseTask } from '../models/LicenseTask';
-import { LicenseActionType } from '../models/LicenseActionType';
+import { LicenseRedhatRedHat } from '../models/LicenseRedhatRedHat';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { ServicesService } from '../models/ServicesService';
+import { LicenseTask } from '../models/LicenseTask';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseActionType } from '../models/LicenseActionType';
 import OVHBase from '../ovh';
 
 class LicenseRedhatHandler {
@@ -17,7 +17,7 @@ class LicenseRedhatHandler {
   }
 
   /** List available services */
-  listRedhats = (): Promise<string[]> => {
+  listRedhat = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/redhat');
   };
 

@@ -2,4 +2,4 @@
 
 import { BillingReusablePaymentMeanEnum } from './BillingReusablePaymentMeanEnum';
 
-export type BillingOrderRegisteredPaymentMean = { paymentMean: BillingReusablePaymentMeanEnum };
+export type BillingOrderRegisteredPaymentMean = { paymentMean?: BillingReusablePaymentMeanEnum };

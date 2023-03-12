@@ -2,4 +2,4 @@
 
 import { DbaasLogsUrlTypeEnum } from './DbaasLogsUrlTypeEnum';
 
-export type DbaasLogsUrl = { address: string; type: DbaasLogsUrlTypeEnum };
+export type DbaasLogsUrl = { address?: string; type?: DbaasLogsUrlTypeEnum };

@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectDatabaseServiceHostMetric } from './CloudProjectDatabaseServiceHostMetric';
 import { CloudProjectDatabaseServiceMetricUnitEnum } from './CloudProjectDatabaseServiceMetricUnitEnum';
+import { CloudProjectDatabaseServiceHostMetric } from './CloudProjectDatabaseServiceHostMetric';
 
 export type CloudProjectDatabaseServiceMetric = {
-  metrics: CloudProjectDatabaseServiceHostMetric[];
-  name: string;
-  units: CloudProjectDatabaseServiceMetricUnitEnum;
+  metrics?: CloudProjectDatabaseServiceHostMetric[];
+  name?: string;
+  units?: CloudProjectDatabaseServiceMetricUnitEnum;
 };

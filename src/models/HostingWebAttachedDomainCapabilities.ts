@@ -3,8 +3,8 @@
 import { HostingWebAttachedDomainMethodEnum } from './HostingWebAttachedDomainMethodEnum';
 
 export type HostingWebAttachedDomainCapabilities = {
-  description: string;
-  href: string;
-  key: string;
-  method: HostingWebAttachedDomainMethodEnum;
+  description?: string;
+  href?: string;
+  key?: string;
+  method?: HostingWebAttachedDomainMethodEnum;
 };

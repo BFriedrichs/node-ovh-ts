@@ -3,8 +3,8 @@
 import { MePaymentMeanValidationTypeEnum } from './MePaymentMeanValidationTypeEnum';
 
 export type MePaymentMeanBankAccountValidation = {
-  id: number;
-  submitUrl: string | null;
-  url: string;
-  validationType: MePaymentMeanValidationTypeEnum;
+  id?: number;
+  submitUrl?: string | null;
+  url?: string;
+  validationType?: MePaymentMeanValidationTypeEnum;
 };

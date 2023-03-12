@@ -4,11 +4,11 @@ import { TelephonyFaxConsumptionWayTypeEnum } from './TelephonyFaxConsumptionWay
 import { OrderPrice } from './OrderPrice';
 
 export type TelephonyFaxConsumption = {
-  called: string | null;
-  calling: string | null;
-  consumptionId: number;
-  creationDatetime: Date;
-  pages: number;
-  priceWithoutTax: OrderPrice;
-  wayType: TelephonyFaxConsumptionWayTypeEnum;
+  called?: string | null;
+  calling?: string | null;
+  consumptionId?: number;
+  creationDatetime?: Date;
+  pages?: number;
+  priceWithoutTax?: OrderPrice;
+  wayType?: TelephonyFaxConsumptionWayTypeEnum;
 };

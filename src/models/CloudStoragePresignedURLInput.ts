@@ -3,7 +3,7 @@
 import { CloudStoragePresignedURLMethodEnum } from './CloudStoragePresignedURLMethodEnum';
 
 export type CloudStoragePresignedURLInput = {
-  expire: number;
-  method: CloudStoragePresignedURLMethodEnum;
-  object: string;
+  expire?: number;
+  method?: CloudStoragePresignedURLMethodEnum;
+  object?: string;
 };

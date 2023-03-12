@@ -1,17 +1,17 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ConnectivityEligibilityCity } from '../models/ConnectivityEligibilityCity';
+import { ConnectivityEligibilityLine } from '../models/ConnectivityEligibilityLine';
 import { ConnectivityMonitoringGenericIncidentStatusEnum } from '../models/ConnectivityMonitoringGenericIncidentStatusEnum';
-import { ConnectivityEligibilityOfferProductTypeEnum } from '../models/ConnectivityEligibilityOfferProductTypeEnum';
-import { ConnectivityEligibilityEligibilityTest } from '../models/ConnectivityEligibilityEligibilityTest';
-import { ConnectivityEligibilityStreet } from '../models/ConnectivityEligibilityStreet';
-import { ConnectivityEligibilityOfferProductUnbundlingTypeEnum } from '../models/ConnectivityEligibilityOfferProductUnbundlingTypeEnum';
-import { ConnectivityEligibilityMeetings } from '../models/ConnectivityEligibilityMeetings';
+import { ConnectivityEligibilityLineStatusEnum } from '../models/ConnectivityEligibilityLineStatusEnum';
 import { ConnectivityMaintenanceWorkPlanned } from '../models/ConnectivityMaintenanceWorkPlanned';
 import { ConnectivityEligibilityBuilding } from '../models/ConnectivityEligibilityBuilding';
+import { ConnectivityEligibilityEligibilityTest } from '../models/ConnectivityEligibilityEligibilityTest';
+import { ConnectivityEligibilityCity } from '../models/ConnectivityEligibilityCity';
+import { ConnectivityEligibilityMeetings } from '../models/ConnectivityEligibilityMeetings';
+import { ConnectivityEligibilityOfferProductTypeEnum } from '../models/ConnectivityEligibilityOfferProductTypeEnum';
+import { ConnectivityEligibilityStreet } from '../models/ConnectivityEligibilityStreet';
 import { ConnectivityMonitoringGenericIncident } from '../models/ConnectivityMonitoringGenericIncident';
-import { ConnectivityEligibilityLineStatusEnum } from '../models/ConnectivityEligibilityLineStatusEnum';
-import { ConnectivityEligibilityLine } from '../models/ConnectivityEligibilityLine';
+import { ConnectivityEligibilityOfferProductUnbundlingTypeEnum } from '../models/ConnectivityEligibilityOfferProductUnbundlingTypeEnum';
 import OVHBase from '../ovh';
 
 class ConnectivityHandler {
@@ -144,7 +144,7 @@ class ConnectivityHandler {
   };
 
   /** List work planned by operators */
-  listMaintenanceWorkPlannedPublics = (): Promise<ConnectivityMaintenanceWorkPlanned[]> => {
+  listMaintenanceWorkPlannedPublic = (): Promise<ConnectivityMaintenanceWorkPlanned[]> => {
     return this.ovh.request('GET', '/connectivity/maintenance/workPlanned/public');
   };
 
@@ -154,7 +154,7 @@ class ConnectivityHandler {
   };
 
   /** List validated and recently closed generic incidents */
-  listMonitoringGenericIncidentPublics = (): Promise<ConnectivityMonitoringGenericIncident[]> => {
+  listMonitoringGenericIncidentPublic = (): Promise<ConnectivityMonitoringGenericIncident[]> => {
     return this.ovh.request('GET', '/connectivity/monitoring/genericIncident/public');
   };
 }

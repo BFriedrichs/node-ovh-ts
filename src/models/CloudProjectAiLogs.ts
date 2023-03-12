@@ -2,4 +2,4 @@
 
 import { CloudProjectAiLogLine } from './CloudProjectAiLogLine';
 
-export type CloudProjectAiLogs = { lastActivity: Date | null; logs: CloudProjectAiLogLine[] };
+export type CloudProjectAiLogs = { lastActivity?: Date | null; logs?: CloudProjectAiLogLine[] };

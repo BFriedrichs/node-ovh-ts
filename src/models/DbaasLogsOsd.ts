@@ -3,11 +3,11 @@
 import { DbaasLogsDeliveryStatusEnum } from './DbaasLogsDeliveryStatusEnum';
 
 export type DbaasLogsOsd = {
-  createdAt: Date;
-  deliveryStatus: DbaasLogsDeliveryStatusEnum;
-  description: string;
-  isEditable: boolean;
-  name: string;
-  osdId: string;
-  updatedAt: Date | null;
+  createdAt?: Date;
+  deliveryStatus?: DbaasLogsDeliveryStatusEnum;
+  description?: string;
+  isEditable?: boolean;
+  name?: string;
+  osdId?: string;
+  updatedAt?: Date | null;
 };

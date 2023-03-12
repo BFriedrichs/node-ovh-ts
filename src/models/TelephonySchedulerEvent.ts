@@ -3,10 +3,10 @@
 import { TelephonySchedulerCategoryEnum } from './TelephonySchedulerCategoryEnum';
 
 export type TelephonySchedulerEvent = {
-  categories: TelephonySchedulerCategoryEnum;
-  dateEnd: Date;
-  dateStart: Date;
-  description: string | null;
-  title: string;
-  uid: string;
+  categories?: TelephonySchedulerCategoryEnum;
+  dateEnd?: Date;
+  dateStart?: Date;
+  description?: string | null;
+  title?: string;
+  uid?: string;
 };

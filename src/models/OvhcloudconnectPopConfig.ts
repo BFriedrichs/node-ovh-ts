@@ -4,11 +4,11 @@ import { OvhcloudconnectPopConfigTypeEnum } from './OvhcloudconnectPopConfigType
 import { OvhcloudconnectPopConfigStatusEnum } from './OvhcloudconnectPopConfigStatusEnum';
 
 export type OvhcloudconnectPopConfig = {
-  customerBgpArea: number;
-  id: number;
-  interfaceId?: number;
-  ovhBgpArea: number;
-  status: OvhcloudconnectPopConfigStatusEnum;
-  subnet: string | null;
-  type?: OvhcloudconnectPopConfigTypeEnum;
+  customerBgpArea?: number;
+  id?: number;
+  interfaceId: number;
+  ovhBgpArea?: number;
+  status?: OvhcloudconnectPopConfigStatusEnum;
+  subnet?: string | null;
+  type: OvhcloudconnectPopConfigTypeEnum;
 };

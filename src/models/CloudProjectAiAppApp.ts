@@ -4,10 +4,10 @@ import { CloudProjectAiAppAppSpec } from './CloudProjectAiAppAppSpec';
 import { CloudProjectAiAppAppStatus } from './CloudProjectAiAppAppStatus';
 
 export type CloudProjectAiAppApp = {
-  createdAt: Date;
-  id: string;
-  spec: CloudProjectAiAppAppSpec;
-  status: CloudProjectAiAppAppStatus;
-  updatedAt: Date;
-  user: string;
+  createdAt?: Date;
+  id?: string;
+  spec?: CloudProjectAiAppAppSpec;
+  status?: CloudProjectAiAppAppStatus;
+  updatedAt?: Date;
+  user?: string;
 };

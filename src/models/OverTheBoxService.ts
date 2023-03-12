@@ -7,13 +7,13 @@ import { OverTheBoxGraphEndpoint } from './OverTheBoxGraphEndpoint';
 import { OverTheBoxServiceConfigurationModeEnum } from './OverTheBoxServiceConfigurationModeEnum';
 
 export type OverTheBoxService = {
-  SOCKSProxyEnabled: boolean;
-  autoMTU: OverTheBoxAvailableStatusEnum;
-  configurationMode: OverTheBoxServiceConfigurationModeEnum;
-  customerDescription: string | null;
-  graphEndpoint: OverTheBoxGraphEndpoint | null;
-  releaseChannel: string;
-  serviceName: string;
-  status: OverTheBoxServiceStatusEnum;
-  tunnelMode: OverTheBoxTunnelModeEnum;
+  SOCKSProxyEnabled?: boolean;
+  autoMTU?: OverTheBoxAvailableStatusEnum;
+  configurationMode?: OverTheBoxServiceConfigurationModeEnum;
+  customerDescription?: string | null;
+  graphEndpoint?: OverTheBoxGraphEndpoint | null;
+  releaseChannel?: string;
+  serviceName?: string;
+  status?: OverTheBoxServiceStatusEnum;
+  tunnelMode?: OverTheBoxTunnelModeEnum;
 };

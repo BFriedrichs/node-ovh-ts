@@ -1,98 +1,98 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HostingWebRequestActionEnum } from '../models/HostingWebRequestActionEnum';
-import { HostingWebLocalSeoVisibilityCheckResponse } from '../models/HostingWebLocalSeoVisibilityCheckResponse';
-import { HostingWebStatisticsTypeEnum } from '../models/HostingWebStatisticsTypeEnum';
-import { HostingWebConfiguration } from '../models/HostingWebConfiguration';
-import { HostingPrivateDatabaseAvailableRamSizeEnum } from '../models/HostingPrivateDatabaseAvailableRamSizeEnum';
-import { HostingWebDatabaseDumpDateEnum } from '../models/HostingWebDatabaseDumpDateEnum';
-import { HostingWebOfferCapabilitiesEnum } from '../models/HostingWebOfferCapabilitiesEnum';
-import { HostingWebIndy } from '../models/HostingWebIndy';
-import { HostingWebRuntimeEnvEnum } from '../models/HostingWebRuntimeEnvEnum';
-import { HostingWebDatabaseStatisticsTypeEnum } from '../models/HostingWebDatabaseStatisticsTypeEnum';
-import { HostingWebFreedomStatusEnum } from '../models/HostingWebFreedomStatusEnum';
-import { HostingWebOvhConfigRecommendedValues } from '../models/HostingWebOvhConfigRecommendedValues';
-import { HostingWebConfigurationVersionEnum } from '../models/HostingWebConfigurationVersionEnum';
-import { ComplexTypeChartTimestampValue } from '../models/ComplexTypeChartTimestampValue';
-import { HostingWebLocalSeoAccount } from '../models/HostingWebLocalSeoAccount';
-import { HostingWebModuleBranchEnum } from '../models/HostingWebModuleBranchEnum';
-import { HostingWebUserSshStateEnum } from '../models/HostingWebUserSshStateEnum';
-import { HostingWebCdn } from '../models/HostingWebCdn';
-import { HostingWebAttachedDomainCdnEnum } from '../models/HostingWebAttachedDomainCdnEnum';
-import { ServiceRenewType } from '../models/ServiceRenewType';
-import { HostingWebLocalSeoLocationCountryEnum } from '../models/HostingWebLocalSeoLocationCountryEnum';
-import { HostingWebEmail } from '../models/HostingWebEmail';
-import { HostingWebLanguagesEnum } from '../models/HostingWebLanguagesEnum';
-import { HostingWebMailActionEnum } from '../models/HostingWebMailActionEnum';
-import { HostingWebEnvVarTypeEnum } from '../models/HostingWebEnvVarTypeEnum';
-import { HostingWebRuntime } from '../models/HostingWebRuntime';
-import { HostingWebBackupTypeEnum } from '../models/HostingWebBackupTypeEnum';
-import { HostingWebDatabaseCreationDatabaseCapabilities } from '../models/HostingWebDatabaseCreationDatabaseCapabilities';
-import { HostingWebSslReport } from '../models/HostingWebSslReport';
-import { HostingWebOfferEnum } from '../models/HostingWebOfferEnum';
-import { HostingWebFreedom } from '../models/HostingWebFreedom';
-import { HostingWebSSL } from '../models/HostingWebSSL';
-import { HostingWebOvhConfig } from '../models/HostingWebOvhConfig';
-import { HostingWebOvhconfigContainerEnum } from '../models/HostingWebOvhconfigContainerEnum';
-import { HostingWebModuleDependencyType } from '../models/HostingWebModuleDependencyType';
-import { HostingWebPublicTask } from '../models/HostingWebPublicTask';
-import { CdnDomainStatisticsPeriodEnum } from '../models/CdnDomainStatisticsPeriodEnum';
 import { HostingWebDatabaseExtraSqlQuotaEnum } from '../models/HostingWebDatabaseExtraSqlQuotaEnum';
-import { HostingWebDatabaseDatabaseCapabilities } from '../models/HostingWebDatabaseDatabaseCapabilities';
-import { HostingWebLocalSeoEmailAvailability } from '../models/HostingWebLocalSeoEmailAvailability';
-import { HostingWebDump } from '../models/HostingWebDump';
-import { HostingWebModuleLanguageEnum } from '../models/HostingWebModuleLanguageEnum';
-import { HostingWebOvhConfigHttpFirewallEnum } from '../models/HostingWebOvhConfigHttpFirewallEnum';
-import { HostingWebDatabaseDatabaseCapabilitiesTypeEnum } from '../models/HostingWebDatabaseDatabaseCapabilitiesTypeEnum';
-import { HostingWebDatabaseDump } from '../models/HostingWebDatabaseDump';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { HostingWebAttachedDomainFirewallEnum } from '../models/HostingWebAttachedDomainFirewallEnum';
-import { HostingWebDatabaseDatabaseCreationTypeEnum } from '../models/HostingWebDatabaseDatabaseCreationTypeEnum';
-import { HostingWebDatabase } from '../models/HostingWebDatabase';
-import { HostingWebDatabaseVersionEnum } from '../models/HostingWebDatabaseVersionEnum';
-import { CdnDomainOption } from '../models/CdnDomainOption';
-import { HostingWebEmailoption } from '../models/HostingWebEmailoption';
-import { HostingWebUserLogs } from '../models/HostingWebUserLogs';
-import { HostingWebLocalSeoVisibilityCheckResultResponse } from '../models/HostingWebLocalSeoVisibilityCheckResultResponse';
-import { CdnDomain } from '../models/CdnDomain';
 import { HostingWebLocalSeoDirectoriesList } from '../models/HostingWebLocalSeoDirectoriesList';
-import { HostingWebLocalSeoLocationOfferEnum } from '../models/HostingWebLocalSeoLocationOfferEnum';
-import { HostingWebAttachedDomain } from '../models/HostingWebAttachedDomain';
-import { CdnAvailableOptions } from '../models/CdnAvailableOptions';
-import { HostingWebOvhConfigAvailableEngineVersionEnum } from '../models/HostingWebOvhConfigAvailableEngineVersionEnum';
+import { HostingWebOwnLogs } from '../models/HostingWebOwnLogs';
+import { HostingWebTask } from '../models/HostingWebTask';
+import { HostingWebDatabaseStatisticsTypeEnum } from '../models/HostingWebDatabaseStatisticsTypeEnum';
+import { HostingWebLocalSeoLocation } from '../models/HostingWebLocalSeoLocation';
+import { HostingWebDatabaseDumpDateEnum } from '../models/HostingWebDatabaseDumpDateEnum';
+import { HostingWebEmailoption } from '../models/HostingWebEmailoption';
+import { HostingWebDatabaseCreationDatabaseCapabilities } from '../models/HostingWebDatabaseCreationDatabaseCapabilities';
+import { HostingWebBoostHistory } from '../models/HostingWebBoostHistory';
 import { HostingWebMailBounce } from '../models/HostingWebMailBounce';
-import { HostingWebDatabaseRequestActionEnum } from '../models/HostingWebDatabaseRequestActionEnum';
-import { HostingWebConfigurationLanguageEnum } from '../models/HostingWebConfigurationLanguageEnum';
-import { ServicesService } from '../models/ServicesService';
-import { HostingWebOvhConfigEnvironmentEnum } from '../models/HostingWebOvhConfigEnvironmentEnum';
+import { HostingWebConfiguration } from '../models/HostingWebConfiguration';
+import { CdnDomainStatisticsPeriodEnum } from '../models/CdnDomainStatisticsPeriodEnum';
+import { HostingWebBackupTypeEnum } from '../models/HostingWebBackupTypeEnum';
+import { HostingWebOvhConfigHttpFirewallEnum } from '../models/HostingWebOvhConfigHttpFirewallEnum';
+import { HostingWebSSL } from '../models/HostingWebSSL';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { HostingWebStatisticsPeriodEnum } from '../models/HostingWebStatisticsPeriodEnum';
 import { HostingWebDatabaseDatabaseTypeEnum } from '../models/HostingWebDatabaseDatabaseTypeEnum';
-import { HostingWebOvhConfigCapabilities } from '../models/HostingWebOvhConfigCapabilities';
-import { CdnDomainAddOption } from '../models/CdnDomainAddOption';
+import { HostingWebSslReport } from '../models/HostingWebSslReport';
 import { HostingWebCapabilities } from '../models/HostingWebCapabilities';
-import { HostingWebTaskStatusEnum } from '../models/HostingWebTaskStatusEnum';
-import { HostingWebUser } from '../models/HostingWebUser';
-import { CdnOperation } from '../models/CdnOperation';
-import { CdnDomainStatistics } from '../models/CdnDomainStatistics';
-import { HostingWebLocalSeoLocation } from '../models/HostingWebLocalSeoLocation';
-import { HostingWebModule } from '../models/HostingWebModule';
-import { HostingWebOvhConfigEngineNameEnum } from '../models/HostingWebOvhConfigEngineNameEnum';
-import { HostingWebCron } from '../models/HostingWebCron';
-import { HostingWebEnvVar } from '../models/HostingWebEnvVar';
 import { HostingWebService } from '../models/HostingWebService';
-import { CdnPurgeTypeEnum } from '../models/CdnPurgeTypeEnum';
-import { CdnLogs } from '../models/CdnLogs';
-import { HostingWebDatabaseAvailableVersionStruct } from '../models/HostingWebDatabaseAvailableVersionStruct';
-import { HostingPrivateDatabaseOrderableVersionEnum } from '../models/HostingPrivateDatabaseOrderableVersionEnum';
-import { HostingWebMailVolumeHistory } from '../models/HostingWebMailVolumeHistory';
-import { HostingWebOwnLogs } from '../models/HostingWebOwnLogs';
-import { HostingWebExtrasqlperso } from '../models/HostingWebExtrasqlperso';
-import { HostingWebTask } from '../models/HostingWebTask';
+import { HostingWebUser } from '../models/HostingWebUser';
+import { HostingWebRuntime } from '../models/HostingWebRuntime';
+import { HostingWebRequestActionEnum } from '../models/HostingWebRequestActionEnum';
+import { HostingWebOvhConfigCapabilities } from '../models/HostingWebOvhConfigCapabilities';
+import { HostingWebOvhConfigAvailableEngineVersionEnum } from '../models/HostingWebOvhConfigAvailableEngineVersionEnum';
+import { HostingWebDatabaseDatabaseCapabilities } from '../models/HostingWebDatabaseDatabaseCapabilities';
 import { HostingWebRuntimeTypeEnum } from '../models/HostingWebRuntimeTypeEnum';
+import { HostingWebCdn } from '../models/HostingWebCdn';
+import { HostingWebUserLogs } from '../models/HostingWebUserLogs';
+import { HostingWebAttachedDomainCdnEnum } from '../models/HostingWebAttachedDomainCdnEnum';
+import { HostingWebDatabaseRequestActionEnum } from '../models/HostingWebDatabaseRequestActionEnum';
+import { CdnDomainStatistics } from '../models/CdnDomainStatistics';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { CdnDomainOption } from '../models/CdnDomainOption';
+import { CdnPurgeTypeEnum } from '../models/CdnPurgeTypeEnum';
+import { HostingWebAttachedDomain } from '../models/HostingWebAttachedDomain';
+import { HostingWebDatabaseVersionEnum } from '../models/HostingWebDatabaseVersionEnum';
+import { HostingWebModule } from '../models/HostingWebModule';
+import { HostingWebModuleDependencyType } from '../models/HostingWebModuleDependencyType';
 import { HostingWebDatabaseModeEnum } from '../models/HostingWebDatabaseModeEnum';
-import { HostingWebBoostHistory } from '../models/HostingWebBoostHistory';
+import { HostingPrivateDatabaseAvailableRamSizeEnum } from '../models/HostingPrivateDatabaseAvailableRamSizeEnum';
+import { ServicesService } from '../models/ServicesService';
+import { HostingWebEmail } from '../models/HostingWebEmail';
+import { CdnAvailableOptions } from '../models/CdnAvailableOptions';
+import { HostingWebPublicTask } from '../models/HostingWebPublicTask';
+import { HostingWebLocalSeoVisibilityCheckResultResponse } from '../models/HostingWebLocalSeoVisibilityCheckResultResponse';
+import { HostingWebCron } from '../models/HostingWebCron';
+import { HostingWebEnvVarTypeEnum } from '../models/HostingWebEnvVarTypeEnum';
+import { HostingWebMailVolumeHistory } from '../models/HostingWebMailVolumeHistory';
+import { HostingWebDump } from '../models/HostingWebDump';
 import { HostingWebModuleList } from '../models/HostingWebModuleList';
+import { HostingWebLocalSeoLocationCountryEnum } from '../models/HostingWebLocalSeoLocationCountryEnum';
+import { HostingWebOvhConfig } from '../models/HostingWebOvhConfig';
+import { HostingWebEnvVar } from '../models/HostingWebEnvVar';
+import { HostingWebModuleLanguageEnum } from '../models/HostingWebModuleLanguageEnum';
+import { CdnLogs } from '../models/CdnLogs';
+import { HostingWebLocalSeoVisibilityCheckResponse } from '../models/HostingWebLocalSeoVisibilityCheckResponse';
+import { HostingWebMailActionEnum } from '../models/HostingWebMailActionEnum';
+import { HostingWebConfigurationVersionEnum } from '../models/HostingWebConfigurationVersionEnum';
+import { HostingWebTaskStatusEnum } from '../models/HostingWebTaskStatusEnum';
+import { HostingWebUserSshStateEnum } from '../models/HostingWebUserSshStateEnum';
+import { HostingWebDatabaseDatabaseCapabilitiesTypeEnum } from '../models/HostingWebDatabaseDatabaseCapabilitiesTypeEnum';
+import { HostingWebOvhConfigEnvironmentEnum } from '../models/HostingWebOvhConfigEnvironmentEnum';
+import { HostingWebStatisticsTypeEnum } from '../models/HostingWebStatisticsTypeEnum';
+import { CdnDomainAddOption } from '../models/CdnDomainAddOption';
+import { HostingWebDatabase } from '../models/HostingWebDatabase';
+import { CdnDomain } from '../models/CdnDomain';
+import { HostingWebLocalSeoEmailAvailability } from '../models/HostingWebLocalSeoEmailAvailability';
+import { HostingWebLocalSeoAccount } from '../models/HostingWebLocalSeoAccount';
+import { HostingWebIndy } from '../models/HostingWebIndy';
+import { HostingWebFreedomStatusEnum } from '../models/HostingWebFreedomStatusEnum';
+import { HostingWebConfigurationLanguageEnum } from '../models/HostingWebConfigurationLanguageEnum';
+import { HostingWebOvhConfigRecommendedValues } from '../models/HostingWebOvhConfigRecommendedValues';
+import { HostingWebAttachedDomainFirewallEnum } from '../models/HostingWebAttachedDomainFirewallEnum';
+import { CdnOperation } from '../models/CdnOperation';
+import { HostingWebDatabaseDatabaseCreationTypeEnum } from '../models/HostingWebDatabaseDatabaseCreationTypeEnum';
+import { HostingWebOvhConfigEngineNameEnum } from '../models/HostingWebOvhConfigEngineNameEnum';
+import { HostingPrivateDatabaseOrderableVersionEnum } from '../models/HostingPrivateDatabaseOrderableVersionEnum';
+import { ServiceRenewType } from '../models/ServiceRenewType';
+import { HostingWebExtrasqlperso } from '../models/HostingWebExtrasqlperso';
+import { ComplexTypeChartTimestampValue } from '../models/ComplexTypeChartTimestampValue';
+import { HostingWebOfferCapabilitiesEnum } from '../models/HostingWebOfferCapabilitiesEnum';
+import { HostingWebModuleBranchEnum } from '../models/HostingWebModuleBranchEnum';
+import { HostingWebDatabaseAvailableVersionStruct } from '../models/HostingWebDatabaseAvailableVersionStruct';
+import { HostingWebLanguagesEnum } from '../models/HostingWebLanguagesEnum';
+import { HostingWebFreedom } from '../models/HostingWebFreedom';
+import { HostingWebOvhconfigContainerEnum } from '../models/HostingWebOvhconfigContainerEnum';
+import { HostingWebOfferEnum } from '../models/HostingWebOfferEnum';
+import { HostingWebRuntimeEnvEnum } from '../models/HostingWebRuntimeEnvEnum';
+import { HostingWebLocalSeoLocationOfferEnum } from '../models/HostingWebLocalSeoLocationOfferEnum';
+import { HostingWebDatabaseDump } from '../models/HostingWebDatabaseDump';
 import OVHBase from '../ovh';
 
 class HostingWebHandler {
@@ -103,7 +103,7 @@ class HostingWebHandler {
   }
 
   /** List available services */
-  listWebs = (): Promise<string[]> => {
+  listWeb = (): Promise<string[]> => {
     return this.ovh.request('GET', '/hosting/web');
   };
 
@@ -283,7 +283,7 @@ class HostingWebHandler {
   };
 
   /** List all domains for a Shared CDN service */
-  listWebCdnDomainsByServiceName = (serviceName: string): Promise<CdnDomain[]> => {
+  listWebCdnDomainByServiceName = (serviceName: string): Promise<CdnDomain[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/cdn/domain`);
   };
 
@@ -304,7 +304,7 @@ class HostingWebHandler {
   };
 
   /** List all options for a domain */
-  listWebCdnDomainOptionsByServiceNameAndDomainName = (
+  listWebCdnDomainOptionByServiceNameAndDomainName = (
     serviceName: string,
     domainName: string
   ): Promise<CdnDomainOption[]> => {
@@ -390,7 +390,7 @@ class HostingWebHandler {
   };
 
   /** List all operations for a Shared CDN service */
-  listWebCdnOperationsByServiceName = (serviceName: string): Promise<CdnOperation[]> => {
+  listWebCdnOperationByServiceName = (serviceName: string): Promise<CdnOperation[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/cdn/operation`);
   };
 
@@ -636,14 +636,14 @@ class HostingWebHandler {
   };
 
   /** List available database type */
-  listWebDatabaseAvailableTypesByServiceName = (
+  listWebDatabaseAvailableTypeByServiceName = (
     serviceName: string
   ): Promise<HostingWebDatabaseDatabaseTypeEnum[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/databaseAvailableType`);
   };
 
   /** List available database version following a type */
-  listWebDatabaseAvailableVersionsByServiceName = (
+  listWebDatabaseAvailableVersionByServiceName = (
     serviceName: string
   ): Promise<HostingWebDatabaseAvailableVersionStruct> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/databaseAvailableVersion`);
@@ -1149,7 +1149,7 @@ class HostingWebHandler {
   };
 
   /** List of runtime configurations to your hosting */
-  listWebRuntimesByServiceName = (serviceName: string): Promise<number[]> => {
+  listWebRuntimeByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/runtime`);
   };
 

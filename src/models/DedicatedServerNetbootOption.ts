@@ -2,4 +2,7 @@
 
 import { DedicatedServerBootOptionEnum } from './DedicatedServerBootOptionEnum';
 
-export type DedicatedServerNetbootOption = { option: DedicatedServerBootOptionEnum; value: string };
+export type DedicatedServerNetbootOption = {
+  option?: DedicatedServerBootOptionEnum;
+  value?: string;
+};

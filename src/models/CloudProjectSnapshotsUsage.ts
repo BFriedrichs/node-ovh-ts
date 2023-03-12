@@ -4,6 +4,6 @@ import { CloudProjectSnapshotUsageDetail } from './CloudProjectSnapshotUsageDeta
 import { OrderPrice } from './OrderPrice';
 
 export type CloudProjectSnapshotsUsage = {
-  detail: CloudProjectSnapshotUsageDetail[];
-  total: OrderPrice;
+  detail?: CloudProjectSnapshotUsageDetail[];
+  total?: OrderPrice;
 };

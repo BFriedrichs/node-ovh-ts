@@ -3,8 +3,8 @@
 import { CloudOrderRuleInstanceCategoryTypeEnum } from './CloudOrderRuleInstanceCategoryTypeEnum';
 
 export type CloudOrderRuleInstanceCategory = {
-  category: CloudOrderRuleInstanceCategoryTypeEnum;
-  isNew: boolean | null;
-  kinds: string[];
-  title: string;
+  category?: CloudOrderRuleInstanceCategoryTypeEnum;
+  isNew?: boolean | null;
+  kinds?: string[];
+  title?: string;
 };

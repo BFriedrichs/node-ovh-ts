@@ -3,7 +3,7 @@
 import { ServicesExpandedRenewModeEnum } from './ServicesExpandedRenewModeEnum';
 
 export type ServicesExpandedRenewCurrent = {
-  mode: ServicesExpandedRenewModeEnum | null;
-  nextDate: Date | null;
-  period: number | null;
+  mode?: ServicesExpandedRenewModeEnum | null;
+  nextDate?: Date | null;
+  period?: number | null;
 };

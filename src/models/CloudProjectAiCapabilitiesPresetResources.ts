@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type CloudProjectAiCapabilitiesPresetResources = { maxGpu: number };
+export type CloudProjectAiCapabilitiesPresetResources = { maxGpu?: number };

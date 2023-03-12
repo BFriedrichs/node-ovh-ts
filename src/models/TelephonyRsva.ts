@@ -3,6 +3,6 @@
 import { TelephonyPortabilitySpecialNumberCategoryEnum } from './TelephonyPortabilitySpecialNumberCategoryEnum';
 
 export type TelephonyRsva = {
-  serviceName: string;
-  typology: TelephonyPortabilitySpecialNumberCategoryEnum | null;
+  serviceName?: string;
+  typology?: TelephonyPortabilitySpecialNumberCategoryEnum | null;
 };

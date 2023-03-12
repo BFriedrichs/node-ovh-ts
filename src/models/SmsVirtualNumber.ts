@@ -2,4 +2,7 @@
 
 import { SmsVirtualNumberIsoCountryCodeEnum } from './SmsVirtualNumberIsoCountryCodeEnum';
 
-export type SmsVirtualNumber = { countryCode: SmsVirtualNumberIsoCountryCodeEnum; number: string };
+export type SmsVirtualNumber = {
+  countryCode?: SmsVirtualNumberIsoCountryCodeEnum;
+  number?: string;
+};

@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type OvertheboxConfigurationTypesDnsNameserver = { server?: string };
+export type OvertheboxConfigurationTypesDnsNameserver = { server: string };

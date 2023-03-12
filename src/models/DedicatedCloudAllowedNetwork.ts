@@ -3,8 +3,8 @@
 import { DedicatedCloudAllowedNetworkStateEnum } from './DedicatedCloudAllowedNetworkStateEnum';
 
 export type DedicatedCloudAllowedNetwork = {
-  description: string | null;
-  network: string;
-  networkAccessId: number;
-  state: DedicatedCloudAllowedNetworkStateEnum;
+  description?: string | null;
+  network?: string;
+  networkAccessId?: number;
+  state?: DedicatedCloudAllowedNetworkStateEnum;
 };

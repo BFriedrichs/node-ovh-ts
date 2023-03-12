@@ -3,7 +3,7 @@
 import { DedicatedServerInstallationProgressStatusEnum } from './DedicatedServerInstallationProgressStatusEnum';
 
 export type DedicatedServerInstallationProgressSteps = {
-  comment: string;
-  error: string | null;
-  status: DedicatedServerInstallationProgressStatusEnum;
+  comment?: string;
+  error?: string | null;
+  status?: DedicatedServerInstallationProgressStatusEnum;
 };

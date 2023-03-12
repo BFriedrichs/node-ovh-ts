@@ -3,10 +3,10 @@
 import { VeeamCloudConnectTaskStateEnum } from './VeeamCloudConnectTaskStateEnum';
 
 export type VeeamCloudConnectTask = {
-  endDate: Date | null;
-  name: string;
-  progress: number;
-  startDate: Date | null;
-  state: VeeamCloudConnectTaskStateEnum;
-  taskId: number;
+  endDate?: Date | null;
+  name?: string;
+  progress?: number;
+  startDate?: Date | null;
+  state?: VeeamCloudConnectTaskStateEnum;
+  taskId?: number;
 };

@@ -1,100 +1,100 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CdnanycastOrderCacheRuleEnum } from '../models/CdnanycastOrderCacheRuleEnum';
-import { HostingPrivateDatabaseAvailableRamSizeEnum } from '../models/HostingPrivateDatabaseAvailableRamSizeEnum';
-import { NichandleLegalFormEnum } from '../models/NichandleLegalFormEnum';
-import { DedicatedCloudRessourcesUpgradeRessourceTypeEnum } from '../models/DedicatedCloudRessourcesUpgradeRessourceTypeEnum';
-import { LicenseWindowsOsVersionEnum } from '../models/LicenseWindowsOsVersionEnum';
-import { TelephonyNumberPoolEnum } from '../models/TelephonyNumberPoolEnum';
-import { OrderCartGenericProductCreation } from '../models/OrderCartGenericProductCreation';
-import { OrderCartGenericDedicatedCreation } from '../models/OrderCartGenericDedicatedCreation';
-import { OrderCartUpdate } from '../models/OrderCartUpdate';
-import { OrderCatalogDedicatedCatalog } from '../models/OrderCatalogDedicatedCatalog';
-import { OrderCartItemConfigurationCreation } from '../models/OrderCartItemConfigurationCreation';
-import { LicenseLicenseTypeEnum } from '../models/LicenseLicenseTypeEnum';
-import { OrderOrder } from '../models/OrderOrder';
-import { OrderCartConfigurationItem } from '../models/OrderCartConfigurationItem';
-import { DedicatedCloudIpCountriesEnum } from '../models/DedicatedCloudIpCountriesEnum';
-import { DedicatedServerOrderableSysFeatureEnum } from '../models/DedicatedServerOrderableSysFeatureEnum';
-import { VpsPleskLicenseDomainNumberEnum } from '../models/VpsPleskLicenseDomainNumberEnum';
-import { DedicatedServerUsbKeyCapacityEnum } from '../models/DedicatedServerUsbKeyCapacityEnum';
-import { DedicatedServerBackupStorageCapacityEnum } from '../models/DedicatedServerBackupStorageCapacityEnum';
-import { OrderCartGenericOptionCreation } from '../models/OrderCartGenericOptionCreation';
-import { HostingWebOrderMxPlanEnum } from '../models/HostingWebOrderMxPlanEnum';
-import { LicenseWindowsSqlVersionEnum } from '../models/LicenseWindowsSqlVersionEnum';
-import { OrderCartDomainPacksProductInformation } from '../models/OrderCartDomainPacksProductInformation';
-import { TelephonyPortabilitySocialReason } from '../models/TelephonyPortabilitySocialReason';
-import { OrderCartItemUpdate } from '../models/OrderCartItemUpdate';
-import { EmailExchangeAccountQuotaEnum } from '../models/EmailExchangeAccountQuotaEnum';
-import { LicenseOrderablePleskLanguagePackEnum } from '../models/LicenseOrderablePleskLanguagePackEnum';
 import { DedicatedCloudOrderableIpBlockRangeEnum } from '../models/DedicatedCloudOrderableIpBlockRangeEnum';
-import { LicenseOrderablePleskDomainNumberEnum } from '../models/LicenseOrderablePleskDomainNumberEnum';
-import { HostingWebOfferEnum } from '../models/HostingWebOfferEnum';
-import { OrderCatalogCatalog } from '../models/OrderCatalogCatalog';
-import { OrderCartGenericDomainCreation } from '../models/OrderCartGenericDomainCreation';
-import { TelephonySecurityDepositAmountsEnum } from '../models/TelephonySecurityDepositAmountsEnum';
-import { CdnanycastOrderQuotaEnum } from '../models/CdnanycastOrderQuotaEnum';
-import { OrderCatalogPublicDedicatedServerCatalog } from '../models/OrderCatalogPublicDedicatedServerCatalog';
-import { TelephonyPortabilityOfferType } from '../models/TelephonyPortabilityOfferType';
-import { EmailExchangeOutlookVersionEnum } from '../models/EmailExchangeOutlookVersionEnum';
-import { TelephonyPortabilityCountriesAvailable } from '../models/TelephonyPortabilityCountriesAvailable';
-import { HostingWebModuleOrderableNameEnum } from '../models/HostingWebModuleOrderableNameEnum';
-import { OrderUpgradeOperationAndOrder } from '../models/OrderUpgradeOperationAndOrder';
-import { DedicatedServerBandwidthOrderTypeEnum } from '../models/DedicatedServerBandwidthOrderTypeEnum';
-import { OrderCartGenericProductDefinition } from '../models/OrderCartGenericProductDefinition';
-import { TelephonyPortabilitySpecialNumberCategoryEnum } from '../models/TelephonyPortabilitySpecialNumberCategoryEnum';
-import { EmailExchangeOvhLicenceEnum } from '../models/EmailExchangeOvhLicenceEnum';
-import { DedicatedServerBandwidthOrderEnum } from '../models/DedicatedServerBandwidthOrderEnum';
-import { LicenseOrderableCpanelVersionEnum } from '../models/LicenseOrderableCpanelVersionEnum';
-import { LicenseWorkLightVersionEnum } from '../models/LicenseWorkLightVersionEnum';
-import { HostingPrivateDatabaseOfferEnum } from '../models/HostingPrivateDatabaseOfferEnum';
-import { TelephonyNumberOffer } from '../models/TelephonyNumberOffer';
-import { EmailDomainOfferEnum } from '../models/EmailDomainOfferEnum';
-import { TelephonyLineTypeEnum } from '../models/TelephonyLineTypeEnum';
-import { TelephonyNumberCountryEnum } from '../models/TelephonyNumberCountryEnum';
-import { OrderCartProductInformation } from '../models/OrderCartProductInformation';
-import { LicenseOrderableVirtuozzoVersionEnum } from '../models/LicenseOrderableVirtuozzoVersionEnum';
-import { HostingWebBandwidthOfferEnum } from '../models/HostingWebBandwidthOfferEnum';
-import { HostingPrivateDatabaseDatacenterEnum } from '../models/HostingPrivateDatabaseDatacenterEnum';
-import { DedicatedCloudAdditionalBandwidthEnum } from '../models/DedicatedCloudAdditionalBandwidthEnum';
-import { DedicatedCloudRessourcesUpgradeTypeEnum } from '../models/DedicatedCloudRessourcesUpgradeTypeEnum';
-import { HostingWebDnsZoneEnum } from '../models/HostingWebDnsZoneEnum';
-import { LicenseOrderableAntispamEnum } from '../models/LicenseOrderableAntispamEnum';
-import { OrderCartCart } from '../models/OrderCartCart';
-import { DedicatedServerTrafficOrderEnum } from '../models/DedicatedServerTrafficOrderEnum';
-import { OrderCartCheckout } from '../models/OrderCartCheckout';
-import { HostingWebCdnOfferEnum } from '../models/HostingWebCdnOfferEnum';
-import { OrderCatalogPublicCatalog } from '../models/OrderCatalogPublicCatalog';
 import { OrderCartDomainPacksCreation } from '../models/OrderCartDomainPacksCreation';
-import { OrderCartCouponCreation } from '../models/OrderCartCouponCreation';
-import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
-import { OverTheBoxShippingMethodEnum } from '../models/OverTheBoxShippingMethodEnum';
-import { OrderCartItem } from '../models/OrderCartItem';
-import { HostingWebDatabaseSqlPersoOfferEnum } from '../models/HostingWebDatabaseSqlPersoOfferEnum';
+import { DedicatedServerTrafficOrderEnum } from '../models/DedicatedServerTrafficOrderEnum';
 import { TelephonySpecialNumberCountryEnum } from '../models/TelephonySpecialNumberCountryEnum';
-import { OrderCatalogPrivateCloudCatalog } from '../models/OrderCatalogPrivateCloudCatalog';
-import { TelephonyPortabilityNumberType } from '../models/TelephonyPortabilityNumberType';
-import { FreefaxQuantityEnum } from '../models/FreefaxQuantityEnum';
-import { SmsChannelEnum } from '../models/SmsChannelEnum';
-import { LicenseSqlServerVersionEnum } from '../models/LicenseSqlServerVersionEnum';
+import { DedicatedServerBackupStorageCapacityEnum } from '../models/DedicatedServerBackupStorageCapacityEnum';
+import { OrderCartGenericProductCreation } from '../models/OrderCartGenericProductCreation';
+import { TelephonyPortabilitySpecialNumberCategoryEnum } from '../models/TelephonyPortabilitySpecialNumberCategoryEnum';
+import { TelephonyLineTypeEnum } from '../models/TelephonyLineTypeEnum';
+import { EmailExchangeOvhLicenceEnum } from '../models/EmailExchangeOvhLicenceEnum';
+import { OrderCartItem } from '../models/OrderCartItem';
+import { OverTheBoxShippingMethodEnum } from '../models/OverTheBoxShippingMethodEnum';
+import { OrderOrder } from '../models/OrderOrder';
+import { TelephonySecurityDepositAmountsEnum } from '../models/TelephonySecurityDepositAmountsEnum';
+import { HostingWebOrderMxPlanEnum } from '../models/HostingWebOrderMxPlanEnum';
+import { HostingWebDatabaseSqlPersoOfferEnum } from '../models/HostingWebDatabaseSqlPersoOfferEnum';
+import { DedicatedServerUsbKeyCapacityEnum } from '../models/DedicatedServerUsbKeyCapacityEnum';
+import { OrderCatalogDedicatedCatalog } from '../models/OrderCatalogDedicatedCatalog';
+import { DedicatedServerBandwidthOrderEnum } from '../models/DedicatedServerBandwidthOrderEnum';
+import { OrderCartGenericOptionDefinition } from '../models/OrderCartGenericOptionDefinition';
+import { VpsAdditionalDiskAdditionalDiskSizeEnum } from '../models/VpsAdditionalDiskAdditionalDiskSizeEnum';
+import { LicenseWindowsOsVersionEnum } from '../models/LicenseWindowsOsVersionEnum';
+import { LicenseLicenseTypeEnum } from '../models/LicenseLicenseTypeEnum';
+import { TelephonyPortabilitySocialReason } from '../models/TelephonyPortabilitySocialReason';
+import { TelephonyPortabilityCountriesAvailable } from '../models/TelephonyPortabilityCountriesAvailable';
+import { OrderCartCreation } from '../models/OrderCartCreation';
+import { HostingWebBandwidthOfferEnum } from '../models/HostingWebBandwidthOfferEnum';
+import { TelephonyNumberSpecialTypologyEnum } from '../models/TelephonyNumberSpecialTypologyEnum';
+import { LicenseWindowsSqlVersionEnum } from '../models/LicenseWindowsSqlVersionEnum';
+import { LicenseOrderableAntivirusEnum } from '../models/LicenseOrderableAntivirusEnum';
+import { OrderCatalogPublicCatalog } from '../models/OrderCatalogPublicCatalog';
+import { OrderCartGenericDomainOptionsCreation } from '../models/OrderCartGenericDomainOptionsCreation';
+import { TelephonyNumberOffer } from '../models/TelephonyNumberOffer';
+import { LicenseOrderableCpanelVersionEnum } from '../models/LicenseOrderableCpanelVersionEnum';
+import { OrderCartGenericDomainCreation } from '../models/OrderCartGenericDomainCreation';
+import { OrderCartGenericOptionCreation } from '../models/OrderCartGenericOptionCreation';
+import { HostingWebCdnOfferEnum } from '../models/HostingWebCdnOfferEnum';
+import { OrderCartUpdate } from '../models/OrderCartUpdate';
+import { OrderCartCart } from '../models/OrderCartCart';
+import { HostingWebModuleOrderableNameEnum } from '../models/HostingWebModuleOrderableNameEnum';
+import { LicenseOrderableAntispamEnum } from '../models/LicenseOrderableAntispamEnum';
+import { HostingPrivateDatabaseOfferEnum } from '../models/HostingPrivateDatabaseOfferEnum';
+import { DedicatedCloudRessourcesUpgradeTypeEnum } from '../models/DedicatedCloudRessourcesUpgradeTypeEnum';
+import { TelephonyNumberPoolEnum } from '../models/TelephonyNumberPoolEnum';
+import { VpsPleskLicenseDomainNumberEnum } from '../models/VpsPleskLicenseDomainNumberEnum';
+import { HostingWebDnsZoneEnum } from '../models/HostingWebDnsZoneEnum';
+import { LicensePleskVersionEnum } from '../models/LicensePleskVersionEnum';
 import { OrderCartGenericDedicatedOptionsCreation } from '../models/OrderCartGenericDedicatedOptionsCreation';
+import { LicenseOrderablePleskLanguagePackEnum } from '../models/LicenseOrderablePleskLanguagePackEnum';
+import { OrderCartCheckout } from '../models/OrderCartCheckout';
+import { HostingPrivateDatabaseAvailableRamSizeEnum } from '../models/HostingPrivateDatabaseAvailableRamSizeEnum';
+import { OrderCartGenericDedicatedCreation } from '../models/OrderCartGenericDedicatedCreation';
 import { LicenseCloudLinuxVersionEnum } from '../models/LicenseCloudLinuxVersionEnum';
 import { DedicatedServerFirewallModelEnum } from '../models/DedicatedServerFirewallModelEnum';
-import { LicensePleskVersionEnum } from '../models/LicensePleskVersionEnum';
-import { VeeamCloudConnectOffer } from '../models/VeeamCloudConnectOffer';
+import { OrderCartCouponCreation } from '../models/OrderCartCouponCreation';
+import { LicenseOrderableVirtuozzoVersionEnum } from '../models/LicenseOrderableVirtuozzoVersionEnum';
+import { CdnanycastOrderCacheRuleEnum } from '../models/CdnanycastOrderCacheRuleEnum';
+import { OrderCartDomainPacksProductInformation } from '../models/OrderCartDomainPacksProductInformation';
+import { EmailExchangeAccountQuotaEnum } from '../models/EmailExchangeAccountQuotaEnum';
+import { OrderCartConfigurationItem } from '../models/OrderCartConfigurationItem';
+import { TelephonyNumberCountryEnum } from '../models/TelephonyNumberCountryEnum';
+import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
+import { DedicatedServerOrderableSysFeatureEnum } from '../models/DedicatedServerOrderableSysFeatureEnum';
+import { OrderCatalogPublicDedicatedServerCatalog } from '../models/OrderCatalogPublicDedicatedServerCatalog';
 import { LicenseOrderableVirtuozzoContainerNumberEnum } from '../models/LicenseOrderableVirtuozzoContainerNumberEnum';
-import { LicensePleskApplicationSetEnum } from '../models/LicensePleskApplicationSetEnum';
+import { LicenseOrderablePleskDomainNumberEnum } from '../models/LicenseOrderablePleskDomainNumberEnum';
 import { DedicatedServerBandwidthvRackOrderEnum } from '../models/DedicatedServerBandwidthvRackOrderEnum';
+import { TelephonyPortabilityNumberType } from '../models/TelephonyPortabilityNumberType';
+import { EmailDomainOfferEnum } from '../models/EmailDomainOfferEnum';
+import { DedicatedCloudRessourcesUpgradeRessourceTypeEnum } from '../models/DedicatedCloudRessourcesUpgradeRessourceTypeEnum';
 import { OrderCartConfigurationRequirements } from '../models/OrderCartConfigurationRequirements';
-import { OrderCatalogPccCatalog } from '../models/OrderCatalogPccCatalog';
+import { TelephonyPortabilityOfferType } from '../models/TelephonyPortabilityOfferType';
+import { OrderCartItemUpdate } from '../models/OrderCartItemUpdate';
+import { LicensePleskApplicationSetEnum } from '../models/LicensePleskApplicationSetEnum';
+import { DedicatedCloudIpCountriesEnum } from '../models/DedicatedCloudIpCountriesEnum';
+import { OrderCartItemConfigurationCreation } from '../models/OrderCartItemConfigurationCreation';
+import { EmailExchangeOutlookVersionEnum } from '../models/EmailExchangeOutlookVersionEnum';
+import { FreefaxQuantityEnum } from '../models/FreefaxQuantityEnum';
+import { LicenseSqlServerVersionEnum } from '../models/LicenseSqlServerVersionEnum';
 import { HostingPrivateDatabaseOrderableVersionEnum } from '../models/HostingPrivateDatabaseOrderableVersionEnum';
-import { TelephonyNumberSpecialTypologyEnum } from '../models/TelephonyNumberSpecialTypologyEnum';
-import { OrderCartCreation } from '../models/OrderCartCreation';
-import { VpsAdditionalDiskAdditionalDiskSizeEnum } from '../models/VpsAdditionalDiskAdditionalDiskSizeEnum';
-import { OrderCartGenericOptionDefinition } from '../models/OrderCartGenericOptionDefinition';
-import { OrderCartGenericDomainOptionsCreation } from '../models/OrderCartGenericDomainOptionsCreation';
-import { LicenseOrderableAntivirusEnum } from '../models/LicenseOrderableAntivirusEnum';
+import { VeeamCloudConnectOffer } from '../models/VeeamCloudConnectOffer';
+import { DedicatedCloudAdditionalBandwidthEnum } from '../models/DedicatedCloudAdditionalBandwidthEnum';
+import { OrderCartGenericProductDefinition } from '../models/OrderCartGenericProductDefinition';
+import { LicenseWorkLightVersionEnum } from '../models/LicenseWorkLightVersionEnum';
+import { DedicatedServerBandwidthOrderTypeEnum } from '../models/DedicatedServerBandwidthOrderTypeEnum';
+import { HostingPrivateDatabaseDatacenterEnum } from '../models/HostingPrivateDatabaseDatacenterEnum';
 import { LicenseOrderableDirectAdminVersionEnum } from '../models/LicenseOrderableDirectAdminVersionEnum';
+import { NichandleLegalFormEnum } from '../models/NichandleLegalFormEnum';
+import { HostingWebOfferEnum } from '../models/HostingWebOfferEnum';
+import { OrderCartProductInformation } from '../models/OrderCartProductInformation';
+import { OrderCatalogPrivateCloudCatalog } from '../models/OrderCatalogPrivateCloudCatalog';
+import { OrderUpgradeOperationAndOrder } from '../models/OrderUpgradeOperationAndOrder';
+import { OrderCatalogCatalog } from '../models/OrderCatalogCatalog';
+import { OrderCatalogPccCatalog } from '../models/OrderCatalogPccCatalog';
+import { SmsChannelEnum } from '../models/SmsChannelEnum';
+import { CdnanycastOrderQuotaEnum } from '../models/CdnanycastOrderQuotaEnum';
 import OVHBase from '../ovh';
 
 class OrderHandler {
@@ -105,7 +105,7 @@ class OrderHandler {
   }
 
   /** List of your OVH order carts */
-  listCarts = (): Promise<string[]> => {
+  listCart = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cart');
   };
 
@@ -1040,7 +1040,7 @@ class OrderHandler {
   };
 
   /** List all the items of a cart */
-  listCartItemsByCartId = (cartId: string): Promise<number[]> => {
+  listCartItemByCartId = (cartId: string): Promise<number[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/item`);
   };
 
@@ -2323,7 +2323,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionClouds = (): Promise<string[]> => {
+  listCartServiceOptionCloud = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/cloud');
   };
 
@@ -2349,7 +2349,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionDedicateds = (): Promise<string[]> => {
+  listCartServiceOptionDedicated = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/dedicated');
   };
 
@@ -2401,7 +2401,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionDomains = (): Promise<string[]> => {
+  listCartServiceOptionDomain = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/domain');
   };
 
@@ -2427,7 +2427,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionEmailpros = (): Promise<string[]> => {
+  listCartServiceOptionEmailpro = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/emailpro');
   };
 
@@ -2453,7 +2453,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionIpLoadbalancings = (): Promise<string[]> => {
+  listCartServiceOptionIpLoadbalancing = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/ipLoadbalancing');
   };
 
@@ -2509,7 +2509,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionMicrosofts = (): Promise<string[]> => {
+  listCartServiceOptionMicrosoft = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/microsoft');
   };
 
@@ -2535,7 +2535,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionMicrosoftExchanges = (): Promise<string[]> => {
+  listCartServiceOptionMicrosoftExchange = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/microsoftExchange');
   };
 
@@ -2565,7 +2565,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionOffice365Prepaids = (): Promise<string[]> => {
+  listCartServiceOptionOffice365Prepaid = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/office365Prepaid');
   };
 
@@ -2595,7 +2595,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionOfficePrepaids = (): Promise<string[]> => {
+  listCartServiceOptionOfficePrepaid = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/officePrepaid');
   };
 
@@ -2621,7 +2621,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionPrivateClouds = (): Promise<string[]> => {
+  listCartServiceOptionPrivateCloud = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/privateCloud');
   };
 
@@ -2647,7 +2647,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionPrivateCloudEnterprises = (): Promise<string[]> => {
+  listCartServiceOptionPrivateCloudEnterprise = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/privateCloudEnterprise');
   };
 
@@ -2680,7 +2680,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionPrivateCloudResellers = (): Promise<string[]> => {
+  listCartServiceOptionPrivateCloudReseller = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/privateCloudReseller');
   };
 
@@ -2710,7 +2710,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionPrivateCloudResellerEnterprises = (): Promise<string[]> => {
+  listCartServiceOptionPrivateCloudResellerEnterprise = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/privateCloudResellerEnterprise');
   };
 
@@ -2743,7 +2743,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionSharepoints = (): Promise<string[]> => {
+  listCartServiceOptionSharepoint = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/sharepoint');
   };
 
@@ -2769,7 +2769,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionSslGateways = (): Promise<string[]> => {
+  listCartServiceOptionSslGateway = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/sslGateway');
   };
 
@@ -2795,7 +2795,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionVdis = (): Promise<string[]> => {
+  listCartServiceOptionVdi = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/vdi');
   };
 
@@ -2847,7 +2847,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionWebHostings = (): Promise<string[]> => {
+  listCartServiceOptionWebHosting = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/webHosting');
   };
 
@@ -2873,7 +2873,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCartServiceOptionWebPaaSs = (): Promise<string[]> => {
+  listCartServiceOptionWebPaaS = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/webPaaS');
   };
 
@@ -3164,7 +3164,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCdnDedicateds = (): Promise<string[]> => {
+  listCdnDedicated = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cdn/dedicated');
   };
 
@@ -3263,7 +3263,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listCloudProjects = (): Promise<string[]> => {
+  listCloudProject = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cloud/project');
   };
 
@@ -3286,7 +3286,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listDedicatedHousings = (): Promise<string[]> => {
+  listDedicatedHousing = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/dedicated/housing');
   };
 
@@ -3317,7 +3317,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listDedicatedServers = (): Promise<string[]> => {
+  listDedicatedServer = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/dedicated/server');
   };
 
@@ -3619,7 +3619,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listDedicatedClouds = (): Promise<string[]> => {
+  listDedicatedCloud = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/dedicatedCloud');
   };
 
@@ -3787,7 +3787,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listDomainZones = (): Promise<string[]> => {
+  listDomainZone = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/domain/zone');
   };
 
@@ -3828,7 +3828,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listEmailDomains = (): Promise<string[]> => {
+  listEmailDomain = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/email/domain');
   };
 
@@ -3878,12 +3878,12 @@ class OrderHandler {
   };
 
   /** List available services */
-  listEmailExchanges = (): Promise<string[]> => {
+  listEmailExchange = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/email/exchange');
   };
 
   /** List available services */
-  listEmailExchangeServicesByOrganizationName = (organizationName: string): Promise<string[]> => {
+  listEmailExchangeServiceByOrganizationName = (organizationName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/email/exchange/${organizationName}/service`);
   };
 
@@ -4058,7 +4058,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listEmailPros = (): Promise<string[]> => {
+  listEmailPro = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/email/pro');
   };
 
@@ -4090,7 +4090,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listFreefaxs = (): Promise<string[]> => {
+  listFreefax = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/freefax');
   };
 
@@ -4123,7 +4123,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listHostingPrivateDatabases = (): Promise<string[]> => {
+  listHostingPrivateDatabase = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/hosting/privateDatabase');
   };
 
@@ -4182,7 +4182,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listHostingWebs = (): Promise<string[]> => {
+  listHostingWeb = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/hosting/web');
   };
 
@@ -4380,7 +4380,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listLicenseCpanels = (): Promise<string[]> => {
+  listLicenseCpanel = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/cpanel');
   };
 
@@ -4478,7 +4478,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listLicensePlesks = (): Promise<string[]> => {
+  listLicensePlesk = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/plesk');
   };
 
@@ -4553,7 +4553,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listLicenseSqlservers = (): Promise<string[]> => {
+  listLicenseSqlserver = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/sqlserver');
   };
 
@@ -4607,7 +4607,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listLicenseVirtuozzos = (): Promise<string[]> => {
+  listLicenseVirtuozzo = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/virtuozzo');
   };
 
@@ -4725,7 +4725,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listLicenseWorklights = (): Promise<string[]> => {
+  listLicenseWorklight = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/worklight');
   };
 
@@ -4779,7 +4779,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listOverTheBoxs = (): Promise<string[]> => {
+  listOverTheBox = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/overTheBox');
   };
 
@@ -4881,7 +4881,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listTelephonys = (): Promise<string[]> => {
+  listTelephony = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/telephony');
   };
 
@@ -5264,7 +5264,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradeBaremetalPrivateBandwidths = (): Promise<string[]> => {
+  listUpgradeBaremetalPrivateBandwidth = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/baremetalPrivateBandwidth');
   };
 
@@ -5300,7 +5300,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradeBaremetalPublicBandwidths = (): Promise<string[]> => {
+  listUpgradeBaremetalPublicBandwidth = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/baremetalPublicBandwidth');
   };
 
@@ -5365,7 +5365,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradeCloudDBs = (): Promise<string[]> => {
+  listUpgradeCloudDB = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/cloudDB');
   };
 
@@ -5392,7 +5392,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradeEmailDomains = (): Promise<string[]> => {
+  listUpgradeEmailDomain = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/emailDomain');
   };
 
@@ -5421,7 +5421,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradeIpLoadbalancings = (): Promise<string[]> => {
+  listUpgradeIpLoadbalancing = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/ipLoadbalancing');
   };
 
@@ -5454,7 +5454,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradeLicensePlesks = (): Promise<string[]> => {
+  listUpgradeLicensePlesk = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/licensePlesk');
   };
 
@@ -5483,7 +5483,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradeLicensecPanels = (): Promise<string[]> => {
+  listUpgradeLicensecPanel = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/licensecPanel');
   };
 
@@ -5574,7 +5574,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradeMicrosoftExchanges = (): Promise<string[]> => {
+  listUpgradeMicrosoftExchange = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/microsoftExchange');
   };
 
@@ -5607,7 +5607,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradePrivateClouds = (): Promise<string[]> => {
+  listUpgradePrivateCloud = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/privateCloud');
   };
 
@@ -5636,7 +5636,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradePrivateCloudManagementFees = (): Promise<string[]> => {
+  listUpgradePrivateCloudManagementFee = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/privateCloudManagementFee');
   };
 
@@ -5672,7 +5672,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradePrivateSQLs = (): Promise<string[]> => {
+  listUpgradePrivateSQL = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/privateSQL');
   };
 
@@ -5699,7 +5699,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradeSslGateways = (): Promise<string[]> => {
+  listUpgradeSslGateway = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/sslGateway');
   };
 
@@ -5757,7 +5757,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradeVpsAdditionalDisks = (): Promise<string[]> => {
+  listUpgradeVpsAdditionalDisk = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/vpsAdditionalDisk');
   };
 
@@ -5790,7 +5790,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradeWebHostings = (): Promise<string[]> => {
+  listUpgradeWebHosting = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/webHosting');
   };
 
@@ -5819,7 +5819,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listUpgradeWebPaaSs = (): Promise<string[]> => {
+  listUpgradeWebPaaS = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/webPaaS');
   };
 
@@ -5848,7 +5848,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listVeeamCloudConnects = (): Promise<string[]> => {
+  listVeeamCloudConnect = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/veeamCloudConnect');
   };
 
@@ -6086,7 +6086,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  listVracks = (): Promise<string[]> => {
+  listVrack = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/vrack');
   };
 

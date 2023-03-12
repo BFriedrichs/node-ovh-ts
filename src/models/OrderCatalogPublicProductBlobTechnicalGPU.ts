@@ -3,9 +3,9 @@
 import { OrderCatalogPublicProductBlobTechnicalMemory } from './OrderCatalogPublicProductBlobTechnicalMemory';
 
 export type OrderCatalogPublicProductBlobTechnicalGPU = {
-  brand: string | null;
-  memory: OrderCatalogPublicProductBlobTechnicalMemory;
-  model: string | null;
-  number: number | null;
-  performance: number | null;
+  brand?: string | null;
+  memory?: OrderCatalogPublicProductBlobTechnicalMemory;
+  model?: string | null;
+  number?: number | null;
+  performance?: number | null;
 };

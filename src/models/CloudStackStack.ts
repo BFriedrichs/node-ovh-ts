@@ -3,11 +3,11 @@
 import { CloudStackInstructionGuide } from './CloudStackInstructionGuide';
 
 export type CloudStackStack = {
-  commit: string;
-  description: string;
-  gitRepository: string;
-  instructions: CloudStackInstructionGuide[];
-  name: string;
-  release: string;
-  uuid: string;
+  commit?: string;
+  description?: string;
+  gitRepository?: string;
+  instructions?: CloudStackInstructionGuide[];
+  name?: string;
+  release?: string;
+  uuid?: string;
 };

@@ -1,20 +1,20 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HorizonViewPoolType } from '../models/HorizonViewPoolType';
-import { HorizonViewTaskStateEnum } from '../models/HorizonViewTaskStateEnum';
-import { HorizonViewDatacenter } from '../models/HorizonViewDatacenter';
-import { HorizonViewAccessPointTypeEnum } from '../models/HorizonViewAccessPointTypeEnum';
-import { HorizonViewCustomerNetworkPool } from '../models/HorizonViewCustomerNetworkPool';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { HorizonViewCustomerNetwork } from '../models/HorizonViewCustomerNetwork';
-import { HorizonViewUser } from '../models/HorizonViewUser';
-import { HorizonViewCustomerUser } from '../models/HorizonViewCustomerUser';
 import { HorizonViewDedicatedHorizon } from '../models/HorizonViewDedicatedHorizon';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { HorizonViewDomainTrust } from '../models/HorizonViewDomainTrust';
-import { HorizonViewTask } from '../models/HorizonViewTask';
-import { ServicesService } from '../models/ServicesService';
 import { HorizonViewPool } from '../models/HorizonViewPool';
+import { HorizonViewAccessPointTypeEnum } from '../models/HorizonViewAccessPointTypeEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { HorizonViewCustomerNetwork } from '../models/HorizonViewCustomerNetwork';
+import { HorizonViewDatacenter } from '../models/HorizonViewDatacenter';
+import { HorizonViewCustomerNetworkPool } from '../models/HorizonViewCustomerNetworkPool';
+import { HorizonViewPoolType } from '../models/HorizonViewPoolType';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { HorizonViewCustomerUser } from '../models/HorizonViewCustomerUser';
+import { HorizonViewTask } from '../models/HorizonViewTask';
+import { HorizonViewUser } from '../models/HorizonViewUser';
+import { HorizonViewDomainTrust } from '../models/HorizonViewDomainTrust';
+import { HorizonViewTaskStateEnum } from '../models/HorizonViewTaskStateEnum';
+import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class HorizonViewHandler {
@@ -25,7 +25,7 @@ class HorizonViewHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/horizonView');
   };
 
@@ -349,7 +349,7 @@ class HorizonViewHandler {
   };
 
   /** List all Active Directories linked to your CDI Active Directory */
-  listDomainTrustsByServiceName = (serviceName: string): Promise<number[]> => {
+  listDomainTrustByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/horizonView/${serviceName}/domainTrust`);
   };
 

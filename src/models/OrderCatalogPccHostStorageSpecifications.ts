@@ -3,6 +3,6 @@
 import { OrderCatalogPccPccUnitAndValue } from './OrderCatalogPccPccUnitAndValue';
 
 export type OrderCatalogPccHostStorageSpecifications = {
-  size: OrderCatalogPccPccUnitAndValue;
-  type: string;
+  size?: OrderCatalogPccPccUnitAndValue;
+  type?: string;
 };

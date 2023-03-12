@@ -3,7 +3,7 @@
 import { CloudExecutionStateEnum } from './CloudExecutionStateEnum';
 
 export type CloudExecution = {
-  executedAt: Date;
-  state: CloudExecutionStateEnum;
-  stateInfo: string;
+  executedAt?: Date;
+  state?: CloudExecutionStateEnum;
+  stateInfo?: string;
 };

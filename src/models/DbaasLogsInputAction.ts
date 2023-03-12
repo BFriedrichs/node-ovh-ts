@@ -2,4 +2,4 @@
 
 import { DbaasLogsInputActionTypeEnum } from './DbaasLogsInputActionTypeEnum';
 
-export type DbaasLogsInputAction = { isAllowed: boolean; type: DbaasLogsInputActionTypeEnum };
+export type DbaasLogsInputAction = { isAllowed?: boolean; type?: DbaasLogsInputActionTypeEnum };

@@ -3,6 +3,6 @@
 import { TelephonyCarrierSipClusterZoneRegionEnum } from './TelephonyCarrierSipClusterZoneRegionEnum';
 
 export type TelephonyCarrierSipClusterZone = {
-  mediaIps: string[];
-  region: TelephonyCarrierSipClusterZoneRegionEnum;
+  mediaIps?: string[];
+  region?: TelephonyCarrierSipClusterZoneRegionEnum;
 };

@@ -3,6 +3,6 @@
 import { SupplyMondialRelay } from './SupplyMondialRelay';
 
 export type SupplyMondialRelayResult = {
-  referenceAddress: string;
-  relayPoints: SupplyMondialRelay[];
+  referenceAddress?: string;
+  relayPoints?: SupplyMondialRelay[];
 };

@@ -2,4 +2,4 @@
 
 import { PackXdslServiceNameEnum } from './PackXdslServiceNameEnum';
 
-export type PackXdslService = { domain: string; id: number; type: PackXdslServiceNameEnum };
+export type PackXdslService = { domain?: string; id?: number; type?: PackXdslServiceNameEnum };

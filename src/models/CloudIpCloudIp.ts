@@ -3,8 +3,8 @@
 import { CloudIpIpStatusEnum } from './CloudIpIpStatusEnum';
 
 export type CloudIpCloudIp = {
-  id: string;
-  ip: string | null;
-  status: CloudIpIpStatusEnum;
-  type: string;
+  id?: string;
+  ip?: string | null;
+  status?: CloudIpIpStatusEnum;
+  type?: string;
 };

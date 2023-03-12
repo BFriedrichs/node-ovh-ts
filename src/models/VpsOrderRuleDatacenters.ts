@@ -2,4 +2,4 @@
 
 import { VpsOrderRuleDatacenter } from './VpsOrderRuleDatacenter';
 
-export type VpsOrderRuleDatacenters = { datacenters: VpsOrderRuleDatacenter[] };
+export type VpsOrderRuleDatacenters = { datacenters?: VpsOrderRuleDatacenter[] };

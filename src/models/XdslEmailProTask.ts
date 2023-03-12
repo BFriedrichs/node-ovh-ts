@@ -3,8 +3,8 @@
 import { XdslEmailProTaskStatusEnum } from './XdslEmailProTaskStatusEnum';
 
 export type XdslEmailProTask = {
-  finishDate: Date | null;
-  function: string;
-  status: XdslEmailProTaskStatusEnum;
-  todoDate: Date;
+  finishDate?: Date | null;
+  function?: string;
+  status?: XdslEmailProTaskStatusEnum;
+  todoDate?: Date;
 };

@@ -3,7 +3,7 @@
 import { TelephonyVoicemailMessageFolderGreetingEnum } from './TelephonyVoicemailMessageFolderGreetingEnum';
 
 export type TelephonyVoicemailGreetings = {
-  callee: string;
-  dir: TelephonyVoicemailMessageFolderGreetingEnum;
-  id: number;
+  callee?: string;
+  dir?: TelephonyVoicemailMessageFolderGreetingEnum;
+  id?: number;
 };

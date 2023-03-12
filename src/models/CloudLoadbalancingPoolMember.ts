@@ -4,11 +4,11 @@ import { CloudLoadbalancingLoadBalancerProvisioningStatusEnum } from './CloudLoa
 import { CloudLoadbalancingLoadBalancerOperatingStatusEnum } from './CloudLoadbalancingLoadBalancerOperatingStatusEnum';
 
 export type CloudLoadbalancingPoolMember = {
-  address?: string;
-  id: string;
-  name: string;
-  operatingStatus: CloudLoadbalancingLoadBalancerOperatingStatusEnum;
-  protocolPort?: number;
-  provisioningStatus: CloudLoadbalancingLoadBalancerProvisioningStatusEnum;
-  weight: number;
+  address: string;
+  id?: string;
+  name?: string;
+  operatingStatus?: CloudLoadbalancingLoadBalancerOperatingStatusEnum;
+  protocolPort: number;
+  provisioningStatus?: CloudLoadbalancingLoadBalancerProvisioningStatusEnum;
+  weight?: number;
 };

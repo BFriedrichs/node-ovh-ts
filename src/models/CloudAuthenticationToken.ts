@@ -3,6 +3,6 @@
 import { CloudAuthenticationOpenstackToken } from './CloudAuthenticationOpenstackToken';
 
 export type CloudAuthenticationToken = {
-  'X-Auth-Token': string;
-  token: CloudAuthenticationOpenstackToken;
+  'X-Auth-Token'?: string;
+  token?: CloudAuthenticationOpenstackToken;
 };

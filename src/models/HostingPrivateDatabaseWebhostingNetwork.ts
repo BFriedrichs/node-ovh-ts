@@ -3,5 +3,5 @@
 import { HostingPrivateDatabaseWebhostingNetworkStatus } from './HostingPrivateDatabaseWebhostingNetworkStatus';
 
 export type HostingPrivateDatabaseWebhostingNetwork = {
-  status: HostingPrivateDatabaseWebhostingNetworkStatus;
+  status?: HostingPrivateDatabaseWebhostingNetworkStatus;
 };

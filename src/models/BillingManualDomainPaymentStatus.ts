@@ -3,7 +3,7 @@
 import { BillingBillingTaskStatusEnum } from './BillingBillingTaskStatusEnum';
 
 export type BillingManualDomainPaymentStatus = {
-  domainsToMigrate: number | null;
-  migratedDomains: number | null;
-  status: BillingBillingTaskStatusEnum;
+  domainsToMigrate?: number | null;
+  migratedDomains?: number | null;
+  status?: BillingBillingTaskStatusEnum;
 };

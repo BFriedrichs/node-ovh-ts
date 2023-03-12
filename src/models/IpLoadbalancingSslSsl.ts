@@ -3,12 +3,12 @@
 import { IpLoadbalancingSslTypeEnum } from './IpLoadbalancingSslTypeEnum';
 
 export type IpLoadbalancingSslSsl = {
-  displayName: string | null;
-  expireDate: Date;
-  fingerprint: string;
-  id: number;
-  san: string[];
-  serial: string;
-  subject: string;
-  type: IpLoadbalancingSslTypeEnum | null;
+  displayName?: string | null;
+  expireDate?: Date;
+  fingerprint?: string;
+  id?: number;
+  san?: string[];
+  serial?: string;
+  subject?: string;
+  type?: IpLoadbalancingSslTypeEnum | null;
 };

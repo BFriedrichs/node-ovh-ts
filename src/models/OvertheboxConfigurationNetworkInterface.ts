@@ -4,8 +4,8 @@ import { OvertheboxConfigurationTypesNetworkInterface } from './OvertheboxConfig
 import { OvertheboxConfigurationStatusEnum } from './OvertheboxConfigurationStatusEnum';
 
 export type OvertheboxConfigurationNetworkInterface = {
-  configuration?: OvertheboxConfigurationTypesNetworkInterface;
-  id: string;
-  priority?: number;
-  status: OvertheboxConfigurationStatusEnum;
+  configuration: OvertheboxConfigurationTypesNetworkInterface;
+  id?: string;
+  priority: number;
+  status?: OvertheboxConfigurationStatusEnum;
 };

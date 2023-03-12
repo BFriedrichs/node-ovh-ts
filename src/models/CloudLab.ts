@@ -2,4 +2,4 @@
 
 import { CloudLabStatusEnum } from './CloudLabStatusEnum';
 
-export type CloudLab = { id: string; name: string; status: CloudLabStatusEnum };
+export type CloudLab = { id?: string; name?: string; status?: CloudLabStatusEnum };

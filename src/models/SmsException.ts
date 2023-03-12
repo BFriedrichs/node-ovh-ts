@@ -3,9 +3,9 @@
 import { SmsRestrictionCodeEnum } from './SmsRestrictionCodeEnum';
 
 export type SmsException = {
-  countrySuffixe: string;
-  messages: string[];
-  operators: string;
-  restrictionCode: SmsRestrictionCodeEnum;
-  substitution: string | null;
+  countrySuffixe?: string;
+  messages?: string[];
+  operators?: string;
+  restrictionCode?: SmsRestrictionCodeEnum;
+  substitution?: string | null;
 };

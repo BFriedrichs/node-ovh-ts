@@ -1,195 +1,195 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyFaxCampaignRecipientsTypeEnum } from '../models/TelephonyFaxCampaignRecipientsTypeEnum';
-import { TelephonyScreenListNatureEnum } from '../models/TelephonyScreenListNatureEnum';
-import { TelephonyOvhPabxHuntingQueueStrategyEnum } from '../models/TelephonyOvhPabxHuntingQueueStrategyEnum';
-import { TelephonyPhonebook } from '../models/TelephonyPhonebook';
-import { TelephonyMiniPabxHunting } from '../models/TelephonyMiniPabxHunting';
-import { TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum } from '../models/TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum';
-import { TelephonyConferenceInformations } from '../models/TelephonyConferenceInformations';
-import { TelephonyTimeConditionOptions } from '../models/TelephonyTimeConditionOptions';
-import { TelephonyOvhPabxIvrMenuEntryActionEnum } from '../models/TelephonyOvhPabxIvrMenuEntryActionEnum';
-import { TelephonyScheduler } from '../models/TelephonyScheduler';
-import { TelephonyRma } from '../models/TelephonyRma';
-import { TelephonyOvhPabxDialplanExtensionRuleActionEnum } from '../models/TelephonyOvhPabxDialplanExtensionRuleActionEnum';
-import { TelephonyVoicefaxRoutingEnum } from '../models/TelephonyVoicefaxRoutingEnum';
-import { TelephonyRepaymentConsumption } from '../models/TelephonyRepaymentConsumption';
-import { TelephonyRateCodeInformation } from '../models/TelephonyRateCodeInformation';
-import { TelephonyDiagnosticReport } from '../models/TelephonyDiagnosticReport';
-import { TelephonyStatisticsTimeframeEnum } from '../models/TelephonyStatisticsTimeframeEnum';
-import { TelephonyHardwareOffer } from '../models/TelephonyHardwareOffer';
-import { TelephonyPortabilityFixErrorPossibleParameters } from '../models/TelephonyPortabilityFixErrorPossibleParameters';
-import { TelephonyBannerAccess } from '../models/TelephonyBannerAccess';
-import { TelephonyTrunk } from '../models/TelephonyTrunk';
-import { TelephonyConferenceProperties } from '../models/TelephonyConferenceProperties';
-import { TelephonyPhonebookContact } from '../models/TelephonyPhonebookContact';
-import { TelephonyConsumptionThreshold } from '../models/TelephonyConsumptionThreshold';
-import { TelephonyDirectoryInfo } from '../models/TelephonyDirectoryInfo';
-import { TelephonyTaskStatusEnum } from '../models/TelephonyTaskStatusEnum';
-import { TelephonyAntihackActionEnum } from '../models/TelephonyAntihackActionEnum';
-import { TelephonySchedulerEvent } from '../models/TelephonySchedulerEvent';
-import { TelephonyRmaChangeTypeEnum } from '../models/TelephonyRmaChangeTypeEnum';
-import { TelephonyLineOffer } from '../models/TelephonyLineOffer';
-import { TelephonyHistoryConsumption } from '../models/TelephonyHistoryConsumption';
-import { TelephonyOvhPabxTts } from '../models/TelephonyOvhPabxTts';
-import { TelephonyPortability } from '../models/TelephonyPortability';
-import { TelephonyVoicemailMessages } from '../models/TelephonyVoicemailMessages';
-import { TelephonyOvhPabxHunting } from '../models/TelephonyOvhPabxHunting';
-import { TelephonyOvhPabxMenuEntry } from '../models/TelephonyOvhPabxMenuEntry';
-import { TelephonySimultaneousChannelsDetails } from '../models/TelephonySimultaneousChannelsDetails';
-import { TelephonyOvhPabxCustomStatus } from '../models/TelephonyOvhPabxCustomStatus';
-import { TelephonyEasyHuntingTimeConditions } from '../models/TelephonyEasyHuntingTimeConditions';
-import { TelephonyTemporaryLogsLink } from '../models/TelephonyTemporaryLogsLink';
-import { TelephonyDetailedRateCodeInformation } from '../models/TelephonyDetailedRateCodeInformation';
-import { TelephonyRsva } from '../models/TelephonyRsva';
-import { TelephonyEasyHuntingScreenListsConditions } from '../models/TelephonyEasyHuntingScreenListsConditions';
-import { TelephonyConferenceRoomsStatistics } from '../models/TelephonyConferenceRoomsStatistics';
-import { TelephonyEasyHuntingTimeConditionsSettings } from '../models/TelephonyEasyHuntingTimeConditionsSettings';
-import { TelephonyOvhPabxHuntingQueueRecordDisablingLanguageEnum } from '../models/TelephonyOvhPabxHuntingQueueRecordDisablingLanguageEnum';
-import { TelephonyTimestampAndValue } from '../models/TelephonyTimestampAndValue';
-import { TelephonyOvhPabxHuntingAgentLiveStatus } from '../models/TelephonyOvhPabxHuntingAgentLiveStatus';
-import { TelephonyOvhPabxHuntingQueue } from '../models/TelephonyOvhPabxHuntingQueue';
-import { TelephonyPortabilityDocument } from '../models/TelephonyPortabilityDocument';
-import { TelephonyLineOptions } from '../models/TelephonyLineOptions';
-import { TelephonyOvhPabxHuntingAgent } from '../models/TelephonyOvhPabxHuntingAgent';
-import { TelephonyOvhPabxHuntingQueueLiveStatistics } from '../models/TelephonyOvhPabxHuntingQueueLiveStatistics';
-import { TelephonyConferenceRoom } from '../models/TelephonyConferenceRoom';
-import { TelephonyServiceNumberCountryEnum } from '../models/TelephonyServiceNumberCountryEnum';
-import { TelephonyScreenListTypeEnum } from '../models/TelephonyScreenListTypeEnum';
-import { TelephonyVoicemailProperties } from '../models/TelephonyVoicemailProperties';
-import { TelephonyServiceVoicemailAudioFormatEnum } from '../models/TelephonyServiceVoicemailAudioFormatEnum';
-import { TelephonyPreviousVoiceConsumption } from '../models/TelephonyPreviousVoiceConsumption';
-import { OrderPrice } from '../models/OrderPrice';
-import { TelephonyTonesTypeEnum } from '../models/TelephonyTonesTypeEnum';
-import { TelephonyFunctionKey } from '../models/TelephonyFunctionKey';
-import { TelephonyLinePhone } from '../models/TelephonyLinePhone';
-import { TelephonyTelephonyService } from '../models/TelephonyTelephonyService';
-import { TelephonyFaxProperties } from '../models/TelephonyFaxProperties';
-import { TelephonyPcsFile } from '../models/TelephonyPcsFile';
 import { TelephonyFax } from '../models/TelephonyFax';
-import { TelephonyCity } from '../models/TelephonyCity';
-import { TelephonyFaxCampaignDetail } from '../models/TelephonyFaxCampaignDetail';
-import { TelephonyRmaPublicTypeEnum } from '../models/TelephonyRmaPublicTypeEnum';
-import { TelephonyLineOffersAndContracts } from '../models/TelephonyLineOffersAndContracts';
-import { TelephonyGenericScreen } from '../models/TelephonyGenericScreen';
-import { TelephonyOfferTaskTypeEnum } from '../models/TelephonyOfferTaskTypeEnum';
-import { TelephonyTimeConditionsPolicyEnum } from '../models/TelephonyTimeConditionsPolicyEnum';
-import { TelephonyResellerPanelStatus } from '../models/TelephonyResellerPanelStatus';
-import { TelephonyCallsGenerated } from '../models/TelephonyCallsGenerated';
-import { TelephonyVoiceConsumptionPlanTypeEnum } from '../models/TelephonyVoiceConsumptionPlanTypeEnum';
-import { TelephonyTrunkExternalDisplayedNumberValidation } from '../models/TelephonyTrunkExternalDisplayedNumberValidation';
+import { TelephonyFaxConsumptionWayTypeEnum } from '../models/TelephonyFaxConsumptionWayTypeEnum';
+import { TelephonyVoicefaxRoutingEnum } from '../models/TelephonyVoicefaxRoutingEnum';
+import { TelephonyOvhPabxRecord } from '../models/TelephonyOvhPabxRecord';
+import { TelephonyTemporaryLogsLink } from '../models/TelephonyTemporaryLogsLink';
+import { TelephonyAbbreviatedNumber } from '../models/TelephonyAbbreviatedNumber';
+import { TelephonyOvhPabxDialplanExtensionConditionTime } from '../models/TelephonyOvhPabxDialplanExtensionConditionTime';
+import { TelephonyAccessoryOffer } from '../models/TelephonyAccessoryOffer';
+import { TelephonyOvhPabxWhisperingModeEnum } from '../models/TelephonyOvhPabxWhisperingModeEnum';
+import { TelephonyRedirect } from '../models/TelephonyRedirect';
+import { TelephonyHistoryTollfreeConsumption } from '../models/TelephonyHistoryTollfreeConsumption';
+import { TelephonyFaxProperties } from '../models/TelephonyFaxProperties';
+import { TelephonyEasyPabx } from '../models/TelephonyEasyPabx';
+import { TelephonyVoicemailMessageFolderGreetingEnum } from '../models/TelephonyVoicemailMessageFolderGreetingEnum';
 import { TelephonyBillDocument } from '../models/TelephonyBillDocument';
-import { TelephonyConferenceWebAccessTypeEnum } from '../models/TelephonyConferenceWebAccessTypeEnum';
-import { TelephonyOvhPabxDialplanExtensionConditionScreenList } from '../models/TelephonyOvhPabxDialplanExtensionConditionScreenList';
-import { TelephonyVxmlProperties } from '../models/TelephonyVxmlProperties';
-import { TelephonyOvhPabxHuntingQueueRecordDisablingDigitEnum } from '../models/TelephonyOvhPabxHuntingQueueRecordDisablingDigitEnum';
-import { TelephonyLineBlockingMode } from '../models/TelephonyLineBlockingMode';
-import { TelephonyOvhPabxHuntingAgentStatusEnum } from '../models/TelephonyOvhPabxHuntingAgentStatusEnum';
+import { TelephonyTimestampAndValue } from '../models/TelephonyTimestampAndValue';
+import { TelephonyEasyHuntingTimeConditions } from '../models/TelephonyEasyHuntingTimeConditions';
+import { TelephonyFaxCampaign } from '../models/TelephonyFaxCampaign';
+import { TelephonyLineStatisticsTypeEnum } from '../models/TelephonyLineStatisticsTypeEnum';
+import { TelephonyVoiceConsumptionPlanTypeEnum } from '../models/TelephonyVoiceConsumptionPlanTypeEnum';
+import { TelephonyPhonebookMaster } from '../models/TelephonyPhonebookMaster';
+import { TelephonyOvhPabxHuntingAgentQueue } from '../models/TelephonyOvhPabxHuntingAgentQueue';
+import { TelephonyDefaultSipDomains } from '../models/TelephonyDefaultSipDomains';
+import { TelephonyHistoryConsumption } from '../models/TelephonyHistoryConsumption';
+import { TelephonyOvhPabxHuntingQueueRecordDisablingLanguageEnum } from '../models/TelephonyOvhPabxHuntingQueueRecordDisablingLanguageEnum';
+import { OrderPrice } from '../models/OrderPrice';
+import { TelephonyFaxScreenListTypeEnum } from '../models/TelephonyFaxScreenListTypeEnum';
 import { TelephonyVoiceConsumptionDestinationTypeEnum } from '../models/TelephonyVoiceConsumptionDestinationTypeEnum';
-import { TelephonyCallDiagnostics } from '../models/TelephonyCallDiagnostics';
-import { TelephonyMiniPabx } from '../models/TelephonyMiniPabx';
-import { TelephonyScreenList } from '../models/TelephonyScreenList';
-import { TelephonyVoicemail } from '../models/TelephonyVoicemail';
-import { TelephonyScreen } from '../models/TelephonyScreen';
-import { TelephonySipDomainProductTypeEnum } from '../models/TelephonySipDomainProductTypeEnum';
-import { TelephonyTask } from '../models/TelephonyTask';
-import { TelephonyCarrierSipCustomerEndpoint } from '../models/TelephonyCarrierSipCustomerEndpoint';
-import { TelephonyFaxQualityEnum } from '../models/TelephonyFaxQualityEnum';
-import { TelephonyResetPhoneInfo } from '../models/TelephonyResetPhoneInfo';
+import { TelephonyAbbreviatedNumberGroup } from '../models/TelephonyAbbreviatedNumberGroup';
+import { TelephonyOvhPabxMenuEntry } from '../models/TelephonyOvhPabxMenuEntry';
+import { TelephonyVoicemailNumbers } from '../models/TelephonyVoicemailNumbers';
+import { TelephonySimultaneousChannelsDetails } from '../models/TelephonySimultaneousChannelsDetails';
+import { TelephonySpecificNumber } from '../models/TelephonySpecificNumber';
 import { TelephonyDirectoryWayType } from '../models/TelephonyDirectoryWayType';
+import { TelephonyTrafficExtract } from '../models/TelephonyTrafficExtract';
+import { TelephonyEasyHunting } from '../models/TelephonyEasyHunting';
+import { TelephonyOvhPabxQueueActionEnum } from '../models/TelephonyOvhPabxQueueActionEnum';
+import { TelephonyOvhPabxDialplan } from '../models/TelephonyOvhPabxDialplan';
+import { TelephonyProcedure } from '../models/TelephonyProcedure';
+import { TelephonyPreviousVoiceConsumption } from '../models/TelephonyPreviousVoiceConsumption';
+import { TelephonyVoicemailMessages } from '../models/TelephonyVoicemailMessages';
+import { TelephonyHardwareOffer } from '../models/TelephonyHardwareOffer';
+import { TelephonyTelephonyService } from '../models/TelephonyTelephonyService';
+import { TelephonyBillingAccount } from '../models/TelephonyBillingAccount';
+import { TelephonyTimeConditionsDayEnum } from '../models/TelephonyTimeConditionsDayEnum';
+import { TelephonyOvhPabxDialplanNumberPresentationEnum } from '../models/TelephonyOvhPabxDialplanNumberPresentationEnum';
+import { TelephonyConferenceParticipants } from '../models/TelephonyConferenceParticipants';
+import { TelephonyCarrierSipClusterInfo } from '../models/TelephonyCarrierSipClusterInfo';
+import { TelephonyOvhPabxHuntingQueueStrategyEnum } from '../models/TelephonyOvhPabxHuntingQueueStrategyEnum';
+import { TelephonyTrunkSimultaneousPacksRepartition } from '../models/TelephonyTrunkSimultaneousPacksRepartition';
+import { TelephonyRateCodeInformation } from '../models/TelephonyRateCodeInformation';
+import { TelephonyNumberTypeEnum } from '../models/TelephonyNumberTypeEnum';
+import { TelephonyLineOptions } from '../models/TelephonyLineOptions';
+import { TelephonyVoiceConsumption } from '../models/TelephonyVoiceConsumption';
+import { TelephonyVxmlProperties } from '../models/TelephonyVxmlProperties';
+import { TelephonyClick2CallUser } from '../models/TelephonyClick2CallUser';
+import { TelephonyVxml } from '../models/TelephonyVxml';
+import { TelephonyOutplanNotificationBlockEnum } from '../models/TelephonyOutplanNotificationBlockEnum';
+import { TelephonyServiceNumberCountryEnum } from '../models/TelephonyServiceNumberCountryEnum';
+import { TelephonyRmaPublicTypeEnum } from '../models/TelephonyRmaPublicTypeEnum';
+import { TelephonyCallsGenerated } from '../models/TelephonyCallsGenerated';
+import { TelephonyDirectoryHeadingPJ } from '../models/TelephonyDirectoryHeadingPJ';
+import { TelephonySchedulerEvent } from '../models/TelephonySchedulerEvent';
+import { TelephonyVoiceConsumptionWayTypeEnum } from '../models/TelephonyVoiceConsumptionWayTypeEnum';
+import { TelephonyRmaChangeTypeEnum } from '../models/TelephonyRmaChangeTypeEnum';
+import { TelephonyConferenceRoomsStatistics } from '../models/TelephonyConferenceRoomsStatistics';
+import { TelephonyNumberDetailedZone } from '../models/TelephonyNumberDetailedZone';
+import { TelephonyConference } from '../models/TelephonyConference';
+import { TelephonyOvhPabxDialplanExtensionRuleActionEnum } from '../models/TelephonyOvhPabxDialplanExtensionRuleActionEnum';
+import { TelephonyFaxCampaignSendTypeEnum } from '../models/TelephonyFaxCampaignSendTypeEnum';
+import { TelephonyCarrierSip } from '../models/TelephonyCarrierSip';
+import { TelephonyMiniPabxHunting } from '../models/TelephonyMiniPabxHunting';
+import { TelephonySchedulerCategoryEnum } from '../models/TelephonySchedulerCategoryEnum';
+import { TelephonyVoicemailGreetings } from '../models/TelephonyVoicemailGreetings';
+import { TelephonyTelephonyGenericService } from '../models/TelephonyTelephonyGenericService';
+import { TelephonyCarrierSipCustomerEndpoint } from '../models/TelephonyCarrierSipCustomerEndpoint';
+import { TelephonyConferenceRoom } from '../models/TelephonyConferenceRoom';
+import { TelephonyOvhPabxDialplanExtension } from '../models/TelephonyOvhPabxDialplanExtension';
+import { TelephonyRepaymentConsumption } from '../models/TelephonyRepaymentConsumption';
+import { TelephonyTimeConditionOptions } from '../models/TelephonyTimeConditionOptions';
+import { TelephonyOvhPabxTts } from '../models/TelephonyOvhPabxTts';
+import { TelephonySipDomainProductTypeEnum } from '../models/TelephonySipDomainProductTypeEnum';
+import { TelephonyOfferTask } from '../models/TelephonyOfferTask';
+import { TelephonyOvhPabxHuntingQueue } from '../models/TelephonyOvhPabxHuntingQueue';
+import { TelephonyEasyMiniPabxHuntingAgent } from '../models/TelephonyEasyMiniPabxHuntingAgent';
+import { TelephonyOldPhone } from '../models/TelephonyOldPhone';
+import { TelephonyConferenceWebAccessTypeEnum } from '../models/TelephonyConferenceWebAccessTypeEnum';
+import { TelephonyDatetimeAndIpvalue } from '../models/TelephonyDatetimeAndIpvalue';
+import { TelephonyLinePhoneAssociable } from '../models/TelephonyLinePhoneAssociable';
+import { TelephonyOfferChange } from '../models/TelephonyOfferChange';
+import { TelephonyOvhPabxHunting } from '../models/TelephonyOvhPabxHunting';
+import { TelephonyLinePhone } from '../models/TelephonyLinePhone';
+import { TelephonyDiagnosticReport } from '../models/TelephonyDiagnosticReport';
+import { TelephonyLineBlockingMode } from '../models/TelephonyLineBlockingMode';
+import { TelephonyVoicemailProperties } from '../models/TelephonyVoicemailProperties';
+import { TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum } from '../models/TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum';
+import { TelephonyTask } from '../models/TelephonyTask';
+import { TelephonyTrunk } from '../models/TelephonyTrunk';
+import { TelephonyAntihackActionEnum } from '../models/TelephonyAntihackActionEnum';
+import { TelephonyDocument } from '../models/TelephonyDocument';
+import { TelephonyLineOffer } from '../models/TelephonyLineOffer';
+import { TelephonyConferenceWebAccess } from '../models/TelephonyConferenceWebAccess';
+import { TelephonyTaskStatusEnum } from '../models/TelephonyTaskStatusEnum';
+import { ServicesService } from '../models/ServicesService';
+import { TelephonyOvhPabxDialplanExtensionRule } from '../models/TelephonyOvhPabxDialplanExtensionRule';
+import { TelephonyRsva } from '../models/TelephonyRsva';
+import { TelephonyRma } from '../models/TelephonyRma';
+import { TelephonyOvhPabxIvrMenuEntryActionEnum } from '../models/TelephonyOvhPabxIvrMenuEntryActionEnum';
+import { TelephonyScreenListNatureEnum } from '../models/TelephonyScreenListNatureEnum';
+import { TelephonyVoicemailMessageFolderDirectoryEnum } from '../models/TelephonyVoicemailMessageFolderDirectoryEnum';
+import { TelephonyTimeConditionsPolicyEnum } from '../models/TelephonyTimeConditionsPolicyEnum';
+import { TelephonyBannerAccess } from '../models/TelephonyBannerAccess';
+import { TelephonyPcsFile } from '../models/TelephonyPcsFile';
+import { TelephonyDetailedRateCodeInformation } from '../models/TelephonyDetailedRateCodeInformation';
+import { TelephonyPhoneCredentials } from '../models/TelephonyPhoneCredentials';
+import { TelephonyServiceVoicemailAudioFormatEnum } from '../models/TelephonyServiceVoicemailAudioFormatEnum';
+import { TelephonyHistoryRepaymentConsumption } from '../models/TelephonyHistoryRepaymentConsumption';
+import { TelephonyMiniPabx } from '../models/TelephonyMiniPabx';
 import { TelephonyTokenExpirationEnum } from '../models/TelephonyTokenExpirationEnum';
 import { TelephonyOvhPabxSound } from '../models/TelephonyOvhPabxSound';
-import { TelephonyOfferTask } from '../models/TelephonyOfferTask';
-import { TelephonyOutplanNotificationBlockEnum } from '../models/TelephonyOutplanNotificationBlockEnum';
-import { TelephonyNumberCountryEnum } from '../models/TelephonyNumberCountryEnum';
-import { TelephonyConferenceWebAccess } from '../models/TelephonyConferenceWebAccess';
-import { TelephonyTerminationReasonEnum } from '../models/TelephonyTerminationReasonEnum';
-import { TelephonyCarrierSip } from '../models/TelephonyCarrierSip';
-import { TelephonyCarrierSipClusterInfo } from '../models/TelephonyCarrierSipClusterInfo';
-import { TelephonyVoicemailGreetings } from '../models/TelephonyVoicemailGreetings';
-import { TelephonyDirectoryHeadingPJ } from '../models/TelephonyDirectoryHeadingPJ';
-import { TelephonyTrunkSimultaneousPacksRepartition } from '../models/TelephonyTrunkSimultaneousPacksRepartition';
-import { TelephonyVoicemailMessageFolderDirectoryEnum } from '../models/TelephonyVoicemailMessageFolderDirectoryEnum';
-import { TelephonyOvhPabxDialplanExtensionRule } from '../models/TelephonyOvhPabxDialplanExtensionRule';
-import { TelephonyHistoryTollfreeConsumption } from '../models/TelephonyHistoryTollfreeConsumption';
-import { TelephonyDefaultSipDomains } from '../models/TelephonyDefaultSipDomains';
-import { TelephonyBillingAccount } from '../models/TelephonyBillingAccount';
-import { TelephonyOvhPabxWhisperingModeEnum } from '../models/TelephonyOvhPabxWhisperingModeEnum';
-import { TelephonyOvhPabxHuntingAgentQueue } from '../models/TelephonyOvhPabxHuntingAgentQueue';
-import { TelephonyFaxScreen } from '../models/TelephonyFaxScreen';
-import { TelephonyTrunkExternalDisplayedNumber } from '../models/TelephonyTrunkExternalDisplayedNumber';
-import { TelephonyOvhPabx } from '../models/TelephonyOvhPabx';
-import { TelephonyFaxConsumptionWayTypeEnum } from '../models/TelephonyFaxConsumptionWayTypeEnum';
-import { TelephonyEasyPabxHunting } from '../models/TelephonyEasyPabxHunting';
-import { TelephonyVoicemailNumbers } from '../models/TelephonyVoicemailNumbers';
-import { TelephonyEasyHunting } from '../models/TelephonyEasyHunting';
-import { TelephonyVoiceConsumptionWayTypeEnum } from '../models/TelephonyVoiceConsumptionWayTypeEnum';
-import { TelephonyPortabilityStep } from '../models/TelephonyPortabilityStep';
-import { TelephonyOvhPabxMenu } from '../models/TelephonyOvhPabxMenu';
-import { TelephonyPhone } from '../models/TelephonyPhone';
-import { ServicesService } from '../models/ServicesService';
-import { TelephonyRedirect } from '../models/TelephonyRedirect';
-import { TelephonyOfferTaskActionEnum } from '../models/TelephonyOfferTaskActionEnum';
-import { TelephonyCallsGeneratorDialplanEnum } from '../models/TelephonyCallsGeneratorDialplanEnum';
-import { TelephonyContactsExportFormatsEnum } from '../models/TelephonyContactsExportFormatsEnum';
-import { TelephonyLine } from '../models/TelephonyLine';
-import { TelephonyTelephonyGenericService } from '../models/TelephonyTelephonyGenericService';
-import { TelephonyLinePhoneAssociable } from '../models/TelephonyLinePhoneAssociable';
-import { TelephonyConferenceHistory } from '../models/TelephonyConferenceHistory';
-import { TelephonyDiagnosticReportIndexEnum } from '../models/TelephonyDiagnosticReportIndexEnum';
-import { TelephonyNumber } from '../models/TelephonyNumber';
-import { TelephonyOvhPabxDialplan } from '../models/TelephonyOvhPabxDialplan';
-import { TelephonyTimeCondition } from '../models/TelephonyTimeCondition';
-import { TelephonyTypeEnum } from '../models/TelephonyTypeEnum';
-import { TelephonySchedulerCategoryEnum } from '../models/TelephonySchedulerCategoryEnum';
-import { TelephonyNumberDetailedZone } from '../models/TelephonyNumberDetailedZone';
-import { TelephonySpecificNumber } from '../models/TelephonySpecificNumber';
-import { TelephonyConference } from '../models/TelephonyConference';
-import { TelephonyFaxConsumption } from '../models/TelephonyFaxConsumption';
-import { TelephonyEasyPabx } from '../models/TelephonyEasyPabx';
-import { TelephonyRegistrationInformations } from '../models/TelephonyRegistrationInformations';
-import { TelephonyTelephonySearchService } from '../models/TelephonyTelephonySearchService';
-import { TelephonyOvhPabxDialplanExtension } from '../models/TelephonyOvhPabxDialplanExtension';
-import { TelephonyFaxCampaign } from '../models/TelephonyFaxCampaign';
-import { TelephonyProcedure } from '../models/TelephonyProcedure';
-import { TelephonyTrafficExtract } from '../models/TelephonyTrafficExtract';
-import { TelephonyLineStatisticsTypeEnum } from '../models/TelephonyLineStatisticsTypeEnum';
-import { TelephonyEasyHuntingScreenListsConditionsSettings } from '../models/TelephonyEasyHuntingScreenListsConditionsSettings';
-import { TelephonySound } from '../models/TelephonySound';
-import { TelephonyOvhPabxQueueActionEnum } from '../models/TelephonyOvhPabxQueueActionEnum';
-import { TelephonyDdi } from '../models/TelephonyDdi';
-import { TelephonyOvhPabxRecord } from '../models/TelephonyOvhPabxRecord';
-import { TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum } from '../models/TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum';
-import { TelephonyTones } from '../models/TelephonyTones';
-import { TelephonyPhoneCredentials } from '../models/TelephonyPhoneCredentials';
-import { TelephonyVoiceConsumption } from '../models/TelephonyVoiceConsumption';
-import { TelephonyOldPhone } from '../models/TelephonyOldPhone';
-import { TelephonyOfferChange } from '../models/TelephonyOfferChange';
-import { TelephonyEntrepriseNumberInformationsTask } from '../models/TelephonyEntrepriseNumberInformationsTask';
-import { TelephonyOvhPabxDialplanNumberPresentationEnum } from '../models/TelephonyOvhPabxDialplanNumberPresentationEnum';
-import { TelephonyAccessoryOffer } from '../models/TelephonyAccessoryOffer';
-import { TelephonyEasyMiniPabxHuntingAgent } from '../models/TelephonyEasyMiniPabxHuntingAgent';
-import { TelephonyClick2CallUser } from '../models/TelephonyClick2CallUser';
-import { TelephonyOvhPabxHuntingQueueLiveCalls } from '../models/TelephonyOvhPabxHuntingQueueLiveCalls';
-import { TelephonyAbbreviatedNumberGroup } from '../models/TelephonyAbbreviatedNumberGroup';
-import { TelephonyTimeConditionsDayEnum } from '../models/TelephonyTimeConditionsDayEnum';
-import { TelephonyFaxScreenListTypeEnum } from '../models/TelephonyFaxScreenListTypeEnum';
-import { TelephonyRmaReturn } from '../models/TelephonyRmaReturn';
-import { TelephonyVxml } from '../models/TelephonyVxml';
-import { TelephonyConferenceParticipants } from '../models/TelephonyConferenceParticipants';
-import { SpareTelephonyTelephonySpare } from '../models/SpareTelephonyTelephonySpare';
-import { TelephonyVoicemailMessageFolderGreetingEnum } from '../models/TelephonyVoicemailMessageFolderGreetingEnum';
-import { TelephonyDatetimeAndIpvalue } from '../models/TelephonyDatetimeAndIpvalue';
-import { TelephonyPhonebookMaster } from '../models/TelephonyPhonebookMaster';
-import { TelephonyFaxCampaignSendTypeEnum } from '../models/TelephonyFaxCampaignSendTypeEnum';
-import { TelephonyDocument } from '../models/TelephonyDocument';
-import { TelephonyAbbreviatedNumber } from '../models/TelephonyAbbreviatedNumber';
-import { TelephonyNumberTypeEnum } from '../models/TelephonyNumberTypeEnum';
-import { TelephonyOvhPabxTtsVoiceEnum } from '../models/TelephonyOvhPabxTtsVoiceEnum';
-import { TelephonyOvhPabxDialplanExtensionConditionTime } from '../models/TelephonyOvhPabxDialplanExtensionConditionTime';
-import { TelephonyHistoryRepaymentConsumption } from '../models/TelephonyHistoryRepaymentConsumption';
-import { TelephonyEventToken } from '../models/TelephonyEventToken';
+import { TelephonyOvhPabxHuntingQueueLiveStatistics } from '../models/TelephonyOvhPabxHuntingQueueLiveStatistics';
 import { TelephonyCarrierSipDetails } from '../models/TelephonyCarrierSipDetails';
+import { TelephonyOvhPabxDialplanExtensionConditionScreenList } from '../models/TelephonyOvhPabxDialplanExtensionConditionScreenList';
+import { TelephonyPhonebookContact } from '../models/TelephonyPhonebookContact';
+import { TelephonyDirectoryInfo } from '../models/TelephonyDirectoryInfo';
+import { TelephonyTrunkExternalDisplayedNumberValidation } from '../models/TelephonyTrunkExternalDisplayedNumberValidation';
+import { TelephonyOvhPabxCustomStatus } from '../models/TelephonyOvhPabxCustomStatus';
+import { TelephonyScreen } from '../models/TelephonyScreen';
+import { TelephonyOvhPabxHuntingQueueLiveCalls } from '../models/TelephonyOvhPabxHuntingQueueLiveCalls';
+import { TelephonyNumber } from '../models/TelephonyNumber';
+import { TelephonyScheduler } from '../models/TelephonyScheduler';
+import { TelephonyNumberCountryEnum } from '../models/TelephonyNumberCountryEnum';
+import { TelephonyEasyPabxHunting } from '../models/TelephonyEasyPabxHunting';
+import { TelephonyOfferTaskTypeEnum } from '../models/TelephonyOfferTaskTypeEnum';
+import { TelephonyGenericScreen } from '../models/TelephonyGenericScreen';
+import { TelephonyCity } from '../models/TelephonyCity';
+import { TelephonyConferenceHistory } from '../models/TelephonyConferenceHistory';
+import { TelephonyOvhPabxHuntingAgentLiveStatus } from '../models/TelephonyOvhPabxHuntingAgentLiveStatus';
+import { TelephonyLine } from '../models/TelephonyLine';
+import { TelephonyOvhPabxHuntingQueueRecordDisablingDigitEnum } from '../models/TelephonyOvhPabxHuntingQueueRecordDisablingDigitEnum';
+import { TelephonyPortability } from '../models/TelephonyPortability';
+import { TelephonyLineOffersAndContracts } from '../models/TelephonyLineOffersAndContracts';
+import { TelephonyScreenListTypeEnum } from '../models/TelephonyScreenListTypeEnum';
+import { TelephonyConferenceInformations } from '../models/TelephonyConferenceInformations';
+import { TelephonyEasyHuntingScreenListsConditionsSettings } from '../models/TelephonyEasyHuntingScreenListsConditionsSettings';
+import { TelephonyOvhPabxMenu } from '../models/TelephonyOvhPabxMenu';
+import { TelephonyStatisticsTimeframeEnum } from '../models/TelephonyStatisticsTimeframeEnum';
+import { TelephonyOvhPabxHuntingAgentStatusEnum } from '../models/TelephonyOvhPabxHuntingAgentStatusEnum';
+import { TelephonySound } from '../models/TelephonySound';
+import { TelephonyRegistrationInformations } from '../models/TelephonyRegistrationInformations';
+import { TelephonyConsumptionThreshold } from '../models/TelephonyConsumptionThreshold';
+import { SpareTelephonyTelephonySpare } from '../models/SpareTelephonyTelephonySpare';
+import { TelephonyFaxCampaignRecipientsTypeEnum } from '../models/TelephonyFaxCampaignRecipientsTypeEnum';
+import { TelephonyResetPhoneInfo } from '../models/TelephonyResetPhoneInfo';
+import { TelephonyTrunkExternalDisplayedNumber } from '../models/TelephonyTrunkExternalDisplayedNumber';
+import { TelephonyTones } from '../models/TelephonyTones';
+import { TelephonyTypeEnum } from '../models/TelephonyTypeEnum';
+import { TelephonyEntrepriseNumberInformationsTask } from '../models/TelephonyEntrepriseNumberInformationsTask';
+import { TelephonyFaxConsumption } from '../models/TelephonyFaxConsumption';
+import { TelephonyTimeCondition } from '../models/TelephonyTimeCondition';
+import { TelephonyPortabilityDocument } from '../models/TelephonyPortabilityDocument';
+import { TelephonyOvhPabxHuntingAgent } from '../models/TelephonyOvhPabxHuntingAgent';
+import { TelephonyFaxQualityEnum } from '../models/TelephonyFaxQualityEnum';
+import { TelephonyCallsGeneratorDialplanEnum } from '../models/TelephonyCallsGeneratorDialplanEnum';
+import { TelephonyConferenceProperties } from '../models/TelephonyConferenceProperties';
+import { TelephonyScreenList } from '../models/TelephonyScreenList';
+import { TelephonyDiagnosticReportIndexEnum } from '../models/TelephonyDiagnosticReportIndexEnum';
+import { TelephonyContactsExportFormatsEnum } from '../models/TelephonyContactsExportFormatsEnum';
+import { TelephonyPhonebook } from '../models/TelephonyPhonebook';
+import { TelephonyCallDiagnostics } from '../models/TelephonyCallDiagnostics';
+import { TelephonyDdi } from '../models/TelephonyDdi';
+import { TelephonyOfferTaskActionEnum } from '../models/TelephonyOfferTaskActionEnum';
+import { TelephonyEasyHuntingScreenListsConditions } from '../models/TelephonyEasyHuntingScreenListsConditions';
+import { TelephonyFaxScreen } from '../models/TelephonyFaxScreen';
+import { TelephonyRmaReturn } from '../models/TelephonyRmaReturn';
+import { TelephonyTonesTypeEnum } from '../models/TelephonyTonesTypeEnum';
+import { TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum } from '../models/TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum';
+import { TelephonyOvhPabx } from '../models/TelephonyOvhPabx';
+import { TelephonyTerminationReasonEnum } from '../models/TelephonyTerminationReasonEnum';
+import { TelephonyPhone } from '../models/TelephonyPhone';
+import { TelephonyTelephonySearchService } from '../models/TelephonyTelephonySearchService';
+import { TelephonyFaxCampaignDetail } from '../models/TelephonyFaxCampaignDetail';
+import { TelephonyFunctionKey } from '../models/TelephonyFunctionKey';
+import { TelephonyVoicemail } from '../models/TelephonyVoicemail';
+import { TelephonyPortabilityFixErrorPossibleParameters } from '../models/TelephonyPortabilityFixErrorPossibleParameters';
+import { TelephonyResellerPanelStatus } from '../models/TelephonyResellerPanelStatus';
+import { TelephonyPortabilityStep } from '../models/TelephonyPortabilityStep';
+import { TelephonyEventToken } from '../models/TelephonyEventToken';
+import { TelephonyEasyHuntingTimeConditionsSettings } from '../models/TelephonyEasyHuntingTimeConditionsSettings';
+import { TelephonyOvhPabxTtsVoiceEnum } from '../models/TelephonyOvhPabxTtsVoiceEnum';
 import OVHBase from '../ovh';
 
 class TelephonyHandler {
@@ -200,7 +200,7 @@ class TelephonyHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/telephony');
   };
 
@@ -407,7 +407,7 @@ class TelephonyHandler {
   };
 
   /** List available services */
-  listSpares = (): Promise<string[]> => {
+  listSpare = (): Promise<string[]> => {
     return this.ovh.request('GET', '/telephony/spare');
   };
 
@@ -3335,7 +3335,7 @@ class TelephonyHandler {
   };
 
   /** List the available functions for the key */
-  listLinePhoneFunctionKeyAvailableFunctionsByBillingAccountAndServiceNameAndKeyNum = (
+  listLinePhoneFunctionKeyAvailableFunctionByBillingAccountAndServiceNameAndKeyNum = (
     billingAccount: string,
     keyNum: number,
     serviceName: string
@@ -3347,7 +3347,7 @@ class TelephonyHandler {
   };
 
   /** List of available exchange merchandise brand */
-  listLinePhoneMerchandiseAvailablesByBillingAccountAndServiceName = (
+  listLinePhoneMerchandiseAvailableByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyHardwareOffer[]> => {
@@ -3645,7 +3645,7 @@ class TelephonyHandler {
   };
 
   /** List the phones with Sip slot available */
-  listLinePhoneCanBeAssociablesByBillingAccountAndServiceName = (
+  listLinePhoneCanBeAssociableByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyLinePhone[]> => {
@@ -4037,7 +4037,7 @@ class TelephonyHandler {
   };
 
   /** List old phones archived as they were not returned after an RMA */
-  listOldPhonesByBillingAccount = (billingAccount: string): Promise<TelephonyOldPhone[]> => {
+  listOldPhoneByBillingAccount = (billingAccount: string): Promise<TelephonyOldPhone[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/oldPhone`);
   };
 

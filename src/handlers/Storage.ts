@@ -1,23 +1,23 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { StorageNetAppServiceUpdate } from '../models/StorageNetAppServiceUpdate';
+import { StorageNetAppShareUpdate } from '../models/StorageNetAppShareUpdate';
+import { StorageNetAppShareSnapshotPolicyUpdate } from '../models/StorageNetAppShareSnapshotPolicyUpdate';
+import { StorageNetAppShareSnapshotReserveUpdate } from '../models/StorageNetAppShareSnapshotReserveUpdate';
+import { StorageNetAppShareSnapshotUpdate } from '../models/StorageNetAppShareSnapshotUpdate';
+import { StorageNetAppShareSnapshotReserve } from '../models/StorageNetAppShareSnapshotReserve';
+import { StorageNetAppShareAccessPath } from '../models/StorageNetAppShareAccessPath';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { StorageNetAppShareSnapshot } from '../models/StorageNetAppShareSnapshot';
+import { StorageNetAppService } from '../models/StorageNetAppService';
+import { StorageNetAppShareExtendOrShrink } from '../models/StorageNetAppShareExtendOrShrink';
+import { ServicesService } from '../models/ServicesService';
+import { StorageNetAppShareSnapshotPolicy } from '../models/StorageNetAppShareSnapshotPolicy';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { StorageNetAppSnapshotPolicyUpdate } from '../models/StorageNetAppSnapshotPolicyUpdate';
 import { StorageNetAppShareACLRule } from '../models/StorageNetAppShareACLRule';
-import { StorageNetAppShareAccessPath } from '../models/StorageNetAppShareAccessPath';
-import { StorageNetAppShareSnapshot } from '../models/StorageNetAppShareSnapshot';
-import { StorageNetAppShareSnapshotPolicy } from '../models/StorageNetAppShareSnapshotPolicy';
-import { StorageNetAppShareSnapshotPolicyUpdate } from '../models/StorageNetAppShareSnapshotPolicyUpdate';
-import { StorageNetAppShareUpdate } from '../models/StorageNetAppShareUpdate';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { StorageNetAppShareSnapshotUpdate } from '../models/StorageNetAppShareSnapshotUpdate';
 import { StorageNetAppShare } from '../models/StorageNetAppShare';
-import { StorageNetAppShareSnapshotReserveUpdate } from '../models/StorageNetAppShareSnapshotReserveUpdate';
 import { StorageNetAppSnapshotPolicy } from '../models/StorageNetAppSnapshotPolicy';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { StorageNetAppService } from '../models/StorageNetAppService';
-import { ServicesService } from '../models/ServicesService';
-import { StorageNetAppShareSnapshotReserve } from '../models/StorageNetAppShareSnapshotReserve';
-import { StorageNetAppShareExtendOrShrink } from '../models/StorageNetAppShareExtendOrShrink';
+import { StorageNetAppServiceUpdate } from '../models/StorageNetAppServiceUpdate';
 import OVHBase from '../ovh';
 
 class StorageHandler {
@@ -28,7 +28,7 @@ class StorageHandler {
   }
 
   /** List available services */
-  listNetapps = (): Promise<StorageNetAppService[]> => {
+  listNetapp = (): Promise<StorageNetAppService[]> => {
     return this.ovh.request('GET', '/storage/netapp');
   };
 
@@ -80,7 +80,7 @@ class StorageHandler {
   };
 
   /** List available shares */
-  listNetappSharesByServiceName = (serviceName: string): Promise<StorageNetAppShare[]> => {
+  listNetappShareByServiceName = (serviceName: string): Promise<StorageNetAppShare[]> => {
     return this.ovh.request('GET', `/storage/netapp/${serviceName}/share`);
   };
 
@@ -118,7 +118,7 @@ class StorageHandler {
   };
 
   /** List available access paths */
-  listNetappShareAccessPathsByServiceNameAndShareId = (
+  listNetappShareAccessPathByServiceNameAndShareId = (
     serviceName: string,
     shareId: string
   ): Promise<StorageNetAppShareAccessPath[]> => {
@@ -138,7 +138,7 @@ class StorageHandler {
   };
 
   /** List available ACLs */
-  listNetappShareAclsByServiceNameAndShareId = (
+  listNetappShareAclByServiceNameAndShareId = (
     serviceName: string,
     shareId: string
   ): Promise<StorageNetAppShareACLRule[]> => {
@@ -197,7 +197,7 @@ class StorageHandler {
   };
 
   /** List available snapshots */
-  listNetappShareSnapshotsByServiceNameAndShareId = (
+  listNetappShareSnapshotByServiceNameAndShareId = (
     serviceName: string,
     shareId: string
   ): Promise<StorageNetAppShareSnapshot[]> => {

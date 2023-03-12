@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesBillingEngagementEngagementPeriod } from './ServicesBillingEngagementEngagementPeriod';
 import { ServicesBillingEngagementEndRule } from './ServicesBillingEngagementEndRule';
+import { ServicesBillingEngagementEngagementPeriod } from './ServicesBillingEngagementEngagementPeriod';
 
 export type ServicesBillingEngagementEngagement = {
-  currentPeriod: ServicesBillingEngagementEngagementPeriod;
-  endRule: ServicesBillingEngagementEndRule | null;
+  currentPeriod?: ServicesBillingEngagementEngagementPeriod;
+  endRule?: ServicesBillingEngagementEndRule | null;
 };

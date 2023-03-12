@@ -2,4 +2,4 @@
 
 import { OrderPrice } from './OrderPrice';
 
-export type CloudArchiveStoragePrice = { monthlyPrice: OrderPrice; region: string };
+export type CloudArchiveStoragePrice = { monthlyPrice?: OrderPrice; region?: string };

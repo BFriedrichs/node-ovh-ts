@@ -3,10 +3,10 @@
 import { DomainDataSmdSmdLabel } from './DomainDataSmdSmdLabel';
 
 export type DomainDataSmdSmd = {
-  data: string;
-  id: string;
-  notAfter: Date;
-  notBefore: Date;
-  protectedLabels: DomainDataSmdSmdLabel[];
-  smdId: string;
+  data?: string;
+  id?: string;
+  notAfter?: Date;
+  notBefore?: Date;
+  protectedLabels?: DomainDataSmdSmdLabel[];
+  smdId?: string;
 };

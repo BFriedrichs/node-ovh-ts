@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DomainConfigurationsContactTypeEnum } from './DomainConfigurationsContactTypeEnum';
 import { DomainConfigurationsObfuscationStatusEnum } from './DomainConfigurationsObfuscationStatusEnum';
+import { DomainConfigurationsContactTypeEnum } from './DomainConfigurationsContactTypeEnum';
 
 export type DomainConfigurationsObfuscatedEmail = {
-  status: DomainConfigurationsObfuscationStatusEnum | null;
-  type: DomainConfigurationsContactTypeEnum;
-  value: string;
+  status?: DomainConfigurationsObfuscationStatusEnum | null;
+  type?: DomainConfigurationsContactTypeEnum;
+  value?: string;
 };

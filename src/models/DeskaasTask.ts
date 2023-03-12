@@ -3,10 +3,10 @@
 import { DeskaasTaskStateEnum } from './DeskaasTaskStateEnum';
 
 export type DeskaasTask = {
-  description: string | null;
-  lastModificationDate: Date | null;
-  name: string;
-  progress: number;
-  state: DeskaasTaskStateEnum;
-  taskId: number;
+  description?: string | null;
+  lastModificationDate?: Date | null;
+  name?: string;
+  progress?: number;
+  state?: DeskaasTaskStateEnum;
+  taskId?: number;
 };

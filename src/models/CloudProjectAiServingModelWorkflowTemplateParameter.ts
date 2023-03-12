@@ -4,8 +4,8 @@ import { CloudProjectAiServingFrameworkIdEnum } from './CloudProjectAiServingFra
 import { CloudProjectAiServingBackendIdEnum } from './CloudProjectAiServingBackendIdEnum';
 
 export type CloudProjectAiServingModelWorkflowTemplateParameter = {
-  backend: CloudProjectAiServingBackendIdEnum | null;
-  framework: CloudProjectAiServingFrameworkIdEnum | null;
-  imageId: string | null;
-  storagePath: string | null;
+  backend?: CloudProjectAiServingBackendIdEnum | null;
+  framework?: CloudProjectAiServingFrameworkIdEnum | null;
+  imageId?: string | null;
+  storagePath?: string | null;
 };

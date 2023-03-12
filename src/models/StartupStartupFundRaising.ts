@@ -4,6 +4,6 @@ import { StartupLastFundraisingEnum } from './StartupLastFundraisingEnum';
 import { StartupPlannedFundRaisingEnum } from './StartupPlannedFundRaisingEnum';
 
 export type StartupStartupFundRaising = {
-  lastFundraising?: StartupLastFundraisingEnum;
-  plannedFundRaising?: StartupPlannedFundRaisingEnum;
+  lastFundraising: StartupLastFundraisingEnum;
+  plannedFundRaising: StartupPlannedFundRaisingEnum;
 };

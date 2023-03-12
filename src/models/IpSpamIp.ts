@@ -2,4 +2,4 @@
 
 import { IpSpamStateEnum } from './IpSpamStateEnum';
 
-export type IpSpamIp = { date: Date; ipSpamming: string; state: IpSpamStateEnum; time: number };
+export type IpSpamIp = { date?: Date; ipSpamming?: string; state?: IpSpamStateEnum; time?: number };

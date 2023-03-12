@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type ServicesExpandedEngagementRequestSummary = { pricingMode: string; requestDate: Date };
+export type ServicesExpandedEngagementRequestSummary = { pricingMode?: string; requestDate?: Date };

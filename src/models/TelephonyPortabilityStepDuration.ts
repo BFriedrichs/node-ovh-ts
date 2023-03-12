@@ -3,6 +3,6 @@
 import { TelephonyPortabilityStepDurationUnitEnum } from './TelephonyPortabilityStepDurationUnitEnum';
 
 export type TelephonyPortabilityStepDuration = {
-  quantity: number;
-  unit: TelephonyPortabilityStepDurationUnitEnum;
+  quantity?: number;
+  unit?: TelephonyPortabilityStepDurationUnitEnum;
 };

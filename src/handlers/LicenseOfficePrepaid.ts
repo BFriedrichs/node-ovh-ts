@@ -2,11 +2,11 @@
 
 import { LicenseOfficeOfficeTenant } from '../models/LicenseOfficeOfficeTenant';
 import { LicenseOfficeStatistics } from '../models/LicenseOfficeStatistics';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { LicenseOfficePrepaidOfficeUser } from '../models/LicenseOfficePrepaidOfficeUser';
-import { LicenseOfficeOfficeTask } from '../models/LicenseOfficeOfficeTask';
 import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { ServicesService } from '../models/ServicesService';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseOfficeOfficeTask } from '../models/LicenseOfficeOfficeTask';
+import { LicenseOfficePrepaidOfficeUser } from '../models/LicenseOfficePrepaidOfficeUser';
 import OVHBase from '../ovh';
 
 class LicenseOfficePrepaidHandler {
@@ -17,7 +17,7 @@ class LicenseOfficePrepaidHandler {
   }
 
   /** List available services */
-  listOfficePrepaids = (): Promise<string[]> => {
+  listOfficePrepaid = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/officePrepaid');
   };
 

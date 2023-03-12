@@ -3,6 +3,6 @@
 import { CloudInstanceInstanceMetricsValue } from './CloudInstanceInstanceMetricsValue';
 
 export type CloudInstanceInstanceMetrics = {
-  unit: string;
-  values: CloudInstanceInstanceMetricsValue[];
+  unit?: string;
+  values?: CloudInstanceInstanceMetricsValue[];
 };

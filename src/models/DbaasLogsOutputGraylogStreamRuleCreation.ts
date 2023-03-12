@@ -3,8 +3,8 @@
 import { DbaasLogsStreamRuleOperatorEnum } from './DbaasLogsStreamRuleOperatorEnum';
 
 export type DbaasLogsOutputGraylogStreamRuleCreation = {
-  field?: string;
-  isInverted: boolean | null;
-  operator?: DbaasLogsStreamRuleOperatorEnum;
-  value?: string;
+  field: string;
+  isInverted?: boolean | null;
+  operator: DbaasLogsStreamRuleOperatorEnum;
+  value: string;
 };

@@ -3,10 +3,10 @@
 import { OrderPrice } from './OrderPrice';
 
 export type OverTheBoxAvailableMigrationOffer = {
-  currentOfferPrice: OrderPrice;
-  description: string;
-  engagementMonths: number;
-  hardwareAvailable: boolean;
-  offer: string;
-  price: OrderPrice;
+  currentOfferPrice?: OrderPrice;
+  description?: string;
+  engagementMonths?: number;
+  hardwareAvailable?: boolean;
+  offer?: string;
+  price?: OrderPrice;
 };

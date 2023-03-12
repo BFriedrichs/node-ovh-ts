@@ -3,7 +3,7 @@
 import { LicenseOfficeDomainStateEnum } from './LicenseOfficeDomainStateEnum';
 
 export type LicenseOfficeOfficeDomain = {
-  domainName: string;
-  status: LicenseOfficeDomainStateEnum;
-  txtEntry: string;
+  domainName?: string;
+  status?: LicenseOfficeDomainStateEnum;
+  txtEntry?: string;
 };

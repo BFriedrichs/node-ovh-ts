@@ -3,7 +3,7 @@
 import { ServiceResourceStateEnum } from './ServiceResourceStateEnum';
 
 export type ServiceResource = {
-  displayName: string;
-  name: string | null;
-  state: ServiceResourceStateEnum | null;
+  displayName?: string;
+  name?: string | null;
+  state?: ServiceResourceStateEnum | null;
 };

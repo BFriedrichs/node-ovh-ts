@@ -3,6 +3,6 @@
 import { DedicatedCloudOptionStateEnum } from './DedicatedCloudOptionStateEnum';
 
 export type DedicatedCloudIam = {
-  identityProviderId: number | null;
-  state: DedicatedCloudOptionStateEnum;
+  identityProviderId?: number | null;
+  state?: DedicatedCloudOptionStateEnum;
 };

@@ -4,7 +4,7 @@ import { TelephonyReleaseLocationEnum } from './TelephonyReleaseLocationEnum';
 import { TelephonyCallDiagnosticCauseEnum } from './TelephonyCallDiagnosticCauseEnum';
 
 export type TelephonyCallDiagnosticCdrsBasic = {
-  cause: TelephonyCallDiagnosticCauseEnum;
-  causeDescription: string;
-  releaseLocation: TelephonyReleaseLocationEnum;
+  cause?: TelephonyCallDiagnosticCauseEnum;
+  causeDescription?: string;
+  releaseLocation?: TelephonyReleaseLocationEnum;
 };

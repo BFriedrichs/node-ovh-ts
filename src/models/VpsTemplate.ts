@@ -3,10 +3,10 @@
 import { VpsTemplateBitFormatEnum } from './VpsTemplateBitFormatEnum';
 
 export type VpsTemplate = {
-  availableLanguage: string[];
-  bitFormat: VpsTemplateBitFormatEnum;
-  distribution: string;
-  id: number;
-  locale: string;
-  name: string;
+  availableLanguage?: string[];
+  bitFormat?: VpsTemplateBitFormatEnum;
+  distribution?: string;
+  id?: number;
+  locale?: string;
+  name?: string;
 };

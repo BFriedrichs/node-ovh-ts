@@ -3,6 +3,6 @@
 import { OvhcloudconnectInterfaceMetricsUnitEnum } from './OvhcloudconnectInterfaceMetricsUnitEnum';
 
 export type OvhcloudconnectMetricsValue = {
-  unit: OvhcloudconnectInterfaceMetricsUnitEnum;
-  value: number;
+  unit?: OvhcloudconnectInterfaceMetricsUnitEnum;
+  value?: number;
 };

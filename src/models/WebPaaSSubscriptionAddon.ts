@@ -5,9 +5,9 @@ import { WebPaaSAddonFamilyEnum } from './WebPaaSAddonFamilyEnum';
 import { WebPaaSAddonProductNameEnum } from './WebPaaSAddonProductNameEnum';
 
 export type WebPaaSSubscriptionAddon = {
-  planFamilyName: WebPaaSAddonFamilyEnum;
-  productName: WebPaaSAddonProductNameEnum;
-  quantity: number;
-  serviceName: string;
-  status: WebPaaSAddonStatusEnum;
+  planFamilyName?: WebPaaSAddonFamilyEnum;
+  productName?: WebPaaSAddonProductNameEnum;
+  quantity?: number;
+  serviceName?: string;
+  status?: WebPaaSAddonStatusEnum;
 };

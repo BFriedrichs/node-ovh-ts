@@ -3,9 +3,9 @@
 import { DedicatedAnthosStorageVMStateEnum } from './DedicatedAnthosStorageVMStateEnum';
 
 export type DedicatedAnthosStorageVM = {
-  description: string;
-  id: string;
-  name: string;
-  size: number;
-  state: DedicatedAnthosStorageVMStateEnum;
+  description?: string;
+  id?: string;
+  name?: string;
+  size?: number;
+  state?: DedicatedAnthosStorageVMStateEnum;
 };

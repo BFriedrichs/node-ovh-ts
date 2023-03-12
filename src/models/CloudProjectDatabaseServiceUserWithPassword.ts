@@ -3,9 +3,9 @@
 import { CloudProjectDatabaseStatusEnum } from './CloudProjectDatabaseStatusEnum';
 
 export type CloudProjectDatabaseServiceUserWithPassword = {
-  createdAt: Date;
-  id: string;
-  password: string;
-  status: CloudProjectDatabaseStatusEnum;
-  username: string;
+  createdAt?: Date;
+  id?: string;
+  password?: string;
+  status?: CloudProjectDatabaseStatusEnum;
+  username?: string;
 };

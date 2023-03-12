@@ -3,9 +3,9 @@
 import { NichandleNotificationStatusEnum } from './NichandleNotificationStatusEnum';
 
 export type NichandleNichandleSmsNotification = {
-  abuse: boolean;
-  creationDate: Date;
-  phoneNumber: string;
-  status: NichandleNotificationStatusEnum;
-  updateDate: Date | null;
+  abuse?: boolean;
+  creationDate?: Date;
+  phoneNumber?: string;
+  status?: NichandleNotificationStatusEnum;
+  updateDate?: Date | null;
 };

@@ -3,7 +3,7 @@
 import { HostingPrivateDatabaseUserDatabase } from './HostingPrivateDatabaseUserDatabase';
 
 export type HostingPrivateDatabaseUser = {
-  creationDate: Date;
-  databases: HostingPrivateDatabaseUserDatabase[];
-  userName: string;
+  creationDate?: Date;
+  databases?: HostingPrivateDatabaseUserDatabase[];
+  userName?: string;
 };

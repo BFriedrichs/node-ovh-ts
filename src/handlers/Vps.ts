@@ -1,50 +1,50 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { VpsModel } from '../models/VpsModel';
-import { VpsTaskStateEnum } from '../models/VpsTaskStateEnum';
+import { VpsIp } from '../models/VpsIp';
 import { VpsSnapshot } from '../models/VpsSnapshot';
-import { VpsVpsTimestampValue } from '../models/VpsVpsTimestampValue';
-import { VpsTask } from '../models/VpsTask';
-import { VpsDatacenter } from '../models/VpsDatacenter';
-import { VpsImage } from '../models/VpsImage';
-import { VpsMigrationVPS2016to2020 } from '../models/VpsMigrationVPS2016to2020';
-import { SecondaryDnsSecondaryDNS } from '../models/SecondaryDnsSecondaryDNS';
-import { VpsOption } from '../models/VpsOption';
-import { VpsDisk } from '../models/VpsDisk';
-import { VpsOrderRuleDatacenters } from '../models/VpsOrderRuleDatacenters';
-import { VpsOrderRuleOSChoices } from '../models/VpsOrderRuleOSChoices';
-import { VpsVPS } from '../models/VpsVPS';
-import { VpsAutomatedBackup } from '../models/VpsAutomatedBackup';
 import { VpsVeeam } from '../models/VpsVeeam';
+import { VpsMigrationVPS2016to2020 } from '../models/VpsMigrationVPS2016to2020';
+import { VpsVeeamRestoredBackup } from '../models/VpsVeeamRestoredBackup';
+import { VpsSoftware } from '../models/VpsSoftware';
+import { VpsVPS } from '../models/VpsVPS';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { ServicesService } from '../models/ServicesService';
+import { VpsModel } from '../models/VpsModel';
+import { VpsVpsMonitoringPeriodEnum } from '../models/VpsVpsMonitoringPeriodEnum';
+import { VpsTaskTypeEnum } from '../models/VpsTaskTypeEnum';
+import { VpsVpsMonitoringStatistics } from '../models/VpsVpsMonitoringStatistics';
+import { VpsIpGeolocationEnum } from '../models/VpsIpGeolocationEnum';
+import { VpsRestoreStateEnum } from '../models/VpsRestoreStateEnum';
+import { VpsOption } from '../models/VpsOption';
+import { VpsAutomatedBackupAttached } from '../models/VpsAutomatedBackupAttached';
 import { VpsRestoreTypeEnum } from '../models/VpsRestoreTypeEnum';
+import { DedicatedServerBackupFtpAcl } from '../models/DedicatedServerBackupFtpAcl';
+import { VpsVpsStatisticTypeEnum } from '../models/VpsVpsStatisticTypeEnum';
+import { VpsAutomatedBackup } from '../models/VpsAutomatedBackup';
+import { VpsVpsOptionEnum } from '../models/VpsVpsOptionEnum';
+import { VpsVpsTimestampValue } from '../models/VpsVpsTimestampValue';
+import { VpsTemplate } from '../models/VpsTemplate';
+import { VpsTask } from '../models/VpsTask';
 import { VpsMigrationVPS2018to2020 } from '../models/VpsMigrationVPS2018to2020';
+import { VpsOrderRuleDatacenters } from '../models/VpsOrderRuleDatacenters';
+import { SecondaryDnsSecondaryDNS } from '../models/SecondaryDnsSecondaryDNS';
+import { VpsVeeamExportTypeEnum } from '../models/VpsVeeamExportTypeEnum';
+import { DedicatedServerTask } from '../models/DedicatedServerTask';
+import { VpsOrderRuleOSChoices } from '../models/VpsOrderRuleOSChoices';
+import { VpsImage } from '../models/VpsImage';
+import { VpsTaskStateEnum } from '../models/VpsTaskStateEnum';
+import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
+import { VpsDiskStatisticTypeEnum } from '../models/VpsDiskStatisticTypeEnum';
+import { VpsDisk } from '../models/VpsDisk';
+import { VpsVncProtocolEnum } from '../models/VpsVncProtocolEnum';
+import { VpsVnc } from '../models/VpsVnc';
+import { SecondaryDnsSecondaryDNSNameServer } from '../models/SecondaryDnsSecondaryDNSNameServer';
+import { VpsIpServiceStatus } from '../models/VpsIpServiceStatus';
 import { NichandleCountryEnum } from '../models/NichandleCountryEnum';
 import { VpsVeeamRestorePoint } from '../models/VpsVeeamRestorePoint';
-import { VpsAutomatedBackupAttached } from '../models/VpsAutomatedBackupAttached';
-import { VpsRestoreStateEnum } from '../models/VpsRestoreStateEnum';
-import { VpsIpGeolocationEnum } from '../models/VpsIpGeolocationEnum';
-import { SecondaryDnsSecondaryDNSNameServer } from '../models/SecondaryDnsSecondaryDNSNameServer';
-import { VpsVpsOptionEnum } from '../models/VpsVpsOptionEnum';
-import { VpsTemplate } from '../models/VpsTemplate';
-import { VpsSoftware } from '../models/VpsSoftware';
-import { VpsIpServiceStatus } from '../models/VpsIpServiceStatus';
-import { VpsVncProtocolEnum } from '../models/VpsVncProtocolEnum';
-import { VpsVeeamRestoredBackup } from '../models/VpsVeeamRestoredBackup';
-import { VpsVeeamExportTypeEnum } from '../models/VpsVeeamExportTypeEnum';
-import { ServicesService } from '../models/ServicesService';
-import { DedicatedServerBackupFtpAcl } from '../models/DedicatedServerBackupFtpAcl';
-import { VpsVnc } from '../models/VpsVnc';
-import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
-import { DedicatedServerTask } from '../models/DedicatedServerTask';
-import { VpsVpsMonitoringStatistics } from '../models/VpsVpsMonitoringStatistics';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { VpsTaskTypeEnum } from '../models/VpsTaskTypeEnum';
-import { VpsBackupFtp } from '../models/VpsBackupFtp';
+import { VpsDatacenter } from '../models/VpsDatacenter';
 import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { VpsDiskStatisticTypeEnum } from '../models/VpsDiskStatisticTypeEnum';
-import { VpsVpsStatisticTypeEnum } from '../models/VpsVpsStatisticTypeEnum';
-import { VpsVpsMonitoringPeriodEnum } from '../models/VpsVpsMonitoringPeriodEnum';
-import { VpsIp } from '../models/VpsIp';
+import { VpsBackupFtp } from '../models/VpsBackupFtp';
 import OVHBase from '../ovh';
 
 class VpsHandler {
@@ -55,17 +55,17 @@ class VpsHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/vps');
   };
 
   /** List all the datacenters for a specific country */
-  listDatacenters = (): Promise<string[]> => {
+  listDatacenter = (): Promise<string[]> => {
     return this.ovh.request('GET', '/vps/datacenter');
   };
 
   /** List datacenters with priority and stock status */
-  listOrderRuleDatacenters = (): Promise<VpsOrderRuleDatacenters> => {
+  listOrderRuleDatacenter = (): Promise<VpsOrderRuleDatacenters> => {
     return this.ovh.request('GET', '/vps/order/rule/datacenter');
   };
 
@@ -260,7 +260,7 @@ class VpsHandler {
   };
 
   /** List available softwares for this template Id */
-  listDistributionSoftwaresByServiceName = (serviceName: string): Promise<number[]> => {
+  listDistributionSoftwareByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/vps/${serviceName}/distribution/software`);
   };
 
@@ -363,7 +363,7 @@ class VpsHandler {
   };
 
   /** List of VPS options */
-  listOptionsByServiceName = (serviceName: string): Promise<VpsVpsOptionEnum[]> => {
+  listOptionByServiceName = (serviceName: string): Promise<VpsVpsOptionEnum[]> => {
     return this.ovh.request('GET', `/vps/${serviceName}/option`);
   };
 
@@ -539,7 +539,7 @@ class VpsHandler {
   };
 
   /** List available softwares for this template Id */
-  listTemplatesSoftwaresByServiceNameAndId = (
+  listTemplatesSoftwareByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<number[]> => {

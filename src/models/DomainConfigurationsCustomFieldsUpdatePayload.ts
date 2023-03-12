@@ -3,5 +3,5 @@
 import { DomainConfigurationsCustomFields } from './DomainConfigurationsCustomFields';
 
 export type DomainConfigurationsCustomFieldsUpdatePayload = {
-  customFields: DomainConfigurationsCustomFields;
+  customFields?: DomainConfigurationsCustomFields;
 };

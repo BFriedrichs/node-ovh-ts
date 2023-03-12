@@ -4,13 +4,13 @@ import { CloudContainerRegistryRegistryStatusEnum } from './CloudContainerRegist
 import { CloudContainerRegistryRegistryRegionEnum } from './CloudContainerRegistryRegistryRegionEnum';
 
 export type CloudContainerRegistryRegistryRegistry = {
-  createdAt: Date;
-  id: string;
-  name: string;
-  projectID: string;
-  region: CloudContainerRegistryRegistryRegionEnum;
-  status: CloudContainerRegistryRegistryStatusEnum;
-  updatedAt: Date;
-  url: string;
-  version: string;
+  createdAt?: Date;
+  id?: string;
+  name?: string;
+  projectID?: string;
+  region?: CloudContainerRegistryRegistryRegionEnum;
+  status?: CloudContainerRegistryRegistryStatusEnum;
+  updatedAt?: Date;
+  url?: string;
+  version?: string;
 };

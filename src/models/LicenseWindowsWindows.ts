@@ -4,11 +4,11 @@ import { LicenseStateEnum } from './LicenseStateEnum';
 import { LicenseWindowsOsVersionEnum } from './LicenseWindowsOsVersionEnum';
 
 export type LicenseWindowsWindows = {
-  creation: Date;
-  deleteAtExpiration: boolean;
-  domain: string;
-  ip: string;
-  licenseId: string;
-  status: LicenseStateEnum;
-  version: LicenseWindowsOsVersionEnum;
+  creation?: Date;
+  deleteAtExpiration?: boolean;
+  domain?: string;
+  ip?: string;
+  licenseId?: string;
+  status?: LicenseStateEnum;
+  version?: LicenseWindowsOsVersionEnum;
 };

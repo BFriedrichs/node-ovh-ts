@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { VeeamCloudConnectTask } from '../models/VeeamCloudConnectTask';
-import { ServicesService } from '../models/ServicesService';
-import { VeeamCloudConnectBackupRepository } from '../models/VeeamCloudConnectBackupRepository';
-import { VeeamCloudConnectOfferCapabilities } from '../models/VeeamCloudConnectOfferCapabilities';
 import { VeeamCloudConnectTaskStateEnum } from '../models/VeeamCloudConnectTaskStateEnum';
+import { VeeamCloudConnectBackupRepository } from '../models/VeeamCloudConnectBackupRepository';
 import { VeeamCloudConnectOffer } from '../models/VeeamCloudConnectOffer';
 import { VeeamCloudConnectAccount } from '../models/VeeamCloudConnectAccount';
+import { ServicesService } from '../models/ServicesService';
+import { VeeamCloudConnectOfferCapabilities } from '../models/VeeamCloudConnectOfferCapabilities';
+import { VeeamCloudConnectTask } from '../models/VeeamCloudConnectTask';
 import OVHBase from '../ovh';
 
 class VeeamCloudConnectHandler {
@@ -17,7 +17,7 @@ class VeeamCloudConnectHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/veeamCloudConnect');
   };
 
@@ -79,7 +79,7 @@ class VeeamCloudConnectHandler {
   };
 
   /** List the possible upgrades on your Veeam Cloud Connect account */
-  listOrderableUpgradesByServiceName = (serviceName: string): Promise<VeeamCloudConnectOffer[]> => {
+  listOrderableUpgradeByServiceName = (serviceName: string): Promise<VeeamCloudConnectOffer[]> => {
     return this.ovh.request('GET', `/veeamCloudConnect/${serviceName}/orderableUpgrade`);
   };
 

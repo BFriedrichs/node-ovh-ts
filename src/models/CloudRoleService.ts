@@ -2,4 +2,4 @@
 
 import { CloudRolePermission } from './CloudRolePermission';
 
-export type CloudRoleService = { name: string; permissions: CloudRolePermission[] };
+export type CloudRoleService = { name?: string; permissions?: CloudRolePermission[] };

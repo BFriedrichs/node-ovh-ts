@@ -4,7 +4,7 @@ import { OrderPrice } from './OrderPrice';
 import { TelephonyBillStatusEnum } from './TelephonyBillStatusEnum';
 
 export type TelephonyHistoryTollfreeConsumption = {
-  date: Date;
-  price: OrderPrice;
-  status: TelephonyBillStatusEnum;
+  date?: Date;
+  price?: OrderPrice;
+  status?: TelephonyBillStatusEnum;
 };

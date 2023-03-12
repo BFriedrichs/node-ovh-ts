@@ -4,9 +4,9 @@ import { CloudProjectLoadbalancerPortRange } from './CloudProjectLoadbalancerPor
 import { CloudProjectLoadbalancerRule } from './CloudProjectLoadbalancerRule';
 
 export type CloudProjectNetworkloadbalancerEntryPoint = {
-  defaultTarget: string | null;
-  name?: string;
-  portRanges: CloudProjectLoadbalancerPortRange[] | null;
-  ports: number[] | null;
-  rules: CloudProjectLoadbalancerRule[];
+  defaultTarget?: string | null;
+  name: string;
+  portRanges?: CloudProjectLoadbalancerPortRange[] | null;
+  ports?: number[] | null;
+  rules?: CloudProjectLoadbalancerRule[];
 };

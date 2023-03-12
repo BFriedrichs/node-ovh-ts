@@ -2,4 +2,4 @@
 
 import { AnalyticsNodeTypeEnum } from './AnalyticsNodeTypeEnum';
 
-export type AnalyticsNodeDeploy = { nodeFlavor?: string; nodeType?: AnalyticsNodeTypeEnum };
+export type AnalyticsNodeDeploy = { nodeFlavor: string; nodeType: AnalyticsNodeTypeEnum };

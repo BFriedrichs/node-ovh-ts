@@ -3,8 +3,8 @@
 import { DedicatedCloudHostStockProcGen } from './DedicatedCloudHostStockProcGen';
 
 export type DedicatedCloudHostStockProfile = {
-  id: number;
-  name: string;
-  ref: string;
-  value: DedicatedCloudHostStockProcGen[];
+  id?: number;
+  name?: string;
+  ref?: string;
+  value?: DedicatedCloudHostStockProcGen[];
 };

@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type XdslAntiSpamEvidencesInfoDetail = { date: Date; filename: string; url: string };
+export type XdslAntiSpamEvidencesInfoDetail = { date?: Date; filename?: string; url?: string };

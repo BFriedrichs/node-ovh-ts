@@ -3,6 +3,6 @@
 import { DedicatedServerBandwidthvRackTypeEnum } from './DedicatedServerBandwidthvRackTypeEnum';
 
 export type DedicatedServerBandwidthvRackDetails = {
-  bandwidth: number | null;
-  type: DedicatedServerBandwidthvRackTypeEnum | null;
+  bandwidth?: number | null;
+  type?: DedicatedServerBandwidthvRackTypeEnum | null;
 };

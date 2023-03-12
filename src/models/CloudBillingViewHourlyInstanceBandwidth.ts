@@ -3,8 +3,8 @@
 import { CloudBillingViewBandwidthInstance } from './CloudBillingViewBandwidthInstance';
 
 export type CloudBillingViewHourlyInstanceBandwidth = {
-  incomingBandwidth: CloudBillingViewBandwidthInstance | null;
-  outgoingBandwidth: CloudBillingViewBandwidthInstance | null;
-  region: string;
-  totalPrice: number;
+  incomingBandwidth?: CloudBillingViewBandwidthInstance | null;
+  outgoingBandwidth?: CloudBillingViewBandwidthInstance | null;
+  region?: string;
+  totalPrice?: number;
 };

@@ -3,6 +3,6 @@
 import { DedicatedTemplateOsInfoLicenseItem } from './DedicatedTemplateOsInfoLicenseItem';
 
 export type DedicatedTemplateOsInfoLicense = {
-  os: DedicatedTemplateOsInfoLicenseItem | null;
-  usage: DedicatedTemplateOsInfoLicenseItem | null;
+  os?: DedicatedTemplateOsInfoLicenseItem | null;
+  usage?: DedicatedTemplateOsInfoLicenseItem | null;
 };

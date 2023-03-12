@@ -4,8 +4,8 @@ import { IpGameMitigationRuleStateEnum } from './IpGameMitigationRuleStateEnum';
 import { IpGameMitigationRuleProtocolEnum } from './IpGameMitigationRuleProtocolEnum';
 
 export type IpGameMitigationRule = {
-  id: number;
-  ports: number;
-  protocol: IpGameMitigationRuleProtocolEnum;
-  state: IpGameMitigationRuleStateEnum;
+  id?: number;
+  ports?: number;
+  protocol?: IpGameMitigationRuleProtocolEnum;
+  state?: IpGameMitigationRuleStateEnum;
 };

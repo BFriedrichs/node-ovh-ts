@@ -3,10 +3,10 @@
 import { NichandleAccessRestrictionSmsStatusEnum } from './NichandleAccessRestrictionSmsStatusEnum';
 
 export type NichandleAccessRestrictionSmsAccount = {
-  creationDate: Date;
-  description: string;
-  id: number;
-  lastUsedDate: Date | null;
-  phoneNumber: string;
-  status: NichandleAccessRestrictionSmsStatusEnum;
+  creationDate?: Date;
+  description?: string;
+  id?: number;
+  lastUsedDate?: Date | null;
+  phoneNumber?: string;
+  status?: NichandleAccessRestrictionSmsStatusEnum;
 };

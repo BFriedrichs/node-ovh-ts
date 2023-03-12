@@ -3,6 +3,6 @@
 import { DedicatedServerBackupBackupStatusCodeEnum } from './DedicatedServerBackupBackupStatusCodeEnum';
 
 export type DedicatedServerBackupBackupStatus = {
-  code: DedicatedServerBackupBackupStatusCodeEnum;
-  reason: string | null;
+  code?: DedicatedServerBackupBackupStatusCodeEnum;
+  reason?: string | null;
 };

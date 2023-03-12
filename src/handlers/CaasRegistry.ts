@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { RegistryPermissions } from '../models/RegistryPermissions';
-import { RegistryInputNamespace } from '../models/RegistryInputNamespace';
-import { RegistryUser } from '../models/RegistryUser';
-import { RegistryInputImage } from '../models/RegistryInputImage';
-import { RegistryNamespace } from '../models/RegistryNamespace';
-import { RegistryInputUser } from '../models/RegistryInputUser';
-import { RegistryImage } from '../models/RegistryImage';
-import { RegistryTag } from '../models/RegistryTag';
 import { RegistryInputPermissions } from '../models/RegistryInputPermissions';
-import { ServicesService } from '../models/ServicesService';
+import { RegistryInputNamespace } from '../models/RegistryInputNamespace';
+import { RegistryPermissions } from '../models/RegistryPermissions';
+import { RegistryInputUser } from '../models/RegistryInputUser';
 import { RegistryService } from '../models/RegistryService';
+import { RegistryImage } from '../models/RegistryImage';
+import { ServicesService } from '../models/ServicesService';
+import { RegistryInputImage } from '../models/RegistryInputImage';
+import { RegistryTag } from '../models/RegistryTag';
+import { RegistryNamespace } from '../models/RegistryNamespace';
+import { RegistryUser } from '../models/RegistryUser';
 import OVHBase from '../ovh';
 
 class CaasRegistryHandler {
@@ -21,7 +21,7 @@ class CaasRegistryHandler {
   }
 
   /** List available services */
-  listRegistrys = (): Promise<string[]> => {
+  listRegistry = (): Promise<string[]> => {
     return this.ovh.request('GET', '/caas/registry');
   };
 

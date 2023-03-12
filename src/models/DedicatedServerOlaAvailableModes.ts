@@ -3,7 +3,7 @@
 import { DedicatedServerOlaInterface } from './DedicatedServerOlaInterface';
 
 export type DedicatedServerOlaAvailableModes = {
-  default: boolean;
-  interfaces: DedicatedServerOlaInterface[];
-  name: string;
+  default?: boolean;
+  interfaces?: DedicatedServerOlaInterface[];
+  name?: string;
 };

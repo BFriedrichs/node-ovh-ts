@@ -3,8 +3,8 @@
 import { SmsSupportEnum } from './SmsSupportEnum';
 
 export type SmsAlertThreshold = {
-  alertEmail: string;
-  alertNumber: string;
-  alertThreshold: number;
-  support: SmsSupportEnum;
+  alertEmail?: string;
+  alertNumber?: string;
+  alertThreshold?: number;
+  support?: SmsSupportEnum;
 };

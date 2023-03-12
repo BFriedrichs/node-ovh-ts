@@ -4,6 +4,6 @@ import { DockerSlaveMetricsResources } from './DockerSlaveMetricsResources';
 import { DockerSlaveMetricsUsedResources } from './DockerSlaveMetricsUsedResources';
 
 export type DockerSlaveMetrics = {
-  resources: DockerSlaveMetricsResources;
-  usedResources: DockerSlaveMetricsUsedResources;
+  resources?: DockerSlaveMetricsResources;
+  usedResources?: DockerSlaveMetricsUsedResources;
 };

@@ -3,9 +3,9 @@
 import { NichandleOvhSubsidiaryEnum } from './NichandleOvhSubsidiaryEnum';
 
 export type OrderCatalogPublicProductBlobTechnicalDatacenter = {
-  city: string | null;
-  country: string | null;
-  countryCode: NichandleOvhSubsidiaryEnum | null;
-  name: string | null;
-  region: string | null;
+  city?: string | null;
+  country?: string | null;
+  countryCode?: NichandleOvhSubsidiaryEnum | null;
+  name?: string | null;
+  region?: string | null;
 };

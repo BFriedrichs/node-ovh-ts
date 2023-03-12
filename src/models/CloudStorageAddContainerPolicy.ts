@@ -3,6 +3,6 @@
 import { CloudStoragePolicyRoleEnum } from './CloudStoragePolicyRoleEnum';
 
 export type CloudStorageAddContainerPolicy = {
-  objectKey: string;
-  roleName?: CloudStoragePolicyRoleEnum;
+  objectKey?: string;
+  roleName: CloudStoragePolicyRoleEnum;
 };

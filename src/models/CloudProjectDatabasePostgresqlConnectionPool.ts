@@ -4,13 +4,13 @@ import { CloudProjectDatabasePostgresqlConnectionpoolSslModeEnum } from './Cloud
 import { CloudProjectDatabasePostgresqlConnectionpoolModeEnum } from './CloudProjectDatabasePostgresqlConnectionpoolModeEnum';
 
 export type CloudProjectDatabasePostgresqlConnectionPool = {
-  databaseId: string;
-  id: string;
-  mode: CloudProjectDatabasePostgresqlConnectionpoolModeEnum;
-  name: string;
-  port: number;
-  size: number;
-  sslMode: CloudProjectDatabasePostgresqlConnectionpoolSslModeEnum | null;
-  uri: string;
-  userId: string | null;
+  databaseId?: string;
+  id?: string;
+  mode?: CloudProjectDatabasePostgresqlConnectionpoolModeEnum;
+  name?: string;
+  port?: number;
+  size?: number;
+  sslMode?: CloudProjectDatabasePostgresqlConnectionpoolSslModeEnum | null;
+  uri?: string;
+  userId?: string | null;
 };

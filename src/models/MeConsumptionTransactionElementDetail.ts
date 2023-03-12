@@ -3,7 +3,7 @@
 import { MeConsumptionPrice } from './MeConsumptionPrice';
 
 export type MeConsumptionTransactionElementDetail = {
-  price: MeConsumptionPrice;
-  quantity: number;
-  unique_id: string | null;
+  price?: MeConsumptionPrice;
+  quantity?: number;
+  unique_id?: string | null;
 };

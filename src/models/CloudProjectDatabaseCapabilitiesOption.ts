@@ -3,6 +3,6 @@
 import { CloudProjectDatabaseTypeEnum } from './CloudProjectDatabaseTypeEnum';
 
 export type CloudProjectDatabaseCapabilitiesOption = {
-  name: string;
-  type: CloudProjectDatabaseTypeEnum;
+  name?: string;
+  type?: CloudProjectDatabaseTypeEnum;
 };

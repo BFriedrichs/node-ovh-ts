@@ -3,10 +3,10 @@
 import { DomainDomainMlLanguageEnum } from './DomainDomainMlLanguageEnum';
 
 export type EmailDomainTaskMl = {
-  account: string;
-  action: string;
-  date: Date;
-  domain: string;
-  id: number;
-  language: DomainDomainMlLanguageEnum;
+  account?: string;
+  action?: string;
+  date?: Date;
+  domain?: string;
+  id?: number;
+  language?: DomainDomainMlLanguageEnum;
 };

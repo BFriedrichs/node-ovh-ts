@@ -3,9 +3,9 @@
 import { BillingItemDetailOrderPlanProduct } from './BillingItemDetailOrderPlanProduct';
 
 export type BillingItemDetailOrderPlan = {
-  code: string | null;
-  duration: string | null;
-  pricingMode: string | null;
-  product: BillingItemDetailOrderPlanProduct;
-  quantity: number | null;
+  code?: string | null;
+  duration?: string | null;
+  pricingMode?: string | null;
+  product?: BillingItemDetailOrderPlanProduct;
+  quantity?: number | null;
 };

@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MsServicesSyncLicenseEnum } from './MsServicesSyncLicenseEnum';
 import { MsServicesObjectStateEnum } from './MsServicesObjectStateEnum';
+import { MsServicesSyncLicenseEnum } from './MsServicesSyncLicenseEnum';
 
 export type MsServicesSyncInformation = {
-  configured: boolean;
-  license: MsServicesSyncLicenseEnum;
-  state: MsServicesObjectStateEnum;
-  taskPendingId: number;
+  configured?: boolean;
+  license?: MsServicesSyncLicenseEnum;
+  state?: MsServicesObjectStateEnum;
+  taskPendingId?: number;
 };

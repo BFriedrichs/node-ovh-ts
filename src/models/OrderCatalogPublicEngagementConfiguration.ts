@@ -4,7 +4,7 @@ import { OrderCatalogPublicEngagementConfigurationTypeEnum } from './OrderCatalo
 import { OrderCatalogPublicEngagementConfigurationEndStrategyEnum } from './OrderCatalogPublicEngagementConfigurationEndStrategyEnum';
 
 export type OrderCatalogPublicEngagementConfiguration = {
-  defaultEndAction: OrderCatalogPublicEngagementConfigurationEndStrategyEnum;
-  duration: number;
-  type: OrderCatalogPublicEngagementConfigurationTypeEnum;
+  defaultEndAction?: OrderCatalogPublicEngagementConfigurationEndStrategyEnum;
+  duration?: number;
+  type?: OrderCatalogPublicEngagementConfigurationTypeEnum;
 };

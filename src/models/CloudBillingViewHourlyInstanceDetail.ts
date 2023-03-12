@@ -3,7 +3,7 @@
 import { CloudBillingViewQuantity } from './CloudBillingViewQuantity';
 
 export type CloudBillingViewHourlyInstanceDetail = {
-  instanceId: string;
-  quantity: CloudBillingViewQuantity;
-  totalPrice: number;
+  instanceId?: string;
+  quantity?: CloudBillingViewQuantity;
+  totalPrice?: number;
 };

@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type DedicatedAnthosUpgradeAnthosRequest = { version: string };
+export type DedicatedAnthosUpgradeAnthosRequest = { version?: string };

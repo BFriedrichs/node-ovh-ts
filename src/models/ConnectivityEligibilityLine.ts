@@ -4,7 +4,7 @@ import { ConnectivityEligibilityCopperInfo } from './ConnectivityEligibilityCopp
 import { ConnectivityEligibilityAddress } from './ConnectivityEligibilityAddress';
 
 export type ConnectivityEligibilityLine = {
-  address: ConnectivityEligibilityAddress;
-  copperInfo: ConnectivityEligibilityCopperInfo;
-  lineNumber: string;
+  address?: ConnectivityEligibilityAddress;
+  copperInfo?: ConnectivityEligibilityCopperInfo;
+  lineNumber?: string;
 };

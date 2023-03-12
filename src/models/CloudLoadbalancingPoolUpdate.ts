@@ -4,7 +4,7 @@ import { CloudLoadbalancingPoolSessionPersistence } from './CloudLoadbalancingPo
 import { CloudLoadbalancingPoolAlgorithmEnum } from './CloudLoadbalancingPoolAlgorithmEnum';
 
 export type CloudLoadbalancingPoolUpdate = {
-  algorithm: CloudLoadbalancingPoolAlgorithmEnum | null;
-  name: string | null;
-  sessionPersistence: CloudLoadbalancingPoolSessionPersistence | null;
+  algorithm?: CloudLoadbalancingPoolAlgorithmEnum | null;
+  name?: string | null;
+  sessionPersistence?: CloudLoadbalancingPoolSessionPersistence | null;
 };

@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type DockerSlaveFrameworkAppEnvironment = { key: string | null; value: string | null };
+export type DockerSlaveFrameworkAppEnvironment = { key?: string | null; value?: string | null };

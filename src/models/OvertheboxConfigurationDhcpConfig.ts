@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OvertheboxConfigurationTypesDhcpConfig } from './OvertheboxConfigurationTypesDhcpConfig';
 import { OvertheboxConfigurationStatusEnum } from './OvertheboxConfigurationStatusEnum';
+import { OvertheboxConfigurationTypesDhcpConfig } from './OvertheboxConfigurationTypesDhcpConfig';
 
 export type OvertheboxConfigurationDhcpConfig = {
-  configuration: OvertheboxConfigurationTypesDhcpConfig;
-  id: string;
-  priority: number;
-  status: OvertheboxConfigurationStatusEnum;
+  configuration?: OvertheboxConfigurationTypesDhcpConfig;
+  id?: string;
+  priority?: number;
+  status?: OvertheboxConfigurationStatusEnum;
 };

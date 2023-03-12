@@ -2,4 +2,4 @@
 
 import { VpsIpServiceStatusStateEnum } from './VpsIpServiceStatusStateEnum';
 
-export type VpsIpServiceStatusService = { port: number; state: VpsIpServiceStatusStateEnum };
+export type VpsIpServiceStatusService = { port?: number; state?: VpsIpServiceStatusStateEnum };

@@ -3,10 +3,10 @@
 import { ConnectivityEligibilityBuildingTypeEnum } from './ConnectivityEligibilityBuildingTypeEnum';
 
 export type ConnectivityEligibilityFiberInfo = {
-  buildingName: string;
-  buildingReference: string;
-  buildingType: ConnectivityEligibilityBuildingTypeEnum;
-  nro: string | null;
-  operatorCode: string;
-  operatorName: string;
+  buildingName?: string;
+  buildingReference?: string;
+  buildingType?: ConnectivityEligibilityBuildingTypeEnum;
+  nro?: string | null;
+  operatorCode?: string;
+  operatorName?: string;
 };

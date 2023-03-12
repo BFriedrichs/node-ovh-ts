@@ -3,11 +3,11 @@
 import { ServiceStateEnum } from './ServiceStateEnum';
 
 export type ServicesNonExpiringService = {
-  contactAdmin: string;
-  contactBilling: string;
-  contactTech: string;
-  creation: Date;
-  domain: string;
-  serviceId: number;
-  status: ServiceStateEnum;
+  contactAdmin?: string;
+  contactBilling?: string;
+  contactTech?: string;
+  creation?: Date;
+  domain?: string;
+  serviceId?: number;
+  status?: ServiceStateEnum;
 };

@@ -3,9 +3,9 @@
 import { OrderCatalogPccStorageSpecifications } from './OrderCatalogPccStorageSpecifications';
 
 export type OrderCatalogPccStorage = {
-  name: string;
-  onInitialOrder: boolean;
-  onUpgradeOrder: boolean;
-  planCode: string;
-  specifications: OrderCatalogPccStorageSpecifications;
+  name?: string;
+  onInitialOrder?: boolean;
+  onUpgradeOrder?: boolean;
+  planCode?: string;
+  specifications?: OrderCatalogPccStorageSpecifications;
 };

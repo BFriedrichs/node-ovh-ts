@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
 import { LicenseOptionLabel } from '../models/LicenseOptionLabel';
 import { LicenseOption } from '../models/LicenseOption';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { LicenseVirtuozzoVirtuozzo } from '../models/LicenseVirtuozzoVirtuozzo';
 import { LicenseTask } from '../models/LicenseTask';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { LicenseVirtuozzoOrderConfiguration } from '../models/LicenseVirtuozzoOrderConfiguration';
-import { LicenseActionType } from '../models/LicenseActionType';
-import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { ServicesService } from '../models/ServicesService';
+import { LicenseActionType } from '../models/LicenseActionType';
+import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
 import OVHBase from '../ovh';
 
 class LicenseVirtuozzoHandler {
@@ -21,7 +21,7 @@ class LicenseVirtuozzoHandler {
   }
 
   /** List available services */
-  listVirtuozzos = (): Promise<string[]> => {
+  listVirtuozzo = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/virtuozzo');
   };
 

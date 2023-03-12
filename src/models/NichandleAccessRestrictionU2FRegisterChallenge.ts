@@ -3,7 +3,7 @@
 import { NichandleAccessRestrictionU2FRegistrationRequest } from './NichandleAccessRestrictionU2FRegistrationRequest';
 
 export type NichandleAccessRestrictionU2FRegisterChallenge = {
-  applicationId: string;
-  id: number;
-  request: NichandleAccessRestrictionU2FRegistrationRequest;
+  applicationId?: string;
+  id?: number;
+  request?: NichandleAccessRestrictionU2FRegistrationRequest;
 };

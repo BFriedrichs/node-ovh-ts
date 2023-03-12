@@ -4,10 +4,10 @@ import { CloudProjectNetworkloadbalancerConditionTypeEnum } from './CloudProject
 import { CloudProjectLoadbalancerConditionMatchEnum } from './CloudProjectLoadbalancerConditionMatchEnum';
 
 export type CloudProjectNetworkloadbalancerCondition = {
-  key: string | null;
-  match?: CloudProjectLoadbalancerConditionMatchEnum;
-  name?: string;
-  negate: boolean | null;
-  type?: CloudProjectNetworkloadbalancerConditionTypeEnum;
-  values?: string[];
+  key?: string | null;
+  match: CloudProjectLoadbalancerConditionMatchEnum;
+  name: string;
+  negate?: boolean | null;
+  type: CloudProjectNetworkloadbalancerConditionTypeEnum;
+  values: string[];
 };

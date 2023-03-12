@@ -1,26 +1,26 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedStorageProtocolEnum } from '../models/DedicatedStorageProtocolEnum';
-import { DedicatedNashaSnapshot } from '../models/DedicatedNashaSnapshot';
-import { DedicatedNashaOptions } from '../models/DedicatedNashaOptions';
-import { DedicatedNashaCustomSnap } from '../models/DedicatedNashaCustomSnap';
-import { DedicatedStorageSnapshotEnum } from '../models/DedicatedStorageSnapshotEnum';
-import { DedicatedNashaStorage } from '../models/DedicatedNashaStorage';
-import { DedicatedNashaQuota } from '../models/DedicatedNashaQuota';
-import { DedicatedStoragePartitionUsageTypeEnum } from '../models/DedicatedStoragePartitionUsageTypeEnum';
 import { DedicatedNashaPartition } from '../models/DedicatedNashaPartition';
-import { DedicatedStorageAclTypeEnum } from '../models/DedicatedStorageAclTypeEnum';
-import { DedicatedStorageAtimeEnum } from '../models/DedicatedStorageAtimeEnum';
-import { DedicatedNashaAccess } from '../models/DedicatedNashaAccess';
 import { ServicesService } from '../models/ServicesService';
-import { DedicatedStorageRecordSizeEnum } from '../models/DedicatedStorageRecordSizeEnum';
-import { DedicatedNasTaskTask } from '../models/DedicatedNasTaskTask';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { DedicatedStoragePartitionUsageTypeEnum } from '../models/DedicatedStoragePartitionUsageTypeEnum';
+import { DedicatedNashaStorage } from '../models/DedicatedNashaStorage';
+import { DedicatedStorageSnapshotEnum } from '../models/DedicatedStorageSnapshotEnum';
+import { DedicatedNashaCustomSnap } from '../models/DedicatedNashaCustomSnap';
 import { DedicatedStorageNasUsageTypeEnum } from '../models/DedicatedStorageNasUsageTypeEnum';
-import { DedicatedStorageSyncEnum } from '../models/DedicatedStorageSyncEnum';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { DedicatedStorageTaskFunctionEnum } from '../models/DedicatedStorageTaskFunctionEnum';
+import { DedicatedNashaOptions } from '../models/DedicatedNashaOptions';
+import { DedicatedStorageAclTypeEnum } from '../models/DedicatedStorageAclTypeEnum';
+import { DedicatedNashaSnapshot } from '../models/DedicatedNashaSnapshot';
+import { DedicatedNashaAccess } from '../models/DedicatedNashaAccess';
 import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
+import { DedicatedStorageRecordSizeEnum } from '../models/DedicatedStorageRecordSizeEnum';
+import { DedicatedStorageSyncEnum } from '../models/DedicatedStorageSyncEnum';
+import { DedicatedNasTaskTask } from '../models/DedicatedNasTaskTask';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { DedicatedNashaQuota } from '../models/DedicatedNashaQuota';
+import { DedicatedStorageTaskFunctionEnum } from '../models/DedicatedStorageTaskFunctionEnum';
+import { DedicatedStorageAtimeEnum } from '../models/DedicatedStorageAtimeEnum';
+import { DedicatedStorageProtocolEnum } from '../models/DedicatedStorageProtocolEnum';
 import OVHBase from '../ovh';
 
 class DedicatedNashaHandler {
@@ -31,7 +31,7 @@ class DedicatedNashaHandler {
   }
 
   /** List available services */
-  listNashas = (): Promise<string[]> => {
+  listNasha = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicated/nasha');
   };
 

@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type XdslLineDiagnosticSection = { length: number; section: number };
+export type XdslLineDiagnosticSection = { length?: number; section?: number };

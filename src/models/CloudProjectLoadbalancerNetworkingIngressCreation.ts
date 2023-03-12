@@ -3,5 +3,5 @@
 import { CloudProjectLoadbalancerNetworkingIngressKindEnum } from './CloudProjectLoadbalancerNetworkingIngressKindEnum';
 
 export type CloudProjectLoadbalancerNetworkingIngressCreation = {
-  kind?: CloudProjectLoadbalancerNetworkingIngressKindEnum;
+  kind: CloudProjectLoadbalancerNetworkingIngressKindEnum;
 };

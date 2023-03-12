@@ -3,6 +3,6 @@
 import { CloudContainerRegistryPlan } from './CloudContainerRegistryPlan';
 
 export type CloudContainerRegistryCapability = {
-  plans: CloudContainerRegistryPlan[];
-  regionName: string;
+  plans?: CloudContainerRegistryPlan[];
+  regionName?: string;
 };

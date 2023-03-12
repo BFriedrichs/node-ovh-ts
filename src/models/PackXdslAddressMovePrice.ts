@@ -2,4 +2,4 @@
 
 import { OrderPrice } from './OrderPrice';
 
-export type PackXdslAddressMovePrice = { description: string; price: OrderPrice | null };
+export type PackXdslAddressMovePrice = { description?: string; price?: OrderPrice | null };

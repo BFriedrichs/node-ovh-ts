@@ -3,7 +3,7 @@
 import { LicenseOfficeLicenceEnum } from './LicenseOfficeLicenceEnum';
 
 export type LicenseOfficeStatisticsLine = {
-  endOfDayCount: number;
-  licenceType: LicenseOfficeLicenceEnum;
-  peakCount: number;
+  endOfDayCount?: number;
+  licenceType?: LicenseOfficeLicenceEnum;
+  peakCount?: number;
 };

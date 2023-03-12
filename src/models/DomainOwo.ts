@@ -2,4 +2,4 @@
 
 import { DomainWhoisObfuscatorFieldsEnum } from './DomainWhoisObfuscatorFieldsEnum';
 
-export type DomainOwo = { field: DomainWhoisObfuscatorFieldsEnum };
+export type DomainOwo = { field?: DomainWhoisObfuscatorFieldsEnum };

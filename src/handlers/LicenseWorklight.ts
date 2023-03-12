@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { LicenseWorklightWorkLight } from '../models/LicenseWorklightWorkLight';
+import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicenseTask } from '../models/LicenseTask';
+import { ServicesService } from '../models/ServicesService';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseActionType } from '../models/LicenseActionType';
 import { LicenseWorkLightOrderConfiguration } from '../models/LicenseWorkLightOrderConfiguration';
 import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
-import { LicenseWorklightWorkLight } from '../models/LicenseWorklightWorkLight';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { LicenseTask } from '../models/LicenseTask';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
-import { LicenseActionType } from '../models/LicenseActionType';
-import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class LicenseWorklightHandler {
@@ -19,7 +19,7 @@ class LicenseWorklightHandler {
   }
 
   /** List available services */
-  listWorklights = (): Promise<string[]> => {
+  listWorklight = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/worklight');
   };
 

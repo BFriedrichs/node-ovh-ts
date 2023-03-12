@@ -3,9 +3,9 @@
 import { OvhcloudconnectPopConfigStatusEnum } from './OvhcloudconnectPopConfigStatusEnum';
 
 export type OvhcloudconnectDatacenterConfig = {
-  datacenterId?: number;
-  id: number;
-  ovhBgpArea: number;
-  status: OvhcloudconnectPopConfigStatusEnum;
-  subnet: string | null;
+  datacenterId: number;
+  id?: number;
+  ovhBgpArea?: number;
+  status?: OvhcloudconnectPopConfigStatusEnum;
+  subnet?: string | null;
 };

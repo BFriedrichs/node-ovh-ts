@@ -3,7 +3,7 @@
 import { ServicesExpandedTechnicalBaremetalServerStorageRaidTypeEnum } from './ServicesExpandedTechnicalBaremetalServerStorageRaidTypeEnum';
 
 export type ServicesExpandedTechnicalBaremetalServerStorageRaid = {
-  cardModel: string | null;
-  cardSize: string | null;
-  type: ServicesExpandedTechnicalBaremetalServerStorageRaidTypeEnum;
+  cardModel?: string | null;
+  cardSize?: string | null;
+  type?: ServicesExpandedTechnicalBaremetalServerStorageRaidTypeEnum;
 };

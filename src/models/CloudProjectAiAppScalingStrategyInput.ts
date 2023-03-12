@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectAiAppScalingFixedStrategyInput } from './CloudProjectAiAppScalingFixedStrategyInput';
 import { CloudProjectAiAppScalingAutomaticStrategyInput } from './CloudProjectAiAppScalingAutomaticStrategyInput';
+import { CloudProjectAiAppScalingFixedStrategyInput } from './CloudProjectAiAppScalingFixedStrategyInput';
 
 export type CloudProjectAiAppScalingStrategyInput = {
-  automatic: CloudProjectAiAppScalingAutomaticStrategyInput | null;
-  fixed: CloudProjectAiAppScalingFixedStrategyInput | null;
+  automatic?: CloudProjectAiAppScalingAutomaticStrategyInput | null;
+  fixed?: CloudProjectAiAppScalingFixedStrategyInput | null;
 };

@@ -3,10 +3,10 @@
 import { DedicatedStorageProtocolEnum } from './DedicatedStorageProtocolEnum';
 
 export type DedicatedNashaPartition = {
-  partitionCapacity: number | null;
-  partitionDescription: string | null;
-  partitionName: string;
-  protocol: DedicatedStorageProtocolEnum;
-  size: number;
-  usedBySnapshots: number | null;
+  partitionCapacity?: number | null;
+  partitionDescription?: string | null;
+  partitionName?: string;
+  protocol?: DedicatedStorageProtocolEnum;
+  size?: number;
+  usedBySnapshots?: number | null;
 };

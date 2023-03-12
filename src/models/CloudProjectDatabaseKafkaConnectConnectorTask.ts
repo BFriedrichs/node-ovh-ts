@@ -3,7 +3,7 @@
 import { CloudProjectDatabaseKafkaConnectConnectorTaskStatusEnum } from './CloudProjectDatabaseKafkaConnectConnectorTaskStatusEnum';
 
 export type CloudProjectDatabaseKafkaConnectConnectorTask = {
-  id: number;
-  status: CloudProjectDatabaseKafkaConnectConnectorTaskStatusEnum;
-  trace: string;
+  id?: number;
+  status?: CloudProjectDatabaseKafkaConnectConnectorTaskStatusEnum;
+  trace?: string;
 };

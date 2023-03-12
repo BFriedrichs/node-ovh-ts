@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CoreTypesCountryEnum } from '../models/CoreTypesCountryEnum';
 import { SupplyMondialRelayReturn } from '../models/SupplyMondialRelayReturn';
+import { CoreTypesCountryEnum } from '../models/CoreTypesCountryEnum';
 import OVHBase from '../ovh';
 
 class SupplyMondialRelayHandler {

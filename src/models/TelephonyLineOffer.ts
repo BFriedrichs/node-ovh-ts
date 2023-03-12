@@ -2,4 +2,4 @@
 
 import { OrderPrice } from './OrderPrice';
 
-export type TelephonyLineOffer = { description: string; name: string; price: OrderPrice | null };
+export type TelephonyLineOffer = { description?: string; name?: string; price?: OrderPrice | null };

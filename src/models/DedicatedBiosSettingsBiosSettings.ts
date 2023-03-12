@@ -3,5 +3,5 @@
 import { DedicatedServerBiosSettingsSupport } from './DedicatedServerBiosSettingsSupport';
 
 export type DedicatedBiosSettingsBiosSettings = {
-  supportedSettings: DedicatedServerBiosSettingsSupport;
+  supportedSettings?: DedicatedServerBiosSettingsSupport;
 };

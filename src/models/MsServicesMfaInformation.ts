@@ -3,7 +3,7 @@
 import { MsServicesObjectStateEnum } from './MsServicesObjectStateEnum';
 
 export type MsServicesMfaInformation = {
-  activated: boolean;
-  state: MsServicesObjectStateEnum;
-  taskPendingId: number;
+  activated?: boolean;
+  state?: MsServicesObjectStateEnum;
+  taskPendingId?: number;
 };

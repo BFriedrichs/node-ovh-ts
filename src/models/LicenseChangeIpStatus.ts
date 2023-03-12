@@ -2,4 +2,4 @@
 
 import { LicenseChangeIpMessageEnum } from './LicenseChangeIpMessageEnum';
 
-export type LicenseChangeIpStatus = { message: LicenseChangeIpMessageEnum; success: boolean };
+export type LicenseChangeIpStatus = { message?: LicenseChangeIpMessageEnum; success?: boolean };

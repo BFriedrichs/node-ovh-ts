@@ -4,11 +4,11 @@ import { OvhcloudconnectDatacenterExtraConfigTypeEnum } from './OvhcloudconnectD
 import { OvhcloudconnectPopConfigStatusEnum } from './OvhcloudconnectPopConfigStatusEnum';
 
 export type OvhcloudconnectDatacenterExtraConfig = {
-  bgpNeighborArea: number | null;
-  bgpNeighborIp: string | null;
-  id: number;
-  nextHop: string | null;
-  status: OvhcloudconnectPopConfigStatusEnum;
-  subnet: string | null;
-  type?: OvhcloudconnectDatacenterExtraConfigTypeEnum;
+  bgpNeighborArea?: number | null;
+  bgpNeighborIp?: string | null;
+  id?: number;
+  nextHop?: string | null;
+  status?: OvhcloudconnectPopConfigStatusEnum;
+  subnet?: string | null;
+  type: OvhcloudconnectDatacenterExtraConfigTypeEnum;
 };

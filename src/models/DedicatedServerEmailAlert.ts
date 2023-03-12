@@ -3,8 +3,8 @@
 import { DedicatedServerAlertLanguageEnum } from './DedicatedServerAlertLanguageEnum';
 
 export type DedicatedServerEmailAlert = {
-  alertId: number;
-  email: string;
-  enabled: boolean;
-  language: DedicatedServerAlertLanguageEnum;
+  alertId?: number;
+  email?: string;
+  enabled?: boolean;
+  language?: DedicatedServerAlertLanguageEnum;
 };

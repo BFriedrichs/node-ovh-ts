@@ -2,4 +2,4 @@
 
 import { SslGatewayDomainStateEnum } from './SslGatewayDomainStateEnum';
 
-export type SslGatewayDomain = { domain: string; id: number; state: SslGatewayDomainStateEnum };
+export type SslGatewayDomain = { domain?: string; id?: number; state?: SslGatewayDomainStateEnum };

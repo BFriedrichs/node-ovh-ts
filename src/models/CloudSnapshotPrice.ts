@@ -2,4 +2,4 @@
 
 import { OrderPrice } from './OrderPrice';
 
-export type CloudSnapshotPrice = { monthlyPrice: OrderPrice; price: OrderPrice; region: string };
+export type CloudSnapshotPrice = { monthlyPrice?: OrderPrice; price?: OrderPrice; region?: string };

@@ -3,8 +3,8 @@
 import { VrackEligibleServices } from './VrackEligibleServices';
 
 export type VrackEligibleServicesResponse = {
-  createdAt: string;
-  errors: string[];
-  result: VrackEligibleServices;
-  status: string;
+  createdAt?: string;
+  errors?: string[];
+  result?: VrackEligibleServices;
+  status?: string;
 };

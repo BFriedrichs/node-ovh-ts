@@ -3,6 +3,6 @@
 import { CloudProjectDataProcessingMetricsEndpoint } from './CloudProjectDataProcessingMetricsEndpoint';
 
 export type CloudProjectDataProcessingMetrics = {
-  endpoints: CloudProjectDataProcessingMetricsEndpoint[];
-  token: string;
+  endpoints?: CloudProjectDataProcessingMetricsEndpoint[];
+  token?: string;
 };

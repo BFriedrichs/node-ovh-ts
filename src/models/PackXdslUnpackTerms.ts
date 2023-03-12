@@ -3,8 +3,8 @@
 import { OrderPrice } from './OrderPrice';
 
 export type PackXdslUnpackTerms = {
-  isAllowed: boolean;
-  price: OrderPrice;
-  renewPeriod: number;
-  renewPrice: OrderPrice;
+  isAllowed?: boolean;
+  price?: OrderPrice;
+  renewPeriod?: number;
+  renewPrice?: OrderPrice;
 };

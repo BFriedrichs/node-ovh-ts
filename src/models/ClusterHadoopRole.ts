@@ -2,4 +2,4 @@
 
 import { ClusterHadoopRoleTypeEnum } from './ClusterHadoopRoleTypeEnum';
 
-export type ClusterHadoopRole = { id: number; type: ClusterHadoopRoleTypeEnum };
+export type ClusterHadoopRole = { id?: number; type?: ClusterHadoopRoleTypeEnum };

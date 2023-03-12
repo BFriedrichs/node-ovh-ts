@@ -4,8 +4,8 @@ import { ServicesFormAnswerAllowedValue } from './ServicesFormAnswerAllowedValue
 import { ServicesFormAnswerTypeEnum } from './ServicesFormAnswerTypeEnum';
 
 export type ServicesFormQuestion = {
-  answers: ServicesFormAnswerAllowedValue[] | null;
-  mandatory: boolean;
-  question: string;
-  type: ServicesFormAnswerTypeEnum;
+  answers?: ServicesFormAnswerAllowedValue[] | null;
+  mandatory?: boolean;
+  question?: string;
+  type?: ServicesFormAnswerTypeEnum;
 };

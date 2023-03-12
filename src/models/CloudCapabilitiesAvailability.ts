@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudCapabilitiesAvailabilityProduct } from './CloudCapabilitiesAvailabilityProduct';
 import { CloudCapabilitiesAvailabilityPlan } from './CloudCapabilitiesAvailabilityPlan';
+import { CloudCapabilitiesAvailabilityProduct } from './CloudCapabilitiesAvailabilityProduct';
 
 export type CloudCapabilitiesAvailability = {
-  plans: CloudCapabilitiesAvailabilityPlan[];
-  products: CloudCapabilitiesAvailabilityProduct[];
+  plans?: CloudCapabilitiesAvailabilityPlan[];
+  products?: CloudCapabilitiesAvailabilityProduct[];
 };

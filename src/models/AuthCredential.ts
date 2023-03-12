@@ -3,7 +3,7 @@
 import { AuthCredentialStateEnum } from './AuthCredentialStateEnum';
 
 export type AuthCredential = {
-  consumerKey: string;
-  state: AuthCredentialStateEnum;
-  validationUrl: string | null;
+  consumerKey?: string;
+  state?: AuthCredentialStateEnum;
+  validationUrl?: string | null;
 };

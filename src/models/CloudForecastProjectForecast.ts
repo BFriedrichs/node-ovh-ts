@@ -2,4 +2,4 @@
 
 import { OrderPrice } from './OrderPrice';
 
-export type CloudForecastProjectForecast = { lastMetric: Date; projectForecast: OrderPrice };
+export type CloudForecastProjectForecast = { lastMetric?: Date; projectForecast?: OrderPrice };

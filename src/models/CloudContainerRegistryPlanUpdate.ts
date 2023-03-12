@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type CloudContainerRegistryPlanUpdate = { planID?: string };
+export type CloudContainerRegistryPlanUpdate = { planID: string };

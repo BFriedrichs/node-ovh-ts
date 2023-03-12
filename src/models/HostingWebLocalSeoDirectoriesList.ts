@@ -3,7 +3,7 @@
 import { HostingWebLocalSeoDirectory } from './HostingWebLocalSeoDirectory';
 
 export type HostingWebLocalSeoDirectoriesList = {
-  navigationSystems: HostingWebLocalSeoDirectory[];
-  searchEngines: HostingWebLocalSeoDirectory[];
-  socialNetworks: HostingWebLocalSeoDirectory[];
+  navigationSystems?: HostingWebLocalSeoDirectory[];
+  searchEngines?: HostingWebLocalSeoDirectory[];
+  socialNetworks?: HostingWebLocalSeoDirectory[];
 };

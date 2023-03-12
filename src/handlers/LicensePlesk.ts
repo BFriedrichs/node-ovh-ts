@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicensePleskOrderConfiguration } from '../models/LicensePleskOrderConfiguration';
-import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
 import { LicenseOptionLabel } from '../models/LicenseOptionLabel';
 import { LicenseOption } from '../models/LicenseOption';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { LicenseTask } from '../models/LicenseTask';
+import { LicensePleskOrderConfiguration } from '../models/LicensePleskOrderConfiguration';
+import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
 import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { LicensePleskPlesk } from '../models/LicensePleskPlesk';
-import { LicenseActionType } from '../models/LicenseActionType';
-import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
+import { LicenseTask } from '../models/LicenseTask';
 import { ServicesService } from '../models/ServicesService';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseActionType } from '../models/LicenseActionType';
+import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
 import OVHBase from '../ovh';
 
 class LicensePleskHandler {
@@ -21,7 +21,7 @@ class LicensePleskHandler {
   }
 
   /** List available services */
-  listPlesks = (): Promise<string[]> => {
+  listPlesk = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/plesk');
   };
 

@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 export type PackXdslVoIPLineOrder = {
-  needPayment: boolean;
-  orderId: number;
-  orderUrl: string;
-  taskIds: number[];
+  needPayment?: boolean;
+  orderId?: number;
+  orderUrl?: string;
+  taskIds?: number[];
 };

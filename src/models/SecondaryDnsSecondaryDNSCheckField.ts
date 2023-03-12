@@ -3,7 +3,7 @@
 import { ZoneNamedResolutionFieldTypeEnum } from './ZoneNamedResolutionFieldTypeEnum';
 
 export type SecondaryDnsSecondaryDNSCheckField = {
-  fieldType: ZoneNamedResolutionFieldTypeEnum;
-  fieldValue: string;
-  subDomain: string;
+  fieldType?: ZoneNamedResolutionFieldTypeEnum;
+  fieldValue?: string;
+  subDomain?: string;
 };

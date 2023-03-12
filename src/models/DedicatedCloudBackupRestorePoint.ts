@@ -3,9 +3,9 @@
 import { DedicatedCloudBackupBackupTypeEnum } from './DedicatedCloudBackupBackupTypeEnum';
 
 export type DedicatedCloudBackupRestorePoint = {
-  creationTime: Date | null;
-  isCorrupted: boolean | null;
-  restorePointId: number;
-  size: number | null;
-  type: DedicatedCloudBackupBackupTypeEnum | null;
+  creationTime?: Date | null;
+  isCorrupted?: boolean | null;
+  restorePointId?: number;
+  size?: number | null;
+  type?: DedicatedCloudBackupBackupTypeEnum | null;
 };

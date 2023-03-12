@@ -3,9 +3,9 @@
 import { CloudProjectDatabaseStatusEnum } from './CloudProjectDatabaseStatusEnum';
 
 export type CloudProjectDatabaseM3dbUser = {
-  createdAt: Date;
-  group: string;
-  id: string;
-  status: CloudProjectDatabaseStatusEnum;
-  username: string;
+  createdAt?: Date;
+  group?: string;
+  id?: string;
+  status?: CloudProjectDatabaseStatusEnum;
+  username?: string;
 };

@@ -3,6 +3,6 @@
 import { DedicatedServerIpmiSupportedFeatures } from './DedicatedServerIpmiSupportedFeatures';
 
 export type DedicatedServerIpmi = {
-  activated: boolean;
-  supportedFeatures: DedicatedServerIpmiSupportedFeatures;
+  activated?: boolean;
+  supportedFeatures?: DedicatedServerIpmiSupportedFeatures;
 };

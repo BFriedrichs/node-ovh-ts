@@ -3,7 +3,7 @@
 import { CloudProjectIoStreamSubscriptionKindEnum } from './CloudProjectIoStreamSubscriptionKindEnum';
 
 export type CloudProjectIoStreamSubscription = {
-  id: string;
-  kind: CloudProjectIoStreamSubscriptionKindEnum;
-  name: string;
+  id?: string;
+  kind?: CloudProjectIoStreamSubscriptionKindEnum;
+  name?: string;
 };

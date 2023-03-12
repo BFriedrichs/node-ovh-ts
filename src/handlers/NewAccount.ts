@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { NichandleCountryEnum } from '../models/NichandleCountryEnum';
-import { NichandleLegalFormEnum } from '../models/NichandleLegalFormEnum';
-import { NichandleGenderEnum } from '../models/NichandleGenderEnum';
-import { NichandleLanguageEnum } from '../models/NichandleLanguageEnum';
-import { OrderContract } from '../models/OrderContract';
 import { NichandleCreationRules } from '../models/NichandleCreationRules';
-import { NichandleOvhCompanyEnum } from '../models/NichandleOvhCompanyEnum';
+import { NichandleLanguageEnum } from '../models/NichandleLanguageEnum';
+import { NichandleCountryEnum } from '../models/NichandleCountryEnum';
+import { OrderContract } from '../models/OrderContract';
+import { NichandleLegalFormEnum } from '../models/NichandleLegalFormEnum';
 import { NichandleCreationRule } from '../models/NichandleCreationRule';
+import { NichandleCreationRulesActionEnum } from '../models/NichandleCreationRulesActionEnum';
+import { NichandleGenderEnum } from '../models/NichandleGenderEnum';
 import { NichandleNewAccountAndToken } from '../models/NichandleNewAccountAndToken';
 import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
-import { NichandleCreationRulesActionEnum } from '../models/NichandleCreationRulesActionEnum';
+import { NichandleOvhCompanyEnum } from '../models/NichandleOvhCompanyEnum';
 import OVHBase from '../ovh';
 
 class NewAccountHandler {

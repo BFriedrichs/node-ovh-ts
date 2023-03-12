@@ -3,6 +3,6 @@
 import { ServicesBillingEngagementEndRule } from './ServicesBillingEngagementEndRule';
 
 export type ServicesExpandedEngagementSummary = {
-  endDate: Date | null;
-  endRule: ServicesBillingEngagementEndRule | null;
+  endDate?: Date | null;
+  endRule?: ServicesBillingEngagementEndRule | null;
 };

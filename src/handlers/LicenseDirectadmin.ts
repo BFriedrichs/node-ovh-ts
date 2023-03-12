@@ -1,15 +1,15 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { LicenseDirectAdminOsEnum } from '../models/LicenseDirectAdminOsEnum';
-import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
-import { LicenseActionType } from '../models/LicenseActionType';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { LicenseTask } from '../models/LicenseTask';
 import { LicenseDirectadminDirectAdmin } from '../models/LicenseDirectadminDirectAdmin';
-import { LicenseDirectAdminOrderConfiguration } from '../models/LicenseDirectAdminOrderConfiguration';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicenseTask } from '../models/LicenseTask';
 import { ServicesService } from '../models/ServicesService';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseActionType } from '../models/LicenseActionType';
+import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
+import { LicenseDirectAdminOrderConfiguration } from '../models/LicenseDirectAdminOrderConfiguration';
 import OVHBase from '../ovh';
 
 class LicenseDirectadminHandler {
@@ -20,7 +20,7 @@ class LicenseDirectadminHandler {
   }
 
   /** List available services */
-  listDirectadmins = (): Promise<string[]> => {
+  listDirectadmin = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/directadmin');
   };
 

@@ -4,7 +4,7 @@ import { SupplyMondialRelayResult } from './SupplyMondialRelayResult';
 import { SupplyStatus } from './SupplyStatus';
 
 export type SupplyMondialRelayReturn = {
-  error: string | null;
-  result: SupplyMondialRelayResult | null;
-  status: SupplyStatus;
+  error?: string | null;
+  result?: SupplyMondialRelayResult | null;
+  status?: SupplyStatus;
 };

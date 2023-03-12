@@ -3,6 +3,6 @@
 import { DomainExtensionsRegistryConfigurationsLabelDomainRegistryConfiguration } from './DomainExtensionsRegistryConfigurationsLabelDomainRegistryConfiguration';
 
 export type DomainExtensionsRegistryConfigurationsDomainRegistryConfiguration = {
-  isPremiumSupported: boolean;
-  label: DomainExtensionsRegistryConfigurationsLabelDomainRegistryConfiguration;
+  isPremiumSupported?: boolean;
+  label?: DomainExtensionsRegistryConfigurationsLabelDomainRegistryConfiguration;
 };

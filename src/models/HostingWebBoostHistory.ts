@@ -3,8 +3,8 @@
 import { HostingWebOfferCapabilitiesEnum } from './HostingWebOfferCapabilitiesEnum';
 
 export type HostingWebBoostHistory = {
-  accountId: string;
-  boostOffer: HostingWebOfferCapabilitiesEnum | null;
-  date: Date;
-  offer: HostingWebOfferCapabilitiesEnum;
+  accountId?: string;
+  boostOffer?: HostingWebOfferCapabilitiesEnum | null;
+  date?: Date;
+  offer?: HostingWebOfferCapabilitiesEnum;
 };

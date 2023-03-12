@@ -3,10 +3,10 @@
 import { CloudInstanceInterfaceFixedIp } from './CloudInstanceInterfaceFixedIp';
 
 export type CloudInstanceInterfaceInterface = {
-  fixedIps: CloudInstanceInterfaceFixedIp[];
-  id: string;
-  macAddress: string;
-  networkId: string;
-  state: string;
-  type: string;
+  fixedIps?: CloudInstanceInterfaceFixedIp[];
+  id?: string;
+  macAddress?: string;
+  networkId?: string;
+  state?: string;
+  type?: string;
 };

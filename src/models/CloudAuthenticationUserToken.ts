@@ -3,7 +3,7 @@
 import { CloudAuthenticationDomain } from './CloudAuthenticationDomain';
 
 export type CloudAuthenticationUserToken = {
-  domain: CloudAuthenticationDomain;
-  id: string;
-  name: string;
+  domain?: CloudAuthenticationDomain;
+  id?: string;
+  name?: string;
 };

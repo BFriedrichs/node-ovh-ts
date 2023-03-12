@@ -3,10 +3,10 @@
 import { CloudProjectDatabaseCapabilitiesEngineStorageStrategyEnum } from './CloudProjectDatabaseCapabilitiesEngineStorageStrategyEnum';
 
 export type CloudProjectDatabaseCapabilitiesEngine = {
-  defaultVersion: string;
-  description: string;
-  name: string;
-  sslModes: string[];
-  storage: CloudProjectDatabaseCapabilitiesEngineStorageStrategyEnum;
-  versions: string[];
+  defaultVersion?: string;
+  description?: string;
+  name?: string;
+  sslModes?: string[];
+  storage?: CloudProjectDatabaseCapabilitiesEngineStorageStrategyEnum;
+  versions?: string[];
 };

@@ -4,6 +4,6 @@ import { TelephonyLineOffer } from './TelephonyLineOffer';
 import { OrderContract } from './OrderContract';
 
 export type TelephonyLineOffersAndContracts = {
-  contracts: OrderContract[];
-  offers: TelephonyLineOffer[];
+  contracts?: OrderContract[];
+  offers?: TelephonyLineOffer[];
 };

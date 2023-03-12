@@ -3,7 +3,7 @@
 import { CloudNetworkNetworkRegionStatusEnum } from './CloudNetworkNetworkRegionStatusEnum';
 
 export type CloudNetworkNetworkRegion = {
-  openstackId: string | null;
-  region: string;
-  status: CloudNetworkNetworkRegionStatusEnum;
+  openstackId?: string | null;
+  region?: string;
+  status?: CloudNetworkNetworkRegionStatusEnum;
 };

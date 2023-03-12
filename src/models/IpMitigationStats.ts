@@ -3,7 +3,7 @@
 import { IpMitigationTraffic } from './IpMitigationTraffic';
 
 export type IpMitigationStats = {
-  in: IpMitigationTraffic | null;
-  out: IpMitigationTraffic | null;
-  timestamp: number;
+  in?: IpMitigationTraffic | null;
+  out?: IpMitigationTraffic | null;
+  timestamp?: number;
 };

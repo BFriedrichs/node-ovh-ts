@@ -2,4 +2,4 @@
 
 import { OrderPrice } from './OrderPrice';
 
-export type BillingCreditBalanceBookedMovement = { amount: OrderPrice; orderId: number };
+export type BillingCreditBalanceBookedMovement = { amount?: OrderPrice; orderId?: number };

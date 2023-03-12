@@ -3,9 +3,9 @@
 import { OrderPrice } from './OrderPrice';
 
 export type OrderCatalogDedicatedProductAddonItem = {
-  code: string;
-  datacenters: string[] | null;
-  name: string;
-  options: string | null;
-  price: OrderPrice;
+  code?: string;
+  datacenters?: string[] | null;
+  name?: string;
+  options?: string | null;
+  price?: OrderPrice;
 };

@@ -3,7 +3,7 @@
 import { DedicatedCloudVersion } from './DedicatedCloudVersion';
 
 export type DedicatedCloudVcenter = {
-  currentVersion: DedicatedCloudVersion;
-  lastMajor: DedicatedCloudVersion;
-  lastMinor: DedicatedCloudVersion;
+  currentVersion?: DedicatedCloudVersion;
+  lastMajor?: DedicatedCloudVersion;
+  lastMinor?: DedicatedCloudVersion;
 };

@@ -2,4 +2,4 @@
 
 import { DedicatedCloudOptionStateEnum } from './DedicatedCloudOptionStateEnum';
 
-export type DedicatedCloudFederation = { state: DedicatedCloudOptionStateEnum };
+export type DedicatedCloudFederation = { state?: DedicatedCloudOptionStateEnum };

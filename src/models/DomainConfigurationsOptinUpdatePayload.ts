@@ -2,4 +2,4 @@
 
 import { DomainConfigurationsOptin } from './DomainConfigurationsOptin';
 
-export type DomainConfigurationsOptinUpdatePayload = { optin: DomainConfigurationsOptin[] };
+export type DomainConfigurationsOptinUpdatePayload = { optin?: DomainConfigurationsOptin[] };

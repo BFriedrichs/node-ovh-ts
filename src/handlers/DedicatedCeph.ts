@@ -1,23 +1,23 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedCephAclGetResponse } from '../models/DedicatedCephAclGetResponse';
-import { DedicatedCephCephfsListResponse } from '../models/DedicatedCephCephfsListResponse';
-import { DedicatedCephAclListResponse } from '../models/DedicatedCephAclListResponse';
-import { DedicatedCephTaskGetResponse } from '../models/DedicatedCephTaskGetResponse';
-import { DedicatedCephUserListResponse } from '../models/DedicatedCephUserListResponse';
-import { DedicatedCephPoolListResponse } from '../models/DedicatedCephPoolListResponse';
-import { DedicatedCephClusterHealthResponse } from '../models/DedicatedCephClusterHealthResponse';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { DedicatedCephCephfsGetResponse } from '../models/DedicatedCephCephfsGetResponse';
-import { DedicatedCephPoolGetResponse } from '../models/DedicatedCephPoolGetResponse';
-import { DedicatedCephUserPoolPermListResponse } from '../models/DedicatedCephUserPoolPermListResponse';
+import { DedicatedCephClusterHealthResponse } from '../models/DedicatedCephClusterHealthResponse';
 import { DedicatedCephUserPoolPermSetAllPermissions } from '../models/DedicatedCephUserPoolPermSetAllPermissions';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { DedicatedCephUserGetResponse } from '../models/DedicatedCephUserGetResponse';
-import { ServicesService } from '../models/ServicesService';
 import { DedicatedCephClusterGetResponse } from '../models/DedicatedCephClusterGetResponse';
+import { DedicatedCephPoolListResponse } from '../models/DedicatedCephPoolListResponse';
 import { DedicatedCephTaskListResponse } from '../models/DedicatedCephTaskListResponse';
 import { DedicatedCephClusterUpdateCrushTunablesEnum } from '../models/DedicatedCephClusterUpdateCrushTunablesEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { DedicatedCephUserGetResponse } from '../models/DedicatedCephUserGetResponse';
+import { DedicatedCephUserPoolPermListResponse } from '../models/DedicatedCephUserPoolPermListResponse';
+import { ServicesService } from '../models/ServicesService';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { DedicatedCephPoolGetResponse } from '../models/DedicatedCephPoolGetResponse';
+import { DedicatedCephTaskGetResponse } from '../models/DedicatedCephTaskGetResponse';
+import { DedicatedCephAclListResponse } from '../models/DedicatedCephAclListResponse';
+import { DedicatedCephUserListResponse } from '../models/DedicatedCephUserListResponse';
+import { DedicatedCephAclGetResponse } from '../models/DedicatedCephAclGetResponse';
+import { DedicatedCephCephfsListResponse } from '../models/DedicatedCephCephfsListResponse';
 import OVHBase from '../ovh';
 
 class DedicatedCephHandler {
@@ -28,7 +28,7 @@ class DedicatedCephHandler {
   }
 
   /** List available services */
-  listCephs = (): Promise<string[]> => {
+  listCeph = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicated/ceph');
   };
 
@@ -181,7 +181,7 @@ class DedicatedCephHandler {
   };
 
   /** List tasks in progress */
-  listCephTasksByServiceName = (serviceName: string): Promise<DedicatedCephTaskListResponse[]> => {
+  listCephTaskByServiceName = (serviceName: string): Promise<DedicatedCephTaskListResponse[]> => {
     return this.ovh.request('GET', `/dedicated/ceph/${serviceName}/task`);
   };
 
@@ -228,7 +228,7 @@ class DedicatedCephHandler {
   };
 
   /** List user-pool permissions */
-  listCephUserPoolsByServiceNameAndUserName = (
+  listCephUserPoolByServiceNameAndUserName = (
     serviceName: string,
     userName: string
   ): Promise<DedicatedCephUserPoolPermListResponse[]> => {

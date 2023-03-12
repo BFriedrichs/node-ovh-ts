@@ -3,6 +3,6 @@
 import { CloudProjectIoStreamRegionEndpoint } from './CloudProjectIoStreamRegionEndpoint';
 
 export type CloudProjectIoStreamRegion = {
-  endpoint: CloudProjectIoStreamRegionEndpoint;
-  region: string;
+  endpoint?: CloudProjectIoStreamRegionEndpoint;
+  region?: string;
 };

@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DomainDomainOptionEnum } from './DomainDomainOptionEnum';
 import { DomainDomainOptionStateEnum } from './DomainDomainOptionStateEnum';
+import { DomainDomainOptionEnum } from './DomainDomainOptionEnum';
 
 export type DomainOption = {
-  expirationDate: Date;
-  option: DomainDomainOptionEnum;
-  state: DomainDomainOptionStateEnum;
+  expirationDate?: Date;
+  option?: DomainDomainOptionEnum;
+  state?: DomainDomainOptionStateEnum;
 };

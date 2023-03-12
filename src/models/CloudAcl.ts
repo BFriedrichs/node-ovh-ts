@@ -2,4 +2,4 @@
 
 import { CloudAclTypeEnum } from './CloudAclTypeEnum';
 
-export type CloudAcl = { accountId: string; type: CloudAclTypeEnum };
+export type CloudAcl = { accountId?: string; type?: CloudAclTypeEnum };

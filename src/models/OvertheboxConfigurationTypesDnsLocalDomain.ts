@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type OvertheboxConfigurationTypesDnsLocalDomain = { hostname?: string; ip?: string };
+export type OvertheboxConfigurationTypesDnsLocalDomain = { hostname: string; ip: string };

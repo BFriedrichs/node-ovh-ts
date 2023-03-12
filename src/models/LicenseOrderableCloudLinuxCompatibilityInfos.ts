@@ -3,5 +3,5 @@
 import { LicenseCloudLinuxVersionEnum } from './LicenseCloudLinuxVersionEnum';
 
 export type LicenseOrderableCloudLinuxCompatibilityInfos = {
-  version: LicenseCloudLinuxVersionEnum;
+  version?: LicenseCloudLinuxVersionEnum;
 };

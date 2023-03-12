@@ -3,7 +3,7 @@
 import { DedicatedStorageProtocolEnum } from './DedicatedStorageProtocolEnum';
 
 export type DedicatedNasPartition = {
-  partitionName: string;
-  protocol: DedicatedStorageProtocolEnum;
-  size: number;
+  partitionName?: string;
+  protocol?: DedicatedStorageProtocolEnum;
+  size?: number;
 };

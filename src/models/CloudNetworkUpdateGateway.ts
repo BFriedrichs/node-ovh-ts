@@ -2,4 +2,4 @@
 
 import { CloudNetworkGatewayModelEnum } from './CloudNetworkGatewayModelEnum';
 
-export type CloudNetworkUpdateGateway = { model?: CloudNetworkGatewayModelEnum; name?: string };
+export type CloudNetworkUpdateGateway = { model: CloudNetworkGatewayModelEnum; name: string };

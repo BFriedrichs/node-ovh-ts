@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SupportTicketProductEnum } from '../models/SupportTicketProductEnum';
-import { SupportTicketTypeEnum } from '../models/SupportTicketTypeEnum';
-import { SupportMessage } from '../models/SupportMessage';
-import { SupportTicketCategoryEnum } from '../models/SupportTicketCategoryEnum';
-import { SupportTicketStatusEnum } from '../models/SupportTicketStatusEnum';
-import { SupportTicket } from '../models/SupportTicket';
-import { SupportTicketImpactUrgencyEnum } from '../models/SupportTicketImpactUrgencyEnum';
 import { SupportNewMessageInfo } from '../models/SupportNewMessageInfo';
+import { SupportTicketImpactUrgencyEnum } from '../models/SupportTicketImpactUrgencyEnum';
+import { SupportTicketProductEnum } from '../models/SupportTicketProductEnum';
+import { SupportTicket } from '../models/SupportTicket';
+import { SupportTicketCategoryEnum } from '../models/SupportTicketCategoryEnum';
+import { SupportMessage } from '../models/SupportMessage';
+import { SupportTicketTypeEnum } from '../models/SupportTicketTypeEnum';
 import { SupportTicketSubCategoryEnum } from '../models/SupportTicketSubCategoryEnum';
+import { SupportTicketStatusEnum } from '../models/SupportTicketStatusEnum';
 import OVHBase from '../ovh';
 
 class SupportHandler {

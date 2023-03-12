@@ -3,6 +3,6 @@
 import { CloudLoadbalancingPoolSessionPersistenceTypeEnum } from './CloudLoadbalancingPoolSessionPersistenceTypeEnum';
 
 export type CloudLoadbalancingPoolSessionPersistence = {
-  cookieName: string;
-  type: CloudLoadbalancingPoolSessionPersistenceTypeEnum;
+  cookieName?: string;
+  type?: CloudLoadbalancingPoolSessionPersistenceTypeEnum;
 };

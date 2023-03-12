@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseStateEnum } from './LicenseStateEnum';
 import { LicenseSqlServerVersionEnum } from './LicenseSqlServerVersionEnum';
+import { LicenseStateEnum } from './LicenseStateEnum';
 
 export type LicenseSqlserverSqlServer = {
-  creation: Date;
-  domain: string;
-  ip: string;
-  licenseId: string;
-  status: LicenseStateEnum;
-  version: LicenseSqlServerVersionEnum;
+  creation?: Date;
+  domain?: string;
+  ip?: string;
+  licenseId?: string;
+  status?: LicenseStateEnum;
+  version?: LicenseSqlServerVersionEnum;
 };

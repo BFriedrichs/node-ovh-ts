@@ -3,8 +3,8 @@
 import { XdslAntiSpamAntiSpamStatusEnum } from './XdslAntiSpamAntiSpamStatusEnum';
 
 export type XdslAntiSpam = {
-  date: Date;
-  ip: string;
-  lastSpamDetected: Date;
-  status: XdslAntiSpamAntiSpamStatusEnum;
+  date?: Date;
+  ip?: string;
+  lastSpamDetected?: Date;
+  status?: XdslAntiSpamAntiSpamStatusEnum;
 };

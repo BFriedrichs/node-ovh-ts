@@ -3,8 +3,8 @@
 import { IpMitigationStateEnum } from './IpMitigationStateEnum';
 
 export type IpMitigationIp = {
-  auto: boolean;
-  ipOnMitigation: string;
-  permanent: boolean;
-  state: IpMitigationStateEnum;
+  auto?: boolean;
+  ipOnMitigation?: string;
+  permanent?: boolean;
+  state?: IpMitigationStateEnum;
 };

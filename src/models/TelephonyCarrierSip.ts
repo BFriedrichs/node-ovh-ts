@@ -3,7 +3,7 @@
 import { TelephonyTypeServiceEnum } from './TelephonyTypeServiceEnum';
 
 export type TelephonyCarrierSip = {
-  description: string;
-  serviceName: string;
-  serviceType: TelephonyTypeServiceEnum;
+  description?: string;
+  serviceName?: string;
+  serviceType?: TelephonyTypeServiceEnum;
 };

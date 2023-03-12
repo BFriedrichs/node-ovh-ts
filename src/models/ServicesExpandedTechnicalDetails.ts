@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesExpandedTechnicalNutanixCluster } from './ServicesExpandedTechnicalNutanixCluster';
 import { ServicesExpandedTechnicalBaremetalServer } from './ServicesExpandedTechnicalBaremetalServer';
+import { ServicesExpandedTechnicalNutanixCluster } from './ServicesExpandedTechnicalNutanixCluster';
 
 export type ServicesExpandedTechnicalDetails = {
-  baremetalServers: ServicesExpandedTechnicalBaremetalServer | null;
-  nutanixCluster: ServicesExpandedTechnicalNutanixCluster | null;
+  baremetalServers?: ServicesExpandedTechnicalBaremetalServer | null;
+  nutanixCluster?: ServicesExpandedTechnicalNutanixCluster | null;
 };

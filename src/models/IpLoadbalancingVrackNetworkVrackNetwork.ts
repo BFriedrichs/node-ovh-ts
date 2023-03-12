@@ -3,10 +3,10 @@
 import { IpLoadbalancingDefinedFarm } from './IpLoadbalancingDefinedFarm';
 
 export type IpLoadbalancingVrackNetworkVrackNetwork = {
-  displayName: string | null;
-  farmId: IpLoadbalancingDefinedFarm[];
-  natIp: string;
-  subnet: string;
-  vlan: number;
-  vrackNetworkId: number;
+  displayName?: string | null;
+  farmId?: IpLoadbalancingDefinedFarm[];
+  natIp?: string;
+  subnet?: string;
+  vlan?: number;
+  vrackNetworkId?: number;
 };

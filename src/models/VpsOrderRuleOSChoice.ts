@@ -2,4 +2,4 @@
 
 import { VpsOrderRuleOSChoiceStatusEnum } from './VpsOrderRuleOSChoiceStatusEnum';
 
-export type VpsOrderRuleOSChoice = { name: string; status: VpsOrderRuleOSChoiceStatusEnum };
+export type VpsOrderRuleOSChoice = { name?: string; status?: VpsOrderRuleOSChoiceStatusEnum };

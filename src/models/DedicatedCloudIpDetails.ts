@@ -3,8 +3,8 @@
 import { DedicatedCloudIpUsageEnum } from './DedicatedCloudIpUsageEnum';
 
 export type DedicatedCloudIpDetails = {
-  ip: string;
-  reverse: string | null;
-  usage: DedicatedCloudIpUsageEnum;
-  usageDetails: string | null;
+  ip?: string;
+  reverse?: string | null;
+  usage?: DedicatedCloudIpUsageEnum;
+  usageDetails?: string | null;
 };

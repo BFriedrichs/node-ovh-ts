@@ -5,11 +5,11 @@ import { VpsIpGeolocationEnum } from './VpsIpGeolocationEnum';
 import { VpsIpTypeEnum } from './VpsIpTypeEnum';
 
 export type VpsIp = {
-  gateway: string | null;
-  geolocation: VpsIpGeolocationEnum;
-  ipAddress: string;
-  macAddress: string | null;
-  reverse: string | null;
-  type: VpsIpTypeEnum;
-  version: CoreTypesIpVersionEnum;
+  gateway?: string | null;
+  geolocation?: VpsIpGeolocationEnum;
+  ipAddress?: string;
+  macAddress?: string | null;
+  reverse?: string | null;
+  type?: VpsIpTypeEnum;
+  version?: CoreTypesIpVersionEnum;
 };

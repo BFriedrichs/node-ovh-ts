@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseSqlserverSqlServer } from '../models/LicenseSqlserverSqlServer';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { LicenseSqlServerOrderConfiguration } from '../models/LicenseSqlServerOrderConfiguration';
 import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
-import { LicenseActionType } from '../models/LicenseActionType';
-import { LicenseTask } from '../models/LicenseTask';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicenseSqlserverSqlServer } from '../models/LicenseSqlserverSqlServer';
 import { ServicesService } from '../models/ServicesService';
+import { LicenseActionType } from '../models/LicenseActionType';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseTask } from '../models/LicenseTask';
+import { LicenseSqlServerOrderConfiguration } from '../models/LicenseSqlServerOrderConfiguration';
 import OVHBase from '../ovh';
 
 class LicenseSqlserverHandler {
@@ -18,7 +18,7 @@ class LicenseSqlserverHandler {
   }
 
   /** List available services */
-  listSqlservers = (): Promise<string[]> => {
+  listSqlserver = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/sqlserver');
   };
 

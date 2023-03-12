@@ -4,6 +4,6 @@ import { CloudKubeNodePoolTemplateSpec } from './CloudKubeNodePoolTemplateSpec';
 import { CloudKubeNodePoolTemplateMetadata } from './CloudKubeNodePoolTemplateMetadata';
 
 export type CloudKubeNodePoolTemplate = {
-  metadata?: CloudKubeNodePoolTemplateMetadata;
-  spec?: CloudKubeNodePoolTemplateSpec;
+  metadata: CloudKubeNodePoolTemplateMetadata;
+  spec: CloudKubeNodePoolTemplateSpec;
 };

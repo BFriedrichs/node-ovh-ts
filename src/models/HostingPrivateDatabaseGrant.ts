@@ -3,7 +3,7 @@
 import { HostingPrivateDatabaseGrantGrantEnum } from './HostingPrivateDatabaseGrantGrantEnum';
 
 export type HostingPrivateDatabaseGrant = {
-  creationDate: Date;
-  databaseName: string;
-  grant: HostingPrivateDatabaseGrantGrantEnum;
+  creationDate?: Date;
+  databaseName?: string;
+  grant?: HostingPrivateDatabaseGrantGrantEnum;
 };

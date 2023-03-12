@@ -2,4 +2,4 @@
 
 import { VpsBackupStateEnum } from './VpsBackupStateEnum';
 
-export type VpsAutomatedBackup = { schedule: Date | null; state: VpsBackupStateEnum };
+export type VpsAutomatedBackup = { schedule?: Date | null; state?: VpsBackupStateEnum };

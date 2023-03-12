@@ -4,9 +4,9 @@ import { MeConsumptionTransactionElementDetail } from './MeConsumptionTransactio
 import { MeConsumptionPrice } from './MeConsumptionPrice';
 
 export type MeConsumptionTransactionElement = {
-  details: MeConsumptionTransactionElementDetail[];
-  planCode: string;
-  planFamily: string;
-  price: MeConsumptionPrice;
-  quantity: number;
+  details?: MeConsumptionTransactionElementDetail[];
+  planCode?: string;
+  planFamily?: string;
+  price?: MeConsumptionPrice;
+  quantity?: number;
 };

@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 export type DedicatedServerRtm = {
-  currentVersion: string | null;
-  installedVersion: string | null;
-  needsUpdate: boolean;
+  currentVersion?: string | null;
+  installedVersion?: string | null;
+  needsUpdate?: boolean;
 };

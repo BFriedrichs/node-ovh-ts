@@ -3,6 +3,6 @@
 import { CloudCapabilitiesAvailabilityRegion } from './CloudCapabilitiesAvailabilityRegion';
 
 export type CloudCapabilitiesAvailabilityProduct = {
-  name: string;
-  regions: CloudCapabilitiesAvailabilityRegion[];
+  name?: string;
+  regions?: CloudCapabilitiesAvailabilityRegion[];
 };

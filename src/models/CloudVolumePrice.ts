@@ -3,8 +3,8 @@
 import { OrderPrice } from './OrderPrice';
 
 export type CloudVolumePrice = {
-  monthlyPrice: OrderPrice;
-  price: OrderPrice;
-  region: string;
-  volumeName: string;
+  monthlyPrice?: OrderPrice;
+  price?: OrderPrice;
+  region?: string;
+  volumeName?: string;
 };

@@ -3,8 +3,8 @@
 import { OrderCurrencyCodeEnum } from './OrderCurrencyCodeEnum';
 
 export type OrderCatalogCloudRegionPricePrice = {
-  currencyCode: OrderCurrencyCodeEnum;
-  priceInUcents: number;
-  text: string;
-  value: number;
+  currencyCode?: OrderCurrencyCodeEnum;
+  priceInUcents?: number;
+  text?: string;
+  value?: number;
 };

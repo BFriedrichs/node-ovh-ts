@@ -1,56 +1,56 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SmsAccount } from '../models/SmsAccount';
+import { SmsPttDetails } from '../models/SmsPttDetails';
+import { SmsCountryEnum } from '../models/SmsCountryEnum';
+import { SmsTypeSenderEnum } from '../models/SmsTypeSenderEnum';
+import { SmsOutgoing } from '../models/SmsOutgoing';
+import { TelephonyTask } from '../models/TelephonyTask';
+import { SmsTypeTemplateEnum } from '../models/SmsTypeTemplateEnum';
+import { SmsHlrLookupNumber } from '../models/SmsHlrLookupNumber';
+import { SmsTemplateControl } from '../models/SmsTemplateControl';
+import { SmsVirtualNumberGenericService } from '../models/SmsVirtualNumberGenericService';
+import { TelephonyTaskStatusEnum } from '../models/TelephonyTaskStatusEnum';
+import { ServicesService } from '../models/ServicesService';
+import { SmsCodingEnum } from '../models/SmsCodingEnum';
+import { SmsPackDetails } from '../models/SmsPackDetails';
+import { SmsUser } from '../models/SmsUser';
+import { SmsBatchUpdateParams } from '../models/SmsBatchUpdateParams';
+import { ReferenceCountryEnum } from '../models/ReferenceCountryEnum';
+import { SmsSenderRefererEnum } from '../models/SmsSenderRefererEnum';
+import { SmsClassEnum } from '../models/SmsClassEnum';
+import { SmsPhonebook } from '../models/SmsPhonebook';
+import { SmsChatAccess } from '../models/SmsChatAccess';
+import { TelephonyPcsFile } from '../models/TelephonyPcsFile';
+import { TelephonyContactsExportFormatsEnum } from '../models/TelephonyContactsExportFormatsEnum';
+import { SmsBlacklist } from '../models/SmsBlacklist';
+import { SmsCharsetEnum } from '../models/SmsCharsetEnum';
 import { SmsAllowedIPs } from '../models/SmsAllowedIPs';
 import { SmsVirtualNumber } from '../models/SmsVirtualNumber';
-import { SmsBatchStatistics } from '../models/SmsBatchStatistics';
-import { SmsPackOffer } from '../models/SmsPackOffer';
-import { SmsBlacklist } from '../models/SmsBlacklist';
-import { TelephonyTask } from '../models/TelephonyTask';
-import { SmsReceiver } from '../models/SmsReceiver';
-import { SmsCountryEnum } from '../models/SmsCountryEnum';
-import { SmsPackQuantityEnum } from '../models/SmsPackQuantityEnum';
-import { SmsVirtualNumberGenericService } from '../models/SmsVirtualNumberGenericService';
-import { SmsPhonebook } from '../models/SmsPhonebook';
-import { SmsReceiversAsynchronousCleanReport } from '../models/SmsReceiversAsynchronousCleanReport';
-import { SmsTypeTemplateEnum } from '../models/SmsTypeTemplateEnum';
-import { SmsSenderAvailable } from '../models/SmsSenderAvailable';
-import { SmsBatchUpdateParams } from '../models/SmsBatchUpdateParams';
-import { SmsCharsetEnum } from '../models/SmsCharsetEnum';
-import { ReferenceCountryEnum } from '../models/ReferenceCountryEnum';
+import { SmsAccount } from '../models/SmsAccount';
 import { SmsPhonebookContact } from '../models/SmsPhonebookContact';
-import { SmsOutgoing } from '../models/SmsOutgoing';
-import { SmsJobEstimate } from '../models/SmsJobEstimate';
-import { SmsPriorityEnum } from '../models/SmsPriorityEnum';
-import { SmsIncoming } from '../models/SmsIncoming';
-import { SmsDocumentWayTypeEnum } from '../models/SmsDocumentWayTypeEnum';
-import { SmsVirtualNumberJob } from '../models/SmsVirtualNumberJob';
 import { SmsSettings } from '../models/SmsSettings';
-import { SmsSmsSendingReport } from '../models/SmsSmsSendingReport';
-import { SmsPackDetails } from '../models/SmsPackDetails';
-import { SmsClassEnum } from '../models/SmsClassEnum';
-import { SmsHlr } from '../models/SmsHlr';
-import { SmsTypeSenderEnum } from '../models/SmsTypeSenderEnum';
-import { SmsBatchParams } from '../models/SmsBatchParams';
-import { SmsDestinationRates } from '../models/SmsDestinationRates';
-import { SmsPttDetails } from '../models/SmsPttDetails';
-import { TelephonyPcsFile } from '../models/TelephonyPcsFile';
-import { SmsHlrLookupNumber } from '../models/SmsHlrLookupNumber';
-import { SmsCodingEnum } from '../models/SmsCodingEnum';
-import { SmsUser } from '../models/SmsUser';
-import { SmsJob } from '../models/SmsJob';
-import { TelephonyTaskStatusEnum } from '../models/TelephonyTaskStatusEnum';
-import { SmsTask } from '../models/SmsTask';
-import { ServicesService } from '../models/ServicesService';
+import { SmsVirtualNumberJob } from '../models/SmsVirtualNumberJob';
 import { SmsSender } from '../models/SmsSender';
-import { SmsTemplateControl } from '../models/SmsTemplateControl';
-import { SmsSenderRefererEnum } from '../models/SmsSenderRefererEnum';
-import { SmsBatch } from '../models/SmsBatch';
-import { SmsChatAccess } from '../models/SmsChatAccess';
-import { TelephonyContactsExportFormatsEnum } from '../models/TelephonyContactsExportFormatsEnum';
+import { SmsBatchParams } from '../models/SmsBatchParams';
+import { SmsSmsSendingReport } from '../models/SmsSmsSendingReport';
+import { SmsTask } from '../models/SmsTask';
+import { SmsIncoming } from '../models/SmsIncoming';
+import { SmsBatchStatistics } from '../models/SmsBatchStatistics';
+import { SmsReceiversAsynchronousCleanReport } from '../models/SmsReceiversAsynchronousCleanReport';
 import { SmsBillingCountryEnum } from '../models/SmsBillingCountryEnum';
+import { SmsHlr } from '../models/SmsHlr';
+import { SmsReceiver } from '../models/SmsReceiver';
+import { SmsPackQuantityEnum } from '../models/SmsPackQuantityEnum';
 import { SmsException } from '../models/SmsException';
+import { SmsJobEstimate } from '../models/SmsJobEstimate';
+import { SmsJob } from '../models/SmsJob';
 import { SmsSenderDocument } from '../models/SmsSenderDocument';
+import { SmsDestinationRates } from '../models/SmsDestinationRates';
+import { SmsDocumentWayTypeEnum } from '../models/SmsDocumentWayTypeEnum';
+import { SmsSenderAvailable } from '../models/SmsSenderAvailable';
+import { SmsPackOffer } from '../models/SmsPackOffer';
+import { SmsBatch } from '../models/SmsBatch';
+import { SmsPriorityEnum } from '../models/SmsPriorityEnum';
 import OVHBase from '../ovh';
 
 class SmsHandler {
@@ -61,7 +61,7 @@ class SmsHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/sms');
   };
 

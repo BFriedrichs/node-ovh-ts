@@ -4,8 +4,8 @@ import { OvertheboxConfigurationTypesDhcpStaticLease } from './OvertheboxConfigu
 import { OvertheboxConfigurationStatusEnum } from './OvertheboxConfigurationStatusEnum';
 
 export type OvertheboxConfigurationDhcpStaticLease = {
-  configuration: OvertheboxConfigurationTypesDhcpStaticLease;
-  id: string;
-  priority: number;
-  status: OvertheboxConfigurationStatusEnum;
+  configuration?: OvertheboxConfigurationTypesDhcpStaticLease;
+  id?: string;
+  priority?: number;
+  status?: OvertheboxConfigurationStatusEnum;
 };

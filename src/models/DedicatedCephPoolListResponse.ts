@@ -3,10 +3,10 @@
 import { DedicatedCephPoolListResponsePoolTypeEnum } from './DedicatedCephPoolListResponsePoolTypeEnum';
 
 export type DedicatedCephPoolListResponse = {
-  backup: boolean;
-  minActiveReplicas: number;
-  name: string;
-  poolType: DedicatedCephPoolListResponsePoolTypeEnum;
-  replicaCount: number;
-  serviceName: string;
+  backup?: boolean;
+  minActiveReplicas?: number;
+  name?: string;
+  poolType?: DedicatedCephPoolListResponsePoolTypeEnum;
+  replicaCount?: number;
+  serviceName?: string;
 };

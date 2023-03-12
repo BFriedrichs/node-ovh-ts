@@ -2,7 +2,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.alldom.lists` | GET | `/allDom` |  |
+| `.alldom.list` | GET | `/allDom` |  |
 | `.alldom.getByServiceName` | GET | `/allDom/{serviceName}` | serviceName: string |
 | `.alldom.getDomainByServiceName` | GET | `/allDom/{serviceName}/domain` | serviceName: string |
 | `.alldom.getDomainByServiceNameAndDomain` | GET | `/allDom/{serviceName}/domain/{domain}` | domain: string<br /> serviceName: string |
@@ -69,7 +69,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.caasregistry.listRegistrys` | GET | `/caas/registry` |  |
+| `.caasregistry.listRegistry` | GET | `/caas/registry` |  |
 | `.caasregistry.getRegistryByServiceName` | GET | `/caas/registry/{serviceName}` | serviceName: string |
 | `.caasregistry.launchRegistryChangeContactByServiceName` | POST | `/caas/registry/{serviceName}/changeContact` | serviceName: string<br />body: {<br />  contactAdmin?: string<br />&nbsp;&nbsp; contactBilling?: string<br />&nbsp;&nbsp; contactTech?: string <br />} |
 | `.caasregistry.listRegistryNamespacesByServiceName` | GET | `/caas/registry/{serviceName}/namespaces` | serviceName: string |
@@ -102,7 +102,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.cdndedicated.listDedicateds` | GET | `/cdn/dedicated` |  |
+| `.cdndedicated.listDedicated` | GET | `/cdn/dedicated` |  |
 | `.cdndedicated.listDedicatedPops` | GET | `/cdn/dedicated/pops` |  |
 | `.cdndedicated.getDedicatedPopsByName` | GET | `/cdn/dedicated/pops/{name}` | name: string |
 | `.cdndedicated.getDedicatedByServiceName` | GET | `/cdn/dedicated/{serviceName}` | serviceName: string |
@@ -152,7 +152,7 @@
 | `.cloud.getOrderRuleAvailability` | GET | `/cloud/order/rule/availability` |  |
 | `.cloud.getOrderRuleInstanceCategory` | GET | `/cloud/order/rule/instanceCategory` |  |
 | `.cloud.getPrice` | GET | `/cloud/price` |  |
-| `.cloud.listProjects` | GET | `/cloud/project` |  |
+| `.cloud.listProject` | GET | `/cloud/project` |  |
 | `.cloud.getProjectByServiceName` | GET | `/cloud/project/{serviceName}` | serviceName: string |
 | `.cloud.updateProjectByServiceName` | PUT | `/cloud/project/{serviceName}` | serviceName: string |
 | `.cloud.getProjectAclByServiceName` | GET | `/cloud/project/{serviceName}/acl` | serviceName: string |
@@ -160,7 +160,7 @@
 | `.cloud.deleteProjectAclByServiceNameAndAccountId` | DELETE | `/cloud/project/{serviceName}/acl/{accountId}` | accountId: string<br /> serviceName: string |
 | `.cloud.getProjectAclByServiceNameAndAccountId` | GET | `/cloud/project/{serviceName}/acl/{accountId}` | accountId: string<br /> serviceName: string |
 | `.cloud.postProjectActivateMonthlyBillingByServiceName` | POST | `/cloud/project/{serviceName}/activateMonthlyBilling` | serviceName: string |
-| `.cloud.listProjectAiAppsByServiceName` | GET | `/cloud/project/{serviceName}/ai/app` | serviceName: string |
+| `.cloud.listProjectAiAppByServiceName` | GET | `/cloud/project/{serviceName}/ai/app` | serviceName: string |
 | `.cloud.createProjectAiAppByServiceName` | POST | `/cloud/project/{serviceName}/ai/app` | serviceName: string |
 | `.cloud.postProjectAiAppCommandByServiceName` | POST | `/cloud/project/{serviceName}/ai/app/command` | serviceName: string |
 | `.cloud.deleteProjectAiAppByServiceNameAndAppId` | DELETE | `/cloud/project/{serviceName}/ai/app/{appId}` | appId: string<br /> serviceName: string |
@@ -174,14 +174,14 @@
 | `.cloud.putProjectAiAppStopByServiceNameAndAppId` | PUT | `/cloud/project/{serviceName}/ai/app/{appId}/stop` | appId: string<br /> serviceName: string |
 | `.cloud.getProjectAiAuthorizationByServiceName` | GET | `/cloud/project/{serviceName}/ai/authorization` | serviceName: string |
 | `.cloud.postProjectAiAuthorizationByServiceName` | POST | `/cloud/project/{serviceName}/ai/authorization` | serviceName: string |
-| `.cloud.listProjectAiCapabilitiesFeaturesByServiceName` | GET | `/cloud/project/{serviceName}/ai/capabilities/feature` | serviceName: string |
-| `.cloud.listProjectAiCapabilitiesQuotasByServiceName` | GET | `/cloud/project/{serviceName}/ai/capabilities/quota` | serviceName: string |
-| `.cloud.listProjectAiCapabilitiesRegionsByServiceName` | GET | `/cloud/project/{serviceName}/ai/capabilities/region` | serviceName: string |
+| `.cloud.listProjectAiCapabilitiesFeatureByServiceName` | GET | `/cloud/project/{serviceName}/ai/capabilities/feature` | serviceName: string |
+| `.cloud.listProjectAiCapabilitiesQuotaByServiceName` | GET | `/cloud/project/{serviceName}/ai/capabilities/quota` | serviceName: string |
+| `.cloud.listProjectAiCapabilitiesRegionByServiceName` | GET | `/cloud/project/{serviceName}/ai/capabilities/region` | serviceName: string |
 | `.cloud.getProjectAiCapabilitiesRegionByServiceNameAndRegion` | GET | `/cloud/project/{serviceName}/ai/capabilities/region/{region}` | region: string<br /> serviceName: string |
 | `.cloud.getProjectAiCapabilitiesRegionDataRegionByServiceNameAndRegion` | GET | `/cloud/project/{serviceName}/ai/capabilities/region/{region}/data/region` | region: string<br /> serviceName: string |
-| `.cloud.listProjectAiCapabilitiesRegionFlavorsByServiceNameAndRegion` | GET | `/cloud/project/{serviceName}/ai/capabilities/region/{region}/flavor` | region: string<br /> serviceName: string |
+| `.cloud.listProjectAiCapabilitiesRegionFlavorByServiceNameAndRegion` | GET | `/cloud/project/{serviceName}/ai/capabilities/region/{region}/flavor` | region: string<br /> serviceName: string |
 | `.cloud.getProjectAiCapabilitiesRegionFlavorByServiceNameAndRegionAndFlavorId` | GET | `/cloud/project/{serviceName}/ai/capabilities/region/{region}/flavor/{flavorId}` | flavorId: string<br /> region: string<br /> serviceName: string |
-| `.cloud.listProjectAiCapabilitiesRegionPresetsByServiceNameAndRegion` | GET | `/cloud/project/{serviceName}/ai/capabilities/region/{region}/preset` | region: string<br /> serviceName: string |
+| `.cloud.listProjectAiCapabilitiesRegionPresetByServiceNameAndRegion` | GET | `/cloud/project/{serviceName}/ai/capabilities/region/{region}/preset` | region: string<br /> serviceName: string |
 | `.cloud.getProjectAiCapabilitiesRegionPresetByServiceNameAndRegionAndPresetId` | GET | `/cloud/project/{serviceName}/ai/capabilities/region/{region}/preset/{presetId}` | presetId: string<br /> region: string<br /> serviceName: string |
 | `.cloud.getProjectAiCapabilitiesServingBackendByServiceName` | GET | `/cloud/project/{serviceName}/ai/capabilities/serving/backend` | serviceName: string |
 | `.cloud.getProjectAiCapabilitiesServingFeatureByServiceName` | GET | `/cloud/project/{serviceName}/ai/capabilities/serving/feature` | serviceName: string |
@@ -189,9 +189,9 @@
 | `.cloud.getProjectAiCapabilitiesServingFrameworkByServiceName` | GET | `/cloud/project/{serviceName}/ai/capabilities/serving/framework` | serviceName: string |
 | `.cloud.getProjectAiCapabilitiesServingPresetImageByServiceName` | GET | `/cloud/project/{serviceName}/ai/capabilities/serving/presetImage` | serviceName: string |
 | `.cloud.getProjectAiCapabilitiesServingRegionByServiceName` | GET | `/cloud/project/{serviceName}/ai/capabilities/serving/region` | serviceName: string |
-| `.cloud.listProjectAiJobsByServiceName` | GET | `/cloud/project/{serviceName}/ai/job` | serviceName: string |
+| `.cloud.listProjectAiJobByServiceName` | GET | `/cloud/project/{serviceName}/ai/job` | serviceName: string |
 | `.cloud.createProjectAiJobByServiceName` | POST | `/cloud/project/{serviceName}/ai/job` | serviceName: string |
-| `.cloud.listProjectAiJobCapabilitiesPresetImagesByServiceName` | GET | `/cloud/project/{serviceName}/ai/job/capabilities/presetImage` | serviceName: string |
+| `.cloud.listProjectAiJobCapabilitiesPresetImageByServiceName` | GET | `/cloud/project/{serviceName}/ai/job/capabilities/presetImage` | serviceName: string |
 | `.cloud.postProjectAiJobCommandByServiceName` | POST | `/cloud/project/{serviceName}/ai/job/command` | serviceName: string |
 | `.cloud.deleteProjectAiJobByServiceNameAndJobId` | DELETE | `/cloud/project/{serviceName}/ai/job/{jobId}` | jobId: string<br /> serviceName: string |
 | `.cloud.getProjectAiJobByServiceNameAndJobId` | GET | `/cloud/project/{serviceName}/ai/job/{jobId}` | jobId: string<br /> serviceName: string |
@@ -199,15 +199,15 @@
 | `.cloud.putProjectAiJobKillByServiceNameAndJobId` | PUT | `/cloud/project/{serviceName}/ai/job/{jobId}/kill` | jobId: string<br /> serviceName: string |
 | `.cloud.updateProjectAiJobLabelByServiceNameAndJobId` | PUT | `/cloud/project/{serviceName}/ai/job/{jobId}/label` | jobId: string<br /> serviceName: string |
 | `.cloud.getProjectAiJobLogByServiceNameAndJobId` | GET | `/cloud/project/{serviceName}/ai/job/{jobId}/log` | jobId: string<br /> serviceName: string |
-| `.cloud.listProjectAiNotebooksByServiceName` | GET | `/cloud/project/{serviceName}/ai/notebook` | serviceName: string |
+| `.cloud.listProjectAiNotebookByServiceName` | GET | `/cloud/project/{serviceName}/ai/notebook` | serviceName: string |
 | `.cloud.createProjectAiNotebookByServiceName` | POST | `/cloud/project/{serviceName}/ai/notebook` | serviceName: string |
-| `.cloud.listProjectAiNotebookCapabilitiesEditorsByServiceName` | GET | `/cloud/project/{serviceName}/ai/notebook/capabilities/editor` | serviceName: string |
-| `.cloud.listProjectAiNotebookCapabilitiesFrameworksByServiceName` | GET | `/cloud/project/{serviceName}/ai/notebook/capabilities/framework` | serviceName: string |
+| `.cloud.listProjectAiNotebookCapabilitiesEditorByServiceName` | GET | `/cloud/project/{serviceName}/ai/notebook/capabilities/editor` | serviceName: string |
+| `.cloud.listProjectAiNotebookCapabilitiesFrameworkByServiceName` | GET | `/cloud/project/{serviceName}/ai/notebook/capabilities/framework` | serviceName: string |
 | `.cloud.postProjectAiNotebookCommandByServiceName` | POST | `/cloud/project/{serviceName}/ai/notebook/command` | serviceName: string |
 | `.cloud.deleteProjectAiNotebookByServiceNameAndNotebookId` | DELETE | `/cloud/project/{serviceName}/ai/notebook/{notebookId}` | notebookId: string<br /> serviceName: string |
 | `.cloud.getProjectAiNotebookByServiceNameAndNotebookId` | GET | `/cloud/project/{serviceName}/ai/notebook/{notebookId}` | notebookId: string<br /> serviceName: string |
 | `.cloud.updateProjectAiNotebookByServiceNameAndNotebookId` | PUT | `/cloud/project/{serviceName}/ai/notebook/{notebookId}` | notebookId: string<br /> serviceName: string |
-| `.cloud.listProjectAiNotebookBackupsByServiceNameAndNotebookId` | GET | `/cloud/project/{serviceName}/ai/notebook/{notebookId}/backup` | notebookId: string<br /> serviceName: string |
+| `.cloud.listProjectAiNotebookBackupByServiceNameAndNotebookId` | GET | `/cloud/project/{serviceName}/ai/notebook/{notebookId}/backup` | notebookId: string<br /> serviceName: string |
 | `.cloud.getProjectAiNotebookBackupByServiceNameAndNotebookIdAndBackupId` | GET | `/cloud/project/{serviceName}/ai/notebook/{notebookId}/backup/{backupId}` | backupId: string<br /> notebookId: string<br /> serviceName: string |
 | `.cloud.postProjectAiNotebookBackupForkByServiceNameAndNotebookIdAndBackupId` | POST | `/cloud/project/{serviceName}/ai/notebook/{notebookId}/backup/{backupId}/fork` | backupId: string<br /> notebookId: string<br /> serviceName: string |
 | `.cloud.postProjectAiNotebookDatasyncByServiceNameAndNotebookId` | POST | `/cloud/project/{serviceName}/ai/notebook/{notebookId}/datasync` | notebookId: string<br /> serviceName: string |
@@ -215,7 +215,7 @@
 | `.cloud.getProjectAiNotebookLogByServiceNameAndNotebookId` | GET | `/cloud/project/{serviceName}/ai/notebook/{notebookId}/log` | notebookId: string<br /> serviceName: string |
 | `.cloud.putProjectAiNotebookStartByServiceNameAndNotebookId` | PUT | `/cloud/project/{serviceName}/ai/notebook/{notebookId}/start` | notebookId: string<br /> serviceName: string |
 | `.cloud.putProjectAiNotebookStopByServiceNameAndNotebookId` | PUT | `/cloud/project/{serviceName}/ai/notebook/{notebookId}/stop` | notebookId: string<br /> serviceName: string |
-| `.cloud.listProjectAiRegistrysByServiceName` | GET | `/cloud/project/{serviceName}/ai/registry` | serviceName: string |
+| `.cloud.listProjectAiRegistryByServiceName` | GET | `/cloud/project/{serviceName}/ai/registry` | serviceName: string |
 | `.cloud.createProjectAiRegistryByServiceName` | POST | `/cloud/project/{serviceName}/ai/registry` | serviceName: string |
 | `.cloud.deleteProjectAiRegistryByServiceNameAndRegistryId` | DELETE | `/cloud/project/{serviceName}/ai/registry/{registryId}` | registryId: string<br /> serviceName: string |
 | `.cloud.getProjectAiRegistryByServiceNameAndRegistryId` | GET | `/cloud/project/{serviceName}/ai/registry/{registryId}` | registryId: string<br /> serviceName: string |
@@ -238,7 +238,7 @@
 | `.cloud.deleteProjectAiServingTokenByServiceNameAndNamespaceIdAndTokenId` | DELETE | `/cloud/project/{serviceName}/ai/serving/{namespaceId}/token/{tokenId}` | namespaceId: string<br /> serviceName: string<br /> tokenId: string |
 | `.cloud.getProjectAiServingTokenByServiceNameAndNamespaceIdAndTokenId` | GET | `/cloud/project/{serviceName}/ai/serving/{namespaceId}/token/{tokenId}` | namespaceId: string<br /> serviceName: string<br /> tokenId: string |
 | `.cloud.putProjectAiServingTokenByServiceNameAndNamespaceIdAndTokenId` | PUT | `/cloud/project/{serviceName}/ai/serving/{namespaceId}/token/{tokenId}` | namespaceId: string<br /> serviceName: string<br /> tokenId: string |
-| `.cloud.listProjectAiTokensByServiceName` | GET | `/cloud/project/{serviceName}/ai/token` | serviceName: string |
+| `.cloud.listProjectAiTokenByServiceName` | GET | `/cloud/project/{serviceName}/ai/token` | serviceName: string |
 | `.cloud.createProjectAiTokenByServiceName` | POST | `/cloud/project/{serviceName}/ai/token` | serviceName: string |
 | `.cloud.deleteProjectAiTokenByServiceNameAndId` | DELETE | `/cloud/project/{serviceName}/ai/token/{id}` | id: string<br /> serviceName: string |
 | `.cloud.getProjectAiTokenByServiceNameAndId` | GET | `/cloud/project/{serviceName}/ai/token/{id}` | id: string<br /> serviceName: string |
@@ -252,17 +252,17 @@
 | `.cloud.getProjectAlertingAlertByServiceNameAndIdAndAlertId` | GET | `/cloud/project/{serviceName}/alerting/{id}/alert/{alertId}` | alertId: number<br /> id: string<br /> serviceName: string |
 | `.cloud.getProjectBillByServiceName` | GET | `/cloud/project/{serviceName}/bill` | serviceName: string |
 | `.cloud.postProjectCancelByServiceName` | POST | `/cloud/project/{serviceName}/cancel` | serviceName: string |
-| `.cloud.listProjectCapabilitiesContainerRegistrysByServiceName` | GET | `/cloud/project/{serviceName}/capabilities/containerRegistry` | serviceName: string |
+| `.cloud.listProjectCapabilitiesContainerRegistryByServiceName` | GET | `/cloud/project/{serviceName}/capabilities/containerRegistry` | serviceName: string |
 | `.cloud.listProjectCapabilitiesKubeAdmissionpluginsByServiceName` | GET | `/cloud/project/{serviceName}/capabilities/kube/admissionplugins` | serviceName: string |
 | `.cloud.listProjectCapabilitiesKubeFlavorsByServiceName` | GET | `/cloud/project/{serviceName}/capabilities/kube/flavors` | serviceName: string |
 | `.cloud.listProjectCapabilitiesKubeRegionsByServiceName` | GET | `/cloud/project/{serviceName}/capabilities/kube/regions` | serviceName: string |
-| `.cloud.listProjectCapabilitiesLoadbalancerRegionsByServiceName` | GET | `/cloud/project/{serviceName}/capabilities/loadbalancer/region` | serviceName: string |
+| `.cloud.listProjectCapabilitiesLoadbalancerRegionByServiceName` | GET | `/cloud/project/{serviceName}/capabilities/loadbalancer/region` | serviceName: string |
 | `.cloud.getProjectCapabilitiesLoadbalancerRegionByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/capabilities/loadbalancer/region/{regionName}` | regionName: string<br /> serviceName: string |
-| `.cloud.listProjectCapabilitiesProductAvailabilitysByServiceName` | GET | `/cloud/project/{serviceName}/capabilities/productAvailability` | serviceName: string |
+| `.cloud.listProjectCapabilitiesProductAvailabilityByServiceName` | GET | `/cloud/project/{serviceName}/capabilities/productAvailability` | serviceName: string |
 | `.cloud.launchProjectChangeContactByServiceName` | POST | `/cloud/project/{serviceName}/changeContact` | serviceName: string<br />body: {<br />  contactAdmin?: string<br />&nbsp;&nbsp; contactBilling?: string<br />&nbsp;&nbsp; contactTech?: string <br />} |
 | `.cloud.confirmProjectTerminationByServiceName` | POST | `/cloud/project/{serviceName}/confirmTermination` | serviceName: string<br />body: {<br />  commentary?: string<br />&nbsp;&nbsp; futureUse?: [ServiceTerminationFutureUseEnum](lib/src/models/ServiceTerminationFutureUseEnum.ts)<br />&nbsp;&nbsp; reason?: [ServiceTerminationReasonEnum](lib/src/models/ServiceTerminationReasonEnum.ts)<br />&nbsp;&nbsp; token: string <br />} |
 | `.cloud.getProjectConsumptionByServiceName` | GET | `/cloud/project/{serviceName}/consumption` | serviceName: string |
-| `.cloud.listProjectContainerRegistrysByServiceName` | GET | `/cloud/project/{serviceName}/containerRegistry` | serviceName: string |
+| `.cloud.listProjectContainerRegistryByServiceName` | GET | `/cloud/project/{serviceName}/containerRegistry` | serviceName: string |
 | `.cloud.createProjectContainerRegistryByServiceName` | POST | `/cloud/project/{serviceName}/containerRegistry` | serviceName: string |
 | `.cloud.deleteProjectContainerRegistryByServiceNameAndRegistryID` | DELETE | `/cloud/project/{serviceName}/containerRegistry/{registryID}` | registryID: string<br /> serviceName: string |
 | `.cloud.getProjectContainerRegistryByServiceNameAndRegistryID` | GET | `/cloud/project/{serviceName}/containerRegistry/{registryID}` | registryID: string<br /> serviceName: string |
@@ -294,77 +294,77 @@
 | `.cloud.putProjectDataProcessingNotebooksStopByServiceNameAndNotebookId` | PUT | `/cloud/project/{serviceName}/dataProcessing/notebooks/{notebookId}/stop` | notebookId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseAvailabilityByServiceName` | GET | `/cloud/project/{serviceName}/database/availability` | serviceName: string |
 | `.cloud.getProjectDatabaseCapabilitiesByServiceName` | GET | `/cloud/project/{serviceName}/database/capabilities` | serviceName: string |
-| `.cloud.listProjectDatabaseCassandrasByServiceName` | GET | `/cloud/project/{serviceName}/database/cassandra` | serviceName: string |
+| `.cloud.listProjectDatabaseCassandraByServiceName` | GET | `/cloud/project/{serviceName}/database/cassandra` | serviceName: string |
 | `.cloud.createProjectDatabaseCassandraByServiceName` | POST | `/cloud/project/{serviceName}/database/cassandra` | serviceName: string |
 | `.cloud.deleteProjectDatabaseCassandraByServiceNameAndClusterId` | DELETE | `/cloud/project/{serviceName}/database/cassandra/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseCassandraByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseCassandraByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/cassandra/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseCassandraAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseCassandraAdvancedConfigurationByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseCassandraBackupsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseCassandraBackupByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseCassandraBackupByServiceNameAndClusterIdAndBackupId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/backup/{backupId}` | backupId: string<br /> clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseCassandraCapabilitiesAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/capabilities/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseCassandraCapabilitiesIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/capabilities/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseCassandraCertificatesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/certificates` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseCassandraIntegrationsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseCassandraIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseCassandraIntegrationByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseCassandraIntegrationByServiceNameAndClusterIdAndIntegrationId` | DELETE | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseCassandraIntegrationByServiceNameAndClusterIdAndIntegrationId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseCassandraIpRestrictionsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseCassandraIpRestrictionByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.addProjectDatabaseCassandraIpRestrictionByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseCassandraIpRestrictionByServiceNameAndClusterIdAndIpBlock` | DELETE | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseCassandraIpRestrictionByServiceNameAndClusterIdAndIpBlock` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseCassandraIpRestrictionByServiceNameAndClusterIdAndIpBlock` | PUT | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseCassandraLogsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/logs` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseCassandraMaintenancesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseCassandraMaintenanceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseCassandraMaintenanceByServiceNameAndClusterIdAndMaintenanceId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/maintenance/{maintenanceId}` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseCassandraMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId` | POST | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/maintenance/{maintenanceId}/apply` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseCassandraMetricsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseCassandraMetricByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseCassandraMetricByServiceNameAndClusterIdAndMetricName` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/metric/{metricName}` | clusterId: string<br /> metricName: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseCassandraNodesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/node` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseCassandraNodeByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/node` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseCassandraNodeByServiceNameAndClusterIdAndNodeId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseCassandraUsersByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/user` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseCassandraUserByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseCassandraUserByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseCassandraUserByServiceNameAndClusterIdAndUserId` | DELETE | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.getProjectDatabaseCassandraUserByServiceNameAndClusterIdAndUserId` | GET | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.postProjectDatabaseCassandraUserCredentialsResetByServiceNameAndClusterIdAndUserId` | POST | `/cloud/project/{serviceName}/database/cassandra/{clusterId}/user/{userId}/credentials/reset` | clusterId: string<br /> serviceName: string<br /> userId: string |
-| `.cloud.listProjectDatabaseGrafanasByServiceName` | GET | `/cloud/project/{serviceName}/database/grafana` | serviceName: string |
+| `.cloud.listProjectDatabaseGrafanaByServiceName` | GET | `/cloud/project/{serviceName}/database/grafana` | serviceName: string |
 | `.cloud.createProjectDatabaseGrafanaByServiceName` | POST | `/cloud/project/{serviceName}/database/grafana` | serviceName: string |
 | `.cloud.deleteProjectDatabaseGrafanaByServiceNameAndClusterId` | DELETE | `/cloud/project/{serviceName}/database/grafana/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseGrafanaByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseGrafanaByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/grafana/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseGrafanaAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseGrafanaAdvancedConfigurationByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/grafana/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseGrafanaBackupsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseGrafanaBackupByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseGrafanaBackupByServiceNameAndClusterIdAndBackupId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/backup/{backupId}` | backupId: string<br /> clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseGrafanaCapabilitiesAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/capabilities/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseGrafanaCapabilitiesIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/capabilities/integration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseGrafanaIntegrationsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseGrafanaIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseGrafanaIntegrationByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/grafana/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseGrafanaIntegrationByServiceNameAndClusterIdAndIntegrationId` | DELETE | `/cloud/project/{serviceName}/database/grafana/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseGrafanaIntegrationByServiceNameAndClusterIdAndIntegrationId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseGrafanaIpRestrictionsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseGrafanaIpRestrictionByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.addProjectDatabaseGrafanaIpRestrictionByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/grafana/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseGrafanaIpRestrictionByServiceNameAndClusterIdAndIpBlock` | DELETE | `/cloud/project/{serviceName}/database/grafana/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseGrafanaIpRestrictionByServiceNameAndClusterIdAndIpBlock` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseGrafanaIpRestrictionByServiceNameAndClusterIdAndIpBlock` | PUT | `/cloud/project/{serviceName}/database/grafana/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseGrafanaLogsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/logs` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseGrafanaMaintenancesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseGrafanaMaintenanceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseGrafanaMaintenanceByServiceNameAndClusterIdAndMaintenanceId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/maintenance/{maintenanceId}` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseGrafanaMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId` | POST | `/cloud/project/{serviceName}/database/grafana/{clusterId}/maintenance/{maintenanceId}/apply` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseGrafanaMetricsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseGrafanaMetricByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseGrafanaMetricByServiceNameAndClusterIdAndMetricName` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/metric/{metricName}` | clusterId: string<br /> metricName: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseGrafanaNodesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/node` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseGrafanaNodeByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/node` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseGrafanaNodeByServiceNameAndClusterIdAndNodeId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseGrafanaUsersByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/user` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseGrafanaUserByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseGrafanaUserByServiceNameAndClusterIdAndUserId` | GET | `/cloud/project/{serviceName}/database/grafana/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.postProjectDatabaseGrafanaUserCredentialsResetByServiceNameAndClusterIdAndUserId` | POST | `/cloud/project/{serviceName}/database/grafana/{clusterId}/user/{userId}/credentials/reset` | clusterId: string<br /> serviceName: string<br /> userId: string |
-| `.cloud.listProjectDatabaseKafkasByServiceName` | GET | `/cloud/project/{serviceName}/database/kafka` | serviceName: string |
+| `.cloud.listProjectDatabaseKafkaByServiceName` | GET | `/cloud/project/{serviceName}/database/kafka` | serviceName: string |
 | `.cloud.createProjectDatabaseKafkaByServiceName` | POST | `/cloud/project/{serviceName}/database/kafka` | serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaByServiceNameAndClusterId` | DELETE | `/cloud/project/{serviceName}/database/kafka/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseKafkaByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/kafka/{clusterId}` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaAclsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/acl` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaAclByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/acl` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseKafkaAclByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/kafka/{clusterId}/acl` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaAclByServiceNameAndClusterIdAndAclId` | DELETE | `/cloud/project/{serviceName}/database/kafka/{clusterId}/acl/{aclId}` | aclId: string<br /> clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaAclByServiceNameAndClusterIdAndAclId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/acl/{aclId}` | aclId: string<br /> clusterId: string<br /> serviceName: string |
@@ -373,36 +373,36 @@
 | `.cloud.getProjectDatabaseKafkaCapabilitiesAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/capabilities/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaCapabilitiesIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/capabilities/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaCertificatesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/certificates` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaIntegrationsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseKafkaIntegrationByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/kafka/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaIntegrationByServiceNameAndClusterIdAndIntegrationId` | DELETE | `/cloud/project/{serviceName}/database/kafka/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaIntegrationByServiceNameAndClusterIdAndIntegrationId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaIpRestrictionsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaIpRestrictionByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.addProjectDatabaseKafkaIpRestrictionByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/kafka/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaIpRestrictionByServiceNameAndClusterIdAndIpBlock` | DELETE | `/cloud/project/{serviceName}/database/kafka/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaIpRestrictionByServiceNameAndClusterIdAndIpBlock` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseKafkaIpRestrictionByServiceNameAndClusterIdAndIpBlock` | PUT | `/cloud/project/{serviceName}/database/kafka/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaLogsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/logs` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaMaintenancesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaMaintenanceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaMaintenanceByServiceNameAndClusterIdAndMaintenanceId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/maintenance/{maintenanceId}` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseKafkaMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId` | POST | `/cloud/project/{serviceName}/database/kafka/{clusterId}/maintenance/{maintenanceId}/apply` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaMetricsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaMetricByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaMetricByServiceNameAndClusterIdAndMetricName` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/metric/{metricName}` | clusterId: string<br /> metricName: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaNodesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/node` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaNodeByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/node` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaNodeByServiceNameAndClusterIdAndNodeId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaPermissionsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/permissions` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaTopicsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/topic` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaTopicByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/topic` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseKafkaTopicByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/kafka/{clusterId}/topic` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaTopicByServiceNameAndClusterIdAndTopicId` | DELETE | `/cloud/project/{serviceName}/database/kafka/{clusterId}/topic/{topicId}` | clusterId: string<br /> serviceName: string<br /> topicId: string |
 | `.cloud.getProjectDatabaseKafkaTopicByServiceNameAndClusterIdAndTopicId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/topic/{topicId}` | clusterId: string<br /> serviceName: string<br /> topicId: string |
 | `.cloud.updateProjectDatabaseKafkaTopicByServiceNameAndClusterIdAndTopicId` | PUT | `/cloud/project/{serviceName}/database/kafka/{clusterId}/topic/{topicId}` | clusterId: string<br /> serviceName: string<br /> topicId: string |
-| `.cloud.listProjectDatabaseKafkaUsersByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/user` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaUserByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseKafkaUserByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/kafka/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaUserByServiceNameAndClusterIdAndUserId` | DELETE | `/cloud/project/{serviceName}/database/kafka/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.getProjectDatabaseKafkaUserByServiceNameAndClusterIdAndUserId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.getProjectDatabaseKafkaUserAccessByServiceNameAndClusterIdAndUserId` | GET | `/cloud/project/{serviceName}/database/kafka/{clusterId}/user/{userId}/access` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.postProjectDatabaseKafkaUserCredentialsResetByServiceNameAndClusterIdAndUserId` | POST | `/cloud/project/{serviceName}/database/kafka/{clusterId}/user/{userId}/credentials/reset` | clusterId: string<br /> serviceName: string<br /> userId: string |
-| `.cloud.listProjectDatabaseKafkaConnectsByServiceName` | GET | `/cloud/project/{serviceName}/database/kafkaConnect` | serviceName: string |
+| `.cloud.listProjectDatabaseKafkaConnectByServiceName` | GET | `/cloud/project/{serviceName}/database/kafkaConnect` | serviceName: string |
 | `.cloud.createProjectDatabaseKafkaConnectByServiceName` | POST | `/cloud/project/{serviceName}/database/kafkaConnect` | serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaConnectByServiceNameAndClusterId` | DELETE | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}` | clusterId: string<br /> serviceName: string |
@@ -410,12 +410,12 @@
 | `.cloud.getProjectDatabaseKafkaConnectAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseKafkaConnectAdvancedConfigurationByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectCapabilitiesAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/capabilities/advancedConfiguration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaConnectCapabilitiesConnectorsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/capabilities/connector` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaConnectCapabilitiesConnectorByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/capabilities/connector` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectCapabilitiesConnectorByServiceNameAndClusterIdAndConnectorId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/capabilities/connector/{connectorId}` | clusterId: string<br /> connectorId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationByServiceNameAndClusterIdAndConnectorId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/capabilities/connector/{connectorId}/configuration` | clusterId: string<br /> connectorId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectCapabilitiesConnectorTransformsByServiceNameAndClusterIdAndConnectorId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/capabilities/connector/{connectorId}/transforms` | clusterId: string<br /> connectorId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectCapabilitiesIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/capabilities/integration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaConnectConnectorsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/connector` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaConnectConnectorByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/connector` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseKafkaConnectConnectorByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/connector` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaConnectConnectorByServiceNameAndClusterIdAndConnectorId` | DELETE | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/connector/{connectorId}` | clusterId: string<br /> connectorId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectConnectorByServiceNameAndClusterIdAndConnectorId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/connector/{connectorId}` | clusterId: string<br /> connectorId: string<br /> serviceName: string |
@@ -423,151 +423,151 @@
 | `.cloud.postProjectDatabaseKafkaConnectConnectorPauseByServiceNameAndClusterIdAndConnectorId` | POST | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/connector/{connectorId}/pause` | clusterId: string<br /> connectorId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseKafkaConnectConnectorRestartByServiceNameAndClusterIdAndConnectorId` | POST | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/connector/{connectorId}/restart` | clusterId: string<br /> connectorId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseKafkaConnectConnectorResumeByServiceNameAndClusterIdAndConnectorId` | POST | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/connector/{connectorId}/resume` | clusterId: string<br /> connectorId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaConnectConnectorTasksByServiceNameAndClusterIdAndConnectorId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/connector/{connectorId}/task` | clusterId: string<br /> connectorId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaConnectConnectorTaskByServiceNameAndClusterIdAndConnectorId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/connector/{connectorId}/task` | clusterId: string<br /> connectorId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectConnectorTaskByServiceNameAndClusterIdAndConnectorIdAndTaskId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/connector/{connectorId}/task/{taskId}` | clusterId: string<br /> connectorId: string<br /> serviceName: string<br /> taskId: number |
 | `.cloud.postProjectDatabaseKafkaConnectConnectorTaskRestartByServiceNameAndClusterIdAndConnectorIdAndTaskId` | POST | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/connector/{connectorId}/task/{taskId}/restart` | clusterId: string<br /> connectorId: string<br /> serviceName: string<br /> taskId: number |
-| `.cloud.listProjectDatabaseKafkaConnectIntegrationsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaConnectIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseKafkaConnectIntegrationByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaConnectIntegrationByServiceNameAndClusterIdAndIntegrationId` | DELETE | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectIntegrationByServiceNameAndClusterIdAndIntegrationId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaConnectIpRestrictionsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaConnectIpRestrictionByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.addProjectDatabaseKafkaConnectIpRestrictionByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaConnectIpRestrictionByServiceNameAndClusterIdAndIpBlock` | DELETE | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectIpRestrictionByServiceNameAndClusterIdAndIpBlock` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseKafkaConnectIpRestrictionByServiceNameAndClusterIdAndIpBlock` | PUT | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectLogsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/logs` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaConnectMaintenancesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaConnectMaintenanceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectMaintenanceByServiceNameAndClusterIdAndMaintenanceId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/maintenance/{maintenanceId}` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseKafkaConnectMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId` | POST | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/maintenance/{maintenanceId}/apply` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaConnectMetricsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaConnectMetricByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectMetricByServiceNameAndClusterIdAndMetricName` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/metric/{metricName}` | clusterId: string<br /> metricName: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaConnectNodesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/node` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaConnectNodeByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/node` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaConnectNodeByServiceNameAndClusterIdAndNodeId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaConnectUsersByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/user` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaConnectUserByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseKafkaConnectUserByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaConnectUserByServiceNameAndClusterIdAndUserId` | DELETE | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.getProjectDatabaseKafkaConnectUserByServiceNameAndClusterIdAndUserId` | GET | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.postProjectDatabaseKafkaConnectUserCredentialsResetByServiceNameAndClusterIdAndUserId` | POST | `/cloud/project/{serviceName}/database/kafkaConnect/{clusterId}/user/{userId}/credentials/reset` | clusterId: string<br /> serviceName: string<br /> userId: string |
-| `.cloud.listProjectDatabaseKafkaMirrorMakersByServiceName` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker` | serviceName: string |
+| `.cloud.listProjectDatabaseKafkaMirrorMakerByServiceName` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker` | serviceName: string |
 | `.cloud.createProjectDatabaseKafkaMirrorMakerByServiceName` | POST | `/cloud/project/{serviceName}/database/kafkaMirrorMaker` | serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaMirrorMakerByServiceNameAndClusterId` | DELETE | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaMirrorMakerByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseKafkaMirrorMakerByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaMirrorMakerCapabilitiesIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/capabilities/integration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaMirrorMakerIntegrationsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaMirrorMakerIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseKafkaMirrorMakerIntegrationByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaMirrorMakerIntegrationByServiceNameAndClusterIdAndIntegrationId` | DELETE | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaMirrorMakerIntegrationByServiceNameAndClusterIdAndIntegrationId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaMirrorMakerLogsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/logs` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaMirrorMakerMaintenancesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaMirrorMakerMaintenanceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaMirrorMakerMaintenanceByServiceNameAndClusterIdAndMaintenanceId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/maintenance/{maintenanceId}` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseKafkaMirrorMakerMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId` | POST | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/maintenance/{maintenanceId}/apply` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaMirrorMakerMetricsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaMirrorMakerMetricByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaMirrorMakerMetricByServiceNameAndClusterIdAndMetricName` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/metric/{metricName}` | clusterId: string<br /> metricName: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaMirrorMakerNodesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/node` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaMirrorMakerNodeByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/node` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaMirrorMakerNodeByServiceNameAndClusterIdAndNodeId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseKafkaMirrorMakerReplicationsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/replication` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseKafkaMirrorMakerReplicationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/replication` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseKafkaMirrorMakerReplicationByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/replication` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseKafkaMirrorMakerReplicationByServiceNameAndClusterIdAndReplicationId` | DELETE | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/replication/{replicationId}` | clusterId: string<br /> replicationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseKafkaMirrorMakerReplicationByServiceNameAndClusterIdAndReplicationId` | GET | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/replication/{replicationId}` | clusterId: string<br /> replicationId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseKafkaMirrorMakerReplicationByServiceNameAndClusterIdAndReplicationId` | PUT | `/cloud/project/{serviceName}/database/kafkaMirrorMaker/{clusterId}/replication/{replicationId}` | clusterId: string<br /> replicationId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3aggregatorsByServiceName` | GET | `/cloud/project/{serviceName}/database/m3aggregator` | serviceName: string |
+| `.cloud.listProjectDatabaseM3aggregatorByServiceName` | GET | `/cloud/project/{serviceName}/database/m3aggregator` | serviceName: string |
 | `.cloud.createProjectDatabaseM3aggregatorByServiceName` | POST | `/cloud/project/{serviceName}/database/m3aggregator` | serviceName: string |
 | `.cloud.deleteProjectDatabaseM3aggregatorByServiceNameAndClusterId` | DELETE | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3aggregatorByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseM3aggregatorByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3aggregatorCapabilitiesIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/capabilities/integration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3aggregatorIntegrationsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseM3aggregatorIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseM3aggregatorIntegrationByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseM3aggregatorIntegrationByServiceNameAndClusterIdAndIntegrationId` | DELETE | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3aggregatorIntegrationByServiceNameAndClusterIdAndIntegrationId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3aggregatorLogsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/logs` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3aggregatorMaintenancesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseM3aggregatorMaintenanceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3aggregatorMaintenanceByServiceNameAndClusterIdAndMaintenanceId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/maintenance/{maintenanceId}` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseM3aggregatorMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId` | POST | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/maintenance/{maintenanceId}/apply` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3aggregatorMetricsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseM3aggregatorMetricByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3aggregatorMetricByServiceNameAndClusterIdAndMetricName` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/metric/{metricName}` | clusterId: string<br /> metricName: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3aggregatorNodesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/node` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseM3aggregatorNodeByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/node` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3aggregatorNodeByServiceNameAndClusterIdAndNodeId` | GET | `/cloud/project/{serviceName}/database/m3aggregator/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3dbsByServiceName` | GET | `/cloud/project/{serviceName}/database/m3db` | serviceName: string |
+| `.cloud.listProjectDatabaseM3dbByServiceName` | GET | `/cloud/project/{serviceName}/database/m3db` | serviceName: string |
 | `.cloud.createProjectDatabaseM3dbByServiceName` | POST | `/cloud/project/{serviceName}/database/m3db` | serviceName: string |
 | `.cloud.deleteProjectDatabaseM3dbByServiceNameAndClusterId` | DELETE | `/cloud/project/{serviceName}/database/m3db/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3dbByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseM3dbByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/m3db/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3dbAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseM3dbAdvancedConfigurationByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/m3db/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3dbBackupsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseM3dbBackupByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3dbBackupByServiceNameAndClusterIdAndBackupId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/backup/{backupId}` | backupId: string<br /> clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3dbCapabilitiesAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/capabilities/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3dbCapabilitiesIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/capabilities/integration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3dbIntegrationsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseM3dbIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseM3dbIntegrationByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/m3db/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseM3dbIntegrationByServiceNameAndClusterIdAndIntegrationId` | DELETE | `/cloud/project/{serviceName}/database/m3db/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3dbIntegrationByServiceNameAndClusterIdAndIntegrationId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3dbIpRestrictionsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseM3dbIpRestrictionByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.addProjectDatabaseM3dbIpRestrictionByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/m3db/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseM3dbIpRestrictionByServiceNameAndClusterIdAndIpBlock` | DELETE | `/cloud/project/{serviceName}/database/m3db/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3dbIpRestrictionByServiceNameAndClusterIdAndIpBlock` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseM3dbIpRestrictionByServiceNameAndClusterIdAndIpBlock` | PUT | `/cloud/project/{serviceName}/database/m3db/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3dbLogsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/logs` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3dbMaintenancesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseM3dbMaintenanceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3dbMaintenanceByServiceNameAndClusterIdAndMaintenanceId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/maintenance/{maintenanceId}` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseM3dbMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId` | POST | `/cloud/project/{serviceName}/database/m3db/{clusterId}/maintenance/{maintenanceId}/apply` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3dbMetricsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseM3dbMetricByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3dbMetricByServiceNameAndClusterIdAndMetricName` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/metric/{metricName}` | clusterId: string<br /> metricName: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3dbNamespacesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/namespace` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseM3dbNamespaceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/namespace` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseM3dbNamespaceByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/m3db/{clusterId}/namespace` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseM3dbNamespaceByServiceNameAndClusterIdAndNamespaceId` | DELETE | `/cloud/project/{serviceName}/database/m3db/{clusterId}/namespace/{namespaceId}` | clusterId: string<br /> namespaceId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3dbNamespaceByServiceNameAndClusterIdAndNamespaceId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/namespace/{namespaceId}` | clusterId: string<br /> namespaceId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseM3dbNamespaceByServiceNameAndClusterIdAndNamespaceId` | PUT | `/cloud/project/{serviceName}/database/m3db/{clusterId}/namespace/{namespaceId}` | clusterId: string<br /> namespaceId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3dbNodesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/node` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseM3dbNodeByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/node` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseM3dbNodeByServiceNameAndClusterIdAndNodeId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseM3dbUsersByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/user` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseM3dbUserByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseM3dbUserByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/m3db/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseM3dbUserByServiceNameAndClusterIdAndUserId` | DELETE | `/cloud/project/{serviceName}/database/m3db/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.getProjectDatabaseM3dbUserByServiceNameAndClusterIdAndUserId` | GET | `/cloud/project/{serviceName}/database/m3db/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.updateProjectDatabaseM3dbUserByServiceNameAndClusterIdAndUserId` | PUT | `/cloud/project/{serviceName}/database/m3db/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.postProjectDatabaseM3dbUserCredentialsResetByServiceNameAndClusterIdAndUserId` | POST | `/cloud/project/{serviceName}/database/m3db/{clusterId}/user/{userId}/credentials/reset` | clusterId: string<br /> serviceName: string<br /> userId: string |
-| `.cloud.listProjectDatabaseMongodbsByServiceName` | GET | `/cloud/project/{serviceName}/database/mongodb` | serviceName: string |
+| `.cloud.listProjectDatabaseMongodbByServiceName` | GET | `/cloud/project/{serviceName}/database/mongodb` | serviceName: string |
 | `.cloud.createProjectDatabaseMongodbByServiceName` | POST | `/cloud/project/{serviceName}/database/mongodb` | serviceName: string |
 | `.cloud.deleteProjectDatabaseMongodbByServiceNameAndClusterId` | DELETE | `/cloud/project/{serviceName}/database/mongodb/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMongodbByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseMongodbByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/mongodb/{clusterId}` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseMongodbBackupsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseMongodbBackupByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMongodbBackupByServiceNameAndClusterIdAndBackupId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/backup/{backupId}` | backupId: string<br /> clusterId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseMongodbBackupRestoreByServiceNameAndClusterIdAndBackupId` | POST | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/backup/{backupId}/restore` | backupId: string<br /> clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseMongodbIpRestrictionsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseMongodbIpRestrictionByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.addProjectDatabaseMongodbIpRestrictionByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseMongodbIpRestrictionByServiceNameAndClusterIdAndIpBlock` | DELETE | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMongodbIpRestrictionByServiceNameAndClusterIdAndIpBlock` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseMongodbIpRestrictionByServiceNameAndClusterIdAndIpBlock` | PUT | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMongodbLogsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/logs` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseMongodbMaintenancesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseMongodbMaintenanceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMongodbMaintenanceByServiceNameAndClusterIdAndMaintenanceId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/maintenance/{maintenanceId}` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseMongodbMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId` | POST | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/maintenance/{maintenanceId}/apply` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseMongodbMetricsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseMongodbMetricByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMongodbMetricByServiceNameAndClusterIdAndMetricName` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/metric/{metricName}` | clusterId: string<br /> metricName: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseMongodbNodesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/node` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseMongodbNodeByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/node` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseMongodbNodeByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/node` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseMongodbNodeByServiceNameAndClusterIdAndNodeId` | DELETE | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMongodbNodeByServiceNameAndClusterIdAndNodeId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
 | `.cloud.putProjectDatabaseMongodbNodeByServiceNameAndClusterIdAndNodeId` | PUT | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseMongodbRestoreByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/restore` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMongodbRolesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/roles` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseMongodbUsersByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/user` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseMongodbUserByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseMongodbUserByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseMongodbUserByServiceNameAndClusterIdAndUserId` | DELETE | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.getProjectDatabaseMongodbUserByServiceNameAndClusterIdAndUserId` | GET | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.updateProjectDatabaseMongodbUserByServiceNameAndClusterIdAndUserId` | PUT | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.postProjectDatabaseMongodbUserCredentialsResetByServiceNameAndClusterIdAndUserId` | POST | `/cloud/project/{serviceName}/database/mongodb/{clusterId}/user/{userId}/credentials/reset` | clusterId: string<br /> serviceName: string<br /> userId: string |
-| `.cloud.listProjectDatabaseMysqlsByServiceName` | GET | `/cloud/project/{serviceName}/database/mysql` | serviceName: string |
+| `.cloud.listProjectDatabaseMysqlByServiceName` | GET | `/cloud/project/{serviceName}/database/mysql` | serviceName: string |
 | `.cloud.createProjectDatabaseMysqlByServiceName` | POST | `/cloud/project/{serviceName}/database/mysql` | serviceName: string |
 | `.cloud.deleteProjectDatabaseMysqlByServiceNameAndClusterId` | DELETE | `/cloud/project/{serviceName}/database/mysql/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMysqlByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseMysqlByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/mysql/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMysqlAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseMysqlAdvancedConfigurationByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/mysql/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseMysqlBackupsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseMysqlBackupByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMysqlBackupByServiceNameAndClusterIdAndBackupId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/backup/{backupId}` | backupId: string<br /> clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMysqlCapabilitiesAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/capabilities/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMysqlCapabilitiesIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/capabilities/integration` | clusterId: string<br /> serviceName: string |
@@ -579,80 +579,80 @@
 | `.cloud.deleteProjectDatabaseMysqlDatabaseByServiceNameAndClusterIdAndDatabaseId` | DELETE | `/cloud/project/{serviceName}/database/mysql/{clusterId}/database/{databaseId}` | clusterId: string<br /> databaseId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMysqlDatabaseByServiceNameAndClusterIdAndDatabaseId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/database/{databaseId}` | clusterId: string<br /> databaseId: string<br /> serviceName: string |
 | `.cloud.enableProjectDatabaseMysqlWritesByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/mysql/{clusterId}/enableWrites` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseMysqlIntegrationsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseMysqlIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseMysqlIntegrationByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/mysql/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseMysqlIntegrationByServiceNameAndClusterIdAndIntegrationId` | DELETE | `/cloud/project/{serviceName}/database/mysql/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMysqlIntegrationByServiceNameAndClusterIdAndIntegrationId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseMysqlIpRestrictionsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseMysqlIpRestrictionByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.addProjectDatabaseMysqlIpRestrictionByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/mysql/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseMysqlIpRestrictionByServiceNameAndClusterIdAndIpBlock` | DELETE | `/cloud/project/{serviceName}/database/mysql/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMysqlIpRestrictionByServiceNameAndClusterIdAndIpBlock` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseMysqlIpRestrictionByServiceNameAndClusterIdAndIpBlock` | PUT | `/cloud/project/{serviceName}/database/mysql/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMysqlLogsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/logs` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseMysqlMaintenancesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseMysqlMaintenanceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMysqlMaintenanceByServiceNameAndClusterIdAndMaintenanceId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/maintenance/{maintenanceId}` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseMysqlMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId` | POST | `/cloud/project/{serviceName}/database/mysql/{clusterId}/maintenance/{maintenanceId}/apply` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseMysqlMetricsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseMysqlMetricByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMysqlMetricByServiceNameAndClusterIdAndMetricName` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/metric/{metricName}` | clusterId: string<br /> metricName: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseMysqlNodesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/node` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseMysqlNodeByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/node` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMysqlNodeByServiceNameAndClusterIdAndNodeId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseMysqlQueryStatisticsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/queryStatistics` | clusterId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseMysqlQueryStatisticsResetByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/mysql/{clusterId}/queryStatistics/reset` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseMysqlUsersByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/user` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseMysqlUserByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseMysqlUserByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/mysql/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseMysqlUserByServiceNameAndClusterIdAndUserId` | DELETE | `/cloud/project/{serviceName}/database/mysql/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.getProjectDatabaseMysqlUserByServiceNameAndClusterIdAndUserId` | GET | `/cloud/project/{serviceName}/database/mysql/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.postProjectDatabaseMysqlUserCredentialsResetByServiceNameAndClusterIdAndUserId` | POST | `/cloud/project/{serviceName}/database/mysql/{clusterId}/user/{userId}/credentials/reset` | clusterId: string<br /> serviceName: string<br /> userId: string |
-| `.cloud.listProjectDatabaseOpensearchsByServiceName` | GET | `/cloud/project/{serviceName}/database/opensearch` | serviceName: string |
+| `.cloud.listProjectDatabaseOpensearchByServiceName` | GET | `/cloud/project/{serviceName}/database/opensearch` | serviceName: string |
 | `.cloud.createProjectDatabaseOpensearchByServiceName` | POST | `/cloud/project/{serviceName}/database/opensearch` | serviceName: string |
 | `.cloud.deleteProjectDatabaseOpensearchByServiceNameAndClusterId` | DELETE | `/cloud/project/{serviceName}/database/opensearch/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseOpensearchByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/opensearch/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseOpensearchAdvancedConfigurationByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseOpensearchBackupsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseOpensearchBackupByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchBackupByServiceNameAndClusterIdAndBackupId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/backup/{backupId}` | backupId: string<br /> clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchCapabilitiesAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/capabilities/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchCapabilitiesIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/capabilities/integration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseOpensearchIndexsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/index` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseOpensearchIndexByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/index` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseOpensearchIndexByServiceNameAndClusterIdAndIndexId` | DELETE | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/index/{indexId}` | clusterId: string<br /> indexId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchIndexByServiceNameAndClusterIdAndIndexId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/index/{indexId}` | clusterId: string<br /> indexId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseOpensearchIntegrationsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseOpensearchIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseOpensearchIntegrationByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseOpensearchIntegrationByServiceNameAndClusterIdAndIntegrationId` | DELETE | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchIntegrationByServiceNameAndClusterIdAndIntegrationId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseOpensearchIpRestrictionsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseOpensearchIpRestrictionByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.addProjectDatabaseOpensearchIpRestrictionByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseOpensearchIpRestrictionByServiceNameAndClusterIdAndIpBlock` | DELETE | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchIpRestrictionByServiceNameAndClusterIdAndIpBlock` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseOpensearchIpRestrictionByServiceNameAndClusterIdAndIpBlock` | PUT | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchLogsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/logs` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseOpensearchMaintenancesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseOpensearchMaintenanceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchMaintenanceByServiceNameAndClusterIdAndMaintenanceId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/maintenance/{maintenanceId}` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseOpensearchMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId` | POST | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/maintenance/{maintenanceId}/apply` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseOpensearchMetricsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseOpensearchMetricByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchMetricByServiceNameAndClusterIdAndMetricName` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/metric/{metricName}` | clusterId: string<br /> metricName: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseOpensearchNodesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/node` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseOpensearchNodeByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/node` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchNodeByServiceNameAndClusterIdAndNodeId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseOpensearchPatternsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/pattern` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseOpensearchPatternByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/pattern` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseOpensearchPatternByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/pattern` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseOpensearchPatternByServiceNameAndClusterIdAndPatternId` | DELETE | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/pattern/{patternId}` | clusterId: string<br /> patternId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchPatternByServiceNameAndClusterIdAndPatternId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/pattern/{patternId}` | clusterId: string<br /> patternId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseOpensearchPermissionsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/permissions` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseOpensearchUsersByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/user` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseOpensearchUserByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseOpensearchUserByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseOpensearchUserByServiceNameAndClusterIdAndUserId` | DELETE | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.getProjectDatabaseOpensearchUserByServiceNameAndClusterIdAndUserId` | GET | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.updateProjectDatabaseOpensearchUserByServiceNameAndClusterIdAndUserId` | PUT | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.postProjectDatabaseOpensearchUserCredentialsResetByServiceNameAndClusterIdAndUserId` | POST | `/cloud/project/{serviceName}/database/opensearch/{clusterId}/user/{userId}/credentials/reset` | clusterId: string<br /> serviceName: string<br /> userId: string |
-| `.cloud.listProjectDatabasePostgresqlsByServiceName` | GET | `/cloud/project/{serviceName}/database/postgresql` | serviceName: string |
+| `.cloud.listProjectDatabasePostgresqlByServiceName` | GET | `/cloud/project/{serviceName}/database/postgresql` | serviceName: string |
 | `.cloud.createProjectDatabasePostgresqlByServiceName` | POST | `/cloud/project/{serviceName}/database/postgresql` | serviceName: string |
 | `.cloud.deleteProjectDatabasePostgresqlByServiceNameAndClusterId` | DELETE | `/cloud/project/{serviceName}/database/postgresql/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabasePostgresqlByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/postgresql/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabasePostgresqlAdvancedConfigurationByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabasePostgresqlBackupsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabasePostgresqlBackupByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlBackupByServiceNameAndClusterIdAndBackupId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/backup/{backupId}` | backupId: string<br /> clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlCapabilitiesAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/capabilities/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlCapabilitiesIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/capabilities/integration` | clusterId: string<br /> serviceName: string |
@@ -669,27 +669,27 @@
 | `.cloud.deleteProjectDatabasePostgresqlDatabaseByServiceNameAndClusterIdAndDatabaseId` | DELETE | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/database/{databaseId}` | clusterId: string<br /> databaseId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlDatabaseByServiceNameAndClusterIdAndDatabaseId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/database/{databaseId}` | clusterId: string<br /> databaseId: string<br /> serviceName: string |
 | `.cloud.enableProjectDatabasePostgresqlWritesByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/enableWrites` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabasePostgresqlIntegrationsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabasePostgresqlIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabasePostgresqlIntegrationByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabasePostgresqlIntegrationByServiceNameAndClusterIdAndIntegrationId` | DELETE | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlIntegrationByServiceNameAndClusterIdAndIntegrationId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabasePostgresqlIpRestrictionsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabasePostgresqlIpRestrictionByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.addProjectDatabasePostgresqlIpRestrictionByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabasePostgresqlIpRestrictionByServiceNameAndClusterIdAndIpBlock` | DELETE | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlIpRestrictionByServiceNameAndClusterIdAndIpBlock` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabasePostgresqlIpRestrictionByServiceNameAndClusterIdAndIpBlock` | PUT | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlLogsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/logs` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabasePostgresqlMaintenancesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabasePostgresqlMaintenanceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlMaintenanceByServiceNameAndClusterIdAndMaintenanceId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/maintenance/{maintenanceId}` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabasePostgresqlMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId` | POST | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/maintenance/{maintenanceId}/apply` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabasePostgresqlMetricsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabasePostgresqlMetricByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlMetricByServiceNameAndClusterIdAndMetricName` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/metric/{metricName}` | clusterId: string<br /> metricName: string<br /> serviceName: string |
-| `.cloud.listProjectDatabasePostgresqlNodesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/node` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabasePostgresqlNodeByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/node` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlNodeByServiceNameAndClusterIdAndNodeId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlQueryStatisticsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/queryStatistics` | clusterId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabasePostgresqlQueryStatisticsResetByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/queryStatistics/reset` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabasePostgresqlRolesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/roles` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabasePostgresqlUsersByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/user` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabasePostgresqlUserByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabasePostgresqlUserByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabasePostgresqlUserByServiceNameAndClusterIdAndUserId` | DELETE | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.getProjectDatabasePostgresqlUserByServiceNameAndClusterIdAndUserId` | GET | `/cloud/project/{serviceName}/database/postgresql/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
@@ -702,36 +702,36 @@
 | `.cloud.updateProjectDatabaseRedisByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/redis/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseRedisAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseRedisAdvancedConfigurationByServiceNameAndClusterId` | PUT | `/cloud/project/{serviceName}/database/redis/{clusterId}/advancedConfiguration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseRedisBackupsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseRedisBackupByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/backup` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseRedisBackupByServiceNameAndClusterIdAndBackupId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/backup/{backupId}` | backupId: string<br /> clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseRedisCapabilitiesAdvancedConfigurationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/capabilities/advancedConfiguration` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseRedisCapabilitiesCategoriesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/capabilities/categories` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseRedisCapabilitiesCommandsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/capabilities/commands` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseRedisCapabilitiesIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/capabilities/integration` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseRedisIntegrationsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseRedisIntegrationByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseRedisIntegrationByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/redis/{clusterId}/integration` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseRedisIntegrationByServiceNameAndClusterIdAndIntegrationId` | DELETE | `/cloud/project/{serviceName}/database/redis/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseRedisIntegrationByServiceNameAndClusterIdAndIntegrationId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/integration/{integrationId}` | clusterId: string<br /> integrationId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseRedisIpRestrictionsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseRedisIpRestrictionByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.addProjectDatabaseRedisIpRestrictionByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/redis/{clusterId}/ipRestriction` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseRedisIpRestrictionByServiceNameAndClusterIdAndIpBlock` | DELETE | `/cloud/project/{serviceName}/database/redis/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseRedisIpRestrictionByServiceNameAndClusterIdAndIpBlock` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.updateProjectDatabaseRedisIpRestrictionByServiceNameAndClusterIdAndIpBlock` | PUT | `/cloud/project/{serviceName}/database/redis/{clusterId}/ipRestriction/{ipBlock}` | clusterId: string<br /> ipBlock: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseRedisLogsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/logs` | clusterId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseRedisMaintenancesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseRedisMaintenanceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/maintenance` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseRedisMaintenanceByServiceNameAndClusterIdAndMaintenanceId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/maintenance/{maintenanceId}` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
 | `.cloud.postProjectDatabaseRedisMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId` | POST | `/cloud/project/{serviceName}/database/redis/{clusterId}/maintenance/{maintenanceId}/apply` | clusterId: string<br /> maintenanceId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseRedisMetricsByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseRedisMetricByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/metric` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseRedisMetricByServiceNameAndClusterIdAndMetricName` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/metric/{metricName}` | clusterId: string<br /> metricName: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseRedisNodesByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/node` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseRedisNodeByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/node` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectDatabaseRedisNodeByServiceNameAndClusterIdAndNodeId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/node/{nodeId}` | clusterId: string<br /> nodeId: string<br /> serviceName: string |
-| `.cloud.listProjectDatabaseRedisUsersByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/user` | clusterId: string<br /> serviceName: string |
+| `.cloud.listProjectDatabaseRedisUserByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.createProjectDatabaseRedisUserByServiceNameAndClusterId` | POST | `/cloud/project/{serviceName}/database/redis/{clusterId}/user` | clusterId: string<br /> serviceName: string |
 | `.cloud.deleteProjectDatabaseRedisUserByServiceNameAndClusterIdAndUserId` | DELETE | `/cloud/project/{serviceName}/database/redis/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.getProjectDatabaseRedisUserByServiceNameAndClusterIdAndUserId` | GET | `/cloud/project/{serviceName}/database/redis/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.updateProjectDatabaseRedisUserByServiceNameAndClusterIdAndUserId` | PUT | `/cloud/project/{serviceName}/database/redis/{clusterId}/user/{userId}` | clusterId: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.postProjectDatabaseRedisUserCredentialsResetByServiceNameAndClusterIdAndUserId` | POST | `/cloud/project/{serviceName}/database/redis/{clusterId}/user/{userId}/credentials/reset` | clusterId: string<br /> serviceName: string<br /> userId: string |
-| `.cloud.listProjectDatabaseServicesByServiceName` | GET | `/cloud/project/{serviceName}/database/service` | serviceName: string |
+| `.cloud.listProjectDatabaseServiceByServiceName` | GET | `/cloud/project/{serviceName}/database/service` | serviceName: string |
 | `.cloud.getProjectDatabaseServiceByServiceNameAndClusterId` | GET | `/cloud/project/{serviceName}/database/service/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.cloud.getProjectFlavorByServiceName` | GET | `/cloud/project/{serviceName}/flavor` | serviceName: string |
 | `.cloud.getProjectFlavorByServiceNameAndFlavorId` | GET | `/cloud/project/{serviceName}/flavor/{flavorId}` | flavorId: string<br /> serviceName: string |
@@ -766,21 +766,21 @@
 | `.cloud.postProjectInstanceStopByServiceNameAndInstanceId` | POST | `/cloud/project/{serviceName}/instance/{instanceId}/stop` | instanceId: string<br /> serviceName: string |
 | `.cloud.postProjectInstanceUnshelveByServiceNameAndInstanceId` | POST | `/cloud/project/{serviceName}/instance/{instanceId}/unshelve` | instanceId: string<br /> serviceName: string |
 | `.cloud.postProjectInstanceVncByServiceNameAndInstanceId` | POST | `/cloud/project/{serviceName}/instance/{instanceId}/vnc` | instanceId: string<br /> serviceName: string |
-| `.cloud.listProjectIoCapabilitiesStreamRegionsByServiceName` | GET | `/cloud/project/{serviceName}/io/capabilities/stream/region` | serviceName: string |
+| `.cloud.listProjectIoCapabilitiesStreamRegionByServiceName` | GET | `/cloud/project/{serviceName}/io/capabilities/stream/region` | serviceName: string |
 | `.cloud.getProjectIoCapabilitiesStreamRegionByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/io/capabilities/stream/region/{regionName}` | regionName: string<br /> serviceName: string |
-| `.cloud.listProjectIoStreamsByServiceName` | GET | `/cloud/project/{serviceName}/io/stream` | serviceName: string |
+| `.cloud.listProjectIoStreamByServiceName` | GET | `/cloud/project/{serviceName}/io/stream` | serviceName: string |
 | `.cloud.createProjectIoStreamByServiceName` | POST | `/cloud/project/{serviceName}/io/stream` | serviceName: string |
 | `.cloud.deleteProjectIoStreamByServiceNameAndStreamId` | DELETE | `/cloud/project/{serviceName}/io/stream/{streamId}` | serviceName: string<br /> streamId: string |
 | `.cloud.getProjectIoStreamByServiceNameAndStreamId` | GET | `/cloud/project/{serviceName}/io/stream/{streamId}` | serviceName: string<br /> streamId: string |
 | `.cloud.updateProjectIoStreamByServiceNameAndStreamId` | PUT | `/cloud/project/{serviceName}/io/stream/{streamId}` | serviceName: string<br /> streamId: string |
 | `.cloud.getProjectIoStreamStatsByServiceNameAndStreamId` | GET | `/cloud/project/{serviceName}/io/stream/{streamId}/stats` | serviceName: string<br /> streamId: string |
-| `.cloud.listProjectIoStreamSubscriptionsByServiceNameAndStreamId` | GET | `/cloud/project/{serviceName}/io/stream/{streamId}/subscription` | serviceName: string<br /> streamId: string |
+| `.cloud.listProjectIoStreamSubscriptionByServiceNameAndStreamId` | GET | `/cloud/project/{serviceName}/io/stream/{streamId}/subscription` | serviceName: string<br /> streamId: string |
 | `.cloud.createProjectIoStreamSubscriptionByServiceNameAndStreamId` | POST | `/cloud/project/{serviceName}/io/stream/{streamId}/subscription` | serviceName: string<br /> streamId: string |
 | `.cloud.deleteProjectIoStreamSubscriptionByServiceNameAndStreamIdAndSubscriptionId` | DELETE | `/cloud/project/{serviceName}/io/stream/{streamId}/subscription/{subscriptionId}` | serviceName: string<br /> streamId: string<br /> subscriptionId: string |
 | `.cloud.getProjectIoStreamSubscriptionByServiceNameAndStreamIdAndSubscriptionId` | GET | `/cloud/project/{serviceName}/io/stream/{streamId}/subscription/{subscriptionId}` | serviceName: string<br /> streamId: string<br /> subscriptionId: string |
 | `.cloud.postProjectIoStreamSubscriptionResetCursorByServiceNameAndStreamIdAndSubscriptionId` | POST | `/cloud/project/{serviceName}/io/stream/{streamId}/subscription/{subscriptionId}/resetCursor` | serviceName: string<br /> streamId: string<br /> subscriptionId: string |
 | `.cloud.getProjectIoStreamSubscriptionStatsByServiceNameAndStreamIdAndSubscriptionId` | GET | `/cloud/project/{serviceName}/io/stream/{streamId}/subscription/{subscriptionId}/stats` | serviceName: string<br /> streamId: string<br /> subscriptionId: string |
-| `.cloud.listProjectIoStreamTokensByServiceNameAndStreamId` | GET | `/cloud/project/{serviceName}/io/stream/{streamId}/token` | serviceName: string<br /> streamId: string |
+| `.cloud.listProjectIoStreamTokenByServiceNameAndStreamId` | GET | `/cloud/project/{serviceName}/io/stream/{streamId}/token` | serviceName: string<br /> streamId: string |
 | `.cloud.createProjectIoStreamTokenByServiceNameAndStreamId` | POST | `/cloud/project/{serviceName}/io/stream/{streamId}/token` | serviceName: string<br /> streamId: string |
 | `.cloud.deleteProjectIoStreamTokenByServiceNameAndStreamIdAndTokenId` | DELETE | `/cloud/project/{serviceName}/io/stream/{streamId}/token/{tokenId}` | serviceName: string<br /> streamId: string<br /> tokenId: string |
 | `.cloud.getProjectIoStreamTokenByServiceNameAndStreamIdAndTokenId` | GET | `/cloud/project/{serviceName}/io/stream/{streamId}/token/{tokenId}` | serviceName: string<br /> streamId: string<br /> tokenId: string |
@@ -788,7 +788,7 @@
 | `.cloud.getProjectIpFailoverByServiceName` | GET | `/cloud/project/{serviceName}/ip/failover` | serviceName: string |
 | `.cloud.getProjectIpFailoverByServiceNameAndId` | GET | `/cloud/project/{serviceName}/ip/failover/{id}` | id: string<br /> serviceName: string |
 | `.cloud.postProjectIpFailoverAttachByServiceNameAndId` | POST | `/cloud/project/{serviceName}/ip/failover/{id}/attach` | id: string<br /> serviceName: string |
-| `.cloud.listProjectKubesByServiceName` | GET | `/cloud/project/{serviceName}/kube` | serviceName: string |
+| `.cloud.listProjectKubeByServiceName` | GET | `/cloud/project/{serviceName}/kube` | serviceName: string |
 | `.cloud.createProjectKubeByServiceName` | POST | `/cloud/project/{serviceName}/kube` | serviceName: string |
 | `.cloud.listProjectKubeRegionsByServiceName` | GET | `/cloud/project/{serviceName}/kube/regions` | serviceName: string |
 | `.cloud.deleteProjectKubeByServiceNameAndKubeId` | DELETE | `/cloud/project/{serviceName}/kube/{kubeId}` | kubeId: string<br /> serviceName: string |
@@ -804,12 +804,12 @@
 | `.cloud.deleteProjectKubeIpRestrictionsByServiceNameAndKubeIdAndIp` | DELETE | `/cloud/project/{serviceName}/kube/{kubeId}/ipRestrictions/{ip}` | ip: string<br /> kubeId: string<br /> serviceName: string |
 | `.cloud.postProjectKubeKubeconfigByServiceNameAndKubeId` | POST | `/cloud/project/{serviceName}/kube/{kubeId}/kubeconfig` | kubeId: string<br /> serviceName: string |
 | `.cloud.postProjectKubeKubeconfigResetByServiceNameAndKubeId` | POST | `/cloud/project/{serviceName}/kube/{kubeId}/kubeconfig/reset` | kubeId: string<br /> serviceName: string |
-| `.cloud.listProjectKubeMetricsEtcdUsagesByServiceNameAndKubeId` | GET | `/cloud/project/{serviceName}/kube/{kubeId}/metrics/etcdUsage` | kubeId: string<br /> serviceName: string |
-| `.cloud.listProjectKubeNodesByServiceNameAndKubeId` | GET | `/cloud/project/{serviceName}/kube/{kubeId}/node` | kubeId: string<br /> serviceName: string |
+| `.cloud.listProjectKubeMetricsEtcdUsageByServiceNameAndKubeId` | GET | `/cloud/project/{serviceName}/kube/{kubeId}/metrics/etcdUsage` | kubeId: string<br /> serviceName: string |
+| `.cloud.listProjectKubeNodeByServiceNameAndKubeId` | GET | `/cloud/project/{serviceName}/kube/{kubeId}/node` | kubeId: string<br /> serviceName: string |
 | `.cloud.postProjectKubeNodeByServiceNameAndKubeId` | POST | `/cloud/project/{serviceName}/kube/{kubeId}/node` | kubeId: string<br /> serviceName: string |
 | `.cloud.deleteProjectKubeNodeByServiceNameAndKubeIdAndNodeId` | DELETE | `/cloud/project/{serviceName}/kube/{kubeId}/node/{nodeId}` | kubeId: string<br /> nodeId: string<br /> serviceName: string |
 | `.cloud.getProjectKubeNodeByServiceNameAndKubeIdAndNodeId` | GET | `/cloud/project/{serviceName}/kube/{kubeId}/node/{nodeId}` | kubeId: string<br /> nodeId: string<br /> serviceName: string |
-| `.cloud.listProjectKubeNodepoolsByServiceNameAndKubeId` | GET | `/cloud/project/{serviceName}/kube/{kubeId}/nodepool` | kubeId: string<br /> serviceName: string |
+| `.cloud.listProjectKubeNodepoolByServiceNameAndKubeId` | GET | `/cloud/project/{serviceName}/kube/{kubeId}/nodepool` | kubeId: string<br /> serviceName: string |
 | `.cloud.createProjectKubeNodepoolByServiceNameAndKubeId` | POST | `/cloud/project/{serviceName}/kube/{kubeId}/nodepool` | kubeId: string<br /> serviceName: string |
 | `.cloud.deleteProjectKubeNodepoolByServiceNameAndKubeIdAndNodePoolId` | DELETE | `/cloud/project/{serviceName}/kube/{kubeId}/nodepool/{nodePoolId}` | kubeId: string<br /> nodePoolId: string<br /> serviceName: string |
 | `.cloud.getProjectKubeNodepoolByServiceNameAndKubeIdAndNodePoolId` | GET | `/cloud/project/{serviceName}/kube/{kubeId}/nodepool/{nodePoolId}` | kubeId: string<br /> nodePoolId: string<br /> serviceName: string |
@@ -825,16 +825,16 @@
 | `.cloud.postProjectKubeRestartByServiceNameAndKubeId` | POST | `/cloud/project/{serviceName}/kube/{kubeId}/restart` | kubeId: string<br /> serviceName: string |
 | `.cloud.postProjectKubeUpdateByServiceNameAndKubeId` | POST | `/cloud/project/{serviceName}/kube/{kubeId}/update` | kubeId: string<br /> serviceName: string |
 | `.cloud.updateProjectKubeUpdatePolicyByServiceNameAndKubeId` | PUT | `/cloud/project/{serviceName}/kube/{kubeId}/updatePolicy` | kubeId: string<br /> serviceName: string |
-| `.cloud.listProjectLabsByServiceName` | GET | `/cloud/project/{serviceName}/lab` | serviceName: string |
+| `.cloud.listProjectLabByServiceName` | GET | `/cloud/project/{serviceName}/lab` | serviceName: string |
 | `.cloud.getProjectLabByServiceNameAndLabId` | GET | `/cloud/project/{serviceName}/lab/{labId}` | labId: string<br /> serviceName: string |
 | `.cloud.postProjectLabByServiceNameAndLabId` | POST | `/cloud/project/{serviceName}/lab/{labId}` | labId: string<br /> serviceName: string |
-| `.cloud.listProjectLabAgreementsByServiceNameAndLabId` | GET | `/cloud/project/{serviceName}/lab/{labId}/agreement` | labId: string<br /> serviceName: string |
-| `.cloud.listProjectLoadbalancersByServiceName` | GET | `/cloud/project/{serviceName}/loadbalancer` | serviceName: string |
+| `.cloud.listProjectLabAgreementByServiceNameAndLabId` | GET | `/cloud/project/{serviceName}/lab/{labId}/agreement` | labId: string<br /> serviceName: string |
+| `.cloud.listProjectLoadbalancerByServiceName` | GET | `/cloud/project/{serviceName}/loadbalancer` | serviceName: string |
 | `.cloud.createProjectLoadbalancerByServiceName` | POST | `/cloud/project/{serviceName}/loadbalancer` | serviceName: string |
 | `.cloud.deleteProjectLoadbalancerByServiceNameAndLoadBalancerId` | DELETE | `/cloud/project/{serviceName}/loadbalancer/{loadBalancerId}` | loadBalancerId: string<br /> serviceName: string |
 | `.cloud.getProjectLoadbalancerByServiceNameAndLoadBalancerId` | GET | `/cloud/project/{serviceName}/loadbalancer/{loadBalancerId}` | loadBalancerId: string<br /> serviceName: string |
 | `.cloud.updateProjectLoadbalancerByServiceNameAndLoadBalancerId` | PUT | `/cloud/project/{serviceName}/loadbalancer/{loadBalancerId}` | loadBalancerId: string<br /> serviceName: string |
-| `.cloud.listProjectLoadbalancerConfigurationsByServiceNameAndLoadBalancerId` | GET | `/cloud/project/{serviceName}/loadbalancer/{loadBalancerId}/configuration` | loadBalancerId: string<br /> serviceName: string |
+| `.cloud.listProjectLoadbalancerConfigurationByServiceNameAndLoadBalancerId` | GET | `/cloud/project/{serviceName}/loadbalancer/{loadBalancerId}/configuration` | loadBalancerId: string<br /> serviceName: string |
 | `.cloud.createProjectLoadbalancerConfigurationByServiceNameAndLoadBalancerId` | POST | `/cloud/project/{serviceName}/loadbalancer/{loadBalancerId}/configuration` | loadBalancerId: string<br /> serviceName: string |
 | `.cloud.deleteProjectLoadbalancerConfigurationByServiceNameAndLoadBalancerIdAndVersion` | DELETE | `/cloud/project/{serviceName}/loadbalancer/{loadBalancerId}/configuration/{version}` | loadBalancerId: string<br /> serviceName: string<br /> version: number |
 | `.cloud.getProjectLoadbalancerConfigurationByServiceNameAndLoadBalancerIdAndVersion` | GET | `/cloud/project/{serviceName}/loadbalancer/{loadBalancerId}/configuration/{version}` | loadBalancerId: string<br /> serviceName: string<br /> version: number |
@@ -852,10 +852,10 @@
 | `.cloud.createProjectNetworkPrivateSubnetByServiceNameAndNetworkId` | POST | `/cloud/project/{serviceName}/network/private/{networkId}/subnet` | networkId: string<br /> serviceName: string |
 | `.cloud.deleteProjectNetworkPrivateSubnetByServiceNameAndNetworkIdAndSubnetId` | DELETE | `/cloud/project/{serviceName}/network/private/{networkId}/subnet/{subnetId}` | networkId: string<br /> serviceName: string<br /> subnetId: string |
 | `.cloud.getProjectNetworkPublicByServiceName` | GET | `/cloud/project/{serviceName}/network/public` | serviceName: string |
-| `.cloud.listProjectOperationsByServiceName` | GET | `/cloud/project/{serviceName}/operation` | serviceName: string |
+| `.cloud.listProjectOperationByServiceName` | GET | `/cloud/project/{serviceName}/operation` | serviceName: string |
 | `.cloud.getProjectOperationByServiceNameAndOperationId` | GET | `/cloud/project/{serviceName}/operation/{operationId}` | operationId: string<br /> serviceName: string |
-| `.cloud.listProjectQuotasByServiceName` | GET | `/cloud/project/{serviceName}/quota` | serviceName: string |
-| `.cloud.listProjectRegionsByServiceName` | GET | `/cloud/project/{serviceName}/region` | serviceName: string |
+| `.cloud.listProjectQuotaByServiceName` | GET | `/cloud/project/{serviceName}/quota` | serviceName: string |
+| `.cloud.listProjectRegionByServiceName` | GET | `/cloud/project/{serviceName}/region` | serviceName: string |
 | `.cloud.postProjectRegionByServiceName` | POST | `/cloud/project/{serviceName}/region` | serviceName: string |
 | `.cloud.getProjectRegionByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}` | regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionColdArchiveByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/coldArchive` | regionName: string<br /> serviceName: string |
@@ -872,28 +872,28 @@
 | `.cloud.deleteProjectRegionFloatingipByServiceNameAndRegionNameAndFloatingIpId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/floatingip/{floatingIpId}` | floatingIpId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionFloatingipByServiceNameAndRegionNameAndFloatingIpId` | GET | `/cloud/project/{serviceName}/region/{regionName}/floatingip/{floatingIpId}` | floatingIpId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.postProjectRegionFloatingipDetachByServiceNameAndRegionNameAndFloatingIpId` | POST | `/cloud/project/{serviceName}/region/{regionName}/floatingip/{floatingIpId}/detach` | floatingIpId: string<br /> regionName: string<br /> serviceName: string |
-| `.cloud.listProjectRegionGatewaysByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/gateway` | regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionGatewayByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/gateway` | regionName: string<br /> serviceName: string |
 | `.cloud.createProjectRegionGatewayByServiceNameAndRegionName` | POST | `/cloud/project/{serviceName}/region/{regionName}/gateway` | regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionGatewayByServiceNameAndRegionNameAndId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/gateway/{id}` | id: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionGatewayByServiceNameAndRegionNameAndId` | GET | `/cloud/project/{serviceName}/region/{regionName}/gateway/{id}` | id: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.updateProjectRegionGatewayByServiceNameAndRegionNameAndId` | PUT | `/cloud/project/{serviceName}/region/{regionName}/gateway/{id}` | id: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.postProjectRegionGatewayExposeByServiceNameAndRegionNameAndId` | POST | `/cloud/project/{serviceName}/region/{regionName}/gateway/{id}/expose` | id: string<br /> regionName: string<br /> serviceName: string |
-| `.cloud.listProjectRegionGatewayInterfacesByServiceNameAndRegionNameAndId` | GET | `/cloud/project/{serviceName}/region/{regionName}/gateway/{id}/interface` | id: string<br /> regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionGatewayInterfaceByServiceNameAndRegionNameAndId` | GET | `/cloud/project/{serviceName}/region/{regionName}/gateway/{id}/interface` | id: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.createProjectRegionGatewayInterfaceByServiceNameAndRegionNameAndId` | POST | `/cloud/project/{serviceName}/region/{regionName}/gateway/{id}/interface` | id: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionGatewayInterfaceByServiceNameAndRegionNameAndIdAndInterfaceId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/gateway/{id}/interface/{interfaceId}` | id: string<br /> interfaceId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionGatewayInterfaceByServiceNameAndRegionNameAndIdAndInterfaceId` | GET | `/cloud/project/{serviceName}/region/{regionName}/gateway/{id}/interface/{interfaceId}` | id: string<br /> interfaceId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.postProjectRegionInstanceAssociateFloatingIpByServiceNameAndRegionNameAndInstanceId` | POST | `/cloud/project/{serviceName}/region/{regionName}/instance/{instanceId}/associateFloatingIp` | instanceId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.createProjectRegionInstanceFloatingIpByServiceNameAndRegionNameAndInstanceId` | POST | `/cloud/project/{serviceName}/region/{regionName}/instance/{instanceId}/floatingIp` | instanceId: string<br /> regionName: string<br /> serviceName: string |
-| `.cloud.listProjectRegionKeymanagerCertificatesByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/keymanager/certificate` | regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionKeymanagerCertificateByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/keymanager/certificate` | regionName: string<br /> serviceName: string |
 | `.cloud.createProjectRegionKeymanagerCertificateByServiceNameAndRegionName` | POST | `/cloud/project/{serviceName}/region/{regionName}/keymanager/certificate` | regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionKeymanagerCertificateByServiceNameAndRegionNameAndCertificateId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/keymanager/certificate/{certificateId}` | certificateId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionKeymanagerCertificateByServiceNameAndRegionNameAndCertificateId` | GET | `/cloud/project/{serviceName}/region/{regionName}/keymanager/certificate/{certificateId}` | certificateId: string<br /> regionName: string<br /> serviceName: string |
-| `.cloud.listProjectRegionKeymanagerSecretsByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/keymanager/secret` | regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionKeymanagerSecretByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/keymanager/secret` | regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionKeymanagerSecretByServiceNameAndRegionNameAndSecretId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/keymanager/secret/{secretId}` | regionName: string<br /> secretId: string<br /> serviceName: string |
 | `.cloud.getProjectRegionKeymanagerSecretByServiceNameAndRegionNameAndSecretId` | GET | `/cloud/project/{serviceName}/region/{regionName}/keymanager/secret/{secretId}` | regionName: string<br /> secretId: string<br /> serviceName: string |
-| `.cloud.listProjectRegionLoadbalancingFlavorsByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/flavor` | regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionLoadbalancingFlavorByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/flavor` | regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionLoadbalancingFlavorByServiceNameAndRegionNameAndFlavorId` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/flavor/{flavorId}` | flavorId: string<br /> regionName: string<br /> serviceName: string |
-| `.cloud.listProjectRegionLoadbalancingHealthMonitorsByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/healthMonitor` | regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionLoadbalancingHealthMonitorByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/healthMonitor` | regionName: string<br /> serviceName: string |
 | `.cloud.createProjectRegionLoadbalancingHealthMonitorByServiceNameAndRegionName` | POST | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/healthMonitor` | regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionLoadbalancingHealthMonitorByServiceNameAndRegionNameAndHealthMonitorId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/healthMonitor/{healthMonitorId}` | healthMonitorId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionLoadbalancingHealthMonitorByServiceNameAndRegionNameAndHealthMonitorId` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/healthMonitor/{healthMonitorId}` | healthMonitorId: string<br /> regionName: string<br /> serviceName: string |
@@ -908,35 +908,35 @@
 | `.cloud.deleteProjectRegionLoadbalancingL7PolicyL7RuleByServiceNameAndRegionNameAndL7PolicyIdAndL7RuleId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/l7Policy/{l7PolicyId}/l7Rule/{l7RuleId}` | l7PolicyId: string<br /> l7RuleId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionLoadbalancingL7PolicyL7RuleByServiceNameAndRegionNameAndL7PolicyIdAndL7RuleId` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/l7Policy/{l7PolicyId}/l7Rule/{l7RuleId}` | l7PolicyId: string<br /> l7RuleId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.putProjectRegionLoadbalancingL7PolicyL7RuleByServiceNameAndRegionNameAndL7PolicyIdAndL7RuleId` | PUT | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/l7Policy/{l7PolicyId}/l7Rule/{l7RuleId}` | l7PolicyId: string<br /> l7RuleId: string<br /> regionName: string<br /> serviceName: string |
-| `.cloud.listProjectRegionLoadbalancingenersByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/listener` | regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionLoadbalancingenerByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/listener` | regionName: string<br /> serviceName: string |
 | `.cloud.createProjectRegionLoadbalancingListenerByServiceNameAndRegionName` | POST | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/listener` | regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionLoadbalancingListenerByServiceNameAndRegionNameAndListenerId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/listener/{listenerId}` | listenerId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionLoadbalancingListenerByServiceNameAndRegionNameAndListenerId` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/listener/{listenerId}` | listenerId: string<br /> regionName: string<br /> serviceName: string |
-| `.cloud.listProjectRegionLoadbalancingLoadbalancersByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/loadbalancer` | regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionLoadbalancingLoadbalancerByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/loadbalancer` | regionName: string<br /> serviceName: string |
 | `.cloud.createProjectRegionLoadbalancingLoadbalancerByServiceNameAndRegionName` | POST | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/loadbalancer` | regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionLoadbalancingLoadbalancerByServiceNameAndRegionNameAndLoadBalancerId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/loadbalancer/{loadBalancerId}` | loadBalancerId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionLoadbalancingLoadbalancerByServiceNameAndRegionNameAndLoadBalancerId` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/loadbalancer/{loadBalancerId}` | loadBalancerId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.postProjectRegionLoadbalancingLoadbalancerAssociateFloatingIpByServiceNameAndRegionNameAndLoadBalancerId` | POST | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/loadbalancer/{loadBalancerId}/associateFloatingIp` | loadBalancerId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.createProjectRegionLoadbalancingLoadbalancerFloatingIpByServiceNameAndRegionNameAndLoadBalancerId` | POST | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/loadbalancer/{loadBalancerId}/floatingIp` | loadBalancerId: string<br /> regionName: string<br /> serviceName: string |
-| `.cloud.listProjectRegionLoadbalancingPoolsByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/pool` | regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionLoadbalancingPoolByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/pool` | regionName: string<br /> serviceName: string |
 | `.cloud.createProjectRegionLoadbalancingPoolByServiceNameAndRegionName` | POST | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/pool` | regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionLoadbalancingPoolByServiceNameAndRegionNameAndPoolId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/pool/{poolId}` | poolId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionLoadbalancingPoolByServiceNameAndRegionNameAndPoolId` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/pool/{poolId}` | poolId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.updateProjectRegionLoadbalancingPoolByServiceNameAndRegionNameAndPoolId` | PUT | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/pool/{poolId}` | poolId: string<br /> regionName: string<br /> serviceName: string |
-| `.cloud.listProjectRegionLoadbalancingPoolMembersByServiceNameAndRegionNameAndPoolId` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/pool/{poolId}/member` | poolId: string<br /> regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionLoadbalancingPoolMemberByServiceNameAndRegionNameAndPoolId` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/pool/{poolId}/member` | poolId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.createProjectRegionLoadbalancingPoolMemberByServiceNameAndRegionNameAndPoolId` | POST | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/pool/{poolId}/member` | poolId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionLoadbalancingPoolMemberByServiceNameAndRegionNameAndPoolIdAndMemberId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/pool/{poolId}/member/{memberId}` | memberId: string<br /> poolId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionLoadbalancingPoolMemberByServiceNameAndRegionNameAndPoolIdAndMemberId` | GET | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/pool/{poolId}/member/{memberId}` | memberId: string<br /> poolId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.updateProjectRegionLoadbalancingPoolMemberByServiceNameAndRegionNameAndPoolIdAndMemberId` | PUT | `/cloud/project/{serviceName}/region/{regionName}/loadbalancing/pool/{poolId}/member/{memberId}` | memberId: string<br /> poolId: string<br /> regionName: string<br /> serviceName: string |
-| `.cloud.listProjectRegionNetworksByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/network` | regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionNetworkByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/network` | regionName: string<br /> serviceName: string |
 | `.cloud.createProjectRegionNetworkByServiceNameAndRegionName` | POST | `/cloud/project/{serviceName}/region/{regionName}/network` | regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionNetworkByServiceNameAndRegionNameAndNetworkId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/network/{networkId}` | networkId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionNetworkByServiceNameAndRegionNameAndNetworkId` | GET | `/cloud/project/{serviceName}/region/{regionName}/network/{networkId}` | networkId: string<br /> regionName: string<br /> serviceName: string |
-| `.cloud.listProjectRegionNetworkSubnetsByServiceNameAndRegionNameAndNetworkId` | GET | `/cloud/project/{serviceName}/region/{regionName}/network/{networkId}/subnet` | networkId: string<br /> regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionNetworkSubnetByServiceNameAndRegionNameAndNetworkId` | GET | `/cloud/project/{serviceName}/region/{regionName}/network/{networkId}/subnet` | networkId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionNetworkSubnetByServiceNameAndRegionNameAndNetworkIdAndSubnetId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/network/{networkId}/subnet/{subnetId}` | networkId: string<br /> regionName: string<br /> serviceName: string<br /> subnetId: string |
 | `.cloud.getProjectRegionNetworkSubnetByServiceNameAndRegionNameAndNetworkIdAndSubnetId` | GET | `/cloud/project/{serviceName}/region/{regionName}/network/{networkId}/subnet/{subnetId}` | networkId: string<br /> regionName: string<br /> serviceName: string<br /> subnetId: string |
 | `.cloud.createProjectRegionNetworkSubnetGatewayByServiceNameAndRegionNameAndNetworkIdAndSubnetId` | POST | `/cloud/project/{serviceName}/region/{regionName}/network/{networkId}/subnet/{subnetId}/gateway` | networkId: string<br /> regionName: string<br /> serviceName: string<br /> subnetId: string |
-| `.cloud.listProjectRegionQuotasByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/quota` | regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionQuotaByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/quota` | regionName: string<br /> serviceName: string |
 | `.cloud.updateProjectRegionQuotaByServiceNameAndRegionName` | POST | `/cloud/project/{serviceName}/region/{regionName}/quota` | regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionQuotaAllowedByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/quota/allowed` | regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionQuotaStorageByServiceNameAndRegionName` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/quota/storage` | regionName: string<br /> serviceName: string |
@@ -949,17 +949,17 @@
 | `.cloud.deleteProjectRegionStorageObjectByServiceNameAndRegionNameAndNameAndObjectKey` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/storage/{name}/object/{objectKey}` | name: string<br /> objectKey: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.addProjectRegionStoragePolicyByServiceNameAndRegionNameAndNameAndUserId` | POST | `/cloud/project/{serviceName}/region/{regionName}/storage/{name}/policy/{userId}` | name: string<br /> regionName: string<br /> serviceName: string<br /> userId: string |
 | `.cloud.postProjectRegionStoragePresignByServiceNameAndRegionNameAndName` | POST | `/cloud/project/{serviceName}/region/{regionName}/storage/{name}/presign` | name: string<br /> regionName: string<br /> serviceName: string |
-| `.cloud.listProjectRegionVolumeBackupsByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/volumeBackup` | regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionVolumeBackupByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/volumeBackup` | regionName: string<br /> serviceName: string |
 | `.cloud.createProjectRegionVolumeBackupByServiceNameAndRegionName` | POST | `/cloud/project/{serviceName}/region/{regionName}/volumeBackup` | regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionVolumeBackupByServiceNameAndRegionNameAndVolumeBackupId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/volumeBackup/{volumeBackupId}` | regionName: string<br /> serviceName: string<br /> volumeBackupId: string |
 | `.cloud.getProjectRegionVolumeBackupByServiceNameAndRegionNameAndVolumeBackupId` | GET | `/cloud/project/{serviceName}/region/{regionName}/volumeBackup/{volumeBackupId}` | regionName: string<br /> serviceName: string<br /> volumeBackupId: string |
 | `.cloud.postProjectRegionVolumeBackupRestoreByServiceNameAndRegionNameAndVolumeBackupId` | POST | `/cloud/project/{serviceName}/region/{regionName}/volumeBackup/{volumeBackupId}/restore` | regionName: string<br /> serviceName: string<br /> volumeBackupId: string |
 | `.cloud.createProjectRegionVolumeBackupVolumeByServiceNameAndRegionNameAndVolumeBackupId` | POST | `/cloud/project/{serviceName}/region/{regionName}/volumeBackup/{volumeBackupId}/volume` | regionName: string<br /> serviceName: string<br /> volumeBackupId: string |
-| `.cloud.listProjectRegionWorkflowBackupsByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/workflow/backup` | regionName: string<br /> serviceName: string |
+| `.cloud.listProjectRegionWorkflowBackupByServiceNameAndRegionName` | GET | `/cloud/project/{serviceName}/region/{regionName}/workflow/backup` | regionName: string<br /> serviceName: string |
 | `.cloud.createProjectRegionWorkflowBackupByServiceNameAndRegionName` | POST | `/cloud/project/{serviceName}/region/{regionName}/workflow/backup` | regionName: string<br /> serviceName: string |
 | `.cloud.deleteProjectRegionWorkflowBackupByServiceNameAndRegionNameAndBackupWorkflowId` | DELETE | `/cloud/project/{serviceName}/region/{regionName}/workflow/backup/{backupWorkflowId}` | backupWorkflowId: string<br /> regionName: string<br /> serviceName: string |
 | `.cloud.getProjectRegionWorkflowBackupByServiceNameAndRegionNameAndBackupWorkflowId` | GET | `/cloud/project/{serviceName}/region/{regionName}/workflow/backup/{backupWorkflowId}` | backupWorkflowId: string<br /> regionName: string<br /> serviceName: string |
-| `.cloud.listProjectRegionAvailablesByServiceName` | GET | `/cloud/project/{serviceName}/regionAvailable` | serviceName: string |
+| `.cloud.listProjectRegionAvailableByServiceName` | GET | `/cloud/project/{serviceName}/regionAvailable` | serviceName: string |
 | `.cloud.postProjectRetainByServiceName` | POST | `/cloud/project/{serviceName}/retain` | serviceName: string |
 | `.cloud.getProjectRoleByServiceName` | GET | `/cloud/project/{serviceName}/role` | serviceName: string |
 | `.cloud.getProjectServiceInfosByServiceName` | GET | `/cloud/project/{serviceName}/serviceInfos` | serviceName: string |
@@ -977,7 +977,7 @@
 | `.cloud.createProjectStorageByServiceName` | POST | `/cloud/project/{serviceName}/storage` | serviceName: string |
 | `.cloud.getProjectStorageAccessByServiceName` | GET | `/cloud/project/{serviceName}/storage/access` | serviceName: string |
 | `.cloud.postProjectStorageAccessByServiceName` | POST | `/cloud/project/{serviceName}/storage/access` | serviceName: string |
-| `.cloud.listProjectStorageQuotasByServiceName` | GET | `/cloud/project/{serviceName}/storage/quota` | serviceName: string |
+| `.cloud.listProjectStorageQuotaByServiceName` | GET | `/cloud/project/{serviceName}/storage/quota` | serviceName: string |
 | `.cloud.deleteProjectStorageByServiceNameAndContainerId` | DELETE | `/cloud/project/{serviceName}/storage/{containerId}` | containerId: string<br /> serviceName: string |
 | `.cloud.getProjectStorageByServiceNameAndContainerId` | GET | `/cloud/project/{serviceName}/storage/{containerId}` | containerId: string<br /> serviceName: string |
 | `.cloud.updateProjectStorageByServiceNameAndContainerId` | PUT | `/cloud/project/{serviceName}/storage/{containerId}` | containerId: string<br /> serviceName: string |
@@ -1031,7 +1031,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.clusterhadoop.listHadoops` | GET | `/cluster/hadoop` |  |
+| `.clusterhadoop.listHadoop` | GET | `/cluster/hadoop` |  |
 | `.clusterhadoop.getHadoopOrderInformations` | GET | `/cluster/hadoop/orderInformations` |  |
 | `.clusterhadoop.getHadoopOrderableNodeProfiles` | GET | `/cluster/hadoop/orderableNodeProfiles` |  |
 | `.clusterhadoop.getHadoopByServiceName` | GET | `/cluster/hadoop/{serviceName}` | serviceName: string |
@@ -1095,9 +1095,9 @@
 | `.connectivity.postEligibilityTestLinePartners` | POST | `/connectivity/eligibility/test/line/partners` | body: {<br />  lineNumber: string<br />&nbsp;&nbsp; status: [ConnectivityEligibilityLineStatusEnum](lib/src/models/ConnectivityEligibilityLineStatusEnum.ts)<br />&nbsp;&nbsp; streetCode?: string<br />&nbsp;&nbsp; streetNumber?: string <br />} |
 | `.connectivity.postEligibilityTestOtp` | POST | `/connectivity/eligibility/test/otp` | body: {<br />  otp: string <br />} |
 | `.connectivity.listMaintenanceWorkPlannedPartners` | GET | `/connectivity/maintenance/workPlanned/partners` |  |
-| `.connectivity.listMaintenanceWorkPlannedPublics` | GET | `/connectivity/maintenance/workPlanned/public` |  |
+| `.connectivity.listMaintenanceWorkPlannedPublic` | GET | `/connectivity/maintenance/workPlanned/public` |  |
 | `.connectivity.listMonitoringGenericIncidentPartners` | GET | `/connectivity/monitoring/genericIncident/partners` |  |
-| `.connectivity.listMonitoringGenericIncidentPublics` | GET | `/connectivity/monitoring/genericIncident/public` |  |
+| `.connectivity.listMonitoringGenericIncidentPublic` | GET | `/connectivity/monitoring/genericIncident/public` |  |
 
 ## [ContactHandler](lib/src/handlers/Contact.ts)
 
@@ -1117,7 +1117,7 @@
 | `.dbaaslogs.getLogsClusterByServiceName` | GET | `/dbaas/logs/{serviceName}/cluster` | serviceName: string |
 | `.dbaaslogs.getLogsClusterByServiceNameAndClusterId` | GET | `/dbaas/logs/{serviceName}/cluster/{clusterId}` | clusterId: string<br /> serviceName: string |
 | `.dbaaslogs.updateLogsClusterByServiceNameAndClusterId` | PUT | `/dbaas/logs/{serviceName}/cluster/{clusterId}` | clusterId: string<br /> serviceName: string |
-| `.dbaaslogs.listLogsClusterRetentionsByServiceNameAndClusterId` | GET | `/dbaas/logs/{serviceName}/cluster/{clusterId}/retention` | clusterId: string<br /> serviceName: string |
+| `.dbaaslogs.listLogsClusterRetentionByServiceNameAndClusterId` | GET | `/dbaas/logs/{serviceName}/cluster/{clusterId}/retention` | clusterId: string<br /> serviceName: string |
 | `.dbaaslogs.getLogsClusterRetentionByServiceNameAndClusterIdAndRetentionId` | GET | `/dbaas/logs/{serviceName}/cluster/{clusterId}/retention/{retentionId}` | clusterId: string<br /> retentionId: string<br /> serviceName: string |
 | `.dbaaslogs.getLogsEncryptionKeyByServiceName` | GET | `/dbaas/logs/{serviceName}/encryptionKey` | serviceName: string |
 | `.dbaaslogs.addLogsEncryptionKeyByServiceName` | POST | `/dbaas/logs/{serviceName}/encryptionKey` | serviceName: string |
@@ -1253,10 +1253,10 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.dedicatedcloud.lists` | GET | `/dedicatedCloud` |  |
-| `.dedicatedcloud.listCommercialRanges` | GET | `/dedicatedCloud/commercialRange` |  |
+| `.dedicatedcloud.list` | GET | `/dedicatedCloud` |  |
+| `.dedicatedcloud.listCommercialRange` | GET | `/dedicatedCloud/commercialRange` |  |
 | `.dedicatedcloud.getCommercialRangeByCommercialRangeName` | GET | `/dedicatedCloud/commercialRange/{commercialRangeName}` | commercialRangeName: string |
-| `.dedicatedcloud.listLocations` | GET | `/dedicatedCloud/location` |  |
+| `.dedicatedcloud.listLocation` | GET | `/dedicatedCloud/location` |  |
 | `.dedicatedcloud.getLocationByPccZone` | GET | `/dedicatedCloud/location/{pccZone}` | pccZone: string |
 | `.dedicatedcloud.getLocationHostProfileByPccZone` | GET | `/dedicatedCloud/location/{pccZone}/hostProfile` | pccZone: string |
 | `.dedicatedcloud.getLocationHostProfileByPccZoneAndId` | GET | `/dedicatedCloud/location/{pccZone}/hostProfile/{id}` | id: number<br /> pccZone: string |
@@ -1512,11 +1512,11 @@
 | `.dedicatedanthos.postAnthosTenantsIpRestrictionsByServiceName` | POST | `/dedicated/anthos/tenants/{serviceName}/ipRestrictions` | serviceName: string |
 | `.dedicatedanthos.putAnthosTenantsIpRestrictionsByServiceName` | PUT | `/dedicated/anthos/tenants/{serviceName}/ipRestrictions` | serviceName: string |
 | `.dedicatedanthos.deleteAnthosTenantsIpRestrictionsByServiceNameAndIp` | DELETE | `/dedicated/anthos/tenants/{serviceName}/ipRestrictions/{ip}` | ip: string<br /> serviceName: string |
-| `.dedicatedanthos.listAnthosTenantsIpsPrivatesByServiceName` | GET | `/dedicated/anthos/tenants/{serviceName}/ips/private` | serviceName: string |
+| `.dedicatedanthos.listAnthosTenantsIpsPrivateByServiceName` | GET | `/dedicated/anthos/tenants/{serviceName}/ips/private` | serviceName: string |
 | `.dedicatedanthos.createAnthosTenantsIpsPrivateByServiceName` | POST | `/dedicated/anthos/tenants/{serviceName}/ips/private` | serviceName: string |
 | `.dedicatedanthos.deleteAnthosTenantsIpsPrivateByServiceNameAndRangeId` | DELETE | `/dedicated/anthos/tenants/{serviceName}/ips/private/{rangeId}` | rangeId: string<br /> serviceName: string |
 | `.dedicatedanthos.getAnthosTenantsIpsPrivateByServiceNameAndRangeId` | GET | `/dedicated/anthos/tenants/{serviceName}/ips/private/{rangeId}` | rangeId: string<br /> serviceName: string |
-| `.dedicatedanthos.listAnthosTenantsIpsPublicsByServiceName` | GET | `/dedicated/anthos/tenants/{serviceName}/ips/public` | serviceName: string |
+| `.dedicatedanthos.listAnthosTenantsIpsPublicByServiceName` | GET | `/dedicated/anthos/tenants/{serviceName}/ips/public` | serviceName: string |
 | `.dedicatedanthos.getAnthosTenantsIpsPublicByServiceNameAndRangeId` | GET | `/dedicated/anthos/tenants/{serviceName}/ips/public/{rangeId}` | rangeId: string<br /> serviceName: string |
 | `.dedicatedanthos.getAnthosTenantsServiceInfosByServiceName` | GET | `/dedicated/anthos/tenants/{serviceName}/serviceInfos` | serviceName: string |
 | `.dedicatedanthos.updateAnthosTenantsServiceInfosByServiceName` | PUT | `/dedicated/anthos/tenants/{serviceName}/serviceInfos` | serviceName: string |
@@ -1531,7 +1531,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.dedicatedceph.listCephs` | GET | `/dedicated/ceph` |  |
+| `.dedicatedceph.listCeph` | GET | `/dedicated/ceph` |  |
 | `.dedicatedceph.getCephByServiceName` | GET | `/dedicated/ceph/{serviceName}` | serviceName: string |
 | `.dedicatedceph.updateCephByServiceName` | PUT | `/dedicated/ceph/{serviceName}` | serviceName: string<br />body: {<br />  crushTunables: [DedicatedCephClusterUpdateCrushTunablesEnum](lib/src/models/DedicatedCephClusterUpdateCrushTunablesEnum.ts)<br />&nbsp;&nbsp; label: string <br />} |
 | `.dedicatedceph.getCephAclByServiceName` | GET | `/dedicated/ceph/{serviceName}/acl` | serviceName: string |
@@ -1552,14 +1552,14 @@
 | `.dedicatedceph.getCephPoolByServiceNameAndPoolName` | GET | `/dedicated/ceph/{serviceName}/pool/{poolName}` | poolName: string<br /> serviceName: string |
 | `.dedicatedceph.getCephServiceInfosByServiceName` | GET | `/dedicated/ceph/{serviceName}/serviceInfos` | serviceName: string |
 | `.dedicatedceph.updateCephServiceInfosByServiceName` | PUT | `/dedicated/ceph/{serviceName}/serviceInfos` | serviceName: string |
-| `.dedicatedceph.listCephTasksByServiceName` | GET | `/dedicated/ceph/{serviceName}/task` | serviceName: string |
+| `.dedicatedceph.listCephTaskByServiceName` | GET | `/dedicated/ceph/{serviceName}/task` | serviceName: string |
 | `.dedicatedceph.getCephTaskByServiceNameAndTaskId` | GET | `/dedicated/ceph/{serviceName}/task/{taskId}` | serviceName: string<br /> taskId: string |
 | `.dedicatedceph.postCephTerminateByServiceName` | POST | `/dedicated/ceph/{serviceName}/terminate` | serviceName: string |
 | `.dedicatedceph.getCephUserByServiceName` | GET | `/dedicated/ceph/{serviceName}/user` | serviceName: string |
 | `.dedicatedceph.createCephUserByServiceName` | POST | `/dedicated/ceph/{serviceName}/user` | serviceName: string<br />body: {<br />  userName: string <br />} |
 | `.dedicatedceph.deleteCephUserByServiceNameAndUserName` | DELETE | `/dedicated/ceph/{serviceName}/user/{userName}` | serviceName: string<br /> userName: string |
 | `.dedicatedceph.getCephUserByServiceNameAndUserName` | GET | `/dedicated/ceph/{serviceName}/user/{userName}` | serviceName: string<br /> userName: string |
-| `.dedicatedceph.listCephUserPoolsByServiceNameAndUserName` | GET | `/dedicated/ceph/{serviceName}/user/{userName}/pool` | serviceName: string<br /> userName: string |
+| `.dedicatedceph.listCephUserPoolByServiceNameAndUserName` | GET | `/dedicated/ceph/{serviceName}/user/{userName}/pool` | serviceName: string<br /> userName: string |
 | `.dedicatedceph.createCephUserPoolByServiceNameAndUserName` | POST | `/dedicated/ceph/{serviceName}/user/{userName}/pool` | serviceName: string<br /> userName: string<br />body: {<br />  permissions?: DedicatedCephUserPoolPermSetAllPermissions[] <br />} |
 | `.dedicatedceph.updateCephUserPoolByServiceNameAndUserName` | PUT | `/dedicated/ceph/{serviceName}/user/{userName}/pool` | serviceName: string<br /> userName: string<br />body: {<br />  classRead: boolean<br />&nbsp;&nbsp; classWrite: boolean<br />&nbsp;&nbsp; execute: boolean<br />&nbsp;&nbsp; poolName: string<br />&nbsp;&nbsp; read: boolean<br />&nbsp;&nbsp; write: boolean <br />} |
 | `.dedicatedceph.deleteCephUserPoolByServiceNameAndUserNameAndPoolName` | DELETE | `/dedicated/ceph/{serviceName}/user/{userName}/pool/{poolName}` | poolName: string<br /> serviceName: string<br /> userName: string |
@@ -1568,7 +1568,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.dedicatedhousing.listHousings` | GET | `/dedicated/housing` |  |
+| `.dedicatedhousing.listHousing` | GET | `/dedicated/housing` |  |
 | `.dedicatedhousing.getHousingByServiceName` | GET | `/dedicated/housing/{serviceName}` | serviceName: string |
 | `.dedicatedhousing.deleteHousingFeaturesBackupFTPByServiceName` | DELETE | `/dedicated/housing/{serviceName}/features/backupFTP` | serviceName: string |
 | `.dedicatedhousing.getHousingFeaturesBackupFTPByServiceName` | GET | `/dedicated/housing/{serviceName}/features/backupFTP` | serviceName: string |
@@ -1631,7 +1631,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.dedicatednasha.listNashas` | GET | `/dedicated/nasha` |  |
+| `.dedicatednasha.listNasha` | GET | `/dedicated/nasha` |  |
 | `.dedicatednasha.getNashaByServiceName` | GET | `/dedicated/nasha/{serviceName}` | serviceName: string |
 | `.dedicatednasha.updateNashaByServiceName` | PUT | `/dedicated/nasha/{serviceName}` | serviceName: string |
 | `.dedicatednasha.launchNashaChangeContactByServiceName` | POST | `/dedicated/nasha/{serviceName}/changeContact` | serviceName: string<br />body: {<br />  contactAdmin?: string<br />&nbsp;&nbsp; contactBilling?: string<br />&nbsp;&nbsp; contactTech?: string <br />} |
@@ -1674,11 +1674,11 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.dedicatedserver.listServers` | GET | `/dedicated/server` |  |
+| `.dedicatedserver.listServer` | GET | `/dedicated/server` |  |
 | `.dedicatedserver.listServerAvailabilities` | GET | `/dedicated/server/availabilities` |  |
-| `.dedicatedserver.listServerAvailabilitiesRaws` | GET | `/dedicated/server/availabilities/raw` |  |
+| `.dedicatedserver.listServerAvailabilitiesRaw` | GET | `/dedicated/server/availabilities/raw` |  |
 | `.dedicatedserver.listServerDatacenterAvailabilities` | GET | `/dedicated/server/datacenter/availabilities` |  |
-| `.dedicatedserver.listServerDatacenterAvailabilitiesRaws` | GET | `/dedicated/server/datacenter/availabilities/raw` |  |
+| `.dedicatedserver.listServerDatacenterAvailabilitiesRaw` | GET | `/dedicated/server/datacenter/availabilities/raw` |  |
 | `.dedicatedserver.getServerLog` | GET | `/dedicated/server/log` |  |
 | `.dedicatedserver.listServerOsAvailabilities` | GET | `/dedicated/server/osAvailabilities` |  |
 | `.dedicatedserver.getServerVirtualNetworkInterfaceByUuid` | GET | `/dedicated/server/virtualNetworkInterface/{uuid}` | uuid: string |
@@ -1744,7 +1744,7 @@
 | `.dedicatedserver.getServerLicenseCompliantWindowsSqlServerByServiceName` | GET | `/dedicated/server/{serviceName}/license/compliantWindowsSqlServer` | serviceName: string |
 | `.dedicatedserver.addServerLicenseWindowsByServiceName` | POST | `/dedicated/server/{serviceName}/license/windows` | serviceName: string<br />body: {<br />  licenseId: string<br />&nbsp;&nbsp; version: [LicenseWindowsOsVersionEnum](lib/src/models/LicenseWindowsOsVersionEnum.ts) <br />} |
 | `.dedicatedserver.getServerMrtgByServiceName` | GET | `/dedicated/server/{serviceName}/mrtg` | serviceName: string |
-| `.dedicatedserver.listServerNetworkInterfaceControllersByServiceName` | GET | `/dedicated/server/{serviceName}/networkInterfaceController` | serviceName: string |
+| `.dedicatedserver.listServerNetworkInterfaceControllerByServiceName` | GET | `/dedicated/server/{serviceName}/networkInterfaceController` | serviceName: string |
 | `.dedicatedserver.getServerNetworkInterfaceControllerByServiceNameAndMac` | GET | `/dedicated/server/{serviceName}/networkInterfaceController/{mac}` | mac: string<br /> serviceName: string |
 | `.dedicatedserver.getServerNetworkInterfaceControllerMrtgByServiceNameAndMac` | GET | `/dedicated/server/{serviceName}/networkInterfaceController/{mac}/mrtg` | mac: string<br /> serviceName: string |
 | `.dedicatedserver.postServerOlaAggregationByServiceName` | POST | `/dedicated/server/{serviceName}/ola/aggregation` | serviceName: string<br />body: {<br />  name: string<br />&nbsp;&nbsp; virtualNetworkInterfaces: string[] <br />} |
@@ -1752,7 +1752,7 @@
 | `.dedicatedserver.postServerOlaResetByServiceName` | POST | `/dedicated/server/{serviceName}/ola/reset` | serviceName: string<br />body: {<br />  virtualNetworkInterface: string <br />} |
 | `.dedicatedserver.postServerOlaUngroupByServiceName` | POST | `/dedicated/server/{serviceName}/ola/ungroup` | serviceName: string<br />body: {<br />  virtualNetworkInterface: string <br />} |
 | `.dedicatedserver.getServerOngoingByServiceName` | GET | `/dedicated/server/{serviceName}/ongoing` | serviceName: string |
-| `.dedicatedserver.listServerOptionsByServiceName` | GET | `/dedicated/server/{serviceName}/option` | serviceName: string |
+| `.dedicatedserver.listServerOptionByServiceName` | GET | `/dedicated/server/{serviceName}/option` | serviceName: string |
 | `.dedicatedserver.deleteServerOptionByServiceNameAndOption` | DELETE | `/dedicated/server/{serviceName}/option/{option}` | option: [DedicatedServerOptionEnum](lib/src/models/DedicatedServerOptionEnum.ts)<br /> serviceName: string |
 | `.dedicatedserver.getServerOptionByServiceNameAndOption` | GET | `/dedicated/server/{serviceName}/option/{option}` | option: [DedicatedServerOptionEnum](lib/src/models/DedicatedServerOptionEnum.ts)<br /> serviceName: string |
 | `.dedicatedserver.getServerOrderableBackupStorageByServiceName` | GET | `/dedicated/server/{serviceName}/orderable/backupStorage` | serviceName: string |
@@ -1839,7 +1839,7 @@
 | `.dedicatedserver.addServerVirtualMacVirtualressByServiceNameAndMacAddress` | POST | `/dedicated/server/{serviceName}/virtualMac/{macAddress}/virtualAddress` | macAddress: string<br /> serviceName: string<br />body: {<br />  ipAddress: string<br />&nbsp;&nbsp; virtualMachineName: string <br />} |
 | `.dedicatedserver.deleteServerVirtualMacVirtualAddressByServiceNameAndMacAddressAndIpAddress` | DELETE | `/dedicated/server/{serviceName}/virtualMac/{macAddress}/virtualAddress/{ipAddress}` | ipAddress: string<br /> macAddress: string<br /> serviceName: string |
 | `.dedicatedserver.getServerVirtualMacVirtualAddressByServiceNameAndMacAddressAndIpAddress` | GET | `/dedicated/server/{serviceName}/virtualMac/{macAddress}/virtualAddress/{ipAddress}` | ipAddress: string<br /> macAddress: string<br /> serviceName: string |
-| `.dedicatedserver.listServerVirtualNetworkInterfacesByServiceName` | GET | `/dedicated/server/{serviceName}/virtualNetworkInterface` | serviceName: string |
+| `.dedicatedserver.listServerVirtualNetworkInterfaceByServiceName` | GET | `/dedicated/server/{serviceName}/virtualNetworkInterface` | serviceName: string |
 | `.dedicatedserver.getServerVirtualNetworkInterfaceByServiceNameAndUuid` | GET | `/dedicated/server/{serviceName}/virtualNetworkInterface/{uuid}` | serviceName: string<br /> uuid: string |
 | `.dedicatedserver.updateServerVirtualNetworkInterfaceByServiceNameAndUuid` | PUT | `/dedicated/server/{serviceName}/virtualNetworkInterface/{uuid}` | serviceName: string<br /> uuid: string |
 | `.dedicatedserver.disableServerVirtualNetworkInterfaceByServiceNameAndUuid` | POST | `/dedicated/server/{serviceName}/virtualNetworkInterface/{uuid}/disable` | serviceName: string<br /> uuid: string |
@@ -1853,7 +1853,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.deskaas.lists` | GET | `/deskaas` |  |
+| `.deskaas.list` | GET | `/deskaas` |  |
 | `.deskaas.getByServiceName` | GET | `/deskaas/{serviceName}` | serviceName: string |
 | `.deskaas.updateAliasByServiceName` | POST | `/deskaas/{serviceName}/changeAlias` | serviceName: string<br />body: {<br />  alias: string <br />} |
 | `.deskaas.launchChangeContactByServiceName` | POST | `/deskaas/{serviceName}/changeContact` | serviceName: string<br />body: {<br />  contactAdmin?: string<br />&nbsp;&nbsp; contactBilling?: string<br />&nbsp;&nbsp; contactTech?: string <br />} |
@@ -1878,27 +1878,27 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.domain.lists` | GET | `/domain` |  |
+| `.domain.list` | GET | `/domain` |  |
 | `.domain.getConfigurationRule` | GET | `/domain/configurationRule` |  |
 | `.domain.validateConfigurationRuleCheck` | POST | `/domain/configurationRule/check` |  |
-| `.domain.listContacts` | GET | `/domain/contact` |  |
+| `.domain.listContact` | GET | `/domain/contact` |  |
 | `.domain.createContact` | POST | `/domain/contact` |  |
 | `.domain.getContactByContactId` | GET | `/domain/contact/{contactId}` | contactId: number |
 | `.domain.updateContactByContactId` | PUT | `/domain/contact/{contactId}` | contactId: number |
 | `.domain.getDataClaimNotice` | GET | `/domain/data/claimNotice` |  |
-| `.domain.listDataExtensions` | GET | `/domain/data/extension` |  |
-| `.domain.listDataSmds` | GET | `/domain/data/smd` |  |
+| `.domain.listDataExtension` | GET | `/domain/data/extension` |  |
+| `.domain.listDataSmd` | GET | `/domain/data/smd` |  |
 | `.domain.createDataSmd` | POST | `/domain/data/smd` |  |
 | `.domain.deleteDataSmdBySmdId` | DELETE | `/domain/data/smd/{smdId}` | smdId: string |
 | `.domain.getDataSmdBySmdId` | GET | `/domain/data/smd/{smdId}` | smdId: string |
 | `.domain.updateDataSmdBySmdId` | PUT | `/domain/data/smd/{smdId}` | smdId: string |
 | `.domain.listExtensions` | GET | `/domain/extensions` |  |
-| `.domain.listExtensionsByCategorys` | GET | `/domain/extensions/byCategory` |  |
-| `.domain.listExtensionsHighlighteds` | GET | `/domain/extensions/highlighted` |  |
+| `.domain.listExtensionsByCategory` | GET | `/domain/extensions/byCategory` |  |
+| `.domain.listExtensionsHighlighted` | GET | `/domain/extensions/highlighted` |  |
 | `.domain.listExtensionsPricingAttributes` | GET | `/domain/extensions/pricingAttributes` |  |
 | `.domain.getExtensionsByName` | GET | `/domain/extensions/{name}` | name: string |
 | `.domain.getExtensionsRegistryConfigurationsByName` | GET | `/domain/extensions/{name}/registryConfigurations` | name: string |
-| `.domain.listZones` | GET | `/domain/zone` |  |
+| `.domain.listZone` | GET | `/domain/zone` |  |
 | `.domain.getZoneByZoneName` | GET | `/domain/zone/{zoneName}` | zoneName: string |
 | `.domain.getZoneCapabilitiesByZoneName` | GET | `/domain/zone/{zoneName}/capabilities` | zoneName: string |
 | `.domain.launchZoneChangeContactByZoneName` | POST | `/domain/zone/{zoneName}/changeContact` | zoneName: string<br />body: {<br />  contactAdmin?: string<br />&nbsp;&nbsp; contactBilling?: string<br />&nbsp;&nbsp; contactTech?: string <br />} |
@@ -1922,7 +1922,7 @@
 | `.domain.getZoneHistoryByZoneNameAndCreationDate` | GET | `/domain/zone/{zoneName}/history/{creationDate}` | creationDate: Date<br /> zoneName: string |
 | `.domain.postZoneHistoryRestoreByZoneNameAndCreationDate` | POST | `/domain/zone/{zoneName}/history/{creationDate}/restore` | creationDate: Date<br /> zoneName: string |
 | `.domain.postZoneImportByZoneName` | POST | `/domain/zone/{zoneName}/import` | zoneName: string<br />body: {<br />  zoneFile: string <br />} |
-| `.domain.listZoneOptionsByZoneName` | GET | `/domain/zone/{zoneName}/option` | zoneName: string |
+| `.domain.listZoneOptionByZoneName` | GET | `/domain/zone/{zoneName}/option` | zoneName: string |
 | `.domain.getZoneOptionByZoneNameAndName` | GET | `/domain/zone/{zoneName}/option/{name}` | name: string<br /> zoneName: string |
 | `.domain.getZoneOptionServiceInfosByZoneNameAndName` | GET | `/domain/zone/{zoneName}/option/{name}/serviceInfos` | name: string<br /> zoneName: string |
 | `.domain.updateZoneOptionServiceInfosByZoneNameAndName` | PUT | `/domain/zone/{zoneName}/option/{name}/serviceInfos` | name: string<br /> zoneName: string<br />body: {<br />  renew: [ServiceRenewType](lib/src/models/ServiceRenewType.ts) <br />} |
@@ -1958,27 +1958,27 @@
 | `.domain.postConfigurationsObfuscatedEmailsRefreshByServiceName` | POST | `/domain/{serviceName}/configurations/obfuscatedEmails/refresh` | serviceName: string |
 | `.domain.getConfigurationsOptinByServiceName` | GET | `/domain/{serviceName}/configurations/optin` | serviceName: string |
 | `.domain.putConfigurationsOptinByServiceName` | PUT | `/domain/{serviceName}/configurations/optin` | serviceName: string |
-| `.domain.listDsRecordsByServiceName` | GET | `/domain/{serviceName}/dsRecord` | serviceName: string |
+| `.domain.listDsRecordByServiceName` | GET | `/domain/{serviceName}/dsRecord` | serviceName: string |
 | `.domain.updateDsRecordByServiceName` | POST | `/domain/{serviceName}/dsRecord` | serviceName: string<br />body: {<br />  keys: DnssecKey[] <br />} |
 | `.domain.getDsRecordByServiceNameAndId` | GET | `/domain/{serviceName}/dsRecord/{id}` | id: number<br /> serviceName: string |
-| `.domain.listGlueRecordsByServiceName` | GET | `/domain/{serviceName}/glueRecord` | serviceName: string |
+| `.domain.listGlueRecordByServiceName` | GET | `/domain/{serviceName}/glueRecord` | serviceName: string |
 | `.domain.createGlueRecordByServiceName` | POST | `/domain/{serviceName}/glueRecord` | serviceName: string |
 | `.domain.deleteGlueRecordByServiceNameAndHost` | DELETE | `/domain/{serviceName}/glueRecord/{host}` | serviceName: string<br /> host: string |
 | `.domain.getGlueRecordByServiceNameAndHost` | GET | `/domain/{serviceName}/glueRecord/{host}` | serviceName: string<br /> host: string |
 | `.domain.updateGlueRecordByServiceNameAndHost` | POST | `/domain/{serviceName}/glueRecord/{host}/update` | serviceName: string<br /> host: string |
-| `.domain.listNameServersByServiceName` | GET | `/domain/{serviceName}/nameServer` | serviceName: string |
+| `.domain.listNameServerByServiceName` | GET | `/domain/{serviceName}/nameServer` | serviceName: string |
 | `.domain.addNameServerByServiceName` | POST | `/domain/{serviceName}/nameServer` | serviceName: string |
 | `.domain.deleteNameServerByServiceNameAndId` | DELETE | `/domain/{serviceName}/nameServer/{id}` | serviceName: string<br /> id: number |
 | `.domain.getNameServerByServiceNameAndId` | GET | `/domain/{serviceName}/nameServer/{id}` | serviceName: string<br /> id: number |
 | `.domain.getNameServerStatusByServiceNameAndId` | GET | `/domain/{serviceName}/nameServer/{id}/status` | serviceName: string<br /> id: number |
 | `.domain.postNameServerStatusByServiceNameAndId` | POST | `/domain/{serviceName}/nameServer/{id}/status` | serviceName: string<br /> id: number |
 | `.domain.updateNameServersByServiceName` | POST | `/domain/{serviceName}/nameServers/update` | serviceName: string |
-| `.domain.listOptionsByServiceName` | GET | `/domain/{serviceName}/option` | serviceName: string |
+| `.domain.listOptionByServiceName` | GET | `/domain/{serviceName}/option` | serviceName: string |
 | `.domain.deleteOptionByServiceNameAndOption` | DELETE | `/domain/{serviceName}/option/{option}` | serviceName: string<br /> option: [DomainDomainOptionEnum](lib/src/models/DomainDomainOptionEnum.ts) |
 | `.domain.getOptionByServiceNameAndOption` | GET | `/domain/{serviceName}/option/{option}` | serviceName: string<br /> option: [DomainDomainOptionEnum](lib/src/models/DomainDomainOptionEnum.ts) |
 | `.domain.getOptionsByServiceName` | GET | `/domain/{serviceName}/options` | serviceName: string |
 | `.domain.postOutgoingTransferApproveByServiceName` | POST | `/domain/{serviceName}/outgoingTransfer/approve` | serviceName: string |
-| `.domain.listOwosByServiceName` | GET | `/domain/{serviceName}/owo` | serviceName: string |
+| `.domain.listOwoByServiceName` | GET | `/domain/{serviceName}/owo` | serviceName: string |
 | `.domain.addOwoByServiceName` | POST | `/domain/{serviceName}/owo` | serviceName: string<br />body: {<br />  fields: DomainWhoisObfuscatorFieldsEnum[] <br />} |
 | `.domain.deleteOwoByServiceNameAndField` | DELETE | `/domain/{serviceName}/owo/{field}` | field: [DomainWhoisObfuscatorFieldsEnum](lib/src/models/DomainWhoisObfuscatorFieldsEnum.ts)<br /> serviceName: string |
 | `.domain.getOwoByServiceNameAndField` | GET | `/domain/{serviceName}/owo/{field}` | field: [DomainWhoisObfuscatorFieldsEnum](lib/src/models/DomainWhoisObfuscatorFieldsEnum.ts)<br /> serviceName: string |
@@ -1986,7 +1986,7 @@
 | `.domain.getRulesOptinByServiceName` | GET | `/domain/{serviceName}/rules/optin` | serviceName: string |
 | `.domain.getServiceInfosByServiceName` | GET | `/domain/{serviceName}/serviceInfos` | serviceName: string |
 | `.domain.updateServiceInfosByServiceName` | PUT | `/domain/{serviceName}/serviceInfos` | serviceName: string |
-| `.domain.listTasksByServiceName` | GET | `/domain/{serviceName}/task` | serviceName: string |
+| `.domain.listTaskByServiceName` | GET | `/domain/{serviceName}/task` | serviceName: string |
 | `.domain.getTaskByServiceNameAndId` | GET | `/domain/{serviceName}/task/{id}` | serviceName: string<br /> id: number |
 | `.domain.postTaskAccelerateByServiceNameAndId` | POST | `/domain/{serviceName}/task/{id}/accelerate` | serviceName: string<br /> id: number |
 | `.domain.postTaskCancelByServiceNameAndId` | POST | `/domain/{serviceName}/task/{id}/cancel` | serviceName: string<br /> id: number |
@@ -1998,7 +1998,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.emaildomain.listDomains` | GET | `/email/domain` |  |
+| `.emaildomain.listDomain` | GET | `/email/domain` |  |
 | `.emaildomain.getDomainDelegatedAccount` | GET | `/email/domain/delegatedAccount` |  |
 | `.emaildomain.getDomainDelegatedAccountByEmail` | GET | `/email/domain/delegatedAccount/{email}` | email: string |
 | `.emaildomain.updateDomainDelegatedAccountByEmail` | PUT | `/email/domain/delegatedAccount/{email}` | email: string |
@@ -2064,17 +2064,17 @@
 | `.emaildomain.getDomainMailingListByDomainAndName` | GET | `/email/domain/{domain}/mailingList/{name}` | domain: string<br /> name: string |
 | `.emaildomain.updateDomainMailingListByDomainAndName` | PUT | `/email/domain/{domain}/mailingList/{name}` | domain: string<br /> name: string |
 | `.emaildomain.updateDomainMailingListOptionsByDomainAndName` | POST | `/email/domain/{domain}/mailingList/{name}/changeOptions` | domain: string<br /> name: string<br />body: {<br />  options: [DomainDomainMlOptionsStruct](lib/src/models/DomainDomainMlOptionsStruct.ts) <br />} |
-| `.emaildomain.listDomainMailingModeratorsByDomainAndName` | GET | `/email/domain/{domain}/mailingList/{name}/moderator` | domain: string<br /> name: string |
+| `.emaildomain.listDomainMailingModeratorByDomainAndName` | GET | `/email/domain/{domain}/mailingList/{name}/moderator` | domain: string<br /> name: string |
 | `.emaildomain.addDomainMailingListModeratorByDomainAndName` | POST | `/email/domain/{domain}/mailingList/{name}/moderator` | domain: string<br /> name: string<br />body: {<br />  email: string <br />} |
 | `.emaildomain.deleteDomainMailingListModeratorByDomainAndNameAndEmail` | DELETE | `/email/domain/{domain}/mailingList/{name}/moderator/{email}` | domain: string<br /> email: string<br /> name: string |
 | `.emaildomain.getDomainMailingListModeratorByDomainAndNameAndEmail` | GET | `/email/domain/{domain}/mailingList/{name}/moderator/{email}` | domain: string<br /> email: string<br /> name: string |
 | `.emaildomain.sendDomainMailingListListByEmailByDomainAndName` | POST | `/email/domain/{domain}/mailingList/{name}/sendListByEmail` | domain: string<br /> name: string<br />body: {<br />  email: string <br />} |
-| `.emaildomain.listDomainMailingSubscribersByDomainAndName` | GET | `/email/domain/{domain}/mailingList/{name}/subscriber` | domain: string<br /> name: string |
+| `.emaildomain.listDomainMailingSubscriberByDomainAndName` | GET | `/email/domain/{domain}/mailingList/{name}/subscriber` | domain: string<br /> name: string |
 | `.emaildomain.addDomainMailingListSubscriberByDomainAndName` | POST | `/email/domain/{domain}/mailingList/{name}/subscriber` | domain: string<br /> name: string<br />body: {<br />  email: string <br />} |
 | `.emaildomain.deleteDomainMailingListSubscriberByDomainAndNameAndEmail` | DELETE | `/email/domain/{domain}/mailingList/{name}/subscriber/{email}` | domain: string<br /> email: string<br /> name: string |
 | `.emaildomain.getDomainMailingListSubscriberByDomainAndNameAndEmail` | GET | `/email/domain/{domain}/mailingList/{name}/subscriber/{email}` | domain: string<br /> email: string<br /> name: string |
 | `.emaildomain.createDomainMigrateDelegationV3toV6ByDomain` | POST | `/email/domain/{domain}/migrateDelegationV3toV6` | domain: string |
-| `.emaildomain.listDomainQuotasByDomain` | GET | `/email/domain/{domain}/quota` | domain: string |
+| `.emaildomain.listDomainQuotaByDomain` | GET | `/email/domain/{domain}/quota` | domain: string |
 | `.emaildomain.getDomainRecommendedDNSRecordsByDomain` | GET | `/email/domain/{domain}/recommendedDNSRecords` | domain: string |
 | `.emaildomain.getDomainRedirectionByDomain` | GET | `/email/domain/{domain}/redirection` | domain: string |
 | `.emaildomain.createDomainRedirectionByDomain` | POST | `/email/domain/{domain}/redirection` | domain: string |
@@ -2105,8 +2105,8 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.emailexchange.listExchanges` | GET | `/email/exchange` |  |
-| `.emailexchange.listExchangeServicesByOrganizationName` | GET | `/email/exchange/{organizationName}/service` | organizationName: string |
+| `.emailexchange.listExchange` | GET | `/email/exchange` |  |
+| `.emailexchange.listExchangeServiceByOrganizationName` | GET | `/email/exchange/{organizationName}/service` | organizationName: string |
 | `.emailexchange.getExchangeServiceByOrganizationNameAndExchangeService` | GET | `/email/exchange/{organizationName}/service/{exchangeService}` | exchangeService: string<br /> organizationName: string |
 | `.emailexchange.updateExchangeServiceByOrganizationNameAndExchangeService` | PUT | `/email/exchange/{organizationName}/service/{exchangeService}` | exchangeService: string<br /> organizationName: string |
 | `.emailexchange.getExchangeServiceAccountByOrganizationNameAndExchangeService` | GET | `/email/exchange/{organizationName}/service/{exchangeService}/account` | exchangeService: string<br /> organizationName: string |
@@ -2161,7 +2161,7 @@
 | `.emailexchange.deleteExchangeServiceCustomIsolationByOrganizationNameAndExchangeServiceAndName` | DELETE | `/email/exchange/{organizationName}/service/{exchangeService}/customIsolation/{name}` | exchangeService: string<br /> name: string<br /> organizationName: string |
 | `.emailexchange.getExchangeServiceCustomIsolationByOrganizationNameAndExchangeServiceAndName` | GET | `/email/exchange/{organizationName}/service/{exchangeService}/customIsolation/{name}` | exchangeService: string<br /> name: string<br /> organizationName: string |
 | `.emailexchange.getExchangeServiceDcvEmailsByOrganizationNameAndExchangeService` | GET | `/email/exchange/{organizationName}/service/{exchangeService}/dcvEmails` | exchangeService: string<br /> organizationName: string |
-| `.emailexchange.listExchangeServiceDevicesByOrganizationNameAndExchangeService` | GET | `/email/exchange/{organizationName}/service/{exchangeService}/device` | exchangeService: string<br /> organizationName: string |
+| `.emailexchange.listExchangeServiceDeviceByOrganizationNameAndExchangeService` | GET | `/email/exchange/{organizationName}/service/{exchangeService}/device` | exchangeService: string<br /> organizationName: string |
 | `.emailexchange.getExchangeServiceDeviceByOrganizationNameAndExchangeServiceAndIdentity` | GET | `/email/exchange/{organizationName}/service/{exchangeService}/device/{identity}` | exchangeService: string<br /> identity: string<br /> organizationName: string |
 | `.emailexchange.updateExchangeServiceDeviceByOrganizationNameAndExchangeServiceAndIdentity` | PUT | `/email/exchange/{organizationName}/service/{exchangeService}/device/{identity}` | exchangeService: string<br /> identity: string<br /> organizationName: string |
 | `.emailexchange.postExchangeServiceDeviceClearDeviceByOrganizationNameAndExchangeServiceAndIdentity` | POST | `/email/exchange/{organizationName}/service/{exchangeService}/device/{identity}/clearDevice` | exchangeService: string<br /> identity: string<br /> organizationName: string |
@@ -2251,7 +2251,7 @@
 | `.emailexchange.addExchangeServiceResourceAccountDelegateByOrganizationNameAndExchangeServiceAndResourceEmailAddress` | POST | `/email/exchange/{organizationName}/service/{exchangeService}/resourceAccount/{resourceEmailAddress}/delegate` | exchangeService: string<br /> organizationName: string<br /> resourceEmailAddress: string<br />body: {<br />  allowedAccountId: number <br />} |
 | `.emailexchange.deleteExchangeServiceResourceAccountDelegateByOrganizationNameAndExchangeServiceAndResourceEmailAddressAndAllowedAccountId` | DELETE | `/email/exchange/{organizationName}/service/{exchangeService}/resourceAccount/{resourceEmailAddress}/delegate/{allowedAccountId}` | allowedAccountId: number<br /> exchangeService: string<br /> organizationName: string<br /> resourceEmailAddress: string |
 | `.emailexchange.getExchangeServiceResourceAccountDelegateByOrganizationNameAndExchangeServiceAndResourceEmailAddressAndAllowedAccountId` | GET | `/email/exchange/{organizationName}/service/{exchangeService}/resourceAccount/{resourceEmailAddress}/delegate/{allowedAccountId}` | allowedAccountId: number<br /> exchangeService: string<br /> organizationName: string<br /> resourceEmailAddress: string |
-| `.emailexchange.listExchangeServiceSendConnectorsByOrganizationNameAndExchangeService` | GET | `/email/exchange/{organizationName}/service/{exchangeService}/sendConnector` | exchangeService: string<br /> organizationName: string |
+| `.emailexchange.listExchangeServiceSendConnectorByOrganizationNameAndExchangeService` | GET | `/email/exchange/{organizationName}/service/{exchangeService}/sendConnector` | exchangeService: string<br /> organizationName: string |
 | `.emailexchange.createExchangeServiceSendConnectorByOrganizationNameAndExchangeService` | POST | `/email/exchange/{organizationName}/service/{exchangeService}/sendConnector` | exchangeService: string<br /> organizationName: string<br />body: {<br />  displayName: string<br />&nbsp;&nbsp; maxSendSize?: number<br />&nbsp;&nbsp; password?: string<br />&nbsp;&nbsp; port?: number<br />&nbsp;&nbsp; requireTLS?: boolean<br />&nbsp;&nbsp; smartHost: string<br />&nbsp;&nbsp; smartHostAuthMechanism?: [EmailExchangeSmartHostAuthMechanismEnum](lib/src/models/EmailExchangeSmartHostAuthMechanismEnum.ts)<br />&nbsp;&nbsp; user?: string <br />} |
 | `.emailexchange.deleteExchangeServiceSendConnectorByOrganizationNameAndExchangeServiceAndId` | DELETE | `/email/exchange/{organizationName}/service/{exchangeService}/sendConnector/{id}` | exchangeService: string<br /> id: number<br /> organizationName: string |
 | `.emailexchange.getExchangeServiceSendConnectorByOrganizationNameAndExchangeServiceAndId` | GET | `/email/exchange/{organizationName}/service/{exchangeService}/sendConnector/{id}` | exchangeService: string<br /> id: number<br /> organizationName: string |
@@ -2294,7 +2294,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.emailmxplan.listMxplans` | GET | `/email/mxplan` |  |
+| `.emailmxplan.listMxplan` | GET | `/email/mxplan` |  |
 | `.emailmxplan.getMxplanByService` | GET | `/email/mxplan/{service}` | service: string |
 | `.emailmxplan.updateMxplanByService` | PUT | `/email/mxplan/{service}` | service: string |
 | `.emailmxplan.getMxplanAccountByService` | GET | `/email/mxplan/{service}/account` | service: string |
@@ -2345,7 +2345,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.emailpro.listPros` | GET | `/email/pro` |  |
+| `.emailpro.listPro` | GET | `/email/pro` |  |
 | `.emailpro.getProByService` | GET | `/email/pro/{service}` | service: string |
 | `.emailpro.updateProByService` | PUT | `/email/pro/{service}` | service: string |
 | `.emailpro.getProAccountByService` | GET | `/email/pro/{service}/account` | service: string |
@@ -2403,7 +2403,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.freefax.lists` | GET | `/freefax` |  |
+| `.freefax.list` | GET | `/freefax` |  |
 | `.freefax.getCredits` | GET | `/freefax/credits` |  |
 | `.freefax.getByServiceName` | GET | `/freefax/{serviceName}` | serviceName: string |
 | `.freefax.updateByServiceName` | PUT | `/freefax/{serviceName}` | serviceName: string |
@@ -2427,7 +2427,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.horizonview.lists` | GET | `/horizonView` |  |
+| `.horizonview.list` | GET | `/horizonView` |  |
 | `.horizonview.getByServiceName` | GET | `/horizonView/{serviceName}` | serviceName: string |
 | `.horizonview.getAccessPointByServiceName` | GET | `/horizonView/{serviceName}/accessPoint` | serviceName: string |
 | `.horizonview.addAccessPointByServiceName` | POST | `/horizonView/{serviceName}/accessPoint` | serviceName: string<br />body: {<br />  poolType: [HorizonViewPoolType](lib/src/models/HorizonViewPoolType.ts)<br />&nbsp;&nbsp; privateBlock?: string<br />&nbsp;&nbsp; privateVlan?: number<br />&nbsp;&nbsp; vrouterPoolPublicIp?: string <br />} |
@@ -2460,7 +2460,7 @@
 | `.horizonview.getDedicatedHorizonUserByServiceName` | GET | `/horizonView/{serviceName}/dedicatedHorizon/user` | serviceName: string |
 | `.horizonview.updateDedicatedHorizonUserPasswordByServiceName` | POST | `/horizonView/{serviceName}/dedicatedHorizon/user/changePassword` | serviceName: string<br />body: {<br />  password?: string <br />} |
 | `.horizonview.updateDedicatedHorizonUserPropertiesByServiceName` | POST | `/horizonView/{serviceName}/dedicatedHorizon/user/changeProperties` | serviceName: string<br />body: {<br />  email?: string <br />} |
-| `.horizonview.listDomainTrustsByServiceName` | GET | `/horizonView/{serviceName}/domainTrust` | serviceName: string |
+| `.horizonview.listDomainTrustByServiceName` | GET | `/horizonView/{serviceName}/domainTrust` | serviceName: string |
 | `.horizonview.postDomainTrustByServiceName` | POST | `/horizonView/{serviceName}/domainTrust` | serviceName: string<br />body: {<br />  activeDirectoryIP: string<br />&nbsp;&nbsp; dns1?: string<br />&nbsp;&nbsp; dns2?: string<br />&nbsp;&nbsp; domain: string <br />} |
 | `.horizonview.getDomainTrustByServiceNameAndDomainTrustId` | GET | `/horizonView/{serviceName}/domainTrust/{domainTrustId}` | domainTrustId: number<br /> serviceName: string |
 | `.horizonview.addDomainTrustChildDomainByServiceNameAndDomainTrustId` | POST | `/horizonView/{serviceName}/domainTrust/{domainTrustId}/addChildDomain` | domainTrustId: number<br /> serviceName: string<br />body: {<br />  activeDirectoryIP: string<br />&nbsp;&nbsp; domain: string<br />&nbsp;&nbsp; passphrase: string<br />&nbsp;&nbsp; serviceAccountPassword: string <br />} |
@@ -2475,7 +2475,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.hostingprivatedatabase.listPrivateDatabases` | GET | `/hosting/privateDatabase` |  |
+| `.hostingprivatedatabase.listPrivateDatabase` | GET | `/hosting/privateDatabase` |  |
 | `.hostingprivatedatabase.getPrivateDatabaseAvailableOrderCapacities` | GET | `/hosting/privateDatabase/availableOrderCapacities` |  |
 | `.hostingprivatedatabase.getPrivateDatabaseByServiceName` | GET | `/hosting/privateDatabase/{serviceName}` | serviceName: string |
 | `.hostingprivatedatabase.updatePrivateDatabaseByServiceName` | PUT | `/hosting/privateDatabase/{serviceName}` | serviceName: string |
@@ -2486,7 +2486,7 @@
 | `.hostingprivatedatabase.getPrivateDatabaseConfigByServiceName` | GET | `/hosting/privateDatabase/{serviceName}/config` | serviceName: string |
 | `.hostingprivatedatabase.updatePrivateDatabaseConfigByServiceName` | POST | `/hosting/privateDatabase/{serviceName}/config/update` | serviceName: string<br />body: {<br />  parameters: string <br />} |
 | `.hostingprivatedatabase.confirmPrivateDatabaseTerminationByServiceName` | POST | `/hosting/privateDatabase/{serviceName}/confirmTermination` | serviceName: string<br />body: {<br />  commentary?: string<br />&nbsp;&nbsp; futureUse?: [ServiceTerminationFutureUseEnum](lib/src/models/ServiceTerminationFutureUseEnum.ts)<br />&nbsp;&nbsp; reason?: [ServiceTerminationReasonEnum](lib/src/models/ServiceTerminationReasonEnum.ts)<br />&nbsp;&nbsp; token: string <br />} |
-| `.hostingprivatedatabase.listPrivateDatabaseCpuThrottlesByServiceName` | GET | `/hosting/privateDatabase/{serviceName}/cpuThrottle` | serviceName: string |
+| `.hostingprivatedatabase.listPrivateDatabaseCpuThrottleByServiceName` | GET | `/hosting/privateDatabase/{serviceName}/cpuThrottle` | serviceName: string |
 | `.hostingprivatedatabase.getPrivateDatabaseDatabaseByServiceName` | GET | `/hosting/privateDatabase/{serviceName}/database` | serviceName: string |
 | `.hostingprivatedatabase.createPrivateDatabaseDatabaseByServiceName` | POST | `/hosting/privateDatabase/{serviceName}/database` | serviceName: string<br />body: {<br />  databaseName: string <br />} |
 | `.hostingprivatedatabase.deletePrivateDatabaseDatabaseByServiceNameAndDatabaseName` | DELETE | `/hosting/privateDatabase/{serviceName}/database/{databaseName}` | databaseName: string<br /> serviceName: string |
@@ -2507,7 +2507,7 @@
 | `.hostingprivatedatabase.getPrivateDatabaseDumpByServiceNameAndDumpId` | GET | `/hosting/privateDatabase/{serviceName}/dump/{dumpId}` | dumpId: number<br /> serviceName: string |
 | `.hostingprivatedatabase.postPrivateDatabaseDumpRestoreByServiceNameAndDumpId` | POST | `/hosting/privateDatabase/{serviceName}/dump/{dumpId}/restore` | dumpId: number<br /> serviceName: string<br />body: {<br />  databaseName: string <br />} |
 | `.hostingprivatedatabase.postPrivateDatabaseGenerateTemporaryLogsLinkByServiceName` | POST | `/hosting/privateDatabase/{serviceName}/generateTemporaryLogsLink` | serviceName: string |
-| `.hostingprivatedatabase.listPrivateDatabaseOomsByServiceName` | GET | `/hosting/privateDatabase/{serviceName}/oom` | serviceName: string |
+| `.hostingprivatedatabase.listPrivateDatabaseOomByServiceName` | GET | `/hosting/privateDatabase/{serviceName}/oom` | serviceName: string |
 | `.hostingprivatedatabase.postPrivateDatabaseQuotaRefreshByServiceName` | POST | `/hosting/privateDatabase/{serviceName}/quotaRefresh` | serviceName: string |
 | `.hostingprivatedatabase.postPrivateDatabaseRestartByServiceName` | POST | `/hosting/privateDatabase/{serviceName}/restart` | serviceName: string |
 | `.hostingprivatedatabase.getPrivateDatabaseServiceInfosByServiceName` | GET | `/hosting/privateDatabase/{serviceName}/serviceInfos` | serviceName: string |
@@ -2541,7 +2541,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.hostingweb.listWebs` | GET | `/hosting/web` |  |
+| `.hostingweb.listWeb` | GET | `/hosting/web` |  |
 | `.hostingweb.getWebAttachedDomain` | GET | `/hosting/web/attachedDomain` |  |
 | `.hostingweb.getWebAvailableOffer` | GET | `/hosting/web/availableOffer` |  |
 | `.hostingweb.getWebIncident` | GET | `/hosting/web/incident` |  |
@@ -2567,10 +2567,10 @@
 | `.hostingweb.getWebBoostHistoryByServiceNameAndDate` | GET | `/hosting/web/{serviceName}/boostHistory/{date}` | date: Date<br /> serviceName: string |
 | `.hostingweb.getWebCdnByServiceName` | GET | `/hosting/web/{serviceName}/cdn` | serviceName: string |
 | `.hostingweb.listWebCdnAvailableOptionsByServiceName` | GET | `/hosting/web/{serviceName}/cdn/availableOptions` | serviceName: string |
-| `.hostingweb.listWebCdnDomainsByServiceName` | GET | `/hosting/web/{serviceName}/cdn/domain` | serviceName: string |
+| `.hostingweb.listWebCdnDomainByServiceName` | GET | `/hosting/web/{serviceName}/cdn/domain` | serviceName: string |
 | `.hostingweb.getWebCdnDomainByServiceNameAndDomainName` | GET | `/hosting/web/{serviceName}/cdn/domain/{domainName}` | serviceName: string<br /> domainName: string |
 | `.hostingweb.getWebCdnDomainLogsByServiceNameAndDomainName` | GET | `/hosting/web/{serviceName}/cdn/domain/{domainName}/logs` | serviceName: string<br /> domainName: string |
-| `.hostingweb.listWebCdnDomainOptionsByServiceNameAndDomainName` | GET | `/hosting/web/{serviceName}/cdn/domain/{domainName}/option` | serviceName: string<br /> domainName: string |
+| `.hostingweb.listWebCdnDomainOptionByServiceNameAndDomainName` | GET | `/hosting/web/{serviceName}/cdn/domain/{domainName}/option` | serviceName: string<br /> domainName: string |
 | `.hostingweb.addWebCdnDomainOptionByServiceNameAndDomainName` | POST | `/hosting/web/{serviceName}/cdn/domain/{domainName}/option` | serviceName: string<br /> domainName: string |
 | `.hostingweb.deleteWebCdnDomainOptionByServiceNameAndDomainNameAndOptionName` | DELETE | `/hosting/web/{serviceName}/cdn/domain/{domainName}/option/{optionName}` | serviceName: string<br /> domainName: string<br /> optionName: string |
 | `.hostingweb.getWebCdnDomainOptionByServiceNameAndDomainNameAndOptionName` | GET | `/hosting/web/{serviceName}/cdn/domain/{domainName}/option/{optionName}` | serviceName: string<br /> domainName: string<br /> optionName: string |
@@ -2578,7 +2578,7 @@
 | `.hostingweb.postWebCdnDomainPurgeByServiceNameAndDomainName` | POST | `/hosting/web/{serviceName}/cdn/domain/{domainName}/purge` | serviceName: string<br /> domainName: string |
 | `.hostingweb.postWebCdnDomainRefreshByServiceNameAndDomainName` | POST | `/hosting/web/{serviceName}/cdn/domain/{domainName}/refresh` | serviceName: string<br /> domainName: string |
 | `.hostingweb.getWebCdnDomainStatisticsByServiceNameAndDomainName` | GET | `/hosting/web/{serviceName}/cdn/domain/{domainName}/statistics` | serviceName: string<br /> domainName: string |
-| `.hostingweb.listWebCdnOperationsByServiceName` | GET | `/hosting/web/{serviceName}/cdn/operation` | serviceName: string |
+| `.hostingweb.listWebCdnOperationByServiceName` | GET | `/hosting/web/{serviceName}/cdn/operation` | serviceName: string |
 | `.hostingweb.getWebCdnOperationByServiceNameAndId` | GET | `/hosting/web/{serviceName}/cdn/operation/{id}` | serviceName: string<br /> id: number |
 | `.hostingweb.getWebCdnServiceInfosByServiceName` | GET | `/hosting/web/{serviceName}/cdn/serviceInfos` | serviceName: string |
 | `.hostingweb.updateWebCdnServiceInfosUpdateByServiceName` | POST | `/hosting/web/{serviceName}/cdn/serviceInfosUpdate` | serviceName: string<br />body: {<br />  renew: [ServiceRenewType](lib/src/models/ServiceRenewType.ts) <br />} |
@@ -2608,8 +2608,8 @@
 | `.hostingweb.postWebDatabaseRequestByServiceNameAndName` | POST | `/hosting/web/{serviceName}/database/{name}/request` | name: string<br /> serviceName: string<br />body: {<br />  action: [HostingWebDatabaseRequestActionEnum](lib/src/models/HostingWebDatabaseRequestActionEnum.ts) <br />} |
 | `.hostingweb.postWebDatabaseRestoreByServiceNameAndName` | POST | `/hosting/web/{serviceName}/database/{name}/restore` | name: string<br /> serviceName: string<br />body: {<br />  date: [HostingWebDatabaseDumpDateEnum](lib/src/models/HostingWebDatabaseDumpDateEnum.ts)<br />&nbsp;&nbsp; sendEmail?: boolean <br />} |
 | `.hostingweb.getWebDatabaseStatisticsByServiceNameAndName` | GET | `/hosting/web/{serviceName}/database/{name}/statistics` | name: string<br /> serviceName: string |
-| `.hostingweb.listWebDatabaseAvailableTypesByServiceName` | GET | `/hosting/web/{serviceName}/databaseAvailableType` | serviceName: string |
-| `.hostingweb.listWebDatabaseAvailableVersionsByServiceName` | GET | `/hosting/web/{serviceName}/databaseAvailableVersion` | serviceName: string |
+| `.hostingweb.listWebDatabaseAvailableTypeByServiceName` | GET | `/hosting/web/{serviceName}/databaseAvailableType` | serviceName: string |
+| `.hostingweb.listWebDatabaseAvailableVersionByServiceName` | GET | `/hosting/web/{serviceName}/databaseAvailableVersion` | serviceName: string |
 | `.hostingweb.listWebDatabaseCreationCapabilitiesByServiceName` | GET | `/hosting/web/{serviceName}/databaseCreationCapabilities` | serviceName: string |
 | `.hostingweb.getWebDumpByServiceName` | GET | `/hosting/web/{serviceName}/dump` | serviceName: string |
 | `.hostingweb.deleteWebDumpByServiceNameAndId` | DELETE | `/hosting/web/{serviceName}/dump/{id}` | id: number<br /> serviceName: string |
@@ -2673,7 +2673,7 @@
 | `.hostingweb.postWebRequestByServiceName` | POST | `/hosting/web/{serviceName}/request` | serviceName: string<br />body: {<br />  action: [HostingWebRequestActionEnum](lib/src/models/HostingWebRequestActionEnum.ts) <br />} |
 | `.hostingweb.postWebRequestBoostByServiceName` | POST | `/hosting/web/{serviceName}/requestBoost` | serviceName: string<br />body: {<br />  offer?: [HostingWebOfferEnum](lib/src/models/HostingWebOfferEnum.ts) <br />} |
 | `.hostingweb.postWebRestoreSnapshotByServiceName` | POST | `/hosting/web/{serviceName}/restoreSnapshot` | serviceName: string<br />body: {<br />  backup: [HostingWebBackupTypeEnum](lib/src/models/HostingWebBackupTypeEnum.ts) <br />} |
-| `.hostingweb.listWebRuntimesByServiceName` | GET | `/hosting/web/{serviceName}/runtime` | serviceName: string |
+| `.hostingweb.listWebRuntimeByServiceName` | GET | `/hosting/web/{serviceName}/runtime` | serviceName: string |
 | `.hostingweb.postWebRuntimeByServiceName` | POST | `/hosting/web/{serviceName}/runtime` | serviceName: string<br />body: {<br />  appBootstrap?: string<br />&nbsp;&nbsp; appEnv?: [HostingWebRuntimeEnvEnum](lib/src/models/HostingWebRuntimeEnvEnum.ts)<br />&nbsp;&nbsp; attachedDomains?: string[]<br />&nbsp;&nbsp; isDefault?: boolean<br />&nbsp;&nbsp; name?: string<br />&nbsp;&nbsp; publicDir?: string<br />&nbsp;&nbsp; type?: [HostingWebRuntimeTypeEnum](lib/src/models/HostingWebRuntimeTypeEnum.ts) <br />} |
 | `.hostingweb.deleteWebRuntimeByServiceNameAndId` | DELETE | `/hosting/web/{serviceName}/runtime/{id}` | id: number<br /> serviceName: string |
 | `.hostingweb.getWebRuntimeByServiceNameAndId` | GET | `/hosting/web/{serviceName}/runtime/{id}` | id: number<br /> serviceName: string |
@@ -2713,7 +2713,7 @@
 | :- | :- | :-  | :-  |
 | `.ip.get` | GET | `/ip` |  |
 | `.ip.getCampus` | GET | `/ip/campus` |  |
-| `.ip.listLoadBalancings` | GET | `/ip/loadBalancing` |  |
+| `.ip.listLoadBalancing` | GET | `/ip/loadBalancing` |  |
 | `.ip.getLoadBalancingByServiceName` | GET | `/ip/loadBalancing/{serviceName}` | serviceName: string |
 | `.ip.listLoadBalancingAllowedBackendsByServiceName` | GET | `/ip/loadBalancing/{serviceName}/allowedBackends` | serviceName: string |
 | `.ip.getLoadBalancingBackendByServiceName` | GET | `/ip/loadBalancing/{serviceName}/backend` | serviceName: string |
@@ -2737,7 +2737,7 @@
 | `.ip.postLoadBalancingSwitchToIplbNextGenerationApiByServiceName` | POST | `/ip/loadBalancing/{serviceName}/switchToIplbNextGenerationApi` | serviceName: string |
 | `.ip.getLoadBalancingTaskByServiceName` | GET | `/ip/loadBalancing/{serviceName}/task` | serviceName: string |
 | `.ip.getLoadBalancingTaskByServiceNameAndTaskId` | GET | `/ip/loadBalancing/{serviceName}/task/{taskId}` | serviceName: string<br /> taskId: number |
-| `.ip.listServices` | GET | `/ip/service` |  |
+| `.ip.listService` | GET | `/ip/service` |  |
 | `.ip.getServiceByServiceName` | GET | `/ip/service/{serviceName}` | serviceName: string |
 | `.ip.updateServiceByServiceName` | PUT | `/ip/service/{serviceName}` | serviceName: string |
 | `.ip.launchServiceChangeContactByServiceName` | POST | `/ip/service/{serviceName}/changeContact` | serviceName: string<br />body: {<br />  contactAdmin?: string<br />&nbsp;&nbsp; contactBilling?: string<br />&nbsp;&nbsp; contactTech?: string <br />} |
@@ -2796,7 +2796,7 @@
 | `.ip.deleteMitigationProfilesByIpAndIpMitigationProfile` | DELETE | `/ip/{ip}/mitigationProfiles/{ipMitigationProfile}` | ip: string<br /> ipMitigationProfile: string |
 | `.ip.getMitigationProfilesByIpAndIpMitigationProfile` | GET | `/ip/{ip}/mitigationProfiles/{ipMitigationProfile}` | ip: string<br /> ipMitigationProfile: string |
 | `.ip.updateMitigationProfilesByIpAndIpMitigationProfile` | PUT | `/ip/{ip}/mitigationProfiles/{ipMitigationProfile}` | ip: string<br /> ipMitigationProfile: string |
-| `.ip.listMovesByIp` | GET | `/ip/{ip}/move` | ip: string |
+| `.ip.listMoveByIp` | GET | `/ip/{ip}/move` | ip: string |
 | `.ip.postMoveByIp` | POST | `/ip/{ip}/move` | ip: string<br />body: {<br />  nexthop?: string<br />&nbsp;&nbsp; to: string <br />} |
 | `.ip.postParkByIp` | POST | `/ip/{ip}/park` | ip: string |
 | `.ip.getPhishingByIp` | GET | `/ip/{ip}/phishing` | ip: string |
@@ -2819,7 +2819,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.iploadbalancing.lists` | GET | `/ipLoadbalancing` |  |
+| `.iploadbalancing.list` | GET | `/ipLoadbalancing` |  |
 | `.iploadbalancing.listAvailableZones` | GET | `/ipLoadbalancing/availableZones` |  |
 | `.iploadbalancing.getByServiceName` | GET | `/ipLoadbalancing/{serviceName}` | serviceName: string |
 | `.iploadbalancing.updateByServiceName` | PUT | `/ipLoadbalancing/{serviceName}` | serviceName: string |
@@ -2833,7 +2833,7 @@
 | `.iploadbalancing.listDefinedFarmsByServiceName` | GET | `/ipLoadbalancing/{serviceName}/definedFarms` | serviceName: string |
 | `.iploadbalancing.listDefinedFrontendsByServiceName` | GET | `/ipLoadbalancing/{serviceName}/definedFrontends` | serviceName: string |
 | `.iploadbalancing.listDefinedRoutesByServiceName` | GET | `/ipLoadbalancing/{serviceName}/definedRoutes` | serviceName: string |
-| `.iploadbalancing.listFailoversByServiceName` | GET | `/ipLoadbalancing/{serviceName}/failover` | serviceName: string |
+| `.iploadbalancing.listFailoverByServiceName` | GET | `/ipLoadbalancing/{serviceName}/failover` | serviceName: string |
 | `.iploadbalancing.postFreeCertificateByServiceName` | POST | `/ipLoadbalancing/{serviceName}/freeCertificate` | serviceName: string<br />body: {<br />  fqdn: string[] <br />} |
 | `.iploadbalancing.getHttpFarmByServiceName` | GET | `/ipLoadbalancing/{serviceName}/http/farm` | serviceName: string |
 | `.iploadbalancing.addHttpFarmByServiceName` | POST | `/ipLoadbalancing/{serviceName}/http/farm` | serviceName: string<br />body: {<br />  balance?: [IpLoadbalancingBalanceHTTPEnum](lib/src/models/IpLoadbalancingBalanceHTTPEnum.ts)<br />&nbsp;&nbsp; displayName?: string<br />&nbsp;&nbsp; port?: number<br />&nbsp;&nbsp; probe?: [IpLoadbalancingBackendProbe](lib/src/models/IpLoadbalancingBackendProbe.ts)<br />&nbsp;&nbsp; stickiness?: [IpLoadbalancingStickinessHTTPEnum](lib/src/models/IpLoadbalancingStickinessHTTPEnum.ts)<br />&nbsp;&nbsp; vrackNetworkId?: number<br />&nbsp;&nbsp; zone: string <br />} |
@@ -2937,7 +2937,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.licensecloudlinux.listCloudLinuxs` | GET | `/license/cloudLinux` |  |
+| `.licensecloudlinux.listCloudLinux` | GET | `/license/cloudLinux` |  |
 | `.licensecloudlinux.getCloudLinuxOrderableVersions` | GET | `/license/cloudLinux/orderableVersions` |  |
 | `.licensecloudlinux.getCloudLinuxByServiceName` | GET | `/license/cloudLinux/{serviceName}` | serviceName: string |
 | `.licensecloudlinux.confirmCloudLinuxTerminationByServiceName` | POST | `/license/cloudLinux/{serviceName}/confirmTermination` | serviceName: string<br />body: {<br />  commentary?: string<br />&nbsp;&nbsp; futureUse?: [ServiceTerminationFutureUseEnum](lib/src/models/ServiceTerminationFutureUseEnum.ts)<br />&nbsp;&nbsp; reason?: [ServiceTerminationReasonEnum](lib/src/models/ServiceTerminationReasonEnum.ts)<br />&nbsp;&nbsp; token: string <br />} |
@@ -2951,7 +2951,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.licensecpanel.listCpanels` | GET | `/license/cpanel` |  |
+| `.licensecpanel.listCpanel` | GET | `/license/cpanel` |  |
 | `.licensecpanel.getCpanelOrderableVersions` | GET | `/license/cpanel/orderableVersions` |  |
 | `.licensecpanel.getCpanelByServiceName` | GET | `/license/cpanel/{serviceName}` | serviceName: string |
 | `.licensecpanel.updateCpanelByServiceName` | PUT | `/license/cpanel/{serviceName}` | serviceName: string |
@@ -2969,7 +2969,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.licensedirectadmin.listDirectadmins` | GET | `/license/directadmin` |  |
+| `.licensedirectadmin.listDirectadmin` | GET | `/license/directadmin` |  |
 | `.licensedirectadmin.getDirectadminOrderableVersions` | GET | `/license/directadmin/orderableVersions` |  |
 | `.licensedirectadmin.getDirectadminByServiceName` | GET | `/license/directadmin/{serviceName}` | serviceName: string |
 | `.licensedirectadmin.updateDirectadminByServiceName` | PUT | `/license/directadmin/{serviceName}` | serviceName: string |
@@ -2988,7 +2988,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.licenseoffice.listOffices` | GET | `/license/office` |  |
+| `.licenseoffice.listOffice` | GET | `/license/office` |  |
 | `.licenseoffice.getOfficeByServiceName` | GET | `/license/office/{serviceName}` | serviceName: string |
 | `.licenseoffice.updateOfficeByServiceName` | PUT | `/license/office/{serviceName}` | serviceName: string |
 | `.licenseoffice.getOfficeDomainByServiceName` | GET | `/license/office/{serviceName}/domain` | serviceName: string |
@@ -3009,7 +3009,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.licenseofficeprepaid.listOfficePrepaids` | GET | `/license/officePrepaid` |  |
+| `.licenseofficeprepaid.listOfficePrepaid` | GET | `/license/officePrepaid` |  |
 | `.licenseofficeprepaid.getOfficePrepaidByServiceName` | GET | `/license/officePrepaid/{serviceName}` | serviceName: string |
 | `.licenseofficeprepaid.updateOfficePrepaidByServiceName` | PUT | `/license/officePrepaid/{serviceName}` | serviceName: string |
 | `.licenseofficeprepaid.updateOfficePrepaidPasswordByServiceName` | POST | `/license/officePrepaid/{serviceName}/changePassword` | serviceName: string<br />body: {<br />  notifyEmail?: string<br />&nbsp;&nbsp; password?: string<br />&nbsp;&nbsp; shouldSendMail: boolean <br />} |
@@ -3028,7 +3028,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.licenseplesk.listPlesks` | GET | `/license/plesk` |  |
+| `.licenseplesk.listPlesk` | GET | `/license/plesk` |  |
 | `.licenseplesk.getPleskOrderableVersions` | GET | `/license/plesk/orderableVersions` |  |
 | `.licenseplesk.getPleskByServiceName` | GET | `/license/plesk/{serviceName}` | serviceName: string |
 | `.licenseplesk.updatePleskByServiceName` | PUT | `/license/plesk/{serviceName}` | serviceName: string |
@@ -3049,7 +3049,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.licenseredhat.listRedhats` | GET | `/license/redhat` |  |
+| `.licenseredhat.listRedhat` | GET | `/license/redhat` |  |
 | `.licenseredhat.getRedhatByServiceName` | GET | `/license/redhat/{serviceName}` | serviceName: string |
 | `.licenseredhat.updateRedhatByServiceName` | PUT | `/license/redhat/{serviceName}` | serviceName: string |
 | `.licenseredhat.confirmRedhatTerminationByServiceName` | POST | `/license/redhat/{serviceName}/confirmTermination` | serviceName: string<br />body: {<br />  commentary?: string<br />&nbsp;&nbsp; futureUse?: [ServiceTerminationFutureUseEnum](lib/src/models/ServiceTerminationFutureUseEnum.ts)<br />&nbsp;&nbsp; reason?: [ServiceTerminationReasonEnum](lib/src/models/ServiceTerminationReasonEnum.ts)<br />&nbsp;&nbsp; token: string <br />} |
@@ -3063,7 +3063,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.licensesqlserver.listSqlservers` | GET | `/license/sqlserver` |  |
+| `.licensesqlserver.listSqlserver` | GET | `/license/sqlserver` |  |
 | `.licensesqlserver.getSqlserverOrderableVersions` | GET | `/license/sqlserver/orderableVersions` |  |
 | `.licensesqlserver.getSqlserverByServiceName` | GET | `/license/sqlserver/{serviceName}` | serviceName: string |
 | `.licensesqlserver.confirmSqlserverTerminationByServiceName` | POST | `/license/sqlserver/{serviceName}/confirmTermination` | serviceName: string<br />body: {<br />  commentary?: string<br />&nbsp;&nbsp; futureUse?: [ServiceTerminationFutureUseEnum](lib/src/models/ServiceTerminationFutureUseEnum.ts)<br />&nbsp;&nbsp; reason?: [ServiceTerminationReasonEnum](lib/src/models/ServiceTerminationReasonEnum.ts)<br />&nbsp;&nbsp; token: string <br />} |
@@ -3077,7 +3077,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.licensevirtuozzo.listVirtuozzos` | GET | `/license/virtuozzo` |  |
+| `.licensevirtuozzo.listVirtuozzo` | GET | `/license/virtuozzo` |  |
 | `.licensevirtuozzo.getVirtuozzoOrderableVersions` | GET | `/license/virtuozzo/orderableVersions` |  |
 | `.licensevirtuozzo.getVirtuozzoByServiceName` | GET | `/license/virtuozzo/{serviceName}` | serviceName: string |
 | `.licensevirtuozzo.updateVirtuozzoByServiceName` | PUT | `/license/virtuozzo/{serviceName}` | serviceName: string |
@@ -3117,7 +3117,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.licenseworklight.listWorklights` | GET | `/license/worklight` |  |
+| `.licenseworklight.listWorklight` | GET | `/license/worklight` |  |
 | `.licenseworklight.getWorklightOrderableVersions` | GET | `/license/worklight/orderableVersions` |  |
 | `.licenseworklight.getWorklightByServiceName` | GET | `/license/worklight/{serviceName}` | serviceName: string |
 | `.licenseworklight.updateWorklightByServiceName` | PUT | `/license/worklight/{serviceName}` | serviceName: string |
@@ -3147,7 +3147,7 @@
 | `.me.validateAccessRestrictionBackupCode` | POST | `/me/accessRestriction/backupCode/validate` | body: {<br />  code: string <br />} |
 | `.me.getAccessRestrictionDeveloperMode` | GET | `/me/accessRestriction/developerMode` |  |
 | `.me.updateAccessRestrictionDeveloperMode` | PUT | `/me/accessRestriction/developerMode` |  |
-| `.me.listAccessRestrictionIps` | GET | `/me/accessRestriction/ip` |  |
+| `.me.listAccessRestrictionIp` | GET | `/me/accessRestriction/ip` |  |
 | `.me.addAccessRestrictionIp` | POST | `/me/accessRestriction/ip` | body: {<br />  ip: string<br />&nbsp;&nbsp; rule: [NichandleAccessRestrictionIpRestrictionRuleEnum](lib/src/models/NichandleAccessRestrictionIpRestrictionRuleEnum.ts)<br />&nbsp;&nbsp; warning: boolean <br />} |
 | `.me.deleteAccessRestrictionIpById` | DELETE | `/me/accessRestriction/ip/{id}` | id: number |
 | `.me.getAccessRestrictionIpById` | GET | `/me/accessRestriction/ip/{id}` | id: number |
@@ -3163,7 +3163,7 @@
 | `.me.enableAccessRestrictionSmsById` | POST | `/me/accessRestriction/sms/{id}/enable` | id: number<br />body: {<br />  code: string <br />} |
 | `.me.sendAccessRestrictionSmsCodeById` | POST | `/me/accessRestriction/sms/{id}/sendCode` | id: number |
 | `.me.validateAccessRestrictionSmsById` | POST | `/me/accessRestriction/sms/{id}/validate` | id: number<br />body: {<br />  code: string <br />} |
-| `.me.listAccessRestrictionTotps` | GET | `/me/accessRestriction/totp` |  |
+| `.me.listAccessRestrictionTotp` | GET | `/me/accessRestriction/totp` |  |
 | `.me.addAccessRestrictionTotp` | POST | `/me/accessRestriction/totp` |  |
 | `.me.deleteAccessRestrictionTotpById` | DELETE | `/me/accessRestriction/totp/{id}` | id: number |
 | `.me.getAccessRestrictionTotpById` | GET | `/me/accessRestriction/totp/{id}` | id: number |
@@ -3171,7 +3171,7 @@
 | `.me.disableAccessRestrictionTotpById` | POST | `/me/accessRestriction/totp/{id}/disable` | id: number<br />body: {<br />  code: string <br />} |
 | `.me.enableAccessRestrictionTotpById` | POST | `/me/accessRestriction/totp/{id}/enable` | id: number<br />body: {<br />  code: string <br />} |
 | `.me.validateAccessRestrictionTotpById` | POST | `/me/accessRestriction/totp/{id}/validate` | id: number<br />body: {<br />  code: string <br />} |
-| `.me.listAccessRestrictionU2fs` | GET | `/me/accessRestriction/u2f` |  |
+| `.me.listAccessRestrictionU2f` | GET | `/me/accessRestriction/u2f` |  |
 | `.me.addAccessRestrictionU2f` | POST | `/me/accessRestriction/u2f` |  |
 | `.me.deleteAccessRestrictionU2fById` | DELETE | `/me/accessRestriction/u2f/{id}` | id: number |
 | `.me.getAccessRestrictionU2fById` | GET | `/me/accessRestriction/u2f/{id}` | id: number |
@@ -3192,7 +3192,7 @@
 | `.me.getApiCredentialByCredentialId` | GET | `/me/api/credential/{credentialId}` | credentialId: number |
 | `.me.updateApiCredentialByCredentialId` | PUT | `/me/api/credential/{credentialId}` | credentialId: number |
 | `.me.getApiCredentialApplicationByCredentialId` | GET | `/me/api/credential/{credentialId}/application` | credentialId: number |
-| `.me.listApiLogsSelfs` | GET | `/me/api/logs/self` |  |
+| `.me.listApiLogsSelf` | GET | `/me/api/logs/self` |  |
 | `.me.getApiLogsSelfByLogId` | GET | `/me/api/logs/self/{logId}` | logId: number |
 | `.me.listApiLogsServices` | GET | `/me/api/logs/services` |  |
 | `.me.getApiLogsServicesByLogId` | GET | `/me/api/logs/services/{logId}` | logId: number |
@@ -3200,7 +3200,7 @@
 | `.me.postAutorenew` | POST | `/me/autorenew` | body: {<br />  renewDay: number <br />} |
 | `.me.updateAutorenew` | PUT | `/me/autorenew` |  |
 | `.me.listAvailableAutomaticPaymentMeans` | GET | `/me/availableAutomaticPaymentMeans` |  |
-| `.me.listBills` | GET | `/me/bill` |  |
+| `.me.listBill` | GET | `/me/bill` |  |
 | `.me.exportBill` | POST | `/me/bill/export` | body: {<br />  archiveType: [BillingArchiveTypeEnum](lib/src/models/BillingArchiveTypeEnum.ts)<br />&nbsp;&nbsp; endDate?: Date<br />&nbsp;&nbsp; ids?: string[]<br />&nbsp;&nbsp; startDate?: Date <br />} |
 | `.me.getBillByBillId` | GET | `/me/bill/{billId}` | billId: string |
 | `.me.getBillDebtByBillId` | GET | `/me/bill/{billId}/debt` | billId: string |
@@ -3231,7 +3231,7 @@
 | `.me.getCertificates` | GET | `/me/certificates` |  |
 | `.me.postChangeEmail` | POST | `/me/changeEmail` | body: {<br />  newEmail: string <br />} |
 | `.me.postChangePassword` | POST | `/me/changePassword` |  |
-| `.me.listConsents` | GET | `/me/consent` |  |
+| `.me.listConsent` | GET | `/me/consent` |  |
 | `.me.getConsentByCampaignName` | GET | `/me/consent/{campaignName}` | campaignName: string |
 | `.me.getConsentDecisionByCampaignName` | GET | `/me/consent/{campaignName}/decision` | campaignName: string |
 | `.me.updateConsentDecisionByCampaignName` | PUT | `/me/consent/{campaignName}/decision` | campaignName: string<br />body: {<br />  value: boolean <br />} |
@@ -3256,7 +3256,7 @@
 | `.me.getDebtAccountDebtOperationAssociatedObjectByDebtIdAndOperationId` | GET | `/me/debtAccount/debt/{debtId}/operation/{operationId}/associatedObject` | debtId: number<br /> operationId: number |
 | `.me.createDebtAccountDebtPayByDebtId` | POST | `/me/debtAccount/debt/{debtId}/pay` | debtId: number |
 | `.me.createDebtAccountPay` | POST | `/me/debtAccount/pay` |  |
-| `.me.listDeposits` | GET | `/me/deposit` |  |
+| `.me.listDeposit` | GET | `/me/deposit` |  |
 | `.me.getDepositByDepositId` | GET | `/me/deposit/{depositId}` | depositId: string |
 | `.me.getDepositDetailsByDepositId` | GET | `/me/deposit/{depositId}/details` | depositId: string |
 | `.me.getDepositDetailsByDepositIdAndDepositDetailId` | GET | `/me/deposit/{depositId}/details/{depositDetailId}` | depositDetailId: string<br /> depositId: string |
@@ -3271,7 +3271,7 @@
 | `.me.getDepositPaidBillsDetailsByDepositIdAndBillIdAndBillDetailId` | GET | `/me/deposit/{depositId}/paidBills/{billId}/details/{billDetailId}` | billDetailId: string<br /> billId: string<br /> depositId: string |
 | `.me.getDepositPaidBillsPaymentByDepositIdAndBillId` | GET | `/me/deposit/{depositId}/paidBills/{billId}/payment` | billId: string<br /> depositId: string |
 | `.me.getDepositPaymentByDepositId` | GET | `/me/deposit/{depositId}/payment` | depositId: string |
-| `.me.listDocuments` | GET | `/me/document` |  |
+| `.me.listDocument` | GET | `/me/document` |  |
 | `.me.createDocument` | POST | `/me/document` | body: {<br />  name: string<br />&nbsp;&nbsp; tags?: string <br />} |
 | `.me.addDocumentCors` | POST | `/me/document/cors` | body: {<br />  origin: string <br />} |
 | `.me.deleteDocumentById` | DELETE | `/me/document/{id}` | id: string |
@@ -3327,12 +3327,12 @@
 | `.me.deleteInstallationTemplatePartitionSchemePartitionByTemplateNameAndSchemeNameAndMountpoint` | DELETE | `/me/installationTemplate/{templateName}/partitionScheme/{schemeName}/partition/{mountpoint}` | mountpoint: string<br /> schemeName: string<br /> templateName: string |
 | `.me.getInstallationTemplatePartitionSchemePartitionByTemplateNameAndSchemeNameAndMountpoint` | GET | `/me/installationTemplate/{templateName}/partitionScheme/{schemeName}/partition/{mountpoint}` | mountpoint: string<br /> schemeName: string<br /> templateName: string |
 | `.me.updateInstallationTemplatePartitionSchemePartitionByTemplateNameAndSchemeNameAndMountpoint` | PUT | `/me/installationTemplate/{templateName}/partitionScheme/{schemeName}/partition/{mountpoint}` | mountpoint: string<br /> schemeName: string<br /> templateName: string |
-| `.me.listIpOrganisations` | GET | `/me/ipOrganisation` |  |
+| `.me.listIpOrganisation` | GET | `/me/ipOrganisation` |  |
 | `.me.addIpOrganisation` | POST | `/me/ipOrganisation` | body: {<br />  abuse_mailbox: string<br />&nbsp;&nbsp; address: string<br />&nbsp;&nbsp; city: string<br />&nbsp;&nbsp; country: [NichandleCountryEnum](lib/src/models/NichandleCountryEnum.ts)<br />&nbsp;&nbsp; firstname: string<br />&nbsp;&nbsp; lastname: string<br />&nbsp;&nbsp; phone: string<br />&nbsp;&nbsp; registry: [NichandleIpRegistryEnum](lib/src/models/NichandleIpRegistryEnum.ts)<br />&nbsp;&nbsp; state?: string<br />&nbsp;&nbsp; zip?: string <br />} |
 | `.me.deleteIpOrganisationByOrganisationId` | DELETE | `/me/ipOrganisation/{organisationId}` | organisationId: string |
 | `.me.getIpOrganisationByOrganisationId` | GET | `/me/ipOrganisation/{organisationId}` | organisationId: string |
 | `.me.updateIpOrganisationByOrganisationId` | PUT | `/me/ipOrganisation/{organisationId}` | organisationId: string |
-| `.me.listIpxeScripts` | GET | `/me/ipxeScript` |  |
+| `.me.listIpxeScript` | GET | `/me/ipxeScript` |  |
 | `.me.addIpxeScript` | POST | `/me/ipxeScript` | body: {<br />  description: string<br />&nbsp;&nbsp; name: string<br />&nbsp;&nbsp; script: string <br />} |
 | `.me.deleteIpxeScriptByName` | DELETE | `/me/ipxeScript/{name}` | name: string |
 | `.me.getIpxeScriptByName` | GET | `/me/ipxeScript/{name}` | name: string |
@@ -3348,11 +3348,11 @@
 | `.me.getMigrationContractAgreementByMigrationIdAndContractId` | GET | `/me/migration/{migrationId}/contract/{contractId}/agreement` | contractId: number<br /> migrationId: number |
 | `.me.getNotificationEmailHistory` | GET | `/me/notification/email/history` |  |
 | `.me.getNotificationEmailHistoryById` | GET | `/me/notification/email/history/{id}` | id: number |
-| `.me.listOrders` | GET | `/me/order` |  |
+| `.me.listOrder` | GET | `/me/order` |  |
 | `.me.getOrderByOrderId` | GET | `/me/order/{orderId}` | orderId: number |
 | `.me.getOrderAssociatedObjectByOrderId` | GET | `/me/order/{orderId}/associatedObject` | orderId: number |
-| `.me.listOrderAvailableRegisteredPaymentMeansByOrderId` | GET | `/me/order/{orderId}/availableRegisteredPaymentMean` | orderId: number |
-| `.me.listOrderBalancesByOrderId` | GET | `/me/order/{orderId}/balance` | orderId: number |
+| `.me.listOrderAvailableRegisteredPaymentMeanByOrderId` | GET | `/me/order/{orderId}/availableRegisteredPaymentMean` | orderId: number |
+| `.me.listOrderBalanceByOrderId` | GET | `/me/order/{orderId}/balance` | orderId: number |
 | `.me.postOrderBalanceByOrderId` | POST | `/me/order/{orderId}/balance` | orderId: number<br />body: {<br />  balanceName: string <br />} |
 | `.me.deleteOrderBalanceByOrderIdAndBalanceName` | DELETE | `/me/order/{orderId}/balance/{balanceName}` | balanceName: string<br /> orderId: number |
 | `.me.getOrderBalanceByOrderIdAndBalanceName` | GET | `/me/order/{orderId}/balance/{balanceName}` | balanceName: string<br /> orderId: number |
@@ -3374,7 +3374,7 @@
 | `.me.postOrderRetractionByOrderId` | POST | `/me/order/{orderId}/retraction` | orderId: number<br />body: {<br />  comment?: string<br />&nbsp;&nbsp; reason: [BillingOrderRetractionReasonEnum](lib/src/models/BillingOrderRetractionReasonEnum.ts) <br />} |
 | `.me.getOrderStatusByOrderId` | GET | `/me/order/{orderId}/status` | orderId: number |
 | `.me.postOrderWaiveRetractionByOrderId` | POST | `/me/order/{orderId}/waiveRetraction` | orderId: number |
-| `.me.listOvhAccounts` | GET | `/me/ovhAccount` |  |
+| `.me.listOvhAccount` | GET | `/me/ovhAccount` |  |
 | `.me.getOvhAccountByOvhAccountId` | GET | `/me/ovhAccount/{ovhAccountId}` | ovhAccountId: string |
 | `.me.updateOvhAccountByOvhAccountId` | PUT | `/me/ovhAccount/{ovhAccountId}` | ovhAccountId: string |
 | `.me.postOvhAccountCreditOrderByOvhAccountId` | POST | `/me/ovhAccount/{ovhAccountId}/creditOrder` | ovhAccountId: string<br />body: {<br />  amount: number <br />} |
@@ -3395,25 +3395,25 @@
 | `.me.postPaymentMethodFinalizeByPaymentMethodId` | POST | `/me/payment/method/{paymentMethodId}/finalize` | paymentMethodId: number |
 | `.me.getPaymentTransaction` | GET | `/me/payment/transaction` |  |
 | `.me.getPaymentTransactionByTransactionId` | GET | `/me/payment/transaction/{transactionId}` | transactionId: number |
-| `.me.listPaymentMeanBankAccounts` | GET | `/me/paymentMean/bankAccount` |  |
+| `.me.listPaymentMeanBankAccount` | GET | `/me/paymentMean/bankAccount` |  |
 | `.me.addPaymentMeanBankAccount` | POST | `/me/paymentMean/bankAccount` |  |
 | `.me.disablePaymentMeanBankAccountById` | DELETE | `/me/paymentMean/bankAccount/{id}` | id: number |
 | `.me.getPaymentMeanBankAccountById` | GET | `/me/paymentMean/bankAccount/{id}` | id: number |
 | `.me.updatePaymentMeanBankAccountById` | PUT | `/me/paymentMean/bankAccount/{id}` | id: number |
 | `.me.postPaymentMeanBankAccountChallengeById` | POST | `/me/paymentMean/bankAccount/{id}/challenge` | id: number |
 | `.me.postPaymentMeanBankAccountChooseAsDefaultPaymentMeanById` | POST | `/me/paymentMean/bankAccount/{id}/chooseAsDefaultPaymentMean` | id: number |
-| `.me.listPaymentMeanCreditCards` | GET | `/me/paymentMean/creditCard` |  |
+| `.me.listPaymentMeanCreditCard` | GET | `/me/paymentMean/creditCard` |  |
 | `.me.addPaymentMeanCreditCard` | POST | `/me/paymentMean/creditCard` |  |
 | `.me.disablePaymentMeanCreditCardById` | DELETE | `/me/paymentMean/creditCard/{id}` | id: number |
 | `.me.getPaymentMeanCreditCardById` | GET | `/me/paymentMean/creditCard/{id}` | id: number |
 | `.me.updatePaymentMeanCreditCardById` | PUT | `/me/paymentMean/creditCard/{id}` | id: number |
 | `.me.postPaymentMeanCreditCardChallengeById` | POST | `/me/paymentMean/creditCard/{id}/challenge` | id: number |
 | `.me.postPaymentMeanCreditCardChooseAsDefaultPaymentMeanById` | POST | `/me/paymentMean/creditCard/{id}/chooseAsDefaultPaymentMean` | id: number |
-| `.me.listPaymentMeanDeferredPaymentAccounts` | GET | `/me/paymentMean/deferredPaymentAccount` |  |
+| `.me.listPaymentMeanDeferredPaymentAccount` | GET | `/me/paymentMean/deferredPaymentAccount` |  |
 | `.me.getPaymentMeanDeferredPaymentAccountById` | GET | `/me/paymentMean/deferredPaymentAccount/{id}` | id: number |
 | `.me.updatePaymentMeanDeferredPaymentAccountById` | PUT | `/me/paymentMean/deferredPaymentAccount/{id}` | id: number |
 | `.me.postPaymentMeanDeferredPaymentAccountChooseAsDefaultPaymentMeanById` | POST | `/me/paymentMean/deferredPaymentAccount/{id}/chooseAsDefaultPaymentMean` | id: number |
-| `.me.listPaymentMeanPaypals` | GET | `/me/paymentMean/paypal` |  |
+| `.me.listPaymentMeanPaypal` | GET | `/me/paymentMean/paypal` |  |
 | `.me.addPaymentMeanPaypal` | POST | `/me/paymentMean/paypal` |  |
 | `.me.disablePaymentMeanPaypalById` | DELETE | `/me/paymentMean/paypal/{id}` | id: number |
 | `.me.getPaymentMeanPaypalById` | GET | `/me/paymentMean/paypal/{id}` | id: number |
@@ -3421,34 +3421,34 @@
 | `.me.postPaymentMeanPaypalChallengeById` | POST | `/me/paymentMean/paypal/{id}/challenge` | id: number |
 | `.me.postPaymentMeanPaypalChooseAsDefaultPaymentMeanById` | POST | `/me/paymentMean/paypal/{id}/chooseAsDefaultPaymentMean` | id: number |
 | `.me.getRecommendations` | GET | `/me/recommendations` |  |
-| `.me.listRefunds` | GET | `/me/refund` |  |
+| `.me.listRefund` | GET | `/me/refund` |  |
 | `.me.exportRefund` | POST | `/me/refund/export` | body: {<br />  archiveType: [BillingArchiveTypeEnum](lib/src/models/BillingArchiveTypeEnum.ts)<br />&nbsp;&nbsp; endDate?: Date<br />&nbsp;&nbsp; ids?: string[]<br />&nbsp;&nbsp; startDate?: Date <br />} |
 | `.me.getRefundByRefundId` | GET | `/me/refund/{refundId}` | refundId: string |
 | `.me.getRefundDetailsByRefundId` | GET | `/me/refund/{refundId}/details` | refundId: string |
 | `.me.getRefundDetailsByRefundIdAndRefundDetailId` | GET | `/me/refund/{refundId}/details/{refundDetailId}` | refundDetailId: string<br /> refundId: string |
 | `.me.getRefundPaymentByRefundId` | GET | `/me/refund/{refundId}/payment` | refundId: string |
-| `.me.listReverseBills` | GET | `/me/reverseBill` |  |
+| `.me.listReverseBill` | GET | `/me/reverseBill` |  |
 | `.me.getReverseBillByReverseBillId` | GET | `/me/reverseBill/{reverseBillId}` | reverseBillId: string |
 | `.me.getReverseBillDetailsByReverseBillId` | GET | `/me/reverseBill/{reverseBillId}/details` | reverseBillId: string |
 | `.me.getReverseBillDetailsByReverseBillIdAndReverseBillDetailId` | GET | `/me/reverseBill/{reverseBillId}/details/{reverseBillDetailId}` | reverseBillDetailId: string<br /> reverseBillId: string |
 | `.me.getReverseBillPaymentByReverseBillId` | GET | `/me/reverseBill/{reverseBillId}/payment` | reverseBillId: string |
-| `.me.listSlas` | GET | `/me/sla` |  |
+| `.me.listSla` | GET | `/me/sla` |  |
 | `.me.getSlaById` | GET | `/me/sla/{id}` | id: number |
 | `.me.postSlaApplyById` | POST | `/me/sla/{id}/apply` | id: number |
 | `.me.checkSlaCanBeAppliedById` | GET | `/me/sla/{id}/canBeApplied` | id: number |
 | `.me.getSlaServicesById` | GET | `/me/sla/{id}/services` | id: number |
 | `.me.getSlaStatusById` | GET | `/me/sla/{id}/status` | id: number |
-| `.me.listSshKeys` | GET | `/me/sshKey` |  |
+| `.me.listSshKey` | GET | `/me/sshKey` |  |
 | `.me.addSshKey` | POST | `/me/sshKey` | body: {<br />  key: string<br />&nbsp;&nbsp; keyName: string <br />} |
 | `.me.deleteSshKeyByKeyName` | DELETE | `/me/sshKey/{keyName}` | keyName: string |
 | `.me.getSshKeyByKeyName` | GET | `/me/sshKey/{keyName}` | keyName: string |
 | `.me.updateSshKeyByKeyName` | PUT | `/me/sshKey/{keyName}` | keyName: string |
-| `.me.listSubAccounts` | GET | `/me/subAccount` |  |
+| `.me.listSubAccount` | GET | `/me/subAccount` |  |
 | `.me.createSubAccount` | POST | `/me/subAccount` | body: {<br />  description?: string <br />} |
 | `.me.getSubAccountById` | GET | `/me/subAccount/{id}` | id: number |
 | `.me.updateSubAccountById` | PUT | `/me/subAccount/{id}` | id: number |
 | `.me.createSubAccountConsumerKeyById` | POST | `/me/subAccount/{id}/createConsumerKey` | id: number |
-| `.me.listSubscriptions` | GET | `/me/subscription` |  |
+| `.me.listSubscription` | GET | `/me/subscription` |  |
 | `.me.getSubscriptionBySubscriptionType` | GET | `/me/subscription/{subscriptionType}` | subscriptionType: string |
 | `.me.updateSubscriptionBySubscriptionType` | PUT | `/me/subscription/{subscriptionType}` | subscriptionType: string |
 | `.me.getSupportLevel` | GET | `/me/supportLevel` |  |
@@ -3457,21 +3457,21 @@
 | `.me.getTagAvailable` | GET | `/me/tag/available` |  |
 | `.me.deleteTagByTag` | DELETE | `/me/tag/{tag}` | tag: string |
 | `.me.getTagByTag` | GET | `/me/tag/{tag}` | tag: string |
-| `.me.listTaskContactChanges` | GET | `/me/task/contactChange` |  |
+| `.me.listTaskContactChange` | GET | `/me/task/contactChange` |  |
 | `.me.getTaskContactChangeById` | GET | `/me/task/contactChange/{id}` | id: number |
 | `.me.postTaskContactChangeAcceptById` | POST | `/me/task/contactChange/{id}/accept` | id: number<br />body: {<br />  token: string <br />} |
 | `.me.postTaskContactChangeRefuseById` | POST | `/me/task/contactChange/{id}/refuse` | id: number<br />body: {<br />  token: string <br />} |
 | `.me.postTaskContactChangeResendEmailById` | POST | `/me/task/contactChange/{id}/resendEmail` | id: number |
-| `.me.listTaskDomains` | GET | `/me/task/domain` |  |
+| `.me.listTaskDomain` | GET | `/me/task/domain` |  |
 | `.me.getTaskDomainById` | GET | `/me/task/domain/{id}` | id: number |
 | `.me.postTaskDomainAccelerateById` | POST | `/me/task/domain/{id}/accelerate` | id: number |
-| `.me.listTaskDomainArgumentsById` | GET | `/me/task/domain/{id}/argument` | id: number |
+| `.me.listTaskDomainArgumentById` | GET | `/me/task/domain/{id}/argument` | id: number |
 | `.me.getTaskDomainArgumentByIdAndKey` | GET | `/me/task/domain/{id}/argument/{key}` | id: number<br /> key: string |
 | `.me.updateTaskDomainArgumentByIdAndKey` | PUT | `/me/task/domain/{id}/argument/{key}` | id: number<br /> key: string |
 | `.me.postTaskDomainCancelById` | POST | `/me/task/domain/{id}/cancel` | id: number |
 | `.me.getTaskDomainProgressbarById` | GET | `/me/task/domain/{id}/progressbar` | id: number |
 | `.me.postTaskDomainRelaunchById` | POST | `/me/task/domain/{id}/relaunch` | id: number |
-| `.me.listTaskEmailChanges` | GET | `/me/task/emailChange` |  |
+| `.me.listTaskEmailChange` | GET | `/me/task/emailChange` |  |
 | `.me.getTaskEmailChangeById` | GET | `/me/task/emailChange/{id}` | id: number |
 | `.me.postTaskEmailChangeAcceptById` | POST | `/me/task/emailChange/{id}/accept` | id: number<br />body: {<br />  token: string <br />} |
 | `.me.postTaskEmailChangeRefuseById` | POST | `/me/task/emailChange/{id}/refuse` | id: number<br />body: {<br />  token: string <br />} |
@@ -3483,7 +3483,7 @@
 | `.me.updateTelephonySettings` | POST | `/me/telephony/settings` | body: {<br />  settings: [TelephonySettings](lib/src/models/TelephonySettings.ts) <br />} |
 | `.me.getVipStatus` | GET | `/me/vipStatus` |  |
 | `.me.postVoucherCheckValidity` | POST | `/me/voucher/checkValidity` | body: {<br />  voucher: string <br />} |
-| `.me.listWithdrawals` | GET | `/me/withdrawal` |  |
+| `.me.listWithdrawal` | GET | `/me/withdrawal` |  |
 | `.me.getWithdrawalByWithdrawalId` | GET | `/me/withdrawal/{withdrawalId}` | withdrawalId: string |
 | `.me.getWithdrawalDetailsByWithdrawalId` | GET | `/me/withdrawal/{withdrawalId}/details` | withdrawalId: string |
 | `.me.getWithdrawalDetailsByWithdrawalIdAndWithdrawalDetailId` | GET | `/me/withdrawal/{withdrawalId}/details/{withdrawalDetailId}` | withdrawalDetailId: string<br /> withdrawalId: string |
@@ -3495,7 +3495,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.metrics.lists` | GET | `/metrics` |  |
+| `.metrics.list` | GET | `/metrics` |  |
 | `.metrics.getByServiceName` | GET | `/metrics/{serviceName}` | serviceName: string |
 | `.metrics.putByServiceName` | PUT | `/metrics/{serviceName}` | serviceName: string |
 | `.metrics.launchChangeContactByServiceName` | POST | `/metrics/{serviceName}/changeContact` | serviceName: string<br />body: {<br />  contactAdmin?: string<br />&nbsp;&nbsp; contactBilling?: string<br />&nbsp;&nbsp; contactTech?: string <br />} |
@@ -3516,8 +3516,8 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.msservices.lists` | GET | `/msServices` |  |
-| `.msservices.listSharepoints` | GET | `/msServices/sharepoint` |  |
+| `.msservices.list` | GET | `/msServices` |  |
+| `.msservices.listSharepoint` | GET | `/msServices/sharepoint` |  |
 | `.msservices.getSharepointByDomain` | GET | `/msServices/sharepoint/{domain}` | domain: string |
 | `.msservices.getSharepointServiceInfosByDomain` | GET | `/msServices/sharepoint/{domain}/serviceInfos` | domain: string |
 | `.msservices.updateSharepointServiceInfosByDomain` | PUT | `/msServices/sharepoint/{domain}/serviceInfos` | domain: string |
@@ -3605,7 +3605,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.order.listCarts` | GET | `/order/cart` |  |
+| `.order.listCart` | GET | `/order/cart` |  |
 | `.order.createCart` | POST | `/order/cart` |  |
 | `.order.deleteCartByCartId` | DELETE | `/order/cart/{cartId}` | cartId: string |
 | `.order.getCartByCartId` | GET | `/order/cart/{cartId}` | cartId: string |
@@ -3739,7 +3739,7 @@
 | `.order.postCartIspResellerByCartId` | POST | `/order/cart/{cartId}/ispReseller` | cartId: string<br />body: {<br />  duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
 | `.order.getCartIspResellerOptionsByCartId` | GET | `/order/cart/{cartId}/ispReseller/options` | cartId: string |
 | `.order.postCartIspResellerOptionsByCartId` | POST | `/order/cart/{cartId}/ispReseller/options` | cartId: string<br />body: {<br />  duration: string<br />&nbsp;&nbsp; itemId: number<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartItemsByCartId` | GET | `/order/cart/{cartId}/item` | cartId: string |
+| `.order.listCartItemByCartId` | GET | `/order/cart/{cartId}/item` | cartId: string |
 | `.order.deleteCartItemByCartIdAndItemId` | DELETE | `/order/cart/{cartId}/item/{itemId}` | cartId: string<br /> itemId: number |
 | `.order.getCartItemByCartIdAndItemId` | GET | `/order/cart/{cartId}/item/{itemId}` | cartId: string<br /> itemId: number |
 | `.order.updateCartItemByCartIdAndItemId` | PUT | `/order/cart/{cartId}/item/{itemId}` | cartId: string<br /> itemId: number |
@@ -3917,67 +3917,67 @@
 | `.order.listCartServiceOptionBaremetalServers` | GET | `/order/cartServiceOption/baremetalServers` |  |
 | `.order.getCartServiceOptionBaremetalServersByServiceName` | GET | `/order/cartServiceOption/baremetalServers/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionBaremetalServersByServiceName` | POST | `/order/cartServiceOption/baremetalServers/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionClouds` | GET | `/order/cartServiceOption/cloud` |  |
+| `.order.listCartServiceOptionCloud` | GET | `/order/cartServiceOption/cloud` |  |
 | `.order.getCartServiceOptionCloudByServiceName` | GET | `/order/cartServiceOption/cloud/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionCloudByServiceName` | POST | `/order/cartServiceOption/cloud/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionDedicateds` | GET | `/order/cartServiceOption/dedicated` |  |
+| `.order.listCartServiceOptionDedicated` | GET | `/order/cartServiceOption/dedicated` |  |
 | `.order.getCartServiceOptionDedicatedByServiceName` | GET | `/order/cartServiceOption/dedicated/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionDedicatedByServiceName` | POST | `/order/cartServiceOption/dedicated/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
 | `.order.listCartServiceOptionDns` | GET | `/order/cartServiceOption/dns` |  |
 | `.order.getCartServiceOptionDnsByServiceName` | GET | `/order/cartServiceOption/dns/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionDnsByServiceName` | POST | `/order/cartServiceOption/dns/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionDomains` | GET | `/order/cartServiceOption/domain` |  |
+| `.order.listCartServiceOptionDomain` | GET | `/order/cartServiceOption/domain` |  |
 | `.order.getCartServiceOptionDomainByServiceName` | GET | `/order/cartServiceOption/domain/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionDomainByServiceName` | POST | `/order/cartServiceOption/domain/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionEmailpros` | GET | `/order/cartServiceOption/emailpro` |  |
+| `.order.listCartServiceOptionEmailpro` | GET | `/order/cartServiceOption/emailpro` |  |
 | `.order.getCartServiceOptionEmailproByServiceName` | GET | `/order/cartServiceOption/emailpro/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionEmailproByServiceName` | POST | `/order/cartServiceOption/emailpro/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionIpLoadbalancings` | GET | `/order/cartServiceOption/ipLoadbalancing` |  |
+| `.order.listCartServiceOptionIpLoadbalancing` | GET | `/order/cartServiceOption/ipLoadbalancing` |  |
 | `.order.getCartServiceOptionIpLoadbalancingByServiceName` | GET | `/order/cartServiceOption/ipLoadbalancing/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionIpLoadbalancingByServiceName` | POST | `/order/cartServiceOption/ipLoadbalancing/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
 | `.order.listCartServiceOptionLogs` | GET | `/order/cartServiceOption/logs` |  |
 | `.order.getCartServiceOptionLogsByServiceName` | GET | `/order/cartServiceOption/logs/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionLogsByServiceName` | POST | `/order/cartServiceOption/logs/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionMicrosofts` | GET | `/order/cartServiceOption/microsoft` |  |
+| `.order.listCartServiceOptionMicrosoft` | GET | `/order/cartServiceOption/microsoft` |  |
 | `.order.getCartServiceOptionMicrosoftByServiceName` | GET | `/order/cartServiceOption/microsoft/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionMicrosoftByServiceName` | POST | `/order/cartServiceOption/microsoft/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionMicrosoftExchanges` | GET | `/order/cartServiceOption/microsoftExchange` |  |
+| `.order.listCartServiceOptionMicrosoftExchange` | GET | `/order/cartServiceOption/microsoftExchange` |  |
 | `.order.getCartServiceOptionMicrosoftExchangeByServiceName` | GET | `/order/cartServiceOption/microsoftExchange/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionMicrosoftExchangeByServiceName` | POST | `/order/cartServiceOption/microsoftExchange/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionOffice365Prepaids` | GET | `/order/cartServiceOption/office365Prepaid` |  |
+| `.order.listCartServiceOptionOffice365Prepaid` | GET | `/order/cartServiceOption/office365Prepaid` |  |
 | `.order.getCartServiceOptionOffice365PrepaidByServiceName` | GET | `/order/cartServiceOption/office365Prepaid/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionOffice365PrepaidByServiceName` | POST | `/order/cartServiceOption/office365Prepaid/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionOfficePrepaids` | GET | `/order/cartServiceOption/officePrepaid` |  |
+| `.order.listCartServiceOptionOfficePrepaid` | GET | `/order/cartServiceOption/officePrepaid` |  |
 | `.order.getCartServiceOptionOfficePrepaidByServiceName` | GET | `/order/cartServiceOption/officePrepaid/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionOfficePrepaidByServiceName` | POST | `/order/cartServiceOption/officePrepaid/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionPrivateClouds` | GET | `/order/cartServiceOption/privateCloud` |  |
+| `.order.listCartServiceOptionPrivateCloud` | GET | `/order/cartServiceOption/privateCloud` |  |
 | `.order.getCartServiceOptionPrivateCloudByServiceName` | GET | `/order/cartServiceOption/privateCloud/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionPrivateCloudByServiceName` | POST | `/order/cartServiceOption/privateCloud/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionPrivateCloudEnterprises` | GET | `/order/cartServiceOption/privateCloudEnterprise` |  |
+| `.order.listCartServiceOptionPrivateCloudEnterprise` | GET | `/order/cartServiceOption/privateCloudEnterprise` |  |
 | `.order.getCartServiceOptionPrivateCloudEnterpriseByServiceName` | GET | `/order/cartServiceOption/privateCloudEnterprise/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionPrivateCloudEnterpriseByServiceName` | POST | `/order/cartServiceOption/privateCloudEnterprise/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionPrivateCloudResellers` | GET | `/order/cartServiceOption/privateCloudReseller` |  |
+| `.order.listCartServiceOptionPrivateCloudReseller` | GET | `/order/cartServiceOption/privateCloudReseller` |  |
 | `.order.getCartServiceOptionPrivateCloudResellerByServiceName` | GET | `/order/cartServiceOption/privateCloudReseller/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionPrivateCloudResellerByServiceName` | POST | `/order/cartServiceOption/privateCloudReseller/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionPrivateCloudResellerEnterprises` | GET | `/order/cartServiceOption/privateCloudResellerEnterprise` |  |
+| `.order.listCartServiceOptionPrivateCloudResellerEnterprise` | GET | `/order/cartServiceOption/privateCloudResellerEnterprise` |  |
 | `.order.getCartServiceOptionPrivateCloudResellerEnterpriseByServiceName` | GET | `/order/cartServiceOption/privateCloudResellerEnterprise/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionPrivateCloudResellerEnterpriseByServiceName` | POST | `/order/cartServiceOption/privateCloudResellerEnterprise/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionSharepoints` | GET | `/order/cartServiceOption/sharepoint` |  |
+| `.order.listCartServiceOptionSharepoint` | GET | `/order/cartServiceOption/sharepoint` |  |
 | `.order.getCartServiceOptionSharepointByServiceName` | GET | `/order/cartServiceOption/sharepoint/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionSharepointByServiceName` | POST | `/order/cartServiceOption/sharepoint/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionSslGateways` | GET | `/order/cartServiceOption/sslGateway` |  |
+| `.order.listCartServiceOptionSslGateway` | GET | `/order/cartServiceOption/sslGateway` |  |
 | `.order.getCartServiceOptionSslGatewayByServiceName` | GET | `/order/cartServiceOption/sslGateway/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionSslGatewayByServiceName` | POST | `/order/cartServiceOption/sslGateway/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionVdis` | GET | `/order/cartServiceOption/vdi` |  |
+| `.order.listCartServiceOptionVdi` | GET | `/order/cartServiceOption/vdi` |  |
 | `.order.getCartServiceOptionVdiByServiceName` | GET | `/order/cartServiceOption/vdi/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionVdiByServiceName` | POST | `/order/cartServiceOption/vdi/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
 | `.order.listCartServiceOptionVps` | GET | `/order/cartServiceOption/vps` |  |
 | `.order.getCartServiceOptionVpsByServiceName` | GET | `/order/cartServiceOption/vps/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionVpsByServiceName` | POST | `/order/cartServiceOption/vps/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionWebHostings` | GET | `/order/cartServiceOption/webHosting` |  |
+| `.order.listCartServiceOptionWebHosting` | GET | `/order/cartServiceOption/webHosting` |  |
 | `.order.getCartServiceOptionWebHostingByServiceName` | GET | `/order/cartServiceOption/webHosting/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionWebHostingByServiceName` | POST | `/order/cartServiceOption/webHosting/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listCartServiceOptionWebPaaSs` | GET | `/order/cartServiceOption/webPaaS` |  |
+| `.order.listCartServiceOptionWebPaaS` | GET | `/order/cartServiceOption/webPaaS` |  |
 | `.order.getCartServiceOptionWebPaaSByServiceName` | GET | `/order/cartServiceOption/webPaaS/{serviceName}` | serviceName: string |
 | `.order.postCartServiceOptionWebPaaSByServiceName` | POST | `/order/cartServiceOption/webPaaS/{serviceName}` | serviceName: string<br />body: {<br />  cartId: string<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; planCode: string<br />&nbsp;&nbsp; pricingMode: string<br />&nbsp;&nbsp; quantity: number <br />} |
 | `.order.getCatalogFormatted` | GET | `/order/catalog/formatted` |  |
@@ -4033,7 +4033,7 @@
 | `.order.getCatalogPublicVps` | GET | `/order/catalog/public/vps` |  |
 | `.order.getCatalogPublicWebHosting` | GET | `/order/catalog/public/webHosting` |  |
 | `.order.getCatalogPublicWebPaaS` | GET | `/order/catalog/public/webPaaS` |  |
-| `.order.listCdnDedicateds` | GET | `/order/cdn/dedicated` |  |
+| `.order.listCdnDedicated` | GET | `/order/cdn/dedicated` |  |
 | `.order.getCdnDedicatedNew` | GET | `/order/cdn/dedicated/new` |  |
 | `.order.getCdnDedicatedNewByDuration` | GET | `/order/cdn/dedicated/new/{duration}` | duration: string |
 | `.order.createCdnDedicatedNewByDuration` | POST | `/order/cdn/dedicated/new/{duration}` | duration: string |
@@ -4047,16 +4047,16 @@
 | `.order.getCdnDedicatedQuotaByServiceName` | GET | `/order/cdn/dedicated/{serviceName}/quota` | serviceName: string |
 | `.order.getCdnDedicatedQuotaByServiceNameAndDuration` | GET | `/order/cdn/dedicated/{serviceName}/quota/{duration}` | duration: string<br /> serviceName: string |
 | `.order.createCdnDedicatedQuotaByServiceNameAndDuration` | POST | `/order/cdn/dedicated/{serviceName}/quota/{duration}` | duration: string<br /> serviceName: string<br />body: {<br />  quota: [CdnanycastOrderQuotaEnum](lib/src/models/CdnanycastOrderQuotaEnum.ts) <br />} |
-| `.order.listCloudProjects` | GET | `/order/cloud/project` |  |
+| `.order.listCloudProject` | GET | `/order/cloud/project` |  |
 | `.order.getCloudProjectByServiceName` | GET | `/order/cloud/project/{serviceName}` | serviceName: string |
 | `.order.getCloudProjectCreditByServiceName` | GET | `/order/cloud/project/{serviceName}/credit` | serviceName: string |
 | `.order.createCloudProjectCreditByServiceName` | POST | `/order/cloud/project/{serviceName}/credit` | serviceName: string<br />body: {<br />  amount: number <br />} |
-| `.order.listDedicatedHousings` | GET | `/order/dedicated/housing` |  |
+| `.order.listDedicatedHousing` | GET | `/order/dedicated/housing` |  |
 | `.order.getDedicatedHousingByServiceName` | GET | `/order/dedicated/housing/{serviceName}` | serviceName: string |
 | `.order.getDedicatedHousingAPCByServiceName` | GET | `/order/dedicated/housing/{serviceName}/APC` | serviceName: string |
 | `.order.getDedicatedHousingAPCByServiceNameAndDuration` | GET | `/order/dedicated/housing/{serviceName}/APC/{duration}` | duration: string<br /> serviceName: string |
 | `.order.createDedicatedHousingAPCByServiceNameAndDuration` | POST | `/order/dedicated/housing/{serviceName}/APC/{duration}` | duration: string<br /> serviceName: string |
-| `.order.listDedicatedServers` | GET | `/order/dedicated/server` |  |
+| `.order.listDedicatedServer` | GET | `/order/dedicated/server` |  |
 | `.order.getDedicatedServerByServiceName` | GET | `/order/dedicated/server/{serviceName}` | serviceName: string |
 | `.order.getDedicatedServerBackupStorageByServiceName` | GET | `/order/dedicated/server/{serviceName}/backupStorage` | serviceName: string |
 | `.order.getDedicatedServerBackupStorageByServiceNameAndDuration` | GET | `/order/dedicated/server/{serviceName}/backupStorage/{duration}` | duration: string<br /> serviceName: string |
@@ -4091,7 +4091,7 @@
 | `.order.getDedicatedServerUsbKeyByServiceName` | GET | `/order/dedicated/server/{serviceName}/usbKey` | serviceName: string |
 | `.order.getDedicatedServerUsbKeyByServiceNameAndDuration` | GET | `/order/dedicated/server/{serviceName}/usbKey/{duration}` | duration: string<br /> serviceName: string |
 | `.order.createDedicatedServerUsbKeyByServiceNameAndDuration` | POST | `/order/dedicated/server/{serviceName}/usbKey/{duration}` | duration: string<br /> serviceName: string<br />body: {<br />  capacity: [DedicatedServerUsbKeyCapacityEnum](lib/src/models/DedicatedServerUsbKeyCapacityEnum.ts) <br />} |
-| `.order.listDedicatedClouds` | GET | `/order/dedicatedCloud` |  |
+| `.order.listDedicatedCloud` | GET | `/order/dedicatedCloud` |  |
 | `.order.getDedicatedCloudByServiceName` | GET | `/order/dedicatedCloud/{serviceName}` | serviceName: string |
 | `.order.getDedicatedCloudAdditionalBandwidthByServiceName` | GET | `/order/dedicatedCloud/{serviceName}/additionalBandwidth` | serviceName: string |
 | `.order.getDedicatedCloudAdditionalBandwidthByServiceNameAndDuration` | GET | `/order/dedicatedCloud/{serviceName}/additionalBandwidth/{duration}` | duration: string<br /> serviceName: string |
@@ -4112,14 +4112,14 @@
 | `.order.createDedicatedCloudUpgradeRessourceByServiceNameAndDuration` | POST | `/order/dedicatedCloud/{serviceName}/upgradeRessource/{duration}` | duration: string<br /> serviceName: string<br />body: {<br />  upgradeType: [DedicatedCloudRessourcesUpgradeTypeEnum](lib/src/models/DedicatedCloudRessourcesUpgradeTypeEnum.ts)<br />&nbsp;&nbsp; upgradedRessourceId?: number<br />&nbsp;&nbsp; upgradedRessourceType: [DedicatedCloudRessourcesUpgradeRessourceTypeEnum](lib/src/models/DedicatedCloudRessourcesUpgradeRessourceTypeEnum.ts) <br />} |
 | `.order.getDedicatedCloudVdiByServiceName` | GET | `/order/dedicatedCloud/{serviceName}/vdi` | serviceName: string |
 | `.order.createDedicatedCloudVdiByServiceName` | POST | `/order/dedicatedCloud/{serviceName}/vdi` | serviceName: string<br />body: {<br />  datacenterId: number<br />&nbsp;&nbsp; firstPublicIpAddress: string<br />&nbsp;&nbsp; secondPublicIpAddress: string <br />} |
-| `.order.listDomainZones` | GET | `/order/domain/zone` |  |
+| `.order.listDomainZone` | GET | `/order/domain/zone` |  |
 | `.order.getDomainZoneNew` | GET | `/order/domain/zone/new` |  |
 | `.order.createDomainZoneNew` | POST | `/order/domain/zone/new` | body: {<br />  minimized?: boolean<br />&nbsp;&nbsp; zoneName: string <br />} |
 | `.order.getDomainZoneByZoneName` | GET | `/order/domain/zone/{zoneName}` | zoneName: string |
 | `.order.getDomainZoneDnsAnycastByZoneName` | GET | `/order/domain/zone/{zoneName}/dnsAnycast` | zoneName: string |
 | `.order.getDomainZoneDnsAnycastByZoneNameAndDuration` | GET | `/order/domain/zone/{zoneName}/dnsAnycast/{duration}` | duration: string<br /> zoneName: string |
 | `.order.createDomainZoneDnsAnycastByZoneNameAndDuration` | POST | `/order/domain/zone/{zoneName}/dnsAnycast/{duration}` | duration: string<br /> zoneName: string |
-| `.order.listEmailDomains` | GET | `/order/email/domain` |  |
+| `.order.listEmailDomain` | GET | `/order/email/domain` |  |
 | `.order.getEmailDomainNew` | GET | `/order/email/domain/new` |  |
 | `.order.getEmailDomainNewByDuration` | GET | `/order/email/domain/new/{duration}` | duration: string |
 | `.order.createEmailDomainNewByDuration` | POST | `/order/email/domain/new/{duration}` | duration: string<br />body: {<br />  domain: string<br />&nbsp;&nbsp; offer: [EmailDomainOfferEnum](lib/src/models/EmailDomainOfferEnum.ts) <br />} |
@@ -4127,8 +4127,8 @@
 | `.order.getEmailDomainUpgradeByDomain` | GET | `/order/email/domain/{domain}/upgrade` | domain: string |
 | `.order.getEmailDomainUpgradeByDomainAndDuration` | GET | `/order/email/domain/{domain}/upgrade/{duration}` | domain: string<br /> duration: string |
 | `.order.createEmailDomainUpgradeByDomainAndDuration` | POST | `/order/email/domain/{domain}/upgrade/{duration}` | domain: string<br /> duration: string<br />body: {<br />  offer: [EmailDomainOfferEnum](lib/src/models/EmailDomainOfferEnum.ts) <br />} |
-| `.order.listEmailExchanges` | GET | `/order/email/exchange` |  |
-| `.order.listEmailExchangeServicesByOrganizationName` | GET | `/order/email/exchange/{organizationName}/service` | organizationName: string |
+| `.order.listEmailExchange` | GET | `/order/email/exchange` |  |
+| `.order.listEmailExchangeServiceByOrganizationName` | GET | `/order/email/exchange/{organizationName}/service` | organizationName: string |
 | `.order.getEmailExchangeServiceByOrganizationNameAndExchangeService` | GET | `/order/email/exchange/{organizationName}/service/{exchangeService}` | exchangeService: string<br /> organizationName: string |
 | `.order.getEmailExchangeServiceAccountByOrganizationNameAndExchangeService` | GET | `/order/email/exchange/{organizationName}/service/{exchangeService}/account` | exchangeService: string<br /> organizationName: string |
 | `.order.getEmailExchangeServiceAccountByOrganizationNameAndExchangeServiceAndDuration` | GET | `/order/email/exchange/{organizationName}/service/{exchangeService}/account/{duration}` | duration: string<br /> exchangeService: string<br /> organizationName: string |
@@ -4143,18 +4143,18 @@
 | `.order.createEmailExchangeServiceOutlookByOrganizationNameAndExchangeServiceAndDuration` | POST | `/order/email/exchange/{organizationName}/service/{exchangeService}/outlook/{duration}` | duration: string<br /> exchangeService: string<br /> organizationName: string<br />body: {<br />  licence: [EmailExchangeOutlookVersionEnum](lib/src/models/EmailExchangeOutlookVersionEnum.ts)<br />&nbsp;&nbsp; primaryEmailAddress: string <br />} |
 | `.order.getEmailExchangeServiceUpgradeByOrganizationNameAndExchangeService` | GET | `/order/email/exchange/{organizationName}/service/{exchangeService}/upgrade` | exchangeService: string<br /> organizationName: string |
 | `.order.createEmailExchangeServiceUpgradeByOrganizationNameAndExchangeService` | POST | `/order/email/exchange/{organizationName}/service/{exchangeService}/upgrade` | exchangeService: string<br /> organizationName: string |
-| `.order.listEmailPros` | GET | `/order/email/pro` |  |
+| `.order.listEmailPro` | GET | `/order/email/pro` |  |
 | `.order.getEmailProByService` | GET | `/order/email/pro/{service}` | service: string |
 | `.order.getEmailProAccountByService` | GET | `/order/email/pro/{service}/account` | service: string |
 | `.order.getEmailProAccountByServiceAndDuration` | GET | `/order/email/pro/{service}/account/{duration}` | duration: string<br /> service: string |
 | `.order.createEmailProAccountByServiceAndDuration` | POST | `/order/email/pro/{service}/account/{duration}` | duration: string<br /> service: string<br />body: {<br />  number: number <br />} |
-| `.order.listFreefaxs` | GET | `/order/freefax` |  |
+| `.order.listFreefax` | GET | `/order/freefax` |  |
 | `.order.getFreefaxNew` | GET | `/order/freefax/new` |  |
 | `.order.createFreefaxNew` | POST | `/order/freefax/new` | body: {<br />  quantity: [FreefaxQuantityEnum](lib/src/models/FreefaxQuantityEnum.ts) <br />} |
 | `.order.getFreefaxByServiceName` | GET | `/order/freefax/{serviceName}` | serviceName: string |
 | `.order.getFreefaxConvertToVoicefaxByServiceName` | GET | `/order/freefax/{serviceName}/convertToVoicefax` | serviceName: string |
 | `.order.createFreefaxConvertToVoicefaxByServiceName` | POST | `/order/freefax/{serviceName}/convertToVoicefax` | serviceName: string<br />body: {<br />  billingAccount: string <br />} |
-| `.order.listHostingPrivateDatabases` | GET | `/order/hosting/privateDatabase` |  |
+| `.order.listHostingPrivateDatabase` | GET | `/order/hosting/privateDatabase` |  |
 | `.order.getHostingPrivateDatabaseNew` | GET | `/order/hosting/privateDatabase/new` |  |
 | `.order.getHostingPrivateDatabaseNewByDuration` | GET | `/order/hosting/privateDatabase/new/{duration}` | duration: string |
 | `.order.createHostingPrivateDatabaseNewByDuration` | POST | `/order/hosting/privateDatabase/new/{duration}` | duration: string<br />body: {<br />  datacenter?: [HostingPrivateDatabaseDatacenterEnum](lib/src/models/HostingPrivateDatabaseDatacenterEnum.ts)<br />&nbsp;&nbsp; offer?: [HostingPrivateDatabaseOfferEnum](lib/src/models/HostingPrivateDatabaseOfferEnum.ts)<br />&nbsp;&nbsp; ram: [HostingPrivateDatabaseAvailableRamSizeEnum](lib/src/models/HostingPrivateDatabaseAvailableRamSizeEnum.ts)<br />&nbsp;&nbsp; version: [HostingPrivateDatabaseOrderableVersionEnum](lib/src/models/HostingPrivateDatabaseOrderableVersionEnum.ts) <br />} |
@@ -4162,7 +4162,7 @@
 | `.order.getHostingPrivateDatabaseRamByServiceName` | GET | `/order/hosting/privateDatabase/{serviceName}/ram` | serviceName: string |
 | `.order.getHostingPrivateDatabaseRamByServiceNameAndDuration` | GET | `/order/hosting/privateDatabase/{serviceName}/ram/{duration}` | duration: string<br /> serviceName: string |
 | `.order.createHostingPrivateDatabaseRamByServiceNameAndDuration` | POST | `/order/hosting/privateDatabase/{serviceName}/ram/{duration}` | duration: string<br /> serviceName: string<br />body: {<br />  ram: [HostingPrivateDatabaseAvailableRamSizeEnum](lib/src/models/HostingPrivateDatabaseAvailableRamSizeEnum.ts) <br />} |
-| `.order.listHostingWebs` | GET | `/order/hosting/web` |  |
+| `.order.listHostingWeb` | GET | `/order/hosting/web` |  |
 | `.order.getHostingWebNew` | GET | `/order/hosting/web/new` |  |
 | `.order.getHostingWebNewByDuration` | GET | `/order/hosting/web/new/{duration}` | duration: string |
 | `.order.createHostingWebNewByDuration` | POST | `/order/hosting/web/new/{duration}` | duration: string<br />body: {<br />  dnsZone?: [HostingWebDnsZoneEnum](lib/src/models/HostingWebDnsZoneEnum.ts)<br />&nbsp;&nbsp; domain: string<br />&nbsp;&nbsp; module?: [HostingWebModuleOrderableNameEnum](lib/src/models/HostingWebModuleOrderableNameEnum.ts)<br />&nbsp;&nbsp; offer: [HostingWebOfferEnum](lib/src/models/HostingWebOfferEnum.ts)<br />&nbsp;&nbsp; waiveRetractationPeriod?: boolean <br />} |
@@ -4188,7 +4188,7 @@
 | `.order.getLicenseCloudLinuxNew` | GET | `/order/license/cloudLinux/new` |  |
 | `.order.getLicenseCloudLinuxNewByDuration` | GET | `/order/license/cloudLinux/new/{duration}` | duration: string |
 | `.order.createLicenseCloudLinuxNewByDuration` | POST | `/order/license/cloudLinux/new/{duration}` | duration: string<br />body: {<br />  ip: string<br />&nbsp;&nbsp; version: [LicenseCloudLinuxVersionEnum](lib/src/models/LicenseCloudLinuxVersionEnum.ts) <br />} |
-| `.order.listLicenseCpanels` | GET | `/order/license/cpanel` |  |
+| `.order.listLicenseCpanel` | GET | `/order/license/cpanel` |  |
 | `.order.getLicenseCpanelNew` | GET | `/order/license/cpanel/new` |  |
 | `.order.getLicenseCpanelNewByDuration` | GET | `/order/license/cpanel/new/{duration}` | duration: string |
 | `.order.createLicenseCpanelNewByDuration` | POST | `/order/license/cpanel/new/{duration}` | duration: string<br />body: {<br />  ip: string<br />&nbsp;&nbsp; serviceType?: [LicenseLicenseTypeEnum](lib/src/models/LicenseLicenseTypeEnum.ts)<br />&nbsp;&nbsp; version: [LicenseOrderableCpanelVersionEnum](lib/src/models/LicenseOrderableCpanelVersionEnum.ts) <br />} |
@@ -4202,7 +4202,7 @@
 | `.order.getLicenseOfficeNew` | GET | `/order/license/office/new` |  |
 | `.order.getLicenseOfficeNewByDuration` | GET | `/order/license/office/new/{duration}` | duration: string |
 | `.order.createLicenseOfficeNewByDuration` | POST | `/order/license/office/new/{duration}` | duration: string<br />body: {<br />  giftCode?: string<br />&nbsp;&nbsp; officeBusinessQuantity?: number<br />&nbsp;&nbsp; officeProPlusQuantity?: number <br />} |
-| `.order.listLicensePlesks` | GET | `/order/license/plesk` |  |
+| `.order.listLicensePlesk` | GET | `/order/license/plesk` |  |
 | `.order.getLicensePleskNew` | GET | `/order/license/plesk/new` |  |
 | `.order.getLicensePleskNewByDuration` | GET | `/order/license/plesk/new/{duration}` | duration: string |
 | `.order.createLicensePleskNewByDuration` | POST | `/order/license/plesk/new/{duration}` | duration: string<br />body: {<br />  antivirus?: [LicenseOrderableAntivirusEnum](lib/src/models/LicenseOrderableAntivirusEnum.ts)<br />&nbsp;&nbsp; applicationSet?: [LicensePleskApplicationSetEnum](lib/src/models/LicensePleskApplicationSetEnum.ts)<br />&nbsp;&nbsp; domainNumber?: [LicenseOrderablePleskDomainNumberEnum](lib/src/models/LicenseOrderablePleskDomainNumberEnum.ts)<br />&nbsp;&nbsp; ip: string<br />&nbsp;&nbsp; languagePackNumber?: [LicenseOrderablePleskLanguagePackEnum](lib/src/models/LicenseOrderablePleskLanguagePackEnum.ts)<br />&nbsp;&nbsp; powerpack?: boolean<br />&nbsp;&nbsp; resellerManagement?: boolean<br />&nbsp;&nbsp; serviceType?: [LicenseLicenseTypeEnum](lib/src/models/LicenseLicenseTypeEnum.ts)<br />&nbsp;&nbsp; version: [LicensePleskVersionEnum](lib/src/models/LicensePleskVersionEnum.ts)<br />&nbsp;&nbsp; wordpressToolkit?: boolean <br />} |
@@ -4210,7 +4210,7 @@
 | `.order.getLicensePleskUpgradeByServiceName` | GET | `/order/license/plesk/{serviceName}/upgrade` | serviceName: string |
 | `.order.getLicensePleskUpgradeByServiceNameAndDuration` | GET | `/order/license/plesk/{serviceName}/upgrade/{duration}` | duration: string<br /> serviceName: string |
 | `.order.createLicensePleskUpgradeByServiceNameAndDuration` | POST | `/order/license/plesk/{serviceName}/upgrade/{duration}` | duration: string<br /> serviceName: string<br />body: {<br />  antispam?: [LicenseOrderableAntispamEnum](lib/src/models/LicenseOrderableAntispamEnum.ts)<br />&nbsp;&nbsp; antivirus?: [LicenseOrderableAntivirusEnum](lib/src/models/LicenseOrderableAntivirusEnum.ts)<br />&nbsp;&nbsp; applicationSet?: [LicensePleskApplicationSetEnum](lib/src/models/LicensePleskApplicationSetEnum.ts)<br />&nbsp;&nbsp; domainNumber?: [LicenseOrderablePleskDomainNumberEnum](lib/src/models/LicenseOrderablePleskDomainNumberEnum.ts)<br />&nbsp;&nbsp; languagePackNumber?: [LicenseOrderablePleskLanguagePackEnum](lib/src/models/LicenseOrderablePleskLanguagePackEnum.ts)<br />&nbsp;&nbsp; powerpack?: boolean<br />&nbsp;&nbsp; resellerManagement?: boolean<br />&nbsp;&nbsp; version?: [LicensePleskVersionEnum](lib/src/models/LicensePleskVersionEnum.ts)<br />&nbsp;&nbsp; wordpressToolkit?: boolean <br />} |
-| `.order.listLicenseSqlservers` | GET | `/order/license/sqlserver` |  |
+| `.order.listLicenseSqlserver` | GET | `/order/license/sqlserver` |  |
 | `.order.getLicenseSqlserverNew` | GET | `/order/license/sqlserver/new` |  |
 | `.order.getLicenseSqlserverNewByDuration` | GET | `/order/license/sqlserver/new/{duration}` | duration: string |
 | `.order.createLicenseSqlserverNewByDuration` | POST | `/order/license/sqlserver/new/{duration}` | duration: string<br />body: {<br />  ip: string<br />&nbsp;&nbsp; version: [LicenseSqlServerVersionEnum](lib/src/models/LicenseSqlServerVersionEnum.ts) <br />} |
@@ -4218,7 +4218,7 @@
 | `.order.getLicenseSqlserverUpgradeByServiceName` | GET | `/order/license/sqlserver/{serviceName}/upgrade` | serviceName: string |
 | `.order.getLicenseSqlserverUpgradeByServiceNameAndDuration` | GET | `/order/license/sqlserver/{serviceName}/upgrade/{duration}` | duration: string<br /> serviceName: string |
 | `.order.createLicenseSqlserverUpgradeByServiceNameAndDuration` | POST | `/order/license/sqlserver/{serviceName}/upgrade/{duration}` | duration: string<br /> serviceName: string<br />body: {<br />  version: [LicenseSqlServerVersionEnum](lib/src/models/LicenseSqlServerVersionEnum.ts) <br />} |
-| `.order.listLicenseVirtuozzos` | GET | `/order/license/virtuozzo` |  |
+| `.order.listLicenseVirtuozzo` | GET | `/order/license/virtuozzo` |  |
 | `.order.getLicenseVirtuozzoNew` | GET | `/order/license/virtuozzo/new` |  |
 | `.order.getLicenseVirtuozzoNewByDuration` | GET | `/order/license/virtuozzo/new/{duration}` | duration: string |
 | `.order.createLicenseVirtuozzoNewByDuration` | POST | `/order/license/virtuozzo/new/{duration}` | duration: string<br />body: {<br />  containerNumber: [LicenseOrderableVirtuozzoContainerNumberEnum](lib/src/models/LicenseOrderableVirtuozzoContainerNumberEnum.ts)<br />&nbsp;&nbsp; ip: string<br />&nbsp;&nbsp; serviceType?: [LicenseLicenseTypeEnum](lib/src/models/LicenseLicenseTypeEnum.ts)<br />&nbsp;&nbsp; version: [LicenseOrderableVirtuozzoVersionEnum](lib/src/models/LicenseOrderableVirtuozzoVersionEnum.ts) <br />} |
@@ -4234,7 +4234,7 @@
 | `.order.getLicenseWindowsUpgradeByServiceName` | GET | `/order/license/windows/{serviceName}/upgrade` | serviceName: string |
 | `.order.getLicenseWindowsUpgradeByServiceNameAndDuration` | GET | `/order/license/windows/{serviceName}/upgrade/{duration}` | duration: string<br /> serviceName: string |
 | `.order.createLicenseWindowsUpgradeByServiceNameAndDuration` | POST | `/order/license/windows/{serviceName}/upgrade/{duration}` | duration: string<br /> serviceName: string<br />body: {<br />  sqlVersion?: [LicenseWindowsSqlVersionEnum](lib/src/models/LicenseWindowsSqlVersionEnum.ts)<br />&nbsp;&nbsp; version?: [LicenseWindowsOsVersionEnum](lib/src/models/LicenseWindowsOsVersionEnum.ts) <br />} |
-| `.order.listLicenseWorklights` | GET | `/order/license/worklight` |  |
+| `.order.listLicenseWorklight` | GET | `/order/license/worklight` |  |
 | `.order.getLicenseWorklightNew` | GET | `/order/license/worklight/new` |  |
 | `.order.getLicenseWorklightNewByDuration` | GET | `/order/license/worklight/new/{duration}` | duration: string |
 | `.order.createLicenseWorklightNewByDuration` | POST | `/order/license/worklight/new/{duration}` | duration: string<br />body: {<br />  ip: string<br />&nbsp;&nbsp; lessThan1000Users: boolean<br />&nbsp;&nbsp; version: [LicenseWorkLightVersionEnum](lib/src/models/LicenseWorkLightVersionEnum.ts) <br />} |
@@ -4242,7 +4242,7 @@
 | `.order.getLicenseWorklightUpgradeByServiceName` | GET | `/order/license/worklight/{serviceName}/upgrade` | serviceName: string |
 | `.order.getLicenseWorklightUpgradeByServiceNameAndDuration` | GET | `/order/license/worklight/{serviceName}/upgrade/{duration}` | duration: string<br /> serviceName: string |
 | `.order.createLicenseWorklightUpgradeByServiceNameAndDuration` | POST | `/order/license/worklight/{serviceName}/upgrade/{duration}` | duration: string<br /> serviceName: string<br />body: {<br />  version: [LicenseWorkLightVersionEnum](lib/src/models/LicenseWorkLightVersionEnum.ts) <br />} |
-| `.order.listOverTheBoxs` | GET | `/order/overTheBox` |  |
+| `.order.listOverTheBox` | GET | `/order/overTheBox` |  |
 | `.order.getOverTheBoxNew` | GET | `/order/overTheBox/new` |  |
 | `.order.getOverTheBoxNewByDuration` | GET | `/order/overTheBox/new/{duration}` | duration: string |
 | `.order.createOverTheBoxNewByDuration` | POST | `/order/overTheBox/new/{duration}` | duration: string<br />body: {<br />  deviceId?: string<br />&nbsp;&nbsp; offer: string<br />&nbsp;&nbsp; voucher?: string <br />} |
@@ -4258,7 +4258,7 @@
 | `.order.getSmsByServiceName` | GET | `/order/sms/{serviceName}` | serviceName: string |
 | `.order.getSmsCreditsByServiceName` | GET | `/order/sms/{serviceName}/credits` | serviceName: string |
 | `.order.createSmsCreditsByServiceName` | POST | `/order/sms/{serviceName}/credits` | serviceName: string<br />body: {<br />  quantity: number <br />} |
-| `.order.listTelephonys` | GET | `/order/telephony` |  |
+| `.order.listTelephony` | GET | `/order/telephony` |  |
 | `.order.listTelephonyLines` | GET | `/order/telephony/lines` |  |
 | `.order.getTelephonyLinesByServiceName` | GET | `/order/telephony/lines/{serviceName}` | serviceName: string |
 | `.order.getTelephonyLinesAddSimultaneousLinesByServiceName` | GET | `/order/telephony/lines/{serviceName}/addSimultaneousLines` | serviceName: string |
@@ -4294,11 +4294,11 @@
 | `.order.createTelephonyPortabilityByBillingAccount` | POST | `/order/telephony/{billingAccount}/portability` | billingAccount: string<br />body: {<br />  building?: string<br />&nbsp;&nbsp; callNumber: string<br />&nbsp;&nbsp; city: string<br />&nbsp;&nbsp; contactName?: string<br />&nbsp;&nbsp; contactNumber?: string<br />&nbsp;&nbsp; country: [TelephonyPortabilityCountriesAvailable](lib/src/models/TelephonyPortabilityCountriesAvailable.ts)<br />&nbsp;&nbsp; desireDate?: Date<br />&nbsp;&nbsp; displayUniversalDirectory: boolean<br />&nbsp;&nbsp; door?: string<br />&nbsp;&nbsp; executeAsSoonAsPossible?: boolean<br />&nbsp;&nbsp; fiabilisation?: boolean<br />&nbsp;&nbsp; firstName?: string<br />&nbsp;&nbsp; floor?: number<br />&nbsp;&nbsp; lineToRedirectAliasTo?: string<br />&nbsp;&nbsp; listNumbers?: string<br />&nbsp;&nbsp; mobilePhone?: string<br />&nbsp;&nbsp; name: string<br />&nbsp;&nbsp; offer: [TelephonyPortabilityOfferType](lib/src/models/TelephonyPortabilityOfferType.ts)<br />&nbsp;&nbsp; rio?: string<br />&nbsp;&nbsp; siret?: string<br />&nbsp;&nbsp; socialReason: [TelephonyPortabilitySocialReason](lib/src/models/TelephonyPortabilitySocialReason.ts)<br />&nbsp;&nbsp; specialNumberCategory?: [TelephonyPortabilitySpecialNumberCategoryEnum](lib/src/models/TelephonyPortabilitySpecialNumberCategoryEnum.ts)<br />&nbsp;&nbsp; stair?: number<br />&nbsp;&nbsp; streetName: string<br />&nbsp;&nbsp; streetNumber: number<br />&nbsp;&nbsp; streetNumberExtra?: string<br />&nbsp;&nbsp; streetType?: string<br />&nbsp;&nbsp; type?: [TelephonyPortabilityNumberType](lib/src/models/TelephonyPortabilityNumberType.ts)<br />&nbsp;&nbsp; zip: string <br />} |
 | `.order.getTelephonySecurityDepositByBillingAccount` | GET | `/order/telephony/{billingAccount}/securityDeposit` | billingAccount: string |
 | `.order.createTelephonySecurityDepositByBillingAccount` | POST | `/order/telephony/{billingAccount}/securityDeposit` | billingAccount: string<br />body: {<br />  amount: [TelephonySecurityDepositAmountsEnum](lib/src/models/TelephonySecurityDepositAmountsEnum.ts) <br />} |
-| `.order.listUpgradeBaremetalPrivateBandwidths` | GET | `/order/upgrade/baremetalPrivateBandwidth` |  |
+| `.order.listUpgradeBaremetalPrivateBandwidth` | GET | `/order/upgrade/baremetalPrivateBandwidth` |  |
 | `.order.getUpgradeBaremetalPrivateBandwidthByServiceName` | GET | `/order/upgrade/baremetalPrivateBandwidth/{serviceName}` | serviceName: string |
 | `.order.getUpgradeBaremetalPrivateBandwidthByServiceNameAndPlanCode` | GET | `/order/upgrade/baremetalPrivateBandwidth/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeBaremetalPrivateBandwidthByServiceNameAndPlanCode` | POST | `/order/upgrade/baremetalPrivateBandwidth/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradeBaremetalPublicBandwidths` | GET | `/order/upgrade/baremetalPublicBandwidth` |  |
+| `.order.listUpgradeBaremetalPublicBandwidth` | GET | `/order/upgrade/baremetalPublicBandwidth` |  |
 | `.order.getUpgradeBaremetalPublicBandwidthByServiceName` | GET | `/order/upgrade/baremetalPublicBandwidth/{serviceName}` | serviceName: string |
 | `.order.getUpgradeBaremetalPublicBandwidthByServiceNameAndPlanCode` | GET | `/order/upgrade/baremetalPublicBandwidth/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeBaremetalPublicBandwidthByServiceNameAndPlanCode` | POST | `/order/upgrade/baremetalPublicBandwidth/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
@@ -4306,23 +4306,23 @@
 | `.order.getUpgradeCephaasByServiceName` | GET | `/order/upgrade/cephaas/{serviceName}` | serviceName: string |
 | `.order.getUpgradeCephaasByServiceNameAndPlanCode` | GET | `/order/upgrade/cephaas/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeCephaasByServiceNameAndPlanCode` | POST | `/order/upgrade/cephaas/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradeCloudDBs` | GET | `/order/upgrade/cloudDB` |  |
+| `.order.listUpgradeCloudDB` | GET | `/order/upgrade/cloudDB` |  |
 | `.order.getUpgradeCloudDBByDomain` | GET | `/order/upgrade/cloudDB/{domain}` | domain: string |
 | `.order.getUpgradeCloudDBByDomainAndPlanCode` | GET | `/order/upgrade/cloudDB/{domain}/{planCode}` | domain: string<br /> planCode: string |
 | `.order.postUpgradeCloudDBByDomainAndPlanCode` | POST | `/order/upgrade/cloudDB/{domain}/{planCode}` | domain: string<br /> planCode: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradeEmailDomains` | GET | `/order/upgrade/emailDomain` |  |
+| `.order.listUpgradeEmailDomain` | GET | `/order/upgrade/emailDomain` |  |
 | `.order.getUpgradeEmailDomainByServiceName` | GET | `/order/upgrade/emailDomain/{serviceName}` | serviceName: string |
 | `.order.getUpgradeEmailDomainByServiceNameAndPlanCode` | GET | `/order/upgrade/emailDomain/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeEmailDomainByServiceNameAndPlanCode` | POST | `/order/upgrade/emailDomain/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradeIpLoadbalancings` | GET | `/order/upgrade/ipLoadbalancing` |  |
+| `.order.listUpgradeIpLoadbalancing` | GET | `/order/upgrade/ipLoadbalancing` |  |
 | `.order.getUpgradeIpLoadbalancingByServiceName` | GET | `/order/upgrade/ipLoadbalancing/{serviceName}` | serviceName: string |
 | `.order.getUpgradeIpLoadbalancingByServiceNameAndPlanCode` | GET | `/order/upgrade/ipLoadbalancing/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeIpLoadbalancingByServiceNameAndPlanCode` | POST | `/order/upgrade/ipLoadbalancing/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradeLicensePlesks` | GET | `/order/upgrade/licensePlesk` |  |
+| `.order.listUpgradeLicensePlesk` | GET | `/order/upgrade/licensePlesk` |  |
 | `.order.getUpgradeLicensePleskByServiceName` | GET | `/order/upgrade/licensePlesk/{serviceName}` | serviceName: string |
 | `.order.getUpgradeLicensePleskByServiceNameAndPlanCode` | GET | `/order/upgrade/licensePlesk/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeLicensePleskByServiceNameAndPlanCode` | POST | `/order/upgrade/licensePlesk/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradeLicensecPanels` | GET | `/order/upgrade/licensecPanel` |  |
+| `.order.listUpgradeLicensecPanel` | GET | `/order/upgrade/licensecPanel` |  |
 | `.order.getUpgradeLicensecPanelByServiceName` | GET | `/order/upgrade/licensecPanel/{serviceName}` | serviceName: string |
 | `.order.getUpgradeLicensecPanelByServiceNameAndPlanCode` | GET | `/order/upgrade/licensecPanel/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeLicensecPanelByServiceNameAndPlanCode` | POST | `/order/upgrade/licensecPanel/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
@@ -4334,23 +4334,23 @@
 | `.order.getUpgradeMetricsByServiceName` | GET | `/order/upgrade/metrics/{serviceName}` | serviceName: string |
 | `.order.getUpgradeMetricsByServiceNameAndPlanCode` | GET | `/order/upgrade/metrics/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeMetricsByServiceNameAndPlanCode` | POST | `/order/upgrade/metrics/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradeMicrosoftExchanges` | GET | `/order/upgrade/microsoftExchange` |  |
+| `.order.listUpgradeMicrosoftExchange` | GET | `/order/upgrade/microsoftExchange` |  |
 | `.order.getUpgradeMicrosoftExchangeByServiceName` | GET | `/order/upgrade/microsoftExchange/{serviceName}` | serviceName: string |
 | `.order.getUpgradeMicrosoftExchangeByServiceNameAndPlanCode` | GET | `/order/upgrade/microsoftExchange/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeMicrosoftExchangeByServiceNameAndPlanCode` | POST | `/order/upgrade/microsoftExchange/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradePrivateClouds` | GET | `/order/upgrade/privateCloud` |  |
+| `.order.listUpgradePrivateCloud` | GET | `/order/upgrade/privateCloud` |  |
 | `.order.getUpgradePrivateCloudByServiceName` | GET | `/order/upgrade/privateCloud/{serviceName}` | serviceName: string |
 | `.order.getUpgradePrivateCloudByServiceNameAndPlanCode` | GET | `/order/upgrade/privateCloud/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradePrivateCloudByServiceNameAndPlanCode` | POST | `/order/upgrade/privateCloud/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradePrivateCloudManagementFees` | GET | `/order/upgrade/privateCloudManagementFee` |  |
+| `.order.listUpgradePrivateCloudManagementFee` | GET | `/order/upgrade/privateCloudManagementFee` |  |
 | `.order.getUpgradePrivateCloudManagementFeeByServiceName` | GET | `/order/upgrade/privateCloudManagementFee/{serviceName}` | serviceName: string |
 | `.order.getUpgradePrivateCloudManagementFeeByServiceNameAndPlanCode` | GET | `/order/upgrade/privateCloudManagementFee/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradePrivateCloudManagementFeeByServiceNameAndPlanCode` | POST | `/order/upgrade/privateCloudManagementFee/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradePrivateSQLs` | GET | `/order/upgrade/privateSQL` |  |
+| `.order.listUpgradePrivateSQL` | GET | `/order/upgrade/privateSQL` |  |
 | `.order.getUpgradePrivateSQLByDomain` | GET | `/order/upgrade/privateSQL/{domain}` | domain: string |
 | `.order.getUpgradePrivateSQLByDomainAndPlanCode` | GET | `/order/upgrade/privateSQL/{domain}/{planCode}` | domain: string<br /> planCode: string |
 | `.order.postUpgradePrivateSQLByDomainAndPlanCode` | POST | `/order/upgrade/privateSQL/{domain}/{planCode}` | domain: string<br /> planCode: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradeSslGateways` | GET | `/order/upgrade/sslGateway` |  |
+| `.order.listUpgradeSslGateway` | GET | `/order/upgrade/sslGateway` |  |
 | `.order.getUpgradeSslGatewayByServiceName` | GET | `/order/upgrade/sslGateway/{serviceName}` | serviceName: string |
 | `.order.getUpgradeSslGatewayByServiceNameAndPlanCode` | GET | `/order/upgrade/sslGateway/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeSslGatewayByServiceNameAndPlanCode` | POST | `/order/upgrade/sslGateway/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
@@ -4358,19 +4358,19 @@
 | `.order.getUpgradeVpsByServiceName` | GET | `/order/upgrade/vps/{serviceName}` | serviceName: string |
 | `.order.getUpgradeVpsByServiceNameAndPlanCode` | GET | `/order/upgrade/vps/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeVpsByServiceNameAndPlanCode` | POST | `/order/upgrade/vps/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradeVpsAdditionalDisks` | GET | `/order/upgrade/vpsAdditionalDisk` |  |
+| `.order.listUpgradeVpsAdditionalDisk` | GET | `/order/upgrade/vpsAdditionalDisk` |  |
 | `.order.getUpgradeVpsAdditionalDiskByServiceName` | GET | `/order/upgrade/vpsAdditionalDisk/{serviceName}` | serviceName: string |
 | `.order.getUpgradeVpsAdditionalDiskByServiceNameAndPlanCode` | GET | `/order/upgrade/vpsAdditionalDisk/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeVpsAdditionalDiskByServiceNameAndPlanCode` | POST | `/order/upgrade/vpsAdditionalDisk/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradeWebHostings` | GET | `/order/upgrade/webHosting` |  |
+| `.order.listUpgradeWebHosting` | GET | `/order/upgrade/webHosting` |  |
 | `.order.getUpgradeWebHostingByServiceName` | GET | `/order/upgrade/webHosting/{serviceName}` | serviceName: string |
 | `.order.getUpgradeWebHostingByServiceNameAndPlanCode` | GET | `/order/upgrade/webHosting/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeWebHostingByServiceNameAndPlanCode` | POST | `/order/upgrade/webHosting/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listUpgradeWebPaaSs` | GET | `/order/upgrade/webPaaS` |  |
+| `.order.listUpgradeWebPaaS` | GET | `/order/upgrade/webPaaS` |  |
 | `.order.getUpgradeWebPaaSByServiceName` | GET | `/order/upgrade/webPaaS/{serviceName}` | serviceName: string |
 | `.order.getUpgradeWebPaaSByServiceNameAndPlanCode` | GET | `/order/upgrade/webPaaS/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string |
 | `.order.postUpgradeWebPaaSByServiceNameAndPlanCode` | POST | `/order/upgrade/webPaaS/{serviceName}/{planCode}` | planCode: string<br /> serviceName: string<br />body: {<br />  autoPayWithPreferredPaymentMethod?: boolean<br />&nbsp;&nbsp; quantity: number <br />} |
-| `.order.listVeeamCloudConnects` | GET | `/order/veeamCloudConnect` |  |
+| `.order.listVeeamCloudConnect` | GET | `/order/veeamCloudConnect` |  |
 | `.order.getVeeamCloudConnectByServiceName` | GET | `/order/veeamCloudConnect/{serviceName}` | serviceName: string |
 | `.order.getVeeamCloudConnectUpgradeByServiceName` | GET | `/order/veeamCloudConnect/{serviceName}/upgrade` | serviceName: string |
 | `.order.getVeeamCloudConnectUpgradeByServiceNameAndDuration` | GET | `/order/veeamCloudConnect/{serviceName}/upgrade/{duration}` | duration: string<br /> serviceName: string |
@@ -4404,7 +4404,7 @@
 | `.order.getVpsWindowsByServiceName` | GET | `/order/vps/{serviceName}/windows` | serviceName: string |
 | `.order.getVpsWindowsByServiceNameAndDuration` | GET | `/order/vps/{serviceName}/windows/{duration}` | duration: string<br /> serviceName: string |
 | `.order.createVpsWindowsByServiceNameAndDuration` | POST | `/order/vps/{serviceName}/windows/{duration}` | duration: string<br /> serviceName: string |
-| `.order.listVracks` | GET | `/order/vrack` |  |
+| `.order.listVrack` | GET | `/order/vrack` |  |
 | `.order.getVrackNew` | GET | `/order/vrack/new` |  |
 | `.order.createVrackNew` | POST | `/order/vrack/new` | body: {<br />  quantity?: number <br />} |
 | `.order.getVrackByServiceName` | GET | `/order/vrack/{serviceName}` | serviceName: string |
@@ -4415,11 +4415,11 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.overthebox.lists` | GET | `/overTheBox` |  |
+| `.overthebox.list` | GET | `/overTheBox` |  |
 | `.overthebox.listAvailableOffers` | GET | `/overTheBox/availableOffers` |  |
 | `.overthebox.postDevices` | POST | `/overTheBox/devices` |  |
-| `.overthebox.listHardwares` | GET | `/overTheBox/hardware` |  |
-| `.overthebox.listHardwareAvailables` | GET | `/overTheBox/hardware/available` |  |
+| `.overthebox.listHardware` | GET | `/overTheBox/hardware` |  |
+| `.overthebox.listHardwareAvailable` | GET | `/overTheBox/hardware/available` |  |
 | `.overthebox.getHardwareByHardwareName` | GET | `/overTheBox/hardware/{hardwareName}` | hardwareName: string |
 | `.overthebox.deleteByServiceName` | DELETE | `/overTheBox/{serviceName}` | serviceName: string |
 | `.overthebox.getByServiceName` | GET | `/overTheBox/{serviceName}` | serviceName: string |
@@ -4493,7 +4493,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.ovhcloudconnect.lists` | GET | `/ovhCloudConnect` |  |
+| `.ovhcloudconnect.list` | GET | `/ovhCloudConnect` |  |
 | `.ovhcloudconnect.getByServiceName` | GET | `/ovhCloudConnect/{serviceName}` | serviceName: string |
 | `.ovhcloudconnect.putByServiceName` | PUT | `/ovhCloudConnect/{serviceName}` | serviceName: string |
 | `.ovhcloudconnect.launchChangeContactByServiceName` | POST | `/ovhCloudConnect/{serviceName}/changeContact` | serviceName: string<br />body: {<br />  contactAdmin?: string<br />&nbsp;&nbsp; contactBilling?: string<br />&nbsp;&nbsp; contactTech?: string <br />} |
@@ -4510,12 +4510,12 @@
 | `.ovhcloudconnect.deleteConfigPopDatacenterExtraByServiceNameAndPopIdAndDatacenterIdAndExtraId` | DELETE | `/ovhCloudConnect/{serviceName}/config/pop/{popId}/datacenter/{datacenterId}/extra/{extraId}` | datacenterId: number<br /> extraId: number<br /> popId: number<br /> serviceName: string |
 | `.ovhcloudconnect.getConfigPopDatacenterExtraByServiceNameAndPopIdAndDatacenterIdAndExtraId` | GET | `/ovhCloudConnect/{serviceName}/config/pop/{popId}/datacenter/{datacenterId}/extra/{extraId}` | datacenterId: number<br /> extraId: number<br /> popId: number<br /> serviceName: string |
 | `.ovhcloudconnect.confirmTerminationByServiceName` | POST | `/ovhCloudConnect/{serviceName}/confirmTermination` | serviceName: string<br />body: {<br />  commentary?: string<br />&nbsp;&nbsp; futureUse?: [ServiceTerminationFutureUseEnum](lib/src/models/ServiceTerminationFutureUseEnum.ts)<br />&nbsp;&nbsp; reason?: [ServiceTerminationReasonEnum](lib/src/models/ServiceTerminationReasonEnum.ts)<br />&nbsp;&nbsp; token: string <br />} |
-| `.ovhcloudconnect.listDatacentersByServiceName` | GET | `/ovhCloudConnect/{serviceName}/datacenter` | serviceName: string |
+| `.ovhcloudconnect.listDatacenterByServiceName` | GET | `/ovhCloudConnect/{serviceName}/datacenter` | serviceName: string |
 | `.ovhcloudconnect.getDatacenterByServiceNameAndId` | GET | `/ovhCloudConnect/{serviceName}/datacenter/{id}` | id: number<br /> serviceName: string |
 | `.ovhcloudconnect.getDiagnosticByServiceName` | GET | `/ovhCloudConnect/{serviceName}/diagnostic` | serviceName: string |
 | `.ovhcloudconnect.createDiagnosticByServiceName` | POST | `/ovhCloudConnect/{serviceName}/diagnostic` | serviceName: string |
 | `.ovhcloudconnect.getDiagnosticByServiceNameAndId` | GET | `/ovhCloudConnect/{serviceName}/diagnostic/{id}` | id: number<br /> serviceName: string |
-| `.ovhcloudconnect.listInterfacesByServiceName` | GET | `/ovhCloudConnect/{serviceName}/interface` | serviceName: string |
+| `.ovhcloudconnect.listInterfaceByServiceName` | GET | `/ovhCloudConnect/{serviceName}/interface` | serviceName: string |
 | `.ovhcloudconnect.getInterfaceByServiceNameAndId` | GET | `/ovhCloudConnect/{serviceName}/interface/{id}` | id: number<br /> serviceName: string |
 | `.ovhcloudconnect.postInterfaceLockByServiceNameAndId` | POST | `/ovhCloudConnect/{serviceName}/interface/{id}/lock` | id: number<br /> serviceName: string |
 | `.ovhcloudconnect.getInterfaceStatisticsByServiceNameAndId` | GET | `/ovhCloudConnect/{serviceName}/interface/{id}/statistics` | id: number<br /> serviceName: string |
@@ -4535,7 +4535,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.packsiptrunk.listSiptrunks` | GET | `/pack/siptrunk` |  |
+| `.packsiptrunk.listSiptrunk` | GET | `/pack/siptrunk` |  |
 | `.packsiptrunk.getSiptrunkByPackName` | GET | `/pack/siptrunk/{packName}` | packName: string |
 | `.packsiptrunk.launchSiptrunkChangeContactByPackName` | POST | `/pack/siptrunk/{packName}/changeContact` | packName: string<br />body: {<br />  contactAdmin?: string<br />&nbsp;&nbsp; contactBilling?: string<br />&nbsp;&nbsp; contactTech?: string <br />} |
 | `.packsiptrunk.getSiptrunkServiceInfosByPackName` | GET | `/pack/siptrunk/{packName}/serviceInfos` | packName: string |
@@ -4545,7 +4545,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.packxdsl.listXdsls` | GET | `/pack/xdsl` |  |
+| `.packxdsl.listXdsl` | GET | `/pack/xdsl` |  |
 | `.packxdsl.getXdslByPackName` | GET | `/pack/xdsl/{packName}` | packName: string |
 | `.packxdsl.updateXdslByPackName` | PUT | `/pack/xdsl/{packName}` | packName: string |
 | `.packxdsl.postXdslAddressMoveMoveOfferByPackName` | POST | `/pack/xdsl/{packName}/addressMove/moveOffer` | packName: string<br />body: {<br />  acceptContracts: boolean<br />&nbsp;&nbsp; building?: string<br />&nbsp;&nbsp; buildingReference?: string<br />&nbsp;&nbsp; contactPhone?: string<br />&nbsp;&nbsp; door?: string<br />&nbsp;&nbsp; eligibilityReference: string<br />&nbsp;&nbsp; engageMonths?: number<br />&nbsp;&nbsp; floor?: string<br />&nbsp;&nbsp; keepCurrentNumber: boolean<br />&nbsp;&nbsp; meeting?: [XdslEligibilityBookMeetingSlot](lib/src/models/XdslEligibilityBookMeetingSlot.ts)<br />&nbsp;&nbsp; modem?: [PackXdslModemOptionEnum](lib/src/models/PackXdslModemOptionEnum.ts)<br />&nbsp;&nbsp; mondialRelayId?: number<br />&nbsp;&nbsp; moveOutDate?: Date<br />&nbsp;&nbsp; nicShipping?: string<br />&nbsp;&nbsp; offerName: string<br />&nbsp;&nbsp; options?: PackXdslMigrationOfferOption[]<br />&nbsp;&nbsp; otp: boolean<br />&nbsp;&nbsp; otpReference?: string<br />&nbsp;&nbsp; productCode: string<br />&nbsp;&nbsp; residence?: string<br />&nbsp;&nbsp; stair?: string<br />&nbsp;&nbsp; subServicesToDelete?: PackXdslMigrationOfferServiceToDelete[]<br />&nbsp;&nbsp; subServicesToKeep?: PackXdslMigrationOfferServiceToKeep[] <br />} |
@@ -4614,14 +4614,14 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.partners.listRegisterCompanys` | GET | `/partners/register/company` |  |
+| `.partners.listRegisterCompany` | GET | `/partners/register/company` |  |
 | `.partners.createRegisterCompany` | POST | `/partners/register/company` | body: {<br />  OVHCertifications?: [PartnerOVHCertifications](lib/src/models/PartnerOVHCertifications.ts)<br />&nbsp;&nbsp; OVHCustomersAdvised: [PartnerOVHCustomersAdvisedEnum](lib/src/models/PartnerOVHCustomersAdvisedEnum.ts)<br />&nbsp;&nbsp; OVHKnowledgeResources: [PartnerKnowledgeResourcesRangeEnum](lib/src/models/PartnerKnowledgeResourcesRangeEnum.ts)<br />&nbsp;&nbsp; OVHProductsUsed?: [PartnerOVHProductsUsed](lib/src/models/PartnerOVHProductsUsed.ts)<br />&nbsp;&nbsp; OVHTechnicalAdvancedResources: [PartnerTechnicalAdvancedResourcesRangeEnum](lib/src/models/PartnerTechnicalAdvancedResourcesRangeEnum.ts)<br />&nbsp;&nbsp; OVHTechnicalExpertResources: [PartnerTechnicalExpertResourcesRangeEnum](lib/src/models/PartnerTechnicalExpertResourcesRangeEnum.ts)<br />&nbsp;&nbsp; activitySectors?: [PartnerActivitySectors](lib/src/models/PartnerActivitySectors.ts)<br />&nbsp;&nbsp; address: string<br />&nbsp;&nbsp; city: string<br />&nbsp;&nbsp; clientKinds?: [PartnerClientKinds](lib/src/models/PartnerClientKinds.ts)<br />&nbsp;&nbsp; commercialName: string<br />&nbsp;&nbsp; country: [NichandleCountryEnum](lib/src/models/NichandleCountryEnum.ts)<br />&nbsp;&nbsp; description: string<br />&nbsp;&nbsp; email: string<br />&nbsp;&nbsp; employeesNumber: [PartnerEmployeesNumberEnum](lib/src/models/PartnerEmployeesNumberEnum.ts)<br />&nbsp;&nbsp; expertises?: [PartnerExpertisesChoices](lib/src/models/PartnerExpertisesChoices.ts)<br />&nbsp;&nbsp; externalCertifications?: [PartnerExternalCertifications](lib/src/models/PartnerExternalCertifications.ts)<br />&nbsp;&nbsp; facebook?: string<br />&nbsp;&nbsp; linkedin?: string<br />&nbsp;&nbsp; logo: string<br />&nbsp;&nbsp; name: string<br />&nbsp;&nbsp; partnerKnowledges?: [PartnerPartnerKnowledges](lib/src/models/PartnerPartnerKnowledges.ts)<br />&nbsp;&nbsp; phone: string<br />&nbsp;&nbsp; productCountries?: [PartnerProductCountries](lib/src/models/PartnerProductCountries.ts)<br />&nbsp;&nbsp; registrationNumber?: string<br />&nbsp;&nbsp; revenue: [PartnerRevenueRangeEnum](lib/src/models/PartnerRevenueRangeEnum.ts)<br />&nbsp;&nbsp; twitter?: string<br />&nbsp;&nbsp; website: string<br />&nbsp;&nbsp; zipCode: string <br />} |
 | `.partners.deleteRegisterCompanyByCompanyId` | DELETE | `/partners/register/company/{companyId}` | companyId: string |
 | `.partners.getRegisterCompanyByCompanyId` | GET | `/partners/register/company/{companyId}` | companyId: string |
 | `.partners.updateRegisterCompanyByCompanyId` | PUT | `/partners/register/company/{companyId}` | companyId: string<br />body: {<br />  OVHCertifications?: [PartnerOVHCertifications](lib/src/models/PartnerOVHCertifications.ts)<br />&nbsp;&nbsp; OVHCustomersAdvised?: [PartnerOVHCustomersAdvisedEnum](lib/src/models/PartnerOVHCustomersAdvisedEnum.ts)<br />&nbsp;&nbsp; OVHKnowledgeResources?: [PartnerKnowledgeResourcesRangeEnum](lib/src/models/PartnerKnowledgeResourcesRangeEnum.ts)<br />&nbsp;&nbsp; OVHProductsUsed?: [PartnerOVHProductsUsed](lib/src/models/PartnerOVHProductsUsed.ts)<br />&nbsp;&nbsp; OVHTechnicalAdvancedResources?: [PartnerTechnicalAdvancedResourcesRangeEnum](lib/src/models/PartnerTechnicalAdvancedResourcesRangeEnum.ts)<br />&nbsp;&nbsp; OVHTechnicalExpertResources?: [PartnerTechnicalExpertResourcesRangeEnum](lib/src/models/PartnerTechnicalExpertResourcesRangeEnum.ts)<br />&nbsp;&nbsp; activitySectors?: [PartnerActivitySectors](lib/src/models/PartnerActivitySectors.ts)<br />&nbsp;&nbsp; address?: string<br />&nbsp;&nbsp; city?: string<br />&nbsp;&nbsp; clientKinds?: [PartnerClientKinds](lib/src/models/PartnerClientKinds.ts)<br />&nbsp;&nbsp; commercialName?: string<br />&nbsp;&nbsp; country?: [NichandleCountryEnum](lib/src/models/NichandleCountryEnum.ts)<br />&nbsp;&nbsp; description?: string<br />&nbsp;&nbsp; effective?: [PartnerEmployeesNumberEnum](lib/src/models/PartnerEmployeesNumberEnum.ts)<br />&nbsp;&nbsp; email?: string<br />&nbsp;&nbsp; expertises?: [PartnerExpertisesChoices](lib/src/models/PartnerExpertisesChoices.ts)<br />&nbsp;&nbsp; externalCertifications?: [PartnerExternalCertifications](lib/src/models/PartnerExternalCertifications.ts)<br />&nbsp;&nbsp; facebook?: string<br />&nbsp;&nbsp; linkedin?: string<br />&nbsp;&nbsp; logo?: string<br />&nbsp;&nbsp; name?: string<br />&nbsp;&nbsp; partnerKnowledges?: [PartnerPartnerKnowledges](lib/src/models/PartnerPartnerKnowledges.ts)<br />&nbsp;&nbsp; phone?: string<br />&nbsp;&nbsp; productCountries?: [PartnerProductCountries](lib/src/models/PartnerProductCountries.ts)<br />&nbsp;&nbsp; registrationNumber?: string<br />&nbsp;&nbsp; revenue?: [PartnerRevenueRangeEnum](lib/src/models/PartnerRevenueRangeEnum.ts)<br />&nbsp;&nbsp; twitter?: string<br />&nbsp;&nbsp; website?: string<br />&nbsp;&nbsp; zipCode?: string <br />} |
 | `.partners.getRegisterCompanyApplicationByCompanyId` | GET | `/partners/register/company/{companyId}/application` | companyId: string |
 | `.partners.postRegisterCompanyApplicationByCompanyId` | POST | `/partners/register/company/{companyId}/application` | companyId: string<br />body: {<br />  termsAndConditionsOfServiceAccepted: boolean <br />} |
-| `.partners.listRegisterCompanyContactsByCompanyId` | GET | `/partners/register/company/{companyId}/contact` | companyId: string |
+| `.partners.listRegisterCompanyContactByCompanyId` | GET | `/partners/register/company/{companyId}/contact` | companyId: string |
 | `.partners.createRegisterCompanyContactByCompanyId` | POST | `/partners/register/company/{companyId}/contact` | companyId: string<br />body: {<br />  email: string<br />&nbsp;&nbsp; facebook?: string<br />&nbsp;&nbsp; firstName: string<br />&nbsp;&nbsp; lastName: string<br />&nbsp;&nbsp; linkedin?: string<br />&nbsp;&nbsp; newsletter?: boolean<br />&nbsp;&nbsp; otherNics?: PartnerNic[]<br />&nbsp;&nbsp; phone: string<br />&nbsp;&nbsp; role: string<br />&nbsp;&nbsp; twitter?: string <br />} |
 | `.partners.deleteRegisterCompanyContactByCompanyIdAndContactId` | DELETE | `/partners/register/company/{companyId}/contact/{contactId}` | companyId: string<br /> contactId: string |
 | `.partners.getRegisterCompanyContactByCompanyIdAndContactId` | GET | `/partners/register/company/{companyId}/contact/{contactId}` | companyId: string<br /> contactId: string |
@@ -5218,7 +5218,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.saascsp2.listCsp2s` | GET | `/saas/csp2` |  |
+| `.saascsp2.listCsp2` | GET | `/saas/csp2` |  |
 | `.saascsp2.getCsp2ByServiceName` | GET | `/saas/csp2/{serviceName}` | serviceName: string |
 | `.saascsp2.updateCsp2ByServiceName` | PUT | `/saas/csp2/{serviceName}` | serviceName: string |
 | `.saascsp2.getCsp2BillingPeriodPeaksByServiceName` | GET | `/saas/csp2/{serviceName}/billingPeriodPeaks` | serviceName: string |
@@ -5250,10 +5250,10 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.service.lists` | GET | `/service` |  |
+| `.service.list` | GET | `/service` |  |
 | `.service.getByServiceId` | GET | `/service/{serviceId}` | serviceId: number |
 | `.service.updateByServiceId` | PUT | `/service/{serviceId}` | serviceId: number |
-| `.service.listRenewsByServiceId` | GET | `/service/{serviceId}/renew` | serviceId: string |
+| `.service.listRenewByServiceId` | GET | `/service/{serviceId}/renew` | serviceId: string |
 | `.service.createRenewByServiceId` | POST | `/service/{serviceId}/renew` | serviceId: string<br />body: {<br />  dryRun?: boolean<br />&nbsp;&nbsp; duration: string<br />&nbsp;&nbsp; services: number[] <br />} |
 | `.service.postReopenByServiceId` | POST | `/service/{serviceId}/reopen` | serviceId: number |
 | `.service.postSuspendByServiceId` | POST | `/service/{serviceId}/suspend` | serviceId: number |
@@ -5263,11 +5263,11 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.services.lists` | GET | `/services` |  |
+| `.services.list` | GET | `/services` |  |
 | `.services.getByServiceId` | GET | `/services/{serviceId}` | serviceId: number |
 | `.services.updateByServiceId` | PUT | `/services/{serviceId}` | serviceId: number |
 | `.services.getBillingEngagementByServiceId` | GET | `/services/{serviceId}/billing/engagement` | serviceId: number |
-| `.services.listBillingEngagementAvailablesByServiceId` | GET | `/services/{serviceId}/billing/engagement/available` | serviceId: number |
+| `.services.listBillingEngagementAvailableByServiceId` | GET | `/services/{serviceId}/billing/engagement/available` | serviceId: number |
 | `.services.updateBillingEngagementEndRuleByServiceId` | PUT | `/services/{serviceId}/billing/engagement/endRule` | serviceId: number |
 | `.services.postBillingEngagementFlushByServiceId` | POST | `/services/{serviceId}/billing/engagement/flush` | serviceId: number |
 | `.services.deleteBillingEngagementRequestByServiceId` | DELETE | `/services/{serviceId}/billing/engagement/request` | serviceId: number |
@@ -5277,21 +5277,21 @@
 | `.services.getConsumptionElementByServiceId` | GET | `/services/{serviceId}/consumption/element` | serviceId: number |
 | `.services.getConsumptionForecastByServiceId` | GET | `/services/{serviceId}/consumption/forecast` | serviceId: number |
 | `.services.getConsumptionForecastElementByServiceId` | GET | `/services/{serviceId}/consumption/forecast/element` | serviceId: number |
-| `.services.listConsumptionHistorysByServiceId` | GET | `/services/{serviceId}/consumption/history` | serviceId: number |
+| `.services.listConsumptionHistoryByServiceId` | GET | `/services/{serviceId}/consumption/history` | serviceId: number |
 | `.services.getConsumptionHistoryByServiceIdAndId` | GET | `/services/{serviceId}/consumption/history/{id}` | id: number<br /> serviceId: number |
 | `.services.getConsumptionHistoryElementByServiceIdAndId` | GET | `/services/{serviceId}/consumption/history/{id}/element` | id: number<br /> serviceId: number |
-| `.services.listDetachsByServiceId` | GET | `/services/{serviceId}/detach` | serviceId: number |
+| `.services.listDetachByServiceId` | GET | `/services/{serviceId}/detach` | serviceId: number |
 | `.services.getDetachByServiceIdAndPlanCode` | GET | `/services/{serviceId}/detach/{planCode}` | planCode: string<br /> serviceId: number |
 | `.services.postDetachExecuteByServiceIdAndPlanCode` | POST | `/services/{serviceId}/detach/{planCode}/execute` | planCode: string<br /> serviceId: number |
 | `.services.getDetachOptionsByServiceIdAndPlanCode` | GET | `/services/{serviceId}/detach/{planCode}/options` | planCode: string<br /> serviceId: number |
 | `.services.postDetachSimulateByServiceIdAndPlanCode` | POST | `/services/{serviceId}/detach/{planCode}/simulate` | planCode: string<br /> serviceId: number |
-| `.services.listFormsByServiceId` | GET | `/services/{serviceId}/form` | serviceId: number |
+| `.services.listFormByServiceId` | GET | `/services/{serviceId}/form` | serviceId: number |
 | `.services.getFormByServiceIdAndFormName` | GET | `/services/{serviceId}/form/{formName}` | formName: string<br /> serviceId: number |
 | `.services.postFormAnswerByServiceIdAndFormName` | POST | `/services/{serviceId}/form/{formName}/answer` | formName: string<br /> serviceId: number |
 | `.services.getOptionsByServiceId` | GET | `/services/{serviceId}/options` | serviceId: number |
 | `.services.getRenewPeriodCapacitiesByServiceId` | GET | `/services/{serviceId}/renewPeriodCapacities` | serviceId: number |
 | `.services.getTechnicalDetailsByServiceId` | GET | `/services/{serviceId}/technicalDetails` | serviceId: number |
-| `.services.listUpgradesByServiceId` | GET | `/services/{serviceId}/upgrade` | serviceId: number |
+| `.services.listUpgradeByServiceId` | GET | `/services/{serviceId}/upgrade` | serviceId: number |
 | `.services.getUpgradeByServiceIdAndPlanCode` | GET | `/services/{serviceId}/upgrade/{planCode}` | planCode: string<br /> serviceId: number |
 | `.services.postUpgradeExecuteByServiceIdAndPlanCode` | POST | `/services/{serviceId}/upgrade/{planCode}/execute` | planCode: string<br /> serviceId: number |
 | `.services.postUpgradeSimulateByServiceIdAndPlanCode` | POST | `/services/{serviceId}/upgrade/{planCode}/simulate` | planCode: string<br /> serviceId: number |
@@ -5300,7 +5300,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.sms.lists` | GET | `/sms` |  |
+| `.sms.list` | GET | `/sms` |  |
 | `.sms.postEstimate` | POST | `/sms/estimate` | body: {<br />  message: string<br />&nbsp;&nbsp; noStopClause: boolean<br />&nbsp;&nbsp; senderType: [SmsTypeSenderEnum](lib/src/models/SmsTypeSenderEnum.ts) <br />} |
 | `.sms.getPtts` | GET | `/sms/ptts` |  |
 | `.sms.getRatesDestinations` | GET | `/sms/rates/destinations` |  |
@@ -5428,7 +5428,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.ssl.lists` | GET | `/ssl` |  |
+| `.ssl.list` | GET | `/ssl` |  |
 | `.ssl.getByServiceName` | GET | `/ssl/{serviceName}` | serviceName: string |
 | `.ssl.getServiceInfosByServiceName` | GET | `/ssl/{serviceName}/serviceInfos` | serviceName: string |
 | `.ssl.updateServiceInfosByServiceName` | PUT | `/ssl/{serviceName}/serviceInfos` | serviceName: string |
@@ -5439,7 +5439,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.sslgateway.lists` | GET | `/sslGateway` |  |
+| `.sslgateway.list` | GET | `/sslGateway` |  |
 | `.sslgateway.listAvailableZones` | GET | `/sslGateway/availableZones` |  |
 | `.sslgateway.checkEligibility` | GET | `/sslGateway/eligibility` |  |
 | `.sslgateway.getByServiceName` | GET | `/sslGateway/{serviceName}` | serviceName: string |
@@ -5483,27 +5483,27 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.storage.listNetapps` | GET | `/storage/netapp` |  |
+| `.storage.listNetapp` | GET | `/storage/netapp` |  |
 | `.storage.getNetappByServiceName` | GET | `/storage/netapp/{serviceName}` | serviceName: string |
 | `.storage.updateNetappByServiceName` | PUT | `/storage/netapp/{serviceName}` | serviceName: string |
 | `.storage.launchNetappChangeContactByServiceName` | POST | `/storage/netapp/{serviceName}/changeContact` | serviceName: string<br />body: {<br />  contactAdmin?: string<br />&nbsp;&nbsp; contactBilling?: string<br />&nbsp;&nbsp; contactTech?: string <br />} |
 | `.storage.confirmNetappTerminationByServiceName` | POST | `/storage/netapp/{serviceName}/confirmTermination` | serviceName: string<br />body: {<br />  commentary?: string<br />&nbsp;&nbsp; futureUse?: [ServiceTerminationFutureUseEnum](lib/src/models/ServiceTerminationFutureUseEnum.ts)<br />&nbsp;&nbsp; reason?: [ServiceTerminationReasonEnum](lib/src/models/ServiceTerminationReasonEnum.ts)<br />&nbsp;&nbsp; token: string <br />} |
 | `.storage.getNetappServiceInfosByServiceName` | GET | `/storage/netapp/{serviceName}/serviceInfos` | serviceName: string |
 | `.storage.updateNetappServiceInfosByServiceName` | PUT | `/storage/netapp/{serviceName}/serviceInfos` | serviceName: string |
-| `.storage.listNetappSharesByServiceName` | GET | `/storage/netapp/{serviceName}/share` | serviceName: string |
+| `.storage.listNetappShareByServiceName` | GET | `/storage/netapp/{serviceName}/share` | serviceName: string |
 | `.storage.createNetappShareByServiceName` | POST | `/storage/netapp/{serviceName}/share` | serviceName: string |
 | `.storage.deleteNetappShareByServiceNameAndShareId` | DELETE | `/storage/netapp/{serviceName}/share/{shareId}` | serviceName: string<br /> shareId: string |
 | `.storage.getNetappShareByServiceNameAndShareId` | GET | `/storage/netapp/{serviceName}/share/{shareId}` | serviceName: string<br /> shareId: string |
 | `.storage.updateNetappShareByServiceNameAndShareId` | PUT | `/storage/netapp/{serviceName}/share/{shareId}` | serviceName: string<br /> shareId: string |
-| `.storage.listNetappShareAccessPathsByServiceNameAndShareId` | GET | `/storage/netapp/{serviceName}/share/{shareId}/accessPath` | serviceName: string<br /> shareId: string |
+| `.storage.listNetappShareAccessPathByServiceNameAndShareId` | GET | `/storage/netapp/{serviceName}/share/{shareId}/accessPath` | serviceName: string<br /> shareId: string |
 | `.storage.getNetappShareAccessPathByServiceNameAndShareIdAndAccessPathId` | GET | `/storage/netapp/{serviceName}/share/{shareId}/accessPath/{accessPathId}` | accessPathId: string<br /> serviceName: string<br /> shareId: string |
-| `.storage.listNetappShareAclsByServiceNameAndShareId` | GET | `/storage/netapp/{serviceName}/share/{shareId}/acl` | serviceName: string<br /> shareId: string |
+| `.storage.listNetappShareAclByServiceNameAndShareId` | GET | `/storage/netapp/{serviceName}/share/{shareId}/acl` | serviceName: string<br /> shareId: string |
 | `.storage.createNetappShareAclByServiceNameAndShareId` | POST | `/storage/netapp/{serviceName}/share/{shareId}/acl` | serviceName: string<br /> shareId: string |
 | `.storage.deleteNetappShareAclByServiceNameAndShareIdAndAclRuleId` | DELETE | `/storage/netapp/{serviceName}/share/{shareId}/acl/{aclRuleId}` | aclRuleId: string<br /> serviceName: string<br /> shareId: string |
 | `.storage.getNetappShareAclByServiceNameAndShareIdAndAclRuleId` | GET | `/storage/netapp/{serviceName}/share/{shareId}/acl/{aclRuleId}` | aclRuleId: string<br /> serviceName: string<br /> shareId: string |
 | `.storage.postNetappShareExtendByServiceNameAndShareId` | POST | `/storage/netapp/{serviceName}/share/{shareId}/extend` | serviceName: string<br /> shareId: string |
 | `.storage.postNetappShareShrinkByServiceNameAndShareId` | POST | `/storage/netapp/{serviceName}/share/{shareId}/shrink` | serviceName: string<br /> shareId: string |
-| `.storage.listNetappShareSnapshotsByServiceNameAndShareId` | GET | `/storage/netapp/{serviceName}/share/{shareId}/snapshot` | serviceName: string<br /> shareId: string |
+| `.storage.listNetappShareSnapshotByServiceNameAndShareId` | GET | `/storage/netapp/{serviceName}/share/{shareId}/snapshot` | serviceName: string<br /> shareId: string |
 | `.storage.createNetappShareSnapshotByServiceNameAndShareId` | POST | `/storage/netapp/{serviceName}/share/{shareId}/snapshot` | serviceName: string<br /> shareId: string |
 | `.storage.deleteNetappShareSnapshotByServiceNameAndShareIdAndSnapshotId` | DELETE | `/storage/netapp/{serviceName}/share/{shareId}/snapshot/{snapshotId}` | serviceName: string<br /> shareId: string<br /> snapshotId: string |
 | `.storage.getNetappShareSnapshotByServiceNameAndShareIdAndSnapshotId` | GET | `/storage/netapp/{serviceName}/share/{shareId}/snapshot/{snapshotId}` | serviceName: string<br /> shareId: string<br /> snapshotId: string |
@@ -5524,33 +5524,33 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.store.listContacts` | GET | `/store/contact` |  |
+| `.store.listContact` | GET | `/store/contact` |  |
 | `.store.createContact` | POST | `/store/contact` | body: {<br />  city?: string<br />&nbsp;&nbsp; country?: string<br />&nbsp;&nbsp; email: string<br />&nbsp;&nbsp; firstname: string<br />&nbsp;&nbsp; lastname: string<br />&nbsp;&nbsp; phone?: string<br />&nbsp;&nbsp; province?: string<br />&nbsp;&nbsp; street?: string<br />&nbsp;&nbsp; title: string<br />&nbsp;&nbsp; zip?: string <br />} |
 | `.store.deleteContactByContactId` | DELETE | `/store/contact/{contactId}` | contactId: string |
 | `.store.getContactByContactId` | GET | `/store/contact/{contactId}` | contactId: string |
 | `.store.updateContactByContactId` | PUT | `/store/contact/{contactId}` | contactId: string<br />body: {<br />  city?: string<br />&nbsp;&nbsp; country?: string<br />&nbsp;&nbsp; email?: string<br />&nbsp;&nbsp; firstname?: string<br />&nbsp;&nbsp; lastname?: string<br />&nbsp;&nbsp; phone?: string<br />&nbsp;&nbsp; province?: string<br />&nbsp;&nbsp; street?: string<br />&nbsp;&nbsp; title?: string<br />&nbsp;&nbsp; zip?: string <br />} |
-| `.store.listContactDocumentsByContactId` | GET | `/store/contact/{contactId}/document` | contactId: string |
+| `.store.listContactDocumentByContactId` | GET | `/store/contact/{contactId}/document` | contactId: string |
 | `.store.addContactDocumentByContactId` | POST | `/store/contact/{contactId}/document` | contactId: string<br />body: {<br />  documentId: string <br />} |
 | `.store.deleteContactDocumentByContactIdAndDocumentId` | DELETE | `/store/contact/{contactId}/document/{documentId}` | contactId: string<br /> documentId: string |
-| `.store.listDocuments` | GET | `/store/document` |  |
+| `.store.listDocument` | GET | `/store/document` |  |
 | `.store.createDocument` | POST | `/store/document` | body: {<br />  name: string<br />&nbsp;&nbsp; tags?: string <br />} |
 | `.store.addDocumentCors` | POST | `/store/document/cors` | body: {<br />  origin: string <br />} |
 | `.store.deleteDocumentByDocumentId` | DELETE | `/store/document/{documentId}` | documentId: string |
 | `.store.getDocumentByDocumentId` | GET | `/store/document/{documentId}` | documentId: string |
-| `.store.listPartners` | GET | `/store/partner` |  |
+| `.store.listPartner` | GET | `/store/partner` |  |
 | `.store.createPartner` | POST | `/store/partner` | body: {<br />  category?: string<br />&nbsp;&nbsp; city: string<br />&nbsp;&nbsp; companyNationalIdentificationNumber?: string<br />&nbsp;&nbsp; contact?: string<br />&nbsp;&nbsp; country: string<br />&nbsp;&nbsp; description?: string<br />&nbsp;&nbsp; language?: string<br />&nbsp;&nbsp; legalForm: string<br />&nbsp;&nbsp; organisationDisplayName?: string<br />&nbsp;&nbsp; organisationName: string<br />&nbsp;&nbsp; otherDetails?: string<br />&nbsp;&nbsp; province: string<br />&nbsp;&nbsp; street: string<br />&nbsp;&nbsp; url?: string<br />&nbsp;&nbsp; vat?: string<br />&nbsp;&nbsp; zip: string <br />} |
 | `.store.deletePartnerByPartnerId` | DELETE | `/store/partner/{partnerId}` | partnerId: string |
 | `.store.getPartnerByPartnerId` | GET | `/store/partner/{partnerId}` | partnerId: string |
 | `.store.updatePartnerByPartnerId` | PUT | `/store/partner/{partnerId}` | partnerId: string<br />body: {<br />  category?: string<br />&nbsp;&nbsp; city?: string<br />&nbsp;&nbsp; companyNationalIdentificationNumber?: string<br />&nbsp;&nbsp; contact?: string<br />&nbsp;&nbsp; country?: string<br />&nbsp;&nbsp; description?: string<br />&nbsp;&nbsp; language?: string<br />&nbsp;&nbsp; legalForm?: string<br />&nbsp;&nbsp; organisationDisplayName?: string<br />&nbsp;&nbsp; organisationName?: string<br />&nbsp;&nbsp; otherDetails?: string<br />&nbsp;&nbsp; province?: string<br />&nbsp;&nbsp; street?: string<br />&nbsp;&nbsp; url?: string<br />&nbsp;&nbsp; vat?: string<br />&nbsp;&nbsp; zip?: string <br />} |
-| `.store.listPartnerDocumentsByPartnerId` | GET | `/store/partner/{partnerId}/document` | partnerId: string |
+| `.store.listPartnerDocumentByPartnerId` | GET | `/store/partner/{partnerId}/document` | partnerId: string |
 | `.store.addPartnerDocumentByPartnerId` | POST | `/store/partner/{partnerId}/document` | partnerId: string<br />body: {<br />  documentId: string <br />} |
 | `.store.deletePartnerDocumentByPartnerIdAndDocumentId` | DELETE | `/store/partner/{partnerId}/document/{documentId}` | documentId: string<br /> partnerId: string |
-| `.store.listPartnerProductsByPartnerId` | GET | `/store/partner/{partnerId}/product` | partnerId: string |
+| `.store.listPartnerProductByPartnerId` | GET | `/store/partner/{partnerId}/product` | partnerId: string |
 | `.store.createPartnerProductByPartnerId` | POST | `/store/partner/{partnerId}/product` | partnerId: string<br />body: {<br />  category: string<br />&nbsp;&nbsp; description: string<br />&nbsp;&nbsp; name: string<br />&nbsp;&nbsp; otherDetails?: string <br />} |
 | `.store.deletePartnerProductByPartnerIdAndProductId` | DELETE | `/store/partner/{partnerId}/product/{productId}` | partnerId: string<br /> productId: string |
 | `.store.getPartnerProductByPartnerIdAndProductId` | GET | `/store/partner/{partnerId}/product/{productId}` | partnerId: string<br /> productId: string |
 | `.store.updatePartnerProductByPartnerIdAndProductId` | PUT | `/store/partner/{partnerId}/product/{productId}` | partnerId: string<br /> productId: string<br />body: {<br />  category?: string<br />&nbsp;&nbsp; description?: string<br />&nbsp;&nbsp; name?: string<br />&nbsp;&nbsp; otherDetails?: string <br />} |
-| `.store.listPartnerProductDocumentsByPartnerIdAndProductId` | GET | `/store/partner/{partnerId}/product/{productId}/document` | partnerId: string<br /> productId: string |
+| `.store.listPartnerProductDocumentByPartnerIdAndProductId` | GET | `/store/partner/{partnerId}/product/{productId}/document` | partnerId: string<br /> productId: string |
 | `.store.addPartnerProductDocumentByPartnerIdAndProductId` | POST | `/store/partner/{partnerId}/product/{productId}/document` | partnerId: string<br /> productId: string<br />body: {<br />  documentId: string <br />} |
 | `.store.deletePartnerProductDocumentByPartnerIdAndProductIdAndDocumentId` | DELETE | `/store/partner/{partnerId}/product/{productId}/document/{documentId}` | documentId: string<br /> partnerId: string<br /> productId: string |
 
@@ -5578,7 +5578,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.telephony.lists` | GET | `/telephony` |  |
+| `.telephony.list` | GET | `/telephony` |  |
 | `.telephony.getAccessories` | GET | `/telephony/accessories` |  |
 | `.telephony.listAliases` | GET | `/telephony/aliases` |  |
 | `.telephony.getAliasesByServiceName` | GET | `/telephony/aliases/{serviceName}` | serviceName: string |
@@ -5615,7 +5615,7 @@
 | `.telephony.deleteSoundsById` | DELETE | `/telephony/sounds/{id}` | id: number |
 | `.telephony.getSoundsById` | GET | `/telephony/sounds/{id}` | id: number |
 | `.telephony.updateSoundsById` | PUT | `/telephony/sounds/{id}` | id: number |
-| `.telephony.listSpares` | GET | `/telephony/spare` |  |
+| `.telephony.listSpare` | GET | `/telephony/spare` |  |
 | `.telephony.getSpareBrands` | GET | `/telephony/spare/brands` |  |
 | `.telephony.deleteSpareBySpare` | DELETE | `/telephony/spare/{spare}` | spare: string |
 | `.telephony.getSpareBySpare` | GET | `/telephony/spare/{spare}` | spare: string |
@@ -5877,8 +5877,8 @@
 | `.telephony.getLinePhoneFunctionKeyByBillingAccountAndServiceName` | GET | `/telephony/{billingAccount}/line/{serviceName}/phone/functionKey` | billingAccount: string<br /> serviceName: string |
 | `.telephony.getLinePhoneFunctionKeyByBillingAccountAndServiceNameAndKeyNum` | GET | `/telephony/{billingAccount}/line/{serviceName}/phone/functionKey/{keyNum}` | billingAccount: string<br /> keyNum: number<br /> serviceName: string |
 | `.telephony.updateLinePhoneFunctionKeyByBillingAccountAndServiceNameAndKeyNum` | PUT | `/telephony/{billingAccount}/line/{serviceName}/phone/functionKey/{keyNum}` | billingAccount: string<br /> keyNum: number<br /> serviceName: string |
-| `.telephony.listLinePhoneFunctionKeyAvailableFunctionsByBillingAccountAndServiceNameAndKeyNum` | GET | `/telephony/{billingAccount}/line/{serviceName}/phone/functionKey/{keyNum}/availableFunction` | billingAccount: string<br /> keyNum: number<br /> serviceName: string |
-| `.telephony.listLinePhoneMerchandiseAvailablesByBillingAccountAndServiceName` | GET | `/telephony/{billingAccount}/line/{serviceName}/phone/merchandiseAvailable` | billingAccount: string<br /> serviceName: string |
+| `.telephony.listLinePhoneFunctionKeyAvailableFunctionByBillingAccountAndServiceNameAndKeyNum` | GET | `/telephony/{billingAccount}/line/{serviceName}/phone/functionKey/{keyNum}/availableFunction` | billingAccount: string<br /> keyNum: number<br /> serviceName: string |
+| `.telephony.listLinePhoneMerchandiseAvailableByBillingAccountAndServiceName` | GET | `/telephony/{billingAccount}/line/{serviceName}/phone/merchandiseAvailable` | billingAccount: string<br /> serviceName: string |
 | `.telephony.getLinePhonePhonebookByBillingAccountAndServiceName` | GET | `/telephony/{billingAccount}/line/{serviceName}/phone/phonebook` | billingAccount: string<br /> serviceName: string |
 | `.telephony.addLinePhonePhonebookByBillingAccountAndServiceName` | POST | `/telephony/{billingAccount}/line/{serviceName}/phone/phonebook` | billingAccount: string<br /> serviceName: string<br />body: {<br />  name: string <br />} |
 | `.telephony.deleteLinePhonePhonebookByBillingAccountAndServiceNameAndBookKey` | DELETE | `/telephony/{billingAccount}/line/{serviceName}/phone/phonebook/{bookKey}` | billingAccount: string<br /> bookKey: string<br /> serviceName: string |
@@ -5901,7 +5901,7 @@
 | `.telephony.updateLinePhoneRmaByBillingAccountAndServiceNameAndId` | PUT | `/telephony/{billingAccount}/line/{serviceName}/phone/rma/{id}` | billingAccount: string<br /> id: string<br /> serviceName: string |
 | `.telephony.updateLinePhoneRmaTypeByBillingAccountAndServiceNameAndId` | POST | `/telephony/{billingAccount}/line/{serviceName}/phone/rma/{id}/changeType` | billingAccount: string<br /> id: string<br /> serviceName: string<br />body: {<br />  type: [TelephonyRmaChangeTypeEnum](lib/src/models/TelephonyRmaChangeTypeEnum.ts) <br />} |
 | `.telephony.getLinePhoneSupportsPhonebookByBillingAccountAndServiceName` | GET | `/telephony/{billingAccount}/line/{serviceName}/phone/supportsPhonebook` | billingAccount: string<br /> serviceName: string |
-| `.telephony.listLinePhoneCanBeAssociablesByBillingAccountAndServiceName` | GET | `/telephony/{billingAccount}/line/{serviceName}/phoneCanBeAssociable` | billingAccount: string<br /> serviceName: string |
+| `.telephony.listLinePhoneCanBeAssociableByBillingAccountAndServiceName` | GET | `/telephony/{billingAccount}/line/{serviceName}/phoneCanBeAssociable` | billingAccount: string<br /> serviceName: string |
 | `.telephony.getLineRecordsByBillingAccountAndServiceName` | GET | `/telephony/{billingAccount}/line/{serviceName}/records` | billingAccount: string<br /> serviceName: string |
 | `.telephony.deleteLineRecordsByBillingAccountAndServiceNameAndId` | DELETE | `/telephony/{billingAccount}/line/{serviceName}/records/{id}` | billingAccount: string<br /> id: number<br /> serviceName: string |
 | `.telephony.getLineRecordsByBillingAccountAndServiceNameAndId` | GET | `/telephony/{billingAccount}/line/{serviceName}/records/{id}` | billingAccount: string<br /> id: number<br /> serviceName: string |
@@ -5939,7 +5939,7 @@
 | `.telephony.getOfferTaskByBillingAccount` | GET | `/telephony/{billingAccount}/offerTask` | billingAccount: string |
 | `.telephony.getOfferTaskByBillingAccountAndTaskId` | GET | `/telephony/{billingAccount}/offerTask/{taskId}` | billingAccount: string<br /> taskId: number |
 | `.telephony.updateOfferTaskByBillingAccountAndTaskId` | PUT | `/telephony/{billingAccount}/offerTask/{taskId}` | billingAccount: string<br /> taskId: number |
-| `.telephony.listOldPhonesByBillingAccount` | GET | `/telephony/{billingAccount}/oldPhone` | billingAccount: string |
+| `.telephony.listOldPhoneByBillingAccount` | GET | `/telephony/{billingAccount}/oldPhone` | billingAccount: string |
 | `.telephony.getOutplanNotificationByBillingAccount` | GET | `/telephony/{billingAccount}/outplanNotification` | billingAccount: string |
 | `.telephony.addOutplanNotificationByBillingAccount` | POST | `/telephony/{billingAccount}/outplanNotification` | billingAccount: string<br />body: {<br />  block: [TelephonyOutplanNotificationBlockEnum](lib/src/models/TelephonyOutplanNotificationBlockEnum.ts)<br />&nbsp;&nbsp; notifyEmail?: string<br />&nbsp;&nbsp; percentage: number <br />} |
 | `.telephony.deleteOutplanNotificationByBillingAccountAndId` | DELETE | `/telephony/{billingAccount}/outplanNotification/{id}` | billingAccount: string<br /> id: number |
@@ -6190,7 +6190,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.veeamcloudconnect.lists` | GET | `/veeamCloudConnect` |  |
+| `.veeamcloudconnect.list` | GET | `/veeamCloudConnect` |  |
 | `.veeamcloudconnect.getByServiceName` | GET | `/veeamCloudConnect/{serviceName}` | serviceName: string |
 | `.veeamcloudconnect.getBackupRepositoryByServiceName` | GET | `/veeamCloudConnect/{serviceName}/backupRepository` | serviceName: string |
 | `.veeamcloudconnect.addBackupRepositoryByServiceName` | POST | `/veeamCloudConnect/{serviceName}/backupRepository` | serviceName: string |
@@ -6198,7 +6198,7 @@
 | `.veeamcloudconnect.getBackupRepositoryByServiceNameAndInventoryName` | GET | `/veeamCloudConnect/{serviceName}/backupRepository/{inventoryName}` | inventoryName: string<br /> serviceName: string |
 | `.veeamcloudconnect.updateBackupRepositoryUpgradeQuotaByServiceNameAndInventoryName` | POST | `/veeamCloudConnect/{serviceName}/backupRepository/{inventoryName}/upgradeQuota` | inventoryName: string<br /> serviceName: string<br />body: {<br />  newQuota: number <br />} |
 | `.veeamcloudconnect.getCapabilitiesByServiceName` | GET | `/veeamCloudConnect/{serviceName}/capabilities` | serviceName: string |
-| `.veeamcloudconnect.listOrderableUpgradesByServiceName` | GET | `/veeamCloudConnect/{serviceName}/orderableUpgrade` | serviceName: string |
+| `.veeamcloudconnect.listOrderableUpgradeByServiceName` | GET | `/veeamCloudConnect/{serviceName}/orderableUpgrade` | serviceName: string |
 | `.veeamcloudconnect.postResetPasswordByServiceName` | POST | `/veeamCloudConnect/{serviceName}/resetPassword` | serviceName: string |
 | `.veeamcloudconnect.getServiceInfosByServiceName` | GET | `/veeamCloudConnect/{serviceName}/serviceInfos` | serviceName: string |
 | `.veeamcloudconnect.updateServiceInfosByServiceName` | PUT | `/veeamCloudConnect/{serviceName}/serviceInfos` | serviceName: string |
@@ -6209,7 +6209,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.veeamveeamenterprise.listVeeamEnterprises` | GET | `/veeam/veeamEnterprise` |  |
+| `.veeamveeamenterprise.listVeeamEnterprise` | GET | `/veeam/veeamEnterprise` |  |
 | `.veeamveeamenterprise.getVeeamEnterpriseByServiceName` | GET | `/veeam/veeamEnterprise/{serviceName}` | serviceName: string |
 | `.veeamveeamenterprise.confirmVeeamEnterpriseTerminationByServiceName` | POST | `/veeam/veeamEnterprise/{serviceName}/confirmTermination` | serviceName: string<br />body: {<br />  commentary?: string<br />&nbsp;&nbsp; futureUse?: [ServiceTerminationFutureUseEnum](lib/src/models/ServiceTerminationFutureUseEnum.ts)<br />&nbsp;&nbsp; reason?: [ServiceTerminationReasonEnum](lib/src/models/ServiceTerminationReasonEnum.ts)<br />&nbsp;&nbsp; token: string <br />} |
 | `.veeamveeamenterprise.postVeeamEnterpriseRegisterByServiceName` | POST | `/veeam/veeamEnterprise/{serviceName}/register` | serviceName: string<br />body: {<br />  ip: string<br />&nbsp;&nbsp; password: string<br />&nbsp;&nbsp; port: number<br />&nbsp;&nbsp; username: string <br />} |
@@ -6224,7 +6224,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.vip.lists` | GET | `/vip` |  |
+| `.vip.list` | GET | `/vip` |  |
 | `.vip.getByServiceName` | GET | `/vip/{serviceName}` | serviceName: string |
 | `.vip.getServiceInfosByServiceName` | GET | `/vip/{serviceName}/serviceInfos` | serviceName: string |
 | `.vip.updateServiceInfosByServiceName` | PUT | `/vip/{serviceName}/serviceInfos` | serviceName: string |
@@ -6233,9 +6233,9 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.vps.lists` | GET | `/vps` |  |
-| `.vps.listDatacenters` | GET | `/vps/datacenter` |  |
-| `.vps.listOrderRuleDatacenters` | GET | `/vps/order/rule/datacenter` |  |
+| `.vps.list` | GET | `/vps` |  |
+| `.vps.listDatacenter` | GET | `/vps/datacenter` |  |
+| `.vps.listOrderRuleDatacenter` | GET | `/vps/order/rule/datacenter` |  |
 | `.vps.listOrderRuleOsChoices` | GET | `/vps/order/rule/osChoices` |  |
 | `.vps.getByServiceName` | GET | `/vps/{serviceName}` | serviceName: string |
 | `.vps.updateByServiceName` | PUT | `/vps/{serviceName}` | serviceName: string |
@@ -6265,7 +6265,7 @@
 | `.vps.getDisksMonitoringByServiceNameAndId` | GET | `/vps/{serviceName}/disks/{id}/monitoring` | id: number<br /> serviceName: string |
 | `.vps.getDisksUseByServiceNameAndId` | GET | `/vps/{serviceName}/disks/{id}/use` | id: number<br /> serviceName: string |
 | `.vps.getDistributionByServiceName` | GET | `/vps/{serviceName}/distribution` | serviceName: string |
-| `.vps.listDistributionSoftwaresByServiceName` | GET | `/vps/{serviceName}/distribution/software` | serviceName: string |
+| `.vps.listDistributionSoftwareByServiceName` | GET | `/vps/{serviceName}/distribution/software` | serviceName: string |
 | `.vps.getDistributionSoftwareByServiceNameAndSoftwareId` | GET | `/vps/{serviceName}/distribution/software/{softwareId}` | serviceName: string<br /> softwareId: number |
 | `.vps.postGetConsoleUrlByServiceName` | POST | `/vps/{serviceName}/getConsoleUrl` | serviceName: string |
 | `.vps.getImagesAvailableByServiceName` | GET | `/vps/{serviceName}/images/available` | serviceName: string |
@@ -6283,7 +6283,7 @@
 | `.vps.getModelsByServiceName` | GET | `/vps/{serviceName}/models` | serviceName: string |
 | `.vps.getMonitoringByServiceName` | GET | `/vps/{serviceName}/monitoring` | serviceName: string |
 | `.vps.postOpenConsoleAccessByServiceName` | POST | `/vps/{serviceName}/openConsoleAccess` | serviceName: string<br />body: {<br />  protocol?: [VpsVncProtocolEnum](lib/src/models/VpsVncProtocolEnum.ts) <br />} |
-| `.vps.listOptionsByServiceName` | GET | `/vps/{serviceName}/option` | serviceName: string |
+| `.vps.listOptionByServiceName` | GET | `/vps/{serviceName}/option` | serviceName: string |
 | `.vps.deleteOptionByServiceNameAndOption` | DELETE | `/vps/{serviceName}/option/{option}` | option: [VpsVpsOptionEnum](lib/src/models/VpsVpsOptionEnum.ts)<br /> serviceName: string |
 | `.vps.getOptionByServiceNameAndOption` | GET | `/vps/{serviceName}/option/{option}` | option: [VpsVpsOptionEnum](lib/src/models/VpsVpsOptionEnum.ts)<br /> serviceName: string |
 | `.vps.postRebootByServiceName` | POST | `/vps/{serviceName}/reboot` | serviceName: string |
@@ -6311,7 +6311,7 @@
 | `.vps.getTasksByServiceNameAndId` | GET | `/vps/{serviceName}/tasks/{id}` | id: number<br /> serviceName: string |
 | `.vps.getTemplatesByServiceName` | GET | `/vps/{serviceName}/templates` | serviceName: string |
 | `.vps.getTemplatesByServiceNameAndId` | GET | `/vps/{serviceName}/templates/{id}` | id: number<br /> serviceName: string |
-| `.vps.listTemplatesSoftwaresByServiceNameAndId` | GET | `/vps/{serviceName}/templates/{id}/software` | id: number<br /> serviceName: string |
+| `.vps.listTemplatesSoftwareByServiceNameAndId` | GET | `/vps/{serviceName}/templates/{id}/software` | id: number<br /> serviceName: string |
 | `.vps.getTemplatesSoftwareByServiceNameAndIdAndSoftwareId` | GET | `/vps/{serviceName}/templates/{id}/software/{softwareId}` | id: number<br /> serviceName: string<br /> softwareId: number |
 | `.vps.postTerminateByServiceName` | POST | `/vps/{serviceName}/terminate` | serviceName: string |
 | `.vps.getUseByServiceName` | GET | `/vps/{serviceName}/use` | serviceName: string |
@@ -6326,7 +6326,7 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.vrack.lists` | GET | `/vrack` |  |
+| `.vrack.list` | GET | `/vrack` |  |
 | `.vrack.getByServiceName` | GET | `/vrack/{serviceName}` | serviceName: string |
 | `.vrack.updateByServiceName` | PUT | `/vrack/{serviceName}` | serviceName: string |
 | `.vrack.listAllowedServicesByServiceName` | GET | `/vrack/{serviceName}/allowedServices` | serviceName: string |
@@ -6383,10 +6383,10 @@
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
 | `.webpaas.listCapabilities` | GET | `/webPaaS/capabilities` |  |
-| `.webpaas.listSubscriptions` | GET | `/webPaaS/subscription` |  |
+| `.webpaas.listSubscription` | GET | `/webPaaS/subscription` |  |
 | `.webpaas.getSubscriptionByServiceName` | GET | `/webPaaS/subscription/{serviceName}` | serviceName: string |
 | `.webpaas.confirmSubscriptionTerminationByServiceName` | POST | `/webPaaS/subscription/{serviceName}/confirmTermination` | serviceName: string<br />body: {<br />  commentary?: string<br />&nbsp;&nbsp; futureUse?: [ServiceTerminationFutureUseEnum](lib/src/models/ServiceTerminationFutureUseEnum.ts)<br />&nbsp;&nbsp; reason?: [ServiceTerminationReasonEnum](lib/src/models/ServiceTerminationReasonEnum.ts)<br />&nbsp;&nbsp; token: string <br />} |
-| `.webpaas.listSubscriptionCustomersByServiceName` | GET | `/webPaaS/subscription/{serviceName}/customer` | serviceName: string |
+| `.webpaas.listSubscriptionCustomerByServiceName` | GET | `/webPaaS/subscription/{serviceName}/customer` | serviceName: string |
 | `.webpaas.addSubscriptionCustomerByServiceName` | POST | `/webPaaS/subscription/{serviceName}/customer` | serviceName: string |
 | `.webpaas.deleteSubscriptionCustomerByServiceNameAndCustomerId` | DELETE | `/webPaaS/subscription/{serviceName}/customer/{customerId}` | customerId: string<br /> serviceName: string |
 | `.webpaas.getSubscriptionCustomerByServiceNameAndCustomerId` | GET | `/webPaaS/subscription/{serviceName}/customer/{customerId}` | customerId: string<br /> serviceName: string |
@@ -6398,15 +6398,15 @@
 
 | Function | Method | Route | Params |
 | :- | :- | :-  | :-  |
-| `.xdsl.lists` | GET | `/xdsl` |  |
-| `.xdsl.listEmailPros` | GET | `/xdsl/email/pro` |  |
+| `.xdsl.list` | GET | `/xdsl` |  |
+| `.xdsl.listEmailPro` | GET | `/xdsl/email/pro` |  |
 | `.xdsl.deleteEmailProByEmail` | DELETE | `/xdsl/email/pro/{email}` | email: string |
 | `.xdsl.getEmailProByEmail` | GET | `/xdsl/email/pro/{email}` | email: string |
 | `.xdsl.updateEmailProByEmail` | PUT | `/xdsl/email/pro/{email}` | email: string |
 | `.xdsl.updateEmailProPasswordByEmail` | POST | `/xdsl/email/pro/{email}/changePassword` | email: string<br />body: {<br />  password: string <br />} |
 | `.xdsl.listIncidents` | GET | `/xdsl/incidents` |  |
 | `.xdsl.getIncidentsById` | GET | `/xdsl/incidents/{id}` | id: number |
-| `.xdsl.listSpares` | GET | `/xdsl/spare` |  |
+| `.xdsl.listSpare` | GET | `/xdsl/spare` |  |
 | `.xdsl.getSpareBrands` | GET | `/xdsl/spare/brands` |  |
 | `.xdsl.deleteSpareBySpare` | DELETE | `/xdsl/spare/{spare}` | spare: string |
 | `.xdsl.getSpareBySpare` | GET | `/xdsl/spare/{spare}` | spare: string |
@@ -6415,7 +6415,7 @@
 | `.xdsl.postSpareReturnMerchandiseBySpare` | POST | `/xdsl/spare/{spare}/returnMerchandise` | spare: string |
 | `.xdsl.getSpareServiceInfosBySpare` | GET | `/xdsl/spare/{spare}/serviceInfos` | spare: string |
 | `.xdsl.updateSpareServiceInfosBySpare` | PUT | `/xdsl/spare/{spare}/serviceInfos` | spare: string |
-| `.xdsl.listTemplateModems` | GET | `/xdsl/templateModem` |  |
+| `.xdsl.listTemplateModem` | GET | `/xdsl/templateModem` |  |
 | `.xdsl.createTemplateModem` | POST | `/xdsl/templateModem` | body: {<br />  name: string<br />&nbsp;&nbsp; serviceName: string <br />} |
 | `.xdsl.deleteTemplateModemByName` | DELETE | `/xdsl/templateModem/{name}` | name: string |
 | `.xdsl.getTemplateModemByName` | GET | `/xdsl/templateModem/{name}` | name: string |
@@ -6453,8 +6453,8 @@
 | `.xdsl.getLinesStatisticsByServiceNameAndNumber` | GET | `/xdsl/{serviceName}/lines/{number}/statistics` | number: string<br /> serviceName: string |
 | `.xdsl.getModemByServiceName` | GET | `/xdsl/{serviceName}/modem` | serviceName: string |
 | `.xdsl.updateModemByServiceName` | PUT | `/xdsl/{serviceName}/modem` | serviceName: string |
-| `.xdsl.listModemAvailableACSBackendsByServiceName` | GET | `/xdsl/{serviceName}/modem/availableACSBackend` | serviceName: string |
-| `.xdsl.listModemAvailableWLANChannelsByServiceName` | GET | `/xdsl/{serviceName}/modem/availableWLANChannel` | serviceName: string |
+| `.xdsl.listModemAvailableACSBackendByServiceName` | GET | `/xdsl/{serviceName}/modem/availableACSBackend` | serviceName: string |
+| `.xdsl.listModemAvailableWLANChannelByServiceName` | GET | `/xdsl/{serviceName}/modem/availableWLANChannel` | serviceName: string |
 | `.xdsl.getModemBlocIpByServiceName` | GET | `/xdsl/{serviceName}/modem/blocIp` | serviceName: string |
 | `.xdsl.updateModemBlocIpByServiceName` | POST | `/xdsl/{serviceName}/modem/blocIp` | serviceName: string<br />body: {<br />  status: [XdslServiceStatusEnum](lib/src/models/XdslServiceStatusEnum.ts) <br />} |
 | `.xdsl.getModemCallWaitingByServiceName` | GET | `/xdsl/{serviceName}/modem/callWaiting` | serviceName: string |
@@ -6467,15 +6467,15 @@
 | `.xdsl.updateModemContentSharingByServiceName` | POST | `/xdsl/{serviceName}/modem/contentSharing` | serviceName: string<br />body: {<br />  contentSharing: [XdslServiceStatusEnum](lib/src/models/XdslServiceStatusEnum.ts) <br />} |
 | `.xdsl.getModemFirmwareByServiceName` | GET | `/xdsl/{serviceName}/modem/firmware` | serviceName: string |
 | `.xdsl.launchModemFirmwareByServiceName` | POST | `/xdsl/{serviceName}/modem/firmware` | serviceName: string<br />body: {<br />  firmware: string<br />&nbsp;&nbsp; todoDate?: Date <br />} |
-| `.xdsl.listModemFirmwareAvailablesByServiceName` | GET | `/xdsl/{serviceName}/modem/firmwareAvailable` | serviceName: string |
+| `.xdsl.listModemFirmwareAvailableByServiceName` | GET | `/xdsl/{serviceName}/modem/firmwareAvailable` | serviceName: string |
 | `.xdsl.getModemFtpByServiceName` | GET | `/xdsl/{serviceName}/modem/ftp` | serviceName: string |
 | `.xdsl.updateModemFtpByServiceName` | POST | `/xdsl/{serviceName}/modem/ftp` | serviceName: string<br />body: {<br />  ftp: [XdslServiceStatusEnum](lib/src/models/XdslServiceStatusEnum.ts) <br />} |
 | `.xdsl.getModemIpsecAlgByServiceName` | GET | `/xdsl/{serviceName}/modem/ipsecAlg` | serviceName: string |
 | `.xdsl.updateModemIpsecAlgByServiceName` | POST | `/xdsl/{serviceName}/modem/ipsecAlg` | serviceName: string<br />body: {<br />  ipsecAlg: [XdslServiceStatusEnum](lib/src/models/XdslServiceStatusEnum.ts) <br />} |
-| `.xdsl.listModemLansByServiceName` | GET | `/xdsl/{serviceName}/modem/lan` | serviceName: string |
+| `.xdsl.listModemLanByServiceName` | GET | `/xdsl/{serviceName}/modem/lan` | serviceName: string |
 | `.xdsl.getModemLanByServiceNameAndLanName` | GET | `/xdsl/{serviceName}/modem/lan/{lanName}` | lanName: string<br /> serviceName: string |
 | `.xdsl.updateModemLanByServiceNameAndLanName` | PUT | `/xdsl/{serviceName}/modem/lan/{lanName}` | lanName: string<br /> serviceName: string |
-| `.xdsl.listModemLanDhcpsByServiceNameAndLanName` | GET | `/xdsl/{serviceName}/modem/lan/{lanName}/dhcp` | lanName: string<br /> serviceName: string |
+| `.xdsl.listModemLanDhcpByServiceNameAndLanName` | GET | `/xdsl/{serviceName}/modem/lan/{lanName}/dhcp` | lanName: string<br /> serviceName: string |
 | `.xdsl.getModemLanDhcpByServiceNameAndLanNameAndDhcpName` | GET | `/xdsl/{serviceName}/modem/lan/{lanName}/dhcp/{dhcpName}` | dhcpName: string<br /> lanName: string<br /> serviceName: string |
 | `.xdsl.updateModemLanDhcpByServiceNameAndLanNameAndDhcpName` | PUT | `/xdsl/{serviceName}/modem/lan/{lanName}/dhcp/{dhcpName}` | dhcpName: string<br /> lanName: string<br /> serviceName: string |
 | `.xdsl.listModemLanDhcpDHCPStaticAddressesByServiceNameAndLanNameAndDhcpName` | GET | `/xdsl/{serviceName}/modem/lan/{lanName}/dhcp/{dhcpName}/DHCPStaticAddresses` | dhcpName: string<br /> lanName: string<br /> serviceName: string |
@@ -6498,7 +6498,7 @@
 | `.xdsl.updateModemSipAlgByServiceName` | POST | `/xdsl/{serviceName}/modem/sipAlg` | serviceName: string<br />body: {<br />  sipAlg: [XdslServiceStatusEnum](lib/src/models/XdslServiceStatusEnum.ts) <br />} |
 | `.xdsl.getModemUpnpByServiceName` | GET | `/xdsl/{serviceName}/modem/upnp` | serviceName: string |
 | `.xdsl.updateModemUpnpByServiceName` | POST | `/xdsl/{serviceName}/modem/upnp` | serviceName: string<br />body: {<br />  upnp: [XdslServiceStatusEnum](lib/src/models/XdslServiceStatusEnum.ts) <br />} |
-| `.xdsl.listModemWifisByServiceName` | GET | `/xdsl/{serviceName}/modem/wifi` | serviceName: string |
+| `.xdsl.listModemWifiByServiceName` | GET | `/xdsl/{serviceName}/modem/wifi` | serviceName: string |
 | `.xdsl.getModemWifiByServiceNameAndWifiName` | GET | `/xdsl/{serviceName}/modem/wifi/{wifiName}` | serviceName: string<br /> wifiName: string |
 | `.xdsl.updateModemWifiByServiceNameAndWifiName` | PUT | `/xdsl/{serviceName}/modem/wifi/{wifiName}` | serviceName: string<br /> wifiName: string |
 | `.xdsl.listMonitoringNotificationsByServiceName` | GET | `/xdsl/{serviceName}/monitoringNotifications` | serviceName: string |

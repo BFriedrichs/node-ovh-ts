@@ -4,14 +4,14 @@ import { DedicatedAnthosTenantStatusEnum } from './DedicatedAnthosTenantStatusEn
 import { DedicatedAnthosStorage } from './DedicatedAnthosStorage';
 
 export type DedicatedAnthosTenant = {
-  accessUrl: string;
-  description: string;
-  id: string;
-  location: string;
-  name: string;
-  serviceName: string;
-  status: DedicatedAnthosTenantStatusEnum | null;
-  storage: DedicatedAnthosStorage | null;
-  version: string;
-  vrackId: string;
+  accessUrl?: string;
+  description?: string;
+  id?: string;
+  location?: string;
+  name?: string;
+  serviceName?: string;
+  status?: DedicatedAnthosTenantStatusEnum | null;
+  storage?: DedicatedAnthosStorage | null;
+  version?: string;
+  vrackId?: string;
 };

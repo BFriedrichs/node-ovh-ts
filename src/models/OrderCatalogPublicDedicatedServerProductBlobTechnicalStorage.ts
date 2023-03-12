@@ -3,6 +3,6 @@
 import { OrderCatalogPublicDedicatedServerProductBlobTechnicalDisk } from './OrderCatalogPublicDedicatedServerProductBlobTechnicalDisk';
 
 export type OrderCatalogPublicDedicatedServerProductBlobTechnicalStorage = {
-  disks: OrderCatalogPublicDedicatedServerProductBlobTechnicalDisk[];
-  raid: string;
+  disks?: OrderCatalogPublicDedicatedServerProductBlobTechnicalDisk[];
+  raid?: string;
 };

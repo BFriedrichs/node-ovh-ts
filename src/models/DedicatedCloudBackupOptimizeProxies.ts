@@ -4,8 +4,8 @@ import { DedicatedCloudBackupOptimizeRecommendationEnum } from './DedicatedCloud
 import { DedicatedCloudBackupOptimizeMessageEnum } from './DedicatedCloudBackupOptimizeMessageEnum';
 
 export type DedicatedCloudBackupOptimizeProxies = {
-  message: DedicatedCloudBackupOptimizeMessageEnum;
-  numberOfProxiesDeployed: number;
-  numberOfProxiesImpact: number;
-  recommendation: DedicatedCloudBackupOptimizeRecommendationEnum;
+  message?: DedicatedCloudBackupOptimizeMessageEnum;
+  numberOfProxiesDeployed?: number;
+  numberOfProxiesImpact?: number;
+  recommendation?: DedicatedCloudBackupOptimizeRecommendationEnum;
 };

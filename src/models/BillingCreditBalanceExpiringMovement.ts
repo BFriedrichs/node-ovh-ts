@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { BillingCreditBalanceMovementSubObject } from './BillingCreditBalanceMovementSubObject';
 import { OrderPrice } from './OrderPrice';
+import { BillingCreditBalanceMovementSubObject } from './BillingCreditBalanceMovementSubObject';
 
 export type BillingCreditBalanceExpiringMovement = {
-  amount: OrderPrice;
-  creationDate: Date;
-  expirationDate: Date;
-  lastUpdate: Date;
-  sourceObject: BillingCreditBalanceMovementSubObject;
+  amount?: OrderPrice;
+  creationDate?: Date;
+  expirationDate?: Date;
+  lastUpdate?: Date;
+  sourceObject?: BillingCreditBalanceMovementSubObject;
 };

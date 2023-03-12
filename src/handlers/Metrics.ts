@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MetricsTokenUpdate } from '../models/MetricsTokenUpdate';
-import { MetricsLookupTokenCreation } from '../models/MetricsLookupTokenCreation';
-import { MetricsApiToken } from '../models/MetricsApiToken';
-import { MetricsTokenCreation } from '../models/MetricsTokenCreation';
 import { MetricsApiConsumption } from '../models/MetricsApiConsumption';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { MetricsApiService } from '../models/MetricsApiService';
 import { MetricsUpdate } from '../models/MetricsUpdate';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { MetricsQuotaUpdate } from '../models/MetricsQuotaUpdate';
+import { MetricsLookupTokenCreation } from '../models/MetricsLookupTokenCreation';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { MetricsApiService } from '../models/MetricsApiService';
+import { MetricsApiToken } from '../models/MetricsApiToken';
 import { ServicesService } from '../models/ServicesService';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { MetricsTokenUpdate } from '../models/MetricsTokenUpdate';
+import { MetricsTokenCreation } from '../models/MetricsTokenCreation';
 import OVHBase from '../ovh';
 
 class MetricsHandler {
@@ -21,7 +21,7 @@ class MetricsHandler {
   }
 
   /** List available services */
-  lists = (): Promise<string[]> => {
+  list = (): Promise<string[]> => {
     return this.ovh.request('GET', '/metrics');
   };
 

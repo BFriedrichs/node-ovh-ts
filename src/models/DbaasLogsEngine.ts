@@ -3,8 +3,8 @@
 import { DbaasLogsEngineNameEnum } from './DbaasLogsEngineNameEnum';
 
 export type DbaasLogsEngine = {
-  engineId: string;
-  isDeprecated: boolean;
-  name: DbaasLogsEngineNameEnum;
-  version: string;
+  engineId?: string;
+  isDeprecated?: boolean;
+  name?: DbaasLogsEngineNameEnum;
+  version?: string;
 };

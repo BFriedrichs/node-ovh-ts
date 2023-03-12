@@ -3,10 +3,10 @@
 import { CloudLoadbalancingListenerProtocolEnum } from './CloudLoadbalancingListenerProtocolEnum';
 
 export type CloudLoadbalancingCreateListener = {
-  certificateId: string;
-  defaultPoolId: string;
-  loadbalancerId?: string;
-  name?: string;
-  port?: number;
-  protocol?: CloudLoadbalancingListenerProtocolEnum;
+  certificateId?: string;
+  defaultPoolId?: string;
+  loadbalancerId: string;
+  name: string;
+  port: number;
+  protocol: CloudLoadbalancingListenerProtocolEnum;
 };

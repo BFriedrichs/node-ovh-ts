@@ -5,10 +5,10 @@ import { CloudProjectLoadbalancerStatsThroughput } from './CloudProjectLoadbalan
 import { CloudProjectLoadbalancerStatsTarget } from './CloudProjectLoadbalancerStatsTarget';
 
 export type CloudProjectLoadbalancerStats = {
-  concurrentFlows: number;
-  httpRequestsPerSecond: number | null;
-  status: CloudProjectLoadbalancerStatsStatusEnum;
-  targets: CloudProjectLoadbalancerStatsTarget[];
-  tcpConnectionsPerSecond: number;
-  throughput: CloudProjectLoadbalancerStatsThroughput;
+  concurrentFlows?: number;
+  httpRequestsPerSecond?: number | null;
+  status?: CloudProjectLoadbalancerStatsStatusEnum;
+  targets?: CloudProjectLoadbalancerStatsTarget[];
+  tcpConnectionsPerSecond?: number;
+  throughput?: CloudProjectLoadbalancerStatsThroughput;
 };

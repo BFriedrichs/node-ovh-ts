@@ -1,24 +1,24 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { PartnerKnowledgeResourcesRangeEnum } from '../models/PartnerKnowledgeResourcesRangeEnum';
-import { PartnerExpertisesChoices } from '../models/PartnerExpertisesChoices';
-import { PartnerProductCountries } from '../models/PartnerProductCountries';
-import { PartnerContact } from '../models/PartnerContact';
-import { PartnerActivitySectors } from '../models/PartnerActivitySectors';
-import { PartnerTechnicalExpertResourcesRangeEnum } from '../models/PartnerTechnicalExpertResourcesRangeEnum';
-import { PartnerApplication } from '../models/PartnerApplication';
-import { PartnerCompany } from '../models/PartnerCompany';
-import { PartnerNic } from '../models/PartnerNic';
+import { PartnerOVHCertifications } from '../models/PartnerOVHCertifications';
 import { PartnerEmployeesNumberEnum } from '../models/PartnerEmployeesNumberEnum';
+import { PartnerTechnicalExpertResourcesRangeEnum } from '../models/PartnerTechnicalExpertResourcesRangeEnum';
+import { PartnerTechnicalAdvancedResourcesRangeEnum } from '../models/PartnerTechnicalAdvancedResourcesRangeEnum';
+import { PartnerNic } from '../models/PartnerNic';
+import { PartnerExternalCertifications } from '../models/PartnerExternalCertifications';
+import { PartnerKnowledgeResourcesRangeEnum } from '../models/PartnerKnowledgeResourcesRangeEnum';
+import { PartnerCompany } from '../models/PartnerCompany';
 import { PartnerClientKinds } from '../models/PartnerClientKinds';
 import { PartnerOVHProductsUsed } from '../models/PartnerOVHProductsUsed';
-import { PartnerOVHCustomersAdvisedEnum } from '../models/PartnerOVHCustomersAdvisedEnum';
+import { PartnerContact } from '../models/PartnerContact';
 import { NichandleCountryEnum } from '../models/NichandleCountryEnum';
+import { PartnerApplication } from '../models/PartnerApplication';
+import { PartnerProductCountries } from '../models/PartnerProductCountries';
 import { PartnerRevenueRangeEnum } from '../models/PartnerRevenueRangeEnum';
-import { PartnerOVHCertifications } from '../models/PartnerOVHCertifications';
-import { PartnerExternalCertifications } from '../models/PartnerExternalCertifications';
-import { PartnerTechnicalAdvancedResourcesRangeEnum } from '../models/PartnerTechnicalAdvancedResourcesRangeEnum';
 import { PartnerPartnerKnowledges } from '../models/PartnerPartnerKnowledges';
+import { PartnerExpertisesChoices } from '../models/PartnerExpertisesChoices';
+import { PartnerActivitySectors } from '../models/PartnerActivitySectors';
+import { PartnerOVHCustomersAdvisedEnum } from '../models/PartnerOVHCustomersAdvisedEnum';
 import OVHBase from '../ovh';
 
 class PartnersHandler {
@@ -29,7 +29,7 @@ class PartnersHandler {
   }
 
   /** List created companies */
-  listRegisterCompanys = (): Promise<string[]> => {
+  listRegisterCompany = (): Promise<string[]> => {
     return this.ovh.request('GET', '/partners/register/company');
   };
 
@@ -130,7 +130,7 @@ class PartnersHandler {
   };
 
   /** List created contacts */
-  listRegisterCompanyContactsByCompanyId = (companyId: string): Promise<string[]> => {
+  listRegisterCompanyContactByCompanyId = (companyId: string): Promise<string[]> => {
     return this.ovh.request('GET', `/partners/register/company/${companyId}/contact`);
   };
 

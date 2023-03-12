@@ -3,6 +3,6 @@
 import { MsServicesSharepointLicenseEnum } from './MsServicesSharepointLicenseEnum';
 
 export type MsServicesSharepointAccountLicense = {
-  license: MsServicesSharepointLicenseEnum;
-  licenseQuantity: number;
+  license?: MsServicesSharepointLicenseEnum;
+  licenseQuantity?: number;
 };

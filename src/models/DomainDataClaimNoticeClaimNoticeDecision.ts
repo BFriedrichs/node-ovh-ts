@@ -6,13 +6,13 @@ import { DomainDataClaimNoticeClassification } from './DomainDataClaimNoticeClas
 import { DomainDataClaimNoticeCourtDecision } from './DomainDataClaimNoticeCourtDecision';
 
 export type DomainDataClaimNoticeClaimNoticeDecision = {
-  classifications: DomainDataClaimNoticeClassification[];
-  courtDecisions: DomainDataClaimNoticeCourtDecision[];
-  goodsAndServices: string;
-  jurisdiction: string;
-  jurisdictionCountryCode: string;
-  markName: string;
-  trademarkContacts: DomainDataClaimNoticeContact[];
-  trademarkHolders: DomainDataClaimNoticeContact[];
-  trademarkUDRP: DomainDataClaimNoticeUDRP[];
+  classifications?: DomainDataClaimNoticeClassification[];
+  courtDecisions?: DomainDataClaimNoticeCourtDecision[];
+  goodsAndServices?: string;
+  jurisdiction?: string;
+  jurisdictionCountryCode?: string;
+  markName?: string;
+  trademarkContacts?: DomainDataClaimNoticeContact[];
+  trademarkHolders?: DomainDataClaimNoticeContact[];
+  trademarkUDRP?: DomainDataClaimNoticeUDRP[];
 };

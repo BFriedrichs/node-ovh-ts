@@ -2,4 +2,4 @@
 
 import { IpLoadbalancingStatusEnum } from './IpLoadbalancingStatusEnum';
 
-export type IpLoadbalancingStatusService = { status: IpLoadbalancingStatusEnum };
+export type IpLoadbalancingStatusService = { status?: IpLoadbalancingStatusEnum };

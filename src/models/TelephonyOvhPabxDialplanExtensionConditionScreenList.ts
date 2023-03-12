@@ -3,8 +3,8 @@
 import { TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum } from './TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum';
 
 export type TelephonyOvhPabxDialplanExtensionConditionScreenList = {
-  callerIdNumber: string | null;
-  conditionId: number;
-  destinationNumber: string | null;
-  screenListType: TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum | null;
+  callerIdNumber?: string | null;
+  conditionId?: number;
+  destinationNumber?: string | null;
+  screenListType?: TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum | null;
 };

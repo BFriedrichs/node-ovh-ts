@@ -3,6 +3,6 @@
 import { HostingWebUserCredentials } from './HostingWebUserCredentials';
 
 export type HostingWebUserServiceCredentials = {
-  ftp: HostingWebUserCredentials;
-  ssh: HostingWebUserCredentials;
+  ftp?: HostingWebUserCredentials;
+  ssh?: HostingWebUserCredentials;
 };
