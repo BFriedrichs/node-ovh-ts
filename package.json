@@ -1,6 +1,6 @@
 {
   "name": "node-ovh-ts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "OVH API wrapper library for TypeScript",
   "license": "MIT",
   "homepage": "https://github.com/BFriedrichs/node-ovh-ts",

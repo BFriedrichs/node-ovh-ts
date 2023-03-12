@@ -43,6 +43,7 @@ class OVHBase {
 
     const result = await fetch(url, {
       headers,
+      body: reqBody,
     });
 
     if (result.status !== 200) {
