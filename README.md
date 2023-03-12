@@ -1,6 +1,12 @@
 # TypeScript wrapper for the OVH API
 **A wrapper class for the OVH API which wraps every route into a strongly typed signature.**
 
+![npm version](https://img.shields.io/npm/v/node-ovh-ts)
+![npm size](https://img.shields.io/bundlephobia/min/node-ovh-ts?label=size)
+![npm minified size](https://img.shields.io/bundlephobia/minzip/node-ovh-ts?label=minified-size)
+![git activity](https://img.shields.io/github/last-commit/BFriedrichs/node-ovh-ts/main?label=last%20activity)
+
+
 All handlers and models are generated directly from the API specification received from OVH themselves.
 
 *This is an unofficial project and not affiliated with OVH!*
