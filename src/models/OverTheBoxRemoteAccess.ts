@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { OverTheBoxRemoteAccessUserInfos } from './OverTheBoxRemoteAccessUserInfos';
-import { OverTheBoxRemoteAccessConnectionInfos } from './OverTheBoxRemoteAccessConnectionInfos';
 import { OverTheBoxRemoteAccessStatusEnum } from './OverTheBoxRemoteAccessStatusEnum';
+import { OverTheBoxRemoteAccessConnectionInfos } from './OverTheBoxRemoteAccessConnectionInfos';
 
 export type OverTheBoxRemoteAccess = {
   accepted: boolean;

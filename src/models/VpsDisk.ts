@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { VpsDiskStateEnum } from './VpsDiskStateEnum';
 import { VpsDiskTypeEnum } from './VpsDiskTypeEnum';
+import { VpsDiskStateEnum } from './VpsDiskStateEnum';
 
 export type VpsDisk = {
   bandwidthLimit: number;

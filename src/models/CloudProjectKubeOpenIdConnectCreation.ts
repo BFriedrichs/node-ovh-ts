@@ -5,11 +5,11 @@ import { CloudKubeOpenIdConnectSigningAlgorithmsEnum } from './CloudKubeOpenIdCo
 export type CloudProjectKubeOpenIdConnectCreation = {
   caContent: string | null;
   clientId?: string;
-  groupsClaim: string | null;
+  groupsClaim: string[] | null;
   groupsPrefix: string | null;
   issuerUrl?: string;
-  requiredClaim: string | null;
-  signingAlgorithms: CloudKubeOpenIdConnectSigningAlgorithmsEnum | null;
+  requiredClaim: string[] | null;
+  signingAlgorithms: CloudKubeOpenIdConnectSigningAlgorithmsEnum[] | null;
   usernameClaim: string | null;
   usernamePrefix: string | null;
 };

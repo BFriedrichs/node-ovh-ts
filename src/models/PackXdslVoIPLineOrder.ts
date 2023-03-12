@@ -4,5 +4,5 @@ export type PackXdslVoIPLineOrder = {
   needPayment: boolean;
   orderId: number;
   orderUrl: string;
-  taskIds: number;
+  taskIds: number[];
 };

@@ -5,7 +5,7 @@ import { DomainIsForEnum } from './DomainIsForEnum';
 export type DomainConfigurationsCustomFields = {
   audience: string | null;
   authInfo: string | null;
-  isFor: DomainIsForEnum | null;
+  isFor: DomainIsForEnum[] | null;
   otherPurpose: string | null;
   reason: string | null;
   represent: string | null;

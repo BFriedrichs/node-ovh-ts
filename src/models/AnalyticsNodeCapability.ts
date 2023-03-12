@@ -3,7 +3,7 @@
 export type AnalyticsNodeCapability = {
   instanceMax: number;
   instanceMin: number;
-  instanceType: string;
+  instanceType: string[];
   rawStorageMaxGb: number;
   rawStorageMinGb: number;
 };

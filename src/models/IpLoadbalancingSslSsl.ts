@@ -7,7 +7,7 @@ export type IpLoadbalancingSslSsl = {
   expireDate: Date;
   fingerprint: string;
   id: number;
-  san: string;
+  san: string[];
   serial: string;
   subject: string;
   type: IpLoadbalancingSslTypeEnum | null;

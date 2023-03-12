@@ -5,7 +5,7 @@ import { CloudStorageObject } from './CloudStorageObject';
 export type CloudStorageContainer = {
   createdAt: Date;
   name: string;
-  objects: CloudStorageObject;
+  objects: CloudStorageObject[];
   objectsCount: number;
   objectsSize: number;
   ownerId: number;

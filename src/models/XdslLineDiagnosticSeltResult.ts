@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { XdslLineDiagnosticSeltPrelocEnum } from './XdslLineDiagnosticSeltPrelocEnum';
-import { XdslLineDiagnosticSeltStateEnum } from './XdslLineDiagnosticSeltStateEnum';
 import { XdslLineDiagnosticSeltStatusEnum } from './XdslLineDiagnosticSeltStatusEnum';
+import { XdslLineDiagnosticSeltStateEnum } from './XdslLineDiagnosticSeltStateEnum';
 
 export type XdslLineDiagnosticSeltResult = {
   date: Date | null;

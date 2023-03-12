@@ -1,20 +1,20 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesService } from '../models/ServicesService';
-import { HorizonViewDatacenter } from '../models/HorizonViewDatacenter';
-import { HorizonViewPool } from '../models/HorizonViewPool';
-import { HorizonViewUser } from '../models/HorizonViewUser';
-import { HorizonViewDomainTrust } from '../models/HorizonViewDomainTrust';
-import { HorizonViewCustomerNetwork } from '../models/HorizonViewCustomerNetwork';
-import { HorizonViewTask } from '../models/HorizonViewTask';
-import { HorizonViewAccessPointTypeEnum } from '../models/HorizonViewAccessPointTypeEnum';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { HorizonViewCustomerNetworkPool } from '../models/HorizonViewCustomerNetworkPool';
-import { HorizonViewDedicatedHorizon } from '../models/HorizonViewDedicatedHorizon';
 import { HorizonViewPoolType } from '../models/HorizonViewPoolType';
 import { HorizonViewTaskStateEnum } from '../models/HorizonViewTaskStateEnum';
-import { HorizonViewCustomerUser } from '../models/HorizonViewCustomerUser';
+import { HorizonViewDatacenter } from '../models/HorizonViewDatacenter';
+import { HorizonViewAccessPointTypeEnum } from '../models/HorizonViewAccessPointTypeEnum';
+import { HorizonViewCustomerNetworkPool } from '../models/HorizonViewCustomerNetworkPool';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { HorizonViewCustomerNetwork } from '../models/HorizonViewCustomerNetwork';
+import { HorizonViewUser } from '../models/HorizonViewUser';
+import { HorizonViewCustomerUser } from '../models/HorizonViewCustomerUser';
+import { HorizonViewDedicatedHorizon } from '../models/HorizonViewDedicatedHorizon';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { HorizonViewDomainTrust } from '../models/HorizonViewDomainTrust';
+import { HorizonViewTask } from '../models/HorizonViewTask';
+import { ServicesService } from '../models/ServicesService';
+import { HorizonViewPool } from '../models/HorizonViewPool';
 import OVHBase from '../ovh';
 
 class HorizonViewHandler {
@@ -25,22 +25,22 @@ class HorizonViewHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/horizonView');
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<HorizonViewDatacenter> => {
+  getByServiceName = (serviceName: string): Promise<HorizonViewDatacenter> => {
     return this.ovh.request('GET', `/horizonView/${serviceName}`);
   };
 
   /** Pool associated with this Datacenter */
-  getServiceNameAccessPoint = (serviceName: string): Promise<number> => {
+  getAccessPointByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/horizonView/${serviceName}/accessPoint`);
   };
 
   /** Add new access point to create a new network */
-  postServiceNameAccessPoint = (
+  addAccessPointByServiceName = (
     serviceName: string,
     body: {
       poolType: HorizonViewPoolType;
@@ -48,20 +48,20 @@ class HorizonViewHandler {
       privateVlan?: number;
       vrouterPoolPublicIp?: string;
     }
-  ): Promise<HorizonViewTask> => {
+  ): Promise<HorizonViewTask[]> => {
     return this.ovh.request('POST', `/horizonView/${serviceName}/accessPoint`, body);
   };
 
   /** Delete this access point  */
-  deleteServiceNameAccessPointAccessPointId = (
+  deleteAccessPointByServiceNameAndAccessPointId = (
     accessPointId: number,
     serviceName: string
-  ): Promise<HorizonViewTask> => {
+  ): Promise<HorizonViewTask[]> => {
     return this.ovh.request('DELETE', `/horizonView/${serviceName}/accessPoint/${accessPointId}`);
   };
 
   /** Get this object properties */
-  getServiceNameAccessPointAccessPointId = (
+  getAccessPointByServiceNameAndAccessPointId = (
     accessPointId: number,
     serviceName: string
   ): Promise<HorizonViewPool> => {
@@ -69,7 +69,7 @@ class HorizonViewHandler {
   };
 
   /** Manage your session Timeout on Unified Access Gateway */
-  postServiceNameAccessPointAccessPointIdChangeSessionTimeout = (
+  postAccessPointChangeSessionTimeoutByServiceNameAndAccessPointId = (
     accessPointId: number,
     serviceName: string,
     body: { expiration: number; onSingleAP?: HorizonViewAccessPointTypeEnum }
@@ -82,10 +82,10 @@ class HorizonViewHandler {
   };
 
   /** You can reach from the Desktops your private network */
-  getServiceNameAccessPointAccessPointIdCustomerNetwork = (
+  getAccessPointCustomerNetworkByServiceNameAndAccessPointId = (
     accessPointId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/horizonView/${serviceName}/accessPoint/${accessPointId}/customerNetwork`
@@ -93,11 +93,11 @@ class HorizonViewHandler {
   };
 
   /** Add a new network  */
-  postServiceNameAccessPointAccessPointIdCustomerNetwork = (
+  addAccessPointCustomerNetworkByServiceNameAndAccessPointId = (
     accessPointId: number,
     serviceName: string,
     body: { network: string }
-  ): Promise<HorizonViewTask> => {
+  ): Promise<HorizonViewTask[]> => {
     return this.ovh.request(
       'POST',
       `/horizonView/${serviceName}/accessPoint/${accessPointId}/customerNetwork`,
@@ -106,11 +106,11 @@ class HorizonViewHandler {
   };
 
   /** Delete this Customer Network */
-  deleteServiceNameAccessPointAccessPointIdCustomerNetworkCustomerNetworkId = (
+  deleteAccessPointCustomerNetworkByServiceNameAndAccessPointIdAndCustomerNetworkId = (
     accessPointId: number,
     customerNetworkId: number,
     serviceName: string
-  ): Promise<HorizonViewTask> => {
+  ): Promise<HorizonViewTask[]> => {
     return this.ovh.request(
       'DELETE',
       `/horizonView/${serviceName}/accessPoint/${accessPointId}/customerNetwork/${customerNetworkId}`
@@ -118,7 +118,7 @@ class HorizonViewHandler {
   };
 
   /** Get this object properties */
-  getServiceNameAccessPointAccessPointIdCustomerNetworkCustomerNetworkId = (
+  getAccessPointCustomerNetworkByServiceNameAndAccessPointIdAndCustomerNetworkId = (
     accessPointId: number,
     customerNetworkId: number,
     serviceName: string
@@ -130,7 +130,7 @@ class HorizonViewHandler {
   };
 
   /** Disable two factor authentication on your pool */
-  postServiceNameAccessPointAccessPointIdDisableTwoFA = (
+  disableAccessPointTwoFAByServiceNameAndAccessPointId = (
     accessPointId: number,
     serviceName: string
   ): Promise<HorizonViewTask> => {
@@ -141,7 +141,7 @@ class HorizonViewHandler {
   };
 
   /** Disable windows Username option on Unified Access Gateway */
-  postServiceNameAccessPointAccessPointIdDisableWindowsUsernameOption = (
+  disableAccessPointWindowsUsernameOptionByServiceNameAndAccessPointId = (
     accessPointId: number,
     serviceName: string,
     body: { onSingleAP?: HorizonViewAccessPointTypeEnum }
@@ -154,7 +154,7 @@ class HorizonViewHandler {
   };
 
   /** Enable two factor authentication on your pool */
-  postServiceNameAccessPointAccessPointIdEnableTwoFA = (
+  enableAccessPointTwoFAByServiceNameAndAccessPointId = (
     accessPointId: number,
     serviceName: string,
     body: { onSingleAP?: HorizonViewAccessPointTypeEnum; radiusIp: string; secret: string }
@@ -167,7 +167,7 @@ class HorizonViewHandler {
   };
 
   /** Enable windows Username option on Unified Access Gateway */
-  postServiceNameAccessPointAccessPointIdEnableWindowsUsernameOption = (
+  enableAccessPointWindowsUsernameOptionByServiceNameAndAccessPointId = (
     accessPointId: number,
     serviceName: string,
     body: { onSingleAP?: HorizonViewAccessPointTypeEnum }
@@ -180,7 +180,7 @@ class HorizonViewHandler {
   };
 
   /** Confirm termination of your service */
-  postServiceNameConfirmTermination = (
+  confirmTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -193,23 +193,23 @@ class HorizonViewHandler {
   };
 
   /** You can reach from the Desktops your private network */
-  getServiceNameCustomerNetwork = (serviceName: string): Promise<number> => {
+  getCustomerNetworkByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/horizonView/${serviceName}/customerNetwork`);
   };
 
   /** Add a new network  */
-  postServiceNameCustomerNetwork = (
+  addCustomerNetworkByServiceName = (
     serviceName: string,
     body: { name: string; network: string }
-  ): Promise<HorizonViewTask> => {
+  ): Promise<HorizonViewTask[]> => {
     return this.ovh.request('POST', `/horizonView/${serviceName}/customerNetwork`, body);
   };
 
   /** Delete this Customer Network */
-  deleteServiceNameCustomerNetworkCustomerNetworkId = (
+  deleteCustomerNetworkByServiceNameAndCustomerNetworkId = (
     customerNetworkId: number,
     serviceName: string
-  ): Promise<HorizonViewTask> => {
+  ): Promise<HorizonViewTask[]> => {
     return this.ovh.request(
       'DELETE',
       `/horizonView/${serviceName}/customerNetwork/${customerNetworkId}`
@@ -217,7 +217,7 @@ class HorizonViewHandler {
   };
 
   /** Get this object properties */
-  getServiceNameCustomerNetworkCustomerNetworkId = (
+  getCustomerNetworkByServiceNameAndCustomerNetworkId = (
     customerNetworkId: number,
     serviceName: string
   ): Promise<HorizonViewCustomerNetwork> => {
@@ -228,20 +228,22 @@ class HorizonViewHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDedicatedHorizon = (serviceName: string): Promise<HorizonViewDedicatedHorizon> => {
+  getDedicatedHorizonByServiceName = (
+    serviceName: string
+  ): Promise<HorizonViewDedicatedHorizon> => {
     return this.ovh.request('GET', `/horizonView/${serviceName}/dedicatedHorizon`);
   };
 
   /** Account to access to your pool */
-  getServiceNameDedicatedHorizonCustomerUser = (serviceName: string): Promise<string> => {
+  getDedicatedHorizonCustomerUserByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/horizonView/${serviceName}/dedicatedHorizon/customerUser`);
   };
 
   /** Create a new customer user  */
-  postServiceNameDedicatedHorizonCustomerUser = (
+  createDedicatedHorizonCustomerUserByServiceName = (
     serviceName: string,
     body: { email?: string; password?: string; username: string }
-  ): Promise<HorizonViewTask> => {
+  ): Promise<HorizonViewTask[]> => {
     return this.ovh.request(
       'POST',
       `/horizonView/${serviceName}/dedicatedHorizon/customerUser`,
@@ -250,10 +252,10 @@ class HorizonViewHandler {
   };
 
   /** Delete this Customer User */
-  deleteServiceNameDedicatedHorizonCustomerUserUsername = (
+  deleteDedicatedHorizonCustomerUserByServiceNameAndUsername = (
     serviceName: string,
     username: string
-  ): Promise<HorizonViewTask> => {
+  ): Promise<HorizonViewTask[]> => {
     return this.ovh.request(
       'DELETE',
       `/horizonView/${serviceName}/dedicatedHorizon/customerUser/${username}`
@@ -261,7 +263,7 @@ class HorizonViewHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDedicatedHorizonCustomerUserUsername = (
+  getDedicatedHorizonCustomerUserByServiceNameAndUsername = (
     serviceName: string,
     username: string
   ): Promise<HorizonViewCustomerUser> => {
@@ -272,7 +274,7 @@ class HorizonViewHandler {
   };
 
   /** Change Horizon View Customer  user password */
-  postServiceNameDedicatedHorizonCustomerUserUsernameChangePassword = (
+  updateDedicatedHorizonCustomerUserPasswordByServiceNameAndUsername = (
     serviceName: string,
     username: string,
     body: { password?: string }
@@ -285,7 +287,7 @@ class HorizonViewHandler {
   };
 
   /** Disable the View Storage Accelerator option on VCenter */
-  postServiceNameDedicatedHorizonDisableStorageAccelerator = (
+  disableDedicatedHorizonStorageAcceleratorByServiceName = (
     serviceName: string
   ): Promise<HorizonViewTask> => {
     return this.ovh.request(
@@ -295,7 +297,7 @@ class HorizonViewHandler {
   };
 
   /** Enable the View Storage Accelerator option on VCenter */
-  postServiceNameDedicatedHorizonEnableStorageAccelerator = (
+  enableDedicatedHorizonStorageAcceleratorByServiceName = (
     serviceName: string
   ): Promise<HorizonViewTask> => {
     return this.ovh.request(
@@ -305,12 +307,12 @@ class HorizonViewHandler {
   };
 
   /** Tasks associated with this Dedicated Horizon */
-  getServiceNameDedicatedHorizonTask = (serviceName: string): Promise<number> => {
+  getDedicatedHorizonTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/horizonView/${serviceName}/dedicatedHorizon/task`);
   };
 
   /** Get this object properties */
-  getServiceNameDedicatedHorizonTaskTaskId = (
+  getDedicatedHorizonTaskByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<HorizonViewTask> => {
@@ -318,12 +320,12 @@ class HorizonViewHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDedicatedHorizonUser = (serviceName: string): Promise<HorizonViewUser> => {
+  getDedicatedHorizonUserByServiceName = (serviceName: string): Promise<HorizonViewUser> => {
     return this.ovh.request('GET', `/horizonView/${serviceName}/dedicatedHorizon/user`);
   };
 
   /** Change Horizon View user password */
-  postServiceNameDedicatedHorizonUserChangePassword = (
+  updateDedicatedHorizonUserPasswordByServiceName = (
     serviceName: string,
     body: { password?: string }
   ): Promise<HorizonViewTask> => {
@@ -335,7 +337,7 @@ class HorizonViewHandler {
   };
 
   /** Change horizon view user properties */
-  postServiceNameDedicatedHorizonUserChangeProperties = (
+  updateDedicatedHorizonUserPropertiesByServiceName = (
     serviceName: string,
     body: { email?: string }
   ): Promise<HorizonViewTask> => {
@@ -347,20 +349,20 @@ class HorizonViewHandler {
   };
 
   /** List all Active Directories linked to your CDI Active Directory */
-  getServiceNameDomainTrust = (serviceName: string): Promise<number> => {
+  listDomainTrustsByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/horizonView/${serviceName}/domainTrust`);
   };
 
   /** Link your Active Directory to your CDI Active Directory */
-  postServiceNameDomainTrust = (
+  postDomainTrustByServiceName = (
     serviceName: string,
     body: { activeDirectoryIP: string; dns1?: string; dns2?: string; domain: string }
-  ): Promise<HorizonViewTask> => {
+  ): Promise<HorizonViewTask[]> => {
     return this.ovh.request('POST', `/horizonView/${serviceName}/domainTrust`, body);
   };
 
   /** Get this object properties */
-  getServiceNameDomainTrustDomainTrustId = (
+  getDomainTrustByServiceNameAndDomainTrustId = (
     domainTrustId: number,
     serviceName: string
   ): Promise<HorizonViewDomainTrust> => {
@@ -368,7 +370,7 @@ class HorizonViewHandler {
   };
 
   /** Add a child domain for this domain. */
-  postServiceNameDomainTrustDomainTrustIdAddChildDomain = (
+  addDomainTrustChildDomainByServiceNameAndDomainTrustId = (
     domainTrustId: number,
     serviceName: string,
     body: {
@@ -386,7 +388,7 @@ class HorizonViewHandler {
   };
 
   /** Add a Domain Controller for this domain. */
-  postServiceNameDomainTrustDomainTrustIdAddDomainController = (
+  addDomainTrustDomainControllerByServiceNameAndDomainTrustId = (
     domainTrustId: number,
     serviceName: string,
     body: { domain: string; domainControllerIp: string }
@@ -399,7 +401,7 @@ class HorizonViewHandler {
   };
 
   /** Add a domain user to add your desktop in your Active Directory */
-  postServiceNameDomainTrustDomainTrustIdAddDomainUserOnComposer = (
+  addDomainTrustDomainUserOnComposerByServiceNameAndDomainTrustId = (
     domainTrustId: number,
     serviceName: string,
     body: { domain: string; password: string; username: string }
@@ -412,7 +414,7 @@ class HorizonViewHandler {
   };
 
   /** Change Horizon View user password */
-  postServiceNameDomainTrustDomainTrustIdCreateTrust = (
+  updateDomainTrustCreateTrustByServiceNameAndDomainTrustId = (
     domainTrustId: number,
     serviceName: string,
     body: { passphrase: string; serviceAccountPassword: string }
@@ -425,19 +427,19 @@ class HorizonViewHandler {
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/horizonView/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/horizonView/${serviceName}/serviceInfos`, body);
   };
 
   /** Terminate your service */
-  postServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/horizonView/${serviceName}/terminate`);
   };
 }
 
-export default HorizonViewHandler;
+export { HorizonViewHandler };

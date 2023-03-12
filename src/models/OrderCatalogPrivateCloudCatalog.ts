@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderCatalogPrivateCloudZonesListing } from './OrderCatalogPrivateCloudZonesListing';
 import { OrderCatalogPrivateCloudCapabilitiesListing } from './OrderCatalogPrivateCloudCapabilitiesListing';
+import { OrderCatalogPrivateCloudZonesListing } from './OrderCatalogPrivateCloudZonesListing';
 
 export type OrderCatalogPrivateCloudCatalog = {
   catalogId: number;

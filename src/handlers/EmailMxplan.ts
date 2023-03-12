@@ -1,20 +1,20 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailMxplanServer } from '../models/EmailMxplanServer';
-import { EmailMxplanAccountAlias } from '../models/EmailMxplanAccountAlias';
-import { EmailMxplanDomain } from '../models/EmailMxplanDomain';
-import { EmailMxplanAccountDiagnosis } from '../models/EmailMxplanAccountDiagnosis';
-import { EmailProObjectStateEnum } from '../models/EmailProObjectStateEnum';
+import { EmailMxplanAccountSendOnBehalfTo } from '../models/EmailMxplanAccountSendOnBehalfTo';
 import { EmailMxplanAccountSendAs } from '../models/EmailMxplanAccountSendAs';
+import { EmailMxplanExternalContact } from '../models/EmailMxplanExternalContact';
+import { EmailMxplanAccountDiagnosis } from '../models/EmailMxplanAccountDiagnosis';
+import { EmailProDisclaimerAttributeEnum } from '../models/EmailProDisclaimerAttributeEnum';
+import { EmailMxplanService } from '../models/EmailMxplanService';
+import { EmailProObjectStateEnum } from '../models/EmailProObjectStateEnum';
 import { EmailMxplanAccountCapabilities } from '../models/EmailMxplanAccountCapabilities';
+import { EmailProDisclaimer } from '../models/EmailProDisclaimer';
+import { EmailProTask } from '../models/EmailProTask';
+import { EmailMxplanAccountAlias } from '../models/EmailMxplanAccountAlias';
+import { EmailMxplanServer } from '../models/EmailMxplanServer';
+import { EmailMxplanDomain } from '../models/EmailMxplanDomain';
 import { EmailMxplanAccountFullAccess } from '../models/EmailMxplanAccountFullAccess';
 import { EmailMxplanAccount } from '../models/EmailMxplanAccount';
-import { EmailMxplanService } from '../models/EmailMxplanService';
-import { EmailProDisclaimerAttributeEnum } from '../models/EmailProDisclaimerAttributeEnum';
-import { EmailMxplanExternalContact } from '../models/EmailMxplanExternalContact';
-import { EmailProDisclaimer } from '../models/EmailProDisclaimer';
-import { EmailMxplanAccountSendOnBehalfTo } from '../models/EmailMxplanAccountSendOnBehalfTo';
-import { EmailProTask } from '../models/EmailProTask';
 import OVHBase from '../ovh';
 
 class EmailMxplanHandler {
@@ -25,37 +25,43 @@ class EmailMxplanHandler {
   }
 
   /** List available services */
-  getMxplan = (): Promise<string> => {
+  listMxplans = (): Promise<string[]> => {
     return this.ovh.request('GET', '/email/mxplan');
   };
 
   /** Get this object properties */
-  getMxplanService = (service: string): Promise<EmailMxplanService> => {
+  getMxplanByService = (service: string): Promise<EmailMxplanService> => {
     return this.ovh.request('GET', `/email/mxplan/${service}`);
   };
 
   /** Alter this object properties */
-  putMxplanService = (service: string, body: EmailMxplanService): Promise<void> => {
+  updateMxplanByService = (service: string, body: EmailMxplanService): Promise<void> => {
     return this.ovh.request('PUT', `/email/mxplan/${service}`, body);
   };
 
   /** Accounts associated to this mxplan service */
-  getMxplanServiceAccount = (service: string): Promise<string> => {
+  getMxplanAccountByService = (service: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/mxplan/${service}/account`);
   };
 
   /** Delete existing mailbox in mxplan server */
-  deleteMxplanServiceAccountEmail = (email: string, service: string): Promise<EmailProTask> => {
+  deleteMxplanAccountByServiceAndEmail = (
+    email: string,
+    service: string
+  ): Promise<EmailProTask> => {
     return this.ovh.request('DELETE', `/email/mxplan/${service}/account/${email}`);
   };
 
   /** Get this object properties */
-  getMxplanServiceAccountEmail = (email: string, service: string): Promise<EmailMxplanAccount> => {
+  getMxplanAccountByServiceAndEmail = (
+    email: string,
+    service: string
+  ): Promise<EmailMxplanAccount> => {
     return this.ovh.request('GET', `/email/mxplan/${service}/account/${email}`);
   };
 
   /** Alter this object properties */
-  putMxplanServiceAccountEmail = (
+  updateMxplanAccountByServiceAndEmail = (
     email: string,
     service: string,
     body: EmailMxplanAccount
@@ -64,12 +70,12 @@ class EmailMxplanHandler {
   };
 
   /** Aliases associated to this mailbox */
-  getMxplanServiceAccountEmailAlias = (email: string, service: string): Promise<string> => {
+  getMxplanAccountAliasByServiceAndEmail = (email: string, service: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/mxplan/${service}/account/${email}/alias`);
   };
 
   /** Create new alias */
-  postMxplanServiceAccountEmailAlias = (
+  createMxplanAccountAliasByServiceAndEmail = (
     email: string,
     service: string,
     body: { alias: string }
@@ -78,7 +84,7 @@ class EmailMxplanHandler {
   };
 
   /** Delete existing alias */
-  deleteMxplanServiceAccountEmailAliasAlias = (
+  deleteMxplanAccountAliasByServiceAndEmailAndAlias = (
     alias: string,
     email: string,
     service: string
@@ -87,7 +93,7 @@ class EmailMxplanHandler {
   };
 
   /** Get this object properties */
-  getMxplanServiceAccountEmailAliasAlias = (
+  getMxplanAccountAliasByServiceAndEmailAndAlias = (
     alias: string,
     email: string,
     service: string
@@ -96,7 +102,7 @@ class EmailMxplanHandler {
   };
 
   /** Get available capabilities for this account */
-  getMxplanServiceAccountEmailCapabilities = (
+  getMxplanAccountCapabilitiesByServiceAndEmail = (
     email: string,
     service: string
   ): Promise<EmailMxplanAccountCapabilities> => {
@@ -104,7 +110,7 @@ class EmailMxplanHandler {
   };
 
   /** Change mailbox password */
-  postMxplanServiceAccountEmailChangePassword = (
+  updateMxplanAccountPasswordByServiceAndEmail = (
     email: string,
     service: string,
     body: { password: string }
@@ -117,7 +123,7 @@ class EmailMxplanHandler {
   };
 
   /** Get this object properties */
-  getMxplanServiceAccountEmailDiagnostic = (
+  getMxplanAccountDiagnosticByServiceAndEmail = (
     email: string,
     service: string
   ): Promise<EmailMxplanAccountDiagnosis> => {
@@ -125,7 +131,7 @@ class EmailMxplanHandler {
   };
 
   /** Create new diagnosis request */
-  postMxplanServiceAccountEmailDiagnostic = (
+  createMxplanAccountDiagnosticByServiceAndEmail = (
     email: string,
     service: string,
     body: { password: string }
@@ -134,12 +140,15 @@ class EmailMxplanHandler {
   };
 
   /** Full access granted users for this mailbox */
-  getMxplanServiceAccountEmailFullAccess = (email: string, service: string): Promise<number> => {
+  getMxplanAccountFullAccessByServiceAndEmail = (
+    email: string,
+    service: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/email/mxplan/${service}/account/${email}/fullAccess`);
   };
 
   /** Allow full access to a user */
-  postMxplanServiceAccountEmailFullAccess = (
+  postMxplanAccountFullAccessByServiceAndEmail = (
     email: string,
     service: string,
     body: { allowedAccountId: number }
@@ -148,7 +157,7 @@ class EmailMxplanHandler {
   };
 
   /** Revoke full access */
-  deleteMxplanServiceAccountEmailFullAccessAllowedAccountId = (
+  deleteMxplanAccountFullAccessByServiceAndEmailAndAllowedAccountId = (
     allowedAccountId: number,
     email: string,
     service: string
@@ -160,7 +169,7 @@ class EmailMxplanHandler {
   };
 
   /** Get this object properties */
-  getMxplanServiceAccountEmailFullAccessAllowedAccountId = (
+  getMxplanAccountFullAccessByServiceAndEmailAndAllowedAccountId = (
     allowedAccountId: number,
     email: string,
     service: string
@@ -172,12 +181,12 @@ class EmailMxplanHandler {
   };
 
   /** Send as granted users for this mailbox */
-  getMxplanServiceAccountEmailSendAs = (email: string, service: string): Promise<number> => {
+  sendMxplanAccountAsByServiceAndEmail = (email: string, service: string): Promise<number[]> => {
     return this.ovh.request('GET', `/email/mxplan/${service}/account/${email}/sendAs`);
   };
 
   /** Allow another user to send mails from this mailbox */
-  postMxplanServiceAccountEmailSendAs = (
+  postMxplanAccountSendAsByServiceAndEmail = (
     email: string,
     service: string,
     body: { allowAccountId: number }
@@ -186,7 +195,7 @@ class EmailMxplanHandler {
   };
 
   /** Delete allowed user for sendAs */
-  deleteMxplanServiceAccountEmailSendAsAllowedAccountId = (
+  deleteMxplanAccountSendAsByServiceAndEmailAndAllowedAccountId = (
     allowedAccountId: number,
     email: string,
     service: string
@@ -198,7 +207,7 @@ class EmailMxplanHandler {
   };
 
   /** Get this object properties */
-  getMxplanServiceAccountEmailSendAsAllowedAccountId = (
+  getMxplanAccountSendAsByServiceAndEmailAndAllowedAccountId = (
     allowedAccountId: number,
     email: string,
     service: string
@@ -210,15 +219,15 @@ class EmailMxplanHandler {
   };
 
   /** SendOnBehalfTo granted users for this mailbox */
-  getMxplanServiceAccountEmailSendOnBehalfTo = (
+  sendMxplanAccountOnBehalfToByServiceAndEmail = (
     email: string,
     service: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/email/mxplan/${service}/account/${email}/sendOnBehalfTo`);
   };
 
   /** Allow another user to Send On Behalf To mails from this mailbox */
-  postMxplanServiceAccountEmailSendOnBehalfTo = (
+  postMxplanAccountSendOnBehalfToByServiceAndEmail = (
     email: string,
     service: string,
     body: { allowAccountId: number }
@@ -231,7 +240,7 @@ class EmailMxplanHandler {
   };
 
   /** Delete allowed user for SendOnBehalfTo */
-  deleteMxplanServiceAccountEmailSendOnBehalfToAllowedAccountId = (
+  deleteMxplanAccountSendOnBehalfToByServiceAndEmailAndAllowedAccountId = (
     allowedAccountId: number,
     email: string,
     service: string
@@ -243,7 +252,7 @@ class EmailMxplanHandler {
   };
 
   /** Get this object properties */
-  getMxplanServiceAccountEmailSendOnBehalfToAllowedAccountId = (
+  getMxplanAccountSendOnBehalfToByServiceAndEmailAndAllowedAccountId = (
     allowedAccountId: number,
     email: string,
     service: string
@@ -255,12 +264,12 @@ class EmailMxplanHandler {
   };
 
   /** Pending task for this mailbox */
-  getMxplanServiceAccountEmailTask = (email: string, service: string): Promise<number> => {
+  getMxplanAccountTaskByServiceAndEmail = (email: string, service: string): Promise<number[]> => {
     return this.ovh.request('GET', `/email/mxplan/${service}/account/${email}/task`);
   };
 
   /** Get this object properties */
-  getMxplanServiceAccountEmailTaskId = (
+  getMxplanAccountTaskByServiceAndEmailAndId = (
     email: string,
     id: number,
     service: string
@@ -269,12 +278,12 @@ class EmailMxplanHandler {
   };
 
   /** Domains associated to this service */
-  getMxplanServiceDomain = (service: string): Promise<string> => {
+  getMxplanDomainByService = (service: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/mxplan/${service}/domain`);
   };
 
   /** Get this object properties */
-  getMxplanServiceDomainDomainName = (
+  getMxplanDomainByServiceAndDomainName = (
     domainName: string,
     service: string
   ): Promise<EmailMxplanDomain> => {
@@ -282,7 +291,7 @@ class EmailMxplanHandler {
   };
 
   /** Alter this object properties */
-  putMxplanServiceDomainDomainName = (
+  updateMxplanDomainByServiceAndDomainName = (
     domainName: string,
     service: string,
     body: EmailMxplanDomain
@@ -291,7 +300,7 @@ class EmailMxplanHandler {
   };
 
   /** Delete existing organization disclaimer */
-  deleteMxplanServiceDomainDomainNameDisclaimer = (
+  deleteMxplanDomainDisclaimerByServiceAndDomainName = (
     domainName: string,
     service: string
   ): Promise<EmailProTask> => {
@@ -299,7 +308,7 @@ class EmailMxplanHandler {
   };
 
   /** Get this object properties */
-  getMxplanServiceDomainDomainNameDisclaimer = (
+  getMxplanDomainDisclaimerByServiceAndDomainName = (
     domainName: string,
     service: string
   ): Promise<EmailProDisclaimer> => {
@@ -307,7 +316,7 @@ class EmailMxplanHandler {
   };
 
   /** Create organization disclaimer of each email */
-  postMxplanServiceDomainDomainNameDisclaimer = (
+  createMxplanDomainDisclaimerByServiceAndDomainName = (
     domainName: string,
     service: string,
     body: { content: string; outsideOnly?: boolean }
@@ -320,7 +329,7 @@ class EmailMxplanHandler {
   };
 
   /** Alter this object properties */
-  putMxplanServiceDomainDomainNameDisclaimer = (
+  updateMxplanDomainDisclaimerByServiceAndDomainName = (
     domainName: string,
     service: string,
     body: EmailProDisclaimer
@@ -333,10 +342,10 @@ class EmailMxplanHandler {
   };
 
   /** Get diclaimer attributes to substitute with Active Directory properties */
-  getMxplanServiceDomainDomainNameDisclaimerAttribute = (
+  getMxplanDomainDisclaimerAttributeByServiceAndDomainName = (
     domainName: string,
     service: string
-  ): Promise<EmailProDisclaimerAttributeEnum> => {
+  ): Promise<EmailProDisclaimerAttributeEnum[]> => {
     return this.ovh.request(
       'GET',
       `/email/mxplan/${service}/domain/${domainName}/disclaimerAttribute`
@@ -344,12 +353,12 @@ class EmailMxplanHandler {
   };
 
   /** External contacts for this service */
-  getMxplanServiceExternalContact = (service: string): Promise<string> => {
+  getMxplanExternalContactByService = (service: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/mxplan/${service}/externalContact`);
   };
 
   /** create new external contact */
-  postMxplanServiceExternalContact = (
+  createMxplanExternalContactByService = (
     service: string,
     body: {
       displayName?: string;
@@ -364,7 +373,7 @@ class EmailMxplanHandler {
   };
 
   /** delete external contact */
-  deleteMxplanServiceExternalContactExternalEmailAddress = (
+  deleteMxplanExternalContactByServiceAndExternalEmailAddress = (
     externalEmailAddress: string,
     service: string
   ): Promise<EmailProTask> => {
@@ -375,7 +384,7 @@ class EmailMxplanHandler {
   };
 
   /** Get this object properties */
-  getMxplanServiceExternalContactExternalEmailAddress = (
+  getMxplanExternalContactByServiceAndExternalEmailAddress = (
     externalEmailAddress: string,
     service: string
   ): Promise<EmailMxplanExternalContact> => {
@@ -386,7 +395,7 @@ class EmailMxplanHandler {
   };
 
   /** Alter this object properties */
-  putMxplanServiceExternalContactExternalEmailAddress = (
+  updateMxplanExternalContactByServiceAndExternalEmailAddress = (
     externalEmailAddress: string,
     service: string,
     body: EmailMxplanExternalContact
@@ -399,24 +408,24 @@ class EmailMxplanHandler {
   };
 
   /** Get this object properties */
-  getMxplanServiceServer = (service: string): Promise<EmailMxplanServer> => {
+  getMxplanServerByService = (service: string): Promise<EmailMxplanServer> => {
     return this.ovh.request('GET', `/email/mxplan/${service}/server`);
   };
 
   /** Pending actions */
-  getMxplanServiceTask = (service: string): Promise<number> => {
+  getMxplanTaskByService = (service: string): Promise<number[]> => {
     return this.ovh.request('GET', `/email/mxplan/${service}/task`);
   };
 
   /** Get this object properties */
-  getMxplanServiceTaskId = (id: number, service: string): Promise<EmailProTask> => {
+  getMxplanTaskByServiceAndId = (id: number, service: string): Promise<EmailProTask> => {
     return this.ovh.request('GET', `/email/mxplan/${service}/task/${id}`);
   };
 
   /** Update spam and virus flags on all active accounts */
-  postMxplanServiceUpdateFlagsOnAllAccounts = (service: string): Promise<void> => {
+  updateMxplanFlagsOnAllAccountsByService = (service: string): Promise<void> => {
     return this.ovh.request('POST', `/email/mxplan/${service}/updateFlagsOnAllAccounts`);
   };
 }
 
-export default EmailMxplanHandler;
+export { EmailMxplanHandler };

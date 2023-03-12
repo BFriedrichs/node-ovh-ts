@@ -4,5 +4,5 @@ import { ConnectivityEligibilityMeetingSlot } from './ConnectivityEligibilityMee
 
 export type ConnectivityEligibilityMeetings = {
   canBookFakeMeeting: boolean;
-  meetingSlots: ConnectivityEligibilityMeetingSlot;
+  meetingSlots: ConnectivityEligibilityMeetingSlot[];
 };

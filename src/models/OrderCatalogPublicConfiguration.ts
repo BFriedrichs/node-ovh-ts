@@ -4,5 +4,5 @@ export type OrderCatalogPublicConfiguration = {
   isCustom: boolean;
   isMandatory: boolean;
   name: string;
-  values: string | null;
+  values: string[] | null;
 };

@@ -9,5 +9,5 @@ export type CloudProjectNetworkloadbalancerCondition = {
   name?: string;
   negate: boolean | null;
   type?: CloudProjectNetworkloadbalancerConditionTypeEnum;
-  values?: string;
+  values?: string[];
 };

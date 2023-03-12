@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudInstanceAccess } from './CloudInstanceAccess';
 import { CloudInstanceApplicationAccessStateEnum } from './CloudInstanceApplicationAccessStateEnum';
+import { CloudInstanceAccess } from './CloudInstanceAccess';
 
 export type CloudInstanceApplicationAccess = {
-  accesses: CloudInstanceAccess;
+  accesses: CloudInstanceAccess[];
   status: CloudInstanceApplicationAccessStateEnum;
 };

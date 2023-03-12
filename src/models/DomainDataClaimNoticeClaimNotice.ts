@@ -4,7 +4,7 @@ import { DomainDataClaimNoticeClaimNoticeDecision } from './DomainDataClaimNotic
 import { DomainDataClaimNoticeClaimNoticeTypeEnum } from './DomainDataClaimNoticeClaimNoticeTypeEnum';
 
 export type DomainDataClaimNoticeClaimNotice = {
-  claims: DomainDataClaimNoticeClaimNoticeDecision | null;
+  claims: DomainDataClaimNoticeClaimNoticeDecision[] | null;
   endingDate: string;
   id: string;
   label: string;

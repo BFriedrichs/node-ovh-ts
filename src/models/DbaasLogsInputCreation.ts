@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 export type DbaasLogsInputCreation = {
-  allowedNetworks: string | null;
+  allowedNetworks: string[] | null;
   description?: string;
   engineId?: string;
   exposedPort: string | null;

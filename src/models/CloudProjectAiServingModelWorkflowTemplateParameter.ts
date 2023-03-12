@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectAiServingBackendIdEnum } from './CloudProjectAiServingBackendIdEnum';
 import { CloudProjectAiServingFrameworkIdEnum } from './CloudProjectAiServingFrameworkIdEnum';
+import { CloudProjectAiServingBackendIdEnum } from './CloudProjectAiServingBackendIdEnum';
 
 export type CloudProjectAiServingModelWorkflowTemplateParameter = {
   backend: CloudProjectAiServingBackendIdEnum | null;

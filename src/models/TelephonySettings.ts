@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyLineDescriptionSettings } from './TelephonyLineDescriptionSettings';
 import { TelephonyBillingSettings } from './TelephonyBillingSettings';
+import { TelephonyLineDescriptionSettings } from './TelephonyLineDescriptionSettings';
 
 export type TelephonySettings = {
   billingPolicies: TelephonyBillingSettings;

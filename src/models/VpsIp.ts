@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { VpsIpTypeEnum } from './VpsIpTypeEnum';
 import { CoreTypesIpVersionEnum } from './CoreTypesIpVersionEnum';
 import { VpsIpGeolocationEnum } from './VpsIpGeolocationEnum';
+import { VpsIpTypeEnum } from './VpsIpTypeEnum';
 
 export type VpsIp = {
   gateway: string | null;

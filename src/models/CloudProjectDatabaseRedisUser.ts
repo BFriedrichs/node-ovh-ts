@@ -3,12 +3,12 @@
 import { CloudProjectDatabaseStatusEnum } from './CloudProjectDatabaseStatusEnum';
 
 export type CloudProjectDatabaseRedisUser = {
-  categories: string;
-  channels: string;
-  commands: string;
+  categories: string[];
+  channels: string[];
+  commands: string[];
   createdAt: Date;
   id: string;
-  keys: string;
+  keys: string[];
   status: CloudProjectDatabaseStatusEnum;
   username: string;
 };

@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyConferenceReportStatusEnum } from './TelephonyConferenceReportStatusEnum';
 import { TelephonyConferenceLanguageEnum } from './TelephonyConferenceLanguageEnum';
+import { TelephonyConferenceReportStatusEnum } from './TelephonyConferenceReportStatusEnum';
 
 export type TelephonyConferenceProperties = {
   announceFile: boolean;

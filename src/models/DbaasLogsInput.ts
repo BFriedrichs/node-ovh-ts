@@ -3,7 +3,7 @@
 import { DbaasLogsInputStatusEnum } from './DbaasLogsInputStatusEnum';
 
 export type DbaasLogsInput = {
-  allowedNetworks: string | null;
+  allowedNetworks: string[] | null;
   createdAt: Date;
   description: string;
   engineId: string;

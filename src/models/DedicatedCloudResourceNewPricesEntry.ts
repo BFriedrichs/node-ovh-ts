@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedCloudRessourcesResourceTypeEnum } from './DedicatedCloudRessourcesResourceTypeEnum';
 import { DedicatedCloudRessourcesBillingTypeEnum } from './DedicatedCloudRessourcesBillingTypeEnum';
+import { DedicatedCloudRessourcesResourceTypeEnum } from './DedicatedCloudRessourcesResourceTypeEnum';
 import { OrderPrice } from './OrderPrice';
 
 export type DedicatedCloudResourceNewPricesEntry = {

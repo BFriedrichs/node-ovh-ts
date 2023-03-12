@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseOfficeLicenceEnum } from '../models/LicenseOfficeLicenceEnum';
-import { ServicesService } from '../models/ServicesService';
 import { LicenseOfficeOfficeDomain } from '../models/LicenseOfficeOfficeDomain';
-import { CoreTypesCountryEnum } from '../models/CoreTypesCountryEnum';
 import { LicenseOfficeOfficeTenant } from '../models/LicenseOfficeOfficeTenant';
-import { LicenseOfficeOfficeTask } from '../models/LicenseOfficeOfficeTask';
+import { CoreTypesCountryEnum } from '../models/CoreTypesCountryEnum';
 import { LicenseOfficeStatistics } from '../models/LicenseOfficeStatistics';
+import { LicenseOfficeLicenceEnum } from '../models/LicenseOfficeLicenceEnum';
+import { LicenseOfficeOfficeTask } from '../models/LicenseOfficeOfficeTask';
 import { LicenseOfficeOfficeUser } from '../models/LicenseOfficeOfficeUser';
+import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class LicenseOfficeHandler {
@@ -18,27 +18,30 @@ class LicenseOfficeHandler {
   }
 
   /** List available services */
-  getOffice = (): Promise<string> => {
+  listOffices = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/office');
   };
 
   /** Get this object properties */
-  getOfficeServiceName = (serviceName: string): Promise<LicenseOfficeOfficeTenant> => {
+  getOfficeByServiceName = (serviceName: string): Promise<LicenseOfficeOfficeTenant> => {
     return this.ovh.request('GET', `/license/office/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putOfficeServiceName = (serviceName: string, body: LicenseOfficeOfficeTenant): Promise<void> => {
+  updateOfficeByServiceName = (
+    serviceName: string,
+    body: LicenseOfficeOfficeTenant
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/license/office/${serviceName}`, body);
   };
 
   /** Domain associated to this office tenant */
-  getOfficeServiceNameDomain = (serviceName: string): Promise<string> => {
+  getOfficeDomainByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/license/office/${serviceName}/domain`);
   };
 
   /** Get this object properties */
-  getOfficeServiceNameDomainDomainName = (
+  getOfficeDomainByServiceNameAndDomainName = (
     domainName: string,
     serviceName: string
   ): Promise<LicenseOfficeOfficeDomain> => {
@@ -46,12 +49,12 @@ class LicenseOfficeHandler {
   };
 
   /** Tasks associated to this office tenant */
-  getOfficeServiceNamePendingTask = (serviceName: string): Promise<number> => {
+  getOfficePendingTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/license/office/${serviceName}/pendingTask`);
   };
 
   /** Get this object properties */
-  getOfficeServiceNamePendingTaskId = (
+  getOfficePendingTaskByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<LicenseOfficeOfficeTask> => {
@@ -59,12 +62,12 @@ class LicenseOfficeHandler {
   };
 
   /** Get this object properties */
-  getOfficeServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getOfficeServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/license/office/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putOfficeServiceNameServiceInfos = (
+  updateOfficeServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -72,17 +75,19 @@ class LicenseOfficeHandler {
   };
 
   /** Shows the subscriptions' usage statistics for the given time period */
-  getOfficeServiceNameUsageStatistics = (serviceName: string): Promise<LicenseOfficeStatistics> => {
+  getOfficeUsageStatisticsByServiceName = (
+    serviceName: string
+  ): Promise<LicenseOfficeStatistics[]> => {
     return this.ovh.request('GET', `/license/office/${serviceName}/usageStatistics`);
   };
 
   /** Accounts associated to this office tenant */
-  getOfficeServiceNameUser = (serviceName: string): Promise<string> => {
+  getOfficeUserByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/license/office/${serviceName}/user`);
   };
 
   /** Create new office user */
-  postOfficeServiceNameUser = (
+  createOfficeUserByServiceName = (
     serviceName: string,
     body: {
       domain: string;
@@ -97,7 +102,7 @@ class LicenseOfficeHandler {
   };
 
   /** Delete existing office user */
-  deleteOfficeServiceNameUserActivationEmail = (
+  deleteOfficeUserByServiceNameAndActivationEmail = (
     activationEmail: string,
     serviceName: string
   ): Promise<LicenseOfficeOfficeTask> => {
@@ -105,7 +110,7 @@ class LicenseOfficeHandler {
   };
 
   /** Get this object properties */
-  getOfficeServiceNameUserActivationEmail = (
+  getOfficeUserByServiceNameAndActivationEmail = (
     activationEmail: string,
     serviceName: string
   ): Promise<LicenseOfficeOfficeUser> => {
@@ -113,7 +118,7 @@ class LicenseOfficeHandler {
   };
 
   /** Alter this object properties */
-  putOfficeServiceNameUserActivationEmail = (
+  updateOfficeUserByServiceNameAndActivationEmail = (
     activationEmail: string,
     serviceName: string,
     body: LicenseOfficeOfficeUser
@@ -122,7 +127,7 @@ class LicenseOfficeHandler {
   };
 
   /** Change or reset  user's password */
-  postOfficeServiceNameUserActivationEmailChangePassword = (
+  updateOfficeUserPasswordByServiceNameAndActivationEmail = (
     activationEmail: string,
     serviceName: string,
     body: { notifyEmail?: string; password?: string; shouldSendMail: boolean }
@@ -135,4 +140,4 @@ class LicenseOfficeHandler {
   };
 }
 
-export default LicenseOfficeHandler;
+export { LicenseOfficeHandler };

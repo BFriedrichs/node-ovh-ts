@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderCatalogPricingDefault } from './OrderCatalogPricingDefault';
 import { OrderCatalogCloudBlob } from './OrderCatalogCloudBlob';
+import { OrderCatalogPricingDefault } from './OrderCatalogPricingDefault';
 import { OrderCatalogProduct } from './OrderCatalogProduct';
 
 export type OrderCatalogProductOfferDetails = {

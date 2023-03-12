@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesService } from '../models/ServicesService';
-import { RegistryInputPermissions } from '../models/RegistryInputPermissions';
-import { RegistryTag } from '../models/RegistryTag';
 import { RegistryPermissions } from '../models/RegistryPermissions';
 import { RegistryInputNamespace } from '../models/RegistryInputNamespace';
-import { RegistryImage } from '../models/RegistryImage';
-import { RegistryNamespace } from '../models/RegistryNamespace';
-import { RegistryService } from '../models/RegistryService';
-import { RegistryInputImage } from '../models/RegistryInputImage';
 import { RegistryUser } from '../models/RegistryUser';
+import { RegistryInputImage } from '../models/RegistryInputImage';
+import { RegistryNamespace } from '../models/RegistryNamespace';
 import { RegistryInputUser } from '../models/RegistryInputUser';
+import { RegistryImage } from '../models/RegistryImage';
+import { RegistryTag } from '../models/RegistryTag';
+import { RegistryInputPermissions } from '../models/RegistryInputPermissions';
+import { ServicesService } from '../models/ServicesService';
+import { RegistryService } from '../models/RegistryService';
 import OVHBase from '../ovh';
 
 class CaasRegistryHandler {
@@ -21,30 +21,30 @@ class CaasRegistryHandler {
   }
 
   /** List available services */
-  getRegistry = (): Promise<string> => {
+  listRegistrys = (): Promise<string[]> => {
     return this.ovh.request('GET', '/caas/registry');
   };
 
   /** Inspect service. */
-  getRegistryServiceName = (serviceName: string): Promise<RegistryService> => {
+  getRegistryByServiceName = (serviceName: string): Promise<RegistryService> => {
     return this.ovh.request('GET', `/caas/registry/${serviceName}`);
   };
 
   /** Launch a contact change procedure */
-  postRegistryServiceNameChangeContact = (
+  launchRegistryChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/caas/registry/${serviceName}/changeContact`, body);
   };
 
   /** List namespace */
-  getRegistryServiceNameNamespaces = (serviceName: string): Promise<string> => {
+  listRegistryNamespacesByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/caas/registry/${serviceName}/namespaces`);
   };
 
   /** Create namespace */
-  postRegistryServiceNameNamespaces = (
+  createRegistryNamespacesByServiceName = (
     serviceName: string,
     body: RegistryInputNamespace
   ): Promise<RegistryNamespace> => {
@@ -52,7 +52,7 @@ class CaasRegistryHandler {
   };
 
   /** Delete namespace */
-  deleteRegistryServiceNameNamespacesNamespaceId = (
+  deleteRegistryNamespacesByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string
   ): Promise<void> => {
@@ -60,7 +60,7 @@ class CaasRegistryHandler {
   };
 
   /** Inspect namespace */
-  getRegistryServiceNameNamespacesNamespaceId = (
+  getRegistryNamespacesByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string
   ): Promise<RegistryNamespace> => {
@@ -68,10 +68,10 @@ class CaasRegistryHandler {
   };
 
   /** List all images in namespace */
-  getRegistryServiceNameNamespacesNamespaceIdImages = (
+  listRegistryNamespacesImagesByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/caas/registry/${serviceName}/namespaces/${namespaceId}/images`
@@ -79,7 +79,7 @@ class CaasRegistryHandler {
   };
 
   /** Delete image */
-  deleteRegistryServiceNameNamespacesNamespaceIdImagesImageId = (
+  deleteRegistryNamespacesImagesByServiceNameAndNamespaceIdAndImageId = (
     imageId: string,
     namespaceId: string,
     serviceName: string
@@ -91,7 +91,7 @@ class CaasRegistryHandler {
   };
 
   /** Inspect image */
-  getRegistryServiceNameNamespacesNamespaceIdImagesImageId = (
+  getRegistryNamespacesImagesByServiceNameAndNamespaceIdAndImageId = (
     imageId: string,
     namespaceId: string,
     serviceName: string
@@ -103,7 +103,7 @@ class CaasRegistryHandler {
   };
 
   /** Update image */
-  putRegistryServiceNameNamespacesNamespaceIdImagesImageId = (
+  updateRegistryNamespacesImagesByServiceNameAndNamespaceIdAndImageId = (
     imageId: string,
     namespaceId: string,
     serviceName: string,
@@ -117,11 +117,11 @@ class CaasRegistryHandler {
   };
 
   /** List image permissions */
-  getRegistryServiceNameNamespacesNamespaceIdImagesImageIdPermissions = (
+  listRegistryNamespacesImagesPermissionsByServiceNameAndNamespaceIdAndImageId = (
     imageId: string,
     namespaceId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/caas/registry/${serviceName}/namespaces/${namespaceId}/images/${imageId}/permissions`
@@ -129,7 +129,7 @@ class CaasRegistryHandler {
   };
 
   /** Create image permissions */
-  postRegistryServiceNameNamespacesNamespaceIdImagesImageIdPermissions = (
+  createRegistryNamespacesImagesPermissionsByServiceNameAndNamespaceIdAndImageId = (
     imageId: string,
     namespaceId: string,
     serviceName: string,
@@ -143,7 +143,7 @@ class CaasRegistryHandler {
   };
 
   /** Delete image permissions. */
-  deleteRegistryServiceNameNamespacesNamespaceIdImagesImageIdPermissionsPermissionId = (
+  deleteRegistryNamespacesImagesPermissionsByServiceNameAndNamespaceIdAndImageIdAndPermissionId = (
     imageId: string,
     namespaceId: string,
     permissionId: string,
@@ -156,7 +156,7 @@ class CaasRegistryHandler {
   };
 
   /** Inspect image permissions */
-  getRegistryServiceNameNamespacesNamespaceIdImagesImageIdPermissionsPermissionId = (
+  getRegistryNamespacesImagesPermissionsByServiceNameAndNamespaceIdAndImageIdAndPermissionId = (
     imageId: string,
     namespaceId: string,
     permissionId: string,
@@ -169,11 +169,11 @@ class CaasRegistryHandler {
   };
 
   /** List image tags */
-  getRegistryServiceNameNamespacesNamespaceIdImagesImageIdTags = (
+  listRegistryNamespacesImagesTagsByServiceNameAndNamespaceIdAndImageId = (
     imageId: string,
     namespaceId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/caas/registry/${serviceName}/namespaces/${namespaceId}/images/${imageId}/tags`
@@ -181,7 +181,7 @@ class CaasRegistryHandler {
   };
 
   /** Inspect image tag */
-  getRegistryServiceNameNamespacesNamespaceIdImagesImageIdTagsTagId = (
+  getRegistryNamespacesImagesTagsByServiceNameAndNamespaceIdAndImageIdAndTagId = (
     imageId: string,
     namespaceId: string,
     serviceName: string,
@@ -194,10 +194,10 @@ class CaasRegistryHandler {
   };
 
   /** List namespace permissions */
-  getRegistryServiceNameNamespacesNamespaceIdPermissions = (
+  listRegistryNamespacesPermissionsByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/caas/registry/${serviceName}/namespaces/${namespaceId}/permissions`
@@ -205,7 +205,7 @@ class CaasRegistryHandler {
   };
 
   /** Create namespace permissions */
-  postRegistryServiceNameNamespacesNamespaceIdPermissions = (
+  createRegistryNamespacesPermissionsByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string,
     body: RegistryInputPermissions
@@ -218,7 +218,7 @@ class CaasRegistryHandler {
   };
 
   /** Delete namespace permissions */
-  deleteRegistryServiceNameNamespacesNamespaceIdPermissionsPermissionId = (
+  deleteRegistryNamespacesPermissionsByServiceNameAndNamespaceIdAndPermissionId = (
     namespaceId: string,
     permissionId: string,
     serviceName: string
@@ -230,7 +230,7 @@ class CaasRegistryHandler {
   };
 
   /** Inspect permission */
-  getRegistryServiceNameNamespacesNamespaceIdPermissionsPermissionId = (
+  getRegistryNamespacesPermissionsByServiceNameAndNamespaceIdAndPermissionId = (
     namespaceId: string,
     permissionId: string,
     serviceName: string
@@ -242,12 +242,12 @@ class CaasRegistryHandler {
   };
 
   /** Get this object properties */
-  getRegistryServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getRegistryServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/caas/registry/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putRegistryServiceNameServiceInfos = (
+  updateRegistryServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -255,12 +255,12 @@ class CaasRegistryHandler {
   };
 
   /** List users */
-  getRegistryServiceNameUsers = (serviceName: string): Promise<string> => {
+  listRegistryUsersByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/caas/registry/${serviceName}/users`);
   };
 
   /** Create user */
-  postRegistryServiceNameUsers = (
+  createRegistryUsersByServiceName = (
     serviceName: string,
     body: RegistryInputUser
   ): Promise<RegistryUser> => {
@@ -268,12 +268,15 @@ class CaasRegistryHandler {
   };
 
   /** Delete user */
-  deleteRegistryServiceNameUsersUserId = (serviceName: string, userId: string): Promise<void> => {
+  deleteRegistryUsersByServiceNameAndUserId = (
+    serviceName: string,
+    userId: string
+  ): Promise<void> => {
     return this.ovh.request('DELETE', `/caas/registry/${serviceName}/users/${userId}`);
   };
 
   /** Inspect user */
-  getRegistryServiceNameUsersUserId = (
+  getRegistryUsersByServiceNameAndUserId = (
     serviceName: string,
     userId: string
   ): Promise<RegistryUser> => {
@@ -281,7 +284,7 @@ class CaasRegistryHandler {
   };
 
   /** Update user password */
-  postRegistryServiceNameUsersUserIdChangePassword = (
+  updateRegistryUsersChangePasswordByServiceNameAndUserId = (
     serviceName: string,
     userId: string
   ): Promise<RegistryUser> => {
@@ -289,4 +292,4 @@ class CaasRegistryHandler {
   };
 }
 
-export default CaasRegistryHandler;
+export { CaasRegistryHandler };

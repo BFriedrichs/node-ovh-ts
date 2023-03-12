@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedCloudRightNetworkRoleEnum } from './DedicatedCloudRightNetworkRoleEnum';
-import { DedicatedCloudRightVmNetworkRoleEnum } from './DedicatedCloudRightVmNetworkRoleEnum';
 import { DedicatedCloudRightRightEnum } from './DedicatedCloudRightRightEnum';
+import { DedicatedCloudRightVmNetworkRoleEnum } from './DedicatedCloudRightVmNetworkRoleEnum';
+import { DedicatedCloudRightNetworkRoleEnum } from './DedicatedCloudRightNetworkRoleEnum';
 
 export type DedicatedCloudRight = {
   canAddRessource: boolean;

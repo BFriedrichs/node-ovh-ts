@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { NichandleLanguageEnum } from './NichandleLanguageEnum';
-import { MeContactAddress } from './MeContactAddress';
-import { NichandleLegalFormEnum } from './NichandleLegalFormEnum';
-import { NichandleGenderEnum } from './NichandleGenderEnum';
 import { NichandleCountryEnum } from './NichandleCountryEnum';
+import { NichandleGenderEnum } from './NichandleGenderEnum';
+import { MeContactAddress } from './MeContactAddress';
+import { NichandleLanguageEnum } from './NichandleLanguageEnum';
+import { NichandleLegalFormEnum } from './NichandleLegalFormEnum';
 
 export type MeContactContact = {
   address: MeContactAddress;

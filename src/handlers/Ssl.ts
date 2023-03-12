@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SslCertificate } from '../models/SslCertificate';
 import { ServicesService } from '../models/ServicesService';
+import { SslCertificate } from '../models/SslCertificate';
 import { SslOperation } from '../models/SslOperation';
 import OVHBase from '../ovh';
 
@@ -13,34 +13,34 @@ class SslHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/ssl');
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<SslCertificate> => {
+  getByServiceName = (serviceName: string): Promise<SslCertificate> => {
     return this.ovh.request('GET', `/ssl/${serviceName}`);
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/ssl/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/ssl/${serviceName}/serviceInfos`, body);
   };
 
   /** Tasks associated to this ssl */
-  getServiceNameTasks = (serviceName: string): Promise<number> => {
+  getTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ssl/${serviceName}/tasks`);
   };
 
   /** Get this object properties */
-  getServiceNameTasksTaskId = (serviceName: string, taskId: number): Promise<SslOperation> => {
+  getTasksByServiceNameAndTaskId = (serviceName: string, taskId: number): Promise<SslOperation> => {
     return this.ovh.request('GET', `/ssl/${serviceName}/tasks/${taskId}`);
   };
 }
 
-export default SslHandler;
+export { SslHandler };

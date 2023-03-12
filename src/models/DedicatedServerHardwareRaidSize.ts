@@ -3,5 +3,5 @@
 import { DedicatedServerHardwareRaidConfiguration } from './DedicatedServerHardwareRaidConfiguration';
 
 export type DedicatedServerHardwareRaidSize = {
-  configurations: DedicatedServerHardwareRaidConfiguration;
+  configurations: DedicatedServerHardwareRaidConfiguration[];
 };

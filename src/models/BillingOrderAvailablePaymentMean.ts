@@ -4,7 +4,7 @@ import { BillingOrderAvailablePaymentMeanField } from './BillingOrderAvailablePa
 import { BillingOrderPaymentMeanIntegrationEnum } from './BillingOrderPaymentMeanIntegrationEnum';
 
 export type BillingOrderAvailablePaymentMean = {
-  fields: BillingOrderAvailablePaymentMeanField | null;
+  fields: BillingOrderAvailablePaymentMeanField[] | null;
   integration: BillingOrderPaymentMeanIntegrationEnum;
   name: string;
   url: string | null;

@@ -1,59 +1,59 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { XdslAccess } from '../models/XdslAccess';
-import { XdslResiliationTerms } from '../models/XdslResiliationTerms';
-import { XdslWLAN } from '../models/XdslWLAN';
-import { XdslXdslEmailPro } from '../models/XdslXdslEmailPro';
-import { XdslDeconsolidationTerms } from '../models/XdslDeconsolidationTerms';
-import { XdslDslamPort } from '../models/XdslDslamPort';
-import { XdslModemExchangeInfo } from '../models/XdslModemExchangeInfo';
-import { XdslAntiSpam } from '../models/XdslAntiSpam';
-import { XdslConnectedDevice } from '../models/XdslConnectedDevice';
-import { XdslStatisticsPeriodEnum } from '../models/XdslStatisticsPeriodEnum';
-import { XdslLineDiagnosticDiagnostic } from '../models/XdslLineDiagnosticDiagnostic';
-import { XdslLAN } from '../models/XdslLAN';
-import { XdslDslamPortLog } from '../models/XdslDslamPortLog';
-import { XdslFiberEligibility } from '../models/XdslFiberEligibility';
-import { XdslExtraIpRangeMove } from '../models/XdslExtraIpRangeMove';
-import { OrderOrder } from '../models/OrderOrder';
-import { XdslPortMapping } from '../models/XdslPortMapping';
-import { XdslMonitoringNotificationsTypeEnum } from '../models/XdslMonitoringNotificationsTypeEnum';
-import { XdslIncident } from '../models/XdslIncident';
-import { XdslResiliationSurvey } from '../models/XdslResiliationSurvey';
-import { ConnectivityEligibilityMeetings } from '../models/ConnectivityEligibilityMeetings';
-import { TelephonyRmaChangeTypeEnum } from '../models/TelephonyRmaChangeTypeEnum';
-import { XdslXdslModemConfigProtocolTypeEnum } from '../models/XdslXdslModemConfigProtocolTypeEnum';
-import { XdslModem } from '../models/XdslModem';
-import { XdslDHCP } from '../models/XdslDHCP';
+import { XdslPendingAction } from '../models/XdslPendingAction';
+import { XdslTask } from '../models/XdslTask';
 import { XdslLineDiagnosticFaultTypeEnum } from '../models/XdslLineDiagnosticFaultTypeEnum';
-import { ServicesService } from '../models/ServicesService';
-import { XdslWLANFrequencyEnum } from '../models/XdslWLANFrequencyEnum';
-import { XdslFiberEligibilityStatusEnum } from '../models/XdslFiberEligibilityStatusEnum';
-import { XdslOrderFollowupStep } from '../models/XdslOrderFollowupStep';
-import { XdslLineDiagnosticAnswers } from '../models/XdslLineDiagnosticAnswers';
-import { XdslMonitoringNotification } from '../models/XdslMonitoringNotification';
+import { XdslMonitoringNotificationsTypeEnum } from '../models/XdslMonitoringNotificationsTypeEnum';
+import { XdslResiliationSurvey } from '../models/XdslResiliationSurvey';
 import { XdslResiliationFollowUpDetail } from '../models/XdslResiliationFollowUpDetail';
-import { XdslTimestampAndValue } from '../models/XdslTimestampAndValue';
-import { XdslMonitoringNotificationsFrequencyEnum } from '../models/XdslMonitoringNotificationsFrequencyEnum';
-import { XdslIP } from '../models/XdslIP';
-import { XdslAccessStatisticsTypeEnum } from '../models/XdslAccessStatisticsTypeEnum';
-import { XdslLineDiagnosticCustomerActionsEnum } from '../models/XdslLineDiagnosticCustomerActionsEnum';
-import { XdslLine } from '../models/XdslLine';
-import { XdslDHCPStaticAddress } from '../models/XdslDHCPStaticAddress';
+import { XdslModemInfo } from '../models/XdslModemInfo';
+import { XdslModem } from '../models/XdslModem';
+import { XdslLineDiagnosticAnswers } from '../models/XdslLineDiagnosticAnswers';
+import { XdslConnectedDevice } from '../models/XdslConnectedDevice';
 import { TelephonyRma } from '../models/TelephonyRma';
 import { XdslEmailProTask } from '../models/XdslEmailProTask';
-import { XdslAccessDiagnostic } from '../models/XdslAccessDiagnostic';
-import { XdslTask } from '../models/XdslTask';
-import { XdslTaskStatusEnum } from '../models/XdslTaskStatusEnum';
-import { XdslTemplateModem } from '../models/XdslTemplateModem';
+import { XdslLineDiagnosticCustomerActionsEnum } from '../models/XdslLineDiagnosticCustomerActionsEnum';
+import { XdslMonitoringNotificationsFrequencyEnum } from '../models/XdslMonitoringNotificationsFrequencyEnum';
+import { SpareXdslXdslSpare } from '../models/SpareXdslXdslSpare';
+import { XdslFiberEligibilityStatusEnum } from '../models/XdslFiberEligibilityStatusEnum';
+import { XdslIncident } from '../models/XdslIncident';
+import { XdslLineDiagnosticDiagnostic } from '../models/XdslLineDiagnosticDiagnostic';
+import { XdslExtraIpRangeMove } from '../models/XdslExtraIpRangeMove';
+import { XdslAccess } from '../models/XdslAccess';
+import { XdslFiberEligibility } from '../models/XdslFiberEligibility';
 import { XdslAntiSpamEvidencesInfo } from '../models/XdslAntiSpamEvidencesInfo';
+import { XdslDHCPStaticAddress } from '../models/XdslDHCPStaticAddress';
+import { XdslXdslEmailPro } from '../models/XdslXdslEmailPro';
+import { XdslTemplateModem } from '../models/XdslTemplateModem';
+import { XdslDeconsolidationTerms } from '../models/XdslDeconsolidationTerms';
+import { XdslIP } from '../models/XdslIP';
+import { OrderOrder } from '../models/OrderOrder';
+import { XdslXdslModemConfigProtocolTypeEnum } from '../models/XdslXdslModemConfigProtocolTypeEnum';
+import { XdslAntiSpam } from '../models/XdslAntiSpam';
+import { XdslDslamPort } from '../models/XdslDslamPort';
+import { XdslMonitoringNotification } from '../models/XdslMonitoringNotification';
+import { XdslDslamPortLog } from '../models/XdslDslamPortLog';
+import { XdslTaskStatusEnum } from '../models/XdslTaskStatusEnum';
+import { XdslServiceStatusEnum } from '../models/XdslServiceStatusEnum';
+import { ConnectivityEligibilityMeetings } from '../models/ConnectivityEligibilityMeetings';
+import { XdslAccessDiagnostic } from '../models/XdslAccessDiagnostic';
+import { XdslLAN } from '../models/XdslLAN';
+import { XdslWLAN } from '../models/XdslWLAN';
+import { XdslRadiusConnectionLog } from '../models/XdslRadiusConnectionLog';
+import { XdslStatisticsPeriodEnum } from '../models/XdslStatisticsPeriodEnum';
+import { ServicesService } from '../models/ServicesService';
 import { XdslDslamLineProfile } from '../models/XdslDslamLineProfile';
 import { XdslLineStatisticsTypeEnum } from '../models/XdslLineStatisticsTypeEnum';
-import { XdslModemInfo } from '../models/XdslModemInfo';
-import { XdslPendingAction } from '../models/XdslPendingAction';
-import { XdslRadiusConnectionLog } from '../models/XdslRadiusConnectionLog';
-import { XdslServiceStatusEnum } from '../models/XdslServiceStatusEnum';
-import { SpareXdslXdslSpare } from '../models/SpareXdslXdslSpare';
+import { TelephonyRmaChangeTypeEnum } from '../models/TelephonyRmaChangeTypeEnum';
+import { XdslAccessStatisticsTypeEnum } from '../models/XdslAccessStatisticsTypeEnum';
+import { XdslWLANFrequencyEnum } from '../models/XdslWLANFrequencyEnum';
+import { XdslModemExchangeInfo } from '../models/XdslModemExchangeInfo';
+import { XdslLine } from '../models/XdslLine';
+import { XdslOrderFollowupStep } from '../models/XdslOrderFollowupStep';
+import { XdslTimestampAndValue } from '../models/XdslTimestampAndValue';
+import { XdslResiliationTerms } from '../models/XdslResiliationTerms';
+import { XdslPortMapping } from '../models/XdslPortMapping';
+import { XdslDHCP } from '../models/XdslDHCP';
 import OVHBase from '../ovh';
 
 class XdslHandler {
@@ -64,32 +64,32 @@ class XdslHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/xdsl');
   };
 
   /** List available services */
-  getEmailPro = (): Promise<string> => {
+  listEmailPros = (): Promise<string[]> => {
     return this.ovh.request('GET', '/xdsl/email/pro');
   };
 
   /** Delete the email */
-  deleteEmailProEmail = (email: string): Promise<void> => {
+  deleteEmailProByEmail = (email: string): Promise<void> => {
     return this.ovh.request('DELETE', `/xdsl/email/pro/${email}`);
   };
 
   /** Get this object properties */
-  getEmailProEmail = (email: string): Promise<XdslXdslEmailPro> => {
+  getEmailProByEmail = (email: string): Promise<XdslXdslEmailPro> => {
     return this.ovh.request('GET', `/xdsl/email/pro/${email}`);
   };
 
   /** Alter this object properties */
-  putEmailProEmail = (email: string, body: XdslXdslEmailPro): Promise<void> => {
+  updateEmailProByEmail = (email: string, body: XdslXdslEmailPro): Promise<void> => {
     return this.ovh.request('PUT', `/xdsl/email/pro/${email}`, body);
   };
 
   /** Change the email password */
-  postEmailProEmailChangePassword = (
+  updateEmailProPasswordByEmail = (
     email: string,
     body: { password: string }
   ): Promise<XdslEmailProTask> => {
@@ -97,117 +97,122 @@ class XdslHandler {
   };
 
   /** List of incidents */
-  getIncidents = (): Promise<number> => {
+  listIncidents = (): Promise<number[]> => {
     return this.ovh.request('GET', '/xdsl/incidents');
   };
 
   /** Get this object properties */
-  getIncidentsId = (id: number): Promise<XdslIncident> => {
+  getIncidentsById = (id: number): Promise<XdslIncident> => {
     return this.ovh.request('GET', `/xdsl/incidents/${id}`);
   };
 
   /** List available services */
-  getSpare = (): Promise<string> => {
+  listSpares = (): Promise<string[]> => {
     return this.ovh.request('GET', '/xdsl/spare');
   };
 
   /** Get all available spare brands */
-  getSpareBrands = (): Promise<string> => {
+  getSpareBrands = (): Promise<string[]> => {
     return this.ovh.request('GET', '/xdsl/spare/brands');
   };
 
   /** Delete the spare as if it was not belonging to OVH anymore */
-  deleteSpareSpare = (spare: string): Promise<void> => {
+  deleteSpareBySpare = (spare: string): Promise<void> => {
     return this.ovh.request('DELETE', `/xdsl/spare/${spare}`);
   };
 
   /** Get this object properties */
-  getSpareSpare = (spare: string): Promise<SpareXdslXdslSpare> => {
+  getSpareBySpare = (spare: string): Promise<SpareXdslXdslSpare> => {
     return this.ovh.request('GET', `/xdsl/spare/${spare}`);
   };
 
   /** Return the list of brand compatible to be replaced */
-  getSpareSpareCompatibleReplacement = (spare: string): Promise<string> => {
+  getSpareCompatibleReplacementBySpare = (spare: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/spare/${spare}/compatibleReplacement`);
   };
 
   /** Replace the modem by its spare */
-  postSpareSpareReplace = (spare: string, body: { domain: string }): Promise<void> => {
+  postSpareReplaceBySpare = (spare: string, body: { domain: string }): Promise<void> => {
     return this.ovh.request('POST', `/xdsl/spare/${spare}/replace`, body);
   };
 
   /** Return the broken equipment in instantRefund */
-  postSpareSpareReturnMerchandise = (spare: string): Promise<void> => {
+  postSpareReturnMerchandiseBySpare = (spare: string): Promise<void> => {
     return this.ovh.request('POST', `/xdsl/spare/${spare}/returnMerchandise`);
   };
 
   /** Get this object properties */
-  getSpareSpareServiceInfos = (spare: string): Promise<ServicesService> => {
+  getSpareServiceInfosBySpare = (spare: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/xdsl/spare/${spare}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putSpareSpareServiceInfos = (spare: string, body: ServicesService): Promise<void> => {
+  updateSpareServiceInfosBySpare = (spare: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/xdsl/spare/${spare}/serviceInfos`, body);
   };
 
   /** List of TemplateModem */
-  getTemplateModem = (): Promise<string> => {
+  listTemplateModems = (): Promise<string[]> => {
     return this.ovh.request('GET', '/xdsl/templateModem');
   };
 
   /** Create new Modem Template from existing modem */
-  postTemplateModem = (body: { name: string; serviceName: string }): Promise<XdslTemplateModem> => {
+  createTemplateModem = (body: {
+    name: string;
+    serviceName: string;
+  }): Promise<XdslTemplateModem> => {
     return this.ovh.request('POST', '/xdsl/templateModem', body);
   };
 
   /** Delete this Modem Template */
-  deleteTemplateModemName = (name: string): Promise<void> => {
+  deleteTemplateModemByName = (name: string): Promise<void> => {
     return this.ovh.request('DELETE', `/xdsl/templateModem/${name}`);
   };
 
   /** Get this object properties */
-  getTemplateModemName = (name: string): Promise<XdslTemplateModem> => {
+  getTemplateModemByName = (name: string): Promise<XdslTemplateModem> => {
     return this.ovh.request('GET', `/xdsl/templateModem/${name}`);
   };
 
   /** Alter this object properties */
-  putTemplateModemName = (name: string, body: XdslTemplateModem): Promise<void> => {
+  updateTemplateModemByName = (name: string, body: XdslTemplateModem): Promise<void> => {
     return this.ovh.request('PUT', `/xdsl/templateModem/${name}`, body);
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<XdslAccess> => {
+  getByServiceName = (serviceName: string): Promise<XdslAccess> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putServiceName = (serviceName: string, body: XdslAccess): Promise<void> => {
+  updateByServiceName = (serviceName: string, body: XdslAccess): Promise<void> => {
     return this.ovh.request('PUT', `/xdsl/${serviceName}`, body);
   };
 
   /** Informations about the extra IP range during address move */
-  getServiceNameAddressMoveExtraIpRange = (serviceName: string): Promise<XdslExtraIpRangeMove> => {
+  getAddressMoveExtraIpRangeByServiceName = (
+    serviceName: string
+  ): Promise<XdslExtraIpRangeMove> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/addressMove/extraIpRange`);
   };
 
   /** Initiate the extra IP range migration */
-  postServiceNameAddressMoveExtraIpRangeMove = (serviceName: string): Promise<XdslTask> => {
+  postAddressMoveExtraIpRangeMoveByServiceName = (serviceName: string): Promise<XdslTask> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/addressMove/extraIpRangeMove`);
   };
 
   /** List antiSpams for this access */
-  getServiceNameAntiSpams = (serviceName: string): Promise<string> => {
+  listAntiSpamsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/antiSpams`);
   };
 
   /** Get this object properties */
-  getServiceNameAntiSpamsIp = (ip: string, serviceName: string): Promise<XdslAntiSpam> => {
+  getAntiSpamsByServiceNameAndIp = (ip: string, serviceName: string): Promise<XdslAntiSpam> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/antiSpams/${ip}`);
   };
 
   /** List of evidences stored on PCS for this ip */
-  getServiceNameAntiSpamsIpEvidences = (
+  listAntiSpamsEvidencesByServiceNameAndIp = (
     ip: string,
     serviceName: string
   ): Promise<XdslAntiSpamEvidencesInfo> => {
@@ -215,7 +220,7 @@ class XdslHandler {
   };
 
   /** Apply TemplateModem to existing Modem */
-  postServiceNameApplyTemplateToModem = (
+  postApplyTemplateToModemByServiceName = (
     serviceName: string,
     body: { templateName: string }
   ): Promise<XdslTask> => {
@@ -223,40 +228,40 @@ class XdslHandler {
   };
 
   /** Get information about the ongoing resiliation */
-  getServiceNameCanCancelResiliation = (serviceName: string): Promise<boolean> => {
+  getCanCancelResiliationByServiceName = (serviceName: string): Promise<boolean> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/canCancelResiliation`);
   };
 
   /** Cancel the ongoing resiliation */
-  postServiceNameCancelResiliation = (serviceName: string): Promise<void> => {
+  postCancelResiliationByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/cancelResiliation`);
   };
 
   /** Launch a contact change procedure */
-  postServiceNameChangeContact = (
+  launchChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/changeContact`, body);
   };
 
   /** Get this object properties */
-  getServiceNameDiagnostic = (serviceName: string): Promise<XdslAccessDiagnostic> => {
+  getDiagnosticByServiceName = (serviceName: string): Promise<XdslAccessDiagnostic> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/diagnostic`);
   };
 
   /** Run diagnostic on the access */
-  postServiceNameDiagnostic = (serviceName: string): Promise<XdslTask> => {
+  postDiagnosticByServiceName = (serviceName: string): Promise<XdslTask> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/diagnostic`);
   };
 
   /** List fiber eligibilities for this access */
-  getServiceNameFiberEligibilities = (serviceName: string): Promise<number> => {
+  listFiberEligibilitiesByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/fiberEligibilities`);
   };
 
   /** Get this object properties */
-  getServiceNameFiberEligibilitiesId = (
+  getFiberEligibilitiesByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<XdslFiberEligibility> => {
@@ -264,47 +269,50 @@ class XdslHandler {
   };
 
   /** Get this object properties */
-  getServiceNameIncident = (serviceName: string): Promise<XdslIncident> => {
+  getIncidentByServiceName = (serviceName: string): Promise<XdslIncident> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/incident`);
   };
 
   /** List of IPs addresses for this access */
-  getServiceNameIps = (serviceName: string): Promise<string> => {
+  listIpsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/ips`);
   };
 
   /** Order an extra /29 range of IPv4 addresses */
-  postServiceNameIps = (serviceName: string): Promise<XdslTask> => {
+  postIpsByServiceName = (serviceName: string): Promise<XdslTask> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/ips`);
   };
 
   /** Stop renewing this extra IPv4 option */
-  deleteServiceNameIpsIp = (ip: string, serviceName: string): Promise<void> => {
+  deleteIpsByServiceNameAndIp = (ip: string, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/xdsl/${serviceName}/ips/${ip}`);
   };
 
   /** Get this object properties */
-  getServiceNameIpsIp = (ip: string, serviceName: string): Promise<XdslIP> => {
+  getIpsByServiceNameAndIp = (ip: string, serviceName: string): Promise<XdslIP> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/ips/${ip}`);
   };
 
   /** Change the status of the IPv6 for this access */
-  postServiceNameIpv6 = (serviceName: string, body: { enabled: boolean }): Promise<XdslTask> => {
+  updateIpv6ByServiceName = (
+    serviceName: string,
+    body: { enabled: boolean }
+  ): Promise<XdslTask> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/ipv6`, body);
   };
 
   /** The lines of the access */
-  getServiceNameLines = (serviceName: string): Promise<string> => {
+  getLinesByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/lines`);
   };
 
   /** Get this object properties */
-  getServiceNameLinesNumber = (number: string, serviceName: string): Promise<XdslLine> => {
+  getLinesByServiceNameAndNumber = (number: string, serviceName: string): Promise<XdslLine> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/lines/${number}`);
   };
 
   /** Cancel line diagnostic if possible */
-  postServiceNameLinesNumberDiagnosticCancel = (
+  postLinesDiagnosticCancelByServiceNameAndNumber = (
     number: string,
     serviceName: string
   ): Promise<void> => {
@@ -312,11 +320,11 @@ class XdslHandler {
   };
 
   /** Update and get advanced diagnostic of the line */
-  postServiceNameLinesNumberDiagnosticRun = (
+  updateLinesDiagnosticRunByServiceNameAndNumber = (
     number: string,
     serviceName: string,
     body: {
-      actionsDone?: XdslLineDiagnosticCustomerActionsEnum;
+      actionsDone?: XdslLineDiagnosticCustomerActionsEnum[];
       answers?: XdslLineDiagnosticAnswers;
       faultType: XdslLineDiagnosticFaultTypeEnum;
     }
@@ -325,7 +333,7 @@ class XdslHandler {
   };
 
   /** Get this object properties */
-  getServiceNameLinesNumberDslamPort = (
+  getLinesDslamPortByServiceNameAndNumber = (
     number: string,
     serviceName: string
   ): Promise<XdslDslamPort> => {
@@ -333,10 +341,10 @@ class XdslHandler {
   };
 
   /** List all availables profiles for this port */
-  getServiceNameLinesNumberDslamPortAvailableProfiles = (
+  listLinesDslamPortAvailableProfilesByServiceNameAndNumber = (
     number: string,
     serviceName: string
-  ): Promise<XdslDslamLineProfile> => {
+  ): Promise<XdslDslamLineProfile[]> => {
     return this.ovh.request(
       'GET',
       `/xdsl/${serviceName}/lines/${number}/dslamPort/availableProfiles`
@@ -344,7 +352,7 @@ class XdslHandler {
   };
 
   /** Change the profile of the port */
-  postServiceNameLinesNumberDslamPortChangeProfile = (
+  updateLinesDslamPortProfileByServiceNameAndNumber = (
     number: string,
     serviceName: string,
     body: { dslamProfileId: number }
@@ -357,15 +365,15 @@ class XdslHandler {
   };
 
   /** Get the logs emitted by the DSLAM for this port */
-  getServiceNameLinesNumberDslamPortLogs = (
+  getLinesDslamPortLogsByServiceNameAndNumber = (
     number: string,
     serviceName: string
-  ): Promise<XdslDslamPortLog> => {
+  ): Promise<XdslDslamPortLog[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/lines/${number}/dslamPort/logs`);
   };
 
   /** Reset the port on the DSLAM */
-  postServiceNameLinesNumberDslamPortReset = (
+  postLinesDslamPortResetByServiceNameAndNumber = (
     number: string,
     serviceName: string
   ): Promise<XdslTask> => {
@@ -373,7 +381,7 @@ class XdslHandler {
   };
 
   /** Get various statistics about the line */
-  getServiceNameLinesNumberStatistics = (
+  getLinesStatisticsByServiceNameAndNumber = (
     number: string,
     serviceName: string
   ): Promise<XdslTimestampAndValue> => {
@@ -381,32 +389,32 @@ class XdslHandler {
   };
 
   /** Get this object properties */
-  getServiceNameModem = (serviceName: string): Promise<XdslModem> => {
+  getModemByServiceName = (serviceName: string): Promise<XdslModem> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem`);
   };
 
   /** Alter this object properties */
-  putServiceNameModem = (serviceName: string, body: XdslModem): Promise<void> => {
+  updateModemByServiceName = (serviceName: string, body: XdslModem): Promise<void> => {
     return this.ovh.request('PUT', `/xdsl/${serviceName}/modem`, body);
   };
 
   /** List available ACS backend for this modem */
-  getServiceNameModemAvailableACSBackend = (serviceName: string): Promise<string> => {
+  listModemAvailableACSBackendsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/availableACSBackend`);
   };
 
   /** List available WLAN channel for this modem */
-  getServiceNameModemAvailableWLANChannel = (serviceName: string): Promise<number> => {
+  listModemAvailableWLANChannelsByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/availableWLANChannel`);
   };
 
   /** Get the status of the Bloc IP on modem */
-  getServiceNameModemBlocIp = (serviceName: string): Promise<XdslServiceStatusEnum> => {
+  getModemBlocIpByServiceName = (serviceName: string): Promise<XdslServiceStatusEnum> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/blocIp`);
   };
 
   /** Change the status of the Bloc IP on modem */
-  postServiceNameModemBlocIp = (
+  updateModemBlocIpByServiceName = (
     serviceName: string,
     body: { status: XdslServiceStatusEnum }
   ): Promise<XdslTask> => {
@@ -414,12 +422,12 @@ class XdslHandler {
   };
 
   /** Get the status of callWaiting on modem */
-  getServiceNameModemCallWaiting = (serviceName: string): Promise<XdslServiceStatusEnum> => {
+  getModemCallWaitingByServiceName = (serviceName: string): Promise<XdslServiceStatusEnum> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/callWaiting`);
   };
 
   /** Change the status of callWaiting on modem */
-  postServiceNameModemCallWaiting = (
+  updateModemCallWaitingByServiceName = (
     serviceName: string,
     body: { callWaiting: XdslServiceStatusEnum }
   ): Promise<XdslTask> => {
@@ -427,12 +435,12 @@ class XdslHandler {
   };
 
   /** Get info about access modem replacement by last model. */
-  getServiceNameModemComfortExchange = (serviceName: string): Promise<XdslModemExchangeInfo> => {
+  getModemComfortExchangeByServiceName = (serviceName: string): Promise<XdslModemExchangeInfo> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/comfortExchange`);
   };
 
   /** Replace access modem by last model, fees will be applied. */
-  postServiceNameModemComfortExchange = (
+  postModemComfortExchangeByServiceName = (
     serviceName: string,
     body: { contactShipping?: string }
   ): Promise<OrderOrder> => {
@@ -440,12 +448,12 @@ class XdslHandler {
   };
 
   /** List of devices connected on this modem */
-  getServiceNameModemConnectedDevices = (serviceName: string): Promise<string> => {
+  listModemConnectedDevicesByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/connectedDevices`);
   };
 
   /** Get this object properties */
-  getServiceNameModemConnectedDevicesMacAddress = (
+  getModemConnectedDevicesByServiceNameAndMacAddress = (
     macAddress: string,
     serviceName: string
   ): Promise<XdslConnectedDevice> => {
@@ -453,12 +461,12 @@ class XdslHandler {
   };
 
   /** Get the status of contentSharing on modem */
-  getServiceNameModemContentSharing = (serviceName: string): Promise<XdslServiceStatusEnum> => {
+  getModemContentSharingByServiceName = (serviceName: string): Promise<XdslServiceStatusEnum> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/contentSharing`);
   };
 
   /** Change the status of contentSharing on modem */
-  postServiceNameModemContentSharing = (
+  updateModemContentSharingByServiceName = (
     serviceName: string,
     body: { contentSharing: XdslServiceStatusEnum }
   ): Promise<XdslTask> => {
@@ -466,12 +474,12 @@ class XdslHandler {
   };
 
   /** Get the firmware version installed on modem */
-  getServiceNameModemFirmware = (serviceName: string): Promise<string> => {
+  getModemFirmwareByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/firmware`);
   };
 
   /** Launch a task to install target firmware on modem */
-  postServiceNameModemFirmware = (
+  launchModemFirmwareByServiceName = (
     serviceName: string,
     body: { firmware: string; todoDate?: Date }
   ): Promise<XdslTask> => {
@@ -479,17 +487,17 @@ class XdslHandler {
   };
 
   /** List available firmware for this modem */
-  getServiceNameModemFirmwareAvailable = (serviceName: string): Promise<string> => {
+  listModemFirmwareAvailablesByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/firmwareAvailable`);
   };
 
   /** Get the status of ftp service on modem */
-  getServiceNameModemFtp = (serviceName: string): Promise<XdslServiceStatusEnum> => {
+  getModemFtpByServiceName = (serviceName: string): Promise<XdslServiceStatusEnum> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/ftp`);
   };
 
   /** Change the status of the ftp service on modem */
-  postServiceNameModemFtp = (
+  updateModemFtpByServiceName = (
     serviceName: string,
     body: { ftp: XdslServiceStatusEnum }
   ): Promise<XdslTask> => {
@@ -497,12 +505,12 @@ class XdslHandler {
   };
 
   /** Get the status of ipsec alg service on modem */
-  getServiceNameModemIpsecAlg = (serviceName: string): Promise<XdslServiceStatusEnum> => {
+  getModemIpsecAlgByServiceName = (serviceName: string): Promise<XdslServiceStatusEnum> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/ipsecAlg`);
   };
 
   /** Change the status of the ipsec alg service on modem */
-  postServiceNameModemIpsecAlg = (
+  updateModemIpsecAlgByServiceName = (
     serviceName: string,
     body: { ipsecAlg: XdslServiceStatusEnum }
   ): Promise<XdslTask> => {
@@ -510,17 +518,17 @@ class XdslHandler {
   };
 
   /** List of LANs on this modem */
-  getServiceNameModemLan = (serviceName: string): Promise<string> => {
+  listModemLansByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/lan`);
   };
 
   /** Get this object properties */
-  getServiceNameModemLanLanName = (lanName: string, serviceName: string): Promise<XdslLAN> => {
+  getModemLanByServiceNameAndLanName = (lanName: string, serviceName: string): Promise<XdslLAN> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/lan/${lanName}`);
   };
 
   /** Alter this object properties */
-  putServiceNameModemLanLanName = (
+  updateModemLanByServiceNameAndLanName = (
     lanName: string,
     serviceName: string,
     body: XdslLAN
@@ -529,12 +537,15 @@ class XdslHandler {
   };
 
   /** List of DHCP on this modem */
-  getServiceNameModemLanLanNameDhcp = (lanName: string, serviceName: string): Promise<string> => {
+  listModemLanDhcpsByServiceNameAndLanName = (
+    lanName: string,
+    serviceName: string
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/lan/${lanName}/dhcp`);
   };
 
   /** Get this object properties */
-  getServiceNameModemLanLanNameDhcpDhcpName = (
+  getModemLanDhcpByServiceNameAndLanNameAndDhcpName = (
     dhcpName: string,
     lanName: string,
     serviceName: string
@@ -543,7 +554,7 @@ class XdslHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameModemLanLanNameDhcpDhcpName = (
+  updateModemLanDhcpByServiceNameAndLanNameAndDhcpName = (
     dhcpName: string,
     lanName: string,
     serviceName: string,
@@ -557,11 +568,11 @@ class XdslHandler {
   };
 
   /** List of DHCP Static Address of this modem */
-  getServiceNameModemLanLanNameDhcpDhcpNameDHCPStaticAddresses = (
+  listModemLanDhcpDHCPStaticAddressesByServiceNameAndLanNameAndDhcpName = (
     dhcpName: string,
     lanName: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/xdsl/${serviceName}/modem/lan/${lanName}/dhcp/${dhcpName}/DHCPStaticAddresses`
@@ -569,7 +580,7 @@ class XdslHandler {
   };
 
   /** Add a DHCP static lease */
-  postServiceNameModemLanLanNameDhcpDhcpNameDHCPStaticAddresses = (
+  addModemLanDhcpDHCPStaticressesByServiceNameAndLanNameAndDhcpName = (
     dhcpName: string,
     lanName: string,
     serviceName: string,
@@ -583,7 +594,7 @@ class XdslHandler {
   };
 
   /** Delete this port mapping */
-  deleteServiceNameModemLanLanNameDhcpDhcpNameDHCPStaticAddressesMACAddress = (
+  deleteModemLanDhcpDHCPStaticAddressesByServiceNameAndLanNameAndDhcpNameAndMACAddress = (
     MACAddress: string,
     dhcpName: string,
     lanName: string,
@@ -596,7 +607,7 @@ class XdslHandler {
   };
 
   /** Get this object properties */
-  getServiceNameModemLanLanNameDhcpDhcpNameDHCPStaticAddressesMACAddress = (
+  getModemLanDhcpDHCPStaticAddressesByServiceNameAndLanNameAndDhcpNameAndMACAddress = (
     MACAddress: string,
     dhcpName: string,
     lanName: string,
@@ -609,7 +620,7 @@ class XdslHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameModemLanLanNameDhcpDhcpNameDHCPStaticAddressesMACAddress = (
+  updateModemLanDhcpDHCPStaticAddressesByServiceNameAndLanNameAndDhcpNameAndMACAddress = (
     MACAddress: string,
     dhcpName: string,
     lanName: string,
@@ -624,12 +635,12 @@ class XdslHandler {
   };
 
   /** List of PortMappings on this modem */
-  getServiceNameModemPortMappings = (serviceName: string): Promise<string> => {
+  listModemPortMappingsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/portMappings`);
   };
 
   /** Add a port mapping */
-  postServiceNameModemPortMappings = (
+  addModemPortMappingsByServiceName = (
     serviceName: string,
     body: {
       allowedRemoteIp?: string;
@@ -647,7 +658,7 @@ class XdslHandler {
   };
 
   /** Delete this port mapping */
-  deleteServiceNameModemPortMappingsName = (
+  deleteModemPortMappingsByServiceNameAndName = (
     name: string,
     serviceName: string
   ): Promise<XdslTask> => {
@@ -655,7 +666,7 @@ class XdslHandler {
   };
 
   /** Get this object properties */
-  getServiceNameModemPortMappingsName = (
+  getModemPortMappingsByServiceNameAndName = (
     name: string,
     serviceName: string
   ): Promise<XdslPortMapping> => {
@@ -663,7 +674,7 @@ class XdslHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameModemPortMappingsName = (
+  updateModemPortMappingsByServiceNameAndName = (
     name: string,
     serviceName: string,
     body: XdslPortMapping
@@ -672,7 +683,7 @@ class XdslHandler {
   };
 
   /** Reboot the modem */
-  postServiceNameModemReboot = (
+  postModemRebootByServiceName = (
     serviceName: string,
     body: { todoDate?: Date }
   ): Promise<XdslTask> => {
@@ -680,17 +691,17 @@ class XdslHandler {
   };
 
   /** Reconfigure voip line on modem */
-  postServiceNameModemReconfigureVoip = (serviceName: string): Promise<void> => {
+  postModemReconfigureVoipByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/modem/reconfigureVoip`);
   };
 
   /** Refresh the list of connected devices on the modem */
-  postServiceNameModemRefreshConnectedDevices = (serviceName: string): Promise<XdslTask> => {
+  postModemRefreshConnectedDevicesByServiceName = (serviceName: string): Promise<XdslTask> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/modem/refreshConnectedDevices`);
   };
 
   /** Reset the modem to its default configuration */
-  postServiceNameModemReset = (
+  postModemResetByServiceName = (
     serviceName: string,
     body: { resetOvhConfig?: boolean }
   ): Promise<XdslTask> => {
@@ -698,22 +709,22 @@ class XdslHandler {
   };
 
   /** Remove all the current port mapping rules */
-  postServiceNameModemResetPortMappingConfig = (serviceName: string): Promise<void> => {
+  postModemResetPortMappingConfigByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/modem/resetPortMappingConfig`);
   };
 
   /** get general Modem information */
-  postServiceNameModemRetrieveInfo = (serviceName: string): Promise<XdslModemInfo> => {
+  postModemRetrieveInfoByServiceName = (serviceName: string): Promise<XdslModemInfo> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/modem/retrieveInfo`);
   };
 
   /** Get the status of sip alg service on modem */
-  getServiceNameModemSipAlg = (serviceName: string): Promise<XdslServiceStatusEnum> => {
+  getModemSipAlgByServiceName = (serviceName: string): Promise<XdslServiceStatusEnum> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/sipAlg`);
   };
 
   /** Change the status of the sip alg service on modem */
-  postServiceNameModemSipAlg = (
+  updateModemSipAlgByServiceName = (
     serviceName: string,
     body: { sipAlg: XdslServiceStatusEnum }
   ): Promise<XdslTask> => {
@@ -721,12 +732,12 @@ class XdslHandler {
   };
 
   /** Get the status of the Upnp on modem */
-  getServiceNameModemUpnp = (serviceName: string): Promise<XdslServiceStatusEnum> => {
+  getModemUpnpByServiceName = (serviceName: string): Promise<XdslServiceStatusEnum> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/upnp`);
   };
 
   /** Change the status of the Upnp on modem */
-  postServiceNameModemUpnp = (
+  updateModemUpnpByServiceName = (
     serviceName: string,
     body: { upnp: XdslServiceStatusEnum }
   ): Promise<XdslTask> => {
@@ -734,17 +745,20 @@ class XdslHandler {
   };
 
   /** List of WLANs on this modem */
-  getServiceNameModemWifi = (serviceName: string): Promise<string> => {
+  listModemWifisByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/wifi`);
   };
 
   /** Get this object properties */
-  getServiceNameModemWifiWifiName = (serviceName: string, wifiName: string): Promise<XdslWLAN> => {
+  getModemWifiByServiceNameAndWifiName = (
+    serviceName: string,
+    wifiName: string
+  ): Promise<XdslWLAN> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/modem/wifi/${wifiName}`);
   };
 
   /** Alter this object properties */
-  putServiceNameModemWifiWifiName = (
+  updateModemWifiByServiceNameAndWifiName = (
     serviceName: string,
     wifiName: string,
     body: XdslWLAN
@@ -753,12 +767,12 @@ class XdslHandler {
   };
 
   /** List the notifications for this access */
-  getServiceNameMonitoringNotifications = (serviceName: string): Promise<number> => {
+  listMonitoringNotificationsByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/monitoringNotifications`);
   };
 
   /** Add a notification */
-  postServiceNameMonitoringNotifications = (
+  addMonitoringNotificationsByServiceName = (
     serviceName: string,
     body: {
       allowIncident?: boolean;
@@ -774,12 +788,15 @@ class XdslHandler {
   };
 
   /** Delete this notification */
-  deleteServiceNameMonitoringNotificationsId = (id: number, serviceName: string): Promise<void> => {
+  deleteMonitoringNotificationsByServiceNameAndId = (
+    id: number,
+    serviceName: string
+  ): Promise<void> => {
     return this.ovh.request('DELETE', `/xdsl/${serviceName}/monitoringNotifications/${id}`);
   };
 
   /** Get this object properties */
-  getServiceNameMonitoringNotificationsId = (
+  getMonitoringNotificationsByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<XdslMonitoringNotification> => {
@@ -787,7 +804,7 @@ class XdslHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameMonitoringNotificationsId = (
+  updateMonitoringNotificationsByServiceNameAndId = (
     id: number,
     serviceName: string,
     body: XdslMonitoringNotification
@@ -796,12 +813,12 @@ class XdslHandler {
   };
 
   /** Get the status of the order */
-  getServiceNameOrderFollowup = (serviceName: string): Promise<XdslOrderFollowupStep> => {
+  getOrderFollowupByServiceName = (serviceName: string): Promise<XdslOrderFollowupStep[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/orderFollowup`);
   };
 
   /** Book a meeting and relaunch order */
-  postServiceNameOrderMeeting = (
+  postOrderMeetingByServiceName = (
     serviceName: string,
     body: { endDate: Date; startDate: Date; uiCode: string }
   ): Promise<void> => {
@@ -809,22 +826,24 @@ class XdslHandler {
   };
 
   /** Get this object properties */
-  getServiceNamePendingAction = (serviceName: string): Promise<XdslPendingAction> => {
+  getPendingActionByServiceName = (serviceName: string): Promise<XdslPendingAction> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/pendingAction`);
   };
 
   /** List the radius connection logs */
-  getServiceNameRadiusConnectionLogs = (serviceName: string): Promise<XdslRadiusConnectionLog> => {
+  listRadiusConnectionLogsByServiceName = (
+    serviceName: string
+  ): Promise<XdslRadiusConnectionLog[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/radiusConnectionLogs`);
   };
 
   /** Renew PPP password and send the PPP login informations to the e-mail of the nicAdmin */
-  postServiceNameRequestPPPLoginMail = (serviceName: string): Promise<void> => {
+  postRequestPPPLoginMailByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/requestPPPLoginMail`);
   };
 
   /** Switch this access to total deconsolidation */
-  postServiceNameRequestTotalDeconsolidation = (
+  postRequestTotalDeconsolidationByServiceName = (
     serviceName: string,
     body: { noPortability?: boolean; rio?: string }
   ): Promise<XdslTask> => {
@@ -832,7 +851,7 @@ class XdslHandler {
   };
 
   /** Resiliate the access */
-  postServiceNameResiliate = (
+  postResiliateByServiceName = (
     serviceName: string,
     body: { resiliationDate?: Date; resiliationSurvey: XdslResiliationSurvey }
   ): Promise<XdslResiliationFollowUpDetail> => {
@@ -840,39 +859,43 @@ class XdslHandler {
   };
 
   /** Get information about the ongoing resiliation */
-  getServiceNameResiliationFollowup = (
+  getResiliationFollowupByServiceName = (
     serviceName: string
   ): Promise<XdslResiliationFollowUpDetail> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/resiliationFollowup`);
   };
 
   /** Get resiliation terms */
-  getServiceNameResiliationTerms = (serviceName: string): Promise<XdslResiliationTerms> => {
+  getResiliationTermsByServiceName = (serviceName: string): Promise<XdslResiliationTerms> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/resiliationTerms`);
   };
 
   /** Return Merchandise Authorisation associated */
-  getServiceNameRma = (serviceName: string): Promise<string> => {
+  getRmaByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/rma`);
   };
 
   /** Cancel the rma */
-  deleteServiceNameRmaId = (id: string, serviceName: string): Promise<void> => {
+  deleteRmaByServiceNameAndId = (id: string, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/xdsl/${serviceName}/rma/${id}`);
   };
 
   /** Get this object properties */
-  getServiceNameRmaId = (id: string, serviceName: string): Promise<TelephonyRma> => {
+  getRmaByServiceNameAndId = (id: string, serviceName: string): Promise<TelephonyRma> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/rma/${id}`);
   };
 
   /** Alter this object properties */
-  putServiceNameRmaId = (id: string, serviceName: string, body: TelephonyRma): Promise<void> => {
+  updateRmaByServiceNameAndId = (
+    id: string,
+    serviceName: string,
+    body: TelephonyRma
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/xdsl/${serviceName}/rma/${id}`, body);
   };
 
   /** Change RMA type */
-  postServiceNameRmaIdChangeType = (
+  updateRmaTypeByServiceNameAndId = (
     id: string,
     serviceName: string,
     body: { type: TelephonyRmaChangeTypeEnum }
@@ -881,56 +904,56 @@ class XdslHandler {
   };
 
   /** Search for available line creation meeting time slots, for order only */
-  postServiceNameSearchOrderMeetings = (
+  postSearchOrderMeetingsByServiceName = (
     serviceName: string
   ): Promise<ConnectivityEligibilityMeetings> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/searchOrderMeetings`);
   };
 
   /** Unlock order in "waitingCustomer" status. It only concerns orders whose modem is sent before anything have been forwarded to our provider */
-  postServiceNameSendOrderToProvider = (serviceName: string): Promise<void> => {
+  postSendOrderToProviderByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/sendOrderToProvider`);
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/xdsl/${serviceName}/serviceInfos`, body);
   };
 
   /** Get various statistics about this access */
-  getServiceNameStatistics = (serviceName: string): Promise<XdslTimestampAndValue> => {
+  getStatisticsByServiceName = (serviceName: string): Promise<XdslTimestampAndValue> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/statistics`);
   };
 
   /** Tasks scheduled for this access */
-  getServiceNameTasks = (serviceName: string): Promise<number> => {
+  getTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/tasks`);
   };
 
   /** Get this object properties */
-  getServiceNameTasksId = (id: number, serviceName: string): Promise<XdslTask> => {
+  getTasksByServiceNameAndId = (id: number, serviceName: string): Promise<XdslTask> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/tasks/${id}`);
   };
 
   /** Delete the task in problem from the results */
-  postServiceNameTasksIdArchive = (id: number, serviceName: string): Promise<void> => {
+  postTasksArchiveByServiceNameAndId = (id: number, serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/xdsl/${serviceName}/tasks/${id}/archive`);
   };
 
   /** Give the price to requestTotalDeconsolidation on the access */
-  getServiceNameTotalDeconsolidationTerms = (
+  getTotalDeconsolidationTermsByServiceName = (
     serviceName: string
   ): Promise<XdslDeconsolidationTerms> => {
     return this.ovh.request('GET', `/xdsl/${serviceName}/totalDeconsolidationTerms`);
   };
 
   /** Update RIO, or disable portability, for order in error because of missing or invalid RIO */
-  postServiceNameUpdateInvalidOrMissingRio = (
+  updateInvalidOrMissingRioByServiceName = (
     serviceName: string,
     body: { relaunchWithoutPortability: boolean; rio?: string }
   ): Promise<void> => {
@@ -938,4 +961,4 @@ class XdslHandler {
   };
 }
 
-export default XdslHandler;
+export { XdslHandler };

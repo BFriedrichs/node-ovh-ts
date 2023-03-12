@@ -3,7 +3,7 @@
 import { OrderCatalogPccDatacenter } from './OrderCatalogPccDatacenter';
 
 export type OrderCatalogPccCommercialRange = {
-  datacenters: OrderCatalogPccDatacenter;
+  datacenters: OrderCatalogPccDatacenter[];
   defaultZone: string;
   name: string;
 };

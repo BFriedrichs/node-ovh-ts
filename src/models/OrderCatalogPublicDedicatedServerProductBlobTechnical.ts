@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderCatalogPublicDedicatedServerProductBlobTechnicalNetwork } from './OrderCatalogPublicDedicatedServerProductBlobTechnicalNetwork';
-import { OrderCatalogPublicDedicatedServerProductBlobTechnicalMemory } from './OrderCatalogPublicDedicatedServerProductBlobTechnicalMemory';
 import { OrderCatalogPublicDedicatedServerProductBlobTechnicalServer } from './OrderCatalogPublicDedicatedServerProductBlobTechnicalServer';
+import { OrderCatalogPublicDedicatedServerProductBlobTechnicalMemory } from './OrderCatalogPublicDedicatedServerProductBlobTechnicalMemory';
 import { OrderCatalogPublicDedicatedServerProductBlobTechnicalGPU } from './OrderCatalogPublicDedicatedServerProductBlobTechnicalGPU';
+import { OrderCatalogPublicDedicatedServerProductBlobTechnicalNetwork } from './OrderCatalogPublicDedicatedServerProductBlobTechnicalNetwork';
 import { OrderCatalogPublicDedicatedServerProductBlobTechnicalCPU } from './OrderCatalogPublicDedicatedServerProductBlobTechnicalCPU';
 import { OrderCatalogPublicDedicatedServerProductBlobTechnicalStorage } from './OrderCatalogPublicDedicatedServerProductBlobTechnicalStorage';
 

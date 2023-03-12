@@ -9,7 +9,7 @@ export type CloudProjectDatabaseServiceBackup = {
   description: string;
   id: string;
   region: string;
-  regions: CloudProjectDatabaseServiceBackupRegion;
+  regions: CloudProjectDatabaseServiceBackupRegion[];
   size: number;
   status: CloudProjectDatabaseStatusEnum;
   type: CloudProjectDatabaseBackupTypeEnum;

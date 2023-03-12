@@ -6,9 +6,9 @@ import { XdslLineDiagnosticPossibleValue } from './XdslLineDiagnosticPossibleVal
 export type XdslLineDiagnosticQuestion = {
   defaultValue: string | null;
   description: string;
-  enumValues: string | null;
+  enumValues: string[] | null;
   name: XdslLineDiagnosticQuestionsEnum;
-  possibleValues: XdslLineDiagnosticPossibleValue | null;
+  possibleValues: XdslLineDiagnosticPossibleValue[] | null;
   required: boolean | null;
   type: string;
 };

@@ -7,5 +7,5 @@ export type HostingPrivateDatabaseDatabase = {
   creationDate: Date;
   databaseName: string;
   quotaUsed: number;
-  users: HostingPrivateDatabaseDatabaseUser;
+  users: HostingPrivateDatabaseDatabaseUser[];
 };

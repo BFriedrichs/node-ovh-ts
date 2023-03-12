@@ -4,7 +4,7 @@ import { OrderCatalogPccServicePackOption } from './OrderCatalogPccServicePackOp
 
 export type OrderCatalogPccServicePack = {
   name: string;
-  options: OrderCatalogPccServicePackOption;
+  options: OrderCatalogPccServicePackOption[];
   planCode: string;
-  upgradableTo: string;
+  upgradableTo: string[];
 };

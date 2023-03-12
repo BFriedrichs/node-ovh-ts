@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyEasyMiniPabxHuntingStrategyEnum } from './TelephonyEasyMiniPabxHuntingStrategyEnum';
 import { TelephonyEasyMiniPabxHuntingPatternEnum } from './TelephonyEasyMiniPabxHuntingPatternEnum';
+import { TelephonyEasyMiniPabxHuntingStrategyEnum } from './TelephonyEasyMiniPabxHuntingStrategyEnum';
 
 export type TelephonyMiniPabxHunting = {
   anonymousCallRejection: boolean;

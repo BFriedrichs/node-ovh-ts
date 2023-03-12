@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectDatabaseServiceNodeRoleEnum } from './CloudProjectDatabaseServiceNodeRoleEnum';
 import { CloudProjectDatabaseStatusEnum } from './CloudProjectDatabaseStatusEnum';
+import { CloudProjectDatabaseServiceNodeRoleEnum } from './CloudProjectDatabaseServiceNodeRoleEnum';
 
 export type CloudProjectDatabaseServiceNode = {
   createdAt: Date;

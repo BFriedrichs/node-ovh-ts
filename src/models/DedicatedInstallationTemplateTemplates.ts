@@ -1,18 +1,18 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedTemplateOsLanguageEnum } from './DedicatedTemplateOsLanguageEnum';
 import { DedicatedTemplateOsInfoLicense } from './DedicatedTemplateOsInfoLicense';
-import { DedicatedTemplateOsInfoProject } from './DedicatedTemplateOsInfoProject';
-import { DedicatedTemplateOsSubfamilyEnum } from './DedicatedTemplateOsSubfamilyEnum';
 import { DedicatedTemplateOsUsageEnum } from './DedicatedTemplateOsUsageEnum';
+import { DedicatedTemplateOsSubfamilyEnum } from './DedicatedTemplateOsSubfamilyEnum';
 import { DedicatedTemplateOsInput } from './DedicatedTemplateOsInput';
-import { DedicatedTemplateOsFileSystemEnum } from './DedicatedTemplateOsFileSystemEnum';
+import { DedicatedTemplateOsLanguageEnum } from './DedicatedTemplateOsLanguageEnum';
+import { DedicatedTemplateOsInfoProject } from './DedicatedTemplateOsInfoProject';
 import { DedicatedTemplateOsProperties } from './DedicatedTemplateOsProperties';
-import { DedicatedTemplateOsTypeEnum } from './DedicatedTemplateOsTypeEnum';
+import { DedicatedTemplateOsFileSystemEnum } from './DedicatedTemplateOsFileSystemEnum';
 import { DedicatedServerBitFormatEnum } from './DedicatedServerBitFormatEnum';
+import { DedicatedTemplateOsTypeEnum } from './DedicatedTemplateOsTypeEnum';
 
 export type DedicatedInstallationTemplateTemplates = {
-  availableLanguages: DedicatedTemplateOsLanguageEnum;
+  availableLanguages: DedicatedTemplateOsLanguageEnum[];
   bitFormat: DedicatedServerBitFormatEnum;
   category: DedicatedTemplateOsUsageEnum;
   customization: DedicatedTemplateOsProperties | null;
@@ -21,9 +21,9 @@ export type DedicatedInstallationTemplateTemplates = {
   distribution: string;
   endOfInstall: Date;
   family: DedicatedTemplateOsTypeEnum;
-  filesystems: DedicatedTemplateOsFileSystemEnum;
+  filesystems: DedicatedTemplateOsFileSystemEnum[];
   hardRaidConfiguration: boolean | null;
-  inputs: DedicatedTemplateOsInput | null;
+  inputs: DedicatedTemplateOsInput[] | null;
   license: DedicatedTemplateOsInfoLicense | null;
   lvmReady: boolean | null;
   noPartitioning: boolean;

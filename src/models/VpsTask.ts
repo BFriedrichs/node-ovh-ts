@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { VpsTaskTypeEnum } from './VpsTaskTypeEnum';
 import { VpsTaskStateEnum } from './VpsTaskStateEnum';
+import { VpsTaskTypeEnum } from './VpsTaskTypeEnum';
 
 export type VpsTask = {
   date: Date;

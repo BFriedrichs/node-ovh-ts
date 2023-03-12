@@ -7,5 +7,5 @@ export type CloudNetworkSubnet = {
   dhcpEnabled: boolean;
   gatewayIp: string | null;
   id: string;
-  ipPools: CloudNetworkIPPool;
+  ipPools: CloudNetworkIPPool[];
 };

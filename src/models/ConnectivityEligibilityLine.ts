@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ConnectivityEligibilityAddress } from './ConnectivityEligibilityAddress';
 import { ConnectivityEligibilityCopperInfo } from './ConnectivityEligibilityCopperInfo';
+import { ConnectivityEligibilityAddress } from './ConnectivityEligibilityAddress';
 
 export type ConnectivityEligibilityLine = {
   address: ConnectivityEligibilityAddress;

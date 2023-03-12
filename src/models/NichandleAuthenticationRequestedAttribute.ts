@@ -4,5 +4,5 @@ export type NichandleAuthenticationRequestedAttribute = {
   isRequired: boolean;
   name: string;
   nameFormat: string | null;
-  values: string | null;
+  values: string[] | null;
 };

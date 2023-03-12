@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyPortabilityStepDuration } from './TelephonyPortabilityStepDuration';
-import { TelephonyPortabilityStepNameEnum } from './TelephonyPortabilityStepNameEnum';
 import { TelephonyPortabilityStepStatusEnum } from './TelephonyPortabilityStepStatusEnum';
+import { TelephonyPortabilityStepNameEnum } from './TelephonyPortabilityStepNameEnum';
 import { TelephonyPortabilityStepInfos } from './TelephonyPortabilityStepInfos';
+import { TelephonyPortabilityStepDuration } from './TelephonyPortabilityStepDuration';
 
 export type TelephonyPortabilityStep = {
   description: string | null;

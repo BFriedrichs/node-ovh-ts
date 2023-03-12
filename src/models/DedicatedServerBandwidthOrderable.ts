@@ -4,7 +4,7 @@ import { DedicatedServerBandwidthOrderEnum } from './DedicatedServerBandwidthOrd
 
 export type DedicatedServerBandwidthOrderable = {
   orderable: boolean;
-  platinum: DedicatedServerBandwidthOrderEnum | null;
-  premium: DedicatedServerBandwidthOrderEnum | null;
-  ultimate: DedicatedServerBandwidthOrderEnum | null;
+  platinum: DedicatedServerBandwidthOrderEnum[] | null;
+  premium: DedicatedServerBandwidthOrderEnum[] | null;
+  ultimate: DedicatedServerBandwidthOrderEnum[] | null;
 };

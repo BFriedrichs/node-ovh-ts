@@ -5,5 +5,5 @@ export type DomainZoneZone = {
   hasDnsAnycast: boolean;
   lastUpdate: Date;
   name: string;
-  nameServers: string;
+  nameServers: string[];
 };

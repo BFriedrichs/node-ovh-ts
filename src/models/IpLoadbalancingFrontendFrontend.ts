@@ -3,14 +3,14 @@
 import { IpLoadbalancingProxyTypeEnum } from './IpLoadbalancingProxyTypeEnum';
 
 export type IpLoadbalancingFrontendFrontend = {
-  allowedSource: string | null;
-  dedicatedIpfo: string | null;
+  allowedSource: string[] | null;
+  dedicatedIpfo: string[] | null;
   defaultBackendId: number | null;
   defaultSslId: number | null;
-  deniedSource: string | null;
+  deniedSource: string[] | null;
   disabled: boolean;
   hsts: boolean;
-  httpHeader: string | null;
+  httpHeader: string[] | null;
   id: number;
   port: string;
   redirectLocation: string | null;

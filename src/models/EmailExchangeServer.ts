@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailExchangeServerStateEnum } from './EmailExchangeServerStateEnum';
 import { EmailExchangeExchangeCommercialVersionEnum } from './EmailExchangeExchangeCommercialVersionEnum';
+import { EmailExchangeServerStateEnum } from './EmailExchangeServerStateEnum';
 
 export type EmailExchangeServer = {
   commercialVersion: EmailExchangeExchangeCommercialVersionEnum;

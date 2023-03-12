@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudBillingViewMonthlyCertification } from './CloudBillingViewMonthlyCertification';
-import { CloudBillingViewMonthlyInstance } from './CloudBillingViewMonthlyInstance';
 import { CloudBillingViewMonthlyInstanceOption } from './CloudBillingViewMonthlyInstanceOption';
+import { CloudBillingViewMonthlyInstance } from './CloudBillingViewMonthlyInstance';
+import { CloudBillingViewMonthlyCertification } from './CloudBillingViewMonthlyCertification';
 
 export type CloudBillingViewMonthlyResources = {
-  certification: CloudBillingViewMonthlyCertification | null;
-  instance: CloudBillingViewMonthlyInstance;
-  instanceOption: CloudBillingViewMonthlyInstanceOption;
+  certification: CloudBillingViewMonthlyCertification[] | null;
+  instance: CloudBillingViewMonthlyInstance[];
+  instanceOption: CloudBillingViewMonthlyInstanceOption[];
 };

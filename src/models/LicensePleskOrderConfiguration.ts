@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseOrderablePleskCompatibilityInfos } from './LicenseOrderablePleskCompatibilityInfos';
 import { LicenseLicenseTypeEnum } from './LicenseLicenseTypeEnum';
+import { LicenseOrderablePleskCompatibilityInfos } from './LicenseOrderablePleskCompatibilityInfos';
 
 export type LicensePleskOrderConfiguration = {
-  orderableVersions: LicenseOrderablePleskCompatibilityInfos;
+  orderableVersions: LicenseOrderablePleskCompatibilityInfos[];
   serviceType: LicenseLicenseTypeEnum;
 };

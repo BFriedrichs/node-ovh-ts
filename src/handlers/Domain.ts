@@ -1,65 +1,65 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DnssecKeyStatusEnum } from '../models/DnssecKeyStatusEnum';
-import { DomainConfigurationRulesRuleData } from '../models/DomainConfigurationRulesRuleData';
-import { DomainConfigurationsContactTypeEnum } from '../models/DomainConfigurationsContactTypeEnum';
-import { DomainActionEnum } from '../models/DomainActionEnum';
-import { DomainDataClaimNoticeClaimNotice } from '../models/DomainDataClaimNoticeClaimNotice';
-import { DomainZoneDynHostRecord } from '../models/DomainZoneDynHostRecord';
-import { DomainDomain } from '../models/DomainDomain';
-import { DomainServiceOptions } from '../models/DomainServiceOptions';
-import { DomainExtensionsExtensionsPricingAttributes } from '../models/DomainExtensionsExtensionsPricingAttributes';
-import { ZoneRedirectionTypeEnum } from '../models/ZoneRedirectionTypeEnum';
-import { DomainConfigurationsOptin } from '../models/DomainConfigurationsOptin';
-import { DomainDataSmdSmd } from '../models/DomainDataSmdSmd';
-import { DomainWhoisObfuscatorFieldsEnum } from '../models/DomainWhoisObfuscatorFieldsEnum';
-import { DomainExtensionsOrderByTypeEnum } from '../models/DomainExtensionsOrderByTypeEnum';
-import { DomainZoneZoneRestorePoint } from '../models/DomainZoneZoneRestorePoint';
-import { DomainTask } from '../models/DomainTask';
 import { DomainDomainOptionEnum } from '../models/DomainDomainOptionEnum';
-import { DomainDnssecKey } from '../models/DomainDnssecKey';
-import { DomainZoneTask } from '../models/DomainZoneTask';
+import { DomainOperationStatusEnum } from '../models/DomainOperationStatusEnum';
+import { DomainConfigurationRulesRuleData } from '../models/DomainConfigurationRulesRuleData';
+import { DomainDataSmdSmd } from '../models/DomainDataSmdSmd';
+import { DomainExtensionsExtensionsPricingAttributes } from '../models/DomainExtensionsExtensionsPricingAttributes';
+import { DomainExtensionsRegistryConfigurationsRegistryConfigurations } from '../models/DomainExtensionsRegistryConfigurationsRegistryConfigurations';
+import { DomainDataClaimNoticeClaimNotice } from '../models/DomainDataClaimNoticeClaimNotice';
+import { DomainUkRegistrar } from '../models/DomainUkRegistrar';
 import { ZoneStatus } from '../models/ZoneStatus';
-import { DomainRulesOptin } from '../models/DomainRulesOptin';
-import { DnssecKeyFlagEnum } from '../models/DnssecKeyFlagEnum';
-import { DomainZoneRedirection } from '../models/DomainZoneRedirection';
-import { DomainZoneDynHostLogin } from '../models/DomainZoneDynHostLogin';
-import { DomainNameServerUpdatePayload } from '../models/DomainNameServerUpdatePayload';
-import { DomainConfigurationsObfuscatedEmail } from '../models/DomainConfigurationsObfuscatedEmail';
-import { DomainGlueRecordCreatePayload } from '../models/DomainGlueRecordCreatePayload';
-import { ServicesService } from '../models/ServicesService';
-import { DomainZoneSoa } from '../models/DomainZoneSoa';
+import { DnssecKey } from '../models/DnssecKey';
 import { DomainConfigurationsOptinUpdatePayload } from '../models/DomainConfigurationsOptinUpdatePayload';
 import { DomainDataSmdSmdBody } from '../models/DomainDataSmdSmdBody';
-import { ServiceRenewType } from '../models/ServiceRenewType';
-import { DomainConfigurationRulesRule } from '../models/DomainConfigurationRulesRule';
-import { DomainZoneRecord } from '../models/DomainZoneRecord';
-import { DomainConfigurationsObfuscatedEmailUpdatePayload } from '../models/DomainConfigurationsObfuscatedEmailUpdatePayload';
-import { DomainNameServerCreatePayload } from '../models/DomainNameServerCreatePayload';
-import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
+import { DnssecKeyStatusEnum } from '../models/DnssecKeyStatusEnum';
 import { DomainZoneDnssec } from '../models/DomainZoneDnssec';
-import { DomainExtensionsExtension } from '../models/DomainExtensionsExtension';
-import { ZoneCapabilities } from '../models/ZoneCapabilities';
-import { DomainOperationStatusEnum } from '../models/DomainOperationStatusEnum';
-import { DomainOption } from '../models/DomainOption';
-import { DomainZoneOption } from '../models/DomainZoneOption';
-import { DomainNameServerFullNameServer } from '../models/DomainNameServerFullNameServer';
-import { DomainContact } from '../models/DomainContact';
-import { DomainUkRegistrar } from '../models/DomainUkRegistrar';
-import { DomainGlueRecordGlueRecord } from '../models/DomainGlueRecordGlueRecord';
-import { DomainExtensionsRegistryConfigurationsRegistryConfigurations } from '../models/DomainExtensionsRegistryConfigurationsRegistryConfigurations';
-import { DomainExtensionsCategoryTypeEnum } from '../models/DomainExtensionsCategoryTypeEnum';
+import { DomainConfigurationRulesRule } from '../models/DomainConfigurationRulesRule';
 import { DomainOwo } from '../models/DomainOwo';
-import { ZoneResetRecord } from '../models/ZoneResetRecord';
-import { ZoneNamedResolutionFieldTypeEnum } from '../models/ZoneNamedResolutionFieldTypeEnum';
-import { DnssecKey } from '../models/DnssecKey';
-import { DomainNameServerNameServerStatus } from '../models/DomainNameServerNameServerStatus';
-import { DomainZoneZone } from '../models/DomainZoneZone';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { DomainOutgoingTransferApprove } from '../models/DomainOutgoingTransferApprove';
+import { DomainDnssecKey } from '../models/DomainDnssecKey';
+import { DomainZoneTask } from '../models/DomainZoneTask';
 import { DomainExtensionsExtensionsByCategory } from '../models/DomainExtensionsExtensionsByCategory';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { DomainExtensionsExtension } from '../models/DomainExtensionsExtension';
+import { DomainZoneZoneRestorePoint } from '../models/DomainZoneZoneRestorePoint';
+import { DomainZoneDynHostLogin } from '../models/DomainZoneDynHostLogin';
+import { DomainConfigurationsObfuscatedEmail } from '../models/DomainConfigurationsObfuscatedEmail';
+import { DomainExtensionsOrderByTypeEnum } from '../models/DomainExtensionsOrderByTypeEnum';
+import { DomainWhoisObfuscatorFieldsEnum } from '../models/DomainWhoisObfuscatorFieldsEnum';
+import { DomainNameServerFullNameServer } from '../models/DomainNameServerFullNameServer';
+import { DomainNameServerCreatePayload } from '../models/DomainNameServerCreatePayload';
+import { DomainOption } from '../models/DomainOption';
+import { ZoneRedirectionTypeEnum } from '../models/ZoneRedirectionTypeEnum';
+import { ZoneNamedResolutionFieldTypeEnum } from '../models/ZoneNamedResolutionFieldTypeEnum';
+import { ZoneCapabilities } from '../models/ZoneCapabilities';
+import { DomainZoneDynHostRecord } from '../models/DomainZoneDynHostRecord';
+import { DomainZoneOption } from '../models/DomainZoneOption';
+import { DomainZoneRecord } from '../models/DomainZoneRecord';
+import { DomainNameServerUpdatePayload } from '../models/DomainNameServerUpdatePayload';
+import { DomainOutgoingTransferApprove } from '../models/DomainOutgoingTransferApprove';
+import { ServiceRenewType } from '../models/ServiceRenewType';
+import { DomainConfigurationsOptin } from '../models/DomainConfigurationsOptin';
+import { DomainRulesOptin } from '../models/DomainRulesOptin';
+import { ServicesService } from '../models/ServicesService';
+import { DomainConfigurationsContactTypeEnum } from '../models/DomainConfigurationsContactTypeEnum';
+import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
+import { DomainActionEnum } from '../models/DomainActionEnum';
+import { DomainDomain } from '../models/DomainDomain';
 import { DomainConfigurationsObfuscatedEmailRefreshPayload } from '../models/DomainConfigurationsObfuscatedEmailRefreshPayload';
+import { DomainNameServerNameServerStatus } from '../models/DomainNameServerNameServerStatus';
+import { DomainGlueRecordGlueRecord } from '../models/DomainGlueRecordGlueRecord';
+import { DomainExtensionsCategoryTypeEnum } from '../models/DomainExtensionsCategoryTypeEnum';
+import { DomainContact } from '../models/DomainContact';
+import { ZoneResetRecord } from '../models/ZoneResetRecord';
+import { DomainZoneZone } from '../models/DomainZoneZone';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { DnssecKeyFlagEnum } from '../models/DnssecKeyFlagEnum';
+import { DomainZoneRedirection } from '../models/DomainZoneRedirection';
+import { DomainTask } from '../models/DomainTask';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { DomainZoneSoa } from '../models/DomainZoneSoa';
+import { DomainServiceOptions } from '../models/DomainServiceOptions';
+import { DomainGlueRecordCreatePayload } from '../models/DomainGlueRecordCreatePayload';
+import { DomainConfigurationsObfuscatedEmailUpdatePayload } from '../models/DomainConfigurationsObfuscatedEmailUpdatePayload';
 import OVHBase from '../ovh';
 
 class DomainHandler {
@@ -70,7 +70,7 @@ class DomainHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/domain');
   };
 
@@ -80,27 +80,27 @@ class DomainHandler {
   };
 
   /** Validate a rule data for a specified domain */
-  postConfigurationRuleCheck = (body: DomainConfigurationRulesRuleData): Promise<void> => {
+  validateConfigurationRuleCheck = (body: DomainConfigurationRulesRuleData): Promise<void> => {
     return this.ovh.request('POST', '/domain/configurationRule/check', body);
   };
 
   /** List all contacts */
-  getContact = (): Promise<DomainContact> => {
+  listContacts = (): Promise<DomainContact[]> => {
     return this.ovh.request('GET', '/domain/contact');
   };
 
   /** Create a contact */
-  postContact = (body: DomainContact): Promise<DomainContact> => {
+  createContact = (body: DomainContact): Promise<DomainContact> => {
     return this.ovh.request('POST', '/domain/contact', body);
   };
 
   /** Get details about a contact */
-  getContactContactId = (contactId: number): Promise<DomainContact> => {
+  getContactByContactId = (contactId: number): Promise<DomainContact> => {
     return this.ovh.request('GET', `/domain/contact/${contactId}`);
   };
 
   /** Update a contact */
-  putContactContactId = (contactId: number, body: DomainContact): Promise<DomainContact> => {
+  updateContactByContactId = (contactId: number, body: DomainContact): Promise<DomainContact> => {
     return this.ovh.request('PUT', `/domain/contact/${contactId}`, body);
   };
 
@@ -110,92 +110,92 @@ class DomainHandler {
   };
 
   /** List all the extensions for a specific country */
-  getDataExtension = (): Promise<string> => {
+  listDataExtensions = (): Promise<string[]> => {
     return this.ovh.request('GET', '/domain/data/extension');
   };
 
   /** List all SMD files */
-  getDataSmd = (): Promise<DomainDataSmdSmd> => {
+  listDataSmds = (): Promise<DomainDataSmdSmd[]> => {
     return this.ovh.request('GET', '/domain/data/smd');
   };
 
   /** Create a SMD file */
-  postDataSmd = (body: DomainDataSmdSmdBody): Promise<DomainDataSmdSmd> => {
+  createDataSmd = (body: DomainDataSmdSmdBody): Promise<DomainDataSmdSmd> => {
     return this.ovh.request('POST', '/domain/data/smd', body);
   };
 
   /** Delete a SMD file */
-  deleteDataSmdSmdId = (smdId: string): Promise<void> => {
+  deleteDataSmdBySmdId = (smdId: string): Promise<void> => {
     return this.ovh.request('DELETE', `/domain/data/smd/${smdId}`);
   };
 
   /** Get details about a SMD file */
-  getDataSmdSmdId = (smdId: string): Promise<DomainDataSmdSmd> => {
+  getDataSmdBySmdId = (smdId: string): Promise<DomainDataSmdSmd> => {
     return this.ovh.request('GET', `/domain/data/smd/${smdId}`);
   };
 
   /** Update a SMD file */
-  putDataSmdSmdId = (smdId: string, body: DomainDataSmdSmdBody): Promise<DomainDataSmdSmd> => {
+  updateDataSmdBySmdId = (smdId: string, body: DomainDataSmdSmdBody): Promise<DomainDataSmdSmd> => {
     return this.ovh.request('PUT', `/domain/data/smd/${smdId}`, body);
   };
 
   /** List all extensions */
-  getExtensions = (): Promise<string> => {
+  listExtensions = (): Promise<string[]> => {
     return this.ovh.request('GET', '/domain/extensions');
   };
 
   /** List extensions, grouped by category types (like 'thematic', 'geolocalization') and category names (like 'europe') */
-  getExtensionsByCategory = (): Promise<DomainExtensionsExtensionsByCategory> => {
+  listExtensionsByCategorys = (): Promise<DomainExtensionsExtensionsByCategory> => {
     return this.ovh.request('GET', '/domain/extensions/byCategory');
   };
 
   /** List highlighted extensions, ordered by decreased importance */
-  getExtensionsHighlighted = (): Promise<string> => {
+  listExtensionsHighlighteds = (): Promise<string[]> => {
     return this.ovh.request('GET', '/domain/extensions/highlighted');
   };
 
   /** List extensions with their pricing attributes. It especially documents whether an extension has been implemented recently or whether the price has dropped */
-  getExtensionsPricingAttributes = (): Promise<DomainExtensionsExtensionsPricingAttributes> => {
+  listExtensionsPricingAttributes = (): Promise<DomainExtensionsExtensionsPricingAttributes[]> => {
     return this.ovh.request('GET', '/domain/extensions/pricingAttributes');
   };
 
   /** Get an extension */
-  getExtensionsName = (name: string): Promise<DomainExtensionsExtension> => {
+  getExtensionsByName = (name: string): Promise<DomainExtensionsExtension> => {
     return this.ovh.request('GET', `/domain/extensions/${name}`);
   };
 
   /** Retrieve registry configuration for an extension */
-  getExtensionsNameRegistryConfigurations = (
+  getExtensionsRegistryConfigurationsByName = (
     name: string
   ): Promise<DomainExtensionsRegistryConfigurationsRegistryConfigurations> => {
     return this.ovh.request('GET', `/domain/extensions/${name}/registryConfigurations`);
   };
 
   /** List available services */
-  getZone = (): Promise<string> => {
+  listZones = (): Promise<string[]> => {
     return this.ovh.request('GET', '/domain/zone');
   };
 
   /** Get this object properties */
-  getZoneZoneName = (zoneName: string): Promise<DomainZoneZone> => {
+  getZoneByZoneName = (zoneName: string): Promise<DomainZoneZone> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}`);
   };
 
   /** Zone capabilities */
-  getZoneZoneNameCapabilities = (zoneName: string): Promise<ZoneCapabilities> => {
+  getZoneCapabilitiesByZoneName = (zoneName: string): Promise<ZoneCapabilities> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/capabilities`);
   };
 
   /** Launch a contact change procedure */
-  postZoneZoneNameChangeContact = (
+  launchZoneChangeContactByZoneName = (
     zoneName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/domain/zone/${zoneName}/changeContact`, body);
   };
 
   /** Confirm termination of your service */
-  postZoneZoneNameConfirmTermination = (
+  confirmZoneTerminationByZoneName = (
     zoneName: string,
     body: {
       commentary?: string;
@@ -208,27 +208,27 @@ class DomainHandler {
   };
 
   /** Disable Dnssec */
-  deleteZoneZoneNameDnssec = (zoneName: string): Promise<void> => {
+  disableZoneDnssecByZoneName = (zoneName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/domain/zone/${zoneName}/dnssec`);
   };
 
   /** Get this object properties */
-  getZoneZoneNameDnssec = (zoneName: string): Promise<DomainZoneDnssec> => {
+  getZoneDnssecByZoneName = (zoneName: string): Promise<DomainZoneDnssec> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/dnssec`);
   };
 
   /** Enable Dnssec */
-  postZoneZoneNameDnssec = (zoneName: string): Promise<void> => {
+  enableZoneDnssecByZoneName = (zoneName: string): Promise<void> => {
     return this.ovh.request('POST', `/domain/zone/${zoneName}/dnssec`);
   };
 
   /** DynHost' logins */
-  getZoneZoneNameDynHostLogin = (zoneName: string): Promise<string> => {
+  getZoneDynHostLoginByZoneName = (zoneName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/dynHost/login`);
   };
 
   /** Create a new DynHost login */
-  postZoneZoneNameDynHostLogin = (
+  createZoneDynHostLoginByZoneName = (
     zoneName: string,
     body: { loginSuffix: string; password: string; subDomain: string }
   ): Promise<DomainZoneDynHostLogin> => {
@@ -236,12 +236,12 @@ class DomainHandler {
   };
 
   /** Delete a DynHost login */
-  deleteZoneZoneNameDynHostLoginLogin = (login: string, zoneName: string): Promise<void> => {
+  deleteZoneDynHostLoginByZoneNameAndLogin = (login: string, zoneName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/domain/zone/${zoneName}/dynHost/login/${login}`);
   };
 
   /** Get this object properties */
-  getZoneZoneNameDynHostLoginLogin = (
+  getZoneDynHostLoginByZoneNameAndLogin = (
     login: string,
     zoneName: string
   ): Promise<DomainZoneDynHostLogin> => {
@@ -249,7 +249,7 @@ class DomainHandler {
   };
 
   /** Alter this object properties */
-  putZoneZoneNameDynHostLoginLogin = (
+  updateZoneDynHostLoginByZoneNameAndLogin = (
     login: string,
     zoneName: string,
     body: DomainZoneDynHostLogin
@@ -258,7 +258,7 @@ class DomainHandler {
   };
 
   /** Change password of the DynHost login */
-  postZoneZoneNameDynHostLoginLoginChangePassword = (
+  updateZoneDynHostLoginPasswordByZoneNameAndLogin = (
     login: string,
     zoneName: string,
     body: { password: string }
@@ -271,12 +271,12 @@ class DomainHandler {
   };
 
   /** DynHost' records */
-  getZoneZoneNameDynHostRecord = (zoneName: string): Promise<number> => {
+  getZoneDynHostRecordByZoneName = (zoneName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/dynHost/record`);
   };
 
   /** Create a new DynHost record (Don't forget to refresh the zone) */
-  postZoneZoneNameDynHostRecord = (
+  createZoneDynHostRecordByZoneName = (
     zoneName: string,
     body: { ip: string; subDomain?: string }
   ): Promise<DomainZoneDynHostRecord> => {
@@ -284,12 +284,12 @@ class DomainHandler {
   };
 
   /** Delete a DynHost record (Don't forget to refresh the zone) */
-  deleteZoneZoneNameDynHostRecordId = (id: number, zoneName: string): Promise<void> => {
+  deleteZoneDynHostRecordByZoneNameAndId = (id: number, zoneName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/domain/zone/${zoneName}/dynHost/record/${id}`);
   };
 
   /** Get this object properties */
-  getZoneZoneNameDynHostRecordId = (
+  getZoneDynHostRecordByZoneNameAndId = (
     id: number,
     zoneName: string
   ): Promise<DomainZoneDynHostRecord> => {
@@ -297,7 +297,7 @@ class DomainHandler {
   };
 
   /** Alter this object properties */
-  putZoneZoneNameDynHostRecordId = (
+  updateZoneDynHostRecordByZoneNameAndId = (
     id: number,
     zoneName: string,
     body: DomainZoneDynHostRecord
@@ -306,17 +306,17 @@ class DomainHandler {
   };
 
   /** Export zone */
-  getZoneZoneNameExport = (zoneName: string): Promise<string> => {
+  exportZoneByZoneName = (zoneName: string): Promise<string> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/export`);
   };
 
   /** Zone restore points */
-  getZoneZoneNameHistory = (zoneName: string): Promise<Date> => {
+  getZoneHistoryByZoneName = (zoneName: string): Promise<Date[]> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/history`);
   };
 
   /** Get this object properties */
-  getZoneZoneNameHistoryCreationDate = (
+  getZoneHistoryByZoneNameAndCreationDate = (
     creationDate: Date,
     zoneName: string
   ): Promise<DomainZoneZoneRestorePoint> => {
@@ -324,7 +324,7 @@ class DomainHandler {
   };
 
   /** Restore the DNS zone */
-  postZoneZoneNameHistoryCreationDateRestore = (
+  postZoneHistoryRestoreByZoneNameAndCreationDate = (
     creationDate: Date,
     zoneName: string
   ): Promise<DomainZoneTask> => {
@@ -332,7 +332,7 @@ class DomainHandler {
   };
 
   /** Import zone */
-  postZoneZoneNameImport = (
+  postZoneImportByZoneName = (
     zoneName: string,
     body: { zoneFile: string }
   ): Promise<DomainZoneTask> => {
@@ -340,17 +340,17 @@ class DomainHandler {
   };
 
   /** List zone options */
-  getZoneZoneNameOption = (zoneName: string): Promise<string> => {
+  listZoneOptionsByZoneName = (zoneName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/option`);
   };
 
   /** Get this object properties */
-  getZoneZoneNameOptionName = (name: string, zoneName: string): Promise<DomainZoneOption> => {
+  getZoneOptionByZoneNameAndName = (name: string, zoneName: string): Promise<DomainZoneOption> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/option/${name}`);
   };
 
   /** Get this object properties */
-  getZoneZoneNameOptionNameServiceInfos = (
+  getZoneOptionServiceInfosByZoneNameAndName = (
     name: string,
     zoneName: string
   ): Promise<ServicesService> => {
@@ -358,7 +358,7 @@ class DomainHandler {
   };
 
   /** Alter this object properties */
-  putZoneZoneNameOptionNameServiceInfos = (
+  updateZoneOptionServiceInfosByZoneNameAndName = (
     name: string,
     zoneName: string,
     body: { renew: ServiceRenewType }
@@ -367,12 +367,12 @@ class DomainHandler {
   };
 
   /** Records of the zone */
-  getZoneZoneNameRecord = (zoneName: string): Promise<number> => {
+  getZoneRecordByZoneName = (zoneName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/record`);
   };
 
   /** Create a new DNS record (Don't forget to refresh the zone) */
-  postZoneZoneNameRecord = (
+  createZoneRecordByZoneName = (
     zoneName: string,
     body: {
       fieldType: ZoneNamedResolutionFieldTypeEnum;
@@ -385,17 +385,17 @@ class DomainHandler {
   };
 
   /** Delete a DNS record (Don't forget to refresh the zone) */
-  deleteZoneZoneNameRecordId = (id: number, zoneName: string): Promise<void> => {
+  deleteZoneRecordByZoneNameAndId = (id: number, zoneName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/domain/zone/${zoneName}/record/${id}`);
   };
 
   /** Get this object properties */
-  getZoneZoneNameRecordId = (id: number, zoneName: string): Promise<DomainZoneRecord> => {
+  getZoneRecordByZoneNameAndId = (id: number, zoneName: string): Promise<DomainZoneRecord> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/record/${id}`);
   };
 
   /** Alter this object properties */
-  putZoneZoneNameRecordId = (
+  updateZoneRecordByZoneNameAndId = (
     id: number,
     zoneName: string,
     body: DomainZoneRecord
@@ -404,12 +404,12 @@ class DomainHandler {
   };
 
   /** Redirections */
-  getZoneZoneNameRedirection = (zoneName: string): Promise<number> => {
+  getZoneRedirectionByZoneName = (zoneName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/redirection`);
   };
 
   /** Create a new redirection (Don't forget to refresh the zone) */
-  postZoneZoneNameRedirection = (
+  createZoneRedirectionByZoneName = (
     zoneName: string,
     body: {
       description?: string;
@@ -424,17 +424,20 @@ class DomainHandler {
   };
 
   /** Delete a redirection (Don't forget to refresh the zone) */
-  deleteZoneZoneNameRedirectionId = (id: number, zoneName: string): Promise<void> => {
+  deleteZoneRedirectionByZoneNameAndId = (id: number, zoneName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/domain/zone/${zoneName}/redirection/${id}`);
   };
 
   /** Get this object properties */
-  getZoneZoneNameRedirectionId = (id: number, zoneName: string): Promise<DomainZoneRedirection> => {
+  getZoneRedirectionByZoneNameAndId = (
+    id: number,
+    zoneName: string
+  ): Promise<DomainZoneRedirection> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/redirection/${id}`);
   };
 
   /** Alter this object properties */
-  putZoneZoneNameRedirectionId = (
+  updateZoneRedirectionByZoneNameAndId = (
     id: number,
     zoneName: string,
     body: DomainZoneRedirection
@@ -443,113 +446,113 @@ class DomainHandler {
   };
 
   /** Apply zone modification on DNS servers */
-  postZoneZoneNameRefresh = (zoneName: string): Promise<void> => {
+  postZoneRefreshByZoneName = (zoneName: string): Promise<void> => {
     return this.ovh.request('POST', `/domain/zone/${zoneName}/refresh`);
   };
 
   /** Reset the DNS zone */
-  postZoneZoneNameReset = (
+  postZoneResetByZoneName = (
     zoneName: string,
-    body: { DnsRecords?: ZoneResetRecord; minimized?: boolean }
+    body: { DnsRecords?: ZoneResetRecord[]; minimized?: boolean }
   ): Promise<void> => {
     return this.ovh.request('POST', `/domain/zone/${zoneName}/reset`, body);
   };
 
   /** Get this object properties */
-  getZoneZoneNameServiceInfos = (zoneName: string): Promise<ServicesService> => {
+  getZoneServiceInfosByZoneName = (zoneName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putZoneZoneNameServiceInfos = (zoneName: string, body: ServicesService): Promise<void> => {
+  updateZoneServiceInfosByZoneName = (zoneName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/domain/zone/${zoneName}/serviceInfos`, body);
   };
 
   /** Get this object properties */
-  getZoneZoneNameSoa = (zoneName: string): Promise<DomainZoneSoa> => {
+  getZoneSoaByZoneName = (zoneName: string): Promise<DomainZoneSoa> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/soa`);
   };
 
   /** Alter this object properties */
-  putZoneZoneNameSoa = (zoneName: string, body: DomainZoneSoa): Promise<void> => {
+  updateZoneSoaByZoneName = (zoneName: string, body: DomainZoneSoa): Promise<void> => {
     return this.ovh.request('PUT', `/domain/zone/${zoneName}/soa`, body);
   };
 
   /** Zone status */
-  getZoneZoneNameStatus = (zoneName: string): Promise<ZoneStatus> => {
+  getZoneStatusByZoneName = (zoneName: string): Promise<ZoneStatus> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/status`);
   };
 
   /** Domain pending tasks */
-  getZoneZoneNameTask = (zoneName: string): Promise<number> => {
+  getZoneTaskByZoneName = (zoneName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/task`);
   };
 
   /** Get this object properties */
-  getZoneZoneNameTaskId = (id: number, zoneName: string): Promise<DomainZoneTask> => {
+  getZoneTaskByZoneNameAndId = (id: number, zoneName: string): Promise<DomainZoneTask> => {
     return this.ovh.request('GET', `/domain/zone/${zoneName}/task/${id}`);
   };
 
   /** Accelerate the task */
-  postZoneZoneNameTaskIdAccelerate = (id: number, zoneName: string): Promise<void> => {
+  postZoneTaskAccelerateByZoneNameAndId = (id: number, zoneName: string): Promise<void> => {
     return this.ovh.request('POST', `/domain/zone/${zoneName}/task/${id}/accelerate`);
   };
 
   /** Cancel the task */
-  postZoneZoneNameTaskIdCancel = (id: number, zoneName: string): Promise<void> => {
+  postZoneTaskCancelByZoneNameAndId = (id: number, zoneName: string): Promise<void> => {
     return this.ovh.request('POST', `/domain/zone/${zoneName}/task/${id}/cancel`);
   };
 
   /** Relaunch the task */
-  postZoneZoneNameTaskIdRelaunch = (id: number, zoneName: string): Promise<void> => {
+  postZoneTaskRelaunchByZoneNameAndId = (id: number, zoneName: string): Promise<void> => {
     return this.ovh.request('POST', `/domain/zone/${zoneName}/task/${id}/relaunch`);
   };
 
   /** Terminate your service */
-  postZoneZoneNameTerminate = (zoneName: string): Promise<string> => {
+  postZoneTerminateByZoneName = (zoneName: string): Promise<string> => {
     return this.ovh.request('POST', `/domain/zone/${zoneName}/terminate`);
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<DomainDomain> => {
+  getByServiceName = (serviceName: string): Promise<DomainDomain> => {
     return this.ovh.request('GET', `/domain/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putServiceName = (serviceName: string, body: DomainDomain): Promise<void> => {
+  updateByServiceName = (serviceName: string, body: DomainDomain): Promise<void> => {
     return this.ovh.request('PUT', `/domain/${serviceName}`, body);
   };
 
   /** Return authInfo code if the domain is unlocked */
-  getServiceNameAuthInfo = (serviceName: string): Promise<string> => {
+  getAuthInfoByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('GET', `/domain/${serviceName}/authInfo`);
   };
 
   /** Launch a contact change procedure */
-  postServiceNameChangeContact = (
+  launchChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/domain/${serviceName}/changeContact`, body);
   };
 
   /** Retrieve obfuscated emails configuration */
-  getServiceNameConfigurationsObfuscatedEmails = (
+  getConfigurationsObfuscatedEmailsByServiceName = (
     serviceName: string
-  ): Promise<DomainConfigurationsObfuscatedEmail> => {
+  ): Promise<DomainConfigurationsObfuscatedEmail[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/configurations/obfuscatedEmails`);
   };
 
   /** Save a new obfuscated emails configuration */
-  putServiceNameConfigurationsObfuscatedEmails = (
+  putConfigurationsObfuscatedEmailsByServiceName = (
     serviceName: string,
     body: DomainConfigurationsObfuscatedEmailUpdatePayload
-  ): Promise<DomainConfigurationsObfuscatedEmail> => {
+  ): Promise<DomainConfigurationsObfuscatedEmail[]> => {
     return this.ovh.request('PUT', `/domain/${serviceName}/configurations/obfuscatedEmails`, body);
   };
 
   /** Refresh an obfuscated emails configuration with new values */
-  postServiceNameConfigurationsObfuscatedEmailsRefresh = (
+  postConfigurationsObfuscatedEmailsRefreshByServiceName = (
     serviceName: string,
     body: DomainConfigurationsObfuscatedEmailRefreshPayload
   ): Promise<void> => {
@@ -561,43 +564,45 @@ class DomainHandler {
   };
 
   /** Retrieve optin configuration */
-  getServiceNameConfigurationsOptin = (serviceName: string): Promise<DomainConfigurationsOptin> => {
+  getConfigurationsOptinByServiceName = (
+    serviceName: string
+  ): Promise<DomainConfigurationsOptin[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/configurations/optin`);
   };
 
   /** Save a new optin configuration */
-  putServiceNameConfigurationsOptin = (
+  putConfigurationsOptinByServiceName = (
     serviceName: string,
     body: DomainConfigurationsOptinUpdatePayload
-  ): Promise<DomainConfigurationsOptin> => {
+  ): Promise<DomainConfigurationsOptin[]> => {
     return this.ovh.request('PUT', `/domain/${serviceName}/configurations/optin`, body);
   };
 
   /** List of domain's DS Records */
-  getServiceNameDsRecord = (serviceName: string): Promise<number> => {
+  listDsRecordsByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/dsRecord`);
   };
 
   /** Update DS records */
-  postServiceNameDsRecord = (
+  updateDsRecordByServiceName = (
     serviceName: string,
-    body: { keys: DnssecKey }
+    body: { keys: DnssecKey[] }
   ): Promise<DomainTask> => {
     return this.ovh.request('POST', `/domain/${serviceName}/dsRecord`, body);
   };
 
   /** Get this object properties */
-  getServiceNameDsRecordId = (id: number, serviceName: string): Promise<DomainDnssecKey> => {
+  getDsRecordByServiceNameAndId = (id: number, serviceName: string): Promise<DomainDnssecKey> => {
     return this.ovh.request('GET', `/domain/${serviceName}/dsRecord/${id}`);
   };
 
   /** List of glue records */
-  getServiceNameGlueRecord = (serviceName: string): Promise<string> => {
+  listGlueRecordsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/glueRecord`);
   };
 
   /** Create a glue record */
-  postServiceNameGlueRecord = (
+  createGlueRecordByServiceName = (
     serviceName: string,
     body: DomainGlueRecordCreatePayload
   ): Promise<DomainTask> => {
@@ -605,12 +610,15 @@ class DomainHandler {
   };
 
   /** Delete the glue record */
-  deleteServiceNameGlueRecordHost = (serviceName: string, host: string): Promise<DomainTask> => {
+  deleteGlueRecordByServiceNameAndHost = (
+    serviceName: string,
+    host: string
+  ): Promise<DomainTask> => {
     return this.ovh.request('DELETE', `/domain/${serviceName}/glueRecord/${host}`);
   };
 
   /** Get this glue record */
-  getServiceNameGlueRecordHost = (
+  getGlueRecordByServiceNameAndHost = (
     serviceName: string,
     host: string
   ): Promise<DomainGlueRecordGlueRecord> => {
@@ -618,7 +626,7 @@ class DomainHandler {
   };
 
   /** Update the glue record */
-  postServiceNameGlueRecordHostUpdate = (
+  updateGlueRecordByServiceNameAndHost = (
     serviceName: string,
     host: string,
     body: DomainGlueRecordGlueRecord
@@ -627,12 +635,12 @@ class DomainHandler {
   };
 
   /** List of current name servers */
-  getServiceNameNameServer = (serviceName: string): Promise<number> => {
+  listNameServersByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/nameServer`);
   };
 
   /** Add new name server */
-  postServiceNameNameServer = (
+  addNameServerByServiceName = (
     serviceName: string,
     body: DomainNameServerCreatePayload
   ): Promise<DomainTask> => {
@@ -640,12 +648,12 @@ class DomainHandler {
   };
 
   /** Delete a name server */
-  deleteServiceNameNameServerId = (serviceName: string, id: number): Promise<DomainTask> => {
+  deleteNameServerByServiceNameAndId = (serviceName: string, id: number): Promise<DomainTask> => {
     return this.ovh.request('DELETE', `/domain/${serviceName}/nameServer/${id}`);
   };
 
   /** Get this name server configuration */
-  getServiceNameNameServerId = (
+  getNameServerByServiceNameAndId = (
     serviceName: string,
     id: number
   ): Promise<DomainNameServerFullNameServer> => {
@@ -653,7 +661,7 @@ class DomainHandler {
   };
 
   /** Get name server status */
-  getServiceNameNameServerIdStatus = (
+  getNameServerStatusByServiceNameAndId = (
     serviceName: string,
     id: number
   ): Promise<DomainNameServerNameServerStatus> => {
@@ -661,7 +669,7 @@ class DomainHandler {
   };
 
   /** Get name server status */
-  postServiceNameNameServerIdStatus = (
+  postNameServerStatusByServiceNameAndId = (
     serviceName: string,
     id: number
   ): Promise<DomainNameServerNameServerStatus> => {
@@ -669,7 +677,7 @@ class DomainHandler {
   };
 
   /** Update DNS servers */
-  postServiceNameNameServersUpdate = (
+  updateNameServersByServiceName = (
     serviceName: string,
     body: DomainNameServerUpdatePayload
   ): Promise<DomainTask> => {
@@ -677,12 +685,12 @@ class DomainHandler {
   };
 
   /** List domain options */
-  getServiceNameOption = (serviceName: string): Promise<DomainDomainOptionEnum> => {
+  listOptionsByServiceName = (serviceName: string): Promise<DomainDomainOptionEnum[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/option`);
   };
 
   /** Remove a given option */
-  deleteServiceNameOptionOption = (
+  deleteOptionByServiceNameAndOption = (
     serviceName: string,
     option: DomainDomainOptionEnum
   ): Promise<void> => {
@@ -690,7 +698,7 @@ class DomainHandler {
   };
 
   /** Get details on this domain option */
-  getServiceNameOptionOption = (
+  getOptionByServiceNameAndOption = (
     serviceName: string,
     option: DomainDomainOptionEnum
   ): Promise<DomainOption> => {
@@ -698,12 +706,12 @@ class DomainHandler {
   };
 
   /** Retrieve data about the options associated to a domain */
-  getServiceNameOptions = (serviceName: string): Promise<DomainServiceOptions> => {
+  getOptionsByServiceName = (serviceName: string): Promise<DomainServiceOptions> => {
     return this.ovh.request('GET', `/domain/${serviceName}/options`);
   };
 
   /** Approve Outgoing Transfer for a domain */
-  postServiceNameOutgoingTransferApprove = (
+  postOutgoingTransferApproveByServiceName = (
     serviceName: string,
     body: DomainOutgoingTransferApprove
   ): Promise<void> => {
@@ -711,20 +719,20 @@ class DomainHandler {
   };
 
   /** List of whois obfuscators */
-  getServiceNameOwo = (serviceName: string): Promise<DomainWhoisObfuscatorFieldsEnum> => {
+  listOwosByServiceName = (serviceName: string): Promise<DomainWhoisObfuscatorFieldsEnum[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/owo`);
   };
 
   /** Add whois obfuscators */
-  postServiceNameOwo = (
+  addOwoByServiceName = (
     serviceName: string,
-    body: { fields: DomainWhoisObfuscatorFieldsEnum }
-  ): Promise<DomainWhoisObfuscatorFieldsEnum> => {
+    body: { fields: DomainWhoisObfuscatorFieldsEnum[] }
+  ): Promise<DomainWhoisObfuscatorFieldsEnum[]> => {
     return this.ovh.request('POST', `/domain/${serviceName}/owo`, body);
   };
 
   /** Delete a whois obfuscator */
-  deleteServiceNameOwoField = (
+  deleteOwoByServiceNameAndField = (
     field: DomainWhoisObfuscatorFieldsEnum,
     serviceName: string
   ): Promise<void> => {
@@ -732,7 +740,7 @@ class DomainHandler {
   };
 
   /** Get this object properties */
-  getServiceNameOwoField = (
+  getOwoByServiceNameAndField = (
     field: DomainWhoisObfuscatorFieldsEnum,
     serviceName: string
   ): Promise<DomainOwo> => {
@@ -740,54 +748,54 @@ class DomainHandler {
   };
 
   /** Retrieve emails obfuscation rule */
-  getServiceNameRulesEmailsObfuscation = (
+  getRulesEmailsObfuscationByServiceName = (
     serviceName: string
-  ): Promise<DomainConfigurationsContactTypeEnum> => {
+  ): Promise<DomainConfigurationsContactTypeEnum[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/rules/emailsObfuscation`);
   };
 
   /** Retrieve optin rule */
-  getServiceNameRulesOptin = (serviceName: string): Promise<DomainRulesOptin> => {
+  getRulesOptinByServiceName = (serviceName: string): Promise<DomainRulesOptin[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/rules/optin`);
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/domain/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/domain/${serviceName}/serviceInfos`, body);
   };
 
   /** List all domain tasks */
-  getServiceNameTask = (serviceName: string): Promise<number> => {
+  listTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/task`);
   };
 
   /** Get details about a domain task */
-  getServiceNameTaskId = (serviceName: string, id: number): Promise<DomainTask> => {
+  getTaskByServiceNameAndId = (serviceName: string, id: number): Promise<DomainTask> => {
     return this.ovh.request('GET', `/domain/${serviceName}/task/${id}`);
   };
 
   /** Accelerate the task */
-  postServiceNameTaskIdAccelerate = (serviceName: string, id: number): Promise<void> => {
+  postTaskAccelerateByServiceNameAndId = (serviceName: string, id: number): Promise<void> => {
     return this.ovh.request('POST', `/domain/${serviceName}/task/${id}/accelerate`);
   };
 
   /** Cancel the task */
-  postServiceNameTaskIdCancel = (serviceName: string, id: number): Promise<void> => {
+  postTaskCancelByServiceNameAndId = (serviceName: string, id: number): Promise<void> => {
     return this.ovh.request('POST', `/domain/${serviceName}/task/${id}/cancel`);
   };
 
   /** Relaunch the task */
-  postServiceNameTaskIdRelaunch = (serviceName: string, id: number): Promise<void> => {
+  postTaskRelaunchByServiceNameAndId = (serviceName: string, id: number): Promise<void> => {
     return this.ovh.request('POST', `/domain/${serviceName}/task/${id}/relaunch`);
   };
 
   /** Schedule an outgoing transfer task for this domain (.uk only) */
-  postServiceNameUkOutgoingTransfer = (
+  postUkOutgoingTransferByServiceName = (
     serviceName: string,
     body: DomainUkRegistrar
   ): Promise<DomainTask> => {
@@ -795,9 +803,9 @@ class DomainHandler {
   };
 
   /** Return the list of all .uk registrars */
-  getServiceNameUkRegistrars = (serviceName: string): Promise<DomainUkRegistrar> => {
+  getUkRegistrarsByServiceName = (serviceName: string): Promise<DomainUkRegistrar[]> => {
     return this.ovh.request('GET', `/domain/${serviceName}/ukRegistrars`);
   };
 }
 
-export default DomainHandler;
+export { DomainHandler };

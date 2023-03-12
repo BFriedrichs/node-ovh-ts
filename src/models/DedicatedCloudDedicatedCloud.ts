@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedCloudUserLogoutPolicyEnum } from './DedicatedCloudUserLogoutPolicyEnum';
-import { DedicatedCloudStateEnum } from './DedicatedCloudStateEnum';
-import { DedicatedCloudGenerationEnum } from './DedicatedCloudGenerationEnum';
 import { DedicatedCloudManagementInterfaceEnum } from './DedicatedCloudManagementInterfaceEnum';
-import { DedicatedCloudVersion } from './DedicatedCloudVersion';
-import { DedicatedCloudUserAccessPolicyEnum } from './DedicatedCloudUserAccessPolicyEnum';
 import { DedicatedCloudProductReferenceEnum } from './DedicatedCloudProductReferenceEnum';
+import { DedicatedCloudUserAccessPolicyEnum } from './DedicatedCloudUserAccessPolicyEnum';
+import { DedicatedCloudUserLogoutPolicyEnum } from './DedicatedCloudUserLogoutPolicyEnum';
 import { DedicatedCloudBillingTypeEnum } from './DedicatedCloudBillingTypeEnum';
+import { DedicatedCloudStateEnum } from './DedicatedCloudStateEnum';
+import { DedicatedCloudVersion } from './DedicatedCloudVersion';
+import { DedicatedCloudGenerationEnum } from './DedicatedCloudGenerationEnum';
 
 export type DedicatedCloudDedicatedCloud = {
   advancedSecurity: boolean;

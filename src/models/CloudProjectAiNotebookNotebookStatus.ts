@@ -2,12 +2,12 @@
 
 import { CloudProjectAiNotebookNotebookWorkspace } from './CloudProjectAiNotebookNotebookWorkspace';
 import { CloudProjectAiVolumeDataSync } from './CloudProjectAiVolumeDataSync';
-import { CloudProjectAiInfo } from './CloudProjectAiInfo';
-import { CloudProjectAiJobJobStatus } from './CloudProjectAiJobJobStatus';
 import { CloudProjectAiNotebookNotebookStateEnum } from './CloudProjectAiNotebookNotebookStateEnum';
+import { CloudProjectAiJobJobStatus } from './CloudProjectAiJobJobStatus';
+import { CloudProjectAiInfo } from './CloudProjectAiInfo';
 
 export type CloudProjectAiNotebookNotebookStatus = {
-  dataSync: CloudProjectAiVolumeDataSync;
+  dataSync: CloudProjectAiVolumeDataSync[];
   duration: number | null;
   info: CloudProjectAiInfo;
   infoUrl: string | null;

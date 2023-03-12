@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { XdslXdslModemConfigFrequencyEnum } from './XdslXdslModemConfigFrequencyEnum';
-import { XdslXdslModemConfigSecurityTypeEnum } from './XdslXdslModemConfigSecurityTypeEnum';
 import { XdslXdslModemConfigChannelModeEnum } from './XdslXdslModemConfigChannelModeEnum';
+import { XdslXdslModemConfigSecurityTypeEnum } from './XdslXdslModemConfigSecurityTypeEnum';
+import { XdslXdslModemConfigFrequencyEnum } from './XdslXdslModemConfigFrequencyEnum';
 
 export type XdslWLAN = {
   SSID: string;

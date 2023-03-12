@@ -4,7 +4,7 @@ import { DedicatedAvailabilityRegionEnum } from './DedicatedAvailabilityRegionEn
 import { DedicatedAvailabilityDatacenter } from './DedicatedAvailabilityDatacenter';
 
 export type DedicatedAvailabilities = {
-  datacenters: DedicatedAvailabilityDatacenter;
+  datacenters: DedicatedAvailabilityDatacenter[];
   hardware: string | null;
   region: DedicatedAvailabilityRegionEnum | null;
 };

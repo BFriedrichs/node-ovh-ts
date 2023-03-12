@@ -3,7 +3,7 @@
 import { MeTagTagKeyTypeEnum } from './MeTagTagKeyTypeEnum';
 
 export type MeTagTagKey = {
-  enum: string | null;
+  enum: string[] | null;
   key: string;
   maxLength: number | null;
   minValue: number | null;

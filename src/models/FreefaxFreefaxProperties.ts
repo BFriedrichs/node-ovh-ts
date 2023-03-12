@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyFaxQualityEnum } from './TelephonyFaxQualityEnum';
 import { TelephonyFaxSendingTries } from './TelephonyFaxSendingTries';
+import { TelephonyFaxQualityEnum } from './TelephonyFaxQualityEnum';
 
 export type FreefaxFreefaxProperties = {
   faxMaxCall: TelephonyFaxSendingTries;
@@ -10,5 +10,5 @@ export type FreefaxFreefaxProperties = {
   fromEmail: string;
   fromName: string;
   number: string;
-  redirectionEmail: string;
+  redirectionEmail: string[];
 };

@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { TelephonyTypeEnum } from './TelephonyTypeEnum';
-import { TelephonyOvhPabxDialplanNumberPresentationEnum } from './TelephonyOvhPabxDialplanNumberPresentationEnum';
 import { TelephonyOvhPabxHuntingQueueStrategyEnum } from './TelephonyOvhPabxHuntingQueueStrategyEnum';
+import { TelephonyOvhPabxDialplanNumberPresentationEnum } from './TelephonyOvhPabxDialplanNumberPresentationEnum';
 import { TelephonyTypeServiceEnum } from './TelephonyTypeServiceEnum';
 
 export type TelephonyEasyHunting = {

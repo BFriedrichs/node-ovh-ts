@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseWindowsSqlVersionEnum } from './LicenseWindowsSqlVersionEnum';
 import { LicenseWindowsOsVersionEnum } from './LicenseWindowsOsVersionEnum';
+import { LicenseWindowsSqlVersionEnum } from './LicenseWindowsSqlVersionEnum';
 
 export type LicenseOrderableWindowsCompatibilityInfos = {
-  compliantSql: LicenseWindowsSqlVersionEnum;
+  compliantSql: LicenseWindowsSqlVersionEnum[];
   version: LicenseWindowsOsVersionEnum;
 };

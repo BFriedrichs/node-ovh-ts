@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedTaskStatusEnum } from './DedicatedTaskStatusEnum';
 import { DedicatedStorageTaskFunctionEnum } from './DedicatedStorageTaskFunctionEnum';
+import { DedicatedTaskStatusEnum } from './DedicatedTaskStatusEnum';
 
 export type DedicatedNasTaskTask = {
   details: string | null;

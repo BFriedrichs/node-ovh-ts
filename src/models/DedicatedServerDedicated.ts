@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedDatacenterEnum } from './DedicatedDatacenterEnum';
 import { DedicatedServerStateEnum } from './DedicatedServerStateEnum';
-import { DedicatedServerPowerStateEnum } from './DedicatedServerPowerStateEnum';
 import { DedicatedServerSupportLevelEnum } from './DedicatedServerSupportLevelEnum';
+import { DedicatedDatacenterEnum } from './DedicatedDatacenterEnum';
+import { DedicatedServerPowerStateEnum } from './DedicatedServerPowerStateEnum';
 
 export type DedicatedServerDedicated = {
   bootId: number | null;

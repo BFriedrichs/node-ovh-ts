@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailProServiceOfferEnum } from './EmailProServiceOfferEnum';
-import { EmailProServiceStateEnum } from './EmailProServiceStateEnum';
 import { EmailProSpamAndVirusConfiguration } from './EmailProSpamAndVirusConfiguration';
+import { EmailProServiceStateEnum } from './EmailProServiceStateEnum';
+import { EmailProServiceOfferEnum } from './EmailProServiceOfferEnum';
 
 export type EmailProService = {
   complexityEnabled: boolean;

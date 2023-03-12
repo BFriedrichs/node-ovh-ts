@@ -4,7 +4,7 @@ import { ServicesConsumptionDetail } from './ServicesConsumptionDetail';
 import { OrderPrice } from './OrderPrice';
 
 export type ServicesConsumptionElement = {
-  details: ServicesConsumptionDetail;
+  details: ServicesConsumptionDetail[];
   metadata: string | null;
   planCode: string;
   planFamily: string;

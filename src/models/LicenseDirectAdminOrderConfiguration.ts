@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseOrderableDirectAdminCompatibilityInfos } from './LicenseOrderableDirectAdminCompatibilityInfos';
 import { LicenseLicenseTypeEnum } from './LicenseLicenseTypeEnum';
+import { LicenseOrderableDirectAdminCompatibilityInfos } from './LicenseOrderableDirectAdminCompatibilityInfos';
 
 export type LicenseDirectAdminOrderConfiguration = {
-  orderableVersions: LicenseOrderableDirectAdminCompatibilityInfos;
+  orderableVersions: LicenseOrderableDirectAdminCompatibilityInfos[];
   serviceType: LicenseLicenseTypeEnum;
 };

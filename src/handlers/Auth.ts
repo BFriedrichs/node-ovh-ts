@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { AuthApiCredential } from '../models/AuthApiCredential';
-import { AuthDetails } from '../models/AuthDetails';
 import { AuthApiCredentialRequest } from '../models/AuthApiCredentialRequest';
+import { AuthDetails } from '../models/AuthDetails';
 import { AuthApiCredentialRequestParams } from '../models/AuthApiCredentialRequestParams';
 import OVHBase from '../ovh';
 
@@ -39,4 +39,4 @@ class AuthHandler {
   };
 }
 
-export default AuthHandler;
+export { AuthHandler };

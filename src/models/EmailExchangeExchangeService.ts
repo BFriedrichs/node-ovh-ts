@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailExchangeServiceOfferEnum } from './EmailExchangeServiceOfferEnum';
 import { EmailExchangeServiceStateEnum } from './EmailExchangeServiceStateEnum';
 import { EmailExchangeSpamAndVirusConfiguration } from './EmailExchangeSpamAndVirusConfiguration';
+import { EmailExchangeServiceOfferEnum } from './EmailExchangeServiceOfferEnum';
 
 export type EmailExchangeExchangeService = {
   adfsChangePassword: boolean;

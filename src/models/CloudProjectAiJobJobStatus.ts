@@ -2,16 +2,16 @@
 
 import { CloudProjectAiJobJobStateEnum } from './CloudProjectAiJobJobStateEnum';
 import { CloudProjectAiInfo } from './CloudProjectAiInfo';
-import { CloudProjectAiVolumeDataSync } from './CloudProjectAiVolumeDataSync';
 import { CloudProjectAiJobJobStatusHistory } from './CloudProjectAiJobJobStatusHistory';
+import { CloudProjectAiVolumeDataSync } from './CloudProjectAiVolumeDataSync';
 
 export type CloudProjectAiJobJobStatus = {
-  dataSync: CloudProjectAiVolumeDataSync;
+  dataSync: CloudProjectAiVolumeDataSync[];
   duration: number | null;
   exitCode: number | null;
   externalIp: string | null;
   finalizedAt: Date | null;
-  history: CloudProjectAiJobJobStatusHistory;
+  history: CloudProjectAiJobJobStatusHistory[];
   info: CloudProjectAiInfo;
   infoUrl: string | null;
   initializingAt: Date | null;

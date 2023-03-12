@@ -9,7 +9,7 @@ export type CloudUserUserDetail = {
   id: number;
   openstackId: string | null;
   password: string;
-  roles: CloudRoleRole;
+  roles: CloudRoleRole[];
   status: CloudUserUserStatusEnum;
   username: string;
 };

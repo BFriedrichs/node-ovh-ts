@@ -3,6 +3,6 @@
 import { HostingWebOvhConfigAvailableEngineVersionEnum } from './HostingWebOvhConfigAvailableEngineVersionEnum';
 
 export type HostingWebOvhConfigCapabilities = {
-  containerImage: string;
+  containerImage: string[];
   version: HostingWebOvhConfigAvailableEngineVersionEnum;
 };

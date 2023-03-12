@@ -4,7 +4,7 @@ import { CloudInstancegroupInstanceGroupTypeEnum } from './CloudInstancegroupIns
 
 export type CloudInstancegroupInstanceGroup = {
   id: string;
-  instance_ids: string;
+  instance_ids: string[];
   name: string;
   region: string;
   type: CloudInstancegroupInstanceGroupTypeEnum;

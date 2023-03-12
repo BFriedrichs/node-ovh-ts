@@ -6,7 +6,7 @@ import { CloudProjectAiVolumeVolume } from './CloudProjectAiVolumeVolume';
 export type CloudProjectAiNotebookNotebookUpdate = {
   labels: Record<string, string> | null;
   resources: CloudProjectAiResourcesInput | null;
-  sshPublicKeys: string | null;
+  sshPublicKeys: string[] | null;
   unsecureHttp: boolean | null;
-  volumes: CloudProjectAiVolumeVolume | null;
+  volumes: CloudProjectAiVolumeVolume[] | null;
 };

@@ -4,7 +4,7 @@ import { CloudProjectDatabaseServiceHostMetric } from './CloudProjectDatabaseSer
 import { CloudProjectDatabaseServiceMetricUnitEnum } from './CloudProjectDatabaseServiceMetricUnitEnum';
 
 export type CloudProjectDatabaseServiceMetric = {
-  metrics: CloudProjectDatabaseServiceHostMetric;
+  metrics: CloudProjectDatabaseServiceHostMetric[];
   name: string;
   units: CloudProjectDatabaseServiceMetricUnitEnum;
 };

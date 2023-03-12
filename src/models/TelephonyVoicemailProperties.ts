@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { TelephonyServiceVoicemailAudioFormatEnum } from './TelephonyServiceVoicemailAudioFormatEnum';
 import { TelephonyVoicemailGreetingEnum } from './TelephonyVoicemailGreetingEnum';
 import { TelephonyServiceVoicemailNotifications } from './TelephonyServiceVoicemailNotifications';
-import { TelephonyServiceVoicemailAudioFormatEnum } from './TelephonyServiceVoicemailAudioFormatEnum';
 
 export type TelephonyVoicemailProperties = {
   annouceMessage: string;
@@ -15,7 +15,7 @@ export type TelephonyVoicemailProperties = {
   greetingType: TelephonyVoicemailGreetingEnum;
   isNewVersion: boolean;
   keepMessage: boolean;
-  redirectionEmails: TelephonyServiceVoicemailNotifications;
+  redirectionEmails: TelephonyServiceVoicemailNotifications[];
   shortGreetingSoundId: number | null;
   temporaryGreetingActivated: boolean;
   temporaryGreetingSoundId: number | null;

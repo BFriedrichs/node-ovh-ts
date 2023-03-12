@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseDomainNumberEnum } from './LicenseDomainNumberEnum';
 import { LicenseStateEnum } from './LicenseStateEnum';
+import { LicenseDomainNumberEnum } from './LicenseDomainNumberEnum';
 import { LicensePleskVersionEnum } from './LicensePleskVersionEnum';
 
 export type LicensePleskPlesk = {

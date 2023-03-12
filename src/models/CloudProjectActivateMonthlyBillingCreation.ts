@@ -3,5 +3,5 @@
 import { CloudInstanceMonthlyInstanceBulkParams } from './CloudInstanceMonthlyInstanceBulkParams';
 
 export type CloudProjectActivateMonthlyBillingCreation = {
-  instances?: CloudInstanceMonthlyInstanceBulkParams;
+  instances?: CloudInstanceMonthlyInstanceBulkParams[];
 };

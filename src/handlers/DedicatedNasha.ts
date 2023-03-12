@@ -1,26 +1,26 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedNashaAccess } from '../models/DedicatedNashaAccess';
-import { DedicatedNashaOptions } from '../models/DedicatedNashaOptions';
-import { DedicatedStorageSyncEnum } from '../models/DedicatedStorageSyncEnum';
-import { DedicatedStorageAtimeEnum } from '../models/DedicatedStorageAtimeEnum';
-import { DedicatedNashaPartition } from '../models/DedicatedNashaPartition';
-import { DedicatedStorageSnapshotEnum } from '../models/DedicatedStorageSnapshotEnum';
-import { DedicatedStorageAclTypeEnum } from '../models/DedicatedStorageAclTypeEnum';
-import { DedicatedNashaCustomSnap } from '../models/DedicatedNashaCustomSnap';
-import { DedicatedStorageRecordSizeEnum } from '../models/DedicatedStorageRecordSizeEnum';
-import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
-import { ServicesService } from '../models/ServicesService';
-import { DedicatedStoragePartitionUsageTypeEnum } from '../models/DedicatedStoragePartitionUsageTypeEnum';
-import { DedicatedNasTaskTask } from '../models/DedicatedNasTaskTask';
-import { DedicatedNashaSnapshot } from '../models/DedicatedNashaSnapshot';
-import { DedicatedStorageTaskFunctionEnum } from '../models/DedicatedStorageTaskFunctionEnum';
 import { DedicatedStorageProtocolEnum } from '../models/DedicatedStorageProtocolEnum';
+import { DedicatedNashaSnapshot } from '../models/DedicatedNashaSnapshot';
+import { DedicatedNashaOptions } from '../models/DedicatedNashaOptions';
+import { DedicatedNashaCustomSnap } from '../models/DedicatedNashaCustomSnap';
+import { DedicatedStorageSnapshotEnum } from '../models/DedicatedStorageSnapshotEnum';
 import { DedicatedNashaStorage } from '../models/DedicatedNashaStorage';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { DedicatedStorageNasUsageTypeEnum } from '../models/DedicatedStorageNasUsageTypeEnum';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { DedicatedNashaQuota } from '../models/DedicatedNashaQuota';
+import { DedicatedStoragePartitionUsageTypeEnum } from '../models/DedicatedStoragePartitionUsageTypeEnum';
+import { DedicatedNashaPartition } from '../models/DedicatedNashaPartition';
+import { DedicatedStorageAclTypeEnum } from '../models/DedicatedStorageAclTypeEnum';
+import { DedicatedStorageAtimeEnum } from '../models/DedicatedStorageAtimeEnum';
+import { DedicatedNashaAccess } from '../models/DedicatedNashaAccess';
+import { ServicesService } from '../models/ServicesService';
+import { DedicatedStorageRecordSizeEnum } from '../models/DedicatedStorageRecordSizeEnum';
+import { DedicatedNasTaskTask } from '../models/DedicatedNasTaskTask';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { DedicatedStorageNasUsageTypeEnum } from '../models/DedicatedStorageNasUsageTypeEnum';
+import { DedicatedStorageSyncEnum } from '../models/DedicatedStorageSyncEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { DedicatedStorageTaskFunctionEnum } from '../models/DedicatedStorageTaskFunctionEnum';
+import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
 import OVHBase from '../ovh';
 
 class DedicatedNashaHandler {
@@ -31,30 +31,30 @@ class DedicatedNashaHandler {
   }
 
   /** List available services */
-  getNasha = (): Promise<string> => {
+  listNashas = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicated/nasha');
   };
 
   /** Get this object properties */
-  getNashaServiceName = (serviceName: string): Promise<DedicatedNashaStorage> => {
+  getNashaByServiceName = (serviceName: string): Promise<DedicatedNashaStorage> => {
     return this.ovh.request('GET', `/dedicated/nasha/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putNashaServiceName = (serviceName: string, body: DedicatedNashaStorage): Promise<void> => {
+  updateNashaByServiceName = (serviceName: string, body: DedicatedNashaStorage): Promise<void> => {
     return this.ovh.request('PUT', `/dedicated/nasha/${serviceName}`, body);
   };
 
   /** Launch a contact change procedure */
-  postNashaServiceNameChangeContact = (
+  launchNashaChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/dedicated/nasha/${serviceName}/changeContact`, body);
   };
 
   /** Confirm termination of your service */
-  postNashaServiceNameConfirmTermination = (
+  confirmNashaTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -67,12 +67,12 @@ class DedicatedNashaHandler {
   };
 
   /** Get partition list */
-  getNashaServiceNamePartition = (serviceName: string): Promise<string> => {
+  getNashaPartitionByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/nasha/${serviceName}/partition`);
   };
 
   /** Create a new partition */
-  postNashaServiceNamePartition = (
+  createNashaPartitionByServiceName = (
     serviceName: string,
     body: {
       partitionDescription?: string;
@@ -85,7 +85,7 @@ class DedicatedNashaHandler {
   };
 
   /** Delete this partition */
-  deleteNashaServiceNamePartitionPartitionName = (
+  deleteNashaPartitionByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
   ): Promise<DedicatedNasTaskTask> => {
@@ -93,7 +93,7 @@ class DedicatedNashaHandler {
   };
 
   /** Get this object properties */
-  getNashaServiceNamePartitionPartitionName = (
+  getNashaPartitionByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
   ): Promise<DedicatedNashaPartition> => {
@@ -101,7 +101,7 @@ class DedicatedNashaHandler {
   };
 
   /** Alter this object properties */
-  putNashaServiceNamePartitionPartitionName = (
+  updateNashaPartitionByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string,
     body: DedicatedNashaPartition
@@ -114,10 +114,10 @@ class DedicatedNashaHandler {
   };
 
   /** get ACL for this partition */
-  getNashaServiceNamePartitionPartitionNameAccess = (
+  getNashaPartitionAccessByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/nasha/${serviceName}/partition/${partitionName}/access`
@@ -125,7 +125,7 @@ class DedicatedNashaHandler {
   };
 
   /** Add a new ACL entry */
-  postNashaServiceNamePartitionPartitionNameAccess = (
+  addNashaPartitionAccessByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string,
     body: { ip: string; type?: DedicatedStorageAclTypeEnum }
@@ -138,7 +138,7 @@ class DedicatedNashaHandler {
   };
 
   /** Delete an ACL entry */
-  deleteNashaServiceNamePartitionPartitionNameAccessIp = (
+  deleteNashaPartitionAccessByServiceNameAndPartitionNameAndIp = (
     ip: string,
     partitionName: string,
     serviceName: string
@@ -150,7 +150,7 @@ class DedicatedNashaHandler {
   };
 
   /** Get this object properties */
-  getNashaServiceNamePartitionPartitionNameAccessIp = (
+  getNashaPartitionAccessByServiceNameAndPartitionNameAndIp = (
     ip: string,
     partitionName: string,
     serviceName: string
@@ -162,10 +162,10 @@ class DedicatedNashaHandler {
   };
 
   /** Get all RIPE/ARIN blocks that can be used in the ACL */
-  getNashaServiceNamePartitionPartitionNameAuthorizableBlocks = (
+  getNashaPartitionAuthorizableBlocksByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/nasha/${serviceName}/partition/${partitionName}/authorizableBlocks`
@@ -173,10 +173,10 @@ class DedicatedNashaHandler {
   };
 
   /** Get all IPs that can be used in the ACL */
-  getNashaServiceNamePartitionPartitionNameAuthorizableIps = (
+  getNashaPartitionAuthorizableIpsByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/nasha/${serviceName}/partition/${partitionName}/authorizableIps`
@@ -184,10 +184,10 @@ class DedicatedNashaHandler {
   };
 
   /** Get custom snapshots for this partition */
-  getNashaServiceNamePartitionPartitionNameCustomSnapshot = (
+  getNashaPartitionCustomSnapshotByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/nasha/${serviceName}/partition/${partitionName}/customSnapshot`
@@ -195,7 +195,7 @@ class DedicatedNashaHandler {
   };
 
   /** Create a new snapshot */
-  postNashaServiceNamePartitionPartitionNameCustomSnapshot = (
+  createNashaPartitionCustomSnapshotByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string,
     body: { expiration?: string; name: string }
@@ -208,7 +208,7 @@ class DedicatedNashaHandler {
   };
 
   /** Delete a given snapshot */
-  deleteNashaServiceNamePartitionPartitionNameCustomSnapshotName = (
+  deleteNashaPartitionCustomSnapshotByServiceNameAndPartitionNameAndName = (
     name: string,
     partitionName: string,
     serviceName: string
@@ -220,7 +220,7 @@ class DedicatedNashaHandler {
   };
 
   /** Get this object properties */
-  getNashaServiceNamePartitionPartitionNameCustomSnapshotName = (
+  getNashaPartitionCustomSnapshotByServiceNameAndPartitionNameAndName = (
     name: string,
     partitionName: string,
     serviceName: string
@@ -232,7 +232,7 @@ class DedicatedNashaHandler {
   };
 
   /** Get this object properties */
-  getNashaServiceNamePartitionPartitionNameOptions = (
+  getNashaPartitionOptionsByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
   ): Promise<DedicatedNashaOptions> => {
@@ -243,7 +243,7 @@ class DedicatedNashaHandler {
   };
 
   /** Setup options */
-  postNashaServiceNamePartitionPartitionNameOptions = (
+  postNashaPartitionOptionsByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string,
     body: {
@@ -260,10 +260,10 @@ class DedicatedNashaHandler {
   };
 
   /** Get quota for this partition */
-  getNashaServiceNamePartitionPartitionNameQuota = (
+  getNashaPartitionQuotaByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/nasha/${serviceName}/partition/${partitionName}/quota`
@@ -271,7 +271,7 @@ class DedicatedNashaHandler {
   };
 
   /** Set a new quota */
-  postNashaServiceNamePartitionPartitionNameQuota = (
+  postNashaPartitionQuotaByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string,
     body: { size: number; uid: number }
@@ -284,7 +284,7 @@ class DedicatedNashaHandler {
   };
 
   /** Delete a given quota */
-  deleteNashaServiceNamePartitionPartitionNameQuotaUid = (
+  deleteNashaPartitionQuotaByServiceNameAndPartitionNameAndUid = (
     partitionName: string,
     serviceName: string,
     uid: number
@@ -296,7 +296,7 @@ class DedicatedNashaHandler {
   };
 
   /** Get this object properties */
-  getNashaServiceNamePartitionPartitionNameQuotaUid = (
+  getNashaPartitionQuotaByServiceNameAndPartitionNameAndUid = (
     partitionName: string,
     serviceName: string,
     uid: number
@@ -308,10 +308,10 @@ class DedicatedNashaHandler {
   };
 
   /** Get scheduled snapshot types for this partition */
-  getNashaServiceNamePartitionPartitionNameSnapshot = (
+  getNashaPartitionSnapshotByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
-  ): Promise<DedicatedStorageSnapshotEnum> => {
+  ): Promise<DedicatedStorageSnapshotEnum[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/nasha/${serviceName}/partition/${partitionName}/snapshot`
@@ -319,7 +319,7 @@ class DedicatedNashaHandler {
   };
 
   /** Schedule a new snapshot type */
-  postNashaServiceNamePartitionPartitionNameSnapshot = (
+  postNashaPartitionSnapshotByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string,
     body: { snapshotType: DedicatedStorageSnapshotEnum }
@@ -332,7 +332,7 @@ class DedicatedNashaHandler {
   };
 
   /** Delete a given snapshot */
-  deleteNashaServiceNamePartitionPartitionNameSnapshotSnapshotType = (
+  deleteNashaPartitionSnapshotByServiceNameAndPartitionNameAndSnapshotType = (
     partitionName: string,
     serviceName: string,
     snapshotType: DedicatedStorageSnapshotEnum
@@ -344,7 +344,7 @@ class DedicatedNashaHandler {
   };
 
   /** Get this object properties */
-  getNashaServiceNamePartitionPartitionNameSnapshotSnapshotType = (
+  getNashaPartitionSnapshotByServiceNameAndPartitionNameAndSnapshotType = (
     partitionName: string,
     serviceName: string,
     snapshotType: DedicatedStorageSnapshotEnum
@@ -356,7 +356,7 @@ class DedicatedNashaHandler {
   };
 
   /** Return statistics about the partition */
-  getNashaServiceNamePartitionPartitionNameUse = (
+  getNashaPartitionUseByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
   ): Promise<number> => {
@@ -367,22 +367,25 @@ class DedicatedNashaHandler {
   };
 
   /** Get this object properties */
-  getNashaServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getNashaServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/dedicated/nasha/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putNashaServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateNashaServiceInfosByServiceName = (
+    serviceName: string,
+    body: ServicesService
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/dedicated/nasha/${serviceName}/serviceInfos`, body);
   };
 
   /** View task list */
-  getNashaServiceNameTask = (serviceName: string): Promise<number> => {
+  getNashaTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicated/nasha/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getNashaServiceNameTaskTaskId = (
+  getNashaTaskByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<DedicatedNasTaskTask> => {
@@ -390,19 +393,19 @@ class DedicatedNashaHandler {
   };
 
   /** Terminate your service */
-  postNashaServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postNashaTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/dedicated/nasha/${serviceName}/terminate`);
   };
 
   /** Return statistics about the nas */
-  getNashaServiceNameUse = (serviceName: string): Promise<number> => {
+  getNashaUseByServiceName = (serviceName: string): Promise<number> => {
     return this.ovh.request('GET', `/dedicated/nasha/${serviceName}/use`);
   };
 
   /** Delete the vrack container */
-  deleteNashaServiceNameVrack = (serviceName: string): Promise<DedicatedNasTaskTask> => {
+  deleteNashaVrackByServiceName = (serviceName: string): Promise<DedicatedNasTaskTask> => {
     return this.ovh.request('DELETE', `/dedicated/nasha/${serviceName}/vrack`);
   };
 }
 
-export default DedicatedNashaHandler;
+export { DedicatedNashaHandler };

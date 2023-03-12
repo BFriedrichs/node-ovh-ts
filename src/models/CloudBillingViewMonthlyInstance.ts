@@ -3,7 +3,7 @@
 import { CloudBillingViewMonthlyInstanceDetail } from './CloudBillingViewMonthlyInstanceDetail';
 
 export type CloudBillingViewMonthlyInstance = {
-  details: CloudBillingViewMonthlyInstanceDetail;
+  details: CloudBillingViewMonthlyInstanceDetail[];
   reference: string;
   region: string;
   totalPrice: number;

@@ -3,6 +3,6 @@
 import { CloudOrderRuleInstanceCategory } from './CloudOrderRuleInstanceCategory';
 
 export type CloudOrderRuleInstanceCategories = {
-  categories: CloudOrderRuleInstanceCategory;
+  categories: CloudOrderRuleInstanceCategory[];
   defaultCategory: string;
 };

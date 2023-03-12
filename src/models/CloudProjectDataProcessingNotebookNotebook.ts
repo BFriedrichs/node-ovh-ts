@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectDataProcessingNotebookNotebookStatus } from './CloudProjectDataProcessingNotebookNotebookStatus';
 import { CloudProjectDataProcessingNotebookNotebookSpec } from './CloudProjectDataProcessingNotebookNotebookSpec';
+import { CloudProjectDataProcessingNotebookNotebookStatus } from './CloudProjectDataProcessingNotebookNotebookStatus';
 
 export type CloudProjectDataProcessingNotebookNotebook = {
   id: string;

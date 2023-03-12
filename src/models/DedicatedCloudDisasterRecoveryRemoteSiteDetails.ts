@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedCloudDisasterRecoverySiteRoleEnum } from './DedicatedCloudDisasterRecoverySiteRoleEnum';
+import { DedicatedCloudDisasterRecoveryVpnConfigStateEnum } from './DedicatedCloudDisasterRecoveryVpnConfigStateEnum';
 import { DedicatedCloudDisasterRecoverySiteTypeEnum } from './DedicatedCloudDisasterRecoverySiteTypeEnum';
 import { DedicatedCloudStateEnum } from './DedicatedCloudStateEnum';
-import { DedicatedCloudDisasterRecoveryVpnConfigStateEnum } from './DedicatedCloudDisasterRecoveryVpnConfigStateEnum';
+import { DedicatedCloudDisasterRecoverySiteRoleEnum } from './DedicatedCloudDisasterRecoverySiteRoleEnum';
 
 export type DedicatedCloudDisasterRecoveryRemoteSiteDetails = {
   datacenterId: number | null;

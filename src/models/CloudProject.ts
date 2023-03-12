@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudAccessTypeEnum } from './CloudAccessTypeEnum';
 import { CloudProjectProjectStatusEnum } from './CloudProjectProjectStatusEnum';
+import { CloudAccessTypeEnum } from './CloudAccessTypeEnum';
 
 export type CloudProject = {
   access: CloudAccessTypeEnum;

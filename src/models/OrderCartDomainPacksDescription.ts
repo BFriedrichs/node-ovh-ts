@@ -2,4 +2,4 @@
 
 import { OrderCartDomainPacksDescriptionItem } from './OrderCartDomainPacksDescriptionItem';
 
-export type OrderCartDomainPacksDescription = { domains: OrderCartDomainPacksDescriptionItem };
+export type OrderCartDomainPacksDescription = { domains: OrderCartDomainPacksDescriptionItem[] };

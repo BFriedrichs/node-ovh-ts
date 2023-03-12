@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { EmailExchangeMailingListDepartRestrictionEnum } from './EmailExchangeMailingListDepartRestrictionEnum';
 import { EmailExchangeObjectStateEnum } from './EmailExchangeObjectStateEnum';
 import { EmailExchangeMailingListJoinRestrictionEnum } from './EmailExchangeMailingListJoinRestrictionEnum';
-import { EmailExchangeMailingListDepartRestrictionEnum } from './EmailExchangeMailingListDepartRestrictionEnum';
 
 export type EmailExchangeMailingList = {
   company: string | null;

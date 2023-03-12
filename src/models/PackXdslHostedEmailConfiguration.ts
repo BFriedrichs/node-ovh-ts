@@ -4,7 +4,7 @@ import { PackXdslHostedEmailConfigurationService } from './PackXdslHostedEmailCo
 import { PackXdslHostedEmailConfigurationStatusEnum } from './PackXdslHostedEmailConfigurationStatusEnum';
 
 export type PackXdslHostedEmailConfiguration = {
-  services: PackXdslHostedEmailConfigurationService;
+  services: PackXdslHostedEmailConfigurationService[];
   status: PackXdslHostedEmailConfigurationStatusEnum;
   webmailUrl: string;
 };

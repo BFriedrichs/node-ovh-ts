@@ -1,22 +1,22 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { DedicatedCloudVirtualMachineCdrom } from './DedicatedCloudVirtualMachineCdrom';
 import { DedicatedCloudBackupBackup } from './DedicatedCloudBackupBackup';
+import { DedicatedCloudVmNetwork } from './DedicatedCloudVmNetwork';
 import { DedicatedCloudVmFiler } from './DedicatedCloudVmFiler';
 import { DedicatedCloudVirtualMachinePowerState } from './DedicatedCloudVirtualMachinePowerState';
-import { DedicatedCloudVirtualMachineCdrom } from './DedicatedCloudVirtualMachineCdrom';
 import { DedicatedCloudVirtualMachineFaultToleranceState } from './DedicatedCloudVirtualMachineFaultToleranceState';
-import { DedicatedCloudVmNetwork } from './DedicatedCloudVmNetwork';
 
 export type DedicatedCloudVm = {
   backup: DedicatedCloudBackupBackup | null;
-  cdroms: DedicatedCloudVirtualMachineCdrom | null;
+  cdroms: DedicatedCloudVirtualMachineCdrom[] | null;
   clusterName: string | null;
   cpuMax: number | null;
   cpuNum: number | null;
   cpuReady: number | null;
   cpuReadyPercent: number | null;
   cpuUsed: number | null;
-  filers: DedicatedCloudVmFiler | null;
+  filers: DedicatedCloudVmFiler[] | null;
   folderName: string | null;
   hostName: string | null;
   memoryMax: number | null;
@@ -28,7 +28,7 @@ export type DedicatedCloudVm = {
   netPacketTx: number | null;
   netRx: number | null;
   netTx: number | null;
-  networks: DedicatedCloudVmNetwork | null;
+  networks: DedicatedCloudVmNetwork[] | null;
   powerState: DedicatedCloudVirtualMachinePowerState;
   readLatency: number | null;
   readPerSecond: number | null;

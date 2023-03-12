@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderReductionTypeEnum } from './OrderReductionTypeEnum';
 import { OrderCatalogPublicPromotionDiscountTotal } from './OrderCatalogPublicPromotionDiscountTotal';
+import { OrderReductionTypeEnum } from './OrderReductionTypeEnum';
 
 export type OrderCatalogPublicPromotion = {
   description: string;

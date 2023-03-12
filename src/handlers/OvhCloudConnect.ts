@@ -1,24 +1,24 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OvhcloudconnectService } from '../models/OvhcloudconnectService';
-import { OvhcloudconnectInterface } from '../models/OvhcloudconnectInterface';
-import { OvhcloudconnectDatacenterExtraConfig } from '../models/OvhcloudconnectDatacenterExtraConfig';
-import { OvhcloudconnectDiagnosticConfiguration } from '../models/OvhcloudconnectDiagnosticConfiguration';
+import { OvhcloudconnectInterfaceMetricsTypeEnum } from '../models/OvhcloudconnectInterfaceMetricsTypeEnum';
 import { OvhcloudconnectUpdate } from '../models/OvhcloudconnectUpdate';
 import { OvhcloudconnectTo } from '../models/OvhcloudconnectTo';
-import { OvhcloudconnectInterfaceMetricsTypeEnum } from '../models/OvhcloudconnectInterfaceMetricsTypeEnum';
-import { ServicesService } from '../models/ServicesService';
+import { OvhcloudconnectDatacenterExtraConfig } from '../models/OvhcloudconnectDatacenterExtraConfig';
 import { OvhcloudconnectPopConfig } from '../models/OvhcloudconnectPopConfig';
-import { OvhcloudconnectMetrics } from '../models/OvhcloudconnectMetrics';
-import { OvhcloudconnectSendKeyAnswer } from '../models/OvhcloudconnectSendKeyAnswer';
+import { OvhcloudconnectService } from '../models/OvhcloudconnectService';
 import { OvhcloudconnectKey } from '../models/OvhcloudconnectKey';
-import { OvhcloudconnectDatacenterConfig } from '../models/OvhcloudconnectDatacenterConfig';
-import { OvhcloudconnectTask } from '../models/OvhcloudconnectTask';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { ServicesService } from '../models/ServicesService';
+import { OvhcloudconnectInterface } from '../models/OvhcloudconnectInterface';
 import { OvhcloudconnectDatacenter } from '../models/OvhcloudconnectDatacenter';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { OvhcloudconnectDiagnostic } from '../models/OvhcloudconnectDiagnostic';
+import { OvhcloudconnectDiagnosticConfiguration } from '../models/OvhcloudconnectDiagnosticConfiguration';
 import { OvhcloudconnectInterfaceMetricsPeriodEnum } from '../models/OvhcloudconnectInterfaceMetricsPeriodEnum';
+import { OvhcloudconnectSendKeyAnswer } from '../models/OvhcloudconnectSendKeyAnswer';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { OvhcloudconnectTask } from '../models/OvhcloudconnectTask';
+import { OvhcloudconnectMetrics } from '../models/OvhcloudconnectMetrics';
+import { OvhcloudconnectDatacenterConfig } from '../models/OvhcloudconnectDatacenterConfig';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { OvhcloudconnectDiagnostic } from '../models/OvhcloudconnectDiagnostic';
 import OVHBase from '../ovh';
 
 class OvhCloudConnectHandler {
@@ -29,35 +29,35 @@ class OvhCloudConnectHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/ovhCloudConnect');
   };
 
   /** Get service */
-  getServiceName = (serviceName: string): Promise<OvhcloudconnectService> => {
+  getByServiceName = (serviceName: string): Promise<OvhcloudconnectService> => {
     return this.ovh.request('GET', `/ovhCloudConnect/${serviceName}`);
   };
 
   /** Modify service */
-  putServiceName = (serviceName: string, body: OvhcloudconnectUpdate): Promise<void> => {
+  putByServiceName = (serviceName: string, body: OvhcloudconnectUpdate): Promise<void> => {
     return this.ovh.request('PUT', `/ovhCloudConnect/${serviceName}`, body);
   };
 
   /** Launch a contact change procedure */
-  postServiceNameChangeContact = (
+  launchChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/ovhCloudConnect/${serviceName}/changeContact`, body);
   };
 
   /** Get Pop Configuration linked to of a OVHcloud Connect Service */
-  getServiceNameConfigPop = (serviceName: string): Promise<number> => {
+  getConfigPopByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ovhCloudConnect/${serviceName}/config/pop`);
   };
 
   /** Create a Pop Configuration */
-  postServiceNameConfigPop = (
+  createConfigPopByServiceName = (
     serviceName: string,
     body: OvhcloudconnectPopConfig
   ): Promise<OvhcloudconnectTask> => {
@@ -65,7 +65,7 @@ class OvhCloudConnectHandler {
   };
 
   /** Delete a Pop Configuration */
-  deleteServiceNameConfigPopPopId = (
+  deleteConfigPopByServiceNameAndPopId = (
     popId: number,
     serviceName: string
   ): Promise<OvhcloudconnectTask> => {
@@ -73,7 +73,7 @@ class OvhCloudConnectHandler {
   };
 
   /** Get Pop Configuration of a OVHcloud Connect Service */
-  getServiceNameConfigPopPopId = (
+  getConfigPopByServiceNameAndPopId = (
     popId: number,
     serviceName: string
   ): Promise<OvhcloudconnectPopConfig> => {
@@ -81,10 +81,10 @@ class OvhCloudConnectHandler {
   };
 
   /** Get Datacenter Configuration linked to of a OVHcloud Connect Service */
-  getServiceNameConfigPopPopIdDatacenter = (
+  getConfigPopDatacenterByServiceNameAndPopId = (
     popId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/ovhCloudConnect/${serviceName}/config/pop/${popId}/datacenter`
@@ -92,7 +92,7 @@ class OvhCloudConnectHandler {
   };
 
   /** Create a Datacenter Configuration */
-  postServiceNameConfigPopPopIdDatacenter = (
+  createConfigPopDatacenterByServiceNameAndPopId = (
     popId: number,
     serviceName: string,
     body: OvhcloudconnectDatacenterConfig
@@ -105,7 +105,7 @@ class OvhCloudConnectHandler {
   };
 
   /** Delete a Datacenter Configuration */
-  deleteServiceNameConfigPopPopIdDatacenterDatacenterId = (
+  deleteConfigPopDatacenterByServiceNameAndPopIdAndDatacenterId = (
     datacenterId: number,
     popId: number,
     serviceName: string
@@ -117,7 +117,7 @@ class OvhCloudConnectHandler {
   };
 
   /** Get Datacenter Configuration of a OVHcloud Connect Service */
-  getServiceNameConfigPopPopIdDatacenterDatacenterId = (
+  getConfigPopDatacenterByServiceNameAndPopIdAndDatacenterId = (
     datacenterId: number,
     popId: number,
     serviceName: string
@@ -129,11 +129,11 @@ class OvhCloudConnectHandler {
   };
 
   /** Get Datacenter Extra Configuration linked to of a OVHcloud Connect Service */
-  getServiceNameConfigPopPopIdDatacenterDatacenterIdExtra = (
+  getConfigPopDatacenterExtraByServiceNameAndPopIdAndDatacenterId = (
     datacenterId: number,
     popId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/ovhCloudConnect/${serviceName}/config/pop/${popId}/datacenter/${datacenterId}/extra`
@@ -141,7 +141,7 @@ class OvhCloudConnectHandler {
   };
 
   /** Create a Datacenter Extra Configuration */
-  postServiceNameConfigPopPopIdDatacenterDatacenterIdExtra = (
+  createConfigPopDatacenterExtraByServiceNameAndPopIdAndDatacenterId = (
     datacenterId: number,
     popId: number,
     serviceName: string,
@@ -155,7 +155,7 @@ class OvhCloudConnectHandler {
   };
 
   /** Delete a Datacenter Extra Configuration */
-  deleteServiceNameConfigPopPopIdDatacenterDatacenterIdExtraExtraId = (
+  deleteConfigPopDatacenterExtraByServiceNameAndPopIdAndDatacenterIdAndExtraId = (
     datacenterId: number,
     extraId: number,
     popId: number,
@@ -168,7 +168,7 @@ class OvhCloudConnectHandler {
   };
 
   /** Get Datacenter Extra Configuration of a OVHcloud Connect Service */
-  getServiceNameConfigPopPopIdDatacenterDatacenterIdExtraExtraId = (
+  getConfigPopDatacenterExtraByServiceNameAndPopIdAndDatacenterIdAndExtraId = (
     datacenterId: number,
     extraId: number,
     popId: number,
@@ -181,7 +181,7 @@ class OvhCloudConnectHandler {
   };
 
   /** Confirm termination of your service */
-  postServiceNameConfirmTermination = (
+  confirmTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -194,12 +194,12 @@ class OvhCloudConnectHandler {
   };
 
   /** List available Datacenter */
-  getServiceNameDatacenter = (serviceName: string): Promise<number> => {
+  listDatacentersByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ovhCloudConnect/${serviceName}/datacenter`);
   };
 
   /** Get Datacenter */
-  getServiceNameDatacenterId = (
+  getDatacenterByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<OvhcloudconnectDatacenter> => {
@@ -207,12 +207,12 @@ class OvhCloudConnectHandler {
   };
 
   /** Get Diagnostics linked to a OVHcloud Connect Service */
-  getServiceNameDiagnostic = (serviceName: string): Promise<number> => {
+  getDiagnosticByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ovhCloudConnect/${serviceName}/diagnostic`);
   };
 
   /** Create a Diagnostic linked to a OVHcloud Connect Service */
-  postServiceNameDiagnostic = (
+  createDiagnosticByServiceName = (
     serviceName: string,
     body: OvhcloudconnectDiagnosticConfiguration
   ): Promise<OvhcloudconnectDiagnostic> => {
@@ -220,7 +220,7 @@ class OvhCloudConnectHandler {
   };
 
   /** Get Diagnostic linked to a OVHcloud Connect Service */
-  getServiceNameDiagnosticId = (
+  getDiagnosticByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<OvhcloudconnectDiagnostic> => {
@@ -228,12 +228,12 @@ class OvhCloudConnectHandler {
   };
 
   /** List interfaces linked to the Service */
-  getServiceNameInterface = (serviceName: string): Promise<number> => {
+  listInterfacesByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ovhCloudConnect/${serviceName}/interface`);
   };
 
   /** Get the Interface information */
-  getServiceNameInterfaceId = (
+  getInterfaceByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<OvhcloudconnectInterface> => {
@@ -241,7 +241,7 @@ class OvhCloudConnectHandler {
   };
 
   /** Lock the port */
-  postServiceNameInterfaceIdLock = (
+  postInterfaceLockByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<OvhcloudconnectTask> => {
@@ -249,15 +249,15 @@ class OvhCloudConnectHandler {
   };
 
   /** Statistics for an OCC interface for a given type */
-  getServiceNameInterfaceIdStatistics = (
+  getInterfaceStatisticsByServiceNameAndId = (
     id: number,
     serviceName: string
-  ): Promise<OvhcloudconnectMetrics> => {
+  ): Promise<OvhcloudconnectMetrics[]> => {
     return this.ovh.request('GET', `/ovhCloudConnect/${serviceName}/interface/${id}/statistics`);
   };
 
   /** Unlock the port */
-  postServiceNameInterfaceIdUnlock = (
+  postInterfaceUnlockByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<OvhcloudconnectTask> => {
@@ -265,27 +265,27 @@ class OvhCloudConnectHandler {
   };
 
   /** Generate a loa for a service */
-  postServiceNameLoa = (serviceName: string): Promise<string> => {
+  postLoaByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/ovhCloudConnect/${serviceName}/loa`);
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/ovhCloudConnect/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/ovhCloudConnect/${serviceName}/serviceInfos`, body);
   };
 
   /** Get Keys linked to a OVHcloud Connect Service */
-  getServiceNameServiceKey = (serviceName: string): Promise<number> => {
+  getServiceKeyByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ovhCloudConnect/${serviceName}/serviceKey`);
   };
 
   /** Get Key linked to a OVHcloud Connect Service */
-  getServiceNameServiceKeyServiceKeyId = (
+  getServiceKeyByServiceNameAndServiceKeyId = (
     serviceKeyId: number,
     serviceName: string
   ): Promise<OvhcloudconnectKey> => {
@@ -293,7 +293,7 @@ class OvhCloudConnectHandler {
   };
 
   /** Regenerate Service Key linked to a OVHcloud Connect Service */
-  postServiceNameServiceKeyServiceKeyIdRegenerate = (
+  postServiceKeyRegenerateByServiceNameAndServiceKeyId = (
     serviceKeyId: number,
     serviceName: string
   ): Promise<OvhcloudconnectKey> => {
@@ -304,7 +304,7 @@ class OvhCloudConnectHandler {
   };
 
   /** Send key value to customer */
-  postServiceNameServiceKeyServiceKeyIdSend = (
+  sendServiceKeyByServiceNameAndServiceKeyId = (
     serviceKeyId: number,
     serviceName: string,
     body: OvhcloudconnectTo
@@ -317,19 +317,19 @@ class OvhCloudConnectHandler {
   };
 
   /** Get Task linked to a OVHcloud Connect Service */
-  getServiceNameTask = (serviceName: string): Promise<number> => {
+  getTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ovhCloudConnect/${serviceName}/task`);
   };
 
   /** Get Tasks linked to a OVHcloud Connect Service */
-  getServiceNameTaskId = (id: number, serviceName: string): Promise<OvhcloudconnectTask> => {
+  getTaskByServiceNameAndId = (id: number, serviceName: string): Promise<OvhcloudconnectTask> => {
     return this.ovh.request('GET', `/ovhCloudConnect/${serviceName}/task/${id}`);
   };
 
   /** Terminate your service */
-  postServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/ovhCloudConnect/${serviceName}/terminate`);
   };
 }
 
-export default OvhCloudConnectHandler;
+export { OvhCloudConnectHandler };

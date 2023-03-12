@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderCatalogPublicProductBlobTechnicalCPU } from './OrderCatalogPublicProductBlobTechnicalCPU';
 import { OrderCatalogPublicProductBlobTechnicalLicenseCores } from './OrderCatalogPublicProductBlobTechnicalLicenseCores';
+import { OrderCatalogPublicProductBlobTechnicalCPU } from './OrderCatalogPublicProductBlobTechnicalCPU';
 
 export type OrderCatalogPublicProductBlobTechnicalLicense = {
   application: string | null;
@@ -12,7 +12,7 @@ export type OrderCatalogPublicProductBlobTechnicalLicense = {
   family: string | null;
   feature: string | null;
   flavor: string | null;
-  images: string | null;
+  images: string[] | null;
   nbOfAccount: number | null;
   package: string | null;
   version: string | null;

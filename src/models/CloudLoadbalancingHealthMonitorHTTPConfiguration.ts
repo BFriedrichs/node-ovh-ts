@@ -5,7 +5,7 @@ import { CloudLoadbalancingLoadBalancerHealthMonitorHTTPVersionEnum } from './Cl
 
 export type CloudLoadbalancingHealthMonitorHTTPConfiguration = {
   domainName: string;
-  expectedCodes: number;
+  expectedCodes: number[];
   httpMethod: CloudLoadbalancingLoadBalancerHealthMonitorHTTPMethodEnum;
   httpVersion: CloudLoadbalancingLoadBalancerHealthMonitorHTTPVersionEnum;
   urlPath: string;

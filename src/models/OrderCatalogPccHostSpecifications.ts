@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderCatalogPccHostStorageSpecifications } from './OrderCatalogPccHostStorageSpecifications';
+import { OrderCatalogPccHostMemorySpecifications } from './OrderCatalogPccHostMemorySpecifications';
 import { OrderCatalogPccHostNetworkSpecifications } from './OrderCatalogPccHostNetworkSpecifications';
 import { OrderCatalogPccHostCpuSpecifications } from './OrderCatalogPccHostCpuSpecifications';
-import { OrderCatalogPccHostMemorySpecifications } from './OrderCatalogPccHostMemorySpecifications';
+import { OrderCatalogPccHostStorageSpecifications } from './OrderCatalogPccHostStorageSpecifications';
 
 export type OrderCatalogPccHostSpecifications = {
   cpu: OrderCatalogPccHostCpuSpecifications;
   memory: OrderCatalogPccHostMemorySpecifications;
-  network: OrderCatalogPccHostNetworkSpecifications;
+  network: OrderCatalogPccHostNetworkSpecifications[];
   storage: OrderCatalogPccHostStorageSpecifications;
 };

@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { AnalyticsStatusEnum } from './AnalyticsStatusEnum';
 import { AnalyticsNodeTypeEnum } from './AnalyticsNodeTypeEnum';
+import { AnalyticsStatusEnum } from './AnalyticsStatusEnum';
 
 export type AnalyticsClusterNode = {
   deploymentEndDate: Date | null;

@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesService } from '../models/ServicesService';
-import { WebPaaSSubscription } from '../models/WebPaaSSubscription';
-import { WebPaaSSubscriptionProjectAddCustomer } from '../models/WebPaaSSubscriptionProjectAddCustomer';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { WebPaaSOfferEnum } from '../models/WebPaaSOfferEnum';
 import { WebPaaSCapabilities } from '../models/WebPaaSCapabilities';
-import { WebPaaSSubscriptionCustomer } from '../models/WebPaaSSubscriptionCustomer';
+import { WebPaaSSubscription } from '../models/WebPaaSSubscription';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { ServicesService } from '../models/ServicesService';
+import { WebPaaSSubscriptionProjectAddCustomer } from '../models/WebPaaSSubscriptionProjectAddCustomer';
+import { WebPaaSSubscriptionCustomer } from '../models/WebPaaSSubscriptionCustomer';
 import OVHBase from '../ovh';
 
 class WebPaaSHandler {
@@ -18,22 +18,22 @@ class WebPaaSHandler {
   }
 
   /** List available regions and templates */
-  getCapabilities = (): Promise<WebPaaSCapabilities> => {
+  listCapabilities = (): Promise<WebPaaSCapabilities> => {
     return this.ovh.request('GET', '/webPaaS/capabilities');
   };
 
   /** List your subscriptions */
-  getSubscription = (): Promise<string> => {
+  listSubscriptions = (): Promise<string[]> => {
     return this.ovh.request('GET', '/webPaaS/subscription');
   };
 
   /** Get information about your subscription */
-  getSubscriptionServiceName = (serviceName: string): Promise<WebPaaSSubscription> => {
+  getSubscriptionByServiceName = (serviceName: string): Promise<WebPaaSSubscription> => {
     return this.ovh.request('GET', `/webPaaS/subscription/${serviceName}`);
   };
 
   /** Confirm termination of your service */
-  postSubscriptionServiceNameConfirmTermination = (
+  confirmSubscriptionTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -50,14 +50,14 @@ class WebPaaSHandler {
   };
 
   /** List customers added to a project */
-  getSubscriptionServiceNameCustomer = (
+  listSubscriptionCustomersByServiceName = (
     serviceName: string
-  ): Promise<WebPaaSSubscriptionCustomer> => {
+  ): Promise<WebPaaSSubscriptionCustomer[]> => {
     return this.ovh.request('GET', `/webPaaS/subscription/${serviceName}/customer`);
   };
 
   /** Add customer to the project */
-  postSubscriptionServiceNameCustomer = (
+  addSubscriptionCustomerByServiceName = (
     serviceName: string,
     body: WebPaaSSubscriptionProjectAddCustomer
   ): Promise<WebPaaSSubscriptionCustomer> => {
@@ -65,7 +65,7 @@ class WebPaaSHandler {
   };
 
   /** Remove customer from the project */
-  deleteSubscriptionServiceNameCustomerCustomerId = (
+  deleteSubscriptionCustomerByServiceNameAndCustomerId = (
     customerId: string,
     serviceName: string
   ): Promise<WebPaaSSubscriptionCustomer> => {
@@ -76,7 +76,7 @@ class WebPaaSHandler {
   };
 
   /** Get the customer details */
-  getSubscriptionServiceNameCustomerCustomerId = (
+  getSubscriptionCustomerByServiceNameAndCustomerId = (
     customerId: string,
     serviceName: string
   ): Promise<WebPaaSSubscriptionCustomer> => {
@@ -84,12 +84,12 @@ class WebPaaSHandler {
   };
 
   /** Get this object properties */
-  getSubscriptionServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getSubscriptionServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/webPaaS/subscription/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putSubscriptionServiceNameServiceInfos = (
+  updateSubscriptionServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -97,9 +97,9 @@ class WebPaaSHandler {
   };
 
   /** Terminate your service */
-  postSubscriptionServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postSubscriptionTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/webPaaS/subscription/${serviceName}/terminate`);
   };
 }
 
-export default WebPaaSHandler;
+export { WebPaaSHandler };

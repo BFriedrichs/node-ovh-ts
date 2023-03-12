@@ -4,6 +4,6 @@ import { CloudOrderRuleAvailabilityPlan } from './CloudOrderRuleAvailabilityPlan
 import { CloudOrderRuleAvailabilityProduct } from './CloudOrderRuleAvailabilityProduct';
 
 export type CloudOrderRuleAvailability = {
-  plans: CloudOrderRuleAvailabilityPlan;
-  products: CloudOrderRuleAvailabilityProduct;
+  plans: CloudOrderRuleAvailabilityPlan[];
+  products: CloudOrderRuleAvailabilityProduct[];
 };

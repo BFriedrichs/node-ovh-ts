@@ -7,6 +7,6 @@ export type CloudProjectDataIntegrationConnector = {
   documentationUrl: string | null;
   id: string;
   name: string;
-  parameters: CloudProjectDataIntegrationCapabilitiesConnectorParameter | null;
+  parameters: CloudProjectDataIntegrationCapabilitiesConnectorParameter[] | null;
   version: string;
 };

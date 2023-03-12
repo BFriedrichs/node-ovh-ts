@@ -8,5 +8,5 @@ export type OrderCatalogPccHost = {
   onUpgradeOrder: boolean;
   planCode: string;
   specifications: OrderCatalogPccHostSpecifications;
-  storagesPack: string | null;
+  storagesPack: string[] | null;
 };

@@ -9,6 +9,6 @@ export type ServicesConsumptionSummary = {
   id: number;
   orderId: number | null;
   price: OrderPrice;
-  priceByPlanFamily: ServicesConsumptionPricePlanFamily;
+  priceByPlanFamily: ServicesConsumptionPricePlanFamily[];
   serviceId: number;
 };

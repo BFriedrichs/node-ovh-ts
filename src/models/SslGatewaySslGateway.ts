@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SslGatewayStateEnum } from './SslGatewayStateEnum';
 import { SslGatewaySslConfigurationEnum } from './SslGatewaySslConfigurationEnum';
+import { SslGatewayStateEnum } from './SslGatewayStateEnum';
 import { SslGatewayOfferEnum } from './SslGatewayOfferEnum';
 
 export type SslGatewaySslGateway = {
-  allowedSource: string | null;
+  allowedSource: string[] | null;
   displayName: string | null;
   hsts: boolean;
   httpsRedirect: boolean;
@@ -18,5 +18,5 @@ export type SslGatewaySslGateway = {
   serviceName: string;
   sslConfiguration: SslGatewaySslConfigurationEnum | null;
   state: SslGatewayStateEnum;
-  zones: string;
+  zones: string[];
 };

@@ -1,15 +1,15 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesService } from '../models/ServicesService';
-import { TelephonyDirectoryWayType } from '../models/TelephonyDirectoryWayType';
-import { TelephonyDirectoryHeadingPJ } from '../models/TelephonyDirectoryHeadingPJ';
-import { TelephonyVoicemailProperties } from '../models/TelephonyVoicemailProperties';
-import { TelephonyVoicefaxRoutingEnum } from '../models/TelephonyVoicefaxRoutingEnum';
 import { TelephonyEntrepriseNumberInformationsTask } from '../models/TelephonyEntrepriseNumberInformationsTask';
 import { FreefaxBalanceInformations } from '../models/FreefaxBalanceInformations';
+import { TelephonyVoicemailProperties } from '../models/TelephonyVoicemailProperties';
 import { TelephonyVoicemailNumbers } from '../models/TelephonyVoicemailNumbers';
+import { TelephonyDirectoryHeadingPJ } from '../models/TelephonyDirectoryHeadingPJ';
+import { TelephonyDirectoryWayType } from '../models/TelephonyDirectoryWayType';
 import { TelephonyDirectoryInfo } from '../models/TelephonyDirectoryInfo';
 import { FreefaxFreefaxProperties } from '../models/FreefaxFreefaxProperties';
+import { ServicesService } from '../models/ServicesService';
+import { TelephonyVoicefaxRoutingEnum } from '../models/TelephonyVoicefaxRoutingEnum';
 import OVHBase from '../ovh';
 
 class FreefaxHandler {
@@ -20,7 +20,7 @@ class FreefaxHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/freefax');
   };
 
@@ -30,32 +30,35 @@ class FreefaxHandler {
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<FreefaxFreefaxProperties> => {
+  getByServiceName = (serviceName: string): Promise<FreefaxFreefaxProperties> => {
     return this.ovh.request('GET', `/freefax/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putServiceName = (serviceName: string, body: FreefaxFreefaxProperties): Promise<void> => {
+  updateByServiceName = (serviceName: string, body: FreefaxFreefaxProperties): Promise<void> => {
     return this.ovh.request('PUT', `/freefax/${serviceName}`, body);
   };
 
   /** Generates a new password for your fax account */
-  postServiceNameChangePassword = (serviceName: string): Promise<string> => {
+  postChangePasswordByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/freefax/${serviceName}/changePassword`);
   };
 
   /** Get this object properties */
-  getServiceNameDirectory = (serviceName: string): Promise<TelephonyDirectoryInfo> => {
+  getDirectoryByServiceName = (serviceName: string): Promise<TelephonyDirectoryInfo> => {
     return this.ovh.request('GET', `/freefax/${serviceName}/directory`);
   };
 
   /** Alter this object properties */
-  putServiceNameDirectory = (serviceName: string, body: TelephonyDirectoryInfo): Promise<void> => {
+  updateDirectoryByServiceName = (
+    serviceName: string,
+    body: TelephonyDirectoryInfo
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/freefax/${serviceName}/directory`, body);
   };
 
   /** Get company entreprise informations by providing entreprise number */
-  postServiceNameDirectoryFetchEntrepriseInformations = (
+  postDirectoryFetchEntrepriseInformationsByServiceName = (
     serviceName: string,
     body: { entrepriseNumber: string }
   ): Promise<TelephonyEntrepriseNumberInformationsTask> => {
@@ -67,41 +70,41 @@ class FreefaxHandler {
   };
 
   /** Get directory service code from an APE code ( principal activity of the firm code ) */
-  getServiceNameDirectoryGetDirectoryServiceCode = (
+  getDirectoryGetDirectoryServiceCodeByServiceName = (
     serviceName: string
-  ): Promise<TelephonyDirectoryHeadingPJ> => {
+  ): Promise<TelephonyDirectoryHeadingPJ[]> => {
     return this.ovh.request('GET', `/freefax/${serviceName}/directory/getDirectoryServiceCode`);
   };
 
   /** Get all the way types availables */
-  getServiceNameDirectoryGetWayTypes = (
+  getDirectoryGetWayTypesByServiceName = (
     serviceName: string
-  ): Promise<TelephonyDirectoryWayType> => {
+  ): Promise<TelephonyDirectoryWayType[]> => {
     return this.ovh.request('GET', `/freefax/${serviceName}/directory/getWayTypes`);
   };
 
   /** Main service attached to freefax */
-  getServiceNameMainService = (serviceName: string): Promise<string> => {
+  getMainServiceByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('GET', `/freefax/${serviceName}/mainService`);
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/freefax/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/freefax/${serviceName}/serviceInfos`, body);
   };
 
   /** Get this object properties */
-  getServiceNameVoicemail = (serviceName: string): Promise<TelephonyVoicemailProperties> => {
+  getVoicemailByServiceName = (serviceName: string): Promise<TelephonyVoicemailProperties> => {
     return this.ovh.request('GET', `/freefax/${serviceName}/voicemail`);
   };
 
   /** Alter this object properties */
-  putServiceNameVoicemail = (
+  updateVoicemailByServiceName = (
     serviceName: string,
     body: TelephonyVoicemailProperties
   ): Promise<void> => {
@@ -109,7 +112,7 @@ class FreefaxHandler {
   };
 
   /** Change the voicemail password. It must be 4 digit */
-  postServiceNameVoicemailChangePassword = (
+  updateVoicemailPasswordByServiceName = (
     serviceName: string,
     body: { password: string }
   ): Promise<void> => {
@@ -117,7 +120,7 @@ class FreefaxHandler {
   };
 
   /** Disable/Enable voicemail. Available only if the line has fax capabilities */
-  postServiceNameVoicemailChangeRouting = (
+  disableVoicemailChangeRoutingByServiceName = (
     serviceName: string,
     body: { routing: TelephonyVoicefaxRoutingEnum }
   ): Promise<void> => {
@@ -125,16 +128,18 @@ class FreefaxHandler {
   };
 
   /** Get the status of the voicemail. Available only if the line has fax capabilities */
-  getServiceNameVoicemailRouting = (serviceName: string): Promise<TelephonyVoicefaxRoutingEnum> => {
+  getVoicemailRoutingByServiceName = (
+    serviceName: string
+  ): Promise<TelephonyVoicefaxRoutingEnum> => {
     return this.ovh.request('GET', `/freefax/${serviceName}/voicemail/routing`);
   };
 
   /** Get number for internal and external voicemail */
-  getServiceNameVoicemailVoicemailNumbers = (
+  getVoicemailVoicemailNumbersByServiceName = (
     serviceName: string
   ): Promise<TelephonyVoicemailNumbers> => {
     return this.ovh.request('GET', `/freefax/${serviceName}/voicemail/voicemailNumbers`);
   };
 }
 
-export default FreefaxHandler;
+export { FreefaxHandler };

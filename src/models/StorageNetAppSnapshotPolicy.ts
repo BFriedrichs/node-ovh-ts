@@ -9,6 +9,6 @@ export type StorageNetAppSnapshotPolicy = {
   id: string;
   isDefault: boolean | null;
   name: string | null;
-  rules?: StorageNetAppSnapshotPolicyRule | null;
+  rules?: StorageNetAppSnapshotPolicyRule[] | null;
   status: StorageNetAppSnapshotPolicyStatusEnum | null;
 };

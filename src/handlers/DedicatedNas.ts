@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
-import { ServicesService } from '../models/ServicesService';
 import { DedicatedNasTaskTask } from '../models/DedicatedNasTaskTask';
-import { DedicatedNasQuota } from '../models/DedicatedNasQuota';
-import { DedicatedNasAccess } from '../models/DedicatedNasAccess';
-import { DedicatedNasPartition } from '../models/DedicatedNasPartition';
-import { DedicatedStorageTaskFunctionEnum } from '../models/DedicatedStorageTaskFunctionEnum';
-import { DedicatedNasNas } from '../models/DedicatedNasNas';
 import { DedicatedStorageProtocolEnum } from '../models/DedicatedStorageProtocolEnum';
+import { DedicatedNasPartition } from '../models/DedicatedNasPartition';
+import { DedicatedNasNas } from '../models/DedicatedNasNas';
+import { DedicatedNasQuota } from '../models/DedicatedNasQuota';
+import { DedicatedStorageTaskFunctionEnum } from '../models/DedicatedStorageTaskFunctionEnum';
+import { DedicatedNasAccess } from '../models/DedicatedNasAccess';
+import { ServicesService } from '../models/ServicesService';
+import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
 import OVHBase from '../ovh';
 
 class DedicatedNasHandler {
@@ -19,27 +19,27 @@ class DedicatedNasHandler {
   }
 
   /** List available services */
-  getNas = (): Promise<string> => {
+  listNas = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicated/nas');
   };
 
   /** Get this object properties */
-  getNasServiceName = (serviceName: string): Promise<DedicatedNasNas> => {
+  getNasByServiceName = (serviceName: string): Promise<DedicatedNasNas> => {
     return this.ovh.request('GET', `/dedicated/nas/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putNasServiceName = (serviceName: string, body: DedicatedNasNas): Promise<void> => {
+  updateNasByServiceName = (serviceName: string, body: DedicatedNasNas): Promise<void> => {
     return this.ovh.request('PUT', `/dedicated/nas/${serviceName}`, body);
   };
 
   /** Get partition list */
-  getNasServiceNamePartition = (serviceName: string): Promise<string> => {
+  getNasPartitionByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/nas/${serviceName}/partition`);
   };
 
   /** Create a  new partition */
-  postNasServiceNamePartition = (
+  createNasPartitionByServiceName = (
     serviceName: string,
     body: { partitionName: string; protocol: DedicatedStorageProtocolEnum; size: number }
   ): Promise<DedicatedNasTaskTask> => {
@@ -47,7 +47,7 @@ class DedicatedNasHandler {
   };
 
   /** Delete this partition */
-  deleteNasServiceNamePartitionPartitionName = (
+  deleteNasPartitionByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
   ): Promise<DedicatedNasTaskTask> => {
@@ -55,7 +55,7 @@ class DedicatedNasHandler {
   };
 
   /** Get this object properties */
-  getNasServiceNamePartitionPartitionName = (
+  getNasPartitionByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
   ): Promise<DedicatedNasPartition> => {
@@ -63,7 +63,7 @@ class DedicatedNasHandler {
   };
 
   /** Alter this object properties */
-  putNasServiceNamePartitionPartitionName = (
+  updateNasPartitionByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string,
     body: DedicatedNasPartition
@@ -76,10 +76,10 @@ class DedicatedNasHandler {
   };
 
   /** get ACL for this partition */
-  getNasServiceNamePartitionPartitionNameAccess = (
+  getNasPartitionAccessByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/nas/${serviceName}/partition/${partitionName}/access`
@@ -87,7 +87,7 @@ class DedicatedNasHandler {
   };
 
   /** Add an Acl to this  partition */
-  postNasServiceNamePartitionPartitionNameAccess = (
+  addNasPartitionAccessByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string,
     body: { ip: string }
@@ -100,7 +100,7 @@ class DedicatedNasHandler {
   };
 
   /** Delete a given snapshot */
-  deleteNasServiceNamePartitionPartitionNameAccessIp = (
+  deleteNasPartitionAccessByServiceNameAndPartitionNameAndIp = (
     ip: string,
     partitionName: string,
     serviceName: string
@@ -112,7 +112,7 @@ class DedicatedNasHandler {
   };
 
   /** Get this object properties */
-  getNasServiceNamePartitionPartitionNameAccessIp = (
+  getNasPartitionAccessByServiceNameAndPartitionNameAndIp = (
     ip: string,
     partitionName: string,
     serviceName: string
@@ -124,10 +124,10 @@ class DedicatedNasHandler {
   };
 
   /** Get all IPs that can be used in the ACL */
-  getNasServiceNamePartitionPartitionNameAuthorizableIps = (
+  getNasPartitionAuthorizableIpsByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/nas/${serviceName}/partition/${partitionName}/authorizableIps`
@@ -135,10 +135,10 @@ class DedicatedNasHandler {
   };
 
   /** Get quota for this partition */
-  getNasServiceNamePartitionPartitionNameQuota = (
+  getNasPartitionQuotaByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/nas/${serviceName}/partition/${partitionName}/quota`
@@ -146,7 +146,7 @@ class DedicatedNasHandler {
   };
 
   /** Set a new quota */
-  postNasServiceNamePartitionPartitionNameQuota = (
+  postNasPartitionQuotaByServiceNameAndPartitionName = (
     partitionName: string,
     serviceName: string,
     body: { size: number; uid: number }
@@ -159,7 +159,7 @@ class DedicatedNasHandler {
   };
 
   /** Delete a given quota */
-  deleteNasServiceNamePartitionPartitionNameQuotaUid = (
+  deleteNasPartitionQuotaByServiceNameAndPartitionNameAndUid = (
     partitionName: string,
     serviceName: string,
     uid: number
@@ -171,7 +171,7 @@ class DedicatedNasHandler {
   };
 
   /** Get this object properties */
-  getNasServiceNamePartitionPartitionNameQuotaUid = (
+  getNasPartitionQuotaByServiceNameAndPartitionNameAndUid = (
     partitionName: string,
     serviceName: string,
     uid: number
@@ -183,22 +183,25 @@ class DedicatedNasHandler {
   };
 
   /** Get this object properties */
-  getNasServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getNasServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/dedicated/nas/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putNasServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateNasServiceInfosByServiceName = (
+    serviceName: string,
+    body: ServicesService
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/dedicated/nas/${serviceName}/serviceInfos`, body);
   };
 
   /** View task list */
-  getNasServiceNameTask = (serviceName: string): Promise<number> => {
+  getNasTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicated/nas/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getNasServiceNameTaskTaskId = (
+  getNasTaskByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<DedicatedNasTaskTask> => {
@@ -206,4 +209,4 @@ class DedicatedNasHandler {
   };
 }
 
-export default DedicatedNasHandler;
+export { DedicatedNasHandler };

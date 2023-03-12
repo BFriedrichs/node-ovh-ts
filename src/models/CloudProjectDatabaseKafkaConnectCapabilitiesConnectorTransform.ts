@@ -9,5 +9,5 @@ export type CloudProjectDatabaseKafkaConnectCapabilitiesConnectorTransform = {
   required: boolean;
   transformType: string;
   type: CloudProjectDatabaseKafkaConnectConnectorPropertyTypeEnum;
-  values: string | null;
+  values: string[] | null;
 };

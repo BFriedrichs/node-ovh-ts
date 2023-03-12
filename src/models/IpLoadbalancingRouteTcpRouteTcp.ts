@@ -9,7 +9,7 @@ export type IpLoadbalancingRouteTcpRouteTcp = {
   displayName: string | null;
   frontendId: number | null;
   routeId: number;
-  rules: IpLoadbalancingRouteRule;
+  rules: IpLoadbalancingRouteRule[];
   status: IpLoadbalancingRouteStatusEnum;
   weight: number;
 };

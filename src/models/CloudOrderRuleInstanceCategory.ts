@@ -5,6 +5,6 @@ import { CloudOrderRuleInstanceCategoryTypeEnum } from './CloudOrderRuleInstance
 export type CloudOrderRuleInstanceCategory = {
   category: CloudOrderRuleInstanceCategoryTypeEnum;
   isNew: boolean | null;
-  kinds: string;
+  kinds: string[];
   title: string;
 };

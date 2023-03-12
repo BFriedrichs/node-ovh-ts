@@ -1,195 +1,195 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyDatetimeAndIpvalue } from '../models/TelephonyDatetimeAndIpvalue';
-import { TelephonyNumberDetailedZone } from '../models/TelephonyNumberDetailedZone';
-import { TelephonyOvhPabxDialplanExtensionConditionTime } from '../models/TelephonyOvhPabxDialplanExtensionConditionTime';
-import { TelephonyAbbreviatedNumber } from '../models/TelephonyAbbreviatedNumber';
-import { TelephonyScreenList } from '../models/TelephonyScreenList';
-import { TelephonySpecificNumber } from '../models/TelephonySpecificNumber';
-import { TelephonyPreviousVoiceConsumption } from '../models/TelephonyPreviousVoiceConsumption';
-import { TelephonyOldPhone } from '../models/TelephonyOldPhone';
-import { OrderPrice } from '../models/OrderPrice';
-import { TelephonyProcedure } from '../models/TelephonyProcedure';
-import { TelephonyEventToken } from '../models/TelephonyEventToken';
-import { TelephonyFaxCampaign } from '../models/TelephonyFaxCampaign';
-import { TelephonyPortabilityFixErrorPossibleParameters } from '../models/TelephonyPortabilityFixErrorPossibleParameters';
-import { TelephonyScreenListTypeEnum } from '../models/TelephonyScreenListTypeEnum';
-import { TelephonyBannerAccess } from '../models/TelephonyBannerAccess';
-import { TelephonyOfferChange } from '../models/TelephonyOfferChange';
-import { TelephonyVoicemail } from '../models/TelephonyVoicemail';
-import { TelephonyOvhPabxHuntingQueue } from '../models/TelephonyOvhPabxHuntingQueue';
-import { TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum } from '../models/TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum';
-import { TelephonyGenericScreen } from '../models/TelephonyGenericScreen';
-import { TelephonyTemporaryLogsLink } from '../models/TelephonyTemporaryLogsLink';
-import { TelephonyLine } from '../models/TelephonyLine';
-import { TelephonyTokenExpirationEnum } from '../models/TelephonyTokenExpirationEnum';
-import { TelephonyLineOptions } from '../models/TelephonyLineOptions';
-import { TelephonySchedulerCategoryEnum } from '../models/TelephonySchedulerCategoryEnum';
-import { TelephonySipDomainProductTypeEnum } from '../models/TelephonySipDomainProductTypeEnum';
-import { TelephonyVoiceConsumptionDestinationTypeEnum } from '../models/TelephonyVoiceConsumptionDestinationTypeEnum';
-import { TelephonyCity } from '../models/TelephonyCity';
-import { TelephonySound } from '../models/TelephonySound';
-import { TelephonyCarrierSipDetails } from '../models/TelephonyCarrierSipDetails';
-import { TelephonyServiceNumberCountryEnum } from '../models/TelephonyServiceNumberCountryEnum';
-import { TelephonyTimeConditionsPolicyEnum } from '../models/TelephonyTimeConditionsPolicyEnum';
-import { SpareTelephonyTelephonySpare } from '../models/SpareTelephonyTelephonySpare';
-import { TelephonyTypeEnum } from '../models/TelephonyTypeEnum';
-import { TelephonyOvhPabxHuntingQueueRecordDisablingLanguageEnum } from '../models/TelephonyOvhPabxHuntingQueueRecordDisablingLanguageEnum';
-import { TelephonyRedirect } from '../models/TelephonyRedirect';
-import { TelephonyOvhPabxHuntingAgentStatusEnum } from '../models/TelephonyOvhPabxHuntingAgentStatusEnum';
-import { TelephonyOvhPabxHuntingAgentQueue } from '../models/TelephonyOvhPabxHuntingAgentQueue';
-import { TelephonyDirectoryWayType } from '../models/TelephonyDirectoryWayType';
-import { TelephonyVoicemailMessages } from '../models/TelephonyVoicemailMessages';
-import { TelephonyOutplanNotificationBlockEnum } from '../models/TelephonyOutplanNotificationBlockEnum';
-import { TelephonyOvhPabxMenu } from '../models/TelephonyOvhPabxMenu';
-import { TelephonyLinePhone } from '../models/TelephonyLinePhone';
-import { TelephonyConferenceHistory } from '../models/TelephonyConferenceHistory';
-import { TelephonyLineBlockingMode } from '../models/TelephonyLineBlockingMode';
-import { TelephonyNumberTypeEnum } from '../models/TelephonyNumberTypeEnum';
-import { TelephonyConferenceInformations } from '../models/TelephonyConferenceInformations';
-import { TelephonyCallsGenerated } from '../models/TelephonyCallsGenerated';
-import { TelephonyTrunk } from '../models/TelephonyTrunk';
-import { TelephonyFaxCampaignSendTypeEnum } from '../models/TelephonyFaxCampaignSendTypeEnum';
-import { TelephonyConferenceWebAccess } from '../models/TelephonyConferenceWebAccess';
-import { TelephonyEasyHuntingScreenListsConditionsSettings } from '../models/TelephonyEasyHuntingScreenListsConditionsSettings';
-import { TelephonyStatisticsTimeframeEnum } from '../models/TelephonyStatisticsTimeframeEnum';
-import { TelephonyTimeConditionsDayEnum } from '../models/TelephonyTimeConditionsDayEnum';
-import { TelephonyOvhPabxHuntingQueueLiveStatistics } from '../models/TelephonyOvhPabxHuntingQueueLiveStatistics';
-import { TelephonyFaxCampaignDetail } from '../models/TelephonyFaxCampaignDetail';
-import { TelephonyPortabilityStep } from '../models/TelephonyPortabilityStep';
-import { TelephonyPortability } from '../models/TelephonyPortability';
-import { TelephonyOvhPabxIvrMenuEntryActionEnum } from '../models/TelephonyOvhPabxIvrMenuEntryActionEnum';
-import { TelephonyHistoryRepaymentConsumption } from '../models/TelephonyHistoryRepaymentConsumption';
-import { TelephonyAccessoryOffer } from '../models/TelephonyAccessoryOffer';
-import { TelephonyTelephonyGenericService } from '../models/TelephonyTelephonyGenericService';
-import { TelephonyResetPhoneInfo } from '../models/TelephonyResetPhoneInfo';
-import { TelephonyRegistrationInformations } from '../models/TelephonyRegistrationInformations';
-import { TelephonyOfferTask } from '../models/TelephonyOfferTask';
-import { TelephonyResellerPanelStatus } from '../models/TelephonyResellerPanelStatus';
-import { TelephonyRmaChangeTypeEnum } from '../models/TelephonyRmaChangeTypeEnum';
-import { TelephonyCallDiagnostics } from '../models/TelephonyCallDiagnostics';
-import { TelephonyTonesTypeEnum } from '../models/TelephonyTonesTypeEnum';
-import { TelephonyAbbreviatedNumberGroup } from '../models/TelephonyAbbreviatedNumberGroup';
-import { TelephonyTrunkExternalDisplayedNumberValidation } from '../models/TelephonyTrunkExternalDisplayedNumberValidation';
-import { TelephonyOvhPabxDialplanExtensionRuleActionEnum } from '../models/TelephonyOvhPabxDialplanExtensionRuleActionEnum';
-import { ServicesService } from '../models/ServicesService';
-import { TelephonyCarrierSip } from '../models/TelephonyCarrierSip';
-import { TelephonyOvhPabxMenuEntry } from '../models/TelephonyOvhPabxMenuEntry';
-import { TelephonyOfferTaskTypeEnum } from '../models/TelephonyOfferTaskTypeEnum';
-import { TelephonyVoicemailNumbers } from '../models/TelephonyVoicemailNumbers';
-import { TelephonyOvhPabxHuntingQueueLiveCalls } from '../models/TelephonyOvhPabxHuntingQueueLiveCalls';
-import { TelephonyTask } from '../models/TelephonyTask';
-import { TelephonyBillDocument } from '../models/TelephonyBillDocument';
-import { TelephonyEasyMiniPabxHuntingAgent } from '../models/TelephonyEasyMiniPabxHuntingAgent';
-import { TelephonyPcsFile } from '../models/TelephonyPcsFile';
-import { TelephonyClick2CallUser } from '../models/TelephonyClick2CallUser';
-import { TelephonyOvhPabxDialplanExtensionRule } from '../models/TelephonyOvhPabxDialplanExtensionRule';
-import { TelephonyRsva } from '../models/TelephonyRsva';
-import { TelephonyPhonebook } from '../models/TelephonyPhonebook';
-import { TelephonyDirectoryHeadingPJ } from '../models/TelephonyDirectoryHeadingPJ';
-import { TelephonyVoicemailMessageFolderGreetingEnum } from '../models/TelephonyVoicemailMessageFolderGreetingEnum';
-import { TelephonyTones } from '../models/TelephonyTones';
-import { TelephonyOvhPabxTts } from '../models/TelephonyOvhPabxTts';
-import { TelephonyLineOffer } from '../models/TelephonyLineOffer';
-import { TelephonyRmaPublicTypeEnum } from '../models/TelephonyRmaPublicTypeEnum';
-import { TelephonyConferenceRoomsStatistics } from '../models/TelephonyConferenceRoomsStatistics';
-import { TelephonyVoicemailMessageFolderDirectoryEnum } from '../models/TelephonyVoicemailMessageFolderDirectoryEnum';
-import { TelephonyPhonebookContact } from '../models/TelephonyPhonebookContact';
-import { TelephonyEasyHunting } from '../models/TelephonyEasyHunting';
-import { TelephonyLinePhoneAssociable } from '../models/TelephonyLinePhoneAssociable';
-import { TelephonyTaskStatusEnum } from '../models/TelephonyTaskStatusEnum';
-import { TelephonyTimeConditionOptions } from '../models/TelephonyTimeConditionOptions';
-import { TelephonyOvhPabxDialplanExtensionConditionScreenList } from '../models/TelephonyOvhPabxDialplanExtensionConditionScreenList';
-import { TelephonyDefaultSipDomains } from '../models/TelephonyDefaultSipDomains';
-import { TelephonyCarrierSipCustomerEndpoint } from '../models/TelephonyCarrierSipCustomerEndpoint';
-import { TelephonyEasyPabxHunting } from '../models/TelephonyEasyPabxHunting';
-import { TelephonyContactsExportFormatsEnum } from '../models/TelephonyContactsExportFormatsEnum';
-import { TelephonyTrunkSimultaneousPacksRepartition } from '../models/TelephonyTrunkSimultaneousPacksRepartition';
-import { TelephonyDiagnosticReportIndexEnum } from '../models/TelephonyDiagnosticReportIndexEnum';
-import { TelephonyEasyHuntingScreenListsConditions } from '../models/TelephonyEasyHuntingScreenListsConditions';
-import { TelephonySimultaneousChannelsDetails } from '../models/TelephonySimultaneousChannelsDetails';
-import { TelephonyFax } from '../models/TelephonyFax';
-import { TelephonyFaxScreenListTypeEnum } from '../models/TelephonyFaxScreenListTypeEnum';
-import { TelephonyTerminationReasonEnum } from '../models/TelephonyTerminationReasonEnum';
-import { TelephonyTelephonyService } from '../models/TelephonyTelephonyService';
-import { TelephonyScreen } from '../models/TelephonyScreen';
-import { TelephonyTrafficExtract } from '../models/TelephonyTrafficExtract';
-import { TelephonyVxml } from '../models/TelephonyVxml';
-import { TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum } from '../models/TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum';
-import { TelephonyOvhPabxWhisperingModeEnum } from '../models/TelephonyOvhPabxWhisperingModeEnum';
-import { TelephonyPhone } from '../models/TelephonyPhone';
-import { TelephonyFaxConsumptionWayTypeEnum } from '../models/TelephonyFaxConsumptionWayTypeEnum';
-import { TelephonyLineOffersAndContracts } from '../models/TelephonyLineOffersAndContracts';
-import { TelephonyEasyHuntingTimeConditionsSettings } from '../models/TelephonyEasyHuntingTimeConditionsSettings';
-import { TelephonyBillingAccount } from '../models/TelephonyBillingAccount';
-import { TelephonyOvhPabxHuntingAgentLiveStatus } from '../models/TelephonyOvhPabxHuntingAgentLiveStatus';
-import { TelephonyTrunkExternalDisplayedNumber } from '../models/TelephonyTrunkExternalDisplayedNumber';
-import { TelephonyOvhPabxCustomStatus } from '../models/TelephonyOvhPabxCustomStatus';
-import { TelephonyVoicemailProperties } from '../models/TelephonyVoicemailProperties';
-import { TelephonyDdi } from '../models/TelephonyDdi';
-import { TelephonyRmaReturn } from '../models/TelephonyRmaReturn';
-import { TelephonyOvhPabxDialplanExtension } from '../models/TelephonyOvhPabxDialplanExtension';
-import { TelephonyVoiceConsumptionWayTypeEnum } from '../models/TelephonyVoiceConsumptionWayTypeEnum';
-import { TelephonyOvhPabxDialplanNumberPresentationEnum } from '../models/TelephonyOvhPabxDialplanNumberPresentationEnum';
-import { TelephonyOvhPabxHuntingQueueRecordDisablingDigitEnum } from '../models/TelephonyOvhPabxHuntingQueueRecordDisablingDigitEnum';
-import { TelephonyNumberCountryEnum } from '../models/TelephonyNumberCountryEnum';
-import { TelephonyPortabilityDocument } from '../models/TelephonyPortabilityDocument';
-import { TelephonyServiceVoicemailAudioFormatEnum } from '../models/TelephonyServiceVoicemailAudioFormatEnum';
-import { TelephonyTelephonySearchService } from '../models/TelephonyTelephonySearchService';
-import { TelephonyConsumptionThreshold } from '../models/TelephonyConsumptionThreshold';
-import { TelephonyRma } from '../models/TelephonyRma';
 import { TelephonyFaxCampaignRecipientsTypeEnum } from '../models/TelephonyFaxCampaignRecipientsTypeEnum';
-import { TelephonyOvhPabx } from '../models/TelephonyOvhPabx';
-import { TelephonyEasyPabx } from '../models/TelephonyEasyPabx';
-import { TelephonyFaxScreen } from '../models/TelephonyFaxScreen';
-import { TelephonyPhonebookMaster } from '../models/TelephonyPhonebookMaster';
-import { TelephonyHardwareOffer } from '../models/TelephonyHardwareOffer';
-import { TelephonyVoiceConsumption } from '../models/TelephonyVoiceConsumption';
-import { TelephonyTimestampAndValue } from '../models/TelephonyTimestampAndValue';
-import { TelephonyOvhPabxHunting } from '../models/TelephonyOvhPabxHunting';
-import { TelephonyRateCodeInformation } from '../models/TelephonyRateCodeInformation';
-import { TelephonyMiniPabx } from '../models/TelephonyMiniPabx';
-import { TelephonyRepaymentConsumption } from '../models/TelephonyRepaymentConsumption';
-import { TelephonyVxmlProperties } from '../models/TelephonyVxmlProperties';
-import { TelephonyOfferTaskActionEnum } from '../models/TelephonyOfferTaskActionEnum';
-import { TelephonyFaxProperties } from '../models/TelephonyFaxProperties';
-import { TelephonyHistoryTollfreeConsumption } from '../models/TelephonyHistoryTollfreeConsumption';
-import { TelephonyOvhPabxRecord } from '../models/TelephonyOvhPabxRecord';
-import { TelephonyCallsGeneratorDialplanEnum } from '../models/TelephonyCallsGeneratorDialplanEnum';
-import { TelephonyDirectoryInfo } from '../models/TelephonyDirectoryInfo';
-import { TelephonyConferenceRoom } from '../models/TelephonyConferenceRoom';
-import { TelephonyOvhPabxQueueActionEnum } from '../models/TelephonyOvhPabxQueueActionEnum';
-import { TelephonyOvhPabxSound } from '../models/TelephonyOvhPabxSound';
-import { TelephonyOvhPabxDialplan } from '../models/TelephonyOvhPabxDialplan';
-import { TelephonyDiagnosticReport } from '../models/TelephonyDiagnosticReport';
-import { TelephonyVoiceConsumptionPlanTypeEnum } from '../models/TelephonyVoiceConsumptionPlanTypeEnum';
-import { TelephonyVoicefaxRoutingEnum } from '../models/TelephonyVoicefaxRoutingEnum';
-import { TelephonyScheduler } from '../models/TelephonyScheduler';
-import { TelephonyEntrepriseNumberInformationsTask } from '../models/TelephonyEntrepriseNumberInformationsTask';
-import { TelephonyConferenceParticipants } from '../models/TelephonyConferenceParticipants';
-import { TelephonyOvhPabxTtsVoiceEnum } from '../models/TelephonyOvhPabxTtsVoiceEnum';
-import { TelephonyDetailedRateCodeInformation } from '../models/TelephonyDetailedRateCodeInformation';
+import { TelephonyScreenListNatureEnum } from '../models/TelephonyScreenListNatureEnum';
 import { TelephonyOvhPabxHuntingQueueStrategyEnum } from '../models/TelephonyOvhPabxHuntingQueueStrategyEnum';
-import { TelephonyOvhPabxHuntingAgent } from '../models/TelephonyOvhPabxHuntingAgent';
-import { TelephonyConferenceWebAccessTypeEnum } from '../models/TelephonyConferenceWebAccessTypeEnum';
-import { TelephonyFaxQualityEnum } from '../models/TelephonyFaxQualityEnum';
-import { TelephonyDocument } from '../models/TelephonyDocument';
+import { TelephonyPhonebook } from '../models/TelephonyPhonebook';
+import { TelephonyMiniPabxHunting } from '../models/TelephonyMiniPabxHunting';
+import { TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum } from '../models/TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum';
+import { TelephonyConferenceInformations } from '../models/TelephonyConferenceInformations';
+import { TelephonyTimeConditionOptions } from '../models/TelephonyTimeConditionOptions';
+import { TelephonyOvhPabxIvrMenuEntryActionEnum } from '../models/TelephonyOvhPabxIvrMenuEntryActionEnum';
+import { TelephonyScheduler } from '../models/TelephonyScheduler';
+import { TelephonyRma } from '../models/TelephonyRma';
+import { TelephonyOvhPabxDialplanExtensionRuleActionEnum } from '../models/TelephonyOvhPabxDialplanExtensionRuleActionEnum';
+import { TelephonyVoicefaxRoutingEnum } from '../models/TelephonyVoicefaxRoutingEnum';
+import { TelephonyRepaymentConsumption } from '../models/TelephonyRepaymentConsumption';
+import { TelephonyRateCodeInformation } from '../models/TelephonyRateCodeInformation';
+import { TelephonyDiagnosticReport } from '../models/TelephonyDiagnosticReport';
+import { TelephonyStatisticsTimeframeEnum } from '../models/TelephonyStatisticsTimeframeEnum';
+import { TelephonyHardwareOffer } from '../models/TelephonyHardwareOffer';
+import { TelephonyPortabilityFixErrorPossibleParameters } from '../models/TelephonyPortabilityFixErrorPossibleParameters';
+import { TelephonyBannerAccess } from '../models/TelephonyBannerAccess';
+import { TelephonyTrunk } from '../models/TelephonyTrunk';
+import { TelephonyConferenceProperties } from '../models/TelephonyConferenceProperties';
+import { TelephonyPhonebookContact } from '../models/TelephonyPhonebookContact';
+import { TelephonyConsumptionThreshold } from '../models/TelephonyConsumptionThreshold';
+import { TelephonyDirectoryInfo } from '../models/TelephonyDirectoryInfo';
+import { TelephonyTaskStatusEnum } from '../models/TelephonyTaskStatusEnum';
+import { TelephonyAntihackActionEnum } from '../models/TelephonyAntihackActionEnum';
+import { TelephonySchedulerEvent } from '../models/TelephonySchedulerEvent';
+import { TelephonyRmaChangeTypeEnum } from '../models/TelephonyRmaChangeTypeEnum';
+import { TelephonyLineOffer } from '../models/TelephonyLineOffer';
+import { TelephonyHistoryConsumption } from '../models/TelephonyHistoryConsumption';
+import { TelephonyOvhPabxTts } from '../models/TelephonyOvhPabxTts';
+import { TelephonyPortability } from '../models/TelephonyPortability';
+import { TelephonyVoicemailMessages } from '../models/TelephonyVoicemailMessages';
+import { TelephonyOvhPabxHunting } from '../models/TelephonyOvhPabxHunting';
+import { TelephonyOvhPabxMenuEntry } from '../models/TelephonyOvhPabxMenuEntry';
+import { TelephonySimultaneousChannelsDetails } from '../models/TelephonySimultaneousChannelsDetails';
+import { TelephonyOvhPabxCustomStatus } from '../models/TelephonyOvhPabxCustomStatus';
 import { TelephonyEasyHuntingTimeConditions } from '../models/TelephonyEasyHuntingTimeConditions';
-import { TelephonyPhoneCredentials } from '../models/TelephonyPhoneCredentials';
-import { TelephonyLineStatisticsTypeEnum } from '../models/TelephonyLineStatisticsTypeEnum';
+import { TelephonyTemporaryLogsLink } from '../models/TelephonyTemporaryLogsLink';
+import { TelephonyDetailedRateCodeInformation } from '../models/TelephonyDetailedRateCodeInformation';
+import { TelephonyRsva } from '../models/TelephonyRsva';
+import { TelephonyEasyHuntingScreenListsConditions } from '../models/TelephonyEasyHuntingScreenListsConditions';
+import { TelephonyConferenceRoomsStatistics } from '../models/TelephonyConferenceRoomsStatistics';
+import { TelephonyEasyHuntingTimeConditionsSettings } from '../models/TelephonyEasyHuntingTimeConditionsSettings';
+import { TelephonyOvhPabxHuntingQueueRecordDisablingLanguageEnum } from '../models/TelephonyOvhPabxHuntingQueueRecordDisablingLanguageEnum';
+import { TelephonyTimestampAndValue } from '../models/TelephonyTimestampAndValue';
+import { TelephonyOvhPabxHuntingAgentLiveStatus } from '../models/TelephonyOvhPabxHuntingAgentLiveStatus';
+import { TelephonyOvhPabxHuntingQueue } from '../models/TelephonyOvhPabxHuntingQueue';
+import { TelephonyPortabilityDocument } from '../models/TelephonyPortabilityDocument';
+import { TelephonyLineOptions } from '../models/TelephonyLineOptions';
+import { TelephonyOvhPabxHuntingAgent } from '../models/TelephonyOvhPabxHuntingAgent';
+import { TelephonyOvhPabxHuntingQueueLiveStatistics } from '../models/TelephonyOvhPabxHuntingQueueLiveStatistics';
+import { TelephonyConferenceRoom } from '../models/TelephonyConferenceRoom';
+import { TelephonyServiceNumberCountryEnum } from '../models/TelephonyServiceNumberCountryEnum';
+import { TelephonyScreenListTypeEnum } from '../models/TelephonyScreenListTypeEnum';
+import { TelephonyVoicemailProperties } from '../models/TelephonyVoicemailProperties';
+import { TelephonyServiceVoicemailAudioFormatEnum } from '../models/TelephonyServiceVoicemailAudioFormatEnum';
+import { TelephonyPreviousVoiceConsumption } from '../models/TelephonyPreviousVoiceConsumption';
+import { OrderPrice } from '../models/OrderPrice';
+import { TelephonyTonesTypeEnum } from '../models/TelephonyTonesTypeEnum';
+import { TelephonyFunctionKey } from '../models/TelephonyFunctionKey';
+import { TelephonyLinePhone } from '../models/TelephonyLinePhone';
+import { TelephonyTelephonyService } from '../models/TelephonyTelephonyService';
+import { TelephonyFaxProperties } from '../models/TelephonyFaxProperties';
+import { TelephonyPcsFile } from '../models/TelephonyPcsFile';
+import { TelephonyFax } from '../models/TelephonyFax';
+import { TelephonyCity } from '../models/TelephonyCity';
+import { TelephonyFaxCampaignDetail } from '../models/TelephonyFaxCampaignDetail';
+import { TelephonyRmaPublicTypeEnum } from '../models/TelephonyRmaPublicTypeEnum';
+import { TelephonyLineOffersAndContracts } from '../models/TelephonyLineOffersAndContracts';
+import { TelephonyGenericScreen } from '../models/TelephonyGenericScreen';
+import { TelephonyOfferTaskTypeEnum } from '../models/TelephonyOfferTaskTypeEnum';
+import { TelephonyTimeConditionsPolicyEnum } from '../models/TelephonyTimeConditionsPolicyEnum';
+import { TelephonyResellerPanelStatus } from '../models/TelephonyResellerPanelStatus';
+import { TelephonyCallsGenerated } from '../models/TelephonyCallsGenerated';
+import { TelephonyVoiceConsumptionPlanTypeEnum } from '../models/TelephonyVoiceConsumptionPlanTypeEnum';
+import { TelephonyTrunkExternalDisplayedNumberValidation } from '../models/TelephonyTrunkExternalDisplayedNumberValidation';
+import { TelephonyBillDocument } from '../models/TelephonyBillDocument';
+import { TelephonyConferenceWebAccessTypeEnum } from '../models/TelephonyConferenceWebAccessTypeEnum';
+import { TelephonyOvhPabxDialplanExtensionConditionScreenList } from '../models/TelephonyOvhPabxDialplanExtensionConditionScreenList';
+import { TelephonyVxmlProperties } from '../models/TelephonyVxmlProperties';
+import { TelephonyOvhPabxHuntingQueueRecordDisablingDigitEnum } from '../models/TelephonyOvhPabxHuntingQueueRecordDisablingDigitEnum';
+import { TelephonyLineBlockingMode } from '../models/TelephonyLineBlockingMode';
+import { TelephonyOvhPabxHuntingAgentStatusEnum } from '../models/TelephonyOvhPabxHuntingAgentStatusEnum';
+import { TelephonyVoiceConsumptionDestinationTypeEnum } from '../models/TelephonyVoiceConsumptionDestinationTypeEnum';
+import { TelephonyCallDiagnostics } from '../models/TelephonyCallDiagnostics';
+import { TelephonyMiniPabx } from '../models/TelephonyMiniPabx';
+import { TelephonyScreenList } from '../models/TelephonyScreenList';
+import { TelephonyVoicemail } from '../models/TelephonyVoicemail';
+import { TelephonyScreen } from '../models/TelephonyScreen';
+import { TelephonySipDomainProductTypeEnum } from '../models/TelephonySipDomainProductTypeEnum';
+import { TelephonyTask } from '../models/TelephonyTask';
+import { TelephonyCarrierSipCustomerEndpoint } from '../models/TelephonyCarrierSipCustomerEndpoint';
+import { TelephonyFaxQualityEnum } from '../models/TelephonyFaxQualityEnum';
+import { TelephonyResetPhoneInfo } from '../models/TelephonyResetPhoneInfo';
+import { TelephonyDirectoryWayType } from '../models/TelephonyDirectoryWayType';
+import { TelephonyTokenExpirationEnum } from '../models/TelephonyTokenExpirationEnum';
+import { TelephonyOvhPabxSound } from '../models/TelephonyOvhPabxSound';
+import { TelephonyOfferTask } from '../models/TelephonyOfferTask';
+import { TelephonyOutplanNotificationBlockEnum } from '../models/TelephonyOutplanNotificationBlockEnum';
+import { TelephonyNumberCountryEnum } from '../models/TelephonyNumberCountryEnum';
+import { TelephonyConferenceWebAccess } from '../models/TelephonyConferenceWebAccess';
+import { TelephonyTerminationReasonEnum } from '../models/TelephonyTerminationReasonEnum';
+import { TelephonyCarrierSip } from '../models/TelephonyCarrierSip';
 import { TelephonyCarrierSipClusterInfo } from '../models/TelephonyCarrierSipClusterInfo';
 import { TelephonyVoicemailGreetings } from '../models/TelephonyVoicemailGreetings';
-import { TelephonyAntihackActionEnum } from '../models/TelephonyAntihackActionEnum';
-import { TelephonyScreenListNatureEnum } from '../models/TelephonyScreenListNatureEnum';
-import { TelephonyMiniPabxHunting } from '../models/TelephonyMiniPabxHunting';
-import { TelephonySchedulerEvent } from '../models/TelephonySchedulerEvent';
+import { TelephonyDirectoryHeadingPJ } from '../models/TelephonyDirectoryHeadingPJ';
+import { TelephonyTrunkSimultaneousPacksRepartition } from '../models/TelephonyTrunkSimultaneousPacksRepartition';
+import { TelephonyVoicemailMessageFolderDirectoryEnum } from '../models/TelephonyVoicemailMessageFolderDirectoryEnum';
+import { TelephonyOvhPabxDialplanExtensionRule } from '../models/TelephonyOvhPabxDialplanExtensionRule';
+import { TelephonyHistoryTollfreeConsumption } from '../models/TelephonyHistoryTollfreeConsumption';
+import { TelephonyDefaultSipDomains } from '../models/TelephonyDefaultSipDomains';
+import { TelephonyBillingAccount } from '../models/TelephonyBillingAccount';
+import { TelephonyOvhPabxWhisperingModeEnum } from '../models/TelephonyOvhPabxWhisperingModeEnum';
+import { TelephonyOvhPabxHuntingAgentQueue } from '../models/TelephonyOvhPabxHuntingAgentQueue';
+import { TelephonyFaxScreen } from '../models/TelephonyFaxScreen';
+import { TelephonyTrunkExternalDisplayedNumber } from '../models/TelephonyTrunkExternalDisplayedNumber';
+import { TelephonyOvhPabx } from '../models/TelephonyOvhPabx';
+import { TelephonyFaxConsumptionWayTypeEnum } from '../models/TelephonyFaxConsumptionWayTypeEnum';
+import { TelephonyEasyPabxHunting } from '../models/TelephonyEasyPabxHunting';
+import { TelephonyVoicemailNumbers } from '../models/TelephonyVoicemailNumbers';
+import { TelephonyEasyHunting } from '../models/TelephonyEasyHunting';
+import { TelephonyVoiceConsumptionWayTypeEnum } from '../models/TelephonyVoiceConsumptionWayTypeEnum';
+import { TelephonyPortabilityStep } from '../models/TelephonyPortabilityStep';
+import { TelephonyOvhPabxMenu } from '../models/TelephonyOvhPabxMenu';
+import { TelephonyPhone } from '../models/TelephonyPhone';
+import { ServicesService } from '../models/ServicesService';
+import { TelephonyRedirect } from '../models/TelephonyRedirect';
+import { TelephonyOfferTaskActionEnum } from '../models/TelephonyOfferTaskActionEnum';
+import { TelephonyCallsGeneratorDialplanEnum } from '../models/TelephonyCallsGeneratorDialplanEnum';
+import { TelephonyContactsExportFormatsEnum } from '../models/TelephonyContactsExportFormatsEnum';
+import { TelephonyLine } from '../models/TelephonyLine';
+import { TelephonyTelephonyGenericService } from '../models/TelephonyTelephonyGenericService';
+import { TelephonyLinePhoneAssociable } from '../models/TelephonyLinePhoneAssociable';
+import { TelephonyConferenceHistory } from '../models/TelephonyConferenceHistory';
+import { TelephonyDiagnosticReportIndexEnum } from '../models/TelephonyDiagnosticReportIndexEnum';
 import { TelephonyNumber } from '../models/TelephonyNumber';
-import { TelephonyConferenceProperties } from '../models/TelephonyConferenceProperties';
-import { TelephonyFaxConsumption } from '../models/TelephonyFaxConsumption';
-import { TelephonyFunctionKey } from '../models/TelephonyFunctionKey';
+import { TelephonyOvhPabxDialplan } from '../models/TelephonyOvhPabxDialplan';
 import { TelephonyTimeCondition } from '../models/TelephonyTimeCondition';
+import { TelephonyTypeEnum } from '../models/TelephonyTypeEnum';
+import { TelephonySchedulerCategoryEnum } from '../models/TelephonySchedulerCategoryEnum';
+import { TelephonyNumberDetailedZone } from '../models/TelephonyNumberDetailedZone';
+import { TelephonySpecificNumber } from '../models/TelephonySpecificNumber';
 import { TelephonyConference } from '../models/TelephonyConference';
-import { TelephonyHistoryConsumption } from '../models/TelephonyHistoryConsumption';
+import { TelephonyFaxConsumption } from '../models/TelephonyFaxConsumption';
+import { TelephonyEasyPabx } from '../models/TelephonyEasyPabx';
+import { TelephonyRegistrationInformations } from '../models/TelephonyRegistrationInformations';
+import { TelephonyTelephonySearchService } from '../models/TelephonyTelephonySearchService';
+import { TelephonyOvhPabxDialplanExtension } from '../models/TelephonyOvhPabxDialplanExtension';
+import { TelephonyFaxCampaign } from '../models/TelephonyFaxCampaign';
+import { TelephonyProcedure } from '../models/TelephonyProcedure';
+import { TelephonyTrafficExtract } from '../models/TelephonyTrafficExtract';
+import { TelephonyLineStatisticsTypeEnum } from '../models/TelephonyLineStatisticsTypeEnum';
+import { TelephonyEasyHuntingScreenListsConditionsSettings } from '../models/TelephonyEasyHuntingScreenListsConditionsSettings';
+import { TelephonySound } from '../models/TelephonySound';
+import { TelephonyOvhPabxQueueActionEnum } from '../models/TelephonyOvhPabxQueueActionEnum';
+import { TelephonyDdi } from '../models/TelephonyDdi';
+import { TelephonyOvhPabxRecord } from '../models/TelephonyOvhPabxRecord';
+import { TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum } from '../models/TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum';
+import { TelephonyTones } from '../models/TelephonyTones';
+import { TelephonyPhoneCredentials } from '../models/TelephonyPhoneCredentials';
+import { TelephonyVoiceConsumption } from '../models/TelephonyVoiceConsumption';
+import { TelephonyOldPhone } from '../models/TelephonyOldPhone';
+import { TelephonyOfferChange } from '../models/TelephonyOfferChange';
+import { TelephonyEntrepriseNumberInformationsTask } from '../models/TelephonyEntrepriseNumberInformationsTask';
+import { TelephonyOvhPabxDialplanNumberPresentationEnum } from '../models/TelephonyOvhPabxDialplanNumberPresentationEnum';
+import { TelephonyAccessoryOffer } from '../models/TelephonyAccessoryOffer';
+import { TelephonyEasyMiniPabxHuntingAgent } from '../models/TelephonyEasyMiniPabxHuntingAgent';
+import { TelephonyClick2CallUser } from '../models/TelephonyClick2CallUser';
+import { TelephonyOvhPabxHuntingQueueLiveCalls } from '../models/TelephonyOvhPabxHuntingQueueLiveCalls';
+import { TelephonyAbbreviatedNumberGroup } from '../models/TelephonyAbbreviatedNumberGroup';
+import { TelephonyTimeConditionsDayEnum } from '../models/TelephonyTimeConditionsDayEnum';
+import { TelephonyFaxScreenListTypeEnum } from '../models/TelephonyFaxScreenListTypeEnum';
+import { TelephonyRmaReturn } from '../models/TelephonyRmaReturn';
+import { TelephonyVxml } from '../models/TelephonyVxml';
+import { TelephonyConferenceParticipants } from '../models/TelephonyConferenceParticipants';
+import { SpareTelephonyTelephonySpare } from '../models/SpareTelephonyTelephonySpare';
+import { TelephonyVoicemailMessageFolderGreetingEnum } from '../models/TelephonyVoicemailMessageFolderGreetingEnum';
+import { TelephonyDatetimeAndIpvalue } from '../models/TelephonyDatetimeAndIpvalue';
+import { TelephonyPhonebookMaster } from '../models/TelephonyPhonebookMaster';
+import { TelephonyFaxCampaignSendTypeEnum } from '../models/TelephonyFaxCampaignSendTypeEnum';
+import { TelephonyDocument } from '../models/TelephonyDocument';
+import { TelephonyAbbreviatedNumber } from '../models/TelephonyAbbreviatedNumber';
+import { TelephonyNumberTypeEnum } from '../models/TelephonyNumberTypeEnum';
+import { TelephonyOvhPabxTtsVoiceEnum } from '../models/TelephonyOvhPabxTtsVoiceEnum';
+import { TelephonyOvhPabxDialplanExtensionConditionTime } from '../models/TelephonyOvhPabxDialplanExtensionConditionTime';
+import { TelephonyHistoryRepaymentConsumption } from '../models/TelephonyHistoryRepaymentConsumption';
+import { TelephonyEventToken } from '../models/TelephonyEventToken';
+import { TelephonyCarrierSipDetails } from '../models/TelephonyCarrierSipDetails';
 import OVHBase from '../ovh';
 
 class TelephonyHandler {
@@ -200,40 +200,40 @@ class TelephonyHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/telephony');
   };
 
   /** Get all available accessories */
-  getAccessories = (): Promise<TelephonyAccessoryOffer> => {
+  getAccessories = (): Promise<TelephonyAccessoryOffer[]> => {
     return this.ovh.request('GET', '/telephony/accessories');
   };
 
   /** List available services */
-  getAliases = (): Promise<string> => {
+  listAliases = (): Promise<string[]> => {
     return this.ovh.request('GET', '/telephony/aliases');
   };
 
   /** Get this object properties */
-  getAliasesServiceName = (serviceName: string): Promise<TelephonyTelephonyGenericService> => {
+  getAliasesByServiceName = (serviceName: string): Promise<TelephonyTelephonyGenericService> => {
     return this.ovh.request('GET', `/telephony/aliases/${serviceName}`);
   };
 
   /** Launch a contact change procedure */
-  postAliasesServiceNameChangeContact = (
+  launchAliasesChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/telephony/aliases/${serviceName}/changeContact`, body);
   };
 
   /** Get this object properties */
-  getAliasesServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getAliasesServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/telephony/aliases/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putAliasesServiceNameServiceInfos = (
+  updateAliasesServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -241,95 +241,98 @@ class TelephonyHandler {
   };
 
   /** Get all available SIP domains by country */
-  getAvailableDefaultSipDomains = (): Promise<TelephonyDefaultSipDomains> => {
+  getAvailableDefaultSipDomains = (): Promise<TelephonyDefaultSipDomains[]> => {
     return this.ovh.request('GET', '/telephony/availableDefaultSipDomains');
   };
 
   /** Get current order ids */
-  getCurrentOrderIds = (): Promise<number> => {
+  getCurrentOrderIds = (): Promise<number[]> => {
     return this.ovh.request('GET', '/telephony/currentOrderIds');
   };
 
   /** Get all zip codes compatible for a number */
-  getDirectoriesAvailableZipCodes = (): Promise<string> => {
+  getDirectoriesAvailableZipCodes = (): Promise<string[]> => {
     return this.ovh.request('GET', '/telephony/directories/availableZipCodes');
   };
 
   /** Get city informations from a zip code */
-  getDirectoriesCities = (): Promise<TelephonyCity> => {
+  getDirectoriesCities = (): Promise<TelephonyCity[]> => {
     return this.ovh.request('GET', '/telephony/directories/cities');
   };
 
   /** Get all available fax offer compatible */
-  getFaxOffers = (): Promise<TelephonyLineOffer> => {
+  getFaxOffers = (): Promise<TelephonyLineOffer[]> => {
     return this.ovh.request('GET', '/telephony/fax/offers');
   };
 
   /** Get all available phone brands compatible with lines */
-  getLineOfferPhones = (): Promise<TelephonyLinePhone> => {
+  getLineOfferPhones = (): Promise<TelephonyLinePhone[]> => {
     return this.ovh.request('GET', '/telephony/line/offer/phones');
   };
 
   /** Get all available line offer compatible */
-  getLineOffers = (): Promise<TelephonyLineOffer> => {
+  getLineOffers = (): Promise<TelephonyLineOffer[]> => {
     return this.ovh.request('GET', '/telephony/line/offers');
   };
 
   /** List available services */
-  getLines = (): Promise<string> => {
+  listLines = (): Promise<string[]> => {
     return this.ovh.request('GET', '/telephony/lines');
   };
 
   /** Get this object properties */
-  getLinesServiceName = (serviceName: string): Promise<TelephonyTelephonyGenericService> => {
+  getLinesByServiceName = (serviceName: string): Promise<TelephonyTelephonyGenericService> => {
     return this.ovh.request('GET', `/telephony/lines/${serviceName}`);
   };
 
   /** Launch a contact change procedure */
-  postLinesServiceNameChangeContact = (
+  launchLinesChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/telephony/lines/${serviceName}/changeContact`, body);
   };
 
   /** Get this object properties */
-  getLinesServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getLinesServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/telephony/lines/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putLinesServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateLinesServiceInfosByServiceName = (
+    serviceName: string,
+    body: ServicesService
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/telephony/lines/${serviceName}/serviceInfos`, body);
   };
 
   /** Get all available geographic zone with some details, from a country */
-  getNumberDetailedZones = (): Promise<TelephonyNumberDetailedZone> => {
+  getNumberDetailedZones = (): Promise<TelephonyNumberDetailedZone[]> => {
     return this.ovh.request('GET', '/telephony/number/detailedZones');
   };
 
   /** Get all available special range from a country */
-  getNumberRanges = (): Promise<string> => {
+  getNumberRanges = (): Promise<string[]> => {
     return this.ovh.request('GET', '/telephony/number/ranges');
   };
 
   /** Get all available specific number from a country */
-  getNumberSpecificNumbers = (): Promise<TelephonySpecificNumber> => {
+  getNumberSpecificNumbers = (): Promise<TelephonySpecificNumber[]> => {
     return this.ovh.request('GET', '/telephony/number/specificNumbers');
   };
 
   /** Get all available geographic zone from a country */
-  getNumberZones = (): Promise<string> => {
+  getNumberZones = (): Promise<string[]> => {
     return this.ovh.request('GET', '/telephony/number/zones');
   };
 
   /** Procedures linked to your nichandle */
-  getProcedure = (): Promise<number> => {
+  getProcedure = (): Promise<number[]> => {
     return this.ovh.request('GET', '/telephony/procedure');
   };
 
   /** Create a telephony procedure */
-  postProcedure = (body: {
+  createProcedure = (body: {
     bic?: string;
     iban?: string;
     ownerAddress?: string;
@@ -345,12 +348,12 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getProcedureId = (id: number): Promise<TelephonyProcedure> => {
+  getProcedureById = (id: number): Promise<TelephonyProcedure> => {
     return this.ovh.request('GET', `/telephony/procedure/${id}`);
   };
 
   /** Cancel the given procedure. */
-  postProcedureIdCancel = (id: number): Promise<void> => {
+  postProcedureCancelById = (id: number): Promise<void> => {
     return this.ovh.request('POST', `/telephony/procedure/${id}/cancel`);
   };
 
@@ -365,7 +368,7 @@ class TelephonyHandler {
   };
 
   /** Search a service with its domain, to get its billing account and type */
-  getSearchServices = (): Promise<TelephonyTelephonySearchService> => {
+  getSearchServices = (): Promise<TelephonyTelephonySearchService[]> => {
     return this.ovh.request('GET', '/telephony/searchServices');
   };
 
@@ -379,95 +382,98 @@ class TelephonyHandler {
   };
 
   /** Sounds attached to this telephony account */
-  getSounds = (): Promise<number> => {
+  getSounds = (): Promise<number[]> => {
     return this.ovh.request('GET', '/telephony/sounds');
   };
 
   /** Create a new sound */
-  postSounds = (body: { description?: string; filename: string }): Promise<TelephonySound> => {
+  createSounds = (body: { description?: string; filename: string }): Promise<TelephonySound> => {
     return this.ovh.request('POST', '/telephony/sounds', body);
   };
 
   /** Delete the sound */
-  deleteSoundsId = (id: number): Promise<void> => {
+  deleteSoundsById = (id: number): Promise<void> => {
     return this.ovh.request('DELETE', `/telephony/sounds/${id}`);
   };
 
   /** Get this object properties */
-  getSoundsId = (id: number): Promise<TelephonySound> => {
+  getSoundsById = (id: number): Promise<TelephonySound> => {
     return this.ovh.request('GET', `/telephony/sounds/${id}`);
   };
 
   /** Alter this object properties */
-  putSoundsId = (id: number, body: TelephonySound): Promise<void> => {
+  updateSoundsById = (id: number, body: TelephonySound): Promise<void> => {
     return this.ovh.request('PUT', `/telephony/sounds/${id}`, body);
   };
 
   /** List available services */
-  getSpare = (): Promise<string> => {
+  listSpares = (): Promise<string[]> => {
     return this.ovh.request('GET', '/telephony/spare');
   };
 
   /** Get all available spare brands */
-  getSpareBrands = (): Promise<string> => {
+  getSpareBrands = (): Promise<string[]> => {
     return this.ovh.request('GET', '/telephony/spare/brands');
   };
 
   /** Delete the spare as if it was not belonging to OVH anymore */
-  deleteSpareSpare = (spare: string): Promise<void> => {
+  deleteSpareBySpare = (spare: string): Promise<void> => {
     return this.ovh.request('DELETE', `/telephony/spare/${spare}`);
   };
 
   /** Get this object properties */
-  getSpareSpare = (spare: string): Promise<SpareTelephonyTelephonySpare> => {
+  getSpareBySpare = (spare: string): Promise<SpareTelephonyTelephonySpare> => {
     return this.ovh.request('GET', `/telephony/spare/${spare}`);
   };
 
   /** Return the list of phone domains compatible to be replaced */
-  getSpareSpareCompatibleReplacement = (spare: string): Promise<string> => {
+  getSpareCompatibleReplacementBySpare = (spare: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/spare/${spare}/compatibleReplacement`);
   };
 
   /** Replace the phone by its spare. The broken phone became a spare if it was bought. An RMA is created if the broken phone is under securitydeposit. */
-  postSpareSpareReplace = (spare: string, body: { domain: string; ip: string }): Promise<void> => {
+  postSpareReplaceBySpare = (
+    spare: string,
+    body: { domain: string; ip: string }
+  ): Promise<void> => {
     return this.ovh.request('POST', `/telephony/spare/${spare}/replace`, body);
   };
 
   /** Get this object properties */
-  getSpareSpareServiceInfos = (spare: string): Promise<ServicesService> => {
+  getSpareServiceInfosBySpare = (spare: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/telephony/spare/${spare}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putSpareSpareServiceInfos = (spare: string, body: ServicesService): Promise<void> => {
+  updateSpareServiceInfosBySpare = (spare: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/telephony/spare/${spare}/serviceInfos`, body);
   };
 
   /** List available services */
-  getTrunks = (): Promise<string> => {
+  listTrunks = (): Promise<string[]> => {
     return this.ovh.request('GET', '/telephony/trunks');
   };
 
   /** Get this object properties */
-  getTrunksServiceName = (serviceName: string): Promise<TelephonyTelephonyGenericService> => {
+  getTrunksByServiceName = (serviceName: string): Promise<TelephonyTelephonyGenericService> => {
     return this.ovh.request('GET', `/telephony/trunks/${serviceName}`);
   };
 
   /** Launch a contact change procedure */
-  postTrunksServiceNameChangeContact = (
+  launchTrunksChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/telephony/trunks/${serviceName}/changeContact`, body);
   };
 
   /** Get this object properties */
-  getTrunksServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getTrunksServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/telephony/trunks/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putTrunksServiceNameServiceInfos = (
+  updateTrunksServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -475,27 +481,30 @@ class TelephonyHandler {
   };
 
   /** Ask for a billing account termination. */
-  deleteBillingAccount = (billingAccount: string): Promise<void> => {
+  deleteByBillingAccount = (billingAccount: string): Promise<void> => {
     return this.ovh.request('DELETE', `/telephony/${billingAccount}`);
   };
 
   /** Get this object properties */
-  getBillingAccount = (billingAccount: string): Promise<TelephonyBillingAccount> => {
+  getByBillingAccount = (billingAccount: string): Promise<TelephonyBillingAccount> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}`);
   };
 
   /** Alter this object properties */
-  putBillingAccount = (billingAccount: string, body: TelephonyBillingAccount): Promise<void> => {
+  updateByBillingAccount = (
+    billingAccount: string,
+    body: TelephonyBillingAccount
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/telephony/${billingAccount}`, body);
   };
 
   /** Abbreviated numbers for the billing account */
-  getBillingAccountAbbreviatedNumber = (billingAccount: string): Promise<number> => {
+  getAbbreviatedNumberByBillingAccount = (billingAccount: string): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/abbreviatedNumber`);
   };
 
   /** Create a new abbreviated number for the billing account */
-  postBillingAccountAbbreviatedNumber = (
+  createAbbreviatedNumberByBillingAccount = (
     billingAccount: string,
     body: { abbreviatedNumber: number; destinationNumber: string; name: string; surname: string }
   ): Promise<TelephonyAbbreviatedNumberGroup> => {
@@ -503,7 +512,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given abbreviated number */
-  deleteBillingAccountAbbreviatedNumberAbbreviatedNumber = (
+  deleteAbbreviatedNumberByBillingAccountAndAbbreviatedNumber = (
     abbreviatedNumber: number,
     billingAccount: string
   ): Promise<void> => {
@@ -514,7 +523,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountAbbreviatedNumberAbbreviatedNumber = (
+  getAbbreviatedNumberByBillingAccountAndAbbreviatedNumber = (
     abbreviatedNumber: number,
     billingAccount: string
   ): Promise<TelephonyAbbreviatedNumberGroup> => {
@@ -525,7 +534,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountAbbreviatedNumberAbbreviatedNumber = (
+  updateAbbreviatedNumberByBillingAccountAndAbbreviatedNumber = (
     abbreviatedNumber: number,
     billingAccount: string,
     body: TelephonyAbbreviatedNumberGroup
@@ -538,22 +547,22 @@ class TelephonyHandler {
   };
 
   /** Get the allowed creditThreshold for this billing account */
-  getBillingAccountAllowedCreditThreshold = (billingAccount: string): Promise<OrderPrice> => {
+  getAllowedCreditThresholdByBillingAccount = (billingAccount: string): Promise<OrderPrice[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/allowedCreditThreshold`);
   };
 
   /** Give all amounts availables for your billing account */
-  getBillingAccountAmountSecurityDeposit = (billingAccount: string): Promise<OrderPrice> => {
+  getAmountSecurityDepositByBillingAccount = (billingAccount: string): Promise<OrderPrice[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/amountSecurityDeposit`);
   };
 
   /** Current billing account site (billing account features are overwritten by the site) */
-  getBillingAccountBillingAccountSite = (billingAccount: string): Promise<string> => {
+  getBillingAccountSiteByBillingAccount = (billingAccount: string): Promise<string> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/billingAccountSite`);
   };
 
   /** Used to overwrite current billing account feature by the billing account site */
-  postBillingAccountBillingAccountSite = (
+  postBillingAccountSiteByBillingAccount = (
     billingAccount: string,
     body: { billingAccountSite: string }
   ): Promise<void> => {
@@ -561,7 +570,7 @@ class TelephonyHandler {
   };
 
   /** Check if security deposit transfer is possible between two billing accounts */
-  postBillingAccountCanTransferSecurityDeposit = (
+  checkCanTransferSecurityDepositByBillingAccount = (
     billingAccount: string,
     body: { billingAccountDestination: string }
   ): Promise<boolean> => {
@@ -573,17 +582,17 @@ class TelephonyHandler {
   };
 
   /** Cancel the billing account termination */
-  postBillingAccountCancelTermination = (billingAccount: string): Promise<void> => {
+  postCancelTerminationByBillingAccount = (billingAccount: string): Promise<void> => {
     return this.ovh.request('POST', `/telephony/${billingAccount}/cancelTermination`);
   };
 
   /** Carrier SIP trunks associated with this billing account */
-  getBillingAccountCarrierSip = (billingAccount: string): Promise<string> => {
+  getCarrierSipByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/carrierSip`);
   };
 
   /** Get this object properties */
-  getBillingAccountCarrierSipServiceName = (
+  getCarrierSipByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyCarrierSip> => {
@@ -591,7 +600,7 @@ class TelephonyHandler {
   };
 
   /** Get the Call Detail Records of your Carrier SIP service */
-  getBillingAccountCarrierSipServiceNameCdrs = (
+  getCarrierSipCdrsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyDocument> => {
@@ -599,7 +608,7 @@ class TelephonyHandler {
   };
 
   /** Get details about the carrier sip cluster of your stack */
-  getBillingAccountCarrierSipServiceNameClusterDetails = (
+  getCarrierSipClusterDetailsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyCarrierSipClusterInfo> => {
@@ -610,10 +619,10 @@ class TelephonyHandler {
   };
 
   /** List of your remote sip endpoints (ips, ports, protocol) of your carrier sip trunk service */
-  getBillingAccountCarrierSipServiceNameEndpoints = (
+  listCarrierSipEndpointsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/carrierSip/${serviceName}/endpoints`
@@ -621,7 +630,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountCarrierSipServiceNameEndpointsId = (
+  getCarrierSipEndpointsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -633,7 +642,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountCarrierSipServiceNameSettings = (
+  getCarrierSipSettingsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyCarrierSipDetails> => {
@@ -644,7 +653,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountCarrierSipServiceNameSettings = (
+  updateCarrierSipSettingsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyCarrierSipDetails
@@ -657,20 +666,20 @@ class TelephonyHandler {
   };
 
   /** Launch a contact change procedure */
-  postBillingAccountChangeContact = (
+  launchChangeContactByBillingAccount = (
     billingAccount: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/telephony/${billingAccount}/changeContact`, body);
   };
 
   /** Conferences associated with this billing account */
-  getBillingAccountConference = (billingAccount: string): Promise<string> => {
+  getConferenceByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/conference`);
   };
 
   /** Get this object properties */
-  getBillingAccountConferenceServiceName = (
+  getConferenceByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyConference> => {
@@ -678,7 +687,7 @@ class TelephonyHandler {
   };
 
   /** Change the sound played at the beginning of the conference */
-  postBillingAccountConferenceServiceNameAnnounceUpload = (
+  updateConferenceAnnounceUploadByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { documentId: string }
@@ -691,10 +700,10 @@ class TelephonyHandler {
   };
 
   /** List your past conferences for this number */
-  getBillingAccountConferenceServiceNameHistories = (
+  listConferenceHistoriesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/conference/${serviceName}/histories`
@@ -702,7 +711,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountConferenceServiceNameHistoriesId = (
+  getConferenceHistoriesByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -714,7 +723,7 @@ class TelephonyHandler {
   };
 
   /** Get realtime conference informations */
-  getBillingAccountConferenceServiceNameInformations = (
+  getConferenceInformationsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyConferenceInformations> => {
@@ -725,7 +734,7 @@ class TelephonyHandler {
   };
 
   /** Lock the conference room */
-  postBillingAccountConferenceServiceNameLock = (
+  postConferenceLockByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyTask> => {
@@ -733,10 +742,10 @@ class TelephonyHandler {
   };
 
   /** Current participants of the associate conference */
-  getBillingAccountConferenceServiceNameParticipants = (
+  getConferenceParticipantsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/conference/${serviceName}/participants`
@@ -744,7 +753,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountConferenceServiceNameParticipantsId = (
+  getConferenceParticipantsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -756,7 +765,7 @@ class TelephonyHandler {
   };
 
   /** Make a participant deaf in your conference room */
-  postBillingAccountConferenceServiceNameParticipantsIdDeaf = (
+  postConferenceParticipantsDeafByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -768,7 +777,7 @@ class TelephonyHandler {
   };
 
   /** Change a participant level of audio transmission */
-  postBillingAccountConferenceServiceNameParticipantsIdEnergy = (
+  updateConferenceParticipantsEnergyByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string,
@@ -782,7 +791,7 @@ class TelephonyHandler {
   };
 
   /** Eject a participant from your conference room */
-  postBillingAccountConferenceServiceNameParticipantsIdKick = (
+  postConferenceParticipantsKickByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -794,7 +803,7 @@ class TelephonyHandler {
   };
 
   /** Mute a participant in your conference room */
-  postBillingAccountConferenceServiceNameParticipantsIdMute = (
+  postConferenceParticipantsMuteByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -806,7 +815,7 @@ class TelephonyHandler {
   };
 
   /** Make a participant undeaf your conference room */
-  postBillingAccountConferenceServiceNameParticipantsIdUndeaf = (
+  postConferenceParticipantsUndeafByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -818,7 +827,7 @@ class TelephonyHandler {
   };
 
   /** Unmute a participant in your conference room */
-  postBillingAccountConferenceServiceNameParticipantsIdUnmute = (
+  postConferenceParticipantsUnmuteByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -830,15 +839,15 @@ class TelephonyHandler {
   };
 
   /** List your conferences rooms for this number */
-  getBillingAccountConferenceServiceNameRooms = (
+  listConferenceRoomsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/conference/${serviceName}/rooms`);
   };
 
   /** Create a new conference room on your conference service */
-  postBillingAccountConferenceServiceNameRooms = (
+  createConferenceRoomsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { roomNumber?: number }
@@ -851,7 +860,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountConferenceServiceNameRoomsRoomNumber = (
+  getConferenceRoomsByBillingAccountAndServiceNameAndRoomNumber = (
     billingAccount: string,
     roomNumber: number,
     serviceName: string
@@ -863,7 +872,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountConferenceServiceNameRoomsRoomNumber = (
+  updateConferenceRoomsByBillingAccountAndServiceNameAndRoomNumber = (
     billingAccount: string,
     roomNumber: number,
     serviceName: string,
@@ -877,11 +886,11 @@ class TelephonyHandler {
   };
 
   /** List your past conferences for this room */
-  getBillingAccountConferenceServiceNameRoomsRoomNumberHistories = (
+  listConferenceRoomsHistoriesByBillingAccountAndServiceNameAndRoomNumber = (
     billingAccount: string,
     roomNumber: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/conference/${serviceName}/rooms/${roomNumber}/histories`
@@ -889,7 +898,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountConferenceServiceNameRoomsRoomNumberHistoriesId = (
+  getConferenceRoomsHistoriesByBillingAccountAndServiceNameAndRoomNumberAndId = (
     billingAccount: string,
     id: number,
     roomNumber: number,
@@ -902,7 +911,7 @@ class TelephonyHandler {
   };
 
   /** Lock the conference room */
-  postBillingAccountConferenceServiceNameRoomsRoomNumberLock = (
+  postConferenceRoomsLockByBillingAccountAndServiceNameAndRoomNumber = (
     billingAccount: string,
     roomNumber: number,
     serviceName: string
@@ -914,11 +923,11 @@ class TelephonyHandler {
   };
 
   /** Current participants of the conference room */
-  getBillingAccountConferenceServiceNameRoomsRoomNumberParticipants = (
+  getConferenceRoomsParticipantsByBillingAccountAndServiceNameAndRoomNumber = (
     billingAccount: string,
     roomNumber: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/conference/${serviceName}/rooms/${roomNumber}/participants`
@@ -926,7 +935,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountConferenceServiceNameRoomsRoomNumberParticipantsId = (
+  getConferenceRoomsParticipantsByBillingAccountAndServiceNameAndRoomNumberAndId = (
     billingAccount: string,
     id: number,
     roomNumber: number,
@@ -939,7 +948,7 @@ class TelephonyHandler {
   };
 
   /** Make a participant deaf in your conference room */
-  postBillingAccountConferenceServiceNameRoomsRoomNumberParticipantsIdDeaf = (
+  postConferenceRoomsParticipantsDeafByBillingAccountAndServiceNameAndRoomNumberAndId = (
     billingAccount: string,
     id: number,
     roomNumber: number,
@@ -952,7 +961,7 @@ class TelephonyHandler {
   };
 
   /** Change a participant level of audio transmission */
-  postBillingAccountConferenceServiceNameRoomsRoomNumberParticipantsIdEnergy = (
+  updateConferenceRoomsParticipantsEnergyByBillingAccountAndServiceNameAndRoomNumberAndId = (
     billingAccount: string,
     id: number,
     roomNumber: number,
@@ -967,7 +976,7 @@ class TelephonyHandler {
   };
 
   /** Eject a participant from your conference room */
-  postBillingAccountConferenceServiceNameRoomsRoomNumberParticipantsIdKick = (
+  postConferenceRoomsParticipantsKickByBillingAccountAndServiceNameAndRoomNumberAndId = (
     billingAccount: string,
     id: number,
     roomNumber: number,
@@ -980,7 +989,7 @@ class TelephonyHandler {
   };
 
   /** Mute a participant in your conference room */
-  postBillingAccountConferenceServiceNameRoomsRoomNumberParticipantsIdMute = (
+  postConferenceRoomsParticipantsMuteByBillingAccountAndServiceNameAndRoomNumberAndId = (
     billingAccount: string,
     id: number,
     roomNumber: number,
@@ -993,7 +1002,7 @@ class TelephonyHandler {
   };
 
   /** Make a participant undeaf your conference room */
-  postBillingAccountConferenceServiceNameRoomsRoomNumberParticipantsIdUndeaf = (
+  postConferenceRoomsParticipantsUndeafByBillingAccountAndServiceNameAndRoomNumberAndId = (
     billingAccount: string,
     id: number,
     roomNumber: number,
@@ -1006,7 +1015,7 @@ class TelephonyHandler {
   };
 
   /** Unmute a participant in your conference room */
-  postBillingAccountConferenceServiceNameRoomsRoomNumberParticipantsIdUnmute = (
+  postConferenceRoomsParticipantsUnmuteByBillingAccountAndServiceNameAndRoomNumberAndId = (
     billingAccount: string,
     id: number,
     roomNumber: number,
@@ -1019,7 +1028,7 @@ class TelephonyHandler {
   };
 
   /** Unlock the conference room */
-  postBillingAccountConferenceServiceNameRoomsRoomNumberUnlock = (
+  postConferenceRoomsUnlockByBillingAccountAndServiceNameAndRoomNumber = (
     billingAccount: string,
     roomNumber: number,
     serviceName: string
@@ -1031,11 +1040,11 @@ class TelephonyHandler {
   };
 
   /** List your conference room  web access */
-  getBillingAccountConferenceServiceNameRoomsRoomNumberWebAccess = (
+  listConferenceRoomsWebAccessByBillingAccountAndServiceNameAndRoomNumber = (
     billingAccount: string,
     roomNumber: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/conference/${serviceName}/rooms/${roomNumber}/webAccess`
@@ -1043,7 +1052,7 @@ class TelephonyHandler {
   };
 
   /** Add a public web access to your conference */
-  postBillingAccountConferenceServiceNameRoomsRoomNumberWebAccess = (
+  addConferenceRoomsWebAccessByBillingAccountAndServiceNameAndRoomNumber = (
     billingAccount: string,
     roomNumber: number,
     serviceName: string,
@@ -1057,7 +1066,7 @@ class TelephonyHandler {
   };
 
   /** Delete a public web access to your conference */
-  deleteBillingAccountConferenceServiceNameRoomsRoomNumberWebAccessId = (
+  deleteConferenceRoomsWebAccessByBillingAccountAndServiceNameAndRoomNumberAndId = (
     billingAccount: string,
     id: number,
     roomNumber: number,
@@ -1070,7 +1079,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountConferenceServiceNameRoomsRoomNumberWebAccessId = (
+  getConferenceRoomsWebAccessByBillingAccountAndServiceNameAndRoomNumberAndId = (
     billingAccount: string,
     id: number,
     roomNumber: number,
@@ -1083,7 +1092,7 @@ class TelephonyHandler {
   };
 
   /** Get realtime statistics about all rooms of your conference number */
-  getBillingAccountConferenceServiceNameRoomsStats = (
+  getConferenceRoomsStatsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyConferenceRoomsStatistics> => {
@@ -1094,7 +1103,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountConferenceServiceNameSettings = (
+  getConferenceSettingsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyConferenceProperties> => {
@@ -1105,7 +1114,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountConferenceServiceNameSettings = (
+  updateConferenceSettingsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyConferenceProperties
@@ -1118,7 +1127,7 @@ class TelephonyHandler {
   };
 
   /** Unlock the conference room */
-  postBillingAccountConferenceServiceNameUnlock = (
+  postConferenceUnlockByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyTask> => {
@@ -1129,10 +1138,10 @@ class TelephonyHandler {
   };
 
   /** List your conference web access */
-  getBillingAccountConferenceServiceNameWebAccess = (
+  listConferenceWebAccessByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/conference/${serviceName}/webAccess`
@@ -1140,7 +1149,7 @@ class TelephonyHandler {
   };
 
   /** Add a public web access to your conference */
-  postBillingAccountConferenceServiceNameWebAccess = (
+  addConferenceWebAccessByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { type: TelephonyConferenceWebAccessTypeEnum }
@@ -1153,7 +1162,7 @@ class TelephonyHandler {
   };
 
   /** Delete a public web access to your conference */
-  deleteBillingAccountConferenceServiceNameWebAccessId = (
+  deleteConferenceWebAccessByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -1165,7 +1174,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountConferenceServiceNameWebAccessId = (
+  getConferenceWebAccessByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -1177,12 +1186,12 @@ class TelephonyHandler {
   };
 
   /** DDIs (direct dial-in) associated with this billing account */
-  getBillingAccountDdi = (billingAccount: string): Promise<string> => {
+  getDdiByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/ddi`);
   };
 
   /** Get this object properties */
-  getBillingAccountDdiServiceName = (
+  getDdiByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyDdi> => {
@@ -1190,7 +1199,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountDdiServiceName = (
+  updateDdiByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyDdi
@@ -1199,7 +1208,7 @@ class TelephonyHandler {
   };
 
   /** Change the destination of the DDI */
-  postBillingAccountDdiServiceNameChangeDestination = (
+  updateDdiDestinationByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { destination: string }
@@ -1212,12 +1221,12 @@ class TelephonyHandler {
   };
 
   /** OVH easy calls queues associated with this billing account */
-  getBillingAccountEasyHunting = (billingAccount: string): Promise<string> => {
+  getEasyHuntingByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/easyHunting`);
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceName = (
+  getEasyHuntingByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyEasyHunting> => {
@@ -1225,7 +1234,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyHuntingServiceName = (
+  updateEasyHuntingByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyEasyHunting
@@ -1234,7 +1243,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHunting = (
+  getEasyHuntingHuntingByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyOvhPabxHunting> => {
@@ -1245,7 +1254,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyHuntingServiceNameHunting = (
+  updateEasyHuntingHuntingByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyOvhPabxHunting
@@ -1258,10 +1267,10 @@ class TelephonyHandler {
   };
 
   /** Calls agents */
-  getBillingAccountEasyHuntingServiceNameHuntingAgent = (
+  getEasyHuntingHuntingAgentByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/easyHunting/${serviceName}/hunting/agent`
@@ -1269,7 +1278,7 @@ class TelephonyHandler {
   };
 
   /** Create a new agent */
-  postBillingAccountEasyHuntingServiceNameHuntingAgent = (
+  createEasyHuntingHuntingAgentByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -1289,7 +1298,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given agent */
-  deleteBillingAccountEasyHuntingServiceNameHuntingAgentAgentId = (
+  deleteEasyHuntingHuntingAgentByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -1301,7 +1310,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingAgentAgentId = (
+  getEasyHuntingHuntingAgentByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -1313,7 +1322,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyHuntingServiceNameHuntingAgentAgentId = (
+  updateEasyHuntingHuntingAgentByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string,
@@ -1327,7 +1336,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given web access */
-  deleteBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdBannerAccess = (
+  deleteEasyHuntingHuntingAgentBannerAccessByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -1339,7 +1348,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdBannerAccess = (
+  getEasyHuntingHuntingAgentBannerAccessByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -1351,7 +1360,7 @@ class TelephonyHandler {
   };
 
   /** Create a new web access for this ressource */
-  postBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdBannerAccess = (
+  createEasyHuntingHuntingAgentBannerAccessByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -1363,11 +1372,11 @@ class TelephonyHandler {
   };
 
   /** Current calls of the callcenter agent */
-  getBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdCalls = (
+  getEasyHuntingHuntingAgentCallsByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/easyHunting/${serviceName}/hunting/agent/${agentId}/calls`
@@ -1375,7 +1384,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdCallsId = (
+  getEasyHuntingHuntingAgentCallsByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -1388,7 +1397,7 @@ class TelephonyHandler {
   };
 
   /** Eavesdrop on a call */
-  postBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdCallsIdEavesdrop = (
+  postEasyHuntingHuntingAgentCallsEavesdropByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -1403,7 +1412,7 @@ class TelephonyHandler {
   };
 
   /** Hangup a call */
-  postBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdCallsIdHangup = (
+  postEasyHuntingHuntingAgentCallsHangupByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -1416,7 +1425,7 @@ class TelephonyHandler {
   };
 
   /** Toogle hold on call */
-  postBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdCallsIdHold = (
+  postEasyHuntingHuntingAgentCallsHoldByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -1429,7 +1438,7 @@ class TelephonyHandler {
   };
 
   /** Intercept a non answered call */
-  postBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdCallsIdIntercept = (
+  postEasyHuntingHuntingAgentCallsInterceptByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -1444,7 +1453,7 @@ class TelephonyHandler {
   };
 
   /** Transfer an answered call */
-  postBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdCallsIdTransfer = (
+  postEasyHuntingHuntingAgentCallsTransferByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -1459,7 +1468,7 @@ class TelephonyHandler {
   };
 
   /** Whisper on a call */
-  postBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdCallsIdWhisper = (
+  postEasyHuntingHuntingAgentCallsWhisperByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -1474,7 +1483,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given token */
-  deleteBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdEventToken = (
+  deleteEasyHuntingHuntingAgentEventTokenByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -1486,7 +1495,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdEventToken = (
+  getEasyHuntingHuntingAgentEventTokenByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -1498,7 +1507,7 @@ class TelephonyHandler {
   };
 
   /** Create a new token */
-  postBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdEventToken = (
+  createEasyHuntingHuntingAgentEventTokenByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string,
@@ -1512,7 +1521,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdLiveStatus = (
+  getEasyHuntingHuntingAgentLiveStatusByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -1524,11 +1533,11 @@ class TelephonyHandler {
   };
 
   /** Agent assigned to the queues */
-  getBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdQueue = (
+  getEasyHuntingHuntingAgentQueueByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/easyHunting/${serviceName}/hunting/agent/${agentId}/queue`
@@ -1536,7 +1545,7 @@ class TelephonyHandler {
   };
 
   /** Create a new skill for an agent (it adds the agent in a queue) */
-  postBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdQueue = (
+  createEasyHuntingHuntingAgentQueueByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string,
@@ -1550,7 +1559,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given skill */
-  deleteBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdQueueQueueId = (
+  deleteEasyHuntingHuntingAgentQueueByBillingAccountAndServiceNameAndAgentIdAndQueueId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -1563,7 +1572,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdQueueQueueId = (
+  getEasyHuntingHuntingAgentQueueByBillingAccountAndServiceNameAndAgentIdAndQueueId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -1576,7 +1585,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdQueueQueueId = (
+  updateEasyHuntingHuntingAgentQueueByBillingAccountAndServiceNameAndAgentIdAndQueueId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -1591,7 +1600,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingAgentAgentIdQueueQueueIdLiveStatus = (
+  getEasyHuntingHuntingAgentQueueLiveStatusByBillingAccountAndServiceNameAndAgentIdAndQueueId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -1604,10 +1613,10 @@ class TelephonyHandler {
   };
 
   /** Custom statuses of your agents */
-  getBillingAccountEasyHuntingServiceNameHuntingCustomStatus = (
+  getEasyHuntingHuntingCustomStatusByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/easyHunting/${serviceName}/hunting/customStatus`
@@ -1615,7 +1624,7 @@ class TelephonyHandler {
   };
 
   /** Create a new custom status */
-  postBillingAccountEasyHuntingServiceNameHuntingCustomStatus = (
+  createEasyHuntingHuntingCustomStatusByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { color?: string; description?: string; name: string }
@@ -1628,7 +1637,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given custom status */
-  deleteBillingAccountEasyHuntingServiceNameHuntingCustomStatusId = (
+  deleteEasyHuntingHuntingCustomStatusByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -1640,7 +1649,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingCustomStatusId = (
+  getEasyHuntingHuntingCustomStatusByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -1652,7 +1661,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given token */
-  deleteBillingAccountEasyHuntingServiceNameHuntingEventToken = (
+  deleteEasyHuntingHuntingEventTokenByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -1663,7 +1672,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingEventToken = (
+  getEasyHuntingHuntingEventTokenByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyEventToken> => {
@@ -1674,7 +1683,7 @@ class TelephonyHandler {
   };
 
   /** Create a new token */
-  postBillingAccountEasyHuntingServiceNameHuntingEventToken = (
+  createEasyHuntingHuntingEventTokenByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { expiration: TelephonyTokenExpirationEnum }
@@ -1687,10 +1696,10 @@ class TelephonyHandler {
   };
 
   /** Calls queues */
-  getBillingAccountEasyHuntingServiceNameHuntingQueue = (
+  getEasyHuntingHuntingQueueByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/easyHunting/${serviceName}/hunting/queue`
@@ -1698,7 +1707,7 @@ class TelephonyHandler {
   };
 
   /** Create a new queue */
-  postBillingAccountEasyHuntingServiceNameHuntingQueue = (
+  createEasyHuntingHuntingQueueByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -1725,7 +1734,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given queue */
-  deleteBillingAccountEasyHuntingServiceNameHuntingQueueQueueId = (
+  deleteEasyHuntingHuntingQueueByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     queueId: number,
     serviceName: string
@@ -1737,7 +1746,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingQueueQueueId = (
+  getEasyHuntingHuntingQueueByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     queueId: number,
     serviceName: string
@@ -1749,7 +1758,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyHuntingServiceNameHuntingQueueQueueId = (
+  updateEasyHuntingHuntingQueueByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     queueId: number,
     serviceName: string,
@@ -1763,11 +1772,11 @@ class TelephonyHandler {
   };
 
   /** Agent assigned to the queue */
-  getBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdAgent = (
+  getEasyHuntingHuntingQueueAgentByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     queueId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/easyHunting/${serviceName}/hunting/queue/${queueId}/agent`
@@ -1775,7 +1784,7 @@ class TelephonyHandler {
   };
 
   /** Create a new skill for an agent (it adds the agent in a queue) */
-  postBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdAgent = (
+  createEasyHuntingHuntingQueueAgentByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     serviceName: string,
     body: { position: number; queueId: number }
@@ -1788,7 +1797,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given skill */
-  deleteBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdAgentAgentId = (
+  deleteEasyHuntingHuntingQueueAgentByBillingAccountAndServiceNameAndQueueIdAndAgentId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -1801,7 +1810,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdAgentAgentId = (
+  getEasyHuntingHuntingQueueAgentByBillingAccountAndServiceNameAndQueueIdAndAgentId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -1814,7 +1823,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdAgentAgentId = (
+  updateEasyHuntingHuntingQueueAgentByBillingAccountAndServiceNameAndQueueIdAndAgentId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -1829,7 +1838,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdAgentAgentIdLiveStatus = (
+  getEasyHuntingHuntingQueueAgentLiveStatusByBillingAccountAndServiceNameAndQueueIdAndAgentId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -1842,11 +1851,11 @@ class TelephonyHandler {
   };
 
   /** Live calls of the queue */
-  getBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdLiveCalls = (
+  getEasyHuntingHuntingQueueLiveCallsByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     queueId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/easyHunting/${serviceName}/hunting/queue/${queueId}/liveCalls`
@@ -1854,7 +1863,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdLiveCallsId = (
+  getEasyHuntingHuntingQueueLiveCallsByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -1867,7 +1876,7 @@ class TelephonyHandler {
   };
 
   /** Eavesdrop on a call */
-  postBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdLiveCallsIdEavesdrop = (
+  postEasyHuntingHuntingQueueLiveCallsEavesdropByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -1882,7 +1891,7 @@ class TelephonyHandler {
   };
 
   /** Hangup a call */
-  postBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdLiveCallsIdHangup = (
+  postEasyHuntingHuntingQueueLiveCallsHangupByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -1895,7 +1904,7 @@ class TelephonyHandler {
   };
 
   /** Toogle hold on call */
-  postBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdLiveCallsIdHold = (
+  postEasyHuntingHuntingQueueLiveCallsHoldByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -1908,7 +1917,7 @@ class TelephonyHandler {
   };
 
   /** Intercept a non answered call */
-  postBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdLiveCallsIdIntercept = (
+  postEasyHuntingHuntingQueueLiveCallsInterceptByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -1923,7 +1932,7 @@ class TelephonyHandler {
   };
 
   /** Transfer an answered call */
-  postBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdLiveCallsIdTransfer = (
+  postEasyHuntingHuntingQueueLiveCallsTransferByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -1938,7 +1947,7 @@ class TelephonyHandler {
   };
 
   /** Whisper on a call */
-  postBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdLiveCallsIdWhisper = (
+  postEasyHuntingHuntingQueueLiveCallsWhisperByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -1953,7 +1962,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameHuntingQueueQueueIdLiveStatistics = (
+  getEasyHuntingHuntingQueueLiveStatisticsByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     queueId: number,
     serviceName: string
@@ -1965,10 +1974,10 @@ class TelephonyHandler {
   };
 
   /** Records associated with this PABX */
-  getBillingAccountEasyHuntingServiceNameRecords = (
+  getEasyHuntingRecordsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/easyHunting/${serviceName}/records`
@@ -1976,7 +1985,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given record */
-  deleteBillingAccountEasyHuntingServiceNameRecordsId = (
+  deleteEasyHuntingRecordsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -1988,7 +1997,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameRecordsId = (
+  getEasyHuntingRecordsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -2000,7 +2009,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameScreenListConditions = (
+  getEasyHuntingScreenListConditionsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyEasyHuntingScreenListsConditionsSettings> => {
@@ -2011,7 +2020,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyHuntingServiceNameScreenListConditions = (
+  updateEasyHuntingScreenListConditionsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyEasyHuntingScreenListsConditionsSettings
@@ -2024,10 +2033,10 @@ class TelephonyHandler {
   };
 
   /** Screen lists conditions checked when a call is received */
-  getBillingAccountEasyHuntingServiceNameScreenListConditionsConditions = (
+  getEasyHuntingScreenListConditionsConditionsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/easyHunting/${serviceName}/screenListConditions/conditions`
@@ -2035,7 +2044,7 @@ class TelephonyHandler {
   };
 
   /** Create a new screenlist condition for an extension */
-  postBillingAccountEasyHuntingServiceNameScreenListConditionsConditions = (
+  createEasyHuntingScreenListConditionsConditionsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -2052,7 +2061,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given condition */
-  deleteBillingAccountEasyHuntingServiceNameScreenListConditionsConditionsConditionId = (
+  deleteEasyHuntingScreenListConditionsConditionsByBillingAccountAndServiceNameAndConditionId = (
     billingAccount: string,
     conditionId: number,
     serviceName: string
@@ -2064,7 +2073,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameScreenListConditionsConditionsConditionId = (
+  getEasyHuntingScreenListConditionsConditionsByBillingAccountAndServiceNameAndConditionId = (
     billingAccount: string,
     conditionId: number,
     serviceName: string
@@ -2076,7 +2085,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyHuntingServiceNameScreenListConditionsConditionsConditionId = (
+  updateEasyHuntingScreenListConditionsConditionsByBillingAccountAndServiceNameAndConditionId = (
     billingAccount: string,
     conditionId: number,
     serviceName: string,
@@ -2090,15 +2099,15 @@ class TelephonyHandler {
   };
 
   /** Sounds associated with this PABX */
-  getBillingAccountEasyHuntingServiceNameSound = (
+  getEasyHuntingSoundByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/easyHunting/${serviceName}/sound`);
   };
 
   /** Delete the given sound */
-  deleteBillingAccountEasyHuntingServiceNameSoundSoundId = (
+  deleteEasyHuntingSoundByBillingAccountAndServiceNameAndSoundId = (
     billingAccount: string,
     serviceName: string,
     soundId: number
@@ -2110,7 +2119,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameSoundSoundId = (
+  getEasyHuntingSoundByBillingAccountAndServiceNameAndSoundId = (
     billingAccount: string,
     serviceName: string,
     soundId: number
@@ -2122,7 +2131,7 @@ class TelephonyHandler {
   };
 
   /** Upload new sound file */
-  postBillingAccountEasyHuntingServiceNameSoundUpload = (
+  postEasyHuntingSoundUploadByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { documentId?: string; name?: string; url?: string }
@@ -2135,7 +2144,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameTimeConditions = (
+  getEasyHuntingTimeConditionsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyEasyHuntingTimeConditionsSettings> => {
@@ -2146,7 +2155,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyHuntingServiceNameTimeConditions = (
+  updateEasyHuntingTimeConditionsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyEasyHuntingTimeConditionsSettings
@@ -2159,10 +2168,10 @@ class TelephonyHandler {
   };
 
   /** Time conditions checked when a call is received */
-  getBillingAccountEasyHuntingServiceNameTimeConditionsConditions = (
+  getEasyHuntingTimeConditionsConditionsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/easyHunting/${serviceName}/timeConditions/conditions`
@@ -2170,7 +2179,7 @@ class TelephonyHandler {
   };
 
   /** Create a new time condition */
-  postBillingAccountEasyHuntingServiceNameTimeConditionsConditions = (
+  createEasyHuntingTimeConditionsConditionsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -2188,7 +2197,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given condition */
-  deleteBillingAccountEasyHuntingServiceNameTimeConditionsConditionsConditionId = (
+  deleteEasyHuntingTimeConditionsConditionsByBillingAccountAndServiceNameAndConditionId = (
     billingAccount: string,
     conditionId: number,
     serviceName: string
@@ -2200,7 +2209,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyHuntingServiceNameTimeConditionsConditionsConditionId = (
+  getEasyHuntingTimeConditionsConditionsByBillingAccountAndServiceNameAndConditionId = (
     billingAccount: string,
     conditionId: number,
     serviceName: string
@@ -2212,7 +2221,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyHuntingServiceNameTimeConditionsConditionsConditionId = (
+  updateEasyHuntingTimeConditionsConditionsByBillingAccountAndServiceNameAndConditionId = (
     billingAccount: string,
     conditionId: number,
     serviceName: string,
@@ -2226,12 +2235,12 @@ class TelephonyHandler {
   };
 
   /** EasyPabx associated with this billing account */
-  getBillingAccountEasyPabx = (billingAccount: string): Promise<string> => {
+  getEasyPabxByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/easyPabx`);
   };
 
   /** Get this object properties */
-  getBillingAccountEasyPabxServiceName = (
+  getEasyPabxByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyEasyPabx> => {
@@ -2239,7 +2248,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyPabxServiceName = (
+  updateEasyPabxByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyEasyPabx
@@ -2248,7 +2257,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyPabxServiceNameHunting = (
+  getEasyPabxHuntingByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyEasyPabxHunting> => {
@@ -2256,7 +2265,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyPabxServiceNameHunting = (
+  updateEasyPabxHuntingByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyEasyPabxHunting
@@ -2269,10 +2278,10 @@ class TelephonyHandler {
   };
 
   /** Hunting agents */
-  getBillingAccountEasyPabxServiceNameHuntingAgent = (
+  getEasyPabxHuntingAgentByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/easyPabx/${serviceName}/hunting/agent`
@@ -2280,7 +2289,7 @@ class TelephonyHandler {
   };
 
   /** Create a new agent */
-  postBillingAccountEasyPabxServiceNameHuntingAgent = (
+  createEasyPabxHuntingAgentByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { agentNumber: string; logged: boolean; noReplyTimer: number; position: number }
@@ -2293,7 +2302,7 @@ class TelephonyHandler {
   };
 
   /** Delete the agent */
-  deleteBillingAccountEasyPabxServiceNameHuntingAgentAgentNumber = (
+  deleteEasyPabxHuntingAgentByBillingAccountAndServiceNameAndAgentNumber = (
     agentNumber: string,
     billingAccount: string,
     serviceName: string
@@ -2305,7 +2314,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyPabxServiceNameHuntingAgentAgentNumber = (
+  getEasyPabxHuntingAgentByBillingAccountAndServiceNameAndAgentNumber = (
     agentNumber: string,
     billingAccount: string,
     serviceName: string
@@ -2317,7 +2326,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyPabxServiceNameHuntingAgentAgentNumber = (
+  updateEasyPabxHuntingAgentByBillingAccountAndServiceNameAndAgentNumber = (
     agentNumber: string,
     billingAccount: string,
     serviceName: string,
@@ -2331,7 +2340,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountEasyPabxServiceNameHuntingTones = (
+  getEasyPabxHuntingTonesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyTones> => {
@@ -2342,7 +2351,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountEasyPabxServiceNameHuntingTones = (
+  updateEasyPabxHuntingTonesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyTones
@@ -2355,7 +2364,7 @@ class TelephonyHandler {
   };
 
   /** Upload new tone file */
-  postBillingAccountEasyPabxServiceNameHuntingTonesToneUpload = (
+  postEasyPabxHuntingTonesToneUploadByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { documentId?: string; type: TelephonyTonesTypeEnum; url?: string }
@@ -2368,17 +2377,17 @@ class TelephonyHandler {
   };
 
   /** Delete the given token */
-  deleteBillingAccountEventToken = (billingAccount: string): Promise<void> => {
+  deleteEventTokenByBillingAccount = (billingAccount: string): Promise<void> => {
     return this.ovh.request('DELETE', `/telephony/${billingAccount}/eventToken`);
   };
 
   /** Get this object properties */
-  getBillingAccountEventToken = (billingAccount: string): Promise<TelephonyEventToken> => {
+  getEventTokenByBillingAccount = (billingAccount: string): Promise<TelephonyEventToken> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/eventToken`);
   };
 
   /** Create a new token */
-  postBillingAccountEventToken = (
+  createEventTokenByBillingAccount = (
     billingAccount: string,
     body: { expiration: TelephonyTokenExpirationEnum }
   ): Promise<string> => {
@@ -2386,12 +2395,12 @@ class TelephonyHandler {
   };
 
   /** Faxes associated with this billing account */
-  getBillingAccountFax = (billingAccount: string): Promise<string> => {
+  getFaxByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/fax`);
   };
 
   /** Get this object properties */
-  getBillingAccountFaxServiceName = (
+  getFaxByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyFax> => {
@@ -2399,7 +2408,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountFaxServiceName = (
+  updateFaxByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyFax
@@ -2408,15 +2417,15 @@ class TelephonyHandler {
   };
 
   /** Fax campaigns of the associate fax */
-  getBillingAccountFaxServiceNameCampaigns = (
+  getFaxCampaignsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/fax/${serviceName}/campaigns`);
   };
 
   /** Create a new fax campaign */
-  postBillingAccountFaxServiceNameCampaigns = (
+  createFaxCampaignsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -2424,7 +2433,7 @@ class TelephonyHandler {
       faxQuality?: TelephonyFaxQualityEnum;
       name: string;
       recipientsDocId?: string;
-      recipientsList?: string;
+      recipientsList?: string[];
       recipientsType: TelephonyFaxCampaignRecipientsTypeEnum;
       sendDate?: Date;
       sendType: TelephonyFaxCampaignSendTypeEnum;
@@ -2438,7 +2447,7 @@ class TelephonyHandler {
   };
 
   /** Delete a fax campaign */
-  deleteBillingAccountFaxServiceNameCampaignsId = (
+  deleteFaxCampaignsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -2450,7 +2459,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountFaxServiceNameCampaignsId = (
+  getFaxCampaignsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -2462,7 +2471,7 @@ class TelephonyHandler {
   };
 
   /** Detail of the fax recipients by status */
-  getBillingAccountFaxServiceNameCampaignsIdDetail = (
+  getFaxCampaignsDetailByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -2474,7 +2483,7 @@ class TelephonyHandler {
   };
 
   /** Start a fax campaign */
-  postBillingAccountFaxServiceNameCampaignsIdStart = (
+  postFaxCampaignsStartByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -2486,7 +2495,7 @@ class TelephonyHandler {
   };
 
   /** Stop a fax campaign */
-  postBillingAccountFaxServiceNameCampaignsIdStop = (
+  postFaxCampaignsStopByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -2498,7 +2507,7 @@ class TelephonyHandler {
   };
 
   /** Delete all fax screenLists */
-  deleteBillingAccountFaxServiceNameScreenLists = (
+  deleteFaxScreenListsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -2509,7 +2518,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountFaxServiceNameScreenLists = (
+  getFaxScreenListsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyFaxScreen> => {
@@ -2517,15 +2526,15 @@ class TelephonyHandler {
   };
 
   /** Create a new fax ScreenLists */
-  postBillingAccountFaxServiceNameScreenLists = (
+  createFaxScreenListsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
-      blacklistedNumbers?: string;
-      blacklistedTSI?: string;
+      blacklistedNumbers?: string[];
+      blacklistedTSI?: string[];
       filteringList?: TelephonyFaxScreenListTypeEnum;
-      whitelistedNumbers?: string;
-      whitelistedTSI?: string;
+      whitelistedNumbers?: string[];
+      whitelistedTSI?: string[];
     }
   ): Promise<TelephonyFaxScreen> => {
     return this.ovh.request(
@@ -2536,7 +2545,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountFaxServiceNameScreenLists = (
+  updateFaxScreenListsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyFaxScreen
@@ -2549,7 +2558,7 @@ class TelephonyHandler {
   };
 
   /** Reset a specifical fax screenList */
-  postBillingAccountFaxServiceNameScreenListsReset = (
+  postFaxScreenListsResetByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -2567,7 +2576,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountFaxServiceNameSettings = (
+  getFaxSettingsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyFaxProperties> => {
@@ -2575,7 +2584,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountFaxServiceNameSettings = (
+  updateFaxSettingsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyFaxProperties
@@ -2588,7 +2597,7 @@ class TelephonyHandler {
   };
 
   /** Generates a new password for your fax account */
-  postBillingAccountFaxServiceNameSettingsChangePassword = (
+  postFaxSettingsChangePasswordByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { password?: string }
@@ -2601,10 +2610,10 @@ class TelephonyHandler {
   };
 
   /** Send a fax */
-  postBillingAccountFaxServiceNameSettingsSendFax = (
+  sendFaxSettingsFaxByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
-    body: { dateSchedule?: Date; pdfUrl: string; recipients: string }
+    body: { dateSchedule?: Date; pdfUrl: string; recipients: string[] }
   ): Promise<TelephonyTask> => {
     return this.ovh.request(
       'POST',
@@ -2614,17 +2623,17 @@ class TelephonyHandler {
   };
 
   /** Check if the billing account contains at least one special number */
-  getBillingAccountHasSpecialNumbers = (billingAccount: string): Promise<boolean> => {
+  checkHasSpecialNumbersByBillingAccount = (billingAccount: string): Promise<boolean> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/hasSpecialNumbers`);
   };
 
   /** Previous billed consumptions */
-  getBillingAccountHistoryConsumption = (billingAccount: string): Promise<Date> => {
+  getHistoryConsumptionByBillingAccount = (billingAccount: string): Promise<Date[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/historyConsumption`);
   };
 
   /** Get this object properties */
-  getBillingAccountHistoryConsumptionDate = (
+  getHistoryConsumptionByBillingAccountAndDate = (
     billingAccount: string,
     date: Date
   ): Promise<TelephonyHistoryConsumption> => {
@@ -2632,7 +2641,7 @@ class TelephonyHandler {
   };
 
   /** Previous billed consumption files */
-  getBillingAccountHistoryConsumptionDateFile = (
+  getHistoryConsumptionFileByBillingAccountAndDate = (
     billingAccount: string,
     date: Date
   ): Promise<TelephonyPcsFile> => {
@@ -2640,12 +2649,12 @@ class TelephonyHandler {
   };
 
   /** Previous repayment bill */
-  getBillingAccountHistoryRepaymentConsumption = (billingAccount: string): Promise<Date> => {
+  getHistoryRepaymentConsumptionByBillingAccount = (billingAccount: string): Promise<Date[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/historyRepaymentConsumption`);
   };
 
   /** Ask for a new repayment */
-  postBillingAccountHistoryRepaymentConsumption = (
+  postHistoryRepaymentConsumptionByBillingAccount = (
     billingAccount: string,
     body: { billingNumber?: string }
   ): Promise<TelephonyHistoryRepaymentConsumption> => {
@@ -2657,7 +2666,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountHistoryRepaymentConsumptionDate = (
+  getHistoryRepaymentConsumptionByBillingAccountAndDate = (
     billingAccount: string,
     date: Date
   ): Promise<TelephonyHistoryRepaymentConsumption> => {
@@ -2668,7 +2677,7 @@ class TelephonyHandler {
   };
 
   /** Get the csv document */
-  getBillingAccountHistoryRepaymentConsumptionDateDocument = (
+  getHistoryRepaymentConsumptionDocumentByBillingAccountAndDate = (
     billingAccount: string,
     date: Date
   ): Promise<TelephonyPcsFile> => {
@@ -2679,12 +2688,12 @@ class TelephonyHandler {
   };
 
   /** Previous tollfree bill */
-  getBillingAccountHistoryTollfreeConsumption = (billingAccount: string): Promise<Date> => {
+  getHistoryTollfreeConsumptionByBillingAccount = (billingAccount: string): Promise<Date[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/historyTollfreeConsumption`);
   };
 
   /** Get this object properties */
-  getBillingAccountHistoryTollfreeConsumptionDate = (
+  getHistoryTollfreeConsumptionByBillingAccountAndDate = (
     billingAccount: string,
     date: Date
   ): Promise<TelephonyHistoryTollfreeConsumption> => {
@@ -2695,7 +2704,7 @@ class TelephonyHandler {
   };
 
   /** Get the csv document */
-  getBillingAccountHistoryTollfreeConsumptionDateDocument = (
+  getHistoryTollfreeConsumptionDocumentByBillingAccountAndDate = (
     billingAccount: string,
     date: Date
   ): Promise<TelephonyPcsFile> => {
@@ -2706,12 +2715,12 @@ class TelephonyHandler {
   };
 
   /** Lines associated with this billing account */
-  getBillingAccountLine = (billingAccount: string): Promise<string> => {
+  getLineByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/line`);
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceName = (
+  getLineByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyLine> => {
@@ -2719,7 +2728,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountLineServiceName = (
+  updateLineByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyLine
@@ -2728,10 +2737,10 @@ class TelephonyHandler {
   };
 
   /** Abbreviated numbers for the line */
-  getBillingAccountLineServiceNameAbbreviatedNumber = (
+  getLineAbbreviatedNumberByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/abbreviatedNumber`
@@ -2739,7 +2748,7 @@ class TelephonyHandler {
   };
 
   /** Create a new abbreviated number for the line */
-  postBillingAccountLineServiceNameAbbreviatedNumber = (
+  createLineAbbreviatedNumberByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { abbreviatedNumber: number; destinationNumber: string; name: string; surname: string }
@@ -2752,7 +2761,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given abbreviated number */
-  deleteBillingAccountLineServiceNameAbbreviatedNumberAbbreviatedNumber = (
+  deleteLineAbbreviatedNumberByBillingAccountAndServiceNameAndAbbreviatedNumber = (
     abbreviatedNumber: number,
     billingAccount: string,
     serviceName: string
@@ -2764,7 +2773,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceNameAbbreviatedNumberAbbreviatedNumber = (
+  getLineAbbreviatedNumberByBillingAccountAndServiceNameAndAbbreviatedNumber = (
     abbreviatedNumber: number,
     billingAccount: string,
     serviceName: string
@@ -2776,7 +2785,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountLineServiceNameAbbreviatedNumberAbbreviatedNumber = (
+  updateLineAbbreviatedNumberByBillingAccountAndServiceNameAndAbbreviatedNumber = (
     abbreviatedNumber: number,
     billingAccount: string,
     serviceName: string,
@@ -2790,7 +2799,7 @@ class TelephonyHandler {
   };
 
   /** Check if there is a new phone to activate and if it's possible, in case of phone switch */
-  getBillingAccountLineServiceNameActivateNewPhone = (
+  checkLineActivateNewPhoneByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -2801,7 +2810,7 @@ class TelephonyHandler {
   };
 
   /** Allow to activate new phone, in case of phone switch */
-  postBillingAccountLineServiceNameActivateNewPhone = (
+  postLineActivateNewPhoneByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -2812,15 +2821,15 @@ class TelephonyHandler {
   };
 
   /** Current list of numbers or short code numbers restricted by an auto antihack */
-  getBillingAccountLineServiceNameAntihack = (
+  getLineAntihackByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/line/${serviceName}/antihack`);
   };
 
   /** Clean the antihack or add it on active filter screen list */
-  postBillingAccountLineServiceNameAntihack = (
+  postLineAntihackByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { action: TelephonyAntihackActionEnum; restricted?: string }
@@ -2833,7 +2842,7 @@ class TelephonyHandler {
   };
 
   /** Associate a device to the current line with the device mac address */
-  postBillingAccountLineServiceNameAssociateDevice = (
+  postLineAssociateDeviceByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { ipAddress?: string; macAddress: string; slot?: number }
@@ -2846,10 +2855,10 @@ class TelephonyHandler {
   };
 
   /** Automatic Calls made by Calls Generator on this line */
-  getBillingAccountLineServiceNameAutomaticCall = (
+  getLineAutomaticCallByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/automaticCall`
@@ -2857,7 +2866,7 @@ class TelephonyHandler {
   };
 
   /** Make an automatic phone call. Return generated call identifier */
-  postBillingAccountLineServiceNameAutomaticCall = (
+  postLineAutomaticCallByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -2879,7 +2888,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceNameAutomaticCallIdentifier = (
+  getLineAutomaticCallByBillingAccountAndServiceNameAndIdentifier = (
     billingAccount: string,
     identifier: string,
     serviceName: string
@@ -2891,10 +2900,10 @@ class TelephonyHandler {
   };
 
   /** Listing of domains Sip availables */
-  getBillingAccountLineServiceNameAvailableSipDomains = (
+  listLineAvailableSipDomainsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/availableSipDomains`
@@ -2902,7 +2911,7 @@ class TelephonyHandler {
   };
 
   /** Block the line. By default it will block incoming and outgoing calls (except for emergency numbers) */
-  postBillingAccountLineServiceNameBlock = (
+  postLineBlockByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { mode?: TelephonyLineBlockingMode }
@@ -2911,15 +2920,15 @@ class TelephonyHandler {
   };
 
   /** The active calls of your line as a call center agent */
-  getBillingAccountLineServiceNameCalls = (
+  getLineCallsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/line/${serviceName}/calls`);
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceNameCallsId = (
+  getLineCallsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -2928,7 +2937,7 @@ class TelephonyHandler {
   };
 
   /** Eavesdrop on a call */
-  postBillingAccountLineServiceNameCallsIdEavesdrop = (
+  postLineCallsEavesdropByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string,
@@ -2942,7 +2951,7 @@ class TelephonyHandler {
   };
 
   /** Hangup a call */
-  postBillingAccountLineServiceNameCallsIdHangup = (
+  postLineCallsHangupByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -2954,7 +2963,7 @@ class TelephonyHandler {
   };
 
   /** Toogle hold on call */
-  postBillingAccountLineServiceNameCallsIdHold = (
+  postLineCallsHoldByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -2966,7 +2975,7 @@ class TelephonyHandler {
   };
 
   /** Intercept a non answered call */
-  postBillingAccountLineServiceNameCallsIdIntercept = (
+  postLineCallsInterceptByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string,
@@ -2980,7 +2989,7 @@ class TelephonyHandler {
   };
 
   /** Transfer an answered call */
-  postBillingAccountLineServiceNameCallsIdTransfer = (
+  postLineCallsTransferByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string,
@@ -2994,7 +3003,7 @@ class TelephonyHandler {
   };
 
   /** Whisper on a call */
-  postBillingAccountLineServiceNameCallsIdWhisper = (
+  postLineCallsWhisperByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string,
@@ -3008,7 +3017,7 @@ class TelephonyHandler {
   };
 
   /** Ability to manage SIP password on this service */
-  getBillingAccountLineServiceNameCanChangePassword = (
+  getLineCanChangePasswordByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<boolean> => {
@@ -3019,7 +3028,7 @@ class TelephonyHandler {
   };
 
   /** Cancel a scheduled conversion to number */
-  postBillingAccountLineServiceNameCancelConvertToNumber = (
+  postLineCancelConvertToNumberByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -3030,7 +3039,7 @@ class TelephonyHandler {
   };
 
   /** Change the SIP account password. It must be more than 7 and less than 21 alpha and numerical characters. */
-  postBillingAccountLineServiceNameChangePassword = (
+  updateLinePasswordByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { password?: string }
@@ -3043,7 +3052,7 @@ class TelephonyHandler {
   };
 
   /** Make a phone call from the current line */
-  postBillingAccountLineServiceNameClick2Call = (
+  postLineClick2CallByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { calledNumber: string; callingNumber?: string; intercom?: boolean }
@@ -3056,10 +3065,10 @@ class TelephonyHandler {
   };
 
   /** User which can use click 2 call on the line */
-  getBillingAccountLineServiceNameClick2CallUser = (
+  getLineClick2CallUserByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/click2CallUser`
@@ -3067,7 +3076,7 @@ class TelephonyHandler {
   };
 
   /** Create a new user for click 2 call */
-  postBillingAccountLineServiceNameClick2CallUser = (
+  createLineClick2CallUserByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { login: string; password: string }
@@ -3080,7 +3089,7 @@ class TelephonyHandler {
   };
 
   /** Delete a click 2 call user */
-  deleteBillingAccountLineServiceNameClick2CallUserId = (
+  deleteLineClick2CallUserByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -3092,7 +3101,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceNameClick2CallUserId = (
+  getLineClick2CallUserByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -3104,7 +3113,7 @@ class TelephonyHandler {
   };
 
   /** Change the password of the click2call user */
-  postBillingAccountLineServiceNameClick2CallUserIdChangePassword = (
+  updateLineClick2CallUserPasswordByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string,
@@ -3118,7 +3127,7 @@ class TelephonyHandler {
   };
 
   /** Make a phone call from the current line */
-  postBillingAccountLineServiceNameClick2CallUserIdClick2Call = (
+  postLineClick2CallUserClick2CallByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string,
@@ -3132,7 +3141,7 @@ class TelephonyHandler {
   };
 
   /** Schedule a conversion to number */
-  postBillingAccountLineServiceNameConvertToNumber = (
+  postLineConvertToNumberByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyOfferTask> => {
@@ -3143,7 +3152,7 @@ class TelephonyHandler {
   };
 
   /** Dissociate a device from the current line with the device mac address */
-  postBillingAccountLineServiceNameDissociateDevice = (
+  postLineDissociateDeviceByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { ipAddress?: string; macAddress: string }
@@ -3156,18 +3165,18 @@ class TelephonyHandler {
   };
 
   /** Listing of last ips registry */
-  getBillingAccountLineServiceNameIps = (
+  listLineIpsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<TelephonyDatetimeAndIpvalue> => {
+  ): Promise<TelephonyDatetimeAndIpvalue[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/line/${serviceName}/ips`);
   };
 
   /** List the informations about the last registrations (i.e. IP, port, User-Agent...) */
-  getBillingAccountLineServiceNameLastRegistrations = (
+  listLineLastRegistrationsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<TelephonyRegistrationInformations> => {
+  ): Promise<TelephonyRegistrationInformations[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/lastRegistrations`
@@ -3175,10 +3184,10 @@ class TelephonyHandler {
   };
 
   /** List phones with available slots where this line can be attached */
-  getBillingAccountLineServiceNameListAssociablePhones = (
+  listLineAssociablePhonesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<TelephonyLinePhoneAssociable> => {
+  ): Promise<TelephonyLinePhoneAssociable[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/listAssociablePhones`
@@ -3186,7 +3195,7 @@ class TelephonyHandler {
   };
 
   /** Get the maximum available simultaneous lines for this line */
-  getBillingAccountLineServiceNameMaximumAvailableSimultaneousLines = (
+  getLineMaximumAvailableSimultaneousLinesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<number> => {
@@ -3197,7 +3206,7 @@ class TelephonyHandler {
   };
 
   /** Return public offer property */
-  getBillingAccountLineServiceNameOffer = (
+  getLineOfferByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyLineOffer> => {
@@ -3205,7 +3214,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceNameOptions = (
+  getLineOptionsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyLineOptions> => {
@@ -3213,7 +3222,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountLineServiceNameOptions = (
+  updateLineOptionsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyLineOptions
@@ -3226,10 +3235,10 @@ class TelephonyHandler {
   };
 
   /** List of codecs combinaisons available for this line */
-  getBillingAccountLineServiceNameOptionsAvailableCodecs = (
+  listLineOptionsAvailableCodecsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/options/availableCodecs`
@@ -3237,7 +3246,7 @@ class TelephonyHandler {
   };
 
   /** Get the default codecs for this line if none are set */
-  getBillingAccountLineServiceNameOptionsDefaultCodecs = (
+  getLineOptionsDefaultCodecsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<string> => {
@@ -3248,7 +3257,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceNamePhone = (
+  getLinePhoneByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyPhone> => {
@@ -3256,7 +3265,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountLineServiceNamePhone = (
+  updateLinePhoneByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyPhone
@@ -3265,7 +3274,7 @@ class TelephonyHandler {
   };
 
   /** Returns the administration user and password of the phone if you are a VIP */
-  getBillingAccountLineServiceNamePhoneAdminCredentials = (
+  getLinePhoneAdminCredentialsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyPhoneCredentials> => {
@@ -3276,7 +3285,7 @@ class TelephonyHandler {
   };
 
   /** Edit configuration of the phone remotely by provisioning */
-  postBillingAccountLineServiceNamePhoneChangePhoneConfiguration = (
+  updateLinePhoneChangePhoneConfigurationByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { autoReboot?: boolean; newConfigurations?: string }
@@ -3289,10 +3298,10 @@ class TelephonyHandler {
   };
 
   /** Plug & Phone function keys */
-  getBillingAccountLineServiceNamePhoneFunctionKey = (
+  getLinePhoneFunctionKeyByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/phone/functionKey`
@@ -3300,7 +3309,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceNamePhoneFunctionKeyKeyNum = (
+  getLinePhoneFunctionKeyByBillingAccountAndServiceNameAndKeyNum = (
     billingAccount: string,
     keyNum: number,
     serviceName: string
@@ -3312,7 +3321,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountLineServiceNamePhoneFunctionKeyKeyNum = (
+  updateLinePhoneFunctionKeyByBillingAccountAndServiceNameAndKeyNum = (
     billingAccount: string,
     keyNum: number,
     serviceName: string,
@@ -3326,11 +3335,11 @@ class TelephonyHandler {
   };
 
   /** List the available functions for the key */
-  getBillingAccountLineServiceNamePhoneFunctionKeyKeyNumAvailableFunction = (
+  listLinePhoneFunctionKeyAvailableFunctionsByBillingAccountAndServiceNameAndKeyNum = (
     billingAccount: string,
     keyNum: number,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/phone/functionKey/${keyNum}/availableFunction`
@@ -3338,10 +3347,10 @@ class TelephonyHandler {
   };
 
   /** List of available exchange merchandise brand */
-  getBillingAccountLineServiceNamePhoneMerchandiseAvailable = (
+  listLinePhoneMerchandiseAvailablesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<TelephonyHardwareOffer> => {
+  ): Promise<TelephonyHardwareOffer[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/phone/merchandiseAvailable`
@@ -3349,10 +3358,10 @@ class TelephonyHandler {
   };
 
   /** Return phonebooks associated */
-  getBillingAccountLineServiceNamePhonePhonebook = (
+  getLinePhonePhonebookByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/phone/phonebook`
@@ -3360,7 +3369,7 @@ class TelephonyHandler {
   };
 
   /** Add a phonebook. Return the bookKey. */
-  postBillingAccountLineServiceNamePhonePhonebook = (
+  addLinePhonePhonebookByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { name: string }
@@ -3373,7 +3382,7 @@ class TelephonyHandler {
   };
 
   /** Delete a phonebook */
-  deleteBillingAccountLineServiceNamePhonePhonebookBookKey = (
+  deleteLinePhonePhonebookByBillingAccountAndServiceNameAndBookKey = (
     billingAccount: string,
     bookKey: string,
     serviceName: string
@@ -3385,7 +3394,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceNamePhonePhonebookBookKey = (
+  getLinePhonePhonebookByBillingAccountAndServiceNameAndBookKey = (
     billingAccount: string,
     bookKey: string,
     serviceName: string
@@ -3397,7 +3406,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountLineServiceNamePhonePhonebookBookKey = (
+  updateLinePhonePhonebookByBillingAccountAndServiceNameAndBookKey = (
     billingAccount: string,
     bookKey: string,
     serviceName: string,
@@ -3411,7 +3420,7 @@ class TelephonyHandler {
   };
 
   /** Export the phonebook's contacts */
-  getBillingAccountLineServiceNamePhonePhonebookBookKeyExport = (
+  exportLinePhonePhonebookByBillingAccountAndServiceNameAndBookKey = (
     billingAccount: string,
     bookKey: string,
     serviceName: string
@@ -3423,7 +3432,7 @@ class TelephonyHandler {
   };
 
   /** Import a contacts file. Supported formats are Excel (.xls and .xlsx) and CSV */
-  postBillingAccountLineServiceNamePhonePhonebookBookKeyImport = (
+  postLinePhonePhonebookImportByBillingAccountAndServiceNameAndBookKey = (
     billingAccount: string,
     bookKey: string,
     serviceName: string,
@@ -3437,11 +3446,11 @@ class TelephonyHandler {
   };
 
   /** Phonebook contacts */
-  getBillingAccountLineServiceNamePhonePhonebookBookKeyPhonebookContact = (
+  getLinePhonePhonebookPhonebookContactByBillingAccountAndServiceNameAndBookKey = (
     billingAccount: string,
     bookKey: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/phone/phonebook/${bookKey}/phonebookContact`
@@ -3449,7 +3458,7 @@ class TelephonyHandler {
   };
 
   /** Create a phonebook contact. Return identifier of the phonebook contact. */
-  postBillingAccountLineServiceNamePhonePhonebookBookKeyPhonebookContact = (
+  createLinePhonePhonebookPhonebookContactByBillingAccountAndServiceNameAndBookKey = (
     billingAccount: string,
     bookKey: string,
     serviceName: string,
@@ -3471,7 +3480,7 @@ class TelephonyHandler {
   };
 
   /** Delete a phonebook contact */
-  deleteBillingAccountLineServiceNamePhonePhonebookBookKeyPhonebookContactId = (
+  deleteLinePhonePhonebookPhonebookContactByBillingAccountAndServiceNameAndBookKeyAndId = (
     billingAccount: string,
     bookKey: string,
     id: number,
@@ -3484,7 +3493,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceNamePhonePhonebookBookKeyPhonebookContactId = (
+  getLinePhonePhonebookPhonebookContactByBillingAccountAndServiceNameAndBookKeyAndId = (
     billingAccount: string,
     bookKey: string,
     id: number,
@@ -3497,7 +3506,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountLineServiceNamePhonePhonebookBookKeyPhonebookContactId = (
+  updateLinePhonePhonebookPhonebookContactByBillingAccountAndServiceNameAndBookKeyAndId = (
     billingAccount: string,
     bookKey: string,
     id: number,
@@ -3512,7 +3521,7 @@ class TelephonyHandler {
   };
 
   /** Create a task to reboot the phone */
-  postBillingAccountLineServiceNamePhoneReboot = (
+  createLinePhoneRebootByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyTask> => {
@@ -3523,7 +3532,7 @@ class TelephonyHandler {
   };
 
   /** Create a task to refresh the screen of the MGCP phone */
-  postBillingAccountLineServiceNamePhoneRefreshScreen = (
+  createLinePhoneRefreshScreenByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyTask> => {
@@ -3534,7 +3543,7 @@ class TelephonyHandler {
   };
 
   /** Reinitialize the phone configuration */
-  postBillingAccountLineServiceNamePhoneResetConfig = (
+  postLinePhoneResetConfigByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { ip: string }
@@ -3547,15 +3556,15 @@ class TelephonyHandler {
   };
 
   /** Return Merchandise Authorisation associated */
-  getBillingAccountLineServiceNamePhoneRma = (
+  getLinePhoneRmaByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/line/${serviceName}/phone/rma`);
   };
 
   /** Create a specific rma */
-  postBillingAccountLineServiceNamePhoneRma = (
+  createLinePhoneRmaByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -3573,7 +3582,7 @@ class TelephonyHandler {
   };
 
   /** Cancel the rma */
-  deleteBillingAccountLineServiceNamePhoneRmaId = (
+  deleteLinePhoneRmaByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: string,
     serviceName: string
@@ -3585,7 +3594,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceNamePhoneRmaId = (
+  getLinePhoneRmaByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: string,
     serviceName: string
@@ -3597,7 +3606,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountLineServiceNamePhoneRmaId = (
+  updateLinePhoneRmaByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: string,
     serviceName: string,
@@ -3611,7 +3620,7 @@ class TelephonyHandler {
   };
 
   /** Change RMA type */
-  postBillingAccountLineServiceNamePhoneRmaIdChangeType = (
+  updateLinePhoneRmaTypeByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: string,
     serviceName: string,
@@ -3625,7 +3634,7 @@ class TelephonyHandler {
   };
 
   /** Does the phone manages phonebooks? */
-  getBillingAccountLineServiceNamePhoneSupportsPhonebook = (
+  getLinePhoneSupportsPhonebookByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<boolean> => {
@@ -3636,10 +3645,10 @@ class TelephonyHandler {
   };
 
   /** List the phones with Sip slot available */
-  getBillingAccountLineServiceNamePhoneCanBeAssociable = (
+  listLinePhoneCanBeAssociablesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<TelephonyLinePhone> => {
+  ): Promise<TelephonyLinePhone[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/phoneCanBeAssociable`
@@ -3647,15 +3656,15 @@ class TelephonyHandler {
   };
 
   /** The recordings of your line outgoing calls */
-  getBillingAccountLineServiceNameRecords = (
+  getLineRecordsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/line/${serviceName}/records`);
   };
 
   /** Delete the given record */
-  deleteBillingAccountLineServiceNameRecordsId = (
+  deleteLineRecordsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -3667,7 +3676,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceNameRecordsId = (
+  getLineRecordsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -3679,7 +3688,7 @@ class TelephonyHandler {
   };
 
   /** Remove extra simultaneous lines */
-  postBillingAccountLineServiceNameRemoveSimultaneousLines = (
+  postLineRemoveSimultaneousLinesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { quantityRemove: number }
@@ -3692,7 +3701,7 @@ class TelephonyHandler {
   };
 
   /** Details about simultaneous channels of this line. */
-  getBillingAccountLineServiceNameSimultaneousChannelsDetails = (
+  getLineSimultaneousChannelsDetailsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonySimultaneousChannelsDetails> => {
@@ -3703,7 +3712,7 @@ class TelephonyHandler {
   };
 
   /** Get statistics of the current line */
-  getBillingAccountLineServiceNameStatistics = (
+  getLineStatisticsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyTimestampAndValue> => {
@@ -3711,7 +3720,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceNameTones = (
+  getLineTonesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyTones> => {
@@ -3719,7 +3728,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountLineServiceNameTones = (
+  updateLineTonesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyTones
@@ -3728,7 +3737,7 @@ class TelephonyHandler {
   };
 
   /** Upload new tone file */
-  postBillingAccountLineServiceNameTonesToneUpload = (
+  postLineTonesToneUploadByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { documentId?: string; type: TelephonyTonesTypeEnum; url?: string }
@@ -3741,10 +3750,10 @@ class TelephonyHandler {
   };
 
   /** The traffic extracts (SIP only) of your line */
-  getBillingAccountLineServiceNameTrafficExtracts = (
+  getLineTrafficExtractsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/line/${serviceName}/trafficExtracts`
@@ -3752,7 +3761,7 @@ class TelephonyHandler {
   };
 
   /** Launch a traffic extract on your line */
-  postBillingAccountLineServiceNameTrafficExtracts = (
+  launchLineTrafficExtractsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { dateEnd: Date; dateStart: Date }
@@ -3765,7 +3774,7 @@ class TelephonyHandler {
   };
 
   /** Delete a traffic extract */
-  deleteBillingAccountLineServiceNameTrafficExtractsId = (
+  deleteLineTrafficExtractsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -3777,7 +3786,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountLineServiceNameTrafficExtractsId = (
+  getLineTrafficExtractsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -3789,7 +3798,7 @@ class TelephonyHandler {
   };
 
   /** Unblock the line. It will remove any incoming and outboing block made earlier */
-  postBillingAccountLineServiceNameUnblock = (
+  postLineUnblockByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -3797,12 +3806,12 @@ class TelephonyHandler {
   };
 
   /** Miniabx associated with this billing account */
-  getBillingAccountMiniPabx = (billingAccount: string): Promise<string> => {
+  getMiniPabxByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/miniPabx`);
   };
 
   /** Get this object properties */
-  getBillingAccountMiniPabxServiceName = (
+  getMiniPabxByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyMiniPabx> => {
@@ -3810,7 +3819,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountMiniPabxServiceName = (
+  updateMiniPabxByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyMiniPabx
@@ -3819,7 +3828,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountMiniPabxServiceNameHunting = (
+  getMiniPabxHuntingByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyMiniPabxHunting> => {
@@ -3827,7 +3836,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountMiniPabxServiceNameHunting = (
+  updateMiniPabxHuntingByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyMiniPabxHunting
@@ -3840,10 +3849,10 @@ class TelephonyHandler {
   };
 
   /** Hunting agents */
-  getBillingAccountMiniPabxServiceNameHuntingAgent = (
+  getMiniPabxHuntingAgentByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/miniPabx/${serviceName}/hunting/agent`
@@ -3851,7 +3860,7 @@ class TelephonyHandler {
   };
 
   /** Create a new agent */
-  postBillingAccountMiniPabxServiceNameHuntingAgent = (
+  createMiniPabxHuntingAgentByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { agentNumber: string; logged: boolean; noReplyTimer: number; position: number }
@@ -3864,7 +3873,7 @@ class TelephonyHandler {
   };
 
   /** Delete the agent */
-  deleteBillingAccountMiniPabxServiceNameHuntingAgentAgentNumber = (
+  deleteMiniPabxHuntingAgentByBillingAccountAndServiceNameAndAgentNumber = (
     agentNumber: string,
     billingAccount: string,
     serviceName: string
@@ -3876,7 +3885,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountMiniPabxServiceNameHuntingAgentAgentNumber = (
+  getMiniPabxHuntingAgentByBillingAccountAndServiceNameAndAgentNumber = (
     agentNumber: string,
     billingAccount: string,
     serviceName: string
@@ -3888,7 +3897,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountMiniPabxServiceNameHuntingAgentAgentNumber = (
+  updateMiniPabxHuntingAgentByBillingAccountAndServiceNameAndAgentNumber = (
     agentNumber: string,
     billingAccount: string,
     serviceName: string,
@@ -3902,7 +3911,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountMiniPabxServiceNameTones = (
+  getMiniPabxTonesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyTones> => {
@@ -3910,7 +3919,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountMiniPabxServiceNameTones = (
+  updateMiniPabxTonesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyTones
@@ -3923,7 +3932,7 @@ class TelephonyHandler {
   };
 
   /** Upload new tone file */
-  postBillingAccountMiniPabxServiceNameTonesToneUpload = (
+  postMiniPabxTonesToneUploadByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { documentId?: string; type: TelephonyTonesTypeEnum; url?: string }
@@ -3936,12 +3945,12 @@ class TelephonyHandler {
   };
 
   /** Additional numbers associated with this billing account */
-  getBillingAccountNumber = (billingAccount: string): Promise<string> => {
+  addNumberByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/number`);
   };
 
   /** Get this object properties */
-  getBillingAccountNumberServiceName = (
+  getNumberByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyNumber> => {
@@ -3949,7 +3958,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountNumberServiceName = (
+  updateNumberByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyNumber
@@ -3958,7 +3967,7 @@ class TelephonyHandler {
   };
 
   /** Cancel a scheduled conversion to line */
-  postBillingAccountNumberServiceNameCancelConvertToLine = (
+  postNumberCancelConvertToLineByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -3969,7 +3978,7 @@ class TelephonyHandler {
   };
 
   /** Change the feature type of the phone number */
-  postBillingAccountNumberServiceNameChangeFeatureType = (
+  updateNumberFeatureTypeByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { featureType: TelephonyTypeEnum }
@@ -3982,7 +3991,7 @@ class TelephonyHandler {
   };
 
   /** Schedule a conversion to line */
-  postBillingAccountNumberServiceNameConvertToLine = (
+  postNumberConvertToLineByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { offer: string }
@@ -3995,7 +4004,7 @@ class TelephonyHandler {
   };
 
   /** Get the available line offers to schedule a conversion to line */
-  getBillingAccountNumberServiceNameConvertToLineAvailableOffers = (
+  getNumberConvertToLineAvailableOffersByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyLineOffersAndContracts> => {
@@ -4006,12 +4015,12 @@ class TelephonyHandler {
   };
 
   /** Operations on a telephony service's offer */
-  getBillingAccountOfferTask = (billingAccount: string): Promise<number> => {
+  getOfferTaskByBillingAccount = (billingAccount: string): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/offerTask`);
   };
 
   /** Get this object properties */
-  getBillingAccountOfferTaskTaskId = (
+  getOfferTaskByBillingAccountAndTaskId = (
     billingAccount: string,
     taskId: number
   ): Promise<TelephonyOfferTask> => {
@@ -4019,7 +4028,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountOfferTaskTaskId = (
+  updateOfferTaskByBillingAccountAndTaskId = (
     billingAccount: string,
     taskId: number,
     body: TelephonyOfferTask
@@ -4028,17 +4037,17 @@ class TelephonyHandler {
   };
 
   /** List old phones archived as they were not returned after an RMA */
-  getBillingAccountOldPhone = (billingAccount: string): Promise<TelephonyOldPhone> => {
+  listOldPhonesByBillingAccount = (billingAccount: string): Promise<TelephonyOldPhone[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/oldPhone`);
   };
 
   /** Outplan notifications configured for this billing account */
-  getBillingAccountOutplanNotification = (billingAccount: string): Promise<number> => {
+  getOutplanNotificationByBillingAccount = (billingAccount: string): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/outplanNotification`);
   };
 
   /** Add an outplan notification on the billing account */
-  postBillingAccountOutplanNotification = (
+  addOutplanNotificationByBillingAccount = (
     billingAccount: string,
     body: { block: TelephonyOutplanNotificationBlockEnum; notifyEmail?: string; percentage: number }
   ): Promise<TelephonyConsumptionThreshold> => {
@@ -4046,7 +4055,7 @@ class TelephonyHandler {
   };
 
   /** Delete an outplan notification */
-  deleteBillingAccountOutplanNotificationId = (
+  deleteOutplanNotificationByBillingAccountAndId = (
     billingAccount: string,
     id: number
   ): Promise<void> => {
@@ -4054,7 +4063,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOutplanNotificationId = (
+  getOutplanNotificationByBillingAccountAndId = (
     billingAccount: string,
     id: number
   ): Promise<TelephonyConsumptionThreshold> => {
@@ -4062,12 +4071,12 @@ class TelephonyHandler {
   };
 
   /** OVH calls queues and OVH IVRs (Interactive Voice Response) associated with this billing account */
-  getBillingAccountOvhPabx = (billingAccount: string): Promise<string> => {
+  getOvhPabxByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/ovhPabx`);
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceName = (
+  getOvhPabxByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyOvhPabx> => {
@@ -4075,7 +4084,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountOvhPabxServiceName = (
+  updateOvhPabxByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyOvhPabx
@@ -4084,15 +4093,15 @@ class TelephonyHandler {
   };
 
   /** Dialplans associated with this PABX */
-  getBillingAccountOvhPabxServiceNameDialplan = (
+  getOvhPabxDialplanByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan`);
   };
 
   /** Create a new dialplan */
-  postBillingAccountOvhPabxServiceNameDialplan = (
+  createOvhPabxDialplanByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -4110,7 +4119,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given dialplan */
-  deleteBillingAccountOvhPabxServiceNameDialplanDialplanId = (
+  deleteOvhPabxDialplanByBillingAccountAndServiceNameAndDialplanId = (
     billingAccount: string,
     dialplanId: number,
     serviceName: string
@@ -4122,7 +4131,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameDialplanDialplanId = (
+  getOvhPabxDialplanByBillingAccountAndServiceNameAndDialplanId = (
     billingAccount: string,
     dialplanId: number,
     serviceName: string
@@ -4134,7 +4143,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountOvhPabxServiceNameDialplanDialplanId = (
+  updateOvhPabxDialplanByBillingAccountAndServiceNameAndDialplanId = (
     billingAccount: string,
     dialplanId: number,
     serviceName: string,
@@ -4148,11 +4157,11 @@ class TelephonyHandler {
   };
 
   /** Extensions contained in the dialplan */
-  getBillingAccountOvhPabxServiceNameDialplanDialplanIdExtension = (
+  getOvhPabxDialplanExtensionByBillingAccountAndServiceNameAndDialplanId = (
     billingAccount: string,
     dialplanId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension`
@@ -4160,7 +4169,7 @@ class TelephonyHandler {
   };
 
   /** Create a new extension for a dialplan */
-  postBillingAccountOvhPabxServiceNameDialplanDialplanIdExtension = (
+  createOvhPabxDialplanExtensionByBillingAccountAndServiceNameAndDialplanId = (
     billingAccount: string,
     dialplanId: number,
     serviceName: string,
@@ -4179,7 +4188,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given extension */
-  deleteBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionId = (
+  deleteOvhPabxDialplanExtensionByBillingAccountAndServiceNameAndDialplanIdAndExtensionId = (
     billingAccount: string,
     dialplanId: number,
     extensionId: number,
@@ -4192,7 +4201,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionId = (
+  getOvhPabxDialplanExtensionByBillingAccountAndServiceNameAndDialplanIdAndExtensionId = (
     billingAccount: string,
     dialplanId: number,
     extensionId: number,
@@ -4205,7 +4214,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionId = (
+  updateOvhPabxDialplanExtensionByBillingAccountAndServiceNameAndDialplanIdAndExtensionId = (
     billingAccount: string,
     dialplanId: number,
     extensionId: number,
@@ -4220,39 +4229,41 @@ class TelephonyHandler {
   };
 
   /** Screenlist conditions checked when executing the extension */
-  getBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdConditionScreenList = (
-    billingAccount: string,
-    dialplanId: number,
-    extensionId: number,
-    serviceName: string
-  ): Promise<number> => {
-    return this.ovh.request(
-      'GET',
-      `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/conditionScreenList`
-    );
-  };
+  getOvhPabxDialplanExtensionConditionScreenListByBillingAccountAndServiceNameAndDialplanIdAndExtensionId =
+    (
+      billingAccount: string,
+      dialplanId: number,
+      extensionId: number,
+      serviceName: string
+    ): Promise<number[]> => {
+      return this.ovh.request(
+        'GET',
+        `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/conditionScreenList`
+      );
+    };
 
   /** Create a new screenlist condition for an extension */
-  postBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdConditionScreenList = (
-    billingAccount: string,
-    dialplanId: number,
-    extensionId: number,
-    serviceName: string,
-    body: {
-      callerIdNumber?: string;
-      destinationNumber?: string;
-      screenListType?: TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum;
-    }
-  ): Promise<TelephonyOvhPabxDialplanExtensionConditionScreenList> => {
-    return this.ovh.request(
-      'POST',
-      `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/conditionScreenList`,
-      body
-    );
-  };
+  createOvhPabxDialplanExtensionConditionScreenListByBillingAccountAndServiceNameAndDialplanIdAndExtensionId =
+    (
+      billingAccount: string,
+      dialplanId: number,
+      extensionId: number,
+      serviceName: string,
+      body: {
+        callerIdNumber?: string;
+        destinationNumber?: string;
+        screenListType?: TelephonyOvhPabxDialplanExtensionConditionScreenListTypeEnum;
+      }
+    ): Promise<TelephonyOvhPabxDialplanExtensionConditionScreenList> => {
+      return this.ovh.request(
+        'POST',
+        `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/conditionScreenList`,
+        body
+      );
+    };
 
   /** Delete the given condition */
-  deleteBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdConditionScreenListConditionId =
+  deleteOvhPabxDialplanExtensionConditionScreenListByBillingAccountAndServiceNameAndDialplanIdAndExtensionIdAndConditionId =
     (
       billingAccount: string,
       conditionId: number,
@@ -4267,7 +4278,7 @@ class TelephonyHandler {
     };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdConditionScreenListConditionId =
+  getOvhPabxDialplanExtensionConditionScreenListByBillingAccountAndServiceNameAndDialplanIdAndExtensionIdAndConditionId =
     (
       billingAccount: string,
       conditionId: number,
@@ -4282,39 +4293,41 @@ class TelephonyHandler {
     };
 
   /** Time conditions checked when executing the extension */
-  getBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdConditionTime = (
-    billingAccount: string,
-    dialplanId: number,
-    extensionId: number,
-    serviceName: string
-  ): Promise<number> => {
-    return this.ovh.request(
-      'GET',
-      `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/conditionTime`
-    );
-  };
+  getOvhPabxDialplanExtensionConditionTimeByBillingAccountAndServiceNameAndDialplanIdAndExtensionId =
+    (
+      billingAccount: string,
+      dialplanId: number,
+      extensionId: number,
+      serviceName: string
+    ): Promise<number[]> => {
+      return this.ovh.request(
+        'GET',
+        `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/conditionTime`
+      );
+    };
 
   /** Create a new time condition for an extension */
-  postBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdConditionTime = (
-    billingAccount: string,
-    dialplanId: number,
-    extensionId: number,
-    serviceName: string,
-    body: {
-      timeFrom: Date;
-      timeTo: Date;
-      weekDay: TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum;
-    }
-  ): Promise<TelephonyOvhPabxDialplanExtensionConditionTime> => {
-    return this.ovh.request(
-      'POST',
-      `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/conditionTime`,
-      body
-    );
-  };
+  createOvhPabxDialplanExtensionConditionTimeByBillingAccountAndServiceNameAndDialplanIdAndExtensionId =
+    (
+      billingAccount: string,
+      dialplanId: number,
+      extensionId: number,
+      serviceName: string,
+      body: {
+        timeFrom: Date;
+        timeTo: Date;
+        weekDay: TelephonyOvhPabxDialplanExtensionConditionTimeWeekDayEnum;
+      }
+    ): Promise<TelephonyOvhPabxDialplanExtensionConditionTime> => {
+      return this.ovh.request(
+        'POST',
+        `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/conditionTime`,
+        body
+      );
+    };
 
   /** Delete the given condition */
-  deleteBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdConditionTimeConditionId =
+  deleteOvhPabxDialplanExtensionConditionTimeByBillingAccountAndServiceNameAndDialplanIdAndExtensionIdAndConditionId =
     (
       billingAccount: string,
       conditionId: number,
@@ -4329,7 +4342,7 @@ class TelephonyHandler {
     };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdConditionTimeConditionId =
+  getOvhPabxDialplanExtensionConditionTimeByBillingAccountAndServiceNameAndDialplanIdAndExtensionIdAndConditionId =
     (
       billingAccount: string,
       conditionId: number,
@@ -4344,7 +4357,7 @@ class TelephonyHandler {
     };
 
   /** Alter this object properties */
-  putBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdConditionTimeConditionId =
+  updateOvhPabxDialplanExtensionConditionTimeByBillingAccountAndServiceNameAndDialplanIdAndExtensionIdAndConditionId =
     (
       billingAccount: string,
       conditionId: number,
@@ -4361,12 +4374,12 @@ class TelephonyHandler {
     };
 
   /** Rules contained in the extension */
-  getBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdRule = (
+  getOvhPabxDialplanExtensionRuleByBillingAccountAndServiceNameAndDialplanIdAndExtensionId = (
     billingAccount: string,
     dialplanId: number,
     extensionId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/rule`
@@ -4374,7 +4387,7 @@ class TelephonyHandler {
   };
 
   /** Create a new rule for an extension */
-  postBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdRule = (
+  createOvhPabxDialplanExtensionRuleByBillingAccountAndServiceNameAndDialplanIdAndExtensionId = (
     billingAccount: string,
     dialplanId: number,
     extensionId: number,
@@ -4394,51 +4407,54 @@ class TelephonyHandler {
   };
 
   /** Delete the given rule */
-  deleteBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdRuleRuleId = (
-    billingAccount: string,
-    dialplanId: number,
-    extensionId: number,
-    ruleId: number,
-    serviceName: string
-  ): Promise<void> => {
-    return this.ovh.request(
-      'DELETE',
-      `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/rule/${ruleId}`
-    );
-  };
+  deleteOvhPabxDialplanExtensionRuleByBillingAccountAndServiceNameAndDialplanIdAndExtensionIdAndRuleId =
+    (
+      billingAccount: string,
+      dialplanId: number,
+      extensionId: number,
+      ruleId: number,
+      serviceName: string
+    ): Promise<void> => {
+      return this.ovh.request(
+        'DELETE',
+        `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/rule/${ruleId}`
+      );
+    };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdRuleRuleId = (
-    billingAccount: string,
-    dialplanId: number,
-    extensionId: number,
-    ruleId: number,
-    serviceName: string
-  ): Promise<TelephonyOvhPabxDialplanExtensionRule> => {
-    return this.ovh.request(
-      'GET',
-      `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/rule/${ruleId}`
-    );
-  };
+  getOvhPabxDialplanExtensionRuleByBillingAccountAndServiceNameAndDialplanIdAndExtensionIdAndRuleId =
+    (
+      billingAccount: string,
+      dialplanId: number,
+      extensionId: number,
+      ruleId: number,
+      serviceName: string
+    ): Promise<TelephonyOvhPabxDialplanExtensionRule> => {
+      return this.ovh.request(
+        'GET',
+        `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/rule/${ruleId}`
+      );
+    };
 
   /** Alter this object properties */
-  putBillingAccountOvhPabxServiceNameDialplanDialplanIdExtensionExtensionIdRuleRuleId = (
-    billingAccount: string,
-    dialplanId: number,
-    extensionId: number,
-    ruleId: number,
-    serviceName: string,
-    body: TelephonyOvhPabxDialplanExtensionRule
-  ): Promise<void> => {
-    return this.ovh.request(
-      'PUT',
-      `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/rule/${ruleId}`,
-      body
-    );
-  };
+  updateOvhPabxDialplanExtensionRuleByBillingAccountAndServiceNameAndDialplanIdAndExtensionIdAndRuleId =
+    (
+      billingAccount: string,
+      dialplanId: number,
+      extensionId: number,
+      ruleId: number,
+      serviceName: string,
+      body: TelephonyOvhPabxDialplanExtensionRule
+    ): Promise<void> => {
+      return this.ovh.request(
+        'PUT',
+        `/telephony/${billingAccount}/ovhPabx/${serviceName}/dialplan/${dialplanId}/extension/${extensionId}/rule/${ruleId}`,
+        body
+      );
+    };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHunting = (
+  getOvhPabxHuntingByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyOvhPabxHunting> => {
@@ -4446,7 +4462,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountOvhPabxServiceNameHunting = (
+  updateOvhPabxHuntingByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyOvhPabxHunting
@@ -4459,10 +4475,10 @@ class TelephonyHandler {
   };
 
   /** Calls agents */
-  getBillingAccountOvhPabxServiceNameHuntingAgent = (
+  getOvhPabxHuntingAgentByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/ovhPabx/${serviceName}/hunting/agent`
@@ -4470,7 +4486,7 @@ class TelephonyHandler {
   };
 
   /** Create a new agent */
-  postBillingAccountOvhPabxServiceNameHuntingAgent = (
+  createOvhPabxHuntingAgentByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -4490,7 +4506,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given agent */
-  deleteBillingAccountOvhPabxServiceNameHuntingAgentAgentId = (
+  deleteOvhPabxHuntingAgentByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -4502,7 +4518,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingAgentAgentId = (
+  getOvhPabxHuntingAgentByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -4514,7 +4530,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountOvhPabxServiceNameHuntingAgentAgentId = (
+  updateOvhPabxHuntingAgentByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string,
@@ -4528,7 +4544,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given web access */
-  deleteBillingAccountOvhPabxServiceNameHuntingAgentAgentIdBannerAccess = (
+  deleteOvhPabxHuntingAgentBannerAccessByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -4540,7 +4556,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingAgentAgentIdBannerAccess = (
+  getOvhPabxHuntingAgentBannerAccessByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -4552,7 +4568,7 @@ class TelephonyHandler {
   };
 
   /** Create a new web access for this ressource */
-  postBillingAccountOvhPabxServiceNameHuntingAgentAgentIdBannerAccess = (
+  createOvhPabxHuntingAgentBannerAccessByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -4564,11 +4580,11 @@ class TelephonyHandler {
   };
 
   /** Current calls of the callcenter agent */
-  getBillingAccountOvhPabxServiceNameHuntingAgentAgentIdCalls = (
+  getOvhPabxHuntingAgentCallsByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/ovhPabx/${serviceName}/hunting/agent/${agentId}/calls`
@@ -4576,7 +4592,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingAgentAgentIdCallsId = (
+  getOvhPabxHuntingAgentCallsByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -4589,7 +4605,7 @@ class TelephonyHandler {
   };
 
   /** Eavesdrop on a call */
-  postBillingAccountOvhPabxServiceNameHuntingAgentAgentIdCallsIdEavesdrop = (
+  postOvhPabxHuntingAgentCallsEavesdropByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -4604,7 +4620,7 @@ class TelephonyHandler {
   };
 
   /** Hangup a call */
-  postBillingAccountOvhPabxServiceNameHuntingAgentAgentIdCallsIdHangup = (
+  postOvhPabxHuntingAgentCallsHangupByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -4617,7 +4633,7 @@ class TelephonyHandler {
   };
 
   /** Toogle hold on call */
-  postBillingAccountOvhPabxServiceNameHuntingAgentAgentIdCallsIdHold = (
+  postOvhPabxHuntingAgentCallsHoldByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -4630,7 +4646,7 @@ class TelephonyHandler {
   };
 
   /** Intercept a non answered call */
-  postBillingAccountOvhPabxServiceNameHuntingAgentAgentIdCallsIdIntercept = (
+  postOvhPabxHuntingAgentCallsInterceptByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -4645,7 +4661,7 @@ class TelephonyHandler {
   };
 
   /** Transfer an answered call */
-  postBillingAccountOvhPabxServiceNameHuntingAgentAgentIdCallsIdTransfer = (
+  postOvhPabxHuntingAgentCallsTransferByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -4660,7 +4676,7 @@ class TelephonyHandler {
   };
 
   /** Whisper on a call */
-  postBillingAccountOvhPabxServiceNameHuntingAgentAgentIdCallsIdWhisper = (
+  postOvhPabxHuntingAgentCallsWhisperByBillingAccountAndServiceNameAndAgentIdAndId = (
     agentId: number,
     billingAccount: string,
     id: number,
@@ -4675,7 +4691,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given token */
-  deleteBillingAccountOvhPabxServiceNameHuntingAgentAgentIdEventToken = (
+  deleteOvhPabxHuntingAgentEventTokenByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -4687,7 +4703,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingAgentAgentIdEventToken = (
+  getOvhPabxHuntingAgentEventTokenByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -4699,7 +4715,7 @@ class TelephonyHandler {
   };
 
   /** Create a new token */
-  postBillingAccountOvhPabxServiceNameHuntingAgentAgentIdEventToken = (
+  createOvhPabxHuntingAgentEventTokenByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string,
@@ -4713,7 +4729,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingAgentAgentIdLiveStatus = (
+  getOvhPabxHuntingAgentLiveStatusByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
@@ -4725,11 +4741,11 @@ class TelephonyHandler {
   };
 
   /** Agent assigned to the queues */
-  getBillingAccountOvhPabxServiceNameHuntingAgentAgentIdQueue = (
+  getOvhPabxHuntingAgentQueueByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/ovhPabx/${serviceName}/hunting/agent/${agentId}/queue`
@@ -4737,7 +4753,7 @@ class TelephonyHandler {
   };
 
   /** Create a new skill for an agent (it adds the agent in a queue) */
-  postBillingAccountOvhPabxServiceNameHuntingAgentAgentIdQueue = (
+  createOvhPabxHuntingAgentQueueByBillingAccountAndServiceNameAndAgentId = (
     agentId: number,
     billingAccount: string,
     serviceName: string,
@@ -4751,7 +4767,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given skill */
-  deleteBillingAccountOvhPabxServiceNameHuntingAgentAgentIdQueueQueueId = (
+  deleteOvhPabxHuntingAgentQueueByBillingAccountAndServiceNameAndAgentIdAndQueueId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -4764,7 +4780,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingAgentAgentIdQueueQueueId = (
+  getOvhPabxHuntingAgentQueueByBillingAccountAndServiceNameAndAgentIdAndQueueId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -4777,7 +4793,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountOvhPabxServiceNameHuntingAgentAgentIdQueueQueueId = (
+  updateOvhPabxHuntingAgentQueueByBillingAccountAndServiceNameAndAgentIdAndQueueId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -4792,7 +4808,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingAgentAgentIdQueueQueueIdLiveStatus = (
+  getOvhPabxHuntingAgentQueueLiveStatusByBillingAccountAndServiceNameAndAgentIdAndQueueId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -4805,10 +4821,10 @@ class TelephonyHandler {
   };
 
   /** Custom statuses of your agents */
-  getBillingAccountOvhPabxServiceNameHuntingCustomStatus = (
+  getOvhPabxHuntingCustomStatusByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/ovhPabx/${serviceName}/hunting/customStatus`
@@ -4816,7 +4832,7 @@ class TelephonyHandler {
   };
 
   /** Create a new custom status */
-  postBillingAccountOvhPabxServiceNameHuntingCustomStatus = (
+  createOvhPabxHuntingCustomStatusByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { color?: string; description?: string; name: string }
@@ -4829,7 +4845,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given custom status */
-  deleteBillingAccountOvhPabxServiceNameHuntingCustomStatusId = (
+  deleteOvhPabxHuntingCustomStatusByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -4841,7 +4857,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingCustomStatusId = (
+  getOvhPabxHuntingCustomStatusByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -4853,7 +4869,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given token */
-  deleteBillingAccountOvhPabxServiceNameHuntingEventToken = (
+  deleteOvhPabxHuntingEventTokenByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -4864,7 +4880,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingEventToken = (
+  getOvhPabxHuntingEventTokenByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyEventToken> => {
@@ -4875,7 +4891,7 @@ class TelephonyHandler {
   };
 
   /** Create a new token */
-  postBillingAccountOvhPabxServiceNameHuntingEventToken = (
+  createOvhPabxHuntingEventTokenByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { expiration: TelephonyTokenExpirationEnum }
@@ -4888,10 +4904,10 @@ class TelephonyHandler {
   };
 
   /** Calls queues */
-  getBillingAccountOvhPabxServiceNameHuntingQueue = (
+  getOvhPabxHuntingQueueByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/ovhPabx/${serviceName}/hunting/queue`
@@ -4899,7 +4915,7 @@ class TelephonyHandler {
   };
 
   /** Create a new queue */
-  postBillingAccountOvhPabxServiceNameHuntingQueue = (
+  createOvhPabxHuntingQueueByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -4926,7 +4942,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given queue */
-  deleteBillingAccountOvhPabxServiceNameHuntingQueueQueueId = (
+  deleteOvhPabxHuntingQueueByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     queueId: number,
     serviceName: string
@@ -4938,7 +4954,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingQueueQueueId = (
+  getOvhPabxHuntingQueueByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     queueId: number,
     serviceName: string
@@ -4950,7 +4966,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountOvhPabxServiceNameHuntingQueueQueueId = (
+  updateOvhPabxHuntingQueueByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     queueId: number,
     serviceName: string,
@@ -4964,11 +4980,11 @@ class TelephonyHandler {
   };
 
   /** Agent assigned to the queue */
-  getBillingAccountOvhPabxServiceNameHuntingQueueQueueIdAgent = (
+  getOvhPabxHuntingQueueAgentByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     queueId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/ovhPabx/${serviceName}/hunting/queue/${queueId}/agent`
@@ -4976,7 +4992,7 @@ class TelephonyHandler {
   };
 
   /** Create a new skill for an agent (it adds the agent in a queue) */
-  postBillingAccountOvhPabxServiceNameHuntingQueueQueueIdAgent = (
+  createOvhPabxHuntingQueueAgentByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     serviceName: string,
     body: { position: number; queueId: number }
@@ -4989,7 +5005,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given skill */
-  deleteBillingAccountOvhPabxServiceNameHuntingQueueQueueIdAgentAgentId = (
+  deleteOvhPabxHuntingQueueAgentByBillingAccountAndServiceNameAndQueueIdAndAgentId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -5002,7 +5018,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingQueueQueueIdAgentAgentId = (
+  getOvhPabxHuntingQueueAgentByBillingAccountAndServiceNameAndQueueIdAndAgentId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -5015,7 +5031,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountOvhPabxServiceNameHuntingQueueQueueIdAgentAgentId = (
+  updateOvhPabxHuntingQueueAgentByBillingAccountAndServiceNameAndQueueIdAndAgentId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -5030,7 +5046,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingQueueQueueIdAgentAgentIdLiveStatus = (
+  getOvhPabxHuntingQueueAgentLiveStatusByBillingAccountAndServiceNameAndQueueIdAndAgentId = (
     agentId: number,
     billingAccount: string,
     queueId: number,
@@ -5043,11 +5059,11 @@ class TelephonyHandler {
   };
 
   /** Live calls of the queue */
-  getBillingAccountOvhPabxServiceNameHuntingQueueQueueIdLiveCalls = (
+  getOvhPabxHuntingQueueLiveCallsByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     queueId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/ovhPabx/${serviceName}/hunting/queue/${queueId}/liveCalls`
@@ -5055,7 +5071,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingQueueQueueIdLiveCallsId = (
+  getOvhPabxHuntingQueueLiveCallsByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -5068,7 +5084,7 @@ class TelephonyHandler {
   };
 
   /** Eavesdrop on a call */
-  postBillingAccountOvhPabxServiceNameHuntingQueueQueueIdLiveCallsIdEavesdrop = (
+  postOvhPabxHuntingQueueLiveCallsEavesdropByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -5083,7 +5099,7 @@ class TelephonyHandler {
   };
 
   /** Hangup a call */
-  postBillingAccountOvhPabxServiceNameHuntingQueueQueueIdLiveCallsIdHangup = (
+  postOvhPabxHuntingQueueLiveCallsHangupByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -5096,7 +5112,7 @@ class TelephonyHandler {
   };
 
   /** Toogle hold on call */
-  postBillingAccountOvhPabxServiceNameHuntingQueueQueueIdLiveCallsIdHold = (
+  postOvhPabxHuntingQueueLiveCallsHoldByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -5109,7 +5125,7 @@ class TelephonyHandler {
   };
 
   /** Intercept a non answered call */
-  postBillingAccountOvhPabxServiceNameHuntingQueueQueueIdLiveCallsIdIntercept = (
+  postOvhPabxHuntingQueueLiveCallsInterceptByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -5124,7 +5140,7 @@ class TelephonyHandler {
   };
 
   /** Transfer an answered call */
-  postBillingAccountOvhPabxServiceNameHuntingQueueQueueIdLiveCallsIdTransfer = (
+  postOvhPabxHuntingQueueLiveCallsTransferByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -5139,7 +5155,7 @@ class TelephonyHandler {
   };
 
   /** Whisper on a call */
-  postBillingAccountOvhPabxServiceNameHuntingQueueQueueIdLiveCallsIdWhisper = (
+  postOvhPabxHuntingQueueLiveCallsWhisperByBillingAccountAndServiceNameAndQueueIdAndId = (
     billingAccount: string,
     id: number,
     queueId: number,
@@ -5154,7 +5170,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameHuntingQueueQueueIdLiveStatistics = (
+  getOvhPabxHuntingQueueLiveStatisticsByBillingAccountAndServiceNameAndQueueId = (
     billingAccount: string,
     queueId: number,
     serviceName: string
@@ -5166,15 +5182,15 @@ class TelephonyHandler {
   };
 
   /** Menus associated with this PABX */
-  getBillingAccountOvhPabxServiceNameMenu = (
+  getOvhPabxMenuByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/ovhPabx/${serviceName}/menu`);
   };
 
   /** Create a new menu */
-  postBillingAccountOvhPabxServiceNameMenu = (
+  createOvhPabxMenuByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -5195,7 +5211,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given menu */
-  deleteBillingAccountOvhPabxServiceNameMenuMenuId = (
+  deleteOvhPabxMenuByBillingAccountAndServiceNameAndMenuId = (
     billingAccount: string,
     menuId: number,
     serviceName: string
@@ -5207,7 +5223,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameMenuMenuId = (
+  getOvhPabxMenuByBillingAccountAndServiceNameAndMenuId = (
     billingAccount: string,
     menuId: number,
     serviceName: string
@@ -5219,7 +5235,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountOvhPabxServiceNameMenuMenuId = (
+  updateOvhPabxMenuByBillingAccountAndServiceNameAndMenuId = (
     billingAccount: string,
     menuId: number,
     serviceName: string,
@@ -5233,11 +5249,11 @@ class TelephonyHandler {
   };
 
   /** Menu entry */
-  getBillingAccountOvhPabxServiceNameMenuMenuIdEntry = (
+  getOvhPabxMenuEntryByBillingAccountAndServiceNameAndMenuId = (
     billingAccount: string,
     menuId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/ovhPabx/${serviceName}/menu/${menuId}/entry`
@@ -5245,7 +5261,7 @@ class TelephonyHandler {
   };
 
   /** Create a new menu entry */
-  postBillingAccountOvhPabxServiceNameMenuMenuIdEntry = (
+  createOvhPabxMenuEntryByBillingAccountAndServiceNameAndMenuId = (
     billingAccount: string,
     menuId: number,
     serviceName: string,
@@ -5264,7 +5280,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given menu entry */
-  deleteBillingAccountOvhPabxServiceNameMenuMenuIdEntryEntryId = (
+  deleteOvhPabxMenuEntryByBillingAccountAndServiceNameAndMenuIdAndEntryId = (
     billingAccount: string,
     entryId: number,
     menuId: number,
@@ -5277,7 +5293,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameMenuMenuIdEntryEntryId = (
+  getOvhPabxMenuEntryByBillingAccountAndServiceNameAndMenuIdAndEntryId = (
     billingAccount: string,
     entryId: number,
     menuId: number,
@@ -5290,7 +5306,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountOvhPabxServiceNameMenuMenuIdEntryEntryId = (
+  updateOvhPabxMenuEntryByBillingAccountAndServiceNameAndMenuIdAndEntryId = (
     billingAccount: string,
     entryId: number,
     menuId: number,
@@ -5305,15 +5321,15 @@ class TelephonyHandler {
   };
 
   /** Records associated with this PABX */
-  getBillingAccountOvhPabxServiceNameRecords = (
+  getOvhPabxRecordsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/ovhPabx/${serviceName}/records`);
   };
 
   /** Delete the given record */
-  deleteBillingAccountOvhPabxServiceNameRecordsId = (
+  deleteOvhPabxRecordsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -5325,7 +5341,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameRecordsId = (
+  getOvhPabxRecordsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -5337,15 +5353,15 @@ class TelephonyHandler {
   };
 
   /** Sounds associated with this PABX */
-  getBillingAccountOvhPabxServiceNameSound = (
+  getOvhPabxSoundByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/ovhPabx/${serviceName}/sound`);
   };
 
   /** Delete the given sound */
-  deleteBillingAccountOvhPabxServiceNameSoundSoundId = (
+  deleteOvhPabxSoundByBillingAccountAndServiceNameAndSoundId = (
     billingAccount: string,
     serviceName: string,
     soundId: number
@@ -5357,7 +5373,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameSoundSoundId = (
+  getOvhPabxSoundByBillingAccountAndServiceNameAndSoundId = (
     billingAccount: string,
     serviceName: string,
     soundId: number
@@ -5369,7 +5385,7 @@ class TelephonyHandler {
   };
 
   /** Upload new sound file */
-  postBillingAccountOvhPabxServiceNameSoundUpload = (
+  postOvhPabxSoundUploadByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { documentId?: string; name?: string; url?: string }
@@ -5382,15 +5398,15 @@ class TelephonyHandler {
   };
 
   /** Text to Speech associated with this PABX */
-  getBillingAccountOvhPabxServiceNameTts = (
+  getOvhPabxTtsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/ovhPabx/${serviceName}/tts`);
   };
 
   /** Create a new text to speech */
-  postBillingAccountOvhPabxServiceNameTts = (
+  createOvhPabxTtsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { text: string; voice?: TelephonyOvhPabxTtsVoiceEnum }
@@ -5403,7 +5419,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given text to speech */
-  deleteBillingAccountOvhPabxServiceNameTtsId = (
+  deleteOvhPabxTtsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -5415,7 +5431,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountOvhPabxServiceNameTtsId = (
+  getOvhPabxTtsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -5424,7 +5440,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountOvhPabxServiceNameTtsId = (
+  updateOvhPabxTtsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string,
@@ -5438,12 +5454,12 @@ class TelephonyHandler {
   };
 
   /** Return phonebooks associated to this group */
-  getBillingAccountPhonebook = (billingAccount: string): Promise<string> => {
+  getPhonebookByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/phonebook`);
   };
 
   /** Add a phonebook on group. Return the bookKey. */
-  postBillingAccountPhonebook = (
+  addPhonebookByBillingAccount = (
     billingAccount: string,
     body: { name: string }
   ): Promise<string> => {
@@ -5451,7 +5467,7 @@ class TelephonyHandler {
   };
 
   /** Delete a phonebook */
-  deleteBillingAccountPhonebookBookKey = (
+  deletePhonebookByBillingAccountAndBookKey = (
     billingAccount: string,
     bookKey: string
   ): Promise<void> => {
@@ -5459,7 +5475,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountPhonebookBookKey = (
+  getPhonebookByBillingAccountAndBookKey = (
     billingAccount: string,
     bookKey: string
   ): Promise<TelephonyPhonebookMaster> => {
@@ -5467,7 +5483,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountPhonebookBookKey = (
+  updatePhonebookByBillingAccountAndBookKey = (
     billingAccount: string,
     bookKey: string,
     body: TelephonyPhonebookMaster
@@ -5476,7 +5492,7 @@ class TelephonyHandler {
   };
 
   /** Export the phonebook's contacts */
-  getBillingAccountPhonebookBookKeyExport = (
+  exportPhonebookByBillingAccountAndBookKey = (
     billingAccount: string,
     bookKey: string
   ): Promise<TelephonyPcsFile> => {
@@ -5484,7 +5500,7 @@ class TelephonyHandler {
   };
 
   /** Import a contacts file. Supported formats are Excel (.xls and .xlsx) and CSV */
-  postBillingAccountPhonebookBookKeyImport = (
+  postPhonebookImportByBillingAccountAndBookKey = (
     billingAccount: string,
     bookKey: string,
     body: { documentId: string }
@@ -5497,10 +5513,10 @@ class TelephonyHandler {
   };
 
   /** Phonebook contacts */
-  getBillingAccountPhonebookBookKeyPhonebookContact = (
+  getPhonebookPhonebookContactByBillingAccountAndBookKey = (
     billingAccount: string,
     bookKey: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/phonebook/${bookKey}/phonebookContact`
@@ -5508,7 +5524,7 @@ class TelephonyHandler {
   };
 
   /** Create a phonebook contact. Return identifier of the phonebook contact. */
-  postBillingAccountPhonebookBookKeyPhonebookContact = (
+  createPhonebookPhonebookContactByBillingAccountAndBookKey = (
     billingAccount: string,
     bookKey: string,
     body: {
@@ -5529,7 +5545,7 @@ class TelephonyHandler {
   };
 
   /** Delete a phonebook contact */
-  deleteBillingAccountPhonebookBookKeyPhonebookContactId = (
+  deletePhonebookPhonebookContactByBillingAccountAndBookKeyAndId = (
     billingAccount: string,
     bookKey: string,
     id: number
@@ -5541,7 +5557,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountPhonebookBookKeyPhonebookContactId = (
+  getPhonebookPhonebookContactByBillingAccountAndBookKeyAndId = (
     billingAccount: string,
     bookKey: string,
     id: number
@@ -5553,7 +5569,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountPhonebookBookKeyPhonebookContactId = (
+  updatePhonebookPhonebookContactByBillingAccountAndBookKeyAndId = (
     billingAccount: string,
     bookKey: string,
     id: number,
@@ -5567,12 +5583,12 @@ class TelephonyHandler {
   };
 
   /** Current number portabilities for this billing account */
-  getBillingAccountPortability = (billingAccount: string): Promise<number> => {
+  getPortabilityByBillingAccount = (billingAccount: string): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/portability`);
   };
 
   /** Get this object properties */
-  getBillingAccountPortabilityId = (
+  getPortabilityByBillingAccountAndId = (
     billingAccount: string,
     id: number
   ): Promise<TelephonyPortability> => {
@@ -5580,7 +5596,7 @@ class TelephonyHandler {
   };
 
   /** Indicates whether or not the portability can be cancelled */
-  getBillingAccountPortabilityIdCanBeCancelled = (
+  getPortabilityCanBeCancelledByBillingAccountAndId = (
     billingAccount: string,
     id: number
   ): Promise<boolean> => {
@@ -5588,7 +5604,7 @@ class TelephonyHandler {
   };
 
   /** Indicates whether or not the portability can be executed */
-  getBillingAccountPortabilityIdCanBeExecuted = (
+  getPortabilityCanBeExecutedByBillingAccountAndId = (
     billingAccount: string,
     id: number
   ): Promise<boolean> => {
@@ -5596,7 +5612,7 @@ class TelephonyHandler {
   };
 
   /** Ask to cancel the portability */
-  postBillingAccountPortabilityIdCancel = (
+  postPortabilityCancelByBillingAccountAndId = (
     billingAccount: string,
     id: number,
     body: { reason?: string }
@@ -5605,7 +5621,7 @@ class TelephonyHandler {
   };
 
   /** Ask to change the portability date */
-  postBillingAccountPortabilityIdChangeDate = (
+  postPortabilityChangeDateByBillingAccountAndId = (
     billingAccount: string,
     id: number,
     body: { date: Date }
@@ -5618,7 +5634,7 @@ class TelephonyHandler {
   };
 
   /** Indicates whether or not the portability date can be changed */
-  getBillingAccountPortabilityIdDateCanBeChanged = (
+  getPortabilityDateCanBeChangedByBillingAccountAndId = (
     billingAccount: string,
     id: number
   ): Promise<boolean> => {
@@ -5629,15 +5645,15 @@ class TelephonyHandler {
   };
 
   /** Document linked to this portability */
-  getBillingAccountPortabilityIdDocument = (
+  getPortabilityDocumentByBillingAccountAndId = (
     billingAccount: string,
     id: number
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/portability/${id}/document`);
   };
 
   /** Create a portability document */
-  postBillingAccountPortabilityIdDocument = (
+  createPortabilityDocumentByBillingAccountAndId = (
     billingAccount: string,
     id: number,
     body: { description?: string; name: string }
@@ -5650,7 +5666,7 @@ class TelephonyHandler {
   };
 
   /** Delete the document */
-  deleteBillingAccountPortabilityIdDocumentDocumentId = (
+  deletePortabilityDocumentByBillingAccountAndIdAndDocumentId = (
     billingAccount: string,
     documentId: number,
     id: number
@@ -5662,7 +5678,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountPortabilityIdDocumentDocumentId = (
+  getPortabilityDocumentByBillingAccountAndIdAndDocumentId = (
     billingAccount: string,
     documentId: number,
     id: number
@@ -5674,7 +5690,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountPortabilityIdDocumentDocumentId = (
+  updatePortabilityDocumentByBillingAccountAndIdAndDocumentId = (
     billingAccount: string,
     documentId: number,
     id: number,
@@ -5688,12 +5704,15 @@ class TelephonyHandler {
   };
 
   /** Ask to execute the portability */
-  postBillingAccountPortabilityIdExecute = (billingAccount: string, id: number): Promise<void> => {
+  postPortabilityExecuteByBillingAccountAndId = (
+    billingAccount: string,
+    id: number
+  ): Promise<void> => {
     return this.ovh.request('POST', `/telephony/${billingAccount}/portability/${id}/execute`);
   };
 
   /** Indicates whether or not error can be fixed and portability can be relaunched */
-  getBillingAccountPortabilityIdRelaunch = (
+  getPortabilityRelaunchByBillingAccountAndId = (
     billingAccount: string,
     id: number
   ): Promise<TelephonyPortabilityFixErrorPossibleParameters> => {
@@ -5701,7 +5720,7 @@ class TelephonyHandler {
   };
 
   /** Fix error and relaunch portability */
-  postBillingAccountPortabilityIdRelaunch = (
+  postPortabilityRelaunchByBillingAccountAndId = (
     billingAccount: string,
     id: number,
     body: { parameters: string }
@@ -5714,20 +5733,20 @@ class TelephonyHandler {
   };
 
   /** Indicates the current status of the portability, with a list of steps */
-  getBillingAccountPortabilityIdStatus = (
+  getPortabilityStatusByBillingAccountAndId = (
     billingAccount: string,
     id: number
-  ): Promise<TelephonyPortabilityStep> => {
+  ): Promise<TelephonyPortabilityStep[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/portability/${id}/status`);
   };
 
   /** Redirects associated with this billing account */
-  getBillingAccountRedirect = (billingAccount: string): Promise<string> => {
+  getRedirectByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/redirect`);
   };
 
   /** Get this object properties */
-  getBillingAccountRedirectServiceName = (
+  getRedirectByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyRedirect> => {
@@ -5735,7 +5754,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountRedirectServiceName = (
+  updateRedirectByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyRedirect
@@ -5744,7 +5763,7 @@ class TelephonyHandler {
   };
 
   /** Change the destination of the redirect */
-  postBillingAccountRedirectServiceNameChangeDestination = (
+  updateRedirectDestinationByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { destination: string }
@@ -5757,12 +5776,12 @@ class TelephonyHandler {
   };
 
   /** Service concerned by the french RSVA reform */
-  getBillingAccountRsva = (billingAccount: string): Promise<string> => {
+  getRsvaByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/rsva`);
   };
 
   /** Get this object properties */
-  getBillingAccountRsvaServiceName = (
+  getRsvaByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyRsva> => {
@@ -5770,7 +5789,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountRsvaServiceName = (
+  updateRsvaByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyRsva
@@ -5779,10 +5798,10 @@ class TelephonyHandler {
   };
 
   /** Compatible rate codes related to this value added service */
-  getBillingAccountRsvaServiceNameAllowedRateCodes = (
+  getRsvaAllowedRateCodesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<TelephonyRateCodeInformation> => {
+  ): Promise<TelephonyRateCodeInformation[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/rsva/${serviceName}/allowedRateCodes`
@@ -5790,7 +5809,7 @@ class TelephonyHandler {
   };
 
   /** Cancel a scheduled rate code update */
-  postBillingAccountRsvaServiceNameCancelScheduledRateCode = (
+  postRsvaCancelScheduledRateCodeByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -5801,7 +5820,7 @@ class TelephonyHandler {
   };
 
   /** Current rate code related to this sva */
-  getBillingAccountRsvaServiceNameCurrentRateCode = (
+  getRsvaCurrentRateCodeByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyDetailedRateCodeInformation> => {
@@ -5812,7 +5831,7 @@ class TelephonyHandler {
   };
 
   /** Schedule a new rate code for this sva */
-  postBillingAccountRsvaServiceNameScheduleRateCode = (
+  postRsvaScheduleRateCodeByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { rateCode: string }
@@ -5825,7 +5844,7 @@ class TelephonyHandler {
   };
 
   /** New scheduled rate code related to this sva */
-  getBillingAccountRsvaServiceNameScheduledRateCode = (
+  getRsvaScheduledRateCodeByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyDetailedRateCodeInformation> => {
@@ -5836,12 +5855,12 @@ class TelephonyHandler {
   };
 
   /** Scheduled events */
-  getBillingAccountScheduler = (billingAccount: string): Promise<string> => {
+  getSchedulerByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/scheduler`);
   };
 
   /** Get this object properties */
-  getBillingAccountSchedulerServiceName = (
+  getSchedulerByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyScheduler> => {
@@ -5849,7 +5868,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountSchedulerServiceName = (
+  updateSchedulerByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyScheduler
@@ -5858,15 +5877,15 @@ class TelephonyHandler {
   };
 
   /** Custom events scheduled */
-  getBillingAccountSchedulerServiceNameEvents = (
+  getSchedulerEventsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/scheduler/${serviceName}/events`);
   };
 
   /** Add a scheduler event */
-  postBillingAccountSchedulerServiceNameEvents = (
+  addSchedulerEventsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -5886,7 +5905,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given scheduler event */
-  deleteBillingAccountSchedulerServiceNameEventsUid = (
+  deleteSchedulerEventsByBillingAccountAndServiceNameAndUid = (
     billingAccount: string,
     serviceName: string,
     uid: string
@@ -5898,7 +5917,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountSchedulerServiceNameEventsUid = (
+  getSchedulerEventsByBillingAccountAndServiceNameAndUid = (
     billingAccount: string,
     serviceName: string,
     uid: string
@@ -5910,7 +5929,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountSchedulerServiceNameEventsUid = (
+  updateSchedulerEventsByBillingAccountAndServiceNameAndUid = (
     billingAccount: string,
     serviceName: string,
     uid: string,
@@ -5924,7 +5943,7 @@ class TelephonyHandler {
   };
 
   /** Add scheduler events in ICS format */
-  postBillingAccountSchedulerServiceNameImportIcsCalendar = (
+  addSchedulerImportIcsCalendarByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { url: string }
@@ -5937,12 +5956,12 @@ class TelephonyHandler {
   };
 
   /** Screenlist compatible numbers associated with this billing account */
-  getBillingAccountScreen = (billingAccount: string): Promise<string> => {
+  getScreenByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/screen`);
   };
 
   /** Get this object properties */
-  getBillingAccountScreenServiceName = (
+  getScreenByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyScreen> => {
@@ -5950,7 +5969,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountScreenServiceName = (
+  updateScreenByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyScreen
@@ -5959,10 +5978,10 @@ class TelephonyHandler {
   };
 
   /** Rules for call filtering for this service */
-  getBillingAccountScreenServiceNameScreenLists = (
+  getScreenScreenListsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/screen/${serviceName}/screenLists`
@@ -5970,7 +5989,7 @@ class TelephonyHandler {
   };
 
   /** Create a new screen list rule */
-  postBillingAccountScreenServiceNameScreenLists = (
+  createScreenScreenListsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -5987,7 +6006,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given screen list */
-  deleteBillingAccountScreenServiceNameScreenListsId = (
+  deleteScreenScreenListsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -5999,7 +6018,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountScreenServiceNameScreenListsId = (
+  getScreenScreenListsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -6011,12 +6030,12 @@ class TelephonyHandler {
   };
 
   /** Services associated with this billing account */
-  getBillingAccountService = (billingAccount: string): Promise<string> => {
+  getServiceByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/service`);
   };
 
   /** Ask for a service termination. */
-  deleteBillingAccountServiceServiceName = (
+  deleteServiceByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -6024,7 +6043,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountServiceServiceName = (
+  getServiceByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyTelephonyService> => {
@@ -6032,7 +6051,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountServiceServiceName = (
+  updateServiceByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyTelephonyService
@@ -6041,7 +6060,7 @@ class TelephonyHandler {
   };
 
   /** Cancel the service termination */
-  postBillingAccountServiceServiceNameCancelTermination = (
+  postServiceCancelTerminationByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -6052,7 +6071,7 @@ class TelephonyHandler {
   };
 
   /** Move a service of billing account. Source and destination nics should be the same. */
-  postBillingAccountServiceServiceNameChangeOfBillingAccount = (
+  postServiceChangeOfBillingAccountByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { billingAccountDestination: string }
@@ -6065,10 +6084,10 @@ class TelephonyHandler {
   };
 
   /** Get Relevant informations of the service detected from the MOS or the signal leg in SIP/MGCP protocol. */
-  getBillingAccountServiceServiceNameDiagnosticReports = (
+  getServiceDiagnosticReportsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<TelephonyDiagnosticReport> => {
+  ): Promise<TelephonyDiagnosticReport[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/service/${serviceName}/diagnosticReports`
@@ -6076,7 +6095,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountServiceServiceNameDirectory = (
+  getServiceDirectoryByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyDirectoryInfo> => {
@@ -6084,7 +6103,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountServiceServiceNameDirectory = (
+  updateServiceDirectoryByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyDirectoryInfo
@@ -6097,7 +6116,7 @@ class TelephonyHandler {
   };
 
   /** Get company entreprise informations by providing entreprise number */
-  postBillingAccountServiceServiceNameDirectoryFetchEntrepriseInformations = (
+  postServiceDirectoryFetchEntrepriseInformationsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { entrepriseNumber: string }
@@ -6110,10 +6129,10 @@ class TelephonyHandler {
   };
 
   /** Get directory service code from an APE code ( principal activity of the firm code ) */
-  getBillingAccountServiceServiceNameDirectoryGetDirectoryServiceCode = (
+  getServiceDirectoryGetDirectoryServiceCodeByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<TelephonyDirectoryHeadingPJ> => {
+  ): Promise<TelephonyDirectoryHeadingPJ[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/service/${serviceName}/directory/getDirectoryServiceCode`
@@ -6121,10 +6140,10 @@ class TelephonyHandler {
   };
 
   /** Get all the way types availables */
-  getBillingAccountServiceServiceNameDirectoryGetWayTypes = (
+  getServiceDirectoryGetWayTypesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<TelephonyDirectoryWayType> => {
+  ): Promise<TelephonyDirectoryWayType[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/service/${serviceName}/directory/getWayTypes`
@@ -6132,7 +6151,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given token */
-  deleteBillingAccountServiceServiceNameEventToken = (
+  deleteServiceEventTokenByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -6143,7 +6162,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountServiceServiceNameEventToken = (
+  getServiceEventTokenByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyEventToken> => {
@@ -6154,7 +6173,7 @@ class TelephonyHandler {
   };
 
   /** Create a new token */
-  postBillingAccountServiceServiceNameEventToken = (
+  createServiceEventTokenByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { expiration: TelephonyTokenExpirationEnum }
@@ -6167,10 +6186,10 @@ class TelephonyHandler {
   };
 
   /** Fax delivery records. */
-  getBillingAccountServiceServiceNameFaxConsumption = (
+  getServiceFaxConsumptionByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/service/${serviceName}/faxConsumption`
@@ -6178,7 +6197,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountServiceServiceNameFaxConsumptionConsumptionId = (
+  getServiceFaxConsumptionByBillingAccountAndServiceNameAndConsumptionId = (
     billingAccount: string,
     consumptionId: number,
     serviceName: string
@@ -6190,7 +6209,7 @@ class TelephonyHandler {
   };
 
   /** Delete the replacement offer scheduling */
-  deleteBillingAccountServiceServiceNameOfferChange = (
+  deleteServiceOfferChangeByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -6201,7 +6220,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountServiceServiceNameOfferChange = (
+  getServiceOfferChangeByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyOfferChange> => {
@@ -6212,7 +6231,7 @@ class TelephonyHandler {
   };
 
   /** Add a new offer change */
-  postBillingAccountServiceServiceNameOfferChange = (
+  addServiceOfferChangeByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { offer: string }
@@ -6225,10 +6244,10 @@ class TelephonyHandler {
   };
 
   /** List all available offer changes compatibilities */
-  getBillingAccountServiceServiceNameOfferChanges = (
+  listServiceOfferChangesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<TelephonyLineOffer> => {
+  ): Promise<TelephonyLineOffer[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/service/${serviceName}/offerChanges`
@@ -6236,15 +6255,15 @@ class TelephonyHandler {
   };
 
   /** Operations on a telephony service's offer */
-  getBillingAccountServiceServiceNameOfferTask = (
+  getServiceOfferTaskByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/service/${serviceName}/offerTask`);
   };
 
   /** Get this object properties */
-  getBillingAccountServiceServiceNameOfferTaskTaskId = (
+  getServiceOfferTaskByBillingAccountAndServiceNameAndTaskId = (
     billingAccount: string,
     serviceName: string,
     taskId: number
@@ -6256,7 +6275,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountServiceServiceNameOfferTaskTaskId = (
+  updateServiceOfferTaskByBillingAccountAndServiceNameAndTaskId = (
     billingAccount: string,
     serviceName: string,
     taskId: number,
@@ -6270,10 +6289,10 @@ class TelephonyHandler {
   };
 
   /** Call delivery records of the previous month. */
-  getBillingAccountServiceServiceNamePreviousVoiceConsumption = (
+  getServicePreviousVoiceConsumptionByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/service/${serviceName}/previousVoiceConsumption`
@@ -6281,7 +6300,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountServiceServiceNamePreviousVoiceConsumptionConsumptionId = (
+  getServicePreviousVoiceConsumptionByBillingAccountAndServiceNameAndConsumptionId = (
     billingAccount: string,
     consumptionId: number,
     serviceName: string
@@ -6293,10 +6312,10 @@ class TelephonyHandler {
   };
 
   /** Call which could be repayable */
-  getBillingAccountServiceServiceNameRepaymentConsumption = (
+  getServiceRepaymentConsumptionByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/service/${serviceName}/repaymentConsumption`
@@ -6304,7 +6323,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountServiceServiceNameRepaymentConsumptionConsumptionId = (
+  getServiceRepaymentConsumptionByBillingAccountAndServiceNameAndConsumptionId = (
     billingAccount: string,
     consumptionId: number,
     serviceName: string
@@ -6316,15 +6335,15 @@ class TelephonyHandler {
   };
 
   /** Operations on a telephony service */
-  getBillingAccountServiceServiceNameTask = (
+  getServiceTaskByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/service/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getBillingAccountServiceServiceNameTaskTaskId = (
+  getServiceTaskByBillingAccountAndServiceNameAndTaskId = (
     billingAccount: string,
     serviceName: string,
     taskId: number
@@ -6336,10 +6355,10 @@ class TelephonyHandler {
   };
 
   /** Call delivery records. */
-  getBillingAccountServiceServiceNameVoiceConsumption = (
+  getServiceVoiceConsumptionByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/service/${serviceName}/voiceConsumption`
@@ -6347,7 +6366,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountServiceServiceNameVoiceConsumptionConsumptionId = (
+  getServiceVoiceConsumptionByBillingAccountAndServiceNameAndConsumptionId = (
     billingAccount: string,
     consumptionId: number,
     serviceName: string
@@ -6359,7 +6378,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountServiceServiceNameVoiceConsumptionConsumptionIdCallDiagnostics = (
+  getServiceVoiceConsumptionCallDiagnosticsByBillingAccountAndServiceNameAndConsumptionId = (
     billingAccount: string,
     consumptionId: number,
     serviceName: string
@@ -6371,12 +6390,12 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountServiceInfos = (billingAccount: string): Promise<ServicesService> => {
+  getServiceInfosByBillingAccount = (billingAccount: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putBillingAccountServiceInfos = (
+  updateServiceInfosByBillingAccount = (
     billingAccount: string,
     body: ServicesService
   ): Promise<void> => {
@@ -6384,12 +6403,12 @@ class TelephonyHandler {
   };
 
   /** Operations on a telephony billing account */
-  getBillingAccountTask = (billingAccount: string): Promise<number> => {
+  getTaskByBillingAccount = (billingAccount: string): Promise<number[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/task`);
   };
 
   /** Get this object properties */
-  getBillingAccountTaskTaskId = (
+  getTaskByBillingAccountAndTaskId = (
     billingAccount: string,
     taskId: number
   ): Promise<TelephonyTask> => {
@@ -6397,12 +6416,12 @@ class TelephonyHandler {
   };
 
   /** Time conditions compatible numbers associated with this billing account */
-  getBillingAccountTimeCondition = (billingAccount: string): Promise<string> => {
+  getTimeConditionByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/timeCondition`);
   };
 
   /** Get this object properties */
-  getBillingAccountTimeConditionServiceName = (
+  getTimeConditionByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyGenericScreen> => {
@@ -6410,10 +6429,10 @@ class TelephonyHandler {
   };
 
   /** Rules for time conditions for this service */
-  getBillingAccountTimeConditionServiceNameCondition = (
+  getTimeConditionConditionByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/timeCondition/${serviceName}/condition`
@@ -6421,7 +6440,7 @@ class TelephonyHandler {
   };
 
   /** Create a new time condition rule */
-  postBillingAccountTimeConditionServiceNameCondition = (
+  createTimeConditionConditionByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: {
@@ -6439,7 +6458,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given screen list */
-  deleteBillingAccountTimeConditionServiceNameConditionId = (
+  deleteTimeConditionConditionByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -6451,7 +6470,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountTimeConditionServiceNameConditionId = (
+  getTimeConditionConditionByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -6463,7 +6482,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountTimeConditionServiceNameConditionId = (
+  updateTimeConditionConditionByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string,
@@ -6477,7 +6496,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountTimeConditionServiceNameOptions = (
+  getTimeConditionOptionsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyTimeConditionOptions> => {
@@ -6488,7 +6507,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountTimeConditionServiceNameOptions = (
+  updateTimeConditionOptionsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyTimeConditionOptions
@@ -6501,7 +6520,7 @@ class TelephonyHandler {
   };
 
   /** Transfer security deposit between two billing accounts */
-  postBillingAccountTransferSecurityDeposit = (
+  postTransferSecurityDepositByBillingAccount = (
     billingAccount: string,
     body: { amount: number; billingAccountDestination: string }
   ): Promise<void> => {
@@ -6509,12 +6528,12 @@ class TelephonyHandler {
   };
 
   /** Trunk associated with this billing account */
-  getBillingAccountTrunk = (billingAccount: string): Promise<string> => {
+  getTrunkByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/trunk`);
   };
 
   /** Get this object properties */
-  getBillingAccountTrunkServiceName = (
+  getTrunkByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyTrunk> => {
@@ -6522,7 +6541,7 @@ class TelephonyHandler {
   };
 
   /** Determine the best channels packs combination for a given channel quantity */
-  getBillingAccountTrunkServiceNameChannelsPacksRepartition = (
+  getTrunkChannelsPacksRepartitionByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyTrunkSimultaneousPacksRepartition> => {
@@ -6533,10 +6552,10 @@ class TelephonyHandler {
   };
 
   /** External displayed number linked to this trunk */
-  getBillingAccountTrunkServiceNameExternalDisplayedNumber = (
+  getTrunkExternalDisplayedNumberByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/trunk/${serviceName}/externalDisplayedNumber`
@@ -6544,7 +6563,7 @@ class TelephonyHandler {
   };
 
   /** External displayed number creation for a given trunk */
-  postBillingAccountTrunkServiceNameExternalDisplayedNumber = (
+  postTrunkExternalDisplayedNumberByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { autoValidation?: boolean; number: string }
@@ -6557,7 +6576,7 @@ class TelephonyHandler {
   };
 
   /** Delete an external displayed number for a given trunk */
-  deleteBillingAccountTrunkServiceNameExternalDisplayedNumberNumber = (
+  deleteTrunkExternalDisplayedNumberByBillingAccountAndServiceNameAndNumber = (
     billingAccount: string,
     number: string,
     serviceName: string
@@ -6569,7 +6588,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountTrunkServiceNameExternalDisplayedNumberNumber = (
+  getTrunkExternalDisplayedNumberByBillingAccountAndServiceNameAndNumber = (
     billingAccount: string,
     number: string,
     serviceName: string
@@ -6581,7 +6600,7 @@ class TelephonyHandler {
   };
 
   /** Generate a phone call for validation. Returned validation code should be typed when asked. */
-  postBillingAccountTrunkServiceNameExternalDisplayedNumberNumberValidate = (
+  postTrunkExternalDisplayedNumberValidateByBillingAccountAndServiceNameAndNumber = (
     billingAccount: string,
     number: string,
     serviceName: string
@@ -6593,12 +6612,12 @@ class TelephonyHandler {
   };
 
   /** Voicemails associated with this billing account */
-  getBillingAccountVoicemail = (billingAccount: string): Promise<string> => {
+  getVoicemailByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/voicemail`);
   };
 
   /** Get this object properties */
-  getBillingAccountVoicemailServiceName = (
+  getVoicemailByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyVoicemail> => {
@@ -6606,7 +6625,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountVoicemailServiceName = (
+  updateVoicemailByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyVoicemail
@@ -6615,10 +6634,10 @@ class TelephonyHandler {
   };
 
   /** Voicemail directory messages */
-  getBillingAccountVoicemailServiceNameDirectories = (
+  getVoicemailDirectoriesByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/voicemail/${serviceName}/directories`
@@ -6626,7 +6645,7 @@ class TelephonyHandler {
   };
 
   /** Delete the given voicemail message */
-  deleteBillingAccountVoicemailServiceNameDirectoriesId = (
+  deleteVoicemailDirectoriesByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -6638,7 +6657,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountVoicemailServiceNameDirectoriesId = (
+  getVoicemailDirectoriesByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -6650,7 +6669,7 @@ class TelephonyHandler {
   };
 
   /** Get a url to download the sound file */
-  getBillingAccountVoicemailServiceNameDirectoriesIdDownload = (
+  getVoicemailDirectoriesDownloadByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -6662,7 +6681,7 @@ class TelephonyHandler {
   };
 
   /** Move the message to another directory */
-  postBillingAccountVoicemailServiceNameDirectoriesIdMove = (
+  postVoicemailDirectoriesMoveByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string,
@@ -6676,10 +6695,10 @@ class TelephonyHandler {
   };
 
   /** Voicemail greeting message properties */
-  getBillingAccountVoicemailServiceNameGreetings = (
+  getVoicemailGreetingsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/telephony/${billingAccount}/voicemail/${serviceName}/greetings`
@@ -6687,7 +6706,7 @@ class TelephonyHandler {
   };
 
   /** Upload a new sound for a specific greeting. Return a task id. */
-  postBillingAccountVoicemailServiceNameGreetings = (
+  postVoicemailGreetingsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { dir: TelephonyVoicemailMessageFolderGreetingEnum; documentId: string }
@@ -6700,7 +6719,7 @@ class TelephonyHandler {
   };
 
   /** Delete the customized greeting */
-  deleteBillingAccountVoicemailServiceNameGreetingsId = (
+  deleteVoicemailGreetingsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -6712,7 +6731,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountVoicemailServiceNameGreetingsId = (
+  getVoicemailGreetingsByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -6724,7 +6743,7 @@ class TelephonyHandler {
   };
 
   /** Get a url to download the sound file */
-  getBillingAccountVoicemailServiceNameGreetingsIdDownload = (
+  getVoicemailGreetingsDownloadByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string
@@ -6736,7 +6755,7 @@ class TelephonyHandler {
   };
 
   /** Move the message to another directory */
-  postBillingAccountVoicemailServiceNameGreetingsIdMove = (
+  postVoicemailGreetingsMoveByBillingAccountAndServiceNameAndId = (
     billingAccount: string,
     id: number,
     serviceName: string,
@@ -6750,7 +6769,7 @@ class TelephonyHandler {
   };
 
   /** Change the voicemail on a new version to manager greetings, directories and extra settings. */
-  postBillingAccountVoicemailServiceNameMigrateOnNewVersion = (
+  updateVoicemailMigrateOnNewVersionByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<void> => {
@@ -6761,7 +6780,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountVoicemailServiceNameSettings = (
+  getVoicemailSettingsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyVoicemailProperties> => {
@@ -6772,7 +6791,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountVoicemailServiceNameSettings = (
+  updateVoicemailSettingsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyVoicemailProperties
@@ -6785,7 +6804,7 @@ class TelephonyHandler {
   };
 
   /** Change the voicemail password. It must be 4 digit */
-  postBillingAccountVoicemailServiceNameSettingsChangePassword = (
+  updateVoicemailSettingsPasswordByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { password: string }
@@ -6798,7 +6817,7 @@ class TelephonyHandler {
   };
 
   /** Disable/Enable voicemail. Available only if the line has fax capabilities */
-  postBillingAccountVoicemailServiceNameSettingsChangeRouting = (
+  disableVoicemailSettingsChangeRoutingByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: { routing: TelephonyVoicefaxRoutingEnum }
@@ -6811,7 +6830,7 @@ class TelephonyHandler {
   };
 
   /** Get the status of the voicemail. Available only if the line has fax capabilities */
-  getBillingAccountVoicemailServiceNameSettingsRouting = (
+  getVoicemailSettingsRoutingByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyVoicefaxRoutingEnum> => {
@@ -6822,7 +6841,7 @@ class TelephonyHandler {
   };
 
   /** Get number for internal and external voicemail */
-  getBillingAccountVoicemailServiceNameSettingsVoicemailNumbers = (
+  getVoicemailSettingsVoicemailNumbersByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyVoicemailNumbers> => {
@@ -6833,12 +6852,12 @@ class TelephonyHandler {
   };
 
   /** Vxml numbers associated with this billing account */
-  getBillingAccountVxml = (billingAccount: string): Promise<string> => {
+  getVxmlByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/telephony/${billingAccount}/vxml`);
   };
 
   /** Get this object properties */
-  getBillingAccountVxmlServiceName = (
+  getVxmlByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyVxml> => {
@@ -6846,7 +6865,7 @@ class TelephonyHandler {
   };
 
   /** Get this object properties */
-  getBillingAccountVxmlServiceNameSettings = (
+  getVxmlSettingsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyVxmlProperties> => {
@@ -6854,7 +6873,7 @@ class TelephonyHandler {
   };
 
   /** Alter this object properties */
-  putBillingAccountVxmlServiceNameSettings = (
+  updateVxmlSettingsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string,
     body: TelephonyVxmlProperties
@@ -6867,7 +6886,7 @@ class TelephonyHandler {
   };
 
   /** Generate a temporary url to retrieve device logs */
-  postBillingAccountVxmlServiceNameSettingsLogs = (
+  postVxmlSettingsLogsByBillingAccountAndServiceName = (
     billingAccount: string,
     serviceName: string
   ): Promise<TelephonyTemporaryLogsLink> => {
@@ -6878,4 +6897,4 @@ class TelephonyHandler {
   };
 }
 
-export default TelephonyHandler;
+export { TelephonyHandler };

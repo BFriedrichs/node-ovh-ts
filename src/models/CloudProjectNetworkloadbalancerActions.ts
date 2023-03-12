@@ -4,6 +4,6 @@ import { CloudProjectLoadbalancerActionDispatch } from './CloudProjectLoadbalanc
 import { CloudProjectNetworkloadbalancerActionReject } from './CloudProjectNetworkloadbalancerActionReject';
 
 export type CloudProjectNetworkloadbalancerActions = {
-  dispatch: CloudProjectLoadbalancerActionDispatch | null;
-  reject: CloudProjectNetworkloadbalancerActionReject | null;
+  dispatch: CloudProjectLoadbalancerActionDispatch[] | null;
+  reject: CloudProjectNetworkloadbalancerActionReject[] | null;
 };

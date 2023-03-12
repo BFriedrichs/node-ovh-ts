@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MePaymentAvailableSubTypeEnum } from './MePaymentAvailableSubTypeEnum';
 import { MePaymentIcon } from './MePaymentIcon';
 import { MePaymentIntegrationEnum } from './MePaymentIntegrationEnum';
+import { MePaymentAvailableSubTypeEnum } from './MePaymentAvailableSubTypeEnum';
 
 export type MePaymentAvailablePaymentMethod = {
   formSessionId: string | null;

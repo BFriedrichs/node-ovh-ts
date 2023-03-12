@@ -4,7 +4,7 @@ import { CloudProjectAiServingTokenGroupEnum } from './CloudProjectAiServingToke
 
 export type CloudProjectAiServingToken = {
   createdAt: Date;
-  groups?: CloudProjectAiServingTokenGroupEnum;
+  groups?: CloudProjectAiServingTokenGroupEnum[];
   id: string;
   resource?: string;
   token: string | null;

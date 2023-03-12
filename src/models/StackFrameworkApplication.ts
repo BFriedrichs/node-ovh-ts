@@ -2,4 +2,4 @@
 
 import { DockerSlaveFrameworkApp } from './DockerSlaveFrameworkApp';
 
-export type StackFrameworkApplication = { apps: DockerSlaveFrameworkApp };
+export type StackFrameworkApplication = { apps: DockerSlaveFrameworkApp[] };

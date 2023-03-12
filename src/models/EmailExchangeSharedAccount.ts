@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailExchangeObjectStateEnum } from './EmailExchangeObjectStateEnum';
 import { EmailExchangeMailingFilterEnum } from './EmailExchangeMailingFilterEnum';
+import { EmailExchangeObjectStateEnum } from './EmailExchangeObjectStateEnum';
 
 export type EmailExchangeSharedAccount = {
   creationDate: Date | null;
@@ -14,7 +14,7 @@ export type EmailExchangeSharedAccount = {
   lastLogoffDate: Date | null;
   lastLogonDate: Date | null;
   lastName: string | null;
-  mailingFilter: EmailExchangeMailingFilterEnum | null;
+  mailingFilter: EmailExchangeMailingFilterEnum[] | null;
   quota: number;
   sharedEmailAddress: string;
   spamDetected: boolean;

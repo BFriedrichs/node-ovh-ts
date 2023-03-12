@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { NichandleIpRegistryEnum } from './NichandleIpRegistryEnum';
 import { NichandleCountryEnum } from './NichandleCountryEnum';
+import { NichandleIpRegistryEnum } from './NichandleIpRegistryEnum';
 
 export type NichandleIpv4Org = {
   abuse_mailbox: string;

@@ -3,7 +3,7 @@
 import { OrderPrice } from './OrderPrice';
 
 export type OrderCatalogPricing = {
-  capacities: string;
+  capacities: string[];
   commitment: number;
   description: string;
   interval: number;

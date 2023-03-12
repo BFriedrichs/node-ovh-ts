@@ -2,8 +2,8 @@
 
 export type XdslTemplateModemParametersToIgnore = {
   LANandDHCP: boolean | null;
-  WLANList: string | null;
+  WLANList: string[] | null;
   dmzIP: boolean | null;
   mtuSize: boolean | null;
-  portMappingList: string | null;
+  portMappingList: string[] | null;
 };

@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SmsTypeTemplateEnum } from './SmsTypeTemplateEnum';
 import { SmsStatusSenderEnum } from './SmsStatusSenderEnum';
+import { SmsTypeTemplateEnum } from './SmsTypeTemplateEnum';
 
 export type SmsTemplateControl = {
   activity: SmsTypeTemplateEnum;

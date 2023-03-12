@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { SmsTypeSenderEnum } from './SmsTypeSenderEnum';
-import { SmsStatusSenderEnum } from './SmsStatusSenderEnum';
 import { SmsRefererSenderEnum } from './SmsRefererSenderEnum';
+import { SmsStatusSenderEnum } from './SmsStatusSenderEnum';
 
 export type SmsSender = {
   comment: string | null;

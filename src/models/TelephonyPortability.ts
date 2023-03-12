@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyPortabilityCountryEnum } from './TelephonyPortabilityCountryEnum';
 import { TelephonyPortabilityCustomerInfos } from './TelephonyPortabilityCustomerInfos';
+import { TelephonyPortabilityCountryEnum } from './TelephonyPortabilityCountryEnum';
 
 export type TelephonyPortability = {
   billingAccount: string;
@@ -9,10 +9,10 @@ export type TelephonyPortability = {
   customerInfos: TelephonyPortabilityCustomerInfos;
   desiredExecutionDate: Date | null;
   error: boolean;
-  errorCodes: string;
+  errorCodes: string[];
   id: number;
   lineToRedirectTo: string | null;
-  numbersList: string;
+  numbersList: string[];
   operator: string;
   orderId: number;
   portabilityCountry: TelephonyPortabilityCountryEnum;

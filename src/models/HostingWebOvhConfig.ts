@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HostingWebOvhConfigEngineVersionEnum } from './HostingWebOvhConfigEngineVersionEnum';
-import { HostingWebOvhConfigEnvironmentEnum } from './HostingWebOvhConfigEnvironmentEnum';
-import { HostingWebOvhConfigEngineNameEnum } from './HostingWebOvhConfigEngineNameEnum';
-import { HostingWebOvhConfigStatusEnum } from './HostingWebOvhConfigStatusEnum';
 import { HostingWebOvhConfigHttpFirewallEnum } from './HostingWebOvhConfigHttpFirewallEnum';
+import { HostingWebOvhConfigEngineNameEnum } from './HostingWebOvhConfigEngineNameEnum';
+import { HostingWebOvhConfigEngineVersionEnum } from './HostingWebOvhConfigEngineVersionEnum';
+import { HostingWebOvhConfigStatusEnum } from './HostingWebOvhConfigStatusEnum';
+import { HostingWebOvhConfigEnvironmentEnum } from './HostingWebOvhConfigEnvironmentEnum';
 
 export type HostingWebOvhConfig = {
   container: string;

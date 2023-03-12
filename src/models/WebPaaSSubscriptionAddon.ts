@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { WebPaaSAddonProductNameEnum } from './WebPaaSAddonProductNameEnum';
-import { WebPaaSAddonFamilyEnum } from './WebPaaSAddonFamilyEnum';
 import { WebPaaSAddonStatusEnum } from './WebPaaSAddonStatusEnum';
+import { WebPaaSAddonFamilyEnum } from './WebPaaSAddonFamilyEnum';
+import { WebPaaSAddonProductNameEnum } from './WebPaaSAddonProductNameEnum';
 
 export type WebPaaSSubscriptionAddon = {
   planFamilyName: WebPaaSAddonFamilyEnum;

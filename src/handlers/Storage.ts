@@ -1,23 +1,23 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { StorageNetAppShareSnapshot } from '../models/StorageNetAppShareSnapshot';
-import { ServicesService } from '../models/ServicesService';
 import { StorageNetAppServiceUpdate } from '../models/StorageNetAppServiceUpdate';
-import { StorageNetAppShareSnapshotReserve } from '../models/StorageNetAppShareSnapshotReserve';
-import { StorageNetAppShareSnapshotReserveUpdate } from '../models/StorageNetAppShareSnapshotReserveUpdate';
-import { StorageNetAppShareExtendOrShrink } from '../models/StorageNetAppShareExtendOrShrink';
-import { StorageNetAppService } from '../models/StorageNetAppService';
-import { StorageNetAppShareACLRule } from '../models/StorageNetAppShareACLRule';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { StorageNetAppShareSnapshotPolicyUpdate } from '../models/StorageNetAppShareSnapshotPolicyUpdate';
-import { StorageNetAppShare } from '../models/StorageNetAppShare';
-import { StorageNetAppShareSnapshotPolicy } from '../models/StorageNetAppShareSnapshotPolicy';
 import { StorageNetAppSnapshotPolicyUpdate } from '../models/StorageNetAppSnapshotPolicyUpdate';
+import { StorageNetAppShareACLRule } from '../models/StorageNetAppShareACLRule';
+import { StorageNetAppShareAccessPath } from '../models/StorageNetAppShareAccessPath';
+import { StorageNetAppShareSnapshot } from '../models/StorageNetAppShareSnapshot';
+import { StorageNetAppShareSnapshotPolicy } from '../models/StorageNetAppShareSnapshotPolicy';
+import { StorageNetAppShareSnapshotPolicyUpdate } from '../models/StorageNetAppShareSnapshotPolicyUpdate';
+import { StorageNetAppShareUpdate } from '../models/StorageNetAppShareUpdate';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { StorageNetAppShareSnapshotUpdate } from '../models/StorageNetAppShareSnapshotUpdate';
-import { StorageNetAppShareAccessPath } from '../models/StorageNetAppShareAccessPath';
+import { StorageNetAppShare } from '../models/StorageNetAppShare';
+import { StorageNetAppShareSnapshotReserveUpdate } from '../models/StorageNetAppShareSnapshotReserveUpdate';
 import { StorageNetAppSnapshotPolicy } from '../models/StorageNetAppSnapshotPolicy';
-import { StorageNetAppShareUpdate } from '../models/StorageNetAppShareUpdate';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { StorageNetAppService } from '../models/StorageNetAppService';
+import { ServicesService } from '../models/ServicesService';
+import { StorageNetAppShareSnapshotReserve } from '../models/StorageNetAppShareSnapshotReserve';
+import { StorageNetAppShareExtendOrShrink } from '../models/StorageNetAppShareExtendOrShrink';
 import OVHBase from '../ovh';
 
 class StorageHandler {
@@ -28,17 +28,17 @@ class StorageHandler {
   }
 
   /** List available services */
-  getNetapp = (): Promise<StorageNetAppService> => {
+  listNetapps = (): Promise<StorageNetAppService[]> => {
     return this.ovh.request('GET', '/storage/netapp');
   };
 
   /** Get service details */
-  getNetappServiceName = (serviceName: string): Promise<StorageNetAppService> => {
+  getNetappByServiceName = (serviceName: string): Promise<StorageNetAppService> => {
     return this.ovh.request('GET', `/storage/netapp/${serviceName}`);
   };
 
   /** Update service */
-  putNetappServiceName = (
+  updateNetappByServiceName = (
     serviceName: string,
     body: StorageNetAppServiceUpdate
   ): Promise<StorageNetAppService> => {
@@ -46,15 +46,15 @@ class StorageHandler {
   };
 
   /** Launch a contact change procedure */
-  postNetappServiceNameChangeContact = (
+  launchNetappChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/storage/netapp/${serviceName}/changeContact`, body);
   };
 
   /** Confirm termination of your service */
-  postNetappServiceNameConfirmTermination = (
+  confirmNetappTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -67,12 +67,12 @@ class StorageHandler {
   };
 
   /** Get this object properties */
-  getNetappServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getNetappServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/storage/netapp/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putNetappServiceNameServiceInfos = (
+  updateNetappServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -80,12 +80,12 @@ class StorageHandler {
   };
 
   /** List available shares */
-  getNetappServiceNameShare = (serviceName: string): Promise<StorageNetAppShare> => {
+  listNetappSharesByServiceName = (serviceName: string): Promise<StorageNetAppShare[]> => {
     return this.ovh.request('GET', `/storage/netapp/${serviceName}/share`);
   };
 
   /** Create a share */
-  postNetappServiceNameShare = (
+  createNetappShareByServiceName = (
     serviceName: string,
     body: StorageNetAppShare
   ): Promise<StorageNetAppShare> => {
@@ -93,12 +93,15 @@ class StorageHandler {
   };
 
   /** Delete a share */
-  deleteNetappServiceNameShareShareId = (serviceName: string, shareId: string): Promise<void> => {
+  deleteNetappShareByServiceNameAndShareId = (
+    serviceName: string,
+    shareId: string
+  ): Promise<void> => {
     return this.ovh.request('DELETE', `/storage/netapp/${serviceName}/share/${shareId}`);
   };
 
   /** Get share details */
-  getNetappServiceNameShareShareId = (
+  getNetappShareByServiceNameAndShareId = (
     serviceName: string,
     shareId: string
   ): Promise<StorageNetAppShare> => {
@@ -106,7 +109,7 @@ class StorageHandler {
   };
 
   /** Update a share */
-  putNetappServiceNameShareShareId = (
+  updateNetappShareByServiceNameAndShareId = (
     serviceName: string,
     shareId: string,
     body: StorageNetAppShareUpdate
@@ -115,15 +118,15 @@ class StorageHandler {
   };
 
   /** List available access paths */
-  getNetappServiceNameShareShareIdAccessPath = (
+  listNetappShareAccessPathsByServiceNameAndShareId = (
     serviceName: string,
     shareId: string
-  ): Promise<StorageNetAppShareAccessPath> => {
+  ): Promise<StorageNetAppShareAccessPath[]> => {
     return this.ovh.request('GET', `/storage/netapp/${serviceName}/share/${shareId}/accessPath`);
   };
 
   /** Get access path details */
-  getNetappServiceNameShareShareIdAccessPathAccessPathId = (
+  getNetappShareAccessPathByServiceNameAndShareIdAndAccessPathId = (
     accessPathId: string,
     serviceName: string,
     shareId: string
@@ -135,15 +138,15 @@ class StorageHandler {
   };
 
   /** List available ACLs */
-  getNetappServiceNameShareShareIdAcl = (
+  listNetappShareAclsByServiceNameAndShareId = (
     serviceName: string,
     shareId: string
-  ): Promise<StorageNetAppShareACLRule> => {
+  ): Promise<StorageNetAppShareACLRule[]> => {
     return this.ovh.request('GET', `/storage/netapp/${serviceName}/share/${shareId}/acl`);
   };
 
   /** Create an ACL */
-  postNetappServiceNameShareShareIdAcl = (
+  createNetappShareAclByServiceNameAndShareId = (
     serviceName: string,
     shareId: string,
     body: StorageNetAppShareACLRule
@@ -152,7 +155,7 @@ class StorageHandler {
   };
 
   /** Delete an ACL */
-  deleteNetappServiceNameShareShareIdAclAclRuleId = (
+  deleteNetappShareAclByServiceNameAndShareIdAndAclRuleId = (
     aclRuleId: string,
     serviceName: string,
     shareId: string
@@ -164,7 +167,7 @@ class StorageHandler {
   };
 
   /** Get ACL details */
-  getNetappServiceNameShareShareIdAclAclRuleId = (
+  getNetappShareAclByServiceNameAndShareIdAndAclRuleId = (
     aclRuleId: string,
     serviceName: string,
     shareId: string
@@ -176,7 +179,7 @@ class StorageHandler {
   };
 
   /** Extend share size */
-  postNetappServiceNameShareShareIdExtend = (
+  postNetappShareExtendByServiceNameAndShareId = (
     serviceName: string,
     shareId: string,
     body: StorageNetAppShareExtendOrShrink
@@ -185,7 +188,7 @@ class StorageHandler {
   };
 
   /** Shrink share size */
-  postNetappServiceNameShareShareIdShrink = (
+  postNetappShareShrinkByServiceNameAndShareId = (
     serviceName: string,
     shareId: string,
     body: StorageNetAppShareExtendOrShrink
@@ -194,15 +197,15 @@ class StorageHandler {
   };
 
   /** List available snapshots */
-  getNetappServiceNameShareShareIdSnapshot = (
+  listNetappShareSnapshotsByServiceNameAndShareId = (
     serviceName: string,
     shareId: string
-  ): Promise<StorageNetAppShareSnapshot> => {
+  ): Promise<StorageNetAppShareSnapshot[]> => {
     return this.ovh.request('GET', `/storage/netapp/${serviceName}/share/${shareId}/snapshot`);
   };
 
   /** Create a snapshot */
-  postNetappServiceNameShareShareIdSnapshot = (
+  createNetappShareSnapshotByServiceNameAndShareId = (
     serviceName: string,
     shareId: string,
     body: StorageNetAppShareSnapshot
@@ -215,7 +218,7 @@ class StorageHandler {
   };
 
   /** Delete a snapshot */
-  deleteNetappServiceNameShareShareIdSnapshotSnapshotId = (
+  deleteNetappShareSnapshotByServiceNameAndShareIdAndSnapshotId = (
     serviceName: string,
     shareId: string,
     snapshotId: string
@@ -227,7 +230,7 @@ class StorageHandler {
   };
 
   /** Get snapshot details */
-  getNetappServiceNameShareShareIdSnapshotSnapshotId = (
+  getNetappShareSnapshotByServiceNameAndShareIdAndSnapshotId = (
     serviceName: string,
     shareId: string,
     snapshotId: string
@@ -239,7 +242,7 @@ class StorageHandler {
   };
 
   /** Update a snapshot */
-  putNetappServiceNameShareShareIdSnapshotSnapshotId = (
+  updateNetappShareSnapshotByServiceNameAndShareIdAndSnapshotId = (
     serviceName: string,
     shareId: string,
     snapshotId: string,
@@ -253,7 +256,7 @@ class StorageHandler {
   };
 
   /** Hold an automatic share snapshot */
-  postNetappServiceNameShareShareIdSnapshotSnapshotIdHold = (
+  postNetappShareSnapshotHoldByServiceNameAndShareIdAndSnapshotId = (
     serviceName: string,
     shareId: string,
     snapshotId: string
@@ -265,7 +268,7 @@ class StorageHandler {
   };
 
   /** Get snapshot policy used by a share */
-  getNetappServiceNameShareShareIdSnapshotPolicy = (
+  getNetappShareSnapshotPolicyByServiceNameAndShareId = (
     serviceName: string,
     shareId: string
   ): Promise<StorageNetAppShareSnapshotPolicy> => {
@@ -276,7 +279,7 @@ class StorageHandler {
   };
 
   /** Update snapshot policy used by a share */
-  putNetappServiceNameShareShareIdSnapshotPolicy = (
+  updateNetappShareSnapshotPolicyByServiceNameAndShareId = (
     serviceName: string,
     shareId: string,
     body: StorageNetAppShareSnapshotPolicyUpdate
@@ -289,7 +292,7 @@ class StorageHandler {
   };
 
   /** Get snapshot reserve properties of a share */
-  getNetappServiceNameShareShareIdSnapshotReserve = (
+  getNetappShareSnapshotReserveByServiceNameAndShareId = (
     serviceName: string,
     shareId: string
   ): Promise<StorageNetAppShareSnapshotReserve> => {
@@ -300,7 +303,7 @@ class StorageHandler {
   };
 
   /** Update snapshot reserve properties of a share */
-  putNetappServiceNameShareShareIdSnapshotReserve = (
+  updateNetappShareSnapshotReserveByServiceNameAndShareId = (
     serviceName: string,
     shareId: string,
     body: StorageNetAppShareSnapshotReserveUpdate
@@ -313,14 +316,14 @@ class StorageHandler {
   };
 
   /** Get a list of snapshot policies */
-  getNetappServiceNameSnapshotPolicy = (
+  getNetappSnapshotPolicyByServiceName = (
     serviceName: string
-  ): Promise<StorageNetAppSnapshotPolicy> => {
+  ): Promise<StorageNetAppSnapshotPolicy[]> => {
     return this.ovh.request('GET', `/storage/netapp/${serviceName}/snapshotPolicy`);
   };
 
   /** Create a snapshot policy */
-  postNetappServiceNameSnapshotPolicy = (
+  createNetappSnapshotPolicyByServiceName = (
     serviceName: string,
     body: StorageNetAppSnapshotPolicy
   ): Promise<StorageNetAppSnapshotPolicy> => {
@@ -328,7 +331,7 @@ class StorageHandler {
   };
 
   /** Delete a snapshot policy */
-  deleteNetappServiceNameSnapshotPolicySnapshotPolicyId = (
+  deleteNetappSnapshotPolicyByServiceNameAndSnapshotPolicyId = (
     serviceName: string,
     snapshotPolicyId: string
   ): Promise<void> => {
@@ -339,7 +342,7 @@ class StorageHandler {
   };
 
   /** Get snapshot policy details */
-  getNetappServiceNameSnapshotPolicySnapshotPolicyId = (
+  getNetappSnapshotPolicyByServiceNameAndSnapshotPolicyId = (
     serviceName: string,
     snapshotPolicyId: string
   ): Promise<StorageNetAppSnapshotPolicy> => {
@@ -350,7 +353,7 @@ class StorageHandler {
   };
 
   /** Update a snapshot policy */
-  putNetappServiceNameSnapshotPolicySnapshotPolicyId = (
+  updateNetappSnapshotPolicyByServiceNameAndSnapshotPolicyId = (
     serviceName: string,
     snapshotPolicyId: string,
     body: StorageNetAppSnapshotPolicyUpdate
@@ -363,9 +366,9 @@ class StorageHandler {
   };
 
   /** Terminate your service */
-  postNetappServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postNetappTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/storage/netapp/${serviceName}/terminate`);
   };
 }
 
-export default StorageHandler;
+export { StorageHandler };

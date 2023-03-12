@@ -4,5 +4,5 @@ import { OrderCatalogPublicProductBlobMetaConfigurationsValues } from './OrderCa
 
 export type OrderCatalogPublicProductBlobMetaConfigurations = {
   name: string;
-  values: OrderCatalogPublicProductBlobMetaConfigurationsValues;
+  values: OrderCatalogPublicProductBlobMetaConfigurationsValues[];
 };

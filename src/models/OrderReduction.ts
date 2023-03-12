@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderReductionTypeEnum } from './OrderReductionTypeEnum';
 import { OrderReductionContextEnum } from './OrderReductionContextEnum';
+import { OrderReductionTypeEnum } from './OrderReductionTypeEnum';
 import { OrderPrice } from './OrderPrice';
 
 export type OrderReduction = {

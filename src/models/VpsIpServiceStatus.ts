@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { VpsIpServiceStatusStateEnum } from './VpsIpServiceStatusStateEnum';
 import { VpsIpServiceStatusService } from './VpsIpServiceStatusService';
+import { VpsIpServiceStatusStateEnum } from './VpsIpServiceStatusStateEnum';
 
 export type VpsIpServiceStatus = {
   dns: VpsIpServiceStatusService;

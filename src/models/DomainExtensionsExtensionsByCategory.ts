@@ -3,6 +3,6 @@
 import { DomainExtensionsCategoryNameWithExtensions } from './DomainExtensionsCategoryNameWithExtensions';
 
 export type DomainExtensionsExtensionsByCategory = {
-  geolocalization: DomainExtensionsCategoryNameWithExtensions | null;
-  thematic: DomainExtensionsCategoryNameWithExtensions | null;
+  geolocalization: DomainExtensionsCategoryNameWithExtensions[] | null;
+  thematic: DomainExtensionsCategoryNameWithExtensions[] | null;
 };

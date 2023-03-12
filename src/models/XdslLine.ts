@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { XdslLandlineConcentrationPoint } from './XdslLandlineConcentrationPoint';
 import { XdslDeconsolidationEnum } from './XdslDeconsolidationEnum';
-import { XdslLineSectionLength } from './XdslLineSectionLength';
 import { XdslFaultRepairTimeEnum } from './XdslFaultRepairTimeEnum';
+import { XdslLandlineConcentrationPoint } from './XdslLandlineConcentrationPoint';
+import { XdslLineSectionLength } from './XdslLineSectionLength';
 
 export type XdslLine = {
   concentrationPoint: XdslLandlineConcentrationPoint | null;
@@ -11,7 +11,7 @@ export type XdslLine = {
   directDistribution: boolean | null;
   distance: number;
   faultRepairTime: XdslFaultRepairTimeEnum;
-  lineSectionsLength: XdslLineSectionLength;
+  lineSectionsLength: XdslLineSectionLength[];
   mitigation: number;
   number: string;
   originalNumber: string | null;

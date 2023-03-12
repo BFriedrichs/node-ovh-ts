@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedCloudHostStateEnum } from './DedicatedCloudHostStateEnum';
-import { DedicatedCloudRessourcesBillingTypeEnum } from './DedicatedCloudRessourcesBillingTypeEnum';
 import { DedicatedCloudHostSystemConnectionState } from './DedicatedCloudHostSystemConnectionState';
+import { DedicatedCloudRessourcesBillingTypeEnum } from './DedicatedCloudRessourcesBillingTypeEnum';
+import { DedicatedCloudHostStateEnum } from './DedicatedCloudHostStateEnum';
 
 export type DedicatedCloudHost = {
   billingType: DedicatedCloudRessourcesBillingTypeEnum;

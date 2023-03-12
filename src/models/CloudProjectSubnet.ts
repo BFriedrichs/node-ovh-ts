@@ -3,7 +3,7 @@
 import { CloudProjectAllocationPool } from './CloudProjectAllocationPool';
 
 export type CloudProjectSubnet = {
-  allocationPools: CloudProjectAllocationPool;
+  allocationPools: CloudProjectAllocationPool[];
   cidr: string;
   dhcpEnabled: boolean;
   gatewayIp: string | null;

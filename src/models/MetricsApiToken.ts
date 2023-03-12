@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MetricsApiLabel } from './MetricsApiLabel';
 import { MetricsApiPermissionEnum } from './MetricsApiPermissionEnum';
+import { MetricsApiLabel } from './MetricsApiLabel';
 
 export type MetricsApiToken = {
   access: string;
@@ -10,6 +10,6 @@ export type MetricsApiToken = {
   expiryAt: Date;
   id: string;
   isRevoked: boolean;
-  labels: MetricsApiLabel;
+  labels: MetricsApiLabel[];
   permission: MetricsApiPermissionEnum;
 };

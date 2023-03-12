@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { DomainDomainNsTypeEnum } from './DomainDomainNsTypeEnum';
+import { DomainOfferEnum } from './DomainOfferEnum';
+import { DomainParentService } from './DomainParentService';
 import { DomainDomainSuspensionStateEnum } from './DomainDomainSuspensionStateEnum';
 import { DomainDomainStateEnum } from './DomainDomainStateEnum';
-import { DomainParentService } from './DomainParentService';
-import { DomainOfferEnum } from './DomainOfferEnum';
 import { DomainDomainLockStatusEnum } from './DomainDomainLockStatusEnum';
 
 export type DomainDomain = {

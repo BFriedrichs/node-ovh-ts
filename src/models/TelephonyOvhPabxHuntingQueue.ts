@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyOvhPabxIvrMenuKeyEnum } from './TelephonyOvhPabxIvrMenuKeyEnum';
-import { TelephonyOvhPabxHuntingQueueRecordDisablingLanguageEnum } from './TelephonyOvhPabxHuntingQueueRecordDisablingLanguageEnum';
-import { TelephonyOvhPabxHuntingQueueRecordDisablingDigitEnum } from './TelephonyOvhPabxHuntingQueueRecordDisablingDigitEnum';
 import { TelephonyOvhPabxHuntingQueueStrategyEnum } from './TelephonyOvhPabxHuntingQueueStrategyEnum';
+import { TelephonyOvhPabxHuntingQueueRecordDisablingDigitEnum } from './TelephonyOvhPabxHuntingQueueRecordDisablingDigitEnum';
+import { TelephonyOvhPabxIvrMenuKeyEnum } from './TelephonyOvhPabxIvrMenuKeyEnum';
 import { TelephonyOvhPabxQueueActionEnum } from './TelephonyOvhPabxQueueActionEnum';
+import { TelephonyOvhPabxHuntingQueueRecordDisablingLanguageEnum } from './TelephonyOvhPabxHuntingQueueRecordDisablingLanguageEnum';
 
 export type TelephonyOvhPabxHuntingQueue = {
   actionOnClosure: TelephonyOvhPabxQueueActionEnum | null;

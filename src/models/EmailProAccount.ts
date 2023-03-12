@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { EmailProObjectStateEnum } from './EmailProObjectStateEnum';
+import { EmailProRenewPeriodEnum } from './EmailProRenewPeriodEnum';
 import { EmailProSpamAndVirusConfiguration } from './EmailProSpamAndVirusConfiguration';
 import { EmailProMailingFilterEnum } from './EmailProMailingFilterEnum';
-import { EmailProRenewPeriodEnum } from './EmailProRenewPeriodEnum';
 
 export type EmailProAccount = {
   SAMAccountName: string | null;
@@ -24,7 +24,7 @@ export type EmailProAccount = {
   lastName: string | null;
   lastUpdateDate: Date | null;
   login: string;
-  mailingFilter: EmailProMailingFilterEnum | null;
+  mailingFilter: EmailProMailingFilterEnum[] | null;
   passwordLastUpdate: Date | null;
   primaryEmailAddress: string;
   quota: number;

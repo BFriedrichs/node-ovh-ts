@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HostingWebTaskStatusEnum } from './HostingWebTaskStatusEnum';
 import { HostingWebTaskFunctionEnum } from './HostingWebTaskFunctionEnum';
 import { HostingWebTaskObjectTypeEnum } from './HostingWebTaskObjectTypeEnum';
+import { HostingWebTaskStatusEnum } from './HostingWebTaskStatusEnum';
 
 export type HostingWebPublicTask = {
   doneDate: Date | null;

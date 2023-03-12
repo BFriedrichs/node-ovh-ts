@@ -7,7 +7,7 @@ export type CloudSubOperation = {
   completedAt: Date | null;
   id: string;
   progress: number;
-  regions: string | null;
+  regions: string[] | null;
   resourceId: string | null;
   startedAt: Date | null;
   status: CloudOperationStatusEnum;

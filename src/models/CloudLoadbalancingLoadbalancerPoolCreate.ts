@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudLoadbalancingLoadbalancerMemberCreate } from './CloudLoadbalancingLoadbalancerMemberCreate';
 import { CloudLoadbalancingHealthMonitorCreate } from './CloudLoadbalancingHealthMonitorCreate';
+import { CloudLoadbalancingLoadbalancerMemberCreate } from './CloudLoadbalancingLoadbalancerMemberCreate';
 import { CloudLoadbalancingPoolProtocolEnum } from './CloudLoadbalancingPoolProtocolEnum';
-import { CloudLoadbalancingPoolSessionPersistence } from './CloudLoadbalancingPoolSessionPersistence';
 import { CloudLoadbalancingPoolAlgorithmEnum } from './CloudLoadbalancingPoolAlgorithmEnum';
+import { CloudLoadbalancingPoolSessionPersistence } from './CloudLoadbalancingPoolSessionPersistence';
 
 export type CloudLoadbalancingLoadbalancerPoolCreate = {
   algorithm?: CloudLoadbalancingPoolAlgorithmEnum;
   default?: boolean;
   healthMonitor: CloudLoadbalancingHealthMonitorCreate | null;
-  members: CloudLoadbalancingLoadbalancerMemberCreate;
+  members: CloudLoadbalancingLoadbalancerMemberCreate[];
   name: string;
   protocol?: CloudLoadbalancingPoolProtocolEnum;
   sessionPersistence: CloudLoadbalancingPoolSessionPersistence;

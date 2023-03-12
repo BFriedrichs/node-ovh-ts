@@ -5,5 +5,5 @@ export type CloudSshkeySshKeyDetail = {
   id: string;
   name: string;
   publicKey: string;
-  regions: string;
+  regions: string[];
 };

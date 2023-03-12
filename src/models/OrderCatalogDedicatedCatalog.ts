@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderCatalogDedicatedMetadata } from './OrderCatalogDedicatedMetadata';
 import { OrderCatalogDedicatedFamily } from './OrderCatalogDedicatedFamily';
-import { OrderCatalogDedicatedProduct } from './OrderCatalogDedicatedProduct';
+import { OrderCatalogDedicatedMetadata } from './OrderCatalogDedicatedMetadata';
 import { OrderCatalogDedicatedTechDetails } from './OrderCatalogDedicatedTechDetails';
+import { OrderCatalogDedicatedProduct } from './OrderCatalogDedicatedProduct';
 
 export type OrderCatalogDedicatedCatalog = {
-  families: OrderCatalogDedicatedFamily;
+  families: OrderCatalogDedicatedFamily[];
   metadatas: OrderCatalogDedicatedMetadata;
-  products: OrderCatalogDedicatedProduct;
-  techDetails: OrderCatalogDedicatedTechDetails;
+  products: OrderCatalogDedicatedProduct[];
+  techDetails: OrderCatalogDedicatedTechDetails[];
 };

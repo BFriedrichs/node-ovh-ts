@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { PaymentMethodIcon } from './PaymentMethodIcon';
 import { PaymentMethodIntegrationType } from './PaymentMethodIntegrationType';
+import { PaymentMethodIcon } from './PaymentMethodIcon';
 
 export type PaymentMethodAvailablePaymentMethod = {
   formSessionId: string | null;

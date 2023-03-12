@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OvertheboxConfigurationNetworkInterfaceMultipathEnum } from './OvertheboxConfigurationNetworkInterfaceMultipathEnum';
 import { OvertheboxConfigurationNetworkInterfaceProtoEnum } from './OvertheboxConfigurationNetworkInterfaceProtoEnum';
 import { OvertheboxConfigurationNetworkInterfaceTypeEnum } from './OvertheboxConfigurationNetworkInterfaceTypeEnum';
+import { OvertheboxConfigurationNetworkInterfaceMultipathEnum } from './OvertheboxConfigurationNetworkInterfaceMultipathEnum';
 
 export type OvertheboxConfigurationTypesNetworkInterface = {
   gateway: string | null;

@@ -3,5 +3,5 @@
 import { DomainConfigurationsContactTypeEnum } from './DomainConfigurationsContactTypeEnum';
 
 export type DomainConfigurationsObfuscatedEmailRefreshPayload = {
-  contacts?: DomainConfigurationsContactTypeEnum;
+  contacts?: DomainConfigurationsContactTypeEnum[];
 };

@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudNetworkNetworkRegion } from './CloudNetworkNetworkRegion';
 import { CloudNetworkNetworkStatusEnum } from './CloudNetworkNetworkStatusEnum';
 import { CloudNetworkNetworkTypeEnum } from './CloudNetworkNetworkTypeEnum';
+import { CloudNetworkNetworkRegion } from './CloudNetworkNetworkRegion';
 
 export type CloudNetworkNetwork = {
   id: string;
   name: string;
-  regions: CloudNetworkNetworkRegion;
+  regions: CloudNetworkNetworkRegion[];
   status: CloudNetworkNetworkStatusEnum;
   type: CloudNetworkNetworkTypeEnum | null;
   vlanId: number;

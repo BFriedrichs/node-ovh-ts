@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MsServicesExchangeLicenceEnum } from './MsServicesExchangeLicenceEnum';
-import { MsServicesObjectStateEnum } from './MsServicesObjectStateEnum';
-import { MsServicesMailingFilterEnum } from './MsServicesMailingFilterEnum';
-import { MsServicesRenewPeriodEnum } from './MsServicesRenewPeriodEnum';
 import { MsServicesSpamAndVirusConfiguration } from './MsServicesSpamAndVirusConfiguration';
+import { MsServicesExchangeLicenceEnum } from './MsServicesExchangeLicenceEnum';
+import { MsServicesMailingFilterEnum } from './MsServicesMailingFilterEnum';
+import { MsServicesObjectStateEnum } from './MsServicesObjectStateEnum';
+import { MsServicesRenewPeriodEnum } from './MsServicesRenewPeriodEnum';
 
 export type MsServicesExchangeInformation = {
   accountLicense: MsServicesExchangeLicenceEnum;
@@ -20,7 +20,7 @@ export type MsServicesExchangeInformation = {
   id: number;
   litigation: boolean;
   litigationPeriod: number | null;
-  mailingFilter: MsServicesMailingFilterEnum | null;
+  mailingFilter: MsServicesMailingFilterEnum[] | null;
   numberOfAliases: number;
   outlookLicense: boolean;
   owaLimited: boolean;

@@ -5,5 +5,5 @@ import { CloudUserRoleEnum } from './CloudUserRoleEnum';
 export type CloudProjectUserCreation = {
   description: string | null;
   role: CloudUserRoleEnum | null;
-  roles: CloudUserRoleEnum | null;
+  roles: CloudUserRoleEnum[] | null;
 };

@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { CloudProjectPaymentMethodAuthorized } from './CloudProjectPaymentMethodAuthorized';
+import { CloudProjectEligibilityAction } from './CloudProjectEligibilityAction';
 import { OrderPrice } from './OrderPrice';
 import { CloudProjectNewProjectInfoVoucher } from './CloudProjectNewProjectInfoVoucher';
-import { CloudProjectEligibilityAction } from './CloudProjectEligibilityAction';
 
 export type CloudProjectEligibilityInfo = {
-  actionsRequired: CloudProjectEligibilityAction | null;
+  actionsRequired: CloudProjectEligibilityAction[] | null;
   minimumCredit: OrderPrice | null;
-  paymentMethodsAuthorized: CloudProjectPaymentMethodAuthorized | null;
+  paymentMethodsAuthorized: CloudProjectPaymentMethodAuthorized[] | null;
   voucher: CloudProjectNewProjectInfoVoucher | null;
 };

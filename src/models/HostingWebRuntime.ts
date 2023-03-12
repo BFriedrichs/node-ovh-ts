@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { HostingWebRuntimeTypeEnum } from './HostingWebRuntimeTypeEnum';
 import { HostingWebRuntimeEnvEnum } from './HostingWebRuntimeEnvEnum';
 import { HostingWebRuntimeStateEnum } from './HostingWebRuntimeStateEnum';
-import { HostingWebRuntimeTypeEnum } from './HostingWebRuntimeTypeEnum';
 
 export type HostingWebRuntime = {
   appBootstrap: string | null;

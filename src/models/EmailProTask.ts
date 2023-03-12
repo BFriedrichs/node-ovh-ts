@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailProTaskFunctionEnum } from './EmailProTaskFunctionEnum';
 import { EmailProTaskStatusEnum } from './EmailProTaskStatusEnum';
+import { EmailProTaskFunctionEnum } from './EmailProTaskFunctionEnum';
 
 export type EmailProTask = {
   finishDate: Date | null;

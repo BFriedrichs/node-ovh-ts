@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DnssecKeyStatusEnum } from './DnssecKeyStatusEnum';
-import { DnssecKeyAlgorithmEnum } from './DnssecKeyAlgorithmEnum';
 import { DnssecKeyFlagEnum } from './DnssecKeyFlagEnum';
+import { DnssecKeyAlgorithmEnum } from './DnssecKeyAlgorithmEnum';
+import { DnssecKeyStatusEnum } from './DnssecKeyStatusEnum';
 
 export type DomainDnssecKey = {
   algorithm: DnssecKeyAlgorithmEnum;

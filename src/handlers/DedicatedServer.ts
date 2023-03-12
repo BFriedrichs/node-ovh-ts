@@ -1,116 +1,116 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedServerIpmiAccessTypeEnum } from '../models/DedicatedServerIpmiAccessTypeEnum';
-import { SupportNewMessageInfo } from '../models/SupportNewMessageInfo';
-import { DedicatedServerNetboot } from '../models/DedicatedServerNetboot';
-import { DedicatedServerIpOrderable } from '../models/DedicatedServerIpOrderable';
-import { VrackDedicatedServer } from '../models/VrackDedicatedServer';
-import { DedicatedServerMrtgTypeEnum } from '../models/DedicatedServerMrtgTypeEnum';
-import { DedicatedAvailabilities } from '../models/DedicatedAvailabilities';
-import { DedicatedPublicLog } from '../models/DedicatedPublicLog';
-import { DedicatedNetworkInterfaceControllerNetworkInterfaceController } from '../models/DedicatedNetworkInterfaceControllerNetworkInterfaceController';
-import { DedicatedServerSplaTypeEnum } from '../models/DedicatedServerSplaTypeEnum';
-import { DedicatedServerRtmChartPeriodEnum } from '../models/DedicatedServerRtmChartPeriodEnum';
-import { DedicatedServerRtmCommandSize } from '../models/DedicatedServerRtmCommandSize';
-import { DedicatedServerPlannedIntervention } from '../models/DedicatedServerPlannedIntervention';
-import { DedicatedServerRtmChartTypeEnum } from '../models/DedicatedServerRtmChartTypeEnum';
-import { DedicatedServerVirtualMacManagement } from '../models/DedicatedServerVirtualMacManagement';
-import { DedicatedServerOptionEnum } from '../models/DedicatedServerOptionEnum';
-import { DedicatedServerTask } from '../models/DedicatedServerTask';
-import { DedicatedServerIpmiAccessValue } from '../models/DedicatedServerIpmiAccessValue';
-import { DedicatedServerIpmiTestResult } from '../models/DedicatedServerIpmiTestResult';
-import { DedicatedAvailabilitiesRaw } from '../models/DedicatedAvailabilitiesRaw';
-import { SecondaryDnsSecondaryDNSCheckField } from '../models/SecondaryDnsSecondaryDNSCheckField';
-import { DedicatedServerInstallationProgressStatus } from '../models/DedicatedServerInstallationProgressStatus';
-import { DedicatedVirtualNetworkInterfaceVirtualNetworkInterfaceModeEnum } from '../models/DedicatedVirtualNetworkInterfaceVirtualNetworkInterfaceModeEnum';
-import { DedicatedServerIpCountryEnum } from '../models/DedicatedServerIpCountryEnum';
-import { DedicatedBiosSettingsBiosSettings } from '../models/DedicatedBiosSettingsBiosSettings';
-import { DedicatedServerHardwareRaidProfile } from '../models/DedicatedServerHardwareRaidProfile';
-import { DedicatedServerMrtgPeriodEnum } from '../models/DedicatedServerMrtgPeriodEnum';
-import { DedicatedServerBackupFtp } from '../models/DedicatedServerBackupFtp';
-import { DedicatedServerMonitoringProtocolEnum } from '../models/DedicatedServerMonitoringProtocolEnum';
-import { DedicatedServerUsbKeyOrderableDetails } from '../models/DedicatedServerUsbKeyOrderableDetails';
-import { DedicatedServerVmacTypeEnum } from '../models/DedicatedServerVmacTypeEnum';
-import { DedicatedServerIpmi } from '../models/DedicatedServerIpmi';
-import { DedicatedServerTrafficOrderable } from '../models/DedicatedServerTrafficOrderable';
-import { DedicatedServerByoiStatus } from '../models/DedicatedServerByoiStatus';
-import { DedicatedPlannedInterventionTimeSlot } from '../models/DedicatedPlannedInterventionTimeSlot';
-import { DedicatedServerMonitoringIntervalEnum } from '../models/DedicatedServerMonitoringIntervalEnum';
-import { DedicatedBinaryFirewallLink } from '../models/DedicatedBinaryFirewallLink';
-import { DedicatedServerNetworkSpecifications } from '../models/DedicatedServerNetworkSpecifications';
-import { DedicatedServerDedicated } from '../models/DedicatedServerDedicated';
-import { DedicatedServerNetbootOption } from '../models/DedicatedServerNetbootOption';
-import { SecondaryDnsSecondaryDNS } from '../models/SecondaryDnsSecondaryDNS';
-import { DedicatedServerSplaStatusEnum } from '../models/DedicatedServerSplaStatusEnum';
-import { LicenseWindowsOsVersionEnum } from '../models/LicenseWindowsOsVersionEnum';
-import { VrackTask } from '../models/VrackTask';
-import { DedicatedServerRtmOs } from '../models/DedicatedServerRtmOs';
-import { DedicatedServerAlertLanguageEnum } from '../models/DedicatedServerAlertLanguageEnum';
-import { DedicatedServerIpmiTestTypeEnum } from '../models/DedicatedServerIpmiTestTypeEnum';
-import { ServicesService } from '../models/ServicesService';
-import { DedicatedServerBackupBackupOffer } from '../models/DedicatedServerBackupBackupOffer';
-import { DedicatedServerBackupCloud } from '../models/DedicatedServerBackupCloud';
-import { DedicatedDatacenterAvailability } from '../models/DedicatedDatacenterAvailability';
-import { DedicatedServerRtmMemory } from '../models/DedicatedServerRtmMemory';
-import { DedicatedServerBootOptionEnum } from '../models/DedicatedServerBootOptionEnum';
-import { DedicatedServerBootTypeEnum } from '../models/DedicatedServerBootTypeEnum';
 import { DedicatedServerRtmPci } from '../models/DedicatedServerRtmPci';
-import { DedicatedServerRtmMotherboardHw } from '../models/DedicatedServerRtmMotherboardHw';
-import { DedicatedServerOption } from '../models/DedicatedServerOption';
-import { DedicatedServerRtmPartition } from '../models/DedicatedServerRtmPartition';
-import { DedicatedDatacenterEnum } from '../models/DedicatedDatacenterEnum';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { DedicatedServerBandwidthvRackOrderable } from '../models/DedicatedServerBandwidthvRackOrderable';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { DedicatedServerTemplateCaps } from '../models/DedicatedServerTemplateCaps';
-import { DedicatedServerFirewall } from '../models/DedicatedServerFirewall';
-import { DedicatedServerRtm } from '../models/DedicatedServerRtm';
-import { DedicatedBiosSettingsSgxBiosSettingsSgx } from '../models/DedicatedBiosSettingsSgxBiosSettingsSgx';
-import { DedicatedNetworkInterfaceControllerNetworkInterfaceControllerLinkTypeEnum } from '../models/DedicatedNetworkInterfaceControllerNetworkInterfaceControllerLinkTypeEnum';
-import { DedicatedServerEmailAlert } from '../models/DedicatedServerEmailAlert';
-import { DedicatedServerBackupStorageOrderable } from '../models/DedicatedServerBackupStorageOrderable';
-import { DedicatedServerConfigDrive } from '../models/DedicatedServerConfigDrive';
-import { DedicatedServerHardwareSpecifications } from '../models/DedicatedServerHardwareSpecifications';
-import { DedicatedServerRtmRaidVolumePort } from '../models/DedicatedServerRtmRaidVolumePort';
-import { LicenseWindowsSqlVersionEnum } from '../models/LicenseWindowsSqlVersionEnum';
-import { DedicatedServerServiceMonitoring } from '../models/DedicatedServerServiceMonitoring';
-import { DedicatedServerKvm } from '../models/DedicatedServerKvm';
-import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
-import { DedicatedServerBandwidthOrderable } from '../models/DedicatedServerBandwidthOrderable';
-import { DedicatedServerRtmLoad } from '../models/DedicatedServerRtmLoad';
-import { DedicatedServerRtmRaidVolume } from '../models/DedicatedServerRtmRaidVolume';
-import { DedicatedServerInstallCustom } from '../models/DedicatedServerInstallCustom';
-import { DedicatedCheckSumTypesEnum } from '../models/DedicatedCheckSumTypesEnum';
-import { DedicatedServerRtmDisk } from '../models/DedicatedServerRtmDisk';
-import { DedicatedServerMrtgTimestampValue } from '../models/DedicatedServerMrtgTimestampValue';
-import { DedicatedServerBackupFtpAcl } from '../models/DedicatedServerBackupFtpAcl';
-import { DedicatedServerInstallTemplate } from '../models/DedicatedServerInstallTemplate';
-import { DedicatedServerSpla } from '../models/DedicatedServerSpla';
-import { DedicatedServerSupportReplaceHddInfo } from '../models/DedicatedServerSupportReplaceHddInfo';
-import { DedicatedServerBiosSettingsSgxPrmrrEnum } from '../models/DedicatedServerBiosSettingsSgxPrmrrEnum';
 import { DedicatedBinaryFirewall } from '../models/DedicatedBinaryFirewall';
-import { ComplexTypeChartReturn } from '../models/ComplexTypeChartReturn';
+import { DedicatedAvailabilities } from '../models/DedicatedAvailabilities';
+import { DedicatedServerRtmMemory } from '../models/DedicatedServerRtmMemory';
 import { DedicatedServerServerBurst } from '../models/DedicatedServerServerBurst';
-import { DedicatedExposedTask } from '../models/DedicatedExposedTask';
-import { DedicatedServerVirtualMac } from '../models/DedicatedServerVirtualMac';
-import { DedicatedTaskFunctionEnum } from '../models/DedicatedTaskFunctionEnum';
-import { DedicatedVirtualNetworkInterfaceVirtualNetworkInterface } from '../models/DedicatedVirtualNetworkInterfaceVirtualNetworkInterface';
-import { DedicatedServerRtmConnection } from '../models/DedicatedServerRtmConnection';
-import { DedicatedServerRtmRaid } from '../models/DedicatedServerRtmRaid';
-import { SecondaryDnsSecondaryDNSNameServer } from '../models/SecondaryDnsSecondaryDNSNameServer';
-import { DedicatedServerRtmCpu } from '../models/DedicatedServerRtmCpu';
-import { DedicatedServerSmsAlert } from '../models/DedicatedServerSmsAlert';
-import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
-import { DedicatedServerHardwareRaidSize } from '../models/DedicatedServerHardwareRaidSize';
-import { DedicatedServerBiosSettingsSgxStatusEnum } from '../models/DedicatedServerBiosSettingsSgxStatusEnum';
-import { DedicatedServerAccess } from '../models/DedicatedServerAccess';
-import { DedicatedServerBackupBackupPassword } from '../models/DedicatedServerBackupBackupPassword';
-import { DedicatedServerIntervention } from '../models/DedicatedServerIntervention';
-import { DedicatedImageTypesEnum } from '../models/DedicatedImageTypesEnum';
-import { DedicatedDatacenterRawAvailability } from '../models/DedicatedDatacenterRawAvailability';
+import { DedicatedAvailabilitiesRaw } from '../models/DedicatedAvailabilitiesRaw';
+import { LicenseWindowsOsVersionEnum } from '../models/LicenseWindowsOsVersionEnum';
+import { ComplexTypeChartReturn } from '../models/ComplexTypeChartReturn';
+import { VrackTask } from '../models/VrackTask';
+import { DedicatedServerOptionEnum } from '../models/DedicatedServerOptionEnum';
+import { DedicatedServerBackupBackupOffer } from '../models/DedicatedServerBackupBackupOffer';
+import { DedicatedServerRtmCommandSize } from '../models/DedicatedServerRtmCommandSize';
+import { DedicatedPublicLog } from '../models/DedicatedPublicLog';
+import { DedicatedCheckSumTypesEnum } from '../models/DedicatedCheckSumTypesEnum';
+import { DedicatedServerInstallCustom } from '../models/DedicatedServerInstallCustom';
+import { DedicatedServerFirewall } from '../models/DedicatedServerFirewall';
+import { DedicatedServerRtmMotherboardHw } from '../models/DedicatedServerRtmMotherboardHw';
+import { DedicatedServerVirtualMacManagement } from '../models/DedicatedServerVirtualMacManagement';
 import { DedicatedServerOrderableSysFeatureEnum } from '../models/DedicatedServerOrderableSysFeatureEnum';
+import { DedicatedServerIpmiAccessValue } from '../models/DedicatedServerIpmiAccessValue';
+import { DedicatedServerTask } from '../models/DedicatedServerTask';
+import { DedicatedImageTypesEnum } from '../models/DedicatedImageTypesEnum';
+import { DedicatedServerSupportReplaceHddInfo } from '../models/DedicatedServerSupportReplaceHddInfo';
+import { DedicatedServerDedicated } from '../models/DedicatedServerDedicated';
+import { DedicatedExposedTask } from '../models/DedicatedExposedTask';
+import { LicenseWindowsSqlVersionEnum } from '../models/LicenseWindowsSqlVersionEnum';
+import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
+import { DedicatedServerHardwareRaidProfile } from '../models/DedicatedServerHardwareRaidProfile';
+import { DedicatedServerBackupBackupPassword } from '../models/DedicatedServerBackupBackupPassword';
+import { DedicatedServerIpmiAccessTypeEnum } from '../models/DedicatedServerIpmiAccessTypeEnum';
+import { DedicatedServerNetboot } from '../models/DedicatedServerNetboot';
 import { DedicatedServerRtmDiskSmart } from '../models/DedicatedServerRtmDiskSmart';
+import { DedicatedServerRtmRaidVolumePort } from '../models/DedicatedServerRtmRaidVolumePort';
+import { DedicatedPlannedInterventionTimeSlot } from '../models/DedicatedPlannedInterventionTimeSlot';
+import { DedicatedServerBootTypeEnum } from '../models/DedicatedServerBootTypeEnum';
+import { DedicatedServerRtmChartTypeEnum } from '../models/DedicatedServerRtmChartTypeEnum';
+import { DedicatedServerPlannedIntervention } from '../models/DedicatedServerPlannedIntervention';
+import { DedicatedServerRtmRaid } from '../models/DedicatedServerRtmRaid';
+import { DedicatedServerVirtualMac } from '../models/DedicatedServerVirtualMac';
+import { SecondaryDnsSecondaryDNS } from '../models/SecondaryDnsSecondaryDNS';
+import { DedicatedBinaryFirewallLink } from '../models/DedicatedBinaryFirewallLink';
+import { DedicatedServerIpmiTestResult } from '../models/DedicatedServerIpmiTestResult';
+import { DedicatedVirtualNetworkInterfaceVirtualNetworkInterfaceModeEnum } from '../models/DedicatedVirtualNetworkInterfaceVirtualNetworkInterfaceModeEnum';
+import { DedicatedServerRtmRaidVolume } from '../models/DedicatedServerRtmRaidVolume';
+import { DedicatedServerSpla } from '../models/DedicatedServerSpla';
+import { DedicatedBiosSettingsSgxBiosSettingsSgx } from '../models/DedicatedBiosSettingsSgxBiosSettingsSgx';
+import { DedicatedServerBandwidthvRackOrderable } from '../models/DedicatedServerBandwidthvRackOrderable';
+import { DedicatedServerMrtgTypeEnum } from '../models/DedicatedServerMrtgTypeEnum';
+import { DedicatedServerIntervention } from '../models/DedicatedServerIntervention';
+import { SecondaryDnsSecondaryDNSNameServer } from '../models/SecondaryDnsSecondaryDNSNameServer';
+import { DedicatedServerBackupStorageOrderable } from '../models/DedicatedServerBackupStorageOrderable';
+import { DedicatedServerAccess } from '../models/DedicatedServerAccess';
+import { DedicatedServerMonitoringIntervalEnum } from '../models/DedicatedServerMonitoringIntervalEnum';
+import { DedicatedServerBackupFtpAcl } from '../models/DedicatedServerBackupFtpAcl';
+import { DedicatedServerRtmChartPeriodEnum } from '../models/DedicatedServerRtmChartPeriodEnum';
+import { DedicatedServerSplaStatusEnum } from '../models/DedicatedServerSplaStatusEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { DedicatedServerMrtgTimestampValue } from '../models/DedicatedServerMrtgTimestampValue';
+import { DedicatedServerConfigDrive } from '../models/DedicatedServerConfigDrive';
+import { VrackDedicatedServer } from '../models/VrackDedicatedServer';
+import { DedicatedServerBandwidthOrderable } from '../models/DedicatedServerBandwidthOrderable';
+import { SupportNewMessageInfo } from '../models/SupportNewMessageInfo';
+import { DedicatedServerEmailAlert } from '../models/DedicatedServerEmailAlert';
+import { DedicatedServerBootOptionEnum } from '../models/DedicatedServerBootOptionEnum';
+import { DedicatedServerIpmi } from '../models/DedicatedServerIpmi';
+import { DedicatedServerHardwareRaidSize } from '../models/DedicatedServerHardwareRaidSize';
+import { DedicatedNetworkInterfaceControllerNetworkInterfaceController } from '../models/DedicatedNetworkInterfaceControllerNetworkInterfaceController';
+import { DedicatedServerOption } from '../models/DedicatedServerOption';
+import { DedicatedServerTrafficOrderable } from '../models/DedicatedServerTrafficOrderable';
+import { DedicatedServerInstallationProgressStatus } from '../models/DedicatedServerInstallationProgressStatus';
+import { DedicatedServerBackupCloud } from '../models/DedicatedServerBackupCloud';
+import { DedicatedServerInstallTemplate } from '../models/DedicatedServerInstallTemplate';
+import { DedicatedServerNetbootOption } from '../models/DedicatedServerNetbootOption';
+import { DedicatedServerMrtgPeriodEnum } from '../models/DedicatedServerMrtgPeriodEnum';
+import { SecondaryDnsSecondaryDNSCheckField } from '../models/SecondaryDnsSecondaryDNSCheckField';
+import { DedicatedServerUsbKeyOrderableDetails } from '../models/DedicatedServerUsbKeyOrderableDetails';
+import { DedicatedDatacenterEnum } from '../models/DedicatedDatacenterEnum';
+import { ServicesService } from '../models/ServicesService';
+import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
+import { DedicatedServerIpCountryEnum } from '../models/DedicatedServerIpCountryEnum';
+import { DedicatedServerRtmOs } from '../models/DedicatedServerRtmOs';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { DedicatedServerAlertLanguageEnum } from '../models/DedicatedServerAlertLanguageEnum';
+import { DedicatedServerMonitoringProtocolEnum } from '../models/DedicatedServerMonitoringProtocolEnum';
+import { DedicatedServerRtm } from '../models/DedicatedServerRtm';
+import { DedicatedServerBackupFtp } from '../models/DedicatedServerBackupFtp';
+import { DedicatedServerKvm } from '../models/DedicatedServerKvm';
+import { DedicatedVirtualNetworkInterfaceVirtualNetworkInterface } from '../models/DedicatedVirtualNetworkInterfaceVirtualNetworkInterface';
+import { DedicatedServerByoiStatus } from '../models/DedicatedServerByoiStatus';
+import { DedicatedServerRtmConnection } from '../models/DedicatedServerRtmConnection';
+import { DedicatedBiosSettingsBiosSettings } from '../models/DedicatedBiosSettingsBiosSettings';
+import { DedicatedServerRtmDisk } from '../models/DedicatedServerRtmDisk';
+import { DedicatedServerRtmLoad } from '../models/DedicatedServerRtmLoad';
+import { DedicatedNetworkInterfaceControllerNetworkInterfaceControllerLinkTypeEnum } from '../models/DedicatedNetworkInterfaceControllerNetworkInterfaceControllerLinkTypeEnum';
+import { DedicatedDatacenterAvailability } from '../models/DedicatedDatacenterAvailability';
+import { DedicatedServerHardwareSpecifications } from '../models/DedicatedServerHardwareSpecifications';
+import { DedicatedServerBiosSettingsSgxPrmrrEnum } from '../models/DedicatedServerBiosSettingsSgxPrmrrEnum';
+import { DedicatedServerIpmiTestTypeEnum } from '../models/DedicatedServerIpmiTestTypeEnum';
+import { DedicatedServerSplaTypeEnum } from '../models/DedicatedServerSplaTypeEnum';
+import { DedicatedTaskFunctionEnum } from '../models/DedicatedTaskFunctionEnum';
+import { DedicatedServerVmacTypeEnum } from '../models/DedicatedServerVmacTypeEnum';
+import { DedicatedServerBiosSettingsSgxStatusEnum } from '../models/DedicatedServerBiosSettingsSgxStatusEnum';
+import { DedicatedDatacenterRawAvailability } from '../models/DedicatedDatacenterRawAvailability';
+import { DedicatedServerTemplateCaps } from '../models/DedicatedServerTemplateCaps';
+import { DedicatedServerRtmCpu } from '../models/DedicatedServerRtmCpu';
+import { DedicatedServerServiceMonitoring } from '../models/DedicatedServerServiceMonitoring';
+import { DedicatedServerSmsAlert } from '../models/DedicatedServerSmsAlert';
+import { DedicatedServerNetworkSpecifications } from '../models/DedicatedServerNetworkSpecifications';
+import { DedicatedServerIpOrderable } from '../models/DedicatedServerIpOrderable';
 import { DedicatedServerCacheTTLEnum } from '../models/DedicatedServerCacheTTLEnum';
+import { DedicatedServerRtmPartition } from '../models/DedicatedServerRtmPartition';
 import OVHBase from '../ovh';
 
 class DedicatedServerHandler {
@@ -121,27 +121,27 @@ class DedicatedServerHandler {
   }
 
   /** List available services */
-  getServer = (): Promise<string> => {
+  listServers = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicated/server');
   };
 
   /** List the availability of dedicated server */
-  getServerAvailabilities = (): Promise<DedicatedAvailabilities> => {
+  listServerAvailabilities = (): Promise<DedicatedAvailabilities[]> => {
     return this.ovh.request('GET', '/dedicated/server/availabilities');
   };
 
   /** List the availability of dedicated server */
-  getServerAvailabilitiesRaw = (): Promise<DedicatedAvailabilitiesRaw> => {
+  listServerAvailabilitiesRaws = (): Promise<DedicatedAvailabilitiesRaw[]> => {
     return this.ovh.request('GET', '/dedicated/server/availabilities/raw');
   };
 
   /** List the availability of dedicated server */
-  getServerDatacenterAvailabilities = (): Promise<DedicatedDatacenterAvailability> => {
+  listServerDatacenterAvailabilities = (): Promise<DedicatedDatacenterAvailability[]> => {
     return this.ovh.request('GET', '/dedicated/server/datacenter/availabilities');
   };
 
   /** List the raw availability of dedicated server */
-  getServerDatacenterAvailabilitiesRaw = (): Promise<DedicatedDatacenterRawAvailability> => {
+  listServerDatacenterAvailabilitiesRaws = (): Promise<DedicatedDatacenterRawAvailability[]> => {
     return this.ovh.request('GET', '/dedicated/server/datacenter/availabilities/raw');
   };
 
@@ -151,57 +151,60 @@ class DedicatedServerHandler {
   };
 
   /** List the os available for a specified hardware reference */
-  getServerOsAvailabilities = (): Promise<string> => {
+  listServerOsAvailabilities = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicated/server/osAvailabilities');
   };
 
   /** Get VirtualNetworkInterface details */
-  getServerVirtualNetworkInterfaceUuid = (
+  getServerVirtualNetworkInterfaceByUuid = (
     uuid: string
   ): Promise<DedicatedVirtualNetworkInterfaceVirtualNetworkInterface> => {
     return this.ovh.request('GET', `/dedicated/server/virtualNetworkInterface/${uuid}`);
   };
 
   /** Get this object properties */
-  getServerServiceName = (serviceName: string): Promise<DedicatedServerDedicated> => {
+  getServerByServiceName = (serviceName: string): Promise<DedicatedServerDedicated> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putServerServiceName = (serviceName: string, body: DedicatedServerDedicated): Promise<void> => {
+  updateServerByServiceName = (
+    serviceName: string,
+    body: DedicatedServerDedicated
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/dedicated/server/${serviceName}`, body);
   };
 
   /** Retrieve secret to connect to the server / application */
-  postServerServiceNameAuthenticationSecret = (
+  postServerAuthenticationSecretByServiceName = (
     serviceName: string
-  ): Promise<DedicatedServerAccess> => {
+  ): Promise<DedicatedServerAccess[]> => {
     return this.ovh.request('POST', `/dedicated/server/${serviceName}/authenticationSecret`);
   };
 
   /** Get details on offered backup cloud if available for the current server */
-  getServerServiceNameBackupCloudOfferDetails = (
+  getServerBackupCloudOfferDetailsByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerBackupBackupOffer> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/backupCloudOfferDetails`);
   };
 
   /** Get this object properties */
-  getServerServiceNameBiosSettings = (
+  getServerBiosSettingsByServiceName = (
     serviceName: string
   ): Promise<DedicatedBiosSettingsBiosSettings> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/biosSettings`);
   };
 
   /** Get this object properties */
-  getServerServiceNameBiosSettingsSgx = (
+  getServerBiosSettingsSgxByServiceName = (
     serviceName: string
   ): Promise<DedicatedBiosSettingsSgxBiosSettingsSgx> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/biosSettings/sgx`);
   };
 
   /** Enable or disable SGX and configure PRMRR size. This will cause your server to reboot one or several time(s). */
-  postServerServiceNameBiosSettingsSgxConfigure = (
+  enableServerBiosSettingsSgxConfigureByServiceName = (
     serviceName: string,
     body: {
       prmrr?: DedicatedServerBiosSettingsSgxPrmrrEnum;
@@ -216,12 +219,12 @@ class DedicatedServerHandler {
   };
 
   /** Server compatibles netboots */
-  getServerServiceNameBoot = (serviceName: string): Promise<number> => {
+  getServerBootByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/boot`);
   };
 
   /** Get this object properties */
-  getServerServiceNameBootBootId = (
+  getServerBootByServiceNameAndBootId = (
     bootId: number,
     serviceName: string
   ): Promise<DedicatedServerNetboot> => {
@@ -229,15 +232,15 @@ class DedicatedServerHandler {
   };
 
   /** Option used on this netboot */
-  getServerServiceNameBootBootIdOption = (
+  getServerBootOptionByServiceNameAndBootId = (
     bootId: number,
     serviceName: string
-  ): Promise<DedicatedServerBootOptionEnum> => {
+  ): Promise<DedicatedServerBootOptionEnum[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/boot/${bootId}/option`);
   };
 
   /** Get this object properties */
-  getServerServiceNameBootBootIdOptionOption = (
+  getServerBootOptionByServiceNameAndBootIdAndOption = (
     bootId: number,
     option: DedicatedServerBootOptionEnum,
     serviceName: string
@@ -249,19 +252,19 @@ class DedicatedServerHandler {
   };
 
   /** Delete your current image installation */
-  deleteServerServiceNameBringYourOwnImage = (serviceName: string): Promise<void> => {
+  deleteServerBringYourOwnImageByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/dedicated/server/${serviceName}/bringYourOwnImage`);
   };
 
   /** Get this object properties */
-  getServerServiceNameBringYourOwnImage = (
+  getServerBringYourOwnImageByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerByoiStatus> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/bringYourOwnImage`);
   };
 
   /** Start an install with your own image */
-  postServerServiceNameBringYourOwnImage = (
+  postServerBringYourOwnImageByServiceName = (
     serviceName: string,
     body: {
       URL: string;
@@ -278,12 +281,12 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameBurst = (serviceName: string): Promise<DedicatedServerServerBurst> => {
+  getServerBurstByServiceName = (serviceName: string): Promise<DedicatedServerServerBurst> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/burst`);
   };
 
   /** Alter this object properties */
-  putServerServiceNameBurst = (
+  updateServerBurstByServiceName = (
     serviceName: string,
     body: DedicatedServerServerBurst
   ): Promise<void> => {
@@ -291,15 +294,15 @@ class DedicatedServerHandler {
   };
 
   /** Launch a contact change procedure */
-  postServerServiceNameChangeContact = (
+  launchServerChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/dedicated/server/${serviceName}/changeContact`, body);
   };
 
   /** Confirm termination of your service */
-  postServerServiceNameConfirmTermination = (
+  confirmServerTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -312,19 +315,19 @@ class DedicatedServerHandler {
   };
 
   /** Deactivate the cloud backup associated to the server. This does not delete container data. */
-  deleteServerServiceNameFeaturesBackupCloud = (serviceName: string): Promise<void> => {
+  deleteServerFeaturesBackupCloudByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/dedicated/server/${serviceName}/features/backupCloud`);
   };
 
   /** Get this object properties */
-  getServerServiceNameFeaturesBackupCloud = (
+  getServerFeaturesBackupCloudByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerBackupCloud> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/features/backupCloud`);
   };
 
   /** Create a new storage backup space associated to server */
-  postServerServiceNameFeaturesBackupCloud = (
+  createServerFeaturesBackupCloudByServiceName = (
     serviceName: string,
     body: { cloudProjectId?: string; projectDescription?: string }
   ): Promise<DedicatedServerBackupCloud> => {
@@ -332,7 +335,7 @@ class DedicatedServerHandler {
   };
 
   /** Change your cloud account password */
-  postServerServiceNameFeaturesBackupCloudPassword = (
+  updateServerFeaturesBackupCloudPasswordByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerBackupBackupPassword> => {
     return this.ovh.request(
@@ -342,31 +345,33 @@ class DedicatedServerHandler {
   };
 
   /** Terminate your Backup FTP service, ALL DATA WILL BE PERMANENTLY DELETED */
-  deleteServerServiceNameFeaturesBackupFTP = (
+  deleteServerFeaturesBackupFTPByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerTask> => {
     return this.ovh.request('DELETE', `/dedicated/server/${serviceName}/features/backupFTP`);
   };
 
   /** Get this object properties */
-  getServerServiceNameFeaturesBackupFTP = (
+  getServerFeaturesBackupFTPByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerBackupFtp> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/features/backupFTP`);
   };
 
   /** Create a new Backup FTP space */
-  postServerServiceNameFeaturesBackupFTP = (serviceName: string): Promise<DedicatedServerTask> => {
+  createServerFeaturesBackupFTPByServiceName = (
+    serviceName: string
+  ): Promise<DedicatedServerTask> => {
     return this.ovh.request('POST', `/dedicated/server/${serviceName}/features/backupFTP`);
   };
 
   /** List of IP blocks (and protocols to allow on these blocks) authorized on your backup FTP */
-  getServerServiceNameFeaturesBackupFTPAccess = (serviceName: string): Promise<string> => {
+  listServerFeaturesBackupFTPAccessByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/features/backupFTP/access`);
   };
 
   /** Create a new Backup FTP ACL */
-  postServerServiceNameFeaturesBackupFTPAccess = (
+  createServerFeaturesBackupFTPAccessByServiceName = (
     serviceName: string,
     body: { cifs: boolean; ftp?: boolean; ipBlock: string; nfs: boolean }
   ): Promise<DedicatedServerTask> => {
@@ -378,7 +383,7 @@ class DedicatedServerHandler {
   };
 
   /** Revoke this ACL */
-  deleteServerServiceNameFeaturesBackupFTPAccessIpBlock = (
+  deleteServerFeaturesBackupFTPAccessByServiceNameAndIpBlock = (
     ipBlock: string,
     serviceName: string
   ): Promise<DedicatedServerTask> => {
@@ -389,7 +394,7 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameFeaturesBackupFTPAccessIpBlock = (
+  getServerFeaturesBackupFTPAccessByServiceNameAndIpBlock = (
     ipBlock: string,
     serviceName: string
   ): Promise<DedicatedServerBackupFtpAcl> => {
@@ -400,7 +405,7 @@ class DedicatedServerHandler {
   };
 
   /** Alter this object properties */
-  putServerServiceNameFeaturesBackupFTPAccessIpBlock = (
+  updateServerFeaturesBackupFTPAccessByServiceNameAndIpBlock = (
     ipBlock: string,
     serviceName: string,
     body: DedicatedServerBackupFtpAcl
@@ -413,9 +418,9 @@ class DedicatedServerHandler {
   };
 
   /** Get all IP blocks that can be used in the ACL */
-  getServerServiceNameFeaturesBackupFTPAuthorizableBlocks = (
+  getServerFeaturesBackupFTPAuthorizableBlocksByServiceName = (
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/server/${serviceName}/features/backupFTP/authorizableBlocks`
@@ -423,21 +428,21 @@ class DedicatedServerHandler {
   };
 
   /** Change your Backup FTP password */
-  postServerServiceNameFeaturesBackupFTPPassword = (
+  updateServerFeaturesBackupFTPPasswordByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerTask> => {
     return this.ovh.request('POST', `/dedicated/server/${serviceName}/features/backupFTP/password`);
   };
 
   /** Get this object properties */
-  getServerServiceNameFeaturesFirewall = (
+  getServerFeaturesFirewallByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerFirewall> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/features/firewall`);
   };
 
   /** Alter this object properties */
-  putServerServiceNameFeaturesFirewall = (
+  updateServerFeaturesFirewallByServiceName = (
     serviceName: string,
     body: DedicatedServerFirewall
   ): Promise<void> => {
@@ -445,19 +450,19 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameFeaturesIpmi = (serviceName: string): Promise<DedicatedServerIpmi> => {
+  getServerFeaturesIpmiByServiceName = (serviceName: string): Promise<DedicatedServerIpmi> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/features/ipmi`);
   };
 
   /** IPMI access method */
-  getServerServiceNameFeaturesIpmiAccess = (
+  getServerFeaturesIpmiAccessByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerIpmiAccessValue> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/features/ipmi/access`);
   };
 
   /** Request an acces on KVM IPMI interface */
-  postServerServiceNameFeaturesIpmiAccess = (
+  postServerFeaturesIpmiAccessByServiceName = (
     serviceName: string,
     body: {
       ipToAllow?: string;
@@ -470,7 +475,7 @@ class DedicatedServerHandler {
   };
 
   /** Reset KVM IPMI interface */
-  postServerServiceNameFeaturesIpmiResetInterface = (
+  postServerFeaturesIpmiResetInterfaceByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerTask> => {
     return this.ovh.request(
@@ -480,21 +485,21 @@ class DedicatedServerHandler {
   };
 
   /** Reset KVM IPMI sessions */
-  postServerServiceNameFeaturesIpmiResetSessions = (
+  postServerFeaturesIpmiResetSessionsByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerTask> => {
     return this.ovh.request('POST', `/dedicated/server/${serviceName}/features/ipmi/resetSessions`);
   };
 
   /** Result of http, ping and identification tests on IPMI interface */
-  getServerServiceNameFeaturesIpmiTest = (
+  getServerFeaturesIpmiTestByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerIpmiTestResult> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/features/ipmi/test`);
   };
 
   /** Launch test on KVM IPMI interface */
-  postServerServiceNameFeaturesIpmiTest = (
+  launchServerFeaturesIpmiTestByServiceName = (
     serviceName: string,
     body: { ttl: DedicatedServerCacheTTLEnum; type: DedicatedServerIpmiTestTypeEnum }
   ): Promise<DedicatedServerTask> => {
@@ -502,28 +507,28 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameFeaturesKvm = (serviceName: string): Promise<DedicatedServerKvm> => {
+  getServerFeaturesKvmByServiceName = (serviceName: string): Promise<DedicatedServerKvm> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/features/kvm`);
   };
 
   /** Get name binary for asa */
-  getServerServiceNameFirewallBinaryCompatible = (
+  getServerFirewallBinaryCompatibleByServiceName = (
     serviceName: string
   ): Promise<DedicatedBinaryFirewall> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/firewall/binary/compatible`);
   };
 
   /** Get url of binary to update firewall asa */
-  getServerServiceNameFirewallBinaryLink = (
+  getServerFirewallBinaryLinkByServiceName = (
     serviceName: string
   ): Promise<DedicatedBinaryFirewallLink> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/firewall/binary/link`);
   };
 
   /** Retrieve compatible  install template partitions scheme */
-  getServerServiceNameInstallCompatibleTemplatePartitionSchemes = (
+  getServerInstallCompatibleTemplatePartitionSchemesByServiceName = (
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/server/${serviceName}/install/compatibleTemplatePartitionSchemes`
@@ -531,28 +536,28 @@ class DedicatedServerHandler {
   };
 
   /** Retrieve compatible  install templates names */
-  getServerServiceNameInstallCompatibleTemplates = (
+  getServerInstallCompatibleTemplatesByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerInstallTemplate> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/install/compatibleTemplates`);
   };
 
   /** Retrieve hardware RAID profile */
-  getServerServiceNameInstallHardwareRaidProfile = (
+  getServerInstallHardwareRaidProfileByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerHardwareRaidProfile> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/install/hardwareRaidProfile`);
   };
 
   /** Get hardware RAID size for a given configuration */
-  getServerServiceNameInstallHardwareRaidSize = (
+  getServerInstallHardwareRaidSizeByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerHardwareRaidSize> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/install/hardwareRaidSize`);
   };
 
   /** Start an install */
-  postServerServiceNameInstallStart = (
+  postServerInstallStartByServiceName = (
     serviceName: string,
     body: {
       details?: DedicatedServerInstallCustom;
@@ -565,26 +570,26 @@ class DedicatedServerHandler {
   };
 
   /** Get installation status */
-  getServerServiceNameInstallStatus = (
+  getServerInstallStatusByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerInstallationProgressStatus> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/install/status`);
   };
 
   /** Gives some capabilities regarding the template for the current dedicated server. */
-  getServerServiceNameInstallTemplateCapabilities = (
+  getServerInstallTemplateCapabilitiesByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerTemplateCaps> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/install/templateCapabilities`);
   };
 
   /** technical intervention history */
-  getServerServiceNameIntervention = (serviceName: string): Promise<number> => {
+  getServerInterventionByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/intervention`);
   };
 
   /** Get this object properties */
-  getServerServiceNameInterventionInterventionId = (
+  getServerInterventionByServiceNameAndInterventionId = (
     interventionId: number,
     serviceName: string
   ): Promise<DedicatedServerIntervention> => {
@@ -595,7 +600,7 @@ class DedicatedServerHandler {
   };
 
   /** Merge a splitted block and route it to the choosen server. You cannot undo this operation */
-  postServerServiceNameIpBlockMerge = (
+  postServerIpBlockMergeByServiceName = (
     serviceName: string,
     body: { block: string }
   ): Promise<DedicatedServerTask> => {
@@ -603,19 +608,19 @@ class DedicatedServerHandler {
   };
 
   /** Check if given IP can be moved to this server */
-  getServerServiceNameIpCanBeMovedTo = (serviceName: string): Promise<void> => {
+  checkServerIpCanBeMovedToByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/ipCanBeMovedTo`);
   };
 
   /** Retrieve available country for IP order */
-  getServerServiceNameIpCountryAvailable = (
+  getServerIpCountryAvailableByServiceName = (
     serviceName: string
-  ): Promise<DedicatedServerIpCountryEnum> => {
+  ): Promise<DedicatedServerIpCountryEnum[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/ipCountryAvailable`);
   };
 
   /** Move an Ip failover to this server */
-  postServerServiceNameIpMove = (
+  postServerIpMoveByServiceName = (
     serviceName: string,
     body: { ip: string }
   ): Promise<DedicatedServerTask> => {
@@ -623,21 +628,21 @@ class DedicatedServerHandler {
   };
 
   /** List all ip from server */
-  getServerServiceNameIps = (serviceName: string): Promise<string> => {
+  listServerIpsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/ips`);
   };
 
   /** Get the windows license compliant with your server. */
-  getServerServiceNameLicenseCompliantWindows = (
+  getServerLicenseCompliantWindowsByServiceName = (
     serviceName: string
-  ): Promise<LicenseWindowsOsVersionEnum> => {
+  ): Promise<LicenseWindowsOsVersionEnum[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/license/compliantWindows`);
   };
 
   /** Get the windows SQL server license compliant with your server. */
-  getServerServiceNameLicenseCompliantWindowsSqlServer = (
+  getServerLicenseCompliantWindowsSqlServerByServiceName = (
     serviceName: string
-  ): Promise<LicenseWindowsSqlVersionEnum> => {
+  ): Promise<LicenseWindowsSqlVersionEnum[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/server/${serviceName}/license/compliantWindowsSqlServer`
@@ -645,7 +650,7 @@ class DedicatedServerHandler {
   };
 
   /** Add your existing windows license serial to this dedicated server. Will be manageable in /license/windows. */
-  postServerServiceNameLicenseWindows = (
+  addServerLicenseWindowsByServiceName = (
     serviceName: string,
     body: { licenseId: string; version: LicenseWindowsOsVersionEnum }
   ): Promise<DedicatedServerTask> => {
@@ -653,17 +658,19 @@ class DedicatedServerHandler {
   };
 
   /** Retrieve traffic graph values */
-  getServerServiceNameMrtg = (serviceName: string): Promise<DedicatedServerMrtgTimestampValue> => {
+  getServerMrtgByServiceName = (
+    serviceName: string
+  ): Promise<DedicatedServerMrtgTimestampValue[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/mrtg`);
   };
 
   /** List server networkInterfaceController */
-  getServerServiceNameNetworkInterfaceController = (serviceName: string): Promise<string> => {
+  listServerNetworkInterfaceControllersByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/networkInterfaceController`);
   };
 
   /** Get this object properties */
-  getServerServiceNameNetworkInterfaceControllerMac = (
+  getServerNetworkInterfaceControllerByServiceNameAndMac = (
     mac: string,
     serviceName: string
   ): Promise<DedicatedNetworkInterfaceControllerNetworkInterfaceController> => {
@@ -674,10 +681,10 @@ class DedicatedServerHandler {
   };
 
   /** Retrieve traffic graph values */
-  getServerServiceNameNetworkInterfaceControllerMacMrtg = (
+  getServerNetworkInterfaceControllerMrtgByServiceNameAndMac = (
     mac: string,
     serviceName: string
-  ): Promise<DedicatedServerMrtgTimestampValue> => {
+  ): Promise<DedicatedServerMrtgTimestampValue[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/server/${serviceName}/networkInterfaceController/${mac}/mrtg`
@@ -685,23 +692,23 @@ class DedicatedServerHandler {
   };
 
   /** OLA : Group interfaces into an aggregation */
-  postServerServiceNameOlaAggregation = (
+  postServerOlaAggregationByServiceName = (
     serviceName: string,
-    body: { name: string; virtualNetworkInterfaces: string }
+    body: { name: string; virtualNetworkInterfaces: string[] }
   ): Promise<DedicatedServerTask> => {
     return this.ovh.request('POST', `/dedicated/server/${serviceName}/ola/aggregation`, body);
   };
 
   /** OLA : Group interfaces into an aggregation */
-  postServerServiceNameOlaGroup = (
+  postServerOlaGroupByServiceName = (
     serviceName: string,
-    body: { name: string; virtualNetworkInterfaces: string }
+    body: { name: string; virtualNetworkInterfaces: string[] }
   ): Promise<DedicatedServerTask> => {
     return this.ovh.request('POST', `/dedicated/server/${serviceName}/ola/group`, body);
   };
 
   /** OLA : Reset interfaces to default configuration */
-  postServerServiceNameOlaReset = (
+  postServerOlaResetByServiceName = (
     serviceName: string,
     body: { virtualNetworkInterface: string }
   ): Promise<DedicatedServerTask> => {
@@ -709,25 +716,25 @@ class DedicatedServerHandler {
   };
 
   /** OLA : Ungroup interfaces */
-  postServerServiceNameOlaUngroup = (
+  postServerOlaUngroupByServiceName = (
     serviceName: string,
     body: { virtualNetworkInterface: string }
-  ): Promise<DedicatedServerTask> => {
+  ): Promise<DedicatedServerTask[]> => {
     return this.ovh.request('POST', `/dedicated/server/${serviceName}/ola/ungroup`, body);
   };
 
   /** What is ongoing on this server */
-  getServerServiceNameOngoing = (serviceName: string): Promise<DedicatedExposedTask> => {
+  getServerOngoingByServiceName = (serviceName: string): Promise<DedicatedExposedTask[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/ongoing`);
   };
 
   /** List of dedicated server options */
-  getServerServiceNameOption = (serviceName: string): Promise<DedicatedServerOptionEnum> => {
+  listServerOptionsByServiceName = (serviceName: string): Promise<DedicatedServerOptionEnum[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/option`);
   };
 
   /** Release a given option */
-  deleteServerServiceNameOptionOption = (
+  deleteServerOptionByServiceNameAndOption = (
     option: DedicatedServerOptionEnum,
     serviceName: string
   ): Promise<void> => {
@@ -735,7 +742,7 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameOptionOption = (
+  getServerOptionByServiceNameAndOption = (
     option: DedicatedServerOptionEnum,
     serviceName: string
   ): Promise<DedicatedServerOption> => {
@@ -743,72 +750,74 @@ class DedicatedServerHandler {
   };
 
   /** Get the backup storage orderable with your server. */
-  getServerServiceNameOrderableBackupStorage = (
+  getServerOrderableBackupStorageByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerBackupStorageOrderable> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/orderable/backupStorage`);
   };
 
   /** Get bandwidth orderable with your server. */
-  getServerServiceNameOrderableBandwidth = (
+  getServerOrderableBandwidthByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerBandwidthOrderable> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/orderable/bandwidth`);
   };
 
   /** Get vRack bandwidth orderable with your server. */
-  getServerServiceNameOrderableBandwidthvRack = (
+  getServerOrderableBandwidthvRackByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerBandwidthvRackOrderable> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/orderable/bandwidthvRack`);
   };
 
   /** Is this feature orderable with your server */
-  getServerServiceNameOrderableFeature = (serviceName: string): Promise<boolean> => {
+  getServerOrderableFeatureByServiceName = (serviceName: string): Promise<boolean> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/orderable/feature`);
   };
 
   /** Get IP orderable with your server. */
-  getServerServiceNameOrderableIp = (serviceName: string): Promise<DedicatedServerIpOrderable> => {
+  getServerOrderableIpByServiceName = (
+    serviceName: string
+  ): Promise<DedicatedServerIpOrderable> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/orderable/ip`);
   };
 
   /** Is a KVM orderable with your server */
-  getServerServiceNameOrderableKvm = (serviceName: string): Promise<boolean> => {
+  getServerOrderableKvmByServiceName = (serviceName: string): Promise<boolean> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/orderable/kvm`);
   };
 
   /** Is a KVM express orderable with your server */
-  getServerServiceNameOrderableKvmExpress = (serviceName: string): Promise<boolean> => {
+  getServerOrderableKvmExpressByServiceName = (serviceName: string): Promise<boolean> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/orderable/kvmExpress`);
   };
 
   /** Is professional use orderable with your server */
-  getServerServiceNameOrderableProfessionalUse = (serviceName: string): Promise<boolean> => {
+  getServerOrderableProfessionalUseByServiceName = (serviceName: string): Promise<boolean> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/orderable/professionalUse`);
   };
 
   /** Get orderable traffic with your server. */
-  getServerServiceNameOrderableTraffic = (
+  getServerOrderableTrafficByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerTrafficOrderable> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/orderable/traffic`);
   };
 
   /** Get USB keys orderable with your server */
-  getServerServiceNameOrderableUsbKey = (
+  getServerOrderableUsbKeyByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerUsbKeyOrderableDetails> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/orderable/usbKey`);
   };
 
   /** Planned interventions for the server */
-  getServerServiceNamePlannedIntervention = (serviceName: string): Promise<number> => {
+  getServerPlannedInterventionByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/plannedIntervention`);
   };
 
   /** Get this object properties */
-  getServerServiceNamePlannedInterventionInterventionId = (
+  getServerPlannedInterventionByServiceNameAndInterventionId = (
     interventionId: number,
     serviceName: string
   ): Promise<DedicatedServerPlannedIntervention> => {
@@ -819,17 +828,17 @@ class DedicatedServerHandler {
   };
 
   /** Hard reboot this server */
-  postServerServiceNameReboot = (serviceName: string): Promise<DedicatedServerTask> => {
+  postServerRebootByServiceName = (serviceName: string): Promise<DedicatedServerTask> => {
     return this.ovh.request('POST', `/dedicated/server/${serviceName}/reboot`);
   };
 
   /** List of secondary dns domain name */
-  getServerServiceNameSecondaryDnsDomains = (serviceName: string): Promise<string> => {
+  listServerSecondaryDnsDomainsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/secondaryDnsDomains`);
   };
 
   /** add a domain on secondary dns */
-  postServerServiceNameSecondaryDnsDomains = (
+  addServerSecondaryDnsDomainsByServiceName = (
     serviceName: string,
     body: { domain: string; ip?: string }
   ): Promise<void> => {
@@ -837,7 +846,7 @@ class DedicatedServerHandler {
   };
 
   /** remove this domain */
-  deleteServerServiceNameSecondaryDnsDomainsDomain = (
+  deleteServerSecondaryDnsDomainsByServiceNameAndDomain = (
     domain: string,
     serviceName: string
   ): Promise<void> => {
@@ -848,7 +857,7 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameSecondaryDnsDomainsDomain = (
+  getServerSecondaryDnsDomainsByServiceNameAndDomain = (
     domain: string,
     serviceName: string
   ): Promise<SecondaryDnsSecondaryDNS> => {
@@ -859,7 +868,7 @@ class DedicatedServerHandler {
   };
 
   /** Alter this object properties */
-  putServerServiceNameSecondaryDnsDomainsDomain = (
+  updateServerSecondaryDnsDomainsByServiceNameAndDomain = (
     domain: string,
     serviceName: string,
     body: SecondaryDnsSecondaryDNS
@@ -872,7 +881,7 @@ class DedicatedServerHandler {
   };
 
   /** domain name server informations */
-  getServerServiceNameSecondaryDnsDomainsDomainDnsServer = (
+  getServerSecondaryDnsDomainsDnsServerByServiceNameAndDomain = (
     domain: string,
     serviceName: string
   ): Promise<SecondaryDnsSecondaryDNSNameServer> => {
@@ -883,14 +892,14 @@ class DedicatedServerHandler {
   };
 
   /** DNS field to temporarily add to your zone so that we can verify you are the owner of this domain */
-  getServerServiceNameSecondaryDnsNameDomainToken = (
+  getServerSecondaryDnsNameDomainTokenByServiceName = (
     serviceName: string
   ): Promise<SecondaryDnsSecondaryDNSCheckField> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/secondaryDnsNameDomainToken`);
   };
 
   /** Secondary nameServer available for your Server */
-  getServerServiceNameSecondaryDnsNameServerAvailable = (
+  getServerSecondaryDnsNameServerAvailableByServiceName = (
     serviceName: string
   ): Promise<SecondaryDnsSecondaryDNSNameServer> => {
     return this.ovh.request(
@@ -900,12 +909,12 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServerServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServerServiceNameServiceInfos = (
+  updateServerServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -913,12 +922,12 @@ class DedicatedServerHandler {
   };
 
   /** Service monitoring details */
-  getServerServiceNameServiceMonitoring = (serviceName: string): Promise<number> => {
+  getServerServiceMonitoringByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/serviceMonitoring`);
   };
 
   /** Add a new service monitoring */
-  postServerServiceNameServiceMonitoring = (
+  addServerServiceMonitoringByServiceName = (
     serviceName: string,
     body: {
       challengeText?: string;
@@ -934,7 +943,7 @@ class DedicatedServerHandler {
   };
 
   /** Remove this service monitoring */
-  deleteServerServiceNameServiceMonitoringMonitoringId = (
+  deleteServerServiceMonitoringByServiceNameAndMonitoringId = (
     monitoringId: number,
     serviceName: string
   ): Promise<void> => {
@@ -945,7 +954,7 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameServiceMonitoringMonitoringId = (
+  getServerServiceMonitoringByServiceNameAndMonitoringId = (
     monitoringId: number,
     serviceName: string
   ): Promise<DedicatedServerServiceMonitoring> => {
@@ -956,7 +965,7 @@ class DedicatedServerHandler {
   };
 
   /** Alter this object properties */
-  putServerServiceNameServiceMonitoringMonitoringId = (
+  updateServerServiceMonitoringByServiceNameAndMonitoringId = (
     monitoringId: number,
     serviceName: string,
     body: DedicatedServerServiceMonitoring
@@ -969,10 +978,10 @@ class DedicatedServerHandler {
   };
 
   /** Service monitoring alert by email */
-  getServerServiceNameServiceMonitoringMonitoringIdAlertEmail = (
+  getServerServiceMonitoringAlertEmailByServiceNameAndMonitoringId = (
     monitoringId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/server/${serviceName}/serviceMonitoring/${monitoringId}/alert/email`
@@ -980,7 +989,7 @@ class DedicatedServerHandler {
   };
 
   /** Add a new email alert */
-  postServerServiceNameServiceMonitoringMonitoringIdAlertEmail = (
+  addServerServiceMonitoringAlertEmailByServiceNameAndMonitoringId = (
     monitoringId: number,
     serviceName: string,
     body: { email: string; language: DedicatedServerAlertLanguageEnum }
@@ -993,7 +1002,7 @@ class DedicatedServerHandler {
   };
 
   /** Remove this Email alert monitoring */
-  deleteServerServiceNameServiceMonitoringMonitoringIdAlertEmailAlertId = (
+  deleteServerServiceMonitoringAlertEmailByServiceNameAndMonitoringIdAndAlertId = (
     alertId: number,
     monitoringId: number,
     serviceName: string
@@ -1005,7 +1014,7 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameServiceMonitoringMonitoringIdAlertEmailAlertId = (
+  getServerServiceMonitoringAlertEmailByServiceNameAndMonitoringIdAndAlertId = (
     alertId: number,
     monitoringId: number,
     serviceName: string
@@ -1017,7 +1026,7 @@ class DedicatedServerHandler {
   };
 
   /** Alter this object properties */
-  putServerServiceNameServiceMonitoringMonitoringIdAlertEmailAlertId = (
+  updateServerServiceMonitoringAlertEmailByServiceNameAndMonitoringIdAndAlertId = (
     alertId: number,
     monitoringId: number,
     serviceName: string,
@@ -1031,10 +1040,10 @@ class DedicatedServerHandler {
   };
 
   /** Service monitoring alert by SMS */
-  getServerServiceNameServiceMonitoringMonitoringIdAlertSms = (
+  getServerServiceMonitoringAlertSmsByServiceNameAndMonitoringId = (
     monitoringId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/server/${serviceName}/serviceMonitoring/${monitoringId}/alert/sms`
@@ -1042,7 +1051,7 @@ class DedicatedServerHandler {
   };
 
   /** Create a SMS alert */
-  postServerServiceNameServiceMonitoringMonitoringIdAlertSms = (
+  createServerServiceMonitoringAlertSmsByServiceNameAndMonitoringId = (
     monitoringId: number,
     serviceName: string,
     body: {
@@ -1061,7 +1070,7 @@ class DedicatedServerHandler {
   };
 
   /** Remove this SMS alert */
-  deleteServerServiceNameServiceMonitoringMonitoringIdAlertSmsAlertId = (
+  deleteServerServiceMonitoringAlertSmsByServiceNameAndMonitoringIdAndAlertId = (
     alertId: number,
     monitoringId: number,
     serviceName: string
@@ -1073,7 +1082,7 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameServiceMonitoringMonitoringIdAlertSmsAlertId = (
+  getServerServiceMonitoringAlertSmsByServiceNameAndMonitoringIdAndAlertId = (
     alertId: number,
     monitoringId: number,
     serviceName: string
@@ -1085,7 +1094,7 @@ class DedicatedServerHandler {
   };
 
   /** Alter this object properties */
-  putServerServiceNameServiceMonitoringMonitoringIdAlertSmsAlertId = (
+  updateServerServiceMonitoringAlertSmsByServiceNameAndMonitoringIdAndAlertId = (
     alertId: number,
     monitoringId: number,
     serviceName: string,
@@ -1099,33 +1108,33 @@ class DedicatedServerHandler {
   };
 
   /** Retrieve hardware informations about this dedicated server */
-  getServerServiceNameSpecificationsHardware = (
+  getServerSpecificationsHardwareByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerHardwareSpecifications> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/specifications/hardware`);
   };
 
   /** Retrieve IP capabilities about this dedicated server */
-  getServerServiceNameSpecificationsIp = (
+  getServerSpecificationsIpByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerIpOrderable> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/specifications/ip`);
   };
 
   /** Retrieve network informations about this dedicated server */
-  getServerServiceNameSpecificationsNetwork = (
+  getServerSpecificationsNetworkByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerNetworkSpecifications> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/specifications/network`);
   };
 
   /** Your own SPLA licenses attached to this dedicated server */
-  getServerServiceNameSpla = (serviceName: string): Promise<number> => {
+  getServerSplaByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/spla`);
   };
 
   /** Add a new SPLA license */
-  postServerServiceNameSpla = (
+  addServerSplaByServiceName = (
     serviceName: string,
     body: { serialNumber: string; type: DedicatedServerSplaTypeEnum }
   ): Promise<number> => {
@@ -1133,12 +1142,15 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameSplaId = (id: number, serviceName: string): Promise<DedicatedServerSpla> => {
+  getServerSplaByServiceNameAndId = (
+    id: number,
+    serviceName: string
+  ): Promise<DedicatedServerSpla> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/spla/${id}`);
   };
 
   /** Alter this object properties */
-  putServerServiceNameSplaId = (
+  updateServerSplaByServiceNameAndId = (
     id: number,
     serviceName: string,
     body: DedicatedServerSpla
@@ -1147,39 +1159,41 @@ class DedicatedServerHandler {
   };
 
   /** Revoke an SPLA license */
-  postServerServiceNameSplaIdRevoke = (id: number, serviceName: string): Promise<void> => {
+  postServerSplaRevokeByServiceNameAndId = (id: number, serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/dedicated/server/${serviceName}/spla/${id}/revoke`);
   };
 
   /** Get this object properties */
-  getServerServiceNameStatistics = (serviceName: string): Promise<DedicatedServerRtm> => {
+  getServerStatisticsByServiceName = (serviceName: string): Promise<DedicatedServerRtm> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/statistics`);
   };
 
   /** Retrieve RTM graph values */
-  getServerServiceNameStatisticsChart = (serviceName: string): Promise<ComplexTypeChartReturn> => {
+  getServerStatisticsChartByServiceName = (
+    serviceName: string
+  ): Promise<ComplexTypeChartReturn> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/statistics/chart`);
   };
 
   /** Get server opened connections */
-  getServerServiceNameStatisticsConnection = (
+  getServerStatisticsConnectionByServiceName = (
     serviceName: string
-  ): Promise<DedicatedServerRtmConnection> => {
+  ): Promise<DedicatedServerRtmConnection[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/statistics/connection`);
   };
 
   /** Get server cpu informations */
-  getServerServiceNameStatisticsCpu = (serviceName: string): Promise<DedicatedServerRtmCpu> => {
+  getServerStatisticsCpuByServiceName = (serviceName: string): Promise<DedicatedServerRtmCpu> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/statistics/cpu`);
   };
 
   /** Server disks */
-  getServerServiceNameStatisticsDisk = (serviceName: string): Promise<string> => {
+  getServerStatisticsDiskByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/statistics/disk`);
   };
 
   /** Get this object properties */
-  getServerServiceNameStatisticsDiskDisk = (
+  getServerStatisticsDiskByServiceNameAndDisk = (
     disk: string,
     serviceName: string
   ): Promise<DedicatedServerRtmDisk> => {
@@ -1187,7 +1201,7 @@ class DedicatedServerHandler {
   };
 
   /** Get disk smart informations */
-  getServerServiceNameStatisticsDiskDiskSmart = (
+  getServerStatisticsDiskSmartByServiceNameAndDisk = (
     disk: string,
     serviceName: string
   ): Promise<DedicatedServerRtmDiskSmart> => {
@@ -1198,36 +1212,36 @@ class DedicatedServerHandler {
   };
 
   /** Get server load */
-  getServerServiceNameStatisticsLoad = (serviceName: string): Promise<DedicatedServerRtmLoad> => {
+  getServerStatisticsLoadByServiceName = (serviceName: string): Promise<DedicatedServerRtmLoad> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/statistics/load`);
   };
 
   /** Get server memory informations */
-  getServerServiceNameStatisticsMemory = (
+  getServerStatisticsMemoryByServiceName = (
     serviceName: string
-  ): Promise<DedicatedServerRtmMemory> => {
+  ): Promise<DedicatedServerRtmMemory[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/statistics/memory`);
   };
 
   /** Get server motherboard hardware informations */
-  getServerServiceNameStatisticsMotherboard = (
+  getServerStatisticsMotherboardByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerRtmMotherboardHw> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/statistics/motherboard`);
   };
 
   /** Get server os informations */
-  getServerServiceNameStatisticsOs = (serviceName: string): Promise<DedicatedServerRtmOs> => {
+  getServerStatisticsOsByServiceName = (serviceName: string): Promise<DedicatedServerRtmOs> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/statistics/os`);
   };
 
   /** Server partitions */
-  getServerServiceNameStatisticsPartition = (serviceName: string): Promise<string> => {
+  getServerStatisticsPartitionByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/statistics/partition`);
   };
 
   /** Get this object properties */
-  getServerServiceNameStatisticsPartitionPartition = (
+  getServerStatisticsPartitionByServiceNameAndPartition = (
     partition: string,
     serviceName: string
   ): Promise<DedicatedServerRtmPartition> => {
@@ -1238,7 +1252,7 @@ class DedicatedServerHandler {
   };
 
   /** Retrieve partition charts */
-  getServerServiceNameStatisticsPartitionPartitionChart = (
+  getServerStatisticsPartitionChartByServiceNameAndPartition = (
     partition: string,
     serviceName: string
   ): Promise<ComplexTypeChartReturn> => {
@@ -1249,24 +1263,24 @@ class DedicatedServerHandler {
   };
 
   /** Get server PCI devices informations */
-  getServerServiceNameStatisticsPci = (serviceName: string): Promise<DedicatedServerRtmPci> => {
+  getServerStatisticsPciByServiceName = (serviceName: string): Promise<DedicatedServerRtmPci[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/statistics/pci`);
   };
 
   /** Get server process */
-  getServerServiceNameStatisticsProcess = (
+  getServerStatisticsProcessByServiceName = (
     serviceName: string
-  ): Promise<DedicatedServerRtmCommandSize> => {
+  ): Promise<DedicatedServerRtmCommandSize[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/statistics/process`);
   };
 
   /** Server raid informations */
-  getServerServiceNameStatisticsRaid = (serviceName: string): Promise<string> => {
+  getServerStatisticsRaidByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/statistics/raid`);
   };
 
   /** Get this object properties */
-  getServerServiceNameStatisticsRaidUnit = (
+  getServerStatisticsRaidByServiceNameAndUnit = (
     serviceName: string,
     unit: string
   ): Promise<DedicatedServerRtmRaid> => {
@@ -1274,10 +1288,10 @@ class DedicatedServerHandler {
   };
 
   /** Raid unit volumes */
-  getServerServiceNameStatisticsRaidUnitVolume = (
+  getServerStatisticsRaidVolumeByServiceNameAndUnit = (
     serviceName: string,
     unit: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/server/${serviceName}/statistics/raid/${unit}/volume`
@@ -1285,7 +1299,7 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameStatisticsRaidUnitVolumeVolume = (
+  getServerStatisticsRaidVolumeByServiceNameAndUnitAndVolume = (
     serviceName: string,
     unit: string,
     volume: string
@@ -1297,11 +1311,11 @@ class DedicatedServerHandler {
   };
 
   /** Raid unit volume ports */
-  getServerServiceNameStatisticsRaidUnitVolumeVolumePort = (
+  getServerStatisticsRaidVolumePortByServiceNameAndUnitAndVolume = (
     serviceName: string,
     unit: string,
     volume: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/server/${serviceName}/statistics/raid/${unit}/volume/${volume}/port`
@@ -1309,7 +1323,7 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameStatisticsRaidUnitVolumeVolumePortPort = (
+  getServerStatisticsRaidVolumePortByServiceNameAndUnitAndVolumeAndPort = (
     port: string,
     serviceName: string,
     unit: string,
@@ -1322,7 +1336,7 @@ class DedicatedServerHandler {
   };
 
   /** Ask for a cooling module replacement */
-  postServerServiceNameSupportReplaceCooling = (
+  postServerSupportReplaceCoolingByServiceName = (
     serviceName: string,
     body: { comment: string; details: string }
   ): Promise<SupportNewMessageInfo> => {
@@ -1334,9 +1348,9 @@ class DedicatedServerHandler {
   };
 
   /** Ask for a broken HDD replacement */
-  postServerServiceNameSupportReplaceHardDiskDrive = (
+  postServerSupportReplaceHardDiskDriveByServiceName = (
     serviceName: string,
-    body: { comment: string; disks: DedicatedServerSupportReplaceHddInfo; inverse: boolean }
+    body: { comment: string; disks: DedicatedServerSupportReplaceHddInfo[]; inverse: boolean }
   ): Promise<SupportNewMessageInfo> => {
     return this.ovh.request(
       'POST',
@@ -1346,9 +1360,9 @@ class DedicatedServerHandler {
   };
 
   /** Ask for a faulty RAM module replacement */
-  postServerServiceNameSupportReplaceMemory = (
+  postServerSupportReplaceMemoryByServiceName = (
     serviceName: string,
-    body: { comment: string; details: string; slots?: string }
+    body: { comment: string; details: string; slots?: string[] }
   ): Promise<SupportNewMessageInfo> => {
     return this.ovh.request(
       'POST',
@@ -1358,12 +1372,12 @@ class DedicatedServerHandler {
   };
 
   /** Dedicated server todos */
-  getServerServiceNameTask = (serviceName: string): Promise<number> => {
+  getServerTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getServerServiceNameTaskTaskId = (
+  getServerTaskByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<DedicatedServerTask> => {
@@ -1371,10 +1385,10 @@ class DedicatedServerHandler {
   };
 
   /** List available time slots for intervention */
-  getServerServiceNameTaskTaskIdAvailableTimeslots = (
+  listServerTaskAvailableTimeslotsByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
-  ): Promise<DedicatedPlannedInterventionTimeSlot> => {
+  ): Promise<DedicatedPlannedInterventionTimeSlot[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/server/${serviceName}/task/${taskId}/availableTimeslots`
@@ -1382,12 +1396,15 @@ class DedicatedServerHandler {
   };
 
   /** this action stop the task progression if it's possible */
-  postServerServiceNameTaskTaskIdCancel = (serviceName: string, taskId: number): Promise<void> => {
+  postServerTaskCancelByServiceNameAndTaskId = (
+    serviceName: string,
+    taskId: number
+  ): Promise<void> => {
     return this.ovh.request('POST', `/dedicated/server/${serviceName}/task/${taskId}/cancel`);
   };
 
   /** Schedule intervention */
-  postServerServiceNameTaskTaskIdSchedule = (
+  postServerTaskScheduleByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number,
     body: { hasPerformedBackup: boolean; wantedBeginingDate: Date }
@@ -1400,17 +1417,17 @@ class DedicatedServerHandler {
   };
 
   /** Terminate your service */
-  postServerServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postServerTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/dedicated/server/${serviceName}/terminate`);
   };
 
   /** Virtual MAC addresses of the server */
-  getServerServiceNameVirtualMac = (serviceName: string): Promise<string> => {
+  getServerVirtualMacByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/virtualMac`);
   };
 
   /** Add a virtual mac to an IP address */
-  postServerServiceNameVirtualMac = (
+  addServerVirtualMacByServiceName = (
     serviceName: string,
     body: { ipAddress: string; type: DedicatedServerVmacTypeEnum; virtualMachineName: string }
   ): Promise<DedicatedServerTask> => {
@@ -1418,7 +1435,7 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameVirtualMacMacAddress = (
+  getServerVirtualMacByServiceNameAndMacAddress = (
     macAddress: string,
     serviceName: string
   ): Promise<DedicatedServerVirtualMac> => {
@@ -1426,10 +1443,10 @@ class DedicatedServerHandler {
   };
 
   /** List of IPs associated to this Virtual MAC */
-  getServerServiceNameVirtualMacMacAddressVirtualAddress = (
+  listServerVirtualMacVirtualAddressByServiceNameAndMacAddress = (
     macAddress: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/server/${serviceName}/virtualMac/${macAddress}/virtualAddress`
@@ -1437,7 +1454,7 @@ class DedicatedServerHandler {
   };
 
   /** Add an IP to this Virtual MAC */
-  postServerServiceNameVirtualMacMacAddressVirtualAddress = (
+  addServerVirtualMacVirtualressByServiceNameAndMacAddress = (
     macAddress: string,
     serviceName: string,
     body: { ipAddress: string; virtualMachineName: string }
@@ -1450,7 +1467,7 @@ class DedicatedServerHandler {
   };
 
   /** Remove this ip from virtual mac , if you remove the last linked Ip, virtualmac will be deleted */
-  deleteServerServiceNameVirtualMacMacAddressVirtualAddressIpAddress = (
+  deleteServerVirtualMacVirtualAddressByServiceNameAndMacAddressAndIpAddress = (
     ipAddress: string,
     macAddress: string,
     serviceName: string
@@ -1462,7 +1479,7 @@ class DedicatedServerHandler {
   };
 
   /** Get this object properties */
-  getServerServiceNameVirtualMacMacAddressVirtualAddressIpAddress = (
+  getServerVirtualMacVirtualAddressByServiceNameAndMacAddressAndIpAddress = (
     ipAddress: string,
     macAddress: string,
     serviceName: string
@@ -1474,12 +1491,12 @@ class DedicatedServerHandler {
   };
 
   /** List server VirtualNetworkInterfaces */
-  getServerServiceNameVirtualNetworkInterface = (serviceName: string): Promise<string> => {
+  listServerVirtualNetworkInterfacesByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/virtualNetworkInterface`);
   };
 
   /** Get this object properties */
-  getServerServiceNameVirtualNetworkInterfaceUuid = (
+  getServerVirtualNetworkInterfaceByServiceNameAndUuid = (
     serviceName: string,
     uuid: string
   ): Promise<DedicatedVirtualNetworkInterfaceVirtualNetworkInterface> => {
@@ -1490,7 +1507,7 @@ class DedicatedServerHandler {
   };
 
   /** Alter this object properties */
-  putServerServiceNameVirtualNetworkInterfaceUuid = (
+  updateServerVirtualNetworkInterfaceByServiceNameAndUuid = (
     serviceName: string,
     uuid: string,
     body: DedicatedVirtualNetworkInterfaceVirtualNetworkInterface
@@ -1503,7 +1520,7 @@ class DedicatedServerHandler {
   };
 
   /** Disable this VirtualNetworkInterface */
-  postServerServiceNameVirtualNetworkInterfaceUuidDisable = (
+  disableServerVirtualNetworkInterfaceByServiceNameAndUuid = (
     serviceName: string,
     uuid: string
   ): Promise<DedicatedServerTask> => {
@@ -1514,7 +1531,7 @@ class DedicatedServerHandler {
   };
 
   /** Enable this VirtualNetworkInterface */
-  postServerServiceNameVirtualNetworkInterfaceUuidEnable = (
+  enableServerVirtualNetworkInterfaceByServiceNameAndUuid = (
     serviceName: string,
     uuid: string
   ): Promise<DedicatedServerTask> => {
@@ -1525,17 +1542,20 @@ class DedicatedServerHandler {
   };
 
   /** Server Vracks (LEGACY) */
-  getServerServiceNameVrack = (serviceName: string): Promise<string> => {
+  getServerVrackByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/vrack`);
   };
 
   /** remove this server from this vrack (LEGACY) */
-  deleteServerServiceNameVrackVrack = (serviceName: string, vrack: string): Promise<VrackTask> => {
+  deleteServerVrackByServiceNameAndVrack = (
+    serviceName: string,
+    vrack: string
+  ): Promise<VrackTask> => {
     return this.ovh.request('DELETE', `/dedicated/server/${serviceName}/vrack/${vrack}`);
   };
 
   /** Get this object properties */
-  getServerServiceNameVrackVrack = (
+  getServerVrackByServiceNameAndVrack = (
     serviceName: string,
     vrack: string
   ): Promise<VrackDedicatedServer> => {
@@ -1543,12 +1563,12 @@ class DedicatedServerHandler {
   };
 
   /** Retrieve vrack traffic graph values (LEGACY) */
-  getServerServiceNameVrackVrackMrtg = (
+  getServerVrackMrtgByServiceNameAndVrack = (
     serviceName: string,
     vrack: string
-  ): Promise<DedicatedServerMrtgTimestampValue> => {
+  ): Promise<DedicatedServerMrtgTimestampValue[]> => {
     return this.ovh.request('GET', `/dedicated/server/${serviceName}/vrack/${vrack}/mrtg`);
   };
 }
 
-export default DedicatedServerHandler;
+export { DedicatedServerHandler };

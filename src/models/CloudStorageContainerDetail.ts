@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudStorageContainerObject } from './CloudStorageContainerObject';
 import { CloudStorageTypeEnum } from './CloudStorageTypeEnum';
+import { CloudStorageContainerObject } from './CloudStorageContainerObject';
 
 export type CloudStorageContainerDetail = {
   archive: boolean;
   containerType: CloudStorageTypeEnum;
-  cors: string;
+  cors: string[];
   name: string;
-  objects: CloudStorageContainerObject;
+  objects: CloudStorageContainerObject[];
   public: boolean;
   region: string;
   staticUrl: string;

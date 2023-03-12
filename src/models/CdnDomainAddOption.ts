@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CdnOptionTypePostEnum } from './CdnOptionTypePostEnum';
 import { CdnDomainOptionConfig } from './CdnDomainOptionConfig';
+import { CdnOptionTypePostEnum } from './CdnOptionTypePostEnum';
 
 export type CdnDomainAddOption = {
   config: CdnDomainOptionConfig | null;

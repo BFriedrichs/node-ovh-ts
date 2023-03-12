@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderCartGenericProductPricingTypeEnum } from './OrderCartGenericProductPricingTypeEnum';
 import { ServicesBillingPricingEngagementConfiguration } from './ServicesBillingPricingEngagementConfiguration';
 import { OrderCartGenericProductPricingCapacitiesEnum } from './OrderCartGenericProductPricingCapacitiesEnum';
 import { OrderPrice } from './OrderPrice';
+import { OrderCartGenericProductPricingTypeEnum } from './OrderCartGenericProductPricingTypeEnum';
 
 export type ServicesBillingPricing = {
-  capacities: OrderCartGenericProductPricingCapacitiesEnum;
+  capacities: OrderCartGenericProductPricingCapacitiesEnum[];
   description: string;
   duration: number;
   engagementConfiguration: ServicesBillingPricingEngagementConfiguration | null;

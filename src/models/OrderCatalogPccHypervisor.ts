@@ -1,17 +1,17 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { OrderCatalogPccHost } from './OrderCatalogPccHost';
-import { OrderCatalogPccStorage } from './OrderCatalogPccStorage';
 import { OrderCatalogPccServicePack } from './OrderCatalogPccServicePack';
+import { OrderCatalogPccStorage } from './OrderCatalogPccStorage';
 import { OrderCatalogPccOption } from './OrderCatalogPccOption';
 
 export type OrderCatalogPccHypervisor = {
-  hosts: OrderCatalogPccHost;
+  hosts: OrderCatalogPccHost[];
   name: string;
-  options: OrderCatalogPccOption;
+  options: OrderCatalogPccOption[];
   orderable: boolean;
-  servicePacks: OrderCatalogPccServicePack;
+  servicePacks: OrderCatalogPccServicePack[];
   shortName: string;
-  storages: OrderCatalogPccStorage;
+  storages: OrderCatalogPccStorage[];
   type: string;
 };

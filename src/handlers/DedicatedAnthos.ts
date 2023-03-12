@@ -1,19 +1,19 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedAnthosPublicAddressRange } from '../models/DedicatedAnthosPublicAddressRange';
-import { DedicatedAnthosBaremetal } from '../models/DedicatedAnthosBaremetal';
-import { ServicesService } from '../models/ServicesService';
-import { DedicatedAnthosPrivateAddressRange } from '../models/DedicatedAnthosPrivateAddressRange';
-import { DedicatedAnthosTenantAccess } from '../models/DedicatedAnthosTenantAccess';
 import { DedicatedAnthosUsage } from '../models/DedicatedAnthosUsage';
-import { DedicatedAnthosTenant } from '../models/DedicatedAnthosTenant';
-import { DedicatedAnthosStorageVM } from '../models/DedicatedAnthosStorageVM';
-import { DedicatedAnthosVersionInfo } from '../models/DedicatedAnthosVersionInfo';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { DedicatedAnthosCapabilities } from '../models/DedicatedAnthosCapabilities';
+import { DedicatedAnthosPrivateAddressRange } from '../models/DedicatedAnthosPrivateAddressRange';
+import { DedicatedAnthosPublicAddressRange } from '../models/DedicatedAnthosPublicAddressRange';
 import { DedicatedAnthosUpgradeAnthosRequest } from '../models/DedicatedAnthosUpgradeAnthosRequest';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { DedicatedAnthosVersionInfo } from '../models/DedicatedAnthosVersionInfo';
+import { DedicatedAnthosTenantAccess } from '../models/DedicatedAnthosTenantAccess';
+import { DedicatedAnthosCapabilities } from '../models/DedicatedAnthosCapabilities';
+import { DedicatedAnthosBaremetal } from '../models/DedicatedAnthosBaremetal';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { DedicatedAnthosIpRestrictionUpsert } from '../models/DedicatedAnthosIpRestrictionUpsert';
+import { DedicatedAnthosTenant } from '../models/DedicatedAnthosTenant';
+import { DedicatedAnthosStorageVM } from '../models/DedicatedAnthosStorageVM';
+import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class DedicatedAnthosHandler {
@@ -24,22 +24,22 @@ class DedicatedAnthosHandler {
   }
 
   /** List available regions and versions */
-  getAnthosCapabilities = (): Promise<DedicatedAnthosCapabilities> => {
+  listAnthosCapabilities = (): Promise<DedicatedAnthosCapabilities> => {
     return this.ovh.request('GET', '/dedicated/anthos/capabilities');
   };
 
   /** List your Anthos tenants */
-  getAnthosTenants = (): Promise<string> => {
+  listAnthosTenants = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicated/anthos/tenants');
   };
 
   /** Get an Anthos tenant */
-  getAnthosTenantsServiceName = (serviceName: string): Promise<DedicatedAnthosTenant> => {
+  getAnthosTenantsByServiceName = (serviceName: string): Promise<DedicatedAnthosTenant> => {
     return this.ovh.request('GET', `/dedicated/anthos/tenants/${serviceName}`);
   };
 
   /** Edit an Anthos tenant */
-  putAnthosTenantsServiceName = (
+  updateAnthosTenantsByServiceName = (
     serviceName: string,
     body: DedicatedAnthosTenant
   ): Promise<DedicatedAnthosTenant> => {
@@ -47,7 +47,7 @@ class DedicatedAnthosHandler {
   };
 
   /** Start an upgrade */
-  postAnthosTenantsServiceNameActionsUpgrade = (
+  postAnthosTenantsActionsUpgradeByServiceName = (
     serviceName: string,
     body: DedicatedAnthosUpgradeAnthosRequest
   ): Promise<DedicatedAnthosTenant> => {
@@ -59,19 +59,19 @@ class DedicatedAnthosHandler {
   };
 
   /** List available Anthos versions for the tenant */
-  getAnthosTenantsServiceNameAvailableVersions = (
+  listAnthosTenantsAvailableVersionsByServiceName = (
     serviceName: string
-  ): Promise<DedicatedAnthosVersionInfo> => {
+  ): Promise<DedicatedAnthosVersionInfo[]> => {
     return this.ovh.request('GET', `/dedicated/anthos/tenants/${serviceName}/availableVersions`);
   };
 
   /** List baremetal servers */
-  getAnthosTenantsServiceNameBaremetals = (serviceName: string): Promise<string> => {
+  listAnthosTenantsBaremetalsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/anthos/tenants/${serviceName}/baremetals`);
   };
 
   /** Get a baremetal server */
-  getAnthosTenantsServiceNameBaremetalsBaremetalId = (
+  getAnthosTenantsBaremetalsByServiceNameAndBaremetalId = (
     baremetalId: string,
     serviceName: string
   ): Promise<DedicatedAnthosBaremetal> => {
@@ -82,7 +82,7 @@ class DedicatedAnthosHandler {
   };
 
   /** Edit a baremetal server */
-  putAnthosTenantsServiceNameBaremetalsBaremetalId = (
+  updateAnthosTenantsBaremetalsByServiceNameAndBaremetalId = (
     baremetalId: string,
     serviceName: string,
     body: DedicatedAnthosBaremetal
@@ -95,7 +95,7 @@ class DedicatedAnthosHandler {
   };
 
   /** Reinstall a baremetal server */
-  postAnthosTenantsServiceNameBaremetalsBaremetalIdActionsReinstall = (
+  postAnthosTenantsBaremetalsActionsReinstallByServiceNameAndBaremetalId = (
     baremetalId: string,
     serviceName: string
   ): Promise<DedicatedAnthosBaremetal> => {
@@ -106,7 +106,7 @@ class DedicatedAnthosHandler {
   };
 
   /** Restart a baremetal server */
-  postAnthosTenantsServiceNameBaremetalsBaremetalIdActionsRestart = (
+  postAnthosTenantsBaremetalsActionsRestartByServiceNameAndBaremetalId = (
     baremetalId: string,
     serviceName: string
   ): Promise<DedicatedAnthosBaremetal> => {
@@ -117,15 +117,15 @@ class DedicatedAnthosHandler {
   };
 
   /** Launch a contact change procedure */
-  postAnthosTenantsServiceNameChangeContact = (
+  launchAnthosTenantsChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/dedicated/anthos/tenants/${serviceName}/changeContact`, body);
   };
 
   /** Confirm termination of your service */
-  postAnthosTenantsServiceNameConfirmTermination = (
+  confirmAnthosTenantsTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -142,22 +142,22 @@ class DedicatedAnthosHandler {
   };
 
   /** Reset and return tenant admin access */
-  postAnthosTenantsServiceNameCredentialsReset = (
+  postAnthosTenantsCredentialsResetByServiceName = (
     serviceName: string
   ): Promise<DedicatedAnthosTenantAccess> => {
     return this.ovh.request('POST', `/dedicated/anthos/tenants/${serviceName}/credentials/reset`);
   };
 
   /** List ip restrictions */
-  getAnthosTenantsServiceNameIpRestrictions = (serviceName: string): Promise<string> => {
+  listAnthosTenantsIpRestrictionsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/anthos/tenants/${serviceName}/ipRestrictions`);
   };
 
   /** Append a list of ip restrictions */
-  postAnthosTenantsServiceNameIpRestrictions = (
+  postAnthosTenantsIpRestrictionsByServiceName = (
     serviceName: string,
     body: DedicatedAnthosIpRestrictionUpsert
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'POST',
       `/dedicated/anthos/tenants/${serviceName}/ipRestrictions`,
@@ -166,15 +166,15 @@ class DedicatedAnthosHandler {
   };
 
   /** Remove the current list and add a list of ip restrictions */
-  putAnthosTenantsServiceNameIpRestrictions = (
+  putAnthosTenantsIpRestrictionsByServiceName = (
     serviceName: string,
     body: DedicatedAnthosIpRestrictionUpsert
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('PUT', `/dedicated/anthos/tenants/${serviceName}/ipRestrictions`, body);
   };
 
   /** Delete an ip restriction */
-  deleteAnthosTenantsServiceNameIpRestrictionsIp = (
+  deleteAnthosTenantsIpRestrictionsByServiceNameAndIp = (
     ip: string,
     serviceName: string
   ): Promise<void> => {
@@ -185,12 +185,12 @@ class DedicatedAnthosHandler {
   };
 
   /** List private IP ranges */
-  getAnthosTenantsServiceNameIpsPrivate = (serviceName: string): Promise<string> => {
+  listAnthosTenantsIpsPrivatesByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/anthos/tenants/${serviceName}/ips/private`);
   };
 
   /** Create a new private IP range */
-  postAnthosTenantsServiceNameIpsPrivate = (
+  createAnthosTenantsIpsPrivateByServiceName = (
     serviceName: string,
     body: DedicatedAnthosPrivateAddressRange
   ): Promise<DedicatedAnthosPrivateAddressRange> => {
@@ -198,7 +198,7 @@ class DedicatedAnthosHandler {
   };
 
   /** Delete a private IP range */
-  deleteAnthosTenantsServiceNameIpsPrivateRangeId = (
+  deleteAnthosTenantsIpsPrivateByServiceNameAndRangeId = (
     rangeId: string,
     serviceName: string
   ): Promise<void> => {
@@ -209,7 +209,7 @@ class DedicatedAnthosHandler {
   };
 
   /** Get a private IP range */
-  getAnthosTenantsServiceNameIpsPrivateRangeId = (
+  getAnthosTenantsIpsPrivateByServiceNameAndRangeId = (
     rangeId: string,
     serviceName: string
   ): Promise<DedicatedAnthosPrivateAddressRange> => {
@@ -220,12 +220,12 @@ class DedicatedAnthosHandler {
   };
 
   /** List public IP ranges */
-  getAnthosTenantsServiceNameIpsPublic = (serviceName: string): Promise<string> => {
+  listAnthosTenantsIpsPublicsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/anthos/tenants/${serviceName}/ips/public`);
   };
 
   /** Get a public IP range */
-  getAnthosTenantsServiceNameIpsPublicRangeId = (
+  getAnthosTenantsIpsPublicByServiceNameAndRangeId = (
     rangeId: string,
     serviceName: string
   ): Promise<DedicatedAnthosPublicAddressRange> => {
@@ -236,12 +236,12 @@ class DedicatedAnthosHandler {
   };
 
   /** Get this object properties */
-  getAnthosTenantsServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getAnthosTenantsServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/dedicated/anthos/tenants/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putAnthosTenantsServiceNameServiceInfos = (
+  updateAnthosTenantsServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -249,12 +249,12 @@ class DedicatedAnthosHandler {
   };
 
   /** List SVMs */
-  getAnthosTenantsServiceNameStorageNetappSvms = (serviceName: string): Promise<string> => {
+  listAnthosTenantsStorageNetappSvmsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/anthos/tenants/${serviceName}/storage/netapp/svms`);
   };
 
   /** Create a new SVM */
-  postAnthosTenantsServiceNameStorageNetappSvms = (
+  createAnthosTenantsStorageNetappSvmsByServiceName = (
     serviceName: string,
     body: DedicatedAnthosStorageVM
   ): Promise<DedicatedAnthosStorageVM> => {
@@ -266,7 +266,7 @@ class DedicatedAnthosHandler {
   };
 
   /** Delete a SVM */
-  deleteAnthosTenantsServiceNameStorageNetappSvmsStorageVmId = (
+  deleteAnthosTenantsStorageNetappSvmsByServiceNameAndStorageVmId = (
     serviceName: string,
     storageVmId: string
   ): Promise<void> => {
@@ -277,7 +277,7 @@ class DedicatedAnthosHandler {
   };
 
   /** Get a SVM */
-  getAnthosTenantsServiceNameStorageNetappSvmsStorageVmId = (
+  getAnthosTenantsStorageNetappSvmsByServiceNameAndStorageVmId = (
     serviceName: string,
     storageVmId: string
   ): Promise<DedicatedAnthosStorageVM> => {
@@ -288,16 +288,16 @@ class DedicatedAnthosHandler {
   };
 
   /** Get total storage usage */
-  getAnthosTenantsServiceNameStorageNetappUsage = (
+  getAnthosTenantsStorageNetappUsageByServiceName = (
     serviceName: string
   ): Promise<DedicatedAnthosUsage> => {
     return this.ovh.request('GET', `/dedicated/anthos/tenants/${serviceName}/storage/netapp/usage`);
   };
 
   /** Terminate your service */
-  postAnthosTenantsServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postAnthosTenantsTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/dedicated/anthos/tenants/${serviceName}/terminate`);
   };
 }
 
-export default DedicatedAnthosHandler;
+export { DedicatedAnthosHandler };

@@ -3,7 +3,7 @@
 import { CloudBillingViewMonthlyCertificationDetail } from './CloudBillingViewMonthlyCertificationDetail';
 
 export type CloudBillingViewMonthlyCertification = {
-  details: CloudBillingViewMonthlyCertificationDetail;
+  details: CloudBillingViewMonthlyCertificationDetail[];
   reference: string;
   totalPrice: number;
 };

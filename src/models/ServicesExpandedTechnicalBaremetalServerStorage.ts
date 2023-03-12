@@ -4,7 +4,7 @@ import { ServicesExpandedTechnicalBaremetalServerStorageRaid } from './ServicesE
 import { ServicesExpandedTechnicalBaremetalServerStorageDisk } from './ServicesExpandedTechnicalBaremetalServerStorageDisk';
 
 export type ServicesExpandedTechnicalBaremetalServerStorage = {
-  disks: ServicesExpandedTechnicalBaremetalServerStorageDisk;
+  disks: ServicesExpandedTechnicalBaremetalServerStorageDisk[];
   hotSwap: boolean;
   raid: string;
   raidDetails: ServicesExpandedTechnicalBaremetalServerStorageRaid | null;

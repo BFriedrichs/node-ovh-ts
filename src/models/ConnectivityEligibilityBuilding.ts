@@ -7,6 +7,6 @@ export type ConnectivityEligibilityBuilding = {
   name: string;
   nro: string | null;
   reference: string;
-  stairs: ConnectivityEligibilityBuildingStair;
+  stairs: ConnectivityEligibilityBuildingStair[];
   type: ConnectivityEligibilityBuildingTypeEnum;
 };

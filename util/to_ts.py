@@ -80,7 +80,7 @@ class {base}Handler {{
 {routes}
 }}
 
-export default {base}Handler;"""
+export {{ {base}Handler }};"""
 
 
 ROUTE_TEMPLATE = """{jsdoc}  {name} = ({params}): Promise<{return_type}> => {{
@@ -98,13 +98,13 @@ def translate_type(the_type):
     curr_type = curr_type[11:]
     is_map = True
 
-  is_array = curr_type.endswith('[]')
-  curr_type = curr_type[:-2] if is_array else curr_type
-
   curr_type = curr_type.replace('<T>', '')
 
   if '<' in curr_type:
     curr_type = curr_type.split('<')[1].split('>')[0]
+
+  is_array = curr_type.endswith('[]')
+  curr_type = curr_type[:-2] if is_array else curr_type
 
   if curr_type == 'datetime' or curr_type == 'date' or curr_type == 'time':
     curr_type = 'Date'
@@ -160,7 +160,7 @@ def translate_type(the_type):
         break
 
   final_type = curr_type + ('[]' if is_array else '')
-  final_type = f'Record<string, {curr_type}>' if is_map else curr_type
+  final_type = f'Record<string, {final_type}>' if is_map else final_type
   return final_type, import_name
 
 def model_to_response_type(model):
@@ -184,6 +184,8 @@ def model_to_response_type(model):
   if response_type != '':
     response_type = '{ ' + response_type + '}'
   return response_type, imports
+
+ops = ['create', 'list', 'change', 'update', 'add', 'confirm', 'launch', 'send', 'alter', 'disable', 'enable', 'validate', 'edit', 'export', 'check']
 
 all_handlers = {}
 api_files = os.listdir('apis')
@@ -216,12 +218,35 @@ for api_file in sorted(api_files):
     for operation in api['operations']:
       # e.g., GET /me/abuse = ovhClient.me.getAbuse()
       path_split = api['path'][1:].split('/')[1:]
-      path_split = [item.replace('{', '').replace('}', '') for item in path_split]
-      extra = [item[0].upper() + item[1:] for item in path_split]
+      extra = ''
+      by_ending = ''
+      for item in path_split:
+        if '{' in item:
+          clean_item = item.replace('{', '').replace('}', '')
+          if by_ending == '':
+            by_ending += 'By'
+          else:
+            by_ending += 'And'
+          by_ending += clean_item[0].upper() + clean_item[1:]
+        else:
+          extra += item[0].upper() + item[1:]
 
-      name = operation['httpMethod'].lower() + ''.join(extra)
-      # if api['path'].endswith('}'):
-      #   name = name + 'ById'
+      op_name = operation['httpMethod'].lower()
+      desc_lower = operation.get('description', '').lower()
+      for test_op in ops:
+        if desc_lower.startswith(test_op):
+          # Fix break with Vps.ts
+          if test_op == 'create' and op_name == 'delete':
+            break
+          if test_op == 'change' or test_op == 'alter' or test_op == 'edit':
+            op_name = 'update'
+          else:
+            op_name = test_op
+          extra = extra.replace(test_op[0].upper() + test_op[1:], '', 1)
+          break
+      if op_name == 'list' and not extra.endswith('s'):
+        extra += 's'
+      name = op_name + extra + by_ending
 
       js_param_str = ''
       js_body_str = ''
@@ -329,13 +354,19 @@ import OVHBase from './ovh';
 export default class OVH extends OVHBase {{
 {handlers}
 }}
+
+{exports}
 """
 
-handler_imports = '\n'.join([f'import {handler}Handler from \'./handlers/{handler}\';' for handler in all_handlers])
+handler_imports = '\n'.join([f'import {{ {handler}Handler }} from \'./handlers/{handler}\';' for handler in all_handlers])
+handler_exports = '\n'.join([f'export {{ {handler}Handler }};' for handler in all_handlers])
+handler_exports += '\nexport { OVHBase };'
+
 handler_defs = '\n'.join([f'  public {handler[0].lower() + handler[1:]} = new {handler}Handler(this);' for handler in all_handlers])
 index = INDEX_TEMPLATE.format(
   imports=handler_imports,
-  handlers=handler_defs
+  handlers=handler_defs,
+  exports=handler_exports
 )
 if not dry:
   with open(os.path.join(base_path, 'index.ts'), 'w') as f:
@@ -346,4 +377,4 @@ if generate_docs:
 
 if fix_lint:
   base_path = os.path.join(os.path.dirname(__file__), '..')
-  subprocess.Popen('pnpm exec prettier --write ./lib', shell=True, cwd=base_path).wait()
+  subprocess.Popen('pnpm exec prettier --write ./src', shell=True, cwd=base_path).wait()

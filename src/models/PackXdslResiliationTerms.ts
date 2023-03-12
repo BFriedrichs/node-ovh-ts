@@ -8,5 +8,5 @@ export type PackXdslResiliationTerms = {
   engageDate: Date | null;
   minResiliationDate: Date;
   resiliationDate: Date;
-  resiliationReasons: PackXdslResiliationReasonEnum;
+  resiliationReasons: PackXdslResiliationReasonEnum[];
 };

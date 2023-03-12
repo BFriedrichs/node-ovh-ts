@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectDataIntegrationConnectionStatusEnum } from './CloudProjectDataIntegrationConnectionStatusEnum';
 import { CloudProjectDataIntegrationParameter } from './CloudProjectDataIntegrationParameter';
+import { CloudProjectDataIntegrationConnectionStatusEnum } from './CloudProjectDataIntegrationConnectionStatusEnum';
 
 export type CloudProjectDataIntegrationDestination = {
   connectorId?: string;
@@ -9,6 +9,6 @@ export type CloudProjectDataIntegrationDestination = {
   id: string;
   lastUpdateDate: Date | null;
   name?: string;
-  parameters?: CloudProjectDataIntegrationParameter;
+  parameters?: CloudProjectDataIntegrationParameter[];
   status: CloudProjectDataIntegrationConnectionStatusEnum;
 };

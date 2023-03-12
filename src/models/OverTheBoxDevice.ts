@@ -6,7 +6,7 @@ export type OverTheBoxDevice = {
   activated: boolean;
   deviceId: string;
   lastSeen: Date;
-  networkInterfaces: OverTheBoxDeviceInterface;
+  networkInterfaces: OverTheBoxDeviceInterface[];
   publicIp: string;
   systemVersion: string;
   version: string;

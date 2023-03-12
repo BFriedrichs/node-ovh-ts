@@ -4,6 +4,6 @@ import { DomainConfigurationsContactTypeEnum } from './DomainConfigurationsConta
 import { DomainOptinFieldsEnum } from './DomainOptinFieldsEnum';
 
 export type DomainRulesOptin = {
-  fields: DomainOptinFieldsEnum;
+  fields: DomainOptinFieldsEnum[];
   type: DomainConfigurationsContactTypeEnum;
 };

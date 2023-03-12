@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesExpandedTechnicalBaremetalServerServerServices } from './ServicesExpandedTechnicalBaremetalServerServerServices';
-import { ServicesExpandedTechnicalBaremetalServerServerCpu } from './ServicesExpandedTechnicalBaremetalServerServerCpu';
 import { ServicesExpandedTechnicalBaremetalServerServerNetwork } from './ServicesExpandedTechnicalBaremetalServerServerNetwork';
-import { ServicesExpandedTechnicalBaremetalServerServerExtensionCard } from './ServicesExpandedTechnicalBaremetalServerServerExtensionCard';
+import { ServicesExpandedTechnicalBaremetalServerServerCpu } from './ServicesExpandedTechnicalBaremetalServerServerCpu';
 import { ServicesExpandedTechnicalBaremetalServerServerFrame } from './ServicesExpandedTechnicalBaremetalServerServerFrame';
+import { ServicesExpandedTechnicalBaremetalServerServerServices } from './ServicesExpandedTechnicalBaremetalServerServerServices';
+import { ServicesExpandedTechnicalBaremetalServerServerExtensionCard } from './ServicesExpandedTechnicalBaremetalServerServerExtensionCard';
 
 export type ServicesExpandedTechnicalBaremetalServerServer = {
   cpu: ServicesExpandedTechnicalBaremetalServerServerCpu;

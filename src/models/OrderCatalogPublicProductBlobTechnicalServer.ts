@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderCatalogPublicProductBlobTechnicalServices } from './OrderCatalogPublicProductBlobTechnicalServices';
-import { OrderCatalogPublicProductBlobTechnicalCPU } from './OrderCatalogPublicProductBlobTechnicalCPU';
 import { OrderCatalogPublicProductBlobTechnicalFrame } from './OrderCatalogPublicProductBlobTechnicalFrame';
+import { OrderCatalogPublicProductBlobTechnicalCPU } from './OrderCatalogPublicProductBlobTechnicalCPU';
 import { OrderCatalogPublicProductBlobTechnicalNetwork } from './OrderCatalogPublicProductBlobTechnicalNetwork';
+import { OrderCatalogPublicProductBlobTechnicalServices } from './OrderCatalogPublicProductBlobTechnicalServices';
 
 export type OrderCatalogPublicProductBlobTechnicalServer = {
   cpu: OrderCatalogPublicProductBlobTechnicalCPU;

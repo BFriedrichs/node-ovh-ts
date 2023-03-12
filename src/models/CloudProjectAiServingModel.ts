@@ -2,9 +2,9 @@
 
 import { CloudProjectAiServingAutoscalingSpec } from './CloudProjectAiServingAutoscalingSpec';
 import { CloudProjectAiServingWorkflowTemplateEnum } from './CloudProjectAiServingWorkflowTemplateEnum';
-import { CloudProjectAiServingAPIStatusEnum } from './CloudProjectAiServingAPIStatusEnum';
 import { CloudProjectAiServingModelWorkflowTemplateParameter } from './CloudProjectAiServingModelWorkflowTemplateParameter';
 import { CloudProjectAiServingVersionStatusEnum } from './CloudProjectAiServingVersionStatusEnum';
+import { CloudProjectAiServingAPIStatusEnum } from './CloudProjectAiServingAPIStatusEnum';
 
 export type CloudProjectAiServingModel = {
   apiStatus: CloudProjectAiServingAPIStatusEnum;

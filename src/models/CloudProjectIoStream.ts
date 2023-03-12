@@ -9,7 +9,7 @@ export type CloudProjectIoStream = {
   id: string;
   kind: CloudProjectIoStreamKindEnum;
   name: string;
-  regions: string;
+  regions: string[];
   retention: number;
   status: CloudProjectIoStreamStatusEnum;
   throttling: number;

@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SslGatewayTaskStatusEnum } from './SslGatewayTaskStatusEnum';
 import { SslGatewayTaskActionEnum } from './SslGatewayTaskActionEnum';
+import { SslGatewayTaskStatusEnum } from './SslGatewayTaskStatusEnum';
 
 export type SslGatewayTask = {
   action: SslGatewayTaskActionEnum;

@@ -21,4 +21,4 @@ class PartnerHandler {
   };
 }
 
-export default PartnerHandler;
+export { PartnerHandler };

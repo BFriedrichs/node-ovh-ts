@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectDataProcessingCapabilitiesEngineParameter } from './CloudProjectDataProcessingCapabilitiesEngineParameter';
 import { CloudProjectDataProcessingCapabilitiesTemplate } from './CloudProjectDataProcessingCapabilitiesTemplate';
+import { CloudProjectDataProcessingCapabilitiesEngineParameter } from './CloudProjectDataProcessingCapabilitiesEngineParameter';
 import { CloudProjectDataProcessingEngineVersion } from './CloudProjectDataProcessingEngineVersion';
 
 export type CloudProjectDataProcessingCapability = {
-  availableVersions: CloudProjectDataProcessingEngineVersion;
+  availableVersions: CloudProjectDataProcessingEngineVersion[];
   name: string;
-  parameters: CloudProjectDataProcessingCapabilitiesEngineParameter;
-  templates: CloudProjectDataProcessingCapabilitiesTemplate;
+  parameters: CloudProjectDataProcessingCapabilitiesEngineParameter[];
+  templates: CloudProjectDataProcessingCapabilitiesTemplate[];
 };

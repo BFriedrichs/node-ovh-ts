@@ -2,4 +2,4 @@
 
 import { DedicatedServerNetworkingTypeEnum } from './DedicatedServerNetworkingTypeEnum';
 
-export type DedicatedServerInterfaces = { macs: string; type: DedicatedServerNetworkingTypeEnum };
+export type DedicatedServerInterfaces = { macs: string[]; type: DedicatedServerNetworkingTypeEnum };

@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyTypeServiceEnum } from './TelephonyTypeServiceEnum';
-import { TelephonyLineOffer } from './TelephonyLineOffer';
 import { TelephonyLineNotificationsOptions } from './TelephonyLineNotificationsOptions';
+import { TelephonyLineOffer } from './TelephonyLineOffer';
+import { TelephonyTypeServiceEnum } from './TelephonyTypeServiceEnum';
 
 export type TelephonyLine = {
   canChangePassword: boolean;
@@ -12,7 +12,7 @@ export type TelephonyLine = {
   infrastructure: string;
   isAttachedToOtherLinesPhone: boolean;
   notifications: TelephonyLineNotificationsOptions | null;
-  offers: string;
+  offers: string[];
   serviceName: string;
   serviceType: TelephonyTypeServiceEnum;
   simultaneousLines: number;

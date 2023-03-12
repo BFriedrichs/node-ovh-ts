@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudLoadbalancingL7RuleCompareTypeEnum } from './CloudLoadbalancingL7RuleCompareTypeEnum';
-import { CloudLoadbalancingLoadBalancerOperatingStatusEnum } from './CloudLoadbalancingLoadBalancerOperatingStatusEnum';
 import { CloudLoadbalancingLoadBalancerProvisioningStatusEnum } from './CloudLoadbalancingLoadBalancerProvisioningStatusEnum';
+import { CloudLoadbalancingLoadBalancerOperatingStatusEnum } from './CloudLoadbalancingLoadBalancerOperatingStatusEnum';
 import { CloudLoadbalancingL7RuleTypeEnum } from './CloudLoadbalancingL7RuleTypeEnum';
+import { CloudLoadbalancingL7RuleCompareTypeEnum } from './CloudLoadbalancingL7RuleCompareTypeEnum';
 
 export type CloudLoadbalancingL7Rule = {
   compareType?: CloudLoadbalancingL7RuleCompareTypeEnum;

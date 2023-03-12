@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CdnOptionCategoryEnum } from './CdnOptionCategoryEnum';
 import { CdnAvailableOptionsConfig } from './CdnAvailableOptionsConfig';
+import { CdnOptionCategoryEnum } from './CdnOptionCategoryEnum';
 
 export type CdnAvailableOptions = {
   category: CdnOptionCategoryEnum | null;

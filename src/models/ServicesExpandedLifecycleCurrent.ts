@@ -5,7 +5,7 @@ import { ServicesExpandedLifecycleStateEnum } from './ServicesExpandedLifecycleS
 
 export type ServicesExpandedLifecycleCurrent = {
   creationDate: Date | null;
-  pendingActions: ServicesExpandedLifecycleActionEnum;
+  pendingActions: ServicesExpandedLifecycleActionEnum[];
   state: ServicesExpandedLifecycleStateEnum;
   terminationDate: Date | null;
 };

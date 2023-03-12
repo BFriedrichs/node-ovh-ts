@@ -6,5 +6,5 @@ export type DedicatedCloudHostStockProfile = {
   id: number;
   name: string;
   ref: string;
-  value: DedicatedCloudHostStockProcGen;
+  value: DedicatedCloudHostStockProcGen[];
 };

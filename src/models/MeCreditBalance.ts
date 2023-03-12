@@ -1,18 +1,18 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { MeCreditBalanceTypeEnum } from './MeCreditBalanceTypeEnum';
+import { MeCreditBalanceExpiringMovement } from './MeCreditBalanceExpiringMovement';
 import { MeCreditBalanceBalanceDetails } from './MeCreditBalanceBalanceDetails';
 import { MeCreditBalanceBookedMovement } from './MeCreditBalanceBookedMovement';
-import { MeCreditBalanceTypeEnum } from './MeCreditBalanceTypeEnum';
 import { OrderPrice } from './OrderPrice';
-import { MeCreditBalanceExpiringMovement } from './MeCreditBalanceExpiringMovement';
 
 export type MeCreditBalance = {
   amount: OrderPrice;
-  balanceDetails: MeCreditBalanceBalanceDetails;
+  balanceDetails: MeCreditBalanceBalanceDetails[];
   balanceName: string;
-  booked: MeCreditBalanceBookedMovement;
+  booked: MeCreditBalanceBookedMovement[];
   creationDate: Date;
-  expiring: MeCreditBalanceExpiringMovement;
+  expiring: MeCreditBalanceExpiringMovement[];
   lastUpdate: Date;
   type: MeCreditBalanceTypeEnum;
 };

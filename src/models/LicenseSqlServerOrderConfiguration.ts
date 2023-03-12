@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseOrderableSqlServerCompatibilityInfos } from './LicenseOrderableSqlServerCompatibilityInfos';
 import { LicenseLicenseTypeEnum } from './LicenseLicenseTypeEnum';
+import { LicenseOrderableSqlServerCompatibilityInfos } from './LicenseOrderableSqlServerCompatibilityInfos';
 
 export type LicenseSqlServerOrderConfiguration = {
-  orderableVersions: LicenseOrderableSqlServerCompatibilityInfos;
+  orderableVersions: LicenseOrderableSqlServerCompatibilityInfos[];
   serviceType: LicenseLicenseTypeEnum;
 };

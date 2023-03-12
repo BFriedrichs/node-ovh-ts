@@ -2,4 +2,4 @@
 
 import { PackXdslAddressMoveMoveOffer } from './PackXdslAddressMoveMoveOffer';
 
-export type PackXdslAddressMoveMoveOfferResponse = { offers: PackXdslAddressMoveMoveOffer };
+export type PackXdslAddressMoveMoveOfferResponse = { offers: PackXdslAddressMoveMoveOffer[] };

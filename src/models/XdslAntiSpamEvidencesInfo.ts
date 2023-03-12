@@ -5,6 +5,6 @@ import { XdslAntiSpamEvidencesInfoDetail } from './XdslAntiSpamEvidencesInfoDeta
 
 export type XdslAntiSpamEvidencesInfo = {
   error: string | null;
-  result: XdslAntiSpamEvidencesInfoDetail | null;
+  result: XdslAntiSpamEvidencesInfoDetail[] | null;
   status: XdslAntiSpamEvidencesInfoStatusEnum;
 };

@@ -3,6 +3,6 @@
 import { CloudNetworkGatewayIpSubnet } from './CloudNetworkGatewayIpSubnet';
 
 export type CloudNetworkGatewayExternalInformation = {
-  ips: CloudNetworkGatewayIpSubnet;
+  ips: CloudNetworkGatewayIpSubnet[];
   networkId: string;
 };

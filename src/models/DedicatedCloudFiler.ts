@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedCloudFilerConnexionStateEnum } from './DedicatedCloudFilerConnexionStateEnum';
 import { DedicatedCloudFilerNodeTypeEnum } from './DedicatedCloudFilerNodeTypeEnum';
-import { DedicatedCloudFilerStateEnum } from './DedicatedCloudFilerStateEnum';
 import { DedicatedCloudRessourcesBillingTypeEnum } from './DedicatedCloudRessourcesBillingTypeEnum';
+import { DedicatedCloudFilerStateEnum } from './DedicatedCloudFilerStateEnum';
+import { DedicatedCloudFilerConnexionStateEnum } from './DedicatedCloudFilerConnexionStateEnum';
 
 export type DedicatedCloudFiler = {
   activeNode: DedicatedCloudFilerNodeTypeEnum | null;

@@ -3,6 +3,6 @@
 import { MsServicesSharepointAccountLicense } from './MsServicesSharepointAccountLicense';
 
 export type MsServicesSharepointDailyLicense = {
-  accountLicense: MsServicesSharepointAccountLicense;
+  accountLicense: MsServicesSharepointAccountLicense[];
   date: Date;
 };

@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HostingWebDatabaseDatabaseIsolationEnum } from './HostingWebDatabaseDatabaseIsolationEnum';
-import { HostingWebDatabaseDatabaseCapabilitiesTypeEnum } from './HostingWebDatabaseDatabaseCapabilitiesTypeEnum';
 import { HostingWebDatabaseDatabaseTypeEnum } from './HostingWebDatabaseDatabaseTypeEnum';
+import { HostingWebDatabaseDatabaseCapabilitiesTypeEnum } from './HostingWebDatabaseDatabaseCapabilitiesTypeEnum';
+import { HostingWebDatabaseDatabaseIsolationEnum } from './HostingWebDatabaseDatabaseIsolationEnum';
 
 export type HostingWebDatabaseCreationDatabaseCapabilities = {
   available: number;
-  engines: HostingWebDatabaseDatabaseTypeEnum;
+  engines: HostingWebDatabaseDatabaseTypeEnum[];
   isolation: HostingWebDatabaseDatabaseIsolationEnum;
   quota: number;
   type: HostingWebDatabaseDatabaseCapabilitiesTypeEnum;

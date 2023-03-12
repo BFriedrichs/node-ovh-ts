@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { LicenseCloudLinuxOrderConfiguration } from '../models/LicenseCloudLinuxOrderConfiguration';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
+import { LicenseTask } from '../models/LicenseTask';
+import { LicenseActionType } from '../models/LicenseActionType';
 import { ServicesService } from '../models/ServicesService';
 import { LicenseCloudLinuxCloudLinux } from '../models/LicenseCloudLinuxCloudLinux';
-import { LicenseActionType } from '../models/LicenseActionType';
-import { LicenseCloudLinuxOrderConfiguration } from '../models/LicenseCloudLinuxOrderConfiguration';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { LicenseTask } from '../models/LicenseTask';
-import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import OVHBase from '../ovh';
 
 class LicenseCloudLinuxHandler {
@@ -18,22 +18,22 @@ class LicenseCloudLinuxHandler {
   }
 
   /** List available services */
-  getCloudLinux = (): Promise<string> => {
+  listCloudLinuxs = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/cloudLinux');
   };
 
   /** Get the orderable CloudLinux versions */
-  getCloudLinuxOrderableVersions = (): Promise<LicenseCloudLinuxOrderConfiguration> => {
+  getCloudLinuxOrderableVersions = (): Promise<LicenseCloudLinuxOrderConfiguration[]> => {
     return this.ovh.request('GET', '/license/cloudLinux/orderableVersions');
   };
 
   /** Get this object properties */
-  getCloudLinuxServiceName = (serviceName: string): Promise<LicenseCloudLinuxCloudLinux> => {
+  getCloudLinuxByServiceName = (serviceName: string): Promise<LicenseCloudLinuxCloudLinux> => {
     return this.ovh.request('GET', `/license/cloudLinux/${serviceName}`);
   };
 
   /** Confirm termination of your service */
-  postCloudLinuxServiceNameConfirmTermination = (
+  confirmCloudLinuxTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -46,12 +46,12 @@ class LicenseCloudLinuxHandler {
   };
 
   /** Get this object properties */
-  getCloudLinuxServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getCloudLinuxServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/license/cloudLinux/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putCloudLinuxServiceNameServiceInfos = (
+  updateCloudLinuxServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -59,12 +59,12 @@ class LicenseCloudLinuxHandler {
   };
 
   /** Tasks linked to this license */
-  getCloudLinuxServiceNameTasks = (serviceName: string): Promise<number> => {
+  getCloudLinuxTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/license/cloudLinux/${serviceName}/tasks`);
   };
 
   /** Get this object properties */
-  getCloudLinuxServiceNameTasksTaskId = (
+  getCloudLinuxTasksByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<LicenseTask> => {
@@ -72,9 +72,9 @@ class LicenseCloudLinuxHandler {
   };
 
   /** Terminate your service */
-  postCloudLinuxServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postCloudLinuxTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/license/cloudLinux/${serviceName}/terminate`);
   };
 }
 
-export default LicenseCloudLinuxHandler;
+export { LicenseCloudLinuxHandler };

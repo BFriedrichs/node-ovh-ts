@@ -4,6 +4,6 @@ import { LicenseOrderableVirtuozzoCompatibilityInfos } from './LicenseOrderableV
 import { LicenseLicenseTypeEnum } from './LicenseLicenseTypeEnum';
 
 export type LicenseVirtuozzoOrderConfiguration = {
-  orderableVersions: LicenseOrderableVirtuozzoCompatibilityInfos;
+  orderableVersions: LicenseOrderableVirtuozzoCompatibilityInfos[];
   serviceType: LicenseLicenseTypeEnum;
 };

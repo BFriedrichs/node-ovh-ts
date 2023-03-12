@@ -6,7 +6,7 @@ export type CloudProjectDatabaseCapabilitiesEngine = {
   defaultVersion: string;
   description: string;
   name: string;
-  sslModes: string;
+  sslModes: string[];
   storage: CloudProjectDatabaseCapabilitiesEngineStorageStrategyEnum;
-  versions: string;
+  versions: string[];
 };

@@ -3,6 +3,6 @@
 import { AuthAccessRuleRequest } from './AuthAccessRuleRequest';
 
 export type AuthApiCredentialRequestParams = {
-  accessRules?: AuthAccessRuleRequest;
+  accessRules?: AuthAccessRuleRequest[];
   redirection: string | null;
 };

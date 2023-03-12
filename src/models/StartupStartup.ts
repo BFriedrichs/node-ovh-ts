@@ -2,9 +2,9 @@
 
 import { StartupAcceptanceStatusEnum } from './StartupAcceptanceStatusEnum';
 import { StartupStartupProject } from './StartupStartupProject';
+import { StartupStartupCompany } from './StartupStartupCompany';
 import { StartupStartupFundRaising } from './StartupStartupFundRaising';
 import { StartupAwarnessEnum } from './StartupAwarnessEnum';
-import { StartupStartupCompany } from './StartupStartupCompany';
 
 export type StartupStartup = {
   acceptanceStatus: StartupAcceptanceStatusEnum | null;

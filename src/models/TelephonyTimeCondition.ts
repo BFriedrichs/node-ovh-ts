@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyTimeConditionsPolicyEnum } from './TelephonyTimeConditionsPolicyEnum';
 import { TelephonyTimeConditionsDayEnum } from './TelephonyTimeConditionsDayEnum';
+import { TelephonyTimeConditionsPolicyEnum } from './TelephonyTimeConditionsPolicyEnum';
 
 export type TelephonyTimeCondition = {
   day: TelephonyTimeConditionsDayEnum;

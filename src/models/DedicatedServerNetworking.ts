@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedServerNetworkingOperationEnum } from './DedicatedServerNetworkingOperationEnum';
 import { DedicatedServerInterfaces } from './DedicatedServerInterfaces';
+import { DedicatedServerNetworkingOperationEnum } from './DedicatedServerNetworkingOperationEnum';
 
 export type DedicatedServerNetworking = {
   description: string | null;
-  interfaces: DedicatedServerInterfaces;
+  interfaces: DedicatedServerInterfaces[];
   status: DedicatedServerNetworkingOperationEnum | null;
 };

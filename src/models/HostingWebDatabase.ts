@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HostingWebDatabaseStatusEnum } from './HostingWebDatabaseStatusEnum';
-import { HostingWebDatabaseVersionEnum } from './HostingWebDatabaseVersionEnum';
 import { HostingWebDatabaseStateEnum } from './HostingWebDatabaseStateEnum';
-import { HostingWebDatabaseDatabaseTypeEnum } from './HostingWebDatabaseDatabaseTypeEnum';
 import { HostingWebDatabaseModeEnum } from './HostingWebDatabaseModeEnum';
+import { HostingWebDatabaseVersionEnum } from './HostingWebDatabaseVersionEnum';
 import { HostingWebDatabaseSupportedVersionEnum } from './HostingWebDatabaseSupportedVersionEnum';
+import { HostingWebDatabaseStatusEnum } from './HostingWebDatabaseStatusEnum';
+import { HostingWebDatabaseDatabaseTypeEnum } from './HostingWebDatabaseDatabaseTypeEnum';
 
 export type HostingWebDatabase = {
   dumps: number;

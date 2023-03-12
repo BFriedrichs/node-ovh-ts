@@ -1,29 +1,29 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HostingPrivateDatabaseOom } from '../models/HostingPrivateDatabaseOom';
-import { HostingPrivateDatabaseDatabaseExtensionStatus } from '../models/HostingPrivateDatabaseDatabaseExtensionStatus';
-import { HostingPrivateDatabaseGrantGrantEnum } from '../models/HostingPrivateDatabaseGrantGrantEnum';
-import { HostingPrivateDatabaseWhitelist } from '../models/HostingPrivateDatabaseWhitelist';
-import { HostingPrivateDatabaseService } from '../models/HostingPrivateDatabaseService';
-import { HostingPrivateDatabaseDatabaseDump } from '../models/HostingPrivateDatabaseDatabaseDump';
-import { HostingPrivateDatabaseUser } from '../models/HostingPrivateDatabaseUser';
-import { HostingPrivateDatabaseTask } from '../models/HostingPrivateDatabaseTask';
-import { HostingPrivateDatabaseDatabase } from '../models/HostingPrivateDatabaseDatabase';
-import { HostingPrivateDatabaseTaskStatusEnum } from '../models/HostingPrivateDatabaseTaskStatusEnum';
 import { HostingPrivateDatabaseAvailableVersionEnum } from '../models/HostingPrivateDatabaseAvailableVersionEnum';
-import { ServicesService } from '../models/ServicesService';
+import { HostingPrivateDatabaseWhitelist } from '../models/HostingPrivateDatabaseWhitelist';
 import { HostingPrivateDatabaseAvailableOrderCapacities } from '../models/HostingPrivateDatabaseAvailableOrderCapacities';
-import { HostingPrivateDatabaseDump } from '../models/HostingPrivateDatabaseDump';
+import { HostingPrivateDatabaseDatabaseDump } from '../models/HostingPrivateDatabaseDatabaseDump';
+import { HostingPrivateDatabaseTaskStatusEnum } from '../models/HostingPrivateDatabaseTaskStatusEnum';
+import { HostingPrivateDatabaseOfferEnum } from '../models/HostingPrivateDatabaseOfferEnum';
+import { HostingPrivateDatabaseConfiguration } from '../models/HostingPrivateDatabaseConfiguration';
+import { HostingPrivateDatabaseGrant } from '../models/HostingPrivateDatabaseGrant';
 import { HostingPrivateDatabaseTemporaryLogsLink } from '../models/HostingPrivateDatabaseTemporaryLogsLink';
-import { HostingPrivateDatabaseDatabaseExtension } from '../models/HostingPrivateDatabaseDatabaseExtension';
 import { HostingPrivateDatabaseTaskFunctionEnum } from '../models/HostingPrivateDatabaseTaskFunctionEnum';
 import { HostingPrivateDatabaseCpuThrottle } from '../models/HostingPrivateDatabaseCpuThrottle';
-import { HostingPrivateDatabaseWebhostingNetwork } from '../models/HostingPrivateDatabaseWebhostingNetwork';
-import { HostingPrivateDatabaseGrant } from '../models/HostingPrivateDatabaseGrant';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { HostingPrivateDatabaseConfiguration } from '../models/HostingPrivateDatabaseConfiguration';
-import { HostingPrivateDatabaseOfferEnum } from '../models/HostingPrivateDatabaseOfferEnum';
+import { HostingPrivateDatabaseGrantGrantEnum } from '../models/HostingPrivateDatabaseGrantGrantEnum';
+import { HostingPrivateDatabaseService } from '../models/HostingPrivateDatabaseService';
+import { HostingPrivateDatabaseDump } from '../models/HostingPrivateDatabaseDump';
+import { HostingPrivateDatabaseTask } from '../models/HostingPrivateDatabaseTask';
+import { HostingPrivateDatabaseDatabaseExtension } from '../models/HostingPrivateDatabaseDatabaseExtension';
+import { HostingPrivateDatabaseDatabaseExtensionStatus } from '../models/HostingPrivateDatabaseDatabaseExtensionStatus';
+import { HostingPrivateDatabaseOom } from '../models/HostingPrivateDatabaseOom';
+import { HostingPrivateDatabaseDatabase } from '../models/HostingPrivateDatabaseDatabase';
+import { ServicesService } from '../models/ServicesService';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { HostingPrivateDatabaseWebhostingNetwork } from '../models/HostingPrivateDatabaseWebhostingNetwork';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { HostingPrivateDatabaseUser } from '../models/HostingPrivateDatabaseUser';
 import OVHBase from '../ovh';
 
 class HostingPrivateDatabaseHandler {
@@ -34,7 +34,7 @@ class HostingPrivateDatabaseHandler {
   }
 
   /** List available services */
-  getPrivateDatabase = (): Promise<string> => {
+  listPrivateDatabases = (): Promise<string[]> => {
     return this.ovh.request('GET', '/hosting/privateDatabase');
   };
 
@@ -45,12 +45,14 @@ class HostingPrivateDatabaseHandler {
     };
 
   /** Get this object properties */
-  getPrivateDatabaseServiceName = (serviceName: string): Promise<HostingPrivateDatabaseService> => {
+  getPrivateDatabaseByServiceName = (
+    serviceName: string
+  ): Promise<HostingPrivateDatabaseService> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putPrivateDatabaseServiceName = (
+  updatePrivateDatabaseByServiceName = (
     serviceName: string,
     body: HostingPrivateDatabaseService
   ): Promise<void> => {
@@ -58,22 +60,22 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Get the availables versions for this private database */
-  getPrivateDatabaseServiceNameAvailableVersions = (
+  getPrivateDatabaseAvailableVersionsByServiceName = (
     serviceName: string
-  ): Promise<HostingPrivateDatabaseAvailableVersionEnum> => {
+  ): Promise<HostingPrivateDatabaseAvailableVersionEnum[]> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/availableVersions`);
   };
 
   /** Launch a contact change procedure */
-  postPrivateDatabaseServiceNameChangeContact = (
+  launchPrivateDatabaseChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/hosting/privateDatabase/${serviceName}/changeContact`, body);
   };
 
   /** Change your ftp admin password */
-  postPrivateDatabaseServiceNameChangeFtpPassword = (
+  updatePrivateDatabaseFtpPasswordByServiceName = (
     serviceName: string,
     body: { password: string }
   ): Promise<HostingPrivateDatabaseTask> => {
@@ -85,7 +87,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Change the private database engine version */
-  postPrivateDatabaseServiceNameChangeVersion = (
+  updatePrivateDatabaseVersionByServiceName = (
     serviceName: string,
     body: { version: HostingPrivateDatabaseAvailableVersionEnum }
   ): Promise<HostingPrivateDatabaseTask> => {
@@ -93,14 +95,14 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Get this object properties */
-  getPrivateDatabaseServiceNameConfig = (
+  getPrivateDatabaseConfigByServiceName = (
     serviceName: string
   ): Promise<HostingPrivateDatabaseConfiguration> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/config`);
   };
 
   /** Update the configuration */
-  postPrivateDatabaseServiceNameConfigUpdate = (
+  updatePrivateDatabaseConfigByServiceName = (
     serviceName: string,
     body: { parameters: string }
   ): Promise<HostingPrivateDatabaseConfiguration> => {
@@ -108,7 +110,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Confirm termination of your service */
-  postPrivateDatabaseServiceNameConfirmTermination = (
+  confirmPrivateDatabaseTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -125,19 +127,19 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** List of privatesql CPU throttle */
-  getPrivateDatabaseServiceNameCpuThrottle = (
+  listPrivateDatabaseCpuThrottlesByServiceName = (
     serviceName: string
-  ): Promise<HostingPrivateDatabaseCpuThrottle> => {
+  ): Promise<HostingPrivateDatabaseCpuThrottle[]> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/cpuThrottle`);
   };
 
   /** Databases linked to your private database service */
-  getPrivateDatabaseServiceNameDatabase = (serviceName: string): Promise<string> => {
+  getPrivateDatabaseDatabaseByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/database`);
   };
 
   /** Create a new database on your private database service */
-  postPrivateDatabaseServiceNameDatabase = (
+  createPrivateDatabaseDatabaseByServiceName = (
     serviceName: string,
     body: { databaseName: string }
   ): Promise<HostingPrivateDatabaseTask> => {
@@ -145,7 +147,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Delete the database */
-  deletePrivateDatabaseServiceNameDatabaseDatabaseName = (
+  deletePrivateDatabaseDatabaseByServiceNameAndDatabaseName = (
     databaseName: string,
     serviceName: string
   ): Promise<HostingPrivateDatabaseTask> => {
@@ -156,7 +158,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Get this object properties */
-  getPrivateDatabaseServiceNameDatabaseDatabaseName = (
+  getPrivateDatabaseDatabaseByServiceNameAndDatabaseName = (
     databaseName: string,
     serviceName: string
   ): Promise<HostingPrivateDatabaseDatabase> => {
@@ -167,10 +169,10 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Dump available for your databases */
-  getPrivateDatabaseServiceNameDatabaseDatabaseNameDump = (
+  getPrivateDatabaseDatabaseDumpByServiceNameAndDatabaseName = (
     databaseName: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/hosting/privateDatabase/${serviceName}/database/${databaseName}/dump`
@@ -178,7 +180,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Request the dump of this database ( an email will be send with a link available 30 days ) */
-  postPrivateDatabaseServiceNameDatabaseDatabaseNameDump = (
+  postPrivateDatabaseDatabaseDumpByServiceNameAndDatabaseName = (
     databaseName: string,
     serviceName: string,
     body: { sendEmail?: boolean }
@@ -191,7 +193,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Delete dump before expiration date */
-  deletePrivateDatabaseServiceNameDatabaseDatabaseNameDumpId = (
+  deletePrivateDatabaseDatabaseDumpByServiceNameAndDatabaseNameAndId = (
     databaseName: string,
     id: number,
     serviceName: string
@@ -203,7 +205,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Get this object properties */
-  getPrivateDatabaseServiceNameDatabaseDatabaseNameDumpId = (
+  getPrivateDatabaseDatabaseDumpByServiceNameAndDatabaseNameAndId = (
     databaseName: string,
     id: number,
     serviceName: string
@@ -215,7 +217,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Request the restore from this dump */
-  postPrivateDatabaseServiceNameDatabaseDatabaseNameDumpIdRestore = (
+  postPrivateDatabaseDatabaseDumpRestoreByServiceNameAndDatabaseNameAndId = (
     databaseName: string,
     id: number,
     serviceName: string
@@ -227,10 +229,10 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Extensions linked to your database */
-  getPrivateDatabaseServiceNameDatabaseDatabaseNameExtension = (
+  getPrivateDatabaseDatabaseExtensionByServiceNameAndDatabaseName = (
     databaseName: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/hosting/privateDatabase/${serviceName}/database/${databaseName}/extension`
@@ -238,7 +240,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Get this object properties */
-  getPrivateDatabaseServiceNameDatabaseDatabaseNameExtensionExtensionName = (
+  getPrivateDatabaseDatabaseExtensionByServiceNameAndDatabaseNameAndExtensionName = (
     databaseName: string,
     extensionName: string,
     serviceName: string
@@ -250,7 +252,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Disable an extension from a database */
-  postPrivateDatabaseServiceNameDatabaseDatabaseNameExtensionExtensionNameDisable = (
+  disablePrivateDatabaseDatabaseExtensionByServiceNameAndDatabaseNameAndExtensionName = (
     databaseName: string,
     extensionName: string,
     serviceName: string
@@ -262,7 +264,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Enable an extension on a database */
-  postPrivateDatabaseServiceNameDatabaseDatabaseNameExtensionExtensionNameEnable = (
+  enablePrivateDatabaseDatabaseExtensionByServiceNameAndDatabaseNameAndExtensionName = (
     databaseName: string,
     extensionName: string,
     serviceName: string
@@ -274,7 +276,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Request the import in this database */
-  postPrivateDatabaseServiceNameDatabaseDatabaseNameImport = (
+  postPrivateDatabaseDatabaseImportByServiceNameAndDatabaseName = (
     databaseName: string,
     serviceName: string,
     body: { documentId: string; flushDatabase?: boolean; sendEmail?: boolean }
@@ -287,7 +289,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Create a new database/user and grant it */
-  postPrivateDatabaseServiceNameDatabaseWizard = (
+  createPrivateDatabaseDatabaseWizardByServiceName = (
     serviceName: string,
     body: {
       databaseName: string;
@@ -300,12 +302,12 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Dumps available for your private database service */
-  getPrivateDatabaseServiceNameDump = (serviceName: string): Promise<number> => {
+  getPrivateDatabaseDumpByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/dump`);
   };
 
   /** Delete dump before expiration date */
-  deletePrivateDatabaseServiceNameDumpDumpId = (
+  deletePrivateDatabaseDumpByServiceNameAndDumpId = (
     dumpId: number,
     serviceName: string
   ): Promise<HostingPrivateDatabaseTask> => {
@@ -313,7 +315,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Get this object properties */
-  getPrivateDatabaseServiceNameDumpDumpId = (
+  getPrivateDatabaseDumpByServiceNameAndDumpId = (
     dumpId: number,
     serviceName: string
   ): Promise<HostingPrivateDatabaseDump> => {
@@ -321,7 +323,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Request the restore from this dump */
-  postPrivateDatabaseServiceNameDumpDumpIdRestore = (
+  postPrivateDatabaseDumpRestoreByServiceNameAndDumpId = (
     dumpId: number,
     serviceName: string,
     body: { databaseName: string }
@@ -334,7 +336,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Generate a temporary url to retrieve instance logs */
-  postPrivateDatabaseServiceNameGenerateTemporaryLogsLink = (
+  postPrivateDatabaseGenerateTemporaryLogsLinkByServiceName = (
     serviceName: string
   ): Promise<HostingPrivateDatabaseTemporaryLogsLink> => {
     return this.ovh.request(
@@ -344,31 +346,33 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** List of privatesql OOM kill */
-  getPrivateDatabaseServiceNameOom = (serviceName: string): Promise<HostingPrivateDatabaseOom> => {
+  listPrivateDatabaseOomsByServiceName = (
+    serviceName: string
+  ): Promise<HostingPrivateDatabaseOom[]> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/oom`);
   };
 
   /** Refresh the quota of your private database */
-  postPrivateDatabaseServiceNameQuotaRefresh = (
+  postPrivateDatabaseQuotaRefreshByServiceName = (
     serviceName: string
   ): Promise<HostingPrivateDatabaseTask> => {
     return this.ovh.request('POST', `/hosting/privateDatabase/${serviceName}/quotaRefresh`);
   };
 
   /** Restart the private database */
-  postPrivateDatabaseServiceNameRestart = (
+  postPrivateDatabaseRestartByServiceName = (
     serviceName: string
   ): Promise<HostingPrivateDatabaseTask> => {
     return this.ovh.request('POST', `/hosting/privateDatabase/${serviceName}/restart`);
   };
 
   /** Get this object properties */
-  getPrivateDatabaseServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getPrivateDatabaseServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putPrivateDatabaseServiceNameServiceInfos = (
+  updatePrivateDatabaseServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -376,26 +380,26 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Start the private database */
-  postPrivateDatabaseServiceNameStart = (
+  postPrivateDatabaseStartByServiceName = (
     serviceName: string
   ): Promise<HostingPrivateDatabaseTask> => {
     return this.ovh.request('POST', `/hosting/privateDatabase/${serviceName}/start`);
   };
 
   /** Stop the private database */
-  postPrivateDatabaseServiceNameStop = (
+  postPrivateDatabaseStopByServiceName = (
     serviceName: string
   ): Promise<HostingPrivateDatabaseTask> => {
     return this.ovh.request('POST', `/hosting/privateDatabase/${serviceName}/stop`);
   };
 
   /** Tasks attached to your private database service */
-  getPrivateDatabaseServiceNameTasks = (serviceName: string): Promise<number> => {
+  getPrivateDatabaseTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/tasks`);
   };
 
   /** Get this object properties */
-  getPrivateDatabaseServiceNameTasksId = (
+  getPrivateDatabaseTasksByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<HostingPrivateDatabaseTask> => {
@@ -403,17 +407,17 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Terminate your service */
-  postPrivateDatabaseServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postPrivateDatabaseTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/hosting/privateDatabase/${serviceName}/terminate`);
   };
 
   /** User allowed to connect on your databases */
-  getPrivateDatabaseServiceNameUser = (serviceName: string): Promise<string> => {
+  getPrivateDatabaseUserByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/user`);
   };
 
   /** Create a new user on your service */
-  postPrivateDatabaseServiceNameUser = (
+  createPrivateDatabaseUserByServiceName = (
     serviceName: string,
     body: { password: string; userName: string }
   ): Promise<HostingPrivateDatabaseTask> => {
@@ -421,7 +425,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Delete a user */
-  deletePrivateDatabaseServiceNameUserUserName = (
+  deletePrivateDatabaseUserByServiceNameAndUserName = (
     serviceName: string,
     userName: string
   ): Promise<HostingPrivateDatabaseTask> => {
@@ -429,7 +433,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Get this object properties */
-  getPrivateDatabaseServiceNameUserUserName = (
+  getPrivateDatabaseUserByServiceNameAndUserName = (
     serviceName: string,
     userName: string
   ): Promise<HostingPrivateDatabaseUser> => {
@@ -437,7 +441,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Request a change password for a user */
-  postPrivateDatabaseServiceNameUserUserNameChangePassword = (
+  postPrivateDatabaseUserChangePasswordByServiceNameAndUserName = (
     serviceName: string,
     userName: string,
     body: { password: string }
@@ -450,10 +454,10 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** User grant's on your databases */
-  getPrivateDatabaseServiceNameUserUserNameGrant = (
+  getPrivateDatabaseUserGrantByServiceNameAndUserName = (
     serviceName: string,
     userName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/hosting/privateDatabase/${serviceName}/user/${userName}/grant`
@@ -461,7 +465,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Add grant on a database */
-  postPrivateDatabaseServiceNameUserUserNameGrant = (
+  addPrivateDatabaseUserGrantByServiceNameAndUserName = (
     serviceName: string,
     userName: string,
     body: { databaseName: string; grant: HostingPrivateDatabaseGrantGrantEnum }
@@ -474,7 +478,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Delete a grant on a database */
-  deletePrivateDatabaseServiceNameUserUserNameGrantDatabaseName = (
+  deletePrivateDatabaseUserGrantByServiceNameAndUserNameAndDatabaseName = (
     databaseName: string,
     serviceName: string,
     userName: string
@@ -486,7 +490,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Get this object properties */
-  getPrivateDatabaseServiceNameUserUserNameGrantDatabaseName = (
+  getPrivateDatabaseUserGrantByServiceNameAndUserNameAndDatabaseName = (
     databaseName: string,
     serviceName: string,
     userName: string
@@ -498,7 +502,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Update user grant */
-  postPrivateDatabaseServiceNameUserUserNameGrantDatabaseNameUpdate = (
+  updatePrivateDatabaseUserGrantByServiceNameAndUserNameAndDatabaseName = (
     databaseName: string,
     serviceName: string,
     userName: string,
@@ -512,38 +516,38 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Disable Webhosting network */
-  deletePrivateDatabaseServiceNameWebhostingNetwork = (
+  disablePrivateDatabaseWebhostingNetworkByServiceName = (
     serviceName: string
   ): Promise<HostingPrivateDatabaseTask> => {
     return this.ovh.request('DELETE', `/hosting/privateDatabase/${serviceName}/webhostingNetwork`);
   };
 
   /** Get this object properties */
-  getPrivateDatabaseServiceNameWebhostingNetwork = (
+  getPrivateDatabaseWebhostingNetworkByServiceName = (
     serviceName: string
   ): Promise<HostingPrivateDatabaseWebhostingNetwork> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/webhostingNetwork`);
   };
 
   /** Enable Webhosting network */
-  postPrivateDatabaseServiceNameWebhostingNetwork = (
+  enablePrivateDatabaseWebhostingNetworkByServiceName = (
     serviceName: string
   ): Promise<HostingPrivateDatabaseTask> => {
     return this.ovh.request('POST', `/hosting/privateDatabase/${serviceName}/webhostingNetwork`);
   };
 
   /** List linked webs */
-  getPrivateDatabaseServiceNameWebs = (serviceName: string): Promise<string> => {
+  listPrivateDatabaseWebsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/webs`);
   };
 
   /** Whitelist allowed on your privatesql */
-  getPrivateDatabaseServiceNameWhitelist = (serviceName: string): Promise<string> => {
+  getPrivateDatabaseWhitelistByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/privateDatabase/${serviceName}/whitelist`);
   };
 
   /** Create a new IP whitelist */
-  postPrivateDatabaseServiceNameWhitelist = (
+  createPrivateDatabaseWhitelistByServiceName = (
     serviceName: string,
     body: { ip: string; name?: string; service?: boolean; sftp?: boolean }
   ): Promise<HostingPrivateDatabaseTask> => {
@@ -551,7 +555,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Delete ain IP whitelist */
-  deletePrivateDatabaseServiceNameWhitelistIp = (
+  deletePrivateDatabaseWhitelistByServiceNameAndIp = (
     ip: string,
     serviceName: string
   ): Promise<HostingPrivateDatabaseTask> => {
@@ -559,7 +563,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Get this object properties */
-  getPrivateDatabaseServiceNameWhitelistIp = (
+  getPrivateDatabaseWhitelistByServiceNameAndIp = (
     ip: string,
     serviceName: string
   ): Promise<HostingPrivateDatabaseWhitelist> => {
@@ -567,7 +571,7 @@ class HostingPrivateDatabaseHandler {
   };
 
   /** Alter this object properties */
-  putPrivateDatabaseServiceNameWhitelistIp = (
+  updatePrivateDatabaseWhitelistByServiceNameAndIp = (
     ip: string,
     serviceName: string,
     body: HostingPrivateDatabaseWhitelist
@@ -576,4 +580,4 @@ class HostingPrivateDatabaseHandler {
   };
 }
 
-export default HostingPrivateDatabaseHandler;
+export { HostingPrivateDatabaseHandler };

@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { WebPaaSStorageUnitEnum } from './WebPaaSStorageUnitEnum';
 import { WebPaaSRegionEnum } from './WebPaaSRegionEnum';
+import { WebPaaSStorageUnitEnum } from './WebPaaSStorageUnitEnum';
 
 export type WebPaaSSubscriptionMetadataProject = {
   availableEnvironments: number;

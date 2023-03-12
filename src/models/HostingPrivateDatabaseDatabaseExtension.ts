@@ -5,6 +5,6 @@ import { HostingPrivateDatabaseDatabaseExtensionStatus } from './HostingPrivateD
 export type HostingPrivateDatabaseDatabaseExtension = {
   description: string;
   extensionName: string;
-  requiredExtensions: string;
+  requiredExtensions: string[];
   status: HostingPrivateDatabaseDatabaseExtensionStatus;
 };

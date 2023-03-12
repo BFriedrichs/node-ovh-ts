@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesService } from '../models/ServicesService';
 import { VeeamCloudConnectTask } from '../models/VeeamCloudConnectTask';
+import { ServicesService } from '../models/ServicesService';
+import { VeeamCloudConnectBackupRepository } from '../models/VeeamCloudConnectBackupRepository';
 import { VeeamCloudConnectOfferCapabilities } from '../models/VeeamCloudConnectOfferCapabilities';
 import { VeeamCloudConnectTaskStateEnum } from '../models/VeeamCloudConnectTaskStateEnum';
 import { VeeamCloudConnectOffer } from '../models/VeeamCloudConnectOffer';
 import { VeeamCloudConnectAccount } from '../models/VeeamCloudConnectAccount';
-import { VeeamCloudConnectBackupRepository } from '../models/VeeamCloudConnectBackupRepository';
 import OVHBase from '../ovh';
 
 class VeeamCloudConnectHandler {
@@ -17,30 +17,30 @@ class VeeamCloudConnectHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/veeamCloudConnect');
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<VeeamCloudConnectAccount> => {
+  getByServiceName = (serviceName: string): Promise<VeeamCloudConnectAccount> => {
     return this.ovh.request('GET', `/veeamCloudConnect/${serviceName}`);
   };
 
   /** Veeam Backup Repository linked to this Veeam Cloud Connect account */
-  getServiceNameBackupRepository = (serviceName: string): Promise<string> => {
+  getBackupRepositoryByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/veeamCloudConnect/${serviceName}/backupRepository`);
   };
 
   /** Add a new Backup Repository to your professional account */
-  postServiceNameBackupRepository = (serviceName: string): Promise<VeeamCloudConnectTask> => {
+  addBackupRepositoryByServiceName = (serviceName: string): Promise<VeeamCloudConnectTask[]> => {
     return this.ovh.request('POST', `/veeamCloudConnect/${serviceName}/backupRepository`);
   };
 
   /** Delete this backup Repository.  */
-  deleteServiceNameBackupRepositoryInventoryName = (
+  deleteBackupRepositoryByServiceNameAndInventoryName = (
     inventoryName: string,
     serviceName: string
-  ): Promise<VeeamCloudConnectTask> => {
+  ): Promise<VeeamCloudConnectTask[]> => {
     return this.ovh.request(
       'DELETE',
       `/veeamCloudConnect/${serviceName}/backupRepository/${inventoryName}`
@@ -48,7 +48,7 @@ class VeeamCloudConnectHandler {
   };
 
   /** Get this object properties */
-  getServiceNameBackupRepositoryInventoryName = (
+  getBackupRepositoryByServiceNameAndInventoryName = (
     inventoryName: string,
     serviceName: string
   ): Promise<VeeamCloudConnectBackupRepository> => {
@@ -59,11 +59,11 @@ class VeeamCloudConnectHandler {
   };
 
   /** Change your quota */
-  postServiceNameBackupRepositoryInventoryNameUpgradeQuota = (
+  updateBackupRepositoryUpgradeQuotaByServiceNameAndInventoryName = (
     inventoryName: string,
     serviceName: string,
     body: { newQuota: number }
-  ): Promise<VeeamCloudConnectTask> => {
+  ): Promise<VeeamCloudConnectTask[]> => {
     return this.ovh.request(
       'POST',
       `/veeamCloudConnect/${serviceName}/backupRepository/${inventoryName}/upgradeQuota`,
@@ -72,39 +72,39 @@ class VeeamCloudConnectHandler {
   };
 
   /** Show capabilities of your current offer */
-  getServiceNameCapabilities = (
+  getCapabilitiesByServiceName = (
     serviceName: string
   ): Promise<VeeamCloudConnectOfferCapabilities> => {
     return this.ovh.request('GET', `/veeamCloudConnect/${serviceName}/capabilities`);
   };
 
   /** List the possible upgrades on your Veeam Cloud Connect account */
-  getServiceNameOrderableUpgrade = (serviceName: string): Promise<VeeamCloudConnectOffer> => {
+  listOrderableUpgradesByServiceName = (serviceName: string): Promise<VeeamCloudConnectOffer[]> => {
     return this.ovh.request('GET', `/veeamCloudConnect/${serviceName}/orderableUpgrade`);
   };
 
   /** Reset your Cloud Tenant Password */
-  postServiceNameResetPassword = (serviceName: string): Promise<VeeamCloudConnectTask> => {
+  postResetPasswordByServiceName = (serviceName: string): Promise<VeeamCloudConnectTask> => {
     return this.ovh.request('POST', `/veeamCloudConnect/${serviceName}/resetPassword`);
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/veeamCloudConnect/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/veeamCloudConnect/${serviceName}/serviceInfos`, body);
   };
 
   /** Tasks associated with Cloud Tenant */
-  getServiceNameTask = (serviceName: string): Promise<number> => {
+  getTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/veeamCloudConnect/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getServiceNameTaskTaskId = (
+  getTaskByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<VeeamCloudConnectTask> => {
@@ -112,4 +112,4 @@ class VeeamCloudConnectHandler {
   };
 }
 
-export default VeeamCloudConnectHandler;
+export { VeeamCloudConnectHandler };

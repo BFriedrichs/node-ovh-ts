@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OvhcloudconnectServicePortEnum } from './OvhcloudconnectServicePortEnum';
 import { OvhcloudconnectServiceBandwidthEnum } from './OvhcloudconnectServiceBandwidthEnum';
-import { OvhcloudconnectServiceProviderEnum } from './OvhcloudconnectServiceProviderEnum';
 import { OvhcloudconnectServiceStatusEnum } from './OvhcloudconnectServiceStatusEnum';
+import { OvhcloudconnectServiceProviderEnum } from './OvhcloudconnectServiceProviderEnum';
+import { OvhcloudconnectServicePortEnum } from './OvhcloudconnectServicePortEnum';
 
 export type OvhcloudconnectService = {
   bandwidth: OvhcloudconnectServiceBandwidthEnum;
   description: string;
-  interfaceList: number;
+  interfaceList: number[];
   pop: string;
   portQuantity: OvhcloudconnectServicePortEnum;
   product: string;

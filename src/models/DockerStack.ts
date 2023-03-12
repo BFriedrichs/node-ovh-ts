@@ -8,6 +8,6 @@ export type DockerStack = {
   loadBalancer: string;
   metrics: DockerSlaveMetrics;
   name: string;
-  slaves: string;
+  slaves: string[];
   updatedAt: Date;
 };

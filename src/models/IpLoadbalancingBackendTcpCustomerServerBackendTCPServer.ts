@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { IpLoadbalancingProxyProtocolVersionEnum } from './IpLoadbalancingProxyProtocolVersionEnum';
-import { IpLoadbalancingOnMarkedDownEnum } from './IpLoadbalancingOnMarkedDownEnum';
 import { IpLoadbalancingServerState } from './IpLoadbalancingServerState';
+import { IpLoadbalancingOnMarkedDownEnum } from './IpLoadbalancingOnMarkedDownEnum';
 import { IpLoadbalancingBackendCustomerServerStatusEnum } from './IpLoadbalancingBackendCustomerServerStatusEnum';
+import { IpLoadbalancingProxyProtocolVersionEnum } from './IpLoadbalancingProxyProtocolVersionEnum';
 
 export type IpLoadbalancingBackendTcpCustomerServerBackendTCPServer = {
   address: string;
@@ -16,7 +16,7 @@ export type IpLoadbalancingBackendTcpCustomerServerBackendTCPServer = {
   probe: boolean;
   proxyProtocolVersion: IpLoadbalancingProxyProtocolVersionEnum | null;
   serverId: number;
-  serverState: IpLoadbalancingServerState;
+  serverState: IpLoadbalancingServerState[];
   ssl: boolean;
   status: IpLoadbalancingBackendCustomerServerStatusEnum;
   weight: number | null;

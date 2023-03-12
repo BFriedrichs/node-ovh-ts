@@ -2,4 +2,4 @@
 
 import { ServicesExpandedCustomerContact } from './ServicesExpandedCustomerContact';
 
-export type ServicesExpandedCustomer = { contacts: ServicesExpandedCustomerContact };
+export type ServicesExpandedCustomer = { contacts: ServicesExpandedCustomerContact[] };

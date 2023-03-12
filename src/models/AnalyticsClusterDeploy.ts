@@ -10,7 +10,7 @@ export type AnalyticsClusterDeploy = {
   hdfsReplicationFactor?: number;
   masterNodeStorage?: number;
   masterPassword?: string;
-  nodes?: AnalyticsNodeDeploy;
+  nodes?: AnalyticsNodeDeploy[];
   osProjectId?: string;
   osProjectName?: string;
   osRegion?: string;

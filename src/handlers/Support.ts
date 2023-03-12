@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SupportTicket } from '../models/SupportTicket';
-import { SupportNewMessageInfo } from '../models/SupportNewMessageInfo';
-import { SupportMessage } from '../models/SupportMessage';
-import { SupportTicketTypeEnum } from '../models/SupportTicketTypeEnum';
 import { SupportTicketProductEnum } from '../models/SupportTicketProductEnum';
-import { SupportTicketImpactUrgencyEnum } from '../models/SupportTicketImpactUrgencyEnum';
-import { SupportTicketSubCategoryEnum } from '../models/SupportTicketSubCategoryEnum';
-import { SupportTicketStatusEnum } from '../models/SupportTicketStatusEnum';
+import { SupportTicketTypeEnum } from '../models/SupportTicketTypeEnum';
+import { SupportMessage } from '../models/SupportMessage';
 import { SupportTicketCategoryEnum } from '../models/SupportTicketCategoryEnum';
+import { SupportTicketStatusEnum } from '../models/SupportTicketStatusEnum';
+import { SupportTicket } from '../models/SupportTicket';
+import { SupportTicketImpactUrgencyEnum } from '../models/SupportTicketImpactUrgencyEnum';
+import { SupportNewMessageInfo } from '../models/SupportNewMessageInfo';
+import { SupportTicketSubCategoryEnum } from '../models/SupportTicketSubCategoryEnum';
 import OVHBase from '../ovh';
 
 class SupportHandler {
@@ -19,12 +19,12 @@ class SupportHandler {
   }
 
   /** List support tickets identifiers for this service */
-  getTickets = (): Promise<number> => {
+  listTickets = (): Promise<number[]> => {
     return this.ovh.request('GET', '/support/tickets');
   };
 
   /** Create a new ticket */
-  postTicketsCreate = (body: {
+  createTickets = (body: {
     body: string;
     category?: SupportTicketCategoryEnum;
     impact?: SupportTicketImpactUrgencyEnum;
@@ -39,37 +39,37 @@ class SupportHandler {
   };
 
   /** Get ticket */
-  getTicketsTicketId = (ticketId: number): Promise<SupportTicket> => {
+  getTicketsByTicketId = (ticketId: number): Promise<SupportTicket> => {
     return this.ovh.request('GET', `/support/tickets/${ticketId}`);
   };
 
   /** Checks whether ticket can be scored */
-  getTicketsTicketIdCanBeScored = (ticketId: number): Promise<boolean> => {
+  checkTicketsCanBeScoredByTicketId = (ticketId: number): Promise<boolean> => {
     return this.ovh.request('GET', `/support/tickets/${ticketId}/canBeScored`);
   };
 
   /** Close ticket */
-  postTicketsTicketIdClose = (ticketId: number): Promise<void> => {
+  postTicketsCloseByTicketId = (ticketId: number): Promise<void> => {
     return this.ovh.request('POST', `/support/tickets/${ticketId}/close`);
   };
 
   /** Get ticket messages */
-  getTicketsTicketIdMessages = (ticketId: number): Promise<SupportMessage> => {
+  getTicketsMessagesByTicketId = (ticketId: number): Promise<SupportMessage[]> => {
     return this.ovh.request('GET', `/support/tickets/${ticketId}/messages`);
   };
 
   /** Reopen a ticket */
-  postTicketsTicketIdReopen = (ticketId: number, body: { body: string }): Promise<void> => {
+  postTicketsReopenByTicketId = (ticketId: number, body: { body: string }): Promise<void> => {
     return this.ovh.request('POST', `/support/tickets/${ticketId}/reopen`, body);
   };
 
   /** Reply to ticket */
-  postTicketsTicketIdReply = (ticketId: number, body: { body: string }): Promise<void> => {
+  postTicketsReplyByTicketId = (ticketId: number, body: { body: string }): Promise<void> => {
     return this.ovh.request('POST', `/support/tickets/${ticketId}/reply`, body);
   };
 
   /** Set ticket score */
-  postTicketsTicketIdScore = (
+  postTicketsScoreByTicketId = (
     ticketId: number,
     body: { score: string; scoreComment?: string }
   ): Promise<void> => {
@@ -77,4 +77,4 @@ class SupportHandler {
   };
 }
 
-export default SupportHandler;
+export { SupportHandler };

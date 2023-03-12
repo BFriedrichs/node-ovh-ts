@@ -12,32 +12,35 @@ class PackSiptrunkHandler {
   }
 
   /** List available services */
-  getSiptrunk = (): Promise<string> => {
+  listSiptrunks = (): Promise<string[]> => {
     return this.ovh.request('GET', '/pack/siptrunk');
   };
 
   /** Get this object properties */
-  getSiptrunkPackName = (packName: string): Promise<PackSiptrunkPackSipTrunk> => {
+  getSiptrunkByPackName = (packName: string): Promise<PackSiptrunkPackSipTrunk> => {
     return this.ovh.request('GET', `/pack/siptrunk/${packName}`);
   };
 
   /** Launch a contact change procedure */
-  postSiptrunkPackNameChangeContact = (
+  launchSiptrunkChangeContactByPackName = (
     packName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/pack/siptrunk/${packName}/changeContact`, body);
   };
 
   /** Get this object properties */
-  getSiptrunkPackNameServiceInfos = (packName: string): Promise<ServicesService> => {
+  getSiptrunkServiceInfosByPackName = (packName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/pack/siptrunk/${packName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putSiptrunkPackNameServiceInfos = (packName: string, body: ServicesService): Promise<void> => {
+  updateSiptrunkServiceInfosByPackName = (
+    packName: string,
+    body: ServicesService
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/pack/siptrunk/${packName}/serviceInfos`, body);
   };
 }
 
-export default PackSiptrunkHandler;
+export { PackSiptrunkHandler };

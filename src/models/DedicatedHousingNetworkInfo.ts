@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedHousingLinkInfo } from './DedicatedHousingLinkInfo';
 import { DedicatedHousingIpInfo } from './DedicatedHousingIpInfo';
+import { DedicatedHousingLinkInfo } from './DedicatedHousingLinkInfo';
 
 export type DedicatedHousingNetworkInfo = {
   ipv4: DedicatedHousingIpInfo | null;

@@ -6,5 +6,5 @@ export type CloudKeymanagerCertificate = {
   id: string;
   name: string;
   region: string;
-  secrets: CloudKeymanagerSecretRef;
+  secrets: CloudKeymanagerSecretRef[];
 };

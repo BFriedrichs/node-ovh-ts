@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SupportTicketTypeEnum } from './SupportTicketTypeEnum';
 import { SupportTicketProductEnum } from './SupportTicketProductEnum';
-import { SupportMessageSenderEnum } from './SupportMessageSenderEnum';
-import { SupportTicketStatusEnum } from './SupportTicketStatusEnum';
+import { SupportTicketTypeEnum } from './SupportTicketTypeEnum';
 import { SupportTicketCategoryEnum } from './SupportTicketCategoryEnum';
+import { SupportTicketStatusEnum } from './SupportTicketStatusEnum';
+import { SupportMessageSenderEnum } from './SupportMessageSenderEnum';
 
 export type SupportTicket = {
   accountId: string;

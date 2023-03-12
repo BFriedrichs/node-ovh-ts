@@ -4,7 +4,7 @@ import { DedicatedServerDiskTypeEnum } from './DedicatedServerDiskTypeEnum';
 
 export type DedicatedServerHardwareRaidDiskGroup = {
   capacity: number;
-  names: string;
+  names: string[];
   speed: string;
   type: DedicatedServerDiskTypeEnum;
 };

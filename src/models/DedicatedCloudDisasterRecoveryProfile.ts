@@ -2,8 +2,8 @@
 
 import { DedicatedCloudDisasterRecoveryDrpTypeEnum } from './DedicatedCloudDisasterRecoveryDrpTypeEnum';
 import { DedicatedCloudDisasterRecoveryRemoteSiteDetails } from './DedicatedCloudDisasterRecoveryRemoteSiteDetails';
-import { DedicatedCloudStateEnum } from './DedicatedCloudStateEnum';
 import { DedicatedCloudDisasterRecoveryLocalSiteDetails } from './DedicatedCloudDisasterRecoveryLocalSiteDetails';
+import { DedicatedCloudStateEnum } from './DedicatedCloudStateEnum';
 
 export type DedicatedCloudDisasterRecoveryProfile = {
   drpType: DedicatedCloudDisasterRecoveryDrpTypeEnum | null;

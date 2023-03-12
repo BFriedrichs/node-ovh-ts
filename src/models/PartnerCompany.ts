@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { PartnerExpertisesChoices } from './PartnerExpertisesChoices';
+import { PartnerOVHCertifications } from './PartnerOVHCertifications';
 import { PartnerExternalCertifications } from './PartnerExternalCertifications';
-import { PartnerCompanyStatusEnum } from './PartnerCompanyStatusEnum';
-import { PartnerClientKinds } from './PartnerClientKinds';
-import { PartnerPartnerKnowledges } from './PartnerPartnerKnowledges';
+import { PartnerExpertisesChoices } from './PartnerExpertisesChoices';
 import { PartnerProductCountries } from './PartnerProductCountries';
 import { PartnerActivitySectors } from './PartnerActivitySectors';
+import { PartnerClientKinds } from './PartnerClientKinds';
+import { PartnerCompanyStatusEnum } from './PartnerCompanyStatusEnum';
 import { PartnerOVHProductsUsed } from './PartnerOVHProductsUsed';
-import { PartnerOVHCertifications } from './PartnerOVHCertifications';
+import { PartnerPartnerKnowledges } from './PartnerPartnerKnowledges';
 
 export type PartnerCompany = {
   OVHCertifications: PartnerOVHCertifications;

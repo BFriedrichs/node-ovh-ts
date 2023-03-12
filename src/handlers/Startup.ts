@@ -21,4 +21,4 @@ class StartupHandler {
   };
 }
 
-export default StartupHandler;
+export { StartupHandler };

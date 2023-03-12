@@ -3,6 +3,6 @@
 import { OrderCatalogDedicatedProductAddonItem } from './OrderCatalogDedicatedProductAddonItem';
 
 export type OrderCatalogDedicatedProductAddonFamily = {
-  addons: OrderCatalogDedicatedProductAddonItem;
+  addons: OrderCatalogDedicatedProductAddonItem[];
   family: string;
 };

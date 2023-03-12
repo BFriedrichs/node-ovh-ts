@@ -9,6 +9,6 @@ export type CloudProjectKubeNodePoolUpdate = {
   desiredNodes: number;
   maxNodes: number;
   minNodes: number;
-  nodesToRemove: string;
+  nodesToRemove: string[];
   template: CloudKubeNodePoolTemplate;
 };

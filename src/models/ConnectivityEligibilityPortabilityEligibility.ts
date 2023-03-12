@@ -4,6 +4,6 @@ import { ConnectivityEligibilityMessage } from './ConnectivityEligibilityMessage
 
 export type ConnectivityEligibilityPortabilityEligibility = {
   eligible: boolean;
-  reasons: ConnectivityEligibilityMessage;
-  underConditions: ConnectivityEligibilityMessage;
+  reasons: ConnectivityEligibilityMessage[];
+  underConditions: ConnectivityEligibilityMessage[];
 };

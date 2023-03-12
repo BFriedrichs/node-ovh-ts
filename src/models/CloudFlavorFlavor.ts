@@ -5,7 +5,7 @@ import { CloudFlavorFlavorPlanCodes } from './CloudFlavorFlavorPlanCodes';
 
 export type CloudFlavorFlavor = {
   available: boolean;
-  capabilities: CloudFlavorCapability;
+  capabilities: CloudFlavorCapability[];
   disk: number;
   id: string;
   inboundBandwidth: number | null;

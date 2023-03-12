@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectAiAppAppStatus } from './CloudProjectAiAppAppStatus';
 import { CloudProjectAiAppAppSpec } from './CloudProjectAiAppAppSpec';
+import { CloudProjectAiAppAppStatus } from './CloudProjectAiAppAppStatus';
 
 export type CloudProjectAiAppApp = {
   createdAt: Date;

@@ -12,7 +12,7 @@ export type CloudProjectCertificate = {
   kind: CloudProjectCertificateKindEnum;
   name: string;
   serialNumber: string;
-  serverAlternativeNames: CloudProjectCertificateServerAlternativeName;
+  serverAlternativeNames: CloudProjectCertificateServerAlternativeName[];
   status: CloudProjectCertificateStatusEnum;
   subject: string;
   validAt: Date;

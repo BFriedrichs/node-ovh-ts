@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CdnOptionTypeEnum } from './CdnOptionTypeEnum';
-import { CdnDomainOptionExtra } from './CdnDomainOptionExtra';
 import { CdnDomainOptionConfig } from './CdnDomainOptionConfig';
+import { CdnDomainOptionExtra } from './CdnDomainOptionExtra';
+import { CdnOptionTypeEnum } from './CdnOptionTypeEnum';
 
 export type CdnDomainOption = {
   config: CdnDomainOptionConfig | null;

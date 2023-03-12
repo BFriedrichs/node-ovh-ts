@@ -7,7 +7,7 @@ export type ConnectivityEligibilityCopperInfo = {
   availablePairs: number | null;
   maxAvailablePairs: number | null;
   nra: string | null;
-  sectionsLengths: ConnectivityEligibilitySectionLength;
+  sectionsLengths: ConnectivityEligibilitySectionLength[];
   status: ConnectivityEligibilityLineStatusEnum;
   underConstruction: boolean | null;
   unlistedNumber: boolean;

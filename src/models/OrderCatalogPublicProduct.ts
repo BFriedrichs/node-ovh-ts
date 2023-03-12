@@ -5,7 +5,7 @@ import { OrderCatalogPublicConfiguration } from './OrderCatalogPublicConfigurati
 
 export type OrderCatalogPublicProduct = {
   blobs: OrderCatalogPublicProductBlob | null;
-  configurations: OrderCatalogPublicConfiguration | null;
+  configurations: OrderCatalogPublicConfiguration[] | null;
   description: string;
   name: string;
 };

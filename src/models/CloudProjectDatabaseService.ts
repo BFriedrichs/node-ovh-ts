@@ -2,21 +2,21 @@
 
 import { CloudProjectDatabaseServiceDisk } from './CloudProjectDatabaseServiceDisk';
 import { CloudProjectDatabaseServiceIpRestriction } from './CloudProjectDatabaseServiceIpRestriction';
-import { CloudProjectDatabaseNetworkTypeEnum } from './CloudProjectDatabaseNetworkTypeEnum';
-import { CloudProjectDatabaseServiceEndpoint } from './CloudProjectDatabaseServiceEndpoint';
-import { CloudProjectDatabaseStatusEnum } from './CloudProjectDatabaseStatusEnum';
 import { CloudProjectDatabaseEngineEnum } from './CloudProjectDatabaseEngineEnum';
+import { CloudProjectDatabaseStatusEnum } from './CloudProjectDatabaseStatusEnum';
+import { CloudProjectDatabaseServiceEndpoint } from './CloudProjectDatabaseServiceEndpoint';
+import { CloudProjectDatabaseNetworkTypeEnum } from './CloudProjectDatabaseNetworkTypeEnum';
 
 export type CloudProjectDatabaseService = {
   backupTime: Date;
   createdAt: Date;
   description: string;
   disk: CloudProjectDatabaseServiceDisk;
-  endpoints: CloudProjectDatabaseServiceEndpoint;
+  endpoints: CloudProjectDatabaseServiceEndpoint[];
   engine: CloudProjectDatabaseEngineEnum;
   flavor: string;
   id: string;
-  ipRestrictions: CloudProjectDatabaseServiceIpRestriction;
+  ipRestrictions: CloudProjectDatabaseServiceIpRestriction[];
   maintenanceTime: Date;
   networkId: string | null;
   networkType: CloudProjectDatabaseNetworkTypeEnum;

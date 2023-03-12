@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailDomainDomainDiagnoseResultEnum } from './EmailDomainDomainDiagnoseResultEnum';
 import { EmailDomainDomainDiagnoseFunctionEnum } from './EmailDomainDomainDiagnoseFunctionEnum';
+import { EmailDomainDomainDiagnoseResultEnum } from './EmailDomainDomainDiagnoseResultEnum';
 
 export type EmailDomainDiagnose = {
   date: Date;

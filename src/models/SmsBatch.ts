@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SmsBatchStatusEnum } from './SmsBatchStatusEnum';
 import { SmsBatchError } from './SmsBatchError';
+import { SmsBatchStatusEnum } from './SmsBatchStatusEnum';
 
 export type SmsBatch = {
   accountID: number;
   createdAt: Date;
-  errors: SmsBatchError;
+  errors: SmsBatchError[];
   estimatedCredits: number;
   finishedAt: Date | null;
   from: string | null;
@@ -14,7 +14,7 @@ export type SmsBatch = {
   message: string;
   name: string;
   processedRecords: number;
-  receivers: string | null;
+  receivers: string[] | null;
   sentAt: Date | null;
   slotID: string | null;
   startedAt: Date | null;

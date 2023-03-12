@@ -3,7 +3,7 @@
 import { CloudAuthenticationEndpoint } from './CloudAuthenticationEndpoint';
 
 export type CloudAuthenticationCatalog = {
-  endpoints: CloudAuthenticationEndpoint;
+  endpoints: CloudAuthenticationEndpoint[];
   id: string;
   type: string;
 };

@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { VipSupportVip } from '../models/VipSupportVip';
 import { ServicesService } from '../models/ServicesService';
+import { VipSupportVip } from '../models/VipSupportVip';
 import OVHBase from '../ovh';
 
 class VipHandler {
@@ -12,24 +12,24 @@ class VipHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/vip');
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<VipSupportVip> => {
+  getByServiceName = (serviceName: string): Promise<VipSupportVip> => {
     return this.ovh.request('GET', `/vip/${serviceName}`);
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/vip/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/vip/${serviceName}/serviceInfos`, body);
   };
 }
 
-export default VipHandler;
+export { VipHandler };

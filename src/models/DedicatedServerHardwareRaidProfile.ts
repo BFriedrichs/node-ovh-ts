@@ -3,5 +3,5 @@
 import { DedicatedServerHardwareRaidController } from './DedicatedServerHardwareRaidController';
 
 export type DedicatedServerHardwareRaidProfile = {
-  controllers: DedicatedServerHardwareRaidController;
+  controllers: DedicatedServerHardwareRaidController[];
 };

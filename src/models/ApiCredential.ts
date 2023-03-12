@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { AuthCredentialStateEnum } from './AuthCredentialStateEnum';
 import { AuthAccessRule } from './AuthAccessRule';
+import { AuthCredentialStateEnum } from './AuthCredentialStateEnum';
 
 export type ApiCredential = {
-  allowedIPs: string | null;
+  allowedIPs: string[] | null;
   applicationId: number;
   creation: Date;
   credentialId: number;
   expiration: Date | null;
   lastUse: Date | null;
   ovhSupport: boolean;
-  rules: AuthAccessRule;
+  rules: AuthAccessRule[];
   status: AuthCredentialStateEnum;
 };

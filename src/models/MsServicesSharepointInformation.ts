@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { MsServicesSharepointLicenseEnum } from './MsServicesSharepointLicenseEnum';
-import { MsServicesSharepointAccountAccessRightsEnum } from './MsServicesSharepointAccountAccessRightsEnum';
 import { MsServicesObjectStateEnum } from './MsServicesObjectStateEnum';
+import { MsServicesSharepointAccountAccessRightsEnum } from './MsServicesSharepointAccountAccessRightsEnum';
 
 export type MsServicesSharepointInformation = {
   accessRights: MsServicesSharepointAccountAccessRightsEnum;

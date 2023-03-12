@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DockerSlaveMetrics } from './DockerSlaveMetrics';
 import { DockerSlaveStatus } from './DockerSlaveStatus';
+import { DockerSlaveMetrics } from './DockerSlaveMetrics';
 
 export type DockerSlave = {
   createdAt: Date;

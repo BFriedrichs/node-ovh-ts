@@ -3,4 +3,7 @@
 import { CloudProjectVolumeUsageDetail } from './CloudProjectVolumeUsageDetail';
 import { OrderPrice } from './OrderPrice';
 
-export type CloudProjectVolumesUsage = { detail: CloudProjectVolumeUsageDetail; total: OrderPrice };
+export type CloudProjectVolumesUsage = {
+  detail: CloudProjectVolumeUsageDetail[];
+  total: OrderPrice;
+};

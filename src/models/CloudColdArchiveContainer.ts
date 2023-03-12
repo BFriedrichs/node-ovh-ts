@@ -6,7 +6,7 @@ import { CloudColdArchiveContainerStatusEnum } from './CloudColdArchiveContainer
 export type CloudColdArchiveContainer = {
   createdAt: Date;
   name: string;
-  objects: CloudStorageObject;
+  objects: CloudStorageObject[];
   objectsCount: number;
   objectsSize: number;
   ownerId: number;

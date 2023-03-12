@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HostingWebOvhConfigAvailableEngineVersionEnum } from './HostingWebOvhConfigAvailableEngineVersionEnum';
-import { HostingWebOvhConfigEnvironmentEnum } from './HostingWebOvhConfigEnvironmentEnum';
-import { HostingWebOvhconfigContainerEnum } from './HostingWebOvhconfigContainerEnum';
-import { HostingWebOvhConfigEngineNameEnum } from './HostingWebOvhConfigEngineNameEnum';
 import { HostingWebOvhConfigHttpFirewallEnum } from './HostingWebOvhConfigHttpFirewallEnum';
+import { HostingWebOvhConfigAvailableEngineVersionEnum } from './HostingWebOvhConfigAvailableEngineVersionEnum';
+import { HostingWebOvhConfigEngineNameEnum } from './HostingWebOvhConfigEngineNameEnum';
+import { HostingWebOvhconfigContainerEnum } from './HostingWebOvhconfigContainerEnum';
+import { HostingWebOvhConfigEnvironmentEnum } from './HostingWebOvhConfigEnvironmentEnum';
 
 export type HostingWebOvhConfigRecommendedValues = {
   container: HostingWebOvhconfigContainerEnum;

@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CdnOperationStatusEnum } from './CdnOperationStatusEnum';
 import { CdnOperationFunctionEnum } from './CdnOperationFunctionEnum';
 import { CdnOperationParameter } from './CdnOperationParameter';
+import { CdnOperationStatusEnum } from './CdnOperationStatusEnum';
 
 export type CdnOperation = {
   comment: string | null;

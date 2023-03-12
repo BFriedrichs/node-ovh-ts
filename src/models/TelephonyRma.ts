@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyRmaTypeEnum } from './TelephonyRmaTypeEnum';
-import { TelephonyContact } from './TelephonyContact';
-import { TelephonyRmaReplaceTypeEnum } from './TelephonyRmaReplaceTypeEnum';
 import { TelephonyRmaStep } from './TelephonyRmaStep';
-import { TelephonyRmaOfferTypeEnum } from './TelephonyRmaOfferTypeEnum';
+import { TelephonyContact } from './TelephonyContact';
+import { TelephonyRmaTypeEnum } from './TelephonyRmaTypeEnum';
+import { TelephonyRmaReplaceTypeEnum } from './TelephonyRmaReplaceTypeEnum';
 import { TelephonyRmaStatusEnum } from './TelephonyRmaStatusEnum';
+import { TelephonyRmaOfferTypeEnum } from './TelephonyRmaOfferTypeEnum';
 
 export type TelephonyRma = {
   cancellable: boolean;
@@ -19,7 +19,7 @@ export type TelephonyRma = {
   receptionDatetime: Date | null;
   shippingContact: TelephonyContact;
   status: TelephonyRmaStatusEnum;
-  steps: TelephonyRmaStep;
+  steps: TelephonyRmaStep[];
   terminationDatetime: Date | null;
   type: TelephonyRmaTypeEnum;
 };

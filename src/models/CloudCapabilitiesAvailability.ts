@@ -4,6 +4,6 @@ import { CloudCapabilitiesAvailabilityProduct } from './CloudCapabilitiesAvailab
 import { CloudCapabilitiesAvailabilityPlan } from './CloudCapabilitiesAvailabilityPlan';
 
 export type CloudCapabilitiesAvailability = {
-  plans: CloudCapabilitiesAvailabilityPlan;
-  products: CloudCapabilitiesAvailabilityProduct;
+  plans: CloudCapabilitiesAvailabilityPlan[];
+  products: CloudCapabilitiesAvailabilityProduct[];
 };

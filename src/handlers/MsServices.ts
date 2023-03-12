@@ -1,28 +1,28 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MsServicesMfaInformation } from '../models/MsServicesMfaInformation';
-import { MsServicesActiveDirectoryOrganizationalUnit } from '../models/MsServicesActiveDirectoryOrganizationalUnit';
-import { MsServicesUpnSuffix } from '../models/MsServicesUpnSuffix';
 import { MsServicesLicensePeriodEnum } from '../models/MsServicesLicensePeriodEnum';
+import { MsServicesSyncDailyLicense } from '../models/MsServicesSyncDailyLicense';
 import { MsServicesSharepointTask } from '../models/MsServicesSharepointTask';
-import { MsServicesTask } from '../models/MsServicesTask';
-import { MsServicesSyncLicenseEnum } from '../models/MsServicesSyncLicenseEnum';
-import { MsServicesTaskFunctionEnum } from '../models/MsServicesTaskFunctionEnum';
-import { MsServicesSyncService } from '../models/MsServicesSyncService';
 import { MsServicesSharepointServiceInfo } from '../models/MsServicesSharepointServiceInfo';
+import { MsServicesSharepointLicenseEnum } from '../models/MsServicesSharepointLicenseEnum';
+import { MsServicesActiveDirectorySyncClientUrl } from '../models/MsServicesActiveDirectorySyncClientUrl';
+import { MsServicesTaskStatusEnum } from '../models/MsServicesTaskStatusEnum';
+import { MsServicesSyncLicenseEnum } from '../models/MsServicesSyncLicenseEnum';
 import { MsServicesSharepointDailyLicense } from '../models/MsServicesSharepointDailyLicense';
-import { ServicesService } from '../models/ServicesService';
+import { MsServicesTaskFunctionEnum } from '../models/MsServicesTaskFunctionEnum';
+import { MsServicesSharepointService } from '../models/MsServicesSharepointService';
+import { MsServicesSharepointInformation } from '../models/MsServicesSharepointInformation';
+import { MsServicesExchangeService } from '../models/MsServicesExchangeService';
+import { MsServicesSyncService } from '../models/MsServicesSyncService';
 import { MsServicesAccount } from '../models/MsServicesAccount';
 import { MsServicesExchangeTask } from '../models/MsServicesExchangeTask';
-import { MsServicesSharepointInformation } from '../models/MsServicesSharepointInformation';
-import { MsServicesSyncInformation } from '../models/MsServicesSyncInformation';
-import { MsServicesSharepointLicenseEnum } from '../models/MsServicesSharepointLicenseEnum';
-import { MsServicesExchangeService } from '../models/MsServicesExchangeService';
+import { MsServicesMfaInformation } from '../models/MsServicesMfaInformation';
+import { ServicesService } from '../models/ServicesService';
+import { MsServicesUpnSuffix } from '../models/MsServicesUpnSuffix';
 import { MsServicesExchangeInformation } from '../models/MsServicesExchangeInformation';
-import { MsServicesTaskStatusEnum } from '../models/MsServicesTaskStatusEnum';
-import { MsServicesSharepointService } from '../models/MsServicesSharepointService';
-import { MsServicesActiveDirectorySyncClientUrl } from '../models/MsServicesActiveDirectorySyncClientUrl';
-import { MsServicesSyncDailyLicense } from '../models/MsServicesSyncDailyLicense';
+import { MsServicesTask } from '../models/MsServicesTask';
+import { MsServicesSyncInformation } from '../models/MsServicesSyncInformation';
+import { MsServicesActiveDirectoryOrganizationalUnit } from '../models/MsServicesActiveDirectoryOrganizationalUnit';
 import OVHBase from '../ovh';
 
 class MsServicesHandler {
@@ -33,37 +33,39 @@ class MsServicesHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/msServices');
   };
 
   /** List available services */
-  getSharepoint = (): Promise<string> => {
+  listSharepoints = (): Promise<string[]> => {
     return this.ovh.request('GET', '/msServices/sharepoint');
   };
 
   /** Get this object properties */
-  getSharepointDomain = (domain: string): Promise<MsServicesSharepointServiceInfo> => {
+  getSharepointByDomain = (domain: string): Promise<MsServicesSharepointServiceInfo> => {
     return this.ovh.request('GET', `/msServices/sharepoint/${domain}`);
   };
 
   /** Get this object properties */
-  getSharepointDomainServiceInfos = (domain: string): Promise<ServicesService> => {
+  getSharepointServiceInfosByDomain = (domain: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/msServices/sharepoint/${domain}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putSharepointDomainServiceInfos = (domain: string, body: ServicesService): Promise<void> => {
+  updateSharepointServiceInfosByDomain = (domain: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/msServices/sharepoint/${domain}/serviceInfos`, body);
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<MsServicesActiveDirectoryOrganizationalUnit> => {
+  getByServiceName = (
+    serviceName: string
+  ): Promise<MsServicesActiveDirectoryOrganizationalUnit> => {
     return this.ovh.request('GET', `/msServices/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putServiceName = (
+  updateByServiceName = (
     serviceName: string,
     body: MsServicesActiveDirectoryOrganizationalUnit
   ): Promise<void> => {
@@ -71,12 +73,12 @@ class MsServicesHandler {
   };
 
   /** Accounts associated to this Active Directory service */
-  getServiceNameAccount = (serviceName: string): Promise<string> => {
+  getAccountByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/account`);
   };
 
   /** Get this object properties */
-  getServiceNameAccountUserPrincipalName = (
+  getAccountByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesAccount> => {
@@ -84,7 +86,7 @@ class MsServicesHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameAccountUserPrincipalName = (
+  updateAccountByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string,
     body: MsServicesAccount
@@ -93,7 +95,7 @@ class MsServicesHandler {
   };
 
   /** Change account password */
-  postServiceNameAccountUserPrincipalNameChangePassword = (
+  updateAccountPasswordByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string,
     body: { password: string }
@@ -106,7 +108,7 @@ class MsServicesHandler {
   };
 
   /** Get this object properties */
-  getServiceNameAccountUserPrincipalNameExchange = (
+  getAccountExchangeByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesExchangeInformation> => {
@@ -117,7 +119,7 @@ class MsServicesHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameAccountUserPrincipalNameExchange = (
+  updateAccountExchangeByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string,
     body: MsServicesExchangeInformation
@@ -130,7 +132,7 @@ class MsServicesHandler {
   };
 
   /** Configure mailbox to be operational */
-  postServiceNameAccountUserPrincipalNameExchangeConfigure = (
+  postAccountExchangeConfigureByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesExchangeTask> => {
@@ -141,7 +143,7 @@ class MsServicesHandler {
   };
 
   /** Delete Multi Factor Authentication feature for this account */
-  deleteServiceNameAccountUserPrincipalNameMfa = (
+  deleteAccountMfaByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesTask> => {
@@ -152,7 +154,7 @@ class MsServicesHandler {
   };
 
   /** Get this object properties */
-  getServiceNameAccountUserPrincipalNameMfa = (
+  getAccountMfaByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesMfaInformation> => {
@@ -160,7 +162,7 @@ class MsServicesHandler {
   };
 
   /** Create Multi Factor Authentication for this account */
-  postServiceNameAccountUserPrincipalNameMfa = (
+  createAccountMfaByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesTask> => {
@@ -168,7 +170,7 @@ class MsServicesHandler {
   };
 
   /** Disable Multi Factor Authentication for a period of time */
-  postServiceNameAccountUserPrincipalNameMfaDisable = (
+  disableAccountMfaByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string,
     body: { period: number }
@@ -181,7 +183,7 @@ class MsServicesHandler {
   };
 
   /** Enable Mfa (enabled by default when created) */
-  postServiceNameAccountUserPrincipalNameMfaEnable = (
+  enableAccountMfaByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesTask> => {
@@ -192,7 +194,7 @@ class MsServicesHandler {
   };
 
   /** Reset Multi Factor Authentication status for this account */
-  postServiceNameAccountUserPrincipalNameMfaReset = (
+  postAccountMfaResetByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesTask> => {
@@ -203,7 +205,7 @@ class MsServicesHandler {
   };
 
   /** Get this object properties */
-  getServiceNameAccountUserPrincipalNameSharepoint = (
+  getAccountSharepointByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesSharepointInformation> => {
@@ -214,7 +216,7 @@ class MsServicesHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameAccountUserPrincipalNameSharepoint = (
+  updateAccountSharepointByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string,
     body: MsServicesSharepointInformation
@@ -227,7 +229,7 @@ class MsServicesHandler {
   };
 
   /** On-demand MySite clearance */
-  postServiceNameAccountUserPrincipalNameSharepointClearSpace = (
+  postAccountSharepointClearSpaceByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesSharepointTask> => {
@@ -238,7 +240,7 @@ class MsServicesHandler {
   };
 
   /** Configure sharepoint account to be operational */
-  postServiceNameAccountUserPrincipalNameSharepointConfigure = (
+  postAccountSharepointConfigureByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesSharepointTask> => {
@@ -249,7 +251,7 @@ class MsServicesHandler {
   };
 
   /** Delete sync account */
-  deleteServiceNameAccountUserPrincipalNameSync = (
+  deleteAccountSyncByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesTask> => {
@@ -260,7 +262,7 @@ class MsServicesHandler {
   };
 
   /** Get this object properties */
-  getServiceNameAccountUserPrincipalNameSync = (
+  getAccountSyncByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesSyncInformation> => {
@@ -268,7 +270,7 @@ class MsServicesHandler {
   };
 
   /** Create new sync account */
-  postServiceNameAccountUserPrincipalNameSync = (
+  createAccountSyncByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string,
     body: { license: MsServicesSyncLicenseEnum }
@@ -281,7 +283,7 @@ class MsServicesHandler {
   };
 
   /** Configure sync account to be operational */
-  postServiceNameAccountUserPrincipalNameSyncConfigure = (
+  postAccountSyncConfigureByServiceNameAndUserPrincipalName = (
     serviceName: string,
     userPrincipalName: string
   ): Promise<MsServicesTask> => {
@@ -292,25 +294,25 @@ class MsServicesHandler {
   };
 
   /** Launch a contact change procedure */
-  postServiceNameChangeContact = (
+  launchChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/msServices/${serviceName}/changeContact`, body);
   };
 
   /** Create Mfa on all accounts. */
-  postServiceNameCreateMfaOnAllUsers = (serviceName: string): Promise<MsServicesTask> => {
+  createMfaOnAllUsersByServiceName = (serviceName: string): Promise<MsServicesTask> => {
     return this.ovh.request('POST', `/msServices/${serviceName}/createMfaOnAllUsers`);
   };
 
   /** Get this object properties */
-  getServiceNameExchange = (serviceName: string): Promise<MsServicesExchangeService> => {
+  getExchangeByServiceName = (serviceName: string): Promise<MsServicesExchangeService> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/exchange`);
   };
 
   /** Alter this object properties */
-  putServiceNameExchange = (
+  updateExchangeByServiceName = (
     serviceName: string,
     body: MsServicesExchangeService
   ): Promise<void> => {
@@ -318,17 +320,17 @@ class MsServicesHandler {
   };
 
   /** Detects billing transition status for the service */
-  getServiceNameExchangeBillingMigrated = (serviceName: string): Promise<boolean> => {
+  getExchangeBillingMigratedByServiceName = (serviceName: string): Promise<boolean> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/exchange/billingMigrated`);
   };
 
   /** Pending actions */
-  getServiceNameExchangeTask = (serviceName: string): Promise<number> => {
+  getExchangeTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/exchange/task`);
   };
 
   /** Get this object properties */
-  getServiceNameExchangeTaskId = (
+  getExchangeTaskByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<MsServicesExchangeTask> => {
@@ -336,17 +338,17 @@ class MsServicesHandler {
   };
 
   /** Remove Mfa on all accounts. */
-  postServiceNameRemoveMfaOnAllUsers = (serviceName: string): Promise<MsServicesTask> => {
+  postRemoveMfaOnAllUsersByServiceName = (serviceName: string): Promise<MsServicesTask> => {
     return this.ovh.request('POST', `/msServices/${serviceName}/removeMfaOnAllUsers`);
   };
 
   /** Get this object properties */
-  getServiceNameSharepoint = (serviceName: string): Promise<MsServicesSharepointService> => {
+  getSharepointByServiceName = (serviceName: string): Promise<MsServicesSharepointService> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/sharepoint`);
   };
 
   /** Alter this object properties */
-  putServiceNameSharepoint = (
+  updateSharepointByServiceName = (
     serviceName: string,
     body: MsServicesSharepointService
   ): Promise<void> => {
@@ -354,31 +356,31 @@ class MsServicesHandler {
   };
 
   /** Detects billing transition status for the service */
-  getServiceNameSharepointBillingMigrated = (serviceName: string): Promise<boolean> => {
+  getSharepointBillingMigratedByServiceName = (serviceName: string): Promise<boolean> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/sharepoint/billingMigrated`);
   };
 
   /** Get active licenses for specific period of time */
-  getServiceNameSharepointLicense = (
+  getSharepointLicenseByServiceName = (
     serviceName: string
-  ): Promise<MsServicesSharepointDailyLicense> => {
+  ): Promise<MsServicesSharepointDailyLicense[]> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/sharepoint/license`);
   };
 
   /** Restore administrator rights */
-  postServiceNameSharepointRestoreAdminRights = (
+  postSharepointRestoreAdminRightsByServiceName = (
     serviceName: string
   ): Promise<MsServicesSharepointTask> => {
     return this.ovh.request('POST', `/msServices/${serviceName}/sharepoint/restoreAdminRights`);
   };
 
   /** Pending actions */
-  getServiceNameSharepointTask = (serviceName: string): Promise<number> => {
+  getSharepointTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/sharepoint/task`);
   };
 
   /** Get this object properties */
-  getServiceNameSharepointTaskId = (
+  getSharepointTaskByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<MsServicesSharepointTask> => {
@@ -386,17 +388,17 @@ class MsServicesHandler {
   };
 
   /** Delete sync service */
-  deleteServiceNameSync = (serviceName: string): Promise<MsServicesTask> => {
+  deleteSyncByServiceName = (serviceName: string): Promise<MsServicesTask> => {
     return this.ovh.request('DELETE', `/msServices/${serviceName}/sync`);
   };
 
   /** Get this object properties */
-  getServiceNameSync = (serviceName: string): Promise<MsServicesSyncService> => {
+  getSyncByServiceName = (serviceName: string): Promise<MsServicesSyncService> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/sync`);
   };
 
   /** Change account password */
-  postServiceNameSyncChangePassword = (
+  updateSyncPasswordByServiceName = (
     serviceName: string,
     body: { password: string }
   ): Promise<MsServicesTask> => {
@@ -404,39 +406,39 @@ class MsServicesHandler {
   };
 
   /** Get this object properties */
-  getServiceNameSyncClientSoftwareURL = (
+  getSyncClientSoftwareURLByServiceName = (
     serviceName: string
   ): Promise<MsServicesActiveDirectorySyncClientUrl> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/sync/clientSoftwareURL`);
   };
 
   /** Generate temporary link to ADSync software executable */
-  postServiceNameSyncClientSoftwareURL = (serviceName: string): Promise<MsServicesTask> => {
+  postSyncClientSoftwareURLByServiceName = (serviceName: string): Promise<MsServicesTask> => {
     return this.ovh.request('POST', `/msServices/${serviceName}/sync/clientSoftwareURL`);
   };
 
   /** Get active licenses for specific period of time */
-  getServiceNameSyncLicense = (serviceName: string): Promise<MsServicesSyncDailyLicense> => {
+  getSyncLicenseByServiceName = (serviceName: string): Promise<MsServicesSyncDailyLicense[]> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/sync/license`);
   };
 
   /** Pending actions */
-  getServiceNameTask = (serviceName: string): Promise<number> => {
+  getTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getServiceNameTaskId = (id: number, serviceName: string): Promise<MsServicesTask> => {
+  getTaskByServiceNameAndId = (id: number, serviceName: string): Promise<MsServicesTask> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/task/${id}`);
   };
 
   /** active directory UPN suffix */
-  getServiceNameUpnSuffix = (serviceName: string): Promise<string> => {
+  getUpnSuffixByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/msServices/${serviceName}/upnSuffix`);
   };
 
   /** Create new UPN suffix */
-  postServiceNameUpnSuffix = (
+  createUpnSuffixByServiceName = (
     serviceName: string,
     body: { suffix: string }
   ): Promise<MsServicesTask> => {
@@ -444,7 +446,7 @@ class MsServicesHandler {
   };
 
   /** Delete existing UPN suffix */
-  deleteServiceNameUpnSuffixSuffix = (
+  deleteUpnSuffixByServiceNameAndSuffix = (
     serviceName: string,
     suffix: string
   ): Promise<MsServicesTask> => {
@@ -452,7 +454,7 @@ class MsServicesHandler {
   };
 
   /** Get this object properties */
-  getServiceNameUpnSuffixSuffix = (
+  getUpnSuffixByServiceNameAndSuffix = (
     serviceName: string,
     suffix: string
   ): Promise<MsServicesUpnSuffix> => {
@@ -460,4 +462,4 @@ class MsServicesHandler {
   };
 }
 
-export default MsServicesHandler;
+export { MsServicesHandler };

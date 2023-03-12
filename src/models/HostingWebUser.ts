@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HostingWebUserSshStateEnum } from './HostingWebUserSshStateEnum';
+import { HostingWebUserServiceCredentials } from './HostingWebUserServiceCredentials';
 import { HostingWebUserStateEnum } from './HostingWebUserStateEnum';
 import { HostingWebUserStatusEnum } from './HostingWebUserStatusEnum';
-import { HostingWebUserServiceCredentials } from './HostingWebUserServiceCredentials';
+import { HostingWebUserSshStateEnum } from './HostingWebUserSshStateEnum';
 
 export type HostingWebUser = {
   home: string;

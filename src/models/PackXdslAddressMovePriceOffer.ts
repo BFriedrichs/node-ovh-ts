@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { PackXdslAddressMovePrice } from './PackXdslAddressMovePrice';
 import { PackXdslMigrationAndAddressMovePromotion } from './PackXdslMigrationAndAddressMovePromotion';
+import { PackXdslAddressMovePrice } from './PackXdslAddressMovePrice';
 
 export type PackXdslAddressMovePriceOffer = {
   creationLineFees: PackXdslAddressMovePrice;

@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DockerSlaveMetricsUsedResources } from './DockerSlaveMetricsUsedResources';
 import { DockerSlaveMetricsResources } from './DockerSlaveMetricsResources';
+import { DockerSlaveMetricsUsedResources } from './DockerSlaveMetricsUsedResources';
 
 export type DockerSlaveMetrics = {
   resources: DockerSlaveMetricsResources;

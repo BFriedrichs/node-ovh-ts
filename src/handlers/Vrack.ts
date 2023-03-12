@@ -1,26 +1,26 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { VrackDedicatedServer } from '../models/VrackDedicatedServer';
-import { DedicatedServerMrtgTypeEnum } from '../models/DedicatedServerMrtgTypeEnum';
-import { VrackLegacyVrack } from '../models/VrackLegacyVrack';
-import { VrackIplb } from '../models/VrackIplb';
-import { VrackPccDatacenter } from '../models/VrackPccDatacenter';
-import { VrackDedicatedCloud } from '../models/VrackDedicatedCloud';
-import { VrackAllowedDedicatedServerInterfaces } from '../models/VrackAllowedDedicatedServerInterfaces';
 import { VrackTask } from '../models/VrackTask';
-import { VrackVrackZoneEnum } from '../models/VrackVrackZoneEnum';
-import { ServicesNonExpiringService } from '../models/ServicesNonExpiringService';
 import { VrackDedicatedServerInterface } from '../models/VrackDedicatedServerInterface';
-import { VrackDedicatedConnect } from '../models/VrackDedicatedConnect';
-import { VrackEligibleServicesResponse } from '../models/VrackEligibleServicesResponse';
+import { VrackPccDatacenter } from '../models/VrackPccDatacenter';
 import { VrackCloudProject } from '../models/VrackCloudProject';
-import { VrackIp } from '../models/VrackIp';
-import { VrackVrack } from '../models/VrackVrack';
-import { DedicatedServerMrtgTimestampValue } from '../models/DedicatedServerMrtgTimestampValue';
+import { VrackIplb } from '../models/VrackIplb';
 import { DedicatedServerMrtgPeriodEnum } from '../models/DedicatedServerMrtgPeriodEnum';
+import { DedicatedServerMrtgTypeEnum } from '../models/DedicatedServerMrtgTypeEnum';
+import { VrackVrackZoneEnum } from '../models/VrackVrackZoneEnum';
+import { VrackVrack } from '../models/VrackVrack';
 import { VrackAllowedServices } from '../models/VrackAllowedServices';
-import { VrackOvhCloudConnect } from '../models/VrackOvhCloudConnect';
+import { VrackEligibleServicesResponse } from '../models/VrackEligibleServicesResponse';
+import { VrackAllowedDedicatedServerInterfaces } from '../models/VrackAllowedDedicatedServerInterfaces';
+import { VrackDedicatedConnect } from '../models/VrackDedicatedConnect';
 import { VrackAllowedServiceEnum } from '../models/VrackAllowedServiceEnum';
+import { VrackIp } from '../models/VrackIp';
+import { VrackLegacyVrack } from '../models/VrackLegacyVrack';
+import { ServicesNonExpiringService } from '../models/ServicesNonExpiringService';
+import { VrackOvhCloudConnect } from '../models/VrackOvhCloudConnect';
+import { VrackDedicatedCloud } from '../models/VrackDedicatedCloud';
+import { DedicatedServerMrtgTimestampValue } from '../models/DedicatedServerMrtgTimestampValue';
 import OVHBase from '../ovh';
 
 class VrackHandler {
@@ -31,32 +31,32 @@ class VrackHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/vrack');
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<VrackVrack> => {
+  getByServiceName = (serviceName: string): Promise<VrackVrack> => {
     return this.ovh.request('GET', `/vrack/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putServiceName = (serviceName: string, body: VrackVrack): Promise<void> => {
+  updateByServiceName = (serviceName: string, body: VrackVrack): Promise<void> => {
     return this.ovh.request('PUT', `/vrack/${serviceName}`, body);
   };
 
   /** List all services allowed in this vrack */
-  getServiceNameAllowedServices = (serviceName: string): Promise<VrackAllowedServices> => {
+  listAllowedServicesByServiceName = (serviceName: string): Promise<VrackAllowedServices> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/allowedServices`);
   };
 
   /** vrack for publicCloud project */
-  getServiceNameCloudProject = (serviceName: string): Promise<string> => {
+  getCloudProjectByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/cloudProject`);
   };
 
   /** add a publicCloud project to this vrack */
-  postServiceNameCloudProject = (
+  addCloudProjectByServiceName = (
     serviceName: string,
     body: { project: string }
   ): Promise<VrackTask> => {
@@ -64,7 +64,7 @@ class VrackHandler {
   };
 
   /** remove this publicCloud project from this vrack */
-  deleteServiceNameCloudProjectProject = (
+  deleteCloudProjectByServiceNameAndProject = (
     project: string,
     serviceName: string
   ): Promise<VrackTask> => {
@@ -72,7 +72,7 @@ class VrackHandler {
   };
 
   /** Get this object properties */
-  getServiceNameCloudProjectProject = (
+  getCloudProjectByServiceNameAndProject = (
     project: string,
     serviceName: string
   ): Promise<VrackCloudProject> => {
@@ -80,12 +80,12 @@ class VrackHandler {
   };
 
   /** vrack dedicated cloud (VmNetwork) */
-  getServiceNameDedicatedCloud = (serviceName: string): Promise<string> => {
+  getDedicatedCloudByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/dedicatedCloud`);
   };
 
   /** add a dedicatedCloud (VmNetwork) to this vrack */
-  postServiceNameDedicatedCloud = (
+  addDedicatedCloudByServiceName = (
     serviceName: string,
     body: { dedicatedCloud: string }
   ): Promise<VrackTask> => {
@@ -93,7 +93,7 @@ class VrackHandler {
   };
 
   /** remove this dedicatedCloud (VmNetwork) from this vrack */
-  deleteServiceNameDedicatedCloudDedicatedCloud = (
+  deleteDedicatedCloudByServiceNameAndDedicatedCloud = (
     dedicatedCloud: string,
     serviceName: string
   ): Promise<VrackTask> => {
@@ -101,7 +101,7 @@ class VrackHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDedicatedCloudDedicatedCloud = (
+  getDedicatedCloudByServiceNameAndDedicatedCloud = (
     dedicatedCloud: string,
     serviceName: string
   ): Promise<VrackDedicatedCloud> => {
@@ -109,12 +109,12 @@ class VrackHandler {
   };
 
   /** vrack dedicated cloud datacenter */
-  getServiceNameDedicatedCloudDatacenter = (serviceName: string): Promise<string> => {
+  getDedicatedCloudDatacenterByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/dedicatedCloudDatacenter`);
   };
 
   /** Get this object properties */
-  getServiceNameDedicatedCloudDatacenterDatacenter = (
+  getDedicatedCloudDatacenterByServiceNameAndDatacenter = (
     datacenter: string,
     serviceName: string
   ): Promise<VrackPccDatacenter> => {
@@ -122,10 +122,10 @@ class VrackHandler {
   };
 
   /** Vracks allowed for your dedicatedCloud datacenter */
-  getServiceNameDedicatedCloudDatacenterDatacenterAllowedVrack = (
+  getDedicatedCloudDatacenterAllowedVrackByServiceNameAndDatacenter = (
     datacenter: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/vrack/${serviceName}/dedicatedCloudDatacenter/${datacenter}/allowedVrack`
@@ -133,7 +133,7 @@ class VrackHandler {
   };
 
   /** Move your dedicatedCloud datacenter from a Vrack to another */
-  postServiceNameDedicatedCloudDatacenterDatacenterMove = (
+  postDedicatedCloudDatacenterMoveByServiceNameAndDatacenter = (
     datacenter: string,
     serviceName: string,
     body: { targetServiceName: string }
@@ -146,12 +146,12 @@ class VrackHandler {
   };
 
   /** vrack dedicated connect */
-  getServiceNameDedicatedConnect = (serviceName: string): Promise<string> => {
+  getDedicatedConnectByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/dedicatedConnect`);
   };
 
   /** Get this object properties */
-  getServiceNameDedicatedConnectName = (
+  getDedicatedConnectByServiceNameAndName = (
     name: string,
     serviceName: string
   ): Promise<VrackDedicatedConnect> => {
@@ -159,7 +159,7 @@ class VrackHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameDedicatedConnectName = (
+  updateDedicatedConnectByServiceNameAndName = (
     name: string,
     serviceName: string,
     body: VrackDedicatedConnect
@@ -168,12 +168,12 @@ class VrackHandler {
   };
 
   /** vrack for dedicated server */
-  getServiceNameDedicatedServer = (serviceName: string): Promise<string> => {
+  getDedicatedServerByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/dedicatedServer`);
   };
 
   /** add a dedicated server to this vrack (LEGACY) */
-  postServiceNameDedicatedServer = (
+  addDedicatedServerByServiceName = (
     serviceName: string,
     body: { dedicatedServer: string }
   ): Promise<VrackTask> => {
@@ -181,7 +181,7 @@ class VrackHandler {
   };
 
   /** remove this server from this vrack (LEGACY) */
-  deleteServiceNameDedicatedServerDedicatedServer = (
+  deleteDedicatedServerByServiceNameAndDedicatedServer = (
     dedicatedServer: string,
     serviceName: string
   ): Promise<VrackTask> => {
@@ -189,7 +189,7 @@ class VrackHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDedicatedServerDedicatedServer = (
+  getDedicatedServerByServiceNameAndDedicatedServer = (
     dedicatedServer: string,
     serviceName: string
   ): Promise<VrackDedicatedServer> => {
@@ -197,20 +197,20 @@ class VrackHandler {
   };
 
   /** Retrieve vrack traffic graph values (LEGACY) */
-  getServiceNameDedicatedServerDedicatedServerMrtg = (
+  getDedicatedServerMrtgByServiceNameAndDedicatedServer = (
     dedicatedServer: string,
     serviceName: string
-  ): Promise<DedicatedServerMrtgTimestampValue> => {
+  ): Promise<DedicatedServerMrtgTimestampValue[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/dedicatedServer/${dedicatedServer}/mrtg`);
   };
 
   /** vrack for dedicated server interface */
-  getServiceNameDedicatedServerInterface = (serviceName: string): Promise<string> => {
+  getDedicatedServerInterfaceByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/dedicatedServerInterface`);
   };
 
   /** add a dedicated server interface to this vrack */
-  postServiceNameDedicatedServerInterface = (
+  addDedicatedServerInterfaceByServiceName = (
     serviceName: string,
     body: { dedicatedServerInterface: string }
   ): Promise<VrackTask> => {
@@ -218,7 +218,7 @@ class VrackHandler {
   };
 
   /** remove this server interface from this vrack */
-  deleteServiceNameDedicatedServerInterfaceDedicatedServerInterface = (
+  deleteDedicatedServerInterfaceByServiceNameAndDedicatedServerInterface = (
     dedicatedServerInterface: string,
     serviceName: string
   ): Promise<VrackTask> => {
@@ -229,7 +229,7 @@ class VrackHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDedicatedServerInterfaceDedicatedServerInterface = (
+  getDedicatedServerInterfaceByServiceNameAndDedicatedServerInterface = (
     dedicatedServerInterface: string,
     serviceName: string
   ): Promise<VrackDedicatedServerInterface> => {
@@ -240,41 +240,41 @@ class VrackHandler {
   };
 
   /** Details for all dedicated server interfaces in this vrack */
-  getServiceNameDedicatedServerInterfaceDetails = (
+  getDedicatedServerInterfaceDetailsByServiceName = (
     serviceName: string
-  ): Promise<VrackAllowedDedicatedServerInterfaces> => {
+  ): Promise<VrackAllowedDedicatedServerInterfaces[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/dedicatedServerInterfaceDetails`);
   };
 
   /** List all eligible services for this vRack asynchronously */
-  getServiceNameEligibleServices = (
+  listEligibleServicesByServiceName = (
     serviceName: string
   ): Promise<VrackEligibleServicesResponse> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/eligibleServices`);
   };
 
   /** vrack for IP blocks */
-  getServiceNameIp = (serviceName: string): Promise<string> => {
+  getIpByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/ip`);
   };
 
   /** add an IP block to this vrack */
-  postServiceNameIp = (serviceName: string, body: { block: string }): Promise<VrackTask> => {
+  addIpByServiceName = (serviceName: string, body: { block: string }): Promise<VrackTask> => {
     return this.ovh.request('POST', `/vrack/${serviceName}/ip`, body);
   };
 
   /** remove this IP block from this vrack */
-  deleteServiceNameIpIp = (ip: string, serviceName: string): Promise<VrackTask> => {
+  deleteIpByServiceNameAndIp = (ip: string, serviceName: string): Promise<VrackTask> => {
     return this.ovh.request('DELETE', `/vrack/${serviceName}/ip/${ip}`);
   };
 
   /** Get this object properties */
-  getServiceNameIpIp = (ip: string, serviceName: string): Promise<VrackIp> => {
+  getIpByServiceNameAndIp = (ip: string, serviceName: string): Promise<VrackIp> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/ip/${ip}`);
   };
 
   /** Announce IP to zone for vrack */
-  postServiceNameIpIpAnnounceInZone = (
+  postIpAnnounceInZoneByServiceNameAndIp = (
     ip: string,
     serviceName: string,
     body: { zone: VrackVrackZoneEnum }
@@ -283,20 +283,20 @@ class VrackHandler {
   };
 
   /** Zone available to announce your block */
-  getServiceNameIpIpAvailableZone = (
+  getIpAvailableZoneByServiceNameAndIp = (
     ip: string,
     serviceName: string
-  ): Promise<VrackVrackZoneEnum> => {
+  ): Promise<VrackVrackZoneEnum[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/ip/${ip}/availableZone`);
   };
 
   /** vrack for ipLoadbalancing */
-  getServiceNameIpLoadbalancing = (serviceName: string): Promise<string> => {
+  getIpLoadbalancingByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/ipLoadbalancing`);
   };
 
   /** add an ipLoadbalancing to this vrack */
-  postServiceNameIpLoadbalancing = (
+  addIpLoadbalancingByServiceName = (
     serviceName: string,
     body: { ipLoadbalancing: string }
   ): Promise<VrackTask> => {
@@ -304,7 +304,7 @@ class VrackHandler {
   };
 
   /** remove this ipLoadbalancing from this vrack */
-  deleteServiceNameIpLoadbalancingIpLoadbalancing = (
+  deleteIpLoadbalancingByServiceNameAndIpLoadbalancing = (
     ipLoadbalancing: string,
     serviceName: string
   ): Promise<VrackTask> => {
@@ -312,7 +312,7 @@ class VrackHandler {
   };
 
   /** Get this object properties */
-  getServiceNameIpLoadbalancingIpLoadbalancing = (
+  getIpLoadbalancingByServiceNameAndIpLoadbalancing = (
     ipLoadbalancing: string,
     serviceName: string
   ): Promise<VrackIplb> => {
@@ -320,12 +320,12 @@ class VrackHandler {
   };
 
   /** vrack for legacy vrack */
-  getServiceNameLegacyVrack = (serviceName: string): Promise<string> => {
+  getLegacyVrackByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/legacyVrack`);
   };
 
   /** add a legacy vrack (vrackXXXX) to this vrack (pn-XXXX) */
-  postServiceNameLegacyVrack = (
+  addLegacyVrackByServiceName = (
     serviceName: string,
     body: { legacyVrack: string }
   ): Promise<VrackTask> => {
@@ -333,7 +333,7 @@ class VrackHandler {
   };
 
   /** remove this legacy vrack (vrackXXXX) from this vrack (pn-XXXX) */
-  deleteServiceNameLegacyVrackLegacyVrack = (
+  deleteLegacyVrackByServiceNameAndLegacyVrack = (
     legacyVrack: string,
     serviceName: string
   ): Promise<VrackTask> => {
@@ -341,7 +341,7 @@ class VrackHandler {
   };
 
   /** Get this object properties */
-  getServiceNameLegacyVrackLegacyVrack = (
+  getLegacyVrackByServiceNameAndLegacyVrack = (
     legacyVrack: string,
     serviceName: string
   ): Promise<VrackLegacyVrack> => {
@@ -349,12 +349,12 @@ class VrackHandler {
   };
 
   /** vrack for ovhCloudConnect */
-  getServiceNameOvhCloudConnect = (serviceName: string): Promise<string> => {
+  getOvhCloudConnectByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/ovhCloudConnect`);
   };
 
   /** Add an ovhCloudConnect to the vrack */
-  postServiceNameOvhCloudConnect = (
+  addOvhCloudConnectByServiceName = (
     serviceName: string,
     body: { ovhCloudConnect: string }
   ): Promise<VrackTask> => {
@@ -362,7 +362,7 @@ class VrackHandler {
   };
 
   /** Remove the ovhCloudConnect from the vrack */
-  deleteServiceNameOvhCloudConnectOvhCloudConnect = (
+  deleteOvhCloudConnectByServiceNameAndOvhCloudConnect = (
     ovhCloudConnect: string,
     serviceName: string
   ): Promise<VrackTask> => {
@@ -370,7 +370,7 @@ class VrackHandler {
   };
 
   /** Get this object properties */
-  getServiceNameOvhCloudConnectOvhCloudConnect = (
+  getOvhCloudConnectByServiceNameAndOvhCloudConnect = (
     ovhCloudConnect: string,
     serviceName: string
   ): Promise<VrackOvhCloudConnect> => {
@@ -378,19 +378,19 @@ class VrackHandler {
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesNonExpiringService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesNonExpiringService> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/serviceInfos`);
   };
 
   /** vrack tasks */
-  getServiceNameTask = (serviceName: string): Promise<number> => {
+  getTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getServiceNameTaskTaskId = (serviceName: string, taskId: number): Promise<VrackTask> => {
+  getTaskByServiceNameAndTaskId = (serviceName: string, taskId: number): Promise<VrackTask> => {
     return this.ovh.request('GET', `/vrack/${serviceName}/task/${taskId}`);
   };
 }
 
-export default VrackHandler;
+export { VrackHandler };

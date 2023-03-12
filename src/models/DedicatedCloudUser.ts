@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { DedicatedCloudUserStateEnum } from './DedicatedCloudUserStateEnum';
 import { DedicatedCloudUserActivationStateEnum } from './DedicatedCloudUserActivationStateEnum';
 import { DedicatedCloudUserTypeEnum } from './DedicatedCloudUserTypeEnum';
-import { DedicatedCloudUserStateEnum } from './DedicatedCloudUserStateEnum';
 
 export type DedicatedCloudUser = {
   activationState: DedicatedCloudUserActivationStateEnum | null;

@@ -3,6 +3,6 @@
 import { DedicatedHousingHaRoutingOfferEnum } from './DedicatedHousingHaRoutingOfferEnum';
 
 export type DedicatedHousingHaRoutingOrderable = {
-  offer: DedicatedHousingHaRoutingOfferEnum;
+  offer: DedicatedHousingHaRoutingOfferEnum[];
   orderable: boolean;
 };

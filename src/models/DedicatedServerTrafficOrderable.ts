@@ -4,5 +4,5 @@ import { DedicatedServerTrafficOrderEnum } from './DedicatedServerTrafficOrderEn
 
 export type DedicatedServerTrafficOrderable = {
   orderable: boolean;
-  traffic: DedicatedServerTrafficOrderEnum | null;
+  traffic: DedicatedServerTrafficOrderEnum[] | null;
 };

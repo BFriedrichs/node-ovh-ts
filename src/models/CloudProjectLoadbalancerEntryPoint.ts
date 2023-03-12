@@ -7,8 +7,8 @@ export type CloudProjectLoadbalancerEntryPoint = {
   defaultTarget: string | null;
   disableH2: boolean | null;
   name?: string;
-  portRanges: CloudProjectLoadbalancerPortRange | null;
-  ports: number | null;
-  rules: CloudProjectLoadbalancerRule;
+  portRanges: CloudProjectLoadbalancerPortRange[] | null;
+  ports: number[] | null;
+  rules: CloudProjectLoadbalancerRule[];
   tls: boolean;
 };

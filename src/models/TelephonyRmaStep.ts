@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyRmaStepStatusEnum } from './TelephonyRmaStepStatusEnum';
 import { TelephonyRmaStepNameEnum } from './TelephonyRmaStepNameEnum';
+import { TelephonyRmaStepStatusEnum } from './TelephonyRmaStepStatusEnum';
 
 export type TelephonyRmaStep = {
   description: string;

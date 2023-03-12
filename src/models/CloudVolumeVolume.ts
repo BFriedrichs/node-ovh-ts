@@ -3,7 +3,7 @@
 import { CloudVolumeVolumeTypeEnum } from './CloudVolumeVolumeTypeEnum';
 
 export type CloudVolumeVolume = {
-  attachedTo: string;
+  attachedTo: string[];
   bootable: boolean;
   creationDate: Date;
   description: string;

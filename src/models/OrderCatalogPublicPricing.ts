@@ -1,15 +1,15 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderCartGenericProductPricingTypeEnum } from './OrderCartGenericProductPricingTypeEnum';
-import { OrderCatalogPublicPromotion } from './OrderCatalogPublicPromotion';
-import { OrderCartGenericProductPricingStrategyEnum } from './OrderCartGenericProductPricingStrategyEnum';
 import { OrderCartDurationUnitEnum } from './OrderCartDurationUnitEnum';
 import { OrderCartGenericProductPricingCapacitiesEnum } from './OrderCartGenericProductPricingCapacitiesEnum';
 import { OrderCatalogPublicEngagementConfiguration } from './OrderCatalogPublicEngagementConfiguration';
+import { OrderCartGenericProductPricingTypeEnum } from './OrderCartGenericProductPricingTypeEnum';
+import { OrderCatalogPublicPromotion } from './OrderCatalogPublicPromotion';
 import { OrderCatalogPublicPricingMinMax } from './OrderCatalogPublicPricingMinMax';
+import { OrderCartGenericProductPricingStrategyEnum } from './OrderCartGenericProductPricingStrategyEnum';
 
 export type OrderCatalogPublicPricing = {
-  capacities: OrderCartGenericProductPricingCapacitiesEnum;
+  capacities: OrderCartGenericProductPricingCapacitiesEnum[];
   commitment: number;
   description: string;
   engagementConfiguration: OrderCatalogPublicEngagementConfiguration | null;
@@ -19,7 +19,7 @@ export type OrderCatalogPublicPricing = {
   mustBeCompleted: boolean;
   phase: number;
   price: number;
-  promotions: OrderCatalogPublicPromotion | null;
+  promotions: OrderCatalogPublicPromotion[] | null;
   quantity: OrderCatalogPublicPricingMinMax;
   repeat: OrderCatalogPublicPricingMinMax;
   strategy: OrderCartGenericProductPricingStrategyEnum;

@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { StorageRegionEnum } from './StorageRegionEnum';
-import { StorageNetAppServiceStatusEnum } from './StorageNetAppServiceStatusEnum';
 import { StorageNetAppServicePerformanceLevelEnum } from './StorageNetAppServicePerformanceLevelEnum';
+import { StorageNetAppServiceStatusEnum } from './StorageNetAppServiceStatusEnum';
 
 export type StorageNetAppService = {
   createdAt: Date;

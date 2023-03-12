@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedCloudVmNetworkBacking } from './DedicatedCloudVmNetworkBacking';
 import { DedicatedCloudVirtualDeviceConnectInfoStatus } from './DedicatedCloudVirtualDeviceConnectInfoStatus';
+import { DedicatedCloudVmNetworkBacking } from './DedicatedCloudVmNetworkBacking';
 
 export type DedicatedCloudVmNetwork = {
   allowGuestControl: boolean;

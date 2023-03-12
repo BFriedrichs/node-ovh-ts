@@ -4,6 +4,6 @@ import { DedicatedServerOlaInterface } from './DedicatedServerOlaInterface';
 
 export type DedicatedServerOlaAvailableModes = {
   default: boolean;
-  interfaces: DedicatedServerOlaInterface;
+  interfaces: DedicatedServerOlaInterface[];
   name: string;
 };

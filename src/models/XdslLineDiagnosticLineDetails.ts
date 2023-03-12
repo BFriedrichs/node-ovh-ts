@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { XdslDslTypeEnum } from './XdslDslTypeEnum';
-import { XdslLineDiagnosticProviderEnum } from './XdslLineDiagnosticProviderEnum';
+import { XdslLineDiagnosticLineCapabilities } from './XdslLineDiagnosticLineCapabilities';
 import { XdslLineDiagnosticConnectionInformations } from './XdslLineDiagnosticConnectionInformations';
 import { XdslLineDiagnosticSection } from './XdslLineDiagnosticSection';
-import { XdslLineDiagnosticLineCapabilities } from './XdslLineDiagnosticLineCapabilities';
+import { XdslLineDiagnosticProviderEnum } from './XdslLineDiagnosticProviderEnum';
 
 export type XdslLineDiagnosticLineDetails = {
   accessName: string;
@@ -21,5 +21,5 @@ export type XdslLineDiagnosticLineDetails = {
   nra: string | null;
   number: string;
   operator: XdslLineDiagnosticProviderEnum;
-  sections: XdslLineDiagnosticSection | null;
+  sections: XdslLineDiagnosticSection[] | null;
 };

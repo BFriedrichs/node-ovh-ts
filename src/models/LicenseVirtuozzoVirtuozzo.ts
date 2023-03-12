@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseStateEnum } from './LicenseStateEnum';
 import { LicenseVirtuozzoContainerNumberEnum } from './LicenseVirtuozzoContainerNumberEnum';
 import { LicenseVirtuozzoVersionEnum } from './LicenseVirtuozzoVersionEnum';
+import { LicenseStateEnum } from './LicenseStateEnum';
 
 export type LicenseVirtuozzoVirtuozzo = {
   containerNumber: LicenseVirtuozzoContainerNumberEnum;

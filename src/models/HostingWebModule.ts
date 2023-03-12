@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HostingWebModuleDependencyType } from './HostingWebModuleDependencyType';
 import { HostingWebModuleStatusEnum } from './HostingWebModuleStatusEnum';
+import { HostingWebModuleDependencyType } from './HostingWebModuleDependencyType';
 import { HostingWebModuleLanguageEnum } from './HostingWebModuleLanguageEnum';
 
 export type HostingWebModule = {
   adminFolder: string;
   adminName: string;
   creationDate: Date;
-  dependencies: HostingWebModuleDependencyType;
+  dependencies: HostingWebModuleDependencyType[];
   id: number;
   language: HostingWebModuleLanguageEnum;
   lastUpdate: Date;

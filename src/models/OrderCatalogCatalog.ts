@@ -5,5 +5,5 @@ import { OrderCatalogProductPlan } from './OrderCatalogProductPlan';
 export type OrderCatalogCatalog = {
   catalogId: number;
   merchantCode: string;
-  plans: OrderCatalogProductPlan | null;
+  plans: OrderCatalogProductPlan[] | null;
 };

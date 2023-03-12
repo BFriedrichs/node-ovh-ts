@@ -2,4 +2,8 @@
 
 import { ServicesBillingInvoiceLine } from './ServicesBillingInvoiceLine';
 
-export type ServicesBillingInvoice = { date: Date; id: string; lines: ServicesBillingInvoiceLine };
+export type ServicesBillingInvoice = {
+  date: Date;
+  id: string;
+  lines: ServicesBillingInvoiceLine[];
+};

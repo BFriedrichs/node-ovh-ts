@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { MetricsTokenUpdate } from '../models/MetricsTokenUpdate';
+import { MetricsLookupTokenCreation } from '../models/MetricsLookupTokenCreation';
 import { MetricsApiToken } from '../models/MetricsApiToken';
-import { ServicesService } from '../models/ServicesService';
+import { MetricsTokenCreation } from '../models/MetricsTokenCreation';
+import { MetricsApiConsumption } from '../models/MetricsApiConsumption';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { MetricsApiService } from '../models/MetricsApiService';
 import { MetricsUpdate } from '../models/MetricsUpdate';
-import { MetricsApiConsumption } from '../models/MetricsApiConsumption';
-import { MetricsQuotaUpdate } from '../models/MetricsQuotaUpdate';
 import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { MetricsLookupTokenCreation } from '../models/MetricsLookupTokenCreation';
-import { MetricsTokenUpdate } from '../models/MetricsTokenUpdate';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { MetricsTokenCreation } from '../models/MetricsTokenCreation';
+import { MetricsQuotaUpdate } from '../models/MetricsQuotaUpdate';
+import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class MetricsHandler {
@@ -21,30 +21,30 @@ class MetricsHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/metrics');
   };
 
   /** Get service */
-  getServiceName = (serviceName: string): Promise<MetricsApiService> => {
+  getByServiceName = (serviceName: string): Promise<MetricsApiService> => {
     return this.ovh.request('GET', `/metrics/${serviceName}`);
   };
 
   /** Modify service */
-  putServiceName = (serviceName: string, body: MetricsUpdate): Promise<MetricsApiService> => {
+  putByServiceName = (serviceName: string, body: MetricsUpdate): Promise<MetricsApiService> => {
     return this.ovh.request('PUT', `/metrics/${serviceName}`, body);
   };
 
   /** Launch a contact change procedure */
-  postServiceNameChangeContact = (
+  launchChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/metrics/${serviceName}/changeContact`, body);
   };
 
   /** Confirm termination of your service */
-  postServiceNameConfirmTermination = (
+  confirmTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -57,45 +57,45 @@ class MetricsHandler {
   };
 
   /** Get consumption for your service */
-  getServiceNameConsumption = (serviceName: string): Promise<MetricsApiConsumption> => {
+  getConsumptionByServiceName = (serviceName: string): Promise<MetricsApiConsumption> => {
     return this.ovh.request('GET', `/metrics/${serviceName}/consumption`);
   };
 
   /** Find TokenID for a specific token */
-  postServiceNameLookupToken = (
+  postLookupTokenByServiceName = (
     serviceName: string,
     body: MetricsLookupTokenCreation
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('POST', `/metrics/${serviceName}/lookup/token`, body);
   };
 
   /** Set overquota */
-  putServiceNameQuota = (serviceName: string, body: MetricsQuotaUpdate): Promise<string> => {
+  putQuotaByServiceName = (serviceName: string, body: MetricsQuotaUpdate): Promise<string> => {
     return this.ovh.request('PUT', `/metrics/${serviceName}/quota`, body);
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/metrics/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/metrics/${serviceName}/serviceInfos`, body);
   };
 
   /** Terminate your service */
-  postServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/metrics/${serviceName}/terminate`);
   };
 
   /** Get list of tokens */
-  getServiceNameToken = (serviceName: string): Promise<string> => {
+  getTokenByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/metrics/${serviceName}/token`);
   };
 
   /** Create a token */
-  postServiceNameToken = (
+  createTokenByServiceName = (
     serviceName: string,
     body: MetricsTokenCreation
   ): Promise<MetricsApiToken> => {
@@ -103,17 +103,20 @@ class MetricsHandler {
   };
 
   /** Revoke a token */
-  deleteServiceNameTokenTokenId = (serviceName: string, tokenId: string): Promise<void> => {
+  deleteTokenByServiceNameAndTokenId = (serviceName: string, tokenId: string): Promise<void> => {
     return this.ovh.request('DELETE', `/metrics/${serviceName}/token/${tokenId}`);
   };
 
   /** Get a specific token */
-  getServiceNameTokenTokenId = (serviceName: string, tokenId: string): Promise<MetricsApiToken> => {
+  getTokenByServiceNameAndTokenId = (
+    serviceName: string,
+    tokenId: string
+  ): Promise<MetricsApiToken> => {
     return this.ovh.request('GET', `/metrics/${serviceName}/token/${tokenId}`);
   };
 
   /** Modify a token */
-  putServiceNameTokenTokenId = (
+  putTokenByServiceNameAndTokenId = (
     serviceName: string,
     tokenId: string,
     body: MetricsTokenUpdate
@@ -122,4 +125,4 @@ class MetricsHandler {
   };
 }
 
-export default MetricsHandler;
+export { MetricsHandler };

@@ -4,7 +4,7 @@ import { OrderCartGenericProductTypeEnum } from './OrderCartGenericProductTypeEn
 import { OrderCatalogConfigurationItem } from './OrderCatalogConfigurationItem';
 
 export type OrderCatalogProduct = {
-  configurations: OrderCatalogConfigurationItem;
+  configurations: OrderCatalogConfigurationItem[];
   description: string;
   internalType: OrderCartGenericProductTypeEnum;
   metadatas: string | null;

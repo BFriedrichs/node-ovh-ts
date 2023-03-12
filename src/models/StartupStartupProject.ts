@@ -8,6 +8,6 @@ export type StartupStartupProject = {
   description?: string;
   developmentStage?: string;
   productName?: string;
-  relatedTechnology?: StartupRelatedTechnologyEnum;
+  relatedTechnology?: StartupRelatedTechnologyEnum[];
   requirements?: StartupStartupProjectTechnicalNeed;
 };

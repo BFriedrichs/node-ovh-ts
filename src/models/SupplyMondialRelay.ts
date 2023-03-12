@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CoreTypesCountryEnum } from './CoreTypesCountryEnum';
 import { SupplyMondialRelayOpening } from './SupplyMondialRelayOpening';
+import { CoreTypesCountryEnum } from './CoreTypesCountryEnum';
 import { SupplyMondialRelayClosingPeriod } from './SupplyMondialRelayClosingPeriod';
 
 export type SupplyMondialRelay = {
   address: string;
   city: string;
-  closing: SupplyMondialRelayClosingPeriod | null;
+  closing: SupplyMondialRelayClosingPeriod[] | null;
   country: CoreTypesCountryEnum;
   distance: number | null;
   id: string;

@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { DedicatedInstallationTemplateHardwareRaid } from '../models/DedicatedInstallationTemplateHardwareRaid';
+import { DedicatedInstallationTemplateTemplatePartitions } from '../models/DedicatedInstallationTemplateTemplatePartitions';
 import { DedicatedTemplateOsInfo } from '../models/DedicatedTemplateOsInfo';
 import { DedicatedInstallationTemplateTemplatePartitioningSchemes } from '../models/DedicatedInstallationTemplateTemplatePartitioningSchemes';
 import { DedicatedInstallationTemplateTemplates } from '../models/DedicatedInstallationTemplateTemplates';
-import { DedicatedInstallationTemplateHardwareRaid } from '../models/DedicatedInstallationTemplateHardwareRaid';
-import { DedicatedInstallationTemplateTemplatePartitions } from '../models/DedicatedInstallationTemplateTemplatePartitions';
 import OVHBase from '../ovh';
 
 class DedicatedInstallationTemplateHandler {
@@ -15,24 +15,26 @@ class DedicatedInstallationTemplateHandler {
   }
 
   /** OVH operating system installation templates */
-  getInstallationTemplate = (): Promise<string> => {
+  getInstallationTemplate = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicated/installationTemplate');
   };
 
   /** Get details about available distributions for dedicated servers */
-  getInstallationTemplateTemplateInfos = (): Promise<DedicatedTemplateOsInfo> => {
+  getInstallationTemplateTemplateInfos = (): Promise<DedicatedTemplateOsInfo[]> => {
     return this.ovh.request('GET', '/dedicated/installationTemplate/templateInfos');
   };
 
   /** Get this object properties */
-  getInstallationTemplateTemplateName = (
+  getInstallationTemplateByTemplateName = (
     templateName: string
   ): Promise<DedicatedInstallationTemplateTemplates> => {
     return this.ovh.request('GET', `/dedicated/installationTemplate/${templateName}`);
   };
 
   /** Partitioning schemes available on this template */
-  getInstallationTemplateTemplateNamePartitionScheme = (templateName: string): Promise<string> => {
+  getInstallationTemplatePartitionSchemeByTemplateName = (
+    templateName: string
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/installationTemplate/${templateName}/partitionScheme`
@@ -40,7 +42,7 @@ class DedicatedInstallationTemplateHandler {
   };
 
   /** Get this object properties */
-  getInstallationTemplateTemplateNamePartitionSchemeSchemeName = (
+  getInstallationTemplatePartitionSchemeByTemplateNameAndSchemeName = (
     schemeName: string,
     templateName: string
   ): Promise<DedicatedInstallationTemplateTemplatePartitioningSchemes> => {
@@ -51,10 +53,10 @@ class DedicatedInstallationTemplateHandler {
   };
 
   /** Hardware RAIDs defined in this partitioning scheme */
-  getInstallationTemplateTemplateNamePartitionSchemeSchemeNameHardwareRaid = (
+  getInstallationTemplatePartitionSchemeHardwareRaidByTemplateNameAndSchemeName = (
     schemeName: string,
     templateName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/installationTemplate/${templateName}/partitionScheme/${schemeName}/hardwareRaid`
@@ -62,7 +64,7 @@ class DedicatedInstallationTemplateHandler {
   };
 
   /** Get this object properties */
-  getInstallationTemplateTemplateNamePartitionSchemeSchemeNameHardwareRaidName = (
+  getInstallationTemplatePartitionSchemeHardwareRaidByTemplateNameAndSchemeNameAndName = (
     name: string,
     schemeName: string,
     templateName: string
@@ -74,10 +76,10 @@ class DedicatedInstallationTemplateHandler {
   };
 
   /** Partitions defined in this partitioning scheme */
-  getInstallationTemplateTemplateNamePartitionSchemeSchemeNamePartition = (
+  getInstallationTemplatePartitionSchemePartitionByTemplateNameAndSchemeName = (
     schemeName: string,
     templateName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/installationTemplate/${templateName}/partitionScheme/${schemeName}/partition`
@@ -85,7 +87,7 @@ class DedicatedInstallationTemplateHandler {
   };
 
   /** Get this object properties */
-  getInstallationTemplateTemplateNamePartitionSchemeSchemeNamePartitionMountpoint = (
+  getInstallationTemplatePartitionSchemePartitionByTemplateNameAndSchemeNameAndMountpoint = (
     mountpoint: string,
     schemeName: string,
     templateName: string
@@ -97,4 +99,4 @@ class DedicatedInstallationTemplateHandler {
   };
 }
 
-export default DedicatedInstallationTemplateHandler;
+export { DedicatedInstallationTemplateHandler };

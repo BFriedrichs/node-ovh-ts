@@ -4,5 +4,5 @@ import { CloudCapabilitiesAvailabilityRegion } from './CloudCapabilitiesAvailabi
 
 export type CloudCapabilitiesAvailabilityPlan = {
   code: string;
-  regions: CloudCapabilitiesAvailabilityRegion;
+  regions: CloudCapabilitiesAvailabilityRegion[];
 };

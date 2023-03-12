@@ -8,5 +8,5 @@ export type SmsResponse = {
   responseType: SmsResponseTypeEnum;
   text: string | null;
   trackingDefaultSmsSender: string | null;
-  trackingOptions: SmsResponseTrackingOptions | null;
+  trackingOptions: SmsResponseTrackingOptions[] | null;
 };

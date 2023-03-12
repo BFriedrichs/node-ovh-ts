@@ -5,7 +5,7 @@ import { XdslOrderFollowupDurationUnitEnum } from './XdslOrderFollowupDurationUn
 import { XdslOrderFollowupStepStatusEnum } from './XdslOrderFollowupStepStatusEnum';
 
 export type XdslOrderFollowupStep = {
-  comments: string;
+  comments: string[];
   doneDate: Date | null;
   durationUnit: XdslOrderFollowupDurationUnitEnum;
   expectedDuration: number;

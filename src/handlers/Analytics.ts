@@ -1,15 +1,15 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { AnalyticsClusterDestroy } from '../models/AnalyticsClusterDestroy';
-import { ServicesService } from '../models/ServicesService';
 import { AnalyticsCluster } from '../models/AnalyticsCluster';
-import { AnalyticsPlatformCapability } from '../models/AnalyticsPlatformCapability';
-import { AnalyticsClusterDeploy } from '../models/AnalyticsClusterDeploy';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { AnalyticsClusterDeployStatus } from '../models/AnalyticsClusterDeployStatus';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { AnalyticsClusterNode } from '../models/AnalyticsClusterNode';
+import { AnalyticsClusterDeployStatus } from '../models/AnalyticsClusterDeployStatus';
+import { AnalyticsPlatformCapability } from '../models/AnalyticsPlatformCapability';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { AnalyticsClusterDeploy } from '../models/AnalyticsClusterDeploy';
 import { AnalyticsClusterActivity } from '../models/AnalyticsClusterActivity';
+import { ServicesService } from '../models/ServicesService';
+import { AnalyticsClusterDestroy } from '../models/AnalyticsClusterDestroy';
 import OVHBase from '../ovh';
 
 class AnalyticsHandler {
@@ -20,35 +20,37 @@ class AnalyticsHandler {
   }
 
   /** Platform capabilities */
-  getCapabilitiesPlatforms = (): Promise<AnalyticsPlatformCapability> => {
+  getCapabilitiesPlatforms = (): Promise<AnalyticsPlatformCapability[]> => {
     return this.ovh.request('GET', '/analytics/capabilities/platforms');
   };
 
   /** List available services */
-  getPlatforms = (): Promise<string> => {
+  listPlatforms = (): Promise<string[]> => {
     return this.ovh.request('GET', '/analytics/platforms');
   };
 
   /** Get details about a service */
-  getPlatformsServiceName = (serviceName: string): Promise<AnalyticsCluster> => {
+  getPlatformsByServiceName = (serviceName: string): Promise<AnalyticsCluster> => {
     return this.ovh.request('GET', `/analytics/platforms/${serviceName}`);
   };
 
   /** Get activity logs */
-  getPlatformsServiceNameActivity = (serviceName: string): Promise<AnalyticsClusterActivity> => {
+  getPlatformsActivityByServiceName = (
+    serviceName: string
+  ): Promise<AnalyticsClusterActivity[]> => {
     return this.ovh.request('GET', `/analytics/platforms/${serviceName}/activity`);
   };
 
   /** Launch a contact change procedure */
-  postPlatformsServiceNameChangeContact = (
+  launchPlatformsChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/analytics/platforms/${serviceName}/changeContact`, body);
   };
 
   /** Confirm termination of your service */
-  postPlatformsServiceNameConfirmTermination = (
+  confirmPlatformsTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -61,7 +63,7 @@ class AnalyticsHandler {
   };
 
   /** Deploy an Analytics Data Platform */
-  postPlatformsServiceNameDeploy = (
+  postPlatformsDeployByServiceName = (
     serviceName: string,
     body: AnalyticsClusterDeploy
   ): Promise<AnalyticsClusterDeploy> => {
@@ -69,7 +71,7 @@ class AnalyticsHandler {
   };
 
   /** Destroy an Analytics Data Platform */
-  postPlatformsServiceNameDestroy = (
+  postPlatformsDestroyByServiceName = (
     serviceName: string,
     body: AnalyticsClusterDestroy
   ): Promise<void> => {
@@ -77,12 +79,12 @@ class AnalyticsHandler {
   };
 
   /** List available nodes */
-  getPlatformsServiceNameNodes = (serviceName: string): Promise<string> => {
+  listPlatformsNodesByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/analytics/platforms/${serviceName}/nodes`);
   };
 
   /** Get details about nodes */
-  getPlatformsServiceNameNodesNodeId = (
+  getPlatformsNodesByServiceNameAndNodeId = (
     nodeId: string,
     serviceName: string
   ): Promise<AnalyticsClusterNode> => {
@@ -90,12 +92,12 @@ class AnalyticsHandler {
   };
 
   /** Get this object properties */
-  getPlatformsServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getPlatformsServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/analytics/platforms/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putPlatformsServiceNameServiceInfos = (
+  updatePlatformsServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -103,14 +105,16 @@ class AnalyticsHandler {
   };
 
   /** Get cluster deployment status */
-  getPlatformsServiceNameStatus = (serviceName: string): Promise<AnalyticsClusterDeployStatus> => {
+  getPlatformsStatusByServiceName = (
+    serviceName: string
+  ): Promise<AnalyticsClusterDeployStatus[]> => {
     return this.ovh.request('GET', `/analytics/platforms/${serviceName}/status`);
   };
 
   /** Terminate your service */
-  postPlatformsServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postPlatformsTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/analytics/platforms/${serviceName}/terminate`);
   };
 }
 
-export default AnalyticsHandler;
+export { AnalyticsHandler };

@@ -7,7 +7,7 @@ export type PartnerContact = {
   lastName: string;
   linkedin: string | null;
   newsletter: string;
-  otherNics: string;
+  otherNics: string[];
   phone: string;
   role: string;
   twitter: string | null;

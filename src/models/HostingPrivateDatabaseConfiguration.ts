@@ -4,7 +4,7 @@ import { HostingPrivateDatabaseConfigurationStatus } from './HostingPrivateDatab
 import { HostingPrivateDatabaseConfigurationDetail } from './HostingPrivateDatabaseConfigurationDetail';
 
 export type HostingPrivateDatabaseConfiguration = {
-  details: HostingPrivateDatabaseConfigurationDetail;
+  details: HostingPrivateDatabaseConfigurationDetail[];
   lastUpdate: Date;
   status: HostingPrivateDatabaseConfigurationStatus;
   taskId: string | null;

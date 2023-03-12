@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { CloudBillingViewMonthlyResources } from './CloudBillingViewMonthlyResources';
-import { CloudBillingViewTypedResources } from './CloudBillingViewTypedResources';
-import { CloudBillingViewHourlyResources } from './CloudBillingViewHourlyResources';
 import { CloudUsagePeriod } from './CloudUsagePeriod';
+import { CloudBillingViewHourlyResources } from './CloudBillingViewHourlyResources';
+import { CloudBillingViewTypedResources } from './CloudBillingViewTypedResources';
 
 export type CloudUsageUsageHistoryDetail = {
   hourlyUsage: CloudBillingViewHourlyResources | null;
@@ -11,5 +11,5 @@ export type CloudUsageUsageHistoryDetail = {
   lastUpdate: Date;
   monthlyUsage: CloudBillingViewMonthlyResources | null;
   period: CloudUsagePeriod;
-  resourcesUsage: CloudBillingViewTypedResources | null;
+  resourcesUsage: CloudBillingViewTypedResources[] | null;
 };

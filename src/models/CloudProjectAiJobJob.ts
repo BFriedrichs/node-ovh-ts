@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectAiJobJobStatus } from './CloudProjectAiJobJobStatus';
 import { CloudProjectAiJobJobSpec } from './CloudProjectAiJobJobSpec';
+import { CloudProjectAiJobJobStatus } from './CloudProjectAiJobJobStatus';
 
 export type CloudProjectAiJobJob = {
   createdAt: Date;

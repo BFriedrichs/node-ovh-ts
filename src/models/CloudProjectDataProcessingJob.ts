@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectDataProcessingStatusEnum } from './CloudProjectDataProcessingStatusEnum';
 import { CloudProjectDataProcessingEngineParameter } from './CloudProjectDataProcessingEngineParameter';
+import { CloudProjectDataProcessingStatusEnum } from './CloudProjectDataProcessingStatusEnum';
 
 export type CloudProjectDataProcessingJob = {
   containerName?: string;
   creationDate: Date | null;
   endDate: Date | null;
   engine?: string;
-  engineParameters?: CloudProjectDataProcessingEngineParameter;
+  engineParameters?: CloudProjectDataProcessingEngineParameter[];
   engineVersion?: string;
   id: string;
   name: string;

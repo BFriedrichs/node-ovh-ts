@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HostingWebLocalSeoListingStatusEnum } from './HostingWebLocalSeoListingStatusEnum';
 import { HostingWebLocalSeoFieldStatusEnum } from './HostingWebLocalSeoFieldStatusEnum';
 import { HostingWebLocalSeoFlowStatusEnum } from './HostingWebLocalSeoFlowStatusEnum';
+import { HostingWebLocalSeoListingStatusEnum } from './HostingWebLocalSeoListingStatusEnum';
 
 export type HostingWebLocalSeoVisibilityCheckResultResponse = {
   city: string | null;

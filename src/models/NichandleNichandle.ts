@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { NichandleLanguageEnum } from './NichandleLanguageEnum';
 import { NichandleCurrency } from './NichandleCurrency';
-import { NichandleOvhSubsidiaryEnum } from './NichandleOvhSubsidiaryEnum';
-import { NichandleLegalFormEnum } from './NichandleLegalFormEnum';
-import { NichandleStateEnum } from './NichandleStateEnum';
-import { NichandleGenderEnum } from './NichandleGenderEnum';
-import { NichandleOvhCompanyEnum } from './NichandleOvhCompanyEnum';
 import { NichandleCountryEnum } from './NichandleCountryEnum';
+import { NichandleLegalFormEnum } from './NichandleLegalFormEnum';
+import { NichandleGenderEnum } from './NichandleGenderEnum';
+import { NichandleLanguageEnum } from './NichandleLanguageEnum';
+import { NichandleStateEnum } from './NichandleStateEnum';
+import { NichandleOvhSubsidiaryEnum } from './NichandleOvhSubsidiaryEnum';
+import { NichandleOvhCompanyEnum } from './NichandleOvhCompanyEnum';
 
 export type NichandleNichandle = {
   address: string | null;

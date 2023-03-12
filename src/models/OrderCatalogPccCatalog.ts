@@ -7,7 +7,7 @@ export type OrderCatalogPccCatalog = {
   active: boolean;
   catalogId: string;
   catalogName: string;
-  commercialRanges: OrderCatalogPccCommercialRange;
+  commercialRanges: OrderCatalogPccCommercialRange[];
   merchantCode: string;
-  plans: OrderCatalogProductPlan;
+  plans: OrderCatalogProductPlan[];
 };

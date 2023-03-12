@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectAiCapabilitiesFlavorTypeEnum } from './CloudProjectAiCapabilitiesFlavorTypeEnum';
 import { CloudProjectAiCapabilitiesPresetResources } from './CloudProjectAiCapabilitiesPresetResources';
+import { CloudProjectAiCapabilitiesFlavorTypeEnum } from './CloudProjectAiCapabilitiesFlavorTypeEnum';
 
 export type CloudProjectAiCapabilitiesPresetCapabilities = {
   exec: boolean;
-  flavorTypes: CloudProjectAiCapabilitiesFlavorTypeEnum;
+  flavorTypes: CloudProjectAiCapabilitiesFlavorTypeEnum[];
   log: boolean;
   resources: CloudProjectAiCapabilitiesPresetResources;
   ssh: boolean;

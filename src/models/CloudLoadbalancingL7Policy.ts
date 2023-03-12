@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudLoadbalancingLoadBalancerOperatingStatusEnum } from './CloudLoadbalancingLoadBalancerOperatingStatusEnum';
-import { CloudLoadbalancingL7PolicyActionEnum } from './CloudLoadbalancingL7PolicyActionEnum';
 import { CloudLoadbalancingLoadBalancerProvisioningStatusEnum } from './CloudLoadbalancingLoadBalancerProvisioningStatusEnum';
+import { CloudLoadbalancingL7PolicyActionEnum } from './CloudLoadbalancingL7PolicyActionEnum';
+import { CloudLoadbalancingLoadBalancerOperatingStatusEnum } from './CloudLoadbalancingLoadBalancerOperatingStatusEnum';
 
 export type CloudLoadbalancingL7Policy = {
   action?: CloudLoadbalancingL7PolicyActionEnum;

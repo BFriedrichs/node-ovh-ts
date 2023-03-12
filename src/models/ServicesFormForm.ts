@@ -2,4 +2,4 @@
 
 import { ServicesFormAnswer } from './ServicesFormAnswer';
 
-export type ServicesFormForm = { answers?: ServicesFormAnswer };
+export type ServicesFormForm = { answers?: ServicesFormAnswer[] };

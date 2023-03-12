@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectAiCapabilitiesPresetCapabilities } from './CloudProjectAiCapabilitiesPresetCapabilities';
 import { CloudProjectAiJobPartner } from './CloudProjectAiJobPartner';
-import { CloudProjectAiCapabilitiesPresetTypeEnum } from './CloudProjectAiCapabilitiesPresetTypeEnum';
+import { CloudProjectAiCapabilitiesPresetCapabilities } from './CloudProjectAiCapabilitiesPresetCapabilities';
 import { CloudProjectAiCapabilitiesPresetDocumentationUrl } from './CloudProjectAiCapabilitiesPresetDocumentationUrl';
+import { CloudProjectAiCapabilitiesPresetTypeEnum } from './CloudProjectAiCapabilitiesPresetTypeEnum';
 
 export type CloudProjectAiCapabilitiesPreset = {
   capabilities: CloudProjectAiCapabilitiesPresetCapabilities;
-  descriptions: string;
-  docUrl: CloudProjectAiCapabilitiesPresetDocumentationUrl;
+  descriptions: string[];
+  docUrl: CloudProjectAiCapabilitiesPresetDocumentationUrl[];
   id: string;
   logoUrl: string;
   name: string;

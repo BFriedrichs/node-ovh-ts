@@ -1,17 +1,17 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { ConnectivityEligibilityCity } from '../models/ConnectivityEligibilityCity';
-import { ConnectivityEligibilityBuilding } from '../models/ConnectivityEligibilityBuilding';
-import { ConnectivityEligibilityLine } from '../models/ConnectivityEligibilityLine';
-import { ConnectivityMaintenanceWorkPlanned } from '../models/ConnectivityMaintenanceWorkPlanned';
-import { ConnectivityMonitoringGenericIncident } from '../models/ConnectivityMonitoringGenericIncident';
-import { ConnectivityEligibilityOfferProductUnbundlingTypeEnum } from '../models/ConnectivityEligibilityOfferProductUnbundlingTypeEnum';
 import { ConnectivityMonitoringGenericIncidentStatusEnum } from '../models/ConnectivityMonitoringGenericIncidentStatusEnum';
-import { ConnectivityEligibilityMeetings } from '../models/ConnectivityEligibilityMeetings';
-import { ConnectivityEligibilityStreet } from '../models/ConnectivityEligibilityStreet';
-import { ConnectivityEligibilityLineStatusEnum } from '../models/ConnectivityEligibilityLineStatusEnum';
-import { ConnectivityEligibilityEligibilityTest } from '../models/ConnectivityEligibilityEligibilityTest';
 import { ConnectivityEligibilityOfferProductTypeEnum } from '../models/ConnectivityEligibilityOfferProductTypeEnum';
+import { ConnectivityEligibilityEligibilityTest } from '../models/ConnectivityEligibilityEligibilityTest';
+import { ConnectivityEligibilityStreet } from '../models/ConnectivityEligibilityStreet';
+import { ConnectivityEligibilityOfferProductUnbundlingTypeEnum } from '../models/ConnectivityEligibilityOfferProductUnbundlingTypeEnum';
+import { ConnectivityEligibilityMeetings } from '../models/ConnectivityEligibilityMeetings';
+import { ConnectivityMaintenanceWorkPlanned } from '../models/ConnectivityMaintenanceWorkPlanned';
+import { ConnectivityEligibilityBuilding } from '../models/ConnectivityEligibilityBuilding';
+import { ConnectivityMonitoringGenericIncident } from '../models/ConnectivityMonitoringGenericIncident';
+import { ConnectivityEligibilityLineStatusEnum } from '../models/ConnectivityEligibilityLineStatusEnum';
+import { ConnectivityEligibilityLine } from '../models/ConnectivityEligibilityLine';
 import OVHBase from '../ovh';
 
 class ConnectivityHandler {
@@ -139,24 +139,24 @@ class ConnectivityHandler {
   };
 
   /** List work planned by operators. For partners only */
-  getMaintenanceWorkPlannedPartners = (): Promise<ConnectivityMaintenanceWorkPlanned> => {
+  listMaintenanceWorkPlannedPartners = (): Promise<ConnectivityMaintenanceWorkPlanned[]> => {
     return this.ovh.request('GET', '/connectivity/maintenance/workPlanned/partners');
   };
 
   /** List work planned by operators */
-  getMaintenanceWorkPlannedPublic = (): Promise<ConnectivityMaintenanceWorkPlanned> => {
+  listMaintenanceWorkPlannedPublics = (): Promise<ConnectivityMaintenanceWorkPlanned[]> => {
     return this.ovh.request('GET', '/connectivity/maintenance/workPlanned/public');
   };
 
   /** List detected, validated and recently closed generic incidents. For partners only */
-  getMonitoringGenericIncidentPartners = (): Promise<ConnectivityMonitoringGenericIncident> => {
+  listMonitoringGenericIncidentPartners = (): Promise<ConnectivityMonitoringGenericIncident[]> => {
     return this.ovh.request('GET', '/connectivity/monitoring/genericIncident/partners');
   };
 
   /** List validated and recently closed generic incidents */
-  getMonitoringGenericIncidentPublic = (): Promise<ConnectivityMonitoringGenericIncident> => {
+  listMonitoringGenericIncidentPublics = (): Promise<ConnectivityMonitoringGenericIncident[]> => {
     return this.ovh.request('GET', '/connectivity/monitoring/genericIncident/public');
   };
 }
 
-export default ConnectivityHandler;
+export { ConnectivityHandler };

@@ -16,4 +16,4 @@ class SecretHandler {
   };
 }
 
-export default SecretHandler;
+export { SecretHandler };

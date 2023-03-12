@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { MarketPlacePartnerProduct } from '../models/MarketPlacePartnerProduct';
+import { MarketPlaceDocument } from '../models/MarketPlaceDocument';
 import { MarketPlaceContact } from '../models/MarketPlaceContact';
 import { MarketPlacePartner } from '../models/MarketPlacePartner';
-import { MarketPlaceDocument } from '../models/MarketPlaceDocument';
 import OVHBase from '../ovh';
 
 class StoreHandler {
@@ -14,12 +14,12 @@ class StoreHandler {
   }
 
   /** List current customer contacts */
-  getContact = (): Promise<MarketPlaceContact> => {
+  listContacts = (): Promise<MarketPlaceContact[]> => {
     return this.ovh.request('GET', '/store/contact');
   };
 
   /** Create a 'marketplace' contact for current nic */
-  postContact = (body: {
+  createContact = (body: {
     city?: string;
     country?: string;
     email: string;
@@ -35,17 +35,17 @@ class StoreHandler {
   };
 
   /** Remove an existing contact */
-  deleteContactContactId = (contactId: string): Promise<string> => {
+  deleteContactByContactId = (contactId: string): Promise<string> => {
     return this.ovh.request('DELETE', `/store/contact/${contactId}`);
   };
 
   /** Get contact details */
-  getContactContactId = (contactId: string): Promise<MarketPlaceContact> => {
+  getContactByContactId = (contactId: string): Promise<MarketPlaceContact> => {
     return this.ovh.request('GET', `/store/contact/${contactId}`);
   };
 
   /** Edit contact information */
-  putContactContactId = (
+  updateContactByContactId = (
     contactId: string,
     body: {
       city?: string;
@@ -64,58 +64,58 @@ class StoreHandler {
   };
 
   /** List document associated with contact */
-  getContactContactIdDocument = (contactId: string): Promise<string> => {
+  listContactDocumentsByContactId = (contactId: string): Promise<string[]> => {
     return this.ovh.request('GET', `/store/contact/${contactId}/document`);
   };
 
   /** Add a document to a contact */
-  postContactContactIdDocument = (
+  addContactDocumentByContactId = (
     contactId: string,
     body: { documentId: string }
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('POST', `/store/contact/${contactId}/document`, body);
   };
 
   /** Unlink a document from a contact */
-  deleteContactContactIdDocumentDocumentId = (
+  deleteContactDocumentByContactIdAndDocumentId = (
     contactId: string,
     documentId: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('DELETE', `/store/contact/${contactId}/document/${documentId}`);
   };
 
   /** List current customer documents */
-  getDocument = (): Promise<MarketPlaceDocument> => {
+  listDocuments = (): Promise<MarketPlaceDocument[]> => {
     return this.ovh.request('GET', '/store/document');
   };
 
   /** Create a document */
-  postDocument = (body: { name: string; tags?: string }): Promise<MarketPlaceDocument> => {
+  createDocument = (body: { name: string; tags?: string }): Promise<MarketPlaceDocument> => {
     return this.ovh.request('POST', '/store/document', body);
   };
 
   /** Add CORS support on your container */
-  postDocumentCors = (body: { origin: string }): Promise<void> => {
+  addDocumentCors = (body: { origin: string }): Promise<void> => {
     return this.ovh.request('POST', '/store/document/cors', body);
   };
 
   /** Delete document */
-  deleteDocumentDocumentId = (documentId: string): Promise<string> => {
+  deleteDocumentByDocumentId = (documentId: string): Promise<string> => {
     return this.ovh.request('DELETE', `/store/document/${documentId}`);
   };
 
   /** Get document info */
-  getDocumentDocumentId = (documentId: string): Promise<MarketPlaceDocument> => {
+  getDocumentByDocumentId = (documentId: string): Promise<MarketPlaceDocument> => {
     return this.ovh.request('GET', `/store/document/${documentId}`);
   };
 
   /** List current customer partners */
-  getPartner = (): Promise<MarketPlacePartner> => {
+  listPartners = (): Promise<MarketPlacePartner[]> => {
     return this.ovh.request('GET', '/store/partner');
   };
 
   /** Create a 'marketplace' partner for current nic */
-  postPartner = (body: {
+  createPartner = (body: {
     category?: string;
     city: string;
     companyNationalIdentificationNumber?: string;
@@ -137,17 +137,17 @@ class StoreHandler {
   };
 
   /** Delete partner */
-  deletePartnerPartnerId = (partnerId: string): Promise<string> => {
+  deletePartnerByPartnerId = (partnerId: string): Promise<string> => {
     return this.ovh.request('DELETE', `/store/partner/${partnerId}`);
   };
 
   /** Get partner info */
-  getPartnerPartnerId = (partnerId: string): Promise<MarketPlacePartner> => {
+  getPartnerByPartnerId = (partnerId: string): Promise<MarketPlacePartner> => {
     return this.ovh.request('GET', `/store/partner/${partnerId}`);
   };
 
   /** Edit partner info */
-  putPartnerPartnerId = (
+  updatePartnerByPartnerId = (
     partnerId: string,
     body: {
       category?: string;
@@ -172,33 +172,33 @@ class StoreHandler {
   };
 
   /** List document associated with partner */
-  getPartnerPartnerIdDocument = (partnerId: string): Promise<string> => {
+  listPartnerDocumentsByPartnerId = (partnerId: string): Promise<string[]> => {
     return this.ovh.request('GET', `/store/partner/${partnerId}/document`);
   };
 
   /** Add a document to a partner */
-  postPartnerPartnerIdDocument = (
+  addPartnerDocumentByPartnerId = (
     partnerId: string,
     body: { documentId: string }
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('POST', `/store/partner/${partnerId}/document`, body);
   };
 
   /** Unlink a document from a partner */
-  deletePartnerPartnerIdDocumentDocumentId = (
+  deletePartnerDocumentByPartnerIdAndDocumentId = (
     documentId: string,
     partnerId: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('DELETE', `/store/partner/${partnerId}/document/${documentId}`);
   };
 
   /** List partner's products */
-  getPartnerPartnerIdProduct = (partnerId: string): Promise<MarketPlacePartnerProduct> => {
+  listPartnerProductsByPartnerId = (partnerId: string): Promise<MarketPlacePartnerProduct[]> => {
     return this.ovh.request('GET', `/store/partner/${partnerId}/product`);
   };
 
   /** Create a new product for partner */
-  postPartnerPartnerIdProduct = (
+  createPartnerProductByPartnerId = (
     partnerId: string,
     body: { category: string; description: string; name: string; otherDetails?: string }
   ): Promise<MarketPlacePartnerProduct> => {
@@ -206,7 +206,7 @@ class StoreHandler {
   };
 
   /** Delete product */
-  deletePartnerPartnerIdProductProductId = (
+  deletePartnerProductByPartnerIdAndProductId = (
     partnerId: string,
     productId: string
   ): Promise<string> => {
@@ -214,7 +214,7 @@ class StoreHandler {
   };
 
   /** Get partner info */
-  getPartnerPartnerIdProductProductId = (
+  getPartnerProductByPartnerIdAndProductId = (
     partnerId: string,
     productId: string
   ): Promise<MarketPlacePartnerProduct> => {
@@ -222,7 +222,7 @@ class StoreHandler {
   };
 
   /** Edit product info */
-  putPartnerPartnerIdProductProductId = (
+  updatePartnerProductByPartnerIdAndProductId = (
     partnerId: string,
     productId: string,
     body: { category?: string; description?: string; name?: string; otherDetails?: string }
@@ -231,19 +231,19 @@ class StoreHandler {
   };
 
   /** List document associated with product */
-  getPartnerPartnerIdProductProductIdDocument = (
+  listPartnerProductDocumentsByPartnerIdAndProductId = (
     partnerId: string,
     productId: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/store/partner/${partnerId}/product/${productId}/document`);
   };
 
   /** Add a document to a product */
-  postPartnerPartnerIdProductProductIdDocument = (
+  addPartnerProductDocumentByPartnerIdAndProductId = (
     partnerId: string,
     productId: string,
     body: { documentId: string }
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'POST',
       `/store/partner/${partnerId}/product/${productId}/document`,
@@ -252,11 +252,11 @@ class StoreHandler {
   };
 
   /** Unlink a document from a product */
-  deletePartnerPartnerIdProductProductIdDocumentDocumentId = (
+  deletePartnerProductDocumentByPartnerIdAndProductIdAndDocumentId = (
     documentId: string,
     partnerId: string,
     productId: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'DELETE',
       `/store/partner/${partnerId}/product/${productId}/document/${documentId}`
@@ -264,4 +264,4 @@ class StoreHandler {
   };
 }
 
-export default StoreHandler;
+export { StoreHandler };

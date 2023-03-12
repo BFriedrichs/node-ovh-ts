@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { LicenseOfficeUserStateEnum } from './LicenseOfficeUserStateEnum';
 import { CoreTypesCountryEnum } from './CoreTypesCountryEnum';
 import { LicenseOfficeLicenceEnum } from './LicenseOfficeLicenceEnum';
-import { LicenseOfficeUserStateEnum } from './LicenseOfficeUserStateEnum';
 
 export type LicenseOfficeOfficeUser = {
   activationEmail: string;
@@ -10,7 +10,7 @@ export type LicenseOfficeOfficeUser = {
   firstName: string;
   isVirtual: boolean;
   lastName: string;
-  licences: LicenseOfficeLicenceEnum;
+  licences: LicenseOfficeLicenceEnum[];
   status: LicenseOfficeUserStateEnum;
   taskPendingId: number;
   usageLocation: CoreTypesCountryEnum;

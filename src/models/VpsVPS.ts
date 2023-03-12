@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { VpsVpsOfferEnum } from './VpsVpsOfferEnum';
+import { VpsVpsNetbootEnum } from './VpsVpsNetbootEnum';
 import { VpsModel } from './VpsModel';
 import { VpsVpsKeymapEnum } from './VpsVpsKeymapEnum';
-import { VpsVpsNetbootEnum } from './VpsVpsNetbootEnum';
 import { VpsVpsStateEnum } from './VpsVpsStateEnum';
+import { VpsVpsOfferEnum } from './VpsVpsOfferEnum';
 
 export type VpsVPS = {
   cluster: string;
@@ -12,7 +12,7 @@ export type VpsVPS = {
   keymap: VpsVpsKeymapEnum | null;
   memoryLimit: number;
   model: VpsModel;
-  monitoringIpBlocks: string;
+  monitoringIpBlocks: string[];
   name: string;
   netbootMode: VpsVpsNetbootEnum;
   offerType: VpsVpsOfferEnum;

@@ -3,12 +3,12 @@
 import { TelephonyFaxScreenListTypeEnum } from './TelephonyFaxScreenListTypeEnum';
 
 export type TelephonyFaxScreen = {
-  blacklistedNumbers: string | null;
-  blacklistedTSI: string | null;
+  blacklistedNumbers: string[] | null;
+  blacklistedTSI: string[] | null;
   callNumber: string;
   countryCode: string;
   filteringList: TelephonyFaxScreenListTypeEnum | null;
   serviceName: string;
-  whitelistedNumbers: string | null;
-  whitelistedTSI: string | null;
+  whitelistedNumbers: string[] | null;
+  whitelistedTSI: string[] | null;
 };

@@ -4,5 +4,5 @@ export type DomainDataClaimNoticeCourtDecision = {
   countryCode: string;
   courtName: string;
   referenceNumber: string;
-  regions: string;
+  regions: string[];
 };

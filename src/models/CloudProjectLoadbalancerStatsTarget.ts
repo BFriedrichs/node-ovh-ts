@@ -4,5 +4,5 @@ import { CloudProjectLoadbalancerStatsTargetServer } from './CloudProjectLoadbal
 
 export type CloudProjectLoadbalancerStatsTarget = {
   name: string;
-  servers: CloudProjectLoadbalancerStatsTargetServer;
+  servers: CloudProjectLoadbalancerStatsTargetServer[];
 };

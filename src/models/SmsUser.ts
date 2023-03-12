@@ -6,7 +6,7 @@ import { SmsAlertThreshold } from './SmsAlertThreshold';
 export type SmsUser = {
   alertThresholdInformations: SmsAlertThreshold;
   callBack: string | null;
-  ipRestrictions: string;
+  ipRestrictions: string[];
   login: string;
   password: string;
   quotaInformations: SmsQuota;

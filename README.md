@@ -51,6 +51,27 @@ const ovhClient = new OVH(
 const me = ovhClient.me.get()
 ```
 
+## Tree shaking
+
+The default export (even minified) is quite big since it includes all handlers at once. If used for a client-side application you should consider code splitting to only include the handlers relevant to your application. To enable tree shaking, a custom client can be created like so:
+```ts
+import { OVHBase, MeHandler } from 'node-ovh-ts';
+
+class CustomClient extends OVHBase {
+  me = new MeHandler(this)
+}
+
+const ovhClient = new CustomClient(
+  '<appKey>',
+  '<appSecret>',
+  '<consumerKey>',
+);
+
+// GET /me
+const me = ovhClient.me.get()
+```
+
+
 ## Known issues
 
 * `/auth` for consumer key refetching is currently not implemented

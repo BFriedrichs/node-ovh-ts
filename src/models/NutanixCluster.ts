@@ -10,7 +10,7 @@ export type NutanixCluster = {
   ipfo: string;
   iplb: string;
   name: string;
-  nodes: NutanixNodes;
+  nodes: NutanixNodes[];
   prismCentral: NutanixPrismcentral;
   prismElementVip: string;
   prismSecretId: string;

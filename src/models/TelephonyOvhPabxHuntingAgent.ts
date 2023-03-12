@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyOvhPabxHuntingAgentStatusEnum } from './TelephonyOvhPabxHuntingAgentStatusEnum';
 import { TelephonyOvhPabxHuntingAgentTypeEnum } from './TelephonyOvhPabxHuntingAgentTypeEnum';
+import { TelephonyOvhPabxHuntingAgentStatusEnum } from './TelephonyOvhPabxHuntingAgentStatusEnum';
 
 export type TelephonyOvhPabxHuntingAgent = {
   agentId: number;

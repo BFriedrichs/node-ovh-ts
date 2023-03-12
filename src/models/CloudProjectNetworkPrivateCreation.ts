@@ -2,6 +2,6 @@
 
 export type CloudProjectNetworkPrivateCreation = {
   name?: string;
-  regions: string | null;
+  regions: string[] | null;
   vlanId: number | null;
 };

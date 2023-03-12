@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { IpMitigationProfileAutoMitigationTimeOutEnum } from './IpMitigationProfileAutoMitigationTimeOutEnum';
 import { IpMitigationProfileStateEnum } from './IpMitigationProfileStateEnum';
+import { IpMitigationProfileAutoMitigationTimeOutEnum } from './IpMitigationProfileAutoMitigationTimeOutEnum';
 
 export type IpMitigationProfile = {
   autoMitigationTimeOut: IpMitigationProfileAutoMitigationTimeOutEnum;

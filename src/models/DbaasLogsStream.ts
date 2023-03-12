@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { DbaasLogsStreamColdStorageTargetEnum } from './DbaasLogsStreamColdStorageTargetEnum';
 import { DbaasLogsStreamColdStorageContentEnum } from './DbaasLogsStreamColdStorageContentEnum';
 import { DbaasLogsStreamColdStorageCompressionEnum } from './DbaasLogsStreamColdStorageCompressionEnum';
-import { DbaasLogsStreamColdStorageTargetEnum } from './DbaasLogsStreamColdStorageTargetEnum';
 
 export type DbaasLogsStream = {
   canAlert: boolean;
@@ -14,7 +14,7 @@ export type DbaasLogsStream = {
   coldStorageTarget: DbaasLogsStreamColdStorageTargetEnum | null;
   createdAt: Date;
   description: string;
-  encryptionKeysIds: string | null;
+  encryptionKeysIds: string[] | null;
   indexingCurrentSize: number | null;
   indexingEnabled: boolean | null;
   indexingMaxSize: number | null;

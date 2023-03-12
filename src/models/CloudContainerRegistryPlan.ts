@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudContainerRegistryFeatures } from './CloudContainerRegistryFeatures';
 import { CloudContainerRegistryLimits } from './CloudContainerRegistryLimits';
+import { CloudContainerRegistryFeatures } from './CloudContainerRegistryFeatures';
 
 export type CloudContainerRegistryPlan = {
   code: string;

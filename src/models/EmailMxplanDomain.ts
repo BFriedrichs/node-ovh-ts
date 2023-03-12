@@ -5,15 +5,15 @@ import { EmailProDomainTypeEnum } from './EmailProDomainTypeEnum';
 
 export type EmailMxplanDomain = {
   cnameToCheck: string | null;
-  domainAliases: string;
+  domainAliases: string[];
   domainValidated: boolean;
   isAliasDomain: boolean;
   mxIsValid: boolean;
-  mxRecord: string;
+  mxRecord: string[];
   mxRelay: string | null;
   name: string;
   srvIsValid: boolean;
-  srvRecord: string;
+  srvRecord: string[];
   state: EmailProObjectStateEnum;
   taskPendingId: number;
   type: EmailProDomainTypeEnum;

@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { CdnanycastCacheRuleStatusEnum } from './CdnanycastCacheRuleStatusEnum';
 import { CdnanycastCacheRuleFileTypeEnum } from './CdnanycastCacheRuleFileTypeEnum';
 import { CdnanycastCacheRuleCacheTypeEnum } from './CdnanycastCacheRuleCacheTypeEnum';
-import { CdnanycastCacheRuleStatusEnum } from './CdnanycastCacheRuleStatusEnum';
 
 export type CdnanycastCacheRule = {
   cacheRuleId: number;

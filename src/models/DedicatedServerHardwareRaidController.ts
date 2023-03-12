@@ -3,7 +3,7 @@
 import { DedicatedServerHardwareRaidDiskGroup } from './DedicatedServerHardwareRaidDiskGroup';
 
 export type DedicatedServerHardwareRaidController = {
-  disks: DedicatedServerHardwareRaidDiskGroup;
+  disks: DedicatedServerHardwareRaidDiskGroup[];
   model: string;
   type: string;
 };

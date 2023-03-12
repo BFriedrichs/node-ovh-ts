@@ -1,87 +1,87 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedCloudUserLogoutPolicyEnum } from '../models/DedicatedCloudUserLogoutPolicyEnum';
-import { DedicatedCloudNsx } from '../models/DedicatedCloudNsx';
-import { DedicatedCloudFilerLocation } from '../models/DedicatedCloudFilerLocation';
-import { DedicatedCloudZpoolStockProfile } from '../models/DedicatedCloudZpoolStockProfile';
-import { DedicatedCloudPasswordPolicy } from '../models/DedicatedCloudPasswordPolicy';
-import { DedicatedCloudCluster } from '../models/DedicatedCloudCluster';
-import { DedicatedCloudResourceNewPrices } from '../models/DedicatedCloudResourceNewPrices';
-import { DedicatedCloudBackupOfferTypeEnum } from '../models/DedicatedCloudBackupOfferTypeEnum';
-import { DedicatedCloudPciDss } from '../models/DedicatedCloudPciDss';
-import { DedicatedCloudRight } from '../models/DedicatedCloudRight';
-import { DedicatedCloudVendorObjectTypeEnum } from '../models/DedicatedCloudVendorObjectTypeEnum';
-import { DedicatedCloudMetricsToken } from '../models/DedicatedCloudMetricsToken';
-import { DedicatedCloudHostProfile } from '../models/DedicatedCloudHostProfile';
-import { DedicatedCloudVMEncryption } from '../models/DedicatedCloudVMEncryption';
-import { DedicatedCloudHipaa } from '../models/DedicatedCloudHipaa';
-import { DedicatedCloudRobot } from '../models/DedicatedCloudRobot';
-import { DedicatedCloudFilerProfile } from '../models/DedicatedCloudFilerProfile';
-import { DedicatedCloudRightUserObjectRightTypeEnum } from '../models/DedicatedCloudRightUserObjectRightTypeEnum';
-import { DedicatedCloudHostStockProfile } from '../models/DedicatedCloudHostStockProfile';
-import { DedicatedCloudIpCountriesEnum } from '../models/DedicatedCloudIpCountriesEnum';
-import { DedicatedCloudOptionCompatibility } from '../models/DedicatedCloudOptionCompatibility';
-import { DedicatedCloudServicePackStatus } from '../models/DedicatedCloudServicePackStatus';
-import { DedicatedCloudHost } from '../models/DedicatedCloudHost';
-import { DedicatedCloudUserAccessPolicyEnum } from '../models/DedicatedCloudUserAccessPolicyEnum';
-import { DedicatedCloudTaskStateEnum } from '../models/DedicatedCloudTaskStateEnum';
-import { DedicatedCloudCommercialRange } from '../models/DedicatedCloudCommercialRange';
-import { DedicatedCloudDedicatedCloud } from '../models/DedicatedCloudDedicatedCloud';
-import { DedicatedCloudVendorOvhId } from '../models/DedicatedCloudVendorOvhId';
-import { DedicatedCloudVcenter } from '../models/DedicatedCloudVcenter';
-import { DedicatedCloudIpDetails } from '../models/DedicatedCloudIpDetails';
-import { VrackTask } from '../models/VrackTask';
-import { DedicatedCloudHcx } from '../models/DedicatedCloudHcx';
-import { ServicesService } from '../models/ServicesService';
-import { DedicatedCloudBackupBackupDaysEnum } from '../models/DedicatedCloudBackupBackupDaysEnum';
-import { DedicatedCloudSecurityOption } from '../models/DedicatedCloudSecurityOption';
-import { DedicatedCloudCompliantRanges } from '../models/DedicatedCloudCompliantRanges';
-import { DedicatedCloudPrivateGateway } from '../models/DedicatedCloudPrivateGateway';
-import { DedicatedCloudDisasterRecoveryZertoProtectedVm } from '../models/DedicatedCloudDisasterRecoveryZertoProtectedVm';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { DedicatedCloudUser } from '../models/DedicatedCloudUser';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { DedicatedCloudFilerHourlyConsumption } from '../models/DedicatedCloudFilerHourlyConsumption';
-import { DedicatedCloudPccStockProfile } from '../models/DedicatedCloudPccStockProfile';
-import { DedicatedCloudVMEncryptionAccessNetwork } from '../models/DedicatedCloudVMEncryptionAccessNetwork';
 import { DedicatedCloudAllowedNetwork } from '../models/DedicatedCloudAllowedNetwork';
-import { DedicatedCloudRightNetworkRoleEnum } from '../models/DedicatedCloudRightNetworkRoleEnum';
-import { DedicatedCloudDatacenter } from '../models/DedicatedCloudDatacenter';
-import { DedicatedCloudHds } from '../models/DedicatedCloudHds';
-import { DedicatedCloudHostResilience } from '../models/DedicatedCloudHostResilience';
 import { DedicatedCloudPccZone } from '../models/DedicatedCloudPccZone';
-import { DedicatedCloudSecurityOptionSecurityOptionEnum } from '../models/DedicatedCloudSecurityOptionSecurityOptionEnum';
-import { DedicatedCloudRestorePoint } from '../models/DedicatedCloudRestorePoint';
-import { VrackDedicatedCloud } from '../models/VrackDedicatedCloud';
-import { DedicatedCloudNsxt } from '../models/DedicatedCloudNsxt';
-import { DedicatedCloudObjectRight } from '../models/DedicatedCloudObjectRight';
-import { DedicatedCloudServicePack } from '../models/DedicatedCloudServicePack';
-import { DedicatedCloudHostHourlyConsumption } from '../models/DedicatedCloudHostHourlyConsumption';
-import { DedicatedCloudBackupBackupCapabilities } from '../models/DedicatedCloudBackupBackupCapabilities';
+import { VrackTask } from '../models/VrackTask';
+import { DedicatedCloudResourceNewPrices } from '../models/DedicatedCloudResourceNewPrices';
 import { DedicatedCloudSecurityOptionCompatibilityMatrixEntry } from '../models/DedicatedCloudSecurityOptionCompatibilityMatrixEntry';
-import { DedicatedCloudFiler } from '../models/DedicatedCloudFiler';
 import { DedicatedCloudRightVmNetworkRoleEnum } from '../models/DedicatedCloudRightVmNetworkRoleEnum';
-import { DedicatedCloudCapabilities } from '../models/DedicatedCloudCapabilities';
+import { DedicatedCloudDedicatedCloud } from '../models/DedicatedCloudDedicatedCloud';
 import { DedicatedCloudFilerNodeTypeEnum } from '../models/DedicatedCloudFilerNodeTypeEnum';
-import { DedicatedCloudIp } from '../models/DedicatedCloudIp';
-import { DedicatedCloudVendor } from '../models/DedicatedCloudVendor';
-import { DedicatedCloudFederationAccessNetwork } from '../models/DedicatedCloudFederationAccessNetwork';
-import { DedicatedCloudRightRightEnum } from '../models/DedicatedCloudRightRightEnum';
-import { DedicatedCloudReleaseEnum } from '../models/DedicatedCloudReleaseEnum';
-import { DedicatedCloudDisasterRecoveryProfile } from '../models/DedicatedCloudDisasterRecoveryProfile';
-import { DedicatedCloudBackupOptimizeProxies } from '../models/DedicatedCloudBackupOptimizeProxies';
-import { DedicatedCloudVm } from '../models/DedicatedCloudVm';
-import { DedicatedCloudSecurityOptionDependenciesTree } from '../models/DedicatedCloudSecurityOptionDependenciesTree';
-import { DedicatedCloudBackup } from '../models/DedicatedCloudBackup';
-import { DedicatedCloudTask } from '../models/DedicatedCloudTask';
-import { DedicatedCloudOs } from '../models/DedicatedCloudOs';
-import { DedicatedCloudBackupRepository } from '../models/DedicatedCloudBackupRepository';
-import { DedicatedCloudTwoFAWhitelist } from '../models/DedicatedCloudTwoFAWhitelist';
-import { DedicatedCloudFederation } from '../models/DedicatedCloudFederation';
-import { DedicatedCloudVrops } from '../models/DedicatedCloudVrops';
-import { DedicatedCloudVlan } from '../models/DedicatedCloudVlan';
-import { DedicatedCloudHostLocation } from '../models/DedicatedCloudHostLocation';
+import { DedicatedCloudIpCountriesEnum } from '../models/DedicatedCloudIpCountriesEnum';
+import { DedicatedCloudNsx } from '../models/DedicatedCloudNsx';
 import { DedicatedCloudBackupJob } from '../models/DedicatedCloudBackupJob';
+import { DedicatedCloudReleaseEnum } from '../models/DedicatedCloudReleaseEnum';
+import { DedicatedCloudFiler } from '../models/DedicatedCloudFiler';
+import { DedicatedCloudHcx } from '../models/DedicatedCloudHcx';
+import { DedicatedCloudVMEncryptionAccessNetwork } from '../models/DedicatedCloudVMEncryptionAccessNetwork';
+import { DedicatedCloudDisasterRecoveryProfile } from '../models/DedicatedCloudDisasterRecoveryProfile';
+import { DedicatedCloudIp } from '../models/DedicatedCloudIp';
+import { DedicatedCloudRightNetworkRoleEnum } from '../models/DedicatedCloudRightNetworkRoleEnum';
+import { DedicatedCloudFederation } from '../models/DedicatedCloudFederation';
+import { DedicatedCloudDisasterRecoveryZertoProtectedVm } from '../models/DedicatedCloudDisasterRecoveryZertoProtectedVm';
+import { DedicatedCloudVMEncryption } from '../models/DedicatedCloudVMEncryption';
+import { DedicatedCloudTaskStateEnum } from '../models/DedicatedCloudTaskStateEnum';
+import { DedicatedCloudFilerHourlyConsumption } from '../models/DedicatedCloudFilerHourlyConsumption';
+import { DedicatedCloudSecurityOptionDependenciesTree } from '../models/DedicatedCloudSecurityOptionDependenciesTree';
+import { DedicatedCloudFilerProfile } from '../models/DedicatedCloudFilerProfile';
+import { DedicatedCloudVrops } from '../models/DedicatedCloudVrops';
+import { DedicatedCloudPccStockProfile } from '../models/DedicatedCloudPccStockProfile';
+import { DedicatedCloudVcenter } from '../models/DedicatedCloudVcenter';
+import { DedicatedCloudCommercialRange } from '../models/DedicatedCloudCommercialRange';
+import { DedicatedCloudOptionCompatibility } from '../models/DedicatedCloudOptionCompatibility';
+import { DedicatedCloudCapabilities } from '../models/DedicatedCloudCapabilities';
+import { DedicatedCloudHds } from '../models/DedicatedCloudHds';
+import { DedicatedCloudHost } from '../models/DedicatedCloudHost';
+import { DedicatedCloudSecurityOption } from '../models/DedicatedCloudSecurityOption';
+import { DedicatedCloudBackupBackupCapabilities } from '../models/DedicatedCloudBackupBackupCapabilities';
+import { DedicatedCloudBackup } from '../models/DedicatedCloudBackup';
+import { DedicatedCloudBackupOptimizeProxies } from '../models/DedicatedCloudBackupOptimizeProxies';
+import { DedicatedCloudBackupBackupDaysEnum } from '../models/DedicatedCloudBackupBackupDaysEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { VrackDedicatedCloud } from '../models/VrackDedicatedCloud';
+import { DedicatedCloudServicePackStatus } from '../models/DedicatedCloudServicePackStatus';
+import { DedicatedCloudUserAccessPolicyEnum } from '../models/DedicatedCloudUserAccessPolicyEnum';
+import { DedicatedCloudTask } from '../models/DedicatedCloudTask';
+import { DedicatedCloudRightUserObjectRightTypeEnum } from '../models/DedicatedCloudRightUserObjectRightTypeEnum';
+import { DedicatedCloudObjectRight } from '../models/DedicatedCloudObjectRight';
+import { DedicatedCloudHipaa } from '../models/DedicatedCloudHipaa';
+import { DedicatedCloudBackupOfferTypeEnum } from '../models/DedicatedCloudBackupOfferTypeEnum';
+import { DedicatedCloudPrivateGateway } from '../models/DedicatedCloudPrivateGateway';
+import { DedicatedCloudNsxt } from '../models/DedicatedCloudNsxt';
+import { DedicatedCloudVendorOvhId } from '../models/DedicatedCloudVendorOvhId';
+import { DedicatedCloudRight } from '../models/DedicatedCloudRight';
+import { DedicatedCloudUser } from '../models/DedicatedCloudUser';
+import { DedicatedCloudHostStockProfile } from '../models/DedicatedCloudHostStockProfile';
+import { DedicatedCloudServicePack } from '../models/DedicatedCloudServicePack';
+import { DedicatedCloudCluster } from '../models/DedicatedCloudCluster';
+import { DedicatedCloudFilerLocation } from '../models/DedicatedCloudFilerLocation';
+import { ServicesService } from '../models/ServicesService';
+import { DedicatedCloudZpoolStockProfile } from '../models/DedicatedCloudZpoolStockProfile';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { DedicatedCloudHostLocation } from '../models/DedicatedCloudHostLocation';
+import { DedicatedCloudPciDss } from '../models/DedicatedCloudPciDss';
+import { DedicatedCloudVendorObjectTypeEnum } from '../models/DedicatedCloudVendorObjectTypeEnum';
+import { DedicatedCloudTwoFAWhitelist } from '../models/DedicatedCloudTwoFAWhitelist';
+import { DedicatedCloudVm } from '../models/DedicatedCloudVm';
+import { DedicatedCloudRightRightEnum } from '../models/DedicatedCloudRightRightEnum';
+import { DedicatedCloudDatacenter } from '../models/DedicatedCloudDatacenter';
+import { DedicatedCloudIpDetails } from '../models/DedicatedCloudIpDetails';
+import { DedicatedCloudVlan } from '../models/DedicatedCloudVlan';
+import { DedicatedCloudRobot } from '../models/DedicatedCloudRobot';
+import { DedicatedCloudHostHourlyConsumption } from '../models/DedicatedCloudHostHourlyConsumption';
+import { DedicatedCloudHostProfile } from '../models/DedicatedCloudHostProfile';
+import { DedicatedCloudSecurityOptionSecurityOptionEnum } from '../models/DedicatedCloudSecurityOptionSecurityOptionEnum';
+import { DedicatedCloudHostResilience } from '../models/DedicatedCloudHostResilience';
+import { DedicatedCloudFederationAccessNetwork } from '../models/DedicatedCloudFederationAccessNetwork';
+import { DedicatedCloudUserLogoutPolicyEnum } from '../models/DedicatedCloudUserLogoutPolicyEnum';
+import { DedicatedCloudCompliantRanges } from '../models/DedicatedCloudCompliantRanges';
+import { DedicatedCloudPasswordPolicy } from '../models/DedicatedCloudPasswordPolicy';
+import { DedicatedCloudVendor } from '../models/DedicatedCloudVendor';
+import { DedicatedCloudMetricsToken } from '../models/DedicatedCloudMetricsToken';
+import { DedicatedCloudOs } from '../models/DedicatedCloudOs';
+import { DedicatedCloudRestorePoint } from '../models/DedicatedCloudRestorePoint';
+import { DedicatedCloudBackupRepository } from '../models/DedicatedCloudBackupRepository';
 import OVHBase from '../ovh';
 
 class DedicatedCloudHandler {
@@ -92,39 +92,39 @@ class DedicatedCloudHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicatedCloud');
   };
 
   /** List of commercial Ranges available in a Dedicated Cloud */
-  getCommercialRange = (): Promise<string> => {
+  listCommercialRanges = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicatedCloud/commercialRange');
   };
 
   /** Get this object properties */
-  getCommercialRangeCommercialRangeName = (
+  getCommercialRangeByCommercialRangeName = (
     commercialRangeName: string
   ): Promise<DedicatedCloudCommercialRange> => {
     return this.ovh.request('GET', `/dedicatedCloud/commercialRange/${commercialRangeName}`);
   };
 
   /** List of locations available in a Dedicated Cloud */
-  getLocation = (): Promise<string> => {
+  listLocations = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicatedCloud/location');
   };
 
   /** Get this object properties */
-  getLocationPccZone = (pccZone: string): Promise<DedicatedCloudPccZone> => {
+  getLocationByPccZone = (pccZone: string): Promise<DedicatedCloudPccZone> => {
     return this.ovh.request('GET', `/dedicatedCloud/location/${pccZone}`);
   };
 
   /** Offered host profile */
-  getLocationPccZoneHostProfile = (pccZone: string): Promise<number> => {
+  getLocationHostProfileByPccZone = (pccZone: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/location/${pccZone}/hostProfile`);
   };
 
   /** Get this object properties */
-  getLocationPccZoneHostProfileId = (
+  getLocationHostProfileByPccZoneAndId = (
     id: number,
     pccZone: string
   ): Promise<DedicatedCloudHostProfile> => {
@@ -132,12 +132,12 @@ class DedicatedCloudHandler {
   };
 
   /** Offered hypervisor version */
-  getLocationPccZoneHypervisor = (pccZone: string): Promise<string> => {
+  getLocationHypervisorByPccZone = (pccZone: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/location/${pccZone}/hypervisor`);
   };
 
   /** Get this object properties */
-  getLocationPccZoneHypervisorShortName = (
+  getLocationHypervisorByPccZoneAndShortName = (
     pccZone: string,
     shortName: string
   ): Promise<DedicatedCloudOs> => {
@@ -145,27 +145,29 @@ class DedicatedCloudHandler {
   };
 
   /** Available host stock */
-  getLocationPccZoneStockHost = (pccZone: string): Promise<DedicatedCloudHostStockProfile> => {
+  getLocationStockHostByPccZone = (pccZone: string): Promise<DedicatedCloudHostStockProfile[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/location/${pccZone}/stock/host`);
   };
 
   /** Available PCC stock */
-  getLocationPccZoneStockPcc = (pccZone: string): Promise<DedicatedCloudPccStockProfile> => {
+  getLocationStockPccByPccZone = (pccZone: string): Promise<DedicatedCloudPccStockProfile[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/location/${pccZone}/stock/pcc`);
   };
 
   /** Available zpool stock */
-  getLocationPccZoneStockZpool = (pccZone: string): Promise<DedicatedCloudZpoolStockProfile> => {
+  getLocationStockZpoolByPccZone = (
+    pccZone: string
+  ): Promise<DedicatedCloudZpoolStockProfile[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/location/${pccZone}/stock/zpool`);
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<DedicatedCloudDedicatedCloud> => {
+  getByServiceName = (serviceName: string): Promise<DedicatedCloudDedicatedCloud> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putServiceName = (
+  updateByServiceName = (
     serviceName: string,
     body: DedicatedCloudDedicatedCloud
   ): Promise<DedicatedCloudTask> => {
@@ -173,12 +175,12 @@ class DedicatedCloudHandler {
   };
 
   /** Networks allowed to access to this Dedicated Cloud management interface */
-  getServiceNameAllowedNetwork = (serviceName: string): Promise<number> => {
+  getAllowedNetworkByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/allowedNetwork`);
   };
 
   /** Create a new Allowed network for your dedicatedCloud */
-  postServiceNameAllowedNetwork = (
+  createAllowedNetworkByServiceName = (
     serviceName: string,
     body: { description?: string; network: string }
   ): Promise<DedicatedCloudTask> => {
@@ -186,7 +188,7 @@ class DedicatedCloudHandler {
   };
 
   /** Remove this network from your Dedicated Cloud */
-  deleteServiceNameAllowedNetworkNetworkAccessId = (
+  deleteAllowedNetworkByServiceNameAndNetworkAccessId = (
     networkAccessId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -197,7 +199,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameAllowedNetworkNetworkAccessId = (
+  getAllowedNetworkByServiceNameAndNetworkAccessId = (
     networkAccessId: number,
     serviceName: string
   ): Promise<DedicatedCloudAllowedNetwork> => {
@@ -208,7 +210,7 @@ class DedicatedCloudHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameAllowedNetworkNetworkAccessId = (
+  updateAllowedNetworkByServiceNameAndNetworkAccessId = (
     networkAccessId: number,
     serviceName: string,
     body: DedicatedCloudAllowedNetwork
@@ -221,10 +223,10 @@ class DedicatedCloudHandler {
   };
 
   /** Tasks associated with this allowed network */
-  getServiceNameAllowedNetworkNetworkAccessIdTask = (
+  getAllowedNetworkTaskByServiceNameAndNetworkAccessId = (
     networkAccessId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/allowedNetwork/${networkAccessId}/task`
@@ -232,7 +234,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameAllowedNetworkNetworkAccessIdTaskTaskId = (
+  getAllowedNetworkTaskByServiceNameAndNetworkAccessIdAndTaskId = (
     networkAccessId: number,
     serviceName: string,
     taskId: number
@@ -244,7 +246,7 @@ class DedicatedCloudHandler {
   };
 
   /** Change the execution date of a maintenance. Works only if task type is maintenance and if it has not started yet. */
-  postServiceNameAllowedNetworkNetworkAccessIdTaskTaskIdChangeMaintenanceExecutionDate = (
+  updateAllowedNetworkTaskMaintenanceExecutionDateByServiceNameAndNetworkAccessIdAndTaskId = (
     networkAccessId: number,
     serviceName: string,
     taskId: number,
@@ -258,7 +260,7 @@ class DedicatedCloudHandler {
   };
 
   /** Restart task in error. */
-  postServiceNameAllowedNetworkNetworkAccessIdTaskTaskIdResetTaskState = (
+  postAllowedNetworkTaskResetTaskStateByServiceNameAndNetworkAccessIdAndTaskId = (
     networkAccessId: number,
     serviceName: string,
     taskId: number,
@@ -272,12 +274,12 @@ class DedicatedCloudHandler {
   };
 
   /** Backup repositories associated with this Pcc */
-  getServiceNameBackupRepository = (serviceName: string): Promise<number> => {
+  getBackupRepositoryByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/backupRepository`);
   };
 
   /** Get this object properties */
-  getServiceNameBackupRepositoryRepositoryId = (
+  getBackupRepositoryByServiceNameAndRepositoryId = (
     repositoryId: number,
     serviceName: string
   ): Promise<DedicatedCloudBackupRepository> => {
@@ -288,20 +290,20 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameCapabilities = (serviceName: string): Promise<DedicatedCloudCapabilities> => {
+  getCapabilitiesByServiceName = (serviceName: string): Promise<DedicatedCloudCapabilities> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/capabilities`);
   };
 
   /** Launch a contact change procedure */
-  postServiceNameChangeContact = (
+  launchChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/changeContact`, body);
   };
 
   /** Update this Dedicated Cloud properties. */
-  postServiceNameChangeProperties = (
+  updateChangePropertiesByServiceName = (
     serviceName: string,
     body: {
       description?: string;
@@ -316,19 +318,19 @@ class DedicatedCloudHandler {
   };
 
   /** Get the name of the commercial ranges compliant with your Dedicated Cloud */
-  getServiceNameCommercialRangeCompliance = (
+  getCommercialRangeComplianceByServiceName = (
     serviceName: string
-  ): Promise<DedicatedCloudCompliantRanges> => {
+  ): Promise<DedicatedCloudCompliantRanges[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/commercialRange/compliance`);
   };
 
   /** Get the name of the commercial ranges orderable for your Dedicated Cloud */
-  getServiceNameCommercialRangeOrderable = (serviceName: string): Promise<string> => {
+  getCommercialRangeOrderableByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/commercialRange/orderable`);
   };
 
   /** Confirm termination of your service */
-  postServiceNameConfirmTermination = (
+  confirmTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -341,12 +343,12 @@ class DedicatedCloudHandler {
   };
 
   /** Datacenters associated with this Dedicated Cloud */
-  getServiceNameDatacenter = (serviceName: string): Promise<number> => {
+  getDatacenterByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/datacenter`);
   };
 
   /** Add a new Datacenter in your Dedicated Cloud */
-  postServiceNameDatacenter = (
+  addDatacenterByServiceName = (
     serviceName: string,
     body: { commercialRangeName: string; vrackName?: string }
   ): Promise<DedicatedCloudTask> => {
@@ -354,7 +356,7 @@ class DedicatedCloudHandler {
   };
 
   /** Remove this Datacenter from your Dedicated Cloud. (It has to be empty in order to be removable) */
-  deleteServiceNameDatacenterDatacenterId = (
+  deleteDatacenterByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -362,7 +364,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterId = (
+  getDatacenterByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudDatacenter> => {
@@ -370,7 +372,7 @@ class DedicatedCloudHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameDatacenterDatacenterId = (
+  updateDatacenterByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string,
     body: DedicatedCloudDatacenter
@@ -383,7 +385,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterIdBackup = (
+  getDatacenterBackupByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudBackup> => {
@@ -394,7 +396,7 @@ class DedicatedCloudHandler {
   };
 
   /** Restores the last restore points for each backup located in the given backup repository to the given Datacenter */
-  postServiceNameDatacenterDatacenterIdBackupBatchRestore = (
+  postDatacenterBackupBatchRestoreByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string,
     body: { backupJobName?: string; backupRepositoryName: string }
@@ -407,7 +409,7 @@ class DedicatedCloudHandler {
   };
 
   /** Generates recommendation for Backup Proxies optimization */
-  getServiceNameDatacenterDatacenterIdBackupCanOptimizeProxies = (
+  getDatacenterBackupCanOptimizeProxiesByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudBackupOptimizeProxies> => {
@@ -418,7 +420,7 @@ class DedicatedCloudHandler {
   };
 
   /** Edit the backup on a Dedicated Cloud */
-  postServiceNameDatacenterDatacenterIdBackupChangeProperties = (
+  updateDatacenterBackupChangePropertiesByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string,
     body: {
@@ -440,7 +442,7 @@ class DedicatedCloudHandler {
   };
 
   /** Disable backup solution on a Dedicated Cloud */
-  postServiceNameDatacenterDatacenterIdBackupDisable = (
+  disableDatacenterBackupByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -451,7 +453,7 @@ class DedicatedCloudHandler {
   };
 
   /** Enable backup solution on a Dedicated Cloud */
-  postServiceNameDatacenterDatacenterIdBackupEnable = (
+  enableDatacenterBackupByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string,
     body: { backupOffer?: DedicatedCloudBackupOfferTypeEnum }
@@ -464,7 +466,7 @@ class DedicatedCloudHandler {
   };
 
   /** Generates an email report with all the backups, their last restore point, their size and their location */
-  postServiceNameDatacenterDatacenterIdBackupGenerateReport = (
+  postDatacenterBackupGenerateReportByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -475,10 +477,10 @@ class DedicatedCloudHandler {
   };
 
   /** List backup offer capabilities */
-  getServiceNameDatacenterDatacenterIdBackupOfferCapabilities = (
+  listDatacenterBackupOfferCapabilitiesByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
-  ): Promise<DedicatedCloudBackupBackupCapabilities> => {
+  ): Promise<DedicatedCloudBackupBackupCapabilities[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/backup/offerCapabilities`
@@ -486,7 +488,7 @@ class DedicatedCloudHandler {
   };
 
   /** Optimizes number of Backup Proxies required for given Datacenter */
-  postServiceNameDatacenterDatacenterIdBackupOptimizeProxies = (
+  postDatacenterBackupOptimizeProxiesByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -497,10 +499,10 @@ class DedicatedCloudHandler {
   };
 
   /** Backup repositories associated with this Datacenter */
-  getServiceNameDatacenterDatacenterIdBackupRepository = (
+  getDatacenterBackupRepositoryByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/backupRepository`
@@ -508,7 +510,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterIdBackupRepositoryRepositoryId = (
+  getDatacenterBackupRepositoryByServiceNameAndDatacenterIdAndRepositoryId = (
     datacenterId: number,
     repositoryId: number,
     serviceName: string
@@ -520,7 +522,7 @@ class DedicatedCloudHandler {
   };
 
   /** Check whether your backup jobs are correctly set in your current datacenter, use this when your virtual machines have been migrated through another datacenter */
-  postServiceNameDatacenterDatacenterIdCheckBackupJobs = (
+  checkDatacenterBackupJobsByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -531,10 +533,10 @@ class DedicatedCloudHandler {
   };
 
   /** Clusters associated with this Datacenter */
-  getServiceNameDatacenterDatacenterIdCluster = (
+  getDatacenterClusterByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/cluster`
@@ -542,7 +544,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterIdClusterId = (
+  getDatacenterClusterByServiceNameAndDatacenterIdAndId = (
     datacenterId: number,
     id: number,
     serviceName: string
@@ -554,7 +556,7 @@ class DedicatedCloudHandler {
   };
 
   /** Disable Zerto */
-  postServiceNameDatacenterDatacenterIdDisasterRecoveryZertoDisable = (
+  disableDatacenterDisasterRecoveryZertoByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string,
     body: { secondaryDatacenterId: number; secondaryServiceName: string }
@@ -567,7 +569,7 @@ class DedicatedCloudHandler {
   };
 
   /** Enable Zerto replication between 2 OVH dedicated Clouds */
-  postServiceNameDatacenterDatacenterIdDisasterRecoveryZertoEnable = (
+  enableDatacenterDisasterRecoveryZertoByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string,
     body: {
@@ -585,7 +587,7 @@ class DedicatedCloudHandler {
   };
 
   /** Finish migrating Zerto option to this datacenter */
-  postServiceNameDatacenterDatacenterIdDisasterRecoveryZertoEndMigration = (
+  postDatacenterDisasterRecoveryZertoEndMigrationByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -596,7 +598,7 @@ class DedicatedCloudHandler {
   };
 
   /** Start migrating Zerto option to this datacenter */
-  postServiceNameDatacenterDatacenterIdDisasterRecoveryZertoStartMigration = (
+  postDatacenterDisasterRecoveryZertoStartMigrationByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -607,7 +609,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get the current state of Zerto deployment on your dedicated Cloud. */
-  getServiceNameDatacenterDatacenterIdDisasterRecoveryZertoStatus = (
+  getDatacenterDisasterRecoveryZertoStatusByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudDisasterRecoveryProfile> => {
@@ -618,10 +620,10 @@ class DedicatedCloudHandler {
   };
 
   /** Get the list of VMs protected by Zerto for a specific month on your dedicated Cloud. */
-  getServiceNameDatacenterDatacenterIdDisasterRecoveryZertoUsageReport = (
+  getDatacenterDisasterRecoveryZertoUsageReportByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
-  ): Promise<DedicatedCloudDisasterRecoveryZertoProtectedVm> => {
+  ): Promise<DedicatedCloudDisasterRecoveryZertoProtectedVm[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/disasterRecovery/zerto/usageReport`
@@ -629,7 +631,7 @@ class DedicatedCloudHandler {
   };
 
   /** Configure vpn between your OVH Dedicated Cloud and your onsite infrastructure */
-  postServiceNameDatacenterDatacenterIdDisasterRecoveryZertoSingleConfigureVpn = (
+  postDatacenterDisasterRecoveryZertoSingleConfigureVpnByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string,
     body: {
@@ -648,7 +650,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get the default localVraNetwork subnet suggested by OVH */
-  getServiceNameDatacenterDatacenterIdDisasterRecoveryZertoSingleDefaultLocalVraNetwork = (
+  getDatacenterDisasterRecoveryZertoSingleDefaultLocalVraNetworkByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<string> => {
@@ -659,7 +661,7 @@ class DedicatedCloudHandler {
   };
 
   /** Disable Single site Zerto */
-  postServiceNameDatacenterDatacenterIdDisasterRecoveryZertoSingleDisable = (
+  disableDatacenterDisasterRecoveryZertoSingleByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -670,7 +672,7 @@ class DedicatedCloudHandler {
   };
 
   /** Enable Zerto replication between your OVH Dedicated Cloud and your onsite infrastructure */
-  postServiceNameDatacenterDatacenterIdDisasterRecoveryZertoSingleEnable = (
+  enableDatacenterDisasterRecoveryZertoSingleByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string,
     body: { localVraNetwork: string; ovhEndpointIp: string; remoteVraNetwork: string }
@@ -683,7 +685,7 @@ class DedicatedCloudHandler {
   };
 
   /** Request a pairing token in order to link your OVHcloud Zerto Virtual Manager to your local one */
-  postServiceNameDatacenterDatacenterIdDisasterRecoveryZertoSingleRequestPairingToken = (
+  postDatacenterDisasterRecoveryZertoSingleRequestPairingTokenByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -694,10 +696,10 @@ class DedicatedCloudHandler {
   };
 
   /** Filers associated with this Datacenter */
-  getServiceNameDatacenterDatacenterIdFiler = (
+  getDatacenterFilerByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/filer`
@@ -705,7 +707,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterIdFilerFilerId = (
+  getDatacenterFilerByServiceNameAndDatacenterIdAndFilerId = (
     datacenterId: number,
     filerId: number,
     serviceName: string
@@ -717,7 +719,7 @@ class DedicatedCloudHandler {
   };
 
   /** Check if filer on your Dedicated Cloud is capable of converting to global */
-  getServiceNameDatacenterDatacenterIdFilerFilerIdCheckGlobalCompatible = (
+  checkDatacenterFilerGlobalCompatibleByServiceNameAndDatacenterIdAndFilerId = (
     datacenterId: number,
     filerId: number,
     serviceName: string
@@ -729,7 +731,7 @@ class DedicatedCloudHandler {
   };
 
   /** Change the filer type to global on your Dedicated Cloud. */
-  postServiceNameDatacenterDatacenterIdFilerFilerIdConvertToGlobal = (
+  updateDatacenterFilerConvertToGlobalByServiceNameAndDatacenterIdAndFilerId = (
     datacenterId: number,
     filerId: number,
     serviceName: string
@@ -741,7 +743,7 @@ class DedicatedCloudHandler {
   };
 
   /** Hourly consumption associated with this Filer */
-  getServiceNameDatacenterDatacenterIdFilerFilerIdHourlyConsumption = (
+  getDatacenterFilerHourlyConsumptionByServiceNameAndDatacenterIdAndFilerId = (
     datacenterId: number,
     filerId: number,
     serviceName: string
@@ -753,7 +755,7 @@ class DedicatedCloudHandler {
   };
 
   /** Location of the Filer */
-  getServiceNameDatacenterDatacenterIdFilerFilerIdLocation = (
+  getDatacenterFilerLocationByServiceNameAndDatacenterIdAndFilerId = (
     datacenterId: number,
     filerId: number,
     serviceName: string
@@ -765,7 +767,7 @@ class DedicatedCloudHandler {
   };
 
   /** Remove the filer from your Dedicated Cloud. */
-  postServiceNameDatacenterDatacenterIdFilerFilerIdRemove = (
+  postDatacenterFilerRemoveByServiceNameAndDatacenterIdAndFilerId = (
     datacenterId: number,
     filerId: number,
     serviceName: string
@@ -777,11 +779,11 @@ class DedicatedCloudHandler {
   };
 
   /** Tasks associated with this Filer */
-  getServiceNameDatacenterDatacenterIdFilerFilerIdTask = (
+  getDatacenterFilerTaskByServiceNameAndDatacenterIdAndFilerId = (
     datacenterId: number,
     filerId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/filer/${filerId}/task`
@@ -789,7 +791,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterIdFilerFilerIdTaskTaskId = (
+  getDatacenterFilerTaskByServiceNameAndDatacenterIdAndFilerIdAndTaskId = (
     datacenterId: number,
     filerId: number,
     serviceName: string,
@@ -802,22 +804,23 @@ class DedicatedCloudHandler {
   };
 
   /** Change the execution date of a maintenance. Works only if task type is maintenance and if it has not started yet. */
-  postServiceNameDatacenterDatacenterIdFilerFilerIdTaskTaskIdChangeMaintenanceExecutionDate = (
-    datacenterId: number,
-    filerId: number,
-    serviceName: string,
-    taskId: number,
-    body: { executionDate: Date }
-  ): Promise<DedicatedCloudTask> => {
-    return this.ovh.request(
-      'POST',
-      `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/filer/${filerId}/task/${taskId}/changeMaintenanceExecutionDate`,
-      body
-    );
-  };
+  updateDatacenterFilerTaskMaintenanceExecutionDateByServiceNameAndDatacenterIdAndFilerIdAndTaskId =
+    (
+      datacenterId: number,
+      filerId: number,
+      serviceName: string,
+      taskId: number,
+      body: { executionDate: Date }
+    ): Promise<DedicatedCloudTask> => {
+      return this.ovh.request(
+        'POST',
+        `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/filer/${filerId}/task/${taskId}/changeMaintenanceExecutionDate`,
+        body
+      );
+    };
 
   /** Restart task in error. */
-  postServiceNameDatacenterDatacenterIdFilerFilerIdTaskTaskIdResetTaskState = (
+  postDatacenterFilerTaskResetTaskStateByServiceNameAndDatacenterIdAndFilerIdAndTaskId = (
     datacenterId: number,
     filerId: number,
     serviceName: string,
@@ -832,10 +835,10 @@ class DedicatedCloudHandler {
   };
 
   /** Hosts associated with this Datacenter */
-  getServiceNameDatacenterDatacenterIdHost = (
+  getDatacenterHostByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/host`
@@ -843,7 +846,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterIdHostHostId = (
+  getDatacenterHostByServiceNameAndDatacenterIdAndHostId = (
     datacenterId: number,
     hostId: number,
     serviceName: string
@@ -855,7 +858,7 @@ class DedicatedCloudHandler {
   };
 
   /** Add a spare host to your Dedicated Cloud. */
-  postServiceNameDatacenterDatacenterIdHostHostIdAddHostSpare = (
+  addDatacenterHostHostSpareByServiceNameAndDatacenterIdAndHostId = (
     datacenterId: number,
     hostId: number,
     serviceName: string,
@@ -869,7 +872,7 @@ class DedicatedCloudHandler {
   };
 
   /** Hourly consumption associated with this host. */
-  getServiceNameDatacenterDatacenterIdHostHostIdHourlyConsumption = (
+  getDatacenterHostHourlyConsumptionByServiceNameAndDatacenterIdAndHostId = (
     datacenterId: number,
     hostId: number,
     serviceName: string
@@ -881,7 +884,7 @@ class DedicatedCloudHandler {
   };
 
   /** Location of the host */
-  getServiceNameDatacenterDatacenterIdHostHostIdLocation = (
+  getDatacenterHostLocationByServiceNameAndDatacenterIdAndHostId = (
     datacenterId: number,
     hostId: number,
     serviceName: string
@@ -893,7 +896,7 @@ class DedicatedCloudHandler {
   };
 
   /** Remove the host from your Dedicated Cloud. */
-  postServiceNameDatacenterDatacenterIdHostHostIdRemove = (
+  postDatacenterHostRemoveByServiceNameAndDatacenterIdAndHostId = (
     datacenterId: number,
     hostId: number,
     serviceName: string
@@ -905,7 +908,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterIdHostHostIdResilience = (
+  getDatacenterHostResilienceByServiceNameAndDatacenterIdAndHostId = (
     datacenterId: number,
     hostId: number,
     serviceName: string
@@ -917,7 +920,7 @@ class DedicatedCloudHandler {
   };
 
   /** Check if resilience test can be performed */
-  getServiceNameDatacenterDatacenterIdHostHostIdResilienceCanBeEnabled = (
+  checkDatacenterHostResilienceCanBeEnabledByServiceNameAndDatacenterIdAndHostId = (
     datacenterId: number,
     hostId: number,
     serviceName: string
@@ -929,7 +932,7 @@ class DedicatedCloudHandler {
   };
 
   /** Disable resilience test (reconnect the network of your host) */
-  postServiceNameDatacenterDatacenterIdHostHostIdResilienceDisable = (
+  disableDatacenterHostResilienceByServiceNameAndDatacenterIdAndHostId = (
     datacenterId: number,
     hostId: number,
     serviceName: string
@@ -941,7 +944,7 @@ class DedicatedCloudHandler {
   };
 
   /** Enable resilience test (disconnnect the network of your host) */
-  postServiceNameDatacenterDatacenterIdHostHostIdResilienceEnable = (
+  enableDatacenterHostResilienceByServiceNameAndDatacenterIdAndHostId = (
     datacenterId: number,
     hostId: number,
     serviceName: string,
@@ -955,11 +958,11 @@ class DedicatedCloudHandler {
   };
 
   /** Tasks associated with this Host */
-  getServiceNameDatacenterDatacenterIdHostHostIdTask = (
+  getDatacenterHostTaskByServiceNameAndDatacenterIdAndHostId = (
     datacenterId: number,
     hostId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/host/${hostId}/task`
@@ -967,7 +970,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterIdHostHostIdTaskTaskId = (
+  getDatacenterHostTaskByServiceNameAndDatacenterIdAndHostIdAndTaskId = (
     datacenterId: number,
     hostId: number,
     serviceName: string,
@@ -980,7 +983,7 @@ class DedicatedCloudHandler {
   };
 
   /** Change the execution date of a maintenance. Works only if task type is maintenance and if it has not started yet. */
-  postServiceNameDatacenterDatacenterIdHostHostIdTaskTaskIdChangeMaintenanceExecutionDate = (
+  updateDatacenterHostTaskMaintenanceExecutionDateByServiceNameAndDatacenterIdAndHostIdAndTaskId = (
     datacenterId: number,
     hostId: number,
     serviceName: string,
@@ -995,7 +998,7 @@ class DedicatedCloudHandler {
   };
 
   /** Restart task in error. */
-  postServiceNameDatacenterDatacenterIdHostHostIdTaskTaskIdResetTaskState = (
+  postDatacenterHostTaskResetTaskStateByServiceNameAndDatacenterIdAndHostIdAndTaskId = (
     datacenterId: number,
     hostId: number,
     serviceName: string,
@@ -1010,7 +1013,7 @@ class DedicatedCloudHandler {
   };
 
   /** Order a new hourly Filer in a given Datacenter */
-  postServiceNameDatacenterDatacenterIdOrderNewFilerHourly = (
+  postDatacenterOrderNewFilerHourlyByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string,
     body: { name: string }
@@ -1023,7 +1026,7 @@ class DedicatedCloudHandler {
   };
 
   /** Order a new hourly Host in a given Datacenter */
-  postServiceNameDatacenterDatacenterIdOrderNewHostHourly = (
+  postDatacenterOrderNewHostHourlyByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string,
     body: { name: string; vmwareClusterId?: string }
@@ -1036,10 +1039,10 @@ class DedicatedCloudHandler {
   };
 
   /** List available filers in a given Dedicated Cloud Datacenter */
-  getServiceNameDatacenterDatacenterIdOrderableFilerProfiles = (
+  listDatacenterOrderableFilerProfilesByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
-  ): Promise<DedicatedCloudFilerProfile> => {
+  ): Promise<DedicatedCloudFilerProfile[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/orderableFilerProfiles`
@@ -1047,10 +1050,10 @@ class DedicatedCloudHandler {
   };
 
   /** List available hosts in a given Dedicated Cloud Datacenter */
-  getServiceNameDatacenterDatacenterIdOrderableHostProfiles = (
+  listDatacenterOrderableHostProfilesByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
-  ): Promise<DedicatedCloudHostProfile> => {
+  ): Promise<DedicatedCloudHostProfile[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/orderableHostProfiles`
@@ -1058,7 +1061,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterIdPrivateGateway = (
+  getDatacenterPrivateGatewayByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudPrivateGateway> => {
@@ -1069,7 +1072,7 @@ class DedicatedCloudHandler {
   };
 
   /** Remove the private gateway in your Dedicated Cloud and open public access. */
-  postServiceNameDatacenterDatacenterIdPrivateGatewayDisable = (
+  postDatacenterPrivateGatewayDisableByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -1080,7 +1083,7 @@ class DedicatedCloudHandler {
   };
 
   /** Deploy a private gateway on your Dedicated Cloud to block all public access */
-  postServiceNameDatacenterDatacenterIdPrivateGatewayEnable = (
+  postDatacenterPrivateGatewayEnableByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string,
     body: { ip: string; netmask: string; portgroup: string }
@@ -1093,10 +1096,10 @@ class DedicatedCloudHandler {
   };
 
   /** Tasks associated with this Datacenter */
-  getServiceNameDatacenterDatacenterIdTask = (
+  getDatacenterTaskByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/task`
@@ -1104,7 +1107,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterIdTaskTaskId = (
+  getDatacenterTaskByServiceNameAndDatacenterIdAndTaskId = (
     datacenterId: number,
     serviceName: string,
     taskId: number
@@ -1116,7 +1119,7 @@ class DedicatedCloudHandler {
   };
 
   /** Change the execution date of a maintenance. Works only if task type is maintenance and if it has not started yet. */
-  postServiceNameDatacenterDatacenterIdTaskTaskIdChangeMaintenanceExecutionDate = (
+  updateDatacenterTaskMaintenanceExecutionDateByServiceNameAndDatacenterIdAndTaskId = (
     datacenterId: number,
     serviceName: string,
     taskId: number,
@@ -1130,7 +1133,7 @@ class DedicatedCloudHandler {
   };
 
   /** Restart task in error. */
-  postServiceNameDatacenterDatacenterIdTaskTaskIdResetTaskState = (
+  postDatacenterTaskResetTaskStateByServiceNameAndDatacenterIdAndTaskId = (
     datacenterId: number,
     serviceName: string,
     taskId: number,
@@ -1144,15 +1147,15 @@ class DedicatedCloudHandler {
   };
 
   /** Virtual machiness associated with this Datacenter */
-  getServiceNameDatacenterDatacenterIdVm = (
+  getDatacenterVmByServiceNameAndDatacenterId = (
     datacenterId: number,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/vm`);
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterIdVmVmId = (
+  getDatacenterVmByServiceNameAndDatacenterIdAndVmId = (
     datacenterId: number,
     serviceName: string,
     vmId: number
@@ -1164,7 +1167,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterIdVmVmIdBackupJob = (
+  getDatacenterVmBackupJobByServiceNameAndDatacenterIdAndVmId = (
     datacenterId: number,
     serviceName: string,
     vmId: number
@@ -1176,11 +1179,11 @@ class DedicatedCloudHandler {
   };
 
   /** Edit a backup job */
-  postServiceNameDatacenterDatacenterIdVmVmIdBackupJob = (
+  updateDatacenterVmBackupJobByServiceNameAndDatacenterIdAndVmId = (
     datacenterId: number,
     serviceName: string,
     vmId: number,
-    body: { backupDays: DedicatedCloudBackupBackupDaysEnum }
+    body: { backupDays: DedicatedCloudBackupBackupDaysEnum[] }
   ): Promise<DedicatedCloudTask> => {
     return this.ovh.request(
       'POST',
@@ -1190,7 +1193,7 @@ class DedicatedCloudHandler {
   };
 
   /** Disable backup solution on this virtual Machine */
-  postServiceNameDatacenterDatacenterIdVmVmIdBackupJobDisable = (
+  disableDatacenterVmBackupJobByServiceNameAndDatacenterIdAndVmId = (
     datacenterId: number,
     serviceName: string,
     vmId: number
@@ -1202,11 +1205,11 @@ class DedicatedCloudHandler {
   };
 
   /** Enable backup solution on this virtual Machine */
-  postServiceNameDatacenterDatacenterIdVmVmIdBackupJobEnable = (
+  enableDatacenterVmBackupJobByServiceNameAndDatacenterIdAndVmId = (
     datacenterId: number,
     serviceName: string,
     vmId: number,
-    body: { backupDays: DedicatedCloudBackupBackupDaysEnum }
+    body: { backupDays: DedicatedCloudBackupBackupDaysEnum[] }
   ): Promise<DedicatedCloudTask> => {
     return this.ovh.request(
       'POST',
@@ -1216,11 +1219,11 @@ class DedicatedCloudHandler {
   };
 
   /** Restore point associated to this Backup Job */
-  getServiceNameDatacenterDatacenterIdVmVmIdBackupJobRestorePoints = (
+  getDatacenterVmBackupJobRestorePointsByServiceNameAndDatacenterIdAndVmId = (
     datacenterId: number,
     serviceName: string,
     vmId: number
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/vm/${vmId}/backupJob/restorePoints`
@@ -1228,7 +1231,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDatacenterDatacenterIdVmVmIdBackupJobRestorePointsRestorePointId = (
+  getDatacenterVmBackupJobRestorePointsByServiceNameAndDatacenterIdAndVmIdAndRestorePointId = (
     datacenterId: number,
     restorePointId: number,
     serviceName: string,
@@ -1241,22 +1244,23 @@ class DedicatedCloudHandler {
   };
 
   /** Restore this restore point */
-  postServiceNameDatacenterDatacenterIdVmVmIdBackupJobRestorePointsRestorePointIdRestore = (
-    datacenterId: number,
-    restorePointId: number,
-    serviceName: string,
-    vmId: number,
-    body: { filerId: number }
-  ): Promise<DedicatedCloudTask> => {
-    return this.ovh.request(
-      'POST',
-      `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/vm/${vmId}/backupJob/restorePoints/${restorePointId}/restore`,
-      body
-    );
-  };
+  postDatacenterVmBackupJobRestorePointsRestoreByServiceNameAndDatacenterIdAndVmIdAndRestorePointId =
+    (
+      datacenterId: number,
+      restorePointId: number,
+      serviceName: string,
+      vmId: number,
+      body: { filerId: number }
+    ): Promise<DedicatedCloudTask> => {
+      return this.ovh.request(
+        'POST',
+        `/dedicatedCloud/${serviceName}/datacenter/${datacenterId}/vm/${vmId}/backupJob/restorePoints/${restorePointId}/restore`,
+        body
+      );
+    };
 
   /** Disable backup on this virtual Machine */
-  postServiceNameDatacenterDatacenterIdVmVmIdDisableBackup = (
+  disableDatacenterVmBackupByServiceNameAndDatacenterIdAndVmId = (
     datacenterId: number,
     serviceName: string,
     vmId: number
@@ -1268,7 +1272,7 @@ class DedicatedCloudHandler {
   };
 
   /** Disable Carp on Virtual Machine */
-  postServiceNameDatacenterDatacenterIdVmVmIdDisableCarp = (
+  disableDatacenterVmCarpByServiceNameAndDatacenterIdAndVmId = (
     datacenterId: number,
     serviceName: string,
     vmId: number,
@@ -1282,11 +1286,11 @@ class DedicatedCloudHandler {
   };
 
   /** Edit backup on this virtual Machine */
-  postServiceNameDatacenterDatacenterIdVmVmIdEditBackup = (
+  updateDatacenterVmBackupByServiceNameAndDatacenterIdAndVmId = (
     datacenterId: number,
     serviceName: string,
     vmId: number,
-    body: { backupDays: DedicatedCloudBackupBackupDaysEnum }
+    body: { backupDays: DedicatedCloudBackupBackupDaysEnum[] }
   ): Promise<DedicatedCloudTask> => {
     return this.ovh.request(
       'POST',
@@ -1296,11 +1300,11 @@ class DedicatedCloudHandler {
   };
 
   /** Enable backup on this virtual Machine */
-  postServiceNameDatacenterDatacenterIdVmVmIdEnableBackup = (
+  enableDatacenterVmBackupByServiceNameAndDatacenterIdAndVmId = (
     datacenterId: number,
     serviceName: string,
     vmId: number,
-    body: { backupDays: DedicatedCloudBackupBackupDaysEnum }
+    body: { backupDays: DedicatedCloudBackupBackupDaysEnum[] }
   ): Promise<DedicatedCloudTask> => {
     return this.ovh.request(
       'POST',
@@ -1310,7 +1314,7 @@ class DedicatedCloudHandler {
   };
 
   /** Enable Carp on Virtual Machine */
-  postServiceNameDatacenterDatacenterIdVmVmIdEnableCarp = (
+  enableDatacenterVmCarpByServiceNameAndDatacenterIdAndVmId = (
     datacenterId: number,
     serviceName: string,
     vmId: number,
@@ -1324,7 +1328,7 @@ class DedicatedCloudHandler {
   };
 
   /** Restore this restore point */
-  postServiceNameDatacenterDatacenterIdVmVmIdRestoreBackup = (
+  postDatacenterVmRestoreBackupByServiceNameAndDatacenterIdAndVmId = (
     datacenterId: number,
     serviceName: string,
     vmId: number,
@@ -1338,17 +1342,17 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameFederation = (serviceName: string): Promise<DedicatedCloudFederation> => {
+  getFederationByServiceName = (serviceName: string): Promise<DedicatedCloudFederation> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/federation`);
   };
 
   /** Active Directories linked to this Dedicated Cloud */
-  getServiceNameFederationActiveDirectory = (serviceName: string): Promise<number> => {
+  getFederationActiveDirectoryByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/federation/activeDirectory`);
   };
 
   /** Add a new option user access */
-  postServiceNameFederationActiveDirectory = (
+  addFederationActiveDirectoryByServiceName = (
     serviceName: string,
     body: {
       baseDnForGroups: string;
@@ -1373,7 +1377,7 @@ class DedicatedCloudHandler {
   };
 
   /** Remove an option user access */
-  deleteServiceNameFederationActiveDirectoryActiveDirectoryId = (
+  deleteFederationActiveDirectoryByServiceNameAndActiveDirectoryId = (
     activeDirectoryId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -1384,7 +1388,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameFederationActiveDirectoryActiveDirectoryId = (
+  getFederationActiveDirectoryByServiceNameAndActiveDirectoryId = (
     activeDirectoryId: number,
     serviceName: string
   ): Promise<DedicatedCloudFederationAccessNetwork> => {
@@ -1395,7 +1399,7 @@ class DedicatedCloudHandler {
   };
 
   /** Change Active Directory properties */
-  postServiceNameFederationActiveDirectoryActiveDirectoryIdChangeProperties = (
+  updateFederationActiveDirectoryPropertiesByServiceNameAndActiveDirectoryId = (
     activeDirectoryId: number,
     serviceName: string,
     body: { description?: string; password: string; sslThumbprint?: string; username: string }
@@ -1408,7 +1412,7 @@ class DedicatedCloudHandler {
   };
 
   /** Grant Active Directory group */
-  postServiceNameFederationActiveDirectoryActiveDirectoryIdGrantActiveDirectoryGroup = (
+  postFederationActiveDirectoryGrantActiveDirectoryGroupByServiceNameAndActiveDirectoryId = (
     activeDirectoryId: number,
     serviceName: string,
     body: { groupName: string }
@@ -1421,7 +1425,7 @@ class DedicatedCloudHandler {
   };
 
   /** Grant Active Directory user */
-  postServiceNameFederationActiveDirectoryActiveDirectoryIdGrantActiveDirectoryUser = (
+  postFederationActiveDirectoryGrantActiveDirectoryUserByServiceNameAndActiveDirectoryId = (
     activeDirectoryId: number,
     serviceName: string,
     body: { username: string }
@@ -1434,12 +1438,12 @@ class DedicatedCloudHandler {
   };
 
   /** Filers mounted on all Datacenters of your Dedicated Cloud Vsphere */
-  getServiceNameFiler = (serviceName: string): Promise<number> => {
+  getFilerByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/filer`);
   };
 
   /** Get this object properties */
-  getServiceNameFilerFilerId = (
+  getFilerByServiceNameAndFilerId = (
     filerId: number,
     serviceName: string
   ): Promise<DedicatedCloudFiler> => {
@@ -1447,7 +1451,7 @@ class DedicatedCloudHandler {
   };
 
   /** Check if filer on your Dedicated Cloud is capable of converting to global */
-  getServiceNameFilerFilerIdCheckGlobalCompatible = (
+  checkFilerGlobalCompatibleByServiceNameAndFilerId = (
     filerId: number,
     serviceName: string
   ): Promise<boolean> => {
@@ -1458,7 +1462,7 @@ class DedicatedCloudHandler {
   };
 
   /** Change the filer type to global on your Dedicated Cloud. */
-  postServiceNameFilerFilerIdConvertToGlobal = (
+  updateFilerConvertToGlobalByServiceNameAndFilerId = (
     filerId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -1469,7 +1473,7 @@ class DedicatedCloudHandler {
   };
 
   /** Hourly consumption associated with this Filer */
-  getServiceNameFilerFilerIdHourlyConsumption = (
+  getFilerHourlyConsumptionByServiceNameAndFilerId = (
     filerId: number,
     serviceName: string
   ): Promise<DedicatedCloudFilerHourlyConsumption> => {
@@ -1480,7 +1484,7 @@ class DedicatedCloudHandler {
   };
 
   /** Location of the Filer */
-  getServiceNameFilerFilerIdLocation = (
+  getFilerLocationByServiceNameAndFilerId = (
     filerId: number,
     serviceName: string
   ): Promise<DedicatedCloudFilerLocation> => {
@@ -1488,7 +1492,7 @@ class DedicatedCloudHandler {
   };
 
   /** Remove the filer from your Dedicated Cloud. */
-  postServiceNameFilerFilerIdRemove = (
+  postFilerRemoveByServiceNameAndFilerId = (
     filerId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -1496,12 +1500,15 @@ class DedicatedCloudHandler {
   };
 
   /** Tasks associated with this Filer */
-  getServiceNameFilerFilerIdTask = (filerId: number, serviceName: string): Promise<number> => {
+  getFilerTaskByServiceNameAndFilerId = (
+    filerId: number,
+    serviceName: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/filer/${filerId}/task`);
   };
 
   /** Get this object properties */
-  getServiceNameFilerFilerIdTaskTaskId = (
+  getFilerTaskByServiceNameAndFilerIdAndTaskId = (
     filerId: number,
     serviceName: string,
     taskId: number
@@ -1513,7 +1520,7 @@ class DedicatedCloudHandler {
   };
 
   /** Change the execution date of a maintenance. Works only if task type is maintenance and if it has not started yet. */
-  postServiceNameFilerFilerIdTaskTaskIdChangeMaintenanceExecutionDate = (
+  updateFilerTaskMaintenanceExecutionDateByServiceNameAndFilerIdAndTaskId = (
     filerId: number,
     serviceName: string,
     taskId: number,
@@ -1527,7 +1534,7 @@ class DedicatedCloudHandler {
   };
 
   /** Restart task in error. */
-  postServiceNameFilerFilerIdTaskTaskIdResetTaskState = (
+  postFilerTaskResetTaskStateByServiceNameAndFilerIdAndTaskId = (
     filerId: number,
     serviceName: string,
     taskId: number,
@@ -1541,118 +1548,121 @@ class DedicatedCloudHandler {
   };
 
   /** Get filtered tasks associated with this Dedicated Cloud */
-  getServiceNameGlobalTasks = (serviceName: string): Promise<number> => {
+  getGlobalTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/globalTasks`);
   };
 
   /** Get this object properties */
-  getServiceNameHcx = (serviceName: string): Promise<DedicatedCloudHcx> => {
+  getHcxByServiceName = (serviceName: string): Promise<DedicatedCloudHcx> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/hcx`);
   };
 
   /** Check if VMware Hybrid Cloud Extension option can be disabled */
-  getServiceNameHcxCanBeDisabled = (serviceName: string): Promise<boolean> => {
+  checkHcxCanBeDisabledByServiceName = (serviceName: string): Promise<boolean> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/hcx/canBeDisabled`);
   };
 
   /** Check if VMware Hybrid Cloud Extension option can be enabled */
-  getServiceNameHcxCanBeEnabled = (serviceName: string): Promise<boolean> => {
+  checkHcxCanBeEnabledByServiceName = (serviceName: string): Promise<boolean> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/hcx/canBeEnabled`);
   };
 
   /** Disable VMware Hybrid Cloud Extension option */
-  postServiceNameHcxDisable = (serviceName: string): Promise<DedicatedCloudTask> => {
+  disableHcxByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/hcx/disable`);
   };
 
   /** Enable VMware Hybrid Cloud Extension option */
-  postServiceNameHcxEnable = (serviceName: string): Promise<DedicatedCloudTask> => {
+  enableHcxByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/hcx/enable`);
   };
 
   /** Get this object properties */
-  getServiceNameHds = (serviceName: string): Promise<DedicatedCloudHds> => {
+  getHdsByServiceName = (serviceName: string): Promise<DedicatedCloudHds> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/hds`);
   };
 
   /** Check if Hds option can be disabled */
-  getServiceNameHdsCanBeDisabled = (
+  checkHdsCanBeDisabledByServiceName = (
     serviceName: string
   ): Promise<DedicatedCloudOptionCompatibility> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/hds/canBeDisabled`);
   };
 
   /** Check if Hds option can be enabled */
-  getServiceNameHdsCanBeEnabled = (
+  checkHdsCanBeEnabledByServiceName = (
     serviceName: string
   ): Promise<DedicatedCloudOptionCompatibility> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/hds/canBeEnabled`);
   };
 
   /** Disable Hds option */
-  postServiceNameHdsDisable = (serviceName: string): Promise<DedicatedCloudTask> => {
+  disableHdsByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/hds/disable`);
   };
 
   /** Enable Hds option */
-  postServiceNameHdsEnable = (serviceName: string): Promise<DedicatedCloudTask> => {
+  enableHdsByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/hds/enable`);
   };
 
   /** Get this object properties */
-  getServiceNameHipaa = (serviceName: string): Promise<DedicatedCloudHipaa> => {
+  getHipaaByServiceName = (serviceName: string): Promise<DedicatedCloudHipaa> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/hipaa`);
   };
 
   /** Check if Hipaa option can be disabled */
-  getServiceNameHipaaCanBeDisabled = (
+  checkHipaaCanBeDisabledByServiceName = (
     serviceName: string
   ): Promise<DedicatedCloudOptionCompatibility> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/hipaa/canBeDisabled`);
   };
 
   /** Check if Hipaa option can be enabled */
-  getServiceNameHipaaCanBeEnabled = (
+  checkHipaaCanBeEnabledByServiceName = (
     serviceName: string
   ): Promise<DedicatedCloudOptionCompatibility> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/hipaa/canBeEnabled`);
   };
 
   /** Disable Hipaa option */
-  postServiceNameHipaaDisable = (serviceName: string): Promise<DedicatedCloudTask> => {
+  disableHipaaByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/hipaa/disable`);
   };
 
   /** Enable Hipaa option */
-  postServiceNameHipaaEnable = (serviceName: string): Promise<DedicatedCloudTask> => {
+  enableHipaaByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/hipaa/enable`);
   };
 
   /** Ip Blocks attached to this Dedicated Cloud */
-  getServiceNameIp = (serviceName: string): Promise<string> => {
+  getIpByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/ip`);
   };
 
   /** Get this object properties */
-  getServiceNameIpNetwork = (network: string, serviceName: string): Promise<DedicatedCloudIp> => {
+  getIpByServiceNameAndNetwork = (
+    network: string,
+    serviceName: string
+  ): Promise<DedicatedCloudIp> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/ip/${network}`);
   };
 
   /** List details about this IP Block */
-  getServiceNameIpNetworkDetails = (
+  listIpDetailsByServiceNameAndNetwork = (
     network: string,
     serviceName: string
-  ): Promise<DedicatedCloudIpDetails> => {
+  ): Promise<DedicatedCloudIpDetails[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/ip/${network}/details`);
   };
 
   /** Tasks associated with this IP Block */
-  getServiceNameIpNetworkTask = (network: string, serviceName: string): Promise<number> => {
+  getIpTaskByServiceNameAndNetwork = (network: string, serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/ip/${network}/task`);
   };
 
   /** Get this object properties */
-  getServiceNameIpNetworkTaskTaskId = (
+  getIpTaskByServiceNameAndNetworkAndTaskId = (
     network: string,
     serviceName: string,
     taskId: number
@@ -1661,7 +1671,7 @@ class DedicatedCloudHandler {
   };
 
   /** Change the execution date of a maintenance. Works only if task type is maintenance and if it has not started yet. */
-  postServiceNameIpNetworkTaskTaskIdChangeMaintenanceExecutionDate = (
+  updateIpTaskMaintenanceExecutionDateByServiceNameAndNetworkAndTaskId = (
     network: string,
     serviceName: string,
     taskId: number,
@@ -1675,7 +1685,7 @@ class DedicatedCloudHandler {
   };
 
   /** Restart task in error. */
-  postServiceNameIpNetworkTaskTaskIdResetTaskState = (
+  postIpTaskResetTaskStateByServiceNameAndNetworkAndTaskId = (
     network: string,
     serviceName: string,
     taskId: number,
@@ -1689,46 +1699,46 @@ class DedicatedCloudHandler {
   };
 
   /** Get the new Prices for your Dedicated Cloud */
-  getServiceNameNewPrices = (serviceName: string): Promise<DedicatedCloudResourceNewPrices> => {
+  getNewPricesByServiceName = (serviceName: string): Promise<DedicatedCloudResourceNewPrices> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/newPrices`);
   };
 
   /** Get this object properties */
-  getServiceNameNsx = (serviceName: string): Promise<DedicatedCloudNsx> => {
+  getNsxByServiceName = (serviceName: string): Promise<DedicatedCloudNsx> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/nsx`);
   };
 
   /** Check if Nsx option can be disabled */
-  getServiceNameNsxCanBeDisabled = (
+  checkNsxCanBeDisabledByServiceName = (
     serviceName: string
   ): Promise<DedicatedCloudOptionCompatibility> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/nsx/canBeDisabled`);
   };
 
   /** Check if Nsx option can be enabled */
-  getServiceNameNsxCanBeEnabled = (
+  checkNsxCanBeEnabledByServiceName = (
     serviceName: string
   ): Promise<DedicatedCloudOptionCompatibility> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/nsx/canBeEnabled`);
   };
 
   /** Disable Nsx option */
-  postServiceNameNsxDisable = (serviceName: string): Promise<DedicatedCloudTask> => {
+  disableNsxByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/nsx/disable`);
   };
 
   /** Enable Nsx option */
-  postServiceNameNsxEnable = (serviceName: string): Promise<DedicatedCloudTask> => {
+  enableNsxByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/nsx/enable`);
   };
 
   /** Get this object properties */
-  getServiceNameNsxt = (serviceName: string): Promise<DedicatedCloudNsxt> => {
+  getNsxtByServiceName = (serviceName: string): Promise<DedicatedCloudNsxt> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/nsxt`);
   };
 
   /** Order a new hourly Filer mounted in every Datacenter of a given Dedicated Cloud */
-  postServiceNameOrderNewFilerHourly = (
+  postOrderNewFilerHourlyByServiceName = (
     serviceName: string,
     body: { name: string }
   ): Promise<DedicatedCloudTask> => {
@@ -1736,70 +1746,75 @@ class DedicatedCloudHandler {
   };
 
   /** Get the countries you can select in /order/dedicatedCloud/{serviceName}/ip */
-  getServiceNameOrderableIpCountries = (
+  getOrderableIpCountriesByServiceName = (
     serviceName: string
-  ): Promise<DedicatedCloudIpCountriesEnum> => {
+  ): Promise<DedicatedCloudIpCountriesEnum[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/orderableIpCountries`);
   };
 
   /** Get the current password policy for your Dedicated Cloud */
-  getServiceNamePasswordPolicy = (serviceName: string): Promise<DedicatedCloudPasswordPolicy> => {
+  getPasswordPolicyByServiceName = (serviceName: string): Promise<DedicatedCloudPasswordPolicy> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/passwordPolicy`);
   };
 
   /** Get this object properties */
-  getServiceNamePcidss = (serviceName: string): Promise<DedicatedCloudPciDss> => {
+  getPcidssByServiceName = (serviceName: string): Promise<DedicatedCloudPciDss> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/pcidss`);
   };
 
   /** Check if PCI-DSS option can be disabled */
-  getServiceNamePcidssCanBeDisabled = (
+  checkPcidssCanBeDisabledByServiceName = (
     serviceName: string
   ): Promise<DedicatedCloudOptionCompatibility> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/pcidss/canBeDisabled`);
   };
 
   /** Check if PCI-DSS option can be enabled */
-  getServiceNamePcidssCanBeEnabled = (
+  checkPcidssCanBeEnabledByServiceName = (
     serviceName: string
   ): Promise<DedicatedCloudOptionCompatibility> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/pcidss/canBeEnabled`);
   };
 
   /** Disable PCI-DSS option */
-  postServiceNamePcidssDisable = (serviceName: string): Promise<DedicatedCloudTask> => {
+  disablePcidssByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/pcidss/disable`);
   };
 
   /** Enable PCI-DSS option */
-  postServiceNamePcidssEnable = (serviceName: string): Promise<DedicatedCloudTask> => {
+  enablePcidssByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/pcidss/enable`);
   };
 
   /** Reset all triggered alarms on PCC */
-  postServiceNameResetTriggeredAlarm = (serviceName: string): Promise<DedicatedCloudTask> => {
+  postResetTriggeredAlarmByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/resetTriggeredAlarm`);
   };
 
   /** Robots that can run on this Dedicated Cloud */
-  getServiceNameRobot = (serviceName: string): Promise<string> => {
+  getRobotByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/robot`);
   };
 
   /** Get this object properties */
-  getServiceNameRobotName = (name: string, serviceName: string): Promise<DedicatedCloudRobot> => {
+  getRobotByServiceNameAndName = (
+    name: string,
+    serviceName: string
+  ): Promise<DedicatedCloudRobot> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/robot/${name}`);
   };
 
   /** Get this object properties */
-  getServiceNameSecurityOptions = (serviceName: string): Promise<DedicatedCloudSecurityOption> => {
+  getSecurityOptionsByServiceName = (
+    serviceName: string
+  ): Promise<DedicatedCloudSecurityOption> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/securityOptions`);
   };
 
   /** Show compatibility matrix of security options with your Dedicated Cloud */
-  getServiceNameSecurityOptionsCompatibilityMatrix = (
+  getSecurityOptionsCompatibilityMatrixByServiceName = (
     serviceName: string
-  ): Promise<DedicatedCloudSecurityOptionCompatibilityMatrixEntry> => {
+  ): Promise<DedicatedCloudSecurityOptionCompatibilityMatrixEntry[]> => {
     return this.ovh.request(
       'GET',
       `/dedicatedCloud/${serviceName}/securityOptions/compatibilityMatrix`
@@ -1807,7 +1822,7 @@ class DedicatedCloudHandler {
   };
 
   /** Show the dependencies tree of a security option */
-  getServiceNameSecurityOptionsDependenciesTree = (
+  getSecurityOptionsDependenciesTreeByServiceName = (
     serviceName: string
   ): Promise<DedicatedCloudSecurityOptionDependenciesTree> => {
     return this.ovh.request(
@@ -1817,14 +1832,14 @@ class DedicatedCloudHandler {
   };
 
   /** List pending security options enabling on your Dedicated Cloud */
-  getServiceNameSecurityOptionsPendingOptions = (
+  listSecurityOptionsPendingOptionsByServiceName = (
     serviceName: string
-  ): Promise<DedicatedCloudSecurityOptionSecurityOptionEnum> => {
+  ): Promise<DedicatedCloudSecurityOptionSecurityOptionEnum[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/securityOptions/pendingOptions`);
   };
 
   /** Resume enabling of pending security options on your Dedicated Cloud */
-  postServiceNameSecurityOptionsResumePendingEnabling = (
+  postSecurityOptionsResumePendingEnablingByServiceName = (
     serviceName: string,
     body: { option: DedicatedCloudSecurityOptionSecurityOptionEnum }
   ): Promise<DedicatedCloudTask> => {
@@ -1836,27 +1851,27 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/dedicatedCloud/${serviceName}/serviceInfos`, body);
   };
 
   /** Retrieve the service pack informations */
-  getServiceNameServicePack = (serviceName: string): Promise<DedicatedCloudServicePackStatus> => {
+  getServicePackByServiceName = (serviceName: string): Promise<DedicatedCloudServicePackStatus> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/servicePack`);
   };
 
   /** Service Pack compliant with the current Dedicated Cloud */
-  getServiceNameServicePacks = (serviceName: string): Promise<string> => {
+  getServicePacksByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/servicePacks`);
   };
 
   /** Get this object properties */
-  getServiceNameServicePacksName = (
+  getServicePacksByServiceNameAndName = (
     name: string,
     serviceName: string
   ): Promise<DedicatedCloudServicePack> => {
@@ -1864,17 +1879,20 @@ class DedicatedCloudHandler {
   };
 
   /** Tasks associated with this Dedicated Cloud */
-  getServiceNameTask = (serviceName: string): Promise<number> => {
+  getTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getServiceNameTaskTaskId = (serviceName: string, taskId: number): Promise<DedicatedCloudTask> => {
+  getTaskByServiceNameAndTaskId = (
+    serviceName: string,
+    taskId: number
+  ): Promise<DedicatedCloudTask> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/task/${taskId}`);
   };
 
   /** Change the execution date of a maintenance. Works only if task type is maintenance and if it has not started yet. */
-  postServiceNameTaskTaskIdChangeMaintenanceExecutionDate = (
+  updateTaskMaintenanceExecutionDateByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number,
     body: { executionDate: Date }
@@ -1887,7 +1905,7 @@ class DedicatedCloudHandler {
   };
 
   /** Restart task in error. */
-  postServiceNameTaskTaskIdResetTaskState = (
+  postTaskResetTaskStateByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number,
     body: { reason: string }
@@ -1900,17 +1918,17 @@ class DedicatedCloudHandler {
   };
 
   /** Terminate your service */
-  postServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/terminate`);
   };
 
   /** Ip allowed to bypass the two factor authentication on this Dedicated Cloud management interface */
-  getServiceNameTwoFAWhitelist = (serviceName: string): Promise<number> => {
+  getTwoFAWhitelistByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/twoFAWhitelist`);
   };
 
   /** Add a whitelisted ip on the two factor authentication */
-  postServiceNameTwoFAWhitelist = (
+  addTwoFAWhitelistByServiceName = (
     serviceName: string,
     body: { description: string; ip: string }
   ): Promise<DedicatedCloudTask> => {
@@ -1918,7 +1936,7 @@ class DedicatedCloudHandler {
   };
 
   /** Remove a whitelisted ip on the two factor authentication */
-  deleteServiceNameTwoFAWhitelistId = (
+  deleteTwoFAWhitelistByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -1926,7 +1944,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameTwoFAWhitelistId = (
+  getTwoFAWhitelistByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<DedicatedCloudTwoFAWhitelist> => {
@@ -1934,7 +1952,7 @@ class DedicatedCloudHandler {
   };
 
   /** Change Dedicated Cloud Two factor authentication whitelist properties */
-  postServiceNameTwoFAWhitelistIdChangeProperties = (
+  updateTwoFAWhitelistPropertiesByServiceNameAndId = (
     id: number,
     serviceName: string,
     body: { description?: string }
@@ -1947,12 +1965,12 @@ class DedicatedCloudHandler {
   };
 
   /** Upgrade your hypervisor to the next released version */
-  postServiceNameUpgradeHypervisor = (serviceName: string): Promise<DedicatedCloudTask> => {
+  postUpgradeHypervisorByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/upgradeHypervisor`);
   };
 
   /** Upgrade your vCenter to the next released version */
-  postServiceNameUpgradeVcenter = (
+  postUpgradeVcenterByServiceName = (
     serviceName: string,
     body: { release?: DedicatedCloudReleaseEnum }
   ): Promise<DedicatedCloudTask> => {
@@ -1960,12 +1978,12 @@ class DedicatedCloudHandler {
   };
 
   /** Dedicated Cloud users */
-  getServiceNameUser = (serviceName: string): Promise<number> => {
+  getUserByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/user`);
   };
 
   /** Create a new User in your Dedicated Cloud */
-  postServiceNameUser = (
+  createUserByServiceName = (
     serviceName: string,
     body: {
       canAddRessource?: boolean;
@@ -1990,7 +2008,7 @@ class DedicatedCloudHandler {
   };
 
   /** Remove a given user from your Dedicated Cloud */
-  deleteServiceNameUserUserId = (
+  deleteUserByServiceNameAndUserId = (
     serviceName: string,
     userId: number
   ): Promise<DedicatedCloudTask> => {
@@ -1998,12 +2016,15 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameUserUserId = (serviceName: string, userId: number): Promise<DedicatedCloudUser> => {
+  getUserByServiceNameAndUserId = (
+    serviceName: string,
+    userId: number
+  ): Promise<DedicatedCloudUser> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/user/${userId}`);
   };
 
   /** Change Dedicated Cloud user password */
-  postServiceNameUserUserIdChangePassword = (
+  updateUserPasswordByServiceNameAndUserId = (
     serviceName: string,
     userId: number,
     body: { password?: string }
@@ -2016,7 +2037,7 @@ class DedicatedCloudHandler {
   };
 
   /** Change Dedicated Cloud user properties */
-  postServiceNameUserUserIdChangeProperties = (
+  updateUserPropertiesByServiceNameAndUserId = (
     serviceName: string,
     userId: number,
     body: {
@@ -2042,7 +2063,7 @@ class DedicatedCloudHandler {
   };
 
   /** Confirm phone number for user */
-  postServiceNameUserUserIdConfirmPhoneNumber = (
+  confirmUserPhoneNumberByServiceNameAndUserId = (
     serviceName: string,
     userId: number,
     body: { token: string }
@@ -2055,7 +2076,7 @@ class DedicatedCloudHandler {
   };
 
   /** Disable the given Dedicated Cloud user  */
-  postServiceNameUserUserIdDisable = (
+  disableUserByServiceNameAndUserId = (
     serviceName: string,
     userId: number
   ): Promise<DedicatedCloudTask> => {
@@ -2063,7 +2084,7 @@ class DedicatedCloudHandler {
   };
 
   /** Enable the given Dedicated Cloud user  */
-  postServiceNameUserUserIdEnable = (
+  enableUserByServiceNameAndUserId = (
     serviceName: string,
     userId: number
   ): Promise<DedicatedCloudTask> => {
@@ -2071,7 +2092,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get Metrics Token to query vScope Graphs data  */
-  postServiceNameUserUserIdMetricsToken = (
+  postUserMetricsTokenByServiceNameAndUserId = (
     serviceName: string,
     userId: number
   ): Promise<DedicatedCloudMetricsToken> => {
@@ -2079,12 +2100,15 @@ class DedicatedCloudHandler {
   };
 
   /** User rights on an object */
-  getServiceNameUserUserIdObjectRight = (serviceName: string, userId: number): Promise<number> => {
+  getUserObjectRightByServiceNameAndUserId = (
+    serviceName: string,
+    userId: number
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/user/${userId}/objectRight`);
   };
 
   /** Add a new object right to user in datacenter on Dedicated Cloud */
-  postServiceNameUserUserIdObjectRight = (
+  addUserObjectRightByServiceNameAndUserId = (
     serviceName: string,
     userId: number,
     body: {
@@ -2102,7 +2126,7 @@ class DedicatedCloudHandler {
   };
 
   /** Remove an object right from user in datacenter on Dedicated Cloud */
-  deleteServiceNameUserUserIdObjectRightObjectRightId = (
+  deleteUserObjectRightByServiceNameAndUserIdAndObjectRightId = (
     objectRightId: number,
     serviceName: string,
     userId: number
@@ -2114,7 +2138,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameUserUserIdObjectRightObjectRightId = (
+  getUserObjectRightByServiceNameAndUserIdAndObjectRightId = (
     objectRightId: number,
     serviceName: string,
     userId: number
@@ -2126,12 +2150,12 @@ class DedicatedCloudHandler {
   };
 
   /** User rights in a given Datacenters */
-  getServiceNameUserUserIdRight = (serviceName: string, userId: number): Promise<number> => {
+  getUserRightByServiceNameAndUserId = (serviceName: string, userId: number): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/user/${userId}/right`);
   };
 
   /** Get this object properties */
-  getServiceNameUserUserIdRightRightId = (
+  getUserRightByServiceNameAndUserIdAndRightId = (
     rightId: number,
     serviceName: string,
     userId: number
@@ -2143,7 +2167,7 @@ class DedicatedCloudHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameUserUserIdRightRightId = (
+  updateUserRightByServiceNameAndUserIdAndRightId = (
     rightId: number,
     serviceName: string,
     userId: number,
@@ -2157,12 +2181,12 @@ class DedicatedCloudHandler {
   };
 
   /** Tasks associated with this User */
-  getServiceNameUserUserIdTask = (serviceName: string, userId: number): Promise<number> => {
+  getUserTaskByServiceNameAndUserId = (serviceName: string, userId: number): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/user/${userId}/task`);
   };
 
   /** Get this object properties */
-  getServiceNameUserUserIdTaskTaskId = (
+  getUserTaskByServiceNameAndUserIdAndTaskId = (
     serviceName: string,
     taskId: number,
     userId: number
@@ -2171,7 +2195,7 @@ class DedicatedCloudHandler {
   };
 
   /** Change the execution date of a maintenance. Works only if task type is maintenance and if it has not started yet. */
-  postServiceNameUserUserIdTaskTaskIdChangeMaintenanceExecutionDate = (
+  updateUserTaskMaintenanceExecutionDateByServiceNameAndUserIdAndTaskId = (
     serviceName: string,
     taskId: number,
     userId: number,
@@ -2185,7 +2209,7 @@ class DedicatedCloudHandler {
   };
 
   /** Restart task in error. */
-  postServiceNameUserUserIdTaskTaskIdResetTaskState = (
+  postUserTaskResetTaskStateByServiceNameAndUserIdAndTaskId = (
     serviceName: string,
     taskId: number,
     userId: number,
@@ -2199,22 +2223,22 @@ class DedicatedCloudHandler {
   };
 
   /** Get available upgrade for your vCenter */
-  getServiceNameVcenterVersion = (serviceName: string): Promise<DedicatedCloudVcenter> => {
+  getVcenterVersionByServiceName = (serviceName: string): Promise<DedicatedCloudVcenter> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/vcenterVersion`);
   };
 
   /** Get this object properties */
-  getServiceNameVendor = (serviceName: string): Promise<DedicatedCloudVendor> => {
+  getVendorByServiceName = (serviceName: string): Promise<DedicatedCloudVendor> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/vendor`);
   };
 
   /** Get available object types */
-  postServiceNameVendorObjectType = (serviceName: string): Promise<string> => {
+  postVendorObjectTypeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/vendor/objectType`);
   };
 
   /** Get ovh id from object type */
-  postServiceNameVendorOvhId = (
+  postVendorOvhIdByServiceName = (
     serviceName: string,
     body: { objectType: DedicatedCloudVendorObjectTypeEnum; vendorId: string }
   ): Promise<DedicatedCloudVendorOvhId> => {
@@ -2222,27 +2246,30 @@ class DedicatedCloudHandler {
   };
 
   /** Dedicated Cloud vlans */
-  getServiceNameVlan = (serviceName: string): Promise<number> => {
+  getVlanByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/vlan`);
   };
 
   /** Get this object properties */
-  getServiceNameVlanVlanId = (serviceName: string, vlanId: number): Promise<DedicatedCloudVlan> => {
+  getVlanByServiceNameAndVlanId = (
+    serviceName: string,
+    vlanId: number
+  ): Promise<DedicatedCloudVlan> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/vlan/${vlanId}`);
   };
 
   /** Get this object properties */
-  getServiceNameVmEncryption = (serviceName: string): Promise<DedicatedCloudVMEncryption> => {
+  getVmEncryptionByServiceName = (serviceName: string): Promise<DedicatedCloudVMEncryption> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/vmEncryption`);
   };
 
   /** VM Encryption KMS linked to this Dedicated Cloud */
-  getServiceNameVmEncryptionKms = (serviceName: string): Promise<number> => {
+  getVmEncryptionKmsByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/vmEncryption/kms`);
   };
 
   /** Add a new option user access */
-  postServiceNameVmEncryptionKms = (
+  addVmEncryptionKmsByServiceName = (
     serviceName: string,
     body: { description?: string; ip: string; sslThumbprint: string }
   ): Promise<DedicatedCloudTask> => {
@@ -2250,7 +2277,7 @@ class DedicatedCloudHandler {
   };
 
   /** Remove an option user access */
-  deleteServiceNameVmEncryptionKmsKmsId = (
+  deleteVmEncryptionKmsByServiceNameAndKmsId = (
     kmsId: number,
     serviceName: string
   ): Promise<DedicatedCloudTask> => {
@@ -2258,7 +2285,7 @@ class DedicatedCloudHandler {
   };
 
   /** Get this object properties */
-  getServiceNameVmEncryptionKmsKmsId = (
+  getVmEncryptionKmsByServiceNameAndKmsId = (
     kmsId: number,
     serviceName: string
   ): Promise<DedicatedCloudVMEncryptionAccessNetwork> => {
@@ -2266,7 +2293,7 @@ class DedicatedCloudHandler {
   };
 
   /** Change option user access properties */
-  postServiceNameVmEncryptionKmsKmsIdChangeProperties = (
+  updateVmEncryptionKmsPropertiesByServiceNameAndKmsId = (
     kmsId: number,
     serviceName: string,
     body: { description?: string; sslThumbprint: string }
@@ -2279,51 +2306,54 @@ class DedicatedCloudHandler {
   };
 
   /** This Dedicated Cloud vrack */
-  getServiceNameVrack = (serviceName: string): Promise<string> => {
+  getVrackByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/vrack`);
   };
 
   /** remove this dedicatedCloud (VmNetwork) from this vrack */
-  deleteServiceNameVrackVrack = (serviceName: string, vrack: string): Promise<VrackTask> => {
+  deleteVrackByServiceNameAndVrack = (serviceName: string, vrack: string): Promise<VrackTask> => {
     return this.ovh.request('DELETE', `/dedicatedCloud/${serviceName}/vrack/${vrack}`);
   };
 
   /** Get this object properties */
-  getServiceNameVrackVrack = (serviceName: string, vrack: string): Promise<VrackDedicatedCloud> => {
+  getVrackByServiceNameAndVrack = (
+    serviceName: string,
+    vrack: string
+  ): Promise<VrackDedicatedCloud> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/vrack/${vrack}`);
   };
 
   /** Get this object properties */
-  getServiceNameVrops = (serviceName: string): Promise<DedicatedCloudVrops> => {
+  getVropsByServiceName = (serviceName: string): Promise<DedicatedCloudVrops> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/vrops`);
   };
 
   /** Check if vRealize Operations option can be disabled */
-  getServiceNameVropsCanBeDisabled = (
+  checkVropsCanBeDisabledByServiceName = (
     serviceName: string
   ): Promise<DedicatedCloudOptionCompatibility> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/vrops/canBeDisabled`);
   };
 
   /** Check if vRealize Operations option can be enabled */
-  getServiceNameVropsCanBeEnabled = (
+  checkVropsCanBeEnabledByServiceName = (
     serviceName: string
   ): Promise<DedicatedCloudOptionCompatibility> => {
     return this.ovh.request('GET', `/dedicatedCloud/${serviceName}/vrops/canBeEnabled`);
   };
 
   /** Disable vRealize Operations option */
-  postServiceNameVropsDisable = (serviceName: string): Promise<DedicatedCloudTask> => {
+  disableVropsByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/vrops/disable`);
   };
 
   /** Enable vRealize Operations option */
-  postServiceNameVropsEnable = (serviceName: string): Promise<DedicatedCloudTask> => {
+  enableVropsByServiceName = (serviceName: string): Promise<DedicatedCloudTask> => {
     return this.ovh.request('POST', `/dedicatedCloud/${serviceName}/vrops/enable`);
   };
 
   /** Request vRealize Operations Manager upgrade */
-  postServiceNameVropsUpgrade = (
+  postVropsUpgradeByServiceName = (
     serviceName: string,
     body: { version?: string }
   ): Promise<DedicatedCloudTask> => {
@@ -2331,4 +2361,4 @@ class DedicatedCloudHandler {
   };
 }
 
-export default DedicatedCloudHandler;
+export { DedicatedCloudHandler };

@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MeBillingPurchaseOrderStatusEnum } from './MeBillingPurchaseOrderStatusEnum';
 import { MeBillingPurchaseOrderPurchaseOrderTypeEnum } from './MeBillingPurchaseOrderPurchaseOrderTypeEnum';
+import { MeBillingPurchaseOrderStatusEnum } from './MeBillingPurchaseOrderStatusEnum';
 
 export type MeBillingPurchaseOrderPurchaseOrder = {
   active: boolean | null;

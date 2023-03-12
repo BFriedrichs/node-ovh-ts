@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectAiServingWorkflowTemplateEnum } from './CloudProjectAiServingWorkflowTemplateEnum';
-import { CloudProjectAiServingBackendIdEnum } from './CloudProjectAiServingBackendIdEnum';
 import { CloudProjectAiServingFrameworkIdEnum } from './CloudProjectAiServingFrameworkIdEnum';
+import { CloudProjectAiServingWorkflowTemplateEnum } from './CloudProjectAiServingWorkflowTemplateEnum';
 import { CloudProjectAiServingAutoscalingSpec } from './CloudProjectAiServingAutoscalingSpec';
+import { CloudProjectAiServingBackendIdEnum } from './CloudProjectAiServingBackendIdEnum';
 
 export type CloudProjectAiServingModelDefinition = {
   autoscalingSpec: CloudProjectAiServingAutoscalingSpec | null;

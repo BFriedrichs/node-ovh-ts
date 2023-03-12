@@ -1,77 +1,77 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DbaasLogsRoleCreation } from '../models/DbaasLogsRoleCreation';
-import { DbaasLogsOperation } from '../models/DbaasLogsOperation';
-import { DbaasLogsAlias } from '../models/DbaasLogsAlias';
-import { DbaasLogsOutputElasticsearchAliasIndexCreation } from '../models/DbaasLogsOutputElasticsearchAliasIndexCreation';
-import { DbaasLogsIndex } from '../models/DbaasLogsIndex';
-import { DbaasLogsOutputGraylogDashboardDuplicateCreation } from '../models/DbaasLogsOutputGraylogDashboardDuplicateCreation';
-import { DbaasLogsOutputGraylogStreamCreation } from '../models/DbaasLogsOutputGraylogStreamCreation';
-import { DbaasLogsOutputOpenSearchAliasUpdate } from '../models/DbaasLogsOutputOpenSearchAliasUpdate';
-import { DbaasLogsOutputOpenSearchAliasIndexCreation } from '../models/DbaasLogsOutputOpenSearchAliasIndexCreation';
-import { DbaasLogsInputCreation } from '../models/DbaasLogsInputCreation';
-import { DbaasLogsHelper } from '../models/DbaasLogsHelper';
-import { DbaasLogsRolePermissionAliasCreation } from '../models/DbaasLogsRolePermissionAliasCreation';
-import { DbaasLogsRolePermissionOsdCreation } from '../models/DbaasLogsRolePermissionOsdCreation';
-import { DbaasLogsRoleMemberCreation } from '../models/DbaasLogsRoleMemberCreation';
-import { DbaasLogsUpdate } from '../models/DbaasLogsUpdate';
 import { DbaasLogsTestResult } from '../models/DbaasLogsTestResult';
-import { DbaasLogsOutputGraylogStreamAlertUpdate } from '../models/DbaasLogsOutputGraylogStreamAlertUpdate';
-import { DbaasLogsRoleUpdate } from '../models/DbaasLogsRoleUpdate';
-import { DbaasLogsRolePermissionDashboardCreation } from '../models/DbaasLogsRolePermissionDashboardCreation';
-import { DbaasLogsInputAction } from '../models/DbaasLogsInputAction';
-import { DbaasLogsMember } from '../models/DbaasLogsMember';
-import { DbaasLogsCluster } from '../models/DbaasLogsCluster';
-import { DbaasLogsOutputElasticsearchIndexUpdate } from '../models/DbaasLogsOutputElasticsearchIndexUpdate';
-import { DbaasLogsKibanaCreation } from '../models/DbaasLogsKibanaCreation';
-import { DbaasLogsKibana } from '../models/DbaasLogsKibana';
-import { DbaasLogsArchiveUrl } from '../models/DbaasLogsArchiveUrl';
-import { DbaasLogsRoleMemberUpdate } from '../models/DbaasLogsRoleMemberUpdate';
-import { DbaasLogsOutputElasticsearchIndexCreation } from '../models/DbaasLogsOutputElasticsearchIndexCreation';
-import { DbaasLogsService } from '../models/DbaasLogsService';
 import { DbaasLogsInputUpdate } from '../models/DbaasLogsInputUpdate';
-import { DbaasLogsOsdUpdate } from '../models/DbaasLogsOsdUpdate';
-import { DbaasLogsOutputGraylogStreamRuleCreation } from '../models/DbaasLogsOutputGraylogStreamRuleCreation';
-import { DbaasLogsRolePermissionIndexCreation } from '../models/DbaasLogsRolePermissionIndexCreation';
-import { DbaasLogsPermission } from '../models/DbaasLogsPermission';
-import { DbaasLogsOutputOpenSearchAliasStreamCreation } from '../models/DbaasLogsOutputOpenSearchAliasStreamCreation';
-import { DbaasLogsEncryptionKey } from '../models/DbaasLogsEncryptionKey';
-import { DbaasLogsOsdCreation } from '../models/DbaasLogsOsdCreation';
-import { ServicesService } from '../models/ServicesService';
-import { DbaasLogsKibanaUpdate } from '../models/DbaasLogsKibanaUpdate';
-import { DbaasLogsInputConfigurationFlowggerUpdate } from '../models/DbaasLogsInputConfigurationFlowggerUpdate';
-import { DbaasLogsOutputGraylogStreamAlertCreation } from '../models/DbaasLogsOutputGraylogStreamAlertCreation';
-import { DbaasLogsOutputGraylogDashboardCreation } from '../models/DbaasLogsOutputGraylogDashboardCreation';
-import { DbaasLogsStreamAlertCondition } from '../models/DbaasLogsStreamAlertCondition';
-import { DbaasLogsFlowggerConfiguration } from '../models/DbaasLogsFlowggerConfiguration';
-import { DbaasLogsRolePermissionStreamCreation } from '../models/DbaasLogsRolePermissionStreamCreation';
-import { DbaasLogsToken } from '../models/DbaasLogsToken';
-import { DbaasLogsRole } from '../models/DbaasLogsRole';
-import { DbaasLogsUserChangePasswordCreation } from '../models/DbaasLogsUserChangePasswordCreation';
-import { DbaasLogsOutputElasticsearchAliasStreamCreation } from '../models/DbaasLogsOutputElasticsearchAliasStreamCreation';
-import { DbaasLogsUrl } from '../models/DbaasLogsUrl';
-import { DbaasLogsInput } from '../models/DbaasLogsInput';
-import { DbaasLogsArchive } from '../models/DbaasLogsArchive';
-import { DbaasLogsClusterUpdate } from '../models/DbaasLogsClusterUpdate';
-import { DbaasLogsLogstashConfiguration } from '../models/DbaasLogsLogstashConfiguration';
-import { DbaasLogsStream } from '../models/DbaasLogsStream';
-import { DbaasLogsOutputOpenSearchAliasCreation } from '../models/DbaasLogsOutputOpenSearchAliasCreation';
-import { DbaasLogsServiceMetric } from '../models/DbaasLogsServiceMetric';
-import { DbaasLogsOutputOpenSearchIndexCreation } from '../models/DbaasLogsOutputOpenSearchIndexCreation';
 import { DbaasLogsOutputElasticsearchAliasUpdate } from '../models/DbaasLogsOutputElasticsearchAliasUpdate';
-import { DbaasLogsTemporaryLogsLink } from '../models/DbaasLogsTemporaryLogsLink';
-import { DbaasLogsOsd } from '../models/DbaasLogsOsd';
-import { DbaasLogsDashboard } from '../models/DbaasLogsDashboard';
-import { DbaasLogsOutputGraylogStreamUpdate } from '../models/DbaasLogsOutputGraylogStreamUpdate';
-import { DbaasLogsStreamRule } from '../models/DbaasLogsStreamRule';
-import { DbaasLogsRolePermissionKibanaCreation } from '../models/DbaasLogsRolePermissionKibanaCreation';
-import { DbaasLogsOutputElasticsearchAliasCreation } from '../models/DbaasLogsOutputElasticsearchAliasCreation';
-import { DbaasLogsOutputGraylogDashboardUpdate } from '../models/DbaasLogsOutputGraylogDashboardUpdate';
-import { DbaasLogsOutputOpenSearchIndexUpdate } from '../models/DbaasLogsOutputOpenSearchIndexUpdate';
-import { DbaasLogsInputConfigurationLogstashUpdate } from '../models/DbaasLogsInputConfigurationLogstashUpdate';
-import { DbaasLogsTokenCreation } from '../models/DbaasLogsTokenCreation';
-import { DbaasLogsEngine } from '../models/DbaasLogsEngine';
+import { DbaasLogsOutputGraylogStreamRuleCreation } from '../models/DbaasLogsOutputGraylogStreamRuleCreation';
+import { DbaasLogsPermission } from '../models/DbaasLogsPermission';
 import { DbaasLogsClusterRetention } from '../models/DbaasLogsClusterRetention';
+import { DbaasLogsEngine } from '../models/DbaasLogsEngine';
+import { DbaasLogsDashboard } from '../models/DbaasLogsDashboard';
+import { DbaasLogsRolePermissionKibanaCreation } from '../models/DbaasLogsRolePermissionKibanaCreation';
+import { DbaasLogsRolePermissionAliasCreation } from '../models/DbaasLogsRolePermissionAliasCreation';
+import { DbaasLogsRolePermissionDashboardCreation } from '../models/DbaasLogsRolePermissionDashboardCreation';
+import { DbaasLogsRolePermissionOsdCreation } from '../models/DbaasLogsRolePermissionOsdCreation';
+import { DbaasLogsOutputGraylogStreamAlertCreation } from '../models/DbaasLogsOutputGraylogStreamAlertCreation';
+import { DbaasLogsIndex } from '../models/DbaasLogsIndex';
+import { DbaasLogsOutputElasticsearchAliasStreamCreation } from '../models/DbaasLogsOutputElasticsearchAliasStreamCreation';
+import { DbaasLogsOutputOpenSearchAliasUpdate } from '../models/DbaasLogsOutputOpenSearchAliasUpdate';
+import { DbaasLogsRolePermissionStreamCreation } from '../models/DbaasLogsRolePermissionStreamCreation';
+import { DbaasLogsInputConfigurationFlowggerUpdate } from '../models/DbaasLogsInputConfigurationFlowggerUpdate';
+import { DbaasLogsUserChangePasswordCreation } from '../models/DbaasLogsUserChangePasswordCreation';
+import { DbaasLogsInput } from '../models/DbaasLogsInput';
+import { DbaasLogsTemporaryLogsLink } from '../models/DbaasLogsTemporaryLogsLink';
+import { DbaasLogsOutputElasticsearchAliasIndexCreation } from '../models/DbaasLogsOutputElasticsearchAliasIndexCreation';
+import { DbaasLogsFlowggerConfiguration } from '../models/DbaasLogsFlowggerConfiguration';
+import { DbaasLogsArchiveUrl } from '../models/DbaasLogsArchiveUrl';
+import { DbaasLogsOutputGraylogDashboardUpdate } from '../models/DbaasLogsOutputGraylogDashboardUpdate';
+import { DbaasLogsStream } from '../models/DbaasLogsStream';
+import { DbaasLogsOutputOpenSearchAliasIndexCreation } from '../models/DbaasLogsOutputOpenSearchAliasIndexCreation';
+import { DbaasLogsOperation } from '../models/DbaasLogsOperation';
+import { DbaasLogsOutputOpenSearchAliasStreamCreation } from '../models/DbaasLogsOutputOpenSearchAliasStreamCreation';
+import { DbaasLogsInputAction } from '../models/DbaasLogsInputAction';
+import { DbaasLogsOutputGraylogDashboardDuplicateCreation } from '../models/DbaasLogsOutputGraylogDashboardDuplicateCreation';
+import { DbaasLogsStreamAlertCondition } from '../models/DbaasLogsStreamAlertCondition';
+import { DbaasLogsOutputGraylogStreamCreation } from '../models/DbaasLogsOutputGraylogStreamCreation';
+import { DbaasLogsMember } from '../models/DbaasLogsMember';
+import { DbaasLogsEncryptionKey } from '../models/DbaasLogsEncryptionKey';
+import { DbaasLogsOutputElasticsearchIndexUpdate } from '../models/DbaasLogsOutputElasticsearchIndexUpdate';
+import { DbaasLogsOutputGraylogStreamAlertUpdate } from '../models/DbaasLogsOutputGraylogStreamAlertUpdate';
+import { DbaasLogsOutputOpenSearchIndexUpdate } from '../models/DbaasLogsOutputOpenSearchIndexUpdate';
+import { DbaasLogsToken } from '../models/DbaasLogsToken';
+import { DbaasLogsOutputElasticsearchIndexCreation } from '../models/DbaasLogsOutputElasticsearchIndexCreation';
+import { DbaasLogsHelper } from '../models/DbaasLogsHelper';
+import { DbaasLogsInputConfigurationLogstashUpdate } from '../models/DbaasLogsInputConfigurationLogstashUpdate';
+import { DbaasLogsKibana } from '../models/DbaasLogsKibana';
+import { DbaasLogsArchive } from '../models/DbaasLogsArchive';
+import { DbaasLogsOutputGraylogStreamUpdate } from '../models/DbaasLogsOutputGraylogStreamUpdate';
+import { DbaasLogsOsdCreation } from '../models/DbaasLogsOsdCreation';
+import { DbaasLogsRoleMemberCreation } from '../models/DbaasLogsRoleMemberCreation';
+import { DbaasLogsRolePermissionIndexCreation } from '../models/DbaasLogsRolePermissionIndexCreation';
+import { DbaasLogsOsd } from '../models/DbaasLogsOsd';
+import { DbaasLogsRole } from '../models/DbaasLogsRole';
+import { DbaasLogsClusterUpdate } from '../models/DbaasLogsClusterUpdate';
+import { DbaasLogsKibanaCreation } from '../models/DbaasLogsKibanaCreation';
+import { DbaasLogsLogstashConfiguration } from '../models/DbaasLogsLogstashConfiguration';
+import { DbaasLogsCluster } from '../models/DbaasLogsCluster';
+import { DbaasLogsRoleMemberUpdate } from '../models/DbaasLogsRoleMemberUpdate';
+import { ServicesService } from '../models/ServicesService';
+import { DbaasLogsTokenCreation } from '../models/DbaasLogsTokenCreation';
+import { DbaasLogsInputCreation } from '../models/DbaasLogsInputCreation';
+import { DbaasLogsOsdUpdate } from '../models/DbaasLogsOsdUpdate';
+import { DbaasLogsRoleCreation } from '../models/DbaasLogsRoleCreation';
+import { DbaasLogsUpdate } from '../models/DbaasLogsUpdate';
+import { DbaasLogsOutputOpenSearchIndexCreation } from '../models/DbaasLogsOutputOpenSearchIndexCreation';
+import { DbaasLogsServiceMetric } from '../models/DbaasLogsServiceMetric';
+import { DbaasLogsOutputOpenSearchAliasCreation } from '../models/DbaasLogsOutputOpenSearchAliasCreation';
+import { DbaasLogsKibanaUpdate } from '../models/DbaasLogsKibanaUpdate';
+import { DbaasLogsOutputGraylogDashboardCreation } from '../models/DbaasLogsOutputGraylogDashboardCreation';
+import { DbaasLogsOutputElasticsearchAliasCreation } from '../models/DbaasLogsOutputElasticsearchAliasCreation';
+import { DbaasLogsRoleUpdate } from '../models/DbaasLogsRoleUpdate';
+import { DbaasLogsUrl } from '../models/DbaasLogsUrl';
+import { DbaasLogsAlias } from '../models/DbaasLogsAlias';
+import { DbaasLogsStreamRule } from '../models/DbaasLogsStreamRule';
+import { DbaasLogsService } from '../models/DbaasLogsService';
 import OVHBase from '../ovh';
 
 class DbaasLogsHandler {
@@ -82,17 +82,17 @@ class DbaasLogsHandler {
   }
 
   /** List available services */
-  getLogs = (): Promise<string> => {
+  listLogs = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dbaas/logs');
   };
 
   /** Returns the service object of connected identity. */
-  getLogsServiceName = (serviceName: string): Promise<DbaasLogsService> => {
+  getLogsByServiceName = (serviceName: string): Promise<DbaasLogsService> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}`);
   };
 
   /** Update the service properties */
-  putLogsServiceName = (
+  updateLogsByServiceName = (
     serviceName: string,
     body: DbaasLogsUpdate
   ): Promise<DbaasLogsOperation> => {
@@ -100,20 +100,20 @@ class DbaasLogsHandler {
   };
 
   /** Launch a contact change procedure */
-  postLogsServiceNameChangeContact = (
+  launchLogsChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/dbaas/logs/${serviceName}/changeContact`, body);
   };
 
   /** Returns the list of allowed cluster */
-  getLogsServiceNameCluster = (serviceName: string): Promise<string> => {
+  getLogsClusterByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/cluster`);
   };
 
   /** Returns details of an allowed cluster */
-  getLogsServiceNameClusterClusterId = (
+  getLogsClusterByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<DbaasLogsCluster> => {
@@ -121,7 +121,7 @@ class DbaasLogsHandler {
   };
 
   /** Update details of an allowed cluster */
-  putLogsServiceNameClusterClusterId = (
+  updateLogsClusterByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: DbaasLogsClusterUpdate
@@ -130,15 +130,15 @@ class DbaasLogsHandler {
   };
 
   /** List all the retention ID available for a given cluster */
-  getLogsServiceNameClusterClusterIdRetention = (
+  listLogsClusterRetentionsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/cluster/${clusterId}/retention`);
   };
 
   /** Returns details of a retention */
-  getLogsServiceNameClusterClusterIdRetentionRetentionId = (
+  getLogsClusterRetentionByServiceNameAndClusterIdAndRetentionId = (
     clusterId: string,
     retentionId: string,
     serviceName: string
@@ -150,12 +150,12 @@ class DbaasLogsHandler {
   };
 
   /** Return the list of registred encryption keys */
-  getLogsServiceNameEncryptionKey = (serviceName: string): Promise<string> => {
+  getLogsEncryptionKeyByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/encryptionKey`);
   };
 
   /** Add a new encryption key */
-  postLogsServiceNameEncryptionKey = (
+  addLogsEncryptionKeyByServiceName = (
     serviceName: string,
     body: DbaasLogsEncryptionKey
   ): Promise<DbaasLogsOperation> => {
@@ -163,7 +163,7 @@ class DbaasLogsHandler {
   };
 
   /** Delete the specified encryption key */
-  deleteLogsServiceNameEncryptionKeyEncryptionKeyId = (
+  deleteLogsEncryptionKeyByServiceNameAndEncryptionKeyId = (
     encryptionKeyId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -174,7 +174,7 @@ class DbaasLogsHandler {
   };
 
   /** Return details of an encryption key */
-  getLogsServiceNameEncryptionKeyEncryptionKeyId = (
+  getLogsEncryptionKeyByServiceNameAndEncryptionKeyId = (
     encryptionKeyId: string,
     serviceName: string
   ): Promise<DbaasLogsEncryptionKey> => {
@@ -182,12 +182,12 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of registered input attached to the logged user */
-  getLogsServiceNameInput = (serviceName: string): Promise<string> => {
+  getLogsInputByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/input`);
   };
 
   /** Register a new input object */
-  postLogsServiceNameInput = (
+  postLogsInputByServiceName = (
     serviceName: string,
     body: DbaasLogsInputCreation
   ): Promise<DbaasLogsOperation> => {
@@ -195,12 +195,12 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of available input engines */
-  getLogsServiceNameInputEngine = (serviceName: string): Promise<string> => {
+  getLogsInputEngineByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/input/engine`);
   };
 
   /** Returns details of specified input engine */
-  getLogsServiceNameInputEngineEngineId = (
+  getLogsInputEngineByServiceNameAndEngineId = (
     engineId: string,
     serviceName: string
   ): Promise<DbaasLogsEngine> => {
@@ -208,15 +208,15 @@ class DbaasLogsHandler {
   };
 
   /** Return the list of available helpers for the given input engine */
-  getLogsServiceNameInputEngineEngineIdHelper = (
+  getLogsInputEngineHelperByServiceNameAndEngineId = (
     engineId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/input/engine/${engineId}/helper`);
   };
 
   /** Returns details of specified input engine helper */
-  getLogsServiceNameInputEngineEngineIdHelperHelperId = (
+  getLogsInputEngineHelperByServiceNameAndEngineIdAndHelperId = (
     engineId: string,
     helperId: string,
     serviceName: string
@@ -228,7 +228,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove the specified input object */
-  deleteLogsServiceNameInputInputId = (
+  deleteLogsInputByServiceNameAndInputId = (
     inputId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -236,7 +236,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns details of specified input */
-  getLogsServiceNameInputInputId = (
+  getLogsInputByServiceNameAndInputId = (
     inputId: string,
     serviceName: string
   ): Promise<DbaasLogsInput> => {
@@ -244,7 +244,7 @@ class DbaasLogsHandler {
   };
 
   /** Update information of specified input object */
-  putLogsServiceNameInputInputId = (
+  updateLogsInputByServiceNameAndInputId = (
     inputId: string,
     serviceName: string,
     body: DbaasLogsInputUpdate
@@ -253,15 +253,15 @@ class DbaasLogsHandler {
   };
 
   /** Returns actions of specified input */
-  getLogsServiceNameInputInputIdAction = (
+  getLogsInputActionByServiceNameAndInputId = (
     inputId: string,
     serviceName: string
-  ): Promise<DbaasLogsInputAction> => {
+  ): Promise<DbaasLogsInputAction[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/input/${inputId}/action`);
   };
 
   /** Validate configuration of specified input */
-  postLogsServiceNameInputInputIdConfigtest = (
+  validateLogsInputConfigtestByServiceNameAndInputId = (
     inputId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -269,7 +269,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns the config test operation result */
-  getLogsServiceNameInputInputIdConfigtestResult = (
+  getLogsInputConfigtestResultByServiceNameAndInputId = (
     inputId: string,
     serviceName: string
   ): Promise<DbaasLogsTestResult> => {
@@ -277,7 +277,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns the flowgger configuration */
-  getLogsServiceNameInputInputIdConfigurationFlowgger = (
+  getLogsInputConfigurationFlowggerByServiceNameAndInputId = (
     inputId: string,
     serviceName: string
   ): Promise<DbaasLogsFlowggerConfiguration> => {
@@ -288,7 +288,7 @@ class DbaasLogsHandler {
   };
 
   /** Update the flowgger configuration */
-  putLogsServiceNameInputInputIdConfigurationFlowgger = (
+  updateLogsInputConfigurationFlowggerByServiceNameAndInputId = (
     inputId: string,
     serviceName: string,
     body: DbaasLogsInputConfigurationFlowggerUpdate
@@ -301,7 +301,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns the logstash configuration */
-  getLogsServiceNameInputInputIdConfigurationLogstash = (
+  getLogsInputConfigurationLogstashByServiceNameAndInputId = (
     inputId: string,
     serviceName: string
   ): Promise<DbaasLogsLogstashConfiguration> => {
@@ -312,7 +312,7 @@ class DbaasLogsHandler {
   };
 
   /** Update the logstash configuration */
-  putLogsServiceNameInputInputIdConfigurationLogstash = (
+  updateLogsInputConfigurationLogstashByServiceNameAndInputId = (
     inputId: string,
     serviceName: string,
     body: DbaasLogsInputConfigurationLogstashUpdate
@@ -325,7 +325,7 @@ class DbaasLogsHandler {
   };
 
   /** Schedule the end of specified input */
-  postLogsServiceNameInputInputIdEnd = (
+  postLogsInputEndByServiceNameAndInputId = (
     inputId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -333,7 +333,7 @@ class DbaasLogsHandler {
   };
 
   /** Generate a temporary url to retrieve input logs */
-  postLogsServiceNameInputInputIdLogsUrl = (
+  postLogsInputLogsUrlByServiceNameAndInputId = (
     inputId: string,
     serviceName: string
   ): Promise<DbaasLogsTemporaryLogsLink> => {
@@ -341,7 +341,7 @@ class DbaasLogsHandler {
   };
 
   /** Schedule the restart of specified input */
-  postLogsServiceNameInputInputIdRestart = (
+  postLogsInputRestartByServiceNameAndInputId = (
     inputId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -349,7 +349,7 @@ class DbaasLogsHandler {
   };
 
   /** Schedule the start of specified input */
-  postLogsServiceNameInputInputIdStart = (
+  postLogsInputStartByServiceNameAndInputId = (
     inputId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -357,25 +357,25 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of urls of specified input */
-  getLogsServiceNameInputInputIdUrl = (
+  getLogsInputUrlByServiceNameAndInputId = (
     inputId: string,
     serviceName: string
-  ): Promise<DbaasLogsUrl> => {
+  ): Promise<DbaasLogsUrl[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/input/${inputId}/url`);
   };
 
   /** Returns Metrics credentials */
-  getLogsServiceNameMetrics = (serviceName: string): Promise<DbaasLogsServiceMetric> => {
+  getLogsMetricsByServiceName = (serviceName: string): Promise<DbaasLogsServiceMetric> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/metrics`);
   };
 
   /** Latest operations */
-  getLogsServiceNameOperation = (serviceName: string): Promise<string> => {
+  getLogsOperationByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/operation`);
   };
 
   /** Returns details of specified operation */
-  getLogsServiceNameOperationOperationId = (
+  getLogsOperationByServiceNameAndOperationId = (
     operationId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -383,12 +383,12 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of alias for connected user */
-  getLogsServiceNameOutputElasticsearchAlias = (serviceName: string): Promise<string> => {
+  getLogsOutputElasticsearchAliasByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/output/elasticsearch/alias`);
   };
 
   /** Register a new elasticsearch alias */
-  postLogsServiceNameOutputElasticsearchAlias = (
+  postLogsOutputElasticsearchAliasByServiceName = (
     serviceName: string,
     body: DbaasLogsOutputElasticsearchAliasCreation
   ): Promise<DbaasLogsOperation> => {
@@ -396,7 +396,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove specified elasticsearch alias */
-  deleteLogsServiceNameOutputElasticsearchAliasAliasId = (
+  deleteLogsOutputElasticsearchAliasByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -407,7 +407,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns specified elasticsearch alias */
-  getLogsServiceNameOutputElasticsearchAliasAliasId = (
+  getLogsOutputElasticsearchAliasByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string
   ): Promise<DbaasLogsAlias> => {
@@ -418,7 +418,7 @@ class DbaasLogsHandler {
   };
 
   /** Update specified elasticsearch alias */
-  putLogsServiceNameOutputElasticsearchAliasAliasId = (
+  updateLogsOutputElasticsearchAliasByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string,
     body: DbaasLogsOutputElasticsearchAliasUpdate
@@ -431,10 +431,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of Elasticsearch indexes attached to specified Elasticsearch alias */
-  getLogsServiceNameOutputElasticsearchAliasAliasIdIndex = (
+  getLogsOutputElasticsearchAliasIndexByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/elasticsearch/alias/${aliasId}/index`
@@ -442,7 +442,7 @@ class DbaasLogsHandler {
   };
 
   /** Attach a elasticsearch index to specified elasticsearch alias */
-  postLogsServiceNameOutputElasticsearchAliasAliasIdIndex = (
+  postLogsOutputElasticsearchAliasIndexByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string,
     body: DbaasLogsOutputElasticsearchAliasIndexCreation
@@ -455,7 +455,7 @@ class DbaasLogsHandler {
   };
 
   /** Detach a elasticsearch index from specified elasticsearch alias */
-  deleteLogsServiceNameOutputElasticsearchAliasAliasIdIndexIndexId = (
+  deleteLogsOutputElasticsearchAliasIndexByServiceNameAndAliasIdAndIndexId = (
     aliasId: string,
     indexId: string,
     serviceName: string
@@ -467,10 +467,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of Graylog streams attached to specified Elasticsearch alias */
-  getLogsServiceNameOutputElasticsearchAliasAliasIdStream = (
+  getLogsOutputElasticsearchAliasStreamByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/elasticsearch/alias/${aliasId}/stream`
@@ -478,7 +478,7 @@ class DbaasLogsHandler {
   };
 
   /** Attach a graylog stream to specified elasticsearch alias */
-  postLogsServiceNameOutputElasticsearchAliasAliasIdStream = (
+  postLogsOutputElasticsearchAliasStreamByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string,
     body: DbaasLogsOutputElasticsearchAliasStreamCreation
@@ -491,7 +491,7 @@ class DbaasLogsHandler {
   };
 
   /** Detach a graylog stream from specified elasticsearch alias */
-  deleteLogsServiceNameOutputElasticsearchAliasAliasIdStreamStreamId = (
+  deleteLogsOutputElasticsearchAliasStreamByServiceNameAndAliasIdAndStreamId = (
     aliasId: string,
     serviceName: string,
     streamId: string
@@ -503,10 +503,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of urls of specified alias */
-  getLogsServiceNameOutputElasticsearchAliasAliasIdUrl = (
+  getLogsOutputElasticsearchAliasUrlByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string
-  ): Promise<DbaasLogsUrl> => {
+  ): Promise<DbaasLogsUrl[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/elasticsearch/alias/${aliasId}/url`
@@ -514,12 +514,12 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of elasticsearch indexes */
-  getLogsServiceNameOutputElasticsearchIndex = (serviceName: string): Promise<string> => {
+  getLogsOutputElasticsearchIndexByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/output/elasticsearch/index`);
   };
 
   /** Register a new elasticsearch index */
-  postLogsServiceNameOutputElasticsearchIndex = (
+  postLogsOutputElasticsearchIndexByServiceName = (
     serviceName: string,
     body: DbaasLogsOutputElasticsearchIndexCreation
   ): Promise<DbaasLogsOperation> => {
@@ -527,7 +527,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove specified elasticsearch index */
-  deleteLogsServiceNameOutputElasticsearchIndexIndexId = (
+  deleteLogsOutputElasticsearchIndexByServiceNameAndIndexId = (
     indexId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -538,7 +538,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns specified elasticsearch index */
-  getLogsServiceNameOutputElasticsearchIndexIndexId = (
+  getLogsOutputElasticsearchIndexByServiceNameAndIndexId = (
     indexId: string,
     serviceName: string
   ): Promise<DbaasLogsIndex> => {
@@ -549,7 +549,7 @@ class DbaasLogsHandler {
   };
 
   /** Update specified elasticsearch index */
-  putLogsServiceNameOutputElasticsearchIndexIndexId = (
+  updateLogsOutputElasticsearchIndexByServiceNameAndIndexId = (
     indexId: string,
     serviceName: string,
     body: DbaasLogsOutputElasticsearchIndexUpdate
@@ -562,10 +562,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of urls of specified index */
-  getLogsServiceNameOutputElasticsearchIndexIndexIdUrl = (
+  getLogsOutputElasticsearchIndexUrlByServiceNameAndIndexId = (
     indexId: string,
     serviceName: string
-  ): Promise<DbaasLogsUrl> => {
+  ): Promise<DbaasLogsUrl[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/elasticsearch/index/${indexId}/url`
@@ -573,12 +573,12 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of Kibana instances */
-  getLogsServiceNameOutputElasticsearchKibana = (serviceName: string): Promise<string> => {
+  getLogsOutputElasticsearchKibanaByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/output/elasticsearch/kibana`);
   };
 
   /** Register a new Kibana instance */
-  postLogsServiceNameOutputElasticsearchKibana = (
+  postLogsOutputElasticsearchKibanaByServiceName = (
     serviceName: string,
     body: DbaasLogsKibanaCreation
   ): Promise<DbaasLogsOperation> => {
@@ -586,7 +586,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove specified Kibana instance */
-  deleteLogsServiceNameOutputElasticsearchKibanaKibanaId = (
+  deleteLogsOutputElasticsearchKibanaByServiceNameAndKibanaId = (
     kibanaId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -597,7 +597,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns specified Kibana instance */
-  getLogsServiceNameOutputElasticsearchKibanaKibanaId = (
+  getLogsOutputElasticsearchKibanaByServiceNameAndKibanaId = (
     kibanaId: string,
     serviceName: string
   ): Promise<DbaasLogsKibana> => {
@@ -608,7 +608,7 @@ class DbaasLogsHandler {
   };
 
   /** Update specified Kibana instance */
-  putLogsServiceNameOutputElasticsearchKibanaKibanaId = (
+  updateLogsOutputElasticsearchKibanaByServiceNameAndKibanaId = (
     kibanaId: string,
     serviceName: string,
     body: DbaasLogsKibanaUpdate
@@ -621,10 +621,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of urls of specified Kibana */
-  getLogsServiceNameOutputElasticsearchKibanaKibanaIdUrl = (
+  getLogsOutputElasticsearchKibanaUrlByServiceNameAndKibanaId = (
     kibanaId: string,
     serviceName: string
-  ): Promise<DbaasLogsUrl> => {
+  ): Promise<DbaasLogsUrl[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/elasticsearch/kibana/${kibanaId}/url`
@@ -632,12 +632,12 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of graylog dashboards */
-  getLogsServiceNameOutputGraylogDashboard = (serviceName: string): Promise<string> => {
+  getLogsOutputGraylogDashboardByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/output/graylog/dashboard`);
   };
 
   /** Register a new graylog dashboard */
-  postLogsServiceNameOutputGraylogDashboard = (
+  postLogsOutputGraylogDashboardByServiceName = (
     serviceName: string,
     body: DbaasLogsOutputGraylogDashboardCreation
   ): Promise<DbaasLogsOperation> => {
@@ -645,7 +645,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove specified graylog dashboard */
-  deleteLogsServiceNameOutputGraylogDashboardDashboardId = (
+  deleteLogsOutputGraylogDashboardByServiceNameAndDashboardId = (
     dashboardId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -656,7 +656,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns details of specified graylog dashboard */
-  getLogsServiceNameOutputGraylogDashboardDashboardId = (
+  getLogsOutputGraylogDashboardByServiceNameAndDashboardId = (
     dashboardId: string,
     serviceName: string
   ): Promise<DbaasLogsDashboard> => {
@@ -667,7 +667,7 @@ class DbaasLogsHandler {
   };
 
   /** Update information of specified graylog dashboard */
-  putLogsServiceNameOutputGraylogDashboardDashboardId = (
+  updateLogsOutputGraylogDashboardByServiceNameAndDashboardId = (
     dashboardId: string,
     serviceName: string,
     body: DbaasLogsOutputGraylogDashboardUpdate
@@ -680,7 +680,7 @@ class DbaasLogsHandler {
   };
 
   /** Copy all widgets from specified dashboard to a new one */
-  postLogsServiceNameOutputGraylogDashboardDashboardIdDuplicate = (
+  postLogsOutputGraylogDashboardDuplicateByServiceNameAndDashboardId = (
     dashboardId: string,
     serviceName: string,
     body: DbaasLogsOutputGraylogDashboardDuplicateCreation
@@ -693,10 +693,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of urls of specified graylog dashboard */
-  getLogsServiceNameOutputGraylogDashboardDashboardIdUrl = (
+  getLogsOutputGraylogDashboardUrlByServiceNameAndDashboardId = (
     dashboardId: string,
     serviceName: string
-  ): Promise<DbaasLogsUrl> => {
+  ): Promise<DbaasLogsUrl[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/graylog/dashboard/${dashboardId}/url`
@@ -704,12 +704,12 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of graylog streams */
-  getLogsServiceNameOutputGraylogStream = (serviceName: string): Promise<string> => {
+  getLogsOutputGraylogStreamByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/output/graylog/stream`);
   };
 
   /** Register a new graylog stream */
-  postLogsServiceNameOutputGraylogStream = (
+  postLogsOutputGraylogStreamByServiceName = (
     serviceName: string,
     body: DbaasLogsOutputGraylogStreamCreation
   ): Promise<DbaasLogsOperation> => {
@@ -717,7 +717,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove specified graylog stream */
-  deleteLogsServiceNameOutputGraylogStreamStreamId = (
+  deleteLogsOutputGraylogStreamByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string
   ): Promise<DbaasLogsOperation> => {
@@ -728,7 +728,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns details of specified graylog stream */
-  getLogsServiceNameOutputGraylogStreamStreamId = (
+  getLogsOutputGraylogStreamByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string
   ): Promise<DbaasLogsStream> => {
@@ -736,7 +736,7 @@ class DbaasLogsHandler {
   };
 
   /** Update information of specified graylog stream */
-  putLogsServiceNameOutputGraylogStreamStreamId = (
+  updateLogsOutputGraylogStreamByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string,
     body: DbaasLogsOutputGraylogStreamUpdate
@@ -749,10 +749,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of configured alerts of specified graylog stream */
-  getLogsServiceNameOutputGraylogStreamStreamIdAlert = (
+  getLogsOutputGraylogStreamAlertByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/graylog/stream/${streamId}/alert`
@@ -760,7 +760,7 @@ class DbaasLogsHandler {
   };
 
   /** Register a new alert on specified graylog stream */
-  postLogsServiceNameOutputGraylogStreamStreamIdAlert = (
+  postLogsOutputGraylogStreamAlertByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string,
     body: DbaasLogsOutputGraylogStreamAlertCreation
@@ -773,7 +773,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove alert from specified graylog stream */
-  deleteLogsServiceNameOutputGraylogStreamStreamIdAlertAlertId = (
+  deleteLogsOutputGraylogStreamAlertByServiceNameAndStreamIdAndAlertId = (
     alertId: string,
     serviceName: string,
     streamId: string
@@ -785,7 +785,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns details of specified graylog stream alert */
-  getLogsServiceNameOutputGraylogStreamStreamIdAlertAlertId = (
+  getLogsOutputGraylogStreamAlertByServiceNameAndStreamIdAndAlertId = (
     alertId: string,
     serviceName: string,
     streamId: string
@@ -797,7 +797,7 @@ class DbaasLogsHandler {
   };
 
   /** Update alert information of specified graylog stream */
-  putLogsServiceNameOutputGraylogStreamStreamIdAlertAlertId = (
+  updateLogsOutputGraylogStreamAlertByServiceNameAndStreamIdAndAlertId = (
     alertId: string,
     serviceName: string,
     streamId: string,
@@ -811,10 +811,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of archives */
-  getLogsServiceNameOutputGraylogStreamStreamIdArchive = (
+  getLogsOutputGraylogStreamArchiveByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/graylog/stream/${streamId}/archive`
@@ -822,7 +822,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns details of specified archive */
-  getLogsServiceNameOutputGraylogStreamStreamIdArchiveArchiveId = (
+  getLogsOutputGraylogStreamArchiveByServiceNameAndStreamIdAndArchiveId = (
     archiveId: string,
     serviceName: string,
     streamId: string
@@ -834,11 +834,11 @@ class DbaasLogsHandler {
   };
 
   /** Get the list of encryption keys used to encrypt the archive */
-  getLogsServiceNameOutputGraylogStreamStreamIdArchiveArchiveIdEncryptionKey = (
+  getLogsOutputGraylogStreamArchiveEncryptionKeyByServiceNameAndStreamIdAndArchiveId = (
     archiveId: string,
     serviceName: string,
     streamId: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/graylog/stream/${streamId}/archive/${archiveId}/encryptionKey`
@@ -846,7 +846,7 @@ class DbaasLogsHandler {
   };
 
   /** Get a public temporary URL to access the archive */
-  postLogsServiceNameOutputGraylogStreamStreamIdArchiveArchiveIdUrl = (
+  postLogsOutputGraylogStreamArchiveUrlByServiceNameAndStreamIdAndArchiveId = (
     archiveId: string,
     serviceName: string,
     streamId: string
@@ -858,10 +858,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of rules of specified graylog stream */
-  getLogsServiceNameOutputGraylogStreamStreamIdRule = (
+  getLogsOutputGraylogStreamRuleByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/graylog/stream/${streamId}/rule`
@@ -869,7 +869,7 @@ class DbaasLogsHandler {
   };
 
   /** Register a new rule on specified graylog stream */
-  postLogsServiceNameOutputGraylogStreamStreamIdRule = (
+  postLogsOutputGraylogStreamRuleByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string,
     body: DbaasLogsOutputGraylogStreamRuleCreation
@@ -882,7 +882,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove specified graylog stream rule */
-  deleteLogsServiceNameOutputGraylogStreamStreamIdRuleRuleId = (
+  deleteLogsOutputGraylogStreamRuleByServiceNameAndStreamIdAndRuleId = (
     ruleId: string,
     serviceName: string,
     streamId: string
@@ -894,7 +894,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns details of specified graylog stream rule */
-  getLogsServiceNameOutputGraylogStreamStreamIdRuleRuleId = (
+  getLogsOutputGraylogStreamRuleByServiceNameAndStreamIdAndRuleId = (
     ruleId: string,
     serviceName: string,
     streamId: string
@@ -906,10 +906,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of urls of specified graylog stream */
-  getLogsServiceNameOutputGraylogStreamStreamIdUrl = (
+  getLogsOutputGraylogStreamUrlByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string
-  ): Promise<DbaasLogsUrl> => {
+  ): Promise<DbaasLogsUrl[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/graylog/stream/${streamId}/url`
@@ -917,12 +917,12 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of alias for connected user */
-  getLogsServiceNameOutputOpensearchAlias = (serviceName: string): Promise<string> => {
+  getLogsOutputOpensearchAliasByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/output/opensearch/alias`);
   };
 
   /** Register a new OpenSearch alias */
-  postLogsServiceNameOutputOpensearchAlias = (
+  postLogsOutputOpensearchAliasByServiceName = (
     serviceName: string,
     body: DbaasLogsOutputOpenSearchAliasCreation
   ): Promise<DbaasLogsOperation> => {
@@ -930,7 +930,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove specified OpenSearch alias */
-  deleteLogsServiceNameOutputOpensearchAliasAliasId = (
+  deleteLogsOutputOpensearchAliasByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -941,7 +941,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns specified OpenSearch alias */
-  getLogsServiceNameOutputOpensearchAliasAliasId = (
+  getLogsOutputOpensearchAliasByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string
   ): Promise<DbaasLogsAlias> => {
@@ -949,7 +949,7 @@ class DbaasLogsHandler {
   };
 
   /** Update specified OpenSearch alias */
-  putLogsServiceNameOutputOpensearchAliasAliasId = (
+  updateLogsOutputOpensearchAliasByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string,
     body: DbaasLogsOutputOpenSearchAliasUpdate
@@ -962,10 +962,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of OpenSearch indexes attached to specified OpenSearch alias */
-  getLogsServiceNameOutputOpensearchAliasAliasIdIndex = (
+  getLogsOutputOpensearchAliasIndexByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/opensearch/alias/${aliasId}/index`
@@ -973,7 +973,7 @@ class DbaasLogsHandler {
   };
 
   /** Attach a OpenSearch index to specified OpenSearch alias */
-  postLogsServiceNameOutputOpensearchAliasAliasIdIndex = (
+  postLogsOutputOpensearchAliasIndexByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string,
     body: DbaasLogsOutputOpenSearchAliasIndexCreation
@@ -986,7 +986,7 @@ class DbaasLogsHandler {
   };
 
   /** Detach a OpenSearch index from specified OpenSearch alias */
-  deleteLogsServiceNameOutputOpensearchAliasAliasIdIndexIndexId = (
+  deleteLogsOutputOpensearchAliasIndexByServiceNameAndAliasIdAndIndexId = (
     aliasId: string,
     indexId: string,
     serviceName: string
@@ -998,10 +998,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of Graylog streams attached to specified OpenSearch alias */
-  getLogsServiceNameOutputOpensearchAliasAliasIdStream = (
+  getLogsOutputOpensearchAliasStreamByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/opensearch/alias/${aliasId}/stream`
@@ -1009,7 +1009,7 @@ class DbaasLogsHandler {
   };
 
   /** Attach a Graylog stream to specified OpenSearch alias */
-  postLogsServiceNameOutputOpensearchAliasAliasIdStream = (
+  postLogsOutputOpensearchAliasStreamByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string,
     body: DbaasLogsOutputOpenSearchAliasStreamCreation
@@ -1022,7 +1022,7 @@ class DbaasLogsHandler {
   };
 
   /** Detach a Graylog stream from specified OpenSearch alias */
-  deleteLogsServiceNameOutputOpensearchAliasAliasIdStreamStreamId = (
+  deleteLogsOutputOpensearchAliasStreamByServiceNameAndAliasIdAndStreamId = (
     aliasId: string,
     serviceName: string,
     streamId: string
@@ -1034,10 +1034,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of urls of specified alias */
-  getLogsServiceNameOutputOpensearchAliasAliasIdUrl = (
+  getLogsOutputOpensearchAliasUrlByServiceNameAndAliasId = (
     aliasId: string,
     serviceName: string
-  ): Promise<DbaasLogsUrl> => {
+  ): Promise<DbaasLogsUrl[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/opensearch/alias/${aliasId}/url`
@@ -1045,12 +1045,12 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of OpenSearch indexes */
-  getLogsServiceNameOutputOpensearchIndex = (serviceName: string): Promise<string> => {
+  getLogsOutputOpensearchIndexByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/output/opensearch/index`);
   };
 
   /** Register a new OpenSearch index */
-  postLogsServiceNameOutputOpensearchIndex = (
+  postLogsOutputOpensearchIndexByServiceName = (
     serviceName: string,
     body: DbaasLogsOutputOpenSearchIndexCreation
   ): Promise<DbaasLogsOperation> => {
@@ -1058,7 +1058,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove specified OpenSearch index */
-  deleteLogsServiceNameOutputOpensearchIndexIndexId = (
+  deleteLogsOutputOpensearchIndexByServiceNameAndIndexId = (
     indexId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -1069,7 +1069,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns specified OpenSearch index */
-  getLogsServiceNameOutputOpensearchIndexIndexId = (
+  getLogsOutputOpensearchIndexByServiceNameAndIndexId = (
     indexId: string,
     serviceName: string
   ): Promise<DbaasLogsIndex> => {
@@ -1077,7 +1077,7 @@ class DbaasLogsHandler {
   };
 
   /** Update specified OpenSearch index */
-  putLogsServiceNameOutputOpensearchIndexIndexId = (
+  updateLogsOutputOpensearchIndexByServiceNameAndIndexId = (
     indexId: string,
     serviceName: string,
     body: DbaasLogsOutputOpenSearchIndexUpdate
@@ -1090,10 +1090,10 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of urls of specified index */
-  getLogsServiceNameOutputOpensearchIndexIndexIdUrl = (
+  getLogsOutputOpensearchIndexUrlByServiceNameAndIndexId = (
     indexId: string,
     serviceName: string
-  ): Promise<DbaasLogsUrl> => {
+  ): Promise<DbaasLogsUrl[]> => {
     return this.ovh.request(
       'GET',
       `/dbaas/logs/${serviceName}/output/opensearch/index/${indexId}/url`
@@ -1101,12 +1101,12 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of OpenSearch Dashboards instances */
-  getLogsServiceNameOutputOpensearchOsd = (serviceName: string): Promise<string> => {
+  getLogsOutputOpensearchOsdByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/output/opensearch/osd`);
   };
 
   /** Register a new OpenSearch Dashboards instance */
-  postLogsServiceNameOutputOpensearchOsd = (
+  postLogsOutputOpensearchOsdByServiceName = (
     serviceName: string,
     body: DbaasLogsOsdCreation
   ): Promise<DbaasLogsOperation> => {
@@ -1114,7 +1114,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove specified OpenSearch Dashboards instance */
-  deleteLogsServiceNameOutputOpensearchOsdOsdId = (
+  deleteLogsOutputOpensearchOsdByServiceNameAndOsdId = (
     osdId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -1122,7 +1122,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns specified OpenSearch Dashboards instance */
-  getLogsServiceNameOutputOpensearchOsdOsdId = (
+  getLogsOutputOpensearchOsdByServiceNameAndOsdId = (
     osdId: string,
     serviceName: string
   ): Promise<DbaasLogsOsd> => {
@@ -1130,7 +1130,7 @@ class DbaasLogsHandler {
   };
 
   /** Update specified OpenSearch Dashboards instance */
-  putLogsServiceNameOutputOpensearchOsdOsdId = (
+  updateLogsOutputOpensearchOsdByServiceNameAndOsdId = (
     osdId: string,
     serviceName: string,
     body: DbaasLogsOsdUpdate
@@ -1143,20 +1143,20 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of urls of specified OpenSearch Dashboards */
-  getLogsServiceNameOutputOpensearchOsdOsdIdUrl = (
+  getLogsOutputOpensearchOsdUrlByServiceNameAndOsdId = (
     osdId: string,
     serviceName: string
-  ): Promise<DbaasLogsUrl> => {
+  ): Promise<DbaasLogsUrl[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/output/opensearch/osd/${osdId}/url`);
   };
 
   /** Returns the list of roles */
-  getLogsServiceNameRole = (serviceName: string): Promise<string> => {
+  getLogsRoleByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/role`);
   };
 
   /** Register a new role */
-  postLogsServiceNameRole = (
+  postLogsRoleByServiceName = (
     serviceName: string,
     body: DbaasLogsRoleCreation
   ): Promise<DbaasLogsOperation> => {
@@ -1164,7 +1164,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove specified role */
-  deleteLogsServiceNameRoleRoleId = (
+  deleteLogsRoleByServiceNameAndRoleId = (
     roleId: string,
     serviceName: string
   ): Promise<DbaasLogsOperation> => {
@@ -1172,12 +1172,15 @@ class DbaasLogsHandler {
   };
 
   /** Returns details of specified role */
-  getLogsServiceNameRoleRoleId = (roleId: string, serviceName: string): Promise<DbaasLogsRole> => {
+  getLogsRoleByServiceNameAndRoleId = (
+    roleId: string,
+    serviceName: string
+  ): Promise<DbaasLogsRole> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/role/${roleId}`);
   };
 
   /** Update information of specified role */
-  putLogsServiceNameRoleRoleId = (
+  updateLogsRoleByServiceNameAndRoleId = (
     roleId: string,
     serviceName: string,
     body: DbaasLogsRoleUpdate
@@ -1186,12 +1189,15 @@ class DbaasLogsHandler {
   };
 
   /** Returns the member list of specified role */
-  getLogsServiceNameRoleRoleIdMember = (roleId: string, serviceName: string): Promise<string> => {
+  getLogsRoleMemberByServiceNameAndRoleId = (
+    roleId: string,
+    serviceName: string
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/role/${roleId}/member`);
   };
 
   /** Append user into the member list of specified role */
-  postLogsServiceNameRoleRoleIdMember = (
+  postLogsRoleMemberByServiceNameAndRoleId = (
     roleId: string,
     serviceName: string,
     body: DbaasLogsRoleMemberCreation
@@ -1200,7 +1206,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove user from the member list of specified role */
-  deleteLogsServiceNameRoleRoleIdMemberUsername = (
+  deleteLogsRoleMemberByServiceNameAndRoleIdAndUsername = (
     roleId: string,
     serviceName: string,
     username: string
@@ -1212,7 +1218,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns the member metadata */
-  getLogsServiceNameRoleRoleIdMemberUsername = (
+  getLogsRoleMemberByServiceNameAndRoleIdAndUsername = (
     roleId: string,
     serviceName: string,
     username: string
@@ -1221,7 +1227,7 @@ class DbaasLogsHandler {
   };
 
   /** Update the member metadata */
-  putLogsServiceNameRoleRoleIdMemberUsername = (
+  updateLogsRoleMemberByServiceNameAndRoleIdAndUsername = (
     roleId: string,
     serviceName: string,
     username: string,
@@ -1235,15 +1241,15 @@ class DbaasLogsHandler {
   };
 
   /** Returns the list of permissions of specified role */
-  getLogsServiceNameRoleRoleIdPermission = (
+  getLogsRolePermissionByServiceNameAndRoleId = (
     roleId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/role/${roleId}/permission`);
   };
 
   /** Append a elasticsearch alias permission to role */
-  postLogsServiceNameRoleRoleIdPermissionAlias = (
+  postLogsRolePermissionAliasByServiceNameAndRoleId = (
     roleId: string,
     serviceName: string,
     body: DbaasLogsRolePermissionAliasCreation
@@ -1256,7 +1262,7 @@ class DbaasLogsHandler {
   };
 
   /** Append a graylog dashboard permission to role */
-  postLogsServiceNameRoleRoleIdPermissionDashboard = (
+  postLogsRolePermissionDashboardByServiceNameAndRoleId = (
     roleId: string,
     serviceName: string,
     body: DbaasLogsRolePermissionDashboardCreation
@@ -1269,7 +1275,7 @@ class DbaasLogsHandler {
   };
 
   /** Append a elasticsearch index permission to role */
-  postLogsServiceNameRoleRoleIdPermissionIndex = (
+  postLogsRolePermissionIndexByServiceNameAndRoleId = (
     roleId: string,
     serviceName: string,
     body: DbaasLogsRolePermissionIndexCreation
@@ -1282,7 +1288,7 @@ class DbaasLogsHandler {
   };
 
   /** Append a kibana permission to role */
-  postLogsServiceNameRoleRoleIdPermissionKibana = (
+  postLogsRolePermissionKibanaByServiceNameAndRoleId = (
     roleId: string,
     serviceName: string,
     body: DbaasLogsRolePermissionKibanaCreation
@@ -1295,7 +1301,7 @@ class DbaasLogsHandler {
   };
 
   /** Append a OpenSearch Dashboards permission to role */
-  postLogsServiceNameRoleRoleIdPermissionOsd = (
+  postLogsRolePermissionOsdByServiceNameAndRoleId = (
     roleId: string,
     serviceName: string,
     body: DbaasLogsRolePermissionOsdCreation
@@ -1308,7 +1314,7 @@ class DbaasLogsHandler {
   };
 
   /** Append a graylog stream permission to role */
-  postLogsServiceNameRoleRoleIdPermissionStream = (
+  postLogsRolePermissionStreamByServiceNameAndRoleId = (
     roleId: string,
     serviceName: string,
     body: DbaasLogsRolePermissionStreamCreation
@@ -1321,7 +1327,7 @@ class DbaasLogsHandler {
   };
 
   /** Remove specified permission */
-  deleteLogsServiceNameRoleRoleIdPermissionPermissionId = (
+  deleteLogsRolePermissionByServiceNameAndRoleIdAndPermissionId = (
     permissionId: string,
     roleId: string,
     serviceName: string
@@ -1333,7 +1339,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns details of specified permission */
-  getLogsServiceNameRoleRoleIdPermissionPermissionId = (
+  getLogsRolePermissionByServiceNameAndRoleIdAndPermissionId = (
     permissionId: string,
     roleId: string,
     serviceName: string
@@ -1345,22 +1351,25 @@ class DbaasLogsHandler {
   };
 
   /** Get this object properties */
-  getLogsServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getLogsServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putLogsServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateLogsServiceInfosByServiceName = (
+    serviceName: string,
+    body: ServicesService
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/dbaas/logs/${serviceName}/serviceInfos`, body);
   };
 
   /** Returns the list of service tokens */
-  getLogsServiceNameToken = (serviceName: string): Promise<string> => {
+  getLogsTokenByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/token`);
   };
 
   /** Add a new token */
-  postLogsServiceNameToken = (
+  addLogsTokenByServiceName = (
     serviceName: string,
     body: DbaasLogsTokenCreation
   ): Promise<DbaasLogsOperation> => {
@@ -1368,7 +1377,7 @@ class DbaasLogsHandler {
   };
 
   /** Delete the specified token */
-  deleteLogsServiceNameTokenTokenId = (
+  deleteLogsTokenByServiceNameAndTokenId = (
     serviceName: string,
     tokenId: string
   ): Promise<DbaasLogsOperation> => {
@@ -1376,7 +1385,7 @@ class DbaasLogsHandler {
   };
 
   /** Returns the specified token */
-  getLogsServiceNameTokenTokenId = (
+  getLogsTokenByServiceNameAndTokenId = (
     serviceName: string,
     tokenId: string
   ): Promise<DbaasLogsToken> => {
@@ -1384,12 +1393,12 @@ class DbaasLogsHandler {
   };
 
   /** Returns platform useful urls */
-  getLogsServiceNameUrl = (serviceName: string): Promise<DbaasLogsUrl> => {
+  getLogsUrlByServiceName = (serviceName: string): Promise<DbaasLogsUrl[]> => {
     return this.ovh.request('GET', `/dbaas/logs/${serviceName}/url`);
   };
 
   /** Initiate a password change procedure. */
-  postLogsServiceNameUserChangePassword = (
+  postLogsUserChangePasswordByServiceName = (
     serviceName: string,
     body: DbaasLogsUserChangePasswordCreation
   ): Promise<DbaasLogsOperation> => {
@@ -1397,4 +1406,4 @@ class DbaasLogsHandler {
   };
 }
 
-export default DbaasLogsHandler;
+export { DbaasLogsHandler };

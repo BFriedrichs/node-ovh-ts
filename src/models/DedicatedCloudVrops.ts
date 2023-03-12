@@ -4,7 +4,7 @@ import { DedicatedCloudOptionStateEnum } from './DedicatedCloudOptionStateEnum';
 
 export type DedicatedCloudVrops = {
   state: DedicatedCloudOptionStateEnum;
-  upgrades: string | null;
+  upgrades: string[] | null;
   url: string | null;
   version: string | null;
 };

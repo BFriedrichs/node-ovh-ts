@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { StartupEmployeesNumberEnum } from './StartupEmployeesNumberEnum';
+import { StartupStartupCompanyIncubator } from './StartupStartupCompanyIncubator';
+import { StartupStartupCompanyDetail } from './StartupStartupCompanyDetail';
 import { StartupRelatedIndustryEnum } from './StartupRelatedIndustryEnum';
 import { StartupStartupCompanySocialNetwork } from './StartupStartupCompanySocialNetwork';
-import { StartupStartupCompanyDetail } from './StartupStartupCompanyDetail';
-import { StartupStartupCompanyIncubator } from './StartupStartupCompanyIncubator';
+import { StartupEmployeesNumberEnum } from './StartupEmployeesNumberEnum';
 
 export type StartupStartupCompany = {
   detail: StartupStartupCompanyDetail | null;

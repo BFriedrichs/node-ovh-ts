@@ -4,5 +4,5 @@ import { ServiceRenewRenewStrategy } from './ServiceRenewRenewStrategy';
 
 export type ServiceRenewRenewDescription = {
   renewPeriod: string;
-  strategies: ServiceRenewRenewStrategy;
+  strategies: ServiceRenewRenewStrategy[];
 };

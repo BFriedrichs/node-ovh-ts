@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ConnectivityEligibilityAddress } from './ConnectivityEligibilityAddress';
-import { ConnectivityEligibilityPortability } from './ConnectivityEligibilityPortability';
-import { ConnectivityEligibilityFiberInfo } from './ConnectivityEligibilityFiberInfo';
 import { ConnectivityEligibilityCopperInfo } from './ConnectivityEligibilityCopperInfo';
 import { ConnectivityEligibilityEndpointReferenceTypeEnum } from './ConnectivityEligibilityEndpointReferenceTypeEnum';
+import { ConnectivityEligibilityFiberInfo } from './ConnectivityEligibilityFiberInfo';
+import { ConnectivityEligibilityAddress } from './ConnectivityEligibilityAddress';
+import { ConnectivityEligibilityPortability } from './ConnectivityEligibilityPortability';
 
 export type ConnectivityEligibilityEndpoint = {
   address: ConnectivityEligibilityAddress;

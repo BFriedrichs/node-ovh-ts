@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseCpanelVersionEnum } from './LicenseCpanelVersionEnum';
 import { LicenseStateEnum } from './LicenseStateEnum';
+import { LicenseCpanelVersionEnum } from './LicenseCpanelVersionEnum';
 
 export type LicenseCpanelCpanel = {
   creation: Date;

@@ -4,5 +4,5 @@ import { TelephonyCarrierSipClusterZone } from './TelephonyCarrierSipClusterZone
 
 export type TelephonyCarrierSipClusterInfo = {
   name: string;
-  zones: TelephonyCarrierSipClusterZone;
+  zones: TelephonyCarrierSipClusterZone[];
 };

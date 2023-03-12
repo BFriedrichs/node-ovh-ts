@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 export type DeskaasPasswordPolicy = {
-  deniedChars: string;
+  deniedChars: string[];
   digitMandatory: boolean;
   letterMandatory: boolean;
   lowercaseLetterMandatory: boolean;

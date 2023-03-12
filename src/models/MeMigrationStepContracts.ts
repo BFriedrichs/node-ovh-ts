@@ -2,4 +2,4 @@
 
 import { MeAgreementsContractAgreement } from './MeAgreementsContractAgreement';
 
-export type MeMigrationStepContracts = { agreements: MeAgreementsContractAgreement };
+export type MeMigrationStepContracts = { agreements: MeAgreementsContractAgreement[] };

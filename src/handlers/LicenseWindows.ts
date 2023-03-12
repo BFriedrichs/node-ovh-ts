@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
-import { LicenseWindowsOrderConfiguration } from '../models/LicenseWindowsOrderConfiguration';
-import { ServicesService } from '../models/ServicesService';
-import { LicenseWindowsSqlVersionEnum } from '../models/LicenseWindowsSqlVersionEnum';
-import { LicenseOption } from '../models/LicenseOption';
 import { LicenseOptionLabel } from '../models/LicenseOptionLabel';
-import { LicenseActionType } from '../models/LicenseActionType';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { LicenseTask } from '../models/LicenseTask';
+import { LicenseOption } from '../models/LicenseOption';
 import { LicenseWindowsWindows } from '../models/LicenseWindowsWindows';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseWindowsOrderConfiguration } from '../models/LicenseWindowsOrderConfiguration';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicenseTask } from '../models/LicenseTask';
+import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
+import { LicenseActionType } from '../models/LicenseActionType';
+import { LicenseWindowsSqlVersionEnum } from '../models/LicenseWindowsSqlVersionEnum';
+import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class LicenseWindowsHandler {
@@ -21,27 +21,30 @@ class LicenseWindowsHandler {
   }
 
   /** List available services */
-  getWindows = (): Promise<string> => {
+  listWindows = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/windows');
   };
 
   /** Get the orderable Windows versions */
-  getWindowsOrderableVersions = (): Promise<LicenseWindowsOrderConfiguration> => {
+  getWindowsOrderableVersions = (): Promise<LicenseWindowsOrderConfiguration[]> => {
     return this.ovh.request('GET', '/license/windows/orderableVersions');
   };
 
   /** Get this object properties */
-  getWindowsServiceName = (serviceName: string): Promise<LicenseWindowsWindows> => {
+  getWindowsByServiceName = (serviceName: string): Promise<LicenseWindowsWindows> => {
     return this.ovh.request('GET', `/license/windows/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putWindowsServiceName = (serviceName: string, body: LicenseWindowsWindows): Promise<void> => {
+  updateWindowsByServiceName = (
+    serviceName: string,
+    body: LicenseWindowsWindows
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/license/windows/${serviceName}`, body);
   };
 
   /** Confirm termination of your service */
-  postWindowsServiceNameConfirmTermination = (
+  confirmWindowsTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -54,12 +57,12 @@ class LicenseWindowsHandler {
   };
 
   /** options attached to this license */
-  getWindowsServiceNameOption = (serviceName: string): Promise<LicenseOptionLabel> => {
+  getWindowsOptionByServiceName = (serviceName: string): Promise<LicenseOptionLabel[]> => {
     return this.ovh.request('GET', `/license/windows/${serviceName}/option`);
   };
 
   /** release this Option */
-  deleteWindowsServiceNameOptionLabel = (
+  deleteWindowsOptionByServiceNameAndLabel = (
     label: LicenseOptionLabel,
     serviceName: string
   ): Promise<LicenseTask> => {
@@ -67,7 +70,7 @@ class LicenseWindowsHandler {
   };
 
   /** Get this object properties */
-  getWindowsServiceNameOptionLabel = (
+  getWindowsOptionByServiceNameAndLabel = (
     label: LicenseOptionLabel,
     serviceName: string
   ): Promise<LicenseOption> => {
@@ -75,12 +78,12 @@ class LicenseWindowsHandler {
   };
 
   /** Get this object properties */
-  getWindowsServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getWindowsServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/license/windows/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putWindowsServiceNameServiceInfos = (
+  updateWindowsServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -88,7 +91,7 @@ class LicenseWindowsHandler {
   };
 
   /** Link your own sql server license to this Windows license */
-  postWindowsServiceNameSqlServer = (
+  postWindowsSqlServerByServiceName = (
     serviceName: string,
     body: { licenseId: string; version: LicenseWindowsSqlVersionEnum }
   ): Promise<LicenseTask> => {
@@ -96,12 +99,12 @@ class LicenseWindowsHandler {
   };
 
   /** tasks linked to this license */
-  getWindowsServiceNameTasks = (serviceName: string): Promise<number> => {
+  getWindowsTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/license/windows/${serviceName}/tasks`);
   };
 
   /** Get this object properties */
-  getWindowsServiceNameTasksTaskId = (
+  getWindowsTasksByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<LicenseTask> => {
@@ -109,9 +112,9 @@ class LicenseWindowsHandler {
   };
 
   /** Terminate your service */
-  postWindowsServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postWindowsTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/license/windows/${serviceName}/terminate`);
   };
 }
 
-export default LicenseWindowsHandler;
+export { LicenseWindowsHandler };

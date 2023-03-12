@@ -4,7 +4,7 @@ import { TelephonyTypeServiceEnum } from './TelephonyTypeServiceEnum';
 
 export type TelephonyVxml = {
   description: string;
-  offers: string;
+  offers: string[];
   serviceName: string;
   serviceType: TelephonyTypeServiceEnum;
 };

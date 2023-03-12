@@ -3,5 +3,5 @@
 import { OrderCatalogPublicProductBlobTechnicalDisk } from './OrderCatalogPublicProductBlobTechnicalDisk';
 
 export type OrderCatalogPublicProductBlobTechnicalEphemeralStorage = {
-  disks: OrderCatalogPublicProductBlobTechnicalDisk | null;
+  disks: OrderCatalogPublicProductBlobTechnicalDisk[] | null;
 };

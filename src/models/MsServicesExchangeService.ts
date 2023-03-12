@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MsServicesServiceStateEnum } from './MsServicesServiceStateEnum';
 import { MsServicesSpamAndVirusConfiguration } from './MsServicesSpamAndVirusConfiguration';
+import { MsServicesServiceStateEnum } from './MsServicesServiceStateEnum';
 import { MsServicesServiceOfferEnum } from './MsServicesServiceOfferEnum';
 
 export type MsServicesExchangeService = {

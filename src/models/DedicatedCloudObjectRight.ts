@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedCloudRightUserObjectRightTypeEnum } from './DedicatedCloudRightUserObjectRightTypeEnum';
 import { DedicatedCloudRightRightEnum } from './DedicatedCloudRightRightEnum';
+import { DedicatedCloudRightUserObjectRightTypeEnum } from './DedicatedCloudRightUserObjectRightTypeEnum';
 
 export type DedicatedCloudObjectRight = {
   name: string;

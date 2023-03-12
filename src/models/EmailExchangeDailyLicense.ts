@@ -3,7 +3,7 @@
 import { EmailExchangeAccountLicense } from './EmailExchangeAccountLicense';
 
 export type EmailExchangeDailyLicense = {
-  accountLicense: EmailExchangeAccountLicense;
+  accountLicense: EmailExchangeAccountLicense[];
   date: Date;
   outlookQuantity: number;
 };

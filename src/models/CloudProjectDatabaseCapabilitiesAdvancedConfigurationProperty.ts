@@ -8,5 +8,5 @@ export type CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty = {
   minimum: number | null;
   name: string;
   type: CloudProjectDatabaseCapabilitiesAdvancedConfigurationPropertyTypeEnum;
-  values: string | null;
+  values: string[] | null;
 };

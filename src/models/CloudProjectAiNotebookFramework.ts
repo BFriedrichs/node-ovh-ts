@@ -6,5 +6,5 @@ export type CloudProjectAiNotebookFramework = {
   id: string;
   logoUrl: string;
   name: string;
-  versions: string;
+  versions: string[];
 };

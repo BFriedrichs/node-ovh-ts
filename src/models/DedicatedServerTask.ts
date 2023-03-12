@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedTaskStatusEnum } from './DedicatedTaskStatusEnum';
 import { DedicatedTaskFunctionEnum } from './DedicatedTaskFunctionEnum';
+import { DedicatedTaskStatusEnum } from './DedicatedTaskStatusEnum';
 
 export type DedicatedServerTask = {
   comment: string | null;

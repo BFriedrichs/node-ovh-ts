@@ -4,7 +4,7 @@ import { XdslIpStatusEnum } from './XdslIpStatusEnum';
 import { CoreTypesIpVersionEnum } from './CoreTypesIpVersionEnum';
 
 export type XdslIP = {
-  dnsList: string;
+  dnsList: string[];
   ip: string;
   range: number;
   status: XdslIpStatusEnum;

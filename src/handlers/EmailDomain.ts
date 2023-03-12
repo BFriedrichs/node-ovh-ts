@@ -1,40 +1,40 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailDomainResponderAccount } from '../models/EmailDomainResponderAccount';
-import { EmailDomainDelegation } from '../models/EmailDomainDelegation';
-import { EmailDomainRule } from '../models/EmailDomainRule';
-import { EmailDomainRedirectionCreation } from '../models/EmailDomainRedirectionCreation';
-import { EmailDomainAccount } from '../models/EmailDomainAccount';
-import { EmailDomainMigrationServiceType } from '../models/EmailDomainMigrationServiceType';
-import { DomainDomainFilterActionEnum } from '../models/DomainDomainFilterActionEnum';
 import { DomainDomainUsageAccountStruct } from '../models/DomainDomainUsageAccountStruct';
-import { EmailDomainTaskSpecialAccount } from '../models/EmailDomainTaskSpecialAccount';
-import { EmailDomainSubscriber } from '../models/EmailDomainSubscriber';
-import { EmailDomainMigrationCheckStruct } from '../models/EmailDomainMigrationCheckStruct';
-import { EmailDomainModerator } from '../models/EmailDomainModerator';
-import { DomainDomainQuota } from '../models/DomainDomainQuota';
-import { DomainDomainSummary } from '../models/DomainDomainSummary';
-import { DomainDomainFilterOperandEnum } from '../models/DomainDomainFilterOperandEnum';
-import { ServicesService } from '../models/ServicesService';
-import { EmailDomainMigrationAccount } from '../models/EmailDomainMigrationAccount';
-import { EmailDomainTaskMl } from '../models/EmailDomainTaskMl';
-import { EmailDomainRedirectionGlobal } from '../models/EmailDomainRedirectionGlobal';
-import { DomainZoneRecord } from '../models/DomainZoneRecord';
-import { DomainDomainMlOptionsStruct } from '../models/DomainDomainMlOptionsStruct';
-import { EmailDomainTaskPop } from '../models/EmailDomainTaskPop';
-import { EmailDomainDomainService } from '../models/EmailDomainDomainService';
-import { EmailDomainFilter } from '../models/EmailDomainFilter';
-import { EmailDomainRedirectionChangeRedirectionCreation } from '../models/EmailDomainRedirectionChangeRedirectionCreation';
-import { DomainDomainMlLanguageEnum } from '../models/DomainDomainMlLanguageEnum';
 import { EmailDomainTaskFilter } from '../models/EmailDomainTaskFilter';
 import { EmailDomainMigrationService } from '../models/EmailDomainMigrationService';
+import { EmailDomainTaskSpecialAccount } from '../models/EmailDomainTaskSpecialAccount';
 import { EmailDomainAccountDelegated } from '../models/EmailDomainAccountDelegated';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { DomainDomainMXFilterEnum } from '../models/DomainDomainMXFilterEnum';
-import { EmailDomainAcl } from '../models/EmailDomainAcl';
-import { EmailDomainMailingList } from '../models/EmailDomainMailingList';
-import { EmailDomainResponder } from '../models/EmailDomainResponder';
+import { EmailDomainMigrationCheckStruct } from '../models/EmailDomainMigrationCheckStruct';
+import { EmailDomainRedirectionChangeRedirectionCreation } from '../models/EmailDomainRedirectionChangeRedirectionCreation';
+import { EmailDomainTaskPop } from '../models/EmailDomainTaskPop';
+import { EmailDomainFilter } from '../models/EmailDomainFilter';
+import { EmailDomainResponderAccount } from '../models/EmailDomainResponderAccount';
+import { EmailDomainModerator } from '../models/EmailDomainModerator';
+import { DomainDomainMlOptionsStruct } from '../models/DomainDomainMlOptionsStruct';
+import { EmailDomainSubscriber } from '../models/EmailDomainSubscriber';
+import { EmailDomainAccount } from '../models/EmailDomainAccount';
+import { EmailDomainMigrationAccount } from '../models/EmailDomainMigrationAccount';
+import { EmailDomainRule } from '../models/EmailDomainRule';
+import { EmailDomainDelegation } from '../models/EmailDomainDelegation';
+import { EmailDomainDomainService } from '../models/EmailDomainDomainService';
+import { EmailDomainMigrationServiceType } from '../models/EmailDomainMigrationServiceType';
+import { EmailDomainTaskMl } from '../models/EmailDomainTaskMl';
+import { EmailDomainRedirectionGlobal } from '../models/EmailDomainRedirectionGlobal';
 import { DomainDomainMlLimits } from '../models/DomainDomainMlLimits';
+import { EmailDomainRedirectionCreation } from '../models/EmailDomainRedirectionCreation';
+import { DomainDomainSummary } from '../models/DomainDomainSummary';
+import { DomainZoneRecord } from '../models/DomainZoneRecord';
+import { DomainDomainMlLanguageEnum } from '../models/DomainDomainMlLanguageEnum';
+import { ServicesService } from '../models/ServicesService';
+import { DomainDomainFilterActionEnum } from '../models/DomainDomainFilterActionEnum';
+import { EmailDomainAcl } from '../models/EmailDomainAcl';
+import { DomainDomainMXFilterEnum } from '../models/DomainDomainMXFilterEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { DomainDomainFilterOperandEnum } from '../models/DomainDomainFilterOperandEnum';
+import { EmailDomainResponder } from '../models/EmailDomainResponder';
+import { EmailDomainMailingList } from '../models/EmailDomainMailingList';
+import { DomainDomainQuota } from '../models/DomainDomainQuota';
 import OVHBase from '../ovh';
 
 class EmailDomainHandler {
@@ -45,22 +45,22 @@ class EmailDomainHandler {
   }
 
   /** List available services */
-  getDomain = (): Promise<string> => {
+  listDomains = (): Promise<string[]> => {
     return this.ovh.request('GET', '/email/domain');
   };
 
   /** Delegated emails */
-  getDomainDelegatedAccount = (): Promise<string> => {
+  getDomainDelegatedAccount = (): Promise<string[]> => {
     return this.ovh.request('GET', '/email/domain/delegatedAccount');
   };
 
   /** Get this object properties */
-  getDomainDelegatedAccountEmail = (email: string): Promise<EmailDomainAccountDelegated> => {
+  getDomainDelegatedAccountByEmail = (email: string): Promise<EmailDomainAccountDelegated> => {
     return this.ovh.request('GET', `/email/domain/delegatedAccount/${email}`);
   };
 
   /** Alter this object properties */
-  putDomainDelegatedAccountEmail = (
+  updateDomainDelegatedAccountByEmail = (
     email: string,
     body: EmailDomainAccountDelegated
   ): Promise<void> => {
@@ -68,7 +68,7 @@ class EmailDomainHandler {
   };
 
   /** Change mailbox password (length : [9;30], no space at begin and end, no accent) */
-  postDomainDelegatedAccountEmailChangePassword = (
+  updateDomainDelegatedAccountPasswordByEmail = (
     email: string,
     body: { password: string }
   ): Promise<EmailDomainTaskPop> => {
@@ -76,12 +76,12 @@ class EmailDomainHandler {
   };
 
   /** Get filters */
-  getDomainDelegatedAccountEmailFilter = (email: string): Promise<string> => {
+  getDomainDelegatedAccountFilterByEmail = (email: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/delegatedAccount/${email}/filter`);
   };
 
   /** Create new filter for account */
-  postDomainDelegatedAccountEmailFilter = (
+  createDomainDelegatedAccountFilterByEmail = (
     email: string,
     body: {
       action: DomainDomainFilterActionEnum;
@@ -98,15 +98,15 @@ class EmailDomainHandler {
   };
 
   /** Delete an existing filter */
-  deleteDomainDelegatedAccountEmailFilterName = (
+  deleteDomainDelegatedAccountFilterByEmailAndName = (
     email: string,
     name: string
-  ): Promise<EmailDomainTaskFilter> => {
+  ): Promise<EmailDomainTaskFilter[]> => {
     return this.ovh.request('DELETE', `/email/domain/delegatedAccount/${email}/filter/${name}`);
   };
 
   /** Get this object properties */
-  getDomainDelegatedAccountEmailFilterName = (
+  getDomainDelegatedAccountFilterByEmailAndName = (
     email: string,
     name: string
   ): Promise<EmailDomainFilter> => {
@@ -114,7 +114,7 @@ class EmailDomainHandler {
   };
 
   /** Change filter activity */
-  postDomainDelegatedAccountEmailFilterNameChangeActivity = (
+  updateDomainDelegatedAccountFilterActivityByEmailAndName = (
     email: string,
     name: string,
     body: { activity: boolean }
@@ -127,7 +127,7 @@ class EmailDomainHandler {
   };
 
   /** Change filter priority */
-  postDomainDelegatedAccountEmailFilterNameChangePriority = (
+  updateDomainDelegatedAccountFilterPriorityByEmailAndName = (
     email: string,
     name: string,
     body: { priority: number }
@@ -140,12 +140,15 @@ class EmailDomainHandler {
   };
 
   /** Get rules */
-  getDomainDelegatedAccountEmailFilterNameRule = (email: string, name: string): Promise<number> => {
+  getDomainDelegatedAccountFilterRuleByEmailAndName = (
+    email: string,
+    name: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/email/domain/delegatedAccount/${email}/filter/${name}/rule`);
   };
 
   /** Create new rule for filter */
-  postDomainDelegatedAccountEmailFilterNameRule = (
+  createDomainDelegatedAccountFilterRuleByEmailAndName = (
     email: string,
     name: string,
     body: { header: string; operand: DomainDomainFilterOperandEnum; value: string }
@@ -158,11 +161,11 @@ class EmailDomainHandler {
   };
 
   /** Delete an existing filter */
-  deleteDomainDelegatedAccountEmailFilterNameRuleId = (
+  deleteDomainDelegatedAccountFilterRuleByEmailAndNameAndId = (
     email: string,
     id: number,
     name: string
-  ): Promise<EmailDomainTaskFilter> => {
+  ): Promise<EmailDomainTaskFilter[]> => {
     return this.ovh.request(
       'DELETE',
       `/email/domain/delegatedAccount/${email}/filter/${name}/rule/${id}`
@@ -170,7 +173,7 @@ class EmailDomainHandler {
   };
 
   /** Get this object properties */
-  getDomainDelegatedAccountEmailFilterNameRuleId = (
+  getDomainDelegatedAccountFilterRuleByEmailAndNameAndId = (
     email: string,
     id: number,
     name: string
@@ -182,21 +185,21 @@ class EmailDomainHandler {
   };
 
   /** Delete an existing responder in server */
-  deleteDomainDelegatedAccountEmailResponder = (
+  deleteDomainDelegatedAccountResponderByEmail = (
     email: string
   ): Promise<EmailDomainTaskSpecialAccount> => {
     return this.ovh.request('DELETE', `/email/domain/delegatedAccount/${email}/responder`);
   };
 
   /** Get this object properties */
-  getDomainDelegatedAccountEmailResponder = (
+  getDomainDelegatedAccountResponderByEmail = (
     email: string
   ): Promise<EmailDomainResponderAccount> => {
     return this.ovh.request('GET', `/email/domain/delegatedAccount/${email}/responder`);
   };
 
   /** Create new responder in server */
-  postDomainDelegatedAccountEmailResponder = (
+  createDomainDelegatedAccountResponderByEmail = (
     email: string,
     body: { content: string; copy: boolean; copyTo?: string; from?: Date; to?: Date }
   ): Promise<EmailDomainTaskSpecialAccount> => {
@@ -204,7 +207,7 @@ class EmailDomainHandler {
   };
 
   /** Alter this object properties */
-  putDomainDelegatedAccountEmailResponder = (
+  updateDomainDelegatedAccountResponderByEmail = (
     email: string,
     body: EmailDomainResponderAccount
   ): Promise<void> => {
@@ -212,12 +215,12 @@ class EmailDomainHandler {
   };
 
   /** Update usage of account */
-  postDomainDelegatedAccountEmailUpdateUsage = (email: string): Promise<void> => {
+  updateDomainDelegatedAccountUsageByEmail = (email: string): Promise<void> => {
     return this.ovh.request('POST', `/email/domain/delegatedAccount/${email}/updateUsage`);
   };
 
   /** usage of account */
-  postDomainDelegatedAccountEmailUsage = (
+  postDomainDelegatedAccountUsageByEmail = (
     email: string
   ): Promise<DomainDomainUsageAccountStruct> => {
     return this.ovh.request('POST', `/email/domain/delegatedAccount/${email}/usage`);
@@ -229,17 +232,17 @@ class EmailDomainHandler {
   };
 
   /** Get this object properties */
-  getDomainDomain = (domain: string): Promise<EmailDomainDomainService> => {
+  getDomainByDomain = (domain: string): Promise<EmailDomainDomainService> => {
     return this.ovh.request('GET', `/email/domain/${domain}`);
   };
 
   /** Get accounts */
-  getDomainDomainAccount = (domain: string): Promise<string> => {
+  getDomainAccountByDomain = (domain: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/account`);
   };
 
   /** Create new mailbox in server */
-  postDomainDomainAccount = (
+  createDomainAccountByDomain = (
     domain: string,
     body: { accountName: string; description?: string; password: string; size?: number }
   ): Promise<EmailDomainTaskPop> => {
@@ -247,7 +250,7 @@ class EmailDomainHandler {
   };
 
   /** Delete an existing mailbox in server */
-  deleteDomainDomainAccountAccountName = (
+  deleteDomainAccountByDomainAndAccountName = (
     accountName: string,
     domain: string
   ): Promise<EmailDomainTaskPop> => {
@@ -255,7 +258,7 @@ class EmailDomainHandler {
   };
 
   /** Get this object properties */
-  getDomainDomainAccountAccountName = (
+  getDomainAccountByDomainAndAccountName = (
     accountName: string,
     domain: string
   ): Promise<EmailDomainAccount> => {
@@ -263,7 +266,7 @@ class EmailDomainHandler {
   };
 
   /** Alter this object properties */
-  putDomainDomainAccountAccountName = (
+  updateDomainAccountByDomainAndAccountName = (
     accountName: string,
     domain: string,
     body: EmailDomainAccount
@@ -272,7 +275,7 @@ class EmailDomainHandler {
   };
 
   /** Change mailbox password (length : [9;30], no space at begin and end, no accent) */
-  postDomainDomainAccountAccountNameChangePassword = (
+  updateDomainAccountPasswordByDomainAndAccountName = (
     accountName: string,
     domain: string,
     body: { password: string }
@@ -285,15 +288,15 @@ class EmailDomainHandler {
   };
 
   /** Get delegations */
-  getDomainDomainAccountAccountNameDelegation = (
+  getDomainAccountDelegationByDomainAndAccountName = (
     accountName: string,
     domain: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/account/${accountName}/delegation`);
   };
 
   /** Create delegation for this account */
-  postDomainDomainAccountAccountNameDelegation = (
+  createDomainAccountDelegationByDomainAndAccountName = (
     accountName: string,
     domain: string,
     body: { accountId: string }
@@ -306,7 +309,7 @@ class EmailDomainHandler {
   };
 
   /** Delete an existing delegation */
-  deleteDomainDomainAccountAccountNameDelegationAccountId = (
+  deleteDomainAccountDelegationByDomainAndAccountNameAndAccountId = (
     accountId: string,
     accountName: string,
     domain: string
@@ -318,7 +321,7 @@ class EmailDomainHandler {
   };
 
   /** Get this object properties */
-  getDomainDomainAccountAccountNameDelegationAccountId = (
+  getDomainAccountDelegationByDomainAndAccountNameAndAccountId = (
     accountId: string,
     accountName: string,
     domain: string
@@ -330,15 +333,15 @@ class EmailDomainHandler {
   };
 
   /** Get filters */
-  getDomainDomainAccountAccountNameFilter = (
+  getDomainAccountFilterByDomainAndAccountName = (
     accountName: string,
     domain: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/account/${accountName}/filter`);
   };
 
   /** Create new filter for account */
-  postDomainDomainAccountAccountNameFilter = (
+  createDomainAccountFilterByDomainAndAccountName = (
     accountName: string,
     domain: string,
     body: {
@@ -356,11 +359,11 @@ class EmailDomainHandler {
   };
 
   /** Delete an existing filter */
-  deleteDomainDomainAccountAccountNameFilterName = (
+  deleteDomainAccountFilterByDomainAndAccountNameAndName = (
     accountName: string,
     domain: string,
     name: string
-  ): Promise<EmailDomainTaskFilter> => {
+  ): Promise<EmailDomainTaskFilter[]> => {
     return this.ovh.request(
       'DELETE',
       `/email/domain/${domain}/account/${accountName}/filter/${name}`
@@ -368,7 +371,7 @@ class EmailDomainHandler {
   };
 
   /** Get this object properties */
-  getDomainDomainAccountAccountNameFilterName = (
+  getDomainAccountFilterByDomainAndAccountNameAndName = (
     accountName: string,
     domain: string,
     name: string
@@ -377,7 +380,7 @@ class EmailDomainHandler {
   };
 
   /** Change filter activity */
-  postDomainDomainAccountAccountNameFilterNameChangeActivity = (
+  updateDomainAccountFilterActivityByDomainAndAccountNameAndName = (
     accountName: string,
     domain: string,
     name: string,
@@ -391,7 +394,7 @@ class EmailDomainHandler {
   };
 
   /** Change filter priority */
-  postDomainDomainAccountAccountNameFilterNameChangePriority = (
+  updateDomainAccountFilterPriorityByDomainAndAccountNameAndName = (
     accountName: string,
     domain: string,
     name: string,
@@ -405,11 +408,11 @@ class EmailDomainHandler {
   };
 
   /** Get rules */
-  getDomainDomainAccountAccountNameFilterNameRule = (
+  getDomainAccountFilterRuleByDomainAndAccountNameAndName = (
     accountName: string,
     domain: string,
     name: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/email/domain/${domain}/account/${accountName}/filter/${name}/rule`
@@ -417,7 +420,7 @@ class EmailDomainHandler {
   };
 
   /** Create new rule for filter */
-  postDomainDomainAccountAccountNameFilterNameRule = (
+  createDomainAccountFilterRuleByDomainAndAccountNameAndName = (
     accountName: string,
     domain: string,
     name: string,
@@ -431,12 +434,12 @@ class EmailDomainHandler {
   };
 
   /** Delete an existing filter */
-  deleteDomainDomainAccountAccountNameFilterNameRuleId = (
+  deleteDomainAccountFilterRuleByDomainAndAccountNameAndNameAndId = (
     accountName: string,
     domain: string,
     id: number,
     name: string
-  ): Promise<EmailDomainTaskFilter> => {
+  ): Promise<EmailDomainTaskFilter[]> => {
     return this.ovh.request(
       'DELETE',
       `/email/domain/${domain}/account/${accountName}/filter/${name}/rule/${id}`
@@ -444,7 +447,7 @@ class EmailDomainHandler {
   };
 
   /** Get this object properties */
-  getDomainDomainAccountAccountNameFilterNameRuleId = (
+  getDomainAccountFilterRuleByDomainAndAccountNameAndNameAndId = (
     accountName: string,
     domain: string,
     id: number,
@@ -457,15 +460,15 @@ class EmailDomainHandler {
   };
 
   /** Get migration service */
-  getDomainDomainAccountAccountNameMigrate = (
+  getDomainAccountMigrateByDomainAndAccountName = (
     accountName: string,
     domain: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/account/${accountName}/migrate`);
   };
 
   /** Get this object properties */
-  getDomainDomainAccountAccountNameMigrateDestinationServiceName = (
+  getDomainAccountMigrateByDomainAndAccountNameAndDestinationServiceName = (
     accountName: string,
     destinationServiceName: string,
     domain: string
@@ -477,11 +480,11 @@ class EmailDomainHandler {
   };
 
   /** List of email address available for migration */
-  getDomainDomainAccountAccountNameMigrateDestinationServiceNameDestinationEmailAddress = (
+  listDomainAccountMigrateDestinationEmailAddressByDomainAndAccountNameAndDestinationServiceName = (
     accountName: string,
     destinationServiceName: string,
     domain: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/domain/${domain}/account/${accountName}/migrate/${destinationServiceName}/destinationEmailAddress`
@@ -489,7 +492,7 @@ class EmailDomainHandler {
   };
 
   /** Get this object properties */
-  getDomainDomainAccountAccountNameMigrateDestinationServiceNameDestinationEmailAddressDestinationEmailAddress =
+  getDomainAccountMigrateDestinationEmailAddressByDomainAndAccountNameAndDestinationServiceNameAndDestinationEmailAddress =
     (
       accountName: string,
       destinationEmailAddress: string,
@@ -503,7 +506,7 @@ class EmailDomainHandler {
     };
 
   /** Check if it's possible to migrate */
-  getDomainDomainAccountAccountNameMigrateDestinationServiceNameDestinationEmailAddressDestinationEmailAddressCheckMigrate =
+  checkDomainAccountMigrateDestinationEmailAddressMigrateByDomainAndAccountNameAndDestinationServiceNameAndDestinationEmailAddress =
     (
       accountName: string,
       destinationEmailAddress: string,
@@ -517,7 +520,7 @@ class EmailDomainHandler {
     };
 
   /** Migrate account to destination account */
-  postDomainDomainAccountAccountNameMigrateDestinationServiceNameDestinationEmailAddressDestinationEmailAddressMigrate =
+  postDomainAccountMigrateDestinationEmailAddressMigrateByDomainAndAccountNameAndDestinationServiceNameAndDestinationEmailAddress =
     (
       accountName: string,
       destinationEmailAddress: string,
@@ -533,7 +536,7 @@ class EmailDomainHandler {
     };
 
   /** Update usage of account */
-  postDomainDomainAccountAccountNameUpdateUsage = (
+  updateDomainAccountUsageByDomainAndAccountName = (
     accountName: string,
     domain: string
   ): Promise<void> => {
@@ -541,7 +544,7 @@ class EmailDomainHandler {
   };
 
   /** usage of account */
-  getDomainDomainAccountAccountNameUsage = (
+  getDomainAccountUsageByDomainAndAccountName = (
     accountName: string,
     domain: string
   ): Promise<DomainDomainUsageAccountStruct> => {
@@ -549,35 +552,41 @@ class EmailDomainHandler {
   };
 
   /** Get ACL on your domain */
-  getDomainDomainAcl = (domain: string): Promise<string> => {
+  getDomainAclByDomain = (domain: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/acl`);
   };
 
   /** Create new ACL */
-  postDomainDomainAcl = (domain: string, body: { accountId: string }): Promise<EmailDomainAcl> => {
+  createDomainAclByDomain = (
+    domain: string,
+    body: { accountId: string }
+  ): Promise<EmailDomainAcl> => {
     return this.ovh.request('POST', `/email/domain/${domain}/acl`, body);
   };
 
   /** Delete ACL */
-  deleteDomainDomainAclAccountId = (accountId: string, domain: string): Promise<void> => {
+  deleteDomainAclByDomainAndAccountId = (accountId: string, domain: string): Promise<void> => {
     return this.ovh.request('DELETE', `/email/domain/${domain}/acl/${accountId}`);
   };
 
   /** Get this object properties */
-  getDomainDomainAclAccountId = (accountId: string, domain: string): Promise<EmailDomainAcl> => {
+  getDomainAclByDomainAndAccountId = (
+    accountId: string,
+    domain: string
+  ): Promise<EmailDomainAcl> => {
     return this.ovh.request('GET', `/email/domain/${domain}/acl/${accountId}`);
   };
 
   /** Launch a contact change procedure */
-  postDomainDomainChangeContact = (
+  launchDomainChangeContactByDomain = (
     domain: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/email/domain/${domain}/changeContact`, body);
   };
 
   /** Change MX filter, so change MX DNS records */
-  postDomainDomainChangeDnsMXFilter = (
+  updateDomainDnsMXFilterByDomain = (
     domain: string,
     body: { customTarget?: string; mxFilter: DomainDomainMXFilterEnum; subDomain?: string }
   ): Promise<void> => {
@@ -585,7 +594,7 @@ class EmailDomainHandler {
   };
 
   /** Confirm termination of your email service */
-  postDomainDomainConfirmTermination = (
+  confirmDomainTerminationByDomain = (
     domain: string,
     body: { commentary?: string; reason?: ServiceTerminationReasonEnum; token: string }
   ): Promise<string> => {
@@ -593,22 +602,22 @@ class EmailDomainHandler {
   };
 
   /** Domain MX filter */
-  getDomainDomainDnsMXFilter = (domain: string): Promise<DomainDomainMXFilterEnum> => {
+  getDomainDnsMXFilterByDomain = (domain: string): Promise<DomainDomainMXFilterEnum> => {
     return this.ovh.request('GET', `/email/domain/${domain}/dnsMXFilter`);
   };
 
   /** Domain MX records */
-  getDomainDomainDnsMXRecords = (domain: string): Promise<string> => {
+  getDomainDnsMXRecordsByDomain = (domain: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/dnsMXRecords`);
   };
 
   /** Get mailing lists */
-  getDomainDomainMailingList = (domain: string): Promise<string> => {
+  getDomainMailingListByDomain = (domain: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/mailingList`);
   };
 
   /** Create new mailingList */
-  postDomainDomainMailingList = (
+  createDomainMailingListByDomain = (
     domain: string,
     body: {
       language: DomainDomainMlLanguageEnum;
@@ -622,7 +631,7 @@ class EmailDomainHandler {
   };
 
   /** Delete existing Mailing list */
-  deleteDomainDomainMailingListName = (
+  deleteDomainMailingListByDomainAndName = (
     domain: string,
     name: string
   ): Promise<EmailDomainTaskMl> => {
@@ -630,7 +639,7 @@ class EmailDomainHandler {
   };
 
   /** Get this object properties */
-  getDomainDomainMailingListName = (
+  getDomainMailingListByDomainAndName = (
     domain: string,
     name: string
   ): Promise<EmailDomainMailingList> => {
@@ -638,7 +647,7 @@ class EmailDomainHandler {
   };
 
   /** Alter this object properties */
-  putDomainDomainMailingListName = (
+  updateDomainMailingListByDomainAndName = (
     domain: string,
     name: string,
     body: EmailDomainMailingList
@@ -647,7 +656,7 @@ class EmailDomainHandler {
   };
 
   /** Change mailing list options */
-  postDomainDomainMailingListNameChangeOptions = (
+  updateDomainMailingListOptionsByDomainAndName = (
     domain: string,
     name: string,
     body: { options: DomainDomainMlOptionsStruct }
@@ -660,12 +669,15 @@ class EmailDomainHandler {
   };
 
   /** List of moderators */
-  getDomainDomainMailingListNameModerator = (domain: string, name: string): Promise<string> => {
+  listDomainMailingModeratorsByDomainAndName = (
+    domain: string,
+    name: string
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/mailingList/${name}/moderator`);
   };
 
   /** Add moderator to mailing list */
-  postDomainDomainMailingListNameModerator = (
+  addDomainMailingListModeratorByDomainAndName = (
     domain: string,
     name: string,
     body: { email: string }
@@ -674,7 +686,7 @@ class EmailDomainHandler {
   };
 
   /** Delete existing moderator */
-  deleteDomainDomainMailingListNameModeratorEmail = (
+  deleteDomainMailingListModeratorByDomainAndNameAndEmail = (
     domain: string,
     email: string,
     name: string
@@ -686,7 +698,7 @@ class EmailDomainHandler {
   };
 
   /** Get this object properties */
-  getDomainDomainMailingListNameModeratorEmail = (
+  getDomainMailingListModeratorByDomainAndNameAndEmail = (
     domain: string,
     email: string,
     name: string
@@ -698,7 +710,7 @@ class EmailDomainHandler {
   };
 
   /** Send moderators list and subscribers list of this mailing list by email */
-  postDomainDomainMailingListNameSendListByEmail = (
+  sendDomainMailingListListByEmailByDomainAndName = (
     domain: string,
     name: string,
     body: { email: string }
@@ -711,12 +723,15 @@ class EmailDomainHandler {
   };
 
   /** List of subscribers */
-  getDomainDomainMailingListNameSubscriber = (domain: string, name: string): Promise<string> => {
+  listDomainMailingSubscribersByDomainAndName = (
+    domain: string,
+    name: string
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/mailingList/${name}/subscriber`);
   };
 
   /** Add subscriber to mailing list */
-  postDomainDomainMailingListNameSubscriber = (
+  addDomainMailingListSubscriberByDomainAndName = (
     domain: string,
     name: string,
     body: { email: string }
@@ -725,7 +740,7 @@ class EmailDomainHandler {
   };
 
   /** Delete existing subscriber */
-  deleteDomainDomainMailingListNameSubscriberEmail = (
+  deleteDomainMailingListSubscriberByDomainAndNameAndEmail = (
     domain: string,
     email: string,
     name: string
@@ -737,7 +752,7 @@ class EmailDomainHandler {
   };
 
   /** Get this object properties */
-  getDomainDomainMailingListNameSubscriberEmail = (
+  getDomainMailingListSubscriberByDomainAndNameAndEmail = (
     domain: string,
     email: string,
     name: string
@@ -749,27 +764,27 @@ class EmailDomainHandler {
   };
 
   /** Create delegation of domain with same nic than V3 */
-  postDomainDomainMigrateDelegationV3toV6 = (domain: string): Promise<void> => {
+  createDomainMigrateDelegationV3toV6ByDomain = (domain: string): Promise<void> => {
     return this.ovh.request('POST', `/email/domain/${domain}/migrateDelegationV3toV6`);
   };
 
   /** List all quotas for this domain */
-  getDomainDomainQuota = (domain: string): Promise<DomainDomainQuota> => {
+  listDomainQuotasByDomain = (domain: string): Promise<DomainDomainQuota> => {
     return this.ovh.request('GET', `/email/domain/${domain}/quota`);
   };
 
   /** Recommended domain DNS records */
-  getDomainDomainRecommendedDNSRecords = (domain: string): Promise<DomainZoneRecord> => {
+  getDomainRecommendedDNSRecordsByDomain = (domain: string): Promise<DomainZoneRecord[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/recommendedDNSRecords`);
   };
 
   /** Get redirections */
-  getDomainDomainRedirection = (domain: string): Promise<string> => {
+  getDomainRedirectionByDomain = (domain: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/redirection`);
   };
 
   /** Create new redirection in server */
-  postDomainDomainRedirection = (
+  createDomainRedirectionByDomain = (
     domain: string,
     body: EmailDomainRedirectionCreation
   ): Promise<EmailDomainTaskSpecialAccount> => {
@@ -777,7 +792,7 @@ class EmailDomainHandler {
   };
 
   /** Delete an existing redirection in server */
-  deleteDomainDomainRedirectionId = (
+  deleteDomainRedirectionByDomainAndId = (
     domain: string,
     id: string
   ): Promise<EmailDomainTaskSpecialAccount> => {
@@ -785,7 +800,7 @@ class EmailDomainHandler {
   };
 
   /** Get this object properties */
-  getDomainDomainRedirectionId = (
+  getDomainRedirectionByDomainAndId = (
     domain: string,
     id: string
   ): Promise<EmailDomainRedirectionGlobal> => {
@@ -793,7 +808,7 @@ class EmailDomainHandler {
   };
 
   /** Change redirection */
-  postDomainDomainRedirectionIdChangeRedirection = (
+  updateDomainRedirectionRedirectionByDomainAndId = (
     domain: string,
     id: string,
     body: EmailDomainRedirectionChangeRedirectionCreation
@@ -806,12 +821,12 @@ class EmailDomainHandler {
   };
 
   /** Get responders */
-  getDomainDomainResponder = (domain: string): Promise<string> => {
+  getDomainResponderByDomain = (domain: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/responder`);
   };
 
   /** Create new responder in server */
-  postDomainDomainResponder = (
+  createDomainResponderByDomain = (
     domain: string,
     body: {
       account: string;
@@ -826,7 +841,7 @@ class EmailDomainHandler {
   };
 
   /** Delete an existing responder in server */
-  deleteDomainDomainResponderAccount = (
+  deleteDomainResponderByDomainAndAccount = (
     account: string,
     domain: string
   ): Promise<EmailDomainTaskSpecialAccount> => {
@@ -834,7 +849,7 @@ class EmailDomainHandler {
   };
 
   /** Get this object properties */
-  getDomainDomainResponderAccount = (
+  getDomainResponderByDomainAndAccount = (
     account: string,
     domain: string
   ): Promise<EmailDomainResponder> => {
@@ -842,7 +857,7 @@ class EmailDomainHandler {
   };
 
   /** Alter this object properties */
-  putDomainDomainResponderAccount = (
+  updateDomainResponderByDomainAndAccount = (
     account: string,
     domain: string,
     body: EmailDomainResponder
@@ -851,57 +866,63 @@ class EmailDomainHandler {
   };
 
   /** Get this object properties */
-  getDomainDomainServiceInfos = (domain: string): Promise<ServicesService> => {
+  getDomainServiceInfosByDomain = (domain: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/email/domain/${domain}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putDomainDomainServiceInfos = (domain: string, body: ServicesService): Promise<void> => {
+  updateDomainServiceInfosByDomain = (domain: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/email/domain/${domain}/serviceInfos`, body);
   };
 
   /** Summary for this domain */
-  getDomainDomainSummary = (domain: string): Promise<DomainDomainSummary> => {
+  getDomainSummaryByDomain = (domain: string): Promise<DomainDomainSummary> => {
     return this.ovh.request('GET', `/email/domain/${domain}/summary`);
   };
 
   /** Get account tasks */
-  getDomainDomainTaskAccount = (domain: string): Promise<number> => {
+  getDomainTaskAccountByDomain = (domain: string): Promise<number[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/task/account`);
   };
 
   /** Get this object properties */
-  getDomainDomainTaskAccountId = (domain: string, id: number): Promise<EmailDomainTaskPop> => {
+  getDomainTaskAccountByDomainAndId = (domain: string, id: number): Promise<EmailDomainTaskPop> => {
     return this.ovh.request('GET', `/email/domain/${domain}/task/account/${id}`);
   };
 
   /** Get filter tasks */
-  getDomainDomainTaskFilter = (domain: string): Promise<number> => {
+  getDomainTaskFilterByDomain = (domain: string): Promise<number[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/task/filter`);
   };
 
   /** Get this object properties */
-  getDomainDomainTaskFilterId = (domain: string, id: number): Promise<EmailDomainTaskFilter> => {
+  getDomainTaskFilterByDomainAndId = (
+    domain: string,
+    id: number
+  ): Promise<EmailDomainTaskFilter> => {
     return this.ovh.request('GET', `/email/domain/${domain}/task/filter/${id}`);
   };
 
   /** Get Mailing List tasks */
-  getDomainDomainTaskMailinglist = (domain: string): Promise<number> => {
+  getDomainTaskMailinglistByDomain = (domain: string): Promise<number[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/task/mailinglist`);
   };
 
   /** Get this object properties */
-  getDomainDomainTaskMailinglistId = (domain: string, id: number): Promise<EmailDomainTaskMl> => {
+  getDomainTaskMailinglistByDomainAndId = (
+    domain: string,
+    id: number
+  ): Promise<EmailDomainTaskMl> => {
     return this.ovh.request('GET', `/email/domain/${domain}/task/mailinglist/${id}`);
   };
 
   /** Get redirection tasks */
-  getDomainDomainTaskRedirection = (domain: string): Promise<string> => {
+  getDomainTaskRedirectionByDomain = (domain: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/task/redirection`);
   };
 
   /** Get this object properties */
-  getDomainDomainTaskRedirectionId = (
+  getDomainTaskRedirectionByDomainAndId = (
     domain: string,
     id: string
   ): Promise<EmailDomainTaskSpecialAccount> => {
@@ -909,12 +930,12 @@ class EmailDomainHandler {
   };
 
   /** Get responder tasks */
-  getDomainDomainTaskResponder = (domain: string): Promise<number> => {
+  getDomainTaskResponderByDomain = (domain: string): Promise<number[]> => {
     return this.ovh.request('GET', `/email/domain/${domain}/task/responder`);
   };
 
   /** Get this object properties */
-  getDomainDomainTaskResponderId = (
+  getDomainTaskResponderByDomainAndId = (
     domain: string,
     id: number
   ): Promise<EmailDomainTaskSpecialAccount> => {
@@ -922,9 +943,9 @@ class EmailDomainHandler {
   };
 
   /** Terminate your email service */
-  postDomainDomainTerminate = (domain: string): Promise<string> => {
+  postDomainTerminateByDomain = (domain: string): Promise<string> => {
     return this.ovh.request('POST', `/email/domain/${domain}/terminate`);
   };
 }
 
-export default EmailDomainHandler;
+export { EmailDomainHandler };

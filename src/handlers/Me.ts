@@ -1,166 +1,166 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { BillingOrder } from '../models/BillingOrder';
-import { BillingMovement } from '../models/BillingMovement';
-import { BillingBill } from '../models/BillingBill';
-import { IpCampusEnum } from '../models/IpCampusEnum';
-import { MeSupportLevelLevel } from '../models/MeSupportLevelLevel';
-import { BillingItemDetail } from '../models/BillingItemDetail';
-import { BillingFidelityAccount } from '../models/BillingFidelityAccount';
-import { NichandleAuthenticationGroup } from '../models/NichandleAuthenticationGroup';
-import { NichandleAccessRestrictionTOTPSecret } from '../models/NichandleAccessRestrictionTOTPSecret';
-import { MePaymentMethodValidation } from '../models/MePaymentMethodValidation';
-import { RecommendationsProductRangesEnum } from '../models/RecommendationsProductRangesEnum';
-import { MePaymentPaymentMethod } from '../models/MePaymentPaymentMethod';
-import { DebtEntryAssociatedObject } from '../models/DebtEntryAssociatedObject';
-import { MeConsentConsent } from '../models/MeConsentConsent';
-import { ApiLog } from '../models/ApiLog';
-import { NichandleNichandle } from '../models/NichandleNichandle';
-import { MePaymentMeanBankAccountStateEnum } from '../models/MePaymentMeanBankAccountStateEnum';
-import { XdslSetting } from '../models/XdslSetting';
-import { AgreementsContractAgreement } from '../models/AgreementsContractAgreement';
-import { NichandleAccessRestrictionSmsCode } from '../models/NichandleAccessRestrictionSmsCode';
-import { BillingAutomaticPaymentMean } from '../models/BillingAutomaticPaymentMean';
-import { DedicatedTemplateOsLanguageEnum } from '../models/DedicatedTemplateOsLanguageEnum';
-import { ConsumptionConsumptionExportFormatsEnum } from '../models/ConsumptionConsumptionExportFormatsEnum';
-import { MeIncidentMigrateServices } from '../models/MeIncidentMigrateServices';
-import { TelephonyDefaultIpRestriction } from '../models/TelephonyDefaultIpRestriction';
-import { NichandleAuthenticationProvider } from '../models/NichandleAuthenticationProvider';
-import { AgreementsContract } from '../models/AgreementsContract';
-import { MeTagCreation } from '../models/MeTagCreation';
-import { MeCreditBalance } from '../models/MeCreditBalance';
-import { MeTagTag } from '../models/MeTagTag';
-import { MePaymentMeanCreditCard } from '../models/MePaymentMeanCreditCard';
-import { NichandleContactChangeTask } from '../models/NichandleContactChangeTask';
-import { DebtDebt } from '../models/DebtDebt';
-import { BillingOrderPaymentMethods } from '../models/BillingOrderPaymentMethods';
-import { DedicatedInstallationTemplateTemplatePartitions } from '../models/DedicatedInstallationTemplateTemplatePartitions';
-import { BillingOrderDetail } from '../models/BillingOrderDetail';
-import { BillingFidelityMovement } from '../models/BillingFidelityMovement';
-import { BillingPayment } from '../models/BillingPayment';
-import { NichandleAccessRestrictionSOTPValidate } from '../models/NichandleAccessRestrictionSOTPValidate';
-import { MeBillingPurchaseOrderUpdate } from '../models/MeBillingPurchaseOrderUpdate';
-import { NichandleAccessRestrictionSOTPSecret } from '../models/NichandleAccessRestrictionSOTPSecret';
-import { DedicatedInstallationTemplateTemplates } from '../models/DedicatedInstallationTemplateTemplates';
-import { BillingOrderConsumptionDetails } from '../models/BillingOrderConsumptionDetails';
-import { MePaymentMethodFinalize } from '../models/MePaymentMethodFinalize';
-import { BillingOrderAssociatedObject } from '../models/BillingOrderAssociatedObject';
-import { BillingBillDetail } from '../models/BillingBillDetail';
-import { MeTagAvailableTag } from '../models/MeTagAvailableTag';
-import { BillingOvhAccount } from '../models/BillingOvhAccount';
-import { DomainTask } from '../models/DomainTask';
-import { ContactFieldInformation } from '../models/ContactFieldInformation';
-import { BillingOrderOrderStatusEnum } from '../models/BillingOrderOrderStatusEnum';
-import { NichandleNicAutorenewInfos } from '../models/NichandleNicAutorenewInfos';
-import { NichandleVipStatus } from '../models/NichandleVipStatus';
-import { NichandleEmailNotification } from '../models/NichandleEmailNotification';
-import { MeMigrationContract } from '../models/MeMigrationContract';
+import { MeCreditBalanceTypeEnum } from '../models/MeCreditBalanceTypeEnum';
+import { NichandleIpRegistryEnum } from '../models/NichandleIpRegistryEnum';
 import { MePaymentMethodChallenge } from '../models/MePaymentMethodChallenge';
-import { NichandleAccessRestrictionSmsSecret } from '../models/NichandleAccessRestrictionSmsSecret';
-import { MeIncidentOrder } from '../models/MeIncidentOrder';
-import { BillingCreditBalance } from '../models/BillingCreditBalance';
-import { DedicatedTemplatePartitionTypeEnum } from '../models/DedicatedTemplatePartitionTypeEnum';
-import { DomainOperationStatusEnum } from '../models/DomainOperationStatusEnum';
-import { NichandleSshKey } from '../models/NichandleSshKey';
-import { MeAgreementsContractAgreement } from '../models/MeAgreementsContractAgreement';
-import { NichandleChangeEmailTaskStateEnum } from '../models/NichandleChangeEmailTaskStateEnum';
-import { BillingArchiveTypeEnum } from '../models/BillingArchiveTypeEnum';
-import { BillingOrderFollowUp } from '../models/BillingOrderFollowUp';
-import { DomainOperationFunctionEnum } from '../models/DomainOperationFunctionEnum';
-import { BillingOrderPaymentMeans } from '../models/BillingOrderPaymentMeans';
-import { AuditLog } from '../models/AuditLog';
-import { NichandleDeveloperModeRestriction } from '../models/NichandleDeveloperModeRestriction';
-import { MeIncidentServiceMigration } from '../models/MeIncidentServiceMigration';
-import { NichandleIpv4Org } from '../models/NichandleIpv4Org';
-import { MePaymentMethodCreation } from '../models/MePaymentMethodCreation';
-import { DedicatedTemplateOsHardwareRaidEnum } from '../models/DedicatedTemplateOsHardwareRaidEnum';
-import { NichandleSubscription } from '../models/NichandleSubscription';
-import { BillingDepositDetail } from '../models/BillingDepositDetail';
-import { NichandleVoucherStatus } from '../models/NichandleVoucherStatus';
-import { MePaymentMeanBankAccountCreation } from '../models/MePaymentMeanBankAccountCreation';
-import { BillingWithdrawal } from '../models/BillingWithdrawal';
-import { MePaymentMeanBankAccountValidation } from '../models/MePaymentMeanBankAccountValidation';
-import { BillingSlaOperation } from '../models/BillingSlaOperation';
-import { MePaymentMeanPaypalChallengeCreation } from '../models/MePaymentMeanPaypalChallengeCreation';
-import { MeBillingPurchaseOrderCreation } from '../models/MeBillingPurchaseOrderCreation';
-import { NichandleAccessRestrictionU2FRegisterChallenge } from '../models/NichandleAccessRestrictionU2FRegisterChallenge';
-import { MeAbuseAbuse } from '../models/MeAbuseAbuse';
-import { BillingDeposit } from '../models/BillingDeposit';
-import { NichandleSubAccount } from '../models/NichandleSubAccount';
-import { MeBillingGroupServiceCreate } from '../models/MeBillingGroupServiceCreate';
-import { MePaymentMeanPaypalCreation } from '../models/MePaymentMeanPaypalCreation';
-import { NichandleAccessRestrictionU2FAccount } from '../models/NichandleAccessRestrictionU2FAccount';
-import { NichandleDocumentDocument } from '../models/NichandleDocumentDocument';
-import { MeConsumptionTransaction } from '../models/MeConsumptionTransaction';
 import { NichandleIpRestrictionDefaultRule } from '../models/NichandleIpRestrictionDefaultRule';
-import { TelephonySettings } from '../models/TelephonySettings';
-import { AgreementsAgreementStateEnum } from '../models/AgreementsAgreementStateEnum';
-import { NichandleEmailChangeTask } from '../models/NichandleEmailChangeTask';
-import { NichandleCountryEnum } from '../models/NichandleCountryEnum';
-import { MePaymentMeanDeferred } from '../models/MePaymentMeanDeferred';
-import { MePaymentMethodDetails } from '../models/MePaymentMethodDetails';
-import { BillingReversableBillDetail } from '../models/BillingReversableBillDetail';
-import { TelephonyMailDomain2Service } from '../models/TelephonyMailDomain2Service';
-import { BillingReusablePaymentMeanEnum } from '../models/BillingReusablePaymentMeanEnum';
-import { AuthApiCredential } from '../models/AuthApiCredential';
-import { NichandleAuthenticationProviderExtensions } from '../models/NichandleAuthenticationProviderExtensions';
-import { DebtOperation } from '../models/DebtOperation';
-import { NichandleOvhCompanyEnum } from '../models/NichandleOvhCompanyEnum';
-import { BillingOrderPayWithPaymentMethod } from '../models/BillingOrderPayWithPaymentMethod';
-import { MePaymentAvailablePaymentMethod } from '../models/MePaymentAvailablePaymentMethod';
-import { NichandleAccessRestrictionSOTPAccount } from '../models/NichandleAccessRestrictionSOTPAccount';
-import { DedicatedInstallationTemplateTemplatePartitioningSchemes } from '../models/DedicatedInstallationTemplateTemplatePartitioningSchemes';
-import { DedicatedInstallationTemplateHardwareRaid } from '../models/DedicatedInstallationTemplateHardwareRaid';
-import { MeConsentCampaign } from '../models/MeConsentCampaign';
-import { BillingSlaOperationService } from '../models/BillingSlaOperationService';
+import { NichandleIpxe } from '../models/NichandleIpxe';
+import { NichandleSubscription } from '../models/NichandleSubscription';
+import { AgreementsContractAgreement } from '../models/AgreementsContractAgreement';
+import { MePaymentPaymentMethod } from '../models/MePaymentPaymentMethod';
+import { BillingArchiveTypeEnum } from '../models/BillingArchiveTypeEnum';
+import { BillingOvhAccount } from '../models/BillingOvhAccount';
+import { MeSupportLevelLevel } from '../models/MeSupportLevelLevel';
 import { AuthCredentialStateEnum } from '../models/AuthCredentialStateEnum';
-import { MePaymentTransactionStatusEnum } from '../models/MePaymentTransactionStatusEnum';
-import { MeBillingPurchaseOrderPurchaseOrder } from '../models/MeBillingPurchaseOrderPurchaseOrder';
-import { BillingRefund } from '../models/BillingRefund';
-import { BillingCategoryEnum } from '../models/BillingCategoryEnum';
-import { BillingReverseBill } from '../models/BillingReverseBill';
-import { NichandleChangeContactTaskStateEnum } from '../models/NichandleChangeContactTaskStateEnum';
-import { TelephonyProtocolEnum } from '../models/TelephonyProtocolEnum';
-import { BillingWithdrawalDetail } from '../models/BillingWithdrawalDetail';
-import { MePaymentMeanPaypal } from '../models/MePaymentMeanPaypal';
-import { MePaymentMeanPaypalValidation } from '../models/MePaymentMeanPaypalValidation';
-import { MePartnerLevelLevel } from '../models/MePartnerLevelLevel';
-import { DedicatedTemplateOsFileSystemEnum } from '../models/DedicatedTemplateOsFileSystemEnum';
+import { BillingOrderFollowUp } from '../models/BillingOrderFollowUp';
+import { BillingMovement } from '../models/BillingMovement';
+import { BillingAutomaticPaymentMean } from '../models/BillingAutomaticPaymentMean';
+import { NichandleAccessRestrictionSOTPAccount } from '../models/NichandleAccessRestrictionSOTPAccount';
+import { MePaymentMeanDeferred } from '../models/MePaymentMeanDeferred';
+import { NichandleDeveloperModeRestriction } from '../models/NichandleDeveloperModeRestriction';
+import { BillingOrderDetail } from '../models/BillingOrderDetail';
+import { NichandleSubAccountConsumerKey } from '../models/NichandleSubAccountConsumerKey';
 import { BillingOrderRegisteredPaymentMean } from '../models/BillingOrderRegisteredPaymentMean';
+import { MePaymentMeanBankAccountCreation } from '../models/MePaymentMeanBankAccountCreation';
+import { BillingBillDetail } from '../models/BillingBillDetail';
+import { MeBillingPurchaseOrderUpdate } from '../models/MeBillingPurchaseOrderUpdate';
+import { MePaymentMethodValidation } from '../models/MePaymentMethodValidation';
+import { MeBillingGroupBillingGroup } from '../models/MeBillingGroupBillingGroup';
+import { NichandleCountryEnum } from '../models/NichandleCountryEnum';
+import { MeAgreementsContractAgreement } from '../models/MeAgreementsContractAgreement';
+import { TelephonySettings } from '../models/TelephonySettings';
+import { MeMigration } from '../models/MeMigration';
+import { BillingWithdrawal } from '../models/BillingWithdrawal';
+import { NichandleNicAutorenewInfos } from '../models/NichandleNicAutorenewInfos';
+import { MeBillingPurchaseOrderCreation } from '../models/MeBillingPurchaseOrderCreation';
+import { NichandleSubAccount } from '../models/NichandleSubAccount';
+import { MeBillingPurchaseOrderPurchaseOrder } from '../models/MeBillingPurchaseOrderPurchaseOrder';
+import { MeBillingGroupServiceCreate } from '../models/MeBillingGroupServiceCreate';
+import { ContactFieldInformation } from '../models/ContactFieldInformation';
+import { NichandleUser } from '../models/NichandleUser';
+import { MePaymentAvailablePaymentMethod } from '../models/MePaymentAvailablePaymentMethod';
+import { MePaymentMethodFinalize } from '../models/MePaymentMethodFinalize';
+import { BillingFidelityMovement } from '../models/BillingFidelityMovement';
+import { NichandleVoucherStatus } from '../models/NichandleVoucherStatus';
+import { ApiLog } from '../models/ApiLog';
+import { MePaymentMethodDetails } from '../models/MePaymentMethodDetails';
+import { BillingRefundDetail } from '../models/BillingRefundDetail';
+import { NichandleNichandle } from '../models/NichandleNichandle';
+import { BillingBill } from '../models/BillingBill';
+import { NichandleDocumentDocument } from '../models/NichandleDocumentDocument';
 import { NichandleIpRestriction } from '../models/NichandleIpRestriction';
-import { NichandleAccessRestrictionTOTPAccount } from '../models/NichandleAccessRestrictionTOTPAccount';
-import { BillingOrderRetractionReasonEnum } from '../models/BillingOrderRetractionReasonEnum';
+import { NichandleEmailChangeTask } from '../models/NichandleEmailChangeTask';
+import { BillingRefund } from '../models/BillingRefund';
+import { MeIncidentOrder } from '../models/MeIncidentOrder';
+import { MeCreditBalance } from '../models/MeCreditBalance';
+import { InsightAccess } from '../models/InsightAccess';
+import { MeConsentCampaign } from '../models/MeConsentCampaign';
+import { AuditLog } from '../models/AuditLog';
+import { BillingOrderPayWithPaymentMethod } from '../models/BillingOrderPayWithPaymentMethod';
+import { BillingDeposit } from '../models/BillingDeposit';
+import { AuthApiCredential } from '../models/AuthApiCredential';
+import { NichandleAccessRestrictionSmsSecret } from '../models/NichandleAccessRestrictionSmsSecret';
+import { MePaymentMeanPaypalChallengeCreation } from '../models/MePaymentMeanPaypalChallengeCreation';
+import { BillingReverseBill } from '../models/BillingReverseBill';
+import { MeCreditBalanceMovement } from '../models/MeCreditBalanceMovement';
+import { AgreementsContract } from '../models/AgreementsContract';
+import { NichandleAuthenticationGroup } from '../models/NichandleAuthenticationGroup';
+import { BillingOrderOrderStatusEnum } from '../models/BillingOrderOrderStatusEnum';
+import { DedicatedInstallationTemplateTemplatePartitioningSchemes } from '../models/DedicatedInstallationTemplateTemplatePartitioningSchemes';
+import { MePaymentMeanBankAccountStateEnum } from '../models/MePaymentMeanBankAccountStateEnum';
+import { DedicatedInstallationTemplateHardwareRaid } from '../models/DedicatedInstallationTemplateHardwareRaid';
+import { MePaymentMeanBankAccountChallengeCreation } from '../models/MePaymentMeanBankAccountChallengeCreation';
+import { MeTagCreation } from '../models/MeTagCreation';
+import { MeContactContact } from '../models/MeContactContact';
+import { BillingItemDetail } from '../models/BillingItemDetail';
+import { MePaymentTransaction } from '../models/MePaymentTransaction';
+import { NichandleVipStatus } from '../models/NichandleVipStatus';
+import { DedicatedTemplateOsHardwareRaidEnum } from '../models/DedicatedTemplateOsHardwareRaidEnum';
+import { DebtEntryAssociatedObject } from '../models/DebtEntryAssociatedObject';
+import { DedicatedTemplatePartitionTypeEnum } from '../models/DedicatedTemplatePartitionTypeEnum';
 import { NichandleDomainTaskProgressBar } from '../models/NichandleDomainTaskProgressBar';
 import { MeGeolocationContinentCountryLocation } from '../models/MeGeolocationContinentCountryLocation';
-import { MeBillingGroupBillingGroup } from '../models/MeBillingGroupBillingGroup';
-import { DedicatedServerPartitionRaidEnum } from '../models/DedicatedServerPartitionRaidEnum';
-import { NichandleAccessRestrictionIpRestrictionRuleEnum } from '../models/NichandleAccessRestrictionIpRestrictionRuleEnum';
-import { NichandleIpRegistryEnum } from '../models/NichandleIpRegistryEnum';
-import { MeCreditBalanceTypeEnum } from '../models/MeCreditBalanceTypeEnum';
-import { NichandleSubAccountConsumerKey } from '../models/NichandleSubAccountConsumerKey';
-import { MeMigration } from '../models/MeMigration';
-import { InsightAccess } from '../models/InsightAccess';
-import { RecommendationsRecommendations } from '../models/RecommendationsRecommendations';
-import { MeBillingGroupService } from '../models/MeBillingGroupService';
-import { MeCreditBalanceMovement } from '../models/MeCreditBalanceMovement';
-import { MePaymentMethodStatusEnum } from '../models/MePaymentMethodStatusEnum';
-import { MeContactContact } from '../models/MeContactContact';
-import { MeCreditCodeRedeem } from '../models/MeCreditCodeRedeem';
+import { NichandleChangeContactTaskStateEnum } from '../models/NichandleChangeContactTaskStateEnum';
+import { BillingOrderConsumptionDetails } from '../models/BillingOrderConsumptionDetails';
+import { NichandleEmailNotification } from '../models/NichandleEmailNotification';
+import { DomainOperationStatusEnum } from '../models/DomainOperationStatusEnum';
+import { DebtOperation } from '../models/DebtOperation';
+import { NichandleAccessRestrictionTOTPSecret } from '../models/NichandleAccessRestrictionTOTPSecret';
+import { MePaymentMeanPaypalCreation } from '../models/MePaymentMeanPaypalCreation';
+import { DebtDebt } from '../models/DebtDebt';
+import { NichandleAccessRestrictionU2FRegisterChallenge } from '../models/NichandleAccessRestrictionU2FRegisterChallenge';
+import { RecommendationsProductRangesEnum } from '../models/RecommendationsProductRangesEnum';
+import { NichandleAuthenticationProviderExtensions } from '../models/NichandleAuthenticationProviderExtensions';
+import { MePaymentMeanPaypal } from '../models/MePaymentMeanPaypal';
+import { DedicatedInstallationTemplateTemplates } from '../models/DedicatedInstallationTemplateTemplates';
+import { MeIncidentMigrateServices } from '../models/MeIncidentMigrateServices';
+import { NichandleAccessRestrictionSOTPValidate } from '../models/NichandleAccessRestrictionSOTPValidate';
 import { DebtBalance } from '../models/DebtBalance';
+import { XdslSetting } from '../models/XdslSetting';
+import { BillingOrderPaymentMeans } from '../models/BillingOrderPaymentMeans';
+import { MeConsumptionTransaction } from '../models/MeConsumptionTransaction';
+import { BillingReusablePaymentMeanEnum } from '../models/BillingReusablePaymentMeanEnum';
+import { NichandleOvhCompanyEnum } from '../models/NichandleOvhCompanyEnum';
+import { BillingWithdrawalDetail } from '../models/BillingWithdrawalDetail';
+import { MeTagTag } from '../models/MeTagTag';
+import { BillingCategoryEnum } from '../models/BillingCategoryEnum';
+import { MeMigrationContract } from '../models/MeMigrationContract';
+import { DedicatedTemplateOsFileSystemEnum } from '../models/DedicatedTemplateOsFileSystemEnum';
+import { BillingSlaOperationService } from '../models/BillingSlaOperationService';
+import { DomainOperationFunctionEnum } from '../models/DomainOperationFunctionEnum';
+import { MePartnerLevelLevel } from '../models/MePartnerLevelLevel';
+import { MePaymentMethodCreation } from '../models/MePaymentMethodCreation';
 import { NichandleDomainTaskArgument } from '../models/NichandleDomainTaskArgument';
-import { MePaymentMeanCreditCardValidation } from '../models/MePaymentMeanCreditCardValidation';
-import { BillingRefundDetail } from '../models/BillingRefundDetail';
-import { MePaymentMeanCreditCardChallengeCreation } from '../models/MePaymentMeanCreditCardChallengeCreation';
-import { NichandleIpxe } from '../models/NichandleIpxe';
-import { MePaymentMeanBankAccountChallengeCreation } from '../models/MePaymentMeanBankAccountChallengeCreation';
-import { MePaymentMeanCreditCardCreation } from '../models/MePaymentMeanCreditCardCreation';
+import { DomainTask } from '../models/DomainTask';
+import { MeIncidentServiceMigration } from '../models/MeIncidentServiceMigration';
+import { BillingOrderPaymentMethods } from '../models/BillingOrderPaymentMethods';
+import { BillingOrderAssociatedObject } from '../models/BillingOrderAssociatedObject';
+import { MeTagAvailableTag } from '../models/MeTagAvailableTag';
 import { AuthApiApplication } from '../models/AuthApiApplication';
-import { NichandleAccessRestrictionU2FSignChallenge } from '../models/NichandleAccessRestrictionU2FSignChallenge';
-import { NichandleUser } from '../models/NichandleUser';
-import { NichandleAuthenticationRoleEnum } from '../models/NichandleAuthenticationRoleEnum';
-import { MePaymentMeanBankAccount } from '../models/MePaymentMeanBankAccount';
-import { MePaymentTransaction } from '../models/MePaymentTransaction';
+import { BillingOrder } from '../models/BillingOrder';
+import { DedicatedServerPartitionRaidEnum } from '../models/DedicatedServerPartitionRaidEnum';
 import { NichandleAccessRestrictionSmsAccount } from '../models/NichandleAccessRestrictionSmsAccount';
+import { BillingFidelityAccount } from '../models/BillingFidelityAccount';
+import { RecommendationsRecommendations } from '../models/RecommendationsRecommendations';
+import { BillingSlaOperation } from '../models/BillingSlaOperation';
+import { IpCampusEnum } from '../models/IpCampusEnum';
+import { NichandleAccessRestrictionSOTPSecret } from '../models/NichandleAccessRestrictionSOTPSecret';
+import { MeAbuseAbuse } from '../models/MeAbuseAbuse';
+import { TelephonyDefaultIpRestriction } from '../models/TelephonyDefaultIpRestriction';
+import { NichandleChangeEmailTaskStateEnum } from '../models/NichandleChangeEmailTaskStateEnum';
+import { NichandleIpv4Org } from '../models/NichandleIpv4Org';
+import { MePaymentMeanPaypalValidation } from '../models/MePaymentMeanPaypalValidation';
+import { NichandleAccessRestrictionSmsCode } from '../models/NichandleAccessRestrictionSmsCode';
+import { ConsumptionConsumptionExportFormatsEnum } from '../models/ConsumptionConsumptionExportFormatsEnum';
+import { MeCreditCodeRedeem } from '../models/MeCreditCodeRedeem';
+import { MePaymentMeanBankAccount } from '../models/MePaymentMeanBankAccount';
+import { NichandleAccessRestrictionU2FAccount } from '../models/NichandleAccessRestrictionU2FAccount';
+import { NichandleAuthenticationRoleEnum } from '../models/NichandleAuthenticationRoleEnum';
+import { MePaymentTransactionStatusEnum } from '../models/MePaymentTransactionStatusEnum';
+import { BillingPayment } from '../models/BillingPayment';
+import { MePaymentMeanCreditCardValidation } from '../models/MePaymentMeanCreditCardValidation';
+import { DedicatedTemplateOsLanguageEnum } from '../models/DedicatedTemplateOsLanguageEnum';
+import { MePaymentMeanCreditCard } from '../models/MePaymentMeanCreditCard';
+import { MeBillingGroupService } from '../models/MeBillingGroupService';
+import { BillingReversableBillDetail } from '../models/BillingReversableBillDetail';
+import { TelephonyMailDomain2Service } from '../models/TelephonyMailDomain2Service';
+import { MePaymentMethodStatusEnum } from '../models/MePaymentMethodStatusEnum';
+import { MePaymentMeanCreditCardChallengeCreation } from '../models/MePaymentMeanCreditCardChallengeCreation';
+import { BillingOrderRetractionReasonEnum } from '../models/BillingOrderRetractionReasonEnum';
+import { NichandleAccessRestrictionIpRestrictionRuleEnum } from '../models/NichandleAccessRestrictionIpRestrictionRuleEnum';
+import { NichandleAccessRestrictionU2FSignChallenge } from '../models/NichandleAccessRestrictionU2FSignChallenge';
+import { NichandleContactChangeTask } from '../models/NichandleContactChangeTask';
+import { AgreementsAgreementStateEnum } from '../models/AgreementsAgreementStateEnum';
+import { MePaymentMeanBankAccountValidation } from '../models/MePaymentMeanBankAccountValidation';
+import { NichandleSshKey } from '../models/NichandleSshKey';
+import { TelephonyProtocolEnum } from '../models/TelephonyProtocolEnum';
+import { NichandleAuthenticationProvider } from '../models/NichandleAuthenticationProvider';
+import { NichandleAccessRestrictionTOTPAccount } from '../models/NichandleAccessRestrictionTOTPAccount';
+import { MePaymentMeanCreditCardCreation } from '../models/MePaymentMeanCreditCardCreation';
+import { BillingDepositDetail } from '../models/BillingDepositDetail';
+import { DedicatedInstallationTemplateTemplatePartitions } from '../models/DedicatedInstallationTemplateTemplatePartitions';
+import { MeConsentConsent } from '../models/MeConsentConsent';
+import { BillingCreditBalance } from '../models/BillingCreditBalance';
 import OVHBase from '../ovh';
 
 class MeHandler {
@@ -176,17 +176,17 @@ class MeHandler {
   };
 
   /** Update details of your nichandle */
-  put = (body: NichandleNichandle): Promise<void> => {
+  update = (body: NichandleNichandle): Promise<void> => {
     return this.ovh.request('PUT', '/me', body);
   };
 
   /** Retrieve abuse cases list */
-  getAbuse = (): Promise<string> => {
+  getAbuse = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/abuse');
   };
 
   /** Check specific abuse case */
-  getAbuseId = (id: string): Promise<MeAbuseAbuse> => {
+  checkAbuseById = (id: string): Promise<MeAbuseAbuse> => {
     return this.ovh.request('GET', `/me/abuse/${id}`);
   };
 
@@ -201,22 +201,22 @@ class MeHandler {
   };
 
   /** Add a SOTP access restriction */
-  postAccessRestrictionBackupCode = (): Promise<NichandleAccessRestrictionSOTPSecret> => {
+  addAccessRestrictionBackupCode = (): Promise<NichandleAccessRestrictionSOTPSecret> => {
     return this.ovh.request('POST', '/me/accessRestriction/backupCode');
   };
 
   /** Disable this SOTP account */
-  postAccessRestrictionBackupCodeDisable = (body: { code: string }): Promise<void> => {
+  disableAccessRestrictionBackupCode = (body: { code: string }): Promise<void> => {
     return this.ovh.request('POST', '/me/accessRestriction/backupCode/disable', body);
   };
 
   /** Enable this SOTP account */
-  postAccessRestrictionBackupCodeEnable = (body: { code: string }): Promise<void> => {
+  enableAccessRestrictionBackupCode = (body: { code: string }): Promise<void> => {
     return this.ovh.request('POST', '/me/accessRestriction/backupCode/enable', body);
   };
 
   /** Validate your SOTP account */
-  postAccessRestrictionBackupCodeValidate = (body: {
+  validateAccessRestrictionBackupCode = (body: {
     code: string;
   }): Promise<NichandleAccessRestrictionSOTPValidate> => {
     return this.ovh.request('POST', '/me/accessRestriction/backupCode/validate', body);
@@ -228,17 +228,19 @@ class MeHandler {
   };
 
   /** Alter this object properties */
-  putAccessRestrictionDeveloperMode = (body: NichandleDeveloperModeRestriction): Promise<void> => {
+  updateAccessRestrictionDeveloperMode = (
+    body: NichandleDeveloperModeRestriction
+  ): Promise<void> => {
     return this.ovh.request('PUT', '/me/accessRestriction/developerMode', body);
   };
 
   /** List of IP restrictions */
-  getAccessRestrictionIp = (): Promise<number> => {
+  listAccessRestrictionIps = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/accessRestriction/ip');
   };
 
   /** Add an IP access restriction */
-  postAccessRestrictionIp = (body: {
+  addAccessRestrictionIp = (body: {
     ip: string;
     rule: NichandleAccessRestrictionIpRestrictionRuleEnum;
     warning: boolean;
@@ -247,17 +249,17 @@ class MeHandler {
   };
 
   /** Delete this restriction rule */
-  deleteAccessRestrictionIpId = (id: number): Promise<void> => {
+  deleteAccessRestrictionIpById = (id: number): Promise<void> => {
     return this.ovh.request('DELETE', `/me/accessRestriction/ip/${id}`);
   };
 
   /** Get this object properties */
-  getAccessRestrictionIpId = (id: number): Promise<NichandleIpRestriction> => {
+  getAccessRestrictionIpById = (id: number): Promise<NichandleIpRestriction> => {
     return this.ovh.request('GET', `/me/accessRestriction/ip/${id}`);
   };
 
   /** Alter this object properties */
-  putAccessRestrictionIpId = (id: number, body: NichandleIpRestriction): Promise<void> => {
+  updateAccessRestrictionIpById = (id: number, body: NichandleIpRestriction): Promise<void> => {
     return this.ovh.request('PUT', `/me/accessRestriction/ip/${id}`, body);
   };
 
@@ -267,34 +269,36 @@ class MeHandler {
   };
 
   /** Alter this object properties */
-  putAccessRestrictionIpDefaultRule = (body: NichandleIpRestrictionDefaultRule): Promise<void> => {
+  updateAccessRestrictionIpDefaultRule = (
+    body: NichandleIpRestrictionDefaultRule
+  ): Promise<void> => {
     return this.ovh.request('PUT', '/me/accessRestriction/ipDefaultRule', body);
   };
 
   /** List of Sms accounts */
-  getAccessRestrictionSms = (): Promise<number> => {
+  listAccessRestrictionSms = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/accessRestriction/sms');
   };
 
   /** Add a SMS access restriction */
-  postAccessRestrictionSms = (body: {
+  addAccessRestrictionSms = (body: {
     phone: string;
   }): Promise<NichandleAccessRestrictionSmsSecret> => {
     return this.ovh.request('POST', '/me/accessRestriction/sms', body);
   };
 
   /** Delete this Two-Factor */
-  deleteAccessRestrictionSmsId = (id: number): Promise<void> => {
+  deleteAccessRestrictionSmsById = (id: number): Promise<void> => {
     return this.ovh.request('DELETE', `/me/accessRestriction/sms/${id}`);
   };
 
   /** Get this object properties */
-  getAccessRestrictionSmsId = (id: number): Promise<NichandleAccessRestrictionSmsAccount> => {
+  getAccessRestrictionSmsById = (id: number): Promise<NichandleAccessRestrictionSmsAccount> => {
     return this.ovh.request('GET', `/me/accessRestriction/sms/${id}`);
   };
 
   /** Alter this object properties */
-  putAccessRestrictionSmsId = (
+  updateAccessRestrictionSmsById = (
     id: number,
     body: NichandleAccessRestrictionSmsAccount
   ): Promise<void> => {
@@ -302,47 +306,47 @@ class MeHandler {
   };
 
   /** Disable this SMS account */
-  postAccessRestrictionSmsIdDisable = (id: number, body: { code: string }): Promise<void> => {
+  disableAccessRestrictionSmsById = (id: number, body: { code: string }): Promise<void> => {
     return this.ovh.request('POST', `/me/accessRestriction/sms/${id}/disable`, body);
   };
 
   /** Enable this SMS account */
-  postAccessRestrictionSmsIdEnable = (id: number, body: { code: string }): Promise<void> => {
+  enableAccessRestrictionSmsById = (id: number, body: { code: string }): Promise<void> => {
     return this.ovh.request('POST', `/me/accessRestriction/sms/${id}/enable`, body);
   };
 
   /** Send a SMS to this account */
-  postAccessRestrictionSmsIdSendCode = (id: number): Promise<NichandleAccessRestrictionSmsCode> => {
+  sendAccessRestrictionSmsCodeById = (id: number): Promise<NichandleAccessRestrictionSmsCode> => {
     return this.ovh.request('POST', `/me/accessRestriction/sms/${id}/sendCode`);
   };
 
   /** Validate your SMS account */
-  postAccessRestrictionSmsIdValidate = (id: number, body: { code: string }): Promise<void> => {
+  validateAccessRestrictionSmsById = (id: number, body: { code: string }): Promise<void> => {
     return this.ovh.request('POST', `/me/accessRestriction/sms/${id}/validate`, body);
   };
 
   /** List of TOTP accounts */
-  getAccessRestrictionTotp = (): Promise<number> => {
+  listAccessRestrictionTotps = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/accessRestriction/totp');
   };
 
   /** Add a TOTP access restriction */
-  postAccessRestrictionTotp = (): Promise<NichandleAccessRestrictionTOTPSecret> => {
+  addAccessRestrictionTotp = (): Promise<NichandleAccessRestrictionTOTPSecret> => {
     return this.ovh.request('POST', '/me/accessRestriction/totp');
   };
 
   /** Delete this Two-Factor */
-  deleteAccessRestrictionTotpId = (id: number): Promise<void> => {
+  deleteAccessRestrictionTotpById = (id: number): Promise<void> => {
     return this.ovh.request('DELETE', `/me/accessRestriction/totp/${id}`);
   };
 
   /** Get this object properties */
-  getAccessRestrictionTotpId = (id: number): Promise<NichandleAccessRestrictionTOTPAccount> => {
+  getAccessRestrictionTotpById = (id: number): Promise<NichandleAccessRestrictionTOTPAccount> => {
     return this.ovh.request('GET', `/me/accessRestriction/totp/${id}`);
   };
 
   /** Alter this object properties */
-  putAccessRestrictionTotpId = (
+  updateAccessRestrictionTotpById = (
     id: number,
     body: NichandleAccessRestrictionTOTPAccount
   ): Promise<void> => {
@@ -350,42 +354,42 @@ class MeHandler {
   };
 
   /** Disable this TOTP account */
-  postAccessRestrictionTotpIdDisable = (id: number, body: { code: string }): Promise<void> => {
+  disableAccessRestrictionTotpById = (id: number, body: { code: string }): Promise<void> => {
     return this.ovh.request('POST', `/me/accessRestriction/totp/${id}/disable`, body);
   };
 
   /** Enable this TOTP account */
-  postAccessRestrictionTotpIdEnable = (id: number, body: { code: string }): Promise<void> => {
+  enableAccessRestrictionTotpById = (id: number, body: { code: string }): Promise<void> => {
     return this.ovh.request('POST', `/me/accessRestriction/totp/${id}/enable`, body);
   };
 
   /** Validate your TOTP account */
-  postAccessRestrictionTotpIdValidate = (id: number, body: { code: string }): Promise<void> => {
+  validateAccessRestrictionTotpById = (id: number, body: { code: string }): Promise<void> => {
     return this.ovh.request('POST', `/me/accessRestriction/totp/${id}/validate`, body);
   };
 
   /** List of U2F accounts */
-  getAccessRestrictionU2f = (): Promise<number> => {
+  listAccessRestrictionU2fs = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/accessRestriction/u2f');
   };
 
   /** Add a U2F access restriction */
-  postAccessRestrictionU2f = (): Promise<NichandleAccessRestrictionU2FRegisterChallenge> => {
+  addAccessRestrictionU2f = (): Promise<NichandleAccessRestrictionU2FRegisterChallenge> => {
     return this.ovh.request('POST', '/me/accessRestriction/u2f');
   };
 
   /** Delete this Two-Factor */
-  deleteAccessRestrictionU2fId = (id: number): Promise<void> => {
+  deleteAccessRestrictionU2fById = (id: number): Promise<void> => {
     return this.ovh.request('DELETE', `/me/accessRestriction/u2f/${id}`);
   };
 
   /** Get this object properties */
-  getAccessRestrictionU2fId = (id: number): Promise<NichandleAccessRestrictionU2FAccount> => {
+  getAccessRestrictionU2fById = (id: number): Promise<NichandleAccessRestrictionU2FAccount> => {
     return this.ovh.request('GET', `/me/accessRestriction/u2f/${id}`);
   };
 
   /** Alter this object properties */
-  putAccessRestrictionU2fId = (
+  updateAccessRestrictionU2fById = (
     id: number,
     body: NichandleAccessRestrictionU2FAccount
   ): Promise<void> => {
@@ -393,14 +397,14 @@ class MeHandler {
   };
 
   /** Get an U2F Challenge */
-  postAccessRestrictionU2fIdChallenge = (
+  postAccessRestrictionU2fChallengeById = (
     id: number
   ): Promise<NichandleAccessRestrictionU2FSignChallenge> => {
     return this.ovh.request('POST', `/me/accessRestriction/u2f/${id}/challenge`);
   };
 
   /** Disable this U2F account */
-  postAccessRestrictionU2fIdDisable = (
+  disableAccessRestrictionU2fById = (
     id: number,
     body: { clientData: string; signatureData: string }
   ): Promise<void> => {
@@ -408,7 +412,7 @@ class MeHandler {
   };
 
   /** Enable this U2F account */
-  postAccessRestrictionU2fIdEnable = (
+  enableAccessRestrictionU2fById = (
     id: number,
     body: { clientData: string; signatureData: string }
   ): Promise<void> => {
@@ -416,7 +420,7 @@ class MeHandler {
   };
 
   /** Validate your U2F account */
-  postAccessRestrictionU2fIdValidate = (
+  validateAccessRestrictionU2fById = (
     id: number,
     body: { clientData: string; registrationData: string }
   ): Promise<void> => {
@@ -424,82 +428,87 @@ class MeHandler {
   };
 
   /** List of contracts signed between you and OVH */
-  getAgreements = (): Promise<number> => {
+  listAgreements = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/agreements');
   };
 
   /** Get this object properties */
-  getAgreementsId = (id: number): Promise<AgreementsContractAgreement> => {
+  getAgreementsById = (id: number): Promise<AgreementsContractAgreement> => {
     return this.ovh.request('GET', `/me/agreements/${id}`);
   };
 
   /** Accept this contract */
-  postAgreementsIdAccept = (id: number): Promise<string> => {
+  postAgreementsAcceptById = (id: number): Promise<string> => {
     return this.ovh.request('POST', `/me/agreements/${id}/accept`);
   };
 
   /** Get this object properties */
-  getAgreementsIdContract = (id: number): Promise<AgreementsContract> => {
+  getAgreementsContractById = (id: number): Promise<AgreementsContract> => {
     return this.ovh.request('GET', `/me/agreements/${id}/contract`);
   };
 
   /** Retrieve all applications */
-  getApiApplication = (): Promise<number> => {
+  getApiApplication = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/api/application');
   };
 
   /** Delete an application. It will revoke all credential belonging to this application */
-  deleteApiApplicationApplicationId = (applicationId: number): Promise<void> => {
+  deleteApiApplicationByApplicationId = (applicationId: number): Promise<void> => {
     return this.ovh.request('DELETE', `/me/api/application/${applicationId}`);
   };
 
   /** Retrieve information about an application */
-  getApiApplicationApplicationId = (applicationId: number): Promise<AuthApiApplication> => {
+  getApiApplicationByApplicationId = (applicationId: number): Promise<AuthApiApplication> => {
     return this.ovh.request('GET', `/me/api/application/${applicationId}`);
   };
 
   /** Retrieve all credentials */
-  getApiCredential = (): Promise<number> => {
+  getApiCredential = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/api/credential');
   };
 
   /** Delete a credential */
-  deleteApiCredentialCredentialId = (credentialId: number): Promise<void> => {
+  deleteApiCredentialByCredentialId = (credentialId: number): Promise<void> => {
     return this.ovh.request('DELETE', `/me/api/credential/${credentialId}`);
   };
 
   /** Retrieve information about a credential */
-  getApiCredentialCredentialId = (credentialId: number): Promise<AuthApiCredential> => {
+  getApiCredentialByCredentialId = (credentialId: number): Promise<AuthApiCredential> => {
     return this.ovh.request('GET', `/me/api/credential/${credentialId}`);
   };
 
   /** Edit a credential */
-  putApiCredentialCredentialId = (credentialId: number, body: AuthApiCredential): Promise<void> => {
+  updateApiCredentialByCredentialId = (
+    credentialId: number,
+    body: AuthApiCredential
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/me/api/credential/${credentialId}`, body);
   };
 
   /** Get associated application */
-  getApiCredentialCredentialIdApplication = (credentialId: number): Promise<AuthApiApplication> => {
+  getApiCredentialApplicationByCredentialId = (
+    credentialId: number
+  ): Promise<AuthApiApplication> => {
     return this.ovh.request('GET', `/me/api/credential/${credentialId}/application`);
   };
 
   /** List of Api calls done with your account */
-  getApiLogsSelf = (): Promise<number> => {
+  listApiLogsSelfs = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/api/logs/self');
   };
 
   /** Get this object properties */
-  getApiLogsSelfLogId = (logId: number): Promise<ApiLog> => {
+  getApiLogsSelfByLogId = (logId: number): Promise<ApiLog> => {
     return this.ovh.request('GET', `/me/api/logs/self/${logId}`);
   };
 
   /** List of Api calls done on services you have access to */
-  getApiLogsServices = (): Promise<number> => {
+  listApiLogsServices = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/api/logs/services');
   };
 
   /** Get this object properties */
-  getApiLogsServicesLogId = (logId: number): Promise<ApiLog> => {
+  getApiLogsServicesByLogId = (logId: number): Promise<ApiLog> => {
     return this.ovh.request('GET', `/me/api/logs/services/${logId}`);
   };
 
@@ -514,47 +523,47 @@ class MeHandler {
   };
 
   /** Alter this object properties */
-  putAutorenew = (body: NichandleNicAutorenewInfos): Promise<void> => {
+  updateAutorenew = (body: NichandleNicAutorenewInfos): Promise<void> => {
     return this.ovh.request('PUT', '/me/autorenew', body);
   };
 
   /** List available payment methods in this Nic's country */
-  getAvailableAutomaticPaymentMeans = (): Promise<BillingAutomaticPaymentMean> => {
+  listAvailableAutomaticPaymentMeans = (): Promise<BillingAutomaticPaymentMean> => {
     return this.ovh.request('GET', '/me/availableAutomaticPaymentMeans');
   };
 
   /** List of all the bills the logged account has */
-  getBill = (): Promise<string> => {
+  listBills = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/bill');
   };
 
   /** Exports a bundle of invoices */
-  postBillExport = (body: {
+  exportBill = (body: {
     archiveType: BillingArchiveTypeEnum;
     endDate?: Date;
-    ids?: string;
+    ids?: string[];
     startDate?: Date;
   }): Promise<void> => {
     return this.ovh.request('POST', '/me/bill/export', body);
   };
 
   /** Get this object properties */
-  getBillBillId = (billId: string): Promise<BillingBill> => {
+  getBillByBillId = (billId: string): Promise<BillingBill> => {
     return this.ovh.request('GET', `/me/bill/${billId}`);
   };
 
   /** Get this object properties */
-  getBillBillIdDebt = (billId: string): Promise<DebtDebt> => {
+  getBillDebtByBillId = (billId: string): Promise<DebtDebt> => {
     return this.ovh.request('GET', `/me/bill/${billId}/debt`);
   };
 
   /** All operations related to these debts */
-  getBillBillIdDebtOperation = (billId: string): Promise<number> => {
+  getBillDebtOperationByBillId = (billId: string): Promise<number[]> => {
     return this.ovh.request('GET', `/me/bill/${billId}/debt/operation`);
   };
 
   /** Get this object properties */
-  getBillBillIdDebtOperationOperationId = (
+  getBillDebtOperationByBillIdAndOperationId = (
     billId: string,
     operationId: number
   ): Promise<DebtOperation> => {
@@ -562,7 +571,7 @@ class MeHandler {
   };
 
   /** Return main data about the object related to this debt operation */
-  getBillBillIdDebtOperationOperationIdAssociatedObject = (
+  getBillDebtOperationAssociatedObjectByBillIdAndOperationId = (
     billId: string,
     operationId: number
   ): Promise<DebtEntryAssociatedObject> => {
@@ -573,17 +582,17 @@ class MeHandler {
   };
 
   /** Create an order in order to pay this order's debt */
-  postBillBillIdDebtPay = (billId: string): Promise<BillingOrder> => {
+  createBillDebtPayByBillId = (billId: string): Promise<BillingOrder> => {
     return this.ovh.request('POST', `/me/bill/${billId}/debt/pay`);
   };
 
   /** Give access to all entries of the bill */
-  getBillBillIdDetails = (billId: string): Promise<string> => {
+  getBillDetailsByBillId = (billId: string): Promise<string[]> => {
     return this.ovh.request('GET', `/me/bill/${billId}/details`);
   };
 
   /** Get this object properties */
-  getBillBillIdDetailsBillDetailId = (
+  getBillDetailsByBillIdAndBillDetailId = (
     billDetailId: string,
     billId: string
   ): Promise<BillingBillDetail> => {
@@ -591,42 +600,45 @@ class MeHandler {
   };
 
   /** Get this object properties */
-  getBillBillIdPayment = (billId: string): Promise<BillingPayment> => {
+  getBillPaymentByBillId = (billId: string): Promise<BillingPayment> => {
     return this.ovh.request('GET', `/me/bill/${billId}/payment`);
   };
 
   /** Retrieve all billing groups */
-  getBillingGroup = (): Promise<number> => {
+  getBillingGroup = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/billing/group');
   };
 
   /** Create a new billing group */
-  postBillingGroup = (body: MeBillingGroupBillingGroup): Promise<MeBillingGroupBillingGroup> => {
+  createBillingGroup = (body: MeBillingGroupBillingGroup): Promise<MeBillingGroupBillingGroup> => {
     return this.ovh.request('POST', '/me/billing/group', body);
   };
 
   /** Delete a billing group */
-  deleteBillingGroupGroupId = (groupId: number): Promise<void> => {
+  deleteBillingGroupByGroupId = (groupId: number): Promise<void> => {
     return this.ovh.request('DELETE', `/me/billing/group/${groupId}`);
   };
 
   /** Retrieve information about a billing group */
-  getBillingGroupGroupId = (groupId: number): Promise<MeBillingGroupBillingGroup> => {
+  getBillingGroupByGroupId = (groupId: number): Promise<MeBillingGroupBillingGroup> => {
     return this.ovh.request('GET', `/me/billing/group/${groupId}`);
   };
 
   /** Edit billing group */
-  putBillingGroupGroupId = (groupId: number, body: MeBillingGroupBillingGroup): Promise<void> => {
+  updateBillingGroupByGroupId = (
+    groupId: number,
+    body: MeBillingGroupBillingGroup
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/me/billing/group/${groupId}`, body);
   };
 
   /** Retrieve billing group service ID list */
-  getBillingGroupGroupIdService = (groupId: number): Promise<number> => {
+  getBillingGroupServiceByGroupId = (groupId: number): Promise<number[]> => {
     return this.ovh.request('GET', `/me/billing/group/${groupId}/service`);
   };
 
   /** Associate a service to a billing group */
-  postBillingGroupGroupIdService = (
+  postBillingGroupServiceByGroupId = (
     groupId: number,
     body: MeBillingGroupServiceCreate
   ): Promise<MeBillingGroupService> => {
@@ -634,7 +646,7 @@ class MeHandler {
   };
 
   /** Unlink a service from a billing group */
-  deleteBillingGroupGroupIdServiceServiceId = (
+  deleteBillingGroupServiceByGroupIdAndServiceId = (
     groupId: number,
     serviceId: number
   ): Promise<void> => {
@@ -642,7 +654,7 @@ class MeHandler {
   };
 
   /** Retrieve information about a billing group service */
-  getBillingGroupGroupIdServiceServiceId = (
+  getBillingGroupServiceByGroupIdAndServiceId = (
     groupId: number,
     serviceId: number
   ): Promise<MeBillingGroupService> => {
@@ -650,39 +662,42 @@ class MeHandler {
   };
 
   /** Send invoices through postal mail */
-  getBillingInvoicesByPostalMail = (): Promise<boolean> => {
+  sendBillingInvoicesByPostalMail = (): Promise<boolean> => {
     return this.ovh.request('GET', '/me/billing/invoicesByPostalMail');
   };
 
   /** Enable or disable invoices by postal mail */
-  postBillingInvoicesByPostalMail = (body: { enable: boolean }): Promise<void> => {
+  enableBillingInvoicesByPostalMail = (body: { enable: boolean }): Promise<void> => {
     return this.ovh.request('POST', '/me/billing/invoicesByPostalMail', body);
   };
 
   /** Retrieve all purchase orders */
-  getBillingPurchaseOrder = (): Promise<number> => {
+  getBillingPurchaseOrder = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/billing/purchaseOrder');
   };
 
   /** Create a purchase order */
-  postBillingPurchaseOrder = (
+  createBillingPurchaseOrder = (
     body: MeBillingPurchaseOrderCreation
   ): Promise<MeBillingPurchaseOrderPurchaseOrder> => {
     return this.ovh.request('POST', '/me/billing/purchaseOrder', body);
   };
 
   /** Delete a purchase order */
-  deleteBillingPurchaseOrderId = (id: number): Promise<void> => {
+  deleteBillingPurchaseOrderById = (id: number): Promise<void> => {
     return this.ovh.request('DELETE', `/me/billing/purchaseOrder/${id}`);
   };
 
   /** Retrieve information about a purchase order */
-  getBillingPurchaseOrderId = (id: number): Promise<MeBillingPurchaseOrderPurchaseOrder> => {
+  getBillingPurchaseOrderById = (id: number): Promise<MeBillingPurchaseOrderPurchaseOrder> => {
     return this.ovh.request('GET', `/me/billing/purchaseOrder/${id}`);
   };
 
   /** Update a purchase order */
-  putBillingPurchaseOrderId = (id: number, body: MeBillingPurchaseOrderUpdate): Promise<void> => {
+  updateBillingPurchaseOrderById = (
+    id: number,
+    body: MeBillingPurchaseOrderUpdate
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/me/billing/purchaseOrder/${id}`, body);
   };
 
@@ -692,7 +707,7 @@ class MeHandler {
   };
 
   /** Get all certificates of the account */
-  getCertificates = (): Promise<string> => {
+  getCertificates = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/certificates');
   };
 
@@ -707,22 +722,22 @@ class MeHandler {
   };
 
   /** List all consent campaign available */
-  getConsent = (): Promise<MeConsentCampaign> => {
+  listConsents = (): Promise<MeConsentCampaign[]> => {
     return this.ovh.request('GET', '/me/consent');
   };
 
   /** Retrieve information about a consent campaign */
-  getConsentCampaignName = (campaignName: string): Promise<MeConsentCampaign> => {
+  getConsentByCampaignName = (campaignName: string): Promise<MeConsentCampaign> => {
     return this.ovh.request('GET', `/me/consent/${campaignName}`);
   };
 
   /** Get decision value for a consent campaign */
-  getConsentCampaignNameDecision = (campaignName: string): Promise<MeConsentConsent> => {
+  getConsentDecisionByCampaignName = (campaignName: string): Promise<MeConsentConsent> => {
     return this.ovh.request('GET', `/me/consent/${campaignName}/decision`);
   };
 
   /** Update decision of a consent campaign */
-  putConsentCampaignNameDecision = (
+  updateConsentDecisionByCampaignName = (
     campaignName: string,
     body: { value: boolean }
   ): Promise<void> => {
@@ -730,62 +745,65 @@ class MeHandler {
   };
 
   /** Get on-going consumptions for all services */
-  getConsumptionUsageCurrent = (): Promise<MeConsumptionTransaction> => {
+  getConsumptionUsageCurrent = (): Promise<MeConsumptionTransaction[]> => {
     return this.ovh.request('GET', '/me/consumption/usage/current');
   };
 
   /** Get forecasted consumptions for all services */
-  getConsumptionUsageForecast = (): Promise<MeConsumptionTransaction> => {
+  getConsumptionUsageForecast = (): Promise<MeConsumptionTransaction[]> => {
     return this.ovh.request('GET', '/me/consumption/usage/forecast');
   };
 
   /** Get list of transactions between two dates */
-  getConsumptionUsageHistory = (): Promise<MeConsumptionTransaction> => {
+  getConsumptionUsageHistory = (): Promise<MeConsumptionTransaction[]> => {
     return this.ovh.request('GET', '/me/consumption/usage/history');
   };
 
   /** Retrieve every contact your created */
-  getContact = (): Promise<number> => {
+  getContact = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/contact');
   };
 
   /** Create a new contact */
-  postContact = (body: MeContactContact): Promise<MeContactContact> => {
+  createContact = (body: MeContactContact): Promise<MeContactContact> => {
     return this.ovh.request('POST', '/me/contact', body);
   };
 
   /** Retrieve information about a contact */
-  getContactContactId = (contactId: number): Promise<MeContactContact> => {
+  getContactByContactId = (contactId: number): Promise<MeContactContact> => {
     return this.ovh.request('GET', `/me/contact/${contactId}`);
   };
 
   /** Update an existing contact */
-  putContactContactId = (contactId: number, body: MeContactContact): Promise<MeContactContact> => {
+  updateContactByContactId = (
+    contactId: number,
+    body: MeContactContact
+  ): Promise<MeContactContact> => {
     return this.ovh.request('PUT', `/me/contact/${contactId}`, body);
   };
 
   /** Display mandatory/read-only informations of a contact */
-  getContactContactIdFields = (contactId: number): Promise<ContactFieldInformation> => {
+  getContactFieldsByContactId = (contactId: number): Promise<ContactFieldInformation[]> => {
     return this.ovh.request('GET', `/me/contact/${contactId}/fields`);
   };
 
   /** Retrieve all credit balances */
-  getCreditBalance = (): Promise<string> => {
+  getCreditBalance = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/credit/balance');
   };
 
   /** Retrieve a credit balance */
-  getCreditBalanceBalanceName = (balanceName: string): Promise<MeCreditBalance> => {
+  getCreditBalanceByBalanceName = (balanceName: string): Promise<MeCreditBalance> => {
     return this.ovh.request('GET', `/me/credit/balance/${balanceName}`);
   };
 
   /** Retrieve movements for a specific balance */
-  getCreditBalanceBalanceNameMovement = (balanceName: string): Promise<number> => {
+  getCreditBalanceMovementByBalanceName = (balanceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/me/credit/balance/${balanceName}/movement`);
   };
 
   /** Retrieve a specific movement for a credit balance */
-  getCreditBalanceBalanceNameMovementMovementId = (
+  getCreditBalanceMovementByBalanceNameAndMovementId = (
     balanceName: string,
     movementId: number
   ): Promise<MeCreditBalanceMovement> => {
@@ -793,7 +811,7 @@ class MeHandler {
   };
 
   /** Validate a code to generate associated credit movement */
-  postCreditCode = (body: MeCreditCodeRedeem): Promise<MeCreditBalanceMovement> => {
+  validateCreditCode = (body: MeCreditCodeRedeem): Promise<MeCreditBalanceMovement> => {
     return this.ovh.request('POST', '/me/credit/code', body);
   };
 
@@ -803,22 +821,22 @@ class MeHandler {
   };
 
   /** All debts related to your account */
-  getDebtAccountDebt = (): Promise<number> => {
+  getDebtAccountDebt = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/debtAccount/debt');
   };
 
   /** Get this object properties */
-  getDebtAccountDebtDebtId = (debtId: number): Promise<DebtDebt> => {
+  getDebtAccountDebtByDebtId = (debtId: number): Promise<DebtDebt> => {
     return this.ovh.request('GET', `/me/debtAccount/debt/${debtId}`);
   };
 
   /** All operations related to these debts */
-  getDebtAccountDebtDebtIdOperation = (debtId: number): Promise<number> => {
+  getDebtAccountDebtOperationByDebtId = (debtId: number): Promise<number[]> => {
     return this.ovh.request('GET', `/me/debtAccount/debt/${debtId}/operation`);
   };
 
   /** Get this object properties */
-  getDebtAccountDebtDebtIdOperationOperationId = (
+  getDebtAccountDebtOperationByDebtIdAndOperationId = (
     debtId: number,
     operationId: number
   ): Promise<DebtOperation> => {
@@ -826,7 +844,7 @@ class MeHandler {
   };
 
   /** Return main data about the object related to this debt operation */
-  getDebtAccountDebtDebtIdOperationOperationIdAssociatedObject = (
+  getDebtAccountDebtOperationAssociatedObjectByDebtIdAndOperationId = (
     debtId: number,
     operationId: number
   ): Promise<DebtEntryAssociatedObject> => {
@@ -837,32 +855,32 @@ class MeHandler {
   };
 
   /** Create an order in order to pay this order's debt */
-  postDebtAccountDebtDebtIdPay = (debtId: number): Promise<BillingOrder> => {
+  createDebtAccountDebtPayByDebtId = (debtId: number): Promise<BillingOrder> => {
     return this.ovh.request('POST', `/me/debtAccount/debt/${debtId}/pay`);
   };
 
   /** Create an order in order to pay all your due debts */
-  postDebtAccountPay = (): Promise<BillingOrder> => {
+  createDebtAccountPay = (): Promise<BillingOrder> => {
     return this.ovh.request('POST', '/me/debtAccount/pay');
   };
 
   /** List of all the deposits made to your prepaid account or debt account */
-  getDeposit = (): Promise<string> => {
+  listDeposits = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/deposit');
   };
 
   /** Get this object properties */
-  getDepositDepositId = (depositId: string): Promise<BillingDeposit> => {
+  getDepositByDepositId = (depositId: string): Promise<BillingDeposit> => {
     return this.ovh.request('GET', `/me/deposit/${depositId}`);
   };
 
   /** Give access to all entries of this deposit */
-  getDepositDepositIdDetails = (depositId: string): Promise<string> => {
+  getDepositDetailsByDepositId = (depositId: string): Promise<string[]> => {
     return this.ovh.request('GET', `/me/deposit/${depositId}/details`);
   };
 
   /** Get this object properties */
-  getDepositDepositIdDetailsDepositDetailId = (
+  getDepositDetailsByDepositIdAndDepositDetailId = (
     depositDetailId: string,
     depositId: string
   ): Promise<BillingDepositDetail> => {
@@ -870,12 +888,12 @@ class MeHandler {
   };
 
   /** Get invoices paid by this deposit */
-  getDepositDepositIdPaidBills = (depositId: string): Promise<string> => {
+  getDepositPaidBillsByDepositId = (depositId: string): Promise<string[]> => {
     return this.ovh.request('GET', `/me/deposit/${depositId}/paidBills`);
   };
 
   /** Get this object properties */
-  getDepositDepositIdPaidBillsBillId = (
+  getDepositPaidBillsByDepositIdAndBillId = (
     billId: string,
     depositId: string
   ): Promise<BillingBill> => {
@@ -883,7 +901,7 @@ class MeHandler {
   };
 
   /** Get this object properties */
-  getDepositDepositIdPaidBillsBillIdDebt = (
+  getDepositPaidBillsDebtByDepositIdAndBillId = (
     billId: string,
     depositId: string
   ): Promise<DebtDebt> => {
@@ -891,15 +909,15 @@ class MeHandler {
   };
 
   /** All operations related to these debts */
-  getDepositDepositIdPaidBillsBillIdDebtOperation = (
+  getDepositPaidBillsDebtOperationByDepositIdAndBillId = (
     billId: string,
     depositId: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/me/deposit/${depositId}/paidBills/${billId}/debt/operation`);
   };
 
   /** Get this object properties */
-  getDepositDepositIdPaidBillsBillIdDebtOperationOperationId = (
+  getDepositPaidBillsDebtOperationByDepositIdAndBillIdAndOperationId = (
     billId: string,
     depositId: string,
     operationId: number
@@ -911,7 +929,7 @@ class MeHandler {
   };
 
   /** Return main data about the object related to this debt operation */
-  getDepositDepositIdPaidBillsBillIdDebtOperationOperationIdAssociatedObject = (
+  getDepositPaidBillsDebtOperationAssociatedObjectByDepositIdAndBillIdAndOperationId = (
     billId: string,
     depositId: string,
     operationId: number
@@ -923,7 +941,7 @@ class MeHandler {
   };
 
   /** Create an order in order to pay this order's debt */
-  postDepositDepositIdPaidBillsBillIdDebtPay = (
+  createDepositPaidBillsDebtPayByDepositIdAndBillId = (
     billId: string,
     depositId: string
   ): Promise<BillingOrder> => {
@@ -931,15 +949,15 @@ class MeHandler {
   };
 
   /** Give access to all entries of the bill */
-  getDepositDepositIdPaidBillsBillIdDetails = (
+  getDepositPaidBillsDetailsByDepositIdAndBillId = (
     billId: string,
     depositId: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/me/deposit/${depositId}/paidBills/${billId}/details`);
   };
 
   /** Get this object properties */
-  getDepositDepositIdPaidBillsBillIdDetailsBillDetailId = (
+  getDepositPaidBillsDetailsByDepositIdAndBillIdAndBillDetailId = (
     billDetailId: string,
     billId: string,
     depositId: string
@@ -951,7 +969,7 @@ class MeHandler {
   };
 
   /** Get this object properties */
-  getDepositDepositIdPaidBillsBillIdPayment = (
+  getDepositPaidBillsPaymentByDepositIdAndBillId = (
     billId: string,
     depositId: string
   ): Promise<BillingPayment> => {
@@ -959,57 +977,57 @@ class MeHandler {
   };
 
   /** Get this object properties */
-  getDepositDepositIdPayment = (depositId: string): Promise<BillingPayment> => {
+  getDepositPaymentByDepositId = (depositId: string): Promise<BillingPayment> => {
     return this.ovh.request('GET', `/me/deposit/${depositId}/payment`);
   };
 
   /** List of documents added in your account */
-  getDocument = (): Promise<string> => {
+  listDocuments = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/document');
   };
 
   /** Create new document */
-  postDocument = (body: { name: string; tags?: string }): Promise<NichandleDocumentDocument> => {
+  createDocument = (body: { name: string; tags?: string }): Promise<NichandleDocumentDocument> => {
     return this.ovh.request('POST', '/me/document', body);
   };
 
   /** Add CORS support on your container */
-  postDocumentCors = (body: { origin: string }): Promise<void> => {
+  addDocumentCors = (body: { origin: string }): Promise<void> => {
     return this.ovh.request('POST', '/me/document/cors', body);
   };
 
   /** Delete a document */
-  deleteDocumentId = (id: string): Promise<void> => {
+  deleteDocumentById = (id: string): Promise<void> => {
     return this.ovh.request('DELETE', `/me/document/${id}`);
   };
 
   /** Get this object properties */
-  getDocumentId = (id: string): Promise<NichandleDocumentDocument> => {
+  getDocumentById = (id: string): Promise<NichandleDocumentDocument> => {
     return this.ovh.request('GET', `/me/document/${id}`);
   };
 
   /** Alter this object properties */
-  putDocumentId = (id: string, body: NichandleDocumentDocument): Promise<void> => {
+  updateDocumentById = (id: string, body: NichandleDocumentDocument): Promise<void> => {
     return this.ovh.request('PUT', `/me/document/${id}`, body);
   };
 
   /** Get the fax custom domains linked to the customer account */
-  getFaxCustomDomains = (): Promise<number> => {
+  getFaxCustomDomains = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/fax/customDomains');
   };
 
   /** Create a custom domain for your fax services */
-  postFaxCustomDomains = (body: { domain: string }): Promise<TelephonyMailDomain2Service> => {
+  createFaxCustomDomains = (body: { domain: string }): Promise<TelephonyMailDomain2Service> => {
     return this.ovh.request('POST', '/me/fax/customDomains', body);
   };
 
   /** Delete a custom domain of your fax services */
-  deleteFaxCustomDomainsId = (id: number): Promise<void> => {
+  deleteFaxCustomDomainsById = (id: number): Promise<void> => {
     return this.ovh.request('DELETE', `/me/fax/customDomains/${id}`);
   };
 
   /** Get this object properties */
-  getFaxCustomDomainsId = (id: number): Promise<TelephonyMailDomain2Service> => {
+  getFaxCustomDomainsById = (id: number): Promise<TelephonyMailDomain2Service> => {
     return this.ovh.request('GET', `/me/fax/customDomains/${id}`);
   };
 
@@ -1019,7 +1037,7 @@ class MeHandler {
   };
 
   /** Alter this object properties */
-  putFidelityAccount = (body: BillingFidelityAccount): Promise<void> => {
+  updateFidelityAccount = (body: BillingFidelityAccount): Promise<void> => {
     return this.ovh.request('PUT', '/me/fidelityAccount', body);
   };
 
@@ -1029,12 +1047,12 @@ class MeHandler {
   };
 
   /** List of entries of the fidelity account */
-  getFidelityAccountMovements = (): Promise<number> => {
+  listFidelityAccountMovements = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/fidelityAccount/movements');
   };
 
   /** Get this object properties */
-  getFidelityAccountMovementsMovementId = (
+  getFidelityAccountMovementsByMovementId = (
     movementId: number
   ): Promise<BillingFidelityMovement> => {
     return this.ovh.request('GET', `/me/fidelityAccount/movements/${movementId}`);
@@ -1046,12 +1064,12 @@ class MeHandler {
   };
 
   /** Retrieve all groups of this account */
-  getIdentityGroup = (): Promise<string> => {
+  getIdentityGroup = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/identity/group');
   };
 
   /** Create a new group */
-  postIdentityGroup = (body: {
+  createIdentityGroup = (body: {
     description?: string;
     name: string;
     role?: NichandleAuthenticationRoleEnum;
@@ -1060,17 +1078,17 @@ class MeHandler {
   };
 
   /** Delete this object */
-  deleteIdentityGroupGroup = (group: string): Promise<void> => {
+  deleteIdentityGroupByGroup = (group: string): Promise<void> => {
     return this.ovh.request('DELETE', `/me/identity/group/${group}`);
   };
 
   /** Get this object properties */
-  getIdentityGroupGroup = (group: string): Promise<NichandleAuthenticationGroup> => {
+  getIdentityGroupByGroup = (group: string): Promise<NichandleAuthenticationGroup> => {
     return this.ovh.request('GET', `/me/identity/group/${group}`);
   };
 
   /** Alter a group */
-  putIdentityGroupGroup = (
+  updateIdentityGroupByGroup = (
     group: string,
     body: { description?: string; role?: NichandleAuthenticationRoleEnum }
   ): Promise<void> => {
@@ -1097,7 +1115,7 @@ class MeHandler {
   };
 
   /** Alter the provider */
-  putIdentityProvider = (body: {
+  updateIdentityProvider = (body: {
     extensions?: NichandleAuthenticationProviderExtensions;
     groupAttributeName?: string;
   }): Promise<void> => {
@@ -1105,12 +1123,12 @@ class MeHandler {
   };
 
   /** Retrieve all users of this account */
-  getIdentityUser = (): Promise<string> => {
+  getIdentityUser = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/identity/user');
   };
 
   /** Create a new user */
-  postIdentityUser = (body: {
+  createIdentityUser = (body: {
     description?: string;
     email: string;
     group?: string;
@@ -1121,17 +1139,17 @@ class MeHandler {
   };
 
   /** Delete this object */
-  deleteIdentityUserUser = (user: string): Promise<void> => {
+  deleteIdentityUserByUser = (user: string): Promise<void> => {
     return this.ovh.request('DELETE', `/me/identity/user/${user}`);
   };
 
   /** Get this object properties */
-  getIdentityUserUser = (user: string): Promise<NichandleUser> => {
+  getIdentityUserByUser = (user: string): Promise<NichandleUser> => {
     return this.ovh.request('GET', `/me/identity/user/${user}`);
   };
 
   /** Alter a user */
-  putIdentityUserUser = (
+  updateIdentityUserByUser = (
     user: string,
     body: { description?: string; email?: string; group?: string }
   ): Promise<void> => {
@@ -1139,17 +1157,17 @@ class MeHandler {
   };
 
   /** Disable this user */
-  postIdentityUserUserDisable = (user: string): Promise<void> => {
+  disableIdentityUserByUser = (user: string): Promise<void> => {
     return this.ovh.request('POST', `/me/identity/user/${user}/disable`);
   };
 
   /** Enable this user */
-  postIdentityUserUserEnable = (user: string): Promise<void> => {
+  enableIdentityUserByUser = (user: string): Promise<void> => {
     return this.ovh.request('POST', `/me/identity/user/${user}/enable`);
   };
 
   /** Get all services you can migrate */
-  getIncidentSbgMigrateServices = (): Promise<MeIncidentServiceMigration> => {
+  getIncidentSbgMigrateServices = (): Promise<MeIncidentServiceMigration[]> => {
     return this.ovh.request('GET', '/me/incident/sbg/migrateServices');
   };
 
@@ -1164,12 +1182,12 @@ class MeHandler {
   };
 
   /** Your customized operating system installation templates */
-  getInstallationTemplate = (): Promise<string> => {
+  getInstallationTemplate = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/installationTemplate');
   };
 
   /** Create a template */
-  postInstallationTemplate = (body: {
+  createInstallationTemplate = (body: {
     baseTemplateName: string;
     defaultLanguage: DedicatedTemplateOsLanguageEnum;
     name: string;
@@ -1178,19 +1196,19 @@ class MeHandler {
   };
 
   /** Remove this template */
-  deleteInstallationTemplateTemplateName = (templateName: string): Promise<void> => {
+  deleteInstallationTemplateByTemplateName = (templateName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/me/installationTemplate/${templateName}`);
   };
 
   /** Get this object properties */
-  getInstallationTemplateTemplateName = (
+  getInstallationTemplateByTemplateName = (
     templateName: string
   ): Promise<DedicatedInstallationTemplateTemplates> => {
     return this.ovh.request('GET', `/me/installationTemplate/${templateName}`);
   };
 
   /** Alter this object properties */
-  putInstallationTemplateTemplateName = (
+  updateInstallationTemplateByTemplateName = (
     templateName: string,
     body: DedicatedInstallationTemplateTemplates
   ): Promise<void> => {
@@ -1198,17 +1216,19 @@ class MeHandler {
   };
 
   /** Check the integrity of this template */
-  postInstallationTemplateTemplateNameCheckIntegrity = (templateName: string): Promise<void> => {
+  checkInstallationTemplateIntegrityByTemplateName = (templateName: string): Promise<void> => {
     return this.ovh.request('POST', `/me/installationTemplate/${templateName}/checkIntegrity`);
   };
 
   /** Partitioning schemes available on this template */
-  getInstallationTemplateTemplateNamePartitionScheme = (templateName: string): Promise<string> => {
+  getInstallationTemplatePartitionSchemeByTemplateName = (
+    templateName: string
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/me/installationTemplate/${templateName}/partitionScheme`);
   };
 
   /** Add a scheme of partition */
-  postInstallationTemplateTemplateNamePartitionScheme = (
+  addInstallationTemplatePartitionSchemeByTemplateName = (
     templateName: string,
     body: { name: string; priority: number }
   ): Promise<void> => {
@@ -1220,7 +1240,7 @@ class MeHandler {
   };
 
   /** Remove this scheme of partition */
-  deleteInstallationTemplateTemplateNamePartitionSchemeSchemeName = (
+  deleteInstallationTemplatePartitionSchemeByTemplateNameAndSchemeName = (
     schemeName: string,
     templateName: string
   ): Promise<void> => {
@@ -1231,7 +1251,7 @@ class MeHandler {
   };
 
   /** Get this object properties */
-  getInstallationTemplateTemplateNamePartitionSchemeSchemeName = (
+  getInstallationTemplatePartitionSchemeByTemplateNameAndSchemeName = (
     schemeName: string,
     templateName: string
   ): Promise<DedicatedInstallationTemplateTemplatePartitioningSchemes> => {
@@ -1242,7 +1262,7 @@ class MeHandler {
   };
 
   /** Alter this object properties */
-  putInstallationTemplateTemplateNamePartitionSchemeSchemeName = (
+  updateInstallationTemplatePartitionSchemeByTemplateNameAndSchemeName = (
     schemeName: string,
     templateName: string,
     body: DedicatedInstallationTemplateTemplatePartitioningSchemes
@@ -1255,10 +1275,10 @@ class MeHandler {
   };
 
   /** Hardware RAIDs defined in this partitioning scheme */
-  getInstallationTemplateTemplateNamePartitionSchemeSchemeNameHardwareRaid = (
+  getInstallationTemplatePartitionSchemeHardwareRaidByTemplateNameAndSchemeName = (
     schemeName: string,
     templateName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/me/installationTemplate/${templateName}/partitionScheme/${schemeName}/hardwareRaid`
@@ -1266,10 +1286,10 @@ class MeHandler {
   };
 
   /** Add an hardware RAID in this partitioning scheme */
-  postInstallationTemplateTemplateNamePartitionSchemeSchemeNameHardwareRaid = (
+  addInstallationTemplatePartitionSchemeHardwareRaidByTemplateNameAndSchemeName = (
     schemeName: string,
     templateName: string,
-    body: { disks: string; mode: DedicatedTemplateOsHardwareRaidEnum; name: string; step: number }
+    body: { disks: string[]; mode: DedicatedTemplateOsHardwareRaidEnum; name: string; step: number }
   ): Promise<void> => {
     return this.ovh.request(
       'POST',
@@ -1279,7 +1299,7 @@ class MeHandler {
   };
 
   /** Remove this RAID */
-  deleteInstallationTemplateTemplateNamePartitionSchemeSchemeNameHardwareRaidName = (
+  deleteInstallationTemplatePartitionSchemeHardwareRaidByTemplateNameAndSchemeNameAndName = (
     name: string,
     schemeName: string,
     templateName: string
@@ -1291,7 +1311,7 @@ class MeHandler {
   };
 
   /** Get this object properties */
-  getInstallationTemplateTemplateNamePartitionSchemeSchemeNameHardwareRaidName = (
+  getInstallationTemplatePartitionSchemeHardwareRaidByTemplateNameAndSchemeNameAndName = (
     name: string,
     schemeName: string,
     templateName: string
@@ -1303,7 +1323,7 @@ class MeHandler {
   };
 
   /** Alter this object properties */
-  putInstallationTemplateTemplateNamePartitionSchemeSchemeNameHardwareRaidName = (
+  updateInstallationTemplatePartitionSchemeHardwareRaidByTemplateNameAndSchemeNameAndName = (
     name: string,
     schemeName: string,
     templateName: string,
@@ -1317,10 +1337,10 @@ class MeHandler {
   };
 
   /** Partitions defined in this partitioning scheme */
-  getInstallationTemplateTemplateNamePartitionSchemeSchemeNamePartition = (
+  getInstallationTemplatePartitionSchemePartitionByTemplateNameAndSchemeName = (
     schemeName: string,
     templateName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/me/installationTemplate/${templateName}/partitionScheme/${schemeName}/partition`
@@ -1328,7 +1348,7 @@ class MeHandler {
   };
 
   /** Add a partition in this partitioning scheme */
-  postInstallationTemplateTemplateNamePartitionSchemeSchemeNamePartition = (
+  addInstallationTemplatePartitionSchemePartitionByTemplateNameAndSchemeName = (
     schemeName: string,
     templateName: string,
     body: {
@@ -1349,7 +1369,7 @@ class MeHandler {
   };
 
   /** Remove this partition */
-  deleteInstallationTemplateTemplateNamePartitionSchemeSchemeNamePartitionMountpoint = (
+  deleteInstallationTemplatePartitionSchemePartitionByTemplateNameAndSchemeNameAndMountpoint = (
     mountpoint: string,
     schemeName: string,
     templateName: string
@@ -1361,7 +1381,7 @@ class MeHandler {
   };
 
   /** Get this object properties */
-  getInstallationTemplateTemplateNamePartitionSchemeSchemeNamePartitionMountpoint = (
+  getInstallationTemplatePartitionSchemePartitionByTemplateNameAndSchemeNameAndMountpoint = (
     mountpoint: string,
     schemeName: string,
     templateName: string
@@ -1373,7 +1393,7 @@ class MeHandler {
   };
 
   /** Alter this object properties */
-  putInstallationTemplateTemplateNamePartitionSchemeSchemeNamePartitionMountpoint = (
+  updateInstallationTemplatePartitionSchemePartitionByTemplateNameAndSchemeNameAndMountpoint = (
     mountpoint: string,
     schemeName: string,
     templateName: string,
@@ -1387,12 +1407,12 @@ class MeHandler {
   };
 
   /** List of organisations */
-  getIpOrganisation = (): Promise<string> => {
+  listIpOrganisations = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/ipOrganisation');
   };
 
   /** Add an organisation */
-  postIpOrganisation = (body: {
+  addIpOrganisation = (body: {
     abuse_mailbox: string;
     address: string;
     city: string;
@@ -1408,17 +1428,17 @@ class MeHandler {
   };
 
   /** Delete this organisation */
-  deleteIpOrganisationOrganisationId = (organisationId: string): Promise<void> => {
+  deleteIpOrganisationByOrganisationId = (organisationId: string): Promise<void> => {
     return this.ovh.request('DELETE', `/me/ipOrganisation/${organisationId}`);
   };
 
   /** Get this object properties */
-  getIpOrganisationOrganisationId = (organisationId: string): Promise<NichandleIpv4Org> => {
+  getIpOrganisationByOrganisationId = (organisationId: string): Promise<NichandleIpv4Org> => {
     return this.ovh.request('GET', `/me/ipOrganisation/${organisationId}`);
   };
 
   /** Alter this object properties */
-  putIpOrganisationOrganisationId = (
+  updateIpOrganisationByOrganisationId = (
     organisationId: string,
     body: NichandleIpv4Org
   ): Promise<void> => {
@@ -1426,12 +1446,12 @@ class MeHandler {
   };
 
   /** List of all your IPXE scripts */
-  getIpxeScript = (): Promise<string> => {
+  listIpxeScripts = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/ipxeScript');
   };
 
   /** Add an IPXE script */
-  postIpxeScript = (body: {
+  addIpxeScript = (body: {
     description: string;
     name: string;
     script: string;
@@ -1440,27 +1460,27 @@ class MeHandler {
   };
 
   /** Remove this IPXE Script */
-  deleteIpxeScriptName = (name: string): Promise<void> => {
+  deleteIpxeScriptByName = (name: string): Promise<void> => {
     return this.ovh.request('DELETE', `/me/ipxeScript/${name}`);
   };
 
   /** Get this object properties */
-  getIpxeScriptName = (name: string): Promise<NichandleIpxe> => {
+  getIpxeScriptByName = (name: string): Promise<NichandleIpxe> => {
     return this.ovh.request('GET', `/me/ipxeScript/${name}`);
   };
 
   /** Alter this object properties */
-  putIpxeScriptName = (name: string, body: NichandleIpxe): Promise<void> => {
+  updateIpxeScriptByName = (name: string, body: NichandleIpxe): Promise<void> => {
     return this.ovh.request('PUT', `/me/ipxeScript/${name}`, body);
   };
 
   /** Get your audit logs */
-  getLogsAudit = (): Promise<AuditLog> => {
+  getLogsAudit = (): Promise<AuditLog[]> => {
     return this.ovh.request('GET', '/me/logs/audit');
   };
 
   /** List of mailing list you can subscribe */
-  getMailingListAvailableLists = (): Promise<string> => {
+  listMailingAvailableLists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/mailingList/availableLists');
   };
 
@@ -1470,22 +1490,22 @@ class MeHandler {
   };
 
   /** Retrieve all country migrations */
-  getMigration = (): Promise<number> => {
+  getMigration = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/migration');
   };
 
   /** Retrieve information about a country migration */
-  getMigrationMigrationId = (migrationId: number): Promise<MeMigration> => {
+  getMigrationByMigrationId = (migrationId: number): Promise<MeMigration> => {
     return this.ovh.request('GET', `/me/migration/${migrationId}`);
   };
 
   /** Retrieve all contracts for a billing country migration */
-  getMigrationMigrationIdContract = (migrationId: number): Promise<number> => {
+  getMigrationContractByMigrationId = (migrationId: number): Promise<number[]> => {
     return this.ovh.request('GET', `/me/migration/${migrationId}/contract`);
   };
 
   /** Retrieve detail about a contract for a billing country migration */
-  getMigrationMigrationIdContractContractId = (
+  getMigrationContractByMigrationIdAndContractId = (
     contractId: number,
     migrationId: number
   ): Promise<MeMigrationContract> => {
@@ -1493,7 +1513,7 @@ class MeHandler {
   };
 
   /** Accept contract */
-  postMigrationMigrationIdContractContractIdAccept = (
+  postMigrationContractAcceptByMigrationIdAndContractId = (
     contractId: number,
     migrationId: number
   ): Promise<MeAgreementsContractAgreement> => {
@@ -1501,7 +1521,7 @@ class MeHandler {
   };
 
   /** Retrieve agreement for this contract */
-  getMigrationMigrationIdContractContractIdAgreement = (
+  getMigrationContractAgreementByMigrationIdAndContractId = (
     contractId: number,
     migrationId: number
   ): Promise<MeAgreementsContractAgreement> => {
@@ -1509,44 +1529,44 @@ class MeHandler {
   };
 
   /** Retrieve every email sent to you */
-  getNotificationEmailHistory = (): Promise<number> => {
+  getNotificationEmailHistory = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/notification/email/history');
   };
 
   /** Retrieve information about an email */
-  getNotificationEmailHistoryId = (id: number): Promise<NichandleEmailNotification> => {
+  getNotificationEmailHistoryById = (id: number): Promise<NichandleEmailNotification> => {
     return this.ovh.request('GET', `/me/notification/email/history/${id}`);
   };
 
   /** List of all the orders the logged account has */
-  getOrder = (): Promise<number> => {
+  listOrders = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/order');
   };
 
   /** Get this object properties */
-  getOrderOrderId = (orderId: number): Promise<BillingOrder> => {
+  getOrderByOrderId = (orderId: number): Promise<BillingOrder> => {
     return this.ovh.request('GET', `/me/order/${orderId}`);
   };
 
   /** Return main data about the object the processing of the order generated */
-  getOrderOrderIdAssociatedObject = (orderId: number): Promise<BillingOrderAssociatedObject> => {
+  getOrderAssociatedObjectByOrderId = (orderId: number): Promise<BillingOrderAssociatedObject> => {
     return this.ovh.request('GET', `/me/order/${orderId}/associatedObject`);
   };
 
   /** List of registered payment mean you can use to pay this order */
-  getOrderOrderIdAvailableRegisteredPaymentMean = (
+  listOrderAvailableRegisteredPaymentMeansByOrderId = (
     orderId: number
-  ): Promise<BillingOrderRegisteredPaymentMean> => {
+  ): Promise<BillingOrderRegisteredPaymentMean[]> => {
     return this.ovh.request('GET', `/me/order/${orderId}/availableRegisteredPaymentMean`);
   };
 
   /** List credit balances applied on this Order */
-  getOrderOrderIdBalance = (orderId: number): Promise<string> => {
+  listOrderBalancesByOrderId = (orderId: number): Promise<string[]> => {
     return this.ovh.request('GET', `/me/order/${orderId}/balance`);
   };
 
   /** Use a credit balance on this Order */
-  postOrderOrderIdBalance = (
+  postOrderBalanceByOrderId = (
     orderId: number,
     body: { balanceName: string }
   ): Promise<BillingCreditBalance> => {
@@ -1554,12 +1574,15 @@ class MeHandler {
   };
 
   /** Remove a credit balance from this Order */
-  deleteOrderOrderIdBalanceBalanceName = (balanceName: string, orderId: number): Promise<void> => {
+  deleteOrderBalanceByOrderIdAndBalanceName = (
+    balanceName: string,
+    orderId: number
+  ): Promise<void> => {
     return this.ovh.request('DELETE', `/me/order/${orderId}/balance/${balanceName}`);
   };
 
   /** Get this object properties */
-  getOrderOrderIdBalanceBalanceName = (
+  getOrderBalanceByOrderIdAndBalanceName = (
     balanceName: string,
     orderId: number
   ): Promise<BillingCreditBalance> => {
@@ -1567,24 +1590,24 @@ class MeHandler {
   };
 
   /** Retrieve order's detailed consumption information as a file */
-  getOrderOrderIdConsumptionDetails = (
+  getOrderConsumptionDetailsByOrderId = (
     orderId: number
   ): Promise<BillingOrderConsumptionDetails> => {
     return this.ovh.request('GET', `/me/order/${orderId}/consumption/details`);
   };
 
   /** Get this object properties */
-  getOrderOrderIdDebt = (orderId: number): Promise<DebtDebt> => {
+  getOrderDebtByOrderId = (orderId: number): Promise<DebtDebt> => {
     return this.ovh.request('GET', `/me/order/${orderId}/debt`);
   };
 
   /** All operations related to these debts */
-  getOrderOrderIdDebtOperation = (orderId: number): Promise<number> => {
+  getOrderDebtOperationByOrderId = (orderId: number): Promise<number[]> => {
     return this.ovh.request('GET', `/me/order/${orderId}/debt/operation`);
   };
 
   /** Get this object properties */
-  getOrderOrderIdDebtOperationOperationId = (
+  getOrderDebtOperationByOrderIdAndOperationId = (
     operationId: number,
     orderId: number
   ): Promise<DebtOperation> => {
@@ -1592,7 +1615,7 @@ class MeHandler {
   };
 
   /** Return main data about the object related to this debt operation */
-  getOrderOrderIdDebtOperationOperationIdAssociatedObject = (
+  getOrderDebtOperationAssociatedObjectByOrderIdAndOperationId = (
     operationId: number,
     orderId: number
   ): Promise<DebtEntryAssociatedObject> => {
@@ -1603,17 +1626,17 @@ class MeHandler {
   };
 
   /** Create an order in order to pay this order's debt */
-  postOrderOrderIdDebtPay = (orderId: number): Promise<BillingOrder> => {
+  createOrderDebtPayByOrderId = (orderId: number): Promise<BillingOrder> => {
     return this.ovh.request('POST', `/me/order/${orderId}/debt/pay`);
   };
 
   /** Give access to all entries of the order */
-  getOrderOrderIdDetails = (orderId: number): Promise<number> => {
+  getOrderDetailsByOrderId = (orderId: number): Promise<number[]> => {
     return this.ovh.request('GET', `/me/order/${orderId}/details`);
   };
 
   /** Get this object properties */
-  getOrderOrderIdDetailsOrderDetailId = (
+  getOrderDetailsByOrderIdAndOrderDetailId = (
     orderDetailId: number,
     orderId: number
   ): Promise<BillingOrderDetail> => {
@@ -1621,7 +1644,7 @@ class MeHandler {
   };
 
   /** Get this object properties */
-  getOrderOrderIdDetailsOrderDetailIdExtension = (
+  getOrderDetailsExtensionByOrderIdAndOrderDetailId = (
     orderDetailId: number,
     orderId: number
   ): Promise<BillingItemDetail> => {
@@ -1629,12 +1652,12 @@ class MeHandler {
   };
 
   /** Return tracking of the order */
-  getOrderOrderIdFollowUp = (orderId: number): Promise<BillingOrderFollowUp> => {
+  getOrderFollowUpByOrderId = (orderId: number): Promise<BillingOrderFollowUp[]> => {
     return this.ovh.request('GET', `/me/order/${orderId}/followUp`);
   };
 
   /** Pay with a payment method reference */
-  postOrderOrderIdPay = (
+  postOrderPayByOrderId = (
     orderId: number,
     body: { paymentMethod: BillingOrderPayWithPaymentMethod }
   ): Promise<void> => {
@@ -1642,7 +1665,7 @@ class MeHandler {
   };
 
   /** Pay with an already registered payment mean */
-  postOrderOrderIdPayWithRegisteredPaymentMean = (
+  postOrderPayWithRegisteredPaymentMeanByOrderId = (
     orderId: number,
     body: { paymentMean: BillingReusablePaymentMeanEnum; paymentMeanId?: number }
   ): Promise<void> => {
@@ -1650,22 +1673,22 @@ class MeHandler {
   };
 
   /** Get this object properties */
-  getOrderOrderIdPayment = (orderId: number): Promise<BillingPayment> => {
+  getOrderPaymentByOrderId = (orderId: number): Promise<BillingPayment> => {
     return this.ovh.request('GET', `/me/order/${orderId}/payment`);
   };
 
   /** Return main data about the object the processing of the order generated */
-  getOrderOrderIdPaymentMeans = (orderId: number): Promise<BillingOrderPaymentMeans> => {
+  getOrderPaymentMeansByOrderId = (orderId: number): Promise<BillingOrderPaymentMeans> => {
     return this.ovh.request('GET', `/me/order/${orderId}/paymentMeans`);
   };
 
   /** List of registered payment method you can use to pay this order */
-  getOrderOrderIdPaymentMethods = (orderId: number): Promise<BillingOrderPaymentMethods> => {
+  listOrderPaymentMethodsByOrderId = (orderId: number): Promise<BillingOrderPaymentMethods> => {
     return this.ovh.request('GET', `/me/order/${orderId}/paymentMethods`);
   };
 
   /** Request retraction of order */
-  postOrderOrderIdRetraction = (
+  postOrderRetractionByOrderId = (
     orderId: number,
     body: { comment?: string; reason: BillingOrderRetractionReasonEnum }
   ): Promise<void> => {
@@ -1673,32 +1696,35 @@ class MeHandler {
   };
 
   /** Return status of order */
-  getOrderOrderIdStatus = (orderId: number): Promise<BillingOrderOrderStatusEnum> => {
+  getOrderStatusByOrderId = (orderId: number): Promise<BillingOrderOrderStatusEnum> => {
     return this.ovh.request('GET', `/me/order/${orderId}/status`);
   };
 
   /** Waive retraction period of order */
-  postOrderOrderIdWaiveRetraction = (orderId: number): Promise<void> => {
+  postOrderWaiveRetractionByOrderId = (orderId: number): Promise<void> => {
     return this.ovh.request('POST', `/me/order/${orderId}/waiveRetraction`);
   };
 
   /** List of OVH accounts the logged account has */
-  getOvhAccount = (): Promise<string> => {
+  listOvhAccounts = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/ovhAccount');
   };
 
   /** Get this object properties */
-  getOvhAccountOvhAccountId = (ovhAccountId: string): Promise<BillingOvhAccount> => {
+  getOvhAccountByOvhAccountId = (ovhAccountId: string): Promise<BillingOvhAccount> => {
     return this.ovh.request('GET', `/me/ovhAccount/${ovhAccountId}`);
   };
 
   /** Alter this object properties */
-  putOvhAccountOvhAccountId = (ovhAccountId: string, body: BillingOvhAccount): Promise<void> => {
+  updateOvhAccountByOvhAccountId = (
+    ovhAccountId: string,
+    body: BillingOvhAccount
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/me/ovhAccount/${ovhAccountId}`, body);
   };
 
   /** Generate an order that can be paid in order to credit the OVH account */
-  postOvhAccountOvhAccountIdCreditOrder = (
+  postOvhAccountCreditOrderByOvhAccountId = (
     ovhAccountId: string,
     body: { amount: number }
   ): Promise<BillingOrder> => {
@@ -1706,12 +1732,12 @@ class MeHandler {
   };
 
   /** Details about an entry of the OVH account */
-  getOvhAccountOvhAccountIdMovements = (ovhAccountId: string): Promise<number> => {
+  getOvhAccountMovementsByOvhAccountId = (ovhAccountId: string): Promise<number[]> => {
     return this.ovh.request('GET', `/me/ovhAccount/${ovhAccountId}/movements`);
   };
 
   /** Get this object properties */
-  getOvhAccountOvhAccountIdMovementsMovementId = (
+  getOvhAccountMovementsByOvhAccountIdAndMovementId = (
     movementId: number,
     ovhAccountId: string
   ): Promise<BillingMovement> => {
@@ -1719,7 +1745,7 @@ class MeHandler {
   };
 
   /** request a refund of this credit note to your original payment method */
-  postOvhAccountOvhAccountIdMovementsMovementIdRequestRefund = (
+  postOvhAccountMovementsRequestRefundByOvhAccountIdAndMovementId = (
     movementId: number,
     ovhAccountId: string,
     body: { amount: number }
@@ -1732,7 +1758,7 @@ class MeHandler {
   };
 
   /** Transfer money from ovhAccount to your bank account */
-  postOvhAccountOvhAccountIdRetrieveMoney = (
+  postOvhAccountRetrieveMoneyByOvhAccountId = (
     ovhAccountId: string,
     body: { amount: number; bankAccountId: number }
   ): Promise<BillingOrder> => {
@@ -1753,12 +1779,12 @@ class MeHandler {
   };
 
   /** Retrieve available payment method */
-  getPaymentAvailableMethods = (): Promise<MePaymentAvailablePaymentMethod> => {
+  getPaymentAvailableMethods = (): Promise<MePaymentAvailablePaymentMethod[]> => {
     return this.ovh.request('GET', '/me/payment/availableMethods');
   };
 
   /** Retrieve payment method list */
-  getPaymentMethod = (): Promise<number> => {
+  getPaymentMethod = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/payment/method');
   };
 
@@ -1768,19 +1794,21 @@ class MeHandler {
   };
 
   /** Delete a payment method */
-  deletePaymentMethodPaymentMethodId = (
+  deletePaymentMethodByPaymentMethodId = (
     paymentMethodId: number
   ): Promise<MePaymentPaymentMethod> => {
     return this.ovh.request('DELETE', `/me/payment/method/${paymentMethodId}`);
   };
 
   /** Retrieve a payment method */
-  getPaymentMethodPaymentMethodId = (paymentMethodId: number): Promise<MePaymentPaymentMethod> => {
+  getPaymentMethodByPaymentMethodId = (
+    paymentMethodId: number
+  ): Promise<MePaymentPaymentMethod> => {
     return this.ovh.request('GET', `/me/payment/method/${paymentMethodId}`);
   };
 
   /** Edit payment method */
-  putPaymentMethodPaymentMethodId = (
+  updatePaymentMethodByPaymentMethodId = (
     paymentMethodId: number,
     body: MePaymentPaymentMethod
   ): Promise<MePaymentPaymentMethod> => {
@@ -1788,7 +1816,7 @@ class MeHandler {
   };
 
   /** Challenge your payment method */
-  postPaymentMethodPaymentMethodIdChallenge = (
+  postPaymentMethodChallengeByPaymentMethodId = (
     paymentMethodId: number,
     body: MePaymentMethodChallenge
   ): Promise<void> => {
@@ -1796,7 +1824,7 @@ class MeHandler {
   };
 
   /** Add details to your payment method challenge */
-  postPaymentMethodPaymentMethodIdDetails = (
+  addPaymentMethodDetailsByPaymentMethodId = (
     paymentMethodId: number,
     body: MePaymentMethodDetails
   ): Promise<MePaymentMethodValidation> => {
@@ -1804,7 +1832,7 @@ class MeHandler {
   };
 
   /** Finalize a payment method registration */
-  postPaymentMethodPaymentMethodIdFinalize = (
+  postPaymentMethodFinalizeByPaymentMethodId = (
     paymentMethodId: number,
     body: MePaymentMethodFinalize
   ): Promise<MePaymentPaymentMethod> => {
@@ -1812,44 +1840,47 @@ class MeHandler {
   };
 
   /** Retrieve payment transaction list */
-  getPaymentTransaction = (): Promise<number> => {
+  getPaymentTransaction = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/payment/transaction');
   };
 
   /** Retrieve a transaction */
-  getPaymentTransactionTransactionId = (transactionId: number): Promise<MePaymentTransaction> => {
+  getPaymentTransactionByTransactionId = (transactionId: number): Promise<MePaymentTransaction> => {
     return this.ovh.request('GET', `/me/payment/transaction/${transactionId}`);
   };
 
   /** List of bank accounts */
-  getPaymentMeanBankAccount = (): Promise<number> => {
+  listPaymentMeanBankAccounts = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/paymentMean/bankAccount');
   };
 
   /** Add a new payment mean bank account */
-  postPaymentMeanBankAccount = (
+  addPaymentMeanBankAccount = (
     body: MePaymentMeanBankAccountCreation
   ): Promise<MePaymentMeanBankAccountValidation> => {
     return this.ovh.request('POST', '/me/paymentMean/bankAccount', body);
   };
 
   /** Disable payment through this account */
-  deletePaymentMeanBankAccountId = (id: number): Promise<void> => {
+  disablePaymentMeanBankAccountById = (id: number): Promise<void> => {
     return this.ovh.request('DELETE', `/me/paymentMean/bankAccount/${id}`);
   };
 
   /** Get bank account properties */
-  getPaymentMeanBankAccountId = (id: number): Promise<MePaymentMeanBankAccount> => {
+  getPaymentMeanBankAccountById = (id: number): Promise<MePaymentMeanBankAccount> => {
     return this.ovh.request('GET', `/me/paymentMean/bankAccount/${id}`);
   };
 
   /** Alter this object properties */
-  putPaymentMeanBankAccountId = (id: number, body: MePaymentMeanBankAccount): Promise<void> => {
+  updatePaymentMeanBankAccountById = (
+    id: number,
+    body: MePaymentMeanBankAccount
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/me/paymentMean/bankAccount/${id}`, body);
   };
 
   /** Challenge your bank account */
-  postPaymentMeanBankAccountIdChallenge = (
+  postPaymentMeanBankAccountChallengeById = (
     id: number,
     body: MePaymentMeanBankAccountChallengeCreation
   ): Promise<void> => {
@@ -1857,39 +1888,39 @@ class MeHandler {
   };
 
   /** Choose this bank account as your default payment mean. Will cancel the previous choice. */
-  postPaymentMeanBankAccountIdChooseAsDefaultPaymentMean = (id: number): Promise<void> => {
+  postPaymentMeanBankAccountChooseAsDefaultPaymentMeanById = (id: number): Promise<void> => {
     return this.ovh.request('POST', `/me/paymentMean/bankAccount/${id}/chooseAsDefaultPaymentMean`);
   };
 
   /** List of payment mean credit cards */
-  getPaymentMeanCreditCard = (): Promise<number> => {
+  listPaymentMeanCreditCards = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/paymentMean/creditCard');
   };
 
   /** Add a new payment mean credit card */
-  postPaymentMeanCreditCard = (
+  addPaymentMeanCreditCard = (
     body: MePaymentMeanCreditCardCreation
   ): Promise<MePaymentMeanCreditCardValidation> => {
     return this.ovh.request('POST', '/me/paymentMean/creditCard', body);
   };
 
   /** Disable payment through this credit card */
-  deletePaymentMeanCreditCardId = (id: number): Promise<void> => {
+  disablePaymentMeanCreditCardById = (id: number): Promise<void> => {
     return this.ovh.request('DELETE', `/me/paymentMean/creditCard/${id}`);
   };
 
   /** Get credit card properties */
-  getPaymentMeanCreditCardId = (id: number): Promise<MePaymentMeanCreditCard> => {
+  getPaymentMeanCreditCardById = (id: number): Promise<MePaymentMeanCreditCard> => {
     return this.ovh.request('GET', `/me/paymentMean/creditCard/${id}`);
   };
 
   /** Alter this object properties */
-  putPaymentMeanCreditCardId = (id: number, body: MePaymentMeanCreditCard): Promise<void> => {
+  updatePaymentMeanCreditCardById = (id: number, body: MePaymentMeanCreditCard): Promise<void> => {
     return this.ovh.request('PUT', `/me/paymentMean/creditCard/${id}`, body);
   };
 
   /** Challenge your credit card */
-  postPaymentMeanCreditCardIdChallenge = (
+  postPaymentMeanCreditCardChallengeById = (
     id: number,
     body: MePaymentMeanCreditCardChallengeCreation
   ): Promise<void> => {
@@ -1897,22 +1928,22 @@ class MeHandler {
   };
 
   /** Choose this credit card as your default payment mean. Will cancel the previous choice. */
-  postPaymentMeanCreditCardIdChooseAsDefaultPaymentMean = (id: number): Promise<void> => {
+  postPaymentMeanCreditCardChooseAsDefaultPaymentMeanById = (id: number): Promise<void> => {
     return this.ovh.request('POST', `/me/paymentMean/creditCard/${id}/chooseAsDefaultPaymentMean`);
   };
 
   /** List of payment mean deferred accounts */
-  getPaymentMeanDeferredPaymentAccount = (): Promise<number> => {
+  listPaymentMeanDeferredPaymentAccounts = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/paymentMean/deferredPaymentAccount');
   };
 
   /** Get this object properties */
-  getPaymentMeanDeferredPaymentAccountId = (id: number): Promise<MePaymentMeanDeferred> => {
+  getPaymentMeanDeferredPaymentAccountById = (id: number): Promise<MePaymentMeanDeferred> => {
     return this.ovh.request('GET', `/me/paymentMean/deferredPaymentAccount/${id}`);
   };
 
   /** Alter this object properties */
-  putPaymentMeanDeferredPaymentAccountId = (
+  updatePaymentMeanDeferredPaymentAccountById = (
     id: number,
     body: MePaymentMeanDeferred
   ): Promise<void> => {
@@ -1920,7 +1951,7 @@ class MeHandler {
   };
 
   /** Choose this deferred account as your default payment mean. Will cancel the previous choice. */
-  postPaymentMeanDeferredPaymentAccountIdChooseAsDefaultPaymentMean = (
+  postPaymentMeanDeferredPaymentAccountChooseAsDefaultPaymentMeanById = (
     id: number
   ): Promise<void> => {
     return this.ovh.request(
@@ -1930,34 +1961,34 @@ class MeHandler {
   };
 
   /** List of payment mean paypals */
-  getPaymentMeanPaypal = (): Promise<number> => {
+  listPaymentMeanPaypals = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/paymentMean/paypal');
   };
 
   /** Add a new payment mean paypal */
-  postPaymentMeanPaypal = (
+  addPaymentMeanPaypal = (
     body: MePaymentMeanPaypalCreation
   ): Promise<MePaymentMeanPaypalValidation> => {
     return this.ovh.request('POST', '/me/paymentMean/paypal', body);
   };
 
   /** Disable payment through this paypal */
-  deletePaymentMeanPaypalId = (id: number): Promise<void> => {
+  disablePaymentMeanPaypalById = (id: number): Promise<void> => {
     return this.ovh.request('DELETE', `/me/paymentMean/paypal/${id}`);
   };
 
   /** Get paypal properties */
-  getPaymentMeanPaypalId = (id: number): Promise<MePaymentMeanPaypal> => {
+  getPaymentMeanPaypalById = (id: number): Promise<MePaymentMeanPaypal> => {
     return this.ovh.request('GET', `/me/paymentMean/paypal/${id}`);
   };
 
   /** Alter this object properties */
-  putPaymentMeanPaypalId = (id: number, body: MePaymentMeanPaypal): Promise<void> => {
+  updatePaymentMeanPaypalById = (id: number, body: MePaymentMeanPaypal): Promise<void> => {
     return this.ovh.request('PUT', `/me/paymentMean/paypal/${id}`, body);
   };
 
   /** Challenge your paypal */
-  postPaymentMeanPaypalIdChallenge = (
+  postPaymentMeanPaypalChallengeById = (
     id: number,
     body: MePaymentMeanPaypalChallengeCreation
   ): Promise<void> => {
@@ -1965,7 +1996,7 @@ class MeHandler {
   };
 
   /** Choose this paypal as your default payment mean. Will cancel the previous choice. */
-  postPaymentMeanPaypalIdChooseAsDefaultPaymentMean = (id: number): Promise<void> => {
+  postPaymentMeanPaypalChooseAsDefaultPaymentMeanById = (id: number): Promise<void> => {
     return this.ovh.request('POST', `/me/paymentMean/paypal/${id}/chooseAsDefaultPaymentMean`);
   };
 
@@ -1975,32 +2006,32 @@ class MeHandler {
   };
 
   /** List of all the refunds the logged account has */
-  getRefund = (): Promise<string> => {
+  listRefunds = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/refund');
   };
 
   /** Exports a bundle of refunds */
-  postRefundExport = (body: {
+  exportRefund = (body: {
     archiveType: BillingArchiveTypeEnum;
     endDate?: Date;
-    ids?: string;
+    ids?: string[];
     startDate?: Date;
   }): Promise<void> => {
     return this.ovh.request('POST', '/me/refund/export', body);
   };
 
   /** Get this object properties */
-  getRefundRefundId = (refundId: string): Promise<BillingRefund> => {
+  getRefundByRefundId = (refundId: string): Promise<BillingRefund> => {
     return this.ovh.request('GET', `/me/refund/${refundId}`);
   };
 
   /** Give access to all entries of the refund */
-  getRefundRefundIdDetails = (refundId: string): Promise<string> => {
+  getRefundDetailsByRefundId = (refundId: string): Promise<string[]> => {
     return this.ovh.request('GET', `/me/refund/${refundId}/details`);
   };
 
   /** Get this object properties */
-  getRefundRefundIdDetailsRefundDetailId = (
+  getRefundDetailsByRefundIdAndRefundDetailId = (
     refundDetailId: string,
     refundId: string
   ): Promise<BillingRefundDetail> => {
@@ -2008,27 +2039,27 @@ class MeHandler {
   };
 
   /** Get this object properties */
-  getRefundRefundIdPayment = (refundId: string): Promise<BillingPayment> => {
+  getRefundPaymentByRefundId = (refundId: string): Promise<BillingPayment> => {
     return this.ovh.request('GET', `/me/refund/${refundId}/payment`);
   };
 
   /** List all the bills sent by the current account */
-  getReverseBill = (): Promise<string> => {
+  listReverseBills = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/reverseBill');
   };
 
   /** Get this object properties */
-  getReverseBillReverseBillId = (reverseBillId: string): Promise<BillingReverseBill> => {
+  getReverseBillByReverseBillId = (reverseBillId: string): Promise<BillingReverseBill> => {
     return this.ovh.request('GET', `/me/reverseBill/${reverseBillId}`);
   };
 
   /** Give access to all entries of this withdrawal */
-  getReverseBillReverseBillIdDetails = (reverseBillId: string): Promise<string> => {
+  getReverseBillDetailsByReverseBillId = (reverseBillId: string): Promise<string[]> => {
     return this.ovh.request('GET', `/me/reverseBill/${reverseBillId}/details`);
   };
 
   /** Get this object properties */
-  getReverseBillReverseBillIdDetailsReverseBillDetailId = (
+  getReverseBillDetailsByReverseBillIdAndReverseBillDetailId = (
     reverseBillDetailId: string,
     reverseBillId: string
   ): Promise<BillingReversableBillDetail> => {
@@ -2039,102 +2070,104 @@ class MeHandler {
   };
 
   /** Get this object properties */
-  getReverseBillReverseBillIdPayment = (reverseBillId: string): Promise<BillingPayment> => {
+  getReverseBillPaymentByReverseBillId = (reverseBillId: string): Promise<BillingPayment> => {
     return this.ovh.request('GET', `/me/reverseBill/${reverseBillId}/payment`);
   };
 
   /** List active SLA */
-  getSla = (): Promise<number> => {
+  listSlas = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/sla');
   };
 
   /** Get this object properties */
-  getSlaId = (id: number): Promise<BillingSlaOperation> => {
+  getSlaById = (id: number): Promise<BillingSlaOperation> => {
     return this.ovh.request('GET', `/me/sla/${id}`);
   };
 
   /** Ask for SLA application */
-  postSlaIdApply = (id: number): Promise<void> => {
+  postSlaApplyById = (id: number): Promise<void> => {
     return this.ovh.request('POST', `/me/sla/${id}/apply`);
   };
 
   /** Check whether this SLA can be applied on your services */
-  getSlaIdCanBeApplied = (id: number): Promise<boolean> => {
+  checkSlaCanBeAppliedById = (id: number): Promise<boolean> => {
     return this.ovh.request('GET', `/me/sla/${id}/canBeApplied`);
   };
 
   /** Get services impacted by this SLA */
-  getSlaIdServices = (id: number): Promise<BillingSlaOperationService> => {
+  getSlaServicesById = (id: number): Promise<BillingSlaOperationService[]> => {
     return this.ovh.request('GET', `/me/sla/${id}/services`);
   };
 
   /** Get the status request of this SLA */
-  getSlaIdStatus = (id: number): Promise<string> => {
+  getSlaStatusById = (id: number): Promise<string> => {
     return this.ovh.request('GET', `/me/sla/${id}/status`);
   };
 
   /** List of your public SSH keys */
-  getSshKey = (): Promise<string> => {
+  listSshKeys = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/sshKey');
   };
 
   /** Add a new public SSH key */
-  postSshKey = (body: { key: string; keyName: string }): Promise<void> => {
+  addSshKey = (body: { key: string; keyName: string }): Promise<void> => {
     return this.ovh.request('POST', '/me/sshKey', body);
   };
 
   /** Remove this public SSH key */
-  deleteSshKeyKeyName = (keyName: string): Promise<void> => {
+  deleteSshKeyByKeyName = (keyName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/me/sshKey/${keyName}`);
   };
 
   /** Get this object properties */
-  getSshKeyKeyName = (keyName: string): Promise<NichandleSshKey> => {
+  getSshKeyByKeyName = (keyName: string): Promise<NichandleSshKey> => {
     return this.ovh.request('GET', `/me/sshKey/${keyName}`);
   };
 
   /** Alter this object properties */
-  putSshKeyKeyName = (keyName: string, body: NichandleSshKey): Promise<void> => {
+  updateSshKeyByKeyName = (keyName: string, body: NichandleSshKey): Promise<void> => {
     return this.ovh.request('PUT', `/me/sshKey/${keyName}`, body);
   };
 
   /** List of sub-accounts */
-  getSubAccount = (): Promise<number> => {
+  listSubAccounts = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/subAccount');
   };
 
   /** Create a new sub-account */
-  postSubAccount = (body: { description?: string }): Promise<number> => {
+  createSubAccount = (body: { description?: string }): Promise<number> => {
     return this.ovh.request('POST', '/me/subAccount', body);
   };
 
   /** Get this object properties */
-  getSubAccountId = (id: number): Promise<NichandleSubAccount> => {
+  getSubAccountById = (id: number): Promise<NichandleSubAccount> => {
     return this.ovh.request('GET', `/me/subAccount/${id}`);
   };
 
   /** Alter this object properties */
-  putSubAccountId = (id: number, body: NichandleSubAccount): Promise<void> => {
+  updateSubAccountById = (id: number, body: NichandleSubAccount): Promise<void> => {
     return this.ovh.request('PUT', `/me/subAccount/${id}`, body);
   };
 
   /** Create a consumer key for the current application */
-  postSubAccountIdCreateConsumerKey = (id: number): Promise<NichandleSubAccountConsumerKey> => {
+  createSubAccountConsumerKeyById = (id: number): Promise<NichandleSubAccountConsumerKey> => {
     return this.ovh.request('POST', `/me/subAccount/${id}/createConsumerKey`);
   };
 
   /** List of all OVH things you can subscribe to */
-  getSubscription = (): Promise<string> => {
+  listSubscriptions = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/subscription');
   };
 
   /** Get this object properties */
-  getSubscriptionSubscriptionType = (subscriptionType: string): Promise<NichandleSubscription> => {
+  getSubscriptionBySubscriptionType = (
+    subscriptionType: string
+  ): Promise<NichandleSubscription> => {
     return this.ovh.request('GET', `/me/subscription/${subscriptionType}`);
   };
 
   /** Alter this object properties */
-  putSubscriptionSubscriptionType = (
+  updateSubscriptionBySubscriptionType = (
     subscriptionType: string,
     body: NichandleSubscription
   ): Promise<void> => {
@@ -2147,7 +2180,7 @@ class MeHandler {
   };
 
   /** Retrieve customer tags list */
-  getTag = (): Promise<string> => {
+  getTag = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/tag');
   };
 
@@ -2157,72 +2190,75 @@ class MeHandler {
   };
 
   /** Retrieve all available tags */
-  getTagAvailable = (): Promise<MeTagAvailableTag> => {
+  getTagAvailable = (): Promise<MeTagAvailableTag[]> => {
     return this.ovh.request('GET', '/me/tag/available');
   };
 
   /** Delete a customer tag */
-  deleteTagTag = (tag: string): Promise<MeTagTag> => {
+  deleteTagByTag = (tag: string): Promise<MeTagTag> => {
     return this.ovh.request('DELETE', `/me/tag/${tag}`);
   };
 
   /** Retrieve a customer tag */
-  getTagTag = (tag: string): Promise<MeTagTag> => {
+  getTagByTag = (tag: string): Promise<MeTagTag> => {
     return this.ovh.request('GET', `/me/tag/${tag}`);
   };
 
   /** List of service contact change tasks you are involved in */
-  getTaskContactChange = (): Promise<number> => {
+  listTaskContactChanges = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/task/contactChange');
   };
 
   /** Get this object properties */
-  getTaskContactChangeId = (id: number): Promise<NichandleContactChangeTask> => {
+  getTaskContactChangeById = (id: number): Promise<NichandleContactChangeTask> => {
     return this.ovh.request('GET', `/me/task/contactChange/${id}`);
   };
 
   /** Accept this change request */
-  postTaskContactChangeIdAccept = (id: number, body: { token: string }): Promise<void> => {
+  postTaskContactChangeAcceptById = (id: number, body: { token: string }): Promise<void> => {
     return this.ovh.request('POST', `/me/task/contactChange/${id}/accept`, body);
   };
 
   /** Refuse this change request */
-  postTaskContactChangeIdRefuse = (id: number, body: { token: string }): Promise<void> => {
+  postTaskContactChangeRefuseById = (id: number, body: { token: string }): Promise<void> => {
     return this.ovh.request('POST', `/me/task/contactChange/${id}/refuse`, body);
   };
 
   /** This call will send you a new email, containing a new token */
-  postTaskContactChangeIdResendEmail = (id: number): Promise<void> => {
+  postTaskContactChangeResendEmailById = (id: number): Promise<void> => {
     return this.ovh.request('POST', `/me/task/contactChange/${id}/resendEmail`);
   };
 
   /** List of domain tasks */
-  getTaskDomain = (): Promise<number> => {
+  listTaskDomains = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/task/domain');
   };
 
   /** Get this object properties */
-  getTaskDomainId = (id: number): Promise<DomainTask> => {
+  getTaskDomainById = (id: number): Promise<DomainTask> => {
     return this.ovh.request('GET', `/me/task/domain/${id}`);
   };
 
   /** Accelerate the task */
-  postTaskDomainIdAccelerate = (id: number): Promise<void> => {
+  postTaskDomainAccelerateById = (id: number): Promise<void> => {
     return this.ovh.request('POST', `/me/task/domain/${id}/accelerate`);
   };
 
   /** List of arguments */
-  getTaskDomainIdArgument = (id: number): Promise<string> => {
+  listTaskDomainArgumentsById = (id: number): Promise<string[]> => {
     return this.ovh.request('GET', `/me/task/domain/${id}/argument`);
   };
 
   /** Get this object properties */
-  getTaskDomainIdArgumentKey = (id: number, key: string): Promise<NichandleDomainTaskArgument> => {
+  getTaskDomainArgumentByIdAndKey = (
+    id: number,
+    key: string
+  ): Promise<NichandleDomainTaskArgument> => {
     return this.ovh.request('GET', `/me/task/domain/${id}/argument/${key}`);
   };
 
   /** Alter this object properties */
-  putTaskDomainIdArgumentKey = (
+  updateTaskDomainArgumentByIdAndKey = (
     id: number,
     key: string,
     body: NichandleDomainTaskArgument
@@ -2231,47 +2267,47 @@ class MeHandler {
   };
 
   /** Cancel the task */
-  postTaskDomainIdCancel = (id: number): Promise<void> => {
+  postTaskDomainCancelById = (id: number): Promise<void> => {
     return this.ovh.request('POST', `/me/task/domain/${id}/cancel`);
   };
 
   /** Show progress of a task */
-  getTaskDomainIdProgressbar = (id: number): Promise<NichandleDomainTaskProgressBar> => {
+  getTaskDomainProgressbarById = (id: number): Promise<NichandleDomainTaskProgressBar> => {
     return this.ovh.request('GET', `/me/task/domain/${id}/progressbar`);
   };
 
   /** Relaunch the task */
-  postTaskDomainIdRelaunch = (id: number): Promise<void> => {
+  postTaskDomainRelaunchById = (id: number): Promise<void> => {
     return this.ovh.request('POST', `/me/task/domain/${id}/relaunch`);
   };
 
   /** List of email change tasks you are involved in */
-  getTaskEmailChange = (): Promise<number> => {
+  listTaskEmailChanges = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/task/emailChange');
   };
 
   /** Get this object properties */
-  getTaskEmailChangeId = (id: number): Promise<NichandleEmailChangeTask> => {
+  getTaskEmailChangeById = (id: number): Promise<NichandleEmailChangeTask> => {
     return this.ovh.request('GET', `/me/task/emailChange/${id}`);
   };
 
   /** Accept this change request */
-  postTaskEmailChangeIdAccept = (id: number, body: { token: string }): Promise<void> => {
+  postTaskEmailChangeAcceptById = (id: number, body: { token: string }): Promise<void> => {
     return this.ovh.request('POST', `/me/task/emailChange/${id}/accept`, body);
   };
 
   /** Refuse this change request */
-  postTaskEmailChangeIdRefuse = (id: number, body: { token: string }): Promise<void> => {
+  postTaskEmailChangeRefuseById = (id: number, body: { token: string }): Promise<void> => {
     return this.ovh.request('POST', `/me/task/emailChange/${id}/refuse`, body);
   };
 
   /** The default SIP IP restictions for your future VoIP lines */
-  getTelephonyDefaultIpRestriction = (): Promise<number> => {
+  getTelephonyDefaultIpRestriction = (): Promise<number[]> => {
     return this.ovh.request('GET', '/me/telephony/defaultIpRestriction');
   };
 
   /** Create a default IP restriction for your future VoIP lines */
-  postTelephonyDefaultIpRestriction = (body: {
+  createTelephonyDefaultIpRestriction = (body: {
     subnet: string;
     type: TelephonyProtocolEnum;
   }): Promise<TelephonyDefaultIpRestriction> => {
@@ -2279,12 +2315,12 @@ class MeHandler {
   };
 
   /** Delete a default IP restriction for your future VoIP lines */
-  deleteTelephonyDefaultIpRestrictionId = (id: number): Promise<void> => {
+  deleteTelephonyDefaultIpRestrictionById = (id: number): Promise<void> => {
     return this.ovh.request('DELETE', `/me/telephony/defaultIpRestriction/${id}`);
   };
 
   /** Get this object properties */
-  getTelephonyDefaultIpRestrictionId = (id: number): Promise<TelephonyDefaultIpRestriction> => {
+  getTelephonyDefaultIpRestrictionById = (id: number): Promise<TelephonyDefaultIpRestriction> => {
     return this.ovh.request('GET', `/me/telephony/defaultIpRestriction/${id}`);
   };
 
@@ -2294,7 +2330,7 @@ class MeHandler {
   };
 
   /** Change the telephony settings linked to the customer account */
-  postTelephonySettings = (body: { settings: TelephonySettings }): Promise<void> => {
+  updateTelephonySettings = (body: { settings: TelephonySettings }): Promise<void> => {
     return this.ovh.request('POST', '/me/telephony/settings', body);
   };
 
@@ -2309,22 +2345,22 @@ class MeHandler {
   };
 
   /** List of all the withdrawals made from your prepaid account */
-  getWithdrawal = (): Promise<string> => {
+  listWithdrawals = (): Promise<string[]> => {
     return this.ovh.request('GET', '/me/withdrawal');
   };
 
   /** Get this object properties */
-  getWithdrawalWithdrawalId = (withdrawalId: string): Promise<BillingWithdrawal> => {
+  getWithdrawalByWithdrawalId = (withdrawalId: string): Promise<BillingWithdrawal> => {
     return this.ovh.request('GET', `/me/withdrawal/${withdrawalId}`);
   };
 
   /** Give access to all entries of this withdrawal */
-  getWithdrawalWithdrawalIdDetails = (withdrawalId: string): Promise<string> => {
+  getWithdrawalDetailsByWithdrawalId = (withdrawalId: string): Promise<string[]> => {
     return this.ovh.request('GET', `/me/withdrawal/${withdrawalId}/details`);
   };
 
   /** Get this object properties */
-  getWithdrawalWithdrawalIdDetailsWithdrawalDetailId = (
+  getWithdrawalDetailsByWithdrawalIdAndWithdrawalDetailId = (
     withdrawalDetailId: string,
     withdrawalId: string
   ): Promise<BillingWithdrawalDetail> => {
@@ -2332,7 +2368,7 @@ class MeHandler {
   };
 
   /** Get this object properties */
-  getWithdrawalWithdrawalIdPayment = (withdrawalId: string): Promise<BillingPayment> => {
+  getWithdrawalPaymentByWithdrawalId = (withdrawalId: string): Promise<BillingPayment> => {
     return this.ovh.request('GET', `/me/withdrawal/${withdrawalId}/payment`);
   };
 
@@ -2342,7 +2378,7 @@ class MeHandler {
   };
 
   /** Change xdsl settings linked to the nichandle */
-  postXdslSetting = (body: {
+  updateXdslSetting = (body: {
     resellerFastModemShipping?: boolean;
     resellerModemBasicConfig?: boolean;
   }): Promise<void> => {
@@ -2350,4 +2386,4 @@ class MeHandler {
   };
 }
 
-export default MeHandler;
+export { MeHandler };

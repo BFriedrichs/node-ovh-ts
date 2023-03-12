@@ -4,6 +4,6 @@ import { HostingPrivateDatabaseUserDatabase } from './HostingPrivateDatabaseUser
 
 export type HostingPrivateDatabaseUser = {
   creationDate: Date;
-  databases: HostingPrivateDatabaseUserDatabase;
+  databases: HostingPrivateDatabaseUserDatabase[];
   userName: string;
 };

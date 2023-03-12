@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyTimeConditionsSlotTypeEnum } from './TelephonyTimeConditionsSlotTypeEnum';
 import { TelephonyTimeConditionsTimeoutEnum } from './TelephonyTimeConditionsTimeoutEnum';
+import { TelephonyTimeConditionsSlotTypeEnum } from './TelephonyTimeConditionsSlotTypeEnum';
 import { TelephonyTimeConditionsGlobalStatusEnum } from './TelephonyTimeConditionsGlobalStatusEnum';
 
 export type TelephonyTimeConditionOptions = {

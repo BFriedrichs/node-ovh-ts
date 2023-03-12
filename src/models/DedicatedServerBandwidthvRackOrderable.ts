@@ -4,5 +4,5 @@ import { DedicatedServerBandwidthvRackOrderEnum } from './DedicatedServerBandwid
 
 export type DedicatedServerBandwidthvRackOrderable = {
   orderable: boolean;
-  vrack: DedicatedServerBandwidthvRackOrderEnum | null;
+  vrack: DedicatedServerBandwidthvRackOrderEnum[] | null;
 };

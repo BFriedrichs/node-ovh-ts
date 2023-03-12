@@ -5,7 +5,7 @@ import { DedicatedTemplateOsInputTypeEnum } from './DedicatedTemplateOsInputType
 export type DedicatedTemplateOsInput = {
   default: string | null;
   description: string | null;
-  enum: string;
+  enum: string[];
   mandatory: boolean;
   name: string;
   type: DedicatedTemplateOsInputTypeEnum;

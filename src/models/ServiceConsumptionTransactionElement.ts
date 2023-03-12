@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderPrice } from './OrderPrice';
 import { ServiceConsumptionTransactionElementDetail } from './ServiceConsumptionTransactionElementDetail';
+import { OrderPrice } from './OrderPrice';
 
 export type ServiceConsumptionTransactionElement = {
-  details: ServiceConsumptionTransactionElementDetail;
+  details: ServiceConsumptionTransactionElementDetail[];
   planCode: string;
   price: OrderPrice;
   quantity: number;

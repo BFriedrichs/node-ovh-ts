@@ -9,7 +9,7 @@ export type DomainDataClaimNoticeAddress = {
   faxExtension: string | null;
   postalCode: string | null;
   stateOrProvince: string | null;
-  streets: string;
+  streets: string[];
   voice: string | null;
   voiceExtension: string | null;
 };

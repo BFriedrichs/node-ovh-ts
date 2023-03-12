@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { NutanixDatacenterAvailability } from './NutanixDatacenterAvailability';
 import { NutanixDeploymentTypeEnum } from './NutanixDeploymentTypeEnum';
+import { NutanixDatacenterAvailability } from './NutanixDatacenterAvailability';
 import { NutanixRedundancyFactorEnum } from './NutanixRedundancyFactorEnum';
 
 export type NutanixAvailability = {
-  datacenters: NutanixDatacenterAvailability;
+  datacenters: NutanixDatacenterAvailability[];
   deploymentType: NutanixDeploymentTypeEnum | null;
   erasureCoding: boolean | null;
   fqn: string;

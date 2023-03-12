@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderOrderDetailTypeEnum } from './OrderOrderDetailTypeEnum';
 import { OrderReduction } from './OrderReduction';
+import { OrderOrderDetailTypeEnum } from './OrderOrderDetailTypeEnum';
 import { OrderPrice } from './OrderPrice';
 
 export type OrderOrderDetail = {
@@ -12,7 +12,7 @@ export type OrderOrderDetail = {
   originalTotalPrice: OrderPrice;
   quantity: number;
   reductionTotalPrice: OrderPrice;
-  reductions: OrderReduction;
+  reductions: OrderReduction[];
   totalPrice: OrderPrice;
   unitPrice: OrderPrice;
 };

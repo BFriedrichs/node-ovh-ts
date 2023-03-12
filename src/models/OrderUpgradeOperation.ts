@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { OrderUpgradeOperationTypeEnum } from './OrderUpgradeOperationTypeEnum';
-import { OrderUpgradeOperationStatusEnum } from './OrderUpgradeOperationStatusEnum';
 import { OrderUpgradeOperationProduct } from './OrderUpgradeOperationProduct';
+import { OrderUpgradeOperationStatusEnum } from './OrderUpgradeOperationStatusEnum';
 
 export type OrderUpgradeOperation = {
   id: number;

@@ -1,20 +1,20 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ClusterHadoopRoleTypeEnum } from '../models/ClusterHadoopRoleTypeEnum';
-import { ClusterHadoopClusterServiceNameEnum } from '../models/ClusterHadoopClusterServiceNameEnum';
-import { ClusterHadoopHadoop } from '../models/ClusterHadoopHadoop';
-import { ServicesService } from '../models/ServicesService';
+import { ClusterHadoopUser } from '../models/ClusterHadoopUser';
 import { ClusterHadoopClusterConsumption } from '../models/ClusterHadoopClusterConsumption';
+import { ClusterHadoopNodeBillingProfile } from '../models/ClusterHadoopNodeBillingProfile';
+import { ClusterHadoopOrderInformations } from '../models/ClusterHadoopOrderInformations';
 import { ClusterHadoopRole } from '../models/ClusterHadoopRole';
+import { ClusterHadoopNodeProfileEnum } from '../models/ClusterHadoopNodeProfileEnum';
 import { ClusterHadoopTask } from '../models/ClusterHadoopTask';
+import { ClusterHadoopClusterServiceNameEnum } from '../models/ClusterHadoopClusterServiceNameEnum';
 import { ClusterHadoopNetworkAcl } from '../models/ClusterHadoopNetworkAcl';
 import { ClusterHadoopOperationStateEnum } from '../models/ClusterHadoopOperationStateEnum';
 import { ClusterHadoopNode } from '../models/ClusterHadoopNode';
-import { ClusterHadoopNodeProfileEnum } from '../models/ClusterHadoopNodeProfileEnum';
-import { ClusterHadoopUser } from '../models/ClusterHadoopUser';
+import { ClusterHadoopRoleTypeEnum } from '../models/ClusterHadoopRoleTypeEnum';
+import { ServicesService } from '../models/ServicesService';
+import { ClusterHadoopHadoop } from '../models/ClusterHadoopHadoop';
 import { ClusterHadoopNodeConsumption } from '../models/ClusterHadoopNodeConsumption';
-import { ClusterHadoopOrderInformations } from '../models/ClusterHadoopOrderInformations';
-import { ClusterHadoopNodeBillingProfile } from '../models/ClusterHadoopNodeBillingProfile';
 import OVHBase from '../ovh';
 
 class ClusterHadoopHandler {
@@ -25,7 +25,7 @@ class ClusterHadoopHandler {
   }
 
   /** List available services */
-  getHadoop = (): Promise<string> => {
+  listHadoops = (): Promise<string[]> => {
     return this.ovh.request('GET', '/cluster/hadoop');
   };
 
@@ -35,29 +35,29 @@ class ClusterHadoopHandler {
   };
 
   /** Get the orderable node profiles and their characteristics */
-  getHadoopOrderableNodeProfiles = (): Promise<ClusterHadoopNodeBillingProfile> => {
+  getHadoopOrderableNodeProfiles = (): Promise<ClusterHadoopNodeBillingProfile[]> => {
     return this.ovh.request('GET', '/cluster/hadoop/orderableNodeProfiles');
   };
 
   /** Get this object properties */
-  getHadoopServiceName = (serviceName: string): Promise<ClusterHadoopHadoop> => {
+  getHadoopByServiceName = (serviceName: string): Promise<ClusterHadoopHadoop> => {
     return this.ovh.request('GET', `/cluster/hadoop/${serviceName}`);
   };
 
   /** Get the current consumptions that you will billed for on the next bill */
-  getHadoopServiceNameConsumptions = (
+  getHadoopConsumptionsByServiceName = (
     serviceName: string
   ): Promise<ClusterHadoopClusterConsumption> => {
     return this.ovh.request('GET', `/cluster/hadoop/${serviceName}/consumptions`);
   };
 
   /** Network ACL associated with this Hadoop Cluster */
-  getHadoopServiceNameNetworkAcl = (serviceName: string): Promise<string> => {
+  getHadoopNetworkAclByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cluster/hadoop/${serviceName}/networkAcl`);
   };
 
   /** Add an ACL to your cluster */
-  postHadoopServiceNameNetworkAcl = (
+  addHadoopNetworkAclByServiceName = (
     serviceName: string,
     body: { block?: string; description?: string }
   ): Promise<ClusterHadoopTask> => {
@@ -65,7 +65,7 @@ class ClusterHadoopHandler {
   };
 
   /** Remove this ACL */
-  deleteHadoopServiceNameNetworkAclBlock = (
+  deleteHadoopNetworkAclByServiceNameAndBlock = (
     block: string,
     serviceName: string
   ): Promise<ClusterHadoopTask> => {
@@ -73,7 +73,7 @@ class ClusterHadoopHandler {
   };
 
   /** Get this object properties */
-  getHadoopServiceNameNetworkAclBlock = (
+  getHadoopNetworkAclByServiceNameAndBlock = (
     block: string,
     serviceName: string
   ): Promise<ClusterHadoopNetworkAcl> => {
@@ -81,7 +81,7 @@ class ClusterHadoopHandler {
   };
 
   /** Alter this object properties */
-  putHadoopServiceNameNetworkAclBlock = (
+  updateHadoopNetworkAclByServiceNameAndBlock = (
     block: string,
     serviceName: string,
     body: ClusterHadoopNetworkAcl
@@ -90,12 +90,12 @@ class ClusterHadoopHandler {
   };
 
   /** Nodes of the Cluster */
-  getHadoopServiceNameNode = (serviceName: string): Promise<string> => {
+  getHadoopNodeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cluster/hadoop/${serviceName}/node`);
   };
 
   /** Remove this Node from the Cluster */
-  deleteHadoopServiceNameNodeHostname = (
+  deleteHadoopNodeByServiceNameAndHostname = (
     hostname: string,
     serviceName: string
   ): Promise<ClusterHadoopTask> => {
@@ -103,7 +103,7 @@ class ClusterHadoopHandler {
   };
 
   /** Get this object properties */
-  getHadoopServiceNameNodeHostname = (
+  getHadoopNodeByServiceNameAndHostname = (
     hostname: string,
     serviceName: string
   ): Promise<ClusterHadoopNode> => {
@@ -111,7 +111,7 @@ class ClusterHadoopHandler {
   };
 
   /** Decommission the node and all the services on it */
-  postHadoopServiceNameNodeHostnameDecommission = (
+  postHadoopNodeDecommissionByServiceNameAndHostname = (
     hostname: string,
     serviceName: string
   ): Promise<ClusterHadoopTask> => {
@@ -119,7 +119,7 @@ class ClusterHadoopHandler {
   };
 
   /** Recommission the node and all the services on it */
-  postHadoopServiceNameNodeHostnameRecommission = (
+  postHadoopNodeRecommissionByServiceNameAndHostname = (
     hostname: string,
     serviceName: string
   ): Promise<ClusterHadoopTask> => {
@@ -127,15 +127,15 @@ class ClusterHadoopHandler {
   };
 
   /** Roles (ie set of Hadoop services) of the Node */
-  getHadoopServiceNameNodeHostnameRole = (
+  getHadoopNodeRoleByServiceNameAndHostname = (
     hostname: string,
     serviceName: string
-  ): Promise<ClusterHadoopRoleTypeEnum> => {
+  ): Promise<ClusterHadoopRoleTypeEnum[]> => {
     return this.ovh.request('GET', `/cluster/hadoop/${serviceName}/node/${hostname}/role`);
   };
 
   /** Add the Role to the Node */
-  postHadoopServiceNameNodeHostnameRole = (
+  addHadoopNodeRoleByServiceNameAndHostname = (
     hostname: string,
     serviceName: string,
     body: { type: ClusterHadoopRoleTypeEnum }
@@ -144,7 +144,7 @@ class ClusterHadoopHandler {
   };
 
   /** Remove this Role from the Node */
-  deleteHadoopServiceNameNodeHostnameRoleType = (
+  deleteHadoopNodeRoleByServiceNameAndHostnameAndType = (
     hostname: string,
     serviceName: string,
     type: ClusterHadoopRoleTypeEnum
@@ -156,7 +156,7 @@ class ClusterHadoopHandler {
   };
 
   /** Get this object properties */
-  getHadoopServiceNameNodeHostnameRoleType = (
+  getHadoopNodeRoleByServiceNameAndHostnameAndType = (
     hostname: string,
     serviceName: string,
     type: ClusterHadoopRoleTypeEnum
@@ -165,7 +165,7 @@ class ClusterHadoopHandler {
   };
 
   /** Restart the role on the node (THIS ACTION WILL RESTART OTHER DEPENDANT ROLES) */
-  postHadoopServiceNameNodeHostnameRoleTypeRestart = (
+  postHadoopNodeRoleRestartByServiceNameAndHostnameAndType = (
     hostname: string,
     serviceName: string,
     type: ClusterHadoopRoleTypeEnum
@@ -177,7 +177,7 @@ class ClusterHadoopHandler {
   };
 
   /** Start the role on the node */
-  postHadoopServiceNameNodeHostnameRoleTypeStart = (
+  postHadoopNodeRoleStartByServiceNameAndHostnameAndType = (
     hostname: string,
     serviceName: string,
     type: ClusterHadoopRoleTypeEnum
@@ -189,7 +189,7 @@ class ClusterHadoopHandler {
   };
 
   /** Stop the role on the node (THIS ACTION WILL STOP OTHER DEPENDANT ROLES) */
-  postHadoopServiceNameNodeHostnameRoleTypeStop = (
+  postHadoopNodeRoleStopByServiceNameAndHostnameAndType = (
     hostname: string,
     serviceName: string,
     type: ClusterHadoopRoleTypeEnum
@@ -201,21 +201,21 @@ class ClusterHadoopHandler {
   };
 
   /** Detailed description for each Node profile */
-  getHadoopServiceNameNodeBillingProfiles = (
+  getHadoopNodeBillingProfilesByServiceName = (
     serviceName: string
-  ): Promise<ClusterHadoopNodeBillingProfile> => {
+  ): Promise<ClusterHadoopNodeBillingProfile[]> => {
     return this.ovh.request('GET', `/cluster/hadoop/${serviceName}/nodeBillingProfiles`);
   };
 
   /** Get the current node consumptions that you will billed for on the next bill */
-  getHadoopServiceNameNodeConsumptions = (
+  getHadoopNodeConsumptionsByServiceName = (
     serviceName: string
-  ): Promise<ClusterHadoopNodeConsumption> => {
+  ): Promise<ClusterHadoopNodeConsumption[]> => {
     return this.ovh.request('GET', `/cluster/hadoop/${serviceName}/nodeConsumptions`);
   };
 
   /** Order a new node in the cluster */
-  postHadoopServiceNameOrderNewNodeHourly = (
+  postHadoopOrderNewNodeHourlyByServiceName = (
     serviceName: string,
     body: { nodeProfile: string }
   ): Promise<ClusterHadoopTask> => {
@@ -223,17 +223,17 @@ class ClusterHadoopHandler {
   };
 
   /** List of orderable Node profiles */
-  getHadoopServiceNameOrderableNodeProfiles = (serviceName: string): Promise<string> => {
+  listHadoopOrderableNodeProfilesByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cluster/hadoop/${serviceName}/orderableNodeProfiles`);
   };
 
   /** Restart the Cloudera Manager Hadoop Cluster (THIS ACTION WILL RESTART EVERY SERVICE) */
-  postHadoopServiceNameRestart = (serviceName: string): Promise<ClusterHadoopTask> => {
+  postHadoopRestartByServiceName = (serviceName: string): Promise<ClusterHadoopTask> => {
     return this.ovh.request('POST', `/cluster/hadoop/${serviceName}/restart`);
   };
 
   /** Restart a Cloudera Manager service (THIS ACTION WILL RESTART OTHER DEPENDANT SERVICES) */
-  postHadoopServiceNameServiceRestart = (
+  postHadoopServiceRestartByServiceName = (
     serviceName: string,
     body: { service: ClusterHadoopClusterServiceNameEnum }
   ): Promise<ClusterHadoopTask> => {
@@ -241,7 +241,7 @@ class ClusterHadoopHandler {
   };
 
   /** Start a Cloudera Manager service */
-  postHadoopServiceNameServiceStart = (
+  postHadoopServiceStartByServiceName = (
     serviceName: string,
     body: { service: ClusterHadoopClusterServiceNameEnum }
   ): Promise<ClusterHadoopTask> => {
@@ -249,7 +249,7 @@ class ClusterHadoopHandler {
   };
 
   /** Stop a Cloudera Manager service (THIS ACTION WILL STOP OTHER DEPENDANT SERVICES) */
-  postHadoopServiceNameServiceStop = (
+  postHadoopServiceStopByServiceName = (
     serviceName: string,
     body: { service: ClusterHadoopClusterServiceNameEnum }
   ): Promise<ClusterHadoopTask> => {
@@ -257,12 +257,12 @@ class ClusterHadoopHandler {
   };
 
   /** Get this object properties */
-  getHadoopServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getHadoopServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/cluster/hadoop/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putHadoopServiceNameServiceInfos = (
+  updateHadoopServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -270,22 +270,22 @@ class ClusterHadoopHandler {
   };
 
   /** Start the Cloudera Manager Hadoop Cluster */
-  postHadoopServiceNameStart = (serviceName: string): Promise<ClusterHadoopTask> => {
+  postHadoopStartByServiceName = (serviceName: string): Promise<ClusterHadoopTask> => {
     return this.ovh.request('POST', `/cluster/hadoop/${serviceName}/start`);
   };
 
   /** Stop a Cloudera Manager Hadoop Cluster (THIS ACTION WILL STOP EVERY SERVICE) */
-  postHadoopServiceNameStop = (serviceName: string): Promise<ClusterHadoopTask> => {
+  postHadoopStopByServiceName = (serviceName: string): Promise<ClusterHadoopTask> => {
     return this.ovh.request('POST', `/cluster/hadoop/${serviceName}/stop`);
   };
 
   /** Tasks associated with this Hadoop Cluster */
-  getHadoopServiceNameTask = (serviceName: string): Promise<number> => {
+  getHadoopTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/cluster/hadoop/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getHadoopServiceNameTaskTaskId = (
+  getHadoopTaskByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<ClusterHadoopTask> => {
@@ -293,17 +293,17 @@ class ClusterHadoopHandler {
   };
 
   /** Terminate your service. THE CLUSTER WILL BE DELETED. ALL YOUR DATA WILL BE LOST */
-  postHadoopServiceNameTerminate = (serviceName: string): Promise<ClusterHadoopTask> => {
+  postHadoopTerminateByServiceName = (serviceName: string): Promise<ClusterHadoopTask> => {
     return this.ovh.request('POST', `/cluster/hadoop/${serviceName}/terminate`);
   };
 
   /** Users associated with this Hadoop Cluster */
-  getHadoopServiceNameUser = (serviceName: string): Promise<string> => {
+  getHadoopUserByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cluster/hadoop/${serviceName}/user`);
   };
 
   /** Add an User to your cluster */
-  postHadoopServiceNameUser = (
+  addHadoopUserByServiceName = (
     serviceName: string,
     body: {
       clouderaManager: boolean;
@@ -317,7 +317,7 @@ class ClusterHadoopHandler {
   };
 
   /** Remove this User */
-  deleteHadoopServiceNameUserUsername = (
+  deleteHadoopUserByServiceNameAndUsername = (
     serviceName: string,
     username: string
   ): Promise<ClusterHadoopTask> => {
@@ -325,7 +325,7 @@ class ClusterHadoopHandler {
   };
 
   /** Get this object properties */
-  getHadoopServiceNameUserUsername = (
+  getHadoopUserByServiceNameAndUsername = (
     serviceName: string,
     username: string
   ): Promise<ClusterHadoopUser> => {
@@ -333,7 +333,7 @@ class ClusterHadoopHandler {
   };
 
   /** Alter this object properties */
-  putHadoopServiceNameUserUsername = (
+  updateHadoopUserByServiceNameAndUsername = (
     serviceName: string,
     username: string,
     body: ClusterHadoopUser
@@ -342,7 +342,7 @@ class ClusterHadoopHandler {
   };
 
   /** Reset the password for a given Hadoop Cluster User */
-  postHadoopServiceNameUserUsernameResetPassword = (
+  postHadoopUserResetPasswordByServiceNameAndUsername = (
     serviceName: string,
     username: string,
     body: { password: string }
@@ -355,4 +355,4 @@ class ClusterHadoopHandler {
   };
 }
 
-export default ClusterHadoopHandler;
+export { ClusterHadoopHandler };

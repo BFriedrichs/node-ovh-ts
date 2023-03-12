@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectDatabaseKafkaConnectConnectorPropertyTypeEnum } from './CloudProjectDatabaseKafkaConnectConnectorPropertyTypeEnum';
 import { CloudProjectDatabaseKafkaConnectCapabilitiesConnectorPropertyImportanceEnum } from './CloudProjectDatabaseKafkaConnectCapabilitiesConnectorPropertyImportanceEnum';
+import { CloudProjectDatabaseKafkaConnectConnectorPropertyTypeEnum } from './CloudProjectDatabaseKafkaConnectConnectorPropertyTypeEnum';
 
 export type CloudProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationProperty = {
   defaultValue: string | null;
@@ -12,5 +12,5 @@ export type CloudProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationPr
   name: string;
   required: boolean;
   type: CloudProjectDatabaseKafkaConnectConnectorPropertyTypeEnum;
-  values: string | null;
+  values: string[] | null;
 };

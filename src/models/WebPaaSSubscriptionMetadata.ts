@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { WebPaaSSubscriptionCustomer } from './WebPaaSSubscriptionCustomer';
 import { WebPaaSSubscriptionMetadataProject } from './WebPaaSSubscriptionMetadataProject';
+import { WebPaaSSubscriptionCustomer } from './WebPaaSSubscriptionCustomer';
 
 export type WebPaaSSubscriptionMetadata = {
   customer: WebPaaSSubscriptionCustomer | null;

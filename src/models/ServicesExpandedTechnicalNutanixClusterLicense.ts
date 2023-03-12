@@ -5,5 +5,5 @@ import { ServicesExpandedTechnicalNutanixClusterFeatures } from './ServicesExpan
 export type ServicesExpandedTechnicalNutanixClusterLicense = {
   distribution: string;
   edition: string;
-  features: ServicesExpandedTechnicalNutanixClusterFeatures | null;
+  features: ServicesExpandedTechnicalNutanixClusterFeatures[] | null;
 };

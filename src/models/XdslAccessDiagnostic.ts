@@ -9,7 +9,7 @@ export type XdslAccessDiagnostic = {
   incident: boolean | null;
   isActiveOnLns: boolean | null;
   isModemConnected: boolean | null;
-  lineDetails: XdslLineDiagnostic | null;
+  lineDetails: XdslLineDiagnostic[] | null;
   maintenance: boolean | null;
   ping: boolean | null;
   remaining: number;

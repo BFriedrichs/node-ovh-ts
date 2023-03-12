@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServiceRenewRenewForecastPrices } from './ServiceRenewRenewForecastPrices';
 import { ServiceRenewRenewForecastDetail } from './ServiceRenewRenewForecastDetail';
+import { ServiceRenewRenewForecastPrices } from './ServiceRenewRenewForecastPrices';
 
 export type ServiceRenewRenewForecast = {
-  details: ServiceRenewRenewForecastDetail;
+  details: ServiceRenewRenewForecastDetail[];
   prices: ServiceRenewRenewForecastPrices;
 };

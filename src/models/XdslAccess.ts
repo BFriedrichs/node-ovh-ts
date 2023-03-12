@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { XdslAccessRoleEnum } from './XdslAccessRoleEnum';
 import { XdslDslTypeEnum } from './XdslDslTypeEnum';
-import { XdslAccessStatusEnum } from './XdslAccessStatusEnum';
-import { XdslAddressDetail } from './XdslAddressDetail';
 import { XdslAccessCapabilities } from './XdslAccessCapabilities';
+import { XdslAddressDetail } from './XdslAddressDetail';
+import { XdslAccessStatusEnum } from './XdslAccessStatusEnum';
+import { XdslAccessRoleEnum } from './XdslAccessRoleEnum';
 
 export type XdslAccess = {
   accessName: string;

@@ -4,7 +4,7 @@ import { IpLoadbalancingDefinedFarm } from './IpLoadbalancingDefinedFarm';
 
 export type IpLoadbalancingVrackNetworkVrackNetwork = {
   displayName: string | null;
-  farmId: IpLoadbalancingDefinedFarm;
+  farmId: IpLoadbalancingDefinedFarm[];
   natIp: string;
   subnet: string;
   vlan: number;

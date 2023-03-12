@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseWorkLightVersionEnum } from './LicenseWorkLightVersionEnum';
 import { LicenseStateEnum } from './LicenseStateEnum';
+import { LicenseWorkLightVersionEnum } from './LicenseWorkLightVersionEnum';
 
 export type LicenseWorklightWorkLight = {
   creation: Date;

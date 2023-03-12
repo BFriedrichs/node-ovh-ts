@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudQuotaInstanceUsageQuotas } from './CloudQuotaInstanceUsageQuotas';
-import { CloudQuotaKeypairQuotas } from './CloudQuotaKeypairQuotas';
-import { CloudQuotaKeymanagerQuotas } from './CloudQuotaKeymanagerQuotas';
 import { CloudQuotaNetworkQuotas } from './CloudQuotaNetworkQuotas';
-import { CloudQuotaVolumeUsageQuotas } from './CloudQuotaVolumeUsageQuotas';
 import { CloudQuotaLoadbalancerQuotas } from './CloudQuotaLoadbalancerQuotas';
+import { CloudQuotaKeymanagerQuotas } from './CloudQuotaKeymanagerQuotas';
+import { CloudQuotaVolumeUsageQuotas } from './CloudQuotaVolumeUsageQuotas';
+import { CloudQuotaKeypairQuotas } from './CloudQuotaKeypairQuotas';
+import { CloudQuotaInstanceUsageQuotas } from './CloudQuotaInstanceUsageQuotas';
 
 export type CloudQuotaQuotas = {
   instance: CloudQuotaInstanceUsageQuotas | null;

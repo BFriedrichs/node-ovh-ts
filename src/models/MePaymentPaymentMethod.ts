@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MePaymentAvailableSubTypeEnum } from './MePaymentAvailableSubTypeEnum';
+import { MePaymentMethodStatusEnum } from './MePaymentMethodStatusEnum';
 import { MePaymentIcon } from './MePaymentIcon';
 import { MePaymentIntegrationEnum } from './MePaymentIntegrationEnum';
-import { MePaymentMethodStatusEnum } from './MePaymentMethodStatusEnum';
+import { MePaymentAvailableSubTypeEnum } from './MePaymentAvailableSubTypeEnum';
 
 export type MePaymentPaymentMethod = {
   billingContactId: number | null;

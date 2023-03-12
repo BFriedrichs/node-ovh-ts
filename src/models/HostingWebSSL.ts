@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { HostingWebHostedsslStatusEnum } from './HostingWebHostedsslStatusEnum';
-import { HostingWebHostedsslTypeEnum } from './HostingWebHostedsslTypeEnum';
 import { HostingWebHostedsslProviderEnum } from './HostingWebHostedsslProviderEnum';
+import { HostingWebHostedsslTypeEnum } from './HostingWebHostedsslTypeEnum';
 
 export type HostingWebSSL = {
   isReportable: boolean;

@@ -10,5 +10,5 @@ export type IpLoadbalancingTaskTask = {
   id: number;
   progress: number;
   status: IpLoadbalancingTaskStatusEnum;
-  zones: string;
+  zones: string[];
 };

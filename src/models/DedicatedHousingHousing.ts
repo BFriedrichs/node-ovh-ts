@@ -7,7 +7,7 @@ import { DedicatedHousingNetworkInfo } from './DedicatedHousingNetworkInfo';
 export type DedicatedHousingHousing = {
   datacenter: DedicatedHousingDatacenterEnum | null;
   name: string;
-  network: DedicatedHousingNetworkInfo;
+  network: DedicatedHousingNetworkInfo[];
   options: DedicatedHousingOptions;
   rack: string;
   securityCode: string;

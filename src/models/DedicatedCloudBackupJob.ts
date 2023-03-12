@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { DedicatedCloudBackupStateEnum } from './DedicatedCloudBackupStateEnum';
-import { DedicatedCloudBackupOfferTypeEnum } from './DedicatedCloudBackupOfferTypeEnum';
 import { DedicatedCloudBackupBackupDaysEnum } from './DedicatedCloudBackupBackupDaysEnum';
+import { DedicatedCloudBackupOfferTypeEnum } from './DedicatedCloudBackupOfferTypeEnum';
 
 export type DedicatedCloudBackupJob = {
   allocatedDisk: number | null;
-  backupDays: DedicatedCloudBackupBackupDaysEnum | null;
+  backupDays: DedicatedCloudBackupBackupDaysEnum[] | null;
   encryption: boolean | null;
   offerType: DedicatedCloudBackupOfferTypeEnum | null;
   retentionTime: number | null;

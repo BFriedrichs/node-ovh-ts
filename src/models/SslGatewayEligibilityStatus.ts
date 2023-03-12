@@ -2,7 +2,7 @@
 
 export type SslGatewayEligibilityStatus = {
   domain: string;
-  ip6s: string;
-  ips: string;
+  ip6s: string[];
+  ips: string[];
   isHostedByOvh: boolean;
 };

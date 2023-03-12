@@ -1,57 +1,57 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { IpBlockedIpStateEnum } from '../models/IpBlockedIpStateEnum';
-import { IpMitigationStatsScaleEnum } from '../models/IpMitigationStatsScaleEnum';
-import { IpLoadBalancingBackendIp } from '../models/IpLoadBalancingBackendIp';
-import { IpIpMigrationToken } from '../models/IpIpMigrationToken';
-import { IpArpStateEnum } from '../models/IpArpStateEnum';
-import { IpFirewallActionEnum } from '../models/IpFirewallActionEnum';
-import { IpReverseIp } from '../models/IpReverseIp';
-import { IpMitigationStats } from '../models/IpMitigationStats';
-import { IpLoadBalancingTask } from '../models/IpLoadBalancingTask';
-import { IpFirewallNetworkRule } from '../models/IpFirewallNetworkRule';
-import { IpLoadbalancingTaskTask } from '../models/IpLoadbalancingTaskTask';
-import { IpRipeInfos } from '../models/IpRipeInfos';
-import { IpSpamIp } from '../models/IpSpamIp';
-import { IpCampus } from '../models/IpCampus';
-import { IpLoadBalancingIp } from '../models/IpLoadBalancingIp';
-import { IpArpBlockedIp } from '../models/IpArpBlockedIp';
-import { IpReverseDelegation } from '../models/IpReverseDelegation';
-import { IpGameMitigationRuleProtocolEnum } from '../models/IpGameMitigationRuleProtocolEnum';
-import { IpFirewallRuleStateEnum } from '../models/IpFirewallRuleStateEnum';
-import { IpLoadBalancingZoneEnum } from '../models/IpLoadBalancingZoneEnum';
-import { IpMitigationProfileAutoMitigationTimeOutEnum } from '../models/IpMitigationProfileAutoMitigationTimeOutEnum';
-import { IpAntiphishingStateEnum } from '../models/IpAntiphishingStateEnum';
-import { IpGameMitigation } from '../models/IpGameMitigation';
-import { IpLoadBalancingStickinessEnum } from '../models/IpLoadBalancingStickinessEnum';
 import { IpLoadBalancingBackendProbeEnum } from '../models/IpLoadBalancingBackendProbeEnum';
+import { IpLoadBalancingTask } from '../models/IpLoadBalancingTask';
+import { IpLoadBalancingIpLoadBalancingPort } from '../models/IpLoadBalancingIpLoadBalancingPort';
+import { IpArpBlockedIp } from '../models/IpArpBlockedIp';
 import { IpBlockedIp } from '../models/IpBlockedIp';
-import { IpSpamStateEnum } from '../models/IpSpamStateEnum';
+import { IpGameMitigationRuleProtocolEnum } from '../models/IpGameMitigationRuleProtocolEnum';
+import { IpMitigationStateEnum } from '../models/IpMitigationStateEnum';
+import { IpCampus } from '../models/IpCampus';
+import { IpIpVersionEnum } from '../models/IpIpVersionEnum';
+import { IpFirewallActionEnum } from '../models/IpFirewallActionEnum';
+import { IpDestinations } from '../models/IpDestinations';
+import { IpFirewallIp } from '../models/IpFirewallIp';
 import { IpMitigationDetailedStats } from '../models/IpMitigationDetailedStats';
 import { IpServiceIp } from '../models/IpServiceIp';
-import { ServicesService } from '../models/ServicesService';
-import { IpSpamStats } from '../models/IpSpamStats';
-import { IpMitigationProfile } from '../models/IpMitigationProfile';
-import { IpTaskStatusEnum } from '../models/IpTaskStatusEnum';
-import { IpIpTypeEnum } from '../models/IpIpTypeEnum';
-import { IpDestinations } from '../models/IpDestinations';
-import { IpFirewallProtocolEnum } from '../models/IpFirewallProtocolEnum';
-import { IpTaskFunctionEnum } from '../models/IpTaskFunctionEnum';
-import { IpFirewallIp } from '../models/IpFirewallIp';
-import { IpIpVersionEnum } from '../models/IpIpVersionEnum';
-import { IpMitigationIp } from '../models/IpMitigationIp';
-import { IpMitigationStateEnum } from '../models/IpMitigationStateEnum';
+import { IpLoadBalancingZoneEnum } from '../models/IpLoadBalancingZoneEnum';
+import { IpMitigationStats } from '../models/IpMitigationStats';
+import { IpMitigationProfileAutoMitigationTimeOutEnum } from '../models/IpMitigationProfileAutoMitigationTimeOutEnum';
+import { IpLoadBalancingBackendIp } from '../models/IpLoadBalancingBackendIp';
+import { IpSpamStateEnum } from '../models/IpSpamStateEnum';
+import { IpIpMigrationToken } from '../models/IpIpMigrationToken';
 import { IpIp } from '../models/IpIp';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { IpFirewallOptionTCP } from '../models/IpFirewallOptionTCP';
-import { IpGameMitigationRule } from '../models/IpGameMitigationRule';
-import { IpFirewallSequenceRangeEnum } from '../models/IpFirewallSequenceRangeEnum';
+import { IpMitigationStatsScaleEnum } from '../models/IpMitigationStatsScaleEnum';
 import { IpFirewallStateEnum } from '../models/IpFirewallStateEnum';
-import { IpAntiphishing } from '../models/IpAntiphishing';
-import { IpLoadBalancingIpLoadBalancingPort } from '../models/IpLoadBalancingIpLoadBalancingPort';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { IpSpamIp } from '../models/IpSpamIp';
+import { IpReverseDelegation } from '../models/IpReverseDelegation';
+import { IpSpamStats } from '../models/IpSpamStats';
+import { IpFirewallProtocolEnum } from '../models/IpFirewallProtocolEnum';
+import { IpArpStateEnum } from '../models/IpArpStateEnum';
 import { IpIpTask } from '../models/IpIpTask';
+import { IpLoadBalancingStickinessEnum } from '../models/IpLoadBalancingStickinessEnum';
+import { IpGameMitigationRule } from '../models/IpGameMitigationRule';
+import { IpMitigationProfile } from '../models/IpMitigationProfile';
+import { IpFirewallOptionTCP } from '../models/IpFirewallOptionTCP';
+import { IpGameMitigation } from '../models/IpGameMitigation';
+import { IpAntiphishing } from '../models/IpAntiphishing';
+import { IpLoadbalancingTaskTask } from '../models/IpLoadbalancingTaskTask';
+import { IpReverseIp } from '../models/IpReverseIp';
+import { IpFirewallNetworkRule } from '../models/IpFirewallNetworkRule';
+import { IpAntiphishingStateEnum } from '../models/IpAntiphishingStateEnum';
+import { IpRipeInfos } from '../models/IpRipeInfos';
+import { IpBlockedIpStateEnum } from '../models/IpBlockedIpStateEnum';
+import { IpTaskStatusEnum } from '../models/IpTaskStatusEnum';
+import { ServicesService } from '../models/ServicesService';
 import { IpLoadBalancingAdditionalPortEnum } from '../models/IpLoadBalancingAdditionalPortEnum';
+import { IpLoadBalancingIp } from '../models/IpLoadBalancingIp';
+import { IpIpTypeEnum } from '../models/IpIpTypeEnum';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { IpFirewallRuleStateEnum } from '../models/IpFirewallRuleStateEnum';
+import { IpMitigationIp } from '../models/IpMitigationIp';
+import { IpTaskFunctionEnum } from '../models/IpTaskFunctionEnum';
+import { IpFirewallSequenceRangeEnum } from '../models/IpFirewallSequenceRangeEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import OVHBase from '../ovh';
 
 class IpHandler {
@@ -62,37 +62,37 @@ class IpHandler {
   }
 
   /** Your OVH IPs */
-  get = (): Promise<string> => {
+  get = (): Promise<string[]> => {
     return this.ovh.request('GET', '/ip');
   };
 
   /** Get IP campuses */
-  getCampus = (): Promise<IpCampus> => {
+  getCampus = (): Promise<IpCampus[]> => {
     return this.ovh.request('GET', '/ip/campus');
   };
 
   /** List available services */
-  getLoadBalancing = (): Promise<string> => {
+  listLoadBalancings = (): Promise<string[]> => {
     return this.ovh.request('GET', '/ip/loadBalancing');
   };
 
   /** Get this object properties */
-  getLoadBalancingServiceName = (serviceName: string): Promise<IpLoadBalancingIp> => {
+  getLoadBalancingByServiceName = (serviceName: string): Promise<IpLoadBalancingIp> => {
     return this.ovh.request('GET', `/ip/loadBalancing/${serviceName}`);
   };
 
   /** List of backends you can attach to your IP */
-  getLoadBalancingServiceNameAllowedBackends = (serviceName: string): Promise<string> => {
+  listLoadBalancingAllowedBackendsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/loadBalancing/${serviceName}/allowedBackends`);
   };
 
   /** Backends for this IP load balancing */
-  getLoadBalancingServiceNameBackend = (serviceName: string): Promise<string> => {
+  getLoadBalancingBackendByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/loadBalancing/${serviceName}/backend`);
   };
 
   /** Add a new backend on your IP load balancing */
-  postLoadBalancingServiceNameBackend = (
+  addLoadBalancingBackendByServiceName = (
     serviceName: string,
     body: { ipBackend: string; probe: IpLoadBalancingBackendProbeEnum; weight?: number }
   ): Promise<IpLoadBalancingTask> => {
@@ -100,7 +100,7 @@ class IpHandler {
   };
 
   /** Remove a backend IP */
-  deleteLoadBalancingServiceNameBackendBackend = (
+  deleteLoadBalancingBackendByServiceNameAndBackend = (
     backend: string,
     serviceName: string
   ): Promise<IpLoadBalancingTask> => {
@@ -108,7 +108,7 @@ class IpHandler {
   };
 
   /** Get this object properties */
-  getLoadBalancingServiceNameBackendBackend = (
+  getLoadBalancingBackendByServiceNameAndBackend = (
     backend: string,
     serviceName: string
   ): Promise<IpLoadBalancingBackendIp> => {
@@ -116,7 +116,7 @@ class IpHandler {
   };
 
   /** Alter this object properties */
-  putLoadBalancingServiceNameBackendBackend = (
+  updateLoadBalancingBackendByServiceNameAndBackend = (
     backend: string,
     serviceName: string,
     body: IpLoadBalancingBackendIp
@@ -125,7 +125,7 @@ class IpHandler {
   };
 
   /** Set or unset the backend as a backup of another backend. Requests will be directed to the backup only if the main backend is in probe fail */
-  postLoadBalancingServiceNameBackendBackendBackupState = (
+  postLoadBalancingBackendBackupStateByServiceNameAndBackend = (
     backend: string,
     serviceName: string,
     body: { backupStateSet: boolean; mainBackendIp?: string }
@@ -138,7 +138,7 @@ class IpHandler {
   };
 
   /** Set the weight of a backend. For instance, if backend A has a weight of 8 and backup B was a weight of 16, backend B will receive twice more connections as backend A. Backends must be on the same POP for the weight parameter to take effect between them. */
-  postLoadBalancingServiceNameBackendBackendSetWeight = (
+  postLoadBalancingBackendSetWeightByServiceNameAndBackend = (
     backend: string,
     serviceName: string,
     body: { weight: number }
@@ -151,7 +151,7 @@ class IpHandler {
   };
 
   /** Import your own ssl certificate on your IP load balancing. Ssl option is needed to use this url. */
-  postLoadBalancingServiceNameImportCustomSsl = (
+  postLoadBalancingImportCustomSslByServiceName = (
     serviceName: string,
     body: { certificate: string; chain?: string; key: string }
   ): Promise<IpLoadBalancingTask> => {
@@ -159,19 +159,19 @@ class IpHandler {
   };
 
   /** Ip subnet used by OVH to nat requests on your ip lb to your backends. You must ensure that your backends are not part of a network that overlap with this one. */
-  getLoadBalancingServiceNameInternalNatIp = (serviceName: string): Promise<string> => {
+  getLoadBalancingInternalNatIpByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('GET', `/ip/loadBalancing/${serviceName}/internalNatIp`);
   };
 
   /** Get all srcPort */
-  getLoadBalancingServiceNamePortsRedirection = (
+  getLoadBalancingPortsRedirectionByServiceName = (
     serviceName: string
-  ): Promise<IpLoadBalancingAdditionalPortEnum> => {
+  ): Promise<IpLoadBalancingAdditionalPortEnum[]> => {
     return this.ovh.request('GET', `/ip/loadBalancing/${serviceName}/portsRedirection`);
   };
 
   /** Add a new port redirection */
-  postLoadBalancingServiceNamePortsRedirection = (
+  addLoadBalancingPortsRedirectionByServiceName = (
     serviceName: string,
     body: IpLoadBalancingIpLoadBalancingPort
   ): Promise<IpLoadBalancingTask> => {
@@ -179,7 +179,7 @@ class IpHandler {
   };
 
   /** Delete a port redirection */
-  deleteLoadBalancingServiceNamePortsRedirectionSrcPort = (
+  deleteLoadBalancingPortsRedirectionByServiceNameAndSrcPort = (
     serviceName: string,
     srcPort: IpLoadBalancingAdditionalPortEnum
   ): Promise<IpLoadBalancingTask> => {
@@ -190,7 +190,7 @@ class IpHandler {
   };
 
   /** Get the value for the given srcPort */
-  getLoadBalancingServiceNamePortsRedirectionSrcPort = (
+  getLoadBalancingPortsRedirectionByServiceNameAndSrcPort = (
     serviceName: string,
     srcPort: IpLoadBalancingAdditionalPortEnum
   ): Promise<IpLoadBalancingIpLoadBalancingPort> => {
@@ -198,22 +198,24 @@ class IpHandler {
   };
 
   /** Ip subnet used to send probes to your backends */
-  getLoadBalancingServiceNameProbeIp = (serviceName: string): Promise<string> => {
+  getLoadBalancingProbeIpByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/loadBalancing/${serviceName}/probeIp`);
   };
 
   /** Restore OVH' ssl certificate on your IP load balancing. Ssl option is needed to use this url. (A DCV mail will be sent to postmaster@your-domain.abc) */
-  postLoadBalancingServiceNameRestoreSsl = (serviceName: string): Promise<IpLoadBalancingTask> => {
+  postLoadBalancingRestoreSslByServiceName = (
+    serviceName: string
+  ): Promise<IpLoadBalancingTask> => {
     return this.ovh.request('POST', `/ip/loadBalancing/${serviceName}/restoreSsl`);
   };
 
   /** Get this object properties */
-  getLoadBalancingServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getLoadBalancingServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/ip/loadBalancing/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putLoadBalancingServiceNameServiceInfos = (
+  updateLoadBalancingServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -221,7 +223,7 @@ class IpHandler {
   };
 
   /** Set Stickiness type. 'ipSource' will stick clients to a backend by their source ip, 'cookie' will stick them by inserting a cookie, 'none' is to set no stickiness */
-  postLoadBalancingServiceNameStickiness = (
+  postLoadBalancingStickinessByServiceName = (
     serviceName: string,
     body: { stickiness: IpLoadBalancingStickinessEnum }
   ): Promise<IpLoadBalancingTask> => {
@@ -229,7 +231,7 @@ class IpHandler {
   };
 
   /** Switch to ipLoadbalancing next-gen API. Benefits : additionnals probes, DDOS protection. */
-  postLoadBalancingServiceNameSwitchToIplbNextGenerationApi = (
+  postLoadBalancingSwitchToIplbNextGenerationApiByServiceName = (
     serviceName: string
   ): Promise<IpLoadbalancingTaskTask> => {
     return this.ovh.request(
@@ -239,12 +241,12 @@ class IpHandler {
   };
 
   /** Task list associated with this IP */
-  getLoadBalancingServiceNameTask = (serviceName: string): Promise<number> => {
+  getLoadBalancingTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ip/loadBalancing/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getLoadBalancingServiceNameTaskTaskId = (
+  getLoadBalancingTaskByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<IpLoadBalancingTask> => {
@@ -252,30 +254,30 @@ class IpHandler {
   };
 
   /** List available services */
-  getService = (): Promise<string> => {
+  listServices = (): Promise<string[]> => {
     return this.ovh.request('GET', '/ip/service');
   };
 
   /** Get this object properties */
-  getServiceServiceName = (serviceName: string): Promise<IpServiceIp> => {
+  getServiceByServiceName = (serviceName: string): Promise<IpServiceIp> => {
     return this.ovh.request('GET', `/ip/service/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putServiceServiceName = (serviceName: string, body: IpServiceIp): Promise<void> => {
+  updateServiceByServiceName = (serviceName: string, body: IpServiceIp): Promise<void> => {
     return this.ovh.request('PUT', `/ip/service/${serviceName}`, body);
   };
 
   /** Launch a contact change procedure */
-  postServiceServiceNameChangeContact = (
+  launchServiceChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/ip/service/${serviceName}/changeContact`, body);
   };
 
   /** Confirm termination of your service */
-  postServiceServiceNameConfirmTermination = (
+  confirmServiceTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -288,12 +290,12 @@ class IpHandler {
   };
 
   /** Get this object properties */
-  getServiceServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/ip/service/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceServiceNameServiceInfos = (
+  updateServiceServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -301,97 +303,97 @@ class IpHandler {
   };
 
   /** Terminate your service */
-  postServiceServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postServiceTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/ip/service/${serviceName}/terminate`);
   };
 
   /** Get this object properties */
-  getIp = (ip: string): Promise<IpIp> => {
+  getByIp = (ip: string): Promise<IpIp> => {
     return this.ovh.request('GET', `/ip/${ip}`);
   };
 
   /** Alter this object properties */
-  putIp = (ip: string, body: IpIp): Promise<void> => {
+  updateByIp = (ip: string, body: IpIp): Promise<void> => {
     return this.ovh.request('PUT', `/ip/${ip}`, body);
   };
 
   /** Anti-Hack blocked IP */
-  getIpAntihack = (ip: string): Promise<string> => {
+  getAntihackByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/antihack`);
   };
 
   /** Get this object properties */
-  getIpAntihackIpBlocked = (ip: string, ipBlocked: string): Promise<IpBlockedIp> => {
+  getAntihackByIpAndIpBlocked = (ip: string, ipBlocked: string): Promise<IpBlockedIp> => {
     return this.ovh.request('GET', `/ip/${ip}/antihack/${ipBlocked}`);
   };
 
   /** Unblock this IP */
-  postIpAntihackIpBlockedUnblock = (ip: string, ipBlocked: string): Promise<void> => {
+  postAntihackUnblockByIpAndIpBlocked = (ip: string, ipBlocked: string): Promise<void> => {
     return this.ovh.request('POST', `/ip/${ip}/antihack/${ipBlocked}/unblock`);
   };
 
   /** ARP blocked IP */
-  getIpArp = (ip: string): Promise<string> => {
+  getArpByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/arp`);
   };
 
   /** Get this object properties */
-  getIpArpIpBlocked = (ip: string, ipBlocked: string): Promise<IpArpBlockedIp> => {
+  getArpByIpAndIpBlocked = (ip: string, ipBlocked: string): Promise<IpArpBlockedIp> => {
     return this.ovh.request('GET', `/ip/${ip}/arp/${ipBlocked}`);
   };
 
   /** Unblock this IP */
-  postIpArpIpBlockedUnblock = (ip: string, ipBlocked: string): Promise<void> => {
+  postArpUnblockByIpAndIpBlocked = (ip: string, ipBlocked: string): Promise<void> => {
     return this.ovh.request('POST', `/ip/${ip}/arp/${ipBlocked}/unblock`);
   };
 
   /** Change organisation of this IP */
-  postIpChangeOrg = (ip: string, body: { organisation: string }): Promise<IpIpTask> => {
+  updateOrgByIp = (ip: string, body: { organisation: string }): Promise<IpIpTask> => {
     return this.ovh.request('POST', `/ip/${ip}/changeOrg`, body);
   };
 
   /** Reverse delegation on IPv6 subnet */
-  getIpDelegation = (ip: string): Promise<string> => {
+  getDelegationByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/delegation`);
   };
 
   /** Add target for reverse delegation on IPv6 subnet */
-  postIpDelegation = (ip: string, body: { target: string }): Promise<IpReverseDelegation> => {
+  addDelegationByIp = (ip: string, body: { target: string }): Promise<IpReverseDelegation> => {
     return this.ovh.request('POST', `/ip/${ip}/delegation`, body);
   };
 
   /** Delete a target for reverse delegation on IPv6 subnet */
-  deleteIpDelegationTarget = (ip: string, target: string): Promise<void> => {
+  deleteDelegationByIpAndTarget = (ip: string, target: string): Promise<void> => {
     return this.ovh.request('DELETE', `/ip/${ip}/delegation/${target}`);
   };
 
   /** Get this object properties */
-  getIpDelegationTarget = (ip: string, target: string): Promise<IpReverseDelegation> => {
+  getDelegationByIpAndTarget = (ip: string, target: string): Promise<IpReverseDelegation> => {
     return this.ovh.request('GET', `/ip/${ip}/delegation/${target}`);
   };
 
   /** Ip under firewall */
-  getIpFirewall = (ip: string): Promise<string> => {
+  getFirewallByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/firewall`);
   };
 
   /** AntiDDOS option. Add new IP on firewall */
-  postIpFirewall = (ip: string, body: { ipOnFirewall: string }): Promise<IpFirewallIp> => {
+  postFirewallByIp = (ip: string, body: { ipOnFirewall: string }): Promise<IpFirewallIp> => {
     return this.ovh.request('POST', `/ip/${ip}/firewall`, body);
   };
 
   /** AntiDDOS option. Delete IP and rules from firewall */
-  deleteIpFirewallIpOnFirewall = (ip: string, ipOnFirewall: string): Promise<string> => {
+  deleteFirewallByIpAndIpOnFirewall = (ip: string, ipOnFirewall: string): Promise<string> => {
     return this.ovh.request('DELETE', `/ip/${ip}/firewall/${ipOnFirewall}`);
   };
 
   /** Get this object properties */
-  getIpFirewallIpOnFirewall = (ip: string, ipOnFirewall: string): Promise<IpFirewallIp> => {
+  getFirewallByIpAndIpOnFirewall = (ip: string, ipOnFirewall: string): Promise<IpFirewallIp> => {
     return this.ovh.request('GET', `/ip/${ip}/firewall/${ipOnFirewall}`);
   };
 
   /** Alter this object properties */
-  putIpFirewallIpOnFirewall = (
+  updateFirewallByIpAndIpOnFirewall = (
     ip: string,
     ipOnFirewall: string,
     body: IpFirewallIp
@@ -400,12 +402,12 @@ class IpHandler {
   };
 
   /** Rules for this IP */
-  getIpFirewallIpOnFirewallRule = (ip: string, ipOnFirewall: string): Promise<number> => {
+  getFirewallRuleByIpAndIpOnFirewall = (ip: string, ipOnFirewall: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ip/${ip}/firewall/${ipOnFirewall}/rule`);
   };
 
   /** AntiDDOS option. Add new rule on your IP */
-  postIpFirewallIpOnFirewallRule = (
+  postFirewallRuleByIpAndIpOnFirewall = (
     ip: string,
     ipOnFirewall: string,
     body: {
@@ -422,7 +424,7 @@ class IpHandler {
   };
 
   /** AntiDDOS option. Delete rule */
-  deleteIpFirewallIpOnFirewallRuleSequence = (
+  deleteFirewallRuleByIpAndIpOnFirewallAndSequence = (
     ip: string,
     ipOnFirewall: string,
     sequence: number
@@ -431,7 +433,7 @@ class IpHandler {
   };
 
   /** Get this object properties */
-  getIpFirewallIpOnFirewallRuleSequence = (
+  getFirewallRuleByIpAndIpOnFirewallAndSequence = (
     ip: string,
     ipOnFirewall: string,
     sequence: number
@@ -440,27 +442,31 @@ class IpHandler {
   };
 
   /** Ip under game anti-ddos */
-  getIpGame = (ip: string): Promise<string> => {
+  getGameByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/game`);
   };
 
   /** Get this object properties */
-  getIpGameIpOnGame = (ip: string, ipOnGame: string): Promise<IpGameMitigation> => {
+  getGameByIpAndIpOnGame = (ip: string, ipOnGame: string): Promise<IpGameMitigation> => {
     return this.ovh.request('GET', `/ip/${ip}/game/${ipOnGame}`);
   };
 
   /** Alter this object properties */
-  putIpGameIpOnGame = (ip: string, ipOnGame: string, body: IpGameMitigation): Promise<void> => {
+  updateGameByIpAndIpOnGame = (
+    ip: string,
+    ipOnGame: string,
+    body: IpGameMitigation
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/ip/${ip}/game/${ipOnGame}`, body);
   };
 
   /** IDs of rules configured for this IP */
-  getIpGameIpOnGameRule = (ip: string, ipOnGame: string): Promise<number> => {
+  getGameRuleByIpAndIpOnGame = (ip: string, ipOnGame: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ip/${ip}/game/${ipOnGame}/rule`);
   };
 
   /** Add new rule on your IP */
-  postIpGameIpOnGameRule = (
+  addGameRuleByIpAndIpOnGame = (
     ip: string,
     ipOnGame: string,
     body: { ports: number; protocol: IpGameMitigationRuleProtocolEnum }
@@ -469,7 +475,7 @@ class IpHandler {
   };
 
   /** Delete rule */
-  deleteIpGameIpOnGameRuleId = (
+  deleteGameRuleByIpAndIpOnGameAndId = (
     id: number,
     ip: string,
     ipOnGame: string
@@ -478,7 +484,7 @@ class IpHandler {
   };
 
   /** Get this object properties */
-  getIpGameIpOnGameRuleId = (
+  getGameRuleByIpAndIpOnGameAndId = (
     id: number,
     ip: string,
     ipOnGame: string
@@ -487,52 +493,52 @@ class IpHandler {
   };
 
   /** Cloud Linux licenses associated to this IP */
-  getIpLicenseCloudLinux = (ip: string): Promise<string> => {
+  getLicenseCloudLinuxByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/license/cloudLinux`);
   };
 
   /** Cpanel licenses associated to this IP */
-  getIpLicenseCpanel = (ip: string): Promise<string> => {
+  getLicenseCpanelByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/license/cpanel`);
   };
 
   /** DirectAdmin licenses associated to this IP */
-  getIpLicenseDirectadmin = (ip: string): Promise<string> => {
+  getLicenseDirectadminByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/license/directadmin`);
   };
 
   /** Plesk licenses associated to this IP */
-  getIpLicensePlesk = (ip: string): Promise<string> => {
+  getLicensePleskByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/license/plesk`);
   };
 
   /** SQL Server licenses associated to this IP */
-  getIpLicenseSqlserver = (ip: string): Promise<string> => {
+  getLicenseSqlserverByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/license/sqlserver`);
   };
 
   /** Virtuozzo licenses associated to this IP */
-  getIpLicenseVirtuozzo = (ip: string): Promise<string> => {
+  getLicenseVirtuozzoByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/license/virtuozzo`);
   };
 
   /** Windows licenses associated to this IP */
-  getIpLicenseWindows = (ip: string): Promise<string> => {
+  getLicenseWindowsByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/license/windows`);
   };
 
   /** WorkLight licenses associated to this IP */
-  getIpLicenseWorklight = (ip: string): Promise<string> => {
+  getLicenseWorklightByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/license/worklight`);
   };
 
   /** Get this object properties */
-  getIpMigrationToken = (ip: string): Promise<IpIpMigrationToken> => {
+  getMigrationTokenByIp = (ip: string): Promise<IpIpMigrationToken> => {
     return this.ovh.request('GET', `/ip/${ip}/migrationToken`);
   };
 
   /** Generate a migration token */
-  postIpMigrationToken = (
+  postMigrationTokenByIp = (
     ip: string,
     body: { customerId: string }
   ): Promise<IpIpMigrationToken> => {
@@ -540,17 +546,17 @@ class IpHandler {
   };
 
   /** Ip under mitigation */
-  getIpMitigation = (ip: string): Promise<string> => {
+  getMitigationByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/mitigation`);
   };
 
   /** AntiDDOS option. Add new IP on permanent mitigation */
-  postIpMitigation = (ip: string, body: { ipOnMitigation: string }): Promise<IpMitigationIp> => {
+  postMitigationByIp = (ip: string, body: { ipOnMitigation: string }): Promise<IpMitigationIp> => {
     return this.ovh.request('POST', `/ip/${ip}/mitigation`, body);
   };
 
   /** AntiDDOS option. Delete IP from mitigation */
-  deleteIpMitigationIpOnMitigation = (
+  deleteMitigationByIpAndIpOnMitigation = (
     ip: string,
     ipOnMitigation: string
   ): Promise<IpMitigationIp> => {
@@ -558,12 +564,15 @@ class IpHandler {
   };
 
   /** Get this object properties */
-  getIpMitigationIpOnMitigation = (ip: string, ipOnMitigation: string): Promise<IpMitigationIp> => {
+  getMitigationByIpAndIpOnMitigation = (
+    ip: string,
+    ipOnMitigation: string
+  ): Promise<IpMitigationIp> => {
     return this.ovh.request('GET', `/ip/${ip}/mitigation/${ipOnMitigation}`);
   };
 
   /** Alter this object properties */
-  putIpMitigationIpOnMitigation = (
+  updateMitigationByIpAndIpOnMitigation = (
     ip: string,
     ipOnMitigation: string,
     body: IpMitigationIp
@@ -572,28 +581,28 @@ class IpHandler {
   };
 
   /** AntiDDOS option. Get statistics about your traffic in and out during this mitigation */
-  getIpMitigationIpOnMitigationStats = (
+  getMitigationStatsByIpAndIpOnMitigation = (
     ip: string,
     ipOnMitigation: string
-  ): Promise<IpMitigationStats> => {
+  ): Promise<IpMitigationStats[]> => {
     return this.ovh.request('GET', `/ip/${ip}/mitigation/${ipOnMitigation}/stats`);
   };
 
   /** AntiDDOS option. Get top stream on your ip on a specific timestamp */
-  getIpMitigationIpOnMitigationTopStream = (
+  getMitigationTopStreamByIpAndIpOnMitigation = (
     ip: string,
     ipOnMitigation: string
-  ): Promise<IpMitigationDetailedStats> => {
+  ): Promise<IpMitigationDetailedStats[]> => {
     return this.ovh.request('GET', `/ip/${ip}/mitigation/${ipOnMitigation}/topStream`);
   };
 
   /** Manage mitigation profile on your IPs */
-  getIpMitigationProfiles = (ip: string): Promise<string> => {
+  getMitigationProfilesByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/mitigationProfiles`);
   };
 
   /** Create new profile for one of your ip */
-  postIpMitigationProfiles = (
+  createMitigationProfilesByIp = (
     ip: string,
     body: {
       autoMitigationTimeOut: IpMitigationProfileAutoMitigationTimeOutEnum;
@@ -604,7 +613,7 @@ class IpHandler {
   };
 
   /** Delete mitigation profile */
-  deleteIpMitigationProfilesIpMitigationProfile = (
+  deleteMitigationProfilesByIpAndIpMitigationProfile = (
     ip: string,
     ipMitigationProfile: string
   ): Promise<void> => {
@@ -612,7 +621,7 @@ class IpHandler {
   };
 
   /** Get this object properties */
-  getIpMitigationProfilesIpMitigationProfile = (
+  getMitigationProfilesByIpAndIpMitigationProfile = (
     ip: string,
     ipMitigationProfile: string
   ): Promise<IpMitigationProfile> => {
@@ -620,7 +629,7 @@ class IpHandler {
   };
 
   /** Alter this object properties */
-  putIpMitigationProfilesIpMitigationProfile = (
+  updateMitigationProfilesByIpAndIpMitigationProfile = (
     ip: string,
     ipMitigationProfile: string,
     body: IpMitigationProfile
@@ -629,37 +638,37 @@ class IpHandler {
   };
 
   /** List services available as a destination */
-  getIpMove = (ip: string): Promise<IpDestinations> => {
+  listMovesByIp = (ip: string): Promise<IpDestinations> => {
     return this.ovh.request('GET', `/ip/${ip}/move`);
   };
 
   /** Move this IP to another service */
-  postIpMove = (ip: string, body: { nexthop?: string; to: string }): Promise<IpIpTask> => {
+  postMoveByIp = (ip: string, body: { nexthop?: string; to: string }): Promise<IpIpTask> => {
     return this.ovh.request('POST', `/ip/${ip}/move`, body);
   };
 
   /** Park this IP */
-  postIpPark = (ip: string): Promise<IpIpTask> => {
+  postParkByIp = (ip: string): Promise<IpIpTask> => {
     return this.ovh.request('POST', `/ip/${ip}/park`);
   };
 
   /** Ip under anti-phishing */
-  getIpPhishing = (ip: string): Promise<number> => {
+  getPhishingByIp = (ip: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ip/${ip}/phishing`);
   };
 
   /** Get this object properties */
-  getIpPhishingId = (id: number, ip: string): Promise<IpAntiphishing> => {
+  getPhishingByIpAndId = (id: number, ip: string): Promise<IpAntiphishing> => {
     return this.ovh.request('GET', `/ip/${ip}/phishing/${id}`);
   };
 
   /** Reverse on your ip */
-  getIpReverse = (ip: string): Promise<string> => {
+  getReverseByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/reverse`);
   };
 
   /** Add reverse on an ip */
-  postIpReverse = (
+  addReverseByIp = (
     ip: string,
     body: { ipReverse: string; reverse: string }
   ): Promise<IpReverseIp> => {
@@ -667,59 +676,59 @@ class IpHandler {
   };
 
   /** Delete a reverse on one IP */
-  deleteIpReverseIpReverse = (ip: string, ipReverse: string): Promise<void> => {
+  deleteReverseByIpAndIpReverse = (ip: string, ipReverse: string): Promise<void> => {
     return this.ovh.request('DELETE', `/ip/${ip}/reverse/${ipReverse}`);
   };
 
   /** Get this object properties */
-  getIpReverseIpReverse = (ip: string, ipReverse: string): Promise<IpReverseIp> => {
+  getReverseByIpAndIpReverse = (ip: string, ipReverse: string): Promise<IpReverseIp> => {
     return this.ovh.request('GET', `/ip/${ip}/reverse/${ipReverse}`);
   };
 
   /** Get this object properties */
-  getIpRipe = (ip: string): Promise<IpRipeInfos> => {
+  getRipeByIp = (ip: string): Promise<IpRipeInfos> => {
     return this.ovh.request('GET', `/ip/${ip}/ripe`);
   };
 
   /** Alter this object properties */
-  putIpRipe = (ip: string, body: IpRipeInfos): Promise<void> => {
+  updateRipeByIp = (ip: string, body: IpRipeInfos): Promise<void> => {
     return this.ovh.request('PUT', `/ip/${ip}/ripe`, body);
   };
 
   /** Ip spamming */
-  getIpSpam = (ip: string): Promise<string> => {
+  getSpamByIp = (ip: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ip/${ip}/spam`);
   };
 
   /** Get this object properties */
-  getIpSpamIpSpamming = (ip: string, ipSpamming: string): Promise<IpSpamIp> => {
+  getSpamByIpAndIpSpamming = (ip: string, ipSpamming: string): Promise<IpSpamIp> => {
     return this.ovh.request('GET', `/ip/${ip}/spam/${ipSpamming}`);
   };
 
   /** Get statistics about the email traffic */
-  getIpSpamIpSpammingStats = (ip: string, ipSpamming: string): Promise<IpSpamStats> => {
+  getSpamStatsByIpAndIpSpamming = (ip: string, ipSpamming: string): Promise<IpSpamStats[]> => {
     return this.ovh.request('GET', `/ip/${ip}/spam/${ipSpamming}/stats`);
   };
 
   /** Release the ip from anti-spam system */
-  postIpSpamIpSpammingUnblock = (ip: string, ipSpamming: string): Promise<IpSpamIp> => {
+  postSpamUnblockByIpAndIpSpamming = (ip: string, ipSpamming: string): Promise<IpSpamIp> => {
     return this.ovh.request('POST', `/ip/${ip}/spam/${ipSpamming}/unblock`);
   };
 
   /** IP tasks */
-  getIpTask = (ip: string): Promise<number> => {
+  getTaskByIp = (ip: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ip/${ip}/task`);
   };
 
   /** Get this object properties */
-  getIpTaskTaskId = (ip: string, taskId: number): Promise<IpIpTask> => {
+  getTaskByIpAndTaskId = (ip: string, taskId: number): Promise<IpIpTask> => {
     return this.ovh.request('GET', `/ip/${ip}/task/${taskId}`);
   };
 
   /** Delete a failover IP */
-  postIpTerminate = (ip: string): Promise<IpIpTask> => {
+  postTerminateByIp = (ip: string): Promise<IpIpTask> => {
     return this.ovh.request('POST', `/ip/${ip}/terminate`);
   };
 }
 
-export default IpHandler;
+export { IpHandler };

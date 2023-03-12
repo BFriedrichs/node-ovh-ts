@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { XdslProvider } from './XdslProvider';
+import { XdslFiberEligibilityStatusEnum } from './XdslFiberEligibilityStatusEnum';
 import { XdslGtrEnum } from './XdslGtrEnum';
 import { XdslOffer } from './XdslOffer';
-import { XdslFiberEligibilityStatusEnum } from './XdslFiberEligibilityStatusEnum';
-import { XdslProvider } from './XdslProvider';
 
 export type XdslFiberEligibility = {
   availabilityDate: Date | null;
@@ -11,7 +11,7 @@ export type XdslFiberEligibility = {
   buildingReference: string | null;
   buildingSeqId: number | null;
   firstEligibleDate: Date | null;
-  grts: XdslGtrEnum | null;
+  grts: XdslGtrEnum[] | null;
   id: number;
   lastUpdate: Date;
   offer: XdslOffer | null;

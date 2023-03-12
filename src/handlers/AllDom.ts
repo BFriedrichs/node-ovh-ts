@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { AllDomAllDom } from '../models/AllDomAllDom';
-import { AllDomAllDomDomain } from '../models/AllDomAllDomDomain';
 import { ServicesService } from '../models/ServicesService';
+import { AllDomAllDomDomain } from '../models/AllDomAllDomDomain';
 import OVHBase from '../ovh';
 
 class AllDomHandler {
@@ -13,22 +13,22 @@ class AllDomHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/allDom');
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<AllDomAllDom> => {
+  getByServiceName = (serviceName: string): Promise<AllDomAllDom> => {
     return this.ovh.request('GET', `/allDom/${serviceName}`);
   };
 
   /** Domains attached to this allDom */
-  getServiceNameDomain = (serviceName: string): Promise<string> => {
+  getDomainByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/allDom/${serviceName}/domain`);
   };
 
   /** Get this object properties */
-  getServiceNameDomainDomain = (
+  getDomainByServiceNameAndDomain = (
     domain: string,
     serviceName: string
   ): Promise<AllDomAllDomDomain> => {
@@ -36,14 +36,14 @@ class AllDomHandler {
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/allDom/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/allDom/${serviceName}/serviceInfos`, body);
   };
 }
 
-export default AllDomHandler;
+export { AllDomHandler };

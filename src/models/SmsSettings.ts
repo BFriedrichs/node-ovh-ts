@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SmsSettingsEndpoints } from './SmsSettingsEndpoints';
 import { SmsSettingsStatusEnum } from './SmsSettingsStatusEnum';
+import { SmsSettingsEndpoints } from './SmsSettingsEndpoints';
 
 export type SmsSettings = {
-  endpoints: SmsSettingsEndpoints;
+  endpoints: SmsSettingsEndpoints[];
   status: SmsSettingsStatusEnum;
   throughput: number;
   windowing: number;

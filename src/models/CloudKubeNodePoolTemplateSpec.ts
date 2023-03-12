@@ -2,4 +2,4 @@
 
 import { CloudKubeTaint } from './CloudKubeTaint';
 
-export type CloudKubeNodePoolTemplateSpec = { taints?: CloudKubeTaint; unschedulable?: boolean };
+export type CloudKubeNodePoolTemplateSpec = { taints?: CloudKubeTaint[]; unschedulable?: boolean };

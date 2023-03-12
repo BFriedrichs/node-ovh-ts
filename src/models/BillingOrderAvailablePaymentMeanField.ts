@@ -4,7 +4,7 @@ import { BillingOrderPaymentMeanFieldTypeEnum } from './BillingOrderPaymentMeanF
 
 export type BillingOrderAvailablePaymentMeanField = {
   key: string;
-  options: string | null;
+  options: string[] | null;
   type: BillingOrderPaymentMeanFieldTypeEnum;
   value: string | null;
 };

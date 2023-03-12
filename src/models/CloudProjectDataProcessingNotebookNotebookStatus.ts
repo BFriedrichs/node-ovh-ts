@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectDataProcessingInfo } from './CloudProjectDataProcessingInfo';
 import { CloudProjectDataProcessingNotebookNotebookStateEnum } from './CloudProjectDataProcessingNotebookNotebookStateEnum';
+import { CloudProjectDataProcessingInfo } from './CloudProjectDataProcessingInfo';
 
 export type CloudProjectDataProcessingNotebookNotebookStatus = {
   duration: number | null;

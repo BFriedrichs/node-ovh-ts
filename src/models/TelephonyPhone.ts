@@ -10,7 +10,7 @@ export type TelephonyPhone = {
   maxSimultaneousCalls: number;
   maxline: number;
   mgcpIpRestriction: string | null;
-  phoneConfiguration: TelephonyPhoneConfigurationProperty;
+  phoneConfiguration: TelephonyPhoneConfigurationProperty[];
   protocol: TelephonyProtocolEnum;
   userPassword: string | null;
 };

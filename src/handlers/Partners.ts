@@ -1,24 +1,24 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { PartnerExpertisesChoices } from '../models/PartnerExpertisesChoices';
-import { PartnerClientKinds } from '../models/PartnerClientKinds';
-import { PartnerNic } from '../models/PartnerNic';
-import { PartnerApplication } from '../models/PartnerApplication';
-import { PartnerActivitySectors } from '../models/PartnerActivitySectors';
 import { PartnerKnowledgeResourcesRangeEnum } from '../models/PartnerKnowledgeResourcesRangeEnum';
-import { PartnerPartnerKnowledges } from '../models/PartnerPartnerKnowledges';
+import { PartnerExpertisesChoices } from '../models/PartnerExpertisesChoices';
+import { PartnerProductCountries } from '../models/PartnerProductCountries';
+import { PartnerContact } from '../models/PartnerContact';
+import { PartnerActivitySectors } from '../models/PartnerActivitySectors';
+import { PartnerTechnicalExpertResourcesRangeEnum } from '../models/PartnerTechnicalExpertResourcesRangeEnum';
+import { PartnerApplication } from '../models/PartnerApplication';
+import { PartnerCompany } from '../models/PartnerCompany';
+import { PartnerNic } from '../models/PartnerNic';
+import { PartnerEmployeesNumberEnum } from '../models/PartnerEmployeesNumberEnum';
+import { PartnerClientKinds } from '../models/PartnerClientKinds';
 import { PartnerOVHProductsUsed } from '../models/PartnerOVHProductsUsed';
+import { PartnerOVHCustomersAdvisedEnum } from '../models/PartnerOVHCustomersAdvisedEnum';
 import { NichandleCountryEnum } from '../models/NichandleCountryEnum';
+import { PartnerRevenueRangeEnum } from '../models/PartnerRevenueRangeEnum';
+import { PartnerOVHCertifications } from '../models/PartnerOVHCertifications';
 import { PartnerExternalCertifications } from '../models/PartnerExternalCertifications';
 import { PartnerTechnicalAdvancedResourcesRangeEnum } from '../models/PartnerTechnicalAdvancedResourcesRangeEnum';
-import { PartnerRevenueRangeEnum } from '../models/PartnerRevenueRangeEnum';
-import { PartnerOVHCustomersAdvisedEnum } from '../models/PartnerOVHCustomersAdvisedEnum';
-import { PartnerCompany } from '../models/PartnerCompany';
-import { PartnerProductCountries } from '../models/PartnerProductCountries';
-import { PartnerTechnicalExpertResourcesRangeEnum } from '../models/PartnerTechnicalExpertResourcesRangeEnum';
-import { PartnerContact } from '../models/PartnerContact';
-import { PartnerEmployeesNumberEnum } from '../models/PartnerEmployeesNumberEnum';
-import { PartnerOVHCertifications } from '../models/PartnerOVHCertifications';
+import { PartnerPartnerKnowledges } from '../models/PartnerPartnerKnowledges';
 import OVHBase from '../ovh';
 
 class PartnersHandler {
@@ -29,12 +29,12 @@ class PartnersHandler {
   }
 
   /** List created companies */
-  getRegisterCompany = (): Promise<string> => {
+  listRegisterCompanys = (): Promise<string[]> => {
     return this.ovh.request('GET', '/partners/register/company');
   };
 
   /** Created a new company for the inscription */
-  postRegisterCompany = (body: {
+  createRegisterCompany = (body: {
     OVHCertifications?: PartnerOVHCertifications;
     OVHCustomersAdvised: PartnerOVHCustomersAdvisedEnum;
     OVHKnowledgeResources: PartnerKnowledgeResourcesRangeEnum;
@@ -69,17 +69,17 @@ class PartnersHandler {
   };
 
   /** Remove a company */
-  deleteRegisterCompanyCompanyId = (companyId: string): Promise<string> => {
+  deleteRegisterCompanyByCompanyId = (companyId: string): Promise<string> => {
     return this.ovh.request('DELETE', `/partners/register/company/${companyId}`);
   };
 
   /** Get information on a created company */
-  getRegisterCompanyCompanyId = (companyId: string): Promise<PartnerCompany> => {
+  getRegisterCompanyByCompanyId = (companyId: string): Promise<PartnerCompany> => {
     return this.ovh.request('GET', `/partners/register/company/${companyId}`);
   };
 
   /** Update some fields on a created company */
-  putRegisterCompanyCompanyId = (
+  updateRegisterCompanyByCompanyId = (
     companyId: string,
     body: {
       OVHCertifications?: PartnerOVHCertifications;
@@ -117,12 +117,12 @@ class PartnersHandler {
   };
 
   /** Compute scoring score without submitting application */
-  getRegisterCompanyCompanyIdApplication = (companyId: string): Promise<PartnerApplication> => {
+  getRegisterCompanyApplicationByCompanyId = (companyId: string): Promise<PartnerApplication> => {
     return this.ovh.request('GET', `/partners/register/company/${companyId}/application`);
   };
 
   /** Submit application information for validation */
-  postRegisterCompanyCompanyIdApplication = (
+  postRegisterCompanyApplicationByCompanyId = (
     companyId: string,
     body: { termsAndConditionsOfServiceAccepted: boolean }
   ): Promise<PartnerApplication> => {
@@ -130,12 +130,12 @@ class PartnersHandler {
   };
 
   /** List created contacts */
-  getRegisterCompanyCompanyIdContact = (companyId: string): Promise<string> => {
+  listRegisterCompanyContactsByCompanyId = (companyId: string): Promise<string[]> => {
     return this.ovh.request('GET', `/partners/register/company/${companyId}/contact`);
   };
 
   /** Created a new contact for the inscription */
-  postRegisterCompanyCompanyIdContact = (
+  createRegisterCompanyContactByCompanyId = (
     companyId: string,
     body: {
       email: string;
@@ -144,7 +144,7 @@ class PartnersHandler {
       lastName: string;
       linkedin?: string;
       newsletter?: boolean;
-      otherNics?: PartnerNic;
+      otherNics?: PartnerNic[];
       phone: string;
       role: string;
       twitter?: string;
@@ -154,7 +154,7 @@ class PartnersHandler {
   };
 
   /** Remove a contact */
-  deleteRegisterCompanyCompanyIdContactContactId = (
+  deleteRegisterCompanyContactByCompanyIdAndContactId = (
     companyId: string,
     contactId: string
   ): Promise<string> => {
@@ -165,7 +165,7 @@ class PartnersHandler {
   };
 
   /** Get information on a created contact */
-  getRegisterCompanyCompanyIdContactContactId = (
+  getRegisterCompanyContactByCompanyIdAndContactId = (
     companyId: string,
     contactId: string
   ): Promise<PartnerContact> => {
@@ -173,7 +173,7 @@ class PartnersHandler {
   };
 
   /** Update some fields on a created contact */
-  putRegisterCompanyCompanyIdContactContactId = (
+  updateRegisterCompanyContactByCompanyIdAndContactId = (
     companyId: string,
     contactId: string,
     body: {
@@ -183,7 +183,7 @@ class PartnersHandler {
       lastName?: string;
       linkedin?: string;
       newsletter?: boolean;
-      otherNics?: PartnerNic;
+      otherNics?: PartnerNic[];
       phone?: string;
       role?: string;
       twitter?: string;
@@ -197,4 +197,4 @@ class PartnersHandler {
   };
 }
 
-export default PartnersHandler;
+export { PartnersHandler };

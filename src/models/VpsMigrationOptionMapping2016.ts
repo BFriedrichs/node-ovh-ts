@@ -5,6 +5,6 @@ import { VpsMigrationOptionOptionMapping2016 } from './VpsMigrationOptionOptionM
 export type VpsMigrationOptionMapping2016 = {
   currentPlan: string;
   newPlan: string;
-  options: VpsMigrationOptionOptionMapping2016;
+  options: VpsMigrationOptionOptionMapping2016[];
   product: string;
 };

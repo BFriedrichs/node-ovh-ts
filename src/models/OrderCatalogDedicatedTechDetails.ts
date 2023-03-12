@@ -3,6 +3,6 @@
 import { OrderCatalogDedicatedTechDetailsPlan } from './OrderCatalogDedicatedTechDetailsPlan';
 
 export type OrderCatalogDedicatedTechDetails = {
-  plans: OrderCatalogDedicatedTechDetailsPlan;
+  plans: OrderCatalogDedicatedTechDetailsPlan[];
   type: string;
 };

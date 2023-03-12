@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { DedicatedTemplateOsInfoLicense } from './DedicatedTemplateOsInfoLicense';
-import { DedicatedTemplateOsInfoProject } from './DedicatedTemplateOsInfoProject';
-import { DedicatedTemplateOsSubfamilyEnum } from './DedicatedTemplateOsSubfamilyEnum';
 import { DedicatedTemplateOsUsageEnum } from './DedicatedTemplateOsUsageEnum';
+import { DedicatedTemplateOsSubfamilyEnum } from './DedicatedTemplateOsSubfamilyEnum';
+import { DedicatedTemplateOsInfoProject } from './DedicatedTemplateOsInfoProject';
 import { DedicatedTemplateOsTypeEnum } from './DedicatedTemplateOsTypeEnum';
 
 export type DedicatedTemplateOsInfo = {

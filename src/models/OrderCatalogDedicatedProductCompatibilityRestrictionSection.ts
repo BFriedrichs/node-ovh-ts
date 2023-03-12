@@ -2,6 +2,6 @@
 
 export type OrderCatalogDedicatedProductCompatibilityRestrictionSection = {
   comment: string;
-  plans: string;
+  plans: string[];
   type: string;
 };

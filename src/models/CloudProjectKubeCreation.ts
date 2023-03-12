@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { CloudProjectKubeCreationNodePool } from './CloudProjectKubeCreationNodePool';
-import { CloudKubeVersionEnum } from './CloudKubeVersionEnum';
 import { CloudKubeKubeProxyModeEnum } from './CloudKubeKubeProxyModeEnum';
 import { CloudProjectKubeCustomization } from './CloudProjectKubeCustomization';
-import { CloudKubeUpdatePolicyEnum } from './CloudKubeUpdatePolicyEnum';
+import { CloudKubeVersionEnum } from './CloudKubeVersionEnum';
 import { CloudKubePrivateNetworkConfiguration } from './CloudKubePrivateNetworkConfiguration';
+import { CloudKubeUpdatePolicyEnum } from './CloudKubeUpdatePolicyEnum';
 
 export type CloudProjectKubeCreation = {
   customization: CloudProjectKubeCustomization | null;

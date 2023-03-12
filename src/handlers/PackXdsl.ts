@@ -1,35 +1,35 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { PackXdslResiliationTerms } from '../models/PackXdslResiliationTerms';
-import { PackXdslShippingAddressContextEnum } from '../models/PackXdslShippingAddressContextEnum';
-import { PackXdslServiceInformation } from '../models/PackXdslServiceInformation';
-import { PackXdslVoIPLineOrder } from '../models/PackXdslVoIPLineOrder';
-import { PackXdslMigrationOfferServiceToDelete } from '../models/PackXdslMigrationOfferServiceToDelete';
-import { PackXdslMigrationOfferServiceToKeep } from '../models/PackXdslMigrationOfferServiceToKeep';
-import { PackXdslMigrationSubServicesDetailsToDelete } from '../models/PackXdslMigrationSubServicesDetailsToDelete';
-import { PackXdslShippingAddress } from '../models/PackXdslShippingAddress';
-import { PackXdslExchangeAccountService } from '../models/PackXdslExchangeAccountService';
-import { PackXdslModemOptionEnum } from '../models/PackXdslModemOptionEnum';
-import { PackXdslResiliationFollowUpDetail } from '../models/PackXdslResiliationFollowUpDetail';
-import { PackXdslUnpackTerms } from '../models/PackXdslUnpackTerms';
-import { XdslEligibilityBookMeetingSlot } from '../models/XdslEligibilityBookMeetingSlot';
-import { PackXdslPackAdsl } from '../models/PackXdslPackAdsl';
-import { PackXdslResiliationSurvey } from '../models/PackXdslResiliationSurvey';
-import { ServicesService } from '../models/ServicesService';
-import { PackXdslPromotionCodeCapabilities } from '../models/PackXdslPromotionCodeCapabilities';
-import { PackXdslTask } from '../models/PackXdslTask';
-import { PackXdslMigrationMigrationOfferResponse } from '../models/PackXdslMigrationMigrationOfferResponse';
-import { PackXdslAddressMoveMoveOfferResponse } from '../models/PackXdslAddressMoveMoveOfferResponse';
-import { PackXdslHostedEmailAccount } from '../models/PackXdslHostedEmailAccount';
-import { PackXdslService } from '../models/PackXdslService';
-import { PackXdslDomainActionEnum } from '../models/PackXdslDomainActionEnum';
-import { PackXdslTaskStatusEnum } from '../models/PackXdslTaskStatusEnum';
 import { PackXdslMigrationOfferOption } from '../models/PackXdslMigrationOfferOption';
 import { PackXdslHostedEmailService } from '../models/PackXdslHostedEmailService';
-import { PackXdslVoipLineService } from '../models/PackXdslVoipLineService';
+import { PackXdslMigrationOfferServiceToKeep } from '../models/PackXdslMigrationOfferServiceToKeep';
+import { PackXdslServiceInformation } from '../models/PackXdslServiceInformation';
+import { PackXdslDomainActionEnum } from '../models/PackXdslDomainActionEnum';
+import { PackXdslUnpackTerms } from '../models/PackXdslUnpackTerms';
 import { PackXdslHostedEmailConfiguration } from '../models/PackXdslHostedEmailConfiguration';
+import { PackXdslResiliationSurvey } from '../models/PackXdslResiliationSurvey';
+import { PackXdslService } from '../models/PackXdslService';
 import { PackXdslContactInfos } from '../models/PackXdslContactInfos';
+import { PackXdslResiliationTerms } from '../models/PackXdslResiliationTerms';
+import { PackXdslVoIPLineOrder } from '../models/PackXdslVoIPLineOrder';
+import { PackXdslPackAdsl } from '../models/PackXdslPackAdsl';
+import { XdslEligibilityBookMeetingSlot } from '../models/XdslEligibilityBookMeetingSlot';
+import { PackXdslTask } from '../models/PackXdslTask';
+import { PackXdslResiliationFollowUpDetail } from '../models/PackXdslResiliationFollowUpDetail';
+import { PackXdslModemOptionEnum } from '../models/PackXdslModemOptionEnum';
+import { PackXdslAddressMoveMoveOfferResponse } from '../models/PackXdslAddressMoveMoveOfferResponse';
+import { PackXdslMigrationOfferServiceToDelete } from '../models/PackXdslMigrationOfferServiceToDelete';
+import { PackXdslHostedEmailAccount } from '../models/PackXdslHostedEmailAccount';
+import { PackXdslExchangeAccountService } from '../models/PackXdslExchangeAccountService';
+import { PackXdslMigrationMigrationOfferResponse } from '../models/PackXdslMigrationMigrationOfferResponse';
+import { PackXdslShippingAddress } from '../models/PackXdslShippingAddress';
+import { PackXdslShippingAddressContextEnum } from '../models/PackXdslShippingAddressContextEnum';
+import { PackXdslTaskStatusEnum } from '../models/PackXdslTaskStatusEnum';
+import { ServicesService } from '../models/ServicesService';
 import { PackXdslVoIPHardware } from '../models/PackXdslVoIPHardware';
+import { PackXdslPromotionCodeCapabilities } from '../models/PackXdslPromotionCodeCapabilities';
+import { PackXdslMigrationSubServicesDetailsToDelete } from '../models/PackXdslMigrationSubServicesDetailsToDelete';
+import { PackXdslVoipLineService } from '../models/PackXdslVoipLineService';
 import OVHBase from '../ovh';
 
 class PackXdslHandler {
@@ -40,22 +40,22 @@ class PackXdslHandler {
   }
 
   /** List available services */
-  getXdsl = (): Promise<string> => {
+  listXdsls = (): Promise<string[]> => {
     return this.ovh.request('GET', '/pack/xdsl');
   };
 
   /** Get this object properties */
-  getXdslPackName = (packName: string): Promise<PackXdslPackAdsl> => {
+  getXdslByPackName = (packName: string): Promise<PackXdslPackAdsl> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}`);
   };
 
   /** Alter this object properties */
-  putXdslPackName = (packName: string, body: PackXdslPackAdsl): Promise<void> => {
+  updateXdslByPackName = (packName: string, body: PackXdslPackAdsl): Promise<void> => {
     return this.ovh.request('PUT', `/pack/xdsl/${packName}`, body);
   };
 
   /** Move the access to another address */
-  postXdslPackNameAddressMoveMoveOffer = (
+  postXdslAddressMoveMoveOfferByPackName = (
     packName: string,
     body: {
       acceptContracts: boolean;
@@ -73,21 +73,21 @@ class PackXdslHandler {
       moveOutDate?: Date;
       nicShipping?: string;
       offerName: string;
-      options?: PackXdslMigrationOfferOption;
+      options?: PackXdslMigrationOfferOption[];
       otp: boolean;
       otpReference?: string;
       productCode: string;
       residence?: string;
       stair?: string;
-      subServicesToDelete?: PackXdslMigrationOfferServiceToDelete;
-      subServicesToKeep?: PackXdslMigrationOfferServiceToKeep;
+      subServicesToDelete?: PackXdslMigrationOfferServiceToDelete[];
+      subServicesToKeep?: PackXdslMigrationOfferServiceToKeep[];
     }
   ): Promise<number> => {
     return this.ovh.request('POST', `/pack/xdsl/${packName}/addressMove/moveOffer`, body);
   };
 
   /** Get the possibilities of address move offers available */
-  postXdslPackNameAddressMoveOffers = (
+  postXdslAddressMoveOffersByPackName = (
     packName: string,
     body: { eligibilityReference: string }
   ): Promise<PackXdslAddressMoveMoveOfferResponse> => {
@@ -95,14 +95,14 @@ class PackXdslHandler {
   };
 
   /** Calculate services to delete with unpack terms for new offer and options */
-  postXdslPackNameAddressMoveServicesToDeleteUnpackTerms = (
+  postXdslAddressMoveServicesToDeleteUnpackTermsByPackName = (
     packName: string,
     body: {
       eligibilityReference: string;
       offerName: string;
-      options?: PackXdslMigrationOfferOption;
+      options?: PackXdslMigrationOfferOption[];
     }
-  ): Promise<PackXdslMigrationSubServicesDetailsToDelete> => {
+  ): Promise<PackXdslMigrationSubServicesDetailsToDelete[]> => {
     return this.ovh.request(
       'POST',
       `/pack/xdsl/${packName}/addressMove/servicesToDeleteUnpackTerms`,
@@ -111,40 +111,40 @@ class PackXdslHandler {
   };
 
   /** Check if the resiliation can be cancelled */
-  getXdslPackNameCanCancelResiliation = (packName: string): Promise<boolean> => {
+  checkXdslCanCancelResiliationByPackName = (packName: string): Promise<boolean> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/canCancelResiliation`);
   };
 
   /** Cancel the ongoing resiliation */
-  postXdslPackNameCancelResiliation = (packName: string): Promise<void> => {
+  postXdslCancelResiliationByPackName = (packName: string): Promise<void> => {
     return this.ovh.request('POST', `/pack/xdsl/${packName}/cancelResiliation`);
   };
 
   /** Launch a contact change procedure */
-  postXdslPackNameChangeContact = (
+  launchXdslChangeContactByPackName = (
     packName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/pack/xdsl/${packName}/changeContact`, body);
   };
 
   /** Get contact infos about the owner */
-  getXdslPackNameContactOwner = (packName: string): Promise<PackXdslContactInfos> => {
+  getXdslContactOwnerByPackName = (packName: string): Promise<PackXdslContactInfos> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/contactOwner`);
   };
 
   /** Get the available tlds for domain order */
-  getXdslPackNameDomainOptionsTlds = (packName: string): Promise<string> => {
+  getXdslDomainOptionsTldsByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/domain/options/tlds`);
   };
 
   /** Domain services */
-  getXdslPackNameDomainServices = (packName: string): Promise<string> => {
+  getXdslDomainServicesByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/domain/services`);
   };
 
   /** Activate a domain service */
-  postXdslPackNameDomainServices = (
+  postXdslDomainServicesByPackName = (
     packName: string,
     body: { action: PackXdslDomainActionEnum; authInfo?: string; domain: string; tld: string }
   ): Promise<PackXdslTask> => {
@@ -152,22 +152,22 @@ class PackXdslHandler {
   };
 
   /** List the available domains for the Email Pro service */
-  getXdslPackNameEmailProOptionsDomains = (packName: string): Promise<string> => {
+  listXdslEmailProOptionsDomainsByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/emailPro/options/domains`);
   };
 
   /** Check if the given email address is available for an Email Pro activation */
-  getXdslPackNameEmailProOptionsIsEmailAvailable = (packName: string): Promise<boolean> => {
+  checkXdslEmailProOptionsIsEmailAvailableByPackName = (packName: string): Promise<boolean> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/emailPro/options/isEmailAvailable`);
   };
 
   /** List the Email Pro services */
-  getXdslPackNameEmailProServices = (packName: string): Promise<string> => {
+  listXdslEmailProServicesByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/emailPro/services`);
   };
 
   /** Activate an Email Pro service */
-  postXdslPackNameEmailProServices = (
+  postXdslEmailProServicesByPackName = (
     packName: string,
     body: { email: string; password: string }
   ): Promise<PackXdslTask> => {
@@ -175,12 +175,12 @@ class PackXdslHandler {
   };
 
   /** Exchange 2013 services */
-  getXdslPackNameExchangeAccountServices = (packName: string): Promise<string> => {
+  getXdslExchangeAccountServicesByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/exchangeAccount/services`);
   };
 
   /** Get this object properties */
-  getXdslPackNameExchangeAccountServicesDomain = (
+  getXdslExchangeAccountServicesByPackNameAndDomain = (
     domain: string,
     packName: string
   ): Promise<PackXdslExchangeAccountService> => {
@@ -188,12 +188,12 @@ class PackXdslHandler {
   };
 
   /** Get the available domains */
-  getXdslPackNameExchangeIndividualOptionsDomains = (packName: string): Promise<string> => {
+  getXdslExchangeIndividualOptionsDomainsByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/exchangeIndividual/options/domains`);
   };
 
   /** Check if the email address is available for service creation */
-  getXdslPackNameExchangeIndividualOptionsIsEmailAvailable = (
+  checkXdslExchangeIndividualOptionsIsEmailAvailableByPackName = (
     packName: string
   ): Promise<boolean> => {
     return this.ovh.request(
@@ -203,22 +203,22 @@ class PackXdslHandler {
   };
 
   /** Exchange 2013 organization services */
-  getXdslPackNameExchangeOrganizationServices = (packName: string): Promise<string> => {
+  getXdslExchangeOrganizationServicesByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/exchangeOrganization/services`);
   };
 
   /** Get the hostedemail available domains */
-  getXdslPackNameHostedEmailOptionsDomains = (packName: string): Promise<string> => {
+  getXdslHostedEmailOptionsDomainsByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/hostedEmail/options/domains`);
   };
 
   /** Hosted email services */
-  getXdslPackNameHostedEmailServices = (packName: string): Promise<string> => {
+  getXdslHostedEmailServicesByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/hostedEmail/services`);
   };
 
   /** Activate an hosted email service */
-  postXdslPackNameHostedEmailServices = (
+  postXdslHostedEmailServicesByPackName = (
     packName: string,
     body: { email: string; password: string }
   ): Promise<PackXdslTask> => {
@@ -226,7 +226,7 @@ class PackXdslHandler {
   };
 
   /** Delete hosted email account */
-  deleteXdslPackNameHostedEmailServicesDomain = (
+  deleteXdslHostedEmailServicesByPackNameAndDomain = (
     domain: string,
     packName: string
   ): Promise<void> => {
@@ -234,7 +234,7 @@ class PackXdslHandler {
   };
 
   /** Get this object properties */
-  getXdslPackNameHostedEmailServicesDomain = (
+  getXdslHostedEmailServicesByPackNameAndDomain = (
     domain: string,
     packName: string
   ): Promise<PackXdslHostedEmailService> => {
@@ -242,7 +242,7 @@ class PackXdslHandler {
   };
 
   /** Get hosted email account informations */
-  getXdslPackNameHostedEmailServicesDomainAccount = (
+  getXdslHostedEmailServicesAccountByPackNameAndDomain = (
     domain: string,
     packName: string
   ): Promise<PackXdslHostedEmailAccount> => {
@@ -250,7 +250,7 @@ class PackXdslHandler {
   };
 
   /** Change hosted email account password */
-  postXdslPackNameHostedEmailServicesDomainChangePassword = (
+  updateXdslHostedEmailServicesPasswordByPackNameAndDomain = (
     domain: string,
     packName: string,
     body: { password: string }
@@ -263,7 +263,7 @@ class PackXdslHandler {
   };
 
   /** Get hosted email configuration informations */
-  getXdslPackNameHostedEmailServicesDomainConfiguration = (
+  getXdslHostedEmailServicesConfigurationByPackNameAndDomain = (
     domain: string,
     packName: string
   ): Promise<PackXdslHostedEmailConfiguration> => {
@@ -274,7 +274,7 @@ class PackXdslHandler {
   };
 
   /** Migrate to the selected offer */
-  postXdslPackNameMigrationMigrate = (
+  postXdslMigrationMigrateByPackName = (
     packName: string,
     body: {
       acceptContracts: boolean;
@@ -287,20 +287,20 @@ class PackXdslHandler {
       mondialRelayId?: number;
       nicShipping?: string;
       offerName: string;
-      options?: PackXdslMigrationOfferOption;
+      options?: PackXdslMigrationOfferOption[];
       otp?: boolean;
       otpReference?: string;
       productCode?: string;
       stair?: string;
-      subServicesToDelete?: PackXdslMigrationOfferServiceToDelete;
-      subServicesToKeep?: PackXdslMigrationOfferServiceToKeep;
+      subServicesToDelete?: PackXdslMigrationOfferServiceToDelete[];
+      subServicesToKeep?: PackXdslMigrationOfferServiceToKeep[];
     }
   ): Promise<PackXdslTask> => {
     return this.ovh.request('POST', `/pack/xdsl/${packName}/migration/migrate`, body);
   };
 
   /** Get the possibilities of migration offers available */
-  postXdslPackNameMigrationOffers = (
+  postXdslMigrationOffersByPackName = (
     packName: string,
     body: { buildingReference?: string }
   ): Promise<PackXdslMigrationMigrationOfferResponse> => {
@@ -308,10 +308,10 @@ class PackXdslHandler {
   };
 
   /** Calculate services to delete with unpack terms for an offer and options */
-  postXdslPackNameMigrationServicesToDeleteUnpackTerms = (
+  postXdslMigrationServicesToDeleteUnpackTermsByPackName = (
     packName: string,
-    body: { offerName: string; options?: PackXdslMigrationOfferOption }
-  ): Promise<PackXdslMigrationSubServicesDetailsToDelete> => {
+    body: { offerName: string; options?: PackXdslMigrationOfferOption[] }
+  ): Promise<PackXdslMigrationSubServicesDetailsToDelete[]> => {
     return this.ovh.request(
       'POST',
       `/pack/xdsl/${packName}/migration/servicesToDeleteUnpackTerms`,
@@ -320,68 +320,68 @@ class PackXdslHandler {
   };
 
   /** Get informations about the promotion code generation */
-  getXdslPackNamePromotionCodeCapabilities = (
+  getXdslPromotionCodeCapabilitiesByPackName = (
     packName: string
   ): Promise<PackXdslPromotionCodeCapabilities> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/promotionCode/capabilities`);
   };
 
   /** Creates a task to generate a new promotion code */
-  postXdslPackNamePromotionCodeGenerate = (packName: string): Promise<PackXdslTask> => {
+  createXdslPromotionCodeGenerateByPackName = (packName: string): Promise<PackXdslTask> => {
     return this.ovh.request('POST', `/pack/xdsl/${packName}/promotionCode/generate`);
   };
 
   /** Resiliate the pack */
-  postXdslPackNameResiliate = (
+  postXdslResiliateByPackName = (
     packName: string,
     body: {
       resiliationDate?: Date;
       resiliationSurvey: PackXdslResiliationSurvey;
-      servicesToKeep?: number;
+      servicesToKeep?: number[];
     }
   ): Promise<PackXdslResiliationFollowUpDetail> => {
     return this.ovh.request('POST', `/pack/xdsl/${packName}/resiliate`, body);
   };
 
   /** Get information about the ongoing resiliation */
-  getXdslPackNameResiliationFollowUp = (
+  getXdslResiliationFollowUpByPackName = (
     packName: string
   ): Promise<PackXdslResiliationFollowUpDetail> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/resiliationFollowUp`);
   };
 
   /** Get resiliation terms */
-  getXdslPackNameResiliationTerms = (packName: string): Promise<PackXdslResiliationTerms> => {
+  getXdslResiliationTermsByPackName = (packName: string): Promise<PackXdslResiliationTerms> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/resiliationTerms`);
   };
 
   /** Get this object properties */
-  getXdslPackNameServiceInfos = (packName: string): Promise<ServicesService> => {
+  getXdslServiceInfosByPackName = (packName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putXdslPackNameServiceInfos = (packName: string, body: ServicesService): Promise<void> => {
+  updateXdslServiceInfosByPackName = (packName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/pack/xdsl/${packName}/serviceInfos`, body);
   };
 
   /** Informations about the services included in the pack */
-  getXdslPackNameServices = (packName: string): Promise<PackXdslServiceInformation> => {
+  getXdslServicesByPackName = (packName: string): Promise<PackXdslServiceInformation[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/services`);
   };
 
   /** Allowed shipping addresses given a context */
-  getXdslPackNameShippingAddresses = (packName: string): Promise<PackXdslShippingAddress> => {
+  getXdslShippingAddressesByPackName = (packName: string): Promise<PackXdslShippingAddress[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/shippingAddresses`);
   };
 
   /** List services contained in the pack */
-  getXdslPackNameSubServices = (packName: string): Promise<string> => {
+  listXdslSubServicesByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/subServices`);
   };
 
   /** Get this object properties */
-  getXdslPackNameSubServicesDomain = (
+  getXdslSubServicesByPackNameAndDomain = (
     domain: string,
     packName: string
   ): Promise<PackXdslService> => {
@@ -389,7 +389,7 @@ class PackXdslHandler {
   };
 
   /** Give the condition to unpack service from pack */
-  getXdslPackNameSubServicesDomainKeepServiceTerms = (
+  getXdslSubServicesKeepServiceTermsByPackNameAndDomain = (
     domain: string,
     packName: string
   ): Promise<PackXdslUnpackTerms> => {
@@ -397,32 +397,32 @@ class PackXdslHandler {
   };
 
   /** Tasks scheduled for this pack */
-  getXdslPackNameTasks = (packName: string): Promise<number> => {
+  getXdslTasksByPackName = (packName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/tasks`);
   };
 
   /** Get this object properties */
-  getXdslPackNameTasksId = (id: number, packName: string): Promise<PackXdslTask> => {
+  getXdslTasksByPackNameAndId = (id: number, packName: string): Promise<PackXdslTask> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/tasks/${id}`);
   };
 
   /** VOIP billing accounts */
-  getXdslPackNameVoipBillingAccountServices = (packName: string): Promise<string> => {
+  getXdslVoipBillingAccountServicesByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/voipBillingAccount/services`);
   };
 
   /** VOIP ecofax service */
-  getXdslPackNameVoipEcofaxServices = (packName: string): Promise<string> => {
+  getXdslVoipEcofaxServicesByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/voipEcofax/services`);
   };
 
   /** Activate a voicefax service */
-  postXdslPackNameVoipEcofaxServices = (packName: string): Promise<PackXdslTask> => {
+  postXdslVoipEcofaxServicesByPackName = (packName: string): Promise<PackXdslTask> => {
     return this.ovh.request('POST', `/pack/xdsl/${packName}/voipEcofax/services`);
   };
 
   /** Create a new shippingId to be used for voipLine service creation */
-  postXdslPackNameVoipLineOptionsCustomShippingAddress = (
+  createXdslVoipLineOptionsCustomShippingAddressByPackName = (
     packName: string,
     body: {
       address: string;
@@ -440,32 +440,34 @@ class PackXdslHandler {
   };
 
   /** Get available hardwares */
-  getXdslPackNameVoipLineOptionsHardwares = (packName: string): Promise<PackXdslVoIPHardware> => {
+  getXdslVoipLineOptionsHardwaresByPackName = (
+    packName: string
+  ): Promise<PackXdslVoIPHardware[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/voipLine/options/hardwares`);
   };
 
   /** Get available shipping addresses */
-  getXdslPackNameVoipLineOptionsShippingAddresses = (
+  getXdslVoipLineOptionsShippingAddressesByPackName = (
     packName: string
-  ): Promise<PackXdslShippingAddress> => {
+  ): Promise<PackXdslShippingAddress[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/voipLine/options/shippingAddresses`);
   };
 
   /** VOIP line services */
-  getXdslPackNameVoipLineServices = (packName: string): Promise<string> => {
+  getXdslVoipLineServicesByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/voipLine/services`);
   };
 
   /** Activate a voip line service */
-  postXdslPackNameVoipLineServices = (
+  postXdslVoipLineServicesByPackName = (
     packName: string,
-    body: { hardwareNames: string; mondialRelayId?: string; shippingId?: string }
+    body: { hardwareNames: string[]; mondialRelayId?: string; shippingId?: string }
   ): Promise<PackXdslVoIPLineOrder> => {
     return this.ovh.request('POST', `/pack/xdsl/${packName}/voipLine/services`, body);
   };
 
   /** Get this object properties */
-  getXdslPackNameVoipLineServicesDomain = (
+  getXdslVoipLineServicesByPackNameAndDomain = (
     domain: string,
     packName: string
   ): Promise<PackXdslVoipLineService> => {
@@ -473,9 +475,9 @@ class PackXdslHandler {
   };
 
   /** xDSL access services */
-  getXdslPackNameXdslAccessServices = (packName: string): Promise<string> => {
+  getXdslXdslAccessServicesByPackName = (packName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/pack/xdsl/${packName}/xdslAccess/services`);
   };
 }
 
-export default PackXdslHandler;
+export { PackXdslHandler };

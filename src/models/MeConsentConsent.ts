@@ -5,7 +5,7 @@ import { MeConsentCampaignTypeEnum } from './MeConsentCampaignTypeEnum';
 
 export type MeConsentConsent = {
   campaign: string;
-  history: MeConsentDecision;
+  history: MeConsentDecision[];
   type: MeConsentCampaignTypeEnum;
   value: boolean;
 };

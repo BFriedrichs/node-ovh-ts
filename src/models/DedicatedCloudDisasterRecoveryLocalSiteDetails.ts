@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedCloudDisasterRecoverySiteRoleEnum } from './DedicatedCloudDisasterRecoverySiteRoleEnum';
 import { DedicatedCloudDisasterRecoverySiteTypeEnum } from './DedicatedCloudDisasterRecoverySiteTypeEnum';
 import { DedicatedCloudStateEnum } from './DedicatedCloudStateEnum';
+import { DedicatedCloudDisasterRecoverySiteRoleEnum } from './DedicatedCloudDisasterRecoverySiteRoleEnum';
 
 export type DedicatedCloudDisasterRecoveryLocalSiteDetails = {
   role: DedicatedCloudDisasterRecoverySiteRoleEnum;

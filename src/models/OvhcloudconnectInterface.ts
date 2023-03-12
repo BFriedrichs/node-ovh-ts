@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OvhcloudconnectInterfaceTerminationTypeEnum } from './OvhcloudconnectInterfaceTerminationTypeEnum';
 import { OvhcloudconnectInterfaceLightStatusEnum } from './OvhcloudconnectInterfaceLightStatusEnum';
 import { OvhcloudconnectInterfaceStatusEnum } from './OvhcloudconnectInterfaceStatusEnum';
+import { OvhcloudconnectInterfaceTerminationTypeEnum } from './OvhcloudconnectInterfaceTerminationTypeEnum';
 
 export type OvhcloudconnectInterface = {
   deviceDisplayName: string | null;

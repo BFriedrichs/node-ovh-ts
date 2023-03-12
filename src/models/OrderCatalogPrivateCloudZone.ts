@@ -8,5 +8,5 @@ export type OrderCatalogPrivateCloudZone = {
   defaultHypervisor: string;
   defaultVersion: string;
   internalName: string;
-  plans: OrderCatalogProductPlan;
+  plans: OrderCatalogProductPlan[];
 };

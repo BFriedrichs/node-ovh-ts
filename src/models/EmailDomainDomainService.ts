@@ -3,7 +3,7 @@
 import { DomainDomainStatusEnum } from './DomainDomainStatusEnum';
 
 export type EmailDomainDomainService = {
-  allowedAccountSize: number | null;
+  allowedAccountSize: number[] | null;
   creationDate: Date | null;
   domain: string;
   filerz: number | null;

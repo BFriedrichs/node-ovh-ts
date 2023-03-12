@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { DbaasLogsStreamColdStorageTargetEnum } from './DbaasLogsStreamColdStorageTargetEnum';
 import { DbaasLogsStreamColdStorageContentEnum } from './DbaasLogsStreamColdStorageContentEnum';
 import { DbaasLogsStreamColdStorageCompressionEnum } from './DbaasLogsStreamColdStorageCompressionEnum';
-import { DbaasLogsStreamColdStorageTargetEnum } from './DbaasLogsStreamColdStorageTargetEnum';
 
 export type DbaasLogsOutputGraylogStreamUpdate = {
   coldStorageCompression: DbaasLogsStreamColdStorageCompressionEnum | null;
@@ -12,7 +12,7 @@ export type DbaasLogsOutputGraylogStreamUpdate = {
   coldStorageRetention: number | null;
   coldStorageTarget: DbaasLogsStreamColdStorageTargetEnum | null;
   description?: string;
-  encryptionKeysIds: string | null;
+  encryptionKeysIds: string[] | null;
   indexingEnabled: boolean | null;
   indexingMaxSize: number | null;
   indexingNotifyEnabled: boolean | null;

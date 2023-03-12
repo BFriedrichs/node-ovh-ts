@@ -5,6 +5,6 @@ import { OrderPrice } from './OrderPrice';
 
 export type TelephonyTrunkSimultaneousPacksRepartition = {
   optimizedChannelsQuantity: number;
-  packsRepartition: TelephonyTrunkSimultaneousPack;
+  packsRepartition: TelephonyTrunkSimultaneousPack[];
   totalPrice: OrderPrice;
 };

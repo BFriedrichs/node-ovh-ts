@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectAiVolumeDataSyncEnum } from './CloudProjectAiVolumeDataSyncEnum';
 import { CloudProjectAiVolumeDataSyncProgressStateEnum } from './CloudProjectAiVolumeDataSyncProgressStateEnum';
+import { CloudProjectAiVolumeDataSyncEnum } from './CloudProjectAiVolumeDataSyncEnum';
 
 export type CloudProjectAiVolumeProgress = {
   completed: number;

@@ -1,53 +1,53 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { IpLoadbalancingBackendHttpBackendHttp } from '../models/IpLoadbalancingBackendHttpBackendHttp';
 import { IpLoadbalancingPendingChanges } from '../models/IpLoadbalancingPendingChanges';
-import { IpLoadbalancingRouteHttpAction } from '../models/IpLoadbalancingRouteHttpAction';
 import { IpLoadbalancingBackendUdpCustomerServerBackendUDPServer } from '../models/IpLoadbalancingBackendUdpCustomerServerBackendUDPServer';
-import { IpLoadbalancingDefinedFarm } from '../models/IpLoadbalancingDefinedFarm';
-import { IpLoadbalancingFarmAvailableProbe } from '../models/IpLoadbalancingFarmAvailableProbe';
-import { IpLoadbalancingTaskTask } from '../models/IpLoadbalancingTaskTask';
-import { IpLoadbalancingDefinedFrontend } from '../models/IpLoadbalancingDefinedFrontend';
-import { IpLoadbalancingRouteHttpRouteHttp } from '../models/IpLoadbalancingRouteHttpRouteHttp';
-import { IpLoadbalancingFrontendUdpFrontendUdp } from '../models/IpLoadbalancingFrontendUdpFrontendUdp';
-import { IpLoadbalancingBackendProbe } from '../models/IpLoadbalancingBackendProbe';
-import { IpLoadBalancingIp } from '../models/IpLoadBalancingIp';
-import { IpLoadbalancingNatIps } from '../models/IpLoadbalancingNatIps';
-import { IpLoadbalancingSslTypeEnum } from '../models/IpLoadbalancingSslTypeEnum';
-import { IpLoadbalancingBackendUdpBackendUdp } from '../models/IpLoadbalancingBackendUdpBackendUdp';
-import { IpLoadbalancingRouteRuleMatchesEnum } from '../models/IpLoadbalancingRouteRuleMatchesEnum';
-import { IpLoadbalancingBackendHttpCustomerServerBackendHTTPServer } from '../models/IpLoadbalancingBackendHttpCustomerServerBackendHTTPServer';
-import { IpLoadbalancingInstancesState } from '../models/IpLoadbalancingInstancesState';
-import { IpLoadbalancingVrackNetworkVrackNetwork } from '../models/IpLoadbalancingVrackNetworkVrackNetwork';
-import { IpLoadbalancingSslSsl } from '../models/IpLoadbalancingSslSsl';
-import { IpLoadBalancingTaskActionEnum } from '../models/IpLoadBalancingTaskActionEnum';
-import { IpLoadbalancingFrontendHttpFrontendHttp } from '../models/IpLoadbalancingFrontendHttpFrontendHttp';
 import { IpLoadbalancingBalanceHTTPEnum } from '../models/IpLoadbalancingBalanceHTTPEnum';
 import { IpLoadbalancingZoneZone } from '../models/IpLoadbalancingZoneZone';
-import { IpLoadbalancingVrackNetworkCreationRules } from '../models/IpLoadbalancingVrackNetworkCreationRules';
-import { IpLoadbalancingBackendTcpCustomerServerBackendTCPServer } from '../models/IpLoadbalancingBackendTcpCustomerServerBackendTCPServer';
-import { ServicesService } from '../models/ServicesService';
 import { IpLoadbalancingStickinessTCPEnum } from '../models/IpLoadbalancingStickinessTCPEnum';
-import { IpLoadbalancingBackendCustomerServerStatusEnum } from '../models/IpLoadbalancingBackendCustomerServerStatusEnum';
-import { IpLoadbalancingRouteAvailableRule } from '../models/IpLoadbalancingRouteAvailableRule';
-import { IpLoadbalancingBackendTcpBackendTcp } from '../models/IpLoadbalancingBackendTcpBackendTcp';
-import { IpLoadbalancingTaskStatusEnum } from '../models/IpLoadbalancingTaskStatusEnum';
-import { IpLoadbalancingFrontendTcpFrontendTcp } from '../models/IpLoadbalancingFrontendTcpFrontendTcp';
 import { IpLoadbalancingQuotaQuota } from '../models/IpLoadbalancingQuotaQuota';
-import { IpLoadbalancingRouteTcpAction } from '../models/IpLoadbalancingRouteTcpAction';
-import { IpLoadbalancingVrackInformation } from '../models/IpLoadbalancingVrackInformation';
-import { IpLoadbalancingQuotaHistoryQuotaHistory } from '../models/IpLoadbalancingQuotaHistoryQuotaHistory';
-import { IpLoadbalancingDefinedRoute } from '../models/IpLoadbalancingDefinedRoute';
-import { IpLoadbalancingOnMarkedDownEnum } from '../models/IpLoadbalancingOnMarkedDownEnum';
-import { IpLoadbalancingRouteRuleRouteRule } from '../models/IpLoadbalancingRouteRuleRouteRule';
 import { IpLoadbalancingRouteAvailableAction } from '../models/IpLoadbalancingRouteAvailableAction';
-import { IpLoadbalancingStatus } from '../models/IpLoadbalancingStatus';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { IpLoadbalancingTaskStatusEnum } from '../models/IpLoadbalancingTaskStatusEnum';
+import { IpLoadbalancingRouteHttpRouteHttp } from '../models/IpLoadbalancingRouteHttpRouteHttp';
+import { IpLoadbalancingFrontendUdpFrontendUdp } from '../models/IpLoadbalancingFrontendUdpFrontendUdp';
+import { IpLoadbalancingSslTypeEnum } from '../models/IpLoadbalancingSslTypeEnum';
+import { IpLoadbalancingBackendUdpBackendUdp } from '../models/IpLoadbalancingBackendUdpBackendUdp';
+import { IpLoadbalancingVrackNetworkVrackNetwork } from '../models/IpLoadbalancingVrackNetworkVrackNetwork';
+import { IpLoadbalancingVrackInformation } from '../models/IpLoadbalancingVrackInformation';
+import { IpLoadbalancingBackendProbe } from '../models/IpLoadbalancingBackendProbe';
+import { IpLoadbalancingNatIps } from '../models/IpLoadbalancingNatIps';
+import { IpLoadbalancingBackendTcpBackendTcp } from '../models/IpLoadbalancingBackendTcpBackendTcp';
+import { IpLoadbalancingOnMarkedDownEnum } from '../models/IpLoadbalancingOnMarkedDownEnum';
+import { IpLoadbalancingDefinedFarm } from '../models/IpLoadbalancingDefinedFarm';
+import { IpLoadbalancingFrontendHttpFrontendHttp } from '../models/IpLoadbalancingFrontendHttpFrontendHttp';
+import { IpLoadbalancingBackendTcpCustomerServerBackendTCPServer } from '../models/IpLoadbalancingBackendTcpCustomerServerBackendTCPServer';
+import { IpLoadbalancingDefinedRoute } from '../models/IpLoadbalancingDefinedRoute';
+import { IpLoadbalancingRouteAvailableRule } from '../models/IpLoadbalancingRouteAvailableRule';
+import { IpLoadbalancingVrackNetworkCreationRules } from '../models/IpLoadbalancingVrackNetworkCreationRules';
+import { IpLoadbalancingDefinedFrontend } from '../models/IpLoadbalancingDefinedFrontend';
+import { IpLoadbalancingStickinessHTTPEnum } from '../models/IpLoadbalancingStickinessHTTPEnum';
+import { IpLoadbalancingBackendCustomerServerStatusEnum } from '../models/IpLoadbalancingBackendCustomerServerStatusEnum';
+import { IpLoadbalancingBackendHttpCustomerServerBackendHTTPServer } from '../models/IpLoadbalancingBackendHttpCustomerServerBackendHTTPServer';
+import { IpLoadbalancingTaskTask } from '../models/IpLoadbalancingTaskTask';
 import { IpLoadbalancingProxyProtocolVersionEnum } from '../models/IpLoadbalancingProxyProtocolVersionEnum';
-import { IpLoadbalancingBackendHttpBackendHttp } from '../models/IpLoadbalancingBackendHttpBackendHttp';
+import { ServicesService } from '../models/ServicesService';
+import { IpLoadbalancingSslSsl } from '../models/IpLoadbalancingSslSsl';
 import { IpLoadbalancingBalanceTCPEnum } from '../models/IpLoadbalancingBalanceTCPEnum';
 import { IpLoadbalancingRouteTcpRouteTcp } from '../models/IpLoadbalancingRouteTcpRouteTcp';
+import { IpLoadBalancingIp } from '../models/IpLoadBalancingIp';
+import { IpLoadbalancingQuotaHistoryQuotaHistory } from '../models/IpLoadbalancingQuotaHistoryQuotaHistory';
+import { IpLoadBalancingTaskActionEnum } from '../models/IpLoadBalancingTaskActionEnum';
+import { IpLoadbalancingRouteRuleRouteRule } from '../models/IpLoadbalancingRouteRuleRouteRule';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { IpLoadbalancingStickinessHTTPEnum } from '../models/IpLoadbalancingStickinessHTTPEnum';
+import { IpLoadbalancingRouteRuleMatchesEnum } from '../models/IpLoadbalancingRouteRuleMatchesEnum';
+import { IpLoadbalancingFrontendTcpFrontendTcp } from '../models/IpLoadbalancingFrontendTcpFrontendTcp';
+import { IpLoadbalancingRouteHttpAction } from '../models/IpLoadbalancingRouteHttpAction';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { IpLoadbalancingInstancesState } from '../models/IpLoadbalancingInstancesState';
+import { IpLoadbalancingStatus } from '../models/IpLoadbalancingStatus';
+import { IpLoadbalancingRouteTcpAction } from '../models/IpLoadbalancingRouteTcpAction';
+import { IpLoadbalancingFarmAvailableProbe } from '../models/IpLoadbalancingFarmAvailableProbe';
 import OVHBase from '../ovh';
 
 class IpLoadbalancingHandler {
@@ -58,66 +58,66 @@ class IpLoadbalancingHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/ipLoadbalancing');
   };
 
   /** List of zone available for an IP load balancing */
-  getAvailableZones = (): Promise<string> => {
+  listAvailableZones = (): Promise<string[]> => {
     return this.ovh.request('GET', '/ipLoadbalancing/availableZones');
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<IpLoadBalancingIp> => {
+  getByServiceName = (serviceName: string): Promise<IpLoadBalancingIp> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putServiceName = (serviceName: string, body: IpLoadBalancingIp): Promise<void> => {
+  updateByServiceName = (serviceName: string, body: IpLoadBalancingIp): Promise<void> => {
     return this.ovh.request('PUT', `/ipLoadbalancing/${serviceName}`, body);
   };
 
   /** Available farm probes for health checks */
-  getServiceNameAvailableFarmProbes = (
+  getAvailableFarmProbesByServiceName = (
     serviceName: string
-  ): Promise<IpLoadbalancingFarmAvailableProbe> => {
+  ): Promise<IpLoadbalancingFarmAvailableProbe[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/availableFarmProbes`);
   };
 
   /** Available farm types */
-  getServiceNameAvailableFarmType = (serviceName: string): Promise<string> => {
+  getAvailableFarmTypeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/availableFarmType`);
   };
 
   /** Available frontend type */
-  getServiceNameAvailableFrontendType = (serviceName: string): Promise<string> => {
+  getAvailableFrontendTypeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/availableFrontendType`);
   };
 
   /** Available route actions */
-  getServiceNameAvailableRouteActions = (
+  getAvailableRouteActionsByServiceName = (
     serviceName: string
-  ): Promise<IpLoadbalancingRouteAvailableAction> => {
+  ): Promise<IpLoadbalancingRouteAvailableAction[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/availableRouteActions`);
   };
 
   /** Available route match rules */
-  getServiceNameAvailableRouteRules = (
+  getAvailableRouteRulesByServiceName = (
     serviceName: string
-  ): Promise<IpLoadbalancingRouteAvailableRule> => {
+  ): Promise<IpLoadbalancingRouteAvailableRule[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/availableRouteRules`);
   };
 
   /** Launch a contact change procedure */
-  postServiceNameChangeContact = (
+  launchChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/ipLoadbalancing/${serviceName}/changeContact`, body);
   };
 
   /** Confirm termination of your service */
-  postServiceNameConfirmTermination = (
+  confirmTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -130,42 +130,44 @@ class IpLoadbalancingHandler {
   };
 
   /** List of defined farms, and whether they are HTTP, TCP or UDP */
-  getServiceNameDefinedFarms = (serviceName: string): Promise<IpLoadbalancingDefinedFarm> => {
+  listDefinedFarmsByServiceName = (serviceName: string): Promise<IpLoadbalancingDefinedFarm[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/definedFarms`);
   };
 
   /** List of defined frontends, and whether they are HTTP, TCP or UDP */
-  getServiceNameDefinedFrontends = (
+  listDefinedFrontendsByServiceName = (
     serviceName: string
-  ): Promise<IpLoadbalancingDefinedFrontend> => {
+  ): Promise<IpLoadbalancingDefinedFrontend[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/definedFrontends`);
   };
 
   /** List of defined routes, and whether they are HTTP or TCP */
-  getServiceNameDefinedRoutes = (serviceName: string): Promise<IpLoadbalancingDefinedRoute> => {
+  listDefinedRoutesByServiceName = (
+    serviceName: string
+  ): Promise<IpLoadbalancingDefinedRoute[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/definedRoutes`);
   };
 
   /** List all failover ip routed to this IPLB */
-  getServiceNameFailover = (serviceName: string): Promise<string> => {
+  listFailoversByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/failover`);
   };
 
   /** Order a free certificate. We order and deliver it for you */
-  postServiceNameFreeCertificate = (
+  postFreeCertificateByServiceName = (
     serviceName: string,
-    body: { fqdn: string }
+    body: { fqdn: string[] }
   ): Promise<IpLoadbalancingTaskTask> => {
     return this.ovh.request('POST', `/ipLoadbalancing/${serviceName}/freeCertificate`, body);
   };
 
   /** HTTP Farm for this iplb */
-  getServiceNameHttpFarm = (serviceName: string): Promise<number> => {
+  getHttpFarmByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/http/farm`);
   };
 
   /** Add a new HTTP Farm on your IP Load Balancing */
-  postServiceNameHttpFarm = (
+  addHttpFarmByServiceName = (
     serviceName: string,
     body: {
       balance?: IpLoadbalancingBalanceHTTPEnum;
@@ -181,12 +183,12 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete an HTTP Farm */
-  deleteServiceNameHttpFarmFarmId = (farmId: number, serviceName: string): Promise<void> => {
+  deleteHttpFarmByServiceNameAndFarmId = (farmId: number, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/ipLoadbalancing/${serviceName}/http/farm/${farmId}`);
   };
 
   /** Get this object properties */
-  getServiceNameHttpFarmFarmId = (
+  getHttpFarmByServiceNameAndFarmId = (
     farmId: number,
     serviceName: string
   ): Promise<IpLoadbalancingBackendHttpBackendHttp> => {
@@ -194,7 +196,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameHttpFarmFarmId = (
+  updateHttpFarmByServiceNameAndFarmId = (
     farmId: number,
     serviceName: string,
     body: IpLoadbalancingBackendHttpBackendHttp
@@ -203,12 +205,15 @@ class IpLoadbalancingHandler {
   };
 
   /** HTTP Farm's Servers */
-  getServiceNameHttpFarmFarmIdServer = (farmId: number, serviceName: string): Promise<number> => {
+  getHttpFarmServerByServiceNameAndFarmId = (
+    farmId: number,
+    serviceName: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/http/farm/${farmId}/server`);
   };
 
   /** Add a server to an HTTP Farm */
-  postServiceNameHttpFarmFarmIdServer = (
+  addHttpFarmServerByServiceNameAndFarmId = (
     farmId: number,
     serviceName: string,
     body: {
@@ -234,7 +239,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete a server from an HTTP Farm */
-  deleteServiceNameHttpFarmFarmIdServerServerId = (
+  deleteHttpFarmServerByServiceNameAndFarmIdAndServerId = (
     farmId: number,
     serverId: number,
     serviceName: string
@@ -246,7 +251,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Get this object properties */
-  getServiceNameHttpFarmFarmIdServerServerId = (
+  getHttpFarmServerByServiceNameAndFarmIdAndServerId = (
     farmId: number,
     serverId: number,
     serviceName: string
@@ -258,7 +263,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameHttpFarmFarmIdServerServerId = (
+  updateHttpFarmServerByServiceNameAndFarmIdAndServerId = (
     farmId: number,
     serverId: number,
     serviceName: string,
@@ -272,23 +277,23 @@ class IpLoadbalancingHandler {
   };
 
   /** HTTP frontends for this iplb */
-  getServiceNameHttpFrontend = (serviceName: string): Promise<number> => {
+  getHttpFrontendByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/http/frontend`);
   };
 
   /** Add a new http frontend on your IP Load Balancing */
-  postServiceNameHttpFrontend = (
+  addHttpFrontendByServiceName = (
     serviceName: string,
     body: {
-      allowedSource?: string;
-      dedicatedIpfo?: string;
+      allowedSource?: string[];
+      dedicatedIpfo?: string[];
       defaultFarmId?: number;
       defaultSslId?: number;
-      deniedSource?: string;
+      deniedSource?: string[];
       disabled?: boolean;
       displayName?: string;
       hsts?: boolean;
-      httpHeader?: string;
+      httpHeader?: string[];
       port: string;
       redirectLocation?: string;
       ssl?: boolean;
@@ -299,7 +304,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete an HTTP frontend */
-  deleteServiceNameHttpFrontendFrontendId = (
+  deleteHttpFrontendByServiceNameAndFrontendId = (
     frontendId: number,
     serviceName: string
   ): Promise<void> => {
@@ -310,7 +315,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Get this object properties */
-  getServiceNameHttpFrontendFrontendId = (
+  getHttpFrontendByServiceNameAndFrontendId = (
     frontendId: number,
     serviceName: string
   ): Promise<IpLoadbalancingFrontendHttpFrontendHttp> => {
@@ -318,7 +323,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameHttpFrontendFrontendId = (
+  updateHttpFrontendByServiceNameAndFrontendId = (
     frontendId: number,
     serviceName: string,
     body: IpLoadbalancingFrontendHttpFrontendHttp
@@ -331,12 +336,12 @@ class IpLoadbalancingHandler {
   };
 
   /** HTTP routes for this iplb */
-  getServiceNameHttpRoute = (serviceName: string): Promise<number> => {
+  getHttpRouteByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/http/route`);
   };
 
   /** Add a new HTTP route to your frontend */
-  postServiceNameHttpRoute = (
+  addHttpRouteByServiceName = (
     serviceName: string,
     body: {
       action: IpLoadbalancingRouteHttpAction;
@@ -349,12 +354,15 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete this HTTP route */
-  deleteServiceNameHttpRouteRouteId = (routeId: number, serviceName: string): Promise<void> => {
+  deleteHttpRouteByServiceNameAndRouteId = (
+    routeId: number,
+    serviceName: string
+  ): Promise<void> => {
     return this.ovh.request('DELETE', `/ipLoadbalancing/${serviceName}/http/route/${routeId}`);
   };
 
   /** Get this object properties */
-  getServiceNameHttpRouteRouteId = (
+  getHttpRouteByServiceNameAndRouteId = (
     routeId: number,
     serviceName: string
   ): Promise<IpLoadbalancingRouteHttpRouteHttp> => {
@@ -362,7 +370,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameHttpRouteRouteId = (
+  updateHttpRouteByServiceNameAndRouteId = (
     routeId: number,
     serviceName: string,
     body: IpLoadbalancingRouteHttpRouteHttp
@@ -371,12 +379,15 @@ class IpLoadbalancingHandler {
   };
 
   /** HTTP routes for this iplb */
-  getServiceNameHttpRouteRouteIdRule = (routeId: number, serviceName: string): Promise<number> => {
+  getHttpRouteRuleByServiceNameAndRouteId = (
+    routeId: number,
+    serviceName: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/http/route/${routeId}/rule`);
   };
 
   /** Add a new rule to your route */
-  postServiceNameHttpRouteRouteIdRule = (
+  addHttpRouteRuleByServiceNameAndRouteId = (
     routeId: number,
     serviceName: string,
     body: {
@@ -396,7 +407,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete this rule from the route */
-  deleteServiceNameHttpRouteRouteIdRuleRuleId = (
+  deleteHttpRouteRuleByServiceNameAndRouteIdAndRuleId = (
     routeId: number,
     ruleId: number,
     serviceName: string
@@ -408,7 +419,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Get this object properties */
-  getServiceNameHttpRouteRouteIdRuleRuleId = (
+  getHttpRouteRuleByServiceNameAndRouteIdAndRuleId = (
     routeId: number,
     ruleId: number,
     serviceName: string
@@ -420,7 +431,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameHttpRouteRouteIdRuleRuleId = (
+  updateHttpRouteRuleByServiceNameAndRouteIdAndRuleId = (
     routeId: number,
     ruleId: number,
     serviceName: string,
@@ -434,27 +445,31 @@ class IpLoadbalancingHandler {
   };
 
   /** Get the effective state of your IPLB instances on IPLB servers */
-  getServiceNameInstancesState = (serviceName: string): Promise<IpLoadbalancingInstancesState> => {
+  getInstancesStateByServiceName = (
+    serviceName: string
+  ): Promise<IpLoadbalancingInstancesState[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/instancesState`);
   };
 
   /** Ip subnet used by OVH to nat requests on your IPLB to your backends. You must ensure that your backends are not part of a network that overlap with this one */
-  getServiceNameNatIp = (serviceName: string): Promise<IpLoadbalancingNatIps> => {
+  getNatIpByServiceName = (serviceName: string): Promise<IpLoadbalancingNatIps[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/natIp`);
   };
 
   /** List the pending changes on your Load Balancer configuration, per zone */
-  getServiceNamePendingChanges = (serviceName: string): Promise<IpLoadbalancingPendingChanges> => {
+  listPendingChangesByServiceName = (
+    serviceName: string
+  ): Promise<IpLoadbalancingPendingChanges[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/pendingChanges`);
   };
 
   /** Available quota informations for current billing period per zone */
-  getServiceNameQuota = (serviceName: string): Promise<string> => {
+  getQuotaByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/quota`);
   };
 
   /** Get this object properties */
-  getServiceNameQuotaZone = (
+  getQuotaByServiceNameAndZone = (
     serviceName: string,
     zone: string
   ): Promise<IpLoadbalancingQuotaQuota> => {
@@ -462,7 +477,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameQuotaZone = (
+  updateQuotaByServiceNameAndZone = (
     serviceName: string,
     zone: string,
     body: IpLoadbalancingQuotaQuota
@@ -471,12 +486,12 @@ class IpLoadbalancingHandler {
   };
 
   /** Quota history informations, per month */
-  getServiceNameQuotaHistory = (serviceName: string): Promise<number> => {
+  getQuotaHistoryByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/quotaHistory`);
   };
 
   /** Get this object properties */
-  getServiceNameQuotaHistoryId = (
+  getQuotaHistoryByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<IpLoadbalancingQuotaHistoryQuotaHistory> => {
@@ -484,7 +499,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Apply the configuration to your iplb */
-  postServiceNameRefresh = (
+  postRefreshByServiceName = (
     serviceName: string,
     body: { zone?: string }
   ): Promise<IpLoadbalancingTaskTask> => {
@@ -492,22 +507,22 @@ class IpLoadbalancingHandler {
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/ipLoadbalancing/${serviceName}/serviceInfos`, body);
   };
 
   /** Ssl for this iplb */
-  getServiceNameSsl = (serviceName: string): Promise<number> => {
+  getSslByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/ssl`);
   };
 
   /** Add a new custom SSL certificate on your IP Load Balancing */
-  postServiceNameSsl = (
+  addSslByServiceName = (
     serviceName: string,
     body: { certificate: string; chain?: string; displayName?: string; key: string }
   ): Promise<IpLoadbalancingSslSsl> => {
@@ -515,17 +530,17 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete a custom SSL certificate */
-  deleteServiceNameSslId = (id: number, serviceName: string): Promise<void> => {
+  deleteSslByServiceNameAndId = (id: number, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/ipLoadbalancing/${serviceName}/ssl/${id}`);
   };
 
   /** Get this object properties */
-  getServiceNameSslId = (id: number, serviceName: string): Promise<IpLoadbalancingSslSsl> => {
+  getSslByServiceNameAndId = (id: number, serviceName: string): Promise<IpLoadbalancingSslSsl> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/ssl/${id}`);
   };
 
   /** Alter this object properties */
-  putServiceNameSslId = (
+  updateSslByServiceNameAndId = (
     id: number,
     serviceName: string,
     body: IpLoadbalancingSslSsl
@@ -534,27 +549,30 @@ class IpLoadbalancingHandler {
   };
 
   /** Get the global status of your IPLB */
-  getServiceNameStatus = (serviceName: string): Promise<IpLoadbalancingStatus> => {
+  getStatusByServiceName = (serviceName: string): Promise<IpLoadbalancingStatus> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/status`);
   };
 
   /** Task for this iplb */
-  getServiceNameTask = (serviceName: string): Promise<number> => {
+  getTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getServiceNameTaskId = (id: number, serviceName: string): Promise<IpLoadbalancingTaskTask> => {
+  getTaskByServiceNameAndId = (
+    id: number,
+    serviceName: string
+  ): Promise<IpLoadbalancingTaskTask> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/task/${id}`);
   };
 
   /** TCP Farm for this iplb */
-  getServiceNameTcpFarm = (serviceName: string): Promise<number> => {
+  getTcpFarmByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/tcp/farm`);
   };
 
   /** Add a new TCP Farm on your IP Load Balancing */
-  postServiceNameTcpFarm = (
+  addTcpFarmByServiceName = (
     serviceName: string,
     body: {
       balance?: IpLoadbalancingBalanceTCPEnum;
@@ -570,12 +588,12 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete a TCP Farm */
-  deleteServiceNameTcpFarmFarmId = (farmId: number, serviceName: string): Promise<void> => {
+  deleteTcpFarmByServiceNameAndFarmId = (farmId: number, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/ipLoadbalancing/${serviceName}/tcp/farm/${farmId}`);
   };
 
   /** Get this object properties */
-  getServiceNameTcpFarmFarmId = (
+  getTcpFarmByServiceNameAndFarmId = (
     farmId: number,
     serviceName: string
   ): Promise<IpLoadbalancingBackendTcpBackendTcp> => {
@@ -583,7 +601,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameTcpFarmFarmId = (
+  updateTcpFarmByServiceNameAndFarmId = (
     farmId: number,
     serviceName: string,
     body: IpLoadbalancingBackendTcpBackendTcp
@@ -592,12 +610,15 @@ class IpLoadbalancingHandler {
   };
 
   /** TCP Farm's Servers */
-  getServiceNameTcpFarmFarmIdServer = (farmId: number, serviceName: string): Promise<number> => {
+  getTcpFarmServerByServiceNameAndFarmId = (
+    farmId: number,
+    serviceName: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/tcp/farm/${farmId}/server`);
   };
 
   /** Add a server to a TCP Farm */
-  postServiceNameTcpFarmFarmIdServer = (
+  addTcpFarmServerByServiceNameAndFarmId = (
     farmId: number,
     serviceName: string,
     body: {
@@ -622,7 +643,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete a server from a TCP Farm */
-  deleteServiceNameTcpFarmFarmIdServerServerId = (
+  deleteTcpFarmServerByServiceNameAndFarmIdAndServerId = (
     farmId: number,
     serverId: number,
     serviceName: string
@@ -634,7 +655,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Get this object properties */
-  getServiceNameTcpFarmFarmIdServerServerId = (
+  getTcpFarmServerByServiceNameAndFarmIdAndServerId = (
     farmId: number,
     serverId: number,
     serviceName: string
@@ -646,7 +667,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameTcpFarmFarmIdServerServerId = (
+  updateTcpFarmServerByServiceNameAndFarmIdAndServerId = (
     farmId: number,
     serverId: number,
     serviceName: string,
@@ -660,19 +681,19 @@ class IpLoadbalancingHandler {
   };
 
   /** TCP frontends for this iplb */
-  getServiceNameTcpFrontend = (serviceName: string): Promise<number> => {
+  getTcpFrontendByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/tcp/frontend`);
   };
 
   /** Add a new TCP frontend on your IP Load Balancing */
-  postServiceNameTcpFrontend = (
+  addTcpFrontendByServiceName = (
     serviceName: string,
     body: {
-      allowedSource?: string;
-      dedicatedIpfo?: string;
+      allowedSource?: string[];
+      dedicatedIpfo?: string[];
       defaultFarmId?: number;
       defaultSslId?: number;
-      deniedSource?: string;
+      deniedSource?: string[];
       disabled?: boolean;
       displayName?: string;
       port: string;
@@ -684,7 +705,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete an TCP frontend */
-  deleteServiceNameTcpFrontendFrontendId = (
+  deleteTcpFrontendByServiceNameAndFrontendId = (
     frontendId: number,
     serviceName: string
   ): Promise<void> => {
@@ -692,7 +713,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Get this object properties */
-  getServiceNameTcpFrontendFrontendId = (
+  getTcpFrontendByServiceNameAndFrontendId = (
     frontendId: number,
     serviceName: string
   ): Promise<IpLoadbalancingFrontendTcpFrontendTcp> => {
@@ -700,7 +721,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameTcpFrontendFrontendId = (
+  updateTcpFrontendByServiceNameAndFrontendId = (
     frontendId: number,
     serviceName: string,
     body: IpLoadbalancingFrontendTcpFrontendTcp
@@ -713,12 +734,12 @@ class IpLoadbalancingHandler {
   };
 
   /** TCP routes for this iplb */
-  getServiceNameTcpRoute = (serviceName: string): Promise<number> => {
+  getTcpRouteByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/tcp/route`);
   };
 
   /** Add a new TCP route to your frontend */
-  postServiceNameTcpRoute = (
+  addTcpRouteByServiceName = (
     serviceName: string,
     body: {
       action: IpLoadbalancingRouteTcpAction;
@@ -731,12 +752,12 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete this TCP route */
-  deleteServiceNameTcpRouteRouteId = (routeId: number, serviceName: string): Promise<void> => {
+  deleteTcpRouteByServiceNameAndRouteId = (routeId: number, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/ipLoadbalancing/${serviceName}/tcp/route/${routeId}`);
   };
 
   /** Get this object properties */
-  getServiceNameTcpRouteRouteId = (
+  getTcpRouteByServiceNameAndRouteId = (
     routeId: number,
     serviceName: string
   ): Promise<IpLoadbalancingRouteTcpRouteTcp> => {
@@ -744,7 +765,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameTcpRouteRouteId = (
+  updateTcpRouteByServiceNameAndRouteId = (
     routeId: number,
     serviceName: string,
     body: IpLoadbalancingRouteTcpRouteTcp
@@ -753,12 +774,15 @@ class IpLoadbalancingHandler {
   };
 
   /** HTTP routes for this iplb */
-  getServiceNameTcpRouteRouteIdRule = (routeId: number, serviceName: string): Promise<number> => {
+  getTcpRouteRuleByServiceNameAndRouteId = (
+    routeId: number,
+    serviceName: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/tcp/route/${routeId}/rule`);
   };
 
   /** Add a new rule to your route */
-  postServiceNameTcpRouteRouteIdRule = (
+  addTcpRouteRuleByServiceNameAndRouteId = (
     routeId: number,
     serviceName: string,
     body: {
@@ -778,7 +802,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete this rule from the route */
-  deleteServiceNameTcpRouteRouteIdRuleRuleId = (
+  deleteTcpRouteRuleByServiceNameAndRouteIdAndRuleId = (
     routeId: number,
     ruleId: number,
     serviceName: string
@@ -790,7 +814,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Get this object properties */
-  getServiceNameTcpRouteRouteIdRuleRuleId = (
+  getTcpRouteRuleByServiceNameAndRouteIdAndRuleId = (
     routeId: number,
     ruleId: number,
     serviceName: string
@@ -802,7 +826,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameTcpRouteRouteIdRuleRuleId = (
+  updateTcpRouteRuleByServiceNameAndRouteIdAndRuleId = (
     routeId: number,
     ruleId: number,
     serviceName: string,
@@ -816,17 +840,17 @@ class IpLoadbalancingHandler {
   };
 
   /** Terminate your service */
-  postServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/ipLoadbalancing/${serviceName}/terminate`);
   };
 
   /** UDP Farm for this iplb */
-  getServiceNameUdpFarm = (serviceName: string): Promise<number> => {
+  getUdpFarmByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/udp/farm`);
   };
 
   /** Add a new UDP Farm on your IP Load Balancing */
-  postServiceNameUdpFarm = (
+  addUdpFarmByServiceName = (
     serviceName: string,
     body: { displayName?: string; port: number; vrackNetworkId?: number; zone: string }
   ): Promise<IpLoadbalancingBackendUdpBackendUdp> => {
@@ -834,12 +858,12 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete an UDP Farm */
-  deleteServiceNameUdpFarmFarmId = (farmId: number, serviceName: string): Promise<void> => {
+  deleteUdpFarmByServiceNameAndFarmId = (farmId: number, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/ipLoadbalancing/${serviceName}/udp/farm/${farmId}`);
   };
 
   /** Get this object properties */
-  getServiceNameUdpFarmFarmId = (
+  getUdpFarmByServiceNameAndFarmId = (
     farmId: number,
     serviceName: string
   ): Promise<IpLoadbalancingBackendUdpBackendUdp> => {
@@ -847,7 +871,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameUdpFarmFarmId = (
+  updateUdpFarmByServiceNameAndFarmId = (
     farmId: number,
     serviceName: string,
     body: IpLoadbalancingBackendUdpBackendUdp
@@ -856,12 +880,15 @@ class IpLoadbalancingHandler {
   };
 
   /** UDP Farm's Servers */
-  getServiceNameUdpFarmFarmIdServer = (farmId: number, serviceName: string): Promise<number> => {
+  getUdpFarmServerByServiceNameAndFarmId = (
+    farmId: number,
+    serviceName: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/udp/farm/${farmId}/server`);
   };
 
   /** Add a server to an UDP Farm */
-  postServiceNameUdpFarmFarmIdServer = (
+  addUdpFarmServerByServiceNameAndFarmId = (
     farmId: number,
     serviceName: string,
     body: {
@@ -879,7 +906,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete a server from an UDP Farm */
-  deleteServiceNameUdpFarmFarmIdServerServerId = (
+  deleteUdpFarmServerByServiceNameAndFarmIdAndServerId = (
     farmId: number,
     serverId: number,
     serviceName: string
@@ -891,7 +918,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Get this object properties */
-  getServiceNameUdpFarmFarmIdServerServerId = (
+  getUdpFarmServerByServiceNameAndFarmIdAndServerId = (
     farmId: number,
     serverId: number,
     serviceName: string
@@ -903,7 +930,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameUdpFarmFarmIdServerServerId = (
+  updateUdpFarmServerByServiceNameAndFarmIdAndServerId = (
     farmId: number,
     serverId: number,
     serviceName: string,
@@ -917,15 +944,15 @@ class IpLoadbalancingHandler {
   };
 
   /** UDP frontends for this iplb */
-  getServiceNameUdpFrontend = (serviceName: string): Promise<number> => {
+  getUdpFrontendByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/udp/frontend`);
   };
 
   /** Add a new UDP frontend on your IP Load Balancing */
-  postServiceNameUdpFrontend = (
+  addUdpFrontendByServiceName = (
     serviceName: string,
     body: {
-      dedicatedIpfo?: string;
+      dedicatedIpfo?: string[];
       defaultFarmId?: number;
       disabled?: boolean;
       displayName?: string;
@@ -937,7 +964,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Delete an UDP frontend */
-  deleteServiceNameUdpFrontendFrontendId = (
+  deleteUdpFrontendByServiceNameAndFrontendId = (
     frontendId: number,
     serviceName: string
   ): Promise<void> => {
@@ -945,7 +972,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Get this object properties */
-  getServiceNameUdpFrontendFrontendId = (
+  getUdpFrontendByServiceNameAndFrontendId = (
     frontendId: number,
     serviceName: string
   ): Promise<IpLoadbalancingFrontendUdpFrontendUdp> => {
@@ -953,7 +980,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameUdpFrontendFrontendId = (
+  updateUdpFrontendByServiceNameAndFrontendId = (
     frontendId: number,
     serviceName: string,
     body: IpLoadbalancingFrontendUdpFrontendUdp
@@ -966,20 +993,20 @@ class IpLoadbalancingHandler {
   };
 
   /** Descriptions of private networks in the vRack attached to this Load Balancer */
-  getServiceNameVrackNetwork = (serviceName: string): Promise<number> => {
+  getVrackNetworkByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/vrack/network`);
   };
 
   /** Add a description of a private network in the attached vRack */
-  postServiceNameVrackNetwork = (
+  addVrackNetworkByServiceName = (
     serviceName: string,
-    body: { displayName?: string; farmId?: number; natIp: string; subnet: string; vlan?: number }
+    body: { displayName?: string; farmId?: number[]; natIp: string; subnet: string; vlan?: number }
   ): Promise<IpLoadbalancingVrackNetworkVrackNetwork> => {
     return this.ovh.request('POST', `/ipLoadbalancing/${serviceName}/vrack/network`, body);
   };
 
   /** Delete this description of a private network in the vRack. It must not be used by any farm server */
-  deleteServiceNameVrackNetworkVrackNetworkId = (
+  deleteVrackNetworkByServiceNameAndVrackNetworkId = (
     serviceName: string,
     vrackNetworkId: number
   ): Promise<void> => {
@@ -990,7 +1017,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Get this object properties */
-  getServiceNameVrackNetworkVrackNetworkId = (
+  getVrackNetworkByServiceNameAndVrackNetworkId = (
     serviceName: string,
     vrackNetworkId: number
   ): Promise<IpLoadbalancingVrackNetworkVrackNetwork> => {
@@ -1001,7 +1028,7 @@ class IpLoadbalancingHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameVrackNetworkVrackNetworkId = (
+  updateVrackNetworkByServiceNameAndVrackNetworkId = (
     serviceName: string,
     vrackNetworkId: number,
     body: IpLoadbalancingVrackNetworkVrackNetwork
@@ -1014,10 +1041,10 @@ class IpLoadbalancingHandler {
   };
 
   /** Update farm attached to that vrack network id */
-  postServiceNameVrackNetworkVrackNetworkIdUpdateFarmId = (
+  updateVrackNetworkFarmIdByServiceNameAndVrackNetworkId = (
     serviceName: string,
     vrackNetworkId: number,
-    body: { farmId: number }
+    body: { farmId: number[] }
   ): Promise<IpLoadbalancingVrackNetworkVrackNetwork> => {
     return this.ovh.request(
       'POST',
@@ -1027,24 +1054,24 @@ class IpLoadbalancingHandler {
   };
 
   /** Rules to create a network attached to a vrack */
-  getServiceNameVrackNetworkCreationRules = (
+  getVrackNetworkCreationRulesByServiceName = (
     serviceName: string
   ): Promise<IpLoadbalancingVrackNetworkCreationRules> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/vrack/networkCreationRules`);
   };
 
   /** Information about vRack for your Load Balancer */
-  getServiceNameVrackStatus = (serviceName: string): Promise<IpLoadbalancingVrackInformation> => {
+  getVrackStatusByServiceName = (serviceName: string): Promise<IpLoadbalancingVrackInformation> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/vrack/status`);
   };
 
   /** Zone for this iplb */
-  getServiceNameZone = (serviceName: string): Promise<string> => {
+  getZoneByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/ipLoadbalancing/${serviceName}/zone`);
   };
 
   /** Get this object properties */
-  getServiceNameZoneName = (
+  getZoneByServiceNameAndName = (
     name: string,
     serviceName: string
   ): Promise<IpLoadbalancingZoneZone> => {
@@ -1052,7 +1079,10 @@ class IpLoadbalancingHandler {
   };
 
   /** Cancel the termination request of your service zone option */
-  postServiceNameZoneNameCancelTermination = (name: string, serviceName: string): Promise<void> => {
+  postZoneCancelTerminationByServiceNameAndName = (
+    name: string,
+    serviceName: string
+  ): Promise<void> => {
     return this.ovh.request(
       'POST',
       `/ipLoadbalancing/${serviceName}/zone/${name}/cancelTermination`
@@ -1060,9 +1090,9 @@ class IpLoadbalancingHandler {
   };
 
   /** Terminate your service zone option */
-  postServiceNameZoneNameTerminate = (name: string, serviceName: string): Promise<void> => {
+  postZoneTerminateByServiceNameAndName = (name: string, serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/ipLoadbalancing/${serviceName}/zone/${name}/terminate`);
   };
 }
 
-export default IpLoadbalancingHandler;
+export { IpLoadbalancingHandler };

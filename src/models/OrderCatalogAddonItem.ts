@@ -3,7 +3,7 @@
 import { OrderCatalogAddonOffer } from './OrderCatalogAddonOffer';
 
 export type OrderCatalogAddonItem = {
-  addons: OrderCatalogAddonOffer;
+  addons: OrderCatalogAddonOffer[];
   exclusive: boolean;
   family: string;
   mandatory: boolean;

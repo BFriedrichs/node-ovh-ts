@@ -5,5 +5,5 @@ export type OrderCatalogConfigurationItem = {
   isCustom: boolean;
   isMandatory: boolean;
   name: string;
-  values: string;
+  values: string[];
 };

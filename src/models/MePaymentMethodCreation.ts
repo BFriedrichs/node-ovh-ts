@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MePaymentCreationSubTypeEnum } from './MePaymentCreationSubTypeEnum';
 import { MePaymentMethodCallbackUrl } from './MePaymentMethodCallbackUrl';
+import { MePaymentCreationSubTypeEnum } from './MePaymentCreationSubTypeEnum';
 
 export type MePaymentMethodCreation = {
   billingContactId: number | null;

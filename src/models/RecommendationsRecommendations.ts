@@ -2,4 +2,4 @@
 
 import { RecommendationsRecommendation } from './RecommendationsRecommendation';
 
-export type RecommendationsRecommendations = { recommendations: RecommendationsRecommendation };
+export type RecommendationsRecommendations = { recommendations: RecommendationsRecommendation[] };

@@ -1,100 +1,100 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyNumberOffer } from '../models/TelephonyNumberOffer';
-import { HostingPrivateDatabaseDatacenterEnum } from '../models/HostingPrivateDatabaseDatacenterEnum';
-import { HostingWebCdnOfferEnum } from '../models/HostingWebCdnOfferEnum';
-import { EmailExchangeAccountQuotaEnum } from '../models/EmailExchangeAccountQuotaEnum';
-import { HostingWebOrderMxPlanEnum } from '../models/HostingWebOrderMxPlanEnum';
-import { LicenseOrderablePleskLanguagePackEnum } from '../models/LicenseOrderablePleskLanguagePackEnum';
-import { DedicatedCloudAdditionalBandwidthEnum } from '../models/DedicatedCloudAdditionalBandwidthEnum';
-import { OrderCartGenericProductCreation } from '../models/OrderCartGenericProductCreation';
-import { EmailExchangeOvhLicenceEnum } from '../models/EmailExchangeOvhLicenceEnum';
-import { DedicatedServerBandwidthOrderEnum } from '../models/DedicatedServerBandwidthOrderEnum';
-import { NichandleLegalFormEnum } from '../models/NichandleLegalFormEnum';
-import { OrderCatalogPrivateCloudCatalog } from '../models/OrderCatalogPrivateCloudCatalog';
-import { LicenseOrderablePleskDomainNumberEnum } from '../models/LicenseOrderablePleskDomainNumberEnum';
-import { OrderCartGenericProductDefinition } from '../models/OrderCartGenericProductDefinition';
-import { DedicatedCloudIpCountriesEnum } from '../models/DedicatedCloudIpCountriesEnum';
-import { LicenseOrderableVirtuozzoVersionEnum } from '../models/LicenseOrderableVirtuozzoVersionEnum';
-import { LicenseWorkLightVersionEnum } from '../models/LicenseWorkLightVersionEnum';
-import { OrderCartDomainPacksCreation } from '../models/OrderCartDomainPacksCreation';
-import { OverTheBoxShippingMethodEnum } from '../models/OverTheBoxShippingMethodEnum';
-import { LicenseLicenseTypeEnum } from '../models/LicenseLicenseTypeEnum';
-import { OrderCatalogPublicCatalog } from '../models/OrderCatalogPublicCatalog';
-import { LicenseOrderableAntivirusEnum } from '../models/LicenseOrderableAntivirusEnum';
-import { TelephonyPortabilityCountriesAvailable } from '../models/TelephonyPortabilityCountriesAvailable';
-import { OrderCartCreation } from '../models/OrderCartCreation';
-import { EmailDomainOfferEnum } from '../models/EmailDomainOfferEnum';
-import { HostingWebDatabaseSqlPersoOfferEnum } from '../models/HostingWebDatabaseSqlPersoOfferEnum';
-import { DedicatedCloudOrderableIpBlockRangeEnum } from '../models/DedicatedCloudOrderableIpBlockRangeEnum';
-import { HostingWebOfferEnum } from '../models/HostingWebOfferEnum';
-import { OrderUpgradeOperationAndOrder } from '../models/OrderUpgradeOperationAndOrder';
-import { DedicatedServerUsbKeyCapacityEnum } from '../models/DedicatedServerUsbKeyCapacityEnum';
-import { TelephonyLineTypeEnum } from '../models/TelephonyLineTypeEnum';
-import { OrderCartUpdate } from '../models/OrderCartUpdate';
-import { OrderCartItemUpdate } from '../models/OrderCartItemUpdate';
-import { TelephonyPortabilitySpecialNumberCategoryEnum } from '../models/TelephonyPortabilitySpecialNumberCategoryEnum';
-import { LicenseWindowsOsVersionEnum } from '../models/LicenseWindowsOsVersionEnum';
-import { OrderCartCouponCreation } from '../models/OrderCartCouponCreation';
-import { LicenseOrderableVirtuozzoContainerNumberEnum } from '../models/LicenseOrderableVirtuozzoContainerNumberEnum';
-import { OrderCartGenericDomainOptionsCreation } from '../models/OrderCartGenericDomainOptionsCreation';
-import { DedicatedServerBackupStorageCapacityEnum } from '../models/DedicatedServerBackupStorageCapacityEnum';
-import { LicenseOrderableCpanelVersionEnum } from '../models/LicenseOrderableCpanelVersionEnum';
-import { OrderCatalogPccCatalog } from '../models/OrderCatalogPccCatalog';
-import { DedicatedServerFirewallModelEnum } from '../models/DedicatedServerFirewallModelEnum';
-import { OrderCartGenericOptionDefinition } from '../models/OrderCartGenericOptionDefinition';
-import { SmsChannelEnum } from '../models/SmsChannelEnum';
-import { EmailExchangeOutlookVersionEnum } from '../models/EmailExchangeOutlookVersionEnum';
-import { OrderCartConfigurationItem } from '../models/OrderCartConfigurationItem';
-import { FreefaxQuantityEnum } from '../models/FreefaxQuantityEnum';
-import { OrderCartItem } from '../models/OrderCartItem';
-import { OrderCartGenericDomainCreation } from '../models/OrderCartGenericDomainCreation';
-import { HostingWebBandwidthOfferEnum } from '../models/HostingWebBandwidthOfferEnum';
-import { VeeamCloudConnectOffer } from '../models/VeeamCloudConnectOffer';
-import { OrderCartCart } from '../models/OrderCartCart';
-import { LicensePleskApplicationSetEnum } from '../models/LicensePleskApplicationSetEnum';
-import { DedicatedCloudRessourcesUpgradeTypeEnum } from '../models/DedicatedCloudRessourcesUpgradeTypeEnum';
-import { LicenseWindowsSqlVersionEnum } from '../models/LicenseWindowsSqlVersionEnum';
-import { TelephonyPortabilityOfferType } from '../models/TelephonyPortabilityOfferType';
-import { OrderOrder } from '../models/OrderOrder';
-import { DedicatedServerTrafficOrderEnum } from '../models/DedicatedServerTrafficOrderEnum';
-import { TelephonySpecialNumberCountryEnum } from '../models/TelephonySpecialNumberCountryEnum';
-import { LicenseCloudLinuxVersionEnum } from '../models/LicenseCloudLinuxVersionEnum';
-import { HostingWebDnsZoneEnum } from '../models/HostingWebDnsZoneEnum';
 import { CdnanycastOrderCacheRuleEnum } from '../models/CdnanycastOrderCacheRuleEnum';
-import { LicenseOrderableDirectAdminVersionEnum } from '../models/LicenseOrderableDirectAdminVersionEnum';
-import { LicenseOrderableAntispamEnum } from '../models/LicenseOrderableAntispamEnum';
-import { OrderCatalogCatalog } from '../models/OrderCatalogCatalog';
-import { LicensePleskVersionEnum } from '../models/LicensePleskVersionEnum';
-import { OrderCartGenericDedicatedOptionsCreation } from '../models/OrderCartGenericDedicatedOptionsCreation';
-import { TelephonyNumberSpecialTypologyEnum } from '../models/TelephonyNumberSpecialTypologyEnum';
-import { TelephonyNumberCountryEnum } from '../models/TelephonyNumberCountryEnum';
-import { DedicatedServerBandwidthOrderTypeEnum } from '../models/DedicatedServerBandwidthOrderTypeEnum';
-import { HostingWebModuleOrderableNameEnum } from '../models/HostingWebModuleOrderableNameEnum';
-import { DedicatedServerBandwidthvRackOrderEnum } from '../models/DedicatedServerBandwidthvRackOrderEnum';
-import { VpsPleskLicenseDomainNumberEnum } from '../models/VpsPleskLicenseDomainNumberEnum';
-import { OrderCartConfigurationRequirements } from '../models/OrderCartConfigurationRequirements';
-import { LicenseSqlServerVersionEnum } from '../models/LicenseSqlServerVersionEnum';
-import { TelephonyNumberPoolEnum } from '../models/TelephonyNumberPoolEnum';
 import { HostingPrivateDatabaseAvailableRamSizeEnum } from '../models/HostingPrivateDatabaseAvailableRamSizeEnum';
-import { OrderCartCheckout } from '../models/OrderCartCheckout';
-import { OrderCartProductInformation } from '../models/OrderCartProductInformation';
+import { NichandleLegalFormEnum } from '../models/NichandleLegalFormEnum';
+import { DedicatedCloudRessourcesUpgradeRessourceTypeEnum } from '../models/DedicatedCloudRessourcesUpgradeRessourceTypeEnum';
+import { LicenseWindowsOsVersionEnum } from '../models/LicenseWindowsOsVersionEnum';
+import { TelephonyNumberPoolEnum } from '../models/TelephonyNumberPoolEnum';
+import { OrderCartGenericProductCreation } from '../models/OrderCartGenericProductCreation';
+import { OrderCartGenericDedicatedCreation } from '../models/OrderCartGenericDedicatedCreation';
+import { OrderCartUpdate } from '../models/OrderCartUpdate';
+import { OrderCatalogDedicatedCatalog } from '../models/OrderCatalogDedicatedCatalog';
+import { OrderCartItemConfigurationCreation } from '../models/OrderCartItemConfigurationCreation';
+import { LicenseLicenseTypeEnum } from '../models/LicenseLicenseTypeEnum';
+import { OrderOrder } from '../models/OrderOrder';
+import { OrderCartConfigurationItem } from '../models/OrderCartConfigurationItem';
+import { DedicatedCloudIpCountriesEnum } from '../models/DedicatedCloudIpCountriesEnum';
+import { DedicatedServerOrderableSysFeatureEnum } from '../models/DedicatedServerOrderableSysFeatureEnum';
+import { VpsPleskLicenseDomainNumberEnum } from '../models/VpsPleskLicenseDomainNumberEnum';
+import { DedicatedServerUsbKeyCapacityEnum } from '../models/DedicatedServerUsbKeyCapacityEnum';
+import { DedicatedServerBackupStorageCapacityEnum } from '../models/DedicatedServerBackupStorageCapacityEnum';
+import { OrderCartGenericOptionCreation } from '../models/OrderCartGenericOptionCreation';
+import { HostingWebOrderMxPlanEnum } from '../models/HostingWebOrderMxPlanEnum';
+import { LicenseWindowsSqlVersionEnum } from '../models/LicenseWindowsSqlVersionEnum';
 import { OrderCartDomainPacksProductInformation } from '../models/OrderCartDomainPacksProductInformation';
 import { TelephonyPortabilitySocialReason } from '../models/TelephonyPortabilitySocialReason';
-import { OrderCartGenericOptionCreation } from '../models/OrderCartGenericOptionCreation';
-import { OrderCatalogDedicatedCatalog } from '../models/OrderCatalogDedicatedCatalog';
-import { DedicatedCloudRessourcesUpgradeRessourceTypeEnum } from '../models/DedicatedCloudRessourcesUpgradeRessourceTypeEnum';
-import { VpsAdditionalDiskAdditionalDiskSizeEnum } from '../models/VpsAdditionalDiskAdditionalDiskSizeEnum';
-import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
-import { OrderCatalogPublicDedicatedServerCatalog } from '../models/OrderCatalogPublicDedicatedServerCatalog';
-import { CdnanycastOrderQuotaEnum } from '../models/CdnanycastOrderQuotaEnum';
-import { OrderCartItemConfigurationCreation } from '../models/OrderCartItemConfigurationCreation';
-import { OrderCartGenericDedicatedCreation } from '../models/OrderCartGenericDedicatedCreation';
-import { HostingPrivateDatabaseOrderableVersionEnum } from '../models/HostingPrivateDatabaseOrderableVersionEnum';
-import { DedicatedServerOrderableSysFeatureEnum } from '../models/DedicatedServerOrderableSysFeatureEnum';
-import { TelephonyPortabilityNumberType } from '../models/TelephonyPortabilityNumberType';
-import { HostingPrivateDatabaseOfferEnum } from '../models/HostingPrivateDatabaseOfferEnum';
+import { OrderCartItemUpdate } from '../models/OrderCartItemUpdate';
+import { EmailExchangeAccountQuotaEnum } from '../models/EmailExchangeAccountQuotaEnum';
+import { LicenseOrderablePleskLanguagePackEnum } from '../models/LicenseOrderablePleskLanguagePackEnum';
+import { DedicatedCloudOrderableIpBlockRangeEnum } from '../models/DedicatedCloudOrderableIpBlockRangeEnum';
+import { LicenseOrderablePleskDomainNumberEnum } from '../models/LicenseOrderablePleskDomainNumberEnum';
+import { HostingWebOfferEnum } from '../models/HostingWebOfferEnum';
+import { OrderCatalogCatalog } from '../models/OrderCatalogCatalog';
+import { OrderCartGenericDomainCreation } from '../models/OrderCartGenericDomainCreation';
 import { TelephonySecurityDepositAmountsEnum } from '../models/TelephonySecurityDepositAmountsEnum';
+import { CdnanycastOrderQuotaEnum } from '../models/CdnanycastOrderQuotaEnum';
+import { OrderCatalogPublicDedicatedServerCatalog } from '../models/OrderCatalogPublicDedicatedServerCatalog';
+import { TelephonyPortabilityOfferType } from '../models/TelephonyPortabilityOfferType';
+import { EmailExchangeOutlookVersionEnum } from '../models/EmailExchangeOutlookVersionEnum';
+import { TelephonyPortabilityCountriesAvailable } from '../models/TelephonyPortabilityCountriesAvailable';
+import { HostingWebModuleOrderableNameEnum } from '../models/HostingWebModuleOrderableNameEnum';
+import { OrderUpgradeOperationAndOrder } from '../models/OrderUpgradeOperationAndOrder';
+import { DedicatedServerBandwidthOrderTypeEnum } from '../models/DedicatedServerBandwidthOrderTypeEnum';
+import { OrderCartGenericProductDefinition } from '../models/OrderCartGenericProductDefinition';
+import { TelephonyPortabilitySpecialNumberCategoryEnum } from '../models/TelephonyPortabilitySpecialNumberCategoryEnum';
+import { EmailExchangeOvhLicenceEnum } from '../models/EmailExchangeOvhLicenceEnum';
+import { DedicatedServerBandwidthOrderEnum } from '../models/DedicatedServerBandwidthOrderEnum';
+import { LicenseOrderableCpanelVersionEnum } from '../models/LicenseOrderableCpanelVersionEnum';
+import { LicenseWorkLightVersionEnum } from '../models/LicenseWorkLightVersionEnum';
+import { HostingPrivateDatabaseOfferEnum } from '../models/HostingPrivateDatabaseOfferEnum';
+import { TelephonyNumberOffer } from '../models/TelephonyNumberOffer';
+import { EmailDomainOfferEnum } from '../models/EmailDomainOfferEnum';
+import { TelephonyLineTypeEnum } from '../models/TelephonyLineTypeEnum';
+import { TelephonyNumberCountryEnum } from '../models/TelephonyNumberCountryEnum';
+import { OrderCartProductInformation } from '../models/OrderCartProductInformation';
+import { LicenseOrderableVirtuozzoVersionEnum } from '../models/LicenseOrderableVirtuozzoVersionEnum';
+import { HostingWebBandwidthOfferEnum } from '../models/HostingWebBandwidthOfferEnum';
+import { HostingPrivateDatabaseDatacenterEnum } from '../models/HostingPrivateDatabaseDatacenterEnum';
+import { DedicatedCloudAdditionalBandwidthEnum } from '../models/DedicatedCloudAdditionalBandwidthEnum';
+import { DedicatedCloudRessourcesUpgradeTypeEnum } from '../models/DedicatedCloudRessourcesUpgradeTypeEnum';
+import { HostingWebDnsZoneEnum } from '../models/HostingWebDnsZoneEnum';
+import { LicenseOrderableAntispamEnum } from '../models/LicenseOrderableAntispamEnum';
+import { OrderCartCart } from '../models/OrderCartCart';
+import { DedicatedServerTrafficOrderEnum } from '../models/DedicatedServerTrafficOrderEnum';
+import { OrderCartCheckout } from '../models/OrderCartCheckout';
+import { HostingWebCdnOfferEnum } from '../models/HostingWebCdnOfferEnum';
+import { OrderCatalogPublicCatalog } from '../models/OrderCatalogPublicCatalog';
+import { OrderCartDomainPacksCreation } from '../models/OrderCartDomainPacksCreation';
+import { OrderCartCouponCreation } from '../models/OrderCartCouponCreation';
+import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
+import { OverTheBoxShippingMethodEnum } from '../models/OverTheBoxShippingMethodEnum';
+import { OrderCartItem } from '../models/OrderCartItem';
+import { HostingWebDatabaseSqlPersoOfferEnum } from '../models/HostingWebDatabaseSqlPersoOfferEnum';
+import { TelephonySpecialNumberCountryEnum } from '../models/TelephonySpecialNumberCountryEnum';
+import { OrderCatalogPrivateCloudCatalog } from '../models/OrderCatalogPrivateCloudCatalog';
+import { TelephonyPortabilityNumberType } from '../models/TelephonyPortabilityNumberType';
+import { FreefaxQuantityEnum } from '../models/FreefaxQuantityEnum';
+import { SmsChannelEnum } from '../models/SmsChannelEnum';
+import { LicenseSqlServerVersionEnum } from '../models/LicenseSqlServerVersionEnum';
+import { OrderCartGenericDedicatedOptionsCreation } from '../models/OrderCartGenericDedicatedOptionsCreation';
+import { LicenseCloudLinuxVersionEnum } from '../models/LicenseCloudLinuxVersionEnum';
+import { DedicatedServerFirewallModelEnum } from '../models/DedicatedServerFirewallModelEnum';
+import { LicensePleskVersionEnum } from '../models/LicensePleskVersionEnum';
+import { VeeamCloudConnectOffer } from '../models/VeeamCloudConnectOffer';
+import { LicenseOrderableVirtuozzoContainerNumberEnum } from '../models/LicenseOrderableVirtuozzoContainerNumberEnum';
+import { LicensePleskApplicationSetEnum } from '../models/LicensePleskApplicationSetEnum';
+import { DedicatedServerBandwidthvRackOrderEnum } from '../models/DedicatedServerBandwidthvRackOrderEnum';
+import { OrderCartConfigurationRequirements } from '../models/OrderCartConfigurationRequirements';
+import { OrderCatalogPccCatalog } from '../models/OrderCatalogPccCatalog';
+import { HostingPrivateDatabaseOrderableVersionEnum } from '../models/HostingPrivateDatabaseOrderableVersionEnum';
+import { TelephonyNumberSpecialTypologyEnum } from '../models/TelephonyNumberSpecialTypologyEnum';
+import { OrderCartCreation } from '../models/OrderCartCreation';
+import { VpsAdditionalDiskAdditionalDiskSizeEnum } from '../models/VpsAdditionalDiskAdditionalDiskSizeEnum';
+import { OrderCartGenericOptionDefinition } from '../models/OrderCartGenericOptionDefinition';
+import { OrderCartGenericDomainOptionsCreation } from '../models/OrderCartGenericDomainOptionsCreation';
+import { LicenseOrderableAntivirusEnum } from '../models/LicenseOrderableAntivirusEnum';
+import { LicenseOrderableDirectAdminVersionEnum } from '../models/LicenseOrderableDirectAdminVersionEnum';
 import OVHBase from '../ovh';
 
 class OrderHandler {
@@ -105,37 +105,37 @@ class OrderHandler {
   }
 
   /** List of your OVH order carts */
-  getCart = (): Promise<string> => {
+  listCarts = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cart');
   };
 
   /** Create a new OVH order cart */
-  postCart = (body: OrderCartCreation): Promise<OrderCartCart> => {
+  createCart = (body: OrderCartCreation): Promise<OrderCartCart> => {
     return this.ovh.request('POST', '/order/cart', body);
   };
 
   /** Delete a cart */
-  deleteCartCartId = (cartId: string): Promise<void> => {
+  deleteCartByCartId = (cartId: string): Promise<void> => {
     return this.ovh.request('DELETE', `/order/cart/${cartId}`);
   };
 
   /** Retrieve information about a specific cart */
-  getCartCartId = (cartId: string): Promise<OrderCartCart> => {
+  getCartByCartId = (cartId: string): Promise<OrderCartCart> => {
     return this.ovh.request('GET', `/order/cart/${cartId}`);
   };
 
   /** Modify information about a specific cart */
-  putCartCartId = (cartId: string, body: OrderCartUpdate): Promise<OrderCartCart> => {
+  putCartByCartId = (cartId: string, body: OrderCartUpdate): Promise<OrderCartCart> => {
     return this.ovh.request('PUT', `/order/cart/${cartId}`, body);
   };
 
   /** Get informations about analytics offers */
-  getCartCartIdAnalytics = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartAnalyticsByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/analytics`);
   };
 
   /** Post a new analytics item in your cart */
-  postCartCartIdAnalytics = (
+  postCartAnalyticsByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -143,12 +143,14 @@ class OrderHandler {
   };
 
   /** Get informations about analytics options */
-  getCartCartIdAnalyticsOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartAnalyticsOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/analytics/options`);
   };
 
   /** Post a new analytics addon in your cart */
-  postCartCartIdAnalyticsOptions = (
+  postCartAnalyticsOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -156,12 +158,12 @@ class OrderHandler {
   };
 
   /** Get informations about Anthos offers */
-  getCartCartIdAnthos = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartAnthosByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/anthos`);
   };
 
   /** Post a new Anthos item in your cart */
-  postCartCartIdAnthos = (
+  postCartAnthosByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -169,12 +171,12 @@ class OrderHandler {
   };
 
   /** Get informations about Anthos options */
-  getCartCartIdAnthosOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartAnthosOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/anthos/options`);
   };
 
   /** Post a new Anthos option in your cart */
-  postCartCartIdAnthosOptions = (
+  postCartAnthosOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -182,17 +184,19 @@ class OrderHandler {
   };
 
   /** Assign a shopping cart to an loggedin client */
-  postCartCartIdAssign = (cartId: string): Promise<void> => {
+  postCartAssignByCartId = (cartId: string): Promise<void> => {
     return this.ovh.request('POST', `/order/cart/${cartId}/assign`);
   };
 
   /** Get informations about a baremetal server */
-  getCartCartIdBaremetalServers = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartBaremetalServersByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/baremetalServers`);
   };
 
   /** Post a new baremetal server item in your cart */
-  postCartCartIdBaremetalServers = (
+  postCartBaremetalServersByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -200,14 +204,14 @@ class OrderHandler {
   };
 
   /** Get informations about baremetal server options */
-  getCartCartIdBaremetalServersOptions = (
+  getCartBaremetalServersOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/baremetalServers/options`);
   };
 
   /** Post a new baremetal server option in your cart */
-  postCartCartIdBaremetalServersOptions = (
+  postCartBaremetalServersOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -215,12 +219,14 @@ class OrderHandler {
   };
 
   /** Get information about bring your own IP addresses offers */
-  getCartCartIdBringYourOwnIp = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartBringYourOwnIpByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/bringYourOwnIp`);
   };
 
   /** Post a new bring your own IP addresses item in your cart */
-  postCartCartIdBringYourOwnIp = (
+  postCartBringYourOwnIpByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -228,12 +234,12 @@ class OrderHandler {
   };
 
   /** Get informations about CDN offers */
-  getCartCartIdCdn = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartCdnByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/cdn`);
   };
 
   /** Post a new CDN item in your cart */
-  postCartCartIdCdn = (
+  postCartCdnByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -241,12 +247,12 @@ class OrderHandler {
   };
 
   /** Get informations about CDN options */
-  getCartCartIdCdnOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartCdnOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/cdn/options`);
   };
 
   /** Post a new CDN option in your cart */
-  postCartCartIdCdnOptions = (
+  postCartCdnOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -254,12 +260,12 @@ class OrderHandler {
   };
 
   /** Get informations about Ceph as a Service offers */
-  getCartCartIdCephaas = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartCephaasByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/cephaas`);
   };
 
   /** Post a new Ceph as a Service item in your cart */
-  postCartCartIdCephaas = (
+  postCartCephaasByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -267,12 +273,12 @@ class OrderHandler {
   };
 
   /** Get informations about Ceph as a Service options */
-  getCartCartIdCephaasOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartCephaasOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/cephaas/options`);
   };
 
   /** Post a new Ceph as a Service option in your cart */
-  postCartCartIdCephaasOptions = (
+  postCartCephaasOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -280,22 +286,22 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information for your cart */
-  getCartCartIdCheckout = (cartId: string): Promise<OrderOrder> => {
+  getCartCheckoutByCartId = (cartId: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/checkout`);
   };
 
   /** Validate your shopping and create order */
-  postCartCartIdCheckout = (cartId: string, body: OrderCartCheckout): Promise<OrderOrder> => {
+  validateCartCheckoutByCartId = (cartId: string, body: OrderCartCheckout): Promise<OrderOrder> => {
     return this.ovh.request('POST', `/order/cart/${cartId}/checkout`, body);
   };
 
   /** Get informations about Public Cloud offers */
-  getCartCartIdCloud = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartCloudByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/cloud`);
   };
 
   /** Post a new Public Cloud item in your cart */
-  postCartCartIdCloud = (
+  postCartCloudByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -303,12 +309,12 @@ class OrderHandler {
   };
 
   /** Get informations about Public Cloud options */
-  getCartCartIdCloudOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartCloudOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/cloud/options`);
   };
 
   /** Post a new Public Cloud option in your cart */
-  postCartCartIdCloudOptions = (
+  postCartCloudOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -316,12 +322,12 @@ class OrderHandler {
   };
 
   /** Get all cloud db offers available */
-  getCartCartIdCloudDB = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartCloudDBByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/cloudDB`);
   };
 
   /** Add a cloudDB in your cart */
-  postCartCartIdCloudDB = (
+  addCartCloudDBByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -329,12 +335,12 @@ class OrderHandler {
   };
 
   /** Get informations about Cloud Web offers */
-  getCartCartIdCloudweb = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartCloudwebByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/cloudweb`);
   };
 
   /** Post a new Cloud Web item in your cart */
-  postCartCartIdCloudweb = (
+  postCartCloudwebByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -342,12 +348,14 @@ class OrderHandler {
   };
 
   /** Get informations about Cloud Web options */
-  getCartCartIdCloudwebOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartCloudwebOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/cloudweb/options`);
   };
 
   /** Post a new Cloud Web option in your cart */
-  postCartCartIdCloudwebOptions = (
+  postCartCloudwebOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -355,27 +363,27 @@ class OrderHandler {
   };
 
   /** Delete a coupon from cart */
-  deleteCartCartIdCoupon = (cartId: string): Promise<void> => {
+  deleteCartCouponByCartId = (cartId: string): Promise<void> => {
     return this.ovh.request('DELETE', `/order/cart/${cartId}/coupon`);
   };
 
   /** Retrieve coupons associated to cart */
-  getCartCartIdCoupon = (cartId: string): Promise<string> => {
+  getCartCouponByCartId = (cartId: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/coupon`);
   };
 
   /** Add a new coupon to cart */
-  postCartCartIdCoupon = (cartId: string, body: OrderCartCouponCreation): Promise<string> => {
+  addCartCouponByCartId = (cartId: string, body: OrderCartCouponCreation): Promise<string[]> => {
     return this.ovh.request('POST', `/order/cart/${cartId}/coupon`, body);
   };
 
   /** Get informations about SaaS CSP2 offers */
-  getCartCartIdCsp2 = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartCsp2ByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/csp2`);
   };
 
   /** Post a new SaaS CSP2 offer item in your cart */
-  postCartCartIdCsp2 = (
+  postCartCsp2ByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -383,12 +391,12 @@ class OrderHandler {
   };
 
   /** Get informations about SaaS CSP2 options */
-  getCartCartIdCsp2Options = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartCsp2OptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/csp2/options`);
   };
 
   /** Post a new SaaS CSP2 option in your cart */
-  postCartCartIdCsp2Options = (
+  postCartCsp2OptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -396,12 +404,14 @@ class OrderHandler {
   };
 
   /** Get informations about a timeseries offer */
-  getCartCartIdDbaasTimeseries = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartDbaasTimeseriesByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dbaasTimeseries`);
   };
 
   /** Post a new timeseries offer item in your cart */
-  postCartCartIdDbaasTimeseries = (
+  postCartDbaasTimeseriesByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -409,12 +419,12 @@ class OrderHandler {
   };
 
   /** Get informations about a dedicated server */
-  getCartCartIdDedicated = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartDedicatedByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicated`);
   };
 
   /** Post a new dedicated server item in your cart */
-  postCartCartIdDedicated = (
+  postCartDedicatedByCartId = (
     cartId: string,
     body: OrderCartGenericDedicatedCreation
   ): Promise<OrderCartItem> => {
@@ -422,12 +432,14 @@ class OrderHandler {
   };
 
   /** Get informations about dedicated server options */
-  getCartCartIdDedicatedOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartDedicatedOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicated/options`);
   };
 
   /** Post a new dedicated server option in your cart */
-  postCartCartIdDedicatedOptions = (
+  postCartDedicatedOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericDedicatedOptionsCreation
   ): Promise<OrderCartItem> => {
@@ -435,12 +447,14 @@ class OrderHandler {
   };
 
   /** Get informations about a dedicated server */
-  getCartCartIdDedicatedCloud = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartDedicatedCloudByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicatedCloud`);
   };
 
   /** Post a new dedicated server item in your cart */
-  postCartCartIdDedicatedCloud = (
+  postCartDedicatedCloudByCartId = (
     cartId: string,
     body: OrderCartGenericDedicatedCreation
   ): Promise<OrderCartItem> => {
@@ -448,14 +462,14 @@ class OrderHandler {
   };
 
   /** Get informations about dedicated server options */
-  getCartCartIdDedicatedCloudOptions = (
+  getCartDedicatedCloudOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicatedCloud/options`);
   };
 
   /** Post a new dedicated server option in your cart */
-  postCartCartIdDedicatedCloudOptions = (
+  postCartDedicatedCloudOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericDedicatedOptionsCreation
   ): Promise<OrderCartItem> => {
@@ -463,14 +477,14 @@ class OrderHandler {
   };
 
   /** Get informations about a dedicated Direct Sales server */
-  getCartCartIdDedicatedDirectSales = (
+  getCartDedicatedDirectSalesByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicatedDirectSales`);
   };
 
   /** Post a new dedicated Direct Sales server item in your cart */
-  postCartCartIdDedicatedDirectSales = (
+  postCartDedicatedDirectSalesByCartId = (
     cartId: string,
     body: { duration: string; planCode: string; pricingMode: string; quantity: number }
   ): Promise<OrderCartItem> => {
@@ -478,14 +492,14 @@ class OrderHandler {
   };
 
   /** Get informations about dedicated Direct Sales server options */
-  getCartCartIdDedicatedDirectSalesOptions = (
+  getCartDedicatedDirectSalesOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicatedDirectSales/options`);
   };
 
   /** Post a new dedicated Direct Sales server option in your cart */
-  postCartCartIdDedicatedDirectSalesOptions = (
+  postCartDedicatedDirectSalesOptionsByCartId = (
     cartId: string,
     body: {
       duration: string;
@@ -499,12 +513,12 @@ class OrderHandler {
   };
 
   /** Get informations about a dedicated labs server */
-  getCartCartIdDedicatedLabs = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartDedicatedLabsByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicatedLabs`);
   };
 
   /** Post a new dedicated labs server item in your cart */
-  postCartCartIdDedicatedLabs = (
+  postCartDedicatedLabsByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -512,14 +526,14 @@ class OrderHandler {
   };
 
   /** Get informations about dedicated labs server options */
-  getCartCartIdDedicatedLabsOptions = (
+  getCartDedicatedLabsOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicatedLabs/options`);
   };
 
   /** Post a new dedicated labs server option in your cart */
-  postCartCartIdDedicatedLabsOptions = (
+  postCartDedicatedLabsOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -527,12 +541,14 @@ class OrderHandler {
   };
 
   /** Get information about dedicatedLegacy */
-  getCartCartIdDedicatedLegacy = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartDedicatedLegacyByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicatedLegacy`);
   };
 
   /** Post a new dedicatedLegacy item in your cart */
-  postCartCartIdDedicatedLegacy = (
+  postCartDedicatedLegacyByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -540,14 +556,14 @@ class OrderHandler {
   };
 
   /** Get information about the options of Ovh offers */
-  getCartCartIdDedicatedLegacyOptions = (
+  getCartDedicatedLegacyOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicatedLegacy/options`);
   };
 
   /** Post a new Ovh option in your cart */
-  postCartCartIdDedicatedLegacyOptions = (
+  postCartDedicatedLegacyOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -555,12 +571,14 @@ class OrderHandler {
   };
 
   /** Get informations about a dedicated server */
-  getCartCartIdDedicatedPciVps = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartDedicatedPciVpsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicatedPciVps`);
   };
 
   /** Post a new dedicated server item in your cart */
-  postCartCartIdDedicatedPciVps = (
+  postCartDedicatedPciVpsByCartId = (
     cartId: string,
     body: OrderCartGenericDedicatedCreation
   ): Promise<OrderCartItem> => {
@@ -568,14 +586,14 @@ class OrderHandler {
   };
 
   /** Get informations about dedicated server options */
-  getCartCartIdDedicatedPciVpsOptions = (
+  getCartDedicatedPciVpsOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicatedPciVps/options`);
   };
 
   /** Post a new dedicated server option in your cart */
-  postCartCartIdDedicatedPciVpsOptions = (
+  postCartDedicatedPciVpsOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericDedicatedOptionsCreation
   ): Promise<OrderCartItem> => {
@@ -583,12 +601,14 @@ class OrderHandler {
   };
 
   /** Get informations about a dedicated server for US Reseller */
-  getCartCartIdDedicatedReseller = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartDedicatedResellerByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicatedReseller`);
   };
 
   /** Post a new dedicated server item in your cart */
-  postCartCartIdDedicatedReseller = (
+  postCartDedicatedResellerByCartId = (
     cartId: string,
     body: { duration: string; planCode: string; pricingMode: string; quantity: number }
   ): Promise<OrderCartItem> => {
@@ -596,14 +616,14 @@ class OrderHandler {
   };
 
   /** Get informations about dedicated server options */
-  getCartCartIdDedicatedResellerOptions = (
+  getCartDedicatedResellerOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dedicatedReseller/options`);
   };
 
   /** Post a new dedicated server option in your cart */
-  postCartCartIdDedicatedResellerOptions = (
+  postCartDedicatedResellerOptionsByCartId = (
     cartId: string,
     body: {
       duration: string;
@@ -617,12 +637,12 @@ class OrderHandler {
   };
 
   /** Get informations about Desk As A Service offers */
-  getCartCartIdDeskaas = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartDeskaasByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/deskaas`);
   };
 
   /** Post a new Desk as a service item in your cart */
-  postCartCartIdDeskaas = (
+  postCartDeskaasByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -630,12 +650,12 @@ class OrderHandler {
   };
 
   /** Get informations about Dedicated Discover server offers */
-  getCartCartIdDiscover = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartDiscoverByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/discover`);
   };
 
   /** Post a new Dedicated Discover server item in your cart */
-  postCartCartIdDiscover = (
+  postCartDiscoverByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -643,12 +663,14 @@ class OrderHandler {
   };
 
   /** Get informations about Dedicated Discover server options */
-  getCartCartIdDiscoverOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartDiscoverOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/discover/options`);
   };
 
   /** Post a new Dedicated Discover server option in your cart */
-  postCartCartIdDiscoverOptions = (
+  postCartDiscoverOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -656,12 +678,12 @@ class OrderHandler {
   };
 
   /** Get informations about DNS zone offer */
-  getCartCartIdDns = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartDnsByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dns`);
   };
 
   /** Post a new DNS zone item in your cart */
-  postCartCartIdDns = (
+  postCartDnsByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -669,12 +691,12 @@ class OrderHandler {
   };
 
   /** Get informations about DNS options */
-  getCartCartIdDnsOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartDnsOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/dns/options`);
   };
 
   /** Post a new DNS option in your cart */
-  postCartCartIdDnsOptions = (
+  postCartDnsOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -682,12 +704,12 @@ class OrderHandler {
   };
 
   /** Get informations about a domain name */
-  getCartCartIdDomain = (cartId: string): Promise<OrderCartProductInformation> => {
+  getCartDomainByCartId = (cartId: string): Promise<OrderCartProductInformation[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/domain`);
   };
 
   /** Post a new domain in your cart */
-  postCartCartIdDomain = (
+  postCartDomainByCartId = (
     cartId: string,
     body: OrderCartGenericDomainCreation
   ): Promise<OrderCartItem> => {
@@ -695,12 +717,12 @@ class OrderHandler {
   };
 
   /** Get informations about domain names options */
-  getCartCartIdDomainOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartDomainOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/domain/options`);
   };
 
   /** Post a new domain name option in your cart */
-  postCartCartIdDomainOptions = (
+  postCartDomainOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericDomainOptionsCreation
   ): Promise<OrderCartItem> => {
@@ -708,12 +730,14 @@ class OrderHandler {
   };
 
   /** Get informations about Domain packs offers (AllDom) */
-  getCartCartIdDomainPacks = (cartId: string): Promise<OrderCartDomainPacksProductInformation> => {
+  getCartDomainPacksByCartId = (
+    cartId: string
+  ): Promise<OrderCartDomainPacksProductInformation[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/domainPacks`);
   };
 
   /** Post a new Domain Packs item (AllDom) in your cart */
-  postCartCartIdDomainPacks = (
+  postCartDomainPacksByCartId = (
     cartId: string,
     body: OrderCartDomainPacksCreation
   ): Promise<OrderCartItem> => {
@@ -721,17 +745,17 @@ class OrderHandler {
   };
 
   /** Get informations about Domain Restore */
-  getCartCartIdDomainRestore = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartDomainRestoreByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/domainRestore`);
   };
 
   /** Get informations about a domain name transfer */
-  getCartCartIdDomainTransfer = (cartId: string): Promise<OrderCartProductInformation> => {
+  getCartDomainTransferByCartId = (cartId: string): Promise<OrderCartProductInformation[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/domainTransfer`);
   };
 
   /** Post a new domain tranfer in your cart */
-  postCartCartIdDomainTransfer = (
+  postCartDomainTransferByCartId = (
     cartId: string,
     body: OrderCartGenericDomainCreation
   ): Promise<OrderCartItem> => {
@@ -739,14 +763,14 @@ class OrderHandler {
   };
 
   /** Get informations about domain names transfer options */
-  getCartCartIdDomainTransferOptions = (
+  getCartDomainTransferOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/domainTransfer/options`);
   };
 
   /** Post a new domain name transfer option in your cart */
-  postCartCartIdDomainTransferOptions = (
+  postCartDomainTransferOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericDomainOptionsCreation
   ): Promise<OrderCartItem> => {
@@ -754,12 +778,12 @@ class OrderHandler {
   };
 
   /** Get information about a eco */
-  getCartCartIdEco = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartEcoByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/eco`);
   };
 
   /** Post a new eco item in your cart */
-  postCartCartIdEco = (
+  postCartEcoByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -767,12 +791,12 @@ class OrderHandler {
   };
 
   /** Get information about the options of a Eco */
-  getCartCartIdEcoOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartEcoOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/eco/options`);
   };
 
   /** Post a new Eco option in your cart */
-  postCartCartIdEcoOptions = (
+  postCartEcoOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -780,12 +804,12 @@ class OrderHandler {
   };
 
   /** Get all available packs available with emails packs */
-  getCartCartIdEmailDomain = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartEmailDomainByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/emailDomain`);
   };
 
   /** Add a 1-domain emails pack in your cart */
-  postCartCartIdEmailDomain = (
+  addCartEmailDomainByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -793,12 +817,12 @@ class OrderHandler {
   };
 
   /** Get informations about EmailPro offers */
-  getCartCartIdEmailpro = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartEmailproByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/emailpro`);
   };
 
   /** Post a new EmailPro item in your cart */
-  postCartCartIdEmailpro = (
+  postCartEmailproByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -806,12 +830,14 @@ class OrderHandler {
   };
 
   /** Get informations about EmailPro options */
-  getCartCartIdEmailproOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartEmailproOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/emailpro/options`);
   };
 
   /** Post a new EmailPro option in your cart */
-  postCartCartIdEmailproOptions = (
+  postCartEmailproOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -819,12 +845,12 @@ class OrderHandler {
   };
 
   /** Get informations about Exchange offers */
-  getCartCartIdExchange = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartExchangeByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/exchange`);
   };
 
   /** Post a new Exchange item in your cart */
-  postCartCartIdExchange = (
+  postCartExchangeByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -832,12 +858,14 @@ class OrderHandler {
   };
 
   /** Get informations about Exchange options */
-  getCartCartIdExchangeOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartExchangeOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/exchange/options`);
   };
 
   /** Post a new Exchange option in your cart */
-  postCartCartIdExchangeOptions = (
+  postCartExchangeOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -845,14 +873,14 @@ class OrderHandler {
   };
 
   /** Get informations about Exchange Enterprise offers */
-  getCartCartIdExchangeEnterprise = (
+  getCartExchangeEnterpriseByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/exchangeEnterprise`);
   };
 
   /** Post a new Exchange Enterprise item in your cart */
-  postCartCartIdExchangeEnterprise = (
+  postCartExchangeEnterpriseByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -860,14 +888,14 @@ class OrderHandler {
   };
 
   /** Get informations about Exchange Enterprise options */
-  getCartCartIdExchangeEnterpriseOptions = (
+  getCartExchangeEnterpriseOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/exchangeEnterprise/options`);
   };
 
   /** Post a new Exchange Enterprise option in your cart */
-  postCartCartIdExchangeEnterpriseOptions = (
+  postCartExchangeEnterpriseOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -875,12 +903,12 @@ class OrderHandler {
   };
 
   /** Get informations about IP addresses offers */
-  getCartCartIdIp = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartIpByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/ip`);
   };
 
   /** Post a new IP addresses item in your cart */
-  postCartCartIdIp = (
+  postCartIpByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -888,12 +916,12 @@ class OrderHandler {
   };
 
   /** Get informations about IP addresses options */
-  getCartCartIdIpOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartIpOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/ip/options`);
   };
 
   /** Post a new IP addresses option in your cart */
-  postCartCartIdIpOptions = (
+  postCartIpOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -901,12 +929,14 @@ class OrderHandler {
   };
 
   /** Get informations about IP Load-Balancing offers */
-  getCartCartIdIpLoadbalancing = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartIpLoadbalancingByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/ipLoadbalancing`);
   };
 
   /** Post a new IP Load-Balancing item in your cart */
-  postCartCartIdIpLoadbalancing = (
+  postCartIpLoadbalancingByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -914,14 +944,14 @@ class OrderHandler {
   };
 
   /** Get informations about IP Load-Balancing options */
-  getCartCartIdIpLoadbalancingOptions = (
+  getCartIpLoadbalancingOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/ipLoadbalancing/options`);
   };
 
   /** Post a new IP Load-Balancing option in your cart */
-  postCartCartIdIpLoadbalancingOptions = (
+  postCartIpLoadbalancingOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -929,12 +959,12 @@ class OrderHandler {
   };
 
   /** Get information about IP addresses reseller offers */
-  getCartCartIdIpReseller = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartIpResellerByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/ipReseller`);
   };
 
   /** Post a new IP address reseller item in your cart */
-  postCartCartIdIpReseller = (
+  postCartIpResellerByCartId = (
     cartId: string,
     body: { duration: string; planCode: string; pricingMode: string; quantity: number }
   ): Promise<OrderCartItem> => {
@@ -942,12 +972,12 @@ class OrderHandler {
   };
 
   /** Get informations about offers */
-  getCartCartIdIspPublic = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartIspPublicByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/ispPublic`);
   };
 
   /** Post a new item in your cart */
-  postCartCartIdIspPublic = (
+  postCartIspPublicByCartId = (
     cartId: string,
     body: { duration: string; planCode: string; pricingMode: string; quantity: number }
   ): Promise<OrderCartItem> => {
@@ -955,12 +985,14 @@ class OrderHandler {
   };
 
   /** Get informations about options */
-  getCartCartIdIspPublicOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartIspPublicOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/ispPublic/options`);
   };
 
   /** Post a new option in your cart */
-  postCartCartIdIspPublicOptions = (
+  postCartIspPublicOptionsByCartId = (
     cartId: string,
     body: {
       duration: string;
@@ -974,12 +1006,12 @@ class OrderHandler {
   };
 
   /** Get informations about offers */
-  getCartCartIdIspReseller = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartIspResellerByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/ispReseller`);
   };
 
   /** Post a new item in your cart */
-  postCartCartIdIspReseller = (
+  postCartIspResellerByCartId = (
     cartId: string,
     body: { duration: string; planCode: string; pricingMode: string; quantity: number }
   ): Promise<OrderCartItem> => {
@@ -987,12 +1019,14 @@ class OrderHandler {
   };
 
   /** Get informations about options */
-  getCartCartIdIspResellerOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartIspResellerOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/ispReseller/options`);
   };
 
   /** Post a new option in your cart */
-  postCartCartIdIspResellerOptions = (
+  postCartIspResellerOptionsByCartId = (
     cartId: string,
     body: {
       duration: string;
@@ -1006,22 +1040,22 @@ class OrderHandler {
   };
 
   /** List all the items of a cart */
-  getCartCartIdItem = (cartId: string): Promise<number> => {
+  listCartItemsByCartId = (cartId: string): Promise<number[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/item`);
   };
 
   /** Delete an item from a cart */
-  deleteCartCartIdItemItemId = (cartId: string, itemId: number): Promise<void> => {
+  deleteCartItemByCartIdAndItemId = (cartId: string, itemId: number): Promise<void> => {
     return this.ovh.request('DELETE', `/order/cart/${cartId}/item/${itemId}`);
   };
 
   /** Retrieve information about a specific item of a cart */
-  getCartCartIdItemItemId = (cartId: string, itemId: number): Promise<OrderCartItem> => {
+  getCartItemByCartIdAndItemId = (cartId: string, itemId: number): Promise<OrderCartItem> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/item/${itemId}`);
   };
 
   /** Update some values on a cart item */
-  putCartCartIdItemItemId = (
+  updateCartItemByCartIdAndItemId = (
     cartId: string,
     itemId: number,
     body: OrderCartItemUpdate
@@ -1030,12 +1064,15 @@ class OrderHandler {
   };
 
   /** Retrieve all configuration item of the cart item */
-  getCartCartIdItemItemIdConfiguration = (cartId: string, itemId: number): Promise<number> => {
+  getCartItemConfigurationByCartIdAndItemId = (
+    cartId: string,
+    itemId: number
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/item/${itemId}/configuration`);
   };
 
   /** Setup configuration item for the product */
-  postCartCartIdItemItemIdConfiguration = (
+  postCartItemConfigurationByCartIdAndItemId = (
     cartId: string,
     itemId: number,
     body: OrderCartItemConfigurationCreation
@@ -1044,7 +1081,7 @@ class OrderHandler {
   };
 
   /** Delete configuration item */
-  deleteCartCartIdItemItemIdConfigurationConfigurationId = (
+  deleteCartItemConfigurationByCartIdAndItemIdAndConfigurationId = (
     cartId: string,
     configurationId: number,
     itemId: number
@@ -1056,7 +1093,7 @@ class OrderHandler {
   };
 
   /** Retrieve configuration item */
-  getCartCartIdItemItemIdConfigurationConfigurationId = (
+  getCartItemConfigurationByCartIdAndItemIdAndConfigurationId = (
     cartId: string,
     configurationId: number,
     itemId: number
@@ -1068,20 +1105,20 @@ class OrderHandler {
   };
 
   /** Retrieve all required configuration item of the cart item */
-  getCartCartIdItemItemIdRequiredConfiguration = (
+  getCartItemRequiredConfigurationByCartIdAndItemId = (
     cartId: string,
     itemId: number
-  ): Promise<OrderCartConfigurationRequirements> => {
+  ): Promise<OrderCartConfigurationRequirements[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/item/${itemId}/requiredConfiguration`);
   };
 
   /** Get informations about Kubernetes offers */
-  getCartCartIdKubernetes = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartKubernetesByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/kubernetes`);
   };
 
   /** Post a new Kubernetes item in your cart */
-  postCartCartIdKubernetes = (
+  postCartKubernetesByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1089,12 +1126,14 @@ class OrderHandler {
   };
 
   /** Get informations about Kubernetes options */
-  getCartCartIdKubernetesOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartKubernetesOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/kubernetes/options`);
   };
 
   /** Post a new Kubernetes option in your cart */
-  postCartCartIdKubernetesOptions = (
+  postCartKubernetesOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1102,12 +1141,14 @@ class OrderHandler {
   };
 
   /** Get informations about CloudLinux licenses offers */
-  getCartCartIdLicenseCloudLinux = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartLicenseCloudLinuxByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/licenseCloudLinux`);
   };
 
   /** Post a new CloudLinux license item in your cart */
-  postCartCartIdLicenseCloudLinux = (
+  postCartLicenseCloudLinuxByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1115,14 +1156,14 @@ class OrderHandler {
   };
 
   /** Get informations about Directadmin licenses offers */
-  getCartCartIdLicenseDirectadmin = (
+  getCartLicenseDirectadminByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/licenseDirectadmin`);
   };
 
   /** Post a new Directadmin license item in your cart */
-  postCartCartIdLicenseDirectadmin = (
+  postCartLicenseDirectadminByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1130,12 +1171,12 @@ class OrderHandler {
   };
 
   /** Get informations about Plesk licenses offers */
-  getCartCartIdLicensePlesk = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartLicensePleskByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/licensePlesk`);
   };
 
   /** Post a new Plesk license item in your cart */
-  postCartCartIdLicensePlesk = (
+  postCartLicensePleskByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1143,14 +1184,14 @@ class OrderHandler {
   };
 
   /** Get informations about Plesk license options */
-  getCartCartIdLicensePleskOptions = (
+  getCartLicensePleskOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/licensePlesk/options`);
   };
 
   /** Post a new Plesk license option in your cart */
-  postCartCartIdLicensePleskOptions = (
+  postCartLicensePleskOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1158,12 +1199,14 @@ class OrderHandler {
   };
 
   /** Get informations about SqlServer licenses offers */
-  getCartCartIdLicenseSqlServer = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartLicenseSqlServerByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/licenseSqlServer`);
   };
 
   /** Post a new SqlServer license item in your cart */
-  postCartCartIdLicenseSqlServer = (
+  postCartLicenseSqlServerByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1171,12 +1214,14 @@ class OrderHandler {
   };
 
   /** Get informations about Virtuozzo licenses offers */
-  getCartCartIdLicenseVirtuozzo = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartLicenseVirtuozzoByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/licenseVirtuozzo`);
   };
 
   /** Post a new Virtuozzo license item in your cart */
-  postCartCartIdLicenseVirtuozzo = (
+  postCartLicenseVirtuozzoByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1184,12 +1229,14 @@ class OrderHandler {
   };
 
   /** Get informations about Windows licenses offers */
-  getCartCartIdLicenseWindows = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartLicenseWindowsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/licenseWindows`);
   };
 
   /** Post a new Windows license item in your cart */
-  postCartCartIdLicenseWindows = (
+  postCartLicenseWindowsByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1197,12 +1244,14 @@ class OrderHandler {
   };
 
   /** Get informations about Worklight licenses offers */
-  getCartCartIdLicenseWorklight = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartLicenseWorklightByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/licenseWorklight`);
   };
 
   /** Post a new Worklight license item in your cart */
-  postCartCartIdLicenseWorklight = (
+  postCartLicenseWorklightByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1210,12 +1259,12 @@ class OrderHandler {
   };
 
   /** Get informations about cPanel licenses offers */
-  getCartCartIdLicensecPanel = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartLicensecPanelByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/licensecPanel`);
   };
 
   /** Post a new cPanel license item in your cart */
-  postCartCartIdLicensecPanel = (
+  postCartLicensecPanelByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1223,12 +1272,12 @@ class OrderHandler {
   };
 
   /** Get informations about Logs offers */
-  getCartCartIdLogs = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartLogsByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/logs`);
   };
 
   /** Post a new Logs item in your cart */
-  postCartCartIdLogs = (
+  postCartLogsByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1236,12 +1285,12 @@ class OrderHandler {
   };
 
   /** Get informations about Logs options */
-  getCartCartIdLogsOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartLogsOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/logs/options`);
   };
 
   /** Post a new Logs option in your cart */
-  postCartCartIdLogsOptions = (
+  postCartLogsOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1249,12 +1298,14 @@ class OrderHandler {
   };
 
   /** Get informations about Managed Services offers */
-  getCartCartIdManagedServices = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartManagedServicesByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/managedServices`);
   };
 
   /** Post a new Managed Services item in your cart */
-  postCartCartIdManagedServices = (
+  postCartManagedServicesByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1262,14 +1313,14 @@ class OrderHandler {
   };
 
   /** Get informations about Managed Services options */
-  getCartCartIdManagedServicesOptions = (
+  getCartManagedServicesOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/managedServices/options`);
   };
 
   /** Post a new Managed Services option in your cart */
-  postCartCartIdManagedServicesOptions = (
+  postCartManagedServicesOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1277,12 +1328,12 @@ class OrderHandler {
   };
 
   /** Get informations about Metrics offers */
-  getCartCartIdMetrics = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartMetricsByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/metrics`);
   };
 
   /** Post a new Metrics item in your cart */
-  postCartCartIdMetrics = (
+  postCartMetricsByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1290,12 +1341,12 @@ class OrderHandler {
   };
 
   /** Get informations about Metrics options */
-  getCartCartIdMetricsOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartMetricsOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/metrics/options`);
   };
 
   /** Post a new Metrics option in your cart */
-  postCartCartIdMetricsOptions = (
+  postCartMetricsOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1303,12 +1354,12 @@ class OrderHandler {
   };
 
   /** Get informations about Microsoft offers */
-  getCartCartIdMicrosoft = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartMicrosoftByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/microsoft`);
   };
 
   /** Post a new Microsoft offer item in your cart */
-  postCartCartIdMicrosoft = (
+  postCartMicrosoftByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1316,12 +1367,14 @@ class OrderHandler {
   };
 
   /** Get informations about Microsoft options */
-  getCartCartIdMicrosoftOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartMicrosoftOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/microsoft/options`);
   };
 
   /** Post a new Microsoft option in your cart */
-  postCartCartIdMicrosoftOptions = (
+  postCartMicrosoftOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1329,12 +1382,12 @@ class OrderHandler {
   };
 
   /** Get informations about NAS HA offers */
-  getCartCartIdNasha = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartNashaByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/nasha`);
   };
 
   /** Post a new NAS HA item in your cart */
-  postCartCartIdNasha = (
+  postCartNashaByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1342,12 +1395,12 @@ class OrderHandler {
   };
 
   /** Get informations about NAS HA options */
-  getCartCartIdNashaOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartNashaOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/nasha/options`);
   };
 
   /** Post a new NAS HA option in your cart */
-  postCartCartIdNashaOptions = (
+  postCartNashaOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1355,12 +1408,12 @@ class OrderHandler {
   };
 
   /** Get informations about NetApp offers */
-  getCartCartIdNetapp = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartNetappByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/netapp`);
   };
 
   /** Post a new NetApp offer item in your cart */
-  postCartCartIdNetapp = (
+  postCartNetappByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1368,12 +1421,12 @@ class OrderHandler {
   };
 
   /** Get informations about NetApp options */
-  getCartCartIdNetappOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartNetappOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/netapp/options`);
   };
 
   /** Post a new NetApp option in your cart */
-  postCartCartIdNetappOptions = (
+  postCartNetappOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1381,12 +1434,12 @@ class OrderHandler {
   };
 
   /** Get information about a Nutanix */
-  getCartCartIdNutanix = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartNutanixByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/nutanix`);
   };
 
   /** Post a new Nutanix item in your cart */
-  postCartCartIdNutanix = (
+  postCartNutanixByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1394,12 +1447,12 @@ class OrderHandler {
   };
 
   /** Get information about the options of a Nutanix */
-  getCartCartIdNutanixOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartNutanixOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/nutanix/options`);
   };
 
   /** Post a new Nutanix option in your cart */
-  postCartCartIdNutanixOptions = (
+  postCartNutanixOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1407,12 +1460,12 @@ class OrderHandler {
   };
 
   /** Get informations about Office 365 licenses */
-  getCartCartIdOffice365 = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartOffice365ByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/office365`);
   };
 
   /** Post a new Office 365 item in your cart */
-  postCartCartIdOffice365 = (
+  postCartOffice365ByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1420,12 +1473,14 @@ class OrderHandler {
   };
 
   /** Get informations about Office 365 options */
-  getCartCartIdOffice365Options = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartOffice365OptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/office365/options`);
   };
 
   /** Post a new Office 365 option in your cart */
-  postCartCartIdOffice365Options = (
+  postCartOffice365OptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1433,12 +1488,14 @@ class OrderHandler {
   };
 
   /** Get informations about Office 365 Prepaid licenses */
-  getCartCartIdOffice365Prepaid = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartOffice365PrepaidByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/office365Prepaid`);
   };
 
   /** Post a new Office 365 Prepaid item in your cart */
-  postCartCartIdOffice365Prepaid = (
+  postCartOffice365PrepaidByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1446,14 +1503,14 @@ class OrderHandler {
   };
 
   /** Get informations about Office 365 Prepaid options */
-  getCartCartIdOffice365PrepaidOptions = (
+  getCartOffice365PrepaidOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/office365Prepaid/options`);
   };
 
   /** Post a new Office 365 Prepaid option in your cart */
-  postCartCartIdOffice365PrepaidOptions = (
+  postCartOffice365PrepaidOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1461,12 +1518,12 @@ class OrderHandler {
   };
 
   /** Get informations about a officePrepaid */
-  getCartCartIdOfficePrepaid = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartOfficePrepaidByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/officePrepaid`);
   };
 
   /** Post a new officePrepaid item in your cart */
-  postCartCartIdOfficePrepaid = (
+  postCartOfficePrepaidByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1474,14 +1531,14 @@ class OrderHandler {
   };
 
   /** Get informations about officePrepaid options */
-  getCartCartIdOfficePrepaidOptions = (
+  getCartOfficePrepaidOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/officePrepaid/options`);
   };
 
   /** Post a new officePrepaid option in your cart */
-  postCartCartIdOfficePrepaidOptions = (
+  postCartOfficePrepaidOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1489,12 +1546,12 @@ class OrderHandler {
   };
 
   /** Get informations about Over The Box offers */
-  getCartCartIdOtb = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartOtbByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/otb`);
   };
 
   /** Post a new Over The Box item in your cart */
-  postCartCartIdOtb = (
+  postCartOtbByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1502,12 +1559,12 @@ class OrderHandler {
   };
 
   /** Get informations about Over The Box options */
-  getCartCartIdOtbOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartOtbOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/otb/options`);
   };
 
   /** Post a new Over The Box option in your cart */
-  postCartCartIdOtbOptions = (
+  postCartOtbOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1515,12 +1572,14 @@ class OrderHandler {
   };
 
   /** Get informations about OVHcloud Connect offers */
-  getCartCartIdOvhCloudConnect = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartOvhCloudConnectByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/ovhCloudConnect`);
   };
 
   /** Post a new OVHcloud Connect item in your cart */
-  postCartCartIdOvhCloudConnect = (
+  postCartOvhCloudConnectByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1528,12 +1587,12 @@ class OrderHandler {
   };
 
   /** Get informations about PaaS Monitoring offers */
-  getCartCartIdPaasmon = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartPaasmonByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/paasmon`);
   };
 
   /** Post a new PaaS Monitoring item in your cart */
-  postCartCartIdPaasmon = (
+  postCartPaasmonByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1541,14 +1600,14 @@ class OrderHandler {
   };
 
   /** Get informations about a packs professional services */
-  getCartCartIdPacksProfessionalServices = (
+  getCartPacksProfessionalServicesByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/packsProfessionalServices`);
   };
 
   /** Post a new packs professional services item in your cart */
-  postCartCartIdPacksProfessionalServices = (
+  postCartPacksProfessionalServicesByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1556,14 +1615,14 @@ class OrderHandler {
   };
 
   /** Get informations about packs professional services options */
-  getCartCartIdPacksProfessionalServicesOptions = (
+  getCartPacksProfessionalServicesOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/packsProfessionalServices/options`);
   };
 
   /** Post a new packs professional services option in your cart */
-  postCartCartIdPacksProfessionalServicesOptions = (
+  postCartPacksProfessionalServicesOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1575,12 +1634,12 @@ class OrderHandler {
   };
 
   /** Get informations about power hosting offer */
-  getCartCartIdPowerHosting = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartPowerHostingByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/powerHosting`);
   };
 
   /** Post a new power hosting item in your cart */
-  postCartCartIdPowerHosting = (
+  postCartPowerHostingByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1588,12 +1647,12 @@ class OrderHandler {
   };
 
   /** Get informations about Hosted Private Cloud offers */
-  getCartCartIdPrivateCloud = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartPrivateCloudByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloud`);
   };
 
   /** Post a new Hosted Private Cloud item in your cart */
-  postCartCartIdPrivateCloud = (
+  postCartPrivateCloudByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1601,14 +1660,14 @@ class OrderHandler {
   };
 
   /** Get informations about Hosted Private Cloud options */
-  getCartCartIdPrivateCloudOptions = (
+  getCartPrivateCloudOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloud/options`);
   };
 
   /** Post a new Hosted Private Cloud option in your cart */
-  postCartCartIdPrivateCloudOptions = (
+  postCartPrivateCloudOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1616,12 +1675,14 @@ class OrderHandler {
   };
 
   /** Get informations about Private Cloud CDI offers */
-  getCartCartIdPrivateCloudCDI = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartPrivateCloudCDIByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloudCDI`);
   };
 
   /** Post a new Private Cloud CDI item in your cart */
-  postCartCartIdPrivateCloudCDI = (
+  postCartPrivateCloudCDIByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1629,14 +1690,14 @@ class OrderHandler {
   };
 
   /** Get informations about Private Cloud CDI options */
-  getCartCartIdPrivateCloudCDIOptions = (
+  getCartPrivateCloudCDIOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloudCDI/options`);
   };
 
   /** Post a new Private Cloud CDI option in your cart */
-  postCartCartIdPrivateCloudCDIOptions = (
+  postCartPrivateCloudCDIOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1644,12 +1705,14 @@ class OrderHandler {
   };
 
   /** Get informations about Private Cloud Dedicated Cloud offers */
-  getCartCartIdPrivateCloudDC = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartPrivateCloudDCByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloudDC`);
   };
 
   /** Post a new Private Cloud Dedicated Cloud item in your cart */
-  postCartCartIdPrivateCloudDC = (
+  postCartPrivateCloudDCByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1657,14 +1720,14 @@ class OrderHandler {
   };
 
   /** Get informations about Private Cloud Dedicated Cloud options */
-  getCartCartIdPrivateCloudDCOptions = (
+  getCartPrivateCloudDCOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloudDC/options`);
   };
 
   /** Post a new Private Cloud Dedicated Cloud option in your cart */
-  postCartCartIdPrivateCloudDCOptions = (
+  postCartPrivateCloudDCOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1672,14 +1735,14 @@ class OrderHandler {
   };
 
   /** Get informations about Hosted Private Cloud offers */
-  getCartCartIdPrivateCloudEnterprise = (
+  getCartPrivateCloudEnterpriseByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloudEnterprise`);
   };
 
   /** Post a new Hosted Private Cloud item in your cart */
-  postCartCartIdPrivateCloudEnterprise = (
+  postCartPrivateCloudEnterpriseByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1687,14 +1750,14 @@ class OrderHandler {
   };
 
   /** Get informations about Hosted Private Cloud options */
-  getCartCartIdPrivateCloudEnterpriseOptions = (
+  getCartPrivateCloudEnterpriseOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloudEnterprise/options`);
   };
 
   /** Post a new Hosted Private Cloud option in your cart */
-  postCartCartIdPrivateCloudEnterpriseOptions = (
+  postCartPrivateCloudEnterpriseOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1702,14 +1765,14 @@ class OrderHandler {
   };
 
   /** Get informations about Dedicated Cloud Reseller offers */
-  getCartCartIdPrivateCloudReseller = (
+  getCartPrivateCloudResellerByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloudReseller`);
   };
 
   /** Post a new Dedicated Cloud Reseller item in your cart */
-  postCartCartIdPrivateCloudReseller = (
+  postCartPrivateCloudResellerByCartId = (
     cartId: string,
     body: { duration: string; planCode: string; pricingMode: string; quantity: number }
   ): Promise<OrderCartItem> => {
@@ -1717,14 +1780,14 @@ class OrderHandler {
   };
 
   /** Get informations about Dedicated Cloud Reseller options */
-  getCartCartIdPrivateCloudResellerOptions = (
+  getCartPrivateCloudResellerOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloudReseller/options`);
   };
 
   /** Post a new Dedicated Cloud Reseller option in your cart */
-  postCartCartIdPrivateCloudResellerOptions = (
+  postCartPrivateCloudResellerOptionsByCartId = (
     cartId: string,
     body: {
       duration: string;
@@ -1738,14 +1801,14 @@ class OrderHandler {
   };
 
   /** Get informations about Dedicated Cloud Reseller Enterprise offers */
-  getCartCartIdPrivateCloudResellerEnterprise = (
+  getCartPrivateCloudResellerEnterpriseByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloudResellerEnterprise`);
   };
 
   /** Post a new Dedicated Cloud Reseller Enterprise item in your cart */
-  postCartCartIdPrivateCloudResellerEnterprise = (
+  postCartPrivateCloudResellerEnterpriseByCartId = (
     cartId: string,
     body: { duration: string; planCode: string; pricingMode: string; quantity: number }
   ): Promise<OrderCartItem> => {
@@ -1753,14 +1816,14 @@ class OrderHandler {
   };
 
   /** Get informations about Dedicated Cloud Reseller Enterprise options */
-  getCartCartIdPrivateCloudResellerEnterpriseOptions = (
+  getCartPrivateCloudResellerEnterpriseOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloudResellerEnterprise/options`);
   };
 
   /** Post a new Dedicated Cloud Reseller Enterprise option in your cart */
-  postCartCartIdPrivateCloudResellerEnterpriseOptions = (
+  postCartPrivateCloudResellerEnterpriseOptionsByCartId = (
     cartId: string,
     body: {
       duration: string;
@@ -1778,12 +1841,14 @@ class OrderHandler {
   };
 
   /** Get informations about Private Cloud SDDC offers */
-  getCartCartIdPrivateCloudSDDC = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartPrivateCloudSDDCByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloudSDDC`);
   };
 
   /** Post a new Private Cloud SDDC item in your cart */
-  postCartCartIdPrivateCloudSDDC = (
+  postCartPrivateCloudSDDCByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1791,14 +1856,14 @@ class OrderHandler {
   };
 
   /** Get informations about Private Cloud SDDC options */
-  getCartCartIdPrivateCloudSDDCOptions = (
+  getCartPrivateCloudSDDCOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateCloudSDDC/options`);
   };
 
   /** Post a new Private Cloud SDDC option in your cart */
-  postCartCartIdPrivateCloudSDDCOptions = (
+  postCartPrivateCloudSDDCOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1806,12 +1871,12 @@ class OrderHandler {
   };
 
   /** Get all privateSQL offers available */
-  getCartCartIdPrivateSQL = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartPrivateSQLByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/privateSQL`);
   };
 
   /** Add a privateSQL in your cart */
-  postCartCartIdPrivateSQL = (
+  addCartPrivateSQLByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1819,12 +1884,12 @@ class OrderHandler {
   };
 
   /** Get informations about Reseller offers */
-  getCartCartIdReseller = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartResellerByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/reseller`);
   };
 
   /** Post a new Reseller offer item in your cart */
-  postCartCartIdReseller = (
+  postCartResellerByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1832,12 +1897,12 @@ class OrderHandler {
   };
 
   /** Get informations about Sharepoint offers */
-  getCartCartIdSharepoint = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartSharepointByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/sharepoint`);
   };
 
   /** Post a new Sharepoint offer item in your cart */
-  postCartCartIdSharepoint = (
+  postCartSharepointByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1845,12 +1910,14 @@ class OrderHandler {
   };
 
   /** Get informations about Sharepoint options */
-  getCartCartIdSharepointOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartSharepointOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/sharepoint/options`);
   };
 
   /** Post a new Sharepoint option in your cart */
-  postCartCartIdSharepointOptions = (
+  postCartSharepointOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1858,12 +1925,12 @@ class OrderHandler {
   };
 
   /** Get informations about SMS offers */
-  getCartCartIdSms = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartSmsByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/sms`);
   };
 
   /** Post a new SMS item in your cart */
-  postCartCartIdSms = (
+  postCartSmsByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1871,12 +1938,12 @@ class OrderHandler {
   };
 
   /** Get informations about SSL Comodo offers */
-  getCartCartIdSslComodo = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartSslComodoByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/sslComodo`);
   };
 
   /** Post a new SSL Comodo item in your cart */
-  postCartCartIdSslComodo = (
+  postCartSslComodoByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1884,12 +1951,14 @@ class OrderHandler {
   };
 
   /** Get informations about SSL Comodo options */
-  getCartCartIdSslComodoOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartSslComodoOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/sslComodo/options`);
   };
 
   /** Post a new SSL Comodo option in your cart */
-  postCartCartIdSslComodoOptions = (
+  postCartSslComodoOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1897,12 +1966,12 @@ class OrderHandler {
   };
 
   /** Get informations about SSL Gateway offers */
-  getCartCartIdSslGateway = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartSslGatewayByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/sslGateway`);
   };
 
   /** Post a new SSL Gateway item in your cart */
-  postCartCartIdSslGateway = (
+  postCartSslGatewayByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1910,12 +1979,14 @@ class OrderHandler {
   };
 
   /** Get informations about SSL Gateway options */
-  getCartCartIdSslGatewayOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartSslGatewayOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/sslGateway/options`);
   };
 
   /** Post a new SSL Gateway option in your cart */
-  postCartCartIdSslGatewayOptions = (
+  postCartSslGatewayOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1923,17 +1994,17 @@ class OrderHandler {
   };
 
   /** Get a summary of your current order */
-  getCartCartIdSummary = (cartId: string): Promise<OrderOrder> => {
+  getCartSummaryByCartId = (cartId: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/summary`);
   };
 
   /** Get all support offers available */
-  getCartCartIdSupport = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartSupportByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/support`);
   };
 
   /** Add a support offer in your cart */
-  postCartCartIdSupport = (
+  addCartSupportByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1941,12 +2012,12 @@ class OrderHandler {
   };
 
   /** Get informations about VoIP offers */
-  getCartCartIdTelephony = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartTelephonyByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/telephony`);
   };
 
   /** Post a new VoIP item in your cart */
-  postCartCartIdTelephony = (
+  postCartTelephonyByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1954,12 +2025,14 @@ class OrderHandler {
   };
 
   /** Get informations about VoIP options */
-  getCartCartIdTelephonyOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartTelephonyOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/telephony/options`);
   };
 
   /** Post a new VoIP option in your cart */
-  postCartCartIdTelephonyOptions = (
+  postCartTelephonyOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -1967,12 +2040,12 @@ class OrderHandler {
   };
 
   /** Get informations about OVHcloud Connect offers */
-  getCartCartIdVco = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartVcoByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/vco`);
   };
 
   /** Post a new OVHcloud Connect item in your cart */
-  postCartCartIdVco = (
+  postCartVcoByCartId = (
     cartId: string,
     body: { duration: string; planCode: string; pricingMode: string; quantity: number }
   ): Promise<OrderCartItem> => {
@@ -1980,12 +2053,12 @@ class OrderHandler {
   };
 
   /** Get informations about Horizon View offers */
-  getCartCartIdVdi = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartVdiByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/vdi`);
   };
 
   /** Post a new Horizon View item in your cart */
-  postCartCartIdVdi = (
+  postCartVdiByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -1993,12 +2066,12 @@ class OrderHandler {
   };
 
   /** Get informations about Horizon View options */
-  getCartCartIdVdiOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartVdiOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/vdi/options`);
   };
 
   /** Post a new Horizon View option in your cart */
-  postCartCartIdVdiOptions = (
+  postCartVdiOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -2006,12 +2079,14 @@ class OrderHandler {
   };
 
   /** Get informations about Veeam Enterprise offers */
-  getCartCartIdVeeamEnterprise = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartVeeamEnterpriseByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/veeamEnterprise`);
   };
 
   /** Post a new Veeam Enterprise item in your cart */
-  postCartCartIdVeeamEnterprise = (
+  postCartVeeamEnterpriseByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -2019,14 +2094,14 @@ class OrderHandler {
   };
 
   /** Get informations about Veeam Enterprise options */
-  getCartCartIdVeeamEnterpriseOptions = (
+  getCartVeeamEnterpriseOptionsByCartId = (
     cartId: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/veeamEnterprise/options`);
   };
 
   /** Post a new Veeam Enterprise option in your cart */
-  postCartCartIdVeeamEnterpriseOptions = (
+  postCartVeeamEnterpriseOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -2034,12 +2109,12 @@ class OrderHandler {
   };
 
   /** Get informations about Veeam Cloud Connect offers */
-  getCartCartIdVeeamcc = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartVeeamccByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/veeamcc`);
   };
 
   /** Post a new Veeam Cloud Connect item in your cart */
-  postCartCartIdVeeamcc = (
+  postCartVeeamccByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -2047,12 +2122,12 @@ class OrderHandler {
   };
 
   /** Get informations about Veeam Cloud Connect options */
-  getCartCartIdVeeamccOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartVeeamccOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/veeamcc/options`);
   };
 
   /** Post a new Veeam Cloud Connect option in your cart */
-  postCartCartIdVeeamccOptions = (
+  postCartVeeamccOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -2060,12 +2135,12 @@ class OrderHandler {
   };
 
   /** Get informations about VPS offers */
-  getCartCartIdVps = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartVpsByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/vps`);
   };
 
   /** Post a new VPS item in your cart */
-  postCartCartIdVps = (
+  postCartVpsByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -2073,12 +2148,12 @@ class OrderHandler {
   };
 
   /** Get informations about VPS options */
-  getCartCartIdVpsOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartVpsOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/vps/options`);
   };
 
   /** Post a new VPS option in your cart */
-  postCartCartIdVpsOptions = (
+  postCartVpsOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -2086,12 +2161,12 @@ class OrderHandler {
   };
 
   /** Get informations about vRack offers */
-  getCartCartIdVrack = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartVrackByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/vrack`);
   };
 
   /** Post a new vRack item in your cart */
-  postCartCartIdVrack = (
+  postCartVrackByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -2099,12 +2174,12 @@ class OrderHandler {
   };
 
   /** Get informations about vRack offers */
-  getCartCartIdVrackReseller = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartVrackResellerByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/vrackReseller`);
   };
 
   /** Post a new vRack item in your cart */
-  postCartCartIdVrackReseller = (
+  postCartVrackResellerByCartId = (
     cartId: string,
     body: { duration: string; planCode: string; pricingMode: string; quantity: number }
   ): Promise<OrderCartItem> => {
@@ -2112,12 +2187,12 @@ class OrderHandler {
   };
 
   /** Get informations about webHosting offers */
-  getCartCartIdWebHosting = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartWebHostingByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/webHosting`);
   };
 
   /** Post a new webHosting item in your cart */
-  postCartCartIdWebHosting = (
+  postCartWebHostingByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -2125,12 +2200,14 @@ class OrderHandler {
   };
 
   /** Get informations about webHosting options */
-  getCartCartIdWebHostingOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartWebHostingOptionsByCartId = (
+    cartId: string
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/webHosting/options`);
   };
 
   /** Post a new webHosting option in your cart */
-  postCartCartIdWebHostingOptions = (
+  postCartWebHostingOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -2138,12 +2215,12 @@ class OrderHandler {
   };
 
   /** Get all web PaaS offers available */
-  getCartCartIdWebPaaS = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartWebPaaSByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/webPaaS`);
   };
 
   /** Add a web PaaS offer in your cart */
-  postCartCartIdWebPaaS = (
+  addCartWebPaaSByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -2151,12 +2228,12 @@ class OrderHandler {
   };
 
   /** Get information about webPaaS options */
-  getCartCartIdWebPaaSOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartWebPaaSOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/webPaaS/options`);
   };
 
   /** Post a new webPaaS option in your cart */
-  postCartCartIdWebPaaSOptions = (
+  postCartWebPaaSOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -2164,12 +2241,12 @@ class OrderHandler {
   };
 
   /** Get informations about xdsl offers */
-  getCartCartIdXdsl = (cartId: string): Promise<OrderCartGenericProductDefinition> => {
+  getCartXdslByCartId = (cartId: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/xdsl`);
   };
 
   /** Post a new xdsl item in your cart */
-  postCartCartIdXdsl = (
+  postCartXdslByCartId = (
     cartId: string,
     body: OrderCartGenericProductCreation
   ): Promise<OrderCartItem> => {
@@ -2177,12 +2254,12 @@ class OrderHandler {
   };
 
   /** Get informations about xdsl options */
-  getCartCartIdXdslOptions = (cartId: string): Promise<OrderCartGenericOptionDefinition> => {
+  getCartXdslOptionsByCartId = (cartId: string): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cart/${cartId}/xdsl/options`);
   };
 
   /** Post a new xdsl option in your cart */
-  postCartCartIdXdslOptions = (
+  postCartXdslOptionsByCartId = (
     cartId: string,
     body: OrderCartGenericOptionCreation
   ): Promise<OrderCartItem> => {
@@ -2190,19 +2267,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionAnthos = (): Promise<string> => {
+  listCartServiceOptionAnthos = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/anthos');
   };
 
   /** Get informations about additional anthos offer for your service */
-  getCartServiceOptionAnthosServiceName = (
+  getCartServiceOptionAnthosByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/anthos/${serviceName}`);
   };
 
   /** Post an additional anthos option in your cart */
-  postCartServiceOptionAnthosServiceName = (
+  postCartServiceOptionAnthosByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2216,19 +2293,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionBaremetalServers = (): Promise<string> => {
+  listCartServiceOptionBaremetalServers = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/baremetalServers');
   };
 
   /** Get informations about additional baremetal servers offer for your service */
-  getCartServiceOptionBaremetalServersServiceName = (
+  getCartServiceOptionBaremetalServersByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/baremetalServers/${serviceName}`);
   };
 
   /** Post an additional baremetal servers option in your cart */
-  postCartServiceOptionBaremetalServersServiceName = (
+  postCartServiceOptionBaremetalServersByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2246,19 +2323,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionCloud = (): Promise<string> => {
+  listCartServiceOptionClouds = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/cloud');
   };
 
   /** Get informations about additional Cloud offer for your service */
-  getCartServiceOptionCloudServiceName = (
+  getCartServiceOptionCloudByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/cloud/${serviceName}`);
   };
 
   /** Post an additional Cloud option in your cart */
-  postCartServiceOptionCloudServiceName = (
+  postCartServiceOptionCloudByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2272,19 +2349,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionDedicated = (): Promise<string> => {
+  listCartServiceOptionDedicateds = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/dedicated');
   };
 
   /** Get informations about additional dedicated offer for your service */
-  getCartServiceOptionDedicatedServiceName = (
+  getCartServiceOptionDedicatedByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/dedicated/${serviceName}`);
   };
 
   /** Post an additional dedicated option in your cart */
-  postCartServiceOptionDedicatedServiceName = (
+  postCartServiceOptionDedicatedByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2298,19 +2375,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionDns = (): Promise<string> => {
+  listCartServiceOptionDns = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/dns');
   };
 
   /** Get informations about additional Domain offer for your service */
-  getCartServiceOptionDnsServiceName = (
+  getCartServiceOptionDnsByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/dns/${serviceName}`);
   };
 
   /** Post an additional Domain option in your cart */
-  postCartServiceOptionDnsServiceName = (
+  postCartServiceOptionDnsByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2324,19 +2401,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionDomain = (): Promise<string> => {
+  listCartServiceOptionDomains = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/domain');
   };
 
   /** Get informations about additional Domain offer for your service */
-  getCartServiceOptionDomainServiceName = (
+  getCartServiceOptionDomainByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/domain/${serviceName}`);
   };
 
   /** Post an additional Domain option in your cart */
-  postCartServiceOptionDomainServiceName = (
+  postCartServiceOptionDomainByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2350,19 +2427,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionEmailpro = (): Promise<string> => {
+  listCartServiceOptionEmailpros = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/emailpro');
   };
 
   /** Get informations about additional EmailPro offer for your service */
-  getCartServiceOptionEmailproServiceName = (
+  getCartServiceOptionEmailproByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/emailpro/${serviceName}`);
   };
 
   /** Post an additional EmailPro option in your cart */
-  postCartServiceOptionEmailproServiceName = (
+  postCartServiceOptionEmailproByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2376,19 +2453,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionIpLoadbalancing = (): Promise<string> => {
+  listCartServiceOptionIpLoadbalancings = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/ipLoadbalancing');
   };
 
   /** Get informations about additional IP Load-Balancing offer for your service */
-  getCartServiceOptionIpLoadbalancingServiceName = (
+  getCartServiceOptionIpLoadbalancingByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/ipLoadbalancing/${serviceName}`);
   };
 
   /** Post an additional IP Load-Balancing option in your cart */
-  postCartServiceOptionIpLoadbalancingServiceName = (
+  postCartServiceOptionIpLoadbalancingByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2406,19 +2483,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionLogs = (): Promise<string> => {
+  listCartServiceOptionLogs = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/logs');
   };
 
   /** Get informations about additional Logs offer for your service */
-  getCartServiceOptionLogsServiceName = (
+  getCartServiceOptionLogsByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/logs/${serviceName}`);
   };
 
   /** Post an additional Logs option in your cart */
-  postCartServiceOptionLogsServiceName = (
+  postCartServiceOptionLogsByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2432,19 +2509,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionMicrosoft = (): Promise<string> => {
+  listCartServiceOptionMicrosofts = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/microsoft');
   };
 
   /** Get informations about additional Microsoft offer for your service */
-  getCartServiceOptionMicrosoftServiceName = (
+  getCartServiceOptionMicrosoftByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/microsoft/${serviceName}`);
   };
 
   /** Post an additional Microsoft option in your cart */
-  postCartServiceOptionMicrosoftServiceName = (
+  postCartServiceOptionMicrosoftByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2458,19 +2535,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionMicrosoftExchange = (): Promise<string> => {
+  listCartServiceOptionMicrosoftExchanges = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/microsoftExchange');
   };
 
   /** Get informations about additional Microsoft offer for your service */
-  getCartServiceOptionMicrosoftExchangeServiceName = (
+  getCartServiceOptionMicrosoftExchangeByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/microsoftExchange/${serviceName}`);
   };
 
   /** Post an additional Microsoft option in your cart */
-  postCartServiceOptionMicrosoftExchangeServiceName = (
+  postCartServiceOptionMicrosoftExchangeByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2488,19 +2565,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionOffice365Prepaid = (): Promise<string> => {
+  listCartServiceOptionOffice365Prepaids = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/office365Prepaid');
   };
 
   /** Get informations about additional Office offer for your service */
-  getCartServiceOptionOffice365PrepaidServiceName = (
+  getCartServiceOptionOffice365PrepaidByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/office365Prepaid/${serviceName}`);
   };
 
   /** Post an additional Office option in your cart */
-  postCartServiceOptionOffice365PrepaidServiceName = (
+  postCartServiceOptionOffice365PrepaidByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2518,19 +2595,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionOfficePrepaid = (): Promise<string> => {
+  listCartServiceOptionOfficePrepaids = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/officePrepaid');
   };
 
   /** Get informations about additional officePrepaid offer for your service */
-  getCartServiceOptionOfficePrepaidServiceName = (
+  getCartServiceOptionOfficePrepaidByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/officePrepaid/${serviceName}`);
   };
 
   /** Post an additional officePrepaid option in your cart */
-  postCartServiceOptionOfficePrepaidServiceName = (
+  postCartServiceOptionOfficePrepaidByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2544,19 +2621,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionPrivateCloud = (): Promise<string> => {
+  listCartServiceOptionPrivateClouds = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/privateCloud');
   };
 
   /** Get informations about additional Dedicated Cloud offer for your service */
-  getCartServiceOptionPrivateCloudServiceName = (
+  getCartServiceOptionPrivateCloudByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/privateCloud/${serviceName}`);
   };
 
   /** Post an additional Dedicated Cloud option in your cart */
-  postCartServiceOptionPrivateCloudServiceName = (
+  postCartServiceOptionPrivateCloudByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2570,14 +2647,14 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionPrivateCloudEnterprise = (): Promise<string> => {
+  listCartServiceOptionPrivateCloudEnterprises = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/privateCloudEnterprise');
   };
 
   /** Get informations about additional Dedicated Cloud offer for your service */
-  getCartServiceOptionPrivateCloudEnterpriseServiceName = (
+  getCartServiceOptionPrivateCloudEnterpriseByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request(
       'GET',
       `/order/cartServiceOption/privateCloudEnterprise/${serviceName}`
@@ -2585,7 +2662,7 @@ class OrderHandler {
   };
 
   /** Post an additional Dedicated Cloud option in your cart */
-  postCartServiceOptionPrivateCloudEnterpriseServiceName = (
+  postCartServiceOptionPrivateCloudEnterpriseByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2603,19 +2680,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionPrivateCloudReseller = (): Promise<string> => {
+  listCartServiceOptionPrivateCloudResellers = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/privateCloudReseller');
   };
 
   /** Get informations about additional Dedicated Cloud offer for your service */
-  getCartServiceOptionPrivateCloudResellerServiceName = (
+  getCartServiceOptionPrivateCloudResellerByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/privateCloudReseller/${serviceName}`);
   };
 
   /** Post an additional Dedicated Cloud option in your cart */
-  postCartServiceOptionPrivateCloudResellerServiceName = (
+  postCartServiceOptionPrivateCloudResellerByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2633,14 +2710,14 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionPrivateCloudResellerEnterprise = (): Promise<string> => {
+  listCartServiceOptionPrivateCloudResellerEnterprises = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/privateCloudResellerEnterprise');
   };
 
   /** Get informations about additional Dedicated Cloud Enterprise offer for your service */
-  getCartServiceOptionPrivateCloudResellerEnterpriseServiceName = (
+  getCartServiceOptionPrivateCloudResellerEnterpriseByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request(
       'GET',
       `/order/cartServiceOption/privateCloudResellerEnterprise/${serviceName}`
@@ -2648,7 +2725,7 @@ class OrderHandler {
   };
 
   /** Post an additional Dedicated Cloud Enterprise option in your cart */
-  postCartServiceOptionPrivateCloudResellerEnterpriseServiceName = (
+  postCartServiceOptionPrivateCloudResellerEnterpriseByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2666,19 +2743,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionSharepoint = (): Promise<string> => {
+  listCartServiceOptionSharepoints = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/sharepoint');
   };
 
   /** Get informations about additional Sharepoint offer for your service */
-  getCartServiceOptionSharepointServiceName = (
+  getCartServiceOptionSharepointByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/sharepoint/${serviceName}`);
   };
 
   /** Post an additional Sharepoint option in your cart */
-  postCartServiceOptionSharepointServiceName = (
+  postCartServiceOptionSharepointByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2692,19 +2769,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionSslGateway = (): Promise<string> => {
+  listCartServiceOptionSslGateways = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/sslGateway');
   };
 
   /** Get informations about additional SSL Gateway offer for your service */
-  getCartServiceOptionSslGatewayServiceName = (
+  getCartServiceOptionSslGatewayByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/sslGateway/${serviceName}`);
   };
 
   /** Post an additional SSL Gateway option in your cart */
-  postCartServiceOptionSslGatewayServiceName = (
+  postCartServiceOptionSslGatewayByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2718,19 +2795,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionVdi = (): Promise<string> => {
+  listCartServiceOptionVdis = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/vdi');
   };
 
   /** Get informations about additional Horizon View offer for your service */
-  getCartServiceOptionVdiServiceName = (
+  getCartServiceOptionVdiByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/vdi/${serviceName}`);
   };
 
   /** Post an additional Horizon View option in your cart */
-  postCartServiceOptionVdiServiceName = (
+  postCartServiceOptionVdiByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2744,19 +2821,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionVps = (): Promise<string> => {
+  listCartServiceOptionVps = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/vps');
   };
 
   /** Get informations about additional VPS offer for your service */
-  getCartServiceOptionVpsServiceName = (
+  getCartServiceOptionVpsByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/vps/${serviceName}`);
   };
 
   /** Post an additional VPS option in your cart */
-  postCartServiceOptionVpsServiceName = (
+  postCartServiceOptionVpsByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2770,19 +2847,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionWebHosting = (): Promise<string> => {
+  listCartServiceOptionWebHostings = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/webHosting');
   };
 
   /** Get informations about additional Web Hosting offer for your service */
-  getCartServiceOptionWebHostingServiceName = (
+  getCartServiceOptionWebHostingByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/webHosting/${serviceName}`);
   };
 
   /** Post an additional Web Hosting option in your cart */
-  postCartServiceOptionWebHostingServiceName = (
+  postCartServiceOptionWebHostingByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2796,19 +2873,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCartServiceOptionWebPaaS = (): Promise<string> => {
+  listCartServiceOptionWebPaaSs = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cartServiceOption/webPaaS');
   };
 
   /** Get informations about additional Web PaaS offer for your service */
-  getCartServiceOptionWebPaaSServiceName = (
+  getCartServiceOptionWebPaaSByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericOptionDefinition> => {
+  ): Promise<OrderCartGenericOptionDefinition[]> => {
     return this.ovh.request('GET', `/order/cartServiceOption/webPaaS/${serviceName}`);
   };
 
   /** Post an additional Web PaaS option in your cart */
-  postCartServiceOptionWebPaaSServiceName = (
+  postCartServiceOptionWebPaaSByServiceName = (
     serviceName: string,
     body: {
       cartId: string;
@@ -2822,7 +2899,7 @@ class OrderHandler {
   };
 
   /** Retrieve list of catalog name */
-  getCatalogFormatted = (): Promise<string> => {
+  getCatalogFormatted = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/catalog/formatted');
   };
 
@@ -3087,37 +3164,37 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCdnDedicated = (): Promise<string> => {
+  listCdnDedicateds = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cdn/dedicated');
   };
 
   /** Get allowed durations for 'new' option */
-  getCdnDedicatedNew = (): Promise<string> => {
+  getCdnDedicatedNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cdn/dedicated/new');
   };
 
   /** Get prices and contracts information */
-  getCdnDedicatedNewDuration = (duration: string): Promise<OrderOrder> => {
+  getCdnDedicatedNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/cdn/dedicated/new/${duration}`);
   };
 
   /** Create order */
-  postCdnDedicatedNewDuration = (duration: string): Promise<OrderOrder> => {
+  createCdnDedicatedNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('POST', `/order/cdn/dedicated/new/${duration}`);
   };
 
   /** Get allowed options */
-  getCdnDedicatedServiceName = (serviceName: string): Promise<string> => {
+  getCdnDedicatedByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/cdn/dedicated/${serviceName}`);
   };
 
   /** Get allowed durations for 'backend' option */
-  getCdnDedicatedServiceNameBackend = (serviceName: string): Promise<string> => {
+  getCdnDedicatedBackendByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/cdn/dedicated/${serviceName}/backend`);
   };
 
   /** Get prices and contracts information */
-  getCdnDedicatedServiceNameBackendDuration = (
+  getCdnDedicatedBackendByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3125,7 +3202,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postCdnDedicatedServiceNameBackendDuration = (
+  createCdnDedicatedBackendByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { backend: number }
@@ -3138,12 +3215,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'cacheRule' option */
-  getCdnDedicatedServiceNameCacheRule = (serviceName: string): Promise<string> => {
+  getCdnDedicatedCacheRuleByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/cdn/dedicated/${serviceName}/cacheRule`);
   };
 
   /** Get prices and contracts information */
-  getCdnDedicatedServiceNameCacheRuleDuration = (
+  getCdnDedicatedCacheRuleByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3151,7 +3228,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postCdnDedicatedServiceNameCacheRuleDuration = (
+  createCdnDedicatedCacheRuleByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { cacheRule: CdnanycastOrderCacheRuleEnum }
@@ -3164,12 +3241,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'quota' option */
-  getCdnDedicatedServiceNameQuota = (serviceName: string): Promise<string> => {
+  getCdnDedicatedQuotaByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/cdn/dedicated/${serviceName}/quota`);
   };
 
   /** Get prices and contracts information */
-  getCdnDedicatedServiceNameQuotaDuration = (
+  getCdnDedicatedQuotaByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3177,7 +3254,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postCdnDedicatedServiceNameQuotaDuration = (
+  createCdnDedicatedQuotaByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { quota: CdnanycastOrderQuotaEnum }
@@ -3186,22 +3263,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getCloudProject = (): Promise<string> => {
+  listCloudProjects = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/cloud/project');
   };
 
   /** Get allowed options */
-  getCloudProjectServiceName = (serviceName: string): Promise<string> => {
+  getCloudProjectByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/cloud/project/${serviceName}`);
   };
 
   /** Get prices and contracts information */
-  getCloudProjectServiceNameCredit = (serviceName: string): Promise<OrderOrder> => {
+  getCloudProjectCreditByServiceName = (serviceName: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/cloud/project/${serviceName}/credit`);
   };
 
   /** Create order */
-  postCloudProjectServiceNameCredit = (
+  createCloudProjectCreditByServiceName = (
     serviceName: string,
     body: { amount: number }
   ): Promise<OrderOrder> => {
@@ -3209,22 +3286,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getDedicatedHousing = (): Promise<string> => {
+  listDedicatedHousings = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/dedicated/housing');
   };
 
   /** Get allowed options */
-  getDedicatedHousingServiceName = (serviceName: string): Promise<string> => {
+  getDedicatedHousingByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/housing/${serviceName}`);
   };
 
   /** Get allowed durations for 'APC' option */
-  getDedicatedHousingServiceNameAPC = (serviceName: string): Promise<string> => {
+  getDedicatedHousingAPCByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/housing/${serviceName}/APC`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedHousingServiceNameAPCDuration = (
+  getDedicatedHousingAPCByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3232,7 +3309,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedHousingServiceNameAPCDuration = (
+  createDedicatedHousingAPCByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3240,22 +3317,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getDedicatedServer = (): Promise<string> => {
+  listDedicatedServers = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/dedicated/server');
   };
 
   /** Get allowed options */
-  getDedicatedServerServiceName = (serviceName: string): Promise<string> => {
+  getDedicatedServerByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/server/${serviceName}`);
   };
 
   /** Get allowed durations for 'backupStorage' option */
-  getDedicatedServerServiceNameBackupStorage = (serviceName: string): Promise<string> => {
+  getDedicatedServerBackupStorageByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/server/${serviceName}/backupStorage`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedServerServiceNameBackupStorageDuration = (
+  getDedicatedServerBackupStorageByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3266,7 +3343,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedServerServiceNameBackupStorageDuration = (
+  createDedicatedServerBackupStorageByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { capacity: DedicatedServerBackupStorageCapacityEnum }
@@ -3279,12 +3356,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'bandwidth' option */
-  getDedicatedServerServiceNameBandwidth = (serviceName: string): Promise<string> => {
+  getDedicatedServerBandwidthByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/server/${serviceName}/bandwidth`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedServerServiceNameBandwidthDuration = (
+  getDedicatedServerBandwidthByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3292,7 +3369,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedServerServiceNameBandwidthDuration = (
+  createDedicatedServerBandwidthByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: {
@@ -3308,12 +3385,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'bandwidthvRack' option */
-  getDedicatedServerServiceNameBandwidthvRack = (serviceName: string): Promise<string> => {
+  getDedicatedServerBandwidthvRackByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/server/${serviceName}/bandwidthvRack`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedServerServiceNameBandwidthvRackDuration = (
+  getDedicatedServerBandwidthvRackByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3324,7 +3401,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedServerServiceNameBandwidthvRackDuration = (
+  createDedicatedServerBandwidthvRackByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { bandwidth: DedicatedServerBandwidthvRackOrderEnum }
@@ -3337,12 +3414,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'feature' option */
-  getDedicatedServerServiceNameFeature = (serviceName: string): Promise<string> => {
+  getDedicatedServerFeatureByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/server/${serviceName}/feature`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedServerServiceNameFeatureDuration = (
+  getDedicatedServerFeatureByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3350,7 +3427,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedServerServiceNameFeatureDuration = (
+  createDedicatedServerFeatureByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { feature: DedicatedServerOrderableSysFeatureEnum }
@@ -3363,12 +3440,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'firewall' option */
-  getDedicatedServerServiceNameFirewall = (serviceName: string): Promise<string> => {
+  getDedicatedServerFirewallByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/server/${serviceName}/firewall`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedServerServiceNameFirewallDuration = (
+  getDedicatedServerFirewallByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3376,7 +3453,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedServerServiceNameFirewallDuration = (
+  createDedicatedServerFirewallByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { firewallModel: DedicatedServerFirewallModelEnum }
@@ -3389,12 +3466,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'ipMigration' option */
-  getDedicatedServerServiceNameIpMigration = (serviceName: string): Promise<string> => {
+  getDedicatedServerIpMigrationByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/server/${serviceName}/ipMigration`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedServerServiceNameIpMigrationDuration = (
+  getDedicatedServerIpMigrationByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3405,7 +3482,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedServerServiceNameIpMigrationDuration = (
+  createDedicatedServerIpMigrationByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { ip: string; token: string }
@@ -3418,12 +3495,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'kvm' option */
-  getDedicatedServerServiceNameKvm = (serviceName: string): Promise<string> => {
+  getDedicatedServerKvmByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/server/${serviceName}/kvm`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedServerServiceNameKvmDuration = (
+  getDedicatedServerKvmByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3431,7 +3508,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedServerServiceNameKvmDuration = (
+  createDedicatedServerKvmByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3439,12 +3516,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'kvmExpress' option */
-  getDedicatedServerServiceNameKvmExpress = (serviceName: string): Promise<string> => {
+  getDedicatedServerKvmExpressByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/server/${serviceName}/kvmExpress`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedServerServiceNameKvmExpressDuration = (
+  getDedicatedServerKvmExpressByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3452,7 +3529,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedServerServiceNameKvmExpressDuration = (
+  createDedicatedServerKvmExpressByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3463,12 +3540,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'professionalUse' option */
-  getDedicatedServerServiceNameProfessionalUse = (serviceName: string): Promise<string> => {
+  getDedicatedServerProfessionalUseByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/server/${serviceName}/professionalUse`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedServerServiceNameProfessionalUseDuration = (
+  getDedicatedServerProfessionalUseByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3479,7 +3556,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedServerServiceNameProfessionalUseDuration = (
+  createDedicatedServerProfessionalUseByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3490,12 +3567,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'traffic' option */
-  getDedicatedServerServiceNameTraffic = (serviceName: string): Promise<string> => {
+  getDedicatedServerTrafficByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/server/${serviceName}/traffic`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedServerServiceNameTrafficDuration = (
+  getDedicatedServerTrafficByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3503,7 +3580,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedServerServiceNameTrafficDuration = (
+  createDedicatedServerTrafficByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { traffic: DedicatedServerTrafficOrderEnum }
@@ -3516,12 +3593,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'usbKey' option */
-  getDedicatedServerServiceNameUsbKey = (serviceName: string): Promise<string> => {
+  getDedicatedServerUsbKeyByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicated/server/${serviceName}/usbKey`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedServerServiceNameUsbKeyDuration = (
+  getDedicatedServerUsbKeyByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3529,7 +3606,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedServerServiceNameUsbKeyDuration = (
+  createDedicatedServerUsbKeyByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { capacity: DedicatedServerUsbKeyCapacityEnum }
@@ -3542,22 +3619,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getDedicatedCloud = (): Promise<string> => {
+  listDedicatedClouds = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/dedicatedCloud');
   };
 
   /** Get allowed options */
-  getDedicatedCloudServiceName = (serviceName: string): Promise<string> => {
+  getDedicatedCloudByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicatedCloud/${serviceName}`);
   };
 
   /** Get allowed durations for 'additionalBandwidth' option */
-  getDedicatedCloudServiceNameAdditionalBandwidth = (serviceName: string): Promise<string> => {
+  getDedicatedCloudAdditionalBandwidthByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicatedCloud/${serviceName}/additionalBandwidth`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedCloudServiceNameAdditionalBandwidthDuration = (
+  getDedicatedCloudAdditionalBandwidthByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3568,7 +3645,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedCloudServiceNameAdditionalBandwidthDuration = (
+  createDedicatedCloudAdditionalBandwidthByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { bandwidth: DedicatedCloudAdditionalBandwidthEnum }
@@ -3581,12 +3658,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'filer' option */
-  getDedicatedCloudServiceNameFiler = (serviceName: string): Promise<string> => {
+  getDedicatedCloudFilerByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicatedCloud/${serviceName}/filer`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedCloudServiceNameFilerDuration = (
+  getDedicatedCloudFilerByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3594,7 +3671,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedCloudServiceNameFilerDuration = (
+  createDedicatedCloudFilerByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { datacenterId?: number; name: string; quantity?: number }
@@ -3603,12 +3680,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'host' option */
-  getDedicatedCloudServiceNameHost = (serviceName: string): Promise<string> => {
+  getDedicatedCloudHostByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicatedCloud/${serviceName}/host`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedCloudServiceNameHostDuration = (
+  getDedicatedCloudHostByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3616,7 +3693,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedCloudServiceNameHostDuration = (
+  createDedicatedCloudHostByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { datacenterId: number; name: string; quantity?: number }
@@ -3625,12 +3702,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'ip' option */
-  getDedicatedCloudServiceNameIp = (serviceName: string): Promise<string> => {
+  getDedicatedCloudIpByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicatedCloud/${serviceName}/ip`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedCloudServiceNameIpDuration = (
+  getDedicatedCloudIpByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3638,7 +3715,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedCloudServiceNameIpDuration = (
+  createDedicatedCloudIpByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: {
@@ -3654,22 +3731,22 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getDedicatedCloudServiceNameSpla = (serviceName: string): Promise<OrderOrder> => {
+  getDedicatedCloudSplaByServiceName = (serviceName: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/dedicatedCloud/${serviceName}/spla`);
   };
 
   /** Create order */
-  postDedicatedCloudServiceNameSpla = (serviceName: string): Promise<OrderOrder> => {
+  createDedicatedCloudSplaByServiceName = (serviceName: string): Promise<OrderOrder> => {
     return this.ovh.request('POST', `/order/dedicatedCloud/${serviceName}/spla`);
   };
 
   /** Get allowed durations for 'upgradeRessource' option */
-  getDedicatedCloudServiceNameUpgradeRessource = (serviceName: string): Promise<string> => {
+  getDedicatedCloudUpgradeRessourceByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/dedicatedCloud/${serviceName}/upgradeRessource`);
   };
 
   /** Get prices and contracts information */
-  getDedicatedCloudServiceNameUpgradeRessourceDuration = (
+  getDedicatedCloudUpgradeRessourceByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -3680,7 +3757,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDedicatedCloudServiceNameUpgradeRessourceDuration = (
+  createDedicatedCloudUpgradeRessourceByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: {
@@ -3697,12 +3774,12 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getDedicatedCloudServiceNameVdi = (serviceName: string): Promise<OrderOrder> => {
+  getDedicatedCloudVdiByServiceName = (serviceName: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/dedicatedCloud/${serviceName}/vdi`);
   };
 
   /** Create order */
-  postDedicatedCloudServiceNameVdi = (
+  createDedicatedCloudVdiByServiceName = (
     serviceName: string,
     body: { datacenterId: number; firstPublicIpAddress: string; secondPublicIpAddress: string }
   ): Promise<OrderOrder> => {
@@ -3710,7 +3787,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  getDomainZone = (): Promise<string> => {
+  listDomainZones = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/domain/zone');
   };
 
@@ -3720,22 +3797,22 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDomainZoneNew = (body: { minimized?: boolean; zoneName: string }): Promise<OrderOrder> => {
+  createDomainZoneNew = (body: { minimized?: boolean; zoneName: string }): Promise<OrderOrder> => {
     return this.ovh.request('POST', '/order/domain/zone/new', body);
   };
 
   /** Get allowed options */
-  getDomainZoneZoneName = (zoneName: string): Promise<string> => {
+  getDomainZoneByZoneName = (zoneName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/domain/zone/${zoneName}`);
   };
 
   /** Get allowed durations for 'dnsAnycast' option */
-  getDomainZoneZoneNameDnsAnycast = (zoneName: string): Promise<string> => {
+  getDomainZoneDnsAnycastByZoneName = (zoneName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/domain/zone/${zoneName}/dnsAnycast`);
   };
 
   /** Get prices and contracts information */
-  getDomainZoneZoneNameDnsAnycastDuration = (
+  getDomainZoneDnsAnycastByZoneNameAndDuration = (
     duration: string,
     zoneName: string
   ): Promise<OrderOrder> => {
@@ -3743,7 +3820,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postDomainZoneZoneNameDnsAnycastDuration = (
+  createDomainZoneDnsAnycastByZoneNameAndDuration = (
     duration: string,
     zoneName: string
   ): Promise<OrderOrder> => {
@@ -3751,22 +3828,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getEmailDomain = (): Promise<string> => {
+  listEmailDomains = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/email/domain');
   };
 
   /** Get allowed durations for 'new' option */
-  getEmailDomainNew = (): Promise<string> => {
+  getEmailDomainNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/email/domain/new');
   };
 
   /** Get prices and contracts information */
-  getEmailDomainNewDuration = (duration: string): Promise<OrderOrder> => {
+  getEmailDomainNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/email/domain/new/${duration}`);
   };
 
   /** Create order */
-  postEmailDomainNewDuration = (
+  createEmailDomainNewByDuration = (
     duration: string,
     body: { domain: string; offer: EmailDomainOfferEnum }
   ): Promise<OrderOrder> => {
@@ -3774,22 +3851,25 @@ class OrderHandler {
   };
 
   /** Get allowed options */
-  getEmailDomainDomain = (domain: string): Promise<string> => {
+  getEmailDomainByDomain = (domain: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/email/domain/${domain}`);
   };
 
   /** Get allowed durations for 'upgrade' option */
-  getEmailDomainDomainUpgrade = (domain: string): Promise<string> => {
+  getEmailDomainUpgradeByDomain = (domain: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/email/domain/${domain}/upgrade`);
   };
 
   /** Get prices and contracts information */
-  getEmailDomainDomainUpgradeDuration = (domain: string, duration: string): Promise<OrderOrder> => {
+  getEmailDomainUpgradeByDomainAndDuration = (
+    domain: string,
+    duration: string
+  ): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/email/domain/${domain}/upgrade/${duration}`);
   };
 
   /** Create order */
-  postEmailDomainDomainUpgradeDuration = (
+  createEmailDomainUpgradeByDomainAndDuration = (
     domain: string,
     duration: string,
     body: { offer: EmailDomainOfferEnum }
@@ -3798,20 +3878,20 @@ class OrderHandler {
   };
 
   /** List available services */
-  getEmailExchange = (): Promise<string> => {
+  listEmailExchanges = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/email/exchange');
   };
 
   /** List available services */
-  getEmailExchangeOrganizationNameService = (organizationName: string): Promise<string> => {
+  listEmailExchangeServicesByOrganizationName = (organizationName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/email/exchange/${organizationName}/service`);
   };
 
   /** Get allowed options */
-  getEmailExchangeOrganizationNameServiceExchangeService = (
+  getEmailExchangeServiceByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/order/email/exchange/${organizationName}/service/${exchangeService}`
@@ -3819,10 +3899,10 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'account' option */
-  getEmailExchangeOrganizationNameServiceExchangeServiceAccount = (
+  getEmailExchangeServiceAccountByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/order/email/exchange/${organizationName}/service/${exchangeService}/account`
@@ -3830,7 +3910,7 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getEmailExchangeOrganizationNameServiceExchangeServiceAccountDuration = (
+  getEmailExchangeServiceAccountByOrganizationNameAndExchangeServiceAndDuration = (
     duration: string,
     exchangeService: string,
     organizationName: string
@@ -3842,7 +3922,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postEmailExchangeOrganizationNameServiceExchangeServiceAccountDuration = (
+  createEmailExchangeServiceAccountByOrganizationNameAndExchangeServiceAndDuration = (
     duration: string,
     exchangeService: string,
     organizationName: string,
@@ -3860,10 +3940,10 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'accountUpgrade' option */
-  getEmailExchangeOrganizationNameServiceExchangeServiceAccountUpgrade = (
+  getEmailExchangeServiceAccountUpgradeByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/order/email/exchange/${organizationName}/service/${exchangeService}/accountUpgrade`
@@ -3871,7 +3951,7 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getEmailExchangeOrganizationNameServiceExchangeServiceAccountUpgradeDuration = (
+  getEmailExchangeServiceAccountUpgradeByOrganizationNameAndExchangeServiceAndDuration = (
     duration: string,
     exchangeService: string,
     organizationName: string
@@ -3883,7 +3963,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postEmailExchangeOrganizationNameServiceExchangeServiceAccountUpgradeDuration = (
+  createEmailExchangeServiceAccountUpgradeByOrganizationNameAndExchangeServiceAndDuration = (
     duration: string,
     exchangeService: string,
     organizationName: string,
@@ -3897,7 +3977,7 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getEmailExchangeOrganizationNameServiceExchangeServiceDiskSpace = (
+  getEmailExchangeServiceDiskSpaceByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<OrderOrder> => {
@@ -3908,7 +3988,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postEmailExchangeOrganizationNameServiceExchangeServiceDiskSpace = (
+  createEmailExchangeServiceDiskSpaceByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<OrderOrder> => {
@@ -3919,10 +3999,10 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'outlook' option */
-  getEmailExchangeOrganizationNameServiceExchangeServiceOutlook = (
+  getEmailExchangeServiceOutlookByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/order/email/exchange/${organizationName}/service/${exchangeService}/outlook`
@@ -3930,7 +4010,7 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getEmailExchangeOrganizationNameServiceExchangeServiceOutlookDuration = (
+  getEmailExchangeServiceOutlookByOrganizationNameAndExchangeServiceAndDuration = (
     duration: string,
     exchangeService: string,
     organizationName: string
@@ -3942,7 +4022,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postEmailExchangeOrganizationNameServiceExchangeServiceOutlookDuration = (
+  createEmailExchangeServiceOutlookByOrganizationNameAndExchangeServiceAndDuration = (
     duration: string,
     exchangeService: string,
     organizationName: string,
@@ -3956,7 +4036,7 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getEmailExchangeOrganizationNameServiceExchangeServiceUpgrade = (
+  getEmailExchangeServiceUpgradeByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<OrderOrder> => {
@@ -3967,7 +4047,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postEmailExchangeOrganizationNameServiceExchangeServiceUpgrade = (
+  createEmailExchangeServiceUpgradeByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<OrderOrder> => {
@@ -3978,27 +4058,30 @@ class OrderHandler {
   };
 
   /** List available services */
-  getEmailPro = (): Promise<string> => {
+  listEmailPros = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/email/pro');
   };
 
   /** Get allowed options */
-  getEmailProService = (service: string): Promise<string> => {
+  getEmailProByService = (service: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/email/pro/${service}`);
   };
 
   /** Get allowed durations for 'account' option */
-  getEmailProServiceAccount = (service: string): Promise<string> => {
+  getEmailProAccountByService = (service: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/email/pro/${service}/account`);
   };
 
   /** Get prices and contracts information */
-  getEmailProServiceAccountDuration = (duration: string, service: string): Promise<OrderOrder> => {
+  getEmailProAccountByServiceAndDuration = (
+    duration: string,
+    service: string
+  ): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/email/pro/${service}/account/${duration}`);
   };
 
   /** Create order */
-  postEmailProServiceAccountDuration = (
+  createEmailProAccountByServiceAndDuration = (
     duration: string,
     service: string,
     body: { number: number }
@@ -4007,7 +4090,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  getFreefax = (): Promise<string> => {
+  listFreefaxs = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/freefax');
   };
 
@@ -4017,22 +4100,22 @@ class OrderHandler {
   };
 
   /** Create order */
-  postFreefaxNew = (body: { quantity: FreefaxQuantityEnum }): Promise<OrderOrder> => {
+  createFreefaxNew = (body: { quantity: FreefaxQuantityEnum }): Promise<OrderOrder> => {
     return this.ovh.request('POST', '/order/freefax/new', body);
   };
 
   /** Get allowed options */
-  getFreefaxServiceName = (serviceName: string): Promise<string> => {
+  getFreefaxByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/freefax/${serviceName}`);
   };
 
   /** Get prices and contracts information */
-  getFreefaxServiceNameConvertToVoicefax = (serviceName: string): Promise<OrderOrder> => {
+  getFreefaxConvertToVoicefaxByServiceName = (serviceName: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/freefax/${serviceName}/convertToVoicefax`);
   };
 
   /** Create order */
-  postFreefaxServiceNameConvertToVoicefax = (
+  createFreefaxConvertToVoicefaxByServiceName = (
     serviceName: string,
     body: { billingAccount: string }
   ): Promise<OrderOrder> => {
@@ -4040,22 +4123,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getHostingPrivateDatabase = (): Promise<string> => {
+  listHostingPrivateDatabases = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/hosting/privateDatabase');
   };
 
   /** Get allowed durations for 'new' option */
-  getHostingPrivateDatabaseNew = (): Promise<string> => {
+  getHostingPrivateDatabaseNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/hosting/privateDatabase/new');
   };
 
   /** Get prices and contracts information */
-  getHostingPrivateDatabaseNewDuration = (duration: string): Promise<OrderOrder> => {
+  getHostingPrivateDatabaseNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/hosting/privateDatabase/new/${duration}`);
   };
 
   /** Create order */
-  postHostingPrivateDatabaseNewDuration = (
+  createHostingPrivateDatabaseNewByDuration = (
     duration: string,
     body: {
       datacenter?: HostingPrivateDatabaseDatacenterEnum;
@@ -4068,17 +4151,17 @@ class OrderHandler {
   };
 
   /** Get allowed options */
-  getHostingPrivateDatabaseServiceName = (serviceName: string): Promise<string> => {
+  getHostingPrivateDatabaseByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/hosting/privateDatabase/${serviceName}`);
   };
 
   /** Get allowed durations for 'ram' option */
-  getHostingPrivateDatabaseServiceNameRam = (serviceName: string): Promise<string> => {
+  getHostingPrivateDatabaseRamByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/hosting/privateDatabase/${serviceName}/ram`);
   };
 
   /** Get prices and contracts information */
-  getHostingPrivateDatabaseServiceNameRamDuration = (
+  getHostingPrivateDatabaseRamByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4086,7 +4169,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postHostingPrivateDatabaseServiceNameRamDuration = (
+  createHostingPrivateDatabaseRamByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { ram: HostingPrivateDatabaseAvailableRamSizeEnum }
@@ -4099,22 +4182,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getHostingWeb = (): Promise<string> => {
+  listHostingWebs = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/hosting/web');
   };
 
   /** Get allowed durations for 'new' option */
-  getHostingWebNew = (): Promise<string> => {
+  getHostingWebNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/hosting/web/new');
   };
 
   /** Get prices and contracts information */
-  getHostingWebNewDuration = (duration: string): Promise<OrderOrder> => {
+  getHostingWebNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/hosting/web/new/${duration}`);
   };
 
   /** Create order */
-  postHostingWebNewDuration = (
+  createHostingWebNewByDuration = (
     duration: string,
     body: {
       dnsZone?: HostingWebDnsZoneEnum;
@@ -4128,17 +4211,17 @@ class OrderHandler {
   };
 
   /** Get allowed options */
-  getHostingWebServiceName = (serviceName: string): Promise<string> => {
+  getHostingWebByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/hosting/web/${serviceName}`);
   };
 
   /** Get allowed durations for 'bandwidth' option */
-  getHostingWebServiceNameBandwidth = (serviceName: string): Promise<string> => {
+  getHostingWebBandwidthByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/hosting/web/${serviceName}/bandwidth`);
   };
 
   /** Get prices and contracts information */
-  getHostingWebServiceNameBandwidthDuration = (
+  getHostingWebBandwidthByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4146,7 +4229,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postHostingWebServiceNameBandwidthDuration = (
+  createHostingWebBandwidthByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { traffic: HostingWebBandwidthOfferEnum }
@@ -4159,12 +4242,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'cdn' option */
-  getHostingWebServiceNameCdn = (serviceName: string): Promise<string> => {
+  getHostingWebCdnByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/hosting/web/${serviceName}/cdn`);
   };
 
   /** Get prices and contracts information */
-  getHostingWebServiceNameCdnDuration = (
+  getHostingWebCdnByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4172,7 +4255,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postHostingWebServiceNameCdnDuration = (
+  createHostingWebCdnByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { offer: HostingWebCdnOfferEnum }
@@ -4181,12 +4264,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'changeMainDomain' option */
-  getHostingWebServiceNameChangeMainDomain = (serviceName: string): Promise<string> => {
+  getHostingWebChangeMainDomainByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/hosting/web/${serviceName}/changeMainDomain`);
   };
 
   /** Get prices and contracts information */
-  getHostingWebServiceNameChangeMainDomainDuration = (
+  getHostingWebChangeMainDomainByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4197,7 +4280,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postHostingWebServiceNameChangeMainDomainDuration = (
+  createHostingWebChangeMainDomainByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { domain: string; mxplan: HostingWebOrderMxPlanEnum }
@@ -4210,12 +4293,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'extraSqlPerso' option */
-  getHostingWebServiceNameExtraSqlPerso = (serviceName: string): Promise<string> => {
+  getHostingWebExtraSqlPersoByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/hosting/web/${serviceName}/extraSqlPerso`);
   };
 
   /** Get prices and contracts information */
-  getHostingWebServiceNameExtraSqlPersoDuration = (
+  getHostingWebExtraSqlPersoByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4223,7 +4306,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postHostingWebServiceNameExtraSqlPersoDuration = (
+  createHostingWebExtraSqlPersoByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { offer: HostingWebDatabaseSqlPersoOfferEnum }
@@ -4236,12 +4319,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'ssl' option */
-  getHostingWebServiceNameSsl = (serviceName: string): Promise<string> => {
+  getHostingWebSslByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/hosting/web/${serviceName}/ssl`);
   };
 
   /** Get prices and contracts information */
-  getHostingWebServiceNameSslDuration = (
+  getHostingWebSslByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4249,7 +4332,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postHostingWebServiceNameSslDuration = (
+  createHostingWebSslByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4257,12 +4340,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'upgrade' option */
-  getHostingWebServiceNameUpgrade = (serviceName: string): Promise<string> => {
+  getHostingWebUpgradeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/hosting/web/${serviceName}/upgrade`);
   };
 
   /** Get prices and contracts information */
-  getHostingWebServiceNameUpgradeDuration = (
+  getHostingWebUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4270,7 +4353,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postHostingWebServiceNameUpgradeDuration = (
+  createHostingWebUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { offer: HostingWebOfferEnum; startTime?: Date; waiveRetractationPeriod?: boolean }
@@ -4279,17 +4362,17 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'new' option */
-  getLicenseCloudLinuxNew = (): Promise<string> => {
+  getLicenseCloudLinuxNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/cloudLinux/new');
   };
 
   /** Get prices and contracts information */
-  getLicenseCloudLinuxNewDuration = (duration: string): Promise<OrderOrder> => {
+  getLicenseCloudLinuxNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/license/cloudLinux/new/${duration}`);
   };
 
   /** Create order */
-  postLicenseCloudLinuxNewDuration = (
+  createLicenseCloudLinuxNewByDuration = (
     duration: string,
     body: { ip: string; version: LicenseCloudLinuxVersionEnum }
   ): Promise<OrderOrder> => {
@@ -4297,22 +4380,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getLicenseCpanel = (): Promise<string> => {
+  listLicenseCpanels = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/cpanel');
   };
 
   /** Get allowed durations for 'new' option */
-  getLicenseCpanelNew = (): Promise<string> => {
+  getLicenseCpanelNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/cpanel/new');
   };
 
   /** Get prices and contracts information */
-  getLicenseCpanelNewDuration = (duration: string): Promise<OrderOrder> => {
+  getLicenseCpanelNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/license/cpanel/new/${duration}`);
   };
 
   /** Create order */
-  postLicenseCpanelNewDuration = (
+  createLicenseCpanelNewByDuration = (
     duration: string,
     body: {
       ip: string;
@@ -4324,17 +4407,17 @@ class OrderHandler {
   };
 
   /** Get allowed options */
-  getLicenseCpanelServiceName = (serviceName: string): Promise<string> => {
+  getLicenseCpanelByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/license/cpanel/${serviceName}`);
   };
 
   /** Get allowed durations for 'upgrade' option */
-  getLicenseCpanelServiceNameUpgrade = (serviceName: string): Promise<string> => {
+  getLicenseCpanelUpgradeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/license/cpanel/${serviceName}/upgrade`);
   };
 
   /** Get prices and contracts information */
-  getLicenseCpanelServiceNameUpgradeDuration = (
+  getLicenseCpanelUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4342,7 +4425,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postLicenseCpanelServiceNameUpgradeDuration = (
+  createLicenseCpanelUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { version: LicenseOrderableCpanelVersionEnum }
@@ -4355,17 +4438,17 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'new' option */
-  getLicenseDirectadminNew = (): Promise<string> => {
+  getLicenseDirectadminNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/directadmin/new');
   };
 
   /** Get prices and contracts information */
-  getLicenseDirectadminNewDuration = (duration: string): Promise<OrderOrder> => {
+  getLicenseDirectadminNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/license/directadmin/new/${duration}`);
   };
 
   /** Create order */
-  postLicenseDirectadminNewDuration = (
+  createLicenseDirectadminNewByDuration = (
     duration: string,
     body: {
       ip: string;
@@ -4377,17 +4460,17 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'new' option */
-  getLicenseOfficeNew = (): Promise<string> => {
+  getLicenseOfficeNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/office/new');
   };
 
   /** Get prices and contracts information */
-  getLicenseOfficeNewDuration = (duration: string): Promise<OrderOrder> => {
+  getLicenseOfficeNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/license/office/new/${duration}`);
   };
 
   /** Create order */
-  postLicenseOfficeNewDuration = (
+  createLicenseOfficeNewByDuration = (
     duration: string,
     body: { giftCode?: string; officeBusinessQuantity?: number; officeProPlusQuantity?: number }
   ): Promise<OrderOrder> => {
@@ -4395,22 +4478,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getLicensePlesk = (): Promise<string> => {
+  listLicensePlesks = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/plesk');
   };
 
   /** Get allowed durations for 'new' option */
-  getLicensePleskNew = (): Promise<string> => {
+  getLicensePleskNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/plesk/new');
   };
 
   /** Get prices and contracts information */
-  getLicensePleskNewDuration = (duration: string): Promise<OrderOrder> => {
+  getLicensePleskNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/license/plesk/new/${duration}`);
   };
 
   /** Create order */
-  postLicensePleskNewDuration = (
+  createLicensePleskNewByDuration = (
     duration: string,
     body: {
       antivirus?: LicenseOrderableAntivirusEnum;
@@ -4429,17 +4512,17 @@ class OrderHandler {
   };
 
   /** Get allowed options */
-  getLicensePleskServiceName = (serviceName: string): Promise<string> => {
+  getLicensePleskByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/license/plesk/${serviceName}`);
   };
 
   /** Get allowed durations for 'upgrade' option */
-  getLicensePleskServiceNameUpgrade = (serviceName: string): Promise<string> => {
+  getLicensePleskUpgradeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/license/plesk/${serviceName}/upgrade`);
   };
 
   /** Get prices and contracts information */
-  getLicensePleskServiceNameUpgradeDuration = (
+  getLicensePleskUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4447,7 +4530,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postLicensePleskServiceNameUpgradeDuration = (
+  createLicensePleskUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: {
@@ -4470,22 +4553,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getLicenseSqlserver = (): Promise<string> => {
+  listLicenseSqlservers = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/sqlserver');
   };
 
   /** Get allowed durations for 'new' option */
-  getLicenseSqlserverNew = (): Promise<string> => {
+  getLicenseSqlserverNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/sqlserver/new');
   };
 
   /** Get prices and contracts information */
-  getLicenseSqlserverNewDuration = (duration: string): Promise<OrderOrder> => {
+  getLicenseSqlserverNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/license/sqlserver/new/${duration}`);
   };
 
   /** Create order */
-  postLicenseSqlserverNewDuration = (
+  createLicenseSqlserverNewByDuration = (
     duration: string,
     body: { ip: string; version: LicenseSqlServerVersionEnum }
   ): Promise<OrderOrder> => {
@@ -4493,17 +4576,17 @@ class OrderHandler {
   };
 
   /** Get allowed options */
-  getLicenseSqlserverServiceName = (serviceName: string): Promise<string> => {
+  getLicenseSqlserverByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/license/sqlserver/${serviceName}`);
   };
 
   /** Get allowed durations for 'upgrade' option */
-  getLicenseSqlserverServiceNameUpgrade = (serviceName: string): Promise<string> => {
+  getLicenseSqlserverUpgradeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/license/sqlserver/${serviceName}/upgrade`);
   };
 
   /** Get prices and contracts information */
-  getLicenseSqlserverServiceNameUpgradeDuration = (
+  getLicenseSqlserverUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4511,7 +4594,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postLicenseSqlserverServiceNameUpgradeDuration = (
+  createLicenseSqlserverUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { version: LicenseSqlServerVersionEnum }
@@ -4524,22 +4607,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getLicenseVirtuozzo = (): Promise<string> => {
+  listLicenseVirtuozzos = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/virtuozzo');
   };
 
   /** Get allowed durations for 'new' option */
-  getLicenseVirtuozzoNew = (): Promise<string> => {
+  getLicenseVirtuozzoNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/virtuozzo/new');
   };
 
   /** Get prices and contracts information */
-  getLicenseVirtuozzoNewDuration = (duration: string): Promise<OrderOrder> => {
+  getLicenseVirtuozzoNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/license/virtuozzo/new/${duration}`);
   };
 
   /** Create order */
-  postLicenseVirtuozzoNewDuration = (
+  createLicenseVirtuozzoNewByDuration = (
     duration: string,
     body: {
       containerNumber: LicenseOrderableVirtuozzoContainerNumberEnum;
@@ -4552,17 +4635,17 @@ class OrderHandler {
   };
 
   /** Get allowed options */
-  getLicenseVirtuozzoServiceName = (serviceName: string): Promise<string> => {
+  getLicenseVirtuozzoByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/license/virtuozzo/${serviceName}`);
   };
 
   /** Get allowed durations for 'upgrade' option */
-  getLicenseVirtuozzoServiceNameUpgrade = (serviceName: string): Promise<string> => {
+  getLicenseVirtuozzoUpgradeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/license/virtuozzo/${serviceName}/upgrade`);
   };
 
   /** Get prices and contracts information */
-  getLicenseVirtuozzoServiceNameUpgradeDuration = (
+  getLicenseVirtuozzoUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4570,7 +4653,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postLicenseVirtuozzoServiceNameUpgradeDuration = (
+  createLicenseVirtuozzoUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { containerNumber: LicenseOrderableVirtuozzoContainerNumberEnum }
@@ -4583,22 +4666,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getLicenseWindows = (): Promise<string> => {
+  listLicenseWindows = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/windows');
   };
 
   /** Get allowed durations for 'new' option */
-  getLicenseWindowsNew = (): Promise<string> => {
+  getLicenseWindowsNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/windows/new');
   };
 
   /** Get prices and contracts information */
-  getLicenseWindowsNewDuration = (duration: string): Promise<OrderOrder> => {
+  getLicenseWindowsNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/license/windows/new/${duration}`);
   };
 
   /** Create order */
-  postLicenseWindowsNewDuration = (
+  createLicenseWindowsNewByDuration = (
     duration: string,
     body: {
       ip: string;
@@ -4611,17 +4694,17 @@ class OrderHandler {
   };
 
   /** Get allowed options */
-  getLicenseWindowsServiceName = (serviceName: string): Promise<string> => {
+  getLicenseWindowsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/license/windows/${serviceName}`);
   };
 
   /** Get allowed durations for 'upgrade' option */
-  getLicenseWindowsServiceNameUpgrade = (serviceName: string): Promise<string> => {
+  getLicenseWindowsUpgradeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/license/windows/${serviceName}/upgrade`);
   };
 
   /** Get prices and contracts information */
-  getLicenseWindowsServiceNameUpgradeDuration = (
+  getLicenseWindowsUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4629,7 +4712,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postLicenseWindowsServiceNameUpgradeDuration = (
+  createLicenseWindowsUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { sqlVersion?: LicenseWindowsSqlVersionEnum; version?: LicenseWindowsOsVersionEnum }
@@ -4642,22 +4725,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getLicenseWorklight = (): Promise<string> => {
+  listLicenseWorklights = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/worklight');
   };
 
   /** Get allowed durations for 'new' option */
-  getLicenseWorklightNew = (): Promise<string> => {
+  getLicenseWorklightNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/license/worklight/new');
   };
 
   /** Get prices and contracts information */
-  getLicenseWorklightNewDuration = (duration: string): Promise<OrderOrder> => {
+  getLicenseWorklightNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/license/worklight/new/${duration}`);
   };
 
   /** Create order */
-  postLicenseWorklightNewDuration = (
+  createLicenseWorklightNewByDuration = (
     duration: string,
     body: { ip: string; lessThan1000Users: boolean; version: LicenseWorkLightVersionEnum }
   ): Promise<OrderOrder> => {
@@ -4665,17 +4748,17 @@ class OrderHandler {
   };
 
   /** Get allowed options */
-  getLicenseWorklightServiceName = (serviceName: string): Promise<string> => {
+  getLicenseWorklightByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/license/worklight/${serviceName}`);
   };
 
   /** Get allowed durations for 'upgrade' option */
-  getLicenseWorklightServiceNameUpgrade = (serviceName: string): Promise<string> => {
+  getLicenseWorklightUpgradeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/license/worklight/${serviceName}/upgrade`);
   };
 
   /** Get prices and contracts information */
-  getLicenseWorklightServiceNameUpgradeDuration = (
+  getLicenseWorklightUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -4683,7 +4766,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postLicenseWorklightServiceNameUpgradeDuration = (
+  createLicenseWorklightUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { version: LicenseWorkLightVersionEnum }
@@ -4696,22 +4779,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getOverTheBox = (): Promise<string> => {
+  listOverTheBoxs = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/overTheBox');
   };
 
   /** Get allowed durations for 'new' option */
-  getOverTheBoxNew = (): Promise<string> => {
+  getOverTheBoxNew = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/overTheBox/new');
   };
 
   /** Get prices and contracts information */
-  getOverTheBoxNewDuration = (duration: string): Promise<OrderOrder> => {
+  getOverTheBoxNewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/overTheBox/new/${duration}`);
   };
 
   /** Create order */
-  postOverTheBoxNewDuration = (
+  createOverTheBoxNewByDuration = (
     duration: string,
     body: { deviceId?: string; offer: string; voucher?: string }
   ): Promise<OrderOrder> => {
@@ -4719,17 +4802,17 @@ class OrderHandler {
   };
 
   /** Get allowed options */
-  getOverTheBoxServiceName = (serviceName: string): Promise<string> => {
+  getOverTheBoxByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/overTheBox/${serviceName}`);
   };
 
   /** Get prices and contracts information */
-  getOverTheBoxServiceNameMigrate = (serviceName: string): Promise<OrderOrder> => {
+  getOverTheBoxMigrateByServiceName = (serviceName: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/overTheBox/${serviceName}/migrate`);
   };
 
   /** Create order */
-  postOverTheBoxServiceNameMigrate = (
+  createOverTheBoxMigrateByServiceName = (
     serviceName: string,
     body: {
       hardware: boolean;
@@ -4743,17 +4826,17 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'new' option */
-  getSaasCsp2New = (): Promise<string> => {
+  getSaasCsp2New = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/saas/csp2/new');
   };
 
   /** Get prices and contracts information */
-  getSaasCsp2NewDuration = (duration: string): Promise<OrderOrder> => {
+  getSaasCsp2NewByDuration = (duration: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/saas/csp2/new/${duration}`);
   };
 
   /** Create order */
-  postSaasCsp2NewDuration = (
+  createSaasCsp2NewByDuration = (
     duration: string,
     body: { giftCode?: string; officeBusinessQuantity?: number; officeProPlusQuantity?: number }
   ): Promise<OrderOrder> => {
@@ -4761,7 +4844,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  getSms = (): Promise<string> => {
+  listSms = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/sms');
   };
 
@@ -4771,7 +4854,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postSmsNew = (body: {
+  createSmsNew = (body: {
     channel?: SmsChannelEnum;
     quantity: number;
     smpp?: boolean;
@@ -4780,17 +4863,17 @@ class OrderHandler {
   };
 
   /** Get allowed options */
-  getSmsServiceName = (serviceName: string): Promise<string> => {
+  getSmsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/sms/${serviceName}`);
   };
 
   /** Get prices and contracts information */
-  getSmsServiceNameCredits = (serviceName: string): Promise<OrderOrder> => {
+  getSmsCreditsByServiceName = (serviceName: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/sms/${serviceName}/credits`);
   };
 
   /** Create order */
-  postSmsServiceNameCredits = (
+  createSmsCreditsByServiceName = (
     serviceName: string,
     body: { quantity: number }
   ): Promise<OrderOrder> => {
@@ -4798,27 +4881,29 @@ class OrderHandler {
   };
 
   /** List available services */
-  getTelephony = (): Promise<string> => {
+  listTelephonys = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/telephony');
   };
 
   /** List available services */
-  getTelephonyLines = (): Promise<string> => {
+  listTelephonyLines = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/telephony/lines');
   };
 
   /** Get allowed options */
-  getTelephonyLinesServiceName = (serviceName: string): Promise<string> => {
+  getTelephonyLinesByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/telephony/lines/${serviceName}`);
   };
 
   /** Get prices and contracts information */
-  getTelephonyLinesServiceNameAddSimultaneousLines = (serviceName: string): Promise<OrderOrder> => {
+  getTelephonyLinesAddSimultaneousLinesByServiceName = (
+    serviceName: string
+  ): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/telephony/lines/${serviceName}/addSimultaneousLines`);
   };
 
   /** Create order */
-  postTelephonyLinesServiceNameAddSimultaneousLines = (
+  createTelephonyLinesAddSimultaneousLinesByServiceName = (
     serviceName: string,
     body: { billingAccount: string; quantity: number }
   ): Promise<OrderOrder> => {
@@ -4830,12 +4915,12 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getTelephonyLinesServiceNameHardware = (serviceName: string): Promise<OrderOrder> => {
+  getTelephonyLinesHardwareByServiceName = (serviceName: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/telephony/lines/${serviceName}/hardware`);
   };
 
   /** Create order */
-  postTelephonyLinesServiceNameHardware = (
+  createTelephonyLinesHardwareByServiceName = (
     serviceName: string,
     body: {
       hardware: string;
@@ -4848,7 +4933,7 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getTelephonyLinesServiceNameUpdateSimultaneousChannels = (
+  getTelephonyLinesUpdateSimultaneousChannelsByServiceName = (
     serviceName: string
   ): Promise<OrderOrder> => {
     return this.ovh.request(
@@ -4858,7 +4943,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postTelephonyLinesServiceNameUpdateSimultaneousChannels = (
+  createTelephonyLinesUpdateSimultaneousChannelsByServiceName = (
     serviceName: string,
     body: { quantity: number }
   ): Promise<OrderOrder> => {
@@ -4875,7 +4960,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postTelephonyNew = (): Promise<OrderOrder> => {
+  createTelephonyNew = (): Promise<OrderOrder> => {
     return this.ovh.request('POST', '/order/telephony/new');
   };
 
@@ -4885,7 +4970,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postTelephonySpareNew = (body: {
+  createTelephonySpareNew = (body: {
     brand: string;
     mondialRelayId?: string;
     quantity: number;
@@ -4895,24 +4980,24 @@ class OrderHandler {
   };
 
   /** List available services */
-  getTelephonyTrunks = (): Promise<string> => {
+  listTelephonyTrunks = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/telephony/trunks');
   };
 
   /** Get allowed options */
-  getTelephonyTrunksServiceName = (serviceName: string): Promise<string> => {
+  getTelephonyTrunksByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/telephony/trunks/${serviceName}`);
   };
 
   /** Get prices and contracts information */
-  getTelephonyTrunksServiceNameAddSimultaneousLines = (
+  getTelephonyTrunksAddSimultaneousLinesByServiceName = (
     serviceName: string
   ): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/telephony/trunks/${serviceName}/addSimultaneousLines`);
   };
 
   /** Create order */
-  postTelephonyTrunksServiceNameAddSimultaneousLines = (
+  createTelephonyTrunksAddSimultaneousLinesByServiceName = (
     serviceName: string,
     body: { billingAccount: string; quantity: number }
   ): Promise<OrderOrder> => {
@@ -4924,12 +5009,12 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getTelephonyTrunksServiceNameHardware = (serviceName: string): Promise<OrderOrder> => {
+  getTelephonyTrunksHardwareByServiceName = (serviceName: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/telephony/trunks/${serviceName}/hardware`);
   };
 
   /** Create order */
-  postTelephonyTrunksServiceNameHardware = (
+  createTelephonyTrunksHardwareByServiceName = (
     serviceName: string,
     body: {
       hardware: string;
@@ -4942,7 +5027,7 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getTelephonyTrunksServiceNameUpdateSimultaneousChannels = (
+  getTelephonyTrunksUpdateSimultaneousChannelsByServiceName = (
     serviceName: string
   ): Promise<OrderOrder> => {
     return this.ovh.request(
@@ -4952,7 +5037,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postTelephonyTrunksServiceNameUpdateSimultaneousChannels = (
+  createTelephonyTrunksUpdateSimultaneousChannelsByServiceName = (
     serviceName: string,
     body: { quantity: number }
   ): Promise<OrderOrder> => {
@@ -4964,20 +5049,20 @@ class OrderHandler {
   };
 
   /** Get allowed options */
-  getTelephonyBillingAccount = (billingAccount: string): Promise<string> => {
+  getTelephonyByBillingAccount = (billingAccount: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/telephony/${billingAccount}`);
   };
 
   /** Get prices and contracts information */
-  getTelephonyBillingAccountAccessories = (billingAccount: string): Promise<OrderOrder> => {
+  getTelephonyAccessoriesByBillingAccount = (billingAccount: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/telephony/${billingAccount}/accessories`);
   };
 
   /** Create order */
-  postTelephonyBillingAccountAccessories = (
+  createTelephonyAccessoriesByBillingAccount = (
     billingAccount: string,
     body: {
-      accessories: string;
+      accessories: string[];
       mondialRelayId?: string;
       retractation: boolean;
       shippingContactId: number;
@@ -4987,37 +5072,37 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getTelephonyBillingAccountLine = (billingAccount: string): Promise<OrderOrder> => {
+  getTelephonyLineByBillingAccount = (billingAccount: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/telephony/${billingAccount}/line`);
   };
 
   /** Create order */
-  postTelephonyBillingAccountLine = (
+  createTelephonyLineByBillingAccount = (
     billingAccount: string,
     body: {
       brand?: string;
-      displayUniversalDirectories: boolean;
-      extraSimultaneousLines: number;
+      displayUniversalDirectories: boolean[];
+      extraSimultaneousLines: number[];
       mondialRelayId?: string;
-      offers: string;
-      ownerContactIds: number;
+      offers: string[];
+      ownerContactIds: number[];
       quantity: number;
       retractation: boolean;
       shippingContactId: number;
-      types: TelephonyLineTypeEnum;
-      zones?: string;
+      types: TelephonyLineTypeEnum[];
+      zones?: string[];
     }
   ): Promise<OrderOrder> => {
     return this.ovh.request('POST', `/order/telephony/${billingAccount}/line`, body);
   };
 
   /** Get prices and contracts information */
-  getTelephonyBillingAccountNumberGeographic = (billingAccount: string): Promise<OrderOrder> => {
+  getTelephonyNumberGeographicByBillingAccount = (billingAccount: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/telephony/${billingAccount}/numberGeographic`);
   };
 
   /** Create order */
-  postTelephonyBillingAccountNumberGeographic = (
+  createTelephonyNumberGeographicByBillingAccount = (
     billingAccount: string,
     body: {
       ape?: string;
@@ -5046,12 +5131,14 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getTelephonyBillingAccountNumberNogeographic = (billingAccount: string): Promise<OrderOrder> => {
+  getTelephonyNumberNogeographicByBillingAccount = (
+    billingAccount: string
+  ): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/telephony/${billingAccount}/numberNogeographic`);
   };
 
   /** Create order */
-  postTelephonyBillingAccountNumberNogeographic = (
+  createTelephonyNumberNogeographicByBillingAccount = (
     billingAccount: string,
     body: {
       ape?: string;
@@ -5079,12 +5166,12 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getTelephonyBillingAccountNumberSpecial = (billingAccount: string): Promise<OrderOrder> => {
+  getTelephonyNumberSpecialByBillingAccount = (billingAccount: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/telephony/${billingAccount}/numberSpecial`);
   };
 
   /** Create order */
-  postTelephonyBillingAccountNumberSpecial = (
+  createTelephonyNumberSpecialByBillingAccount = (
     billingAccount: string,
     body: {
       addressExtra?: string;
@@ -5121,12 +5208,12 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getTelephonyBillingAccountPortability = (billingAccount: string): Promise<OrderOrder> => {
+  getTelephonyPortabilityByBillingAccount = (billingAccount: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/telephony/${billingAccount}/portability`);
   };
 
   /** Create order */
-  postTelephonyBillingAccountPortability = (
+  createTelephonyPortabilityByBillingAccount = (
     billingAccount: string,
     body: {
       building?: string;
@@ -5164,12 +5251,12 @@ class OrderHandler {
   };
 
   /** Get prices and contracts information */
-  getTelephonyBillingAccountSecurityDeposit = (billingAccount: string): Promise<OrderOrder> => {
+  getTelephonySecurityDepositByBillingAccount = (billingAccount: string): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/telephony/${billingAccount}/securityDeposit`);
   };
 
   /** Create order */
-  postTelephonyBillingAccountSecurityDeposit = (
+  createTelephonySecurityDepositByBillingAccount = (
     billingAccount: string,
     body: { amount: TelephonySecurityDepositAmountsEnum }
   ): Promise<OrderOrder> => {
@@ -5177,19 +5264,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeBaremetalPrivateBandwidth = (): Promise<string> => {
+  listUpgradeBaremetalPrivateBandwidths = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/baremetalPrivateBandwidth');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeBaremetalPrivateBandwidthServiceName = (
+  getUpgradeBaremetalPrivateBandwidthByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/baremetalPrivateBandwidth/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeBaremetalPrivateBandwidthServiceNamePlanCode = (
+  getUpgradeBaremetalPrivateBandwidthByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5200,7 +5287,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeBaremetalPrivateBandwidthServiceNamePlanCode = (
+  postUpgradeBaremetalPrivateBandwidthByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5213,19 +5300,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeBaremetalPublicBandwidth = (): Promise<string> => {
+  listUpgradeBaremetalPublicBandwidths = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/baremetalPublicBandwidth');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeBaremetalPublicBandwidthServiceName = (
+  getUpgradeBaremetalPublicBandwidthByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/baremetalPublicBandwidth/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeBaremetalPublicBandwidthServiceNamePlanCode = (
+  getUpgradeBaremetalPublicBandwidthByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5236,7 +5323,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeBaremetalPublicBandwidthServiceNamePlanCode = (
+  postUpgradeBaremetalPublicBandwidthByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5249,19 +5336,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeCephaas = (): Promise<string> => {
+  listUpgradeCephaas = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/cephaas');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeCephaasServiceName = (
+  getUpgradeCephaasByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/cephaas/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeCephaasServiceNamePlanCode = (
+  getUpgradeCephaasByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5269,7 +5356,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeCephaasServiceNamePlanCode = (
+  postUpgradeCephaasByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5278,17 +5365,17 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeCloudDB = (): Promise<string> => {
+  listUpgradeCloudDBs = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/cloudDB');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeCloudDBDomain = (domain: string): Promise<OrderCartGenericProductDefinition> => {
+  getUpgradeCloudDBByDomain = (domain: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/cloudDB/${domain}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeCloudDBDomainPlanCode = (
+  getUpgradeCloudDBByDomainAndPlanCode = (
     domain: string,
     planCode: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5296,7 +5383,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeCloudDBDomainPlanCode = (
+  postUpgradeCloudDBByDomainAndPlanCode = (
     domain: string,
     planCode: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5305,19 +5392,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeEmailDomain = (): Promise<string> => {
+  listUpgradeEmailDomains = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/emailDomain');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeEmailDomainServiceName = (
+  getUpgradeEmailDomainByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/emailDomain/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeEmailDomainServiceNamePlanCode = (
+  getUpgradeEmailDomainByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5325,7 +5412,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeEmailDomainServiceNamePlanCode = (
+  postUpgradeEmailDomainByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5334,19 +5421,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeIpLoadbalancing = (): Promise<string> => {
+  listUpgradeIpLoadbalancings = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/ipLoadbalancing');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeIpLoadbalancingServiceName = (
+  getUpgradeIpLoadbalancingByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/ipLoadbalancing/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeIpLoadbalancingServiceNamePlanCode = (
+  getUpgradeIpLoadbalancingByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5354,7 +5441,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeIpLoadbalancingServiceNamePlanCode = (
+  postUpgradeIpLoadbalancingByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5367,19 +5454,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeLicensePlesk = (): Promise<string> => {
+  listUpgradeLicensePlesks = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/licensePlesk');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeLicensePleskServiceName = (
+  getUpgradeLicensePleskByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/licensePlesk/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeLicensePleskServiceNamePlanCode = (
+  getUpgradeLicensePleskByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5387,7 +5474,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeLicensePleskServiceNamePlanCode = (
+  postUpgradeLicensePleskByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5396,19 +5483,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeLicensecPanel = (): Promise<string> => {
+  listUpgradeLicensecPanels = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/licensecPanel');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeLicensecPanelServiceName = (
+  getUpgradeLicensecPanelByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/licensecPanel/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeLicensecPanelServiceNamePlanCode = (
+  getUpgradeLicensecPanelByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5416,7 +5503,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeLicensecPanelServiceNamePlanCode = (
+  postUpgradeLicensecPanelByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5429,17 +5516,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeLogs = (): Promise<string> => {
+  listUpgradeLogs = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/logs');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeLogsServiceName = (serviceName: string): Promise<OrderCartGenericProductDefinition> => {
+  getUpgradeLogsByServiceName = (
+    serviceName: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/logs/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeLogsServiceNamePlanCode = (
+  getUpgradeLogsByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5447,7 +5536,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeLogsServiceNamePlanCode = (
+  postUpgradeLogsByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5456,19 +5545,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeMetrics = (): Promise<string> => {
+  listUpgradeMetrics = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/metrics');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeMetricsServiceName = (
+  getUpgradeMetricsByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/metrics/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeMetricsServiceNamePlanCode = (
+  getUpgradeMetricsByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5476,7 +5565,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeMetricsServiceNamePlanCode = (
+  postUpgradeMetricsByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5485,19 +5574,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeMicrosoftExchange = (): Promise<string> => {
+  listUpgradeMicrosoftExchanges = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/microsoftExchange');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeMicrosoftExchangeServiceName = (
+  getUpgradeMicrosoftExchangeByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/microsoftExchange/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeMicrosoftExchangeServiceNamePlanCode = (
+  getUpgradeMicrosoftExchangeByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5505,7 +5594,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeMicrosoftExchangeServiceNamePlanCode = (
+  postUpgradeMicrosoftExchangeByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5518,19 +5607,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradePrivateCloud = (): Promise<string> => {
+  listUpgradePrivateClouds = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/privateCloud');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradePrivateCloudServiceName = (
+  getUpgradePrivateCloudByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/privateCloud/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradePrivateCloudServiceNamePlanCode = (
+  getUpgradePrivateCloudByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5538,7 +5627,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradePrivateCloudServiceNamePlanCode = (
+  postUpgradePrivateCloudByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5547,19 +5636,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradePrivateCloudManagementFee = (): Promise<string> => {
+  listUpgradePrivateCloudManagementFees = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/privateCloudManagementFee');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradePrivateCloudManagementFeeServiceName = (
+  getUpgradePrivateCloudManagementFeeByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/privateCloudManagementFee/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradePrivateCloudManagementFeeServiceNamePlanCode = (
+  getUpgradePrivateCloudManagementFeeByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5570,7 +5659,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradePrivateCloudManagementFeeServiceNamePlanCode = (
+  postUpgradePrivateCloudManagementFeeByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5583,17 +5672,17 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradePrivateSQL = (): Promise<string> => {
+  listUpgradePrivateSQLs = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/privateSQL');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradePrivateSQLDomain = (domain: string): Promise<OrderCartGenericProductDefinition> => {
+  getUpgradePrivateSQLByDomain = (domain: string): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/privateSQL/${domain}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradePrivateSQLDomainPlanCode = (
+  getUpgradePrivateSQLByDomainAndPlanCode = (
     domain: string,
     planCode: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5601,7 +5690,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradePrivateSQLDomainPlanCode = (
+  postUpgradePrivateSQLByDomainAndPlanCode = (
     domain: string,
     planCode: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5610,19 +5699,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeSslGateway = (): Promise<string> => {
+  listUpgradeSslGateways = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/sslGateway');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeSslGatewayServiceName = (
+  getUpgradeSslGatewayByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/sslGateway/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeSslGatewayServiceNamePlanCode = (
+  getUpgradeSslGatewayByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5630,7 +5719,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeSslGatewayServiceNamePlanCode = (
+  postUpgradeSslGatewayByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5639,17 +5728,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeVps = (): Promise<string> => {
+  listUpgradeVps = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/vps');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeVpsServiceName = (serviceName: string): Promise<OrderCartGenericProductDefinition> => {
+  getUpgradeVpsByServiceName = (
+    serviceName: string
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/vps/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeVpsServiceNamePlanCode = (
+  getUpgradeVpsByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5657,7 +5748,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeVpsServiceNamePlanCode = (
+  postUpgradeVpsByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5666,19 +5757,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeVpsAdditionalDisk = (): Promise<string> => {
+  listUpgradeVpsAdditionalDisks = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/vpsAdditionalDisk');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeVpsAdditionalDiskServiceName = (
+  getUpgradeVpsAdditionalDiskByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/vpsAdditionalDisk/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeVpsAdditionalDiskServiceNamePlanCode = (
+  getUpgradeVpsAdditionalDiskByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5686,7 +5777,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeVpsAdditionalDiskServiceNamePlanCode = (
+  postUpgradeVpsAdditionalDiskByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5699,19 +5790,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeWebHosting = (): Promise<string> => {
+  listUpgradeWebHostings = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/webHosting');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeWebHostingServiceName = (
+  getUpgradeWebHostingByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/webHosting/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeWebHostingServiceNamePlanCode = (
+  getUpgradeWebHostingByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5719,7 +5810,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeWebHostingServiceNamePlanCode = (
+  postUpgradeWebHostingByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5728,19 +5819,19 @@ class OrderHandler {
   };
 
   /** List available services */
-  getUpgradeWebPaaS = (): Promise<string> => {
+  listUpgradeWebPaaSs = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/upgrade/webPaaS');
   };
 
   /** Retrieve available offers to upgrade your service to */
-  getUpgradeWebPaaSServiceName = (
+  getUpgradeWebPaaSByServiceName = (
     serviceName: string
-  ): Promise<OrderCartGenericProductDefinition> => {
+  ): Promise<OrderCartGenericProductDefinition[]> => {
     return this.ovh.request('GET', `/order/upgrade/webPaaS/${serviceName}`);
   };
 
   /** Get a provisional order for the selected upgrade of your service */
-  getUpgradeWebPaaSServiceNamePlanCode = (
+  getUpgradeWebPaaSByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string
   ): Promise<OrderUpgradeOperationAndOrder> => {
@@ -5748,7 +5839,7 @@ class OrderHandler {
   };
 
   /** Perform the requested upgrade of your service */
-  postUpgradeWebPaaSServiceNamePlanCode = (
+  postUpgradeWebPaaSByServiceNameAndPlanCode = (
     planCode: string,
     serviceName: string,
     body: { autoPayWithPreferredPaymentMethod?: boolean; quantity: number }
@@ -5757,22 +5848,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getVeeamCloudConnect = (): Promise<string> => {
+  listVeeamCloudConnects = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/veeamCloudConnect');
   };
 
   /** Get allowed options */
-  getVeeamCloudConnectServiceName = (serviceName: string): Promise<string> => {
+  getVeeamCloudConnectByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/veeamCloudConnect/${serviceName}`);
   };
 
   /** Get allowed durations for 'upgrade' option */
-  getVeeamCloudConnectServiceNameUpgrade = (serviceName: string): Promise<string> => {
+  getVeeamCloudConnectUpgradeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/veeamCloudConnect/${serviceName}/upgrade`);
   };
 
   /** Get prices and contracts information */
-  getVeeamCloudConnectServiceNameUpgradeDuration = (
+  getVeeamCloudConnectUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5780,7 +5871,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postVeeamCloudConnectServiceNameUpgradeDuration = (
+  createVeeamCloudConnectUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { offer: VeeamCloudConnectOffer }
@@ -5793,22 +5884,22 @@ class OrderHandler {
   };
 
   /** List available services */
-  getVps = (): Promise<string> => {
+  listVps = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/vps');
   };
 
   /** Get allowed options */
-  getVpsServiceName = (serviceName: string): Promise<string> => {
+  getVpsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/vps/${serviceName}`);
   };
 
   /** Get allowed durations for 'additionalDisk' option */
-  getVpsServiceNameAdditionalDisk = (serviceName: string): Promise<string> => {
+  getVpsAdditionalDiskByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/vps/${serviceName}/additionalDisk`);
   };
 
   /** Get prices and contracts information */
-  getVpsServiceNameAdditionalDiskDuration = (
+  getVpsAdditionalDiskByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5816,7 +5907,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postVpsServiceNameAdditionalDiskDuration = (
+  createVpsAdditionalDiskByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { additionalDiskSize: VpsAdditionalDiskAdditionalDiskSizeEnum }
@@ -5825,12 +5916,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'automatedBackup' option */
-  getVpsServiceNameAutomatedBackup = (serviceName: string): Promise<string> => {
+  getVpsAutomatedBackupByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/vps/${serviceName}/automatedBackup`);
   };
 
   /** Get prices and contracts information */
-  getVpsServiceNameAutomatedBackupDuration = (
+  getVpsAutomatedBackupByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5838,7 +5929,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postVpsServiceNameAutomatedBackupDuration = (
+  createVpsAutomatedBackupByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5846,12 +5937,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'cpanel' option */
-  getVpsServiceNameCpanel = (serviceName: string): Promise<string> => {
+  getVpsCpanelByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/vps/${serviceName}/cpanel`);
   };
 
   /** Get prices and contracts information */
-  getVpsServiceNameCpanelDuration = (
+  getVpsCpanelByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5859,7 +5950,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postVpsServiceNameCpanelDuration = (
+  createVpsCpanelByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5867,12 +5958,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'ftpbackup' option */
-  getVpsServiceNameFtpbackup = (serviceName: string): Promise<string> => {
+  getVpsFtpbackupByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/vps/${serviceName}/ftpbackup`);
   };
 
   /** Get prices and contracts information */
-  getVpsServiceNameFtpbackupDuration = (
+  getVpsFtpbackupByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5880,7 +5971,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postVpsServiceNameFtpbackupDuration = (
+  createVpsFtpbackupByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5888,17 +5979,20 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'plesk' option */
-  getVpsServiceNamePlesk = (serviceName: string): Promise<string> => {
+  getVpsPleskByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/vps/${serviceName}/plesk`);
   };
 
   /** Get prices and contracts information */
-  getVpsServiceNamePleskDuration = (duration: string, serviceName: string): Promise<OrderOrder> => {
+  getVpsPleskByServiceNameAndDuration = (
+    duration: string,
+    serviceName: string
+  ): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/vps/${serviceName}/plesk/${duration}`);
   };
 
   /** Create order */
-  postVpsServiceNamePleskDuration = (
+  createVpsPleskByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { domainNumber: VpsPleskLicenseDomainNumberEnum }
@@ -5907,12 +6001,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'snapshot' option */
-  getVpsServiceNameSnapshot = (serviceName: string): Promise<string> => {
+  getVpsSnapshotByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/vps/${serviceName}/snapshot`);
   };
 
   /** Get prices and contracts information */
-  getVpsServiceNameSnapshotDuration = (
+  getVpsSnapshotByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5920,7 +6014,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postVpsServiceNameSnapshotDuration = (
+  createVpsSnapshotByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5928,12 +6022,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'upgrade' option */
-  getVpsServiceNameUpgrade = (serviceName: string): Promise<string> => {
+  getVpsUpgradeByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/vps/${serviceName}/upgrade`);
   };
 
   /** Get prices and contracts information */
-  getVpsServiceNameUpgradeDuration = (
+  getVpsUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5941,7 +6035,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postVpsServiceNameUpgradeDuration = (
+  createVpsUpgradeByServiceNameAndDuration = (
     duration: string,
     serviceName: string,
     body: { model: string }
@@ -5950,17 +6044,20 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'veeam' option */
-  getVpsServiceNameVeeam = (serviceName: string): Promise<string> => {
+  getVpsVeeamByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/vps/${serviceName}/veeam`);
   };
 
   /** Get prices and contracts information */
-  getVpsServiceNameVeeamDuration = (duration: string, serviceName: string): Promise<OrderOrder> => {
+  getVpsVeeamByServiceNameAndDuration = (
+    duration: string,
+    serviceName: string
+  ): Promise<OrderOrder> => {
     return this.ovh.request('GET', `/order/vps/${serviceName}/veeam/${duration}`);
   };
 
   /** Create order */
-  postVpsServiceNameVeeamDuration = (
+  createVpsVeeamByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5968,12 +6065,12 @@ class OrderHandler {
   };
 
   /** Get allowed durations for 'windows' option */
-  getVpsServiceNameWindows = (serviceName: string): Promise<string> => {
+  getVpsWindowsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/vps/${serviceName}/windows`);
   };
 
   /** Get prices and contracts information */
-  getVpsServiceNameWindowsDuration = (
+  getVpsWindowsByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5981,7 +6078,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postVpsServiceNameWindowsDuration = (
+  createVpsWindowsByServiceNameAndDuration = (
     duration: string,
     serviceName: string
   ): Promise<OrderOrder> => {
@@ -5989,7 +6086,7 @@ class OrderHandler {
   };
 
   /** List available services */
-  getVrack = (): Promise<string> => {
+  listVracks = (): Promise<string[]> => {
     return this.ovh.request('GET', '/order/vrack');
   };
 
@@ -5999,12 +6096,12 @@ class OrderHandler {
   };
 
   /** Create order */
-  postVrackNew = (body: { quantity?: number }): Promise<OrderOrder> => {
+  createVrackNew = (body: { quantity?: number }): Promise<OrderOrder> => {
     return this.ovh.request('POST', '/order/vrack/new', body);
   };
 
   /** Get allowed options */
-  getVrackServiceName = (serviceName: string): Promise<string> => {
+  getVrackByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/order/vrack/${serviceName}`);
   };
 
@@ -6014,7 +6111,7 @@ class OrderHandler {
   };
 
   /** Create order */
-  postXdslSpareNew = (body: {
+  createXdslSpareNew = (body: {
     brand: string;
     mondialRelayId?: string;
     quantity: number;
@@ -6024,4 +6121,4 @@ class OrderHandler {
   };
 }
 
-export default OrderHandler;
+export { OrderHandler };

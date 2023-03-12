@@ -2,4 +2,4 @@
 
 import { MeTagTagKey } from './MeTagTagKey';
 
-export type MeTagAvailableTag = { keys: MeTagTagKey; name: string };
+export type MeTagAvailableTag = { keys: MeTagTagKey[]; name: string };

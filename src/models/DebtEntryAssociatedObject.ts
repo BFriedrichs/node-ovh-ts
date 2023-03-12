@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DebtAssociatedObjectTypeEnum } from './DebtAssociatedObjectTypeEnum';
 import { DebtAssociatedObjectPaymentInfo } from './DebtAssociatedObjectPaymentInfo';
+import { DebtAssociatedObjectTypeEnum } from './DebtAssociatedObjectTypeEnum';
 
 export type DebtEntryAssociatedObject = {
   id: string | null;

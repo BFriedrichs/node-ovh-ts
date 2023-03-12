@@ -2,6 +2,6 @@
 
 export type CloudKubeNodePoolTemplateMetadata = {
   annotations?: Record<string, string>;
-  finalizers?: string;
+  finalizers?: string[];
   labels?: Record<string, string>;
 };

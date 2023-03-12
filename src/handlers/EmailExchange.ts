@@ -1,69 +1,69 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailExchangeObjectStateEnum } from '../models/EmailExchangeObjectStateEnum';
-import { EmailExchangeExchangeSharedAccountSendAs } from '../models/EmailExchangeExchangeSharedAccountSendAs';
-import { EmailExchangePublicFolderQuota } from '../models/EmailExchangePublicFolderQuota';
-import { EmailExchangeExchangeExternalContact } from '../models/EmailExchangeExchangeExternalContact';
-import { EmailExchangeSharedAccountQuota } from '../models/EmailExchangeSharedAccountQuota';
-import { EmailExchangeExchangeServiceProtocol } from '../models/EmailExchangeExchangeServiceProtocol';
-import { EmailExchangeResourceAccount } from '../models/EmailExchangeResourceAccount';
-import { EmailExchangeExchangeDistributionGroupSendOnBehalfTo } from '../models/EmailExchangeExchangeDistributionGroupSendOnBehalfTo';
-import { EmailExchangeDisclaimerAttributeEnum } from '../models/EmailExchangeDisclaimerAttributeEnum';
-import { EmailExchangeExchangeSharedAccountSendOnBehalfTo } from '../models/EmailExchangeExchangeSharedAccountSendOnBehalfTo';
-import { EmailExchangeExchangeAccountArchive } from '../models/EmailExchangeExchangeAccountArchive';
-import { EmailExchangeExchangeSharedAccountAlias } from '../models/EmailExchangeExchangeSharedAccountAlias';
-import { EmailExchangeShowMeetingDetailsEnum } from '../models/EmailExchangeShowMeetingDetailsEnum';
-import { EmailExchangeCountryCodeEnum } from '../models/EmailExchangeCountryCodeEnum';
-import { EmailExchangeMailingList } from '../models/EmailExchangeMailingList';
-import { EmailExchangeExport } from '../models/EmailExchangeExport';
-import { EmailExchangeMailingListJoinRestrictionEnum } from '../models/EmailExchangeMailingListJoinRestrictionEnum';
-import { EmailExchangeOvhLicenceEnum } from '../models/EmailExchangeOvhLicenceEnum';
-import { EmailExchangeDomain } from '../models/EmailExchangeDomain';
-import { EmailExchangePasswordPolicy } from '../models/EmailExchangePasswordPolicy';
-import { EmailExchangeExchangeServiceDevice } from '../models/EmailExchangeExchangeServiceDevice';
-import { EmailExchangeExchangeDistributionGroupMember } from '../models/EmailExchangeExchangeDistributionGroupMember';
-import { EmailExchangeExchangeDistributionGroupManager } from '../models/EmailExchangeExchangeDistributionGroupManager';
-import { EmailExchangeOutlookVersions } from '../models/EmailExchangeOutlookVersions';
-import { ServicesService } from '../models/ServicesService';
-import { EmailExchangeExchangeDistributionGroupSendAs } from '../models/EmailExchangeExchangeDistributionGroupSendAs';
-import { EmailExchangeExchangeAccountAlias } from '../models/EmailExchangeExchangeAccountAlias';
-import { EmailExchangeExchangeCustomIsolation } from '../models/EmailExchangeExchangeCustomIsolation';
-import { EmailExchangeDeviceActiveSyncStateEnum } from '../models/EmailExchangeDeviceActiveSyncStateEnum';
-import { EmailExchangeExchangeService } from '../models/EmailExchangeExchangeService';
-import { EmailExchangeExchangeMailingListAlias } from '../models/EmailExchangeExchangeMailingListAlias';
-import { EmailExchangePublicFolderRightTypeEnum } from '../models/EmailExchangePublicFolderRightTypeEnum';
 import { EmailExchangeMailingListDepartRestrictionEnum } from '../models/EmailExchangeMailingListDepartRestrictionEnum';
+import { EmailExchangeExchangeServiceDevice } from '../models/EmailExchangeExchangeServiceDevice';
 import { EmailExchangeExchangeAccountFullAccess } from '../models/EmailExchangeExchangeAccountFullAccess';
-import { EmailExchangeExchangePublicFolderPermission } from '../models/EmailExchangeExchangePublicFolderPermission';
-import { EmailExchangeTask } from '../models/EmailExchangeTask';
 import { EmailExchangeExchangeServiceAuthorizedIp } from '../models/EmailExchangeExchangeServiceAuthorizedIp';
-import { EmailExchangeAccount } from '../models/EmailExchangeAccount';
-import { EmailExchangeMailingFilterEnum } from '../models/EmailExchangeMailingFilterEnum';
-import { EmailExchangeExportUrl } from '../models/EmailExchangeExportUrl';
-import { EmailExchangeSpamAndVirusConfiguration } from '../models/EmailExchangeSpamAndVirusConfiguration';
-import { EmailExchangeOvhCustomIsolationFieldEnum } from '../models/EmailExchangeOvhCustomIsolationFieldEnum';
-import { EmailExchangeResourceTypeEnum } from '../models/EmailExchangeResourceTypeEnum';
-import { EmailExchangeSharedAccount } from '../models/EmailExchangeSharedAccount';
-import { EmailExchangeExchangeAccountProtocol } from '../models/EmailExchangeExchangeAccountProtocol';
-import { EmailExchangeOutlookVersionEnum } from '../models/EmailExchangeOutlookVersionEnum';
+import { EmailExchangeExchangeMailingListAlias } from '../models/EmailExchangeExchangeMailingListAlias';
+import { EmailExchangeMailingList } from '../models/EmailExchangeMailingList';
+import { EmailExchangeOvhLicenceEnum } from '../models/EmailExchangeOvhLicenceEnum';
 import { EmailExchangeExchangeServiceActiveSyncNotification } from '../models/EmailExchangeExchangeServiceActiveSyncNotification';
-import { EmailExchangeSendConnector } from '../models/EmailExchangeSendConnector';
-import { EmailExchangeSmartHostAuthMechanismEnum } from '../models/EmailExchangeSmartHostAuthMechanismEnum';
-import { EmailExchangePublicFolderTypeEnum } from '../models/EmailExchangePublicFolderTypeEnum';
-import { EmailExchangeExchangeAccountImpersonation } from '../models/EmailExchangeExchangeAccountImpersonation';
-import { EmailExchangeLanguageEnum } from '../models/EmailExchangeLanguageEnum';
-import { EmailExchangeOutlookUrl } from '../models/EmailExchangeOutlookUrl';
-import { EmailExchangeDisclaimer } from '../models/EmailExchangeDisclaimer';
-import { EmailExchangeDkim } from '../models/EmailExchangeDkim';
-import { EmailExchangeDailyLicense } from '../models/EmailExchangeDailyLicense';
-import { EmailExchangeDomainTypeEnum } from '../models/EmailExchangeDomainTypeEnum';
-import { EmailExchangeExchangeAccountDiagnosis } from '../models/EmailExchangeExchangeAccountDiagnosis';
-import { EmailExchangeExchangeAccountSendOnBehalfTo } from '../models/EmailExchangeExchangeAccountSendOnBehalfTo';
-import { EmailExchangePublicFolder } from '../models/EmailExchangePublicFolder';
-import { EmailExchangeServer } from '../models/EmailExchangeServer';
-import { EmailExchangeExchangeSharedAccountFullAccess } from '../models/EmailExchangeExchangeSharedAccountFullAccess';
 import { EmailExchangeExchangeResourceAccountDelegate } from '../models/EmailExchangeExchangeResourceAccountDelegate';
+import { EmailExchangeMailingFilterEnum } from '../models/EmailExchangeMailingFilterEnum';
+import { EmailExchangeOutlookUrl } from '../models/EmailExchangeOutlookUrl';
+import { EmailExchangeExchangeAccountAlias } from '../models/EmailExchangeExchangeAccountAlias';
+import { EmailExchangeExchangeAccountSendOnBehalfTo } from '../models/EmailExchangeExchangeAccountSendOnBehalfTo';
+import { EmailExchangeOvhCustomIsolationFieldEnum } from '../models/EmailExchangeOvhCustomIsolationFieldEnum';
+import { EmailExchangeExchangeDistributionGroupSendAs } from '../models/EmailExchangeExchangeDistributionGroupSendAs';
+import { EmailExchangePublicFolderTypeEnum } from '../models/EmailExchangePublicFolderTypeEnum';
+import { EmailExchangeExchangeExternalContact } from '../models/EmailExchangeExchangeExternalContact';
+import { EmailExchangeDeviceActiveSyncStateEnum } from '../models/EmailExchangeDeviceActiveSyncStateEnum';
+import { EmailExchangeExchangeAccountArchive } from '../models/EmailExchangeExchangeAccountArchive';
+import { EmailExchangeExchangeAccountDiagnosis } from '../models/EmailExchangeExchangeAccountDiagnosis';
+import { EmailExchangeServer } from '../models/EmailExchangeServer';
+import { EmailExchangeSmartHostAuthMechanismEnum } from '../models/EmailExchangeSmartHostAuthMechanismEnum';
+import { EmailExchangeExchangeServiceProtocol } from '../models/EmailExchangeExchangeServiceProtocol';
+import { EmailExchangePasswordPolicy } from '../models/EmailExchangePasswordPolicy';
+import { EmailExchangeSharedAccountQuota } from '../models/EmailExchangeSharedAccountQuota';
+import { EmailExchangeExchangeService } from '../models/EmailExchangeExchangeService';
 import { EmailExchangeExchangeAccountSendAs } from '../models/EmailExchangeExchangeAccountSendAs';
+import { EmailExchangeExchangeCustomIsolation } from '../models/EmailExchangeExchangeCustomIsolation';
+import { EmailExchangeAccount } from '../models/EmailExchangeAccount';
+import { EmailExchangeExchangeSharedAccountAlias } from '../models/EmailExchangeExchangeSharedAccountAlias';
+import { EmailExchangeDkim } from '../models/EmailExchangeDkim';
+import { EmailExchangeExchangeDistributionGroupSendOnBehalfTo } from '../models/EmailExchangeExchangeDistributionGroupSendOnBehalfTo';
+import { EmailExchangeMailingListJoinRestrictionEnum } from '../models/EmailExchangeMailingListJoinRestrictionEnum';
+import { EmailExchangeLanguageEnum } from '../models/EmailExchangeLanguageEnum';
+import { EmailExchangeOutlookVersions } from '../models/EmailExchangeOutlookVersions';
+import { EmailExchangeExport } from '../models/EmailExchangeExport';
+import { EmailExchangeExchangeAccountImpersonation } from '../models/EmailExchangeExchangeAccountImpersonation';
+import { EmailExchangeExchangeAccountProtocol } from '../models/EmailExchangeExchangeAccountProtocol';
+import { EmailExchangeExchangePublicFolderPermission } from '../models/EmailExchangeExchangePublicFolderPermission';
+import { EmailExchangeObjectStateEnum } from '../models/EmailExchangeObjectStateEnum';
+import { EmailExchangeDailyLicense } from '../models/EmailExchangeDailyLicense';
+import { EmailExchangeExchangeSharedAccountSendOnBehalfTo } from '../models/EmailExchangeExchangeSharedAccountSendOnBehalfTo';
+import { EmailExchangeCountryCodeEnum } from '../models/EmailExchangeCountryCodeEnum';
+import { EmailExchangeSharedAccount } from '../models/EmailExchangeSharedAccount';
+import { EmailExchangeExchangeDistributionGroupMember } from '../models/EmailExchangeExchangeDistributionGroupMember';
+import { EmailExchangeOutlookVersionEnum } from '../models/EmailExchangeOutlookVersionEnum';
+import { EmailExchangeResourceTypeEnum } from '../models/EmailExchangeResourceTypeEnum';
+import { EmailExchangeExchangeSharedAccountSendAs } from '../models/EmailExchangeExchangeSharedAccountSendAs';
+import { EmailExchangeExchangeDistributionGroupManager } from '../models/EmailExchangeExchangeDistributionGroupManager';
+import { EmailExchangeDisclaimer } from '../models/EmailExchangeDisclaimer';
+import { ServicesService } from '../models/ServicesService';
+import { EmailExchangeDomainTypeEnum } from '../models/EmailExchangeDomainTypeEnum';
+import { EmailExchangeResourceAccount } from '../models/EmailExchangeResourceAccount';
+import { EmailExchangePublicFolderQuota } from '../models/EmailExchangePublicFolderQuota';
+import { EmailExchangePublicFolderRightTypeEnum } from '../models/EmailExchangePublicFolderRightTypeEnum';
+import { EmailExchangeDomain } from '../models/EmailExchangeDomain';
+import { EmailExchangeSpamAndVirusConfiguration } from '../models/EmailExchangeSpamAndVirusConfiguration';
+import { EmailExchangeSendConnector } from '../models/EmailExchangeSendConnector';
+import { EmailExchangeExchangeSharedAccountFullAccess } from '../models/EmailExchangeExchangeSharedAccountFullAccess';
+import { EmailExchangeDisclaimerAttributeEnum } from '../models/EmailExchangeDisclaimerAttributeEnum';
+import { EmailExchangePublicFolder } from '../models/EmailExchangePublicFolder';
+import { EmailExchangeShowMeetingDetailsEnum } from '../models/EmailExchangeShowMeetingDetailsEnum';
+import { EmailExchangeExportUrl } from '../models/EmailExchangeExportUrl';
+import { EmailExchangeTask } from '../models/EmailExchangeTask';
 import OVHBase from '../ovh';
 
 class EmailExchangeHandler {
@@ -74,17 +74,17 @@ class EmailExchangeHandler {
   }
 
   /** List available services */
-  getExchange = (): Promise<string> => {
+  listExchanges = (): Promise<string[]> => {
     return this.ovh.request('GET', '/email/exchange');
   };
 
   /** List available services */
-  getExchangeOrganizationNameService = (organizationName: string): Promise<string> => {
+  listExchangeServicesByOrganizationName = (organizationName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/exchange/${organizationName}/service`);
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeService = (
+  getExchangeServiceByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<EmailExchangeExchangeService> => {
@@ -95,7 +95,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeService = (
+  updateExchangeServiceByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: EmailExchangeExchangeService
@@ -108,10 +108,10 @@ class EmailExchangeHandler {
   };
 
   /** Accounts associated to this exchange service */
-  getExchangeOrganizationNameServiceExchangeServiceAccount = (
+  getExchangeServiceAccountByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/account`
@@ -119,7 +119,7 @@ class EmailExchangeHandler {
   };
 
   /** Create new mailbox in exchange server */
-  postExchangeOrganizationNameServiceExchangeServiceAccount = (
+  createExchangeServiceAccountByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: {
@@ -143,7 +143,7 @@ class EmailExchangeHandler {
       litigationPeriod?: number;
       login: string;
       mailSenderDisplay?: string;
-      mailingFilter?: EmailExchangeMailingFilterEnum;
+      mailingFilter?: EmailExchangeMailingFilterEnum[];
       mobile?: string;
       office?: string;
       outlookLicense?: boolean;
@@ -167,7 +167,7 @@ class EmailExchangeHandler {
   };
 
   /** Delete existing mailbox in exchange server */
-  deleteExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddress = (
+  deleteExchangeServiceAccountByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
@@ -179,7 +179,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddress = (
+  getExchangeServiceAccountByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
@@ -191,7 +191,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddress = (
+  updateExchangeServiceAccountByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string,
@@ -205,11 +205,11 @@ class EmailExchangeHandler {
   };
 
   /** Aliases associated to this mailbox */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressAlias = (
+  getExchangeServiceAccountAliasByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/account/${primaryEmailAddress}/alias`
@@ -217,7 +217,7 @@ class EmailExchangeHandler {
   };
 
   /** Create new alias */
-  postExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressAlias = (
+  createExchangeServiceAccountAliasByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string,
@@ -231,33 +231,35 @@ class EmailExchangeHandler {
   };
 
   /** Delete existing alias */
-  deleteExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressAliasAlias = (
-    alias: string,
-    exchangeService: string,
-    organizationName: string,
-    primaryEmailAddress: string
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'DELETE',
-      `/email/exchange/${organizationName}/service/${exchangeService}/account/${primaryEmailAddress}/alias/${alias}`
-    );
-  };
+  deleteExchangeServiceAccountAliasByOrganizationNameAndExchangeServiceAndPrimaryEmailAddressAndAlias =
+    (
+      alias: string,
+      exchangeService: string,
+      organizationName: string,
+      primaryEmailAddress: string
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'DELETE',
+        `/email/exchange/${organizationName}/service/${exchangeService}/account/${primaryEmailAddress}/alias/${alias}`
+      );
+    };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressAliasAlias = (
-    alias: string,
-    exchangeService: string,
-    organizationName: string,
-    primaryEmailAddress: string
-  ): Promise<EmailExchangeExchangeAccountAlias> => {
-    return this.ovh.request(
-      'GET',
-      `/email/exchange/${organizationName}/service/${exchangeService}/account/${primaryEmailAddress}/alias/${alias}`
-    );
-  };
+  getExchangeServiceAccountAliasByOrganizationNameAndExchangeServiceAndPrimaryEmailAddressAndAlias =
+    (
+      alias: string,
+      exchangeService: string,
+      organizationName: string,
+      primaryEmailAddress: string
+    ): Promise<EmailExchangeExchangeAccountAlias> => {
+      return this.ovh.request(
+        'GET',
+        `/email/exchange/${organizationName}/service/${exchangeService}/account/${primaryEmailAddress}/alias/${alias}`
+      );
+    };
 
   /** Delete existing archive mailbox */
-  deleteExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressArchive = (
+  deleteExchangeServiceAccountArchiveByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
@@ -269,7 +271,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressArchive = (
+  getExchangeServiceAccountArchiveByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
@@ -281,7 +283,7 @@ class EmailExchangeHandler {
   };
 
   /** Create new archive mailbox */
-  postExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressArchive = (
+  createExchangeServiceAccountArchiveByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string,
@@ -295,7 +297,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressArchive = (
+  updateExchangeServiceAccountArchiveByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string,
@@ -309,7 +311,7 @@ class EmailExchangeHandler {
   };
 
   /** Change mailbox password */
-  postExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressChangePassword = (
+  updateExchangeServiceAccountPasswordByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string,
@@ -323,7 +325,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressDiagnostics = (
+  getExchangeServiceAccountDiagnosticsByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
@@ -335,21 +337,22 @@ class EmailExchangeHandler {
   };
 
   /** Create new diagnosis request */
-  postExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressDiagnostics = (
-    exchangeService: string,
-    organizationName: string,
-    primaryEmailAddress: string,
-    body: { password: string }
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'POST',
-      `/email/exchange/${organizationName}/service/${exchangeService}/account/${primaryEmailAddress}/diagnostics`,
-      body
-    );
-  };
+  createExchangeServiceAccountDiagnosticsByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress =
+    (
+      exchangeService: string,
+      organizationName: string,
+      primaryEmailAddress: string,
+      body: { password: string }
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'POST',
+        `/email/exchange/${organizationName}/service/${exchangeService}/account/${primaryEmailAddress}/diagnostics`,
+        body
+      );
+    };
 
   /** Remove request of PST file */
-  deleteExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressExport = (
+  deleteExchangeServiceAccountExportByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
@@ -361,7 +364,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressExport = (
+  getExchangeServiceAccountExportByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
@@ -373,7 +376,7 @@ class EmailExchangeHandler {
   };
 
   /** Request PST file for the account */
-  postExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressExport = (
+  postExchangeServiceAccountExportByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
@@ -385,7 +388,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressExportURL = (
+  getExchangeServiceAccountExportURLByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
@@ -397,7 +400,7 @@ class EmailExchangeHandler {
   };
 
   /** Generate temporary url to PST file */
-  postExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressExportURL = (
+  postExchangeServiceAccountExportURLByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
@@ -409,11 +412,11 @@ class EmailExchangeHandler {
   };
 
   /** Full access granted users for this mailbox */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressFullAccess = (
+  getExchangeServiceAccountFullAccessByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/account/${primaryEmailAddress}/fullAccess`
@@ -421,7 +424,7 @@ class EmailExchangeHandler {
   };
 
   /** Allow full access to a user */
-  postExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressFullAccess = (
+  postExchangeServiceAccountFullAccessByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string,
@@ -435,7 +438,7 @@ class EmailExchangeHandler {
   };
 
   /** Revoke full access */
-  deleteExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressFullAccessAllowedAccountId =
+  deleteExchangeServiceAccountFullAccessByOrganizationNameAndExchangeServiceAndPrimaryEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -449,7 +452,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressFullAccessAllowedAccountId =
+  getExchangeServiceAccountFullAccessByOrganizationNameAndExchangeServiceAndPrimaryEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -463,7 +466,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressOutlookURL = (
+  getExchangeServiceAccountOutlookURLByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
@@ -475,7 +478,7 @@ class EmailExchangeHandler {
   };
 
   /** Generate outlook url */
-  postExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressOutlookURL = (
+  postExchangeServiceAccountOutlookURLByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string,
@@ -489,7 +492,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressProtocol = (
+  getExchangeServiceAccountProtocolByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
@@ -501,7 +504,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressProtocol = (
+  updateExchangeServiceAccountProtocolByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string,
@@ -515,11 +518,11 @@ class EmailExchangeHandler {
   };
 
   /** Send as granted users for this mailbox */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressSendAs = (
+  sendExchangeServiceAccountAsByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/account/${primaryEmailAddress}/sendAs`
@@ -527,7 +530,7 @@ class EmailExchangeHandler {
   };
 
   /** Allow another user to send mails from this mailbox */
-  postExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressSendAs = (
+  postExchangeServiceAccountSendAsByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string,
@@ -541,7 +544,7 @@ class EmailExchangeHandler {
   };
 
   /** Delete allowed user for sendAs */
-  deleteExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressSendAsAllowedAccountId =
+  deleteExchangeServiceAccountSendAsByOrganizationNameAndExchangeServiceAndPrimaryEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -555,7 +558,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressSendAsAllowedAccountId =
+  getExchangeServiceAccountSendAsByOrganizationNameAndExchangeServiceAndPrimaryEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -569,11 +572,11 @@ class EmailExchangeHandler {
     };
 
   /** SendOnBehalfTo granted users for this mailbox */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressSendOnBehalfTo = (
+  sendExchangeServiceAccountOnBehalfToByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/account/${primaryEmailAddress}/sendOnBehalfTo`
@@ -581,21 +584,22 @@ class EmailExchangeHandler {
   };
 
   /** Allow another user to Send On Behalf To mails from this mailbox */
-  postExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressSendOnBehalfTo = (
-    exchangeService: string,
-    organizationName: string,
-    primaryEmailAddress: string,
-    body: { allowAccountId: number }
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'POST',
-      `/email/exchange/${organizationName}/service/${exchangeService}/account/${primaryEmailAddress}/sendOnBehalfTo`,
-      body
-    );
-  };
+  postExchangeServiceAccountSendOnBehalfToByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress =
+    (
+      exchangeService: string,
+      organizationName: string,
+      primaryEmailAddress: string,
+      body: { allowAccountId: number }
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'POST',
+        `/email/exchange/${organizationName}/service/${exchangeService}/account/${primaryEmailAddress}/sendOnBehalfTo`,
+        body
+      );
+    };
 
   /** Delete allowed user for SendOnBehalfTo */
-  deleteExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressSendOnBehalfToAllowedAccountId =
+  deleteExchangeServiceAccountSendOnBehalfToByOrganizationNameAndExchangeServiceAndPrimaryEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -609,7 +613,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressSendOnBehalfToAllowedAccountId =
+  getExchangeServiceAccountSendOnBehalfToByOrganizationNameAndExchangeServiceAndPrimaryEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -623,11 +627,11 @@ class EmailExchangeHandler {
     };
 
   /** Pending task for this mailbox */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressTasks = (
+  getExchangeServiceAccountTasksByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/account/${primaryEmailAddress}/tasks`
@@ -635,7 +639,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressTasksId = (
+  getExchangeServiceAccountTasksByOrganizationNameAndExchangeServiceAndPrimaryEmailAddressAndId = (
     exchangeService: string,
     id: number,
     organizationName: string,
@@ -648,7 +652,7 @@ class EmailExchangeHandler {
   };
 
   /** Terminate account at expiration date */
-  postExchangeOrganizationNameServiceExchangeServiceAccountPrimaryEmailAddressTerminate = (
+  postExchangeServiceAccountTerminateByOrganizationNameAndExchangeServiceAndPrimaryEmailAddress = (
     exchangeService: string,
     organizationName: string,
     primaryEmailAddress: string
@@ -660,7 +664,7 @@ class EmailExchangeHandler {
   };
 
   /** Activate Sharepoint infra connected to this exchange service */
-  postExchangeOrganizationNameServiceExchangeServiceActivateSharepoint = (
+  postExchangeServiceActivateSharepointByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: { primaryEmailAddress: string; subDomain: string }
@@ -673,10 +677,10 @@ class EmailExchangeHandler {
   };
 
   /** Authorized IPs for POP(s),IMAP(s), SMTP(s) and HTTP(s) */
-  getExchangeOrganizationNameServiceExchangeServiceAuthorizedIp = (
+  getExchangeServiceAuthorizedIpByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/authorizedIp`
@@ -684,7 +688,7 @@ class EmailExchangeHandler {
   };
 
   /** Authorize new IP to access the service */
-  postExchangeOrganizationNameServiceExchangeServiceAuthorizedIp = (
+  postExchangeServiceAuthorizedIpByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: {
@@ -707,7 +711,7 @@ class EmailExchangeHandler {
   };
 
   /** Delete authorized IP */
-  deleteExchangeOrganizationNameServiceExchangeServiceAuthorizedIpIp = (
+  deleteExchangeServiceAuthorizedIpByOrganizationNameAndExchangeServiceAndIp = (
     exchangeService: string,
     ip: string,
     organizationName: string
@@ -719,7 +723,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceAuthorizedIpIp = (
+  getExchangeServiceAuthorizedIpByOrganizationNameAndExchangeServiceAndIp = (
     exchangeService: string,
     ip: string,
     organizationName: string
@@ -731,7 +735,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceAuthorizedIpIp = (
+  updateExchangeServiceAuthorizedIpByOrganizationNameAndExchangeServiceAndIp = (
     exchangeService: string,
     ip: string,
     organizationName: string,
@@ -745,7 +749,7 @@ class EmailExchangeHandler {
   };
 
   /** Setting SSL hostname for Exchange private offer */
-  postExchangeOrganizationNameServiceExchangeServiceChangeHostname = (
+  postExchangeServiceChangeHostnameByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: { dcvEmail: string; hostname: string; useDnsAssist: boolean }
@@ -758,10 +762,10 @@ class EmailExchangeHandler {
   };
 
   /** custom isolation for mailbox */
-  getExchangeOrganizationNameServiceExchangeServiceCustomIsolation = (
+  getExchangeServiceCustomIsolationByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/customIsolation`
@@ -769,7 +773,7 @@ class EmailExchangeHandler {
   };
 
   /** Create new custom isolation for mailbox */
-  postExchangeOrganizationNameServiceExchangeServiceCustomIsolation = (
+  createExchangeServiceCustomIsolationByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: {
@@ -786,7 +790,7 @@ class EmailExchangeHandler {
   };
 
   /** Delete existing custom isolation for mailbox */
-  deleteExchangeOrganizationNameServiceExchangeServiceCustomIsolationName = (
+  deleteExchangeServiceCustomIsolationByOrganizationNameAndExchangeServiceAndName = (
     exchangeService: string,
     name: string,
     organizationName: string
@@ -798,7 +802,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceCustomIsolationName = (
+  getExchangeServiceCustomIsolationByOrganizationNameAndExchangeServiceAndName = (
     exchangeService: string,
     name: string,
     organizationName: string
@@ -810,10 +814,10 @@ class EmailExchangeHandler {
   };
 
   /** Get DCV emails if your ssl will expire in next 30 days */
-  getExchangeOrganizationNameServiceExchangeServiceDcvEmails = (
+  getExchangeServiceDcvEmailsByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/dcvEmails`
@@ -821,10 +825,10 @@ class EmailExchangeHandler {
   };
 
   /** List of your ActiveSync devices registered on this Exchange service */
-  getExchangeOrganizationNameServiceExchangeServiceDevice = (
+  listExchangeServiceDevicesByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/device`
@@ -832,7 +836,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceDeviceIdentity = (
+  getExchangeServiceDeviceByOrganizationNameAndExchangeServiceAndIdentity = (
     exchangeService: string,
     identity: string,
     organizationName: string
@@ -844,7 +848,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceDeviceIdentity = (
+  updateExchangeServiceDeviceByOrganizationNameAndExchangeServiceAndIdentity = (
     exchangeService: string,
     identity: string,
     organizationName: string,
@@ -858,7 +862,7 @@ class EmailExchangeHandler {
   };
 
   /** Executes a factory reset on the device. THIS OPERATION CANNOT BE REVERSED, ALL DATA ON THE DEVICE WILL BE LOST. */
-  postExchangeOrganizationNameServiceExchangeServiceDeviceIdentityClearDevice = (
+  postExchangeServiceDeviceClearDeviceByOrganizationNameAndExchangeServiceAndIdentity = (
     exchangeService: string,
     identity: string,
     organizationName: string
@@ -870,10 +874,10 @@ class EmailExchangeHandler {
   };
 
   /** Domains associated to this service */
-  getExchangeOrganizationNameServiceExchangeServiceDomain = (
+  getExchangeServiceDomainByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/domain`
@@ -881,7 +885,7 @@ class EmailExchangeHandler {
   };
 
   /** Create new domain in exchange services */
-  postExchangeOrganizationNameServiceExchangeServiceDomain = (
+  createExchangeServiceDomainByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: {
@@ -906,7 +910,7 @@ class EmailExchangeHandler {
   };
 
   /** Delete existing domain in exchange services */
-  deleteExchangeOrganizationNameServiceExchangeServiceDomainDomainName = (
+  deleteExchangeServiceDomainByOrganizationNameAndExchangeServiceAndDomainName = (
     domainName: string,
     exchangeService: string,
     organizationName: string
@@ -918,7 +922,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceDomainDomainName = (
+  getExchangeServiceDomainByOrganizationNameAndExchangeServiceAndDomainName = (
     domainName: string,
     exchangeService: string,
     organizationName: string
@@ -930,7 +934,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceDomainDomainName = (
+  updateExchangeServiceDomainByOrganizationNameAndExchangeServiceAndDomainName = (
     domainName: string,
     exchangeService: string,
     organizationName: string,
@@ -944,7 +948,7 @@ class EmailExchangeHandler {
   };
 
   /** Change default values of SBR used for all new created account on this domain */
-  putExchangeOrganizationNameServiceExchangeServiceDomainDomainNameChangeDefaultSBR = (
+  updateExchangeServiceDomainDefaultSBRByOrganizationNameAndExchangeServiceAndDomainName = (
     domainName: string,
     exchangeService: string,
     organizationName: string,
@@ -958,7 +962,7 @@ class EmailExchangeHandler {
   };
 
   /** Delete existing organization disclaimer */
-  deleteExchangeOrganizationNameServiceExchangeServiceDomainDomainNameDisclaimer = (
+  deleteExchangeServiceDomainDisclaimerByOrganizationNameAndExchangeServiceAndDomainName = (
     domainName: string,
     exchangeService: string,
     organizationName: string
@@ -970,7 +974,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceDomainDomainNameDisclaimer = (
+  getExchangeServiceDomainDisclaimerByOrganizationNameAndExchangeServiceAndDomainName = (
     domainName: string,
     exchangeService: string,
     organizationName: string
@@ -982,7 +986,7 @@ class EmailExchangeHandler {
   };
 
   /** Create organization disclaimer of each email */
-  postExchangeOrganizationNameServiceExchangeServiceDomainDomainNameDisclaimer = (
+  createExchangeServiceDomainDisclaimerByOrganizationNameAndExchangeServiceAndDomainName = (
     domainName: string,
     exchangeService: string,
     organizationName: string,
@@ -996,7 +1000,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceDomainDomainNameDisclaimer = (
+  updateExchangeServiceDomainDisclaimerByOrganizationNameAndExchangeServiceAndDomainName = (
     domainName: string,
     exchangeService: string,
     organizationName: string,
@@ -1010,11 +1014,11 @@ class EmailExchangeHandler {
   };
 
   /** Get diclaimer attributes to substitute with Active Directory properties */
-  getExchangeOrganizationNameServiceExchangeServiceDomainDomainNameDisclaimerAttribute = (
+  getExchangeServiceDomainDisclaimerAttributeByOrganizationNameAndExchangeServiceAndDomainName = (
     domainName: string,
     exchangeService: string,
     organizationName: string
-  ): Promise<EmailExchangeDisclaimerAttributeEnum> => {
+  ): Promise<EmailExchangeDisclaimerAttributeEnum[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/domain/${domainName}/disclaimerAttribute`
@@ -1022,11 +1026,11 @@ class EmailExchangeHandler {
   };
 
   /** dkim associated to this domain */
-  getExchangeOrganizationNameServiceExchangeServiceDomainDomainNameDkim = (
+  getExchangeServiceDomainDkimByOrganizationNameAndExchangeServiceAndDomainName = (
     domainName: string,
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/domain/${domainName}/dkim`
@@ -1034,7 +1038,7 @@ class EmailExchangeHandler {
   };
 
   /** Create DKIM selector on this domain */
-  postExchangeOrganizationNameServiceExchangeServiceDomainDomainNameDkim = (
+  createExchangeServiceDomainDkimByOrganizationNameAndExchangeServiceAndDomainName = (
     domainName: string,
     exchangeService: string,
     organizationName: string,
@@ -1048,20 +1052,21 @@ class EmailExchangeHandler {
   };
 
   /** Delete DKIM selector on this domain */
-  deleteExchangeOrganizationNameServiceExchangeServiceDomainDomainNameDkimSelectorName = (
-    domainName: string,
-    exchangeService: string,
-    organizationName: string,
-    selectorName: string
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'DELETE',
-      `/email/exchange/${organizationName}/service/${exchangeService}/domain/${domainName}/dkim/${selectorName}`
-    );
-  };
+  deleteExchangeServiceDomainDkimByOrganizationNameAndExchangeServiceAndDomainNameAndSelectorName =
+    (
+      domainName: string,
+      exchangeService: string,
+      organizationName: string,
+      selectorName: string
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'DELETE',
+        `/email/exchange/${organizationName}/service/${exchangeService}/domain/${domainName}/dkim/${selectorName}`
+      );
+    };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceDomainDomainNameDkimSelectorName = (
+  getExchangeServiceDomainDkimByOrganizationNameAndExchangeServiceAndDomainNameAndSelectorName = (
     domainName: string,
     exchangeService: string,
     organizationName: string,
@@ -1074,37 +1079,39 @@ class EmailExchangeHandler {
   };
 
   /** disable dkim signing */
-  postExchangeOrganizationNameServiceExchangeServiceDomainDomainNameDkimSelectorNameDisable = (
-    domainName: string,
-    exchangeService: string,
-    organizationName: string,
-    selectorName: string
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'POST',
-      `/email/exchange/${organizationName}/service/${exchangeService}/domain/${domainName}/dkim/${selectorName}/disable`
-    );
-  };
+  disableExchangeServiceDomainDkimByOrganizationNameAndExchangeServiceAndDomainNameAndSelectorName =
+    (
+      domainName: string,
+      exchangeService: string,
+      organizationName: string,
+      selectorName: string
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'POST',
+        `/email/exchange/${organizationName}/service/${exchangeService}/domain/${domainName}/dkim/${selectorName}/disable`
+      );
+    };
 
   /** enable dkim signing or switch selector used */
-  postExchangeOrganizationNameServiceExchangeServiceDomainDomainNameDkimSelectorNameEnable = (
-    domainName: string,
-    exchangeService: string,
-    organizationName: string,
-    selectorName: string
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'POST',
-      `/email/exchange/${organizationName}/service/${exchangeService}/domain/${domainName}/dkim/${selectorName}/enable`
-    );
-  };
+  enableExchangeServiceDomainDkimByOrganizationNameAndExchangeServiceAndDomainNameAndSelectorName =
+    (
+      domainName: string,
+      exchangeService: string,
+      organizationName: string,
+      selectorName: string
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'POST',
+        `/email/exchange/${organizationName}/service/${exchangeService}/domain/${domainName}/dkim/${selectorName}/enable`
+      );
+    };
 
   /** Get dkim selector list */
-  getExchangeOrganizationNameServiceExchangeServiceDomainDomainNameDkimSelector = (
+  getExchangeServiceDomainDkimSelectorByOrganizationNameAndExchangeServiceAndDomainName = (
     domainName: string,
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/domain/${domainName}/dkimSelector`
@@ -1112,10 +1119,10 @@ class EmailExchangeHandler {
   };
 
   /** External contacts for this service */
-  getExchangeOrganizationNameServiceExchangeServiceExternalContact = (
+  getExchangeServiceExternalContactByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/externalContact`
@@ -1123,7 +1130,7 @@ class EmailExchangeHandler {
   };
 
   /** create new external contact */
-  postExchangeOrganizationNameServiceExchangeServiceExternalContact = (
+  createExchangeServiceExternalContactByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: {
@@ -1144,19 +1151,20 @@ class EmailExchangeHandler {
   };
 
   /** delete external contact */
-  deleteExchangeOrganizationNameServiceExchangeServiceExternalContactExternalEmailAddress = (
-    exchangeService: string,
-    externalEmailAddress: string,
-    organizationName: string
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'DELETE',
-      `/email/exchange/${organizationName}/service/${exchangeService}/externalContact/${externalEmailAddress}`
-    );
-  };
+  deleteExchangeServiceExternalContactByOrganizationNameAndExchangeServiceAndExternalEmailAddress =
+    (
+      exchangeService: string,
+      externalEmailAddress: string,
+      organizationName: string
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'DELETE',
+        `/email/exchange/${organizationName}/service/${exchangeService}/externalContact/${externalEmailAddress}`
+      );
+    };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceExternalContactExternalEmailAddress = (
+  getExchangeServiceExternalContactByOrganizationNameAndExchangeServiceAndExternalEmailAddress = (
     exchangeService: string,
     externalEmailAddress: string,
     organizationName: string
@@ -1168,21 +1176,22 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceExternalContactExternalEmailAddress = (
-    exchangeService: string,
-    externalEmailAddress: string,
-    organizationName: string,
-    body: EmailExchangeExchangeExternalContact
-  ): Promise<void> => {
-    return this.ovh.request(
-      'PUT',
-      `/email/exchange/${organizationName}/service/${exchangeService}/externalContact/${externalEmailAddress}`,
-      body
-    );
-  };
+  updateExchangeServiceExternalContactByOrganizationNameAndExchangeServiceAndExternalEmailAddress =
+    (
+      exchangeService: string,
+      externalEmailAddress: string,
+      organizationName: string,
+      body: EmailExchangeExchangeExternalContact
+    ): Promise<void> => {
+      return this.ovh.request(
+        'PUT',
+        `/email/exchange/${organizationName}/service/${exchangeService}/externalContact/${externalEmailAddress}`,
+        body
+      );
+    };
 
   /** Delete user with impersonation right on all mailboxes */
-  deleteExchangeOrganizationNameServiceExchangeServiceImpersonatedUser = (
+  deleteExchangeServiceImpersonatedUserByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<EmailExchangeTask> => {
@@ -1193,7 +1202,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceImpersonatedUser = (
+  getExchangeServiceImpersonatedUserByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<EmailExchangeExchangeAccountImpersonation> => {
@@ -1204,7 +1213,7 @@ class EmailExchangeHandler {
   };
 
   /** Create user with impersonation right on all mailboxes */
-  postExchangeOrganizationNameServiceExchangeServiceImpersonatedUser = (
+  createExchangeServiceImpersonatedUserByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: { password: string }
@@ -1217,7 +1226,7 @@ class EmailExchangeHandler {
   };
 
   /** Change user password */
-  postExchangeOrganizationNameServiceExchangeServiceImpersonatedUserChangePassword = (
+  updateExchangeServiceImpersonatedUserPasswordByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: { password: string }
@@ -1230,7 +1239,7 @@ class EmailExchangeHandler {
   };
 
   /** Get configuration of password policy linked to impersonated account */
-  getExchangeOrganizationNameServiceExchangeServiceImpersonationPasswordPolicy = (
+  getExchangeServiceImpersonationPasswordPolicyByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<EmailExchangePasswordPolicy> => {
@@ -1241,10 +1250,10 @@ class EmailExchangeHandler {
   };
 
   /** Get active licenses for specific period of time */
-  getExchangeOrganizationNameServiceExchangeServiceLicense = (
+  getExchangeServiceLicenseByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<EmailExchangeDailyLicense> => {
+  ): Promise<EmailExchangeDailyLicense[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/license`
@@ -1252,10 +1261,10 @@ class EmailExchangeHandler {
   };
 
   /** Mailing list for this service */
-  getExchangeOrganizationNameServiceExchangeServiceMailingList = (
+  getExchangeServiceMailingListByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/mailingList`
@@ -1263,7 +1272,7 @@ class EmailExchangeHandler {
   };
 
   /** Add mailing list */
-  postExchangeOrganizationNameServiceExchangeServiceMailingList = (
+  addExchangeServiceMailingListByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: {
@@ -1286,7 +1295,7 @@ class EmailExchangeHandler {
   };
 
   /** Delete mailing list */
-  deleteExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddress = (
+  deleteExchangeServiceMailingListByOrganizationNameAndExchangeServiceAndMailingListAddress = (
     exchangeService: string,
     mailingListAddress: string,
     organizationName: string
@@ -1298,7 +1307,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddress = (
+  getExchangeServiceMailingListByOrganizationNameAndExchangeServiceAndMailingListAddress = (
     exchangeService: string,
     mailingListAddress: string,
     organizationName: string
@@ -1310,7 +1319,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddress = (
+  updateExchangeServiceMailingListByOrganizationNameAndExchangeServiceAndMailingListAddress = (
     exchangeService: string,
     mailingListAddress: string,
     organizationName: string,
@@ -1324,11 +1333,11 @@ class EmailExchangeHandler {
   };
 
   /** Aliases associated to this mailingList */
-  getExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressAlias = (
+  getExchangeServiceMailingListAliasByOrganizationNameAndExchangeServiceAndMailingListAddress = (
     exchangeService: string,
     mailingListAddress: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/alias`
@@ -1336,7 +1345,7 @@ class EmailExchangeHandler {
   };
 
   /** Create new alias */
-  postExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressAlias = (
+  createExchangeServiceMailingListAliasByOrganizationNameAndExchangeServiceAndMailingListAddress = (
     exchangeService: string,
     mailingListAddress: string,
     organizationName: string,
@@ -1350,59 +1359,63 @@ class EmailExchangeHandler {
   };
 
   /** Delete existing alias */
-  deleteExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressAliasAlias = (
-    alias: string,
-    exchangeService: string,
-    mailingListAddress: string,
-    organizationName: string
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'DELETE',
-      `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/alias/${alias}`
-    );
-  };
+  deleteExchangeServiceMailingListAliasByOrganizationNameAndExchangeServiceAndMailingListAddressAndAlias =
+    (
+      alias: string,
+      exchangeService: string,
+      mailingListAddress: string,
+      organizationName: string
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'DELETE',
+        `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/alias/${alias}`
+      );
+    };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressAliasAlias = (
-    alias: string,
-    exchangeService: string,
-    mailingListAddress: string,
-    organizationName: string
-  ): Promise<EmailExchangeExchangeMailingListAlias> => {
-    return this.ovh.request(
-      'GET',
-      `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/alias/${alias}`
-    );
-  };
+  getExchangeServiceMailingListAliasByOrganizationNameAndExchangeServiceAndMailingListAddressAndAlias =
+    (
+      alias: string,
+      exchangeService: string,
+      mailingListAddress: string,
+      organizationName: string
+    ): Promise<EmailExchangeExchangeMailingListAlias> => {
+      return this.ovh.request(
+        'GET',
+        `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/alias/${alias}`
+      );
+    };
 
   /** Mailing list account manager */
-  getExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressManagerAccount = (
-    exchangeService: string,
-    mailingListAddress: string,
-    organizationName: string
-  ): Promise<number> => {
-    return this.ovh.request(
-      'GET',
-      `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/manager/account`
-    );
-  };
+  getExchangeServiceMailingListManagerAccountByOrganizationNameAndExchangeServiceAndMailingListAddress =
+    (
+      exchangeService: string,
+      mailingListAddress: string,
+      organizationName: string
+    ): Promise<number[]> => {
+      return this.ovh.request(
+        'GET',
+        `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/manager/account`
+      );
+    };
 
   /** Add new mailing list manager */
-  postExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressManagerAccount = (
-    exchangeService: string,
-    mailingListAddress: string,
-    organizationName: string,
-    body: { managerAccountId: number }
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'POST',
-      `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/manager/account`,
-      body
-    );
-  };
+  addExchangeServiceMailingListManagerAccountByOrganizationNameAndExchangeServiceAndMailingListAddress =
+    (
+      exchangeService: string,
+      mailingListAddress: string,
+      organizationName: string,
+      body: { managerAccountId: number }
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'POST',
+        `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/manager/account`,
+        body
+      );
+    };
 
   /** Delete mailing list manager */
-  deleteExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressManagerAccountManagerAccountId =
+  deleteExchangeServiceMailingListManagerAccountByOrganizationNameAndExchangeServiceAndMailingListAddressAndManagerAccountId =
     (
       exchangeService: string,
       mailingListAddress: string,
@@ -1416,7 +1429,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressManagerAccountManagerAccountId =
+  getExchangeServiceMailingListManagerAccountByOrganizationNameAndExchangeServiceAndMailingListAddressAndManagerAccountId =
     (
       exchangeService: string,
       mailingListAddress: string,
@@ -1430,33 +1443,35 @@ class EmailExchangeHandler {
     };
 
   /** Mailing list account member */
-  getExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressMemberAccount = (
-    exchangeService: string,
-    mailingListAddress: string,
-    organizationName: string
-  ): Promise<number> => {
-    return this.ovh.request(
-      'GET',
-      `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/member/account`
-    );
-  };
+  getExchangeServiceMailingListMemberAccountByOrganizationNameAndExchangeServiceAndMailingListAddress =
+    (
+      exchangeService: string,
+      mailingListAddress: string,
+      organizationName: string
+    ): Promise<number[]> => {
+      return this.ovh.request(
+        'GET',
+        `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/member/account`
+      );
+    };
 
   /** Add new mailing list member */
-  postExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressMemberAccount = (
-    exchangeService: string,
-    mailingListAddress: string,
-    organizationName: string,
-    body: { memberAccountId?: number; memberContactId?: number }
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'POST',
-      `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/member/account`,
-      body
-    );
-  };
+  addExchangeServiceMailingListMemberAccountByOrganizationNameAndExchangeServiceAndMailingListAddress =
+    (
+      exchangeService: string,
+      mailingListAddress: string,
+      organizationName: string,
+      body: { memberAccountId?: number; memberContactId?: number }
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'POST',
+        `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/member/account`,
+        body
+      );
+    };
 
   /** Delete mailing list member */
-  deleteExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressMemberAccountMemberAccountId =
+  deleteExchangeServiceMailingListMemberAccountByOrganizationNameAndExchangeServiceAndMailingListAddressAndMemberAccountId =
     (
       exchangeService: string,
       mailingListAddress: string,
@@ -1470,7 +1485,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressMemberAccountMemberAccountId =
+  getExchangeServiceMailingListMemberAccountByOrganizationNameAndExchangeServiceAndMailingListAddressAndMemberAccountId =
     (
       exchangeService: string,
       mailingListAddress: string,
@@ -1484,33 +1499,35 @@ class EmailExchangeHandler {
     };
 
   /** Mailing list contact member */
-  getExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressMemberContact = (
-    exchangeService: string,
-    mailingListAddress: string,
-    organizationName: string
-  ): Promise<number> => {
-    return this.ovh.request(
-      'GET',
-      `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/member/contact`
-    );
-  };
+  getExchangeServiceMailingListMemberContactByOrganizationNameAndExchangeServiceAndMailingListAddress =
+    (
+      exchangeService: string,
+      mailingListAddress: string,
+      organizationName: string
+    ): Promise<number[]> => {
+      return this.ovh.request(
+        'GET',
+        `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/member/contact`
+      );
+    };
 
   /** Add new mailing list member */
-  postExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressMemberContact = (
-    exchangeService: string,
-    mailingListAddress: string,
-    organizationName: string,
-    body: { memberAccountId?: number; memberContactId?: number }
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'POST',
-      `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/member/contact`,
-      body
-    );
-  };
+  addExchangeServiceMailingListMemberContactByOrganizationNameAndExchangeServiceAndMailingListAddress =
+    (
+      exchangeService: string,
+      mailingListAddress: string,
+      organizationName: string,
+      body: { memberAccountId?: number; memberContactId?: number }
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'POST',
+        `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/member/contact`,
+        body
+      );
+    };
 
   /** Delete mailing list member */
-  deleteExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressMemberContactMemberContactId =
+  deleteExchangeServiceMailingListMemberContactByOrganizationNameAndExchangeServiceAndMailingListAddressAndMemberContactId =
     (
       exchangeService: string,
       mailingListAddress: string,
@@ -1524,7 +1541,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressMemberContactMemberContactId =
+  getExchangeServiceMailingListMemberContactByOrganizationNameAndExchangeServiceAndMailingListAddressAndMemberContactId =
     (
       exchangeService: string,
       mailingListAddress: string,
@@ -1538,11 +1555,11 @@ class EmailExchangeHandler {
     };
 
   /** sendAs */
-  getExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressSendAs = (
+  sendExchangeServiceMailingListAsByOrganizationNameAndExchangeServiceAndMailingListAddress = (
     exchangeService: string,
     mailingListAddress: string,
     organizationName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/sendAs`
@@ -1550,7 +1567,7 @@ class EmailExchangeHandler {
   };
 
   /** Allow another user to Send aso mails from this mailing list */
-  postExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressSendAs = (
+  postExchangeServiceMailingListSendAsByOrganizationNameAndExchangeServiceAndMailingListAddress = (
     exchangeService: string,
     mailingListAddress: string,
     organizationName: string,
@@ -1564,7 +1581,7 @@ class EmailExchangeHandler {
   };
 
   /** Delete allowed user for SendAs */
-  deleteExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressSendAsAllowedAccountId =
+  deleteExchangeServiceMailingListSendAsByOrganizationNameAndExchangeServiceAndMailingListAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -1578,7 +1595,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressSendAsAllowedAccountId =
+  getExchangeServiceMailingListSendAsByOrganizationNameAndExchangeServiceAndMailingListAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -1592,33 +1609,35 @@ class EmailExchangeHandler {
     };
 
   /** sendOnBehalfTo */
-  getExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressSendOnBehalfTo = (
-    exchangeService: string,
-    mailingListAddress: string,
-    organizationName: string
-  ): Promise<number> => {
-    return this.ovh.request(
-      'GET',
-      `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/sendOnBehalfTo`
-    );
-  };
+  sendExchangeServiceMailingListOnBehalfToByOrganizationNameAndExchangeServiceAndMailingListAddress =
+    (
+      exchangeService: string,
+      mailingListAddress: string,
+      organizationName: string
+    ): Promise<number[]> => {
+      return this.ovh.request(
+        'GET',
+        `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/sendOnBehalfTo`
+      );
+    };
 
   /** Allow another user to Send aso mails from this mailing list */
-  postExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressSendOnBehalfTo = (
-    exchangeService: string,
-    mailingListAddress: string,
-    organizationName: string,
-    body: { allowAccountId: number }
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'POST',
-      `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/sendOnBehalfTo`,
-      body
-    );
-  };
+  postExchangeServiceMailingListSendOnBehalfToByOrganizationNameAndExchangeServiceAndMailingListAddress =
+    (
+      exchangeService: string,
+      mailingListAddress: string,
+      organizationName: string,
+      body: { allowAccountId: number }
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'POST',
+        `/email/exchange/${organizationName}/service/${exchangeService}/mailingList/${mailingListAddress}/sendOnBehalfTo`,
+        body
+      );
+    };
 
   /** Delete allowed user for SendOnBehalfTo */
-  deleteExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressSendOnBehalfToAllowedAccountId =
+  deleteExchangeServiceMailingListSendOnBehalfToByOrganizationNameAndExchangeServiceAndMailingListAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -1632,7 +1651,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceMailingListMailingListAddressSendOnBehalfToAllowedAccountId =
+  getExchangeServiceMailingListSendOnBehalfToByOrganizationNameAndExchangeServiceAndMailingListAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -1646,10 +1665,10 @@ class EmailExchangeHandler {
     };
 
   /** Show available outlooks */
-  getExchangeOrganizationNameServiceExchangeServiceOutlookAvailability = (
+  getExchangeServiceOutlookAvailabilityByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<EmailExchangeOutlookVersions> => {
+  ): Promise<EmailExchangeOutlookVersions[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/outlookAvailability`
@@ -1657,7 +1676,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceProtocol = (
+  getExchangeServiceProtocolByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<EmailExchangeExchangeServiceProtocol> => {
@@ -1668,7 +1687,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceProtocol = (
+  updateExchangeServiceProtocolByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: EmailExchangeExchangeServiceProtocol
@@ -1681,10 +1700,10 @@ class EmailExchangeHandler {
   };
 
   /** Exchange account id subscribed to ActiveSync quarantine notifications */
-  getExchangeOrganizationNameServiceExchangeServiceProtocolActiveSyncMailNotification = (
+  getExchangeServiceProtocolActiveSyncMailNotificationByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/protocol/activeSyncMailNotification`
@@ -1692,7 +1711,7 @@ class EmailExchangeHandler {
   };
 
   /** Subscribe new address to ActiveSync quarantine notifications */
-  postExchangeOrganizationNameServiceExchangeServiceProtocolActiveSyncMailNotification = (
+  postExchangeServiceProtocolActiveSyncMailNotificationByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: { notifiedAccountId: number }
@@ -1705,7 +1724,7 @@ class EmailExchangeHandler {
   };
 
   /** Unubscribe address from ActiveSync quarantine notifications */
-  deleteExchangeOrganizationNameServiceExchangeServiceProtocolActiveSyncMailNotificationNotifiedAccountId =
+  deleteExchangeServiceProtocolActiveSyncMailNotificationByOrganizationNameAndExchangeServiceAndNotifiedAccountId =
     (
       exchangeService: string,
       notifiedAccountId: number,
@@ -1718,7 +1737,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceProtocolActiveSyncMailNotificationNotifiedAccountId =
+  getExchangeServiceProtocolActiveSyncMailNotificationByOrganizationNameAndExchangeServiceAndNotifiedAccountId =
     (
       exchangeService: string,
       notifiedAccountId: number,
@@ -1731,10 +1750,10 @@ class EmailExchangeHandler {
     };
 
   /** Public folders associated to this service */
-  getExchangeOrganizationNameServiceExchangeServicePublicFolder = (
+  getExchangeServicePublicFolderByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/publicFolder`
@@ -1742,7 +1761,7 @@ class EmailExchangeHandler {
   };
 
   /** Create organization public folder */
-  postExchangeOrganizationNameServiceExchangeServicePublicFolder = (
+  createExchangeServicePublicFolderByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: {
@@ -1761,7 +1780,7 @@ class EmailExchangeHandler {
   };
 
   /** Delete existing organization public folder */
-  deleteExchangeOrganizationNameServiceExchangeServicePublicFolderPath = (
+  deleteExchangeServicePublicFolderByOrganizationNameAndExchangeServiceAndPath = (
     exchangeService: string,
     organizationName: string,
     path: string
@@ -1773,7 +1792,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServicePublicFolderPath = (
+  getExchangeServicePublicFolderByOrganizationNameAndExchangeServiceAndPath = (
     exchangeService: string,
     organizationName: string,
     path: string
@@ -1785,7 +1804,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServicePublicFolderPath = (
+  updateExchangeServicePublicFolderByOrganizationNameAndExchangeServiceAndPath = (
     exchangeService: string,
     organizationName: string,
     path: string,
@@ -1799,11 +1818,11 @@ class EmailExchangeHandler {
   };
 
   /** Public folder permission */
-  getExchangeOrganizationNameServiceExchangeServicePublicFolderPathPermission = (
+  getExchangeServicePublicFolderPermissionByOrganizationNameAndExchangeServiceAndPath = (
     exchangeService: string,
     organizationName: string,
     path: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/publicFolder/${path}/permission`
@@ -1811,7 +1830,7 @@ class EmailExchangeHandler {
   };
 
   /** Create public folder permission */
-  postExchangeOrganizationNameServiceExchangeServicePublicFolderPathPermission = (
+  createExchangeServicePublicFolderPermissionByOrganizationNameAndExchangeServiceAndPath = (
     exchangeService: string,
     organizationName: string,
     path: string,
@@ -1825,48 +1844,51 @@ class EmailExchangeHandler {
   };
 
   /** Delete existing permission from public folder */
-  deleteExchangeOrganizationNameServiceExchangeServicePublicFolderPathPermissionAllowedAccountId = (
-    allowedAccountId: number,
-    exchangeService: string,
-    organizationName: string,
-    path: string
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'DELETE',
-      `/email/exchange/${organizationName}/service/${exchangeService}/publicFolder/${path}/permission/${allowedAccountId}`
-    );
-  };
+  deleteExchangeServicePublicFolderPermissionByOrganizationNameAndExchangeServiceAndPathAndAllowedAccountId =
+    (
+      allowedAccountId: number,
+      exchangeService: string,
+      organizationName: string,
+      path: string
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'DELETE',
+        `/email/exchange/${organizationName}/service/${exchangeService}/publicFolder/${path}/permission/${allowedAccountId}`
+      );
+    };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServicePublicFolderPathPermissionAllowedAccountId = (
-    allowedAccountId: number,
-    exchangeService: string,
-    organizationName: string,
-    path: string
-  ): Promise<EmailExchangeExchangePublicFolderPermission> => {
-    return this.ovh.request(
-      'GET',
-      `/email/exchange/${organizationName}/service/${exchangeService}/publicFolder/${path}/permission/${allowedAccountId}`
-    );
-  };
+  getExchangeServicePublicFolderPermissionByOrganizationNameAndExchangeServiceAndPathAndAllowedAccountId =
+    (
+      allowedAccountId: number,
+      exchangeService: string,
+      organizationName: string,
+      path: string
+    ): Promise<EmailExchangeExchangePublicFolderPermission> => {
+      return this.ovh.request(
+        'GET',
+        `/email/exchange/${organizationName}/service/${exchangeService}/publicFolder/${path}/permission/${allowedAccountId}`
+      );
+    };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServicePublicFolderPathPermissionAllowedAccountId = (
-    allowedAccountId: number,
-    exchangeService: string,
-    organizationName: string,
-    path: string,
-    body: EmailExchangeExchangePublicFolderPermission
-  ): Promise<void> => {
-    return this.ovh.request(
-      'PUT',
-      `/email/exchange/${organizationName}/service/${exchangeService}/publicFolder/${path}/permission/${allowedAccountId}`,
-      body
-    );
-  };
+  updateExchangeServicePublicFolderPermissionByOrganizationNameAndExchangeServiceAndPathAndAllowedAccountId =
+    (
+      allowedAccountId: number,
+      exchangeService: string,
+      organizationName: string,
+      path: string,
+      body: EmailExchangeExchangePublicFolderPermission
+    ): Promise<void> => {
+      return this.ovh.request(
+        'PUT',
+        `/email/exchange/${organizationName}/service/${exchangeService}/publicFolder/${path}/permission/${allowedAccountId}`,
+        body
+      );
+    };
 
   /** Get public folder quota usage in total available space */
-  getExchangeOrganizationNameServiceExchangeServicePublicFolderQuota = (
+  getExchangeServicePublicFolderQuotaByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<EmailExchangePublicFolderQuota> => {
@@ -1877,7 +1899,7 @@ class EmailExchangeHandler {
   };
 
   /** Renew SSL if it will expire in next 30 days */
-  postExchangeOrganizationNameServiceExchangeServiceRenewSSL = (
+  postExchangeServiceRenewSSLByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: { dcv: string }
@@ -1890,10 +1912,10 @@ class EmailExchangeHandler {
   };
 
   /** Resource account associated to this service */
-  getExchangeOrganizationNameServiceExchangeServiceResourceAccount = (
+  getExchangeServiceResourceAccountByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/resourceAccount`
@@ -1901,7 +1923,7 @@ class EmailExchangeHandler {
   };
 
   /** create new resource account in exchange server */
-  postExchangeOrganizationNameServiceExchangeServiceResourceAccount = (
+  createExchangeServiceResourceAccountByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: {
@@ -1928,19 +1950,20 @@ class EmailExchangeHandler {
   };
 
   /** delete existing resource account in exchange server */
-  deleteExchangeOrganizationNameServiceExchangeServiceResourceAccountResourceEmailAddress = (
-    exchangeService: string,
-    organizationName: string,
-    resourceEmailAddress: string
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'DELETE',
-      `/email/exchange/${organizationName}/service/${exchangeService}/resourceAccount/${resourceEmailAddress}`
-    );
-  };
+  deleteExchangeServiceResourceAccountByOrganizationNameAndExchangeServiceAndResourceEmailAddress =
+    (
+      exchangeService: string,
+      organizationName: string,
+      resourceEmailAddress: string
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'DELETE',
+        `/email/exchange/${organizationName}/service/${exchangeService}/resourceAccount/${resourceEmailAddress}`
+      );
+    };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceResourceAccountResourceEmailAddress = (
+  getExchangeServiceResourceAccountByOrganizationNameAndExchangeServiceAndResourceEmailAddress = (
     exchangeService: string,
     organizationName: string,
     resourceEmailAddress: string
@@ -1952,47 +1975,50 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceResourceAccountResourceEmailAddress = (
-    exchangeService: string,
-    organizationName: string,
-    resourceEmailAddress: string,
-    body: EmailExchangeResourceAccount
-  ): Promise<void> => {
-    return this.ovh.request(
-      'PUT',
-      `/email/exchange/${organizationName}/service/${exchangeService}/resourceAccount/${resourceEmailAddress}`,
-      body
-    );
-  };
+  updateExchangeServiceResourceAccountByOrganizationNameAndExchangeServiceAndResourceEmailAddress =
+    (
+      exchangeService: string,
+      organizationName: string,
+      resourceEmailAddress: string,
+      body: EmailExchangeResourceAccount
+    ): Promise<void> => {
+      return this.ovh.request(
+        'PUT',
+        `/email/exchange/${organizationName}/service/${exchangeService}/resourceAccount/${resourceEmailAddress}`,
+        body
+      );
+    };
 
   /** Resource account manager */
-  getExchangeOrganizationNameServiceExchangeServiceResourceAccountResourceEmailAddressDelegate = (
-    exchangeService: string,
-    organizationName: string,
-    resourceEmailAddress: string
-  ): Promise<number> => {
-    return this.ovh.request(
-      'GET',
-      `/email/exchange/${organizationName}/service/${exchangeService}/resourceAccount/${resourceEmailAddress}/delegate`
-    );
-  };
+  getExchangeServiceResourceAccountDelegateByOrganizationNameAndExchangeServiceAndResourceEmailAddress =
+    (
+      exchangeService: string,
+      organizationName: string,
+      resourceEmailAddress: string
+    ): Promise<number[]> => {
+      return this.ovh.request(
+        'GET',
+        `/email/exchange/${organizationName}/service/${exchangeService}/resourceAccount/${resourceEmailAddress}/delegate`
+      );
+    };
 
   /** add new resource account delegate in exchange server */
-  postExchangeOrganizationNameServiceExchangeServiceResourceAccountResourceEmailAddressDelegate = (
-    exchangeService: string,
-    organizationName: string,
-    resourceEmailAddress: string,
-    body: { allowedAccountId: number }
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'POST',
-      `/email/exchange/${organizationName}/service/${exchangeService}/resourceAccount/${resourceEmailAddress}/delegate`,
-      body
-    );
-  };
+  addExchangeServiceResourceAccountDelegateByOrganizationNameAndExchangeServiceAndResourceEmailAddress =
+    (
+      exchangeService: string,
+      organizationName: string,
+      resourceEmailAddress: string,
+      body: { allowedAccountId: number }
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'POST',
+        `/email/exchange/${organizationName}/service/${exchangeService}/resourceAccount/${resourceEmailAddress}/delegate`,
+        body
+      );
+    };
 
   /** delete existing resource account delegate in exchange server */
-  deleteExchangeOrganizationNameServiceExchangeServiceResourceAccountResourceEmailAddressDelegateAllowedAccountId =
+  deleteExchangeServiceResourceAccountDelegateByOrganizationNameAndExchangeServiceAndResourceEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -2006,7 +2032,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceResourceAccountResourceEmailAddressDelegateAllowedAccountId =
+  getExchangeServiceResourceAccountDelegateByOrganizationNameAndExchangeServiceAndResourceEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -2020,10 +2046,10 @@ class EmailExchangeHandler {
     };
 
   /** List of your send connectors on this Exchange service */
-  getExchangeOrganizationNameServiceExchangeServiceSendConnector = (
+  listExchangeServiceSendConnectorsByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/sendConnector`
@@ -2031,7 +2057,7 @@ class EmailExchangeHandler {
   };
 
   /** Create new send connector */
-  postExchangeOrganizationNameServiceExchangeServiceSendConnector = (
+  createExchangeServiceSendConnectorByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: {
@@ -2053,7 +2079,7 @@ class EmailExchangeHandler {
   };
 
   /** Delete existing send connector */
-  deleteExchangeOrganizationNameServiceExchangeServiceSendConnectorId = (
+  deleteExchangeServiceSendConnectorByOrganizationNameAndExchangeServiceAndId = (
     exchangeService: string,
     id: number,
     organizationName: string
@@ -2065,7 +2091,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceSendConnectorId = (
+  getExchangeServiceSendConnectorByOrganizationNameAndExchangeServiceAndId = (
     exchangeService: string,
     id: number,
     organizationName: string
@@ -2077,7 +2103,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceSendConnectorId = (
+  updateExchangeServiceSendConnectorByOrganizationNameAndExchangeServiceAndId = (
     exchangeService: string,
     id: number,
     organizationName: string,
@@ -2091,7 +2117,7 @@ class EmailExchangeHandler {
   };
 
   /** Change authentication on send connector */
-  postExchangeOrganizationNameServiceExchangeServiceSendConnectorIdChangeAuthentication = (
+  updateExchangeServiceSendConnectorAuthenticationByOrganizationNameAndExchangeServiceAndId = (
     exchangeService: string,
     id: number,
     organizationName: string,
@@ -2109,7 +2135,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceServer = (
+  getExchangeServiceServerByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<EmailExchangeServer> => {
@@ -2120,7 +2146,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceServer = (
+  updateExchangeServiceServerByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: EmailExchangeServer
@@ -2133,7 +2159,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceServiceInfos = (
+  getExchangeServiceServiceInfosByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<ServicesService> => {
@@ -2144,7 +2170,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceServiceInfos = (
+  updateExchangeServiceServiceInfosByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: ServicesService
@@ -2157,10 +2183,10 @@ class EmailExchangeHandler {
   };
 
   /** Shared accounts associated to this exchange service */
-  getExchangeOrganizationNameServiceExchangeServiceSharedAccount = (
+  getExchangeServiceSharedAccountByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount`
@@ -2168,7 +2194,7 @@ class EmailExchangeHandler {
   };
 
   /** Create new shared mailbox in exchange server */
-  postExchangeOrganizationNameServiceExchangeServiceSharedAccount = (
+  createExchangeServiceSharedAccountByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string,
     body: {
@@ -2177,7 +2203,7 @@ class EmailExchangeHandler {
       hiddenFromGAL?: boolean;
       initials?: string;
       lastName?: string;
-      mailingFilter?: EmailExchangeMailingFilterEnum;
+      mailingFilter?: EmailExchangeMailingFilterEnum[];
       quota: number;
       sharedEmailAddress: string;
     }
@@ -2190,7 +2216,7 @@ class EmailExchangeHandler {
   };
 
   /** Delete existing shared mailbox in exchange server */
-  deleteExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddress = (
+  deleteExchangeServiceSharedAccountByOrganizationNameAndExchangeServiceAndSharedEmailAddress = (
     exchangeService: string,
     organizationName: string,
     sharedEmailAddress: string
@@ -2202,7 +2228,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddress = (
+  getExchangeServiceSharedAccountByOrganizationNameAndExchangeServiceAndSharedEmailAddress = (
     exchangeService: string,
     organizationName: string,
     sharedEmailAddress: string
@@ -2214,7 +2240,7 @@ class EmailExchangeHandler {
   };
 
   /** Alter this object properties */
-  putExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddress = (
+  updateExchangeServiceSharedAccountByOrganizationNameAndExchangeServiceAndSharedEmailAddress = (
     exchangeService: string,
     organizationName: string,
     sharedEmailAddress: string,
@@ -2228,11 +2254,11 @@ class EmailExchangeHandler {
   };
 
   /** Aliases associated to this mailbox */
-  getExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressAlias = (
+  getExchangeServiceSharedAccountAliasByOrganizationNameAndExchangeServiceAndSharedEmailAddress = (
     exchangeService: string,
     organizationName: string,
     sharedEmailAddress: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/alias`
@@ -2240,73 +2266,78 @@ class EmailExchangeHandler {
   };
 
   /** Create new alias */
-  postExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressAlias = (
-    exchangeService: string,
-    organizationName: string,
-    sharedEmailAddress: string,
-    body: { alias: string }
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'POST',
-      `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/alias`,
-      body
-    );
-  };
+  createExchangeServiceSharedAccountAliasByOrganizationNameAndExchangeServiceAndSharedEmailAddress =
+    (
+      exchangeService: string,
+      organizationName: string,
+      sharedEmailAddress: string,
+      body: { alias: string }
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'POST',
+        `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/alias`,
+        body
+      );
+    };
 
   /** Delete existing alias */
-  deleteExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressAliasAlias = (
-    alias: string,
-    exchangeService: string,
-    organizationName: string,
-    sharedEmailAddress: string
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'DELETE',
-      `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/alias/${alias}`
-    );
-  };
+  deleteExchangeServiceSharedAccountAliasByOrganizationNameAndExchangeServiceAndSharedEmailAddressAndAlias =
+    (
+      alias: string,
+      exchangeService: string,
+      organizationName: string,
+      sharedEmailAddress: string
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'DELETE',
+        `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/alias/${alias}`
+      );
+    };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressAliasAlias = (
-    alias: string,
-    exchangeService: string,
-    organizationName: string,
-    sharedEmailAddress: string
-  ): Promise<EmailExchangeExchangeSharedAccountAlias> => {
-    return this.ovh.request(
-      'GET',
-      `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/alias/${alias}`
-    );
-  };
+  getExchangeServiceSharedAccountAliasByOrganizationNameAndExchangeServiceAndSharedEmailAddressAndAlias =
+    (
+      alias: string,
+      exchangeService: string,
+      organizationName: string,
+      sharedEmailAddress: string
+    ): Promise<EmailExchangeExchangeSharedAccountAlias> => {
+      return this.ovh.request(
+        'GET',
+        `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/alias/${alias}`
+      );
+    };
 
   /** Full access granted users for this shared mailbox */
-  getExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressFullAccess = (
-    exchangeService: string,
-    organizationName: string,
-    sharedEmailAddress: string
-  ): Promise<number> => {
-    return this.ovh.request(
-      'GET',
-      `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/fullAccess`
-    );
-  };
+  getExchangeServiceSharedAccountFullAccessByOrganizationNameAndExchangeServiceAndSharedEmailAddress =
+    (
+      exchangeService: string,
+      organizationName: string,
+      sharedEmailAddress: string
+    ): Promise<number[]> => {
+      return this.ovh.request(
+        'GET',
+        `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/fullAccess`
+      );
+    };
 
   /** Allow full access to a user */
-  postExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressFullAccess = (
-    exchangeService: string,
-    organizationName: string,
-    sharedEmailAddress: string,
-    body: { allowedAccountId: number }
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'POST',
-      `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/fullAccess`,
-      body
-    );
-  };
+  postExchangeServiceSharedAccountFullAccessByOrganizationNameAndExchangeServiceAndSharedEmailAddress =
+    (
+      exchangeService: string,
+      organizationName: string,
+      sharedEmailAddress: string,
+      body: { allowedAccountId: number }
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'POST',
+        `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/fullAccess`,
+        body
+      );
+    };
 
   /** Revoke full access */
-  deleteExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressFullAccessAllowedAccountId =
+  deleteExchangeServiceSharedAccountFullAccessByOrganizationNameAndExchangeServiceAndSharedEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -2320,7 +2351,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressFullAccessAllowedAccountId =
+  getExchangeServiceSharedAccountFullAccessByOrganizationNameAndExchangeServiceAndSharedEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -2334,11 +2365,11 @@ class EmailExchangeHandler {
     };
 
   /** Send as granted users for this shared mailbox */
-  getExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressSendAs = (
+  sendExchangeServiceSharedAccountAsByOrganizationNameAndExchangeServiceAndSharedEmailAddress = (
     exchangeService: string,
     organizationName: string,
     sharedEmailAddress: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/sendAs`
@@ -2346,21 +2377,22 @@ class EmailExchangeHandler {
   };
 
   /** Allow another user to send mails from this shared mailbox */
-  postExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressSendAs = (
-    exchangeService: string,
-    organizationName: string,
-    sharedEmailAddress: string,
-    body: { allowAccountId: number }
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'POST',
-      `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/sendAs`,
-      body
-    );
-  };
+  postExchangeServiceSharedAccountSendAsByOrganizationNameAndExchangeServiceAndSharedEmailAddress =
+    (
+      exchangeService: string,
+      organizationName: string,
+      sharedEmailAddress: string,
+      body: { allowAccountId: number }
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'POST',
+        `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/sendAs`,
+        body
+      );
+    };
 
   /** Delete allowed user for sendAs */
-  deleteExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressSendAsAllowedAccountId =
+  deleteExchangeServiceSharedAccountSendAsByOrganizationNameAndExchangeServiceAndSharedEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -2374,7 +2406,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressSendAsAllowedAccountId =
+  getExchangeServiceSharedAccountSendAsByOrganizationNameAndExchangeServiceAndSharedEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -2388,19 +2420,20 @@ class EmailExchangeHandler {
     };
 
   /** SendOnBehalfTo granted users for this shared mailbox */
-  getExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressSendOnBehalfTo = (
-    exchangeService: string,
-    organizationName: string,
-    sharedEmailAddress: string
-  ): Promise<number> => {
-    return this.ovh.request(
-      'GET',
-      `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/sendOnBehalfTo`
-    );
-  };
+  sendExchangeServiceSharedAccountOnBehalfToByOrganizationNameAndExchangeServiceAndSharedEmailAddress =
+    (
+      exchangeService: string,
+      organizationName: string,
+      sharedEmailAddress: string
+    ): Promise<number[]> => {
+      return this.ovh.request(
+        'GET',
+        `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/sendOnBehalfTo`
+      );
+    };
 
   /** Allow another user to Send On Behalf To mails from this shared mailbox */
-  postExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressSendOnBehalfTo =
+  postExchangeServiceSharedAccountSendOnBehalfToByOrganizationNameAndExchangeServiceAndSharedEmailAddress =
     (
       exchangeService: string,
       organizationName: string,
@@ -2415,7 +2448,7 @@ class EmailExchangeHandler {
     };
 
   /** Delete allowed user for SendOnBehalfTo */
-  deleteExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressSendOnBehalfToAllowedAccountId =
+  deleteExchangeServiceSharedAccountSendOnBehalfToByOrganizationNameAndExchangeServiceAndSharedEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -2429,7 +2462,7 @@ class EmailExchangeHandler {
     };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressSendOnBehalfToAllowedAccountId =
+  getExchangeServiceSharedAccountSendOnBehalfToByOrganizationNameAndExchangeServiceAndSharedEmailAddressAndAllowedAccountId =
     (
       allowedAccountId: number,
       exchangeService: string,
@@ -2443,11 +2476,11 @@ class EmailExchangeHandler {
     };
 
   /** Pending task for this mailbox */
-  getExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressTasks = (
+  getExchangeServiceSharedAccountTasksByOrganizationNameAndExchangeServiceAndSharedEmailAddress = (
     exchangeService: string,
     organizationName: string,
     sharedEmailAddress: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/tasks`
@@ -2455,20 +2488,21 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceSharedAccountSharedEmailAddressTasksId = (
-    exchangeService: string,
-    id: number,
-    organizationName: string,
-    sharedEmailAddress: string
-  ): Promise<EmailExchangeTask> => {
-    return this.ovh.request(
-      'GET',
-      `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/tasks/${id}`
-    );
-  };
+  getExchangeServiceSharedAccountTasksByOrganizationNameAndExchangeServiceAndSharedEmailAddressAndId =
+    (
+      exchangeService: string,
+      id: number,
+      organizationName: string,
+      sharedEmailAddress: string
+    ): Promise<EmailExchangeTask> => {
+      return this.ovh.request(
+        'GET',
+        `/email/exchange/${organizationName}/service/${exchangeService}/sharedAccount/${sharedEmailAddress}/tasks/${id}`
+      );
+    };
 
   /** Get shared account quota usage in total available space */
-  getExchangeOrganizationNameServiceExchangeServiceSharedAccountQuota = (
+  getExchangeServiceSharedAccountQuotaByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<EmailExchangeSharedAccountQuota> => {
@@ -2479,10 +2513,10 @@ class EmailExchangeHandler {
   };
 
   /** Pending actions */
-  getExchangeOrganizationNameServiceExchangeServiceTask = (
+  getExchangeServiceTaskByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/email/exchange/${organizationName}/service/${exchangeService}/task`
@@ -2490,7 +2524,7 @@ class EmailExchangeHandler {
   };
 
   /** Get this object properties */
-  getExchangeOrganizationNameServiceExchangeServiceTaskId = (
+  getExchangeServiceTaskByOrganizationNameAndExchangeServiceAndId = (
     exchangeService: string,
     id: number,
     organizationName: string
@@ -2502,7 +2536,7 @@ class EmailExchangeHandler {
   };
 
   /** Update device list */
-  postExchangeOrganizationNameServiceExchangeServiceUpdateDeviceList = (
+  updateExchangeServiceDeviceListByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<EmailExchangeTask> => {
@@ -2513,7 +2547,7 @@ class EmailExchangeHandler {
   };
 
   /** Update spam and virus flags on all active accounts */
-  postExchangeOrganizationNameServiceExchangeServiceUpdateFlagsOnAllAccounts = (
+  updateExchangeServiceFlagsOnAllAccountsByOrganizationNameAndExchangeService = (
     exchangeService: string,
     organizationName: string
   ): Promise<void> => {
@@ -2524,4 +2558,4 @@ class EmailExchangeHandler {
   };
 }
 
-export default EmailExchangeHandler;
+export { EmailExchangeHandler };

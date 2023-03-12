@@ -4,5 +4,5 @@ import { DedicatedCloudHostStockHypervisor } from './DedicatedCloudHostStockHype
 
 export type DedicatedCloudHostStockProcGen = {
   cpuGeneration: string;
-  value: DedicatedCloudHostStockHypervisor;
+  value: DedicatedCloudHostStockHypervisor[];
 };

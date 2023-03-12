@@ -4,5 +4,5 @@ import { HostingWebDatabaseVersionEnum } from './HostingWebDatabaseVersionEnum';
 
 export type HostingWebDatabaseAvailableVersionStruct = {
   default: HostingWebDatabaseVersionEnum;
-  list: HostingWebDatabaseVersionEnum;
+  list: HostingWebDatabaseVersionEnum[];
 };

@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { NichandleLanguageEnum } from './NichandleLanguageEnum';
 import { DomainContactAddress } from './DomainContactAddress';
-import { NichandleLegalFormEnum } from './NichandleLegalFormEnum';
-import { NichandleGenderEnum } from './NichandleGenderEnum';
 import { NichandleCountryEnum } from './NichandleCountryEnum';
+import { NichandleGenderEnum } from './NichandleGenderEnum';
+import { NichandleLegalFormEnum } from './NichandleLegalFormEnum';
+import { NichandleLanguageEnum } from './NichandleLanguageEnum';
 
 export type DomainContact = {
   accreditationCountry: NichandleCountryEnum | null;

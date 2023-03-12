@@ -3,7 +3,7 @@
 import { HostingPrivateDatabaseConfigurationDetailType } from './HostingPrivateDatabaseConfigurationDetailType';
 
 export type HostingPrivateDatabaseConfigurationDetail = {
-  availableValues: string;
+  availableValues: string[];
   defaultValue: string;
   description: string;
   key: string;

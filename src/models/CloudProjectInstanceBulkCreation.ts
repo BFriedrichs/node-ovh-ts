@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudInstanceNetworkBulkParams } from './CloudInstanceNetworkBulkParams';
 import { CloudInstanceAutoBackup } from './CloudInstanceAutoBackup';
+import { CloudInstanceNetworkBulkParams } from './CloudInstanceNetworkBulkParams';
 
 export type CloudProjectInstanceBulkCreation = {
   autobackup: CloudInstanceAutoBackup | null;
@@ -10,7 +10,7 @@ export type CloudProjectInstanceBulkCreation = {
   imageId: string | null;
   monthlyBilling: boolean | null;
   name?: string;
-  networks: CloudInstanceNetworkBulkParams | null;
+  networks: CloudInstanceNetworkBulkParams[] | null;
   number?: number;
   region?: string;
   sshKeyId: string | null;

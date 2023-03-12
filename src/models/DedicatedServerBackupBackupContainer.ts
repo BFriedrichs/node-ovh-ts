@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { DedicatedServerBackupBackupProject } from './DedicatedServerBackupBackupProject';
 import { DedicatedServerBackupBackupQuota } from './DedicatedServerBackupBackupQuota';
 import { DedicatedServerBackupBackupSwift } from './DedicatedServerBackupBackupSwift';
-import { DedicatedServerBackupBackupProject } from './DedicatedServerBackupBackupProject';
 import { DedicatedServerBackupBackupSftp } from './DedicatedServerBackupBackupSftp';
 
 export type DedicatedServerBackupBackupContainer = {

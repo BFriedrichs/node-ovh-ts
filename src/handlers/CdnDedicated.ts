@@ -1,22 +1,22 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CdnanycastStatsTypeEnum } from '../models/CdnanycastStatsTypeEnum';
-import { CdnanycastAnycast } from '../models/CdnanycastAnycast';
-import { CdnanycastCacheRuleCacheTypeEnum } from '../models/CdnanycastCacheRuleCacheTypeEnum';
-import { ServicesService } from '../models/ServicesService';
-import { CdnanycastSsl } from '../models/CdnanycastSsl';
+import { CdnanycastStatsPeriodEnum } from '../models/CdnanycastStatsPeriodEnum';
+import { CdnanycastLogsURL } from '../models/CdnanycastLogsURL';
 import { CdnanycastDomain } from '../models/CdnanycastDomain';
 import { CdnanycastCacheRuleFileTypeEnum } from '../models/CdnanycastCacheRuleFileTypeEnum';
-import { CdnanycastPop } from '../models/CdnanycastPop';
-import { CdnanycastLogsURL } from '../models/CdnanycastLogsURL';
-import { CdnanycastCacheRule } from '../models/CdnanycastCacheRule';
-import { CdnanycastStatsPeriodEnum } from '../models/CdnanycastStatsPeriodEnum';
-import { CdnanycastTaskStateEnum } from '../models/CdnanycastTaskStateEnum';
-import { CdnanycastBackend } from '../models/CdnanycastBackend';
-import { CdnanycastStatsValueEnum } from '../models/CdnanycastStatsValueEnum';
-import { CdnanycastTaskFunctionEnum } from '../models/CdnanycastTaskFunctionEnum';
-import { CdnanycastStatsDataType } from '../models/CdnanycastStatsDataType';
+import { ServicesService } from '../models/ServicesService';
 import { CdnanycastTask } from '../models/CdnanycastTask';
+import { CdnanycastCacheRuleCacheTypeEnum } from '../models/CdnanycastCacheRuleCacheTypeEnum';
+import { CdnanycastCacheRule } from '../models/CdnanycastCacheRule';
+import { CdnanycastSsl } from '../models/CdnanycastSsl';
+import { CdnanycastPop } from '../models/CdnanycastPop';
+import { CdnanycastStatsValueEnum } from '../models/CdnanycastStatsValueEnum';
+import { CdnanycastTaskStateEnum } from '../models/CdnanycastTaskStateEnum';
+import { CdnanycastStatsTypeEnum } from '../models/CdnanycastStatsTypeEnum';
+import { CdnanycastBackend } from '../models/CdnanycastBackend';
+import { CdnanycastStatsDataType } from '../models/CdnanycastStatsDataType';
+import { CdnanycastAnycast } from '../models/CdnanycastAnycast';
+import { CdnanycastTaskFunctionEnum } from '../models/CdnanycastTaskFunctionEnum';
 import OVHBase from '../ovh';
 
 class CdnDedicatedHandler {
@@ -27,40 +27,40 @@ class CdnDedicatedHandler {
   }
 
   /** List available services */
-  getDedicated = (): Promise<string> => {
+  listDedicateds = (): Promise<string[]> => {
     return this.ovh.request('GET', '/cdn/dedicated');
   };
 
   /** List of CDN Pops */
-  getDedicatedPops = (): Promise<string> => {
+  listDedicatedPops = (): Promise<string[]> => {
     return this.ovh.request('GET', '/cdn/dedicated/pops');
   };
 
   /** Get this object properties */
-  getDedicatedPopsName = (name: string): Promise<CdnanycastPop> => {
+  getDedicatedPopsByName = (name: string): Promise<CdnanycastPop> => {
     return this.ovh.request('GET', `/cdn/dedicated/pops/${name}`);
   };
 
   /** Get this object properties */
-  getDedicatedServiceName = (serviceName: string): Promise<CdnanycastAnycast> => {
+  getDedicatedByServiceName = (serviceName: string): Promise<CdnanycastAnycast> => {
     return this.ovh.request('GET', `/cdn/dedicated/${serviceName}`);
   };
 
   /** Launch a contact change procedure */
-  postDedicatedServiceNameChangeContact = (
+  launchDedicatedChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/cdn/dedicated/${serviceName}/changeContact`, body);
   };
 
   /** Domains associated to this anycast */
-  getDedicatedServiceNameDomains = (serviceName: string): Promise<string> => {
+  getDedicatedDomainsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cdn/dedicated/${serviceName}/domains`);
   };
 
   /** Add a domain on CDN */
-  postDedicatedServiceNameDomains = (
+  addDedicatedDomainsByServiceName = (
     serviceName: string,
     body: { domain: string }
   ): Promise<CdnanycastDomain> => {
@@ -68,7 +68,7 @@ class CdnDedicatedHandler {
   };
 
   /** Remove a domain from the CDN */
-  deleteDedicatedServiceNameDomainsDomain = (
+  deleteDedicatedDomainsByServiceNameAndDomain = (
     domain: string,
     serviceName: string
   ): Promise<CdnanycastTask> => {
@@ -76,7 +76,7 @@ class CdnDedicatedHandler {
   };
 
   /** Get this object properties */
-  getDedicatedServiceNameDomainsDomain = (
+  getDedicatedDomainsByServiceNameAndDomain = (
     domain: string,
     serviceName: string
   ): Promise<CdnanycastDomain> => {
@@ -84,7 +84,7 @@ class CdnDedicatedHandler {
   };
 
   /** Alter this object properties */
-  putDedicatedServiceNameDomainsDomain = (
+  updateDedicatedDomainsByServiceNameAndDomain = (
     domain: string,
     serviceName: string,
     body: CdnanycastDomain
@@ -93,15 +93,15 @@ class CdnDedicatedHandler {
   };
 
   /** Backend associated to the domain */
-  getDedicatedServiceNameDomainsDomainBackends = (
+  getDedicatedDomainsBackendsByServiceNameAndDomain = (
     domain: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/cdn/dedicated/${serviceName}/domains/${domain}/backends`);
   };
 
   /** Add a backend IP */
-  postDedicatedServiceNameDomainsDomainBackends = (
+  addDedicatedDomainsBackendsByServiceNameAndDomain = (
     domain: string,
     serviceName: string,
     body: { ip: string }
@@ -114,7 +114,7 @@ class CdnDedicatedHandler {
   };
 
   /** Remove a backend IP */
-  deleteDedicatedServiceNameDomainsDomainBackendsIp = (
+  deleteDedicatedDomainsBackendsByServiceNameAndDomainAndIp = (
     domain: string,
     ip: string,
     serviceName: string
@@ -126,7 +126,7 @@ class CdnDedicatedHandler {
   };
 
   /** Get this object properties */
-  getDedicatedServiceNameDomainsDomainBackendsIp = (
+  getDedicatedDomainsBackendsByServiceNameAndDomainAndIp = (
     domain: string,
     ip: string,
     serviceName: string
@@ -138,15 +138,15 @@ class CdnDedicatedHandler {
   };
 
   /** Cache rules associated to the domain */
-  getDedicatedServiceNameDomainsDomainCacheRules = (
+  getDedicatedDomainsCacheRulesByServiceNameAndDomain = (
     domain: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/cdn/dedicated/${serviceName}/domains/${domain}/cacheRules`);
   };
 
   /** Add a cache rule to a domain */
-  postDedicatedServiceNameDomainsDomainCacheRules = (
+  addDedicatedDomainsCacheRulesByServiceNameAndDomain = (
     domain: string,
     serviceName: string,
     body: {
@@ -164,7 +164,7 @@ class CdnDedicatedHandler {
   };
 
   /** Remove cache rule */
-  deleteDedicatedServiceNameDomainsDomainCacheRulesCacheRuleId = (
+  deleteDedicatedDomainsCacheRulesByServiceNameAndDomainAndCacheRuleId = (
     cacheRuleId: number,
     domain: string,
     serviceName: string
@@ -176,7 +176,7 @@ class CdnDedicatedHandler {
   };
 
   /** Get this object properties */
-  getDedicatedServiceNameDomainsDomainCacheRulesCacheRuleId = (
+  getDedicatedDomainsCacheRulesByServiceNameAndDomainAndCacheRuleId = (
     cacheRuleId: number,
     domain: string,
     serviceName: string
@@ -188,7 +188,7 @@ class CdnDedicatedHandler {
   };
 
   /** Alter this object properties */
-  putDedicatedServiceNameDomainsDomainCacheRulesCacheRuleId = (
+  updateDedicatedDomainsCacheRulesByServiceNameAndDomainAndCacheRuleId = (
     cacheRuleId: number,
     domain: string,
     serviceName: string,
@@ -202,7 +202,7 @@ class CdnDedicatedHandler {
   };
 
   /** Flush the cache */
-  postDedicatedServiceNameDomainsDomainCacheRulesCacheRuleIdFlush = (
+  postDedicatedDomainsCacheRulesFlushByServiceNameAndDomainAndCacheRuleId = (
     cacheRuleId: number,
     domain: string,
     serviceName: string
@@ -214,11 +214,11 @@ class CdnDedicatedHandler {
   };
 
   /** Task associated to the cache rule */
-  getDedicatedServiceNameDomainsDomainCacheRulesCacheRuleIdTasks = (
+  getDedicatedDomainsCacheRulesTasksByServiceNameAndDomainAndCacheRuleId = (
     cacheRuleId: number,
     domain: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/cdn/dedicated/${serviceName}/domains/${domain}/cacheRules/${cacheRuleId}/tasks`
@@ -226,7 +226,7 @@ class CdnDedicatedHandler {
   };
 
   /** Get this object properties */
-  getDedicatedServiceNameDomainsDomainCacheRulesCacheRuleIdTasksTaskId = (
+  getDedicatedDomainsCacheRulesTasksByServiceNameAndDomainAndCacheRuleIdAndTaskId = (
     cacheRuleId: number,
     domain: string,
     serviceName: string,
@@ -239,7 +239,7 @@ class CdnDedicatedHandler {
   };
 
   /** Flush all cache */
-  postDedicatedServiceNameDomainsDomainFlush = (
+  postDedicatedDomainsFlushByServiceNameAndDomain = (
     domain: string,
     serviceName: string
   ): Promise<CdnanycastTask> => {
@@ -247,7 +247,7 @@ class CdnDedicatedHandler {
   };
 
   /** Generate URL to real time logs */
-  postDedicatedServiceNameDomainsDomainLogs = (
+  postDedicatedDomainsLogsByServiceNameAndDomain = (
     domain: string,
     serviceName: string
   ): Promise<CdnanycastLogsURL> => {
@@ -255,23 +255,23 @@ class CdnDedicatedHandler {
   };
 
   /** Return stats about a domain */
-  getDedicatedServiceNameDomainsDomainStatistics = (
+  getDedicatedDomainsStatisticsByServiceNameAndDomain = (
     domain: string,
     serviceName: string
-  ): Promise<CdnanycastStatsDataType> => {
+  ): Promise<CdnanycastStatsDataType[]> => {
     return this.ovh.request('GET', `/cdn/dedicated/${serviceName}/domains/${domain}/statistics`);
   };
 
   /** Task associated to the domain */
-  getDedicatedServiceNameDomainsDomainTasks = (
+  getDedicatedDomainsTasksByServiceNameAndDomain = (
     domain: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/cdn/dedicated/${serviceName}/domains/${domain}/tasks`);
   };
 
   /** Get this object properties */
-  getDedicatedServiceNameDomainsDomainTasksTaskId = (
+  getDedicatedDomainsTasksByServiceNameAndDomainAndTaskId = (
     domain: string,
     serviceName: string,
     taskId: number
@@ -283,22 +283,22 @@ class CdnDedicatedHandler {
   };
 
   /** Generate URL to real time logs */
-  postDedicatedServiceNameLogs = (serviceName: string): Promise<CdnanycastLogsURL> => {
+  postDedicatedLogsByServiceName = (serviceName: string): Promise<CdnanycastLogsURL> => {
     return this.ovh.request('POST', `/cdn/dedicated/${serviceName}/logs`);
   };
 
   /** Return quota history */
-  getDedicatedServiceNameQuota = (serviceName: string): Promise<CdnanycastStatsDataType> => {
+  getDedicatedQuotaByServiceName = (serviceName: string): Promise<CdnanycastStatsDataType[]> => {
     return this.ovh.request('GET', `/cdn/dedicated/${serviceName}/quota`);
   };
 
   /** Get this object properties */
-  getDedicatedServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getDedicatedServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/cdn/dedicated/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putDedicatedServiceNameServiceInfos = (
+  updateDedicatedServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -306,17 +306,17 @@ class CdnDedicatedHandler {
   };
 
   /** Remove SSL of the CDN */
-  deleteDedicatedServiceNameSsl = (serviceName: string): Promise<CdnanycastTask> => {
+  deleteDedicatedSslByServiceName = (serviceName: string): Promise<CdnanycastTask> => {
     return this.ovh.request('DELETE', `/cdn/dedicated/${serviceName}/ssl`);
   };
 
   /** Get this object properties */
-  getDedicatedServiceNameSsl = (serviceName: string): Promise<CdnanycastSsl> => {
+  getDedicatedSslByServiceName = (serviceName: string): Promise<CdnanycastSsl> => {
     return this.ovh.request('GET', `/cdn/dedicated/${serviceName}/ssl`);
   };
 
   /** Add a SSL on CDN or Generate a Lets Encrypt certificate */
-  postDedicatedServiceNameSsl = (
+  addDedicatedSslByServiceName = (
     serviceName: string,
     body: { certificate?: string; chain?: string; key?: string; name: string }
   ): Promise<CdnanycastSsl> => {
@@ -324,12 +324,12 @@ class CdnDedicatedHandler {
   };
 
   /** Task associated to the ssl */
-  getDedicatedServiceNameSslTasks = (serviceName: string): Promise<number> => {
+  getDedicatedSslTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/cdn/dedicated/${serviceName}/ssl/tasks`);
   };
 
   /** Get this object properties */
-  getDedicatedServiceNameSslTasksTaskId = (
+  getDedicatedSslTasksByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<CdnanycastTask> => {
@@ -337,7 +337,7 @@ class CdnDedicatedHandler {
   };
 
   /** Update an existing SSL with a custom certificate */
-  postDedicatedServiceNameSslUpdate = (
+  updateDedicatedSslByServiceName = (
     serviceName: string,
     body: { certificate: string; chain?: string; key: string }
   ): Promise<CdnanycastTask> => {
@@ -345,4 +345,4 @@ class CdnDedicatedHandler {
   };
 }
 
-export default CdnDedicatedHandler;
+export { CdnDedicatedHandler };

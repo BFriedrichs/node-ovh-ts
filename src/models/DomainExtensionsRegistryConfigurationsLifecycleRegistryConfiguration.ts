@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DomainExtensionsRegistryConfigurationsOrderLifecycleRegistryConfiguration } from './DomainExtensionsRegistryConfigurationsOrderLifecycleRegistryConfiguration';
+import { DomainExtensionsRegistryConfigurationsTransferLifecycleRegistryConfiguration } from './DomainExtensionsRegistryConfigurationsTransferLifecycleRegistryConfiguration';
 import { DomainExtensionsRegistryConfigurationsRestoreLifecycleRegistryConfiguration } from './DomainExtensionsRegistryConfigurationsRestoreLifecycleRegistryConfiguration';
 import { DomainExtensionsRegistryConfigurationsCreateLifecycleRegistryConfiguration } from './DomainExtensionsRegistryConfigurationsCreateLifecycleRegistryConfiguration';
-import { DomainExtensionsRegistryConfigurationsTransferLifecycleRegistryConfiguration } from './DomainExtensionsRegistryConfigurationsTransferLifecycleRegistryConfiguration';
+import { DomainExtensionsRegistryConfigurationsOrderLifecycleRegistryConfiguration } from './DomainExtensionsRegistryConfigurationsOrderLifecycleRegistryConfiguration';
 import { DomainExtensionsRegistryConfigurationsRenewLifecycleRegistryConfiguration } from './DomainExtensionsRegistryConfigurationsRenewLifecycleRegistryConfiguration';
 
 export type DomainExtensionsRegistryConfigurationsLifecycleRegistryConfiguration = {

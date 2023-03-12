@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SslGatewayTask } from '../models/SslGatewayTask';
-import { ServicesService } from '../models/ServicesService';
-import { SslGatewayEligibilityStatus } from '../models/SslGatewayEligibilityStatus';
-import { SslGatewaySslGateway } from '../models/SslGatewaySslGateway';
-import { SslGatewayNatIps } from '../models/SslGatewayNatIps';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { SslGatewayDomain } from '../models/SslGatewayDomain';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { SslGatewayDomain } from '../models/SslGatewayDomain';
+import { SslGatewayTask } from '../models/SslGatewayTask';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { SslGatewayServer } from '../models/SslGatewayServer';
+import { SslGatewayNatIps } from '../models/SslGatewayNatIps';
+import { SslGatewayEligibilityStatus } from '../models/SslGatewayEligibilityStatus';
+import { ServicesService } from '../models/ServicesService';
+import { SslGatewaySslGateway } from '../models/SslGatewaySslGateway';
 import OVHBase from '../ovh';
 
 class SslGatewayHandler {
@@ -19,40 +19,40 @@ class SslGatewayHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/sslGateway');
   };
 
   /** List of zone available for an SSL Gateway */
-  getAvailableZones = (): Promise<string> => {
+  listAvailableZones = (): Promise<string[]> => {
     return this.ovh.request('GET', '/sslGateway/availableZones');
   };
 
   /** Check domain eligibility. Return list of eligible IP(s) for this domain. */
-  getEligibility = (): Promise<SslGatewayEligibilityStatus> => {
+  checkEligibility = (): Promise<SslGatewayEligibilityStatus> => {
     return this.ovh.request('GET', '/sslGateway/eligibility');
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<SslGatewaySslGateway> => {
+  getByServiceName = (serviceName: string): Promise<SslGatewaySslGateway> => {
     return this.ovh.request('GET', `/sslGateway/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putServiceName = (serviceName: string, body: SslGatewaySslGateway): Promise<void> => {
+  updateByServiceName = (serviceName: string, body: SslGatewaySslGateway): Promise<void> => {
     return this.ovh.request('PUT', `/sslGateway/${serviceName}`, body);
   };
 
   /** Launch a contact change procedure */
-  postServiceNameChangeContact = (
+  launchChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/sslGateway/${serviceName}/changeContact`, body);
   };
 
   /** Confirm termination of your service */
-  postServiceNameConfirmTermination = (
+  confirmTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -65,12 +65,12 @@ class SslGatewayHandler {
   };
 
   /** Domains attached to your SSL Gateway */
-  getServiceNameDomain = (serviceName: string): Promise<number> => {
+  getDomainByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/sslGateway/${serviceName}/domain`);
   };
 
   /** Attach a new domain to your SSL Gateway */
-  postServiceNameDomain = (
+  postDomainByServiceName = (
     serviceName: string,
     body: { domain: string }
   ): Promise<SslGatewayDomain> => {
@@ -78,35 +78,35 @@ class SslGatewayHandler {
   };
 
   /** Detach a domain from your SSL Gateway */
-  deleteServiceNameDomainId = (id: number, serviceName: string): Promise<void> => {
+  deleteDomainByServiceNameAndId = (id: number, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/sslGateway/${serviceName}/domain/${id}`);
   };
 
   /** Get this object properties */
-  getServiceNameDomainId = (id: number, serviceName: string): Promise<SslGatewayDomain> => {
+  getDomainByServiceNameAndId = (id: number, serviceName: string): Promise<SslGatewayDomain> => {
     return this.ovh.request('GET', `/sslGateway/${serviceName}/domain/${id}`);
   };
 
   /** Ip subnet used by OVH to nat requests to your SSL Gateway backends. */
-  getServiceNameNatIp = (serviceName: string): Promise<SslGatewayNatIps> => {
+  getNatIpByServiceName = (serviceName: string): Promise<SslGatewayNatIps[]> => {
     return this.ovh.request('GET', `/sslGateway/${serviceName}/natIp`);
   };
 
   /** Renew your SSL certificates */
-  postServiceNameRenewCertificate = (
+  postRenewCertificateByServiceName = (
     serviceName: string,
     body: { domain?: string }
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('POST', `/sslGateway/${serviceName}/renewCertificate`, body);
   };
 
   /** Servers attached to your SSL Gateway */
-  getServiceNameServer = (serviceName: string): Promise<number> => {
+  getServerByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/sslGateway/${serviceName}/server`);
   };
 
   /** Add a new server to your SSL Gateway */
-  postServiceNameServer = (
+  addServerByServiceName = (
     serviceName: string,
     body: { address: string; port: number }
   ): Promise<SslGatewayServer> => {
@@ -114,17 +114,17 @@ class SslGatewayHandler {
   };
 
   /** Remove a server */
-  deleteServiceNameServerId = (id: number, serviceName: string): Promise<void> => {
+  deleteServerByServiceNameAndId = (id: number, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/sslGateway/${serviceName}/server/${id}`);
   };
 
   /** Get this object properties */
-  getServiceNameServerId = (id: number, serviceName: string): Promise<SslGatewayServer> => {
+  getServerByServiceNameAndId = (id: number, serviceName: string): Promise<SslGatewayServer> => {
     return this.ovh.request('GET', `/sslGateway/${serviceName}/server/${id}`);
   };
 
   /** Alter this object properties */
-  putServiceNameServerId = (
+  updateServerByServiceNameAndId = (
     id: number,
     serviceName: string,
     body: SslGatewayServer
@@ -133,29 +133,29 @@ class SslGatewayHandler {
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/sslGateway/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/sslGateway/${serviceName}/serviceInfos`, body);
   };
 
   /** Task for this SSL Gateway */
-  getServiceNameTask = (serviceName: string): Promise<number> => {
+  getTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/sslGateway/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getServiceNameTaskId = (id: number, serviceName: string): Promise<SslGatewayTask> => {
+  getTaskByServiceNameAndId = (id: number, serviceName: string): Promise<SslGatewayTask> => {
     return this.ovh.request('GET', `/sslGateway/${serviceName}/task/${id}`);
   };
 
   /** Terminate your service */
-  postServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/sslGateway/${serviceName}/terminate`);
   };
 }
 
-export default SslGatewayHandler;
+export { SslGatewayHandler };

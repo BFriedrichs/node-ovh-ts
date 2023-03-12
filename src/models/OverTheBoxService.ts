@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OverTheBoxTunnelModeEnum } from './OverTheBoxTunnelModeEnum';
 import { OverTheBoxServiceStatusEnum } from './OverTheBoxServiceStatusEnum';
-import { OverTheBoxServiceConfigurationModeEnum } from './OverTheBoxServiceConfigurationModeEnum';
-import { OverTheBoxGraphEndpoint } from './OverTheBoxGraphEndpoint';
+import { OverTheBoxTunnelModeEnum } from './OverTheBoxTunnelModeEnum';
 import { OverTheBoxAvailableStatusEnum } from './OverTheBoxAvailableStatusEnum';
+import { OverTheBoxGraphEndpoint } from './OverTheBoxGraphEndpoint';
+import { OverTheBoxServiceConfigurationModeEnum } from './OverTheBoxServiceConfigurationModeEnum';
 
 export type OverTheBoxService = {
   SOCKSProxyEnabled: boolean;

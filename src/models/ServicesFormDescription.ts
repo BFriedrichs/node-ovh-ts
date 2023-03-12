@@ -2,4 +2,4 @@
 
 import { ServicesFormQuestion } from './ServicesFormQuestion';
 
-export type ServicesFormDescription = { name: string; questions: ServicesFormQuestion };
+export type ServicesFormDescription = { name: string; questions: ServicesFormQuestion[] };

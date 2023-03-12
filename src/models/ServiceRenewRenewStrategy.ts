@@ -6,6 +6,6 @@ import { OrderPrice } from './OrderPrice';
 export type ServiceRenewRenewStrategy = {
   price: OrderPrice;
   priceInUcents: number;
-  services: number;
-  servicesDetails: ServiceRenewService;
+  services: number[];
+  servicesDetails: ServiceRenewService[];
 };

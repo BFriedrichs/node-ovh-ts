@@ -2,7 +2,7 @@
 
 export type EmailDomainAccountDelegated = {
   accountName: string;
-  allowedAccountSize: number | null;
+  allowedAccountSize: number[] | null;
   description: string;
   domain: string;
   email: string;

@@ -1,322 +1,322 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudNetworkGateway } from '../models/CloudNetworkGateway';
-import { CloudProjectDatabaseServiceUser } from '../models/CloudProjectDatabaseServiceUser';
-import { CloudProjectAiServingRegistryResponse } from '../models/CloudProjectAiServingRegistryResponse';
-import { CloudPrice } from '../models/CloudPrice';
-import { CloudProjectDatabaseOpensearchPattern } from '../models/CloudProjectDatabaseOpensearchPattern';
-import { CloudProjectAiAppApp } from '../models/CloudProjectAiAppApp';
-import { CloudProjectAiServingBackend } from '../models/CloudProjectAiServingBackend';
-import { CloudProjectDatabaseM3dbUser } from '../models/CloudProjectDatabaseM3dbUser';
-import { CloudProjectAiAppAppStateEnum } from '../models/CloudProjectAiAppAppStateEnum';
-import { CloudKubeKubeconfig } from '../models/CloudKubeKubeconfig';
-import { CloudProjectDataProcessingNotebookNotebookSpec } from '../models/CloudProjectDataProcessingNotebookNotebookSpec';
-import { CloudProjectDatabaseOpensearchService } from '../models/CloudProjectDatabaseOpensearchService';
-import { CloudProjectInstanceGroupCreation } from '../models/CloudProjectInstanceGroupCreation';
-import { CloudProjectAiVolumeDataSyncSpec } from '../models/CloudProjectAiVolumeDataSyncSpec';
-import { CloudProjectNetwork } from '../models/CloudProjectNetwork';
-import { CloudProjectKubeResetCreation } from '../models/CloudProjectKubeResetCreation';
-import { CloudProjectAiServingRegistry } from '../models/CloudProjectAiServingRegistry';
-import { CloudProjectDatabaseKafkaConnectConnectorCreation } from '../models/CloudProjectDatabaseKafkaConnectConnectorCreation';
-import { CloudProjectVolumeDetachCreation } from '../models/CloudProjectVolumeDetachCreation';
-import { CloudLoadbalancingPoolMember } from '../models/CloudLoadbalancingPoolMember';
-import { CloudProjectDatabaseServiceCurrentQueries } from '../models/CloudProjectDatabaseServiceCurrentQueries';
-import { CloudProjectDatabaseServiceMetricPeriodEnum } from '../models/CloudProjectDatabaseServiceMetricPeriodEnum';
-import { CloudProjectStorageUpdate } from '../models/CloudProjectStorageUpdate';
-import { CloudProjectDatabaseServiceReplication } from '../models/CloudProjectDatabaseServiceReplication';
-import { CloudProjectAiNotebookEditor } from '../models/CloudProjectAiNotebookEditor';
-import { CloudOrderRuleInstanceCategories } from '../models/CloudOrderRuleInstanceCategories';
-import { CloudProjectDatabaseKafkaConnectConnector } from '../models/CloudProjectDatabaseKafkaConnectConnector';
-import { CloudProjectAiAppAppImageInput } from '../models/CloudProjectAiAppAppImageInput';
-import { ServicesService } from '../models/ServicesService';
-import { CloudStackStack } from '../models/CloudStackStack';
-import { CloudProjectUserCreation } from '../models/CloudProjectUserCreation';
-import { CloudVolumeSnapshot } from '../models/CloudVolumeSnapshot';
-import { CloudProjectDatabaseService } from '../models/CloudProjectDatabaseService';
-import { CloudCapabilitiesAvailability } from '../models/CloudCapabilitiesAvailability';
-import { CloudAclTypeEnum } from '../models/CloudAclTypeEnum';
-import { CloudProjectDatabaseServiceRestore } from '../models/CloudProjectDatabaseServiceRestore';
-import { CloudUserUser } from '../models/CloudUserUser';
-import { CloudProjectVolumeUpdate } from '../models/CloudProjectVolumeUpdate';
-import { CloudKubeNode } from '../models/CloudKubeNode';
-import { CloudProjectAiJobPresetImage } from '../models/CloudProjectAiJobPresetImage';
-import { CloudProjectBill } from '../models/CloudProjectBill';
-import { CloudProjectUserTokenCreation } from '../models/CloudProjectUserTokenCreation';
-import { CloudProjectIoStreamSubscriptionCreation } from '../models/CloudProjectIoStreamSubscriptionCreation';
-import { CloudLoadbalancingL7PolicyUpdate } from '../models/CloudLoadbalancingL7PolicyUpdate';
-import { CloudProjectDatabaseCapabilitiesIntegration } from '../models/CloudProjectDatabaseCapabilitiesIntegration';
-import { CloudProjectAiNotebookFramework } from '../models/CloudProjectAiNotebookFramework';
-import { CloudProjectDataProcessingAuthorizationStatus } from '../models/CloudProjectDataProcessingAuthorizationStatus';
-import { CloudOrderOrder } from '../models/CloudOrderOrder';
-import { CloudProjectNewProjectInfo } from '../models/CloudProjectNewProjectInfo';
-import { CloudLoadbalancingLoadBalancer } from '../models/CloudLoadbalancingLoadBalancer';
-import { CloudProjectInstanceReinstallCreation } from '../models/CloudProjectInstanceReinstallCreation';
-import { CloudProjectLoadbalancerRegion } from '../models/CloudProjectLoadbalancerRegion';
-import { CloudProjectAiLogs } from '../models/CloudProjectAiLogs';
-import { CloudProjectNetworkPrivateCreation } from '../models/CloudProjectNetworkPrivateCreation';
-import { CloudLoadbalancingLoadbalancerCreate } from '../models/CloudLoadbalancingLoadbalancerCreate';
-import { CloudProjectAiAuthorizationStatus } from '../models/CloudProjectAiAuthorizationStatus';
-import { CloudProjectKubeNodePoolCreation } from '../models/CloudProjectKubeNodePoolCreation';
-import { CloudInstanceMetricsTypeEnum } from '../models/CloudInstanceMetricsTypeEnum';
-import { CloudNetworkSubnet } from '../models/CloudNetworkSubnet';
-import { CloudForecastProjectForecast } from '../models/CloudForecastProjectForecast';
-import { CloudUsageUsageHistory } from '../models/CloudUsageUsageHistory';
-import { CloudProjectVolumeSnapshotCreation } from '../models/CloudProjectVolumeSnapshotCreation';
-import { CloudFlavorFlavor } from '../models/CloudFlavorFlavor';
-import { CloudProjectDatabaseServiceLogEntry } from '../models/CloudProjectDatabaseServiceLogEntry';
-import { CloudColdArchiveContainer } from '../models/CloudColdArchiveContainer';
-import { CloudKubeCluster } from '../models/CloudKubeCluster';
-import { CloudProjectAiOrderEnum } from '../models/CloudProjectAiOrderEnum';
-import { CloudProjectKubeCreation } from '../models/CloudProjectKubeCreation';
-import { CloudProjectDatabaseIpRestriction } from '../models/CloudProjectDatabaseIpRestriction';
-import { CloudProjectDatabaseMysqlQueryStatistics } from '../models/CloudProjectDatabaseMysqlQueryStatistics';
-import { CloudProjectVolumeAttachCreation } from '../models/CloudProjectVolumeAttachCreation';
-import { CloudProjectDatabaseOpensearchPermissions } from '../models/CloudProjectDatabaseOpensearchPermissions';
-import { CloudProjectKubeUpdateCreation } from '../models/CloudProjectKubeUpdateCreation';
-import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
-import { CloudProjectDatabaseKafkaPermissions } from '../models/CloudProjectDatabaseKafkaPermissions';
-import { CloudNetworkGatewayCreateInterface } from '../models/CloudNetworkGatewayCreateInterface';
-import { CloudProjectDataProcessingJob } from '../models/CloudProjectDataProcessingJob';
-import { CloudProjectRegionWorkflowBackupCreation } from '../models/CloudProjectRegionWorkflowBackupCreation';
-import { CloudProjectIoStreamSubscription } from '../models/CloudProjectIoStreamSubscription';
-import { CloudContainerRegistryCapability } from '../models/CloudContainerRegistryCapability';
-import { CloudStorageContainer } from '../models/CloudStorageContainer';
-import { CloudProjectDatabaseServiceCurrentqueriesQueryCancelResponse } from '../models/CloudProjectDatabaseServiceCurrentqueriesQueryCancelResponse';
-import { CloudKubeResponseMessage } from '../models/CloudKubeResponseMessage';
-import { CloudIpFailoverIp } from '../models/CloudIpFailoverIp';
-import { CloudProjectDatabaseOpensearchUser } from '../models/CloudProjectDatabaseOpensearchUser';
-import { CloudProjectIoStreamSubscriptionStats } from '../models/CloudProjectIoStreamSubscriptionStats';
-import { CloudProjectVolumeCreation } from '../models/CloudProjectVolumeCreation';
-import { CloudProjectDatabaseKafkaAcl } from '../models/CloudProjectDatabaseKafkaAcl';
-import { CloudProjectDatabaseOpensearchUserCreation } from '../models/CloudProjectDatabaseOpensearchUserCreation';
-import { CloudProjectAiServingModel } from '../models/CloudProjectAiServingModel';
-import { CloudProjectDataProcessingNotebookNotebook } from '../models/CloudProjectDataProcessingNotebookNotebook';
-import { CloudProjectNetworkPrivateSubnetCreation } from '../models/CloudProjectNetworkPrivateSubnetCreation';
-import { CloudProjectDatabaseKafkaConnectConnectorTask } from '../models/CloudProjectDatabaseKafkaConnectConnectorTask';
-import { CloudProjectDatabaseKafkaService } from '../models/CloudProjectDatabaseKafkaService';
-import { CloudImageImage } from '../models/CloudImageImage';
-import { CloudProjectAiNotebookNotebookStateEnum } from '../models/CloudProjectAiNotebookNotebookStateEnum';
-import { CloudProjectKubeCustomization } from '../models/CloudProjectKubeCustomization';
-import { CloudRegion } from '../models/CloudRegion';
-import { CloudOperation } from '../models/CloudOperation';
-import { CloudProjectUserRoleCreation } from '../models/CloudProjectUserRoleCreation';
-import { CloudProjectAiAppScalingStrategyInput } from '../models/CloudProjectAiAppScalingStrategyInput';
-import { CloudStorageContainerObjectTempURL } from '../models/CloudStorageContainerObjectTempURL';
-import { CloudProjectAiRegistryRegistry } from '../models/CloudProjectAiRegistryRegistry';
-import { CloudContainerRegistryPlanUpdate } from '../models/CloudContainerRegistryPlanUpdate';
-import { CloudProjectKubeNodeCreation } from '../models/CloudProjectKubeNodeCreation';
-import { CloudProjectDatabaseServiceDatabase } from '../models/CloudProjectDatabaseServiceDatabase';
-import { CloudProjectDatabaseServiceIntegration } from '../models/CloudProjectDatabaseServiceIntegration';
-import { CloudKubePrivateNetworkConfiguration } from '../models/CloudKubePrivateNetworkConfiguration';
-import { CloudProjectDatabaseM3dbNamespaceCreation } from '../models/CloudProjectDatabaseM3dbNamespaceCreation';
-import { CloudProjectAiNotebookNotebookSpecInput } from '../models/CloudProjectAiNotebookNotebookSpecInput';
-import { CloudProjectInstanceBulkCreation } from '../models/CloudProjectInstanceBulkCreation';
-import { CloudProjectDatabaseServiceUserWithPasswordAndRoles } from '../models/CloudProjectDatabaseServiceUserWithPasswordAndRoles';
-import { CloudUsageUsageCurrent } from '../models/CloudUsageUsageCurrent';
-import { CloudProjectProjectUsage } from '../models/CloudProjectProjectUsage';
-import { CloudStoragePresignedURL } from '../models/CloudStoragePresignedURL';
-import { CloudProjectAiServingModelDefinition } from '../models/CloudProjectAiServingModelDefinition';
-import { CloudStorageContainerCreation } from '../models/CloudStorageContainerCreation';
-import { CloudProjectAiServingMetrics } from '../models/CloudProjectAiServingMetrics';
-import { CloudProjectKubeUpdate } from '../models/CloudProjectKubeUpdate';
-import { CloudProjectDatabaseKafkaUserAccess } from '../models/CloudProjectDatabaseKafkaUserAccess';
-import { CloudMigrationMigration } from '../models/CloudMigrationMigration';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { CloudAcl } from '../models/CloudAcl';
-import { CloudProjectAiServingFeatures } from '../models/CloudProjectAiServingFeatures';
-import { CloudProjectKubeOpenIdConnectUpdate } from '../models/CloudProjectKubeOpenIdConnectUpdate';
-import { CloudProjectAiVolumeDataSync } from '../models/CloudProjectAiVolumeDataSync';
-import { CloudInstanceRescueAdminPassword } from '../models/CloudInstanceRescueAdminPassword';
-import { CloudProjectDatabaseServiceUserWithPassword } from '../models/CloudProjectDatabaseServiceUserWithPassword';
-import { CloudKubeFlavor } from '../models/CloudKubeFlavor';
-import { CloudProjectDataProcessingJobLogs } from '../models/CloudProjectDataProcessingJobLogs';
-import { CloudProjectKubeIpRestrictionUpsert } from '../models/CloudProjectKubeIpRestrictionUpsert';
-import { CloudUserS3CredentialsWithSecret } from '../models/CloudUserS3CredentialsWithSecret';
-import { CloudLoadbalancingCreateFloatingIp } from '../models/CloudLoadbalancingCreateFloatingIp';
-import { CloudProjectVolumeUpsizeCreation } from '../models/CloudProjectVolumeUpsizeCreation';
-import { CloudProjectDatabaseServiceUserCreation } from '../models/CloudProjectDatabaseServiceUserCreation';
-import { CloudIpCloudIp } from '../models/CloudIpCloudIp';
-import { CloudProjectLoadbalancerConfiguration } from '../models/CloudProjectLoadbalancerConfiguration';
-import { CloudAlertingDelayEnum } from '../models/CloudAlertingDelayEnum';
-import { CloudNetworkCreateGateway } from '../models/CloudNetworkCreateGateway';
-import { CloudProjectNewProject } from '../models/CloudProjectNewProject';
-import { CloudProjectSubnet } from '../models/CloudProjectSubnet';
-import { CloudLoadbalancingPoolUpdate } from '../models/CloudLoadbalancingPoolUpdate';
-import { CloudNetworkUpdateGateway } from '../models/CloudNetworkUpdateGateway';
-import { CloudProjectDatabaseIpRestrictionCreation } from '../models/CloudProjectDatabaseIpRestrictionCreation';
-import { CloudProjectLoadBalancer } from '../models/CloudProjectLoadBalancer';
-import { CloudUsageUsageForecast } from '../models/CloudUsageUsageForecast';
-import { CloudProjectAiCapabilitiesPreset } from '../models/CloudProjectAiCapabilitiesPreset';
-import { CloudProjectAiCapabilitiesRegion } from '../models/CloudProjectAiCapabilitiesRegion';
-import { CloudRoleRoles } from '../models/CloudRoleRoles';
-import { CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum } from '../models/CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum';
-import { CloudProjectAiServingNamespaceCreation } from '../models/CloudProjectAiServingNamespaceCreation';
-import { CloudUserOpenrcVersionEnum } from '../models/CloudUserOpenrcVersionEnum';
-import { CloudVolumeBackupVolumeBackupCreation } from '../models/CloudVolumeBackupVolumeBackupCreation';
-import { CloudProjectStorageUserCreation } from '../models/CloudProjectStorageUserCreation';
-import { CloudProjectDatabaseServiceMaintenance } from '../models/CloudProjectDatabaseServiceMaintenance';
-import { CloudKeymanagerCertificateCreate } from '../models/CloudKeymanagerCertificateCreate';
-import { CloudProjectDatabaseAvailability } from '../models/CloudProjectDatabaseAvailability';
-import { CloudProjectAiCapabilitiesProjectQuotas } from '../models/CloudProjectAiCapabilitiesProjectQuotas';
-import { CloudLoadbalancingPoolCreate } from '../models/CloudLoadbalancingPoolCreate';
-import { CloudProjectContainerRegistryCreation } from '../models/CloudProjectContainerRegistryCreation';
-import { CloudVolumeBackupVolumeBackupRestore } from '../models/CloudVolumeBackupVolumeBackupRestore';
-import { CloudProjectNetworkPrivateUpdate } from '../models/CloudProjectNetworkPrivateUpdate';
-import { CloudProjectKubeUpdatePolicyUpdate } from '../models/CloudProjectKubeUpdatePolicyUpdate';
-import { CloudNetworkCreateNetwork } from '../models/CloudNetworkCreateNetwork';
-import { CloudProjectSshkeyCreation } from '../models/CloudProjectSshkeyCreation';
-import { CloudProjectDataProcessingNotebookCapability } from '../models/CloudProjectDataProcessingNotebookCapability';
-import { CloudProjectDatabaseKafkaTopic } from '../models/CloudProjectDatabaseKafkaTopic';
-import { CloudKubeNodePool } from '../models/CloudKubeNodePool';
-import { CloudProjectDatabaseServiceCreation } from '../models/CloudProjectDatabaseServiceCreation';
-import { CloudProjectDatabaseRedisUserWithPassword } from '../models/CloudProjectDatabaseRedisUserWithPassword';
-import { CloudProjectDatabaseServiceNode } from '../models/CloudProjectDatabaseServiceNode';
-import { CloudProjectMigrationUpdate } from '../models/CloudProjectMigrationUpdate';
-import { CloudBackup } from '../models/CloudBackup';
-import { CloudProjectInstanceCreation } from '../models/CloudProjectInstanceCreation';
-import { CloudProjectStorageCorsCreation } from '../models/CloudProjectStorageCorsCreation';
-import { CloudQuotaStorageQuota } from '../models/CloudQuotaStorageQuota';
-import { CloudUserRclone } from '../models/CloudUserRclone';
-import { CloudProjectDatabaseRedisUserCreation } from '../models/CloudProjectDatabaseRedisUserCreation';
-import { CloudQuotaAllowedQuota } from '../models/CloudQuotaAllowedQuota';
-import { CloudSshkeySshKeyDetail } from '../models/CloudSshkeySshKeyDetail';
-import { CloudProjectStorageCreation } from '../models/CloudProjectStorageCreation';
-import { CloudProjectNetworkPrivateRegionCreation } from '../models/CloudProjectNetworkPrivateRegionCreation';
-import { CloudProjectDatabaseKafkaConnectCapabilitiesConnector } from '../models/CloudProjectDatabaseKafkaConnectCapabilitiesConnector';
-import { CloudNetworkNetwork } from '../models/CloudNetworkNetwork';
-import { CloudStorageContainerDetail } from '../models/CloudStorageContainerDetail';
-import { CloudKeymanagerSecret } from '../models/CloudKeymanagerSecret';
-import { CloudContainerRegistryUser } from '../models/CloudContainerRegistryUser';
-import { CloudLab } from '../models/CloudLab';
-import { CloudProjectAiServingPresetImage } from '../models/CloudProjectAiServingPresetImage';
-import { CloudVolumeVolume } from '../models/CloudVolumeVolume';
-import { CloudProjectInstanceInterfaceCreation } from '../models/CloudProjectInstanceInterfaceCreation';
-import { CloudProjectLoadbalancerConfigurationCreation } from '../models/CloudProjectLoadbalancerConfigurationCreation';
-import { CloudInstanceAssociateFloatingIp } from '../models/CloudInstanceAssociateFloatingIp';
-import { CloudAuthenticationToken } from '../models/CloudAuthenticationToken';
-import { CloudCredit } from '../models/CloudCredit';
-import { CloudInstanceInstance } from '../models/CloudInstanceInstance';
-import { CloudInstanceInstanceVnc } from '../models/CloudInstanceInstanceVnc';
-import { CloudProjectAiRegistryRegistryUpdateInput } from '../models/CloudProjectAiRegistryRegistryUpdateInput';
 import { CloudInstancegroupInstanceGroup } from '../models/CloudInstancegroupInstanceGroup';
-import { CloudProjectDatabaseTemporaryWriteDeadline } from '../models/CloudProjectDatabaseTemporaryWriteDeadline';
-import { CloudLoadbalancingUpdateHealthMonitor } from '../models/CloudLoadbalancingUpdateHealthMonitor';
-import { CloudProject } from '../models/CloudProject';
-import { CloudProjectDataProcessingMetrics } from '../models/CloudProjectDataProcessingMetrics';
-import { CloudProjectAiCommand } from '../models/CloudProjectAiCommand';
-import { CloudKeymanagerCertificate } from '../models/CloudKeymanagerCertificate';
-import { CloudInstanceInstanceDetail } from '../models/CloudInstanceInstanceDetail';
-import { CloudVolumeBackupVolumeBackup } from '../models/CloudVolumeBackupVolumeBackup';
-import { CloudProjectInstanceResizeCreation } from '../models/CloudProjectInstanceResizeCreation';
-import { CloudProjectContainerRegistryUpdate } from '../models/CloudProjectContainerRegistryUpdate';
-import { CloudProjectAiJobJobStateEnum } from '../models/CloudProjectAiJobJobStateEnum';
-import { CloudProjectIoStreamRegion } from '../models/CloudProjectIoStreamRegion';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { CloudLoadbalancingL7Policy } from '../models/CloudLoadbalancingL7Policy';
-import { CloudProjectRegionCreation } from '../models/CloudProjectRegionCreation';
-import { CloudLoadbalancingHealthMonitor } from '../models/CloudLoadbalancingHealthMonitor';
-import { CloudProjectDatabaseCapabilities } from '../models/CloudProjectDatabaseCapabilities';
-import { CloudProjectDatabaseM3dbUserWithPassword } from '../models/CloudProjectDatabaseM3dbUserWithPassword';
-import { CloudProjectAiServingToken } from '../models/CloudProjectAiServingToken';
-import { CloudProjectIoStreamToken } from '../models/CloudProjectIoStreamToken';
-import { CloudProjectDatabaseServiceReplicationCreation } from '../models/CloudProjectDatabaseServiceReplicationCreation';
-import { CloudProjectAiJobJob } from '../models/CloudProjectAiJobJob';
-import { CloudUsageUsageHistoryDetail } from '../models/CloudUsageUsageHistoryDetail';
-import { CloudProjectDatabaseServiceUserWithRolesCreation } from '../models/CloudProjectDatabaseServiceUserWithRolesCreation';
-import { CloudKubeAuditLogs } from '../models/CloudKubeAuditLogs';
-import { CloudContainerRegistryRegistry } from '../models/CloudContainerRegistryRegistry';
-import { CloudStoragePolicyRaw } from '../models/CloudStoragePolicyRaw';
-import { CloudProjectStoragePublicUrlCreation } from '../models/CloudProjectStoragePublicUrlCreation';
-import { CloudLoadbalancingPool } from '../models/CloudLoadbalancingPool';
-import { CloudStorageQuota } from '../models/CloudStorageQuota';
-import { CloudLoadbalancingAssociateFloatingIp } from '../models/CloudLoadbalancingAssociateFloatingIp';
-import { CloudProjectRegionQuotaCreation } from '../models/CloudProjectRegionQuotaCreation';
-import { CloudKubeOpenIdConnect } from '../models/CloudKubeOpenIdConnect';
-import { CloudKubeRegionEnum } from '../models/CloudKubeRegionEnum';
-import { CloudProjectInstanceRescueModeCreation } from '../models/CloudProjectInstanceRescueModeCreation';
-import { CloudProjectDatabaseKafkaConnectCapabilitiesConnectorTransform } from '../models/CloudProjectDatabaseKafkaConnectCapabilitiesConnectorTransform';
-import { CloudProjectDatabasePostgresqlConnectionPool } from '../models/CloudProjectDatabasePostgresqlConnectionPool';
-import { CloudProjectUserRoleUpdate } from '../models/CloudProjectUserRoleUpdate';
-import { CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty } from '../models/CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty';
-import { CloudProjectInstanceUpdate } from '../models/CloudProjectInstanceUpdate';
-import { CloudQuotaStorageQuotaUpdate } from '../models/CloudQuotaStorageQuotaUpdate';
-import { CloudProjectDatabaseServiceMetric } from '../models/CloudProjectDatabaseServiceMetric';
-import { CloudProjectProductAgreements } from '../models/CloudProjectProductAgreements';
-import { CloudNetworkGatewayInterface } from '../models/CloudNetworkGatewayInterface';
-import { CloudAvailableRegion } from '../models/CloudAvailableRegion';
-import { CloudProjectDatabaseM3dbUserCreation } from '../models/CloudProjectDatabaseM3dbUserCreation';
-import { CloudProjectEligibilityInfo } from '../models/CloudProjectEligibilityInfo';
-import { CloudProjectDatabasePostgresqlConnectionPoolCreation } from '../models/CloudProjectDatabasePostgresqlConnectionPoolCreation';
-import { CloudProjectKubeNodePoolUpdate } from '../models/CloudProjectKubeNodePoolUpdate';
-import { CloudStorageContainerAccess } from '../models/CloudStorageContainerAccess';
-import { CloudKubeEtcdUsage } from '../models/CloudKubeEtcdUsage';
-import { CloudProjectDataProcessingCapability } from '../models/CloudProjectDataProcessingCapability';
-import { CloudRoleRole } from '../models/CloudRoleRole';
-import { CloudAlertingAlert } from '../models/CloudAlertingAlert';
-import { CloudProjectAiJobJobSpecInput } from '../models/CloudProjectAiJobJobSpecInput';
-import { CloudProjectAiNotebookBackup } from '../models/CloudProjectAiNotebookBackup';
-import { CloudProjectFloatingIp } from '../models/CloudProjectFloatingIp';
-import { CloudProjectDatabaseOpensearchIndex } from '../models/CloudProjectDatabaseOpensearchIndex';
-import { CloudInstanceMetricsPeriodEnum } from '../models/CloudInstanceMetricsPeriodEnum';
-import { CloudInstanceInstanceMetrics } from '../models/CloudInstanceInstanceMetrics';
-import { CloudProjectAiCapabilitiesFlavor } from '../models/CloudProjectAiCapabilitiesFlavor';
-import { CloudImageOSTypeEnum } from '../models/CloudImageOSTypeEnum';
-import { CloudUserUserDetail } from '../models/CloudUserUserDetail';
-import { CloudProjectIoStreamStats } from '../models/CloudProjectIoStreamStats';
-import { CloudLoadbalancingListener } from '../models/CloudLoadbalancingListener';
-import { CloudProjectDatabasePostgresqlQueryStatistics } from '../models/CloudProjectDatabasePostgresqlQueryStatistics';
-import { CloudProjectDatabaseM3dbNamespace } from '../models/CloudProjectDatabaseM3dbNamespace';
-import { CloudProjectAiNotebookNotebook } from '../models/CloudProjectAiNotebookNotebook';
-import { CloudProjectKubeOpenIdConnectCreation } from '../models/CloudProjectKubeOpenIdConnectCreation';
-import { CloudProjectAiTokenTokenSpec } from '../models/CloudProjectAiTokenTokenSpec';
-import { CloudVolumeBackupVolumeCreationFromBackup } from '../models/CloudVolumeBackupVolumeCreationFromBackup';
-import { CloudProjectDatabaseServiceCertificates } from '../models/CloudProjectDatabaseServiceCertificates';
-import { CloudProjectAiAppAppSpecInput } from '../models/CloudProjectAiAppAppSpecInput';
-import { CloudUserOpenrc } from '../models/CloudUserOpenrc';
-import { CloudProjectInstanceRebootCreation } from '../models/CloudProjectInstanceRebootCreation';
-import { CloudLoadbalancingL7Rule } from '../models/CloudLoadbalancingL7Rule';
-import { CloudLoadbalancingPoolMemberUpdate } from '../models/CloudLoadbalancingPoolMemberUpdate';
-import { CloudInstanceCreateFloatingIp } from '../models/CloudInstanceCreateFloatingIp';
-import { CloudProjectAiTokenToken } from '../models/CloudProjectAiTokenToken';
-import { CloudProjectIoStreamCreation } from '../models/CloudProjectIoStreamCreation';
-import { CloudProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationProperty } from '../models/CloudProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationProperty';
-import { CloudProjectDatabaseRedisUser } from '../models/CloudProjectDatabaseRedisUser';
-import { CloudProjectIoStreamTokenCreation } from '../models/CloudProjectIoStreamTokenCreation';
-import { CloudProjectDatabaseKafkaTopicCreation } from '../models/CloudProjectDatabaseKafkaTopicCreation';
+import { CloudAclTypeEnum } from '../models/CloudAclTypeEnum';
+import { CloudProjectDatabaseIpRestriction } from '../models/CloudProjectDatabaseIpRestriction';
 import { CloudContainerRegistryPlan } from '../models/CloudContainerRegistryPlan';
-import { CloudInstanceInterfaceInterface } from '../models/CloudInstanceInterfaceInterface';
-import { CloudAlerting } from '../models/CloudAlerting';
-import { CloudProjectDatabaseServiceBackup } from '../models/CloudProjectDatabaseServiceBackup';
-import { CloudProjectAiLabel } from '../models/CloudProjectAiLabel';
-import { CloudProjectAiServingFramework } from '../models/CloudProjectAiServingFramework';
-import { CloudProjectAiNotebookNotebookUpdate } from '../models/CloudProjectAiNotebookNotebookUpdate';
-import { CloudProjectAiServingFlavor } from '../models/CloudProjectAiServingFlavor';
-import { CloudProjectDatabaseServiceNodeCreation } from '../models/CloudProjectDatabaseServiceNodeCreation';
-import { CloudQuotaQuotas } from '../models/CloudQuotaQuotas';
-import { CloudLoadbalancingCreateListener } from '../models/CloudLoadbalancingCreateListener';
-import { CloudSshkeySshKey } from '../models/CloudSshkeySshKey';
-import { CloudProjectContainerRegistryUsersCreation } from '../models/CloudProjectContainerRegistryUsersCreation';
-import { CloudNetworkCreateGatewaySummary } from '../models/CloudNetworkCreateGatewaySummary';
-import { CloudVrack } from '../models/CloudVrack';
-import { CloudProjectInstanceSnapshotCreation } from '../models/CloudProjectInstanceSnapshotCreation';
-import { CloudProjectKubeRestart } from '../models/CloudProjectKubeRestart';
-import { CloudProjectIoStream } from '../models/CloudProjectIoStream';
-import { CloudProjectDatabaseOpensearchUserWithPassword } from '../models/CloudProjectDatabaseOpensearchUserWithPassword';
-import { CloudProjectAiServingNamespace } from '../models/CloudProjectAiServingNamespace';
-import { CloudStorageAddContainerPolicy } from '../models/CloudStorageAddContainerPolicy';
-import { CloudInstanceApplicationAccess } from '../models/CloudInstanceApplicationAccess';
-import { CloudLabAgreements } from '../models/CloudLabAgreements';
-import { CloudLoadbalancingFlavor } from '../models/CloudLoadbalancingFlavor';
-import { CloudProjectLoadBalancerCreation } from '../models/CloudProjectLoadBalancerCreation';
 import { CloudProjectDatabaseServiceUserWithRoles } from '../models/CloudProjectDatabaseServiceUserWithRoles';
-import { CloudProjectProductNameEnum } from '../models/CloudProjectProductNameEnum';
-import { CloudProjectAiCapabilitiesFeatures } from '../models/CloudProjectAiCapabilitiesFeatures';
-import { CloudProjectIpFailoverAttachCreation } from '../models/CloudProjectIpFailoverAttachCreation';
-import { CloudStoragePresignedURLInput } from '../models/CloudStoragePresignedURLInput';
-import { CloudOrderRuleAvailability } from '../models/CloudOrderRuleAvailability';
-import { CloudProjectDatabaseServiceCurrentqueriesQueryCancelRequest } from '../models/CloudProjectDatabaseServiceCurrentqueriesQueryCancelRequest';
-import { CloudUserRCloneServiceEnum } from '../models/CloudUserRCloneServiceEnum';
+import { CloudProjectAiLogs } from '../models/CloudProjectAiLogs';
+import { CloudInstanceMetricsTypeEnum } from '../models/CloudInstanceMetricsTypeEnum';
+import { CloudProjectInstanceReinstallCreation } from '../models/CloudProjectInstanceReinstallCreation';
+import { CloudProjectDatabasePostgresqlConnectionPool } from '../models/CloudProjectDatabasePostgresqlConnectionPool';
+import { CloudMigrationMigration } from '../models/CloudMigrationMigration';
+import { CloudLoadbalancingL7PolicyUpdate } from '../models/CloudLoadbalancingL7PolicyUpdate';
+import { CloudProjectAiVolumeDataSync } from '../models/CloudProjectAiVolumeDataSync';
+import { CloudProjectNetworkPrivateUpdate } from '../models/CloudProjectNetworkPrivateUpdate';
+import { CloudAlerting } from '../models/CloudAlerting';
+import { CloudProjectAiCapabilitiesPreset } from '../models/CloudProjectAiCapabilitiesPreset';
+import { CloudRoleRole } from '../models/CloudRoleRole';
+import { CloudInstanceInterfaceInterface } from '../models/CloudInstanceInterfaceInterface';
+import { CloudProjectKubeOpenIdConnectUpdate } from '../models/CloudProjectKubeOpenIdConnectUpdate';
 import { CloudProjectActivateMonthlyBillingCreation } from '../models/CloudProjectActivateMonthlyBillingCreation';
+import { CloudProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationProperty } from '../models/CloudProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationProperty';
+import { CloudUserS3CredentialsWithSecret } from '../models/CloudUserS3CredentialsWithSecret';
+import { CloudProjectAiOrderEnum } from '../models/CloudProjectAiOrderEnum';
+import { CloudContainerRegistryPlanUpdate } from '../models/CloudContainerRegistryPlanUpdate';
+import { CloudProjectVolumeDetachCreation } from '../models/CloudProjectVolumeDetachCreation';
+import { CloudProjectKubeUpdateCreation } from '../models/CloudProjectKubeUpdateCreation';
+import { CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty } from '../models/CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty';
+import { CloudProjectIoStreamStats } from '../models/CloudProjectIoStreamStats';
+import { CloudStorageContainerObjectTempURL } from '../models/CloudStorageContainerObjectTempURL';
+import { CloudProjectDatabaseM3dbUserWithPassword } from '../models/CloudProjectDatabaseM3dbUserWithPassword';
+import { CloudSshkeySshKey } from '../models/CloudSshkeySshKey';
+import { CloudOrderRuleAvailability } from '../models/CloudOrderRuleAvailability';
+import { CloudOperation } from '../models/CloudOperation';
+import { CloudPrice } from '../models/CloudPrice';
+import { CloudProjectDatabaseOpensearchUser } from '../models/CloudProjectDatabaseOpensearchUser';
+import { CloudIpFailoverIp } from '../models/CloudIpFailoverIp';
+import { CloudProjectStorageCreation } from '../models/CloudProjectStorageCreation';
+import { CloudProjectContainerRegistryCreation } from '../models/CloudProjectContainerRegistryCreation';
+import { CloudProjectDatabaseServiceUserCreation } from '../models/CloudProjectDatabaseServiceUserCreation';
+import { CloudProjectDatabaseKafkaPermissions } from '../models/CloudProjectDatabaseKafkaPermissions';
+import { CloudProjectInstanceRescueModeCreation } from '../models/CloudProjectInstanceRescueModeCreation';
+import { CloudVolumeBackupVolumeBackupCreation } from '../models/CloudVolumeBackupVolumeBackupCreation';
+import { CloudProjectKubeCustomization } from '../models/CloudProjectKubeCustomization';
+import { CloudProjectKubeRestart } from '../models/CloudProjectKubeRestart';
+import { CloudLabAgreements } from '../models/CloudLabAgreements';
+import { CloudProjectStorageCorsCreation } from '../models/CloudProjectStorageCorsCreation';
+import { CloudProjectAiServingBackend } from '../models/CloudProjectAiServingBackend';
+import { CloudLoadbalancingAssociateFloatingIp } from '../models/CloudLoadbalancingAssociateFloatingIp';
+import { CloudProjectInstanceRebootCreation } from '../models/CloudProjectInstanceRebootCreation';
+import { CloudProjectInstanceInterfaceCreation } from '../models/CloudProjectInstanceInterfaceCreation';
+import { CloudProjectKubeNodeCreation } from '../models/CloudProjectKubeNodeCreation';
+import { CloudProjectDatabaseMysqlQueryStatistics } from '../models/CloudProjectDatabaseMysqlQueryStatistics';
+import { CloudProjectKubeUpdate } from '../models/CloudProjectKubeUpdate';
+import { CloudProjectDatabaseM3dbUserCreation } from '../models/CloudProjectDatabaseM3dbUserCreation';
+import { CloudProjectUserRoleCreation } from '../models/CloudProjectUserRoleCreation';
+import { CloudStorageAddContainerPolicy } from '../models/CloudStorageAddContainerPolicy';
+import { CloudProjectDatabaseServiceIntegration } from '../models/CloudProjectDatabaseServiceIntegration';
+import { CloudProjectVolumeCreation } from '../models/CloudProjectVolumeCreation';
+import { CloudProjectIoStream } from '../models/CloudProjectIoStream';
+import { CloudProjectAiAppAppStateEnum } from '../models/CloudProjectAiAppAppStateEnum';
+import { CloudLab } from '../models/CloudLab';
+import { CloudProjectLoadbalancerConfigurationCreation } from '../models/CloudProjectLoadbalancerConfigurationCreation';
+import { CloudProjectDataProcessingNotebookCapability } from '../models/CloudProjectDataProcessingNotebookCapability';
+import { CloudCredit } from '../models/CloudCredit';
+import { CloudProjectAiServingPresetImage } from '../models/CloudProjectAiServingPresetImage';
+import { CloudInstanceRescueAdminPassword } from '../models/CloudInstanceRescueAdminPassword';
+import { CloudStoragePresignedURL } from '../models/CloudStoragePresignedURL';
+import { CloudProjectDatabaseM3dbUser } from '../models/CloudProjectDatabaseM3dbUser';
+import { CloudProject } from '../models/CloudProject';
+import { CloudProjectAiCommand } from '../models/CloudProjectAiCommand';
+import { CloudProjectKubeIpRestrictionUpsert } from '../models/CloudProjectKubeIpRestrictionUpsert';
+import { CloudProjectDataProcessingAuthorizationStatus } from '../models/CloudProjectDataProcessingAuthorizationStatus';
+import { CloudAlertingDelayEnum } from '../models/CloudAlertingDelayEnum';
+import { CloudNetworkGatewayCreateInterface } from '../models/CloudNetworkGatewayCreateInterface';
+import { CloudProjectSubnet } from '../models/CloudProjectSubnet';
+import { CloudProjectDataProcessingNotebookNotebook } from '../models/CloudProjectDataProcessingNotebookNotebook';
+import { CloudStackStack } from '../models/CloudStackStack';
+import { CloudStoragePresignedURLInput } from '../models/CloudStoragePresignedURLInput';
+import { CloudProjectEligibilityInfo } from '../models/CloudProjectEligibilityInfo';
+import { CloudProjectUserRoleUpdate } from '../models/CloudProjectUserRoleUpdate';
+import { CloudProjectStorageUserCreation } from '../models/CloudProjectStorageUserCreation';
+import { CloudContainerRegistryRegistry } from '../models/CloudContainerRegistryRegistry';
+import { CloudProjectIoStreamTokenCreation } from '../models/CloudProjectIoStreamTokenCreation';
+import { CloudLoadbalancingUpdateHealthMonitor } from '../models/CloudLoadbalancingUpdateHealthMonitor';
+import { CloudStorageContainer } from '../models/CloudStorageContainer';
+import { CloudProjectDatabaseKafkaAcl } from '../models/CloudProjectDatabaseKafkaAcl';
+import { CloudNetworkGatewayInterface } from '../models/CloudNetworkGatewayInterface';
+import { CloudVolumeBackupVolumeBackup } from '../models/CloudVolumeBackupVolumeBackup';
+import { CloudProjectLoadbalancerConfiguration } from '../models/CloudProjectLoadbalancerConfiguration';
+import { CloudAuthenticationToken } from '../models/CloudAuthenticationToken';
+import { CloudProjectDatabaseTemporaryWriteDeadline } from '../models/CloudProjectDatabaseTemporaryWriteDeadline';
+import { CloudProjectAiNotebookFramework } from '../models/CloudProjectAiNotebookFramework';
+import { CloudProjectAiNotebookNotebookSpecInput } from '../models/CloudProjectAiNotebookNotebookSpecInput';
+import { CloudProjectAiCapabilitiesFeatures } from '../models/CloudProjectAiCapabilitiesFeatures';
+import { CloudProjectRegionQuotaCreation } from '../models/CloudProjectRegionQuotaCreation';
+import { CloudContainerRegistryUser } from '../models/CloudContainerRegistryUser';
+import { CloudProjectDatabaseServiceUserWithRolesCreation } from '../models/CloudProjectDatabaseServiceUserWithRolesCreation';
+import { CloudRegion } from '../models/CloudRegion';
+import { CloudProjectAiServingFlavor } from '../models/CloudProjectAiServingFlavor';
+import { CloudAlertingAlert } from '../models/CloudAlertingAlert';
+import { CloudRoleRoles } from '../models/CloudRoleRoles';
+import { CloudProjectDatabaseKafkaConnectConnectorCreation } from '../models/CloudProjectDatabaseKafkaConnectConnectorCreation';
+import { CloudLoadbalancingPoolCreate } from '../models/CloudLoadbalancingPoolCreate';
+import { CloudUsageUsageCurrent } from '../models/CloudUsageUsageCurrent';
+import { CloudProjectVolumeSnapshotCreation } from '../models/CloudProjectVolumeSnapshotCreation';
+import { CloudProjectDatabaseServiceReplication } from '../models/CloudProjectDatabaseServiceReplication';
+import { CloudProjectDataProcessingJobLogs } from '../models/CloudProjectDataProcessingJobLogs';
+import { CloudProjectDatabaseM3dbNamespaceCreation } from '../models/CloudProjectDatabaseM3dbNamespaceCreation';
+import { CloudLoadbalancingPoolMemberUpdate } from '../models/CloudLoadbalancingPoolMemberUpdate';
+import { CloudNetworkGateway } from '../models/CloudNetworkGateway';
+import { CloudProjectAiTokenToken } from '../models/CloudProjectAiTokenToken';
+import { CloudUsageUsageHistoryDetail } from '../models/CloudUsageUsageHistoryDetail';
+import { CloudProjectProductNameEnum } from '../models/CloudProjectProductNameEnum';
+import { CloudProjectLoadBalancerCreation } from '../models/CloudProjectLoadBalancerCreation';
+import { CloudNetworkCreateGateway } from '../models/CloudNetworkCreateGateway';
+import { CloudProjectVolumeUpsizeCreation } from '../models/CloudProjectVolumeUpsizeCreation';
+import { CloudBackup } from '../models/CloudBackup';
+import { CloudProjectNetwork } from '../models/CloudProjectNetwork';
+import { CloudProjectUserTokenCreation } from '../models/CloudProjectUserTokenCreation';
+import { CloudProjectDatabaseServiceRestore } from '../models/CloudProjectDatabaseServiceRestore';
+import { CloudProjectDatabaseRedisUserWithPassword } from '../models/CloudProjectDatabaseRedisUserWithPassword';
+import { CloudProjectKubeUpdatePolicyUpdate } from '../models/CloudProjectKubeUpdatePolicyUpdate';
+import { CloudUserRCloneServiceEnum } from '../models/CloudUserRCloneServiceEnum';
+import { CloudProjectDatabaseKafkaUserAccess } from '../models/CloudProjectDatabaseKafkaUserAccess';
+import { CloudProjectDatabasePostgresqlQueryStatistics } from '../models/CloudProjectDatabasePostgresqlQueryStatistics';
+import { CloudProjectDatabaseServiceLogEntry } from '../models/CloudProjectDatabaseServiceLogEntry';
+import { CloudProjectDatabaseKafkaConnectConnectorTask } from '../models/CloudProjectDatabaseKafkaConnectConnectorTask';
+import { CloudProjectAiNotebookBackup } from '../models/CloudProjectAiNotebookBackup';
+import { CloudProjectAiJobJobSpecInput } from '../models/CloudProjectAiJobJobSpecInput';
+import { CloudKubeKubeconfig } from '../models/CloudKubeKubeconfig';
+import { CloudStorageContainerCreation } from '../models/CloudStorageContainerCreation';
+import { CloudProjectDatabaseServiceMaintenance } from '../models/CloudProjectDatabaseServiceMaintenance';
+import { CloudForecastProjectForecast } from '../models/CloudForecastProjectForecast';
+import { CloudProjectAiRegistryRegistry } from '../models/CloudProjectAiRegistryRegistry';
+import { ServicesService } from '../models/ServicesService';
+import { CloudProjectDatabaseOpensearchUserCreation } from '../models/CloudProjectDatabaseOpensearchUserCreation';
+import { CloudStorageContainerDetail } from '../models/CloudStorageContainerDetail';
+import { CloudProjectInstanceBulkCreation } from '../models/CloudProjectInstanceBulkCreation';
+import { CloudKubeOpenIdConnect } from '../models/CloudKubeOpenIdConnect';
+import { CloudProjectDatabaseRedisUser } from '../models/CloudProjectDatabaseRedisUser';
+import { CloudProjectAiNotebookNotebook } from '../models/CloudProjectAiNotebookNotebook';
+import { CloudImageOSTypeEnum } from '../models/CloudImageOSTypeEnum';
+import { CloudInstanceApplicationAccess } from '../models/CloudInstanceApplicationAccess';
+import { CloudNetworkSubnet } from '../models/CloudNetworkSubnet';
+import { CloudProjectDatabaseKafkaConnectConnector } from '../models/CloudProjectDatabaseKafkaConnectConnector';
+import { CloudProjectKubeNodePoolCreation } from '../models/CloudProjectKubeNodePoolCreation';
+import { CloudProjectDatabaseCapabilities } from '../models/CloudProjectDatabaseCapabilities';
+import { CloudProjectInstanceGroupCreation } from '../models/CloudProjectInstanceGroupCreation';
+import { CloudProjectAiAppAppSpecInput } from '../models/CloudProjectAiAppAppSpecInput';
+import { CloudInstanceInstance } from '../models/CloudInstanceInstance';
+import { CloudProjectAiVolumeDataSyncSpec } from '../models/CloudProjectAiVolumeDataSyncSpec';
+import { CloudNetworkUpdateGateway } from '../models/CloudNetworkUpdateGateway';
+import { CloudProjectDatabaseServiceMetricPeriodEnum } from '../models/CloudProjectDatabaseServiceMetricPeriodEnum';
+import { CloudProjectDatabaseKafkaConnectCapabilitiesConnector } from '../models/CloudProjectDatabaseKafkaConnectCapabilitiesConnector';
+import { CloudProjectDatabaseAvailability } from '../models/CloudProjectDatabaseAvailability';
+import { CloudProjectAiServingMetrics } from '../models/CloudProjectAiServingMetrics';
+import { CloudProjectDatabaseOpensearchIndex } from '../models/CloudProjectDatabaseOpensearchIndex';
+import { CloudProjectDataProcessingCapability } from '../models/CloudProjectDataProcessingCapability';
+import { CloudProjectInstanceSnapshotCreation } from '../models/CloudProjectInstanceSnapshotCreation';
+import { CloudQuotaStorageQuotaUpdate } from '../models/CloudQuotaStorageQuotaUpdate';
+import { CloudProjectDatabaseServiceUser } from '../models/CloudProjectDatabaseServiceUser';
+import { CloudVolumeBackupVolumeBackupRestore } from '../models/CloudVolumeBackupVolumeBackupRestore';
+import { CloudProjectAiServingModelDefinition } from '../models/CloudProjectAiServingModelDefinition';
+import { CloudLoadbalancingCreateFloatingIp } from '../models/CloudLoadbalancingCreateFloatingIp';
+import { CloudInstanceMetricsPeriodEnum } from '../models/CloudInstanceMetricsPeriodEnum';
+import { CloudProjectDatabaseServiceCertificates } from '../models/CloudProjectDatabaseServiceCertificates';
+import { CloudProjectKubeOpenIdConnectCreation } from '../models/CloudProjectKubeOpenIdConnectCreation';
+import { CloudFlavorFlavor } from '../models/CloudFlavorFlavor';
+import { CloudProjectStoragePublicUrlCreation } from '../models/CloudProjectStoragePublicUrlCreation';
+import { CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum } from '../models/CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum';
+import { CloudProjectNewProjectInfo } from '../models/CloudProjectNewProjectInfo';
+import { CloudLoadbalancingPoolUpdate } from '../models/CloudLoadbalancingPoolUpdate';
+import { CloudUserRclone } from '../models/CloudUserRclone';
+import { CloudLoadbalancingFlavor } from '../models/CloudLoadbalancingFlavor';
+import { CloudLoadbalancingLoadbalancerCreate } from '../models/CloudLoadbalancingLoadbalancerCreate';
+import { CloudProjectDatabaseServiceCurrentQueries } from '../models/CloudProjectDatabaseServiceCurrentQueries';
+import { CloudLoadbalancingHealthMonitor } from '../models/CloudLoadbalancingHealthMonitor';
+import { CloudQuotaQuotas } from '../models/CloudQuotaQuotas';
+import { CloudProjectIoStreamSubscriptionCreation } from '../models/CloudProjectIoStreamSubscriptionCreation';
+import { CloudUserUserDetail } from '../models/CloudUserUserDetail';
+import { CloudProjectAiServingRegistry } from '../models/CloudProjectAiServingRegistry';
+import { CloudLoadbalancingL7Policy } from '../models/CloudLoadbalancingL7Policy';
+import { CloudVolumeVolume } from '../models/CloudVolumeVolume';
+import { CloudProjectAiServingModel } from '../models/CloudProjectAiServingModel';
+import { CloudProjectDatabaseIpRestrictionCreation } from '../models/CloudProjectDatabaseIpRestrictionCreation';
+import { CloudNetworkCreateNetwork } from '../models/CloudNetworkCreateNetwork';
+import { CloudStorageContainerAccess } from '../models/CloudStorageContainerAccess';
+import { CloudKubeNode } from '../models/CloudKubeNode';
+import { CloudProjectDatabaseCapabilitiesIntegration } from '../models/CloudProjectDatabaseCapabilitiesIntegration';
+import { CloudOrderOrder } from '../models/CloudOrderOrder';
+import { CloudCapabilitiesAvailability } from '../models/CloudCapabilitiesAvailability';
+import { CloudProjectAiAppApp } from '../models/CloudProjectAiAppApp';
+import { CloudProjectDatabaseServiceReplicationCreation } from '../models/CloudProjectDatabaseServiceReplicationCreation';
+import { CloudVrack } from '../models/CloudVrack';
+import { CloudLoadbalancingListener } from '../models/CloudLoadbalancingListener';
+import { CloudProjectMigrationUpdate } from '../models/CloudProjectMigrationUpdate';
+import { CloudInstanceInstanceMetrics } from '../models/CloudInstanceInstanceMetrics';
+import { CloudQuotaAllowedQuota } from '../models/CloudQuotaAllowedQuota';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { CloudVolumeBackupVolumeCreationFromBackup } from '../models/CloudVolumeBackupVolumeCreationFromBackup';
+import { CloudProjectProductAgreements } from '../models/CloudProjectProductAgreements';
+import { CloudKeymanagerCertificate } from '../models/CloudKeymanagerCertificate';
+import { CloudProjectDatabaseRedisUserCreation } from '../models/CloudProjectDatabaseRedisUserCreation';
+import { CloudProjectAiNotebookEditor } from '../models/CloudProjectAiNotebookEditor';
+import { CloudProjectAiAppAppImageInput } from '../models/CloudProjectAiAppAppImageInput';
+import { CloudProjectAiNotebookNotebookUpdate } from '../models/CloudProjectAiNotebookNotebookUpdate';
+import { CloudProjectBill } from '../models/CloudProjectBill';
+import { CloudKubeEtcdUsage } from '../models/CloudKubeEtcdUsage';
+import { CloudProjectDataProcessingMetrics } from '../models/CloudProjectDataProcessingMetrics';
+import { CloudProjectAiServingRegistryResponse } from '../models/CloudProjectAiServingRegistryResponse';
+import { CloudProjectDatabaseOpensearchPermissions } from '../models/CloudProjectDatabaseOpensearchPermissions';
+import { CloudLoadbalancingPool } from '../models/CloudLoadbalancingPool';
+import { CloudVolumeSnapshot } from '../models/CloudVolumeSnapshot';
+import { CloudProjectDatabaseOpensearchUserWithPassword } from '../models/CloudProjectDatabaseOpensearchUserWithPassword';
+import { CloudProjectAiServingToken } from '../models/CloudProjectAiServingToken';
+import { CloudProjectIoStreamRegion } from '../models/CloudProjectIoStreamRegion';
+import { CloudProjectIoStreamCreation } from '../models/CloudProjectIoStreamCreation';
+import { CloudProjectContainerRegistryUsersCreation } from '../models/CloudProjectContainerRegistryUsersCreation';
+import { CloudProjectIoStreamSubscription } from '../models/CloudProjectIoStreamSubscription';
+import { CloudProjectAiCapabilitiesProjectQuotas } from '../models/CloudProjectAiCapabilitiesProjectQuotas';
+import { CloudProjectDatabaseKafkaConnectCapabilitiesConnectorTransform } from '../models/CloudProjectDatabaseKafkaConnectCapabilitiesConnectorTransform';
+import { CloudProjectDatabaseKafkaService } from '../models/CloudProjectDatabaseKafkaService';
+import { CloudLoadbalancingCreateListener } from '../models/CloudLoadbalancingCreateListener';
+import { CloudUsageUsageForecast } from '../models/CloudUsageUsageForecast';
+import { CloudProjectLoadBalancer } from '../models/CloudProjectLoadBalancer';
+import { CloudProjectInstanceCreation } from '../models/CloudProjectInstanceCreation';
+import { CloudProjectInstanceResizeCreation } from '../models/CloudProjectInstanceResizeCreation';
+import { CloudProjectDatabaseServiceCreation } from '../models/CloudProjectDatabaseServiceCreation';
+import { CloudProjectAiServingFeatures } from '../models/CloudProjectAiServingFeatures';
+import { CloudProjectNewProject } from '../models/CloudProjectNewProject';
+import { CloudProjectIoStreamSubscriptionStats } from '../models/CloudProjectIoStreamSubscriptionStats';
+import { CloudColdArchiveContainer } from '../models/CloudColdArchiveContainer';
+import { CloudProjectNetworkPrivateRegionCreation } from '../models/CloudProjectNetworkPrivateRegionCreation';
+import { CloudStorageQuota } from '../models/CloudStorageQuota';
+import { CloudProjectNetworkPrivateCreation } from '../models/CloudProjectNetworkPrivateCreation';
+import { CloudProjectFloatingIp } from '../models/CloudProjectFloatingIp';
+import { CloudProjectDatabaseOpensearchService } from '../models/CloudProjectDatabaseOpensearchService';
+import { CloudKubeCluster } from '../models/CloudKubeCluster';
+import { CloudProjectUserCreation } from '../models/CloudProjectUserCreation';
+import { CloudProjectAiJobJob } from '../models/CloudProjectAiJobJob';
+import { CloudProjectAiServingNamespaceCreation } from '../models/CloudProjectAiServingNamespaceCreation';
+import { CloudKubeRegionEnum } from '../models/CloudKubeRegionEnum';
+import { CloudUserUser } from '../models/CloudUserUser';
+import { CloudProjectKubeCreation } from '../models/CloudProjectKubeCreation';
+import { CloudKubeAuditLogs } from '../models/CloudKubeAuditLogs';
+import { CloudIpCloudIp } from '../models/CloudIpCloudIp';
+import { CloudProjectDataProcessingNotebookNotebookSpec } from '../models/CloudProjectDataProcessingNotebookNotebookSpec';
+import { CloudProjectAiAuthorizationStatus } from '../models/CloudProjectAiAuthorizationStatus';
+import { CloudInstanceInstanceDetail } from '../models/CloudInstanceInstanceDetail';
+import { CloudKubeNodePool } from '../models/CloudKubeNodePool';
+import { CloudProjectProjectUsage } from '../models/CloudProjectProjectUsage';
+import { CloudProjectDatabasePostgresqlConnectionPoolCreation } from '../models/CloudProjectDatabasePostgresqlConnectionPoolCreation';
+import { CloudLoadbalancingL7Rule } from '../models/CloudLoadbalancingL7Rule';
+import { CloudProjectVolumeAttachCreation } from '../models/CloudProjectVolumeAttachCreation';
+import { CloudProjectAiNotebookNotebookStateEnum } from '../models/CloudProjectAiNotebookNotebookStateEnum';
+import { CloudLoadbalancingLoadBalancer } from '../models/CloudLoadbalancingLoadBalancer';
+import { CloudProjectKubeNodePoolUpdate } from '../models/CloudProjectKubeNodePoolUpdate';
+import { CloudAvailableRegion } from '../models/CloudAvailableRegion';
+import { CloudProjectStorageUpdate } from '../models/CloudProjectStorageUpdate';
+import { CloudProjectDatabaseServiceNode } from '../models/CloudProjectDatabaseServiceNode';
+import { CloudProjectAiCapabilitiesRegion } from '../models/CloudProjectAiCapabilitiesRegion';
+import { CloudKeymanagerCertificateCreate } from '../models/CloudKeymanagerCertificateCreate';
+import { CloudProjectVolumeUpdate } from '../models/CloudProjectVolumeUpdate';
+import { CloudProjectAiRegistryRegistryUpdateInput } from '../models/CloudProjectAiRegistryRegistryUpdateInput';
+import { CloudProjectDatabaseServiceCurrentqueriesQueryCancelRequest } from '../models/CloudProjectDatabaseServiceCurrentqueriesQueryCancelRequest';
+import { CloudProjectDatabaseServiceBackup } from '../models/CloudProjectDatabaseServiceBackup';
+import { CloudKubeFlavor } from '../models/CloudKubeFlavor';
+import { CloudProjectIpFailoverAttachCreation } from '../models/CloudProjectIpFailoverAttachCreation';
+import { CloudProjectSshkeyCreation } from '../models/CloudProjectSshkeyCreation';
+import { CloudProjectAiServingFramework } from '../models/CloudProjectAiServingFramework';
+import { CloudProjectDatabaseM3dbNamespace } from '../models/CloudProjectDatabaseM3dbNamespace';
+import { CloudSshkeySshKeyDetail } from '../models/CloudSshkeySshKeyDetail';
+import { CloudProjectDatabaseServiceDatabase } from '../models/CloudProjectDatabaseServiceDatabase';
+import { CloudNetworkNetwork } from '../models/CloudNetworkNetwork';
+import { CloudProjectNetworkPrivateSubnetCreation } from '../models/CloudProjectNetworkPrivateSubnetCreation';
+import { CloudKeymanagerSecret } from '../models/CloudKeymanagerSecret';
+import { CloudProjectDataProcessingJob } from '../models/CloudProjectDataProcessingJob';
+import { CloudProjectAiJobPresetImage } from '../models/CloudProjectAiJobPresetImage';
+import { CloudProjectIoStreamToken } from '../models/CloudProjectIoStreamToken';
+import { CloudProjectAiAppScalingStrategyInput } from '../models/CloudProjectAiAppScalingStrategyInput';
+import { CloudProjectAiCapabilitiesFlavor } from '../models/CloudProjectAiCapabilitiesFlavor';
+import { CloudAcl } from '../models/CloudAcl';
+import { CloudProjectDatabaseServiceUserWithPasswordAndRoles } from '../models/CloudProjectDatabaseServiceUserWithPasswordAndRoles';
+import { CloudProjectLoadbalancerRegion } from '../models/CloudProjectLoadbalancerRegion';
+import { CloudProjectContainerRegistryUpdate } from '../models/CloudProjectContainerRegistryUpdate';
+import { CloudNetworkCreateGatewaySummary } from '../models/CloudNetworkCreateGatewaySummary';
+import { CloudProjectDatabaseKafkaTopicCreation } from '../models/CloudProjectDatabaseKafkaTopicCreation';
+import { CloudInstanceCreateFloatingIp } from '../models/CloudInstanceCreateFloatingIp';
+import { CloudUserOpenrcVersionEnum } from '../models/CloudUserOpenrcVersionEnum';
+import { CloudProjectDatabaseKafkaTopic } from '../models/CloudProjectDatabaseKafkaTopic';
+import { CloudKubePrivateNetworkConfiguration } from '../models/CloudKubePrivateNetworkConfiguration';
+import { CloudUsageUsageHistory } from '../models/CloudUsageUsageHistory';
+import { CloudProjectAiTokenTokenSpec } from '../models/CloudProjectAiTokenTokenSpec';
+import { CloudProjectRegionCreation } from '../models/CloudProjectRegionCreation';
+import { CloudProjectDatabaseServiceNodeCreation } from '../models/CloudProjectDatabaseServiceNodeCreation';
+import { CloudLoadbalancingPoolMember } from '../models/CloudLoadbalancingPoolMember';
+import { CloudKubeResponseMessage } from '../models/CloudKubeResponseMessage';
+import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
+import { CloudProjectInstanceUpdate } from '../models/CloudProjectInstanceUpdate';
+import { CloudProjectKubeResetCreation } from '../models/CloudProjectKubeResetCreation';
+import { CloudProjectRegionWorkflowBackupCreation } from '../models/CloudProjectRegionWorkflowBackupCreation';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { CloudUserOpenrc } from '../models/CloudUserOpenrc';
+import { CloudProjectDatabaseServiceUserWithPassword } from '../models/CloudProjectDatabaseServiceUserWithPassword';
+import { CloudProjectAiServingNamespace } from '../models/CloudProjectAiServingNamespace';
+import { CloudInstanceAssociateFloatingIp } from '../models/CloudInstanceAssociateFloatingIp';
+import { CloudImageImage } from '../models/CloudImageImage';
+import { CloudProjectDatabaseOpensearchPattern } from '../models/CloudProjectDatabaseOpensearchPattern';
+import { CloudProjectAiJobJobStateEnum } from '../models/CloudProjectAiJobJobStateEnum';
+import { CloudInstanceInstanceVnc } from '../models/CloudInstanceInstanceVnc';
+import { CloudQuotaStorageQuota } from '../models/CloudQuotaStorageQuota';
+import { CloudStoragePolicyRaw } from '../models/CloudStoragePolicyRaw';
+import { CloudOrderRuleInstanceCategories } from '../models/CloudOrderRuleInstanceCategories';
+import { CloudProjectAiLabel } from '../models/CloudProjectAiLabel';
+import { CloudProjectDatabaseServiceMetric } from '../models/CloudProjectDatabaseServiceMetric';
+import { CloudProjectDatabaseServiceCurrentqueriesQueryCancelResponse } from '../models/CloudProjectDatabaseServiceCurrentqueriesQueryCancelResponse';
+import { CloudContainerRegistryCapability } from '../models/CloudContainerRegistryCapability';
+import { CloudProjectDatabaseService } from '../models/CloudProjectDatabaseService';
 import OVHBase from '../ovh';
 
 class CloudHandler {
@@ -346,12 +346,12 @@ class CloudHandler {
   };
 
   /** Check your eligibility to create a Public Cloud order */
-  getEligibility = (): Promise<CloudProjectEligibilityInfo> => {
+  checkEligibility = (): Promise<CloudProjectEligibilityInfo> => {
     return this.ovh.request('GET', '/cloud/eligibility');
   };
 
   /** Get all cloud pending orders */
-  getOrder = (): Promise<CloudOrderOrder> => {
+  getOrder = (): Promise<CloudOrderOrder[]> => {
     return this.ovh.request('GET', '/cloud/order');
   };
 
@@ -371,27 +371,27 @@ class CloudHandler {
   };
 
   /** List available services */
-  getProject = (): Promise<string> => {
+  listProjects = (): Promise<string[]> => {
     return this.ovh.request('GET', '/cloud/project');
   };
 
   /** Get this object properties */
-  getProjectServiceName = (serviceName: string): Promise<CloudProject> => {
+  getProjectByServiceName = (serviceName: string): Promise<CloudProject> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putProjectServiceName = (serviceName: string, body: CloudProject): Promise<void> => {
+  updateProjectByServiceName = (serviceName: string, body: CloudProject): Promise<void> => {
     return this.ovh.request('PUT', `/cloud/project/${serviceName}`, body);
   };
 
   /** Get ACL on your cloud project */
-  getProjectServiceNameAcl = (serviceName: string): Promise<string> => {
+  getProjectAclByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/acl`);
   };
 
   /** Create new ACL */
-  postProjectServiceNameAcl = (
+  createProjectAclByServiceName = (
     serviceName: string,
     body: { accountId: string; type: CloudAclTypeEnum }
   ): Promise<CloudAcl> => {
@@ -399,7 +399,7 @@ class CloudHandler {
   };
 
   /** Delete ACL */
-  deleteProjectServiceNameAclAccountId = (
+  deleteProjectAclByServiceNameAndAccountId = (
     accountId: string,
     serviceName: string
   ): Promise<void> => {
@@ -407,7 +407,7 @@ class CloudHandler {
   };
 
   /** Get this object properties */
-  getProjectServiceNameAclAccountId = (
+  getProjectAclByServiceNameAndAccountId = (
     accountId: string,
     serviceName: string
   ): Promise<CloudAcl> => {
@@ -415,20 +415,20 @@ class CloudHandler {
   };
 
   /** Activate monthly billing on multiple instances */
-  postProjectServiceNameActivateMonthlyBilling = (
+  postProjectActivateMonthlyBillingByServiceName = (
     serviceName: string,
     body: CloudProjectActivateMonthlyBillingCreation
-  ): Promise<CloudInstanceInstanceDetail> => {
+  ): Promise<CloudInstanceInstanceDetail[]> => {
     return this.ovh.request('POST', `/cloud/project/${serviceName}/activateMonthlyBilling`, body);
   };
 
   /** List apps */
-  getProjectServiceNameAiApp = (serviceName: string): Promise<CloudProjectAiAppApp> => {
+  listProjectAiAppsByServiceName = (serviceName: string): Promise<CloudProjectAiAppApp[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/app`);
   };
 
   /** Create a new app */
-  postProjectServiceNameAiApp = (
+  createProjectAiAppByServiceName = (
     serviceName: string,
     body: CloudProjectAiAppAppSpecInput
   ): Promise<CloudProjectAiAppApp> => {
@@ -436,7 +436,7 @@ class CloudHandler {
   };
 
   /** Generate an app spec corresponding CLI command */
-  postProjectServiceNameAiAppCommand = (
+  postProjectAiAppCommandByServiceName = (
     serviceName: string,
     body: CloudProjectAiAppAppSpecInput
   ): Promise<CloudProjectAiCommand> => {
@@ -444,12 +444,12 @@ class CloudHandler {
   };
 
   /** Delete an app */
-  deleteProjectServiceNameAiAppAppId = (appId: string, serviceName: string): Promise<void> => {
+  deleteProjectAiAppByServiceNameAndAppId = (appId: string, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/cloud/project/${serviceName}/ai/app/${appId}`);
   };
 
   /** Get app information */
-  getProjectServiceNameAiAppAppId = (
+  getProjectAiAppByServiceNameAndAppId = (
     appId: string,
     serviceName: string
   ): Promise<CloudProjectAiAppApp> => {
@@ -457,7 +457,7 @@ class CloudHandler {
   };
 
   /** Starts a manual data synchronization on an app */
-  postProjectServiceNameAiAppAppIdDatasync = (
+  postProjectAiAppDatasyncByServiceNameAndAppId = (
     appId: string,
     serviceName: string,
     body: CloudProjectAiVolumeDataSyncSpec
@@ -466,7 +466,7 @@ class CloudHandler {
   };
 
   /** Set the Docker image of an AI app */
-  putProjectServiceNameAiAppAppIdImage = (
+  putProjectAiAppImageByServiceNameAndAppId = (
     appId: string,
     serviceName: string,
     body: CloudProjectAiAppAppImageInput
@@ -475,7 +475,7 @@ class CloudHandler {
   };
 
   /** Update/add an AI Solutions app label */
-  putProjectServiceNameAiAppAppIdLabel = (
+  updateProjectAiAppLabelByServiceNameAndAppId = (
     appId: string,
     serviceName: string,
     body: CloudProjectAiLabel
@@ -484,7 +484,7 @@ class CloudHandler {
   };
 
   /** Get the logs of an app */
-  getProjectServiceNameAiAppAppIdLog = (
+  getProjectAiAppLogByServiceNameAndAppId = (
     appId: string,
     serviceName: string
   ): Promise<CloudProjectAiLogs> => {
@@ -492,7 +492,7 @@ class CloudHandler {
   };
 
   /** Scale a App */
-  putProjectServiceNameAiAppAppIdScalingstrategy = (
+  putProjectAiAppScalingstrategyByServiceNameAndAppId = (
     appId: string,
     serviceName: string,
     body: CloudProjectAiAppScalingStrategyInput
@@ -505,50 +505,56 @@ class CloudHandler {
   };
 
   /** Start an existing AI Solutions app */
-  putProjectServiceNameAiAppAppIdStart = (appId: string, serviceName: string): Promise<void> => {
+  putProjectAiAppStartByServiceNameAndAppId = (
+    appId: string,
+    serviceName: string
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/cloud/project/${serviceName}/ai/app/${appId}/start`);
   };
 
   /** Stop an AI Solutions app */
-  putProjectServiceNameAiAppAppIdStop = (appId: string, serviceName: string): Promise<void> => {
+  putProjectAiAppStopByServiceNameAndAppId = (
+    appId: string,
+    serviceName: string
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/cloud/project/${serviceName}/ai/app/${appId}/stop`);
   };
 
   /** Get authorization status */
-  getProjectServiceNameAiAuthorization = (
+  getProjectAiAuthorizationByServiceName = (
     serviceName: string
   ): Promise<CloudProjectAiAuthorizationStatus> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/authorization`);
   };
 
   /** Authorization of AI Solutions service by allowing access to your object storage containers */
-  postProjectServiceNameAiAuthorization = (serviceName: string): Promise<void> => {
+  postProjectAiAuthorizationByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/cloud/project/${serviceName}/ai/authorization`);
   };
 
   /** List AI Solutions available features */
-  getProjectServiceNameAiCapabilitiesFeature = (
+  listProjectAiCapabilitiesFeaturesByServiceName = (
     serviceName: string
   ): Promise<CloudProjectAiCapabilitiesFeatures> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/capabilities/feature`);
   };
 
   /** List AI Solutions available quotas */
-  getProjectServiceNameAiCapabilitiesQuota = (
+  listProjectAiCapabilitiesQuotasByServiceName = (
     serviceName: string
   ): Promise<CloudProjectAiCapabilitiesProjectQuotas> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/capabilities/quota`);
   };
 
   /** List Region */
-  getProjectServiceNameAiCapabilitiesRegion = (
+  listProjectAiCapabilitiesRegionsByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectAiCapabilitiesRegion> => {
+  ): Promise<CloudProjectAiCapabilitiesRegion[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/capabilities/region`);
   };
 
   /** Get Region Information */
-  getProjectServiceNameAiCapabilitiesRegionRegion = (
+  getProjectAiCapabilitiesRegionByServiceNameAndRegion = (
     region: string,
     serviceName: string
   ): Promise<CloudProjectAiCapabilitiesRegion> => {
@@ -559,10 +565,10 @@ class CloudHandler {
   };
 
   /** Get Available data regions Information */
-  getProjectServiceNameAiCapabilitiesRegionRegionDataRegion = (
+  getProjectAiCapabilitiesRegionDataRegionByServiceNameAndRegion = (
     region: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/ai/capabilities/region/${region}/data/region`
@@ -570,10 +576,10 @@ class CloudHandler {
   };
 
   /** List Flavors */
-  getProjectServiceNameAiCapabilitiesRegionRegionFlavor = (
+  listProjectAiCapabilitiesRegionFlavorsByServiceNameAndRegion = (
     region: string,
     serviceName: string
-  ): Promise<CloudProjectAiCapabilitiesFlavor> => {
+  ): Promise<CloudProjectAiCapabilitiesFlavor[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/ai/capabilities/region/${region}/flavor`
@@ -581,7 +587,7 @@ class CloudHandler {
   };
 
   /** Get Flavor Information */
-  getProjectServiceNameAiCapabilitiesRegionRegionFlavorFlavorId = (
+  getProjectAiCapabilitiesRegionFlavorByServiceNameAndRegionAndFlavorId = (
     flavorId: string,
     region: string,
     serviceName: string
@@ -593,10 +599,10 @@ class CloudHandler {
   };
 
   /** List Presets */
-  getProjectServiceNameAiCapabilitiesRegionRegionPreset = (
+  listProjectAiCapabilitiesRegionPresetsByServiceNameAndRegion = (
     region: string,
     serviceName: string
-  ): Promise<CloudProjectAiCapabilitiesPreset> => {
+  ): Promise<CloudProjectAiCapabilitiesPreset[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/ai/capabilities/region/${region}/preset`
@@ -604,7 +610,7 @@ class CloudHandler {
   };
 
   /** Get Preset Information */
-  getProjectServiceNameAiCapabilitiesRegionRegionPresetPresetId = (
+  getProjectAiCapabilitiesRegionPresetByServiceNameAndRegionAndPresetId = (
     presetId: string,
     region: string,
     serviceName: string
@@ -616,30 +622,30 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - List Serving Engine available backends */
-  getProjectServiceNameAiCapabilitiesServingBackend = (
+  getProjectAiCapabilitiesServingBackendByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectAiServingBackend> => {
+  ): Promise<CloudProjectAiServingBackend[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/capabilities/serving/backend`);
   };
 
   /** Deprecated - ML Serving is End Of Life - List Serving Engine Features */
-  getProjectServiceNameAiCapabilitiesServingFeature = (
+  getProjectAiCapabilitiesServingFeatureByServiceName = (
     serviceName: string
   ): Promise<CloudProjectAiServingFeatures> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/capabilities/serving/feature`);
   };
 
   /** Deprecated - ML Serving is End Of Life - List Serving Engine available flavor */
-  getProjectServiceNameAiCapabilitiesServingFlavor = (
+  getProjectAiCapabilitiesServingFlavorByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectAiServingFlavor> => {
+  ): Promise<CloudProjectAiServingFlavor[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/capabilities/serving/flavor`);
   };
 
   /** Deprecated - ML Serving is End Of Life - List Serving Engine available frameworks */
-  getProjectServiceNameAiCapabilitiesServingFramework = (
+  getProjectAiCapabilitiesServingFrameworkByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectAiServingFramework> => {
+  ): Promise<CloudProjectAiServingFramework[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/ai/capabilities/serving/framework`
@@ -647,9 +653,9 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - List Serving Engine Preset Model Images */
-  getProjectServiceNameAiCapabilitiesServingPresetImage = (
+  getProjectAiCapabilitiesServingPresetImageByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectAiServingPresetImage> => {
+  ): Promise<CloudProjectAiServingPresetImage[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/ai/capabilities/serving/presetImage`
@@ -657,17 +663,17 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - List Serving Engine available regions */
-  getProjectServiceNameAiCapabilitiesServingRegion = (serviceName: string): Promise<string> => {
+  getProjectAiCapabilitiesServingRegionByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/capabilities/serving/region`);
   };
 
   /** List jobs */
-  getProjectServiceNameAiJob = (serviceName: string): Promise<CloudProjectAiJobJob> => {
+  listProjectAiJobsByServiceName = (serviceName: string): Promise<CloudProjectAiJobJob[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/job`);
   };
 
   /** Create a new job */
-  postProjectServiceNameAiJob = (
+  createProjectAiJobByServiceName = (
     serviceName: string,
     body: CloudProjectAiJobJobSpecInput
   ): Promise<CloudProjectAiJobJob> => {
@@ -675,14 +681,14 @@ class CloudHandler {
   };
 
   /** List AI Solutions Preset Model Images */
-  getProjectServiceNameAiJobCapabilitiesPresetImage = (
+  listProjectAiJobCapabilitiesPresetImagesByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectAiJobPresetImage> => {
+  ): Promise<CloudProjectAiJobPresetImage[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/job/capabilities/presetImage`);
   };
 
   /** Generate a job spec corresponding CLI command */
-  postProjectServiceNameAiJobCommand = (
+  postProjectAiJobCommandByServiceName = (
     serviceName: string,
     body: CloudProjectAiJobJobSpecInput
   ): Promise<CloudProjectAiCommand> => {
@@ -690,12 +696,12 @@ class CloudHandler {
   };
 
   /** Permanently delete a job */
-  deleteProjectServiceNameAiJobJobId = (jobId: string, serviceName: string): Promise<void> => {
+  deleteProjectAiJobByServiceNameAndJobId = (jobId: string, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/cloud/project/${serviceName}/ai/job/${jobId}`);
   };
 
   /** Get job information */
-  getProjectServiceNameAiJobJobId = (
+  getProjectAiJobByServiceNameAndJobId = (
     jobId: string,
     serviceName: string
   ): Promise<CloudProjectAiJobJob> => {
@@ -703,7 +709,7 @@ class CloudHandler {
   };
 
   /** Starts a manual data synchronization on an AI Solutions job */
-  postProjectServiceNameAiJobJobIdDatasync = (
+  postProjectAiJobDatasyncByServiceNameAndJobId = (
     jobId: string,
     serviceName: string,
     body: CloudProjectAiVolumeDataSyncSpec
@@ -712,12 +718,15 @@ class CloudHandler {
   };
 
   /** Kill a AI Solutions job */
-  putProjectServiceNameAiJobJobIdKill = (jobId: string, serviceName: string): Promise<void> => {
+  putProjectAiJobKillByServiceNameAndJobId = (
+    jobId: string,
+    serviceName: string
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/cloud/project/${serviceName}/ai/job/${jobId}/kill`);
   };
 
   /** Update/add an AI Solutions job label */
-  putProjectServiceNameAiJobJobIdLabel = (
+  updateProjectAiJobLabelByServiceNameAndJobId = (
     jobId: string,
     serviceName: string,
     body: CloudProjectAiLabel
@@ -726,7 +735,7 @@ class CloudHandler {
   };
 
   /** Get the logs of a job */
-  getProjectServiceNameAiJobJobIdLog = (
+  getProjectAiJobLogByServiceNameAndJobId = (
     jobId: string,
     serviceName: string
   ): Promise<CloudProjectAiLogs> => {
@@ -734,14 +743,14 @@ class CloudHandler {
   };
 
   /** List notebooks */
-  getProjectServiceNameAiNotebook = (
+  listProjectAiNotebooksByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectAiNotebookNotebook> => {
+  ): Promise<CloudProjectAiNotebookNotebook[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/notebook`);
   };
 
   /** Create a new notebook */
-  postProjectServiceNameAiNotebook = (
+  createProjectAiNotebookByServiceName = (
     serviceName: string,
     body: CloudProjectAiNotebookNotebookSpecInput
   ): Promise<CloudProjectAiNotebookNotebook> => {
@@ -749,16 +758,16 @@ class CloudHandler {
   };
 
   /** List AI Solutions Notebook available code editors */
-  getProjectServiceNameAiNotebookCapabilitiesEditor = (
+  listProjectAiNotebookCapabilitiesEditorsByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectAiNotebookEditor> => {
+  ): Promise<CloudProjectAiNotebookEditor[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/notebook/capabilities/editor`);
   };
 
   /** List AI Solutions Notebook available frameworks */
-  getProjectServiceNameAiNotebookCapabilitiesFramework = (
+  listProjectAiNotebookCapabilitiesFrameworksByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectAiNotebookFramework> => {
+  ): Promise<CloudProjectAiNotebookFramework[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/ai/notebook/capabilities/framework`
@@ -766,7 +775,7 @@ class CloudHandler {
   };
 
   /** Generate a notebook spec corresponding CLI command */
-  postProjectServiceNameAiNotebookCommand = (
+  postProjectAiNotebookCommandByServiceName = (
     serviceName: string,
     body: CloudProjectAiNotebookNotebookSpecInput
   ): Promise<CloudProjectAiCommand> => {
@@ -774,7 +783,7 @@ class CloudHandler {
   };
 
   /** Delete a notebook */
-  deleteProjectServiceNameAiNotebookNotebookId = (
+  deleteProjectAiNotebookByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string
   ): Promise<void> => {
@@ -782,7 +791,7 @@ class CloudHandler {
   };
 
   /** Get notebook information */
-  getProjectServiceNameAiNotebookNotebookId = (
+  getProjectAiNotebookByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string
   ): Promise<CloudProjectAiNotebookNotebook> => {
@@ -790,7 +799,7 @@ class CloudHandler {
   };
 
   /** Update an existing notebook. Only labels update can be done while notebook is running. */
-  putProjectServiceNameAiNotebookNotebookId = (
+  updateProjectAiNotebookByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string,
     body: CloudProjectAiNotebookNotebookUpdate
@@ -799,10 +808,10 @@ class CloudHandler {
   };
 
   /** List all backups of an AI Solutions notebook */
-  getProjectServiceNameAiNotebookNotebookIdBackup = (
+  listProjectAiNotebookBackupsByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string
-  ): Promise<CloudProjectAiNotebookBackup> => {
+  ): Promise<CloudProjectAiNotebookBackup[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/ai/notebook/${notebookId}/backup`
@@ -810,7 +819,7 @@ class CloudHandler {
   };
 
   /** Get details for a single AI Solutions notebook backup */
-  getProjectServiceNameAiNotebookNotebookIdBackupBackupId = (
+  getProjectAiNotebookBackupByServiceNameAndNotebookIdAndBackupId = (
     backupId: string,
     notebookId: string,
     serviceName: string
@@ -822,7 +831,7 @@ class CloudHandler {
   };
 
   /** Starts a new AI Solutions notebook from a backup */
-  postProjectServiceNameAiNotebookNotebookIdBackupBackupIdFork = (
+  postProjectAiNotebookBackupForkByServiceNameAndNotebookIdAndBackupId = (
     backupId: string,
     notebookId: string,
     serviceName: string
@@ -834,7 +843,7 @@ class CloudHandler {
   };
 
   /** Starts a manual data synchronization on an AI Solutions notebook */
-  postProjectServiceNameAiNotebookNotebookIdDatasync = (
+  postProjectAiNotebookDatasyncByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string,
     body: CloudProjectAiVolumeDataSyncSpec
@@ -847,7 +856,7 @@ class CloudHandler {
   };
 
   /** Update/add an AI Solutions notebook label */
-  putProjectServiceNameAiNotebookNotebookIdLabel = (
+  updateProjectAiNotebookLabelByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string,
     body: CloudProjectAiLabel
@@ -860,7 +869,7 @@ class CloudHandler {
   };
 
   /** Get the logs of a notebook */
-  getProjectServiceNameAiNotebookNotebookIdLog = (
+  getProjectAiNotebookLogByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string
   ): Promise<CloudProjectAiLogs> => {
@@ -868,7 +877,7 @@ class CloudHandler {
   };
 
   /** Start an AI Solutions notebook */
-  putProjectServiceNameAiNotebookNotebookIdStart = (
+  putProjectAiNotebookStartByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string
   ): Promise<void> => {
@@ -876,7 +885,7 @@ class CloudHandler {
   };
 
   /** Stop an AI Solutions notebook */
-  putProjectServiceNameAiNotebookNotebookIdStop = (
+  putProjectAiNotebookStopByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string
   ): Promise<void> => {
@@ -884,14 +893,14 @@ class CloudHandler {
   };
 
   /** List Docker registries */
-  getProjectServiceNameAiRegistry = (
+  listProjectAiRegistrysByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectAiRegistryRegistry> => {
+  ): Promise<CloudProjectAiRegistryRegistry[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/registry`);
   };
 
   /** Create a Docker registry */
-  postProjectServiceNameAiRegistry = (
+  createProjectAiRegistryByServiceName = (
     serviceName: string,
     body: CloudProjectAiRegistryRegistry
   ): Promise<CloudProjectAiRegistryRegistry> => {
@@ -899,7 +908,7 @@ class CloudHandler {
   };
 
   /** Delete a Docker registry */
-  deleteProjectServiceNameAiRegistryRegistryId = (
+  deleteProjectAiRegistryByServiceNameAndRegistryId = (
     registryId: string,
     serviceName: string
   ): Promise<void> => {
@@ -907,7 +916,7 @@ class CloudHandler {
   };
 
   /** Get information about a Docker registry */
-  getProjectServiceNameAiRegistryRegistryId = (
+  getProjectAiRegistryByServiceNameAndRegistryId = (
     registryId: string,
     serviceName: string
   ): Promise<CloudProjectAiRegistryRegistry> => {
@@ -915,7 +924,7 @@ class CloudHandler {
   };
 
   /** Update a Docker registry */
-  putProjectServiceNameAiRegistryRegistryId = (
+  updateProjectAiRegistryByServiceNameAndRegistryId = (
     registryId: string,
     serviceName: string,
     body: CloudProjectAiRegistryRegistryUpdateInput
@@ -924,14 +933,14 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - List namespaces of the project */
-  getProjectServiceNameAiServing = (
+  getProjectAiServingByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectAiServingNamespace> => {
+  ): Promise<CloudProjectAiServingNamespace[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/serving`);
   };
 
   /** Deprecated - ML Serving is End Of Life - Create a new namespace */
-  postProjectServiceNameAiServing = (
+  postProjectAiServingByServiceName = (
     serviceName: string,
     body: CloudProjectAiServingNamespaceCreation
   ): Promise<CloudProjectAiServingNamespace> => {
@@ -939,7 +948,7 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - Delete a namespace */
-  deleteProjectServiceNameAiServingNamespaceId = (
+  deleteProjectAiServingByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string
   ): Promise<void> => {
@@ -947,7 +956,7 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - Get the namespace information */
-  getProjectServiceNameAiServingNamespaceId = (
+  getProjectAiServingByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string
   ): Promise<CloudProjectAiServingNamespace> => {
@@ -955,7 +964,7 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - Get metrics token and urls compatible with this token */
-  getProjectServiceNameAiServingNamespaceIdMetrics = (
+  getProjectAiServingMetricsByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string
   ): Promise<CloudProjectAiServingMetrics> => {
@@ -966,15 +975,15 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - List models */
-  getProjectServiceNameAiServingNamespaceIdModel = (
+  getProjectAiServingModelByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string
-  ): Promise<CloudProjectAiServingModel> => {
+  ): Promise<CloudProjectAiServingModel[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/serving/${namespaceId}/model`);
   };
 
   /** Deprecated - ML Serving is End Of Life - Create a new model */
-  postProjectServiceNameAiServingNamespaceIdModel = (
+  postProjectAiServingModelByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string,
     body: CloudProjectAiServingModelDefinition
@@ -987,7 +996,7 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - Delete a model */
-  deleteProjectServiceNameAiServingNamespaceIdModelModelId = (
+  deleteProjectAiServingModelByServiceNameAndNamespaceIdAndModelId = (
     modelId: string,
     namespaceId: string,
     serviceName: string
@@ -999,7 +1008,7 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - Get model information */
-  getProjectServiceNameAiServingNamespaceIdModelModelId = (
+  getProjectAiServingModelByServiceNameAndNamespaceIdAndModelId = (
     modelId: string,
     namespaceId: string,
     serviceName: string
@@ -1011,7 +1020,7 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - Update a model */
-  putProjectServiceNameAiServingNamespaceIdModelModelId = (
+  putProjectAiServingModelByServiceNameAndNamespaceIdAndModelId = (
     modelId: string,
     namespaceId: string,
     serviceName: string
@@ -1023,7 +1032,7 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - Detach the current registry */
-  deleteProjectServiceNameAiServingNamespaceIdRegistry = (
+  deleteProjectAiServingRegistryByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string
   ): Promise<void> => {
@@ -1034,7 +1043,7 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - Get registry information */
-  getProjectServiceNameAiServingNamespaceIdRegistry = (
+  getProjectAiServingRegistryByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string
   ): Promise<CloudProjectAiServingRegistry> => {
@@ -1045,7 +1054,7 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - Attach a docker registry */
-  postProjectServiceNameAiServingNamespaceIdRegistry = (
+  postProjectAiServingRegistryByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string,
     body: CloudProjectAiServingRegistry
@@ -1058,15 +1067,15 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - List tokens */
-  getProjectServiceNameAiServingNamespaceIdToken = (
+  getProjectAiServingTokenByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string
-  ): Promise<CloudProjectAiServingToken> => {
+  ): Promise<CloudProjectAiServingToken[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/serving/${namespaceId}/token`);
   };
 
   /** Deprecated - ML Serving is End Of Life - Create a new token */
-  postProjectServiceNameAiServingNamespaceIdToken = (
+  postProjectAiServingTokenByServiceNameAndNamespaceId = (
     namespaceId: string,
     serviceName: string,
     body: CloudProjectAiServingToken
@@ -1079,7 +1088,7 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - Delete a token */
-  deleteProjectServiceNameAiServingNamespaceIdTokenTokenId = (
+  deleteProjectAiServingTokenByServiceNameAndNamespaceIdAndTokenId = (
     namespaceId: string,
     serviceName: string,
     tokenId: string
@@ -1091,7 +1100,7 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - Get token information */
-  getProjectServiceNameAiServingNamespaceIdTokenTokenId = (
+  getProjectAiServingTokenByServiceNameAndNamespaceIdAndTokenId = (
     namespaceId: string,
     serviceName: string,
     tokenId: string
@@ -1103,7 +1112,7 @@ class CloudHandler {
   };
 
   /** Deprecated - ML Serving is End Of Life - Renew a new token */
-  putProjectServiceNameAiServingNamespaceIdTokenTokenId = (
+  putProjectAiServingTokenByServiceNameAndNamespaceIdAndTokenId = (
     namespaceId: string,
     serviceName: string,
     tokenId: string
@@ -1115,12 +1124,12 @@ class CloudHandler {
   };
 
   /** List application tokens */
-  getProjectServiceNameAiToken = (serviceName: string): Promise<CloudProjectAiTokenToken> => {
+  listProjectAiTokensByServiceName = (serviceName: string): Promise<CloudProjectAiTokenToken[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ai/token`);
   };
 
   /** Create a new application token */
-  postProjectServiceNameAiToken = (
+  createProjectAiTokenByServiceName = (
     serviceName: string,
     body: CloudProjectAiTokenTokenSpec
   ): Promise<CloudProjectAiTokenToken> => {
@@ -1128,12 +1137,12 @@ class CloudHandler {
   };
 
   /** Delete this application token */
-  deleteProjectServiceNameAiTokenId = (id: string, serviceName: string): Promise<void> => {
+  deleteProjectAiTokenByServiceNameAndId = (id: string, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/cloud/project/${serviceName}/ai/token/${id}`);
   };
 
   /** Get application token information */
-  getProjectServiceNameAiTokenId = (
+  getProjectAiTokenByServiceNameAndId = (
     id: string,
     serviceName: string
   ): Promise<CloudProjectAiTokenToken> => {
@@ -1141,7 +1150,7 @@ class CloudHandler {
   };
 
   /** Renew an application token */
-  postProjectServiceNameAiTokenIdRenew = (
+  postProjectAiTokenRenewByServiceNameAndId = (
     id: string,
     serviceName: string
   ): Promise<CloudProjectAiTokenToken> => {
@@ -1149,12 +1158,12 @@ class CloudHandler {
   };
 
   /** Manage alerts on your consumption */
-  getProjectServiceNameAlerting = (serviceName: string): Promise<string> => {
+  getProjectAlertingByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/alerting`);
   };
 
   /** Add new alert */
-  postProjectServiceNameAlerting = (
+  addProjectAlertingByServiceName = (
     serviceName: string,
     body: { delay: CloudAlertingDelayEnum; email: string; monthlyThreshold: number }
   ): Promise<CloudAlerting> => {
@@ -1162,17 +1171,20 @@ class CloudHandler {
   };
 
   /** Delete alerting */
-  deleteProjectServiceNameAlertingId = (id: string, serviceName: string): Promise<void> => {
+  deleteProjectAlertingByServiceNameAndId = (id: string, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/cloud/project/${serviceName}/alerting/${id}`);
   };
 
   /** Get this object properties */
-  getProjectServiceNameAlertingId = (id: string, serviceName: string): Promise<CloudAlerting> => {
+  getProjectAlertingByServiceNameAndId = (
+    id: string,
+    serviceName: string
+  ): Promise<CloudAlerting> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/alerting/${id}`);
   };
 
   /** Alter this object properties */
-  putProjectServiceNameAlertingId = (
+  updateProjectAlertingByServiceNameAndId = (
     id: string,
     serviceName: string,
     body: CloudAlerting
@@ -1181,12 +1193,15 @@ class CloudHandler {
   };
 
   /** See alerts */
-  getProjectServiceNameAlertingIdAlert = (id: string, serviceName: string): Promise<number> => {
+  getProjectAlertingAlertByServiceNameAndId = (
+    id: string,
+    serviceName: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/alerting/${id}/alert`);
   };
 
   /** Get this object properties */
-  getProjectServiceNameAlertingIdAlertAlertId = (
+  getProjectAlertingAlertByServiceNameAndIdAndAlertId = (
     alertId: number,
     id: string,
     serviceName: string
@@ -1195,26 +1210,26 @@ class CloudHandler {
   };
 
   /** Get your project bills */
-  getProjectServiceNameBill = (serviceName: string): Promise<CloudProjectBill> => {
+  getProjectBillByServiceName = (serviceName: string): Promise<CloudProjectBill[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/bill`);
   };
 
   /** Cancel project creation */
-  postProjectServiceNameCancel = (serviceName: string): Promise<void> => {
+  postProjectCancelByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/cloud/project/${serviceName}/cancel`);
   };
 
   /** List container registry capabilities per region */
-  getProjectServiceNameCapabilitiesContainerRegistry = (
+  listProjectCapabilitiesContainerRegistrysByServiceName = (
     serviceName: string
-  ): Promise<CloudContainerRegistryCapability> => {
+  ): Promise<CloudContainerRegistryCapability[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/capabilities/containerRegistry`);
   };
 
   /** List of admissionPlugins managed by MKS product that can be enabled or disabled. */
-  getProjectServiceNameCapabilitiesKubeAdmissionplugins = (
+  listProjectCapabilitiesKubeAdmissionpluginsByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum> => {
+  ): Promise<CloudProjectKubeCustomizationAPIServerAdmissionPluginsEnum[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/capabilities/kube/admissionplugins`
@@ -1222,21 +1237,23 @@ class CloudHandler {
   };
 
   /** List Kubernetes available flavors for a region */
-  getProjectServiceNameCapabilitiesKubeFlavors = (
+  listProjectCapabilitiesKubeFlavorsByServiceName = (
     serviceName: string
-  ): Promise<CloudKubeFlavor> => {
+  ): Promise<CloudKubeFlavor[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/capabilities/kube/flavors`);
   };
 
   /** List Kubernetes available regions */
-  getProjectServiceNameCapabilitiesKubeRegions = (
+  listProjectCapabilitiesKubeRegionsByServiceName = (
     serviceName: string
-  ): Promise<CloudKubeRegionEnum> => {
+  ): Promise<CloudKubeRegionEnum[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/capabilities/kube/regions`);
   };
 
   /** List all available regions */
-  getProjectServiceNameCapabilitiesLoadbalancerRegion = (serviceName: string): Promise<string> => {
+  listProjectCapabilitiesLoadbalancerRegionsByServiceName = (
+    serviceName: string
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/capabilities/loadbalancer/region`
@@ -1244,7 +1261,7 @@ class CloudHandler {
   };
 
   /** Get specific information of a region */
-  getProjectServiceNameCapabilitiesLoadbalancerRegionRegionName = (
+  getProjectCapabilitiesLoadbalancerRegionByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudProjectLoadbalancerRegion> => {
@@ -1255,7 +1272,7 @@ class CloudHandler {
   };
 
   /** List product availability */
-  getProjectServiceNameCapabilitiesProductAvailability = (
+  listProjectCapabilitiesProductAvailabilitysByServiceName = (
     serviceName: string
   ): Promise<CloudCapabilitiesAvailability> => {
     return this.ovh.request(
@@ -1265,15 +1282,15 @@ class CloudHandler {
   };
 
   /** Launch a contact change procedure */
-  postProjectServiceNameChangeContact = (
+  launchProjectChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/cloud/project/${serviceName}/changeContact`, body);
   };
 
   /** Confirm termination of your service */
-  postProjectServiceNameConfirmTermination = (
+  confirmProjectTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -1286,19 +1303,19 @@ class CloudHandler {
   };
 
   /** Get your project consumption */
-  getProjectServiceNameConsumption = (serviceName: string): Promise<CloudProjectProjectUsage> => {
+  getProjectConsumptionByServiceName = (serviceName: string): Promise<CloudProjectProjectUsage> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/consumption`);
   };
 
   /** List registries of the project */
-  getProjectServiceNameContainerRegistry = (
+  listProjectContainerRegistrysByServiceName = (
     serviceName: string
-  ): Promise<CloudContainerRegistryRegistry> => {
+  ): Promise<CloudContainerRegistryRegistry[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/containerRegistry`);
   };
 
   /** Create a new registry */
-  postProjectServiceNameContainerRegistry = (
+  createProjectContainerRegistryByServiceName = (
     serviceName: string,
     body: CloudProjectContainerRegistryCreation
   ): Promise<CloudContainerRegistryRegistry> => {
@@ -1306,7 +1323,7 @@ class CloudHandler {
   };
 
   /** Delete a registry */
-  deleteProjectServiceNameContainerRegistryRegistryID = (
+  deleteProjectContainerRegistryByServiceNameAndRegistryID = (
     registryID: string,
     serviceName: string
   ): Promise<void> => {
@@ -1317,7 +1334,7 @@ class CloudHandler {
   };
 
   /** Get the registry information */
-  getProjectServiceNameContainerRegistryRegistryID = (
+  getProjectContainerRegistryByServiceNameAndRegistryID = (
     registryID: string,
     serviceName: string
   ): Promise<CloudContainerRegistryRegistry> => {
@@ -1325,7 +1342,7 @@ class CloudHandler {
   };
 
   /** Update the registry */
-  putProjectServiceNameContainerRegistryRegistryID = (
+  updateProjectContainerRegistryByServiceNameAndRegistryID = (
     registryID: string,
     serviceName: string,
     body: CloudProjectContainerRegistryUpdate
@@ -1338,10 +1355,10 @@ class CloudHandler {
   };
 
   /** Get available plans for the current registry. */
-  getProjectServiceNameContainerRegistryRegistryIDCapabilitiesPlan = (
+  getProjectContainerRegistryCapabilitiesPlanByServiceNameAndRegistryID = (
     registryID: string,
     serviceName: string
-  ): Promise<CloudContainerRegistryPlan> => {
+  ): Promise<CloudContainerRegistryPlan[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/containerRegistry/${registryID}/capabilities/plan`
@@ -1349,7 +1366,7 @@ class CloudHandler {
   };
 
   /** Show the actual plan of the registry. */
-  getProjectServiceNameContainerRegistryRegistryIDPlan = (
+  getProjectContainerRegistryPlanByServiceNameAndRegistryID = (
     registryID: string,
     serviceName: string
   ): Promise<CloudContainerRegistryPlan> => {
@@ -1360,7 +1377,7 @@ class CloudHandler {
   };
 
   /** Update the plan of a registry. */
-  putProjectServiceNameContainerRegistryRegistryIDPlan = (
+  updateProjectContainerRegistryPlanByServiceNameAndRegistryID = (
     registryID: string,
     serviceName: string,
     body: CloudContainerRegistryPlanUpdate
@@ -1373,10 +1390,10 @@ class CloudHandler {
   };
 
   /** List registry user */
-  getProjectServiceNameContainerRegistryRegistryIDUsers = (
+  listProjectContainerRegistryUsersByServiceNameAndRegistryID = (
     registryID: string,
     serviceName: string
-  ): Promise<CloudContainerRegistryUser> => {
+  ): Promise<CloudContainerRegistryUser[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/containerRegistry/${registryID}/users`
@@ -1384,7 +1401,7 @@ class CloudHandler {
   };
 
   /** Create a new registry user */
-  postProjectServiceNameContainerRegistryRegistryIDUsers = (
+  createProjectContainerRegistryUsersByServiceNameAndRegistryID = (
     registryID: string,
     serviceName: string,
     body: CloudProjectContainerRegistryUsersCreation
@@ -1397,7 +1414,7 @@ class CloudHandler {
   };
 
   /** Delete a registry user */
-  deleteProjectServiceNameContainerRegistryRegistryIDUsersUserID = (
+  deleteProjectContainerRegistryUsersByServiceNameAndRegistryIDAndUserID = (
     registryID: string,
     serviceName: string,
     userID: string
@@ -1409,46 +1426,46 @@ class CloudHandler {
   };
 
   /** Get your credit */
-  getProjectServiceNameCredit = (serviceName: string): Promise<number> => {
+  getProjectCreditByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/credit`);
   };
 
   /** Add credit to your project */
-  postProjectServiceNameCredit = (serviceName: string, body: { code: string }): Promise<void> => {
+  addProjectCreditByServiceName = (serviceName: string, body: { code: string }): Promise<void> => {
     return this.ovh.request('POST', `/cloud/project/${serviceName}/credit`, body);
   };
 
   /** Get this object properties */
-  getProjectServiceNameCreditId = (id: number, serviceName: string): Promise<CloudCredit> => {
+  getProjectCreditByServiceNameAndId = (id: number, serviceName: string): Promise<CloudCredit> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/credit/${id}`);
   };
 
   /** Get authorization status */
-  getProjectServiceNameDataProcessingAuthorization = (
+  getProjectDataProcessingAuthorizationByServiceName = (
     serviceName: string
   ): Promise<CloudProjectDataProcessingAuthorizationStatus> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/dataProcessing/authorization`);
   };
 
   /** Authorization of Data Processing service by allowing access to your object storage containers */
-  postProjectServiceNameDataProcessingAuthorization = (serviceName: string): Promise<void> => {
+  postProjectDataProcessingAuthorizationByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/cloud/project/${serviceName}/dataProcessing/authorization`);
   };
 
   /** Data processing capabilities */
-  getProjectServiceNameDataProcessingCapabilities = (
+  getProjectDataProcessingCapabilitiesByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectDataProcessingCapability> => {
+  ): Promise<CloudProjectDataProcessingCapability[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/dataProcessing/capabilities`);
   };
 
   /** List all jobs */
-  getProjectServiceNameDataProcessingJobs = (serviceName: string): Promise<string> => {
+  listProjectDataProcessingJobsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/dataProcessing/jobs`);
   };
 
   /** Submit a job */
-  postProjectServiceNameDataProcessingJobs = (
+  postProjectDataProcessingJobsByServiceName = (
     serviceName: string,
     body: CloudProjectDataProcessingJob
   ): Promise<CloudProjectDataProcessingJob> => {
@@ -1456,7 +1473,7 @@ class CloudHandler {
   };
 
   /** Kill job with given id */
-  deleteProjectServiceNameDataProcessingJobsJobId = (
+  deleteProjectDataProcessingJobsByServiceNameAndJobId = (
     jobId: string,
     serviceName: string
   ): Promise<void> => {
@@ -1464,7 +1481,7 @@ class CloudHandler {
   };
 
   /** Get jobs information */
-  getProjectServiceNameDataProcessingJobsJobId = (
+  getProjectDataProcessingJobsByServiceNameAndJobId = (
     jobId: string,
     serviceName: string
   ): Promise<CloudProjectDataProcessingJob> => {
@@ -1472,7 +1489,7 @@ class CloudHandler {
   };
 
   /** Get the logs of a job */
-  getProjectServiceNameDataProcessingJobsJobIdLogs = (
+  getProjectDataProcessingJobsLogsByServiceNameAndJobId = (
     jobId: string,
     serviceName: string
   ): Promise<CloudProjectDataProcessingJobLogs> => {
@@ -1483,19 +1500,19 @@ class CloudHandler {
   };
 
   /** Get metrics token and urls compatible with this token */
-  getProjectServiceNameDataProcessingMetrics = (
+  getProjectDataProcessingMetricsByServiceName = (
     serviceName: string
   ): Promise<CloudProjectDataProcessingMetrics> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/dataProcessing/metrics`);
   };
 
   /** List all notebooks */
-  getProjectServiceNameDataProcessingNotebooks = (serviceName: string): Promise<string> => {
+  listProjectDataProcessingNotebooksByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/dataProcessing/notebooks`);
   };
 
   /** Create a notebook */
-  postProjectServiceNameDataProcessingNotebooks = (
+  createProjectDataProcessingNotebooksByServiceName = (
     serviceName: string,
     body: CloudProjectDataProcessingNotebookNotebookSpec
   ): Promise<CloudProjectDataProcessingNotebookNotebook> => {
@@ -1503,9 +1520,9 @@ class CloudHandler {
   };
 
   /** Get notebooks capabilities */
-  getProjectServiceNameDataProcessingNotebooksCapabilities = (
+  getProjectDataProcessingNotebooksCapabilitiesByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectDataProcessingNotebookCapability> => {
+  ): Promise<CloudProjectDataProcessingNotebookCapability[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/dataProcessing/notebooks/capabilities`
@@ -1513,7 +1530,7 @@ class CloudHandler {
   };
 
   /** Delete notebook with given id */
-  deleteProjectServiceNameDataProcessingNotebooksNotebookId = (
+  deleteProjectDataProcessingNotebooksByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string
   ): Promise<void> => {
@@ -1524,7 +1541,7 @@ class CloudHandler {
   };
 
   /** Get notebook information */
-  getProjectServiceNameDataProcessingNotebooksNotebookId = (
+  getProjectDataProcessingNotebooksByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string
   ): Promise<CloudProjectDataProcessingNotebookNotebook> => {
@@ -1535,7 +1552,7 @@ class CloudHandler {
   };
 
   /** Start a Data Processing notebook */
-  putProjectServiceNameDataProcessingNotebooksNotebookIdStart = (
+  putProjectDataProcessingNotebooksStartByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string
   ): Promise<void> => {
@@ -1546,7 +1563,7 @@ class CloudHandler {
   };
 
   /** Stop a Data Processing notebook */
-  putProjectServiceNameDataProcessingNotebooksNotebookIdStop = (
+  putProjectDataProcessingNotebooksStopByServiceNameAndNotebookId = (
     notebookId: string,
     serviceName: string
   ): Promise<void> => {
@@ -1557,26 +1574,26 @@ class CloudHandler {
   };
 
   /** Get database engines availability */
-  getProjectServiceNameDatabaseAvailability = (
+  getProjectDatabaseAvailabilityByServiceName = (
     serviceName: string
-  ): Promise<CloudProjectDatabaseAvailability> => {
+  ): Promise<CloudProjectDatabaseAvailability[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/availability`);
   };
 
   /** Get database engines capabilities */
-  getProjectServiceNameDatabaseCapabilities = (
+  getProjectDatabaseCapabilitiesByServiceName = (
     serviceName: string
   ): Promise<CloudProjectDatabaseCapabilities> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/capabilities`);
   };
 
   /** List all the cassandra clusters of the project */
-  getProjectServiceNameDatabaseCassandra = (serviceName: string): Promise<string> => {
+  listProjectDatabaseCassandrasByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/cassandra`);
   };
 
   /** Create a new cassandra cluster */
-  postProjectServiceNameDatabaseCassandra = (
+  createProjectDatabaseCassandraByServiceName = (
     serviceName: string,
     body: CloudProjectDatabaseServiceCreation
   ): Promise<CloudProjectDatabaseService> => {
@@ -1584,7 +1601,7 @@ class CloudHandler {
   };
 
   /** Delete a cassandra cluster */
-  deleteProjectServiceNameDatabaseCassandraClusterId = (
+  deleteProjectDatabaseCassandraByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -1595,7 +1612,7 @@ class CloudHandler {
   };
 
   /** Get cassandra cluster properties */
-  getProjectServiceNameDatabaseCassandraClusterId = (
+  getProjectDatabaseCassandraByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseService> => {
@@ -1603,7 +1620,7 @@ class CloudHandler {
   };
 
   /** Update an existing cassandra cluster */
-  putProjectServiceNameDatabaseCassandraClusterId = (
+  updateProjectDatabaseCassandraByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseService
@@ -1616,7 +1633,7 @@ class CloudHandler {
   };
 
   /** Get cassandra advanced configuration */
-  getProjectServiceNameDatabaseCassandraClusterIdAdvancedConfiguration = (
+  getProjectDatabaseCassandraAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<Record<string, string>> => {
@@ -1627,7 +1644,7 @@ class CloudHandler {
   };
 
   /** Update cassandra advanced configuration */
-  putProjectServiceNameDatabaseCassandraClusterIdAdvancedConfiguration = (
+  updateProjectDatabaseCassandraAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: Record<string, string>
@@ -1640,10 +1657,10 @@ class CloudHandler {
   };
 
   /** List backups of the cassandra */
-  getProjectServiceNameDatabaseCassandraClusterIdBackup = (
+  listProjectDatabaseCassandraBackupsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/cassandra/${clusterId}/backup`
@@ -1651,7 +1668,7 @@ class CloudHandler {
   };
 
   /** Get cassandra backups */
-  getProjectServiceNameDatabaseCassandraClusterIdBackupBackupId = (
+  getProjectDatabaseCassandraBackupByServiceNameAndClusterIdAndBackupId = (
     backupId: string,
     clusterId: string,
     serviceName: string
@@ -1663,10 +1680,10 @@ class CloudHandler {
   };
 
   /** Get cassandra advanced configuration fields */
-  getProjectServiceNameDatabaseCassandraClusterIdCapabilitiesAdvancedConfiguration = (
+  getProjectDatabaseCassandraCapabilitiesAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/cassandra/${clusterId}/capabilities/advancedConfiguration`
@@ -1674,10 +1691,10 @@ class CloudHandler {
   };
 
   /** Get integration capabilities related to the cassandra service */
-  getProjectServiceNameDatabaseCassandraClusterIdCapabilitiesIntegration = (
+  getProjectDatabaseCassandraCapabilitiesIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesIntegration> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesIntegration[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/cassandra/${clusterId}/capabilities/integration`
@@ -1685,7 +1702,7 @@ class CloudHandler {
   };
 
   /** Retrieve the certificates of the cassandra cluster */
-  getProjectServiceNameDatabaseCassandraClusterIdCertificates = (
+  getProjectDatabaseCassandraCertificatesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseServiceCertificates> => {
@@ -1696,10 +1713,10 @@ class CloudHandler {
   };
 
   /** List integrations */
-  getProjectServiceNameDatabaseCassandraClusterIdIntegration = (
+  listProjectDatabaseCassandraIntegrationsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/cassandra/${clusterId}/integration`
@@ -1707,7 +1724,7 @@ class CloudHandler {
   };
 
   /** Create a new integration */
-  postProjectServiceNameDatabaseCassandraClusterIdIntegration = (
+  createProjectDatabaseCassandraIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceIntegration
@@ -1720,7 +1737,7 @@ class CloudHandler {
   };
 
   /** Delete an integration */
-  deleteProjectServiceNameDatabaseCassandraClusterIdIntegrationIntegrationId = (
+  deleteProjectDatabaseCassandraIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -1732,7 +1749,7 @@ class CloudHandler {
   };
 
   /** Get an integration */
-  getProjectServiceNameDatabaseCassandraClusterIdIntegrationIntegrationId = (
+  getProjectDatabaseCassandraIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -1744,10 +1761,10 @@ class CloudHandler {
   };
 
   /** List cassandra ip restrictions */
-  getProjectServiceNameDatabaseCassandraClusterIdIpRestriction = (
+  listProjectDatabaseCassandraIpRestrictionsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/cassandra/${clusterId}/ipRestriction`
@@ -1755,7 +1772,7 @@ class CloudHandler {
   };
 
   /** Add ip restrictions to the cassandra */
-  postProjectServiceNameDatabaseCassandraClusterIdIpRestriction = (
+  addProjectDatabaseCassandraIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseIpRestrictionCreation
@@ -1768,7 +1785,7 @@ class CloudHandler {
   };
 
   /** Deletes the given IP from the restricted IPs of the cassandra */
-  deleteProjectServiceNameDatabaseCassandraClusterIdIpRestrictionIpBlock = (
+  deleteProjectDatabaseCassandraIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -1780,7 +1797,7 @@ class CloudHandler {
   };
 
   /** Get cassandra ip restrictions */
-  getProjectServiceNameDatabaseCassandraClusterIdIpRestrictionIpBlock = (
+  getProjectDatabaseCassandraIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -1792,7 +1809,7 @@ class CloudHandler {
   };
 
   /** Changes the list of ip restrictions to the cassandra */
-  putProjectServiceNameDatabaseCassandraClusterIdIpRestrictionIpBlock = (
+  updateProjectDatabaseCassandraIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string,
@@ -1806,10 +1823,10 @@ class CloudHandler {
   };
 
   /** Retrieve the most recent cassandra log messages (limited to 1000) */
-  getProjectServiceNameDatabaseCassandraClusterIdLogs = (
+  getProjectDatabaseCassandraLogsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseServiceLogEntry> => {
+  ): Promise<CloudProjectDatabaseServiceLogEntry[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/cassandra/${clusterId}/logs`
@@ -1817,10 +1834,10 @@ class CloudHandler {
   };
 
   /** List maintenances for the cassandra cluster */
-  getProjectServiceNameDatabaseCassandraClusterIdMaintenance = (
+  listProjectDatabaseCassandraMaintenancesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/cassandra/${clusterId}/maintenance`
@@ -1828,7 +1845,7 @@ class CloudHandler {
   };
 
   /** Get the maintenance for the cassandra cluster */
-  getProjectServiceNameDatabaseCassandraClusterIdMaintenanceMaintenanceId = (
+  getProjectDatabaseCassandraMaintenanceByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -1840,7 +1857,7 @@ class CloudHandler {
   };
 
   /** Apply the maintenance */
-  postProjectServiceNameDatabaseCassandraClusterIdMaintenanceMaintenanceIdApply = (
+  postProjectDatabaseCassandraMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -1852,10 +1869,10 @@ class CloudHandler {
   };
 
   /** List available metrics for the cassandra cluster */
-  getProjectServiceNameDatabaseCassandraClusterIdMetric = (
+  listProjectDatabaseCassandraMetricsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/cassandra/${clusterId}/metric`
@@ -1863,7 +1880,7 @@ class CloudHandler {
   };
 
   /** Get the metric values for the cassandra cluster */
-  getProjectServiceNameDatabaseCassandraClusterIdMetricMetricName = (
+  getProjectDatabaseCassandraMetricByServiceNameAndClusterIdAndMetricName = (
     clusterId: string,
     metricName: string,
     serviceName: string
@@ -1875,10 +1892,10 @@ class CloudHandler {
   };
 
   /** List nodes of the cassandra */
-  getProjectServiceNameDatabaseCassandraClusterIdNode = (
+  listProjectDatabaseCassandraNodesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/cassandra/${clusterId}/node`
@@ -1886,7 +1903,7 @@ class CloudHandler {
   };
 
   /** Get cassandra nodes */
-  getProjectServiceNameDatabaseCassandraClusterIdNodeNodeId = (
+  getProjectDatabaseCassandraNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string
@@ -1898,10 +1915,10 @@ class CloudHandler {
   };
 
   /** List users of the cassandra */
-  getProjectServiceNameDatabaseCassandraClusterIdUser = (
+  listProjectDatabaseCassandraUsersByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/cassandra/${clusterId}/user`
@@ -1909,7 +1926,7 @@ class CloudHandler {
   };
 
   /** Create a new user on the cassandra cluster */
-  postProjectServiceNameDatabaseCassandraClusterIdUser = (
+  createProjectDatabaseCassandraUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceUserCreation
@@ -1922,7 +1939,7 @@ class CloudHandler {
   };
 
   /** Delete a cassandra user */
-  deleteProjectServiceNameDatabaseCassandraClusterIdUserUserId = (
+  deleteProjectDatabaseCassandraUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -1934,7 +1951,7 @@ class CloudHandler {
   };
 
   /** Get cassandra users */
-  getProjectServiceNameDatabaseCassandraClusterIdUserUserId = (
+  getProjectDatabaseCassandraUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -1946,7 +1963,7 @@ class CloudHandler {
   };
 
   /** Resets the password of a user */
-  postProjectServiceNameDatabaseCassandraClusterIdUserUserIdCredentialsReset = (
+  postProjectDatabaseCassandraUserCredentialsResetByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -1958,12 +1975,12 @@ class CloudHandler {
   };
 
   /** List all the grafana of the project */
-  getProjectServiceNameDatabaseGrafana = (serviceName: string): Promise<string> => {
+  listProjectDatabaseGrafanasByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/grafana`);
   };
 
   /** Create a new grafana cluster */
-  postProjectServiceNameDatabaseGrafana = (
+  createProjectDatabaseGrafanaByServiceName = (
     serviceName: string,
     body: CloudProjectDatabaseServiceCreation
   ): Promise<CloudProjectDatabaseService> => {
@@ -1971,7 +1988,7 @@ class CloudHandler {
   };
 
   /** Delete a grafana cluster */
-  deleteProjectServiceNameDatabaseGrafanaClusterId = (
+  deleteProjectDatabaseGrafanaByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -1982,7 +1999,7 @@ class CloudHandler {
   };
 
   /** Get grafana cluster properties */
-  getProjectServiceNameDatabaseGrafanaClusterId = (
+  getProjectDatabaseGrafanaByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseService> => {
@@ -1990,7 +2007,7 @@ class CloudHandler {
   };
 
   /** Update an existing grafana cluster */
-  putProjectServiceNameDatabaseGrafanaClusterId = (
+  updateProjectDatabaseGrafanaByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseService
@@ -2003,7 +2020,7 @@ class CloudHandler {
   };
 
   /** Get grafana advanced configuration */
-  getProjectServiceNameDatabaseGrafanaClusterIdAdvancedConfiguration = (
+  getProjectDatabaseGrafanaAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<Record<string, string>> => {
@@ -2014,7 +2031,7 @@ class CloudHandler {
   };
 
   /** Update grafana advanced configuration */
-  putProjectServiceNameDatabaseGrafanaClusterIdAdvancedConfiguration = (
+  updateProjectDatabaseGrafanaAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: Record<string, string>
@@ -2027,10 +2044,10 @@ class CloudHandler {
   };
 
   /** List backups of the grafana */
-  getProjectServiceNameDatabaseGrafanaClusterIdBackup = (
+  listProjectDatabaseGrafanaBackupsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/grafana/${clusterId}/backup`
@@ -2038,7 +2055,7 @@ class CloudHandler {
   };
 
   /** Get grafana backups */
-  getProjectServiceNameDatabaseGrafanaClusterIdBackupBackupId = (
+  getProjectDatabaseGrafanaBackupByServiceNameAndClusterIdAndBackupId = (
     backupId: string,
     clusterId: string,
     serviceName: string
@@ -2050,10 +2067,10 @@ class CloudHandler {
   };
 
   /** Get grafana advanced configuration fields */
-  getProjectServiceNameDatabaseGrafanaClusterIdCapabilitiesAdvancedConfiguration = (
+  getProjectDatabaseGrafanaCapabilitiesAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/grafana/${clusterId}/capabilities/advancedConfiguration`
@@ -2061,10 +2078,10 @@ class CloudHandler {
   };
 
   /** Get integration capabilities related to the grafana service */
-  getProjectServiceNameDatabaseGrafanaClusterIdCapabilitiesIntegration = (
+  getProjectDatabaseGrafanaCapabilitiesIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesIntegration> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesIntegration[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/grafana/${clusterId}/capabilities/integration`
@@ -2072,10 +2089,10 @@ class CloudHandler {
   };
 
   /** List integrations */
-  getProjectServiceNameDatabaseGrafanaClusterIdIntegration = (
+  listProjectDatabaseGrafanaIntegrationsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/grafana/${clusterId}/integration`
@@ -2083,7 +2100,7 @@ class CloudHandler {
   };
 
   /** Create a new integration */
-  postProjectServiceNameDatabaseGrafanaClusterIdIntegration = (
+  createProjectDatabaseGrafanaIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceIntegration
@@ -2096,7 +2113,7 @@ class CloudHandler {
   };
 
   /** Delete an integration */
-  deleteProjectServiceNameDatabaseGrafanaClusterIdIntegrationIntegrationId = (
+  deleteProjectDatabaseGrafanaIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -2108,7 +2125,7 @@ class CloudHandler {
   };
 
   /** Get an integration */
-  getProjectServiceNameDatabaseGrafanaClusterIdIntegrationIntegrationId = (
+  getProjectDatabaseGrafanaIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -2120,10 +2137,10 @@ class CloudHandler {
   };
 
   /** List grafana ip restrictions */
-  getProjectServiceNameDatabaseGrafanaClusterIdIpRestriction = (
+  listProjectDatabaseGrafanaIpRestrictionsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/grafana/${clusterId}/ipRestriction`
@@ -2131,7 +2148,7 @@ class CloudHandler {
   };
 
   /** Add ip restrictions to the grafana */
-  postProjectServiceNameDatabaseGrafanaClusterIdIpRestriction = (
+  addProjectDatabaseGrafanaIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseIpRestrictionCreation
@@ -2144,7 +2161,7 @@ class CloudHandler {
   };
 
   /** Deletes the given IP from the restricted IPs of the grafana */
-  deleteProjectServiceNameDatabaseGrafanaClusterIdIpRestrictionIpBlock = (
+  deleteProjectDatabaseGrafanaIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -2156,7 +2173,7 @@ class CloudHandler {
   };
 
   /** Get grafana ip restrictions */
-  getProjectServiceNameDatabaseGrafanaClusterIdIpRestrictionIpBlock = (
+  getProjectDatabaseGrafanaIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -2168,7 +2185,7 @@ class CloudHandler {
   };
 
   /** Changes the list of ip restrictions to the grafana */
-  putProjectServiceNameDatabaseGrafanaClusterIdIpRestrictionIpBlock = (
+  updateProjectDatabaseGrafanaIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string,
@@ -2182,10 +2199,10 @@ class CloudHandler {
   };
 
   /** Retrieve the most recent grafana log messages (limited to 1000) */
-  getProjectServiceNameDatabaseGrafanaClusterIdLogs = (
+  getProjectDatabaseGrafanaLogsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseServiceLogEntry> => {
+  ): Promise<CloudProjectDatabaseServiceLogEntry[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/grafana/${clusterId}/logs`
@@ -2193,10 +2210,10 @@ class CloudHandler {
   };
 
   /** List maintenances for the grafana cluster */
-  getProjectServiceNameDatabaseGrafanaClusterIdMaintenance = (
+  listProjectDatabaseGrafanaMaintenancesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/grafana/${clusterId}/maintenance`
@@ -2204,7 +2221,7 @@ class CloudHandler {
   };
 
   /** Get the maintenance for the grafana cluster */
-  getProjectServiceNameDatabaseGrafanaClusterIdMaintenanceMaintenanceId = (
+  getProjectDatabaseGrafanaMaintenanceByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -2216,7 +2233,7 @@ class CloudHandler {
   };
 
   /** Apply the maintenance */
-  postProjectServiceNameDatabaseGrafanaClusterIdMaintenanceMaintenanceIdApply = (
+  postProjectDatabaseGrafanaMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -2228,10 +2245,10 @@ class CloudHandler {
   };
 
   /** List available metrics for the grafana cluster */
-  getProjectServiceNameDatabaseGrafanaClusterIdMetric = (
+  listProjectDatabaseGrafanaMetricsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/grafana/${clusterId}/metric`
@@ -2239,7 +2256,7 @@ class CloudHandler {
   };
 
   /** Get the metric values for the grafana cluster */
-  getProjectServiceNameDatabaseGrafanaClusterIdMetricMetricName = (
+  getProjectDatabaseGrafanaMetricByServiceNameAndClusterIdAndMetricName = (
     clusterId: string,
     metricName: string,
     serviceName: string
@@ -2251,10 +2268,10 @@ class CloudHandler {
   };
 
   /** List nodes of the grafana */
-  getProjectServiceNameDatabaseGrafanaClusterIdNode = (
+  listProjectDatabaseGrafanaNodesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/grafana/${clusterId}/node`
@@ -2262,7 +2279,7 @@ class CloudHandler {
   };
 
   /** Get grafana nodes */
-  getProjectServiceNameDatabaseGrafanaClusterIdNodeNodeId = (
+  getProjectDatabaseGrafanaNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string
@@ -2274,10 +2291,10 @@ class CloudHandler {
   };
 
   /** List users of the grafana */
-  getProjectServiceNameDatabaseGrafanaClusterIdUser = (
+  listProjectDatabaseGrafanaUsersByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/grafana/${clusterId}/user`
@@ -2285,7 +2302,7 @@ class CloudHandler {
   };
 
   /** Get grafana users */
-  getProjectServiceNameDatabaseGrafanaClusterIdUserUserId = (
+  getProjectDatabaseGrafanaUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -2297,7 +2314,7 @@ class CloudHandler {
   };
 
   /** Resets the password of a user */
-  postProjectServiceNameDatabaseGrafanaClusterIdUserUserIdCredentialsReset = (
+  postProjectDatabaseGrafanaUserCredentialsResetByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -2309,12 +2326,12 @@ class CloudHandler {
   };
 
   /** List all the kafka of the project */
-  getProjectServiceNameDatabaseKafka = (serviceName: string): Promise<string> => {
+  listProjectDatabaseKafkasByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/kafka`);
   };
 
   /** Create a new kafka cluster */
-  postProjectServiceNameDatabaseKafka = (
+  createProjectDatabaseKafkaByServiceName = (
     serviceName: string,
     body: CloudProjectDatabaseServiceCreation
   ): Promise<CloudProjectDatabaseService> => {
@@ -2322,7 +2339,7 @@ class CloudHandler {
   };
 
   /** Delete a kafka cluster */
-  deleteProjectServiceNameDatabaseKafkaClusterId = (
+  deleteProjectDatabaseKafkaByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -2330,7 +2347,7 @@ class CloudHandler {
   };
 
   /** Get kafka cluster properties */
-  getProjectServiceNameDatabaseKafkaClusterId = (
+  getProjectDatabaseKafkaByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseKafkaService> => {
@@ -2338,7 +2355,7 @@ class CloudHandler {
   };
 
   /** Update an existing kafka cluster */
-  putProjectServiceNameDatabaseKafkaClusterId = (
+  updateProjectDatabaseKafkaByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseKafkaService
@@ -2351,15 +2368,15 @@ class CloudHandler {
   };
 
   /** List acls of the kafka */
-  getProjectServiceNameDatabaseKafkaClusterIdAcl = (
+  listProjectDatabaseKafkaAclsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/kafka/${clusterId}/acl`);
   };
 
   /** Create a new acl on the kafka cluster */
-  postProjectServiceNameDatabaseKafkaClusterIdAcl = (
+  createProjectDatabaseKafkaAclByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseKafkaAcl
@@ -2372,7 +2389,7 @@ class CloudHandler {
   };
 
   /** Delete a kafka acl */
-  deleteProjectServiceNameDatabaseKafkaClusterIdAclAclId = (
+  deleteProjectDatabaseKafkaAclByServiceNameAndClusterIdAndAclId = (
     aclId: string,
     clusterId: string,
     serviceName: string
@@ -2384,7 +2401,7 @@ class CloudHandler {
   };
 
   /** Get kafka acls */
-  getProjectServiceNameDatabaseKafkaClusterIdAclAclId = (
+  getProjectDatabaseKafkaAclByServiceNameAndClusterIdAndAclId = (
     aclId: string,
     clusterId: string,
     serviceName: string
@@ -2396,7 +2413,7 @@ class CloudHandler {
   };
 
   /** Get kafka advanced configuration */
-  getProjectServiceNameDatabaseKafkaClusterIdAdvancedConfiguration = (
+  getProjectDatabaseKafkaAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<Record<string, string>> => {
@@ -2407,7 +2424,7 @@ class CloudHandler {
   };
 
   /** Update kafka advanced configuration */
-  putProjectServiceNameDatabaseKafkaClusterIdAdvancedConfiguration = (
+  updateProjectDatabaseKafkaAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: Record<string, string>
@@ -2420,10 +2437,10 @@ class CloudHandler {
   };
 
   /** Get kafka advanced configuration fields */
-  getProjectServiceNameDatabaseKafkaClusterIdCapabilitiesAdvancedConfiguration = (
+  getProjectDatabaseKafkaCapabilitiesAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafka/${clusterId}/capabilities/advancedConfiguration`
@@ -2431,10 +2448,10 @@ class CloudHandler {
   };
 
   /** Get integration capabilities related to the kafka service */
-  getProjectServiceNameDatabaseKafkaClusterIdCapabilitiesIntegration = (
+  getProjectDatabaseKafkaCapabilitiesIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesIntegration> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesIntegration[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafka/${clusterId}/capabilities/integration`
@@ -2442,7 +2459,7 @@ class CloudHandler {
   };
 
   /** Retrieve the certificates of the kafka cluster */
-  getProjectServiceNameDatabaseKafkaClusterIdCertificates = (
+  getProjectDatabaseKafkaCertificatesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseServiceCertificates> => {
@@ -2453,10 +2470,10 @@ class CloudHandler {
   };
 
   /** List integrations */
-  getProjectServiceNameDatabaseKafkaClusterIdIntegration = (
+  listProjectDatabaseKafkaIntegrationsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafka/${clusterId}/integration`
@@ -2464,7 +2481,7 @@ class CloudHandler {
   };
 
   /** Create a new integration */
-  postProjectServiceNameDatabaseKafkaClusterIdIntegration = (
+  createProjectDatabaseKafkaIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceIntegration
@@ -2477,7 +2494,7 @@ class CloudHandler {
   };
 
   /** Delete an integration */
-  deleteProjectServiceNameDatabaseKafkaClusterIdIntegrationIntegrationId = (
+  deleteProjectDatabaseKafkaIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -2489,7 +2506,7 @@ class CloudHandler {
   };
 
   /** Get an integration */
-  getProjectServiceNameDatabaseKafkaClusterIdIntegrationIntegrationId = (
+  getProjectDatabaseKafkaIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -2501,10 +2518,10 @@ class CloudHandler {
   };
 
   /** List kafka ip restrictions */
-  getProjectServiceNameDatabaseKafkaClusterIdIpRestriction = (
+  listProjectDatabaseKafkaIpRestrictionsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafka/${clusterId}/ipRestriction`
@@ -2512,7 +2529,7 @@ class CloudHandler {
   };
 
   /** Add ip restrictions to the kafka */
-  postProjectServiceNameDatabaseKafkaClusterIdIpRestriction = (
+  addProjectDatabaseKafkaIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseIpRestrictionCreation
@@ -2525,7 +2542,7 @@ class CloudHandler {
   };
 
   /** Deletes the given IP from the restricted IPs of the kafka */
-  deleteProjectServiceNameDatabaseKafkaClusterIdIpRestrictionIpBlock = (
+  deleteProjectDatabaseKafkaIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -2537,7 +2554,7 @@ class CloudHandler {
   };
 
   /** Get kafka ip restrictions */
-  getProjectServiceNameDatabaseKafkaClusterIdIpRestrictionIpBlock = (
+  getProjectDatabaseKafkaIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -2549,7 +2566,7 @@ class CloudHandler {
   };
 
   /** Changes the list of ip restrictions to the kafka */
-  putProjectServiceNameDatabaseKafkaClusterIdIpRestrictionIpBlock = (
+  updateProjectDatabaseKafkaIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string,
@@ -2563,10 +2580,10 @@ class CloudHandler {
   };
 
   /** Retrieve the most recent kafka log messages (limited to 1000) */
-  getProjectServiceNameDatabaseKafkaClusterIdLogs = (
+  getProjectDatabaseKafkaLogsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseServiceLogEntry> => {
+  ): Promise<CloudProjectDatabaseServiceLogEntry[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafka/${clusterId}/logs`
@@ -2574,10 +2591,10 @@ class CloudHandler {
   };
 
   /** List maintenances for the kafka cluster */
-  getProjectServiceNameDatabaseKafkaClusterIdMaintenance = (
+  listProjectDatabaseKafkaMaintenancesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafka/${clusterId}/maintenance`
@@ -2585,7 +2602,7 @@ class CloudHandler {
   };
 
   /** Get the maintenance for the kafka cluster */
-  getProjectServiceNameDatabaseKafkaClusterIdMaintenanceMaintenanceId = (
+  getProjectDatabaseKafkaMaintenanceByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -2597,7 +2614,7 @@ class CloudHandler {
   };
 
   /** Apply the maintenance */
-  postProjectServiceNameDatabaseKafkaClusterIdMaintenanceMaintenanceIdApply = (
+  postProjectDatabaseKafkaMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -2609,10 +2626,10 @@ class CloudHandler {
   };
 
   /** List available metrics for the kafka cluster */
-  getProjectServiceNameDatabaseKafkaClusterIdMetric = (
+  listProjectDatabaseKafkaMetricsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafka/${clusterId}/metric`
@@ -2620,7 +2637,7 @@ class CloudHandler {
   };
 
   /** Get the metric values for the kafka cluster */
-  getProjectServiceNameDatabaseKafkaClusterIdMetricMetricName = (
+  getProjectDatabaseKafkaMetricByServiceNameAndClusterIdAndMetricName = (
     clusterId: string,
     metricName: string,
     serviceName: string
@@ -2632,10 +2649,10 @@ class CloudHandler {
   };
 
   /** List nodes of the kafka */
-  getProjectServiceNameDatabaseKafkaClusterIdNode = (
+  listProjectDatabaseKafkaNodesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafka/${clusterId}/node`
@@ -2643,7 +2660,7 @@ class CloudHandler {
   };
 
   /** Get kafka nodes */
-  getProjectServiceNameDatabaseKafkaClusterIdNodeNodeId = (
+  getProjectDatabaseKafkaNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string
@@ -2655,7 +2672,7 @@ class CloudHandler {
   };
 
   /** Retrieve the permissions available on the cluster */
-  getProjectServiceNameDatabaseKafkaClusterIdPermissions = (
+  getProjectDatabaseKafkaPermissionsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseKafkaPermissions> => {
@@ -2666,10 +2683,10 @@ class CloudHandler {
   };
 
   /** List topics of the kafka */
-  getProjectServiceNameDatabaseKafkaClusterIdTopic = (
+  listProjectDatabaseKafkaTopicsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafka/${clusterId}/topic`
@@ -2677,7 +2694,7 @@ class CloudHandler {
   };
 
   /** Create a new topic on the kafka cluster */
-  postProjectServiceNameDatabaseKafkaClusterIdTopic = (
+  createProjectDatabaseKafkaTopicByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseKafkaTopicCreation
@@ -2690,7 +2707,7 @@ class CloudHandler {
   };
 
   /** Delete a kafka topic */
-  deleteProjectServiceNameDatabaseKafkaClusterIdTopicTopicId = (
+  deleteProjectDatabaseKafkaTopicByServiceNameAndClusterIdAndTopicId = (
     clusterId: string,
     serviceName: string,
     topicId: string
@@ -2702,7 +2719,7 @@ class CloudHandler {
   };
 
   /** Get kafka topics */
-  getProjectServiceNameDatabaseKafkaClusterIdTopicTopicId = (
+  getProjectDatabaseKafkaTopicByServiceNameAndClusterIdAndTopicId = (
     clusterId: string,
     serviceName: string,
     topicId: string
@@ -2714,7 +2731,7 @@ class CloudHandler {
   };
 
   /** Updates the topic on the kafka cluster */
-  putProjectServiceNameDatabaseKafkaClusterIdTopicTopicId = (
+  updateProjectDatabaseKafkaTopicByServiceNameAndClusterIdAndTopicId = (
     clusterId: string,
     serviceName: string,
     topicId: string,
@@ -2728,10 +2745,10 @@ class CloudHandler {
   };
 
   /** List users of the kafka */
-  getProjectServiceNameDatabaseKafkaClusterIdUser = (
+  listProjectDatabaseKafkaUsersByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafka/${clusterId}/user`
@@ -2739,7 +2756,7 @@ class CloudHandler {
   };
 
   /** Create a new user on the kafka cluster */
-  postProjectServiceNameDatabaseKafkaClusterIdUser = (
+  createProjectDatabaseKafkaUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceUserCreation
@@ -2752,7 +2769,7 @@ class CloudHandler {
   };
 
   /** Delete a kafka user */
-  deleteProjectServiceNameDatabaseKafkaClusterIdUserUserId = (
+  deleteProjectDatabaseKafkaUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -2764,7 +2781,7 @@ class CloudHandler {
   };
 
   /** Get kafka users */
-  getProjectServiceNameDatabaseKafkaClusterIdUserUserId = (
+  getProjectDatabaseKafkaUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -2776,7 +2793,7 @@ class CloudHandler {
   };
 
   /** Retrieve the user acces for the cluster */
-  getProjectServiceNameDatabaseKafkaClusterIdUserUserIdAccess = (
+  getProjectDatabaseKafkaUserAccessByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -2788,7 +2805,7 @@ class CloudHandler {
   };
 
   /** Resets the password of a user */
-  postProjectServiceNameDatabaseKafkaClusterIdUserUserIdCredentialsReset = (
+  postProjectDatabaseKafkaUserCredentialsResetByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -2800,12 +2817,12 @@ class CloudHandler {
   };
 
   /** List all the kafkaConnect of the project */
-  getProjectServiceNameDatabaseKafkaConnect = (serviceName: string): Promise<string> => {
+  listProjectDatabaseKafkaConnectsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/kafkaConnect`);
   };
 
   /** Create a new kafkaConnect cluster */
-  postProjectServiceNameDatabaseKafkaConnect = (
+  createProjectDatabaseKafkaConnectByServiceName = (
     serviceName: string,
     body: CloudProjectDatabaseServiceCreation
   ): Promise<CloudProjectDatabaseService> => {
@@ -2813,7 +2830,7 @@ class CloudHandler {
   };
 
   /** Delete a kafkaConnect cluster */
-  deleteProjectServiceNameDatabaseKafkaConnectClusterId = (
+  deleteProjectDatabaseKafkaConnectByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -2824,7 +2841,7 @@ class CloudHandler {
   };
 
   /** Get kafkaConnect cluster properties */
-  getProjectServiceNameDatabaseKafkaConnectClusterId = (
+  getProjectDatabaseKafkaConnectByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseService> => {
@@ -2835,7 +2852,7 @@ class CloudHandler {
   };
 
   /** Update an existing kafkaConnect cluster */
-  putProjectServiceNameDatabaseKafkaConnectClusterId = (
+  updateProjectDatabaseKafkaConnectByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseService
@@ -2848,7 +2865,7 @@ class CloudHandler {
   };
 
   /** Get kafkaConnect advanced configuration */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdAdvancedConfiguration = (
+  getProjectDatabaseKafkaConnectAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<Record<string, string>> => {
@@ -2859,7 +2876,7 @@ class CloudHandler {
   };
 
   /** Update kafkaConnect advanced configuration */
-  putProjectServiceNameDatabaseKafkaConnectClusterIdAdvancedConfiguration = (
+  updateProjectDatabaseKafkaConnectAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: Record<string, string>
@@ -2872,10 +2889,10 @@ class CloudHandler {
   };
 
   /** Get kafkaConnect advanced configuration fields */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdCapabilitiesAdvancedConfiguration = (
+  getProjectDatabaseKafkaConnectCapabilitiesAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/capabilities/advancedConfiguration`
@@ -2883,10 +2900,10 @@ class CloudHandler {
   };
 
   /** List Kafka Connect connectors */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdCapabilitiesConnector = (
+  listProjectDatabaseKafkaConnectCapabilitiesConnectorsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/capabilities/connector`
@@ -2894,7 +2911,7 @@ class CloudHandler {
   };
 
   /** Get Kafka Connect connector capability */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdCapabilitiesConnectorConnectorId = (
+  getProjectDatabaseKafkaConnectCapabilitiesConnectorByServiceNameAndClusterIdAndConnectorId = (
     clusterId: string,
     connectorId: string,
     serviceName: string
@@ -2906,12 +2923,12 @@ class CloudHandler {
   };
 
   /** Get Kafka Connect connector configuration */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdCapabilitiesConnectorConnectorIdConfiguration =
+  getProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationByServiceNameAndClusterIdAndConnectorId =
     (
       clusterId: string,
       connectorId: string,
       serviceName: string
-    ): Promise<CloudProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationProperty> => {
+    ): Promise<CloudProjectDatabaseKafkaConnectCapabilitiesConnectorConfigurationProperty[]> => {
       return this.ovh.request(
         'GET',
         `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/capabilities/connector/${connectorId}/configuration`
@@ -2919,22 +2936,23 @@ class CloudHandler {
     };
 
   /** Get Kafka Connect connector transforms */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdCapabilitiesConnectorConnectorIdTransforms = (
-    clusterId: string,
-    connectorId: string,
-    serviceName: string
-  ): Promise<CloudProjectDatabaseKafkaConnectCapabilitiesConnectorTransform> => {
-    return this.ovh.request(
-      'GET',
-      `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/capabilities/connector/${connectorId}/transforms`
-    );
-  };
+  getProjectDatabaseKafkaConnectCapabilitiesConnectorTransformsByServiceNameAndClusterIdAndConnectorId =
+    (
+      clusterId: string,
+      connectorId: string,
+      serviceName: string
+    ): Promise<CloudProjectDatabaseKafkaConnectCapabilitiesConnectorTransform[]> => {
+      return this.ovh.request(
+        'GET',
+        `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/capabilities/connector/${connectorId}/transforms`
+      );
+    };
 
   /** Get integration capabilities related to the kafkaConnect service */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdCapabilitiesIntegration = (
+  getProjectDatabaseKafkaConnectCapabilitiesIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesIntegration> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesIntegration[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/capabilities/integration`
@@ -2942,10 +2960,10 @@ class CloudHandler {
   };
 
   /** List the connectors */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdConnector = (
+  listProjectDatabaseKafkaConnectConnectorsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/connector`
@@ -2953,7 +2971,7 @@ class CloudHandler {
   };
 
   /** Create a new connector */
-  postProjectServiceNameDatabaseKafkaConnectClusterIdConnector = (
+  createProjectDatabaseKafkaConnectConnectorByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseKafkaConnectConnectorCreation
@@ -2966,7 +2984,7 @@ class CloudHandler {
   };
 
   /** Delete a connector */
-  deleteProjectServiceNameDatabaseKafkaConnectClusterIdConnectorConnectorId = (
+  deleteProjectDatabaseKafkaConnectConnectorByServiceNameAndClusterIdAndConnectorId = (
     clusterId: string,
     connectorId: string,
     serviceName: string
@@ -2978,7 +2996,7 @@ class CloudHandler {
   };
 
   /** Get connector */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdConnectorConnectorId = (
+  getProjectDatabaseKafkaConnectConnectorByServiceNameAndClusterIdAndConnectorId = (
     clusterId: string,
     connectorId: string,
     serviceName: string
@@ -2990,7 +3008,7 @@ class CloudHandler {
   };
 
   /** Update a connector */
-  putProjectServiceNameDatabaseKafkaConnectClusterIdConnectorConnectorId = (
+  updateProjectDatabaseKafkaConnectConnectorByServiceNameAndClusterIdAndConnectorId = (
     clusterId: string,
     connectorId: string,
     serviceName: string,
@@ -3004,7 +3022,7 @@ class CloudHandler {
   };
 
   /** Pause the kafka connector execution */
-  postProjectServiceNameDatabaseKafkaConnectClusterIdConnectorConnectorIdPause = (
+  postProjectDatabaseKafkaConnectConnectorPauseByServiceNameAndClusterIdAndConnectorId = (
     clusterId: string,
     connectorId: string,
     serviceName: string
@@ -3016,7 +3034,7 @@ class CloudHandler {
   };
 
   /** Restart the kafka connector execution */
-  postProjectServiceNameDatabaseKafkaConnectClusterIdConnectorConnectorIdRestart = (
+  postProjectDatabaseKafkaConnectConnectorRestartByServiceNameAndClusterIdAndConnectorId = (
     clusterId: string,
     connectorId: string,
     serviceName: string
@@ -3028,7 +3046,7 @@ class CloudHandler {
   };
 
   /** Resume the kafka connector execution */
-  postProjectServiceNameDatabaseKafkaConnectClusterIdConnectorConnectorIdResume = (
+  postProjectDatabaseKafkaConnectConnectorResumeByServiceNameAndClusterIdAndConnectorId = (
     clusterId: string,
     connectorId: string,
     serviceName: string
@@ -3040,11 +3058,11 @@ class CloudHandler {
   };
 
   /** List the connector tasks */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdConnectorConnectorIdTask = (
+  listProjectDatabaseKafkaConnectConnectorTasksByServiceNameAndClusterIdAndConnectorId = (
     clusterId: string,
     connectorId: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/connector/${connectorId}/task`
@@ -3052,7 +3070,7 @@ class CloudHandler {
   };
 
   /** Get connector task */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdConnectorConnectorIdTaskTaskId = (
+  getProjectDatabaseKafkaConnectConnectorTaskByServiceNameAndClusterIdAndConnectorIdAndTaskId = (
     clusterId: string,
     connectorId: string,
     serviceName: string,
@@ -3065,23 +3083,24 @@ class CloudHandler {
   };
 
   /** Restart the kafka connector task execution */
-  postProjectServiceNameDatabaseKafkaConnectClusterIdConnectorConnectorIdTaskTaskIdRestart = (
-    clusterId: string,
-    connectorId: string,
-    serviceName: string,
-    taskId: number
-  ): Promise<void> => {
-    return this.ovh.request(
-      'POST',
-      `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/connector/${connectorId}/task/${taskId}/restart`
-    );
-  };
+  postProjectDatabaseKafkaConnectConnectorTaskRestartByServiceNameAndClusterIdAndConnectorIdAndTaskId =
+    (
+      clusterId: string,
+      connectorId: string,
+      serviceName: string,
+      taskId: number
+    ): Promise<void> => {
+      return this.ovh.request(
+        'POST',
+        `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/connector/${connectorId}/task/${taskId}/restart`
+      );
+    };
 
   /** List integrations */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdIntegration = (
+  listProjectDatabaseKafkaConnectIntegrationsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/integration`
@@ -3089,7 +3108,7 @@ class CloudHandler {
   };
 
   /** Create a new integration */
-  postProjectServiceNameDatabaseKafkaConnectClusterIdIntegration = (
+  createProjectDatabaseKafkaConnectIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceIntegration
@@ -3102,7 +3121,7 @@ class CloudHandler {
   };
 
   /** Delete an integration */
-  deleteProjectServiceNameDatabaseKafkaConnectClusterIdIntegrationIntegrationId = (
+  deleteProjectDatabaseKafkaConnectIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -3114,7 +3133,7 @@ class CloudHandler {
   };
 
   /** Get an integration */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdIntegrationIntegrationId = (
+  getProjectDatabaseKafkaConnectIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -3126,10 +3145,10 @@ class CloudHandler {
   };
 
   /** List kafkaConnect ip restrictions */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdIpRestriction = (
+  listProjectDatabaseKafkaConnectIpRestrictionsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/ipRestriction`
@@ -3137,7 +3156,7 @@ class CloudHandler {
   };
 
   /** Add ip restrictions to the kafkaConnect */
-  postProjectServiceNameDatabaseKafkaConnectClusterIdIpRestriction = (
+  addProjectDatabaseKafkaConnectIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseIpRestrictionCreation
@@ -3150,7 +3169,7 @@ class CloudHandler {
   };
 
   /** Deletes the given IP from the restricted IPs of the kafkaConnect */
-  deleteProjectServiceNameDatabaseKafkaConnectClusterIdIpRestrictionIpBlock = (
+  deleteProjectDatabaseKafkaConnectIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -3162,7 +3181,7 @@ class CloudHandler {
   };
 
   /** Get kafkaConnect ip restrictions */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdIpRestrictionIpBlock = (
+  getProjectDatabaseKafkaConnectIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -3174,7 +3193,7 @@ class CloudHandler {
   };
 
   /** Changes the list of ip restrictions to the kafkaConnect */
-  putProjectServiceNameDatabaseKafkaConnectClusterIdIpRestrictionIpBlock = (
+  updateProjectDatabaseKafkaConnectIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string,
@@ -3188,10 +3207,10 @@ class CloudHandler {
   };
 
   /** Retrieve the most recent kafkaConnect log messages (limited to 1000) */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdLogs = (
+  getProjectDatabaseKafkaConnectLogsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseServiceLogEntry> => {
+  ): Promise<CloudProjectDatabaseServiceLogEntry[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/logs`
@@ -3199,10 +3218,10 @@ class CloudHandler {
   };
 
   /** List maintenances for the kafka connect cluster */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdMaintenance = (
+  listProjectDatabaseKafkaConnectMaintenancesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/maintenance`
@@ -3210,7 +3229,7 @@ class CloudHandler {
   };
 
   /** Get the maintenance for the kafka connect cluster */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdMaintenanceMaintenanceId = (
+  getProjectDatabaseKafkaConnectMaintenanceByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -3222,7 +3241,7 @@ class CloudHandler {
   };
 
   /** Apply the maintenance */
-  postProjectServiceNameDatabaseKafkaConnectClusterIdMaintenanceMaintenanceIdApply = (
+  postProjectDatabaseKafkaConnectMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -3234,10 +3253,10 @@ class CloudHandler {
   };
 
   /** List available metrics for the kafkaConnect cluster */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdMetric = (
+  listProjectDatabaseKafkaConnectMetricsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/metric`
@@ -3245,7 +3264,7 @@ class CloudHandler {
   };
 
   /** Get the metric values for the kafkaConnect cluster */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdMetricMetricName = (
+  getProjectDatabaseKafkaConnectMetricByServiceNameAndClusterIdAndMetricName = (
     clusterId: string,
     metricName: string,
     serviceName: string
@@ -3257,10 +3276,10 @@ class CloudHandler {
   };
 
   /** List nodes of the kafkaConnect */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdNode = (
+  listProjectDatabaseKafkaConnectNodesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/node`
@@ -3268,7 +3287,7 @@ class CloudHandler {
   };
 
   /** Get kafkaConnect nodes */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdNodeNodeId = (
+  getProjectDatabaseKafkaConnectNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string
@@ -3280,10 +3299,10 @@ class CloudHandler {
   };
 
   /** List users of the kafkaConnect */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdUser = (
+  listProjectDatabaseKafkaConnectUsersByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaConnect/${clusterId}/user`
@@ -3291,7 +3310,7 @@ class CloudHandler {
   };
 
   /** Create a new user on the kafkaConnect cluster */
-  postProjectServiceNameDatabaseKafkaConnectClusterIdUser = (
+  createProjectDatabaseKafkaConnectUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceUserCreation
@@ -3304,7 +3323,7 @@ class CloudHandler {
   };
 
   /** Delete a kafkaConnect user */
-  deleteProjectServiceNameDatabaseKafkaConnectClusterIdUserUserId = (
+  deleteProjectDatabaseKafkaConnectUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -3316,7 +3335,7 @@ class CloudHandler {
   };
 
   /** Get kafkaConnect users */
-  getProjectServiceNameDatabaseKafkaConnectClusterIdUserUserId = (
+  getProjectDatabaseKafkaConnectUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -3328,7 +3347,7 @@ class CloudHandler {
   };
 
   /** Resets the password of a user */
-  postProjectServiceNameDatabaseKafkaConnectClusterIdUserUserIdCredentialsReset = (
+  postProjectDatabaseKafkaConnectUserCredentialsResetByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -3340,12 +3359,12 @@ class CloudHandler {
   };
 
   /** List all the kafkaMirrorMaker of the project */
-  getProjectServiceNameDatabaseKafkaMirrorMaker = (serviceName: string): Promise<string> => {
+  listProjectDatabaseKafkaMirrorMakersByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/kafkaMirrorMaker`);
   };
 
   /** Create a new kafkaMirrorMaker */
-  postProjectServiceNameDatabaseKafkaMirrorMaker = (
+  createProjectDatabaseKafkaMirrorMakerByServiceName = (
     serviceName: string,
     body: CloudProjectDatabaseServiceCreation
   ): Promise<CloudProjectDatabaseService> => {
@@ -3357,7 +3376,7 @@ class CloudHandler {
   };
 
   /** Delete a kafkaMirrorMaker */
-  deleteProjectServiceNameDatabaseKafkaMirrorMakerClusterId = (
+  deleteProjectDatabaseKafkaMirrorMakerByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -3368,7 +3387,7 @@ class CloudHandler {
   };
 
   /** Get kafkaMirrorMaker properties */
-  getProjectServiceNameDatabaseKafkaMirrorMakerClusterId = (
+  getProjectDatabaseKafkaMirrorMakerByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseService> => {
@@ -3379,7 +3398,7 @@ class CloudHandler {
   };
 
   /** Update an existing kafkaMirrorMaker */
-  putProjectServiceNameDatabaseKafkaMirrorMakerClusterId = (
+  updateProjectDatabaseKafkaMirrorMakerByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseService
@@ -3392,10 +3411,10 @@ class CloudHandler {
   };
 
   /** Get integration capabilities related to the kafkaMirrorMaker service */
-  getProjectServiceNameDatabaseKafkaMirrorMakerClusterIdCapabilitiesIntegration = (
+  getProjectDatabaseKafkaMirrorMakerCapabilitiesIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesIntegration> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesIntegration[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaMirrorMaker/${clusterId}/capabilities/integration`
@@ -3403,10 +3422,10 @@ class CloudHandler {
   };
 
   /** List integrations */
-  getProjectServiceNameDatabaseKafkaMirrorMakerClusterIdIntegration = (
+  listProjectDatabaseKafkaMirrorMakerIntegrationsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaMirrorMaker/${clusterId}/integration`
@@ -3414,7 +3433,7 @@ class CloudHandler {
   };
 
   /** Create a new integration */
-  postProjectServiceNameDatabaseKafkaMirrorMakerClusterIdIntegration = (
+  createProjectDatabaseKafkaMirrorMakerIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceIntegration
@@ -3427,7 +3446,7 @@ class CloudHandler {
   };
 
   /** Delete an integration */
-  deleteProjectServiceNameDatabaseKafkaMirrorMakerClusterIdIntegrationIntegrationId = (
+  deleteProjectDatabaseKafkaMirrorMakerIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -3439,7 +3458,7 @@ class CloudHandler {
   };
 
   /** Get an integration */
-  getProjectServiceNameDatabaseKafkaMirrorMakerClusterIdIntegrationIntegrationId = (
+  getProjectDatabaseKafkaMirrorMakerIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -3451,10 +3470,10 @@ class CloudHandler {
   };
 
   /** Retrieve the most recent kafkaMirrorMaker log messages (limited to 1000) */
-  getProjectServiceNameDatabaseKafkaMirrorMakerClusterIdLogs = (
+  getProjectDatabaseKafkaMirrorMakerLogsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseServiceLogEntry> => {
+  ): Promise<CloudProjectDatabaseServiceLogEntry[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaMirrorMaker/${clusterId}/logs`
@@ -3462,10 +3481,10 @@ class CloudHandler {
   };
 
   /** List maintenances for the kafka mirror maker cluster */
-  getProjectServiceNameDatabaseKafkaMirrorMakerClusterIdMaintenance = (
+  listProjectDatabaseKafkaMirrorMakerMaintenancesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaMirrorMaker/${clusterId}/maintenance`
@@ -3473,7 +3492,7 @@ class CloudHandler {
   };
 
   /** Get the maintenance for the kafka mirror maker cluster */
-  getProjectServiceNameDatabaseKafkaMirrorMakerClusterIdMaintenanceMaintenanceId = (
+  getProjectDatabaseKafkaMirrorMakerMaintenanceByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -3485,7 +3504,7 @@ class CloudHandler {
   };
 
   /** Apply the maintenance */
-  postProjectServiceNameDatabaseKafkaMirrorMakerClusterIdMaintenanceMaintenanceIdApply = (
+  postProjectDatabaseKafkaMirrorMakerMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -3497,10 +3516,10 @@ class CloudHandler {
   };
 
   /** List available metrics for the kafkaMirrorMaker */
-  getProjectServiceNameDatabaseKafkaMirrorMakerClusterIdMetric = (
+  listProjectDatabaseKafkaMirrorMakerMetricsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaMirrorMaker/${clusterId}/metric`
@@ -3508,7 +3527,7 @@ class CloudHandler {
   };
 
   /** Get the metric values for the kafkaMirrorMaker */
-  getProjectServiceNameDatabaseKafkaMirrorMakerClusterIdMetricMetricName = (
+  getProjectDatabaseKafkaMirrorMakerMetricByServiceNameAndClusterIdAndMetricName = (
     clusterId: string,
     metricName: string,
     serviceName: string
@@ -3520,10 +3539,10 @@ class CloudHandler {
   };
 
   /** List nodes of the kafkaMirrorMaker */
-  getProjectServiceNameDatabaseKafkaMirrorMakerClusterIdNode = (
+  listProjectDatabaseKafkaMirrorMakerNodesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaMirrorMaker/${clusterId}/node`
@@ -3531,7 +3550,7 @@ class CloudHandler {
   };
 
   /** Get kafkaMirrorMaker nodes */
-  getProjectServiceNameDatabaseKafkaMirrorMakerClusterIdNodeNodeId = (
+  getProjectDatabaseKafkaMirrorMakerNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string
@@ -3543,10 +3562,10 @@ class CloudHandler {
   };
 
   /** List replication of the kafkaMirrorMaker */
-  getProjectServiceNameDatabaseKafkaMirrorMakerClusterIdReplication = (
+  listProjectDatabaseKafkaMirrorMakerReplicationsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/kafkaMirrorMaker/${clusterId}/replication`
@@ -3554,7 +3573,7 @@ class CloudHandler {
   };
 
   /** Create a new replication */
-  postProjectServiceNameDatabaseKafkaMirrorMakerClusterIdReplication = (
+  createProjectDatabaseKafkaMirrorMakerReplicationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceReplicationCreation
@@ -3567,7 +3586,7 @@ class CloudHandler {
   };
 
   /** Delete an replication */
-  deleteProjectServiceNameDatabaseKafkaMirrorMakerClusterIdReplicationReplicationId = (
+  deleteProjectDatabaseKafkaMirrorMakerReplicationByServiceNameAndClusterIdAndReplicationId = (
     clusterId: string,
     replicationId: string,
     serviceName: string
@@ -3579,7 +3598,7 @@ class CloudHandler {
   };
 
   /** Get kafkaMirrorMaker replication */
-  getProjectServiceNameDatabaseKafkaMirrorMakerClusterIdReplicationReplicationId = (
+  getProjectDatabaseKafkaMirrorMakerReplicationByServiceNameAndClusterIdAndReplicationId = (
     clusterId: string,
     replicationId: string,
     serviceName: string
@@ -3591,7 +3610,7 @@ class CloudHandler {
   };
 
   /** Updates a replication */
-  putProjectServiceNameDatabaseKafkaMirrorMakerClusterIdReplicationReplicationId = (
+  updateProjectDatabaseKafkaMirrorMakerReplicationByServiceNameAndClusterIdAndReplicationId = (
     clusterId: string,
     replicationId: string,
     serviceName: string,
@@ -3605,12 +3624,12 @@ class CloudHandler {
   };
 
   /** List all the m3aggregator of the project */
-  getProjectServiceNameDatabaseM3aggregator = (serviceName: string): Promise<string> => {
+  listProjectDatabaseM3aggregatorsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/m3aggregator`);
   };
 
   /** Create a new m3aggregator */
-  postProjectServiceNameDatabaseM3aggregator = (
+  createProjectDatabaseM3aggregatorByServiceName = (
     serviceName: string,
     body: CloudProjectDatabaseServiceCreation
   ): Promise<CloudProjectDatabaseService> => {
@@ -3618,7 +3637,7 @@ class CloudHandler {
   };
 
   /** Delete a m3aggregator */
-  deleteProjectServiceNameDatabaseM3aggregatorClusterId = (
+  deleteProjectDatabaseM3aggregatorByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -3629,7 +3648,7 @@ class CloudHandler {
   };
 
   /** Get m3aggregator properties */
-  getProjectServiceNameDatabaseM3aggregatorClusterId = (
+  getProjectDatabaseM3aggregatorByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseService> => {
@@ -3640,7 +3659,7 @@ class CloudHandler {
   };
 
   /** Update an existing m3aggregator */
-  putProjectServiceNameDatabaseM3aggregatorClusterId = (
+  updateProjectDatabaseM3aggregatorByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseService
@@ -3653,10 +3672,10 @@ class CloudHandler {
   };
 
   /** Get integration capabilities related to the m3aggregator service */
-  getProjectServiceNameDatabaseM3aggregatorClusterIdCapabilitiesIntegration = (
+  getProjectDatabaseM3aggregatorCapabilitiesIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesIntegration> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesIntegration[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3aggregator/${clusterId}/capabilities/integration`
@@ -3664,10 +3683,10 @@ class CloudHandler {
   };
 
   /** List integrations */
-  getProjectServiceNameDatabaseM3aggregatorClusterIdIntegration = (
+  listProjectDatabaseM3aggregatorIntegrationsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3aggregator/${clusterId}/integration`
@@ -3675,7 +3694,7 @@ class CloudHandler {
   };
 
   /** Create a new integration */
-  postProjectServiceNameDatabaseM3aggregatorClusterIdIntegration = (
+  createProjectDatabaseM3aggregatorIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceIntegration
@@ -3688,7 +3707,7 @@ class CloudHandler {
   };
 
   /** Delete an integration */
-  deleteProjectServiceNameDatabaseM3aggregatorClusterIdIntegrationIntegrationId = (
+  deleteProjectDatabaseM3aggregatorIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -3700,7 +3719,7 @@ class CloudHandler {
   };
 
   /** Get an integration */
-  getProjectServiceNameDatabaseM3aggregatorClusterIdIntegrationIntegrationId = (
+  getProjectDatabaseM3aggregatorIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -3712,10 +3731,10 @@ class CloudHandler {
   };
 
   /** Retrieve the most recent m3aggregator log messages (limited to 1000) */
-  getProjectServiceNameDatabaseM3aggregatorClusterIdLogs = (
+  getProjectDatabaseM3aggregatorLogsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseServiceLogEntry> => {
+  ): Promise<CloudProjectDatabaseServiceLogEntry[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3aggregator/${clusterId}/logs`
@@ -3723,10 +3742,10 @@ class CloudHandler {
   };
 
   /** List maintenances for the m3aggregator cluster */
-  getProjectServiceNameDatabaseM3aggregatorClusterIdMaintenance = (
+  listProjectDatabaseM3aggregatorMaintenancesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3aggregator/${clusterId}/maintenance`
@@ -3734,7 +3753,7 @@ class CloudHandler {
   };
 
   /** Get the maintenance for the m3aggregator cluster */
-  getProjectServiceNameDatabaseM3aggregatorClusterIdMaintenanceMaintenanceId = (
+  getProjectDatabaseM3aggregatorMaintenanceByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -3746,7 +3765,7 @@ class CloudHandler {
   };
 
   /** Apply the maintenance */
-  postProjectServiceNameDatabaseM3aggregatorClusterIdMaintenanceMaintenanceIdApply = (
+  postProjectDatabaseM3aggregatorMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -3758,10 +3777,10 @@ class CloudHandler {
   };
 
   /** List available metrics for the m3aggregator */
-  getProjectServiceNameDatabaseM3aggregatorClusterIdMetric = (
+  listProjectDatabaseM3aggregatorMetricsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3aggregator/${clusterId}/metric`
@@ -3769,7 +3788,7 @@ class CloudHandler {
   };
 
   /** Get the metric values for the m3aggregator */
-  getProjectServiceNameDatabaseM3aggregatorClusterIdMetricMetricName = (
+  getProjectDatabaseM3aggregatorMetricByServiceNameAndClusterIdAndMetricName = (
     clusterId: string,
     metricName: string,
     serviceName: string
@@ -3781,10 +3800,10 @@ class CloudHandler {
   };
 
   /** List nodes of the m3aggregator */
-  getProjectServiceNameDatabaseM3aggregatorClusterIdNode = (
+  listProjectDatabaseM3aggregatorNodesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3aggregator/${clusterId}/node`
@@ -3792,7 +3811,7 @@ class CloudHandler {
   };
 
   /** Get m3aggregator nodes */
-  getProjectServiceNameDatabaseM3aggregatorClusterIdNodeNodeId = (
+  getProjectDatabaseM3aggregatorNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string
@@ -3804,12 +3823,12 @@ class CloudHandler {
   };
 
   /** List all the m3db clusters of the project */
-  getProjectServiceNameDatabaseM3db = (serviceName: string): Promise<string> => {
+  listProjectDatabaseM3dbsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/m3db`);
   };
 
   /** Create a new m3db cluster */
-  postProjectServiceNameDatabaseM3db = (
+  createProjectDatabaseM3dbByServiceName = (
     serviceName: string,
     body: CloudProjectDatabaseServiceCreation
   ): Promise<CloudProjectDatabaseService> => {
@@ -3817,7 +3836,7 @@ class CloudHandler {
   };
 
   /** Delete a m3db cluster */
-  deleteProjectServiceNameDatabaseM3dbClusterId = (
+  deleteProjectDatabaseM3dbByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -3825,7 +3844,7 @@ class CloudHandler {
   };
 
   /** Get m3db cluster properties */
-  getProjectServiceNameDatabaseM3dbClusterId = (
+  getProjectDatabaseM3dbByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseService> => {
@@ -3833,7 +3852,7 @@ class CloudHandler {
   };
 
   /** Update an existing m3db cluster */
-  putProjectServiceNameDatabaseM3dbClusterId = (
+  updateProjectDatabaseM3dbByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseService
@@ -3846,7 +3865,7 @@ class CloudHandler {
   };
 
   /** Get m3db advanced configuration */
-  getProjectServiceNameDatabaseM3dbClusterIdAdvancedConfiguration = (
+  getProjectDatabaseM3dbAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<Record<string, string>> => {
@@ -3857,7 +3876,7 @@ class CloudHandler {
   };
 
   /** Update m3db advanced configuration */
-  putProjectServiceNameDatabaseM3dbClusterIdAdvancedConfiguration = (
+  updateProjectDatabaseM3dbAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: Record<string, string>
@@ -3870,10 +3889,10 @@ class CloudHandler {
   };
 
   /** List backups of the m3db */
-  getProjectServiceNameDatabaseM3dbClusterIdBackup = (
+  listProjectDatabaseM3dbBackupsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3db/${clusterId}/backup`
@@ -3881,7 +3900,7 @@ class CloudHandler {
   };
 
   /** Get m3db backups */
-  getProjectServiceNameDatabaseM3dbClusterIdBackupBackupId = (
+  getProjectDatabaseM3dbBackupByServiceNameAndClusterIdAndBackupId = (
     backupId: string,
     clusterId: string,
     serviceName: string
@@ -3893,10 +3912,10 @@ class CloudHandler {
   };
 
   /** Get m3db advanced configuration fields */
-  getProjectServiceNameDatabaseM3dbClusterIdCapabilitiesAdvancedConfiguration = (
+  getProjectDatabaseM3dbCapabilitiesAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3db/${clusterId}/capabilities/advancedConfiguration`
@@ -3904,10 +3923,10 @@ class CloudHandler {
   };
 
   /** Get integration capabilities related to the m3db service */
-  getProjectServiceNameDatabaseM3dbClusterIdCapabilitiesIntegration = (
+  getProjectDatabaseM3dbCapabilitiesIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesIntegration> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesIntegration[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3db/${clusterId}/capabilities/integration`
@@ -3915,10 +3934,10 @@ class CloudHandler {
   };
 
   /** List integrations */
-  getProjectServiceNameDatabaseM3dbClusterIdIntegration = (
+  listProjectDatabaseM3dbIntegrationsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3db/${clusterId}/integration`
@@ -3926,7 +3945,7 @@ class CloudHandler {
   };
 
   /** Create a new integration */
-  postProjectServiceNameDatabaseM3dbClusterIdIntegration = (
+  createProjectDatabaseM3dbIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceIntegration
@@ -3939,7 +3958,7 @@ class CloudHandler {
   };
 
   /** Delete an integration */
-  deleteProjectServiceNameDatabaseM3dbClusterIdIntegrationIntegrationId = (
+  deleteProjectDatabaseM3dbIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -3951,7 +3970,7 @@ class CloudHandler {
   };
 
   /** Get an integration */
-  getProjectServiceNameDatabaseM3dbClusterIdIntegrationIntegrationId = (
+  getProjectDatabaseM3dbIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -3963,10 +3982,10 @@ class CloudHandler {
   };
 
   /** List m3db ip restrictions */
-  getProjectServiceNameDatabaseM3dbClusterIdIpRestriction = (
+  listProjectDatabaseM3dbIpRestrictionsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3db/${clusterId}/ipRestriction`
@@ -3974,7 +3993,7 @@ class CloudHandler {
   };
 
   /** Add ip restrictions to the m3db */
-  postProjectServiceNameDatabaseM3dbClusterIdIpRestriction = (
+  addProjectDatabaseM3dbIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseIpRestrictionCreation
@@ -3987,7 +4006,7 @@ class CloudHandler {
   };
 
   /** Deletes the given IP from the restricted IPs of the m3db */
-  deleteProjectServiceNameDatabaseM3dbClusterIdIpRestrictionIpBlock = (
+  deleteProjectDatabaseM3dbIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -3999,7 +4018,7 @@ class CloudHandler {
   };
 
   /** Get m3db ip restrictions */
-  getProjectServiceNameDatabaseM3dbClusterIdIpRestrictionIpBlock = (
+  getProjectDatabaseM3dbIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -4011,7 +4030,7 @@ class CloudHandler {
   };
 
   /** Changes the list of ip restrictions to the m3db */
-  putProjectServiceNameDatabaseM3dbClusterIdIpRestrictionIpBlock = (
+  updateProjectDatabaseM3dbIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string,
@@ -4025,18 +4044,18 @@ class CloudHandler {
   };
 
   /** Retrieve the most recent m3db log messages (limited to 1000) */
-  getProjectServiceNameDatabaseM3dbClusterIdLogs = (
+  getProjectDatabaseM3dbLogsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseServiceLogEntry> => {
+  ): Promise<CloudProjectDatabaseServiceLogEntry[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/m3db/${clusterId}/logs`);
   };
 
   /** List maintenances for the m3db cluster */
-  getProjectServiceNameDatabaseM3dbClusterIdMaintenance = (
+  listProjectDatabaseM3dbMaintenancesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3db/${clusterId}/maintenance`
@@ -4044,7 +4063,7 @@ class CloudHandler {
   };
 
   /** Get the maintenance for the m3db cluster */
-  getProjectServiceNameDatabaseM3dbClusterIdMaintenanceMaintenanceId = (
+  getProjectDatabaseM3dbMaintenanceByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -4056,7 +4075,7 @@ class CloudHandler {
   };
 
   /** Apply the maintenance */
-  postProjectServiceNameDatabaseM3dbClusterIdMaintenanceMaintenanceIdApply = (
+  postProjectDatabaseM3dbMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -4068,10 +4087,10 @@ class CloudHandler {
   };
 
   /** List available metrics for the m3db cluster */
-  getProjectServiceNameDatabaseM3dbClusterIdMetric = (
+  listProjectDatabaseM3dbMetricsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3db/${clusterId}/metric`
@@ -4079,7 +4098,7 @@ class CloudHandler {
   };
 
   /** Get the metric values for the m3db cluster */
-  getProjectServiceNameDatabaseM3dbClusterIdMetricMetricName = (
+  getProjectDatabaseM3dbMetricByServiceNameAndClusterIdAndMetricName = (
     clusterId: string,
     metricName: string,
     serviceName: string
@@ -4091,10 +4110,10 @@ class CloudHandler {
   };
 
   /** List namespaces of the m3db */
-  getProjectServiceNameDatabaseM3dbClusterIdNamespace = (
+  listProjectDatabaseM3dbNamespacesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/m3db/${clusterId}/namespace`
@@ -4102,7 +4121,7 @@ class CloudHandler {
   };
 
   /** Create a new namespace on the m3db cluster */
-  postProjectServiceNameDatabaseM3dbClusterIdNamespace = (
+  createProjectDatabaseM3dbNamespaceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseM3dbNamespaceCreation
@@ -4115,7 +4134,7 @@ class CloudHandler {
   };
 
   /** Delete m3db namespace */
-  deleteProjectServiceNameDatabaseM3dbClusterIdNamespaceNamespaceId = (
+  deleteProjectDatabaseM3dbNamespaceByServiceNameAndClusterIdAndNamespaceId = (
     clusterId: string,
     namespaceId: string,
     serviceName: string
@@ -4127,7 +4146,7 @@ class CloudHandler {
   };
 
   /** Get m3db namespaces */
-  getProjectServiceNameDatabaseM3dbClusterIdNamespaceNamespaceId = (
+  getProjectDatabaseM3dbNamespaceByServiceNameAndClusterIdAndNamespaceId = (
     clusterId: string,
     namespaceId: string,
     serviceName: string
@@ -4139,7 +4158,7 @@ class CloudHandler {
   };
 
   /** Updates the namespace on the m3db cluster */
-  putProjectServiceNameDatabaseM3dbClusterIdNamespaceNamespaceId = (
+  updateProjectDatabaseM3dbNamespaceByServiceNameAndClusterIdAndNamespaceId = (
     clusterId: string,
     namespaceId: string,
     serviceName: string,
@@ -4153,15 +4172,15 @@ class CloudHandler {
   };
 
   /** List nodes of the m3db */
-  getProjectServiceNameDatabaseM3dbClusterIdNode = (
+  listProjectDatabaseM3dbNodesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/m3db/${clusterId}/node`);
   };
 
   /** Get m3db nodes */
-  getProjectServiceNameDatabaseM3dbClusterIdNodeNodeId = (
+  getProjectDatabaseM3dbNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string
@@ -4173,15 +4192,15 @@ class CloudHandler {
   };
 
   /** List users of the m3db */
-  getProjectServiceNameDatabaseM3dbClusterIdUser = (
+  listProjectDatabaseM3dbUsersByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/m3db/${clusterId}/user`);
   };
 
   /** Create a new user on the m3db cluster */
-  postProjectServiceNameDatabaseM3dbClusterIdUser = (
+  createProjectDatabaseM3dbUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseM3dbUserCreation
@@ -4194,7 +4213,7 @@ class CloudHandler {
   };
 
   /** Delete m3db user */
-  deleteProjectServiceNameDatabaseM3dbClusterIdUserUserId = (
+  deleteProjectDatabaseM3dbUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -4206,7 +4225,7 @@ class CloudHandler {
   };
 
   /** Get m3db users */
-  getProjectServiceNameDatabaseM3dbClusterIdUserUserId = (
+  getProjectDatabaseM3dbUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -4218,7 +4237,7 @@ class CloudHandler {
   };
 
   /** Updates the user on the m3db cluster */
-  putProjectServiceNameDatabaseM3dbClusterIdUserUserId = (
+  updateProjectDatabaseM3dbUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string,
@@ -4232,7 +4251,7 @@ class CloudHandler {
   };
 
   /** Resets the password of a user */
-  postProjectServiceNameDatabaseM3dbClusterIdUserUserIdCredentialsReset = (
+  postProjectDatabaseM3dbUserCredentialsResetByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -4244,12 +4263,12 @@ class CloudHandler {
   };
 
   /** List mongodbs of the project */
-  getProjectServiceNameDatabaseMongodb = (serviceName: string): Promise<string> => {
+  listProjectDatabaseMongodbsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/mongodb`);
   };
 
   /** Create a new mongodb cluster */
-  postProjectServiceNameDatabaseMongodb = (
+  createProjectDatabaseMongodbByServiceName = (
     serviceName: string,
     body: CloudProjectDatabaseServiceCreation
   ): Promise<CloudProjectDatabaseService> => {
@@ -4257,7 +4276,7 @@ class CloudHandler {
   };
 
   /** Delete a mongodb cluster */
-  deleteProjectServiceNameDatabaseMongodbClusterId = (
+  deleteProjectDatabaseMongodbByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -4268,7 +4287,7 @@ class CloudHandler {
   };
 
   /** Get mongodb cluster properties */
-  getProjectServiceNameDatabaseMongodbClusterId = (
+  getProjectDatabaseMongodbByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseService> => {
@@ -4276,7 +4295,7 @@ class CloudHandler {
   };
 
   /** Update an existing mongodb cluster */
-  putProjectServiceNameDatabaseMongodbClusterId = (
+  updateProjectDatabaseMongodbByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseService
@@ -4289,10 +4308,10 @@ class CloudHandler {
   };
 
   /** List backups of the mongodb */
-  getProjectServiceNameDatabaseMongodbClusterIdBackup = (
+  listProjectDatabaseMongodbBackupsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mongodb/${clusterId}/backup`
@@ -4300,7 +4319,7 @@ class CloudHandler {
   };
 
   /** Get mongodb backups */
-  getProjectServiceNameDatabaseMongodbClusterIdBackupBackupId = (
+  getProjectDatabaseMongodbBackupByServiceNameAndClusterIdAndBackupId = (
     backupId: string,
     clusterId: string,
     serviceName: string
@@ -4312,7 +4331,7 @@ class CloudHandler {
   };
 
   /** Restore the backup */
-  postProjectServiceNameDatabaseMongodbClusterIdBackupBackupIdRestore = (
+  postProjectDatabaseMongodbBackupRestoreByServiceNameAndClusterIdAndBackupId = (
     backupId: string,
     clusterId: string,
     serviceName: string
@@ -4324,10 +4343,10 @@ class CloudHandler {
   };
 
   /** List mongodb ip restrictions */
-  getProjectServiceNameDatabaseMongodbClusterIdIpRestriction = (
+  listProjectDatabaseMongodbIpRestrictionsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mongodb/${clusterId}/ipRestriction`
@@ -4335,7 +4354,7 @@ class CloudHandler {
   };
 
   /** Add ip restrictions to the mongodb */
-  postProjectServiceNameDatabaseMongodbClusterIdIpRestriction = (
+  addProjectDatabaseMongodbIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseIpRestrictionCreation
@@ -4348,7 +4367,7 @@ class CloudHandler {
   };
 
   /** Deletes the given IP from the restricted IPs of the mongodb */
-  deleteProjectServiceNameDatabaseMongodbClusterIdIpRestrictionIpBlock = (
+  deleteProjectDatabaseMongodbIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -4360,7 +4379,7 @@ class CloudHandler {
   };
 
   /** Get mongodb ip restrictions */
-  getProjectServiceNameDatabaseMongodbClusterIdIpRestrictionIpBlock = (
+  getProjectDatabaseMongodbIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -4372,7 +4391,7 @@ class CloudHandler {
   };
 
   /** Changes the list of ip restrictions to the mongodb */
-  putProjectServiceNameDatabaseMongodbClusterIdIpRestrictionIpBlock = (
+  updateProjectDatabaseMongodbIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string,
@@ -4386,10 +4405,10 @@ class CloudHandler {
   };
 
   /** Retrieve the most recent mongoDB log messages (limited to 1000) */
-  getProjectServiceNameDatabaseMongodbClusterIdLogs = (
+  getProjectDatabaseMongodbLogsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseServiceLogEntry> => {
+  ): Promise<CloudProjectDatabaseServiceLogEntry[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mongodb/${clusterId}/logs`
@@ -4397,10 +4416,10 @@ class CloudHandler {
   };
 
   /** List maintenances for the mongodb cluster */
-  getProjectServiceNameDatabaseMongodbClusterIdMaintenance = (
+  listProjectDatabaseMongodbMaintenancesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mongodb/${clusterId}/maintenance`
@@ -4408,7 +4427,7 @@ class CloudHandler {
   };
 
   /** Get the maintenance for the mongodb cluster */
-  getProjectServiceNameDatabaseMongodbClusterIdMaintenanceMaintenanceId = (
+  getProjectDatabaseMongodbMaintenanceByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -4420,7 +4439,7 @@ class CloudHandler {
   };
 
   /** Apply the maintenance */
-  postProjectServiceNameDatabaseMongodbClusterIdMaintenanceMaintenanceIdApply = (
+  postProjectDatabaseMongodbMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -4432,10 +4451,10 @@ class CloudHandler {
   };
 
   /** List available metrics for the mongodb cluster */
-  getProjectServiceNameDatabaseMongodbClusterIdMetric = (
+  listProjectDatabaseMongodbMetricsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mongodb/${clusterId}/metric`
@@ -4443,7 +4462,7 @@ class CloudHandler {
   };
 
   /** Get the metric values for the mongodb cluster */
-  getProjectServiceNameDatabaseMongodbClusterIdMetricMetricName = (
+  getProjectDatabaseMongodbMetricByServiceNameAndClusterIdAndMetricName = (
     clusterId: string,
     metricName: string,
     serviceName: string
@@ -4455,10 +4474,10 @@ class CloudHandler {
   };
 
   /** List nodes of the mongodb */
-  getProjectServiceNameDatabaseMongodbClusterIdNode = (
+  listProjectDatabaseMongodbNodesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mongodb/${clusterId}/node`
@@ -4466,7 +4485,7 @@ class CloudHandler {
   };
 
   /** Create a new node on the mongodb cluster */
-  postProjectServiceNameDatabaseMongodbClusterIdNode = (
+  createProjectDatabaseMongodbNodeByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceNodeCreation
@@ -4479,7 +4498,7 @@ class CloudHandler {
   };
 
   /** Delete a mongodb cluster's node */
-  deleteProjectServiceNameDatabaseMongodbClusterIdNodeNodeId = (
+  deleteProjectDatabaseMongodbNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string
@@ -4491,7 +4510,7 @@ class CloudHandler {
   };
 
   /** Get mongodb nodes */
-  getProjectServiceNameDatabaseMongodbClusterIdNodeNodeId = (
+  getProjectDatabaseMongodbNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string
@@ -4503,7 +4522,7 @@ class CloudHandler {
   };
 
   /** Modify mongodb nodes */
-  putProjectServiceNameDatabaseMongodbClusterIdNodeNodeId = (
+  putProjectDatabaseMongodbNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string,
@@ -4517,7 +4536,7 @@ class CloudHandler {
   };
 
   /** Initiate a restore */
-  postProjectServiceNameDatabaseMongodbClusterIdRestore = (
+  postProjectDatabaseMongodbRestoreByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceRestore
@@ -4530,10 +4549,10 @@ class CloudHandler {
   };
 
   /** Get mongodb roles */
-  getProjectServiceNameDatabaseMongodbClusterIdRoles = (
+  getProjectDatabaseMongodbRolesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mongodb/${clusterId}/roles`
@@ -4541,10 +4560,10 @@ class CloudHandler {
   };
 
   /** List users of the mongodb */
-  getProjectServiceNameDatabaseMongodbClusterIdUser = (
+  listProjectDatabaseMongodbUsersByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mongodb/${clusterId}/user`
@@ -4552,7 +4571,7 @@ class CloudHandler {
   };
 
   /** Create a new user on the mongodb cluster */
-  postProjectServiceNameDatabaseMongodbClusterIdUser = (
+  createProjectDatabaseMongodbUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceUserWithRolesCreation
@@ -4565,7 +4584,7 @@ class CloudHandler {
   };
 
   /** Delete a mongodb user */
-  deleteProjectServiceNameDatabaseMongodbClusterIdUserUserId = (
+  deleteProjectDatabaseMongodbUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -4577,7 +4596,7 @@ class CloudHandler {
   };
 
   /** Get mongodb users */
-  getProjectServiceNameDatabaseMongodbClusterIdUserUserId = (
+  getProjectDatabaseMongodbUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -4589,7 +4608,7 @@ class CloudHandler {
   };
 
   /** Updates the user on the mongodb cluster */
-  putProjectServiceNameDatabaseMongodbClusterIdUserUserId = (
+  updateProjectDatabaseMongodbUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string,
@@ -4603,7 +4622,7 @@ class CloudHandler {
   };
 
   /** Resets the password of a user */
-  postProjectServiceNameDatabaseMongodbClusterIdUserUserIdCredentialsReset = (
+  postProjectDatabaseMongodbUserCredentialsResetByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -4615,12 +4634,12 @@ class CloudHandler {
   };
 
   /** List all the mysql of the project */
-  getProjectServiceNameDatabaseMysql = (serviceName: string): Promise<string> => {
+  listProjectDatabaseMysqlsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/mysql`);
   };
 
   /** Create a new mysql cluster */
-  postProjectServiceNameDatabaseMysql = (
+  createProjectDatabaseMysqlByServiceName = (
     serviceName: string,
     body: CloudProjectDatabaseServiceCreation
   ): Promise<CloudProjectDatabaseService> => {
@@ -4628,7 +4647,7 @@ class CloudHandler {
   };
 
   /** Delete a mysql cluster */
-  deleteProjectServiceNameDatabaseMysqlClusterId = (
+  deleteProjectDatabaseMysqlByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -4636,7 +4655,7 @@ class CloudHandler {
   };
 
   /** Get mysql cluster properties */
-  getProjectServiceNameDatabaseMysqlClusterId = (
+  getProjectDatabaseMysqlByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseService> => {
@@ -4644,7 +4663,7 @@ class CloudHandler {
   };
 
   /** Update an existing mysql cluster */
-  putProjectServiceNameDatabaseMysqlClusterId = (
+  updateProjectDatabaseMysqlByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseService
@@ -4657,7 +4676,7 @@ class CloudHandler {
   };
 
   /** Get mysql advanced configuration */
-  getProjectServiceNameDatabaseMysqlClusterIdAdvancedConfiguration = (
+  getProjectDatabaseMysqlAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<Record<string, string>> => {
@@ -4668,7 +4687,7 @@ class CloudHandler {
   };
 
   /** Update mysql advanced configuration */
-  putProjectServiceNameDatabaseMysqlClusterIdAdvancedConfiguration = (
+  updateProjectDatabaseMysqlAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: Record<string, string>
@@ -4681,10 +4700,10 @@ class CloudHandler {
   };
 
   /** List backups of the mysql */
-  getProjectServiceNameDatabaseMysqlClusterIdBackup = (
+  listProjectDatabaseMysqlBackupsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mysql/${clusterId}/backup`
@@ -4692,7 +4711,7 @@ class CloudHandler {
   };
 
   /** Get mysql backups */
-  getProjectServiceNameDatabaseMysqlClusterIdBackupBackupId = (
+  getProjectDatabaseMysqlBackupByServiceNameAndClusterIdAndBackupId = (
     backupId: string,
     clusterId: string,
     serviceName: string
@@ -4704,10 +4723,10 @@ class CloudHandler {
   };
 
   /** Get mysql advanced configuration fields */
-  getProjectServiceNameDatabaseMysqlClusterIdCapabilitiesAdvancedConfiguration = (
+  getProjectDatabaseMysqlCapabilitiesAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mysql/${clusterId}/capabilities/advancedConfiguration`
@@ -4715,10 +4734,10 @@ class CloudHandler {
   };
 
   /** Get integration capabilities related to the mysql service */
-  getProjectServiceNameDatabaseMysqlClusterIdCapabilitiesIntegration = (
+  getProjectDatabaseMysqlCapabilitiesIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesIntegration> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesIntegration[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mysql/${clusterId}/capabilities/integration`
@@ -4726,7 +4745,7 @@ class CloudHandler {
   };
 
   /** Retrieve the certificates of the mysql cluster */
-  getProjectServiceNameDatabaseMysqlClusterIdCertificates = (
+  getProjectDatabaseMysqlCertificatesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseServiceCertificates> => {
@@ -4737,7 +4756,7 @@ class CloudHandler {
   };
 
   /** Retrieve the current queries for the cluster */
-  getProjectServiceNameDatabaseMysqlClusterIdCurrentQueries = (
+  getProjectDatabaseMysqlCurrentQueriesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseServiceCurrentQueries> => {
@@ -4748,7 +4767,7 @@ class CloudHandler {
   };
 
   /** Cancel the given current query of the cluster */
-  postProjectServiceNameDatabaseMysqlClusterIdCurrentQueriesCancel = (
+  postProjectDatabaseMysqlCurrentQueriesCancelByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceCurrentqueriesQueryCancelRequest
@@ -4760,10 +4779,10 @@ class CloudHandler {
     );
   };
 
-  getProjectServiceNameDatabaseMysqlClusterIdDatabase = (
+  getProjectDatabaseMysqlDatabaseByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mysql/${clusterId}/database`
@@ -4771,7 +4790,7 @@ class CloudHandler {
   };
 
   /** Create a new database on the mysql cluster */
-  postProjectServiceNameDatabaseMysqlClusterIdDatabase = (
+  createProjectDatabaseMysqlDatabaseByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceDatabase
@@ -4784,7 +4803,7 @@ class CloudHandler {
   };
 
   /** Delete a mysql database */
-  deleteProjectServiceNameDatabaseMysqlClusterIdDatabaseDatabaseId = (
+  deleteProjectDatabaseMysqlDatabaseByServiceNameAndClusterIdAndDatabaseId = (
     clusterId: string,
     databaseId: string,
     serviceName: string
@@ -4796,7 +4815,7 @@ class CloudHandler {
   };
 
   /** Get the database for the mysql cluster */
-  getProjectServiceNameDatabaseMysqlClusterIdDatabaseDatabaseId = (
+  getProjectDatabaseMysqlDatabaseByServiceNameAndClusterIdAndDatabaseId = (
     clusterId: string,
     databaseId: string,
     serviceName: string
@@ -4808,7 +4827,7 @@ class CloudHandler {
   };
 
   /** Enable temporary write permission on readonly lock mysql service */
-  postProjectServiceNameDatabaseMysqlClusterIdEnableWrites = (
+  enableProjectDatabaseMysqlWritesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseTemporaryWriteDeadline> => {
@@ -4819,10 +4838,10 @@ class CloudHandler {
   };
 
   /** List integrations */
-  getProjectServiceNameDatabaseMysqlClusterIdIntegration = (
+  listProjectDatabaseMysqlIntegrationsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mysql/${clusterId}/integration`
@@ -4830,7 +4849,7 @@ class CloudHandler {
   };
 
   /** Create a new integration */
-  postProjectServiceNameDatabaseMysqlClusterIdIntegration = (
+  createProjectDatabaseMysqlIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceIntegration
@@ -4843,7 +4862,7 @@ class CloudHandler {
   };
 
   /** Delete an integration */
-  deleteProjectServiceNameDatabaseMysqlClusterIdIntegrationIntegrationId = (
+  deleteProjectDatabaseMysqlIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -4855,7 +4874,7 @@ class CloudHandler {
   };
 
   /** Get an integration */
-  getProjectServiceNameDatabaseMysqlClusterIdIntegrationIntegrationId = (
+  getProjectDatabaseMysqlIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -4867,10 +4886,10 @@ class CloudHandler {
   };
 
   /** List mysql ip restrictions */
-  getProjectServiceNameDatabaseMysqlClusterIdIpRestriction = (
+  listProjectDatabaseMysqlIpRestrictionsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mysql/${clusterId}/ipRestriction`
@@ -4878,7 +4897,7 @@ class CloudHandler {
   };
 
   /** Add ip restrictions to the mysql */
-  postProjectServiceNameDatabaseMysqlClusterIdIpRestriction = (
+  addProjectDatabaseMysqlIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseIpRestrictionCreation
@@ -4891,7 +4910,7 @@ class CloudHandler {
   };
 
   /** Deletes the given IP from the restricted IPs of the mysql */
-  deleteProjectServiceNameDatabaseMysqlClusterIdIpRestrictionIpBlock = (
+  deleteProjectDatabaseMysqlIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -4903,7 +4922,7 @@ class CloudHandler {
   };
 
   /** Get mysql ip restrictions */
-  getProjectServiceNameDatabaseMysqlClusterIdIpRestrictionIpBlock = (
+  getProjectDatabaseMysqlIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -4915,7 +4934,7 @@ class CloudHandler {
   };
 
   /** Changes the list of ip restrictions to the mysql */
-  putProjectServiceNameDatabaseMysqlClusterIdIpRestrictionIpBlock = (
+  updateProjectDatabaseMysqlIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string,
@@ -4929,10 +4948,10 @@ class CloudHandler {
   };
 
   /** Retrieve the most recent mysql log messages (limited to 1000) */
-  getProjectServiceNameDatabaseMysqlClusterIdLogs = (
+  getProjectDatabaseMysqlLogsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseServiceLogEntry> => {
+  ): Promise<CloudProjectDatabaseServiceLogEntry[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mysql/${clusterId}/logs`
@@ -4940,10 +4959,10 @@ class CloudHandler {
   };
 
   /** List maintenances for the mysql cluster */
-  getProjectServiceNameDatabaseMysqlClusterIdMaintenance = (
+  listProjectDatabaseMysqlMaintenancesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mysql/${clusterId}/maintenance`
@@ -4951,7 +4970,7 @@ class CloudHandler {
   };
 
   /** Get the maintenance for the mysql cluster */
-  getProjectServiceNameDatabaseMysqlClusterIdMaintenanceMaintenanceId = (
+  getProjectDatabaseMysqlMaintenanceByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -4963,7 +4982,7 @@ class CloudHandler {
   };
 
   /** Apply the maintenance */
-  postProjectServiceNameDatabaseMysqlClusterIdMaintenanceMaintenanceIdApply = (
+  postProjectDatabaseMysqlMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -4975,10 +4994,10 @@ class CloudHandler {
   };
 
   /** List available metrics for the mysql cluster */
-  getProjectServiceNameDatabaseMysqlClusterIdMetric = (
+  listProjectDatabaseMysqlMetricsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mysql/${clusterId}/metric`
@@ -4986,7 +5005,7 @@ class CloudHandler {
   };
 
   /** Get the metric values for the mysql cluster */
-  getProjectServiceNameDatabaseMysqlClusterIdMetricMetricName = (
+  getProjectDatabaseMysqlMetricByServiceNameAndClusterIdAndMetricName = (
     clusterId: string,
     metricName: string,
     serviceName: string
@@ -4998,10 +5017,10 @@ class CloudHandler {
   };
 
   /** List nodes of the mysql */
-  getProjectServiceNameDatabaseMysqlClusterIdNode = (
+  listProjectDatabaseMysqlNodesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mysql/${clusterId}/node`
@@ -5009,7 +5028,7 @@ class CloudHandler {
   };
 
   /** Get mysql nodes */
-  getProjectServiceNameDatabaseMysqlClusterIdNodeNodeId = (
+  getProjectDatabaseMysqlNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string
@@ -5021,7 +5040,7 @@ class CloudHandler {
   };
 
   /** Retrieve the query statistics for the cluster */
-  getProjectServiceNameDatabaseMysqlClusterIdQueryStatistics = (
+  getProjectDatabaseMysqlQueryStatisticsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseMysqlQueryStatistics> => {
@@ -5032,7 +5051,7 @@ class CloudHandler {
   };
 
   /** Reset the query statistics of the cluster */
-  postProjectServiceNameDatabaseMysqlClusterIdQueryStatisticsReset = (
+  postProjectDatabaseMysqlQueryStatisticsResetByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -5043,10 +5062,10 @@ class CloudHandler {
   };
 
   /** List users of the mysql */
-  getProjectServiceNameDatabaseMysqlClusterIdUser = (
+  listProjectDatabaseMysqlUsersByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/mysql/${clusterId}/user`
@@ -5054,7 +5073,7 @@ class CloudHandler {
   };
 
   /** Create a new user on the mysql cluster */
-  postProjectServiceNameDatabaseMysqlClusterIdUser = (
+  createProjectDatabaseMysqlUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceUserCreation
@@ -5067,7 +5086,7 @@ class CloudHandler {
   };
 
   /** Delete a mysql user */
-  deleteProjectServiceNameDatabaseMysqlClusterIdUserUserId = (
+  deleteProjectDatabaseMysqlUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -5079,7 +5098,7 @@ class CloudHandler {
   };
 
   /** Get mysql users */
-  getProjectServiceNameDatabaseMysqlClusterIdUserUserId = (
+  getProjectDatabaseMysqlUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -5091,7 +5110,7 @@ class CloudHandler {
   };
 
   /** Resets the password of a user */
-  postProjectServiceNameDatabaseMysqlClusterIdUserUserIdCredentialsReset = (
+  postProjectDatabaseMysqlUserCredentialsResetByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -5103,12 +5122,12 @@ class CloudHandler {
   };
 
   /** List all the opensearch of the project */
-  getProjectServiceNameDatabaseOpensearch = (serviceName: string): Promise<string> => {
+  listProjectDatabaseOpensearchsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/opensearch`);
   };
 
   /** Create a new opensearch cluster */
-  postProjectServiceNameDatabaseOpensearch = (
+  createProjectDatabaseOpensearchByServiceName = (
     serviceName: string,
     body: CloudProjectDatabaseServiceCreation
   ): Promise<CloudProjectDatabaseService> => {
@@ -5116,7 +5135,7 @@ class CloudHandler {
   };
 
   /** Delete a opensearch cluster */
-  deleteProjectServiceNameDatabaseOpensearchClusterId = (
+  deleteProjectDatabaseOpensearchByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -5127,7 +5146,7 @@ class CloudHandler {
   };
 
   /** Get opensearch cluster properties */
-  getProjectServiceNameDatabaseOpensearchClusterId = (
+  getProjectDatabaseOpensearchByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseOpensearchService> => {
@@ -5138,7 +5157,7 @@ class CloudHandler {
   };
 
   /** Update an existing opensearch cluster */
-  putProjectServiceNameDatabaseOpensearchClusterId = (
+  updateProjectDatabaseOpensearchByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseOpensearchService
@@ -5151,7 +5170,7 @@ class CloudHandler {
   };
 
   /** Get opensearch advanced configuration */
-  getProjectServiceNameDatabaseOpensearchClusterIdAdvancedConfiguration = (
+  getProjectDatabaseOpensearchAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<Record<string, string>> => {
@@ -5162,7 +5181,7 @@ class CloudHandler {
   };
 
   /** Update opensearch advanced configuration */
-  putProjectServiceNameDatabaseOpensearchClusterIdAdvancedConfiguration = (
+  updateProjectDatabaseOpensearchAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: Record<string, string>
@@ -5175,10 +5194,10 @@ class CloudHandler {
   };
 
   /** List backups of the opensearch */
-  getProjectServiceNameDatabaseOpensearchClusterIdBackup = (
+  listProjectDatabaseOpensearchBackupsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/opensearch/${clusterId}/backup`
@@ -5186,7 +5205,7 @@ class CloudHandler {
   };
 
   /** Get opensearch backups */
-  getProjectServiceNameDatabaseOpensearchClusterIdBackupBackupId = (
+  getProjectDatabaseOpensearchBackupByServiceNameAndClusterIdAndBackupId = (
     backupId: string,
     clusterId: string,
     serviceName: string
@@ -5198,10 +5217,10 @@ class CloudHandler {
   };
 
   /** Get opensearch advanced configuration fields */
-  getProjectServiceNameDatabaseOpensearchClusterIdCapabilitiesAdvancedConfiguration = (
+  getProjectDatabaseOpensearchCapabilitiesAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/opensearch/${clusterId}/capabilities/advancedConfiguration`
@@ -5209,10 +5228,10 @@ class CloudHandler {
   };
 
   /** Get integration capabilities related to the opensearch service */
-  getProjectServiceNameDatabaseOpensearchClusterIdCapabilitiesIntegration = (
+  getProjectDatabaseOpensearchCapabilitiesIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesIntegration> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesIntegration[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/opensearch/${clusterId}/capabilities/integration`
@@ -5220,10 +5239,10 @@ class CloudHandler {
   };
 
   /** List indexes of the opensearch */
-  getProjectServiceNameDatabaseOpensearchClusterIdIndex = (
+  listProjectDatabaseOpensearchIndexsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/opensearch/${clusterId}/index`
@@ -5231,7 +5250,7 @@ class CloudHandler {
   };
 
   /** Delete an opensearch index */
-  deleteProjectServiceNameDatabaseOpensearchClusterIdIndexIndexId = (
+  deleteProjectDatabaseOpensearchIndexByServiceNameAndClusterIdAndIndexId = (
     clusterId: string,
     indexId: string,
     serviceName: string
@@ -5243,7 +5262,7 @@ class CloudHandler {
   };
 
   /** Get opensearch index */
-  getProjectServiceNameDatabaseOpensearchClusterIdIndexIndexId = (
+  getProjectDatabaseOpensearchIndexByServiceNameAndClusterIdAndIndexId = (
     clusterId: string,
     indexId: string,
     serviceName: string
@@ -5255,10 +5274,10 @@ class CloudHandler {
   };
 
   /** List integrations */
-  getProjectServiceNameDatabaseOpensearchClusterIdIntegration = (
+  listProjectDatabaseOpensearchIntegrationsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/opensearch/${clusterId}/integration`
@@ -5266,7 +5285,7 @@ class CloudHandler {
   };
 
   /** Create a new integration */
-  postProjectServiceNameDatabaseOpensearchClusterIdIntegration = (
+  createProjectDatabaseOpensearchIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceIntegration
@@ -5279,7 +5298,7 @@ class CloudHandler {
   };
 
   /** Delete an integration */
-  deleteProjectServiceNameDatabaseOpensearchClusterIdIntegrationIntegrationId = (
+  deleteProjectDatabaseOpensearchIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -5291,7 +5310,7 @@ class CloudHandler {
   };
 
   /** Get an integration */
-  getProjectServiceNameDatabaseOpensearchClusterIdIntegrationIntegrationId = (
+  getProjectDatabaseOpensearchIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -5303,10 +5322,10 @@ class CloudHandler {
   };
 
   /** List opensearch ip restrictions */
-  getProjectServiceNameDatabaseOpensearchClusterIdIpRestriction = (
+  listProjectDatabaseOpensearchIpRestrictionsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/opensearch/${clusterId}/ipRestriction`
@@ -5314,7 +5333,7 @@ class CloudHandler {
   };
 
   /** Add ip restrictions to the opensearch */
-  postProjectServiceNameDatabaseOpensearchClusterIdIpRestriction = (
+  addProjectDatabaseOpensearchIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseIpRestrictionCreation
@@ -5327,7 +5346,7 @@ class CloudHandler {
   };
 
   /** Deletes the given IP from the restricted IPs of the opensearch */
-  deleteProjectServiceNameDatabaseOpensearchClusterIdIpRestrictionIpBlock = (
+  deleteProjectDatabaseOpensearchIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -5339,7 +5358,7 @@ class CloudHandler {
   };
 
   /** Get opensearch ip restrictions */
-  getProjectServiceNameDatabaseOpensearchClusterIdIpRestrictionIpBlock = (
+  getProjectDatabaseOpensearchIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -5351,7 +5370,7 @@ class CloudHandler {
   };
 
   /** Changes the list of ip restrictions to the opensearch */
-  putProjectServiceNameDatabaseOpensearchClusterIdIpRestrictionIpBlock = (
+  updateProjectDatabaseOpensearchIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string,
@@ -5365,10 +5384,10 @@ class CloudHandler {
   };
 
   /** Retrieve the most recent opensearch log messages (limited to 1000) */
-  getProjectServiceNameDatabaseOpensearchClusterIdLogs = (
+  getProjectDatabaseOpensearchLogsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseServiceLogEntry> => {
+  ): Promise<CloudProjectDatabaseServiceLogEntry[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/opensearch/${clusterId}/logs`
@@ -5376,10 +5395,10 @@ class CloudHandler {
   };
 
   /** List maintenances for the opensearch cluster */
-  getProjectServiceNameDatabaseOpensearchClusterIdMaintenance = (
+  listProjectDatabaseOpensearchMaintenancesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/opensearch/${clusterId}/maintenance`
@@ -5387,7 +5406,7 @@ class CloudHandler {
   };
 
   /** Get the maintenance for the opensearch cluster */
-  getProjectServiceNameDatabaseOpensearchClusterIdMaintenanceMaintenanceId = (
+  getProjectDatabaseOpensearchMaintenanceByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -5399,7 +5418,7 @@ class CloudHandler {
   };
 
   /** Apply the maintenance */
-  postProjectServiceNameDatabaseOpensearchClusterIdMaintenanceMaintenanceIdApply = (
+  postProjectDatabaseOpensearchMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -5411,10 +5430,10 @@ class CloudHandler {
   };
 
   /** List available metrics for the opensearch cluster */
-  getProjectServiceNameDatabaseOpensearchClusterIdMetric = (
+  listProjectDatabaseOpensearchMetricsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/opensearch/${clusterId}/metric`
@@ -5422,7 +5441,7 @@ class CloudHandler {
   };
 
   /** Get the metric values for the opensearch cluster */
-  getProjectServiceNameDatabaseOpensearchClusterIdMetricMetricName = (
+  getProjectDatabaseOpensearchMetricByServiceNameAndClusterIdAndMetricName = (
     clusterId: string,
     metricName: string,
     serviceName: string
@@ -5434,10 +5453,10 @@ class CloudHandler {
   };
 
   /** List nodes of the opensearch */
-  getProjectServiceNameDatabaseOpensearchClusterIdNode = (
+  listProjectDatabaseOpensearchNodesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/opensearch/${clusterId}/node`
@@ -5445,7 +5464,7 @@ class CloudHandler {
   };
 
   /** Get opensearch nodes */
-  getProjectServiceNameDatabaseOpensearchClusterIdNodeNodeId = (
+  getProjectDatabaseOpensearchNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string
@@ -5457,10 +5476,10 @@ class CloudHandler {
   };
 
   /** List patterns of the opensearch */
-  getProjectServiceNameDatabaseOpensearchClusterIdPattern = (
+  listProjectDatabaseOpensearchPatternsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/opensearch/${clusterId}/pattern`
@@ -5468,7 +5487,7 @@ class CloudHandler {
   };
 
   /** Create a new pattern on the opensearch cluster */
-  postProjectServiceNameDatabaseOpensearchClusterIdPattern = (
+  createProjectDatabaseOpensearchPatternByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseOpensearchPattern
@@ -5481,7 +5500,7 @@ class CloudHandler {
   };
 
   /** Delete an opensearch pattern */
-  deleteProjectServiceNameDatabaseOpensearchClusterIdPatternPatternId = (
+  deleteProjectDatabaseOpensearchPatternByServiceNameAndClusterIdAndPatternId = (
     clusterId: string,
     patternId: string,
     serviceName: string
@@ -5493,7 +5512,7 @@ class CloudHandler {
   };
 
   /** Get opensearch patterns */
-  getProjectServiceNameDatabaseOpensearchClusterIdPatternPatternId = (
+  getProjectDatabaseOpensearchPatternByServiceNameAndClusterIdAndPatternId = (
     clusterId: string,
     patternId: string,
     serviceName: string
@@ -5505,7 +5524,7 @@ class CloudHandler {
   };
 
   /** Retrieve the opensearch permissions values */
-  getProjectServiceNameDatabaseOpensearchClusterIdPermissions = (
+  getProjectDatabaseOpensearchPermissionsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseOpensearchPermissions> => {
@@ -5516,10 +5535,10 @@ class CloudHandler {
   };
 
   /** List users of the opensearch */
-  getProjectServiceNameDatabaseOpensearchClusterIdUser = (
+  listProjectDatabaseOpensearchUsersByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/opensearch/${clusterId}/user`
@@ -5527,7 +5546,7 @@ class CloudHandler {
   };
 
   /** Create a new user on the opensearch cluster */
-  postProjectServiceNameDatabaseOpensearchClusterIdUser = (
+  createProjectDatabaseOpensearchUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseOpensearchUserCreation
@@ -5540,7 +5559,7 @@ class CloudHandler {
   };
 
   /** Delete a opensearch user */
-  deleteProjectServiceNameDatabaseOpensearchClusterIdUserUserId = (
+  deleteProjectDatabaseOpensearchUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -5552,7 +5571,7 @@ class CloudHandler {
   };
 
   /** Get opensearch users */
-  getProjectServiceNameDatabaseOpensearchClusterIdUserUserId = (
+  getProjectDatabaseOpensearchUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -5564,7 +5583,7 @@ class CloudHandler {
   };
 
   /** Update a user on the opensearch cluster */
-  putProjectServiceNameDatabaseOpensearchClusterIdUserUserId = (
+  updateProjectDatabaseOpensearchUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string,
@@ -5578,7 +5597,7 @@ class CloudHandler {
   };
 
   /** Resets the password of a user */
-  postProjectServiceNameDatabaseOpensearchClusterIdUserUserIdCredentialsReset = (
+  postProjectDatabaseOpensearchUserCredentialsResetByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -5590,12 +5609,12 @@ class CloudHandler {
   };
 
   /** List all the postgresql of the project */
-  getProjectServiceNameDatabasePostgresql = (serviceName: string): Promise<string> => {
+  listProjectDatabasePostgresqlsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/postgresql`);
   };
 
   /** Create a new postgresql cluster */
-  postProjectServiceNameDatabasePostgresql = (
+  createProjectDatabasePostgresqlByServiceName = (
     serviceName: string,
     body: CloudProjectDatabaseServiceCreation
   ): Promise<CloudProjectDatabaseService> => {
@@ -5603,7 +5622,7 @@ class CloudHandler {
   };
 
   /** Delete a postgresql cluster */
-  deleteProjectServiceNameDatabasePostgresqlClusterId = (
+  deleteProjectDatabasePostgresqlByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -5614,7 +5633,7 @@ class CloudHandler {
   };
 
   /** Get postgresql cluster properties */
-  getProjectServiceNameDatabasePostgresqlClusterId = (
+  getProjectDatabasePostgresqlByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseService> => {
@@ -5625,7 +5644,7 @@ class CloudHandler {
   };
 
   /** Update an existing postgresql cluster */
-  putProjectServiceNameDatabasePostgresqlClusterId = (
+  updateProjectDatabasePostgresqlByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseService
@@ -5638,7 +5657,7 @@ class CloudHandler {
   };
 
   /** Get postgresql advanced configuration */
-  getProjectServiceNameDatabasePostgresqlClusterIdAdvancedConfiguration = (
+  getProjectDatabasePostgresqlAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<Record<string, string>> => {
@@ -5649,7 +5668,7 @@ class CloudHandler {
   };
 
   /** Update postgresql advanced configuration */
-  putProjectServiceNameDatabasePostgresqlClusterIdAdvancedConfiguration = (
+  updateProjectDatabasePostgresqlAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: Record<string, string>
@@ -5662,10 +5681,10 @@ class CloudHandler {
   };
 
   /** List backups of the postgresql */
-  getProjectServiceNameDatabasePostgresqlClusterIdBackup = (
+  listProjectDatabasePostgresqlBackupsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/postgresql/${clusterId}/backup`
@@ -5673,7 +5692,7 @@ class CloudHandler {
   };
 
   /** Get postgresql backups */
-  getProjectServiceNameDatabasePostgresqlClusterIdBackupBackupId = (
+  getProjectDatabasePostgresqlBackupByServiceNameAndClusterIdAndBackupId = (
     backupId: string,
     clusterId: string,
     serviceName: string
@@ -5685,10 +5704,10 @@ class CloudHandler {
   };
 
   /** Get postgresql advanced configuration fields */
-  getProjectServiceNameDatabasePostgresqlClusterIdCapabilitiesAdvancedConfiguration = (
+  getProjectDatabasePostgresqlCapabilitiesAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/postgresql/${clusterId}/capabilities/advancedConfiguration`
@@ -5696,10 +5715,10 @@ class CloudHandler {
   };
 
   /** Get integration capabilities related to the postgresql service */
-  getProjectServiceNameDatabasePostgresqlClusterIdCapabilitiesIntegration = (
+  getProjectDatabasePostgresqlCapabilitiesIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesIntegration> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesIntegration[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/postgresql/${clusterId}/capabilities/integration`
@@ -5707,7 +5726,7 @@ class CloudHandler {
   };
 
   /** Retrieve the certificates of the postgresql cluster */
-  getProjectServiceNameDatabasePostgresqlClusterIdCertificates = (
+  getProjectDatabasePostgresqlCertificatesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseServiceCertificates> => {
@@ -5717,10 +5736,10 @@ class CloudHandler {
     );
   };
 
-  getProjectServiceNameDatabasePostgresqlClusterIdConnectionPool = (
+  getProjectDatabasePostgresqlConnectionPoolByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/postgresql/${clusterId}/connectionPool`
@@ -5728,7 +5747,7 @@ class CloudHandler {
   };
 
   /** Create a new connectionPool on the postgresql cluster */
-  postProjectServiceNameDatabasePostgresqlClusterIdConnectionPool = (
+  createProjectDatabasePostgresqlConnectionPoolByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabasePostgresqlConnectionPoolCreation
@@ -5741,7 +5760,7 @@ class CloudHandler {
   };
 
   /** Delete a postgresql connectionPool */
-  deleteProjectServiceNameDatabasePostgresqlClusterIdConnectionPoolConnectionPoolId = (
+  deleteProjectDatabasePostgresqlConnectionPoolByServiceNameAndClusterIdAndConnectionPoolId = (
     clusterId: string,
     connectionPoolId: string,
     serviceName: string
@@ -5753,7 +5772,7 @@ class CloudHandler {
   };
 
   /** Get the connectionPool for the postgresql cluster */
-  getProjectServiceNameDatabasePostgresqlClusterIdConnectionPoolConnectionPoolId = (
+  getProjectDatabasePostgresqlConnectionPoolByServiceNameAndClusterIdAndConnectionPoolId = (
     clusterId: string,
     connectionPoolId: string,
     serviceName: string
@@ -5765,7 +5784,7 @@ class CloudHandler {
   };
 
   /** Update a connectionPool on the postgresql cluster */
-  putProjectServiceNameDatabasePostgresqlClusterIdConnectionPoolConnectionPoolId = (
+  updateProjectDatabasePostgresqlConnectionPoolByServiceNameAndClusterIdAndConnectionPoolId = (
     clusterId: string,
     connectionPoolId: string,
     serviceName: string,
@@ -5779,7 +5798,7 @@ class CloudHandler {
   };
 
   /** Retrieve the current queries for the cluster */
-  getProjectServiceNameDatabasePostgresqlClusterIdCurrentQueries = (
+  getProjectDatabasePostgresqlCurrentQueriesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseServiceCurrentQueries> => {
@@ -5790,7 +5809,7 @@ class CloudHandler {
   };
 
   /** Cancel the given current query of the cluster */
-  postProjectServiceNameDatabasePostgresqlClusterIdCurrentQueriesCancel = (
+  postProjectDatabasePostgresqlCurrentQueriesCancelByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceCurrentqueriesQueryCancelRequest
@@ -5802,10 +5821,10 @@ class CloudHandler {
     );
   };
 
-  getProjectServiceNameDatabasePostgresqlClusterIdDatabase = (
+  getProjectDatabasePostgresqlDatabaseByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/postgresql/${clusterId}/database`
@@ -5813,7 +5832,7 @@ class CloudHandler {
   };
 
   /** Create a new database on the postgresql cluster */
-  postProjectServiceNameDatabasePostgresqlClusterIdDatabase = (
+  createProjectDatabasePostgresqlDatabaseByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceDatabase
@@ -5826,7 +5845,7 @@ class CloudHandler {
   };
 
   /** Delete a postgresql database */
-  deleteProjectServiceNameDatabasePostgresqlClusterIdDatabaseDatabaseId = (
+  deleteProjectDatabasePostgresqlDatabaseByServiceNameAndClusterIdAndDatabaseId = (
     clusterId: string,
     databaseId: string,
     serviceName: string
@@ -5838,7 +5857,7 @@ class CloudHandler {
   };
 
   /** Get the database for the postgresql cluster */
-  getProjectServiceNameDatabasePostgresqlClusterIdDatabaseDatabaseId = (
+  getProjectDatabasePostgresqlDatabaseByServiceNameAndClusterIdAndDatabaseId = (
     clusterId: string,
     databaseId: string,
     serviceName: string
@@ -5850,7 +5869,7 @@ class CloudHandler {
   };
 
   /** Enable temporary write permission on readonly lock postgresql service */
-  postProjectServiceNameDatabasePostgresqlClusterIdEnableWrites = (
+  enableProjectDatabasePostgresqlWritesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseTemporaryWriteDeadline> => {
@@ -5861,10 +5880,10 @@ class CloudHandler {
   };
 
   /** List integrations */
-  getProjectServiceNameDatabasePostgresqlClusterIdIntegration = (
+  listProjectDatabasePostgresqlIntegrationsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/postgresql/${clusterId}/integration`
@@ -5872,7 +5891,7 @@ class CloudHandler {
   };
 
   /** Create a new integration */
-  postProjectServiceNameDatabasePostgresqlClusterIdIntegration = (
+  createProjectDatabasePostgresqlIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceIntegration
@@ -5885,7 +5904,7 @@ class CloudHandler {
   };
 
   /** Delete an integration */
-  deleteProjectServiceNameDatabasePostgresqlClusterIdIntegrationIntegrationId = (
+  deleteProjectDatabasePostgresqlIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -5897,7 +5916,7 @@ class CloudHandler {
   };
 
   /** Get an integration */
-  getProjectServiceNameDatabasePostgresqlClusterIdIntegrationIntegrationId = (
+  getProjectDatabasePostgresqlIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -5909,10 +5928,10 @@ class CloudHandler {
   };
 
   /** List postgresql ip restrictions */
-  getProjectServiceNameDatabasePostgresqlClusterIdIpRestriction = (
+  listProjectDatabasePostgresqlIpRestrictionsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/postgresql/${clusterId}/ipRestriction`
@@ -5920,7 +5939,7 @@ class CloudHandler {
   };
 
   /** Add ip restrictions to the postgresql */
-  postProjectServiceNameDatabasePostgresqlClusterIdIpRestriction = (
+  addProjectDatabasePostgresqlIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseIpRestrictionCreation
@@ -5933,7 +5952,7 @@ class CloudHandler {
   };
 
   /** Deletes the given IP from the restricted IPs of the postgresql */
-  deleteProjectServiceNameDatabasePostgresqlClusterIdIpRestrictionIpBlock = (
+  deleteProjectDatabasePostgresqlIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -5945,7 +5964,7 @@ class CloudHandler {
   };
 
   /** Get postgresql ip restrictions */
-  getProjectServiceNameDatabasePostgresqlClusterIdIpRestrictionIpBlock = (
+  getProjectDatabasePostgresqlIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -5957,7 +5976,7 @@ class CloudHandler {
   };
 
   /** Changes the list of ip restrictions to the postgresql */
-  putProjectServiceNameDatabasePostgresqlClusterIdIpRestrictionIpBlock = (
+  updateProjectDatabasePostgresqlIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string,
@@ -5971,10 +5990,10 @@ class CloudHandler {
   };
 
   /** Retrieve the most recent postgresql log messages (limited to 1000) */
-  getProjectServiceNameDatabasePostgresqlClusterIdLogs = (
+  getProjectDatabasePostgresqlLogsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseServiceLogEntry> => {
+  ): Promise<CloudProjectDatabaseServiceLogEntry[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/postgresql/${clusterId}/logs`
@@ -5982,10 +6001,10 @@ class CloudHandler {
   };
 
   /** List maintenances for the postgresql cluster */
-  getProjectServiceNameDatabasePostgresqlClusterIdMaintenance = (
+  listProjectDatabasePostgresqlMaintenancesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/postgresql/${clusterId}/maintenance`
@@ -5993,7 +6012,7 @@ class CloudHandler {
   };
 
   /** Get the maintenance for the postgresql cluster */
-  getProjectServiceNameDatabasePostgresqlClusterIdMaintenanceMaintenanceId = (
+  getProjectDatabasePostgresqlMaintenanceByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -6005,7 +6024,7 @@ class CloudHandler {
   };
 
   /** Apply the maintenance */
-  postProjectServiceNameDatabasePostgresqlClusterIdMaintenanceMaintenanceIdApply = (
+  postProjectDatabasePostgresqlMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -6017,10 +6036,10 @@ class CloudHandler {
   };
 
   /** List available metrics for the postgresql cluster */
-  getProjectServiceNameDatabasePostgresqlClusterIdMetric = (
+  listProjectDatabasePostgresqlMetricsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/postgresql/${clusterId}/metric`
@@ -6028,7 +6047,7 @@ class CloudHandler {
   };
 
   /** Get the metric values for the postgresql cluster */
-  getProjectServiceNameDatabasePostgresqlClusterIdMetricMetricName = (
+  getProjectDatabasePostgresqlMetricByServiceNameAndClusterIdAndMetricName = (
     clusterId: string,
     metricName: string,
     serviceName: string
@@ -6040,10 +6059,10 @@ class CloudHandler {
   };
 
   /** List nodes of the postgresql */
-  getProjectServiceNameDatabasePostgresqlClusterIdNode = (
+  listProjectDatabasePostgresqlNodesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/postgresql/${clusterId}/node`
@@ -6051,7 +6070,7 @@ class CloudHandler {
   };
 
   /** Get postgresql nodes */
-  getProjectServiceNameDatabasePostgresqlClusterIdNodeNodeId = (
+  getProjectDatabasePostgresqlNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string
@@ -6063,7 +6082,7 @@ class CloudHandler {
   };
 
   /** Retrieve the query statistics for the cluster */
-  getProjectServiceNameDatabasePostgresqlClusterIdQueryStatistics = (
+  getProjectDatabasePostgresqlQueryStatisticsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabasePostgresqlQueryStatistics> => {
@@ -6074,7 +6093,7 @@ class CloudHandler {
   };
 
   /** Reset the query statistics of the cluster */
-  postProjectServiceNameDatabasePostgresqlClusterIdQueryStatisticsReset = (
+  postProjectDatabasePostgresqlQueryStatisticsResetByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -6085,10 +6104,10 @@ class CloudHandler {
   };
 
   /** Get postgresql roles */
-  getProjectServiceNameDatabasePostgresqlClusterIdRoles = (
+  getProjectDatabasePostgresqlRolesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/postgresql/${clusterId}/roles`
@@ -6096,10 +6115,10 @@ class CloudHandler {
   };
 
   /** List users of the postgresql */
-  getProjectServiceNameDatabasePostgresqlClusterIdUser = (
+  listProjectDatabasePostgresqlUsersByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/postgresql/${clusterId}/user`
@@ -6107,7 +6126,7 @@ class CloudHandler {
   };
 
   /** Create a new user on the postgresql cluster */
-  postProjectServiceNameDatabasePostgresqlClusterIdUser = (
+  createProjectDatabasePostgresqlUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceUserWithRolesCreation
@@ -6120,7 +6139,7 @@ class CloudHandler {
   };
 
   /** Delete a postgresql user */
-  deleteProjectServiceNameDatabasePostgresqlClusterIdUserUserId = (
+  deleteProjectDatabasePostgresqlUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -6132,7 +6151,7 @@ class CloudHandler {
   };
 
   /** Get postgresql users */
-  getProjectServiceNameDatabasePostgresqlClusterIdUserUserId = (
+  getProjectDatabasePostgresqlUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -6144,7 +6163,7 @@ class CloudHandler {
   };
 
   /** Updates the user on the postgresql cluster */
-  putProjectServiceNameDatabasePostgresqlClusterIdUserUserId = (
+  updateProjectDatabasePostgresqlUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string,
@@ -6158,7 +6177,7 @@ class CloudHandler {
   };
 
   /** Resets the password of a user */
-  postProjectServiceNameDatabasePostgresqlClusterIdUserUserIdCredentialsReset = (
+  postProjectDatabasePostgresqlUserCredentialsResetByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -6170,12 +6189,12 @@ class CloudHandler {
   };
 
   /** List all the redis of the project */
-  getProjectServiceNameDatabaseRedis = (serviceName: string): Promise<string> => {
+  listProjectDatabaseRedisByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/redis`);
   };
 
   /** Create a new redis cluster */
-  postProjectServiceNameDatabaseRedis = (
+  createProjectDatabaseRedisByServiceName = (
     serviceName: string,
     body: CloudProjectDatabaseServiceCreation
   ): Promise<CloudProjectDatabaseService> => {
@@ -6183,7 +6202,7 @@ class CloudHandler {
   };
 
   /** Delete a redis cluster */
-  deleteProjectServiceNameDatabaseRedisClusterId = (
+  deleteProjectDatabaseRedisByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<void> => {
@@ -6191,7 +6210,7 @@ class CloudHandler {
   };
 
   /** Get redis cluster properties */
-  getProjectServiceNameDatabaseRedisClusterId = (
+  getProjectDatabaseRedisByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseService> => {
@@ -6199,7 +6218,7 @@ class CloudHandler {
   };
 
   /** Update an existing redis cluster */
-  putProjectServiceNameDatabaseRedisClusterId = (
+  updateProjectDatabaseRedisByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseService
@@ -6212,7 +6231,7 @@ class CloudHandler {
   };
 
   /** Get redis advanced configuration */
-  getProjectServiceNameDatabaseRedisClusterIdAdvancedConfiguration = (
+  getProjectDatabaseRedisAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<Record<string, string>> => {
@@ -6223,7 +6242,7 @@ class CloudHandler {
   };
 
   /** Update redis advanced configuration */
-  putProjectServiceNameDatabaseRedisClusterIdAdvancedConfiguration = (
+  updateProjectDatabaseRedisAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: Record<string, string>
@@ -6236,10 +6255,10 @@ class CloudHandler {
   };
 
   /** List backups of the redis */
-  getProjectServiceNameDatabaseRedisClusterIdBackup = (
+  listProjectDatabaseRedisBackupsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/redis/${clusterId}/backup`
@@ -6247,7 +6266,7 @@ class CloudHandler {
   };
 
   /** Get redis backups */
-  getProjectServiceNameDatabaseRedisClusterIdBackupBackupId = (
+  getProjectDatabaseRedisBackupByServiceNameAndClusterIdAndBackupId = (
     backupId: string,
     clusterId: string,
     serviceName: string
@@ -6259,10 +6278,10 @@ class CloudHandler {
   };
 
   /** Get redis advanced configuration fields */
-  getProjectServiceNameDatabaseRedisClusterIdCapabilitiesAdvancedConfiguration = (
+  getProjectDatabaseRedisCapabilitiesAdvancedConfigurationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesAdvancedConfigurationProperty[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/redis/${clusterId}/capabilities/advancedConfiguration`
@@ -6270,10 +6289,10 @@ class CloudHandler {
   };
 
   /** Get available categories in the redis service */
-  getProjectServiceNameDatabaseRedisClusterIdCapabilitiesCategories = (
+  getProjectDatabaseRedisCapabilitiesCategoriesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/redis/${clusterId}/capabilities/categories`
@@ -6281,10 +6300,10 @@ class CloudHandler {
   };
 
   /** Get available commands in the redis service */
-  getProjectServiceNameDatabaseRedisClusterIdCapabilitiesCommands = (
+  getProjectDatabaseRedisCapabilitiesCommandsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/redis/${clusterId}/capabilities/commands`
@@ -6292,10 +6311,10 @@ class CloudHandler {
   };
 
   /** Get integration capabilities related to the redis service */
-  getProjectServiceNameDatabaseRedisClusterIdCapabilitiesIntegration = (
+  getProjectDatabaseRedisCapabilitiesIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseCapabilitiesIntegration> => {
+  ): Promise<CloudProjectDatabaseCapabilitiesIntegration[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/redis/${clusterId}/capabilities/integration`
@@ -6303,10 +6322,10 @@ class CloudHandler {
   };
 
   /** List integrations */
-  getProjectServiceNameDatabaseRedisClusterIdIntegration = (
+  listProjectDatabaseRedisIntegrationsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/redis/${clusterId}/integration`
@@ -6314,7 +6333,7 @@ class CloudHandler {
   };
 
   /** Create a new integration */
-  postProjectServiceNameDatabaseRedisClusterIdIntegration = (
+  createProjectDatabaseRedisIntegrationByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseServiceIntegration
@@ -6327,7 +6346,7 @@ class CloudHandler {
   };
 
   /** Delete an integration */
-  deleteProjectServiceNameDatabaseRedisClusterIdIntegrationIntegrationId = (
+  deleteProjectDatabaseRedisIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -6339,7 +6358,7 @@ class CloudHandler {
   };
 
   /** Get an integration */
-  getProjectServiceNameDatabaseRedisClusterIdIntegrationIntegrationId = (
+  getProjectDatabaseRedisIntegrationByServiceNameAndClusterIdAndIntegrationId = (
     clusterId: string,
     integrationId: string,
     serviceName: string
@@ -6351,10 +6370,10 @@ class CloudHandler {
   };
 
   /** List redis ip restrictions */
-  getProjectServiceNameDatabaseRedisClusterIdIpRestriction = (
+  listProjectDatabaseRedisIpRestrictionsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/redis/${clusterId}/ipRestriction`
@@ -6362,7 +6381,7 @@ class CloudHandler {
   };
 
   /** Add ip restrictions to the redis */
-  postProjectServiceNameDatabaseRedisClusterIdIpRestriction = (
+  addProjectDatabaseRedisIpRestrictionByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseIpRestrictionCreation
@@ -6375,7 +6394,7 @@ class CloudHandler {
   };
 
   /** Deletes the given IP from the restricted IPs of the redis */
-  deleteProjectServiceNameDatabaseRedisClusterIdIpRestrictionIpBlock = (
+  deleteProjectDatabaseRedisIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -6387,7 +6406,7 @@ class CloudHandler {
   };
 
   /** Get redis ip restrictions */
-  getProjectServiceNameDatabaseRedisClusterIdIpRestrictionIpBlock = (
+  getProjectDatabaseRedisIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string
@@ -6399,7 +6418,7 @@ class CloudHandler {
   };
 
   /** Changes the list of ip restrictions to the redis */
-  putProjectServiceNameDatabaseRedisClusterIdIpRestrictionIpBlock = (
+  updateProjectDatabaseRedisIpRestrictionByServiceNameAndClusterIdAndIpBlock = (
     clusterId: string,
     ipBlock: string,
     serviceName: string,
@@ -6413,10 +6432,10 @@ class CloudHandler {
   };
 
   /** Retrieve the most recent redis log messages (limited to 1000) */
-  getProjectServiceNameDatabaseRedisClusterIdLogs = (
+  getProjectDatabaseRedisLogsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<CloudProjectDatabaseServiceLogEntry> => {
+  ): Promise<CloudProjectDatabaseServiceLogEntry[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/redis/${clusterId}/logs`
@@ -6424,10 +6443,10 @@ class CloudHandler {
   };
 
   /** List maintenances for the redis cluster */
-  getProjectServiceNameDatabaseRedisClusterIdMaintenance = (
+  listProjectDatabaseRedisMaintenancesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/redis/${clusterId}/maintenance`
@@ -6435,7 +6454,7 @@ class CloudHandler {
   };
 
   /** Get the maintenance for the redis cluster */
-  getProjectServiceNameDatabaseRedisClusterIdMaintenanceMaintenanceId = (
+  getProjectDatabaseRedisMaintenanceByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -6447,7 +6466,7 @@ class CloudHandler {
   };
 
   /** Apply the maintenance */
-  postProjectServiceNameDatabaseRedisClusterIdMaintenanceMaintenanceIdApply = (
+  postProjectDatabaseRedisMaintenanceApplyByServiceNameAndClusterIdAndMaintenanceId = (
     clusterId: string,
     maintenanceId: string,
     serviceName: string
@@ -6459,10 +6478,10 @@ class CloudHandler {
   };
 
   /** List available metrics for the redis cluster */
-  getProjectServiceNameDatabaseRedisClusterIdMetric = (
+  listProjectDatabaseRedisMetricsByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/redis/${clusterId}/metric`
@@ -6470,7 +6489,7 @@ class CloudHandler {
   };
 
   /** Get the metric values for the redis cluster */
-  getProjectServiceNameDatabaseRedisClusterIdMetricMetricName = (
+  getProjectDatabaseRedisMetricByServiceNameAndClusterIdAndMetricName = (
     clusterId: string,
     metricName: string,
     serviceName: string
@@ -6482,10 +6501,10 @@ class CloudHandler {
   };
 
   /** List nodes of the redis */
-  getProjectServiceNameDatabaseRedisClusterIdNode = (
+  listProjectDatabaseRedisNodesByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/redis/${clusterId}/node`
@@ -6493,7 +6512,7 @@ class CloudHandler {
   };
 
   /** Get redis nodes */
-  getProjectServiceNameDatabaseRedisClusterIdNodeNodeId = (
+  getProjectDatabaseRedisNodeByServiceNameAndClusterIdAndNodeId = (
     clusterId: string,
     nodeId: string,
     serviceName: string
@@ -6505,10 +6524,10 @@ class CloudHandler {
   };
 
   /** List users of the redis */
-  getProjectServiceNameDatabaseRedisClusterIdUser = (
+  listProjectDatabaseRedisUsersByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/database/redis/${clusterId}/user`
@@ -6516,7 +6535,7 @@ class CloudHandler {
   };
 
   /** Create a new user on the redis cluster */
-  postProjectServiceNameDatabaseRedisClusterIdUser = (
+  createProjectDatabaseRedisUserByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string,
     body: CloudProjectDatabaseRedisUserCreation
@@ -6529,7 +6548,7 @@ class CloudHandler {
   };
 
   /** Delete a redis user */
-  deleteProjectServiceNameDatabaseRedisClusterIdUserUserId = (
+  deleteProjectDatabaseRedisUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -6541,7 +6560,7 @@ class CloudHandler {
   };
 
   /** Get redis users */
-  getProjectServiceNameDatabaseRedisClusterIdUserUserId = (
+  getProjectDatabaseRedisUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -6553,7 +6572,7 @@ class CloudHandler {
   };
 
   /** Update a user on the redis cluster */
-  putProjectServiceNameDatabaseRedisClusterIdUserUserId = (
+  updateProjectDatabaseRedisUserByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string,
@@ -6567,7 +6586,7 @@ class CloudHandler {
   };
 
   /** Resets the password of a user */
-  postProjectServiceNameDatabaseRedisClusterIdUserUserIdCredentialsReset = (
+  postProjectDatabaseRedisUserCredentialsResetByServiceNameAndClusterIdAndUserId = (
     clusterId: string,
     serviceName: string,
     userId: string
@@ -6579,12 +6598,12 @@ class CloudHandler {
   };
 
   /** List database services of the project */
-  getProjectServiceNameDatabaseService = (serviceName: string): Promise<string> => {
+  listProjectDatabaseServicesByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/database/service`);
   };
 
   /** Get service cluster properties */
-  getProjectServiceNameDatabaseServiceClusterId = (
+  getProjectDatabaseServiceByServiceNameAndClusterId = (
     clusterId: string,
     serviceName: string
   ): Promise<CloudProjectDatabaseService> => {
@@ -6592,12 +6611,12 @@ class CloudHandler {
   };
 
   /** Get flavors */
-  getProjectServiceNameFlavor = (serviceName: string): Promise<CloudFlavorFlavor> => {
+  getProjectFlavorByServiceName = (serviceName: string): Promise<CloudFlavorFlavor[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/flavor`);
   };
 
   /** Get flavor */
-  getProjectServiceNameFlavorFlavorId = (
+  getProjectFlavorByServiceNameAndFlavorId = (
     flavorId: string,
     serviceName: string
   ): Promise<CloudFlavorFlavor> => {
@@ -6605,17 +6624,19 @@ class CloudHandler {
   };
 
   /** Get your consumption forecast */
-  getProjectServiceNameForecast = (serviceName: string): Promise<CloudForecastProjectForecast> => {
+  getProjectForecastByServiceName = (
+    serviceName: string
+  ): Promise<CloudForecastProjectForecast> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/forecast`);
   };
 
   /** Get images */
-  getProjectServiceNameImage = (serviceName: string): Promise<CloudImageImage> => {
+  getProjectImageByServiceName = (serviceName: string): Promise<CloudImageImage[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/image`);
   };
 
   /** Get image */
-  getProjectServiceNameImageImageId = (
+  getProjectImageByServiceNameAndImageId = (
     imageId: string,
     serviceName: string
   ): Promise<CloudImageImage> => {
@@ -6623,12 +6644,12 @@ class CloudHandler {
   };
 
   /** Get instance */
-  getProjectServiceNameInstance = (serviceName: string): Promise<CloudInstanceInstance> => {
+  getProjectInstanceByServiceName = (serviceName: string): Promise<CloudInstanceInstance[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/instance`);
   };
 
   /** Create a new instance */
-  postProjectServiceNameInstance = (
+  createProjectInstanceByServiceName = (
     serviceName: string,
     body: CloudProjectInstanceCreation
   ): Promise<CloudInstanceInstanceDetail> => {
@@ -6636,22 +6657,22 @@ class CloudHandler {
   };
 
   /** Create multiple instances */
-  postProjectServiceNameInstanceBulk = (
+  createProjectInstanceBulkByServiceName = (
     serviceName: string,
     body: CloudProjectInstanceBulkCreation
-  ): Promise<CloudInstanceInstance> => {
+  ): Promise<CloudInstanceInstance[]> => {
     return this.ovh.request('POST', `/cloud/project/${serviceName}/instance/bulk`, body);
   };
 
   /** Get the detail of a group */
-  getProjectServiceNameInstanceGroup = (
+  getProjectInstanceGroupByServiceName = (
     serviceName: string
-  ): Promise<CloudInstancegroupInstanceGroup> => {
+  ): Promise<CloudInstancegroupInstanceGroup[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/instance/group`);
   };
 
   /** Create a group */
-  postProjectServiceNameInstanceGroup = (
+  createProjectInstanceGroupByServiceName = (
     serviceName: string,
     body: CloudProjectInstanceGroupCreation
   ): Promise<CloudInstancegroupInstanceGroup> => {
@@ -6659,7 +6680,7 @@ class CloudHandler {
   };
 
   /** Delete a group */
-  deleteProjectServiceNameInstanceGroupGroupId = (
+  deleteProjectInstanceGroupByServiceNameAndGroupId = (
     groupId: string,
     serviceName: string
   ): Promise<void> => {
@@ -6667,7 +6688,7 @@ class CloudHandler {
   };
 
   /** Get all groups */
-  getProjectServiceNameInstanceGroupGroupId = (
+  getProjectInstanceGroupByServiceNameAndGroupId = (
     groupId: string,
     serviceName: string
   ): Promise<CloudInstancegroupInstanceGroup> => {
@@ -6675,7 +6696,7 @@ class CloudHandler {
   };
 
   /** Delete an instance */
-  deleteProjectServiceNameInstanceInstanceId = (
+  deleteProjectInstanceByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string
   ): Promise<void> => {
@@ -6683,7 +6704,7 @@ class CloudHandler {
   };
 
   /** Get instance */
-  getProjectServiceNameInstanceInstanceId = (
+  getProjectInstanceByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string
   ): Promise<CloudInstanceInstanceDetail> => {
@@ -6691,7 +6712,7 @@ class CloudHandler {
   };
 
   /** Alter an instance */
-  putProjectServiceNameInstanceInstanceId = (
+  updateProjectInstanceByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string,
     body: CloudProjectInstanceUpdate
@@ -6700,7 +6721,7 @@ class CloudHandler {
   };
 
   /** Activate monthly billing on instance */
-  postProjectServiceNameInstanceInstanceIdActiveMonthlyBilling = (
+  postProjectInstanceActiveMonthlyBillingByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string
   ): Promise<CloudInstanceInstanceDetail> => {
@@ -6711,7 +6732,7 @@ class CloudHandler {
   };
 
   /** Return initial credentials of applications installed from public image */
-  postProjectServiceNameInstanceInstanceIdApplicationAccess = (
+  postProjectInstanceApplicationAccessByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string
   ): Promise<CloudInstanceApplicationAccess> => {
@@ -6722,10 +6743,10 @@ class CloudHandler {
   };
 
   /** Get interfaces */
-  getProjectServiceNameInstanceInstanceIdInterface = (
+  getProjectInstanceInterfaceByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string
-  ): Promise<CloudInstanceInterfaceInterface> => {
+  ): Promise<CloudInstanceInterfaceInterface[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/instance/${instanceId}/interface`
@@ -6733,7 +6754,7 @@ class CloudHandler {
   };
 
   /** Create interface on an instance and attached it to a network */
-  postProjectServiceNameInstanceInstanceIdInterface = (
+  createProjectInstanceInterfaceByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string,
     body: CloudProjectInstanceInterfaceCreation
@@ -6746,7 +6767,7 @@ class CloudHandler {
   };
 
   /** Delete an interface */
-  deleteProjectServiceNameInstanceInstanceIdInterfaceInterfaceId = (
+  deleteProjectInstanceInterfaceByServiceNameAndInstanceIdAndInterfaceId = (
     instanceId: string,
     interfaceId: string,
     serviceName: string
@@ -6758,7 +6779,7 @@ class CloudHandler {
   };
 
   /** Get interface */
-  getProjectServiceNameInstanceInstanceIdInterfaceInterfaceId = (
+  getProjectInstanceInterfaceByServiceNameAndInstanceIdAndInterfaceId = (
     instanceId: string,
     interfaceId: string,
     serviceName: string
@@ -6770,7 +6791,7 @@ class CloudHandler {
   };
 
   /** Return many statistics about the virtual machine for a given period */
-  getProjectServiceNameInstanceInstanceIdMonitoring = (
+  getProjectInstanceMonitoringByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string
   ): Promise<CloudInstanceInstanceMetrics> => {
@@ -6781,7 +6802,7 @@ class CloudHandler {
   };
 
   /** Reboot an instance */
-  postProjectServiceNameInstanceInstanceIdReboot = (
+  postProjectInstanceRebootByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string,
     body: CloudProjectInstanceRebootCreation
@@ -6794,7 +6815,7 @@ class CloudHandler {
   };
 
   /** Reinstall an instance */
-  postProjectServiceNameInstanceInstanceIdReinstall = (
+  postProjectInstanceReinstallByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string,
     body: CloudProjectInstanceReinstallCreation
@@ -6807,7 +6828,7 @@ class CloudHandler {
   };
 
   /** Enable or disable rescue mode */
-  postProjectServiceNameInstanceInstanceIdRescueMode = (
+  enableProjectInstanceRescueModeByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string,
     body: CloudProjectInstanceRescueModeCreation
@@ -6820,7 +6841,7 @@ class CloudHandler {
   };
 
   /** Migrate your instance to another flavor */
-  postProjectServiceNameInstanceInstanceIdResize = (
+  postProjectInstanceResizeByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string,
     body: CloudProjectInstanceResizeCreation
@@ -6833,7 +6854,7 @@ class CloudHandler {
   };
 
   /** Resume a suspended instance */
-  postProjectServiceNameInstanceInstanceIdResume = (
+  postProjectInstanceResumeByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string
   ): Promise<void> => {
@@ -6841,7 +6862,7 @@ class CloudHandler {
   };
 
   /** Shelve an instance. The resources dedicated to the Public Cloud instance are released. The data of the local storage will be stored, the duration of the operation depends on the size of the local disk. The instance can be unshelved at any time. Meanwhile hourly instances will not be billed. The Snapshot Storage used to store the instance's data will be billed. */
-  postProjectServiceNameInstanceInstanceIdShelve = (
+  postProjectInstanceShelveByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string
   ): Promise<void> => {
@@ -6849,7 +6870,7 @@ class CloudHandler {
   };
 
   /** Snapshot an instance */
-  postProjectServiceNameInstanceInstanceIdSnapshot = (
+  postProjectInstanceSnapshotByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string,
     body: CloudProjectInstanceSnapshotCreation
@@ -6862,7 +6883,7 @@ class CloudHandler {
   };
 
   /** Start an instance */
-  postProjectServiceNameInstanceInstanceIdStart = (
+  postProjectInstanceStartByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string
   ): Promise<void> => {
@@ -6870,7 +6891,7 @@ class CloudHandler {
   };
 
   /** Stop an instance. The resources dedicated to the Public Cloud instances are still reserved. The instance can be restarted at any time. Meanwhile, the same price is charged for the instance. */
-  postProjectServiceNameInstanceInstanceIdStop = (
+  postProjectInstanceStopByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string
   ): Promise<void> => {
@@ -6878,7 +6899,7 @@ class CloudHandler {
   };
 
   /** Unshelve an instance. The resources dedicated to the Public Cloud instance are restored. The duration of the operation depends on the size of the local disk. Instance billing will get back to normal and the snapshot used to store the instance's data will be deleted. */
-  postProjectServiceNameInstanceInstanceIdUnshelve = (
+  postProjectInstanceUnshelveByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string
   ): Promise<void> => {
@@ -6889,7 +6910,7 @@ class CloudHandler {
   };
 
   /** Get VNC access to your instance */
-  postProjectServiceNameInstanceInstanceIdVnc = (
+  postProjectInstanceVncByServiceNameAndInstanceId = (
     instanceId: string,
     serviceName: string
   ): Promise<CloudInstanceInstanceVnc> => {
@@ -6897,12 +6918,14 @@ class CloudHandler {
   };
 
   /** List all available regions */
-  getProjectServiceNameIoCapabilitiesStreamRegion = (serviceName: string): Promise<string> => {
+  listProjectIoCapabilitiesStreamRegionsByServiceName = (
+    serviceName: string
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/io/capabilities/stream/region`);
   };
 
   /** Get connection information from a region */
-  getProjectServiceNameIoCapabilitiesStreamRegionRegionName = (
+  getProjectIoCapabilitiesStreamRegionByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudProjectIoStreamRegion> => {
@@ -6913,12 +6936,12 @@ class CloudHandler {
   };
 
   /** List all stream for a tenant */
-  getProjectServiceNameIoStream = (serviceName: string): Promise<string> => {
+  listProjectIoStreamsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/io/stream`);
   };
 
   /** Create a stream */
-  postProjectServiceNameIoStream = (
+  createProjectIoStreamByServiceName = (
     serviceName: string,
     body: CloudProjectIoStreamCreation
   ): Promise<CloudProjectIoStream> => {
@@ -6926,7 +6949,7 @@ class CloudHandler {
   };
 
   /** Delete a stream */
-  deleteProjectServiceNameIoStreamStreamId = (
+  deleteProjectIoStreamByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string
   ): Promise<void> => {
@@ -6934,7 +6957,7 @@ class CloudHandler {
   };
 
   /** Get a stream */
-  getProjectServiceNameIoStreamStreamId = (
+  getProjectIoStreamByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string
   ): Promise<CloudProjectIoStream> => {
@@ -6942,7 +6965,7 @@ class CloudHandler {
   };
 
   /** Update a stream */
-  putProjectServiceNameIoStreamStreamId = (
+  updateProjectIoStreamByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string,
     body: CloudProjectIoStream
@@ -6951,7 +6974,7 @@ class CloudHandler {
   };
 
   /** Retrieve statistics of the stream */
-  getProjectServiceNameIoStreamStreamIdStats = (
+  getProjectIoStreamStatsByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string
   ): Promise<CloudProjectIoStreamStats> => {
@@ -6959,10 +6982,10 @@ class CloudHandler {
   };
 
   /** List all subscriptions for a stream */
-  getProjectServiceNameIoStreamStreamIdSubscription = (
+  listProjectIoStreamSubscriptionsByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/io/stream/${streamId}/subscription`
@@ -6970,7 +6993,7 @@ class CloudHandler {
   };
 
   /** Create a new subscription */
-  postProjectServiceNameIoStreamStreamIdSubscription = (
+  createProjectIoStreamSubscriptionByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string,
     body: CloudProjectIoStreamSubscriptionCreation
@@ -6983,7 +7006,7 @@ class CloudHandler {
   };
 
   /** Delete a subscription */
-  deleteProjectServiceNameIoStreamStreamIdSubscriptionSubscriptionId = (
+  deleteProjectIoStreamSubscriptionByServiceNameAndStreamIdAndSubscriptionId = (
     serviceName: string,
     streamId: string,
     subscriptionId: string
@@ -6995,7 +7018,7 @@ class CloudHandler {
   };
 
   /** Get a subscription */
-  getProjectServiceNameIoStreamStreamIdSubscriptionSubscriptionId = (
+  getProjectIoStreamSubscriptionByServiceNameAndStreamIdAndSubscriptionId = (
     serviceName: string,
     streamId: string,
     subscriptionId: string
@@ -7007,7 +7030,7 @@ class CloudHandler {
   };
 
   /** Reset a cursor */
-  postProjectServiceNameIoStreamStreamIdSubscriptionSubscriptionIdResetCursor = (
+  postProjectIoStreamSubscriptionResetCursorByServiceNameAndStreamIdAndSubscriptionId = (
     serviceName: string,
     streamId: string,
     subscriptionId: string
@@ -7019,7 +7042,7 @@ class CloudHandler {
   };
 
   /** Retrieve statistics of the subscription */
-  getProjectServiceNameIoStreamStreamIdSubscriptionSubscriptionIdStats = (
+  getProjectIoStreamSubscriptionStatsByServiceNameAndStreamIdAndSubscriptionId = (
     serviceName: string,
     streamId: string,
     subscriptionId: string
@@ -7031,15 +7054,15 @@ class CloudHandler {
   };
 
   /** List all tokens for a stream */
-  getProjectServiceNameIoStreamStreamIdToken = (
+  listProjectIoStreamTokensByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/io/stream/${streamId}/token`);
   };
 
   /** Create a token */
-  postProjectServiceNameIoStreamStreamIdToken = (
+  createProjectIoStreamTokenByServiceNameAndStreamId = (
     serviceName: string,
     streamId: string,
     body: CloudProjectIoStreamTokenCreation
@@ -7052,7 +7075,7 @@ class CloudHandler {
   };
 
   /** Delete a token */
-  deleteProjectServiceNameIoStreamStreamIdTokenTokenId = (
+  deleteProjectIoStreamTokenByServiceNameAndStreamIdAndTokenId = (
     serviceName: string,
     streamId: string,
     tokenId: string
@@ -7064,7 +7087,7 @@ class CloudHandler {
   };
 
   /** Get token */
-  getProjectServiceNameIoStreamStreamIdTokenTokenId = (
+  getProjectIoStreamTokenByServiceNameAndStreamIdAndTokenId = (
     serviceName: string,
     streamId: string,
     tokenId: string
@@ -7076,17 +7099,17 @@ class CloudHandler {
   };
 
   /** Get ips */
-  getProjectServiceNameIp = (serviceName: string): Promise<CloudIpCloudIp> => {
+  getProjectIpByServiceName = (serviceName: string): Promise<CloudIpCloudIp[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ip`);
   };
 
   /** Get failover ips */
-  getProjectServiceNameIpFailover = (serviceName: string): Promise<CloudIpFailoverIp> => {
+  getProjectIpFailoverByServiceName = (serviceName: string): Promise<CloudIpFailoverIp[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/ip/failover`);
   };
 
   /** Get failover ip */
-  getProjectServiceNameIpFailoverId = (
+  getProjectIpFailoverByServiceNameAndId = (
     id: string,
     serviceName: string
   ): Promise<CloudIpFailoverIp> => {
@@ -7094,7 +7117,7 @@ class CloudHandler {
   };
 
   /** Attach failover ip to an instance */
-  postProjectServiceNameIpFailoverIdAttach = (
+  postProjectIpFailoverAttachByServiceNameAndId = (
     id: string,
     serviceName: string,
     body: CloudProjectIpFailoverAttachCreation
@@ -7103,12 +7126,12 @@ class CloudHandler {
   };
 
   /** List your managed Kubernetes clusters */
-  getProjectServiceNameKube = (serviceName: string): Promise<string> => {
+  listProjectKubesByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/kube`);
   };
 
   /** Create a new managed Kubernetes cluster */
-  postProjectServiceNameKube = (
+  createProjectKubeByServiceName = (
     serviceName: string,
     body: CloudProjectKubeCreation
   ): Promise<CloudKubeCluster> => {
@@ -7116,17 +7139,20 @@ class CloudHandler {
   };
 
   /** List Kubernetes available regions */
-  getProjectServiceNameKubeRegions = (serviceName: string): Promise<CloudKubeRegionEnum> => {
+  listProjectKubeRegionsByServiceName = (serviceName: string): Promise<CloudKubeRegionEnum[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/kube/regions`);
   };
 
   /** Delete your managed Kubernetes cluster */
-  deleteProjectServiceNameKubeKubeId = (kubeId: string, serviceName: string): Promise<void> => {
+  deleteProjectKubeByServiceNameAndKubeId = (
+    kubeId: string,
+    serviceName: string
+  ): Promise<void> => {
     return this.ovh.request('DELETE', `/cloud/project/${serviceName}/kube/${kubeId}`);
   };
 
   /** Get information about your managed Kubernetes cluster */
-  getProjectServiceNameKubeKubeId = (
+  getProjectKubeByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
   ): Promise<CloudKubeCluster> => {
@@ -7134,7 +7160,7 @@ class CloudHandler {
   };
 
   /** Update information about your managed Kubernetes cluster */
-  putProjectServiceNameKubeKubeId = (
+  updateProjectKubeByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string,
     body: CloudProjectKubeUpdate
@@ -7143,7 +7169,7 @@ class CloudHandler {
   };
 
   /** Generate a temporary url to retrieve auditlogs */
-  postProjectServiceNameKubeKubeIdAuditLogs = (
+  postProjectKubeAuditLogsByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
   ): Promise<CloudKubeAuditLogs> => {
@@ -7151,7 +7177,7 @@ class CloudHandler {
   };
 
   /** Get cluster customization */
-  getProjectServiceNameKubeKubeIdCustomization = (
+  getProjectKubeCustomizationByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
   ): Promise<CloudProjectKubeCustomization> => {
@@ -7159,7 +7185,7 @@ class CloudHandler {
   };
 
   /** Update cluster customization */
-  putProjectServiceNameKubeKubeIdCustomization = (
+  updateProjectKubeCustomizationByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string,
     body: CloudProjectKubeCustomization
@@ -7172,27 +7198,27 @@ class CloudHandler {
   };
 
   /** List all flavors available */
-  getProjectServiceNameKubeKubeIdFlavors = (
+  listProjectKubeFlavorsByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
-  ): Promise<CloudKubeFlavor> => {
+  ): Promise<CloudKubeFlavor[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/kube/${kubeId}/flavors`);
   };
 
   /** List your ip restrictions on your cluster */
-  getProjectServiceNameKubeKubeIdIpRestrictions = (
+  listProjectKubeIpRestrictionsByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/kube/${kubeId}/ipRestrictions`);
   };
 
   /** Append a list of ip restrictions on your cluster */
-  postProjectServiceNameKubeKubeIdIpRestrictions = (
+  postProjectKubeIpRestrictionsByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string,
     body: CloudProjectKubeIpRestrictionUpsert
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'POST',
       `/cloud/project/${serviceName}/kube/${kubeId}/ipRestrictions`,
@@ -7201,11 +7227,11 @@ class CloudHandler {
   };
 
   /** Remove the current list and add a list of ip restrictions on your cluster */
-  putProjectServiceNameKubeKubeIdIpRestrictions = (
+  putProjectKubeIpRestrictionsByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string,
     body: CloudProjectKubeIpRestrictionUpsert
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'PUT',
       `/cloud/project/${serviceName}/kube/${kubeId}/ipRestrictions`,
@@ -7214,7 +7240,7 @@ class CloudHandler {
   };
 
   /** Delete an ip restriction from your cluster */
-  deleteProjectServiceNameKubeKubeIdIpRestrictionsIp = (
+  deleteProjectKubeIpRestrictionsByServiceNameAndKubeIdAndIp = (
     ip: string,
     kubeId: string,
     serviceName: string
@@ -7226,7 +7252,7 @@ class CloudHandler {
   };
 
   /** Generate kubeconfig file */
-  postProjectServiceNameKubeKubeIdKubeconfig = (
+  postProjectKubeKubeconfigByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
   ): Promise<CloudKubeKubeconfig> => {
@@ -7234,7 +7260,7 @@ class CloudHandler {
   };
 
   /** Reset kubeconfig: Certificates will be regenerated, nodes will be reinstalled */
-  postProjectServiceNameKubeKubeIdKubeconfigReset = (
+  postProjectKubeKubeconfigResetByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
   ): Promise<void> => {
@@ -7245,7 +7271,7 @@ class CloudHandler {
   };
 
   /** List available metrics for this cluster */
-  getProjectServiceNameKubeKubeIdMetricsEtcdUsage = (
+  listProjectKubeMetricsEtcdUsagesByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
   ): Promise<CloudKubeEtcdUsage> => {
@@ -7256,15 +7282,15 @@ class CloudHandler {
   };
 
   /** List your nodes */
-  getProjectServiceNameKubeKubeIdNode = (
+  listProjectKubeNodesByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
-  ): Promise<CloudKubeNode> => {
+  ): Promise<CloudKubeNode[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/kube/${kubeId}/node`);
   };
 
   /** Deploy a node for your cluster. This call is deprecated. In the meantime it will create a new node pool for each call. We encourage you to now either create a new nodepool or change the size on an existing one */
-  postProjectServiceNameKubeKubeIdNode = (
+  postProjectKubeNodeByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string,
     body: CloudProjectKubeNodeCreation
@@ -7273,7 +7299,7 @@ class CloudHandler {
   };
 
   /** Delete a specific node on your cluster. This will also decrease by one the desirednodes value of its nodepool */
-  deleteProjectServiceNameKubeKubeIdNodeNodeId = (
+  deleteProjectKubeNodeByServiceNameAndKubeIdAndNodeId = (
     kubeId: string,
     nodeId: string,
     serviceName: string
@@ -7285,7 +7311,7 @@ class CloudHandler {
   };
 
   /** Get information on a specific node on your cluster */
-  getProjectServiceNameKubeKubeIdNodeNodeId = (
+  getProjectKubeNodeByServiceNameAndKubeIdAndNodeId = (
     kubeId: string,
     nodeId: string,
     serviceName: string
@@ -7294,15 +7320,15 @@ class CloudHandler {
   };
 
   /** List your nodepools */
-  getProjectServiceNameKubeKubeIdNodepool = (
+  listProjectKubeNodepoolsByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
-  ): Promise<CloudKubeNodePool> => {
+  ): Promise<CloudKubeNodePool[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/kube/${kubeId}/nodepool`);
   };
 
   /** Create a nodepool on your cluster */
-  postProjectServiceNameKubeKubeIdNodepool = (
+  createProjectKubeNodepoolByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string,
     body: CloudProjectKubeNodePoolCreation
@@ -7311,7 +7337,7 @@ class CloudHandler {
   };
 
   /** Delete a nodepool from your cluster */
-  deleteProjectServiceNameKubeKubeIdNodepoolNodePoolId = (
+  deleteProjectKubeNodepoolByServiceNameAndKubeIdAndNodePoolId = (
     kubeId: string,
     nodePoolId: string,
     serviceName: string
@@ -7323,7 +7349,7 @@ class CloudHandler {
   };
 
   /** Get information on a specific nodepool on your cluster */
-  getProjectServiceNameKubeKubeIdNodepoolNodePoolId = (
+  getProjectKubeNodepoolByServiceNameAndKubeIdAndNodePoolId = (
     kubeId: string,
     nodePoolId: string,
     serviceName: string
@@ -7335,7 +7361,7 @@ class CloudHandler {
   };
 
   /** Update your nodepool information */
-  putProjectServiceNameKubeKubeIdNodepoolNodePoolId = (
+  updateProjectKubeNodepoolByServiceNameAndKubeIdAndNodePoolId = (
     kubeId: string,
     nodePoolId: string,
     serviceName: string,
@@ -7349,11 +7375,11 @@ class CloudHandler {
   };
 
   /** List all nodes contained in a nodepool */
-  getProjectServiceNameKubeKubeIdNodepoolNodePoolIdNodes = (
+  listProjectKubeNodepoolNodesByServiceNameAndKubeIdAndNodePoolId = (
     kubeId: string,
     nodePoolId: string,
     serviceName: string
-  ): Promise<CloudKubeNode> => {
+  ): Promise<CloudKubeNode[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/kube/${kubeId}/nodepool/${nodePoolId}/nodes`
@@ -7361,7 +7387,7 @@ class CloudHandler {
   };
 
   /** Remove OpenIdConnect integration from APIServer */
-  deleteProjectServiceNameKubeKubeIdOpenIdConnect = (
+  deleteProjectKubeOpenIdConnectByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
   ): Promise<void> => {
@@ -7369,7 +7395,7 @@ class CloudHandler {
   };
 
   /** Get openIdConnect integration parameters */
-  getProjectServiceNameKubeKubeIdOpenIdConnect = (
+  getProjectKubeOpenIdConnectByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
   ): Promise<CloudKubeOpenIdConnect> => {
@@ -7377,7 +7403,7 @@ class CloudHandler {
   };
 
   /** Configure APIServer for OpenIdConnect */
-  postProjectServiceNameKubeKubeIdOpenIdConnect = (
+  postProjectKubeOpenIdConnectByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string,
     body: CloudProjectKubeOpenIdConnectCreation
@@ -7390,7 +7416,7 @@ class CloudHandler {
   };
 
   /** Update parameters and reconfigure APIServer */
-  putProjectServiceNameKubeKubeIdOpenIdConnect = (
+  updateProjectKubeOpenIdConnectByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string,
     body: CloudProjectKubeOpenIdConnectUpdate
@@ -7403,7 +7429,7 @@ class CloudHandler {
   };
 
   /** Get private network configuration */
-  getProjectServiceNameKubeKubeIdPrivateNetworkConfiguration = (
+  getProjectKubePrivateNetworkConfigurationByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string
   ): Promise<CloudKubePrivateNetworkConfiguration> => {
@@ -7414,7 +7440,7 @@ class CloudHandler {
   };
 
   /** Update private network configuration */
-  putProjectServiceNameKubeKubeIdPrivateNetworkConfiguration = (
+  updateProjectKubePrivateNetworkConfigurationByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string,
     body: CloudKubePrivateNetworkConfiguration
@@ -7427,7 +7453,7 @@ class CloudHandler {
   };
 
   /** Reset cluster: all Kubernetes data will be erased (pods, services, configuration, etc), nodes will be either deleted or reinstalled */
-  postProjectServiceNameKubeKubeIdReset = (
+  postProjectKubeResetByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string,
     body: CloudProjectKubeResetCreation
@@ -7436,7 +7462,7 @@ class CloudHandler {
   };
 
   /** Restarting your control plane apiserver to invalidate cache without downtime (using force will create a slight downtime) */
-  postProjectServiceNameKubeKubeIdRestart = (
+  postProjectKubeRestartByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string,
     body: CloudProjectKubeRestart
@@ -7445,7 +7471,7 @@ class CloudHandler {
   };
 
   /** Force cluster and node update to the latest patch within minor version or next minor version */
-  postProjectServiceNameKubeKubeIdUpdate = (
+  postProjectKubeUpdateByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string,
     body: CloudProjectKubeUpdateCreation
@@ -7454,7 +7480,7 @@ class CloudHandler {
   };
 
   /** Change the update policy of your cluster */
-  putProjectServiceNameKubeKubeIdUpdatePolicy = (
+  updateProjectKubeUpdatePolicyByServiceNameAndKubeId = (
     kubeId: string,
     serviceName: string,
     body: CloudProjectKubeUpdatePolicyUpdate
@@ -7467,17 +7493,17 @@ class CloudHandler {
   };
 
   /** List available public cloud labs */
-  getProjectServiceNameLab = (serviceName: string): Promise<CloudLab> => {
+  listProjectLabsByServiceName = (serviceName: string): Promise<CloudLab[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/lab`);
   };
 
   /** Get details of a public cloud lab */
-  getProjectServiceNameLabLabId = (labId: string, serviceName: string): Promise<CloudLab> => {
+  getProjectLabByServiceNameAndLabId = (labId: string, serviceName: string): Promise<CloudLab> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/lab/${labId}`);
   };
 
   /** Activate a lab on your Cloud Project */
-  postProjectServiceNameLabLabId = (
+  postProjectLabByServiceNameAndLabId = (
     labId: string,
     serviceName: string
   ): Promise<CloudOperation> => {
@@ -7485,7 +7511,7 @@ class CloudHandler {
   };
 
   /** List required agreements to active this lab */
-  getProjectServiceNameLabLabIdAgreement = (
+  listProjectLabAgreementsByServiceNameAndLabId = (
     labId: string,
     serviceName: string
   ): Promise<CloudLabAgreements> => {
@@ -7493,12 +7519,12 @@ class CloudHandler {
   };
 
   /** List all load balancer for a tenant */
-  getProjectServiceNameLoadbalancer = (serviceName: string): Promise<string> => {
+  listProjectLoadbalancersByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/loadbalancer`);
   };
 
   /** Create a load balancer */
-  postProjectServiceNameLoadbalancer = (
+  createProjectLoadbalancerByServiceName = (
     serviceName: string,
     body: CloudProjectLoadBalancerCreation
   ): Promise<CloudProjectLoadBalancer> => {
@@ -7506,7 +7532,7 @@ class CloudHandler {
   };
 
   /** Delete a load balancer */
-  deleteProjectServiceNameLoadbalancerLoadBalancerId = (
+  deleteProjectLoadbalancerByServiceNameAndLoadBalancerId = (
     loadBalancerId: string,
     serviceName: string
   ): Promise<void> => {
@@ -7517,7 +7543,7 @@ class CloudHandler {
   };
 
   /** Get a load balancer */
-  getProjectServiceNameLoadbalancerLoadBalancerId = (
+  getProjectLoadbalancerByServiceNameAndLoadBalancerId = (
     loadBalancerId: string,
     serviceName: string
   ): Promise<CloudProjectLoadBalancer> => {
@@ -7525,7 +7551,7 @@ class CloudHandler {
   };
 
   /** Update a load balancer */
-  putProjectServiceNameLoadbalancerLoadBalancerId = (
+  updateProjectLoadbalancerByServiceNameAndLoadBalancerId = (
     loadBalancerId: string,
     serviceName: string,
     body: CloudProjectLoadBalancer
@@ -7538,10 +7564,10 @@ class CloudHandler {
   };
 
   /** List all versions of the configuration */
-  getProjectServiceNameLoadbalancerLoadBalancerIdConfiguration = (
+  listProjectLoadbalancerConfigurationsByServiceNameAndLoadBalancerId = (
     loadBalancerId: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/loadbalancer/${loadBalancerId}/configuration`
@@ -7549,7 +7575,7 @@ class CloudHandler {
   };
 
   /** Create a configuration */
-  postProjectServiceNameLoadbalancerLoadBalancerIdConfiguration = (
+  createProjectLoadbalancerConfigurationByServiceNameAndLoadBalancerId = (
     loadBalancerId: string,
     serviceName: string,
     body: CloudProjectLoadbalancerConfigurationCreation
@@ -7562,7 +7588,7 @@ class CloudHandler {
   };
 
   /** Delete a configuration */
-  deleteProjectServiceNameLoadbalancerLoadBalancerIdConfigurationVersion = (
+  deleteProjectLoadbalancerConfigurationByServiceNameAndLoadBalancerIdAndVersion = (
     loadBalancerId: string,
     serviceName: string,
     version: number
@@ -7574,7 +7600,7 @@ class CloudHandler {
   };
 
   /** Get a configuration */
-  getProjectServiceNameLoadbalancerLoadBalancerIdConfigurationVersion = (
+  getProjectLoadbalancerConfigurationByServiceNameAndLoadBalancerIdAndVersion = (
     loadBalancerId: string,
     serviceName: string,
     version: number
@@ -7586,7 +7612,7 @@ class CloudHandler {
   };
 
   /** Apply a configuration */
-  postProjectServiceNameLoadbalancerLoadBalancerIdConfigurationVersionApply = (
+  postProjectLoadbalancerConfigurationApplyByServiceNameAndLoadBalancerIdAndVersion = (
     loadBalancerId: string,
     serviceName: string,
     version: number
@@ -7598,12 +7624,12 @@ class CloudHandler {
   };
 
   /** Get planned migrations */
-  getProjectServiceNameMigration = (serviceName: string): Promise<CloudMigrationMigration> => {
+  getProjectMigrationByServiceName = (serviceName: string): Promise<CloudMigrationMigration[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/migration`);
   };
 
   /** Get planned migration */
-  getProjectServiceNameMigrationMigrationId = (
+  getProjectMigrationByServiceNameAndMigrationId = (
     migrationId: string,
     serviceName: string
   ): Promise<CloudMigrationMigration> => {
@@ -7611,7 +7637,7 @@ class CloudHandler {
   };
 
   /** Update planned migration */
-  putProjectServiceNameMigrationMigrationId = (
+  updateProjectMigrationByServiceNameAndMigrationId = (
     migrationId: string,
     serviceName: string,
     body: CloudProjectMigrationUpdate
@@ -7620,12 +7646,12 @@ class CloudHandler {
   };
 
   /** Get private networks */
-  getProjectServiceNameNetworkPrivate = (serviceName: string): Promise<CloudNetworkNetwork> => {
+  getProjectNetworkPrivateByServiceName = (serviceName: string): Promise<CloudNetworkNetwork[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/network/private`);
   };
 
   /** Create a new network */
-  postProjectServiceNameNetworkPrivate = (
+  createProjectNetworkPrivateByServiceName = (
     serviceName: string,
     body: CloudProjectNetworkPrivateCreation
   ): Promise<CloudNetworkNetwork> => {
@@ -7633,7 +7659,7 @@ class CloudHandler {
   };
 
   /** Delete private network */
-  deleteProjectServiceNameNetworkPrivateNetworkId = (
+  deleteProjectNetworkPrivateByServiceNameAndNetworkId = (
     networkId: string,
     serviceName: string
   ): Promise<void> => {
@@ -7641,7 +7667,7 @@ class CloudHandler {
   };
 
   /** Get private network */
-  getProjectServiceNameNetworkPrivateNetworkId = (
+  getProjectNetworkPrivateByServiceNameAndNetworkId = (
     networkId: string,
     serviceName: string
   ): Promise<CloudNetworkNetwork> => {
@@ -7649,7 +7675,7 @@ class CloudHandler {
   };
 
   /** Rename private network */
-  putProjectServiceNameNetworkPrivateNetworkId = (
+  putProjectNetworkPrivateByServiceNameAndNetworkId = (
     networkId: string,
     serviceName: string,
     body: CloudProjectNetworkPrivateUpdate
@@ -7662,7 +7688,7 @@ class CloudHandler {
   };
 
   /** Activate private network in a new region */
-  postProjectServiceNameNetworkPrivateNetworkIdRegion = (
+  postProjectNetworkPrivateRegionByServiceNameAndNetworkId = (
     networkId: string,
     serviceName: string,
     body: CloudProjectNetworkPrivateRegionCreation
@@ -7675,10 +7701,10 @@ class CloudHandler {
   };
 
   /** Get network subnets */
-  getProjectServiceNameNetworkPrivateNetworkIdSubnet = (
+  getProjectNetworkPrivateSubnetByServiceNameAndNetworkId = (
     networkId: string,
     serviceName: string
-  ): Promise<CloudNetworkSubnet> => {
+  ): Promise<CloudNetworkSubnet[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/network/private/${networkId}/subnet`
@@ -7686,7 +7712,7 @@ class CloudHandler {
   };
 
   /** Create a new network subnet */
-  postProjectServiceNameNetworkPrivateNetworkIdSubnet = (
+  createProjectNetworkPrivateSubnetByServiceNameAndNetworkId = (
     networkId: string,
     serviceName: string,
     body: CloudProjectNetworkPrivateSubnetCreation
@@ -7699,7 +7725,7 @@ class CloudHandler {
   };
 
   /** Delete a network subnet */
-  deleteProjectServiceNameNetworkPrivateNetworkIdSubnetSubnetId = (
+  deleteProjectNetworkPrivateSubnetByServiceNameAndNetworkIdAndSubnetId = (
     networkId: string,
     serviceName: string,
     subnetId: string
@@ -7711,17 +7737,17 @@ class CloudHandler {
   };
 
   /** Get public networks */
-  getProjectServiceNameNetworkPublic = (serviceName: string): Promise<CloudNetworkNetwork> => {
+  getProjectNetworkPublicByServiceName = (serviceName: string): Promise<CloudNetworkNetwork[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/network/public`);
   };
 
   /** List your operations */
-  getProjectServiceNameOperation = (serviceName: string): Promise<CloudOperation> => {
+  listProjectOperationsByServiceName = (serviceName: string): Promise<CloudOperation[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/operation`);
   };
 
   /** Get information about one operation */
-  getProjectServiceNameOperationOperationId = (
+  getProjectOperationByServiceNameAndOperationId = (
     operationId: string,
     serviceName: string
   ): Promise<CloudOperation> => {
@@ -7729,17 +7755,17 @@ class CloudHandler {
   };
 
   /** List quotas */
-  getProjectServiceNameQuota = (serviceName: string): Promise<CloudQuotaQuotas> => {
+  listProjectQuotasByServiceName = (serviceName: string): Promise<CloudQuotaQuotas[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/quota`);
   };
 
   /** List your regions */
-  getProjectServiceNameRegion = (serviceName: string): Promise<string> => {
+  listProjectRegionsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/region`);
   };
 
   /** Request access to a region */
-  postProjectServiceNameRegion = (
+  postProjectRegionByServiceName = (
     serviceName: string,
     body: CloudProjectRegionCreation
   ): Promise<CloudRegion> => {
@@ -7747,7 +7773,7 @@ class CloudHandler {
   };
 
   /** Get information about your region */
-  getProjectServiceNameRegionRegionName = (
+  getProjectRegionByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudRegion> => {
@@ -7755,10 +7781,10 @@ class CloudHandler {
   };
 
   /** Get cold archive containers */
-  getProjectServiceNameRegionRegionNameColdArchive = (
+  getProjectRegionColdArchiveByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudColdArchiveContainer> => {
+  ): Promise<CloudColdArchiveContainer[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/coldArchive`
@@ -7766,7 +7792,7 @@ class CloudHandler {
   };
 
   /** Create S3 cold archive container */
-  postProjectServiceNameRegionRegionNameColdArchive = (
+  createProjectRegionColdArchiveByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudStorageContainerCreation
@@ -7779,7 +7805,7 @@ class CloudHandler {
   };
 
   /** Delete S3 cold archive container */
-  deleteProjectServiceNameRegionRegionNameColdArchiveName = (
+  deleteProjectRegionColdArchiveByServiceNameAndRegionNameAndName = (
     name: string,
     regionName: string,
     serviceName: string
@@ -7791,7 +7817,7 @@ class CloudHandler {
   };
 
   /** Get S3 cold archive container */
-  getProjectServiceNameRegionRegionNameColdArchiveName = (
+  getProjectRegionColdArchiveByServiceNameAndRegionNameAndName = (
     name: string,
     regionName: string,
     serviceName: string
@@ -7803,7 +7829,7 @@ class CloudHandler {
   };
 
   /** Start archiving of container */
-  postProjectServiceNameRegionRegionNameColdArchiveNameArchive = (
+  postProjectRegionColdArchiveArchiveByServiceNameAndRegionNameAndName = (
     name: string,
     regionName: string,
     serviceName: string
@@ -7815,7 +7841,7 @@ class CloudHandler {
   };
 
   /** Start cleaning tape date of archived container */
-  postProjectServiceNameRegionRegionNameColdArchiveNameDestroy = (
+  postProjectRegionColdArchiveDestroyByServiceNameAndRegionNameAndName = (
     name: string,
     regionName: string,
     serviceName: string
@@ -7827,7 +7853,7 @@ class CloudHandler {
   };
 
   /** Delete S3 cold archive container object */
-  deleteProjectServiceNameRegionRegionNameColdArchiveNameObjectObjectKey = (
+  deleteProjectRegionColdArchiveObjectByServiceNameAndRegionNameAndNameAndObjectKey = (
     name: string,
     objectKey: string,
     regionName: string,
@@ -7840,7 +7866,7 @@ class CloudHandler {
   };
 
   /** Add S3 cold archive container policy */
-  postProjectServiceNameRegionRegionNameColdArchiveNamePolicyUserId = (
+  addProjectRegionColdArchivePolicyByServiceNameAndRegionNameAndNameAndUserId = (
     name: string,
     regionName: string,
     serviceName: string,
@@ -7855,7 +7881,7 @@ class CloudHandler {
   };
 
   /** Generate presigned URLs to download or upload objects */
-  postProjectServiceNameRegionRegionNameColdArchiveNamePresign = (
+  postProjectRegionColdArchivePresignByServiceNameAndRegionNameAndName = (
     name: string,
     regionName: string,
     serviceName: string,
@@ -7869,7 +7895,7 @@ class CloudHandler {
   };
 
   /** Start restoring of container */
-  postProjectServiceNameRegionRegionNameColdArchiveNameRestore = (
+  postProjectRegionColdArchiveRestoreByServiceNameAndRegionNameAndName = (
     name: string,
     regionName: string,
     serviceName: string
@@ -7881,15 +7907,15 @@ class CloudHandler {
   };
 
   /** Get floating ips */
-  getProjectServiceNameRegionRegionNameFloatingip = (
+  getProjectRegionFloatingipByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudProjectFloatingIp> => {
+  ): Promise<CloudProjectFloatingIp[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/region/${regionName}/floatingip`);
   };
 
   /** Delete a floating ip */
-  deleteProjectServiceNameRegionRegionNameFloatingipFloatingIpId = (
+  deleteProjectRegionFloatingipByServiceNameAndRegionNameAndFloatingIpId = (
     floatingIpId: string,
     regionName: string,
     serviceName: string
@@ -7901,7 +7927,7 @@ class CloudHandler {
   };
 
   /** Get a floating ip */
-  getProjectServiceNameRegionRegionNameFloatingipFloatingIpId = (
+  getProjectRegionFloatingipByServiceNameAndRegionNameAndFloatingIpId = (
     floatingIpId: string,
     regionName: string,
     serviceName: string
@@ -7913,7 +7939,7 @@ class CloudHandler {
   };
 
   /** Detach your floating ip */
-  postProjectServiceNameRegionRegionNameFloatingipFloatingIpIdDetach = (
+  postProjectRegionFloatingipDetachByServiceNameAndRegionNameAndFloatingIpId = (
     floatingIpId: string,
     regionName: string,
     serviceName: string
@@ -7925,15 +7951,15 @@ class CloudHandler {
   };
 
   /** List gateways */
-  getProjectServiceNameRegionRegionNameGateway = (
+  listProjectRegionGatewaysByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudNetworkGateway> => {
+  ): Promise<CloudNetworkGateway[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/region/${regionName}/gateway`);
   };
 
   /** Create new Gateway and new Private Network with new Subnet */
-  postProjectServiceNameRegionRegionNameGateway = (
+  createProjectRegionGatewayByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudNetworkCreateGateway
@@ -7946,7 +7972,7 @@ class CloudHandler {
   };
 
   /** Delete gateway */
-  deleteProjectServiceNameRegionRegionNameGatewayId = (
+  deleteProjectRegionGatewayByServiceNameAndRegionNameAndId = (
     id: string,
     regionName: string,
     serviceName: string
@@ -7958,7 +7984,7 @@ class CloudHandler {
   };
 
   /** Get gateway */
-  getProjectServiceNameRegionRegionNameGatewayId = (
+  getProjectRegionGatewayByServiceNameAndRegionNameAndId = (
     id: string,
     regionName: string,
     serviceName: string
@@ -7970,7 +7996,7 @@ class CloudHandler {
   };
 
   /** Update a gateway */
-  putProjectServiceNameRegionRegionNameGatewayId = (
+  updateProjectRegionGatewayByServiceNameAndRegionNameAndId = (
     id: string,
     regionName: string,
     serviceName: string,
@@ -7984,7 +8010,7 @@ class CloudHandler {
   };
 
   /** Expose gateway to public network by adding a public port on it. */
-  postProjectServiceNameRegionRegionNameGatewayIdExpose = (
+  postProjectRegionGatewayExposeByServiceNameAndRegionNameAndId = (
     id: string,
     regionName: string,
     serviceName: string
@@ -7996,11 +8022,11 @@ class CloudHandler {
   };
 
   /** List interfaces */
-  getProjectServiceNameRegionRegionNameGatewayIdInterface = (
+  listProjectRegionGatewayInterfacesByServiceNameAndRegionNameAndId = (
     id: string,
     regionName: string,
     serviceName: string
-  ): Promise<CloudNetworkGatewayInterface> => {
+  ): Promise<CloudNetworkGatewayInterface[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/gateway/${id}/interface`
@@ -8008,7 +8034,7 @@ class CloudHandler {
   };
 
   /** Create gateway interface */
-  postProjectServiceNameRegionRegionNameGatewayIdInterface = (
+  createProjectRegionGatewayInterfaceByServiceNameAndRegionNameAndId = (
     id: string,
     regionName: string,
     serviceName: string,
@@ -8022,7 +8048,7 @@ class CloudHandler {
   };
 
   /** Delete gateway interface */
-  deleteProjectServiceNameRegionRegionNameGatewayIdInterfaceInterfaceId = (
+  deleteProjectRegionGatewayInterfaceByServiceNameAndRegionNameAndIdAndInterfaceId = (
     id: string,
     interfaceId: string,
     regionName: string,
@@ -8035,7 +8061,7 @@ class CloudHandler {
   };
 
   /** Get interface */
-  getProjectServiceNameRegionRegionNameGatewayIdInterfaceInterfaceId = (
+  getProjectRegionGatewayInterfaceByServiceNameAndRegionNameAndIdAndInterfaceId = (
     id: string,
     interfaceId: string,
     regionName: string,
@@ -8048,7 +8074,7 @@ class CloudHandler {
   };
 
   /** Associate an existing floating IP to an instance */
-  postProjectServiceNameRegionRegionNameInstanceInstanceIdAssociateFloatingIp = (
+  postProjectRegionInstanceAssociateFloatingIpByServiceNameAndRegionNameAndInstanceId = (
     instanceId: string,
     regionName: string,
     serviceName: string,
@@ -8062,7 +8088,7 @@ class CloudHandler {
   };
 
   /** Create a floating IP and attach it to an instance */
-  postProjectServiceNameRegionRegionNameInstanceInstanceIdFloatingIp = (
+  createProjectRegionInstanceFloatingIpByServiceNameAndRegionNameAndInstanceId = (
     instanceId: string,
     regionName: string,
     serviceName: string,
@@ -8076,10 +8102,10 @@ class CloudHandler {
   };
 
   /** List certificates */
-  getProjectServiceNameRegionRegionNameKeymanagerCertificate = (
+  listProjectRegionKeymanagerCertificatesByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudKeymanagerCertificate> => {
+  ): Promise<CloudKeymanagerCertificate[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/keymanager/certificate`
@@ -8087,7 +8113,7 @@ class CloudHandler {
   };
 
   /** Create a new certificate */
-  postProjectServiceNameRegionRegionNameKeymanagerCertificate = (
+  createProjectRegionKeymanagerCertificateByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudKeymanagerCertificateCreate
@@ -8100,7 +8126,7 @@ class CloudHandler {
   };
 
   /** Delete a certificate */
-  deleteProjectServiceNameRegionRegionNameKeymanagerCertificateCertificateId = (
+  deleteProjectRegionKeymanagerCertificateByServiceNameAndRegionNameAndCertificateId = (
     certificateId: string,
     regionName: string,
     serviceName: string
@@ -8112,7 +8138,7 @@ class CloudHandler {
   };
 
   /** Get details about a certificate */
-  getProjectServiceNameRegionRegionNameKeymanagerCertificateCertificateId = (
+  getProjectRegionKeymanagerCertificateByServiceNameAndRegionNameAndCertificateId = (
     certificateId: string,
     regionName: string,
     serviceName: string
@@ -8124,10 +8150,10 @@ class CloudHandler {
   };
 
   /** List secrets */
-  getProjectServiceNameRegionRegionNameKeymanagerSecret = (
+  listProjectRegionKeymanagerSecretsByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudKeymanagerSecret> => {
+  ): Promise<CloudKeymanagerSecret[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/keymanager/secret`
@@ -8135,7 +8161,7 @@ class CloudHandler {
   };
 
   /** Delete a secret */
-  deleteProjectServiceNameRegionRegionNameKeymanagerSecretSecretId = (
+  deleteProjectRegionKeymanagerSecretByServiceNameAndRegionNameAndSecretId = (
     regionName: string,
     secretId: string,
     serviceName: string
@@ -8147,7 +8173,7 @@ class CloudHandler {
   };
 
   /** Get details about a secret */
-  getProjectServiceNameRegionRegionNameKeymanagerSecretSecretId = (
+  getProjectRegionKeymanagerSecretByServiceNameAndRegionNameAndSecretId = (
     regionName: string,
     secretId: string,
     serviceName: string
@@ -8159,10 +8185,10 @@ class CloudHandler {
   };
 
   /** List flavors */
-  getProjectServiceNameRegionRegionNameLoadbalancingFlavor = (
+  listProjectRegionLoadbalancingFlavorsByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudLoadbalancingFlavor> => {
+  ): Promise<CloudLoadbalancingFlavor[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/loadbalancing/flavor`
@@ -8170,7 +8196,7 @@ class CloudHandler {
   };
 
   /** Get details about a load balancing flavor */
-  getProjectServiceNameRegionRegionNameLoadbalancingFlavorFlavorId = (
+  getProjectRegionLoadbalancingFlavorByServiceNameAndRegionNameAndFlavorId = (
     flavorId: string,
     regionName: string,
     serviceName: string
@@ -8182,10 +8208,10 @@ class CloudHandler {
   };
 
   /** List health monitors */
-  getProjectServiceNameRegionRegionNameLoadbalancingHealthMonitor = (
+  listProjectRegionLoadbalancingHealthMonitorsByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudLoadbalancingHealthMonitor> => {
+  ): Promise<CloudLoadbalancingHealthMonitor[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/loadbalancing/healthMonitor`
@@ -8193,7 +8219,7 @@ class CloudHandler {
   };
 
   /** Create health monitor */
-  postProjectServiceNameRegionRegionNameLoadbalancingHealthMonitor = (
+  createProjectRegionLoadbalancingHealthMonitorByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudLoadbalancingHealthMonitor
@@ -8206,7 +8232,7 @@ class CloudHandler {
   };
 
   /** Delete health monitor */
-  deleteProjectServiceNameRegionRegionNameLoadbalancingHealthMonitorHealthMonitorId = (
+  deleteProjectRegionLoadbalancingHealthMonitorByServiceNameAndRegionNameAndHealthMonitorId = (
     healthMonitorId: string,
     regionName: string,
     serviceName: string
@@ -8218,7 +8244,7 @@ class CloudHandler {
   };
 
   /** Get details about a loadbalancer health monitor */
-  getProjectServiceNameRegionRegionNameLoadbalancingHealthMonitorHealthMonitorId = (
+  getProjectRegionLoadbalancingHealthMonitorByServiceNameAndRegionNameAndHealthMonitorId = (
     healthMonitorId: string,
     regionName: string,
     serviceName: string
@@ -8230,7 +8256,7 @@ class CloudHandler {
   };
 
   /** Update a health monitor */
-  putProjectServiceNameRegionRegionNameLoadbalancingHealthMonitorHealthMonitorId = (
+  updateProjectRegionLoadbalancingHealthMonitorByServiceNameAndRegionNameAndHealthMonitorId = (
     healthMonitorId: string,
     regionName: string,
     serviceName: string,
@@ -8243,17 +8269,17 @@ class CloudHandler {
     );
   };
 
-  getProjectServiceNameRegionRegionNameLoadbalancingL7Policy = (
+  getProjectRegionLoadbalancingL7PolicyByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudLoadbalancingL7Policy> => {
+  ): Promise<CloudLoadbalancingL7Policy[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/loadbalancing/l7Policy`
     );
   };
 
-  postProjectServiceNameRegionRegionNameLoadbalancingL7Policy = (
+  postProjectRegionLoadbalancingL7PolicyByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudLoadbalancingL7Policy
@@ -8265,7 +8291,7 @@ class CloudHandler {
     );
   };
 
-  deleteProjectServiceNameRegionRegionNameLoadbalancingL7PolicyL7PolicyId = (
+  deleteProjectRegionLoadbalancingL7PolicyByServiceNameAndRegionNameAndL7PolicyId = (
     l7PolicyId: string,
     regionName: string,
     serviceName: string
@@ -8276,7 +8302,7 @@ class CloudHandler {
     );
   };
 
-  getProjectServiceNameRegionRegionNameLoadbalancingL7PolicyL7PolicyId = (
+  getProjectRegionLoadbalancingL7PolicyByServiceNameAndRegionNameAndL7PolicyId = (
     l7PolicyId: string,
     regionName: string,
     serviceName: string
@@ -8287,7 +8313,7 @@ class CloudHandler {
     );
   };
 
-  putProjectServiceNameRegionRegionNameLoadbalancingL7PolicyL7PolicyId = (
+  putProjectRegionLoadbalancingL7PolicyByServiceNameAndRegionNameAndL7PolicyId = (
     l7PolicyId: string,
     regionName: string,
     serviceName: string,
@@ -8300,18 +8326,18 @@ class CloudHandler {
     );
   };
 
-  getProjectServiceNameRegionRegionNameLoadbalancingL7PolicyL7PolicyIdL7Rule = (
+  getProjectRegionLoadbalancingL7PolicyL7RuleByServiceNameAndRegionNameAndL7PolicyId = (
     l7PolicyId: string,
     regionName: string,
     serviceName: string
-  ): Promise<CloudLoadbalancingL7Rule> => {
+  ): Promise<CloudLoadbalancingL7Rule[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/loadbalancing/l7Policy/${l7PolicyId}/l7Rule`
     );
   };
 
-  postProjectServiceNameRegionRegionNameLoadbalancingL7PolicyL7PolicyIdL7Rule = (
+  postProjectRegionLoadbalancingL7PolicyL7RuleByServiceNameAndRegionNameAndL7PolicyId = (
     l7PolicyId: string,
     regionName: string,
     serviceName: string,
@@ -8324,19 +8350,20 @@ class CloudHandler {
     );
   };
 
-  deleteProjectServiceNameRegionRegionNameLoadbalancingL7PolicyL7PolicyIdL7RuleL7RuleId = (
-    l7PolicyId: string,
-    l7RuleId: string,
-    regionName: string,
-    serviceName: string
-  ): Promise<void> => {
-    return this.ovh.request(
-      'DELETE',
-      `/cloud/project/${serviceName}/region/${regionName}/loadbalancing/l7Policy/${l7PolicyId}/l7Rule/${l7RuleId}`
-    );
-  };
+  deleteProjectRegionLoadbalancingL7PolicyL7RuleByServiceNameAndRegionNameAndL7PolicyIdAndL7RuleId =
+    (
+      l7PolicyId: string,
+      l7RuleId: string,
+      regionName: string,
+      serviceName: string
+    ): Promise<void> => {
+      return this.ovh.request(
+        'DELETE',
+        `/cloud/project/${serviceName}/region/${regionName}/loadbalancing/l7Policy/${l7PolicyId}/l7Rule/${l7RuleId}`
+      );
+    };
 
-  getProjectServiceNameRegionRegionNameLoadbalancingL7PolicyL7PolicyIdL7RuleL7RuleId = (
+  getProjectRegionLoadbalancingL7PolicyL7RuleByServiceNameAndRegionNameAndL7PolicyIdAndL7RuleId = (
     l7PolicyId: string,
     l7RuleId: string,
     regionName: string,
@@ -8348,7 +8375,7 @@ class CloudHandler {
     );
   };
 
-  putProjectServiceNameRegionRegionNameLoadbalancingL7PolicyL7PolicyIdL7RuleL7RuleId = (
+  putProjectRegionLoadbalancingL7PolicyL7RuleByServiceNameAndRegionNameAndL7PolicyIdAndL7RuleId = (
     l7PolicyId: string,
     l7RuleId: string,
     regionName: string,
@@ -8363,10 +8390,10 @@ class CloudHandler {
   };
 
   /** List your loadbalancer listeners */
-  getProjectServiceNameRegionRegionNameLoadbalancingListener = (
+  listProjectRegionLoadbalancingenersByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudLoadbalancingListener> => {
+  ): Promise<CloudLoadbalancingListener[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/loadbalancing/listener`
@@ -8374,7 +8401,7 @@ class CloudHandler {
   };
 
   /** Create a loadbalancer listerner */
-  postProjectServiceNameRegionRegionNameLoadbalancingListener = (
+  createProjectRegionLoadbalancingListenerByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudLoadbalancingCreateListener
@@ -8387,7 +8414,7 @@ class CloudHandler {
   };
 
   /** Delete loadbalancer listener */
-  deleteProjectServiceNameRegionRegionNameLoadbalancingListenerListenerId = (
+  deleteProjectRegionLoadbalancingListenerByServiceNameAndRegionNameAndListenerId = (
     listenerId: string,
     regionName: string,
     serviceName: string
@@ -8399,7 +8426,7 @@ class CloudHandler {
   };
 
   /** Get details about a loadbalancer listener */
-  getProjectServiceNameRegionRegionNameLoadbalancingListenerListenerId = (
+  getProjectRegionLoadbalancingListenerByServiceNameAndRegionNameAndListenerId = (
     listenerId: string,
     regionName: string,
     serviceName: string
@@ -8411,10 +8438,10 @@ class CloudHandler {
   };
 
   /** List your load balancers */
-  getProjectServiceNameRegionRegionNameLoadbalancingLoadbalancer = (
+  listProjectRegionLoadbalancingLoadbalancersByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudLoadbalancingLoadBalancer> => {
+  ): Promise<CloudLoadbalancingLoadBalancer[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/loadbalancing/loadbalancer`
@@ -8422,7 +8449,7 @@ class CloudHandler {
   };
 
   /** Create a loadbalancer */
-  postProjectServiceNameRegionRegionNameLoadbalancingLoadbalancer = (
+  createProjectRegionLoadbalancingLoadbalancerByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudLoadbalancingLoadbalancerCreate
@@ -8435,7 +8462,7 @@ class CloudHandler {
   };
 
   /** Delete loadbalancer */
-  deleteProjectServiceNameRegionRegionNameLoadbalancingLoadbalancerLoadBalancerId = (
+  deleteProjectRegionLoadbalancingLoadbalancerByServiceNameAndRegionNameAndLoadBalancerId = (
     loadBalancerId: string,
     regionName: string,
     serviceName: string
@@ -8447,7 +8474,7 @@ class CloudHandler {
   };
 
   /** Get details about a load balancer */
-  getProjectServiceNameRegionRegionNameLoadbalancingLoadbalancerLoadBalancerId = (
+  getProjectRegionLoadbalancingLoadbalancerByServiceNameAndRegionNameAndLoadBalancerId = (
     loadBalancerId: string,
     regionName: string,
     serviceName: string
@@ -8459,7 +8486,7 @@ class CloudHandler {
   };
 
   /** Associate an existing floating IP to a loadbalancer */
-  postProjectServiceNameRegionRegionNameLoadbalancingLoadbalancerLoadBalancerIdAssociateFloatingIp =
+  postProjectRegionLoadbalancingLoadbalancerAssociateFloatingIpByServiceNameAndRegionNameAndLoadBalancerId =
     (
       loadBalancerId: string,
       regionName: string,
@@ -8474,24 +8501,25 @@ class CloudHandler {
     };
 
   /** Create a floating IP and attach it to a loadbalancer */
-  postProjectServiceNameRegionRegionNameLoadbalancingLoadbalancerLoadBalancerIdFloatingIp = (
-    loadBalancerId: string,
-    regionName: string,
-    serviceName: string,
-    body: CloudLoadbalancingCreateFloatingIp
-  ): Promise<CloudOperation> => {
-    return this.ovh.request(
-      'POST',
-      `/cloud/project/${serviceName}/region/${regionName}/loadbalancing/loadbalancer/${loadBalancerId}/floatingIp`,
-      body
-    );
-  };
+  createProjectRegionLoadbalancingLoadbalancerFloatingIpByServiceNameAndRegionNameAndLoadBalancerId =
+    (
+      loadBalancerId: string,
+      regionName: string,
+      serviceName: string,
+      body: CloudLoadbalancingCreateFloatingIp
+    ): Promise<CloudOperation> => {
+      return this.ovh.request(
+        'POST',
+        `/cloud/project/${serviceName}/region/${regionName}/loadbalancing/loadbalancer/${loadBalancerId}/floatingIp`,
+        body
+      );
+    };
 
   /** List your loadbalancer pools */
-  getProjectServiceNameRegionRegionNameLoadbalancingPool = (
+  listProjectRegionLoadbalancingPoolsByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudLoadbalancingPool> => {
+  ): Promise<CloudLoadbalancingPool[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/loadbalancing/pool`
@@ -8499,7 +8527,7 @@ class CloudHandler {
   };
 
   /** Create a loadbalancer pool */
-  postProjectServiceNameRegionRegionNameLoadbalancingPool = (
+  createProjectRegionLoadbalancingPoolByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudLoadbalancingPoolCreate
@@ -8512,7 +8540,7 @@ class CloudHandler {
   };
 
   /** Delete a loadbalancer pool */
-  deleteProjectServiceNameRegionRegionNameLoadbalancingPoolPoolId = (
+  deleteProjectRegionLoadbalancingPoolByServiceNameAndRegionNameAndPoolId = (
     poolId: string,
     regionName: string,
     serviceName: string
@@ -8524,7 +8552,7 @@ class CloudHandler {
   };
 
   /** Get details about a loadbalancer pool */
-  getProjectServiceNameRegionRegionNameLoadbalancingPoolPoolId = (
+  getProjectRegionLoadbalancingPoolByServiceNameAndRegionNameAndPoolId = (
     poolId: string,
     regionName: string,
     serviceName: string
@@ -8536,7 +8564,7 @@ class CloudHandler {
   };
 
   /** Update a loadbalancer pool */
-  putProjectServiceNameRegionRegionNameLoadbalancingPoolPoolId = (
+  updateProjectRegionLoadbalancingPoolByServiceNameAndRegionNameAndPoolId = (
     poolId: string,
     regionName: string,
     serviceName: string,
@@ -8550,11 +8578,11 @@ class CloudHandler {
   };
 
   /** List your pool members */
-  getProjectServiceNameRegionRegionNameLoadbalancingPoolPoolIdMember = (
+  listProjectRegionLoadbalancingPoolMembersByServiceNameAndRegionNameAndPoolId = (
     poolId: string,
     regionName: string,
     serviceName: string
-  ): Promise<CloudLoadbalancingPoolMember> => {
+  ): Promise<CloudLoadbalancingPoolMember[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/loadbalancing/pool/${poolId}/member`
@@ -8562,7 +8590,7 @@ class CloudHandler {
   };
 
   /** Create a pool member */
-  postProjectServiceNameRegionRegionNameLoadbalancingPoolPoolIdMember = (
+  createProjectRegionLoadbalancingPoolMemberByServiceNameAndRegionNameAndPoolId = (
     poolId: string,
     regionName: string,
     serviceName: string,
@@ -8576,7 +8604,7 @@ class CloudHandler {
   };
 
   /** Delete a pool member */
-  deleteProjectServiceNameRegionRegionNameLoadbalancingPoolPoolIdMemberMemberId = (
+  deleteProjectRegionLoadbalancingPoolMemberByServiceNameAndRegionNameAndPoolIdAndMemberId = (
     memberId: string,
     poolId: string,
     regionName: string,
@@ -8589,7 +8617,7 @@ class CloudHandler {
   };
 
   /** Get details about a pool member */
-  getProjectServiceNameRegionRegionNameLoadbalancingPoolPoolIdMemberMemberId = (
+  getProjectRegionLoadbalancingPoolMemberByServiceNameAndRegionNameAndPoolIdAndMemberId = (
     memberId: string,
     poolId: string,
     regionName: string,
@@ -8602,7 +8630,7 @@ class CloudHandler {
   };
 
   /** Update a pool member */
-  putProjectServiceNameRegionRegionNameLoadbalancingPoolPoolIdMemberMemberId = (
+  updateProjectRegionLoadbalancingPoolMemberByServiceNameAndRegionNameAndPoolIdAndMemberId = (
     memberId: string,
     poolId: string,
     regionName: string,
@@ -8617,15 +8645,15 @@ class CloudHandler {
   };
 
   /** List networks */
-  getProjectServiceNameRegionRegionNameNetwork = (
+  listProjectRegionNetworksByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudProjectNetwork> => {
+  ): Promise<CloudProjectNetwork[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/region/${regionName}/network`);
   };
 
   /** Create a network with a gateway */
-  postProjectServiceNameRegionRegionNameNetwork = (
+  createProjectRegionNetworkByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudNetworkCreateNetwork
@@ -8638,7 +8666,7 @@ class CloudHandler {
   };
 
   /** Delete network */
-  deleteProjectServiceNameRegionRegionNameNetworkNetworkId = (
+  deleteProjectRegionNetworkByServiceNameAndRegionNameAndNetworkId = (
     networkId: string,
     regionName: string,
     serviceName: string
@@ -8650,7 +8678,7 @@ class CloudHandler {
   };
 
   /** Get network */
-  getProjectServiceNameRegionRegionNameNetworkNetworkId = (
+  getProjectRegionNetworkByServiceNameAndRegionNameAndNetworkId = (
     networkId: string,
     regionName: string,
     serviceName: string
@@ -8662,11 +8690,11 @@ class CloudHandler {
   };
 
   /** List subnets */
-  getProjectServiceNameRegionRegionNameNetworkNetworkIdSubnet = (
+  listProjectRegionNetworkSubnetsByServiceNameAndRegionNameAndNetworkId = (
     networkId: string,
     regionName: string,
     serviceName: string
-  ): Promise<CloudProjectSubnet> => {
+  ): Promise<CloudProjectSubnet[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/network/${networkId}/subnet`
@@ -8674,7 +8702,7 @@ class CloudHandler {
   };
 
   /** Delete subnet */
-  deleteProjectServiceNameRegionRegionNameNetworkNetworkIdSubnetSubnetId = (
+  deleteProjectRegionNetworkSubnetByServiceNameAndRegionNameAndNetworkIdAndSubnetId = (
     networkId: string,
     regionName: string,
     serviceName: string,
@@ -8687,7 +8715,7 @@ class CloudHandler {
   };
 
   /** Get subnet */
-  getProjectServiceNameRegionRegionNameNetworkNetworkIdSubnetSubnetId = (
+  getProjectRegionNetworkSubnetByServiceNameAndRegionNameAndNetworkIdAndSubnetId = (
     networkId: string,
     regionName: string,
     serviceName: string,
@@ -8700,7 +8728,7 @@ class CloudHandler {
   };
 
   /** Create Gateway for existing subnet */
-  postProjectServiceNameRegionRegionNameNetworkNetworkIdSubnetSubnetIdGateway = (
+  createProjectRegionNetworkSubnetGatewayByServiceNameAndRegionNameAndNetworkIdAndSubnetId = (
     networkId: string,
     regionName: string,
     serviceName: string,
@@ -8715,7 +8743,7 @@ class CloudHandler {
   };
 
   /** List quotas */
-  getProjectServiceNameRegionRegionNameQuota = (
+  listProjectRegionQuotasByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudQuotaQuotas> => {
@@ -8723,7 +8751,7 @@ class CloudHandler {
   };
 
   /** Change project quotas on region */
-  postProjectServiceNameRegionRegionNameQuota = (
+  updateProjectRegionQuotaByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudProjectRegionQuotaCreation
@@ -8736,10 +8764,10 @@ class CloudHandler {
   };
 
   /** Get allowed quotas on region */
-  getProjectServiceNameRegionRegionNameQuotaAllowed = (
+  getProjectRegionQuotaAllowedByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudQuotaAllowedQuota> => {
+  ): Promise<CloudQuotaAllowedQuota[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/quota/allowed`
@@ -8747,7 +8775,7 @@ class CloudHandler {
   };
 
   /** Delete storage quota on region */
-  deleteProjectServiceNameRegionRegionNameQuotaStorage = (
+  deleteProjectRegionQuotaStorageByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<void> => {
@@ -8758,7 +8786,7 @@ class CloudHandler {
   };
 
   /** Get storage quotas on region */
-  getProjectServiceNameRegionRegionNameQuotaStorage = (
+  getProjectRegionQuotaStorageByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
   ): Promise<CloudQuotaStorageQuota> => {
@@ -8769,7 +8797,7 @@ class CloudHandler {
   };
 
   /** Update storage quota on region */
-  putProjectServiceNameRegionRegionNameQuotaStorage = (
+  updateProjectRegionQuotaStorageByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudQuotaStorageQuotaUpdate
@@ -8782,15 +8810,15 @@ class CloudHandler {
   };
 
   /** Get S3 storage containers */
-  getProjectServiceNameRegionRegionNameStorage = (
+  getProjectRegionStorageByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudStorageContainer> => {
+  ): Promise<CloudStorageContainer[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/region/${regionName}/storage`);
   };
 
   /** Create S3 storage container */
-  postProjectServiceNameRegionRegionNameStorage = (
+  createProjectRegionStorageByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudStorageContainerCreation
@@ -8803,7 +8831,7 @@ class CloudHandler {
   };
 
   /** Delete S3 storage container */
-  deleteProjectServiceNameRegionRegionNameStorageName = (
+  deleteProjectRegionStorageByServiceNameAndRegionNameAndName = (
     name: string,
     regionName: string,
     serviceName: string
@@ -8815,7 +8843,7 @@ class CloudHandler {
   };
 
   /** Get S3 storage container */
-  getProjectServiceNameRegionRegionNameStorageName = (
+  getProjectRegionStorageByServiceNameAndRegionNameAndName = (
     name: string,
     regionName: string,
     serviceName: string
@@ -8827,7 +8855,7 @@ class CloudHandler {
   };
 
   /** Delete S3 storage container object */
-  deleteProjectServiceNameRegionRegionNameStorageNameObjectObjectKey = (
+  deleteProjectRegionStorageObjectByServiceNameAndRegionNameAndNameAndObjectKey = (
     name: string,
     objectKey: string,
     regionName: string,
@@ -8840,7 +8868,7 @@ class CloudHandler {
   };
 
   /** Add S3 storage container policy */
-  postProjectServiceNameRegionRegionNameStorageNamePolicyUserId = (
+  addProjectRegionStoragePolicyByServiceNameAndRegionNameAndNameAndUserId = (
     name: string,
     regionName: string,
     serviceName: string,
@@ -8855,7 +8883,7 @@ class CloudHandler {
   };
 
   /** Generate S3 presigned URLs to download or upload objects */
-  postProjectServiceNameRegionRegionNameStorageNamePresign = (
+  postProjectRegionStoragePresignByServiceNameAndRegionNameAndName = (
     name: string,
     regionName: string,
     serviceName: string,
@@ -8869,10 +8897,10 @@ class CloudHandler {
   };
 
   /** List volume backups */
-  getProjectServiceNameRegionRegionNameVolumeBackup = (
+  listProjectRegionVolumeBackupsByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudVolumeBackupVolumeBackup> => {
+  ): Promise<CloudVolumeBackupVolumeBackup[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/volumeBackup`
@@ -8880,7 +8908,7 @@ class CloudHandler {
   };
 
   /** Create a volume backup */
-  postProjectServiceNameRegionRegionNameVolumeBackup = (
+  createProjectRegionVolumeBackupByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudVolumeBackupVolumeBackupCreation
@@ -8893,7 +8921,7 @@ class CloudHandler {
   };
 
   /** Delete volume backup */
-  deleteProjectServiceNameRegionRegionNameVolumeBackupVolumeBackupId = (
+  deleteProjectRegionVolumeBackupByServiceNameAndRegionNameAndVolumeBackupId = (
     regionName: string,
     serviceName: string,
     volumeBackupId: string
@@ -8905,7 +8933,7 @@ class CloudHandler {
   };
 
   /** Get volume backup */
-  getProjectServiceNameRegionRegionNameVolumeBackupVolumeBackupId = (
+  getProjectRegionVolumeBackupByServiceNameAndRegionNameAndVolumeBackupId = (
     regionName: string,
     serviceName: string,
     volumeBackupId: string
@@ -8917,7 +8945,7 @@ class CloudHandler {
   };
 
   /** Restore a volume backup on a volume */
-  postProjectServiceNameRegionRegionNameVolumeBackupVolumeBackupIdRestore = (
+  postProjectRegionVolumeBackupRestoreByServiceNameAndRegionNameAndVolumeBackupId = (
     regionName: string,
     serviceName: string,
     volumeBackupId: string,
@@ -8931,7 +8959,7 @@ class CloudHandler {
   };
 
   /** Create a volume from a volume backup */
-  postProjectServiceNameRegionRegionNameVolumeBackupVolumeBackupIdVolume = (
+  createProjectRegionVolumeBackupVolumeByServiceNameAndRegionNameAndVolumeBackupId = (
     regionName: string,
     serviceName: string,
     volumeBackupId: string,
@@ -8945,10 +8973,10 @@ class CloudHandler {
   };
 
   /** List your automated backups */
-  getProjectServiceNameRegionRegionNameWorkflowBackup = (
+  listProjectRegionWorkflowBackupsByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string
-  ): Promise<CloudBackup> => {
+  ): Promise<CloudBackup[]> => {
     return this.ovh.request(
       'GET',
       `/cloud/project/${serviceName}/region/${regionName}/workflow/backup`
@@ -8956,7 +8984,7 @@ class CloudHandler {
   };
 
   /** Create a new automated backup */
-  postProjectServiceNameRegionRegionNameWorkflowBackup = (
+  createProjectRegionWorkflowBackupByServiceNameAndRegionName = (
     regionName: string,
     serviceName: string,
     body: CloudProjectRegionWorkflowBackupCreation
@@ -8969,7 +8997,7 @@ class CloudHandler {
   };
 
   /** Delete a backup workflow process */
-  deleteProjectServiceNameRegionRegionNameWorkflowBackupBackupWorkflowId = (
+  deleteProjectRegionWorkflowBackupByServiceNameAndRegionNameAndBackupWorkflowId = (
     backupWorkflowId: string,
     regionName: string,
     serviceName: string
@@ -8981,7 +9009,7 @@ class CloudHandler {
   };
 
   /** Get details about a backup workflow process */
-  getProjectServiceNameRegionRegionNameWorkflowBackupBackupWorkflowId = (
+  getProjectRegionWorkflowBackupByServiceNameAndRegionNameAndBackupWorkflowId = (
     backupWorkflowId: string,
     regionName: string,
     serviceName: string
@@ -8993,27 +9021,29 @@ class CloudHandler {
   };
 
   /** List the regions on which you can ask an access to */
-  getProjectServiceNameRegionAvailable = (serviceName: string): Promise<CloudAvailableRegion> => {
+  listProjectRegionAvailablesByServiceName = (
+    serviceName: string
+  ): Promise<CloudAvailableRegion[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/regionAvailable`);
   };
 
   /** Do not expire the project, and retain it. You will have to pay for the resources you will use after using this call */
-  postProjectServiceNameRetain = (serviceName: string): Promise<void> => {
+  postProjectRetainByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/cloud/project/${serviceName}/retain`);
   };
 
   /** Get all Roles */
-  getProjectServiceNameRole = (serviceName: string): Promise<CloudRoleRoles> => {
+  getProjectRoleByServiceName = (serviceName: string): Promise<CloudRoleRoles> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/role`);
   };
 
   /** Get this object properties */
-  getProjectServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getProjectServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putProjectServiceNameServiceInfos = (
+  updateProjectServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -9021,12 +9051,12 @@ class CloudHandler {
   };
 
   /** Get snapshots */
-  getProjectServiceNameSnapshot = (serviceName: string): Promise<CloudImageImage> => {
+  getProjectSnapshotByServiceName = (serviceName: string): Promise<CloudImageImage[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/snapshot`);
   };
 
   /** Delete a snapshot */
-  deleteProjectServiceNameSnapshotImageId = (
+  deleteProjectSnapshotByServiceNameAndImageId = (
     imageId: string,
     serviceName: string
   ): Promise<CloudImageImage> => {
@@ -9034,7 +9064,7 @@ class CloudHandler {
   };
 
   /** Get snapshot details */
-  getProjectServiceNameSnapshotImageId = (
+  getProjectSnapshotByServiceNameAndImageId = (
     imageId: string,
     serviceName: string
   ): Promise<CloudImageImage> => {
@@ -9042,12 +9072,12 @@ class CloudHandler {
   };
 
   /** Get SSH keys */
-  getProjectServiceNameSshkey = (serviceName: string): Promise<CloudSshkeySshKey> => {
+  getProjectSshkeyByServiceName = (serviceName: string): Promise<CloudSshkeySshKey[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/sshkey`);
   };
 
   /** Create SSH key */
-  postProjectServiceNameSshkey = (
+  createProjectSshkeyByServiceName = (
     serviceName: string,
     body: CloudProjectSshkeyCreation
   ): Promise<CloudSshkeySshKeyDetail> => {
@@ -9055,12 +9085,15 @@ class CloudHandler {
   };
 
   /** Delete SSH key */
-  deleteProjectServiceNameSshkeyKeyId = (keyId: string, serviceName: string): Promise<void> => {
+  deleteProjectSshkeyByServiceNameAndKeyId = (
+    keyId: string,
+    serviceName: string
+  ): Promise<void> => {
     return this.ovh.request('DELETE', `/cloud/project/${serviceName}/sshkey/${keyId}`);
   };
 
   /** Get SSH key */
-  getProjectServiceNameSshkeyKeyId = (
+  getProjectSshkeyByServiceNameAndKeyId = (
     keyId: string,
     serviceName: string
   ): Promise<CloudSshkeySshKeyDetail> => {
@@ -9068,12 +9101,12 @@ class CloudHandler {
   };
 
   /** Get stacks */
-  getProjectServiceNameStack = (serviceName: string): Promise<CloudStackStack> => {
+  getProjectStackByServiceName = (serviceName: string): Promise<CloudStackStack[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/stack`);
   };
 
   /** Get stack */
-  getProjectServiceNameStackStackId = (
+  getProjectStackByServiceNameAndStackId = (
     serviceName: string,
     stackId: string
   ): Promise<CloudStackStack> => {
@@ -9081,12 +9114,12 @@ class CloudHandler {
   };
 
   /** Get SWIFT storage containers */
-  getProjectServiceNameStorage = (serviceName: string): Promise<CloudStorageContainer> => {
+  getProjectStorageByServiceName = (serviceName: string): Promise<CloudStorageContainer[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/storage`);
   };
 
   /** Create SWIFT container */
-  postProjectServiceNameStorage = (
+  createProjectStorageByServiceName = (
     serviceName: string,
     body: CloudProjectStorageCreation
   ): Promise<CloudStorageContainer> => {
@@ -9094,26 +9127,26 @@ class CloudHandler {
   };
 
   /** Access to SWIFT storage API */
-  getProjectServiceNameStorageAccess = (
+  getProjectStorageAccessByServiceName = (
     serviceName: string
   ): Promise<CloudStorageContainerAccess> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/storage/access`);
   };
 
   /** Access to SWIFT storage API */
-  postProjectServiceNameStorageAccess = (
+  postProjectStorageAccessByServiceName = (
     serviceName: string
   ): Promise<CloudStorageContainerAccess> => {
     return this.ovh.request('POST', `/cloud/project/${serviceName}/storage/access`);
   };
 
   /** List storage quotas */
-  getProjectServiceNameStorageQuota = (serviceName: string): Promise<CloudStorageQuota> => {
+  listProjectStorageQuotasByServiceName = (serviceName: string): Promise<CloudStorageQuota> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/storage/quota`);
   };
 
   /** Delete SWIFT container */
-  deleteProjectServiceNameStorageContainerId = (
+  deleteProjectStorageByServiceNameAndContainerId = (
     containerId: string,
     serviceName: string
   ): Promise<void> => {
@@ -9121,7 +9154,7 @@ class CloudHandler {
   };
 
   /** Get SWIFT storage container */
-  getProjectServiceNameStorageContainerId = (
+  getProjectStorageByServiceNameAndContainerId = (
     containerId: string,
     serviceName: string
   ): Promise<CloudStorageContainerDetail> => {
@@ -9129,7 +9162,7 @@ class CloudHandler {
   };
 
   /** Update SWIFT storage container */
-  putProjectServiceNameStorageContainerId = (
+  updateProjectStorageByServiceNameAndContainerId = (
     containerId: string,
     serviceName: string,
     body: CloudProjectStorageUpdate
@@ -9138,7 +9171,7 @@ class CloudHandler {
   };
 
   /** Delete CORS support on SWIFT container */
-  deleteProjectServiceNameStorageContainerIdCors = (
+  deleteProjectStorageCorsByServiceNameAndContainerId = (
     containerId: string,
     serviceName: string
   ): Promise<void> => {
@@ -9146,7 +9179,7 @@ class CloudHandler {
   };
 
   /** Add CORS support on SWIFT container */
-  postProjectServiceNameStorageContainerIdCors = (
+  addProjectStorageCorsByServiceNameAndContainerId = (
     containerId: string,
     serviceName: string,
     body: CloudProjectStorageCorsCreation
@@ -9159,7 +9192,7 @@ class CloudHandler {
   };
 
   /** Get a public temporary URL to access one of your SWIFT object */
-  postProjectServiceNameStorageContainerIdPublicUrl = (
+  postProjectStoragePublicUrlByServiceNameAndContainerId = (
     containerId: string,
     serviceName: string,
     body: CloudProjectStoragePublicUrlCreation
@@ -9172,7 +9205,7 @@ class CloudHandler {
   };
 
   /** Deploy your SWIFT container files as a static web site */
-  postProjectServiceNameStorageContainerIdStatic = (
+  postProjectStorageStaticByServiceNameAndContainerId = (
     containerId: string,
     serviceName: string
   ): Promise<void> => {
@@ -9180,7 +9213,7 @@ class CloudHandler {
   };
 
   /** Create openstack user with only access to this SWIFT container */
-  postProjectServiceNameStorageContainerIdUser = (
+  createProjectStorageUserByServiceNameAndContainerId = (
     containerId: string,
     serviceName: string,
     body: CloudProjectStorageUserCreation
@@ -9193,32 +9226,36 @@ class CloudHandler {
   };
 
   /** Terminate your service */
-  postProjectServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postProjectTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/cloud/project/${serviceName}/terminate`);
   };
 
   /** Request more quota on your /cloud project */
-  postProjectServiceNameUnleash = (serviceName: string): Promise<void> => {
+  postProjectUnleashByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/cloud/project/${serviceName}/unleash`);
   };
 
   /** Get current usage */
-  getProjectServiceNameUsageCurrent = (serviceName: string): Promise<CloudUsageUsageCurrent> => {
+  getProjectUsageCurrentByServiceName = (serviceName: string): Promise<CloudUsageUsageCurrent> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/usage/current`);
   };
 
   /** Get usage forecast */
-  getProjectServiceNameUsageForecast = (serviceName: string): Promise<CloudUsageUsageForecast> => {
+  getProjectUsageForecastByServiceName = (
+    serviceName: string
+  ): Promise<CloudUsageUsageForecast> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/usage/forecast`);
   };
 
   /** Usage information details */
-  getProjectServiceNameUsageHistory = (serviceName: string): Promise<CloudUsageUsageHistory> => {
+  getProjectUsageHistoryByServiceName = (
+    serviceName: string
+  ): Promise<CloudUsageUsageHistory[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/usage/history`);
   };
 
   /** Usage information details */
-  getProjectServiceNameUsageHistoryUsageId = (
+  getProjectUsageHistoryByServiceNameAndUsageId = (
     serviceName: string,
     usageId: string
   ): Promise<CloudUsageUsageHistoryDetail> => {
@@ -9226,12 +9263,12 @@ class CloudHandler {
   };
 
   /** Get all users */
-  getProjectServiceNameUser = (serviceName: string): Promise<CloudUserUser> => {
+  getProjectUserByServiceName = (serviceName: string): Promise<CloudUserUser[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/user`);
   };
 
   /** Create user */
-  postProjectServiceNameUser = (
+  createProjectUserByServiceName = (
     serviceName: string,
     body: CloudProjectUserCreation
   ): Promise<CloudUserUserDetail> => {
@@ -9239,12 +9276,15 @@ class CloudHandler {
   };
 
   /** Delete user */
-  deleteProjectServiceNameUserUserId = (serviceName: string, userId: number): Promise<void> => {
+  deleteProjectUserByServiceNameAndUserId = (
+    serviceName: string,
+    userId: number
+  ): Promise<void> => {
     return this.ovh.request('DELETE', `/cloud/project/${serviceName}/user/${userId}`);
   };
 
   /** Get user details */
-  getProjectServiceNameUserUserId = (
+  getProjectUserByServiceNameAndUserId = (
     serviceName: string,
     userId: number
   ): Promise<CloudUserUser> => {
@@ -9252,7 +9292,7 @@ class CloudHandler {
   };
 
   /** Get RC file of OpenStack */
-  getProjectServiceNameUserUserIdOpenrc = (
+  getProjectUserOpenrcByServiceNameAndUserId = (
     serviceName: string,
     userId: number
   ): Promise<CloudUserOpenrc> => {
@@ -9260,7 +9300,7 @@ class CloudHandler {
   };
 
   /** Export user storage policy */
-  getProjectServiceNameUserUserIdPolicy = (
+  exportProjectUserPolicyByServiceNameAndUserId = (
     serviceName: string,
     userId: number
   ): Promise<CloudStoragePolicyRaw> => {
@@ -9268,7 +9308,7 @@ class CloudHandler {
   };
 
   /** Import user storage policy */
-  postProjectServiceNameUserUserIdPolicy = (
+  postProjectUserPolicyByServiceNameAndUserId = (
     serviceName: string,
     userId: number,
     body: CloudStoragePolicyRaw
@@ -9277,7 +9317,7 @@ class CloudHandler {
   };
 
   /** Get rclone configuration file */
-  getProjectServiceNameUserUserIdRclone = (
+  getProjectUserRcloneByServiceNameAndUserId = (
     serviceName: string,
     userId: number
   ): Promise<CloudUserRclone> => {
@@ -9285,7 +9325,7 @@ class CloudHandler {
   };
 
   /** Regenerate user password */
-  postProjectServiceNameUserUserIdRegeneratePassword = (
+  postProjectUserRegeneratePasswordByServiceNameAndUserId = (
     serviceName: string,
     userId: number
   ): Promise<CloudUserUserDetail> => {
@@ -9296,15 +9336,15 @@ class CloudHandler {
   };
 
   /** Get user roles */
-  getProjectServiceNameUserUserIdRole = (
+  getProjectUserRoleByServiceNameAndUserId = (
     serviceName: string,
     userId: number
-  ): Promise<CloudRoleRole> => {
+  ): Promise<CloudRoleRole[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/user/${userId}/role`);
   };
 
   /** Add a role to a user */
-  postProjectServiceNameUserUserIdRole = (
+  addProjectUserRoleByServiceNameAndUserId = (
     serviceName: string,
     userId: number,
     body: CloudProjectUserRoleCreation
@@ -9313,7 +9353,7 @@ class CloudHandler {
   };
 
   /** Update roles of a user */
-  putProjectServiceNameUserUserIdRole = (
+  updateProjectUserRoleByServiceNameAndUserId = (
     serviceName: string,
     userId: number,
     body: CloudProjectUserRoleUpdate
@@ -9322,7 +9362,7 @@ class CloudHandler {
   };
 
   /** Remove role for a user */
-  deleteProjectServiceNameUserUserIdRoleRoleId = (
+  deleteProjectUserRoleByServiceNameAndUserIdAndRoleId = (
     roleId: string,
     serviceName: string,
     userId: number
@@ -9334,7 +9374,7 @@ class CloudHandler {
   };
 
   /** Get role detail */
-  getProjectServiceNameUserUserIdRoleRoleId = (
+  getProjectUserRoleByServiceNameAndUserIdAndRoleId = (
     roleId: string,
     serviceName: string,
     userId: number
@@ -9343,15 +9383,15 @@ class CloudHandler {
   };
 
   /** List your S3 credentials */
-  getProjectServiceNameUserUserIdS3Credentials = (
+  listProjectUserS3CredentialsByServiceNameAndUserId = (
     serviceName: string,
     userId: number
-  ): Promise<CloudUserS3CredentialsWithSecret> => {
+  ): Promise<CloudUserS3CredentialsWithSecret[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/user/${userId}/s3Credentials`);
   };
 
   /** Create a new S3 credentials for an user */
-  postProjectServiceNameUserUserIdS3Credentials = (
+  createProjectUserS3CredentialsByServiceNameAndUserId = (
     serviceName: string,
     userId: number
   ): Promise<CloudUserS3CredentialsWithSecret> => {
@@ -9359,7 +9399,7 @@ class CloudHandler {
   };
 
   /** Delete an S3 credential */
-  deleteProjectServiceNameUserUserIdS3CredentialsAccess = (
+  deleteProjectUserS3CredentialsByServiceNameAndUserIdAndAccess = (
     access: string,
     serviceName: string,
     userId: number
@@ -9371,7 +9411,7 @@ class CloudHandler {
   };
 
   /** Get details about an S3 credential */
-  getProjectServiceNameUserUserIdS3CredentialsAccess = (
+  getProjectUserS3CredentialsByServiceNameAndUserIdAndAccess = (
     access: string,
     serviceName: string,
     userId: number
@@ -9383,7 +9423,7 @@ class CloudHandler {
   };
 
   /** Get token for user */
-  postProjectServiceNameUserUserIdToken = (
+  postProjectUserTokenByServiceNameAndUserId = (
     serviceName: string,
     userId: number,
     body: CloudProjectUserTokenCreation
@@ -9392,12 +9432,12 @@ class CloudHandler {
   };
 
   /** Get volumes */
-  getProjectServiceNameVolume = (serviceName: string): Promise<CloudVolumeVolume> => {
+  getProjectVolumeByServiceName = (serviceName: string): Promise<CloudVolumeVolume[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/volume`);
   };
 
   /** Create a volume */
-  postProjectServiceNameVolume = (
+  createProjectVolumeByServiceName = (
     serviceName: string,
     body: CloudProjectVolumeCreation
   ): Promise<CloudVolumeVolume> => {
@@ -9405,12 +9445,12 @@ class CloudHandler {
   };
 
   /** Get volume snapshots */
-  getProjectServiceNameVolumeSnapshot = (serviceName: string): Promise<CloudVolumeSnapshot> => {
+  getProjectVolumeSnapshotByServiceName = (serviceName: string): Promise<CloudVolumeSnapshot[]> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/volume/snapshot`);
   };
 
   /** Delete a volume snapshot */
-  deleteProjectServiceNameVolumeSnapshotSnapshotId = (
+  deleteProjectVolumeSnapshotByServiceNameAndSnapshotId = (
     serviceName: string,
     snapshotId: string
   ): Promise<void> => {
@@ -9421,7 +9461,7 @@ class CloudHandler {
   };
 
   /** Get volume snapshot details */
-  getProjectServiceNameVolumeSnapshotSnapshotId = (
+  getProjectVolumeSnapshotByServiceNameAndSnapshotId = (
     serviceName: string,
     snapshotId: string
   ): Promise<CloudVolumeSnapshot> => {
@@ -9429,7 +9469,7 @@ class CloudHandler {
   };
 
   /** Delete a volume */
-  deleteProjectServiceNameVolumeVolumeId = (
+  deleteProjectVolumeByServiceNameAndVolumeId = (
     serviceName: string,
     volumeId: string
   ): Promise<void> => {
@@ -9437,7 +9477,7 @@ class CloudHandler {
   };
 
   /** Get volume details */
-  getProjectServiceNameVolumeVolumeId = (
+  getProjectVolumeByServiceNameAndVolumeId = (
     serviceName: string,
     volumeId: string
   ): Promise<CloudVolumeVolume> => {
@@ -9445,7 +9485,7 @@ class CloudHandler {
   };
 
   /** Update a volume */
-  putProjectServiceNameVolumeVolumeId = (
+  updateProjectVolumeByServiceNameAndVolumeId = (
     serviceName: string,
     volumeId: string,
     body: CloudProjectVolumeUpdate
@@ -9454,7 +9494,7 @@ class CloudHandler {
   };
 
   /** Attach a volume on an instance */
-  postProjectServiceNameVolumeVolumeIdAttach = (
+  postProjectVolumeAttachByServiceNameAndVolumeId = (
     serviceName: string,
     volumeId: string,
     body: CloudProjectVolumeAttachCreation
@@ -9467,7 +9507,7 @@ class CloudHandler {
   };
 
   /** Detach a volume from an instance */
-  postProjectServiceNameVolumeVolumeIdDetach = (
+  postProjectVolumeDetachByServiceNameAndVolumeId = (
     serviceName: string,
     volumeId: string,
     body: CloudProjectVolumeDetachCreation
@@ -9480,7 +9520,7 @@ class CloudHandler {
   };
 
   /** Snapshot a volume */
-  postProjectServiceNameVolumeVolumeIdSnapshot = (
+  postProjectVolumeSnapshotByServiceNameAndVolumeId = (
     serviceName: string,
     volumeId: string,
     body: CloudProjectVolumeSnapshotCreation
@@ -9493,7 +9533,7 @@ class CloudHandler {
   };
 
   /** Extend a volume */
-  postProjectServiceNameVolumeVolumeIdUpsize = (
+  postProjectVolumeUpsizeByServiceNameAndVolumeId = (
     serviceName: string,
     volumeId: string,
     body: CloudProjectVolumeUpsizeCreation
@@ -9506,12 +9546,12 @@ class CloudHandler {
   };
 
   /** Get the linked vRack on your project */
-  getProjectServiceNameVrack = (serviceName: string): Promise<CloudVrack> => {
+  getProjectVrackByServiceName = (serviceName: string): Promise<CloudVrack> => {
     return this.ovh.request('GET', `/cloud/project/${serviceName}/vrack`);
   };
 
   /** Order and attach a new vRack on your project */
-  postProjectServiceNameVrack = (serviceName: string): Promise<CloudOperation> => {
+  postProjectVrackByServiceName = (serviceName: string): Promise<CloudOperation> => {
     return this.ovh.request('POST', `/cloud/project/${serviceName}/vrack`);
   };
 
@@ -9521,4 +9561,4 @@ class CloudHandler {
   };
 }
 
-export default CloudHandler;
+export { CloudHandler };

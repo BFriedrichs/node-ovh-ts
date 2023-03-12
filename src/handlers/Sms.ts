@@ -1,56 +1,56 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SmsPackQuantityEnum } from '../models/SmsPackQuantityEnum';
-import { SmsBatch } from '../models/SmsBatch';
-import { SmsOutgoing } from '../models/SmsOutgoing';
-import { SmsPhonebook } from '../models/SmsPhonebook';
-import { SmsDocumentWayTypeEnum } from '../models/SmsDocumentWayTypeEnum';
-import { SmsHlrLookupNumber } from '../models/SmsHlrLookupNumber';
-import { SmsPttDetails } from '../models/SmsPttDetails';
-import { SmsIncoming } from '../models/SmsIncoming';
-import { TelephonyContactsExportFormatsEnum } from '../models/TelephonyContactsExportFormatsEnum';
-import { SmsPhonebookContact } from '../models/SmsPhonebookContact';
-import { SmsReceiver } from '../models/SmsReceiver';
-import { SmsCharsetEnum } from '../models/SmsCharsetEnum';
-import { SmsSettings } from '../models/SmsSettings';
+import { SmsAccount } from '../models/SmsAccount';
+import { SmsAllowedIPs } from '../models/SmsAllowedIPs';
+import { SmsVirtualNumber } from '../models/SmsVirtualNumber';
+import { SmsBatchStatistics } from '../models/SmsBatchStatistics';
 import { SmsPackOffer } from '../models/SmsPackOffer';
+import { SmsBlacklist } from '../models/SmsBlacklist';
+import { TelephonyTask } from '../models/TelephonyTask';
+import { SmsReceiver } from '../models/SmsReceiver';
+import { SmsCountryEnum } from '../models/SmsCountryEnum';
+import { SmsPackQuantityEnum } from '../models/SmsPackQuantityEnum';
+import { SmsVirtualNumberGenericService } from '../models/SmsVirtualNumberGenericService';
+import { SmsPhonebook } from '../models/SmsPhonebook';
 import { SmsReceiversAsynchronousCleanReport } from '../models/SmsReceiversAsynchronousCleanReport';
-import { SmsSenderDocument } from '../models/SmsSenderDocument';
+import { SmsTypeTemplateEnum } from '../models/SmsTypeTemplateEnum';
+import { SmsSenderAvailable } from '../models/SmsSenderAvailable';
 import { SmsBatchUpdateParams } from '../models/SmsBatchUpdateParams';
-import { SmsHlr } from '../models/SmsHlr';
-import { SmsSender } from '../models/SmsSender';
+import { SmsCharsetEnum } from '../models/SmsCharsetEnum';
+import { ReferenceCountryEnum } from '../models/ReferenceCountryEnum';
+import { SmsPhonebookContact } from '../models/SmsPhonebookContact';
+import { SmsOutgoing } from '../models/SmsOutgoing';
+import { SmsJobEstimate } from '../models/SmsJobEstimate';
+import { SmsPriorityEnum } from '../models/SmsPriorityEnum';
+import { SmsIncoming } from '../models/SmsIncoming';
+import { SmsDocumentWayTypeEnum } from '../models/SmsDocumentWayTypeEnum';
+import { SmsVirtualNumberJob } from '../models/SmsVirtualNumberJob';
+import { SmsSettings } from '../models/SmsSettings';
+import { SmsSmsSendingReport } from '../models/SmsSmsSendingReport';
 import { SmsPackDetails } from '../models/SmsPackDetails';
 import { SmsClassEnum } from '../models/SmsClassEnum';
-import { SmsTypeTemplateEnum } from '../models/SmsTypeTemplateEnum';
-import { SmsException } from '../models/SmsException';
-import { SmsAllowedIPs } from '../models/SmsAllowedIPs';
-import { SmsSenderRefererEnum } from '../models/SmsSenderRefererEnum';
-import { SmsUser } from '../models/SmsUser';
-import { SmsBillingCountryEnum } from '../models/SmsBillingCountryEnum';
-import { SmsBlacklist } from '../models/SmsBlacklist';
-import { SmsBatchStatistics } from '../models/SmsBatchStatistics';
-import { ServicesService } from '../models/ServicesService';
-import { SmsJob } from '../models/SmsJob';
-import { SmsPriorityEnum } from '../models/SmsPriorityEnum';
-import { SmsChatAccess } from '../models/SmsChatAccess';
-import { SmsJobEstimate } from '../models/SmsJobEstimate';
-import { SmsCountryEnum } from '../models/SmsCountryEnum';
-import { TelephonyTask } from '../models/TelephonyTask';
-import { SmsTask } from '../models/SmsTask';
-import { TelephonyPcsFile } from '../models/TelephonyPcsFile';
-import { SmsVirtualNumberGenericService } from '../models/SmsVirtualNumberGenericService';
+import { SmsHlr } from '../models/SmsHlr';
 import { SmsTypeSenderEnum } from '../models/SmsTypeSenderEnum';
-import { SmsVirtualNumber } from '../models/SmsVirtualNumber';
-import { SmsTemplateControl } from '../models/SmsTemplateControl';
-import { ReferenceCountryEnum } from '../models/ReferenceCountryEnum';
-import { SmsSenderAvailable } from '../models/SmsSenderAvailable';
-import { SmsSmsSendingReport } from '../models/SmsSmsSendingReport';
-import { TelephonyTaskStatusEnum } from '../models/TelephonyTaskStatusEnum';
-import { SmsAccount } from '../models/SmsAccount';
 import { SmsBatchParams } from '../models/SmsBatchParams';
-import { SmsVirtualNumberJob } from '../models/SmsVirtualNumberJob';
-import { SmsCodingEnum } from '../models/SmsCodingEnum';
 import { SmsDestinationRates } from '../models/SmsDestinationRates';
+import { SmsPttDetails } from '../models/SmsPttDetails';
+import { TelephonyPcsFile } from '../models/TelephonyPcsFile';
+import { SmsHlrLookupNumber } from '../models/SmsHlrLookupNumber';
+import { SmsCodingEnum } from '../models/SmsCodingEnum';
+import { SmsUser } from '../models/SmsUser';
+import { SmsJob } from '../models/SmsJob';
+import { TelephonyTaskStatusEnum } from '../models/TelephonyTaskStatusEnum';
+import { SmsTask } from '../models/SmsTask';
+import { ServicesService } from '../models/ServicesService';
+import { SmsSender } from '../models/SmsSender';
+import { SmsTemplateControl } from '../models/SmsTemplateControl';
+import { SmsSenderRefererEnum } from '../models/SmsSenderRefererEnum';
+import { SmsBatch } from '../models/SmsBatch';
+import { SmsChatAccess } from '../models/SmsChatAccess';
+import { TelephonyContactsExportFormatsEnum } from '../models/TelephonyContactsExportFormatsEnum';
+import { SmsBillingCountryEnum } from '../models/SmsBillingCountryEnum';
+import { SmsException } from '../models/SmsException';
+import { SmsSenderDocument } from '../models/SmsSenderDocument';
 import OVHBase from '../ovh';
 
 class SmsHandler {
@@ -61,7 +61,7 @@ class SmsHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/sms');
   };
 
@@ -85,57 +85,60 @@ class SmsHandler {
   };
 
   /** Get the prices and credits of all the SMS packs with informations about the destination country */
-  getRatesPacks = (): Promise<SmsPackDetails> => {
+  getRatesPacks = (): Promise<SmsPackDetails[]> => {
     return this.ovh.request('GET', '/sms/rates/packs');
   };
 
   /** List available services */
-  getVirtualNumbers = (): Promise<string> => {
+  listVirtualNumbers = (): Promise<string[]> => {
     return this.ovh.request('GET', '/sms/virtualNumbers');
   };
 
   /** Get this object properties */
-  getVirtualNumbersNumber = (number: string): Promise<SmsVirtualNumberGenericService> => {
+  getVirtualNumbersByNumber = (number: string): Promise<SmsVirtualNumberGenericService> => {
     return this.ovh.request('GET', `/sms/virtualNumbers/${number}`);
   };
 
   /** Get this object properties */
-  getVirtualNumbersNumberServiceInfos = (number: string): Promise<ServicesService> => {
+  getVirtualNumbersServiceInfosByNumber = (number: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/sms/virtualNumbers/${number}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putVirtualNumbersNumberServiceInfos = (number: string, body: ServicesService): Promise<void> => {
+  updateVirtualNumbersServiceInfosByNumber = (
+    number: string,
+    body: ServicesService
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/sms/virtualNumbers/${number}/serviceInfos`, body);
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<SmsAccount> => {
+  getByServiceName = (serviceName: string): Promise<SmsAccount> => {
     return this.ovh.request('GET', `/sms/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putServiceName = (serviceName: string, body: SmsAccount): Promise<void> => {
+  updateByServiceName = (serviceName: string, body: SmsAccount): Promise<void> => {
     return this.ovh.request('PUT', `/sms/${serviceName}`, body);
   };
 
   /** Get batches list */
-  getServiceNameBatches = (serviceName: string): Promise<SmsBatch> => {
+  getBatchesByServiceName = (serviceName: string): Promise<SmsBatch[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/batches`);
   };
 
   /** Create a batch */
-  postServiceNameBatches = (serviceName: string, body: SmsBatchParams): Promise<SmsBatch> => {
+  createBatchesByServiceName = (serviceName: string, body: SmsBatchParams): Promise<SmsBatch> => {
     return this.ovh.request('POST', `/sms/${serviceName}/batches`, body);
   };
 
   /** Get a batch */
-  getServiceNameBatchesId = (serviceName: string, id: string): Promise<SmsBatch> => {
+  getBatchesByServiceNameAndId = (serviceName: string, id: string): Promise<SmsBatch> => {
     return this.ovh.request('GET', `/sms/${serviceName}/batches/${id}`);
   };
 
   /** Update a batch */
-  putServiceNameBatchesId = (
+  updateBatchesByServiceNameAndId = (
     serviceName: string,
     id: string,
     body: SmsBatchUpdateParams
@@ -144,12 +147,12 @@ class SmsHandler {
   };
 
   /** Cancel a deferred batch (no SMS must have been sent) */
-  postServiceNameBatchesIdCancel = (serviceName: string, id: string): Promise<SmsBatch> => {
+  postBatchesCancelByServiceNameAndId = (serviceName: string, id: string): Promise<SmsBatch> => {
     return this.ovh.request('POST', `/sms/${serviceName}/batches/${id}/cancel`);
   };
 
   /** Batch's statistics */
-  getServiceNameBatchesIdStatistics = (
+  getBatchesStatisticsByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<SmsBatchStatistics> => {
@@ -157,75 +160,78 @@ class SmsHandler {
   };
 
   /** Numbers blacklisted associated to the sms account */
-  getServiceNameBlacklists = (serviceName: string): Promise<string> => {
+  getBlacklistsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/blacklists`);
   };
 
   /** Delete the blacklisted sms number given */
-  deleteServiceNameBlacklistsNumber = (number: string, serviceName: string): Promise<void> => {
+  deleteBlacklistsByServiceNameAndNumber = (number: string, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/sms/${serviceName}/blacklists/${number}`);
   };
 
   /** Get this object properties */
-  getServiceNameBlacklistsNumber = (number: string, serviceName: string): Promise<SmsBlacklist> => {
+  getBlacklistsByServiceNameAndNumber = (
+    number: string,
+    serviceName: string
+  ): Promise<SmsBlacklist> => {
     return this.ovh.request('GET', `/sms/${serviceName}/blacklists/${number}`);
   };
 
   /** Get the /me/document id generated */
-  getServiceNameDocument = (serviceName: string): Promise<string> => {
+  getDocumentByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('GET', `/sms/${serviceName}/document`);
   };
 
   /** Describe filter exceptions in sms sending from a specific receiver. */
-  getServiceNameExceptions = (serviceName: string): Promise<SmsException> => {
+  getExceptionsByServiceName = (serviceName: string): Promise<SmsException[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/exceptions`);
   };
 
   /** Home Location Register informations. Give informations about a given cellular phone. */
-  getServiceNameHlr = (serviceName: string): Promise<number> => {
+  getHlrByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/hlr`);
   };
 
   /** Add one or several sending hlr lookup request */
-  postServiceNameHlr = (
+  addHlrByServiceName = (
     serviceName: string,
-    body: { receivers?: string; receiversDocumentUrl?: string }
+    body: { receivers?: string[]; receiversDocumentUrl?: string }
   ): Promise<SmsSmsSendingReport> => {
     return this.ovh.request('POST', `/sms/${serviceName}/hlr`, body);
   };
 
   /** Get this object properties */
-  getServiceNameHlrId = (id: number, serviceName: string): Promise<SmsHlrLookupNumber> => {
+  getHlrByServiceNameAndId = (id: number, serviceName: string): Promise<SmsHlrLookupNumber> => {
     return this.ovh.request('GET', `/sms/${serviceName}/hlr/${id}`);
   };
 
   /** Get this object properties */
-  getServiceNameHlrIdOperator = (id: number, serviceName: string): Promise<SmsHlr> => {
+  getHlrOperatorByServiceNameAndId = (id: number, serviceName: string): Promise<SmsHlr> => {
     return this.ovh.request('GET', `/sms/${serviceName}/hlr/${id}/operator`);
   };
 
   /** Sms received associated to the sms account */
-  getServiceNameIncoming = (serviceName: string): Promise<number> => {
+  getIncomingByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/incoming`);
   };
 
   /** Delete the sms incoming history given */
-  deleteServiceNameIncomingId = (id: number, serviceName: string): Promise<void> => {
+  deleteIncomingByServiceNameAndId = (id: number, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/sms/${serviceName}/incoming/${id}`);
   };
 
   /** Get this object properties */
-  getServiceNameIncomingId = (id: number, serviceName: string): Promise<SmsIncoming> => {
+  getIncomingByServiceNameAndId = (id: number, serviceName: string): Promise<SmsIncoming> => {
     return this.ovh.request('GET', `/sms/${serviceName}/incoming/${id}`);
   };
 
   /** Sms in pending associated to the sms account */
-  getServiceNameJobs = (serviceName: string): Promise<number> => {
+  getJobsByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/jobs`);
   };
 
   /** Add one or several sending jobs */
-  postServiceNameJobs = (
+  addJobsByServiceName = (
     serviceName: string,
     body: {
       charset?: SmsCharsetEnum;
@@ -235,7 +241,7 @@ class SmsHandler {
       message: string;
       noStopClause?: boolean;
       priority?: SmsPriorityEnum;
-      receivers?: string;
+      receivers?: string[];
       receiversDocumentUrl?: string;
       receiversSlotId?: string;
       sender?: string;
@@ -248,52 +254,55 @@ class SmsHandler {
   };
 
   /** Delete the sms job given (stop sending) */
-  deleteServiceNameJobsId = (id: number, serviceName: string): Promise<void> => {
+  deleteJobsByServiceNameAndId = (id: number, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/sms/${serviceName}/jobs/${id}`);
   };
 
   /** Get this object properties */
-  getServiceNameJobsId = (id: number, serviceName: string): Promise<SmsJob> => {
+  getJobsByServiceNameAndId = (id: number, serviceName: string): Promise<SmsJob> => {
     return this.ovh.request('GET', `/sms/${serviceName}/jobs/${id}`);
   };
 
   /** Get SMS list */
-  getServiceNameOutgoing = (serviceName: string): Promise<number> => {
+  getOutgoingByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/outgoing`);
   };
 
   /** Delete outgoing SMS from history */
-  deleteServiceNameOutgoingId = (serviceName: string, id: number): Promise<void> => {
+  deleteOutgoingByServiceNameAndId = (serviceName: string, id: number): Promise<void> => {
     return this.ovh.request('DELETE', `/sms/${serviceName}/outgoing/${id}`);
   };
 
   /** Get SMS details */
-  getServiceNameOutgoingId = (serviceName: string, id: number): Promise<SmsOutgoing> => {
+  getOutgoingByServiceNameAndId = (serviceName: string, id: number): Promise<SmsOutgoing> => {
     return this.ovh.request('GET', `/sms/${serviceName}/outgoing/${id}`);
   };
 
   /** Get this object properties */
-  getServiceNameOutgoingIdHlr = (id: number, serviceName: string): Promise<SmsHlr> => {
+  getOutgoingHlrByServiceNameAndId = (id: number, serviceName: string): Promise<SmsHlr> => {
     return this.ovh.request('GET', `/sms/${serviceName}/outgoing/${id}/hlr`);
   };
 
   /** Return phonebooks associated to this account */
-  getServiceNamePhonebooks = (serviceName: string): Promise<string> => {
+  getPhonebooksByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/phonebooks`);
   };
 
   /** Add a phonebook. Return the bookKey. */
-  postServiceNamePhonebooks = (serviceName: string, body: { name: string }): Promise<string> => {
+  addPhonebooksByServiceName = (serviceName: string, body: { name: string }): Promise<string> => {
     return this.ovh.request('POST', `/sms/${serviceName}/phonebooks`, body);
   };
 
   /** Delete a phonebook */
-  deleteServiceNamePhonebooksBookKey = (bookKey: string, serviceName: string): Promise<void> => {
+  deletePhonebooksByServiceNameAndBookKey = (
+    bookKey: string,
+    serviceName: string
+  ): Promise<void> => {
     return this.ovh.request('DELETE', `/sms/${serviceName}/phonebooks/${bookKey}`);
   };
 
   /** Get this object properties */
-  getServiceNamePhonebooksBookKey = (
+  getPhonebooksByServiceNameAndBookKey = (
     bookKey: string,
     serviceName: string
   ): Promise<SmsPhonebook> => {
@@ -301,7 +310,7 @@ class SmsHandler {
   };
 
   /** Alter this object properties */
-  putServiceNamePhonebooksBookKey = (
+  updatePhonebooksByServiceNameAndBookKey = (
     bookKey: string,
     serviceName: string,
     body: SmsPhonebook
@@ -310,7 +319,7 @@ class SmsHandler {
   };
 
   /** Export the phonebook's contacts */
-  getServiceNamePhonebooksBookKeyExport = (
+  exportPhonebooksByServiceNameAndBookKey = (
     bookKey: string,
     serviceName: string
   ): Promise<TelephonyPcsFile> => {
@@ -318,7 +327,7 @@ class SmsHandler {
   };
 
   /** Import a contacts file. Supported formats are Excel (.xls and .xlsx) and CSV */
-  postServiceNamePhonebooksBookKeyImport = (
+  postPhonebooksImportByServiceNameAndBookKey = (
     bookKey: string,
     serviceName: string,
     body: { documentId: string }
@@ -327,15 +336,15 @@ class SmsHandler {
   };
 
   /** Phonebook contacts */
-  getServiceNamePhonebooksBookKeyPhonebookContact = (
+  getPhonebooksPhonebookContactByServiceNameAndBookKey = (
     bookKey: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/phonebooks/${bookKey}/phonebookContact`);
   };
 
   /** Create a phonebook contact. Return identifier of the phonebook contact. */
-  postServiceNamePhonebooksBookKeyPhonebookContact = (
+  createPhonebooksPhonebookContactByServiceNameAndBookKey = (
     bookKey: string,
     serviceName: string,
     body: {
@@ -356,7 +365,7 @@ class SmsHandler {
   };
 
   /** Delete a phonebook contact */
-  deleteServiceNamePhonebooksBookKeyPhonebookContactId = (
+  deletePhonebooksPhonebookContactByServiceNameAndBookKeyAndId = (
     bookKey: string,
     id: number,
     serviceName: string
@@ -368,7 +377,7 @@ class SmsHandler {
   };
 
   /** Get this object properties */
-  getServiceNamePhonebooksBookKeyPhonebookContactId = (
+  getPhonebooksPhonebookContactByServiceNameAndBookKeyAndId = (
     bookKey: string,
     id: number,
     serviceName: string
@@ -380,7 +389,7 @@ class SmsHandler {
   };
 
   /** Alter this object properties */
-  putServiceNamePhonebooksBookKeyPhonebookContactId = (
+  updatePhonebooksPhonebookContactByServiceNameAndBookKeyAndId = (
     bookKey: string,
     id: number,
     serviceName: string,
@@ -394,12 +403,12 @@ class SmsHandler {
   };
 
   /** Receivers preloaded from text or csv document file */
-  getServiceNameReceivers = (serviceName: string): Promise<number> => {
+  getReceiversByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/receivers`);
   };
 
   /** Add a new document of csv receivers */
-  postServiceNameReceivers = (
+  addReceiversByServiceName = (
     serviceName: string,
     body: {
       autoUpdate: boolean;
@@ -413,17 +422,20 @@ class SmsHandler {
   };
 
   /** Delete the document from the slot */
-  deleteServiceNameReceiversSlotId = (serviceName: string, slotId: number): Promise<void> => {
+  deleteReceiversByServiceNameAndSlotId = (serviceName: string, slotId: number): Promise<void> => {
     return this.ovh.request('DELETE', `/sms/${serviceName}/receivers/${slotId}`);
   };
 
   /** Get this object properties */
-  getServiceNameReceiversSlotId = (serviceName: string, slotId: number): Promise<SmsReceiver> => {
+  getReceiversByServiceNameAndSlotId = (
+    serviceName: string,
+    slotId: number
+  ): Promise<SmsReceiver> => {
     return this.ovh.request('GET', `/sms/${serviceName}/receivers/${slotId}`);
   };
 
   /** Alter this object properties */
-  putServiceNameReceiversSlotId = (
+  updateReceiversByServiceNameAndSlotId = (
     serviceName: string,
     slotId: number,
     body: SmsReceiver
@@ -432,7 +444,7 @@ class SmsHandler {
   };
 
   /** Clean the invalid and inactive receivers in the document by requesting HLR on each receiver. A report is sent by e-mail at the end of the operation. */
-  postServiceNameReceiversSlotIdClean = (
+  postReceiversCleanByServiceNameAndSlotId = (
     serviceName: string,
     slotId: number,
     body: { freemium: boolean; priceOnly: boolean }
@@ -441,22 +453,25 @@ class SmsHandler {
   };
 
   /** Get the document data container */
-  getServiceNameReceiversSlotIdCsv = (serviceName: string, slotId: number): Promise<string> => {
+  getReceiversCsvByServiceNameAndSlotId = (
+    serviceName: string,
+    slotId: number
+  ): Promise<string> => {
     return this.ovh.request('GET', `/sms/${serviceName}/receivers/${slotId}/csv`);
   };
 
   /** Describe SMS offers available. */
-  getServiceNameSeeOffers = (serviceName: string): Promise<SmsPackOffer> => {
+  getSeeOffersByServiceName = (serviceName: string): Promise<SmsPackOffer[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/seeOffers`);
   };
 
   /** Senders allowed associated to the sms account */
-  getServiceNameSenders = (serviceName: string): Promise<string> => {
+  sendersByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/senders`);
   };
 
   /** Create the sms sender given */
-  postServiceNameSenders = (
+  createSendersByServiceName = (
     serviceName: string,
     body: { description?: string; reason?: string; sender: string }
   ): Promise<string> => {
@@ -464,17 +479,17 @@ class SmsHandler {
   };
 
   /** Delete the sms sender given */
-  deleteServiceNameSendersSender = (sender: string, serviceName: string): Promise<void> => {
+  deleteSendersByServiceNameAndSender = (sender: string, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/sms/${serviceName}/senders/${sender}`);
   };
 
   /** Get this object properties */
-  getServiceNameSendersSender = (sender: string, serviceName: string): Promise<SmsSender> => {
+  getSendersByServiceNameAndSender = (sender: string, serviceName: string): Promise<SmsSender> => {
     return this.ovh.request('GET', `/sms/${serviceName}/senders/${sender}`);
   };
 
   /** Alter this object properties */
-  putServiceNameSendersSender = (
+  updateSendersByServiceNameAndSender = (
     sender: string,
     serviceName: string,
     body: SmsSender
@@ -483,12 +498,15 @@ class SmsHandler {
   };
 
   /** Documents linked to SMS sender for validation purpose */
-  getServiceNameSendersSenderDocuments = (sender: string, serviceName: string): Promise<string> => {
+  getSendersDocumentsByServiceNameAndSender = (
+    sender: string,
+    serviceName: string
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/senders/${sender}/documents`);
   };
 
   /** Create a new empty document */
-  postServiceNameSendersSenderDocuments = (
+  createSendersDocumentsByServiceNameAndSender = (
     sender: string,
     serviceName: string,
     body: { description?: string; name: string }
@@ -497,7 +515,7 @@ class SmsHandler {
   };
 
   /** Get this object properties */
-  getServiceNameSendersSenderDocumentsDocumentID = (
+  getSendersDocumentsByServiceNameAndSenderAndDocumentID = (
     documentID: string,
     sender: string,
     serviceName: string
@@ -506,7 +524,7 @@ class SmsHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameSendersSenderDocumentsDocumentID = (
+  updateSendersDocumentsByServiceNameAndSenderAndDocumentID = (
     documentID: string,
     sender: string,
     serviceName: string,
@@ -520,7 +538,7 @@ class SmsHandler {
   };
 
   /** Validate a given sender with an activation code. */
-  postServiceNameSendersSenderValidate = (
+  validateSendersByServiceNameAndSender = (
     sender: string,
     serviceName: string,
     body: { code: string }
@@ -529,59 +547,62 @@ class SmsHandler {
   };
 
   /** The senders that are attached to your personal informations or OVH services and that can be automatically validated */
-  getServiceNameSendersAvailableForValidation = (
+  getSendersAvailableForValidationByServiceName = (
     serviceName: string
-  ): Promise<SmsSenderAvailable> => {
+  ): Promise<SmsSenderAvailable[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/sendersAvailableForValidation`);
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/sms/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/sms/${serviceName}/serviceInfos`, body);
   };
 
   /** Get SMPP allowed IPs */
-  getServiceNameSmppAllowedIPs = (serviceName: string): Promise<string> => {
+  getSmppAllowedIPsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/smpp/allowedIPs`);
   };
 
   /** Add or remove allowed IPs */
-  putServiceNameSmppAllowedIPs = (serviceName: string, body: SmsAllowedIPs): Promise<string> => {
+  addSmppAllowedIPsByServiceName = (
+    serviceName: string,
+    body: SmsAllowedIPs
+  ): Promise<string[]> => {
     return this.ovh.request('PUT', `/sms/${serviceName}/smpp/allowedIPs`, body);
   };
 
   /** Renew SMPP password */
-  postServiceNameSmppPassword = (serviceName: string): Promise<void> => {
+  postSmppPasswordByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/sms/${serviceName}/smpp/password`);
   };
 
   /** Get SMPP settings */
-  getServiceNameSmppSettings = (serviceName: string): Promise<SmsSettings> => {
+  getSmppSettingsByServiceName = (serviceName: string): Promise<SmsSettings> => {
     return this.ovh.request('GET', `/sms/${serviceName}/smpp/settings`);
   };
 
   /** Operations on a SMS service */
-  getServiceNameTask = (serviceName: string): Promise<number> => {
+  getTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getServiceNameTaskTaskId = (serviceName: string, taskId: number): Promise<SmsTask> => {
+  getTaskByServiceNameAndTaskId = (serviceName: string, taskId: number): Promise<SmsTask> => {
     return this.ovh.request('GET', `/sms/${serviceName}/task/${taskId}`);
   };
 
   /** Template pattern filled up for moderation (Needed to send in US country) */
-  getServiceNameTemplatesControl = (serviceName: string): Promise<string> => {
+  getTemplatesControlByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/templatesControl`);
   };
 
   /** Create the sms template control given */
-  postServiceNameTemplatesControl = (
+  createTemplatesControlByServiceName = (
     serviceName: string,
     body: {
       activity: SmsTypeTemplateEnum;
@@ -595,12 +616,15 @@ class SmsHandler {
   };
 
   /** Delete the sms template control */
-  deleteServiceNameTemplatesControlName = (name: string, serviceName: string): Promise<void> => {
+  deleteTemplatesControlByServiceNameAndName = (
+    name: string,
+    serviceName: string
+  ): Promise<void> => {
     return this.ovh.request('DELETE', `/sms/${serviceName}/templatesControl/${name}`);
   };
 
   /** Get this object properties */
-  getServiceNameTemplatesControlName = (
+  getTemplatesControlByServiceNameAndName = (
     name: string,
     serviceName: string
   ): Promise<SmsTemplateControl> => {
@@ -608,7 +632,7 @@ class SmsHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameTemplatesControlName = (
+  updateTemplatesControlByServiceNameAndName = (
     name: string,
     serviceName: string,
     body: SmsTemplateControl
@@ -617,7 +641,7 @@ class SmsHandler {
   };
 
   /** Attempt a new validation after moderation refusal */
-  postServiceNameTemplatesControlNameRelaunchValidation = (
+  postTemplatesControlRelaunchValidationByServiceNameAndName = (
     name: string,
     serviceName: string,
     body: { description: string; message: string }
@@ -630,7 +654,7 @@ class SmsHandler {
   };
 
   /** Credit transfer between two sms accounts. */
-  postServiceNameTransferCredits = (
+  postTransferCreditsByServiceName = (
     serviceName: string,
     body: { credits: number; smsAccountTarget: string }
   ): Promise<void> => {
@@ -638,12 +662,12 @@ class SmsHandler {
   };
 
   /** Users associated to the sms account */
-  getServiceNameUsers = (serviceName: string): Promise<string> => {
+  getUsersByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/users`);
   };
 
   /** Create a new user for an sms account */
-  postServiceNameUsers = (
+  createUsersByServiceName = (
     serviceName: string,
     body: { login: string; password: string }
   ): Promise<void> => {
@@ -651,32 +675,39 @@ class SmsHandler {
   };
 
   /** Delete the sms user given */
-  deleteServiceNameUsersLogin = (login: string, serviceName: string): Promise<void> => {
+  deleteUsersByServiceNameAndLogin = (login: string, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/sms/${serviceName}/users/${login}`);
   };
 
   /** Get this object properties */
-  getServiceNameUsersLogin = (login: string, serviceName: string): Promise<SmsUser> => {
+  getUsersByServiceNameAndLogin = (login: string, serviceName: string): Promise<SmsUser> => {
     return this.ovh.request('GET', `/sms/${serviceName}/users/${login}`);
   };
 
   /** Alter this object properties */
-  putServiceNameUsersLogin = (login: string, serviceName: string, body: SmsUser): Promise<void> => {
+  updateUsersByServiceNameAndLogin = (
+    login: string,
+    serviceName: string,
+    body: SmsUser
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/sms/${serviceName}/users/${login}`, body);
   };
 
   /** Get the /me/document id generated */
-  getServiceNameUsersLoginDocument = (login: string, serviceName: string): Promise<string> => {
+  getUsersDocumentByServiceNameAndLogin = (login: string, serviceName: string): Promise<string> => {
     return this.ovh.request('GET', `/sms/${serviceName}/users/${login}/document`);
   };
 
   /** Sms received associated to the sms user */
-  getServiceNameUsersLoginIncoming = (login: string, serviceName: string): Promise<number> => {
+  getUsersIncomingByServiceNameAndLogin = (
+    login: string,
+    serviceName: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/users/${login}/incoming`);
   };
 
   /** Delete the sms incoming history given */
-  deleteServiceNameUsersLoginIncomingId = (
+  deleteUsersIncomingByServiceNameAndLoginAndId = (
     id: number,
     login: string,
     serviceName: string
@@ -685,7 +716,7 @@ class SmsHandler {
   };
 
   /** Get this object properties */
-  getServiceNameUsersLoginIncomingId = (
+  getUsersIncomingByServiceNameAndLoginAndId = (
     id: number,
     login: string,
     serviceName: string
@@ -694,12 +725,12 @@ class SmsHandler {
   };
 
   /** Sms in pending associated to the sms user */
-  getServiceNameUsersLoginJobs = (login: string, serviceName: string): Promise<number> => {
+  getUsersJobsByServiceNameAndLogin = (login: string, serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/users/${login}/jobs`);
   };
 
   /** Add one or several sending jobs */
-  postServiceNameUsersLoginJobs = (
+  addUsersJobsByServiceNameAndLogin = (
     login: string,
     serviceName: string,
     body: {
@@ -710,7 +741,7 @@ class SmsHandler {
       message: string;
       noStopClause?: boolean;
       priority?: SmsPriorityEnum;
-      receivers?: string;
+      receivers?: string[];
       receiversDocumentUrl?: string;
       receiversSlotId?: string;
       sender?: string;
@@ -723,7 +754,7 @@ class SmsHandler {
   };
 
   /** Delete the sms job given (stop sending) */
-  deleteServiceNameUsersLoginJobsId = (
+  deleteUsersJobsByServiceNameAndLoginAndId = (
     id: number,
     login: string,
     serviceName: string
@@ -732,7 +763,7 @@ class SmsHandler {
   };
 
   /** Get this object properties */
-  getServiceNameUsersLoginJobsId = (
+  getUsersJobsByServiceNameAndLoginAndId = (
     id: number,
     login: string,
     serviceName: string
@@ -741,12 +772,15 @@ class SmsHandler {
   };
 
   /** Sms sent associated to the sms user */
-  getServiceNameUsersLoginOutgoing = (login: string, serviceName: string): Promise<number> => {
+  getUsersOutgoingByServiceNameAndLogin = (
+    login: string,
+    serviceName: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/users/${login}/outgoing`);
   };
 
   /** Delete the sms outgoing history given */
-  deleteServiceNameUsersLoginOutgoingId = (
+  deleteUsersOutgoingByServiceNameAndLoginAndId = (
     id: number,
     login: string,
     serviceName: string
@@ -755,7 +789,7 @@ class SmsHandler {
   };
 
   /** Get this object properties */
-  getServiceNameUsersLoginOutgoingId = (
+  getUsersOutgoingByServiceNameAndLoginAndId = (
     id: number,
     login: string,
     serviceName: string
@@ -764,7 +798,7 @@ class SmsHandler {
   };
 
   /** Get this object properties */
-  getServiceNameUsersLoginOutgoingIdHlr = (
+  getUsersOutgoingHlrByServiceNameAndLoginAndId = (
     id: number,
     login: string,
     serviceName: string
@@ -773,12 +807,15 @@ class SmsHandler {
   };
 
   /** Receivers preloaded from text or csv document file */
-  getServiceNameUsersLoginReceivers = (login: string, serviceName: string): Promise<number> => {
+  getUsersReceiversByServiceNameAndLogin = (
+    login: string,
+    serviceName: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/users/${login}/receivers`);
   };
 
   /** Add a new document of csv receivers */
-  postServiceNameUsersLoginReceivers = (
+  addUsersReceiversByServiceNameAndLogin = (
     login: string,
     serviceName: string,
     body: {
@@ -793,7 +830,7 @@ class SmsHandler {
   };
 
   /** Delete the document from the slot */
-  deleteServiceNameUsersLoginReceiversSlotId = (
+  deleteUsersReceiversByServiceNameAndLoginAndSlotId = (
     login: string,
     serviceName: string,
     slotId: number
@@ -802,7 +839,7 @@ class SmsHandler {
   };
 
   /** Get this object properties */
-  getServiceNameUsersLoginReceiversSlotId = (
+  getUsersReceiversByServiceNameAndLoginAndSlotId = (
     login: string,
     serviceName: string,
     slotId: number
@@ -811,7 +848,7 @@ class SmsHandler {
   };
 
   /** Alter this object properties */
-  putServiceNameUsersLoginReceiversSlotId = (
+  updateUsersReceiversByServiceNameAndLoginAndSlotId = (
     login: string,
     serviceName: string,
     slotId: number,
@@ -821,7 +858,7 @@ class SmsHandler {
   };
 
   /** Clean the invalid and inactive receivers in the document by requesting HLR on each receiver. A report is sent by e-mail at the end of the operation. */
-  postServiceNameUsersLoginReceiversSlotIdClean = (
+  postUsersReceiversCleanByServiceNameAndLoginAndSlotId = (
     login: string,
     serviceName: string,
     slotId: number,
@@ -835,7 +872,7 @@ class SmsHandler {
   };
 
   /** Get the document data container */
-  getServiceNameUsersLoginReceiversSlotIdCsv = (
+  getUsersReceiversCsvByServiceNameAndLoginAndSlotId = (
     login: string,
     serviceName: string,
     slotId: number
@@ -844,12 +881,12 @@ class SmsHandler {
   };
 
   /** Virtual numbers associated to the sms account */
-  getServiceNameVirtualNumbers = (serviceName: string): Promise<string> => {
+  getVirtualNumbersByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/virtualNumbers`);
   };
 
   /** Get this object properties */
-  getServiceNameVirtualNumbersNumber = (
+  getVirtualNumbersByServiceNameAndNumber = (
     number: string,
     serviceName: string
   ): Promise<SmsVirtualNumber> => {
@@ -857,7 +894,7 @@ class SmsHandler {
   };
 
   /** Delete the given web access */
-  deleteServiceNameVirtualNumbersNumberChatAccess = (
+  deleteVirtualNumbersChatAccessByServiceNameAndNumber = (
     number: string,
     serviceName: string
   ): Promise<void> => {
@@ -865,7 +902,7 @@ class SmsHandler {
   };
 
   /** Get this object properties */
-  getServiceNameVirtualNumbersNumberChatAccess = (
+  getVirtualNumbersChatAccessByServiceNameAndNumber = (
     number: string,
     serviceName: string
   ): Promise<SmsChatAccess> => {
@@ -873,7 +910,7 @@ class SmsHandler {
   };
 
   /** Create a new web access for this ressource */
-  postServiceNameVirtualNumbersNumberChatAccess = (
+  createVirtualNumbersChatAccessByServiceNameAndNumber = (
     number: string,
     serviceName: string
   ): Promise<SmsChatAccess> => {
@@ -881,15 +918,15 @@ class SmsHandler {
   };
 
   /** Sms received associated to the sms account */
-  getServiceNameVirtualNumbersNumberIncoming = (
+  getVirtualNumbersIncomingByServiceNameAndNumber = (
     number: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/virtualNumbers/${number}/incoming`);
   };
 
   /** Delete the sms incoming history given */
-  deleteServiceNameVirtualNumbersNumberIncomingId = (
+  deleteVirtualNumbersIncomingByServiceNameAndNumberAndId = (
     id: number,
     number: string,
     serviceName: string
@@ -901,7 +938,7 @@ class SmsHandler {
   };
 
   /** Get this object properties */
-  getServiceNameVirtualNumbersNumberIncomingId = (
+  getVirtualNumbersIncomingByServiceNameAndNumberAndId = (
     id: number,
     number: string,
     serviceName: string
@@ -910,15 +947,15 @@ class SmsHandler {
   };
 
   /** Sms in pending associated to the sms account */
-  getServiceNameVirtualNumbersNumberJobs = (
+  getVirtualNumbersJobsByServiceNameAndNumber = (
     number: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/virtualNumbers/${number}/jobs`);
   };
 
   /** Add one or several sending jobs */
-  postServiceNameVirtualNumbersNumberJobs = (
+  addVirtualNumbersJobsByServiceNameAndNumber = (
     number: string,
     serviceName: string,
     body: {
@@ -928,7 +965,7 @@ class SmsHandler {
       differedPeriod?: number;
       message: string;
       priority?: SmsPriorityEnum;
-      receivers?: string;
+      receivers?: string[];
       receiversDocumentUrl?: string;
       receiversSlotId?: string;
       tag?: string;
@@ -939,7 +976,7 @@ class SmsHandler {
   };
 
   /** Delete the sms job given (stop sending) */
-  deleteServiceNameVirtualNumbersNumberJobsId = (
+  deleteVirtualNumbersJobsByServiceNameAndNumberAndId = (
     id: number,
     number: string,
     serviceName: string
@@ -948,7 +985,7 @@ class SmsHandler {
   };
 
   /** Get this object properties */
-  getServiceNameVirtualNumbersNumberJobsId = (
+  getVirtualNumbersJobsByServiceNameAndNumberAndId = (
     id: number,
     number: string,
     serviceName: string
@@ -957,15 +994,15 @@ class SmsHandler {
   };
 
   /** Sms sent associated to the sms account */
-  getServiceNameVirtualNumbersNumberOutgoing = (
+  getVirtualNumbersOutgoingByServiceNameAndNumber = (
     number: string,
     serviceName: string
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/sms/${serviceName}/virtualNumbers/${number}/outgoing`);
   };
 
   /** Delete the sms outgoing history given */
-  deleteServiceNameVirtualNumbersNumberOutgoingId = (
+  deleteVirtualNumbersOutgoingByServiceNameAndNumberAndId = (
     id: number,
     number: string,
     serviceName: string
@@ -977,7 +1014,7 @@ class SmsHandler {
   };
 
   /** Get this object properties */
-  getServiceNameVirtualNumbersNumberOutgoingId = (
+  getVirtualNumbersOutgoingByServiceNameAndNumberAndId = (
     id: number,
     number: string,
     serviceName: string
@@ -986,7 +1023,7 @@ class SmsHandler {
   };
 
   /** Get this object properties */
-  getServiceNameVirtualNumbersNumberOutgoingIdHlr = (
+  getVirtualNumbersOutgoingHlrByServiceNameAndNumberAndId = (
     id: number,
     number: string,
     serviceName: string
@@ -998,4 +1035,4 @@ class SmsHandler {
   };
 }
 
-export default SmsHandler;
+export { SmsHandler };

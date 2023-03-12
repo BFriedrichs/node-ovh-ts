@@ -1,26 +1,26 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailProService } from '../models/EmailProService';
-import { EmailProAccount } from '../models/EmailProAccount';
-import { EmailProObjectStateEnum } from '../models/EmailProObjectStateEnum';
+import { EmailProAccountSendOnBehalfTo } from '../models/EmailProAccountSendOnBehalfTo';
+import { EmailProDisclaimerAttributeEnum } from '../models/EmailProDisclaimerAttributeEnum';
+import { EmailProAccountAlias } from '../models/EmailProAccountAlias';
+import { EmailProDisclaimer } from '../models/EmailProDisclaimer';
 import { EmailProExternalContactNative } from '../models/EmailProExternalContactNative';
 import { EmailProServer } from '../models/EmailProServer';
-import { EmailProDisclaimerAttributeEnum } from '../models/EmailProDisclaimerAttributeEnum';
-import { EmailProAccountNative } from '../models/EmailProAccountNative';
-import { EmailProAccountAlias } from '../models/EmailProAccountAlias';
-import { ServicesService } from '../models/ServicesService';
-import { EmailProAccountSendAs } from '../models/EmailProAccountSendAs';
-import { EmailProAccountFullAccess } from '../models/EmailProAccountFullAccess';
-import { EmailProAccountDiagnosis } from '../models/EmailProAccountDiagnosis';
 import { EmailProServiceNative } from '../models/EmailProServiceNative';
-import { EmailProDomain } from '../models/EmailProDomain';
-import { EmailProDisclaimer } from '../models/EmailProDisclaimer';
-import { EmailProAccountSendOnBehalfTo } from '../models/EmailProAccountSendOnBehalfTo';
-import { EmailProDomainTypeEnum } from '../models/EmailProDomainTypeEnum';
+import { EmailProAccountSendAs } from '../models/EmailProAccountSendAs';
 import { EmailProDisclaimerNative } from '../models/EmailProDisclaimerNative';
 import { EmailProExternalContact } from '../models/EmailProExternalContact';
+import { EmailProDomainTypeEnum } from '../models/EmailProDomainTypeEnum';
+import { EmailProAccountDiagnosis } from '../models/EmailProAccountDiagnosis';
+import { EmailProObjectStateEnum } from '../models/EmailProObjectStateEnum';
+import { EmailProAccount } from '../models/EmailProAccount';
 import { EmailProDomainNative } from '../models/EmailProDomainNative';
+import { ServicesService } from '../models/ServicesService';
+import { EmailProService } from '../models/EmailProService';
+import { EmailProDomain } from '../models/EmailProDomain';
+import { EmailProAccountNative } from '../models/EmailProAccountNative';
 import { EmailProTask } from '../models/EmailProTask';
+import { EmailProAccountFullAccess } from '../models/EmailProAccountFullAccess';
 import OVHBase from '../ovh';
 
 class EmailProHandler {
@@ -31,37 +31,40 @@ class EmailProHandler {
   }
 
   /** List available services */
-  getPro = (): Promise<string> => {
+  listPros = (): Promise<string[]> => {
     return this.ovh.request('GET', '/email/pro');
   };
 
   /** Get this object properties */
-  getProService = (service: string): Promise<EmailProServiceNative> => {
+  getProByService = (service: string): Promise<EmailProServiceNative> => {
     return this.ovh.request('GET', `/email/pro/${service}`);
   };
 
   /** Alter this object properties */
-  putProService = (service: string, body: EmailProService): Promise<void> => {
+  updateProByService = (service: string, body: EmailProService): Promise<void> => {
     return this.ovh.request('PUT', `/email/pro/${service}`, body);
   };
 
   /** Accounts associated to this pro service */
-  getProServiceAccount = (service: string): Promise<string> => {
+  getProAccountByService = (service: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/pro/${service}/account`);
   };
 
   /** Get this object properties */
-  getProServiceAccountEmail = (service: string, email: string): Promise<EmailProAccountNative> => {
+  getProAccountByServiceAndEmail = (
+    service: string,
+    email: string
+  ): Promise<EmailProAccountNative> => {
     return this.ovh.request('GET', `/email/pro/${service}/account/${email}`);
   };
 
   /** Delete existing mailbox in pro server */
-  deleteProServiceAccountEmail = (email: string, service: string): Promise<EmailProTask> => {
+  deleteProAccountByServiceAndEmail = (email: string, service: string): Promise<EmailProTask> => {
     return this.ovh.request('DELETE', `/email/pro/${service}/account/${email}`);
   };
 
   /** Alter this object properties */
-  putProServiceAccountEmail = (
+  updateProAccountByServiceAndEmail = (
     email: string,
     service: string,
     body: EmailProAccount
@@ -70,12 +73,12 @@ class EmailProHandler {
   };
 
   /** Aliases associated to this mailbox */
-  getProServiceAccountEmailAlias = (service: string, email: string): Promise<string> => {
+  getProAccountAliasByServiceAndEmail = (service: string, email: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/pro/${service}/account/${email}/alias`);
   };
 
   /** Create new alias */
-  postProServiceAccountEmailAlias = (
+  createProAccountAliasByServiceAndEmail = (
     email: string,
     service: string,
     body: { alias: string }
@@ -84,7 +87,7 @@ class EmailProHandler {
   };
 
   /** Get this object properties */
-  getProServiceAccountEmailAliasAlias = (
+  getProAccountAliasByServiceAndEmailAndAlias = (
     service: string,
     alias: string,
     email: string
@@ -93,7 +96,7 @@ class EmailProHandler {
   };
 
   /** Delete existing alias */
-  deleteProServiceAccountEmailAliasAlias = (
+  deleteProAccountAliasByServiceAndEmailAndAlias = (
     alias: string,
     email: string,
     service: string
@@ -102,7 +105,7 @@ class EmailProHandler {
   };
 
   /** Change mailbox password */
-  postProServiceAccountEmailChangePassword = (
+  updateProAccountPasswordByServiceAndEmail = (
     email: string,
     service: string,
     body: { password: string }
@@ -111,7 +114,7 @@ class EmailProHandler {
   };
 
   /** Get this object properties */
-  getProServiceAccountEmailDiagnostics = (
+  getProAccountDiagnosticsByServiceAndEmail = (
     service: string,
     email: string
   ): Promise<EmailProAccountDiagnosis> => {
@@ -119,7 +122,7 @@ class EmailProHandler {
   };
 
   /** Create new diagnosis request */
-  postProServiceAccountEmailDiagnostics = (
+  createProAccountDiagnosticsByServiceAndEmail = (
     email: string,
     service: string,
     body: { password: string }
@@ -128,12 +131,15 @@ class EmailProHandler {
   };
 
   /** Full access granted users for this mailbox */
-  getProServiceAccountEmailFullAccess = (service: string, email: string): Promise<number> => {
+  getProAccountFullAccessByServiceAndEmail = (
+    service: string,
+    email: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/email/pro/${service}/account/${email}/fullAccess`);
   };
 
   /** Allow full access to a user */
-  postProServiceAccountEmailFullAccess = (
+  postProAccountFullAccessByServiceAndEmail = (
     email: string,
     service: string,
     body: { allowedAccountId: number }
@@ -142,7 +148,7 @@ class EmailProHandler {
   };
 
   /** Get this object properties */
-  getProServiceAccountEmailFullAccessAllowedAccountId = (
+  getProAccountFullAccessByServiceAndEmailAndAllowedAccountId = (
     service: string,
     allowedAccountId: number,
     email: string
@@ -154,7 +160,7 @@ class EmailProHandler {
   };
 
   /** Revoke full access */
-  deleteProServiceAccountEmailFullAccessAllowedAccountId = (
+  deleteProAccountFullAccessByServiceAndEmailAndAllowedAccountId = (
     allowedAccountId: number,
     email: string,
     service: string
@@ -166,12 +172,12 @@ class EmailProHandler {
   };
 
   /** Send as granted users for this mailbox */
-  getProServiceAccountEmailSendAs = (service: string, email: string): Promise<number> => {
+  sendProAccountAsByServiceAndEmail = (service: string, email: string): Promise<number[]> => {
     return this.ovh.request('GET', `/email/pro/${service}/account/${email}/sendAs`);
   };
 
   /** Allow another user to send mails from this mailbox */
-  postProServiceAccountEmailSendAs = (
+  postProAccountSendAsByServiceAndEmail = (
     email: string,
     service: string,
     body: { allowAccountId: number }
@@ -180,7 +186,7 @@ class EmailProHandler {
   };
 
   /** Get this object properties */
-  getProServiceAccountEmailSendAsAllowedAccountId = (
+  getProAccountSendAsByServiceAndEmailAndAllowedAccountId = (
     service: string,
     allowedAccountId: number,
     email: string
@@ -192,7 +198,7 @@ class EmailProHandler {
   };
 
   /** Delete allowed user for sendAs */
-  deleteProServiceAccountEmailSendAsAllowedAccountId = (
+  deleteProAccountSendAsByServiceAndEmailAndAllowedAccountId = (
     allowedAccountId: number,
     email: string,
     service: string
@@ -204,12 +210,15 @@ class EmailProHandler {
   };
 
   /** SendOnBehalfTo granted users for this mailbox */
-  getProServiceAccountEmailSendOnBehalfTo = (service: string, email: string): Promise<number> => {
+  sendProAccountOnBehalfToByServiceAndEmail = (
+    service: string,
+    email: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/email/pro/${service}/account/${email}/sendOnBehalfTo`);
   };
 
   /** Allow another user to Send On Behalf To mails from this mailbox */
-  postProServiceAccountEmailSendOnBehalfTo = (
+  postProAccountSendOnBehalfToByServiceAndEmail = (
     email: string,
     service: string,
     body: { allowAccountId: number }
@@ -218,7 +227,7 @@ class EmailProHandler {
   };
 
   /** Get this object properties */
-  getProServiceAccountEmailSendOnBehalfToAllowedAccountId = (
+  getProAccountSendOnBehalfToByServiceAndEmailAndAllowedAccountId = (
     service: string,
     allowedAccountId: number,
     email: string
@@ -230,7 +239,7 @@ class EmailProHandler {
   };
 
   /** Delete allowed user for SendOnBehalfTo */
-  deleteProServiceAccountEmailSendOnBehalfToAllowedAccountId = (
+  deleteProAccountSendOnBehalfToByServiceAndEmailAndAllowedAccountId = (
     allowedAccountId: number,
     email: string,
     service: string
@@ -242,12 +251,12 @@ class EmailProHandler {
   };
 
   /** Pending task for this mailbox */
-  getProServiceAccountEmailTasks = (service: string, email: string): Promise<number> => {
+  getProAccountTasksByServiceAndEmail = (service: string, email: string): Promise<number[]> => {
     return this.ovh.request('GET', `/email/pro/${service}/account/${email}/tasks`);
   };
 
   /** Get this object properties */
-  getProServiceAccountEmailTasksId = (
+  getProAccountTasksByServiceAndEmailAndId = (
     service: string,
     email: string,
     id: number
@@ -256,35 +265,35 @@ class EmailProHandler {
   };
 
   /** Terminate account at expiration date */
-  postProServiceAccountEmailTerminate = (email: string, service: string): Promise<string> => {
+  postProAccountTerminateByServiceAndEmail = (email: string, service: string): Promise<string> => {
     return this.ovh.request('POST', `/email/pro/${service}/account/${email}/terminate`);
   };
 
   /** Detects billing transition status for the service */
-  getProServiceBillingMigrated = (service: string): Promise<boolean> => {
+  getProBillingMigratedByService = (service: string): Promise<boolean> => {
     return this.ovh.request('GET', `/email/pro/${service}/billingMigrated`);
   };
 
   /** Emailpro billing plan */
-  getProServiceBillingPlan = (service: string): Promise<string> => {
+  getProBillingPlanByService = (service: string): Promise<string> => {
     return this.ovh.request('GET', `/email/pro/${service}/billingPlan`);
   };
 
   /** Launch a contact change procedure */
-  postProServiceChangeContact = (
+  launchProChangeContactByService = (
     service: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/email/pro/${service}/changeContact`, body);
   };
 
   /** Domains associated to this service */
-  getProServiceDomain = (service: string): Promise<string> => {
+  getProDomainByService = (service: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/pro/${service}/domain`);
   };
 
   /** Create new domain in pro services */
-  postProServiceDomain = (
+  createProDomainByService = (
     service: string,
     body: {
       configureAutodiscover?: boolean;
@@ -298,7 +307,7 @@ class EmailProHandler {
   };
 
   /** Get this object properties */
-  getProServiceDomainDomainName = (
+  getProDomainByServiceAndDomainName = (
     service: string,
     domainName: string
   ): Promise<EmailProDomainNative> => {
@@ -306,7 +315,7 @@ class EmailProHandler {
   };
 
   /** Delete existing domain in pro services */
-  deleteProServiceDomainDomainName = (
+  deleteProDomainByServiceAndDomainName = (
     domainName: string,
     service: string
   ): Promise<EmailProTask> => {
@@ -314,7 +323,7 @@ class EmailProHandler {
   };
 
   /** Alter this object properties */
-  putProServiceDomainDomainName = (
+  updateProDomainByServiceAndDomainName = (
     domainName: string,
     service: string,
     body: EmailProDomain
@@ -323,7 +332,7 @@ class EmailProHandler {
   };
 
   /** Get this object properties */
-  getProServiceDomainDomainNameDisclaimer = (
+  getProDomainDisclaimerByServiceAndDomainName = (
     service: string,
     domainName: string
   ): Promise<EmailProDisclaimerNative> => {
@@ -331,7 +340,7 @@ class EmailProHandler {
   };
 
   /** Delete existing organization disclaimer */
-  deleteProServiceDomainDomainNameDisclaimer = (
+  deleteProDomainDisclaimerByServiceAndDomainName = (
     domainName: string,
     service: string
   ): Promise<EmailProTask> => {
@@ -339,7 +348,7 @@ class EmailProHandler {
   };
 
   /** Create organization disclaimer of each email */
-  postProServiceDomainDomainNameDisclaimer = (
+  createProDomainDisclaimerByServiceAndDomainName = (
     domainName: string,
     service: string,
     body: { content: string; outsideOnly?: boolean }
@@ -348,7 +357,7 @@ class EmailProHandler {
   };
 
   /** Alter this object properties */
-  putProServiceDomainDomainNameDisclaimer = (
+  updateProDomainDisclaimerByServiceAndDomainName = (
     domainName: string,
     service: string,
     body: EmailProDisclaimer
@@ -357,10 +366,10 @@ class EmailProHandler {
   };
 
   /** Get diclaimer attributes to substitute with Active Directory properties */
-  getProServiceDomainDomainNameDisclaimerAttribute = (
+  getProDomainDisclaimerAttributeByServiceAndDomainName = (
     service: string,
     domainName: string
-  ): Promise<EmailProDisclaimerAttributeEnum> => {
+  ): Promise<EmailProDisclaimerAttributeEnum[]> => {
     return this.ovh.request(
       'GET',
       `/email/pro/${service}/domain/${domainName}/disclaimerAttribute`
@@ -368,12 +377,12 @@ class EmailProHandler {
   };
 
   /** External contacts for this service */
-  getProServiceExternalContact = (service: string): Promise<string> => {
+  getProExternalContactByService = (service: string): Promise<string[]> => {
     return this.ovh.request('GET', `/email/pro/${service}/externalContact`);
   };
 
   /** create new external contact */
-  postProServiceExternalContact = (
+  createProExternalContactByService = (
     service: string,
     body: {
       displayName?: string;
@@ -388,7 +397,7 @@ class EmailProHandler {
   };
 
   /** Get this object properties */
-  getProServiceExternalContactExternalEmailAddress = (
+  getProExternalContactByServiceAndExternalEmailAddress = (
     service: string,
     externalEmailAddress: string
   ): Promise<EmailProExternalContactNative> => {
@@ -396,7 +405,7 @@ class EmailProHandler {
   };
 
   /** delete external contact */
-  deleteProServiceExternalContactExternalEmailAddress = (
+  deleteProExternalContactByServiceAndExternalEmailAddress = (
     externalEmailAddress: string,
     service: string
   ): Promise<EmailProTask> => {
@@ -407,7 +416,7 @@ class EmailProHandler {
   };
 
   /** Alter this object properties */
-  putProServiceExternalContactExternalEmailAddress = (
+  updateProExternalContactByServiceAndExternalEmailAddress = (
     externalEmailAddress: string,
     service: string,
     body: EmailProExternalContact
@@ -420,34 +429,34 @@ class EmailProHandler {
   };
 
   /** Get this object properties */
-  getProServiceServer = (service: string): Promise<EmailProServer> => {
+  getProServerByService = (service: string): Promise<EmailProServer> => {
     return this.ovh.request('GET', `/email/pro/${service}/server`);
   };
 
   /** Get this object properties */
-  getProServiceServiceInfos = (service: string): Promise<ServicesService> => {
+  getProServiceInfosByService = (service: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/email/pro/${service}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putProServiceServiceInfos = (service: string, body: ServicesService): Promise<void> => {
+  updateProServiceInfosByService = (service: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/email/pro/${service}/serviceInfos`, body);
   };
 
   /** Pending actions */
-  getProServiceTask = (service: string): Promise<number> => {
+  getProTaskByService = (service: string): Promise<number[]> => {
     return this.ovh.request('GET', `/email/pro/${service}/task`);
   };
 
   /** Get this object properties */
-  getProServiceTaskId = (service: string, id: number): Promise<EmailProTask> => {
+  getProTaskByServiceAndId = (service: string, id: number): Promise<EmailProTask> => {
     return this.ovh.request('GET', `/email/pro/${service}/task/${id}`);
   };
 
   /** Update spam and virus flags on all active accounts */
-  postProServiceUpdateFlagsOnAllAccounts = (service: string): Promise<void> => {
+  updateProFlagsOnAllAccountsByService = (service: string): Promise<void> => {
     return this.ovh.request('POST', `/email/pro/${service}/updateFlagsOnAllAccounts`);
   };
 }
 
-export default EmailProHandler;
+export { EmailProHandler };

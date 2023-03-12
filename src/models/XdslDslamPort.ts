@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { XdslDslamPortStatusEnum } from './XdslDslamPortStatusEnum';
 import { XdslDslamLineProfile } from './XdslDslamLineProfile';
+import { XdslDslamPortStatusEnum } from './XdslDslamPortStatusEnum';
 
 export type XdslDslamPort = {
   lastDesyncDate: Date | null;

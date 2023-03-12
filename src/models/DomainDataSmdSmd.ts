@@ -7,6 +7,6 @@ export type DomainDataSmdSmd = {
   id: string;
   notAfter: Date;
   notBefore: Date;
-  protectedLabels: DomainDataSmdSmdLabel;
+  protectedLabels: DomainDataSmdSmdLabel[];
   smdId: string;
 };

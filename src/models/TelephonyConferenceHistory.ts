@@ -8,7 +8,7 @@ export type TelephonyConferenceHistory = {
   dateBegin: Date;
   dateEnd: Date;
   duration: number;
-  events: TelephonyConferenceHistoryEvent;
+  events: TelephonyConferenceHistoryEvent[];
   id: number;
   recordUrl: string | null;
 };

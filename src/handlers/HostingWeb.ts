@@ -1,98 +1,98 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HostingWebDatabaseCreationDatabaseCapabilities } from '../models/HostingWebDatabaseCreationDatabaseCapabilities';
-import { HostingWebOvhConfigCapabilities } from '../models/HostingWebOvhConfigCapabilities';
-import { HostingWebRuntime } from '../models/HostingWebRuntime';
-import { HostingWebPublicTask } from '../models/HostingWebPublicTask';
-import { HostingWebDatabase } from '../models/HostingWebDatabase';
-import { CdnAvailableOptions } from '../models/CdnAvailableOptions';
-import { HostingWebLanguagesEnum } from '../models/HostingWebLanguagesEnum';
-import { HostingWebTaskStatusEnum } from '../models/HostingWebTaskStatusEnum';
-import { HostingWebOfferCapabilitiesEnum } from '../models/HostingWebOfferCapabilitiesEnum';
-import { HostingWebDatabaseDatabaseCapabilities } from '../models/HostingWebDatabaseDatabaseCapabilities';
-import { HostingWebDatabaseDatabaseCreationTypeEnum } from '../models/HostingWebDatabaseDatabaseCreationTypeEnum';
-import { HostingWebMailBounce } from '../models/HostingWebMailBounce';
-import { HostingWebOwnLogs } from '../models/HostingWebOwnLogs';
-import { CdnDomainAddOption } from '../models/CdnDomainAddOption';
-import { HostingWebDatabaseVersionEnum } from '../models/HostingWebDatabaseVersionEnum';
-import { HostingWebLocalSeoLocationCountryEnum } from '../models/HostingWebLocalSeoLocationCountryEnum';
-import { HostingWebOvhConfigEngineNameEnum } from '../models/HostingWebOvhConfigEngineNameEnum';
-import { HostingWebDatabaseModeEnum } from '../models/HostingWebDatabaseModeEnum';
 import { HostingWebRequestActionEnum } from '../models/HostingWebRequestActionEnum';
-import { HostingWebModuleList } from '../models/HostingWebModuleList';
-import { HostingWebLocalSeoAccount } from '../models/HostingWebLocalSeoAccount';
-import { HostingWebModule } from '../models/HostingWebModule';
-import { HostingWebOfferEnum } from '../models/HostingWebOfferEnum';
-import { HostingWebConfigurationVersionEnum } from '../models/HostingWebConfigurationVersionEnum';
-import { HostingWebUserLogs } from '../models/HostingWebUserLogs';
-import { HostingWebAttachedDomain } from '../models/HostingWebAttachedDomain';
-import { CdnDomainStatistics } from '../models/CdnDomainStatistics';
-import { HostingWebDatabaseDatabaseCapabilitiesTypeEnum } from '../models/HostingWebDatabaseDatabaseCapabilitiesTypeEnum';
-import { HostingWebMailActionEnum } from '../models/HostingWebMailActionEnum';
-import { HostingWebLocalSeoDirectoriesList } from '../models/HostingWebLocalSeoDirectoriesList';
-import { HostingWebSslReport } from '../models/HostingWebSslReport';
-import { HostingWebBoostHistory } from '../models/HostingWebBoostHistory';
-import { HostingWebDatabaseExtraSqlQuotaEnum } from '../models/HostingWebDatabaseExtraSqlQuotaEnum';
-import { ServicesService } from '../models/ServicesService';
-import { ComplexTypeChartTimestampValue } from '../models/ComplexTypeChartTimestampValue';
 import { HostingWebLocalSeoVisibilityCheckResponse } from '../models/HostingWebLocalSeoVisibilityCheckResponse';
-import { HostingWebUserSshStateEnum } from '../models/HostingWebUserSshStateEnum';
-import { CdnPurgeTypeEnum } from '../models/CdnPurgeTypeEnum';
-import { HostingWebOvhConfigHttpFirewallEnum } from '../models/HostingWebOvhConfigHttpFirewallEnum';
-import { HostingWebRuntimeEnvEnum } from '../models/HostingWebRuntimeEnvEnum';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { CdnDomain } from '../models/CdnDomain';
-import { HostingWebEmail } from '../models/HostingWebEmail';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { HostingWebEnvVarTypeEnum } from '../models/HostingWebEnvVarTypeEnum';
-import { HostingWebAttachedDomainCdnEnum } from '../models/HostingWebAttachedDomainCdnEnum';
-import { HostingWebOvhconfigContainerEnum } from '../models/HostingWebOvhconfigContainerEnum';
-import { HostingWebCapabilities } from '../models/HostingWebCapabilities';
-import { HostingWebDatabaseAvailableVersionStruct } from '../models/HostingWebDatabaseAvailableVersionStruct';
-import { HostingWebEmailoption } from '../models/HostingWebEmailoption';
-import { CdnLogs } from '../models/CdnLogs';
-import { HostingWebSSL } from '../models/HostingWebSSL';
-import { HostingWebStatisticsPeriodEnum } from '../models/HostingWebStatisticsPeriodEnum';
-import { HostingWebOvhConfigEnvironmentEnum } from '../models/HostingWebOvhConfigEnvironmentEnum';
-import { HostingWebOvhConfigAvailableEngineVersionEnum } from '../models/HostingWebOvhConfigAvailableEngineVersionEnum';
-import { HostingWebDump } from '../models/HostingWebDump';
-import { HostingWebAttachedDomainFirewallEnum } from '../models/HostingWebAttachedDomainFirewallEnum';
-import { HostingWebFreedomStatusEnum } from '../models/HostingWebFreedomStatusEnum';
-import { HostingWebService } from '../models/HostingWebService';
-import { HostingWebDatabaseRequestActionEnum } from '../models/HostingWebDatabaseRequestActionEnum';
-import { HostingWebConfiguration } from '../models/HostingWebConfiguration';
-import { HostingWebMailVolumeHistory } from '../models/HostingWebMailVolumeHistory';
-import { HostingWebFreedom } from '../models/HostingWebFreedom';
-import { HostingWebLocalSeoLocation } from '../models/HostingWebLocalSeoLocation';
-import { HostingWebModuleBranchEnum } from '../models/HostingWebModuleBranchEnum';
-import { HostingWebTask } from '../models/HostingWebTask';
-import { HostingPrivateDatabaseAvailableRamSizeEnum } from '../models/HostingPrivateDatabaseAvailableRamSizeEnum';
-import { HostingWebLocalSeoLocationOfferEnum } from '../models/HostingWebLocalSeoLocationOfferEnum';
-import { HostingWebIndy } from '../models/HostingWebIndy';
-import { HostingWebExtrasqlperso } from '../models/HostingWebExtrasqlperso';
-import { HostingWebBackupTypeEnum } from '../models/HostingWebBackupTypeEnum';
-import { HostingWebDatabaseDatabaseTypeEnum } from '../models/HostingWebDatabaseDatabaseTypeEnum';
-import { HostingWebOvhConfigRecommendedValues } from '../models/HostingWebOvhConfigRecommendedValues';
-import { HostingWebConfigurationLanguageEnum } from '../models/HostingWebConfigurationLanguageEnum';
-import { HostingWebCdn } from '../models/HostingWebCdn';
-import { HostingWebUser } from '../models/HostingWebUser';
-import { ServiceRenewType } from '../models/ServiceRenewType';
-import { CdnDomainStatisticsPeriodEnum } from '../models/CdnDomainStatisticsPeriodEnum';
-import { HostingWebDatabaseStatisticsTypeEnum } from '../models/HostingWebDatabaseStatisticsTypeEnum';
-import { HostingWebLocalSeoVisibilityCheckResultResponse } from '../models/HostingWebLocalSeoVisibilityCheckResultResponse';
-import { HostingWebDatabaseDump } from '../models/HostingWebDatabaseDump';
-import { HostingWebLocalSeoEmailAvailability } from '../models/HostingWebLocalSeoEmailAvailability';
-import { HostingWebOvhConfig } from '../models/HostingWebOvhConfig';
-import { CdnDomainOption } from '../models/CdnDomainOption';
-import { HostingWebCron } from '../models/HostingWebCron';
-import { HostingPrivateDatabaseOrderableVersionEnum } from '../models/HostingPrivateDatabaseOrderableVersionEnum';
-import { HostingWebModuleDependencyType } from '../models/HostingWebModuleDependencyType';
 import { HostingWebStatisticsTypeEnum } from '../models/HostingWebStatisticsTypeEnum';
-import { HostingWebEnvVar } from '../models/HostingWebEnvVar';
-import { HostingWebModuleLanguageEnum } from '../models/HostingWebModuleLanguageEnum';
+import { HostingWebConfiguration } from '../models/HostingWebConfiguration';
+import { HostingPrivateDatabaseAvailableRamSizeEnum } from '../models/HostingPrivateDatabaseAvailableRamSizeEnum';
 import { HostingWebDatabaseDumpDateEnum } from '../models/HostingWebDatabaseDumpDateEnum';
+import { HostingWebOfferCapabilitiesEnum } from '../models/HostingWebOfferCapabilitiesEnum';
+import { HostingWebIndy } from '../models/HostingWebIndy';
+import { HostingWebRuntimeEnvEnum } from '../models/HostingWebRuntimeEnvEnum';
+import { HostingWebDatabaseStatisticsTypeEnum } from '../models/HostingWebDatabaseStatisticsTypeEnum';
+import { HostingWebFreedomStatusEnum } from '../models/HostingWebFreedomStatusEnum';
+import { HostingWebOvhConfigRecommendedValues } from '../models/HostingWebOvhConfigRecommendedValues';
+import { HostingWebConfigurationVersionEnum } from '../models/HostingWebConfigurationVersionEnum';
+import { ComplexTypeChartTimestampValue } from '../models/ComplexTypeChartTimestampValue';
+import { HostingWebLocalSeoAccount } from '../models/HostingWebLocalSeoAccount';
+import { HostingWebModuleBranchEnum } from '../models/HostingWebModuleBranchEnum';
+import { HostingWebUserSshStateEnum } from '../models/HostingWebUserSshStateEnum';
+import { HostingWebCdn } from '../models/HostingWebCdn';
+import { HostingWebAttachedDomainCdnEnum } from '../models/HostingWebAttachedDomainCdnEnum';
+import { ServiceRenewType } from '../models/ServiceRenewType';
+import { HostingWebLocalSeoLocationCountryEnum } from '../models/HostingWebLocalSeoLocationCountryEnum';
+import { HostingWebEmail } from '../models/HostingWebEmail';
+import { HostingWebLanguagesEnum } from '../models/HostingWebLanguagesEnum';
+import { HostingWebMailActionEnum } from '../models/HostingWebMailActionEnum';
+import { HostingWebEnvVarTypeEnum } from '../models/HostingWebEnvVarTypeEnum';
+import { HostingWebRuntime } from '../models/HostingWebRuntime';
+import { HostingWebBackupTypeEnum } from '../models/HostingWebBackupTypeEnum';
+import { HostingWebDatabaseCreationDatabaseCapabilities } from '../models/HostingWebDatabaseCreationDatabaseCapabilities';
+import { HostingWebSslReport } from '../models/HostingWebSslReport';
+import { HostingWebOfferEnum } from '../models/HostingWebOfferEnum';
+import { HostingWebFreedom } from '../models/HostingWebFreedom';
+import { HostingWebSSL } from '../models/HostingWebSSL';
+import { HostingWebOvhConfig } from '../models/HostingWebOvhConfig';
+import { HostingWebOvhconfigContainerEnum } from '../models/HostingWebOvhconfigContainerEnum';
+import { HostingWebModuleDependencyType } from '../models/HostingWebModuleDependencyType';
+import { HostingWebPublicTask } from '../models/HostingWebPublicTask';
+import { CdnDomainStatisticsPeriodEnum } from '../models/CdnDomainStatisticsPeriodEnum';
+import { HostingWebDatabaseExtraSqlQuotaEnum } from '../models/HostingWebDatabaseExtraSqlQuotaEnum';
+import { HostingWebDatabaseDatabaseCapabilities } from '../models/HostingWebDatabaseDatabaseCapabilities';
+import { HostingWebLocalSeoEmailAvailability } from '../models/HostingWebLocalSeoEmailAvailability';
+import { HostingWebDump } from '../models/HostingWebDump';
+import { HostingWebModuleLanguageEnum } from '../models/HostingWebModuleLanguageEnum';
+import { HostingWebOvhConfigHttpFirewallEnum } from '../models/HostingWebOvhConfigHttpFirewallEnum';
+import { HostingWebDatabaseDatabaseCapabilitiesTypeEnum } from '../models/HostingWebDatabaseDatabaseCapabilitiesTypeEnum';
+import { HostingWebDatabaseDump } from '../models/HostingWebDatabaseDump';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { HostingWebAttachedDomainFirewallEnum } from '../models/HostingWebAttachedDomainFirewallEnum';
+import { HostingWebDatabaseDatabaseCreationTypeEnum } from '../models/HostingWebDatabaseDatabaseCreationTypeEnum';
+import { HostingWebDatabase } from '../models/HostingWebDatabase';
+import { HostingWebDatabaseVersionEnum } from '../models/HostingWebDatabaseVersionEnum';
+import { CdnDomainOption } from '../models/CdnDomainOption';
+import { HostingWebEmailoption } from '../models/HostingWebEmailoption';
+import { HostingWebUserLogs } from '../models/HostingWebUserLogs';
+import { HostingWebLocalSeoVisibilityCheckResultResponse } from '../models/HostingWebLocalSeoVisibilityCheckResultResponse';
+import { CdnDomain } from '../models/CdnDomain';
+import { HostingWebLocalSeoDirectoriesList } from '../models/HostingWebLocalSeoDirectoriesList';
+import { HostingWebLocalSeoLocationOfferEnum } from '../models/HostingWebLocalSeoLocationOfferEnum';
+import { HostingWebAttachedDomain } from '../models/HostingWebAttachedDomain';
+import { CdnAvailableOptions } from '../models/CdnAvailableOptions';
+import { HostingWebOvhConfigAvailableEngineVersionEnum } from '../models/HostingWebOvhConfigAvailableEngineVersionEnum';
+import { HostingWebMailBounce } from '../models/HostingWebMailBounce';
+import { HostingWebDatabaseRequestActionEnum } from '../models/HostingWebDatabaseRequestActionEnum';
+import { HostingWebConfigurationLanguageEnum } from '../models/HostingWebConfigurationLanguageEnum';
+import { ServicesService } from '../models/ServicesService';
+import { HostingWebOvhConfigEnvironmentEnum } from '../models/HostingWebOvhConfigEnvironmentEnum';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { HostingWebStatisticsPeriodEnum } from '../models/HostingWebStatisticsPeriodEnum';
+import { HostingWebDatabaseDatabaseTypeEnum } from '../models/HostingWebDatabaseDatabaseTypeEnum';
+import { HostingWebOvhConfigCapabilities } from '../models/HostingWebOvhConfigCapabilities';
+import { CdnDomainAddOption } from '../models/CdnDomainAddOption';
+import { HostingWebCapabilities } from '../models/HostingWebCapabilities';
+import { HostingWebTaskStatusEnum } from '../models/HostingWebTaskStatusEnum';
+import { HostingWebUser } from '../models/HostingWebUser';
 import { CdnOperation } from '../models/CdnOperation';
+import { CdnDomainStatistics } from '../models/CdnDomainStatistics';
+import { HostingWebLocalSeoLocation } from '../models/HostingWebLocalSeoLocation';
+import { HostingWebModule } from '../models/HostingWebModule';
+import { HostingWebOvhConfigEngineNameEnum } from '../models/HostingWebOvhConfigEngineNameEnum';
+import { HostingWebCron } from '../models/HostingWebCron';
+import { HostingWebEnvVar } from '../models/HostingWebEnvVar';
+import { HostingWebService } from '../models/HostingWebService';
+import { CdnPurgeTypeEnum } from '../models/CdnPurgeTypeEnum';
+import { CdnLogs } from '../models/CdnLogs';
+import { HostingWebDatabaseAvailableVersionStruct } from '../models/HostingWebDatabaseAvailableVersionStruct';
+import { HostingPrivateDatabaseOrderableVersionEnum } from '../models/HostingPrivateDatabaseOrderableVersionEnum';
+import { HostingWebMailVolumeHistory } from '../models/HostingWebMailVolumeHistory';
+import { HostingWebOwnLogs } from '../models/HostingWebOwnLogs';
+import { HostingWebExtrasqlperso } from '../models/HostingWebExtrasqlperso';
+import { HostingWebTask } from '../models/HostingWebTask';
 import { HostingWebRuntimeTypeEnum } from '../models/HostingWebRuntimeTypeEnum';
+import { HostingWebDatabaseModeEnum } from '../models/HostingWebDatabaseModeEnum';
+import { HostingWebBoostHistory } from '../models/HostingWebBoostHistory';
+import { HostingWebModuleList } from '../models/HostingWebModuleList';
 import OVHBase from '../ovh';
 
 class HostingWebHandler {
@@ -103,22 +103,22 @@ class HostingWebHandler {
   }
 
   /** List available services */
-  getWeb = (): Promise<string> => {
+  listWebs = (): Promise<string[]> => {
     return this.ovh.request('GET', '/hosting/web');
   };
 
   /** Find hosting service linked to a domain */
-  getWebAttachedDomain = (): Promise<string> => {
+  getWebAttachedDomain = (): Promise<string[]> => {
     return this.ovh.request('GET', '/hosting/web/attachedDomain');
   };
 
   /** Get available offer */
-  getWebAvailableOffer = (): Promise<HostingWebOfferEnum> => {
+  getWebAvailableOffer = (): Promise<HostingWebOfferEnum[]> => {
     return this.ovh.request('GET', '/hosting/web/availableOffer');
   };
 
   /** Get current incident */
-  getWebIncident = (): Promise<string> => {
+  getWebIncident = (): Promise<string[]> => {
     return this.ovh.request('GET', '/hosting/web/incident');
   };
 
@@ -128,12 +128,12 @@ class HostingWebHandler {
   };
 
   /** Check email availability for a local SEO order */
-  getWebLocalSeoEmailAvailability = (): Promise<HostingWebLocalSeoEmailAvailability> => {
+  checkWebLocalSeoEmailAvailability = (): Promise<HostingWebLocalSeoEmailAvailability> => {
     return this.ovh.request('GET', '/hosting/web/localSeo/emailAvailability');
   };
 
   /** Check visibility of a location */
-  postWebLocalSeoVisibilityCheck = (body: {
+  checkWebLocalSeoVisibility = (body: {
     country: HostingWebLocalSeoLocationCountryEnum;
     name: string;
     street: string;
@@ -143,18 +143,19 @@ class HostingWebHandler {
   };
 
   /** Get the result of a visibility check */
-  getWebLocalSeoVisibilityCheckResult =
-    (): Promise<HostingWebLocalSeoVisibilityCheckResultResponse> => {
-      return this.ovh.request('GET', '/hosting/web/localSeo/visibilityCheckResult');
-    };
+  getWebLocalSeoVisibilityCheckResult = (): Promise<
+    HostingWebLocalSeoVisibilityCheckResultResponse[]
+  > => {
+    return this.ovh.request('GET', '/hosting/web/localSeo/visibilityCheckResult');
+  };
 
   /** IDs of all modules available */
-  getWebModuleList = (): Promise<number> => {
+  getWebModuleList = (): Promise<number[]> => {
     return this.ovh.request('GET', '/hosting/web/moduleList');
   };
 
   /** Get this object properties */
-  getWebModuleListId = (id: number): Promise<HostingWebModuleList> => {
+  getWebModuleListById = (id: number): Promise<HostingWebModuleList> => {
     return this.ovh.request('GET', `/hosting/web/moduleList/${id}`);
   };
 
@@ -164,17 +165,17 @@ class HostingWebHandler {
   };
 
   /** Get this object properties */
-  getWebServiceName = (serviceName: string): Promise<HostingWebService> => {
+  getWebByServiceName = (serviceName: string): Promise<HostingWebService> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putWebServiceName = (serviceName: string, body: HostingWebService): Promise<void> => {
+  updateWebByServiceName = (serviceName: string, body: HostingWebService): Promise<void> => {
     return this.ovh.request('PUT', `/hosting/web/${serviceName}`, body);
   };
 
   /** Activate an included private database on your hosting offer */
-  postWebServiceNameActivatePrivateDatabase = (
+  postWebActivatePrivateDatabaseByServiceName = (
     serviceName: string,
     body: {
       ram: HostingPrivateDatabaseAvailableRamSizeEnum;
@@ -185,12 +186,12 @@ class HostingWebHandler {
   };
 
   /** Domains or subdomains attached to your hosting */
-  getWebServiceNameAttachedDomain = (serviceName: string): Promise<string> => {
+  getWebAttachedDomainByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/attachedDomain`);
   };
 
   /** Link a domain to this hosting */
-  postWebServiceNameAttachedDomain = (
+  postWebAttachedDomainByServiceName = (
     serviceName: string,
     body: {
       cdn?: HostingWebAttachedDomainCdnEnum;
@@ -206,7 +207,7 @@ class HostingWebHandler {
   };
 
   /** Unlink domain from hosting */
-  deleteWebServiceNameAttachedDomainDomain = (
+  deleteWebAttachedDomainByServiceNameAndDomain = (
     domain: string,
     serviceName: string
   ): Promise<HostingWebTask> => {
@@ -214,7 +215,7 @@ class HostingWebHandler {
   };
 
   /** Get this object properties */
-  getWebServiceNameAttachedDomainDomain = (
+  getWebAttachedDomainByServiceNameAndDomain = (
     domain: string,
     serviceName: string
   ): Promise<HostingWebAttachedDomain> => {
@@ -222,7 +223,7 @@ class HostingWebHandler {
   };
 
   /** Alter this object properties */
-  putWebServiceNameAttachedDomainDomain = (
+  updateWebAttachedDomainByServiceNameAndDomain = (
     domain: string,
     serviceName: string,
     body: HostingWebAttachedDomain
@@ -231,7 +232,7 @@ class HostingWebHandler {
   };
 
   /** Purge cache for this attached domain */
-  postWebServiceNameAttachedDomainDomainPurgeCache = (
+  postWebAttachedDomainPurgeCacheByServiceNameAndDomain = (
     domain: string,
     serviceName: string
   ): Promise<HostingWebTask> => {
@@ -242,7 +243,7 @@ class HostingWebHandler {
   };
 
   /** Restart the virtual host of the attached domain */
-  postWebServiceNameAttachedDomainDomainRestart = (
+  postWebAttachedDomainRestartByServiceNameAndDomain = (
     domain: string,
     serviceName: string
   ): Promise<HostingWebTask> => {
@@ -250,19 +251,19 @@ class HostingWebHandler {
   };
 
   /** List configurations available for current hosting */
-  getWebServiceNameAvailableConfigurations = (
+  listWebAvailableConfigurationsByServiceName = (
     serviceName: string
-  ): Promise<HostingWebConfigurationVersionEnum> => {
+  ): Promise<HostingWebConfigurationVersionEnum[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/availableConfigurations`);
   };
 
   /** History of your hosting boost */
-  getWebServiceNameBoostHistory = (serviceName: string): Promise<Date> => {
+  getWebBoostHistoryByServiceName = (serviceName: string): Promise<Date[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/boostHistory`);
   };
 
   /** Get this object properties */
-  getWebServiceNameBoostHistoryDate = (
+  getWebBoostHistoryByServiceNameAndDate = (
     date: Date,
     serviceName: string
   ): Promise<HostingWebBoostHistory> => {
@@ -270,22 +271,24 @@ class HostingWebHandler {
   };
 
   /** Get this object properties */
-  getWebServiceNameCdn = (serviceName: string): Promise<HostingWebCdn> => {
+  getWebCdnByServiceName = (serviceName: string): Promise<HostingWebCdn> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/cdn`);
   };
 
   /** List available options for a Shared CDN service */
-  getWebServiceNameCdnAvailableOptions = (serviceName: string): Promise<CdnAvailableOptions> => {
+  listWebCdnAvailableOptionsByServiceName = (
+    serviceName: string
+  ): Promise<CdnAvailableOptions[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/cdn/availableOptions`);
   };
 
   /** List all domains for a Shared CDN service */
-  getWebServiceNameCdnDomain = (serviceName: string): Promise<CdnDomain> => {
+  listWebCdnDomainsByServiceName = (serviceName: string): Promise<CdnDomain[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/cdn/domain`);
   };
 
   /** Get details for a domain on a Shared CDN service */
-  getWebServiceNameCdnDomainDomainName = (
+  getWebCdnDomainByServiceNameAndDomainName = (
     serviceName: string,
     domainName: string
   ): Promise<CdnDomain> => {
@@ -293,7 +296,7 @@ class HostingWebHandler {
   };
 
   /** Generate URL to logs archive */
-  getWebServiceNameCdnDomainDomainNameLogs = (
+  getWebCdnDomainLogsByServiceNameAndDomainName = (
     serviceName: string,
     domainName: string
   ): Promise<CdnLogs> => {
@@ -301,15 +304,15 @@ class HostingWebHandler {
   };
 
   /** List all options for a domain */
-  getWebServiceNameCdnDomainDomainNameOption = (
+  listWebCdnDomainOptionsByServiceNameAndDomainName = (
     serviceName: string,
     domainName: string
-  ): Promise<CdnDomainOption> => {
+  ): Promise<CdnDomainOption[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/cdn/domain/${domainName}/option`);
   };
 
   /** Add an option on a domain */
-  postWebServiceNameCdnDomainDomainNameOption = (
+  addWebCdnDomainOptionByServiceNameAndDomainName = (
     serviceName: string,
     domainName: string,
     body: CdnDomainAddOption
@@ -322,7 +325,7 @@ class HostingWebHandler {
   };
 
   /** Remove or Reset an option to his default value */
-  deleteWebServiceNameCdnDomainDomainNameOptionOptionName = (
+  deleteWebCdnDomainOptionByServiceNameAndDomainNameAndOptionName = (
     serviceName: string,
     domainName: string,
     optionName: string
@@ -334,7 +337,7 @@ class HostingWebHandler {
   };
 
   /** Get details for an option on a domain */
-  getWebServiceNameCdnDomainDomainNameOptionOptionName = (
+  getWebCdnDomainOptionByServiceNameAndDomainNameAndOptionName = (
     serviceName: string,
     domainName: string,
     optionName: string
@@ -346,7 +349,7 @@ class HostingWebHandler {
   };
 
   /** Update an option on a domain */
-  putWebServiceNameCdnDomainDomainNameOptionOptionName = (
+  updateWebCdnDomainOptionByServiceNameAndDomainNameAndOptionName = (
     serviceName: string,
     domainName: string,
     optionName: string,
@@ -360,7 +363,7 @@ class HostingWebHandler {
   };
 
   /** Flush cache content on CDN for a domain */
-  postWebServiceNameCdnDomainDomainNamePurge = (
+  postWebCdnDomainPurgeByServiceNameAndDomainName = (
     serviceName: string,
     domainName: string
   ): Promise<CdnOperation> => {
@@ -368,7 +371,7 @@ class HostingWebHandler {
   };
 
   /** Trigger a refresh for a domain */
-  postWebServiceNameCdnDomainDomainNameRefresh = (
+  postWebCdnDomainRefreshByServiceNameAndDomainName = (
     serviceName: string,
     domainName: string
   ): Promise<CdnOperation> => {
@@ -376,10 +379,10 @@ class HostingWebHandler {
   };
 
   /** Get CDN statistics for a domain */
-  getWebServiceNameCdnDomainDomainNameStatistics = (
+  getWebCdnDomainStatisticsByServiceNameAndDomainName = (
     serviceName: string,
     domainName: string
-  ): Promise<CdnDomainStatistics> => {
+  ): Promise<CdnDomainStatistics[]> => {
     return this.ovh.request(
       'GET',
       `/hosting/web/${serviceName}/cdn/domain/${domainName}/statistics`
@@ -387,22 +390,25 @@ class HostingWebHandler {
   };
 
   /** List all operations for a Shared CDN service */
-  getWebServiceNameCdnOperation = (serviceName: string): Promise<CdnOperation> => {
+  listWebCdnOperationsByServiceName = (serviceName: string): Promise<CdnOperation[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/cdn/operation`);
   };
 
   /** Get details for a Shared CDN operation */
-  getWebServiceNameCdnOperationId = (serviceName: string, id: number): Promise<CdnOperation> => {
+  getWebCdnOperationByServiceNameAndId = (
+    serviceName: string,
+    id: number
+  ): Promise<CdnOperation> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/cdn/operation/${id}`);
   };
 
   /** Get this object properties */
-  getWebServiceNameCdnServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getWebCdnServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/cdn/serviceInfos`);
   };
 
   /** Alter this object properties */
-  postWebServiceNameCdnServiceInfosUpdate = (
+  updateWebCdnServiceInfosUpdateByServiceName = (
     serviceName: string,
     body: { renew: ServiceRenewType }
   ): Promise<void> => {
@@ -410,25 +416,25 @@ class HostingWebHandler {
   };
 
   /** Terminate your cdn sub service */
-  postWebServiceNameCdnTerminate = (serviceName: string): Promise<string> => {
+  postWebCdnTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/hosting/web/${serviceName}/cdn/terminate`);
   };
 
   /** Launch a contact change procedure */
-  postWebServiceNameChangeContact = (
+  launchWebChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/hosting/web/${serviceName}/changeContact`, body);
   };
 
   /** Get this object properties */
-  getWebServiceNameConfiguration = (serviceName: string): Promise<HostingWebConfiguration> => {
+  getWebConfigurationByServiceName = (serviceName: string): Promise<HostingWebConfiguration> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/configuration`);
   };
 
   /** Alter this object properties */
-  putWebServiceNameConfiguration = (
+  updateWebConfigurationByServiceName = (
     serviceName: string,
     body: HostingWebConfiguration
   ): Promise<void> => {
@@ -436,7 +442,7 @@ class HostingWebHandler {
   };
 
   /** Confirm termination of your service */
-  postWebServiceNameConfirmTermination = (
+  confirmWebTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -449,12 +455,12 @@ class HostingWebHandler {
   };
 
   /** Crons on your webhosting */
-  getWebServiceNameCron = (serviceName: string): Promise<number> => {
+  getWebCronByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/cron`);
   };
 
   /** Create new cron */
-  postWebServiceNameCron = (
+  createWebCronByServiceName = (
     serviceName: string,
     body: HostingWebCron
   ): Promise<HostingWebPublicTask> => {
@@ -462,17 +468,20 @@ class HostingWebHandler {
   };
 
   /** Delete cron */
-  deleteWebServiceNameCronId = (id: number, serviceName: string): Promise<HostingWebPublicTask> => {
+  deleteWebCronByServiceNameAndId = (
+    id: number,
+    serviceName: string
+  ): Promise<HostingWebPublicTask> => {
     return this.ovh.request('DELETE', `/hosting/web/${serviceName}/cron/${id}`);
   };
 
   /** Get cron by id */
-  getWebServiceNameCronId = (id: number, serviceName: string): Promise<HostingWebCron> => {
+  getWebCronByServiceNameAndId = (id: number, serviceName: string): Promise<HostingWebCron> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/cron/${id}`);
   };
 
   /** Update cron */
-  putWebServiceNameCronId = (
+  updateWebCronByServiceNameAndId = (
     id: number,
     serviceName: string,
     body: HostingWebCron
@@ -481,19 +490,19 @@ class HostingWebHandler {
   };
 
   /** Get the list of supported languages by web domain */
-  getWebServiceNameCronAvailableLanguage = (
+  getWebCronAvailableLanguageByServiceName = (
     serviceName: string
-  ): Promise<HostingWebLanguagesEnum> => {
+  ): Promise<HostingWebLanguagesEnum[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/cronAvailableLanguage`);
   };
 
   /** Databases linked to your hosting */
-  getWebServiceNameDatabase = (serviceName: string): Promise<string> => {
+  getWebDatabaseByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/database`);
   };
 
   /** Install new database */
-  postWebServiceNameDatabase = (
+  postWebDatabaseByServiceName = (
     serviceName: string,
     body: {
       capabilitie: HostingWebDatabaseDatabaseCapabilitiesTypeEnum;
@@ -508,7 +517,7 @@ class HostingWebHandler {
   };
 
   /** Delete database */
-  deleteWebServiceNameDatabaseName = (
+  deleteWebDatabaseByServiceNameAndName = (
     name: string,
     serviceName: string
   ): Promise<HostingWebTask> => {
@@ -516,7 +525,7 @@ class HostingWebHandler {
   };
 
   /** Get this object properties */
-  getWebServiceNameDatabaseName = (
+  getWebDatabaseByServiceNameAndName = (
     name: string,
     serviceName: string
   ): Promise<HostingWebDatabase> => {
@@ -524,7 +533,7 @@ class HostingWebHandler {
   };
 
   /** Get available capabilities for this database */
-  getWebServiceNameDatabaseNameCapabilities = (
+  getWebDatabaseCapabilitiesByServiceNameAndName = (
     name: string,
     serviceName: string
   ): Promise<HostingWebDatabaseDatabaseCapabilities> => {
@@ -532,7 +541,7 @@ class HostingWebHandler {
   };
 
   /** Request a password change */
-  postWebServiceNameDatabaseNameChangePassword = (
+  postWebDatabaseChangePasswordByServiceNameAndName = (
     name: string,
     serviceName: string,
     body: { password: string }
@@ -545,12 +554,15 @@ class HostingWebHandler {
   };
 
   /** Dump available for your databases */
-  getWebServiceNameDatabaseNameDump = (name: string, serviceName: string): Promise<number> => {
+  getWebDatabaseDumpByServiceNameAndName = (
+    name: string,
+    serviceName: string
+  ): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/database/${name}/dump`);
   };
 
   /** Request the dump from your database */
-  postWebServiceNameDatabaseNameDump = (
+  postWebDatabaseDumpByServiceNameAndName = (
     name: string,
     serviceName: string,
     body: { date: HostingWebDatabaseDumpDateEnum; sendEmail?: boolean }
@@ -559,7 +571,7 @@ class HostingWebHandler {
   };
 
   /** Delete dump before expiration date */
-  deleteWebServiceNameDatabaseNameDumpId = (
+  deleteWebDatabaseDumpByServiceNameAndNameAndId = (
     id: number,
     name: string,
     serviceName: string
@@ -568,7 +580,7 @@ class HostingWebHandler {
   };
 
   /** Get this object properties */
-  getWebServiceNameDatabaseNameDumpId = (
+  getWebDatabaseDumpByServiceNameAndNameAndId = (
     id: number,
     name: string,
     serviceName: string
@@ -577,7 +589,7 @@ class HostingWebHandler {
   };
 
   /** Request the restore from this dump */
-  postWebServiceNameDatabaseNameDumpIdRestore = (
+  postWebDatabaseDumpRestoreByServiceNameAndNameAndId = (
     id: number,
     name: string,
     serviceName: string
@@ -589,7 +601,7 @@ class HostingWebHandler {
   };
 
   /** Import a dump from an specific file uploaded with /me/documents */
-  postWebServiceNameDatabaseNameImport = (
+  postWebDatabaseImportByServiceNameAndName = (
     name: string,
     serviceName: string,
     body: { documentId: string; flushDatabase?: boolean; sendEmail?: boolean }
@@ -598,7 +610,7 @@ class HostingWebHandler {
   };
 
   /** Request specific operation for your database */
-  postWebServiceNameDatabaseNameRequest = (
+  postWebDatabaseRequestByServiceNameAndName = (
     name: string,
     serviceName: string,
     body: { action: HostingWebDatabaseRequestActionEnum }
@@ -607,7 +619,7 @@ class HostingWebHandler {
   };
 
   /** Request the restore from your database backup */
-  postWebServiceNameDatabaseNameRestore = (
+  postWebDatabaseRestoreByServiceNameAndName = (
     name: string,
     serviceName: string,
     body: { date: HostingWebDatabaseDumpDateEnum; sendEmail?: boolean }
@@ -616,7 +628,7 @@ class HostingWebHandler {
   };
 
   /** Get statistics about this database */
-  getWebServiceNameDatabaseNameStatistics = (
+  getWebDatabaseStatisticsByServiceNameAndName = (
     name: string,
     serviceName: string
   ): Promise<ComplexTypeChartTimestampValue> => {
@@ -624,58 +636,58 @@ class HostingWebHandler {
   };
 
   /** List available database type */
-  getWebServiceNameDatabaseAvailableType = (
+  listWebDatabaseAvailableTypesByServiceName = (
     serviceName: string
-  ): Promise<HostingWebDatabaseDatabaseTypeEnum> => {
+  ): Promise<HostingWebDatabaseDatabaseTypeEnum[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/databaseAvailableType`);
   };
 
   /** List available database version following a type */
-  getWebServiceNameDatabaseAvailableVersion = (
+  listWebDatabaseAvailableVersionsByServiceName = (
     serviceName: string
   ): Promise<HostingWebDatabaseAvailableVersionStruct> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/databaseAvailableVersion`);
   };
 
   /** List available database you can install */
-  getWebServiceNameDatabaseCreationCapabilities = (
+  listWebDatabaseCreationCapabilitiesByServiceName = (
     serviceName: string
-  ): Promise<HostingWebDatabaseCreationDatabaseCapabilities> => {
+  ): Promise<HostingWebDatabaseCreationDatabaseCapabilities[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/databaseCreationCapabilities`);
   };
 
   /** Dumps linked to your hosting */
-  getWebServiceNameDump = (serviceName: string): Promise<number> => {
+  getWebDumpByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/dump`);
   };
 
   /** Delete dump before expiration date */
-  deleteWebServiceNameDumpId = (id: number, serviceName: string): Promise<HostingWebTask> => {
+  deleteWebDumpByServiceNameAndId = (id: number, serviceName: string): Promise<HostingWebTask> => {
     return this.ovh.request('DELETE', `/hosting/web/${serviceName}/dump/${id}`);
   };
 
   /** Get this object properties */
-  getWebServiceNameDumpId = (id: number, serviceName: string): Promise<HostingWebDump> => {
+  getWebDumpByServiceNameAndId = (id: number, serviceName: string): Promise<HostingWebDump> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/dump/${id}`);
   };
 
   /** Get this object properties */
-  getWebServiceNameEmail = (serviceName: string): Promise<HostingWebEmail> => {
+  getWebEmailByServiceName = (serviceName: string): Promise<HostingWebEmail> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/email`);
   };
 
   /** Alter this object properties */
-  putWebServiceNameEmail = (serviceName: string, body: HostingWebEmail): Promise<void> => {
+  updateWebEmailByServiceName = (serviceName: string, body: HostingWebEmail): Promise<void> => {
     return this.ovh.request('PUT', `/hosting/web/${serviceName}/email`, body);
   };
 
   /** Request the last bounces */
-  getWebServiceNameEmailBounces = (serviceName: string): Promise<HostingWebMailBounce> => {
+  getWebEmailBouncesByServiceName = (serviceName: string): Promise<HostingWebMailBounce[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/email/bounces`);
   };
 
   /** Request specific operation for your email */
-  postWebServiceNameEmailRequest = (
+  postWebEmailRequestByServiceName = (
     serviceName: string,
     body: { action: HostingWebMailActionEnum }
   ): Promise<string> => {
@@ -683,17 +695,19 @@ class HostingWebHandler {
   };
 
   /** Request the history volume of email sent */
-  getWebServiceNameEmailVolumes = (serviceName: string): Promise<HostingWebMailVolumeHistory> => {
+  getWebEmailVolumesByServiceName = (
+    serviceName: string
+  ): Promise<HostingWebMailVolumeHistory[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/email/volumes`);
   };
 
   /** Mail service linked to webhosting */
-  getWebServiceNameEmailOption = (serviceName: string): Promise<number> => {
+  getWebEmailOptionByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/emailOption`);
   };
 
   /** Get this object properties */
-  getWebServiceNameEmailOptionId = (
+  getWebEmailOptionByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<HostingWebEmailoption> => {
@@ -701,7 +715,7 @@ class HostingWebHandler {
   };
 
   /** Get the service properties */
-  getWebServiceNameEmailOptionIdServiceInfos = (
+  getWebEmailOptionServiceInfosByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<ServicesService> => {
@@ -709,17 +723,20 @@ class HostingWebHandler {
   };
 
   /** Terminate your email sub service */
-  postWebServiceNameEmailOptionIdTerminate = (id: number, serviceName: string): Promise<string> => {
+  postWebEmailOptionTerminateByServiceNameAndId = (
+    id: number,
+    serviceName: string
+  ): Promise<string> => {
     return this.ovh.request('POST', `/hosting/web/${serviceName}/emailOption/${id}/terminate`);
   };
 
   /** Environment variables set on your webhosting */
-  getWebServiceNameEnvVar = (serviceName: string): Promise<string> => {
+  getWebEnvVarByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/envVar`);
   };
 
   /** Set a variable to this hosting */
-  postWebServiceNameEnvVar = (
+  postWebEnvVarByServiceName = (
     serviceName: string,
     body: { key: string; type: HostingWebEnvVarTypeEnum; value: string }
   ): Promise<HostingWebTask> => {
@@ -727,17 +744,23 @@ class HostingWebHandler {
   };
 
   /** Remove variable from hosting */
-  deleteWebServiceNameEnvVarKey = (key: string, serviceName: string): Promise<HostingWebTask> => {
+  deleteWebEnvVarByServiceNameAndKey = (
+    key: string,
+    serviceName: string
+  ): Promise<HostingWebTask> => {
     return this.ovh.request('DELETE', `/hosting/web/${serviceName}/envVar/${key}`);
   };
 
   /** Get this object properties */
-  getWebServiceNameEnvVarKey = (key: string, serviceName: string): Promise<HostingWebEnvVar> => {
+  getWebEnvVarByServiceNameAndKey = (
+    key: string,
+    serviceName: string
+  ): Promise<HostingWebEnvVar> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/envVar/${key}`);
   };
 
   /** Alter this object properties */
-  putWebServiceNameEnvVarKey = (
+  updateWebEnvVarByServiceNameAndKey = (
     key: string,
     serviceName: string,
     body: HostingWebEnvVar
@@ -746,12 +769,12 @@ class HostingWebHandler {
   };
 
   /** Sqlperso linked to your hosting */
-  getWebServiceNameExtraSqlPerso = (serviceName: string): Promise<string> => {
+  getWebExtraSqlPersoByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/extraSqlPerso`);
   };
 
   /** Get this object properties */
-  getWebServiceNameExtraSqlPersoName = (
+  getWebExtraSqlPersoByServiceNameAndName = (
     name: string,
     serviceName: string
   ): Promise<HostingWebExtrasqlperso> => {
@@ -759,15 +782,15 @@ class HostingWebHandler {
   };
 
   /** Get databases linked with this option */
-  getWebServiceNameExtraSqlPersoNameDatabases = (
+  getWebExtraSqlPersoDatabasesByServiceNameAndName = (
     name: string,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/extraSqlPerso/${name}/databases`);
   };
 
   /** Get this object properties */
-  getWebServiceNameExtraSqlPersoNameServiceInfos = (
+  getWebExtraSqlPersoServiceInfosByServiceNameAndName = (
     name: string,
     serviceName: string
   ): Promise<ServicesService> => {
@@ -778,7 +801,7 @@ class HostingWebHandler {
   };
 
   /** Alter this object properties */
-  postWebServiceNameExtraSqlPersoNameServiceInfosUpdate = (
+  updateWebExtraSqlPersoServiceInfosUpdateByServiceNameAndName = (
     name: string,
     serviceName: string,
     body: { renew: ServiceRenewType }
@@ -791,7 +814,7 @@ class HostingWebHandler {
   };
 
   /** Terminate your extraSqlPerso sub service */
-  postWebServiceNameExtraSqlPersoNameTerminate = (
+  postWebExtraSqlPersoTerminateByServiceNameAndName = (
     name: string,
     serviceName: string
   ): Promise<string> => {
@@ -799,17 +822,17 @@ class HostingWebHandler {
   };
 
   /** Freedom linked to this hosting account */
-  getWebServiceNameFreedom = (serviceName: string): Promise<string> => {
+  getWebFreedomByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/freedom`);
   };
 
   /** Delete the freedom */
-  deleteWebServiceNameFreedomDomain = (domain: string, serviceName: string): Promise<void> => {
+  deleteWebFreedomByServiceNameAndDomain = (domain: string, serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/hosting/web/${serviceName}/freedom/${domain}`);
   };
 
   /** Get this object properties */
-  getWebServiceNameFreedomDomain = (
+  getWebFreedomByServiceNameAndDomain = (
     domain: string,
     serviceName: string
   ): Promise<HostingWebFreedom> => {
@@ -817,22 +840,25 @@ class HostingWebHandler {
   };
 
   /** User of multidomain independent allowed on your hosting */
-  getWebServiceNameIndy = (serviceName: string): Promise<string> => {
+  getWebIndyByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/indy`);
   };
 
   /** Get this object properties */
-  getWebServiceNameIndyLogin = (login: string, serviceName: string): Promise<HostingWebIndy> => {
+  getWebIndyByServiceNameAndLogin = (
+    login: string,
+    serviceName: string
+  ): Promise<HostingWebIndy> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/indy/${login}`);
   };
 
   /** Local SEO accounts associated to the hosting */
-  getWebServiceNameLocalSeoAccount = (serviceName: string): Promise<number> => {
+  getWebLocalSeoAccountByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/localSeo/account`);
   };
 
   /** Get this object properties */
-  getWebServiceNameLocalSeoAccountId = (
+  getWebLocalSeoAccountByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<HostingWebLocalSeoAccount> => {
@@ -840,24 +866,27 @@ class HostingWebHandler {
   };
 
   /** Login this location for SSO */
-  postWebServiceNameLocalSeoAccountIdLogin = (id: number, serviceName: string): Promise<string> => {
+  postWebLocalSeoAccountLoginByServiceNameAndId = (
+    id: number,
+    serviceName: string
+  ): Promise<string> => {
     return this.ovh.request('POST', `/hosting/web/${serviceName}/localSeo/account/${id}/login`);
   };
 
   /** Check email availability for a local SEO order */
-  getWebServiceNameLocalSeoEmailAvailability = (
+  checkWebLocalSeoEmailAvailabilityByServiceName = (
     serviceName: string
   ): Promise<HostingWebLocalSeoEmailAvailability> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/localSeo/emailAvailability`);
   };
 
   /** Local SEO locations associated to the hosting */
-  getWebServiceNameLocalSeoLocation = (serviceName: string): Promise<number> => {
+  getWebLocalSeoLocationByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/localSeo/location`);
   };
 
   /** Get this object properties */
-  getWebServiceNameLocalSeoLocationId = (
+  getWebLocalSeoLocationByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<HostingWebLocalSeoLocation> => {
@@ -865,7 +894,7 @@ class HostingWebHandler {
   };
 
   /** Get this object properties */
-  getWebServiceNameLocalSeoLocationIdServiceInfos = (
+  getWebLocalSeoLocationServiceInfosByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<ServicesService> => {
@@ -876,7 +905,7 @@ class HostingWebHandler {
   };
 
   /** Alter this object properties */
-  postWebServiceNameLocalSeoLocationIdServiceInfosUpdate = (
+  updateWebLocalSeoLocationServiceInfosUpdateByServiceNameAndId = (
     id: number,
     serviceName: string,
     body: { renew: ServiceRenewType }
@@ -889,7 +918,7 @@ class HostingWebHandler {
   };
 
   /** Terminate a local SEO sub service */
-  postWebServiceNameLocalSeoLocationIdTerminate = (
+  postWebLocalSeoLocationTerminateByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<string> => {
@@ -900,17 +929,17 @@ class HostingWebHandler {
   };
 
   /** Module installed on your hosting */
-  getWebServiceNameModule = (serviceName: string): Promise<number> => {
+  getWebModuleByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/module`);
   };
 
   /** Install a new module */
-  postWebServiceNameModule = (
+  postWebModuleByServiceName = (
     serviceName: string,
     body: {
       adminName?: string;
       adminPassword?: string;
-      dependencies?: HostingWebModuleDependencyType;
+      dependencies?: HostingWebModuleDependencyType[];
       domain?: string;
       language?: HostingWebModuleLanguageEnum;
       moduleId: number;
@@ -921,17 +950,20 @@ class HostingWebHandler {
   };
 
   /** Delete a module installed */
-  deleteWebServiceNameModuleId = (id: number, serviceName: string): Promise<HostingWebTask> => {
+  deleteWebModuleByServiceNameAndId = (
+    id: number,
+    serviceName: string
+  ): Promise<HostingWebTask> => {
     return this.ovh.request('DELETE', `/hosting/web/${serviceName}/module/${id}`);
   };
 
   /** Get this object properties */
-  getWebServiceNameModuleId = (id: number, serviceName: string): Promise<HostingWebModule> => {
+  getWebModuleByServiceNameAndId = (id: number, serviceName: string): Promise<HostingWebModule> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/module/${id}`);
   };
 
   /** Generate a new admin password for your module */
-  postWebServiceNameModuleIdChangePassword = (
+  postWebModuleChangePasswordByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<HostingWebTask> => {
@@ -939,12 +971,12 @@ class HostingWebHandler {
   };
 
   /** Configuration used on your hosting */
-  getWebServiceNameOvhConfig = (serviceName: string): Promise<number> => {
+  getWebOvhConfigByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/ovhConfig`);
   };
 
   /** Get this object properties */
-  getWebServiceNameOvhConfigId = (
+  getWebOvhConfigByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<HostingWebOvhConfig> => {
@@ -952,7 +984,7 @@ class HostingWebHandler {
   };
 
   /** Apply a new configuration on this path */
-  postWebServiceNameOvhConfigIdChangeConfiguration = (
+  postWebOvhConfigChangeConfigurationByServiceNameAndId = (
     id: number,
     serviceName: string,
     body: {
@@ -971,7 +1003,7 @@ class HostingWebHandler {
   };
 
   /** Rollback to an old configuration */
-  postWebServiceNameOvhConfigIdRollback = (
+  postWebOvhConfigRollbackByServiceNameAndId = (
     id: number,
     serviceName: string,
     body: { rollbackId: number }
@@ -980,41 +1012,47 @@ class HostingWebHandler {
   };
 
   /** Get the list of versions and container image available on your hosting */
-  getWebServiceNameOvhConfigCapabilities = (
+  getWebOvhConfigCapabilitiesByServiceName = (
     serviceName: string
-  ): Promise<HostingWebOvhConfigCapabilities> => {
+  ): Promise<HostingWebOvhConfigCapabilities[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/ovhConfigCapabilities`);
   };
 
   /** Get recommended values on ovhConfig file */
-  getWebServiceNameOvhConfigRecommendedValues = (
+  getWebOvhConfigRecommendedValuesByServiceName = (
     serviceName: string
   ): Promise<HostingWebOvhConfigRecommendedValues> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/ovhConfigRecommendedValues`);
   };
 
   /** Synchronize the configuration listing with content on your hosting */
-  postWebServiceNameOvhConfigRefresh = (serviceName: string): Promise<HostingWebTask> => {
+  postWebOvhConfigRefreshByServiceName = (serviceName: string): Promise<HostingWebTask> => {
     return this.ovh.request('POST', `/hosting/web/${serviceName}/ovhConfigRefresh`);
   };
 
   /** Own Logs linked to your hosting */
-  getWebServiceNameOwnLogs = (serviceName: string): Promise<number> => {
+  getWebOwnLogsByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/ownLogs`);
   };
 
   /** Get this object properties */
-  getWebServiceNameOwnLogsId = (id: number, serviceName: string): Promise<HostingWebOwnLogs> => {
+  getWebOwnLogsByServiceNameAndId = (
+    id: number,
+    serviceName: string
+  ): Promise<HostingWebOwnLogs> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/ownLogs/${id}`);
   };
 
   /** User allowed to connect into your logs interface */
-  getWebServiceNameOwnLogsIdUserLogs = (id: number, serviceName: string): Promise<string> => {
+  getWebOwnLogsUserLogsByServiceNameAndId = (
+    id: number,
+    serviceName: string
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/ownLogs/${id}/userLogs`);
   };
 
   /** Create new userLogs */
-  postWebServiceNameOwnLogsIdUserLogs = (
+  createWebOwnLogsUserLogsByServiceNameAndId = (
     id: number,
     serviceName: string,
     body: { description: string; login: string; ownLogsId?: number; password: string }
@@ -1023,7 +1061,7 @@ class HostingWebHandler {
   };
 
   /** Delete the userLogs */
-  deleteWebServiceNameOwnLogsIdUserLogsLogin = (
+  deleteWebOwnLogsUserLogsByServiceNameAndIdAndLogin = (
     id: number,
     login: string,
     serviceName: string
@@ -1035,7 +1073,7 @@ class HostingWebHandler {
   };
 
   /** Get this object properties */
-  getWebServiceNameOwnLogsIdUserLogsLogin = (
+  getWebOwnLogsUserLogsByServiceNameAndIdAndLogin = (
     id: number,
     login: string,
     serviceName: string
@@ -1044,7 +1082,7 @@ class HostingWebHandler {
   };
 
   /** Alter this object properties */
-  putWebServiceNameOwnLogsIdUserLogsLogin = (
+  updateWebOwnLogsUserLogsByServiceNameAndIdAndLogin = (
     id: number,
     login: string,
     serviceName: string,
@@ -1058,7 +1096,7 @@ class HostingWebHandler {
   };
 
   /** Request a password change */
-  postWebServiceNameOwnLogsIdUserLogsLoginChangePassword = (
+  postWebOwnLogsUserLogsChangePasswordByServiceNameAndIdAndLogin = (
     id: number,
     login: string,
     serviceName: string,
@@ -1072,9 +1110,9 @@ class HostingWebHandler {
   };
 
   /** List available privateDatabase you can install */
-  getWebServiceNamePrivateDatabaseCreationCapabilities = (
+  listWebPrivateDatabaseCreationCapabilitiesByServiceName = (
     serviceName: string
-  ): Promise<HostingWebDatabaseCreationDatabaseCapabilities> => {
+  ): Promise<HostingWebDatabaseCreationDatabaseCapabilities[]> => {
     return this.ovh.request(
       'GET',
       `/hosting/web/${serviceName}/privateDatabaseCreationCapabilities`
@@ -1082,12 +1120,12 @@ class HostingWebHandler {
   };
 
   /** List linked privateDatabases */
-  getWebServiceNamePrivateDatabases = (serviceName: string): Promise<string> => {
+  listWebPrivateDatabasesByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/privateDatabases`);
   };
 
   /** Request specific operation for your hosting */
-  postWebServiceNameRequest = (
+  postWebRequestByServiceName = (
     serviceName: string,
     body: { action: HostingWebRequestActionEnum }
   ): Promise<HostingWebTask> => {
@@ -1095,7 +1133,7 @@ class HostingWebHandler {
   };
 
   /** Allows you to boost your offer. */
-  postWebServiceNameRequestBoost = (
+  postWebRequestBoostByServiceName = (
     serviceName: string,
     body: { offer?: HostingWebOfferEnum }
   ): Promise<HostingWebTask> => {
@@ -1103,7 +1141,7 @@ class HostingWebHandler {
   };
 
   /** Restore this snapshot ALL CURRENT DATA WILL BE REPLACED BY YOUR SNAPSHOT */
-  postWebServiceNameRestoreSnapshot = (
+  postWebRestoreSnapshotByServiceName = (
     serviceName: string,
     body: { backup: HostingWebBackupTypeEnum }
   ): Promise<HostingWebTask> => {
@@ -1111,17 +1149,17 @@ class HostingWebHandler {
   };
 
   /** List of runtime configurations to your hosting */
-  getWebServiceNameRuntime = (serviceName: string): Promise<number> => {
+  listWebRuntimesByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/runtime`);
   };
 
   /** Request the creation of a new runtime configuration */
-  postWebServiceNameRuntime = (
+  postWebRuntimeByServiceName = (
     serviceName: string,
     body: {
       appBootstrap?: string;
       appEnv?: HostingWebRuntimeEnvEnum;
-      attachedDomains?: string;
+      attachedDomains?: string[];
       isDefault?: boolean;
       name?: string;
       publicDir?: string;
@@ -1132,17 +1170,23 @@ class HostingWebHandler {
   };
 
   /** Delete a runtime configuration of an hosting */
-  deleteWebServiceNameRuntimeId = (id: number, serviceName: string): Promise<HostingWebTask> => {
+  deleteWebRuntimeByServiceNameAndId = (
+    id: number,
+    serviceName: string
+  ): Promise<HostingWebTask> => {
     return this.ovh.request('DELETE', `/hosting/web/${serviceName}/runtime/${id}`);
   };
 
   /** Get this object properties */
-  getWebServiceNameRuntimeId = (id: number, serviceName: string): Promise<HostingWebRuntime> => {
+  getWebRuntimeByServiceNameAndId = (
+    id: number,
+    serviceName: string
+  ): Promise<HostingWebRuntime> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/runtime/${id}`);
   };
 
   /** Alter this object properties */
-  putWebServiceNameRuntimeId = (
+  updateWebRuntimeByServiceNameAndId = (
     id: number,
     serviceName: string,
     body: HostingWebRuntime
@@ -1151,42 +1195,45 @@ class HostingWebHandler {
   };
 
   /** Get the attached domains linked to this runtime configuration */
-  getWebServiceNameRuntimeIdAttachedDomains = (
+  getWebRuntimeAttachedDomainsByServiceNameAndId = (
     id: number,
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/runtime/${id}/attachedDomains`);
   };
 
   /** List available runtime configurations available backend types */
-  getWebServiceNameRuntimeAvailableTypes = (
+  listWebRuntimeAvailableTypesByServiceName = (
     serviceName: string
-  ): Promise<HostingWebRuntimeTypeEnum> => {
+  ): Promise<HostingWebRuntimeTypeEnum[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/runtimeAvailableTypes`);
   };
 
   /** Get this object properties */
-  getWebServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getWebServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putWebServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateWebServiceInfosByServiceName = (
+    serviceName: string,
+    body: ServicesService
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/hosting/web/${serviceName}/serviceInfos`, body);
   };
 
   /** Get hosted SSL properties */
-  getWebServiceNameSsl = (serviceName: string): Promise<HostingWebSSL> => {
+  getWebSslByServiceName = (serviceName: string): Promise<HostingWebSSL> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/ssl`);
   };
 
   /** Delete the HostedSsl on your hosting */
-  deleteWebServiceNameSsl = (serviceName: string): Promise<HostingWebSSL> => {
+  deleteWebSslByServiceName = (serviceName: string): Promise<HostingWebSSL> => {
     return this.ovh.request('DELETE', `/hosting/web/${serviceName}/ssl`);
   };
 
   /** Create the free default HostedSsl OR import your proper SSL on your hosting */
-  postWebServiceNameSsl = (
+  createWebSslByServiceName = (
     serviceName: string,
     body: { certificate?: string; chain?: string; key?: string }
   ): Promise<HostingWebSSL> => {
@@ -1194,52 +1241,54 @@ class HostingWebHandler {
   };
 
   /** Get list of domains linked to the hosted SSL */
-  getWebServiceNameSslDomains = (serviceName: string): Promise<string> => {
+  getWebSslDomainsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/ssl/domains`);
   };
 
   /** Request the regeneration of your HostedSsl */
-  postWebServiceNameSslRegenerate = (serviceName: string): Promise<HostingWebSSL> => {
+  postWebSslRegenerateByServiceName = (serviceName: string): Promise<HostingWebSSL> => {
     return this.ovh.request('POST', `/hosting/web/${serviceName}/ssl/regenerate`);
   };
 
   /** Get hosted SSL report properties */
-  getWebServiceNameSslReport = (serviceName: string): Promise<HostingWebSslReport> => {
+  getWebSslReportByServiceName = (serviceName: string): Promise<HostingWebSslReport> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/ssl/report`);
   };
 
   /** Get statistics about this web hosting */
-  getWebServiceNameStatistics = (serviceName: string): Promise<ComplexTypeChartTimestampValue> => {
+  getWebStatisticsByServiceName = (
+    serviceName: string
+  ): Promise<ComplexTypeChartTimestampValue> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/statistics`);
   };
 
   /** Tasks attached to your hosting */
-  getWebServiceNameTasks = (serviceName: string): Promise<number> => {
+  getWebTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/tasks`);
   };
 
   /** Get this object properties */
-  getWebServiceNameTasksId = (id: number, serviceName: string): Promise<HostingWebTask> => {
+  getWebTasksByServiceNameAndId = (id: number, serviceName: string): Promise<HostingWebTask> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/tasks/${id}`);
   };
 
   /** Terminate your service */
-  postWebServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postWebTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/hosting/web/${serviceName}/terminate`);
   };
 
   /** Use to link an external domain. ( This token has to be insert into a TXT field on your dns zone with ovhcontrol subdomain ) */
-  getWebServiceNameToken = (serviceName: string): Promise<string> => {
+  getWebTokenByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/token`);
   };
 
   /** User allowed to connect into your hosting */
-  getWebServiceNameUser = (serviceName: string): Promise<string> => {
+  getWebUserByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/user`);
   };
 
   /** Create new ftp/ssh user */
-  postWebServiceNameUser = (
+  createWebUserByServiceName = (
     serviceName: string,
     body: { home: string; login: string; password: string; sshState?: HostingWebUserSshStateEnum }
   ): Promise<HostingWebTask> => {
@@ -1247,17 +1296,23 @@ class HostingWebHandler {
   };
 
   /** Delete ftp/ssh user */
-  deleteWebServiceNameUserLogin = (login: string, serviceName: string): Promise<HostingWebTask> => {
+  deleteWebUserByServiceNameAndLogin = (
+    login: string,
+    serviceName: string
+  ): Promise<HostingWebTask> => {
     return this.ovh.request('DELETE', `/hosting/web/${serviceName}/user/${login}`);
   };
 
   /** Get this object properties */
-  getWebServiceNameUserLogin = (login: string, serviceName: string): Promise<HostingWebUser> => {
+  getWebUserByServiceNameAndLogin = (
+    login: string,
+    serviceName: string
+  ): Promise<HostingWebUser> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/user/${login}`);
   };
 
   /** Alter this object properties */
-  putWebServiceNameUserLogin = (
+  updateWebUserByServiceNameAndLogin = (
     login: string,
     serviceName: string,
     body: HostingWebUser
@@ -1266,7 +1321,7 @@ class HostingWebHandler {
   };
 
   /** Request a password change */
-  postWebServiceNameUserLoginChangePassword = (
+  postWebUserChangePasswordByServiceNameAndLogin = (
     login: string,
     serviceName: string,
     body: { password: string }
@@ -1279,12 +1334,12 @@ class HostingWebHandler {
   };
 
   /** User allowed to connect into your logs interface */
-  getWebServiceNameUserLogs = (serviceName: string): Promise<string> => {
+  getWebUserLogsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/userLogs`);
   };
 
   /** Create new userLogs */
-  postWebServiceNameUserLogs = (
+  createWebUserLogsByServiceName = (
     serviceName: string,
     body: { description: string; login: string; ownLogsId?: number; password: string }
   ): Promise<string> => {
@@ -1292,12 +1347,15 @@ class HostingWebHandler {
   };
 
   /** Delete the userLogs */
-  deleteWebServiceNameUserLogsLogin = (login: string, serviceName: string): Promise<string> => {
+  deleteWebUserLogsByServiceNameAndLogin = (
+    login: string,
+    serviceName: string
+  ): Promise<string> => {
     return this.ovh.request('DELETE', `/hosting/web/${serviceName}/userLogs/${login}`);
   };
 
   /** Get this object properties */
-  getWebServiceNameUserLogsLogin = (
+  getWebUserLogsByServiceNameAndLogin = (
     login: string,
     serviceName: string
   ): Promise<HostingWebUserLogs> => {
@@ -1305,7 +1363,7 @@ class HostingWebHandler {
   };
 
   /** Alter this object properties */
-  putWebServiceNameUserLogsLogin = (
+  updateWebUserLogsByServiceNameAndLogin = (
     login: string,
     serviceName: string,
     body: HostingWebUserLogs
@@ -1314,7 +1372,7 @@ class HostingWebHandler {
   };
 
   /** Request a password change */
-  postWebServiceNameUserLogsLoginChangePassword = (
+  postWebUserLogsChangePasswordByServiceNameAndLogin = (
     login: string,
     serviceName: string,
     body: { password: string }
@@ -1327,9 +1385,9 @@ class HostingWebHandler {
   };
 
   /** Get a temporary token to access the your web hosting logs interface */
-  getWebServiceNameUserLogsToken = (serviceName: string): Promise<string> => {
+  getWebUserLogsTokenByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('GET', `/hosting/web/${serviceName}/userLogsToken`);
   };
 }
 
-export default HostingWebHandler;
+export { HostingWebHandler };

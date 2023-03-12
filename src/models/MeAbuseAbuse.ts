@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { MeAbuseAbuseCategoryEnum } from './MeAbuseAbuseCategoryEnum';
 import { MeAbuseAbuseStatusEnum } from './MeAbuseAbuseStatusEnum';
+import { MeAbuseAbuseCategoryEnum } from './MeAbuseAbuseCategoryEnum';
 
 export type MeAbuseAbuse = {
   category: MeAbuseAbuseCategoryEnum;

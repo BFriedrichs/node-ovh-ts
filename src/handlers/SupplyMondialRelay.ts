@@ -22,4 +22,4 @@ class SupplyMondialRelayHandler {
   };
 }
 
-export default SupplyMondialRelayHandler;
+export { SupplyMondialRelayHandler };

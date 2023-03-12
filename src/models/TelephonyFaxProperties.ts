@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { TelephonyFaxSendingTries } from './TelephonyFaxSendingTries';
 import { TelephonyFaxQualityEnum } from './TelephonyFaxQualityEnum';
 import { TelephonyFaxMailFormatEnum } from './TelephonyFaxMailFormatEnum';
-import { TelephonyFaxSendingTries } from './TelephonyFaxSendingTries';
 
 export type TelephonyFaxProperties = {
   callNumber: string;
@@ -14,7 +14,7 @@ export type TelephonyFaxProperties = {
   fromName: string;
   mailFormat: TelephonyFaxMailFormatEnum;
   receiver: string;
-  redirectionEmail: string;
+  redirectionEmail: string[];
   rejectAnonymous: boolean;
   sender: string;
 };

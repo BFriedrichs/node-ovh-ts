@@ -4,5 +4,5 @@ import { OrderCatalogDedicatedTechDetailsPlanSpecificity } from './OrderCatalogD
 
 export type OrderCatalogDedicatedTechDetailsPlan = {
   code: string;
-  specificities: OrderCatalogDedicatedTechDetailsPlanSpecificity;
+  specificities: OrderCatalogDedicatedTechDetailsPlanSpecificity[];
 };

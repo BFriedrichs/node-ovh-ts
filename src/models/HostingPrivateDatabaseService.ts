@@ -1,15 +1,15 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { HostingPrivateDatabaseAvailableVersionEnum } from './HostingPrivateDatabaseAvailableVersionEnum';
-import { HostingPrivateDatabaseCapability } from './HostingPrivateDatabaseCapability';
-import { HostingPrivateDatabaseStateEnum } from './HostingPrivateDatabaseStateEnum';
-import { HostingPrivateDatabaseDatacenterEnum } from './HostingPrivateDatabaseDatacenterEnum';
-import { HostingPrivateDatabaseOfferEnum } from './HostingPrivateDatabaseOfferEnum';
-import { HostingPrivateDatabaseGraphEndpoint } from './HostingPrivateDatabaseGraphEndpoint';
 import { HostingPrivateDatabaseTypeEnum } from './HostingPrivateDatabaseTypeEnum';
+import { HostingPrivateDatabaseGraphEndpoint } from './HostingPrivateDatabaseGraphEndpoint';
+import { HostingPrivateDatabaseCapability } from './HostingPrivateDatabaseCapability';
+import { HostingPrivateDatabaseDatacenterEnum } from './HostingPrivateDatabaseDatacenterEnum';
+import { HostingPrivateDatabaseStateEnum } from './HostingPrivateDatabaseStateEnum';
+import { HostingPrivateDatabaseOfferEnum } from './HostingPrivateDatabaseOfferEnum';
 
 export type HostingPrivateDatabaseService = {
-  capabilities: HostingPrivateDatabaseCapability;
+  capabilities: HostingPrivateDatabaseCapability[];
   cpu: number;
   datacenter: HostingPrivateDatabaseDatacenterEnum;
   displayName: string | null;

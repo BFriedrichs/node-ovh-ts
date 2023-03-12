@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyDiagnosticReportCategoryEnum } from './TelephonyDiagnosticReportCategoryEnum';
 import { TelephonyDiagnosticReportLevelEnum } from './TelephonyDiagnosticReportLevelEnum';
+import { TelephonyDiagnosticReportCategoryEnum } from './TelephonyDiagnosticReportCategoryEnum';
 
 export type TelephonyDiagnosticReport = {
   callId: string;

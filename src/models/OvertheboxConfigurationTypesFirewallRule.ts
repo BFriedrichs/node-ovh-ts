@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { OvertheboxConfigurationFirewallProtocolEnum } from './OvertheboxConfigurationFirewallProtocolEnum';
-import { OvertheboxConfigurationFirewallRuleTargetEnum } from './OvertheboxConfigurationFirewallRuleTargetEnum';
 import { OvertheboxConfigurationFirewallRuleFamilyEnum } from './OvertheboxConfigurationFirewallRuleFamilyEnum';
+import { OvertheboxConfigurationFirewallRuleTargetEnum } from './OvertheboxConfigurationFirewallRuleTargetEnum';
 
 export type OvertheboxConfigurationTypesFirewallRule = {
   destinationIp: string | null;

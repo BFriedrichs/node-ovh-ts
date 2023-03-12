@@ -5,7 +5,7 @@ import { MeIncidentPercentagePromotion } from './MeIncidentPercentagePromotion';
 import { OrderCartGenericProductDefinition } from './OrderCartGenericProductDefinition';
 
 export type MeIncidentProposedOffer = {
-  configurations: MeIncidentProposedOfferConfiguration;
+  configurations: MeIncidentProposedOfferConfiguration[];
   plan: OrderCartGenericProductDefinition;
   pricingMode: string;
   promotion: MeIncidentPercentagePromotion;

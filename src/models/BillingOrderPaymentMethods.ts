@@ -4,7 +4,7 @@ import { PaymentMethodAvailablePaymentMethod } from './PaymentMethodAvailablePay
 import { PaymentMethodPaymentMethod } from './PaymentMethodPaymentMethod';
 
 export type BillingOrderPaymentMethods = {
-  available: PaymentMethodAvailablePaymentMethod;
-  paymentMethods: PaymentMethodPaymentMethod;
-  registered: number;
+  available: PaymentMethodAvailablePaymentMethod[];
+  paymentMethods: PaymentMethodPaymentMethod[];
+  registered: number[];
 };

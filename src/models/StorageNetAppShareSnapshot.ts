@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { StorageNetAppSnapshotStatusEnum } from './StorageNetAppSnapshotStatusEnum';
 import { StorageNetAppSnapshotTypeEnum } from './StorageNetAppSnapshotTypeEnum';
+import { StorageNetAppSnapshotStatusEnum } from './StorageNetAppSnapshotStatusEnum';
 
 export type StorageNetAppShareSnapshot = {
   createdAt: Date | null;

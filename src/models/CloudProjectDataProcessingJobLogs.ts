@@ -3,7 +3,7 @@
 import { CloudProjectDataProcessingLogLine } from './CloudProjectDataProcessingLogLine';
 
 export type CloudProjectDataProcessingJobLogs = {
-  logs: CloudProjectDataProcessingLogLine;
+  logs: CloudProjectDataProcessingLogLine[];
   logsAddress: string | null;
   startDate: Date;
 };

@@ -2,4 +2,4 @@
 
 import { LicenseOfficeStatisticsLine } from './LicenseOfficeStatisticsLine';
 
-export type LicenseOfficeStatistics = { date: Date; lines: LicenseOfficeStatisticsLine };
+export type LicenseOfficeStatistics = { date: Date; lines: LicenseOfficeStatisticsLine[] };

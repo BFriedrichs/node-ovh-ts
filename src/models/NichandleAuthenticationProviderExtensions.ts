@@ -3,5 +3,5 @@
 import { NichandleAuthenticationRequestedAttribute } from './NichandleAuthenticationRequestedAttribute';
 
 export type NichandleAuthenticationProviderExtensions = {
-  requestedAttributes: NichandleAuthenticationRequestedAttribute | null;
+  requestedAttributes: NichandleAuthenticationRequestedAttribute[] | null;
 };

@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { CloudAuthenticationTokenProject } from './CloudAuthenticationTokenProject';
+import { CloudAuthenticationCatalog } from './CloudAuthenticationCatalog';
 import { CloudAuthenticationUserToken } from './CloudAuthenticationUserToken';
 import { CloudAuthenticationRole } from './CloudAuthenticationRole';
-import { CloudAuthenticationCatalog } from './CloudAuthenticationCatalog';
-import { CloudAuthenticationTokenProject } from './CloudAuthenticationTokenProject';
 
 export type CloudAuthenticationOpenstackToken = {
-  catalog: CloudAuthenticationCatalog;
+  catalog: CloudAuthenticationCatalog[];
   expires_at: Date;
   issued_at: Date;
-  methods: string;
+  methods: string[];
   project: CloudAuthenticationTokenProject;
-  roles: CloudAuthenticationRole;
+  roles: CloudAuthenticationRole[];
   user: CloudAuthenticationUserToken;
 };

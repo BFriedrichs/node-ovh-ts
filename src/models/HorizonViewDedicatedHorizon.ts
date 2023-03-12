@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { HorizonViewStateEnum } from './HorizonViewStateEnum';
 import { HorizonViewZone } from './HorizonViewZone';
+import { HorizonViewStateEnum } from './HorizonViewStateEnum';
 
 export type HorizonViewDedicatedHorizon = {
   masterZone: HorizonViewZone;

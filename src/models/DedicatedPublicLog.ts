@@ -5,5 +5,5 @@ import { DedicatedPublicLogEntry } from './DedicatedPublicLogEntry';
 export type DedicatedPublicLog = {
   cacheDate: Date | null;
   count: number;
-  data: DedicatedPublicLogEntry;
+  data: DedicatedPublicLogEntry[];
 };

@@ -3,6 +3,6 @@
 import { ServicesBillingEngagementEndStrategyEnum } from './ServicesBillingEngagementEndStrategyEnum';
 
 export type ServicesBillingEngagementEndRule = {
-  possibleStrategies: ServicesBillingEngagementEndStrategyEnum;
+  possibleStrategies: ServicesBillingEngagementEndStrategyEnum[];
   strategy: ServicesBillingEngagementEndStrategyEnum;
 };

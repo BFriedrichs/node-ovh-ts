@@ -6,6 +6,6 @@ import { OrderPrice } from './OrderPrice';
 export type MeCreditBalanceBalanceDetails = {
   amount: OrderPrice;
   balanceSubName: string | null;
-  expiring: MeCreditBalanceExpiringMovement;
+  expiring: MeCreditBalanceExpiringMovement[];
   serviceId: number | null;
 };

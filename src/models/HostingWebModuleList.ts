@@ -10,12 +10,12 @@ export type HostingWebModuleList = {
   author: string;
   branch: HostingWebModuleBranchEnum;
   id: number;
-  keywords: string;
-  language: HostingWebModuleLanguageEnum;
+  keywords: string[];
+  language: HostingWebModuleLanguageEnum[];
   languageRequirement: string;
   latest: boolean;
   name: string;
   size: number;
-  upgradeFrom: number;
+  upgradeFrom: number[];
   version: string;
 };

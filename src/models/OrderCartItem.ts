@@ -1,17 +1,17 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderCartDomainSettings } from './OrderCartDomainSettings';
 import { OrderCartPrice } from './OrderCartPrice';
+import { OrderCartDomainSettings } from './OrderCartDomainSettings';
 
 export type OrderCartItem = {
   cartId: string;
-  configurations: number | null;
+  configurations: number[] | null;
   duration: number | null;
   itemId: number;
   offerId: string;
-  options: number;
+  options: number[];
   parentItemId: number | null;
-  prices: OrderCartPrice;
+  prices: OrderCartPrice[];
   productId: string;
   settings: OrderCartDomainSettings;
 };

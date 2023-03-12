@@ -1,15 +1,15 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectAiVolumeVolume } from './CloudProjectAiVolumeVolume';
-import { CloudProjectAiJobJobEnv } from './CloudProjectAiJobJobEnv';
-import { CloudProjectAiShutdownStrategyEnum } from './CloudProjectAiShutdownStrategyEnum';
 import { CloudProjectAiResources } from './CloudProjectAiResources';
+import { CloudProjectAiVolumeVolume } from './CloudProjectAiVolumeVolume';
+import { CloudProjectAiShutdownStrategyEnum } from './CloudProjectAiShutdownStrategyEnum';
+import { CloudProjectAiJobJobEnv } from './CloudProjectAiJobJobEnv';
 
 export type CloudProjectAiJobJobSpec = {
-  command: string | null;
+  command: string[] | null;
   defaultHttpPort: number | null;
-  env: CloudProjectAiJobJobEnv | null;
-  envVars: CloudProjectAiJobJobEnv | null;
+  env: CloudProjectAiJobJobEnv[] | null;
+  envVars: CloudProjectAiJobJobEnv[] | null;
   image: string;
   labels: Record<string, string> | null;
   name: string;
@@ -18,8 +18,8 @@ export type CloudProjectAiJobJobSpec = {
   region: string;
   resources: CloudProjectAiResources;
   shutdown: CloudProjectAiShutdownStrategyEnum | null;
-  sshPublicKeys: string | null;
+  sshPublicKeys: string[] | null;
   timeout: number | null;
   unsecureHttp: boolean | null;
-  volumes: CloudProjectAiVolumeVolume | null;
+  volumes: CloudProjectAiVolumeVolume[] | null;
 };

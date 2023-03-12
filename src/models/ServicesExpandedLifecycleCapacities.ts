@@ -2,4 +2,6 @@
 
 import { ServicesExpandedLifecycleActionEnum } from './ServicesExpandedLifecycleActionEnum';
 
-export type ServicesExpandedLifecycleCapacities = { actions: ServicesExpandedLifecycleActionEnum };
+export type ServicesExpandedLifecycleCapacities = {
+  actions: ServicesExpandedLifecycleActionEnum[];
+};

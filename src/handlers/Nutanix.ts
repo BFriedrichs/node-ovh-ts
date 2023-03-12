@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesService } from '../models/ServicesService';
-import { NutanixRedundancyFactorEnum } from '../models/NutanixRedundancyFactorEnum';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { NutanixRequirements } from '../models/NutanixRequirements';
-import { NutanixCluster } from '../models/NutanixCluster';
-import { NutanixAvailability } from '../models/NutanixAvailability';
 import { NutanixState } from '../models/NutanixState';
+import { NutanixCluster } from '../models/NutanixCluster';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { NutanixRequirements } from '../models/NutanixRequirements';
+import { NutanixAvailability } from '../models/NutanixAvailability';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { NutanixRedundancyFactorEnum } from '../models/NutanixRedundancyFactorEnum';
+import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class NutanixHandler {
@@ -18,17 +18,17 @@ class NutanixHandler {
   }
 
   /** Get list of owned Nutanix Clusters */
-  get = (): Promise<string> => {
+  get = (): Promise<string[]> => {
     return this.ovh.request('GET', '/nutanix');
   };
 
   /** Fetch the availabilities for a given cluster configuration */
-  getAvailabilities = (): Promise<NutanixAvailability> => {
+  getAvailabilities = (): Promise<NutanixAvailability[]> => {
     return this.ovh.request('GET', '/nutanix/availabilities');
   };
 
   /** Fetch the available Nutanix versions to install */
-  getAvailableVersions = (): Promise<string> => {
+  getAvailableVersions = (): Promise<string[]> => {
     return this.ovh.request('GET', '/nutanix/availableVersions');
   };
 
@@ -38,25 +38,25 @@ class NutanixHandler {
   };
 
   /** Get nutanix cluster info */
-  getServiceName = (serviceName: string): Promise<NutanixState> => {
+  getByServiceName = (serviceName: string): Promise<NutanixState> => {
     return this.ovh.request('GET', `/nutanix/${serviceName}`);
   };
 
   /** Update nutanix cluster info */
-  putServiceName = (serviceName: string, body: NutanixCluster): Promise<NutanixState> => {
+  updateByServiceName = (serviceName: string, body: NutanixCluster): Promise<NutanixState> => {
     return this.ovh.request('PUT', `/nutanix/${serviceName}`, body);
   };
 
   /** Launch a contact change procedure */
-  postServiceNameChangeContact = (
+  launchChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/nutanix/${serviceName}/changeContact`, body);
   };
 
   /** Confirm termination of your service */
-  postServiceNameConfirmTermination = (
+  confirmTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -69,19 +69,19 @@ class NutanixHandler {
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/nutanix/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/nutanix/${serviceName}/serviceInfos`, body);
   };
 
   /** Terminate your service */
-  postServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/nutanix/${serviceName}/terminate`);
   };
 }
 
-export default NutanixHandler;
+export { NutanixHandler };

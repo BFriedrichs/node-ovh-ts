@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
-import { ServicesService } from '../models/ServicesService';
-import { LicenseCpanelCpanel } from '../models/LicenseCpanelCpanel';
-import { LicenseActionType } from '../models/LicenseActionType';
 import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { LicenseTask } from '../models/LicenseTask';
+import { LicenseCpanelCpanel } from '../models/LicenseCpanelCpanel';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { LicenseCpanelOrderConfiguration } from '../models/LicenseCpanelOrderConfiguration';
+import { LicenseTask } from '../models/LicenseTask';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
+import { LicenseActionType } from '../models/LicenseActionType';
+import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class LicenseCpanelHandler {
@@ -19,39 +19,39 @@ class LicenseCpanelHandler {
   }
 
   /** List available services */
-  getCpanel = (): Promise<string> => {
+  listCpanels = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/cpanel');
   };
 
   /** Get the orderable CPanel versions */
-  getCpanelOrderableVersions = (): Promise<LicenseCpanelOrderConfiguration> => {
+  getCpanelOrderableVersions = (): Promise<LicenseCpanelOrderConfiguration[]> => {
     return this.ovh.request('GET', '/license/cpanel/orderableVersions');
   };
 
   /** Get this object properties */
-  getCpanelServiceName = (serviceName: string): Promise<LicenseCpanelCpanel> => {
+  getCpanelByServiceName = (serviceName: string): Promise<LicenseCpanelCpanel> => {
     return this.ovh.request('GET', `/license/cpanel/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putCpanelServiceName = (serviceName: string, body: LicenseCpanelCpanel): Promise<void> => {
+  updateCpanelByServiceName = (serviceName: string, body: LicenseCpanelCpanel): Promise<void> => {
     return this.ovh.request('PUT', `/license/cpanel/${serviceName}`, body);
   };
 
   /** Returns an array of ips where the license can be moved to */
-  getCpanelServiceNameAllowedDestinationIp = (serviceName: string): Promise<string> => {
+  getCpanelAllowedDestinationIpByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/license/cpanel/${serviceName}/allowedDestinationIp`);
   };
 
   /** Will tell if the ip can accept the license */
-  getCpanelServiceNameCanLicenseBeMovedTo = (
+  getCpanelCanLicenseBeMovedToByServiceName = (
     serviceName: string
   ): Promise<LicenseChangeIpStatus> => {
     return this.ovh.request('GET', `/license/cpanel/${serviceName}/canLicenseBeMovedTo`);
   };
 
   /** Move this license to another Ip */
-  postCpanelServiceNameChangeIp = (
+  postCpanelChangeIpByServiceName = (
     serviceName: string,
     body: { destinationIp: string }
   ): Promise<LicenseTask> => {
@@ -59,7 +59,7 @@ class LicenseCpanelHandler {
   };
 
   /** Confirm termination of your service */
-  postCpanelServiceNameConfirmTermination = (
+  confirmCpanelTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -72,12 +72,12 @@ class LicenseCpanelHandler {
   };
 
   /** Get this object properties */
-  getCpanelServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getCpanelServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/license/cpanel/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putCpanelServiceNameServiceInfos = (
+  updateCpanelServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -85,19 +85,22 @@ class LicenseCpanelHandler {
   };
 
   /** tasks linked to this license */
-  getCpanelServiceNameTasks = (serviceName: string): Promise<number> => {
+  getCpanelTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/license/cpanel/${serviceName}/tasks`);
   };
 
   /** Get this object properties */
-  getCpanelServiceNameTasksTaskId = (serviceName: string, taskId: number): Promise<LicenseTask> => {
+  getCpanelTasksByServiceNameAndTaskId = (
+    serviceName: string,
+    taskId: number
+  ): Promise<LicenseTask> => {
     return this.ovh.request('GET', `/license/cpanel/${serviceName}/tasks/${taskId}`);
   };
 
   /** Terminate your service */
-  postCpanelServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postCpanelTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/license/cpanel/${serviceName}/terminate`);
   };
 }
 
-export default LicenseCpanelHandler;
+export { LicenseCpanelHandler };

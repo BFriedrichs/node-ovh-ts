@@ -3,6 +3,6 @@
 export type IpLoadbalancingRouteAvailableAction = {
   destination: string | null;
   name: string;
-  status: number | null;
+  status: number[] | null;
   type: string;
 };

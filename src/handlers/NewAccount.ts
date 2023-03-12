@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { NichandleCreationRulesActionEnum } from '../models/NichandleCreationRulesActionEnum';
-import { NichandleLanguageEnum } from '../models/NichandleLanguageEnum';
-import { NichandleCreationRules } from '../models/NichandleCreationRules';
-import { OrderContract } from '../models/OrderContract';
-import { NichandleNewAccountAndToken } from '../models/NichandleNewAccountAndToken';
-import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
-import { NichandleCreationRule } from '../models/NichandleCreationRule';
+import { NichandleCountryEnum } from '../models/NichandleCountryEnum';
 import { NichandleLegalFormEnum } from '../models/NichandleLegalFormEnum';
 import { NichandleGenderEnum } from '../models/NichandleGenderEnum';
+import { NichandleLanguageEnum } from '../models/NichandleLanguageEnum';
+import { OrderContract } from '../models/OrderContract';
+import { NichandleCreationRules } from '../models/NichandleCreationRules';
 import { NichandleOvhCompanyEnum } from '../models/NichandleOvhCompanyEnum';
-import { NichandleCountryEnum } from '../models/NichandleCountryEnum';
+import { NichandleCreationRule } from '../models/NichandleCreationRule';
+import { NichandleNewAccountAndToken } from '../models/NichandleNewAccountAndToken';
+import { NichandleOvhSubsidiaryEnum } from '../models/NichandleOvhSubsidiaryEnum';
+import { NichandleCreationRulesActionEnum } from '../models/NichandleCreationRulesActionEnum';
 import OVHBase from '../ovh';
 
 class NewAccountHandler {
@@ -21,7 +21,7 @@ class NewAccountHandler {
   }
 
   /** Create a new OVH identifier */
-  post = (body: {
+  create = (body: {
     address?: string;
     area?: string;
     birthCity?: string;
@@ -52,22 +52,22 @@ class NewAccountHandler {
   };
 
   /** All available areas for a given country */
-  getArea = (): Promise<string> => {
+  getArea = (): Promise<string[]> => {
     return this.ovh.request('GET', '/newAccount/area');
   };
 
   /** Returns the contracts that governs the creation of an OVH identifier */
-  getContracts = (): Promise<OrderContract> => {
+  getContracts = (): Promise<OrderContract[]> => {
     return this.ovh.request('GET', '/newAccount/contracts');
   };
 
   /** All available corporation types for a given country */
-  getCorporationType = (): Promise<string> => {
+  getCorporationType = (): Promise<string[]> => {
     return this.ovh.request('GET', '/newAccount/corporationType');
   };
 
   /** All available countries for an ovh company and an ovh subsidiary */
-  getCountries = (): Promise<NichandleCountryEnum> => {
+  getCountries = (): Promise<NichandleCountryEnum[]> => {
     return this.ovh.request('GET', '/newAccount/countries');
   };
 
@@ -77,7 +77,7 @@ class NewAccountHandler {
   };
 
   /** All available legal forms for a given country */
-  getLegalform = (): Promise<string> => {
+  getLegalform = (): Promise<string[]> => {
     return this.ovh.request('GET', '/newAccount/legalform');
   };
 
@@ -109,9 +109,9 @@ class NewAccountHandler {
     spareEmail?: string;
     vat?: string;
     zip?: string;
-  }): Promise<NichandleCreationRule> => {
+  }): Promise<NichandleCreationRule[]> => {
     return this.ovh.request('POST', '/newAccount/rules', body);
   };
 }
 
-export default NewAccountHandler;
+export { NewAccountHandler };

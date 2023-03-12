@@ -6,7 +6,7 @@ export type CloudBackup = {
   backupName: string;
   createdAt: Date;
   cron: string;
-  executions: CloudExecution | null;
+  executions: CloudExecution[] | null;
   id: string;
   instanceId: string;
   name: string;

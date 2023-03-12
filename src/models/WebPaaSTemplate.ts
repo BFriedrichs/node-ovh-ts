@@ -2,7 +2,7 @@
 
 export type WebPaaSTemplate = {
   description: string;
-  features: string;
+  features: string[];
   image: string;
   name: string;
   template: string;

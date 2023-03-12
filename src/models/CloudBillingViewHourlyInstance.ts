@@ -4,7 +4,7 @@ import { CloudBillingViewHourlyInstanceDetail } from './CloudBillingViewHourlyIn
 import { CloudBillingViewQuantity } from './CloudBillingViewQuantity';
 
 export type CloudBillingViewHourlyInstance = {
-  details: CloudBillingViewHourlyInstanceDetail;
+  details: CloudBillingViewHourlyInstanceDetail[];
   quantity: CloudBillingViewQuantity;
   reference: string;
   region: string;

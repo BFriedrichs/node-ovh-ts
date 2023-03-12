@@ -11,6 +11,6 @@ export type CloudProjectDatabaseServiceReplication = {
   syncGroupOffsets: boolean;
   syncInterval: number;
   targetIntegration: string;
-  topicExcludeList: string;
-  topics: string;
+  topicExcludeList: string[];
+  topics: string[];
 };

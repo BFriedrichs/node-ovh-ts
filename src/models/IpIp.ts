@@ -2,8 +2,8 @@
 
 import { IpRoutedTo } from './IpRoutedTo';
 import { CoreTypesCountryEnum } from './CoreTypesCountryEnum';
-import { IpIpTypeEnum } from './IpIpTypeEnum';
 import { IpIpVersionEnum } from './IpIpVersionEnum';
+import { IpIpTypeEnum } from './IpIpTypeEnum';
 
 export type IpIp = {
   bringYourOwnIp: boolean;

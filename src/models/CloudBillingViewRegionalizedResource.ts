@@ -3,6 +3,6 @@
 import { CloudBillingViewComponent } from './CloudBillingViewComponent';
 
 export type CloudBillingViewRegionalizedResource = {
-  components: CloudBillingViewComponent;
+  components: CloudBillingViewComponent[];
   region: string;
 };

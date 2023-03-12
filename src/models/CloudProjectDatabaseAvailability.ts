@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { CloudProjectDatabaseAvailabilityStatusEnum } from './CloudProjectDatabaseAvailabilityStatusEnum';
 import { CloudProjectDatabaseBackupTypeEnum } from './CloudProjectDatabaseBackupTypeEnum';
 import { CloudProjectDatabaseNetworkTypeEnum } from './CloudProjectDatabaseNetworkTypeEnum';
-import { CloudProjectDatabaseAvailabilityStatusEnum } from './CloudProjectDatabaseAvailabilityStatusEnum';
 
 export type CloudProjectDatabaseAvailability = {
   backup: CloudProjectDatabaseBackupTypeEnum;

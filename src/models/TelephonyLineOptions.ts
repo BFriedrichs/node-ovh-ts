@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { TelephonyLineOptionLanguageEnum } from './TelephonyLineOptionLanguageEnum';
 import { TelephonyLineOptionForwardNatureTypeEnum } from './TelephonyLineOptionForwardNatureTypeEnum';
+import { TelephonyLineOptionLanguageEnum } from './TelephonyLineOptionLanguageEnum';
 import { TelephonyLineOptionIntercomEnum } from './TelephonyLineOptionIntercomEnum';
 
 export type TelephonyLineOptions = {
@@ -30,7 +30,7 @@ export type TelephonyLineOptions = {
   forwardUnconditionalNumber: string;
   identificationRestriction: boolean;
   intercom: TelephonyLineOptionIntercomEnum;
-  ipRestrictions: string;
+  ipRestrictions: string[];
   language: TelephonyLineOptionLanguageEnum;
   lockOutCall: boolean;
   lockOutCallPassword: string | null;

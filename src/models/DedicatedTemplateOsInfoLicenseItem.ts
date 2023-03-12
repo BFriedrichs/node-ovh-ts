@@ -3,6 +3,6 @@
 import { DedicatedTemplateOsInfoLicenseItemEnum } from './DedicatedTemplateOsInfoLicenseItemEnum';
 
 export type DedicatedTemplateOsInfoLicenseItem = {
-  name: DedicatedTemplateOsInfoLicenseItemEnum | null;
+  name: DedicatedTemplateOsInfoLicenseItemEnum[] | null;
   url: string | null;
 };

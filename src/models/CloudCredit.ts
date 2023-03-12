@@ -8,7 +8,7 @@ export type CloudCredit = {
   bill: string | null;
   description: string | null;
   id: number;
-  products: string | null;
+  products: string[] | null;
   total_credit: OrderPrice;
   used_credit: OrderPrice;
   validity: CloudCommonVoucherValidity | null;

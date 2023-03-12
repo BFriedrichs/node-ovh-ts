@@ -1,31 +1,31 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OverTheBoxAvailableMigrationOffer } from '../models/OverTheBoxAvailableMigrationOffer';
-import { OverTheBoxRemoteAccess } from '../models/OverTheBoxRemoteAccess';
-import { PriceOverTheBoxOfferEnum } from '../models/PriceOverTheBoxOfferEnum';
-import { OverTheBoxService } from '../models/OverTheBoxService';
-import { OvertheboxConfigurationDnsNameserver } from '../models/OvertheboxConfigurationDnsNameserver';
-import { OverTheBoxBackup } from '../models/OverTheBoxBackup';
 import { OtbDeviceStatisticsPeriodEnum } from '../models/OtbDeviceStatisticsPeriodEnum';
-import { OverTheBoxAvailableDeviceAction } from '../models/OverTheBoxAvailableDeviceAction';
-import { OverTheBoxTask } from '../models/OverTheBoxTask';
-import { OverTheBoxTaskStatusEnum } from '../models/OverTheBoxTaskStatusEnum';
-import { OverTheBoxDevice } from '../models/OverTheBoxDevice';
-import { OtbDeviceStatistics } from '../models/OtbDeviceStatistics';
-import { OvertheboxConfigurationNetworkInterface } from '../models/OvertheboxConfigurationNetworkInterface';
 import { OverTheBoxHardware } from '../models/OverTheBoxHardware';
-import { OvertheboxConfigurationDnsLocalDomain } from '../models/OvertheboxConfigurationDnsLocalDomain';
+import { OverTheBoxService } from '../models/OverTheBoxService';
+import { OverTheBoxRemoteAccess } from '../models/OverTheBoxRemoteAccess';
+import { OverTheBoxDeviceForRegistration } from '../models/OverTheBoxDeviceForRegistration';
+import { OverTheBoxAvailableStatusEnum } from '../models/OverTheBoxAvailableStatusEnum';
+import { OverTheBoxTemporaryLogsLink } from '../models/OverTheBoxTemporaryLogsLink';
+import { OverTheBoxDevice } from '../models/OverTheBoxDevice';
+import { OvertheboxConfigurationDnsNameserver } from '../models/OvertheboxConfigurationDnsNameserver';
 import { OvertheboxConfigurationFirewallRedirect } from '../models/OvertheboxConfigurationFirewallRedirect';
 import { OverTheBoxDeviceAction } from '../models/OverTheBoxDeviceAction';
-import { ServicesService } from '../models/ServicesService';
 import { OverTheBoxActionStatusEnum } from '../models/OverTheBoxActionStatusEnum';
-import { OvertheboxConfigurationFirewallRule } from '../models/OvertheboxConfigurationFirewallRule';
-import { OvertheboxConfigurationDhcpStaticLease } from '../models/OvertheboxConfigurationDhcpStaticLease';
-import { OvertheboxConfigurationDhcpConfig } from '../models/OvertheboxConfigurationDhcpConfig';
+import { OverTheBoxBackup } from '../models/OverTheBoxBackup';
+import { OverTheBoxTask } from '../models/OverTheBoxTask';
+import { OvertheboxConfigurationDnsLocalDomain } from '../models/OvertheboxConfigurationDnsLocalDomain';
+import { OverTheBoxAvailableMigrationOffer } from '../models/OverTheBoxAvailableMigrationOffer';
+import { OtbDeviceStatistics } from '../models/OtbDeviceStatistics';
+import { OverTheBoxAvailableDeviceAction } from '../models/OverTheBoxAvailableDeviceAction';
+import { OvertheboxConfigurationNetworkInterface } from '../models/OvertheboxConfigurationNetworkInterface';
+import { ServicesService } from '../models/ServicesService';
 import { OtbDeviceStatisticsTypeEnum } from '../models/OtbDeviceStatisticsTypeEnum';
-import { OverTheBoxDeviceForRegistration } from '../models/OverTheBoxDeviceForRegistration';
-import { OverTheBoxTemporaryLogsLink } from '../models/OverTheBoxTemporaryLogsLink';
-import { OverTheBoxAvailableStatusEnum } from '../models/OverTheBoxAvailableStatusEnum';
+import { PriceOverTheBoxOfferEnum } from '../models/PriceOverTheBoxOfferEnum';
+import { OvertheboxConfigurationDhcpStaticLease } from '../models/OvertheboxConfigurationDhcpStaticLease';
+import { OverTheBoxTaskStatusEnum } from '../models/OverTheBoxTaskStatusEnum';
+import { OvertheboxConfigurationDhcpConfig } from '../models/OvertheboxConfigurationDhcpConfig';
+import { OvertheboxConfigurationFirewallRule } from '../models/OvertheboxConfigurationFirewallRule';
 import OVHBase from '../ovh';
 
 class OverTheBoxHandler {
@@ -36,52 +36,52 @@ class OverTheBoxHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/overTheBox');
   };
 
   /** List the available offers for the new call */
-  getAvailableOffers = (): Promise<PriceOverTheBoxOfferEnum> => {
+  listAvailableOffers = (): Promise<PriceOverTheBoxOfferEnum[]> => {
     return this.ovh.request('GET', '/overTheBox/availableOffers');
   };
 
   /** Get the list of devices connected from the same IP address */
-  postDevices = (): Promise<OverTheBoxDeviceForRegistration> => {
+  postDevices = (): Promise<OverTheBoxDeviceForRegistration[]> => {
     return this.ovh.request('POST', '/overTheBox/devices');
   };
 
   /** List available services */
-  getHardware = (): Promise<string> => {
+  listHardwares = (): Promise<string[]> => {
     return this.ovh.request('GET', '/overTheBox/hardware');
   };
 
   /** List hardware that can be linked to a service */
-  getHardwareAvailable = (): Promise<string> => {
+  listHardwareAvailables = (): Promise<string[]> => {
     return this.ovh.request('GET', '/overTheBox/hardware/available');
   };
 
   /** Get this object properties */
-  getHardwareHardwareName = (hardwareName: string): Promise<OverTheBoxHardware> => {
+  getHardwareByHardwareName = (hardwareName: string): Promise<OverTheBoxHardware> => {
     return this.ovh.request('GET', `/overTheBox/hardware/${hardwareName}`);
   };
 
   /** Resiliate a service */
-  deleteServiceName = (serviceName: string): Promise<void> => {
+  deleteByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/overTheBox/${serviceName}`);
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<OverTheBoxService> => {
+  getByServiceName = (serviceName: string): Promise<OverTheBoxService> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putServiceName = (serviceName: string, body: OverTheBoxService): Promise<void> => {
+  updateByServiceName = (serviceName: string, body: OverTheBoxService): Promise<void> => {
     return this.ovh.request('PUT', `/overTheBox/${serviceName}`, body);
   };
 
   /** Change the value of autoMTU */
-  putServiceNameAutoMTU = (
+  updateAutoMTUByServiceName = (
     serviceName: string,
     body: { mtuAuto: OverTheBoxAvailableStatusEnum }
   ): Promise<void> => {
@@ -89,22 +89,25 @@ class OverTheBoxHandler {
   };
 
   /** List available release channels for this service */
-  getServiceNameAvailableReleaseChannels = (serviceName: string): Promise<string> => {
+  listAvailableReleaseChannelsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/availableReleaseChannels`);
   };
 
   /** List of backups for this service */
-  getServiceNameBackups = (serviceName: string): Promise<string> => {
+  listBackupsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/backups`);
   };
 
   /** Delete a backup */
-  deleteServiceNameBackupsBackupId = (backupId: string, serviceName: string): Promise<void> => {
+  deleteBackupsByServiceNameAndBackupId = (
+    backupId: string,
+    serviceName: string
+  ): Promise<void> => {
     return this.ovh.request('DELETE', `/overTheBox/${serviceName}/backups/${backupId}`);
   };
 
   /** Get this object properties */
-  getServiceNameBackupsBackupId = (
+  getBackupsByServiceNameAndBackupId = (
     backupId: string,
     serviceName: string
   ): Promise<OverTheBoxBackup> => {
@@ -112,27 +115,27 @@ class OverTheBoxHandler {
   };
 
   /** Cancel the resiliation of the Service */
-  postServiceNameCancelResiliation = (serviceName: string): Promise<void> => {
+  postCancelResiliationByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('POST', `/overTheBox/${serviceName}/cancelResiliation`);
   };
 
   /** Launch a contact change procedure */
-  postServiceNameChangeContact = (
+  launchChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/overTheBox/${serviceName}/changeContact`, body);
   };
 
   /** Return the list of DHCP configurations */
-  getServiceNameConfigurationDhcpConfig = (
+  getConfigurationDhcpConfigByServiceName = (
     serviceName: string
-  ): Promise<OvertheboxConfigurationDhcpConfig> => {
+  ): Promise<OvertheboxConfigurationDhcpConfig[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/configuration/dhcp/config`);
   };
 
   /** Create a DHCP configuration */
-  postServiceNameConfigurationDhcpConfig = (
+  createConfigurationDhcpConfigByServiceName = (
     serviceName: string,
     body: OvertheboxConfigurationDhcpConfig
   ): Promise<OvertheboxConfigurationDhcpConfig> => {
@@ -140,12 +143,15 @@ class OverTheBoxHandler {
   };
 
   /** Delete a DHCP configuration */
-  deleteServiceNameConfigurationDhcpConfigId = (serviceName: string, id: string): Promise<void> => {
+  deleteConfigurationDhcpConfigByServiceNameAndId = (
+    serviceName: string,
+    id: string
+  ): Promise<void> => {
     return this.ovh.request('DELETE', `/overTheBox/${serviceName}/configuration/dhcp/config/${id}`);
   };
 
   /** Return the specified DHCP configuration */
-  getServiceNameConfigurationDhcpConfigId = (
+  getConfigurationDhcpConfigByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<OvertheboxConfigurationDhcpConfig> => {
@@ -153,7 +159,7 @@ class OverTheBoxHandler {
   };
 
   /** Update a DHCP configuration */
-  putServiceNameConfigurationDhcpConfigId = (
+  updateConfigurationDhcpConfigByServiceNameAndId = (
     serviceName: string,
     id: string,
     body: OvertheboxConfigurationDhcpConfig
@@ -166,14 +172,14 @@ class OverTheBoxHandler {
   };
 
   /** Return the list of DHCP static leases */
-  getServiceNameConfigurationDhcpStaticLease = (
+  getConfigurationDhcpStaticLeaseByServiceName = (
     serviceName: string
-  ): Promise<OvertheboxConfigurationDhcpStaticLease> => {
+  ): Promise<OvertheboxConfigurationDhcpStaticLease[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/configuration/dhcp/staticLease`);
   };
 
   /** Create a DHCP static lease */
-  postServiceNameConfigurationDhcpStaticLease = (
+  createConfigurationDhcpStaticLeaseByServiceName = (
     serviceName: string,
     body: OvertheboxConfigurationDhcpStaticLease
   ): Promise<OvertheboxConfigurationDhcpStaticLease> => {
@@ -185,7 +191,7 @@ class OverTheBoxHandler {
   };
 
   /** Delete a DHCP static lease */
-  deleteServiceNameConfigurationDhcpStaticLeaseId = (
+  deleteConfigurationDhcpStaticLeaseByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<void> => {
@@ -196,7 +202,7 @@ class OverTheBoxHandler {
   };
 
   /** Return the specified DHCP static lease */
-  getServiceNameConfigurationDhcpStaticLeaseId = (
+  getConfigurationDhcpStaticLeaseByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<OvertheboxConfigurationDhcpStaticLease> => {
@@ -207,7 +213,7 @@ class OverTheBoxHandler {
   };
 
   /** Update a DHCP static lease */
-  putServiceNameConfigurationDhcpStaticLeaseId = (
+  updateConfigurationDhcpStaticLeaseByServiceNameAndId = (
     serviceName: string,
     id: string,
     body: OvertheboxConfigurationDhcpStaticLease
@@ -220,14 +226,14 @@ class OverTheBoxHandler {
   };
 
   /** Return the list of DNS local domains */
-  getServiceNameConfigurationDnsLocalDomain = (
+  getConfigurationDnsLocalDomainByServiceName = (
     serviceName: string
-  ): Promise<OvertheboxConfigurationDnsLocalDomain> => {
+  ): Promise<OvertheboxConfigurationDnsLocalDomain[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/configuration/dns/localDomain`);
   };
 
   /** Create a DNS local domain */
-  postServiceNameConfigurationDnsLocalDomain = (
+  createConfigurationDnsLocalDomainByServiceName = (
     serviceName: string,
     body: OvertheboxConfigurationDnsLocalDomain
   ): Promise<OvertheboxConfigurationDnsLocalDomain> => {
@@ -239,7 +245,7 @@ class OverTheBoxHandler {
   };
 
   /** Delete a DNS local domain */
-  deleteServiceNameConfigurationDnsLocalDomainId = (
+  deleteConfigurationDnsLocalDomainByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<void> => {
@@ -250,7 +256,7 @@ class OverTheBoxHandler {
   };
 
   /** Return the specified DNS local domain */
-  getServiceNameConfigurationDnsLocalDomainId = (
+  getConfigurationDnsLocalDomainByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<OvertheboxConfigurationDnsLocalDomain> => {
@@ -261,7 +267,7 @@ class OverTheBoxHandler {
   };
 
   /** Update a DNS local domain */
-  putServiceNameConfigurationDnsLocalDomainId = (
+  updateConfigurationDnsLocalDomainByServiceNameAndId = (
     serviceName: string,
     id: string,
     body: OvertheboxConfigurationDnsLocalDomain
@@ -274,14 +280,14 @@ class OverTheBoxHandler {
   };
 
   /** Return the list of DNS nameservers */
-  getServiceNameConfigurationDnsNameserver = (
+  getConfigurationDnsNameserverByServiceName = (
     serviceName: string
-  ): Promise<OvertheboxConfigurationDnsNameserver> => {
+  ): Promise<OvertheboxConfigurationDnsNameserver[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/configuration/dns/nameserver`);
   };
 
   /** Create a DNS nameserver */
-  postServiceNameConfigurationDnsNameserver = (
+  createConfigurationDnsNameserverByServiceName = (
     serviceName: string,
     body: OvertheboxConfigurationDnsNameserver
   ): Promise<OvertheboxConfigurationDnsNameserver> => {
@@ -293,7 +299,7 @@ class OverTheBoxHandler {
   };
 
   /** Delete a DNS nameserver */
-  deleteServiceNameConfigurationDnsNameserverId = (
+  deleteConfigurationDnsNameserverByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<void> => {
@@ -304,7 +310,7 @@ class OverTheBoxHandler {
   };
 
   /** Get a DNS nameserver configuration */
-  getServiceNameConfigurationDnsNameserverId = (
+  getConfigurationDnsNameserverByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<OvertheboxConfigurationDnsNameserver> => {
@@ -312,7 +318,7 @@ class OverTheBoxHandler {
   };
 
   /** Update a DNS nameserver configuration */
-  putServiceNameConfigurationDnsNameserverId = (
+  updateConfigurationDnsNameserverByServiceNameAndId = (
     serviceName: string,
     id: string,
     body: OvertheboxConfigurationDnsNameserver
@@ -325,14 +331,14 @@ class OverTheBoxHandler {
   };
 
   /** Return the list of firewall redirects */
-  getServiceNameConfigurationFirewallRedirect = (
+  getConfigurationFirewallRedirectByServiceName = (
     serviceName: string
-  ): Promise<OvertheboxConfigurationFirewallRedirect> => {
+  ): Promise<OvertheboxConfigurationFirewallRedirect[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/configuration/firewall/redirect`);
   };
 
   /** Create a firewall redirect */
-  postServiceNameConfigurationFirewallRedirect = (
+  createConfigurationFirewallRedirectByServiceName = (
     serviceName: string,
     body: OvertheboxConfigurationFirewallRedirect
   ): Promise<OvertheboxConfigurationFirewallRedirect> => {
@@ -344,7 +350,7 @@ class OverTheBoxHandler {
   };
 
   /** Delete a firewall redirect */
-  deleteServiceNameConfigurationFirewallRedirectId = (
+  deleteConfigurationFirewallRedirectByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<void> => {
@@ -355,7 +361,7 @@ class OverTheBoxHandler {
   };
 
   /** Get a firewall redirect */
-  getServiceNameConfigurationFirewallRedirectId = (
+  getConfigurationFirewallRedirectByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<OvertheboxConfigurationFirewallRedirect> => {
@@ -366,7 +372,7 @@ class OverTheBoxHandler {
   };
 
   /** Update a firewall redirect */
-  putServiceNameConfigurationFirewallRedirectId = (
+  updateConfigurationFirewallRedirectByServiceNameAndId = (
     serviceName: string,
     id: string,
     body: OvertheboxConfigurationFirewallRedirect
@@ -379,14 +385,14 @@ class OverTheBoxHandler {
   };
 
   /** Return the list of firewall rules */
-  getServiceNameConfigurationFirewallRule = (
+  getConfigurationFirewallRuleByServiceName = (
     serviceName: string
-  ): Promise<OvertheboxConfigurationFirewallRule> => {
+  ): Promise<OvertheboxConfigurationFirewallRule[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/configuration/firewall/rule`);
   };
 
   /** Create a firewall rule */
-  postServiceNameConfigurationFirewallRule = (
+  createConfigurationFirewallRuleByServiceName = (
     serviceName: string,
     body: OvertheboxConfigurationFirewallRule
   ): Promise<OvertheboxConfigurationFirewallRule> => {
@@ -394,7 +400,7 @@ class OverTheBoxHandler {
   };
 
   /** Delete a firewall rule */
-  deleteServiceNameConfigurationFirewallRuleId = (
+  deleteConfigurationFirewallRuleByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<void> => {
@@ -405,7 +411,7 @@ class OverTheBoxHandler {
   };
 
   /** Get a firewall rule */
-  getServiceNameConfigurationFirewallRuleId = (
+  getConfigurationFirewallRuleByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<OvertheboxConfigurationFirewallRule> => {
@@ -413,7 +419,7 @@ class OverTheBoxHandler {
   };
 
   /** Update a firewall rule */
-  putServiceNameConfigurationFirewallRuleId = (
+  updateConfigurationFirewallRuleByServiceNameAndId = (
     serviceName: string,
     id: string,
     body: OvertheboxConfigurationFirewallRule
@@ -426,14 +432,14 @@ class OverTheBoxHandler {
   };
 
   /** Return the list of network interfaces */
-  getServiceNameConfigurationNetworkInterface = (
+  getConfigurationNetworkInterfaceByServiceName = (
     serviceName: string
-  ): Promise<OvertheboxConfigurationNetworkInterface> => {
+  ): Promise<OvertheboxConfigurationNetworkInterface[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/configuration/network/interface`);
   };
 
   /** Create a network interface */
-  postServiceNameConfigurationNetworkInterface = (
+  createConfigurationNetworkInterfaceByServiceName = (
     serviceName: string,
     body: OvertheboxConfigurationNetworkInterface
   ): Promise<OvertheboxConfigurationNetworkInterface> => {
@@ -445,7 +451,7 @@ class OverTheBoxHandler {
   };
 
   /** Delete a network interface */
-  deleteServiceNameConfigurationNetworkInterfaceId = (
+  deleteConfigurationNetworkInterfaceByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<void> => {
@@ -456,7 +462,7 @@ class OverTheBoxHandler {
   };
 
   /** Get a network interface */
-  getServiceNameConfigurationNetworkInterfaceId = (
+  getConfigurationNetworkInterfaceByServiceNameAndId = (
     serviceName: string,
     id: string
   ): Promise<OvertheboxConfigurationNetworkInterface> => {
@@ -467,7 +473,7 @@ class OverTheBoxHandler {
   };
 
   /** Update a network interface */
-  putServiceNameConfigurationNetworkInterfaceId = (
+  updateConfigurationNetworkInterfaceByServiceNameAndId = (
     serviceName: string,
     id: string,
     body: OvertheboxConfigurationNetworkInterface
@@ -480,22 +486,22 @@ class OverTheBoxHandler {
   };
 
   /** Unlink a device from a service */
-  deleteServiceNameDevice = (serviceName: string): Promise<void> => {
+  deleteDeviceByServiceName = (serviceName: string): Promise<void> => {
     return this.ovh.request('DELETE', `/overTheBox/${serviceName}/device`);
   };
 
   /** Get this object properties */
-  getServiceNameDevice = (serviceName: string): Promise<OverTheBoxDevice> => {
+  getDeviceByServiceName = (serviceName: string): Promise<OverTheBoxDevice> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/device`);
   };
 
   /** List of actions scheduled for this device */
-  getServiceNameDeviceActions = (serviceName: string): Promise<string> => {
+  listDeviceActionsByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/device/actions`);
   };
 
   /** Create a device action on the device */
-  postServiceNameDeviceActions = (
+  createDeviceActionsByServiceName = (
     serviceName: string,
     body: { name: string }
   ): Promise<OverTheBoxDeviceAction> => {
@@ -503,7 +509,7 @@ class OverTheBoxHandler {
   };
 
   /** Get this object properties */
-  getServiceNameDeviceActionsActionId = (
+  getDeviceActionsByServiceNameAndActionId = (
     actionId: string,
     serviceName: string
   ): Promise<OverTheBoxDeviceAction> => {
@@ -511,37 +517,40 @@ class OverTheBoxHandler {
   };
 
   /** List the available device actions */
-  getServiceNameDeviceAvailableActions = (
+  listDeviceAvailableActionsByServiceName = (
     serviceName: string
-  ): Promise<OverTheBoxAvailableDeviceAction> => {
+  ): Promise<OverTheBoxAvailableDeviceAction[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/device/availableActions`);
   };
 
   /** Create an action to generate a backup */
-  postServiceNameDeviceBackup = (serviceName: string): Promise<OverTheBoxDeviceAction> => {
+  createDeviceBackupByServiceName = (serviceName: string): Promise<OverTheBoxDeviceAction> => {
     return this.ovh.request('POST', `/overTheBox/${serviceName}/device/backup`);
   };
 
   /** Generate a temporary url to retrieve device logs */
-  postServiceNameDeviceLogs = (serviceName: string): Promise<OverTheBoxTemporaryLogsLink> => {
+  postDeviceLogsByServiceName = (serviceName: string): Promise<OverTheBoxTemporaryLogsLink> => {
     return this.ovh.request('POST', `/overTheBox/${serviceName}/device/logs`);
   };
 
   /** Create a group of actions to restore a given backup */
-  postServiceNameDeviceRestoreBackup = (
+  createDeviceRestoreBackupByServiceName = (
     serviceName: string,
     body: { backupId: string }
-  ): Promise<OverTheBoxDeviceAction> => {
+  ): Promise<OverTheBoxDeviceAction[]> => {
     return this.ovh.request('POST', `/overTheBox/${serviceName}/device/restoreBackup`, body);
   };
 
   /** Link a device to this service */
-  postServiceNameLinkDevice = (serviceName: string, body: { deviceId: string }): Promise<void> => {
+  postLinkDeviceByServiceName = (
+    serviceName: string,
+    body: { deviceId: string }
+  ): Promise<void> => {
     return this.ovh.request('POST', `/overTheBox/${serviceName}/linkDevice`, body);
   };
 
   /** Link an available hardware to this service */
-  postServiceNameLinkHardware = (
+  postLinkHardwareByServiceName = (
     serviceName: string,
     body: { hardwareName: string }
   ): Promise<void> => {
@@ -549,19 +558,19 @@ class OverTheBoxHandler {
   };
 
   /** List all available offers one can migrate to */
-  getServiceNameMigrationOffers = (
+  listMigrationOffersByServiceName = (
     serviceName: string
-  ): Promise<OverTheBoxAvailableMigrationOffer> => {
+  ): Promise<OverTheBoxAvailableMigrationOffer[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/migration/offers`);
   };
 
   /** List of remote accesses for the service */
-  getServiceNameRemoteAccesses = (serviceName: string): Promise<string> => {
+  listRemoteAccessesByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/remoteAccesses`);
   };
 
   /** Create a new remote access for the service */
-  postServiceNameRemoteAccesses = (
+  createRemoteAccessesByServiceName = (
     serviceName: string,
     body: { allowedIp?: string; expirationDate?: Date; exposedPort: number; publicKey?: string }
   ): Promise<OverTheBoxRemoteAccess> => {
@@ -569,7 +578,7 @@ class OverTheBoxHandler {
   };
 
   /** Delete a remote access */
-  deleteServiceNameRemoteAccessesRemoteAccessId = (
+  deleteRemoteAccessesByServiceNameAndRemoteAccessId = (
     remoteAccessId: string,
     serviceName: string
   ): Promise<void> => {
@@ -580,7 +589,7 @@ class OverTheBoxHandler {
   };
 
   /** Get this object properties */
-  getServiceNameRemoteAccessesRemoteAccessId = (
+  getRemoteAccessesByServiceNameAndRemoteAccessId = (
     remoteAccessId: string,
     serviceName: string
   ): Promise<OverTheBoxRemoteAccess> => {
@@ -588,7 +597,7 @@ class OverTheBoxHandler {
   };
 
   /** Authorize the remote access */
-  postServiceNameRemoteAccessesRemoteAccessIdAuthorize = (
+  postRemoteAccessesAuthorizeByServiceNameAndRemoteAccessId = (
     remoteAccessId: string,
     serviceName: string
   ): Promise<void> => {
@@ -599,29 +608,32 @@ class OverTheBoxHandler {
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/overTheBox/${serviceName}/serviceInfos`, body);
   };
 
   /** Get statistics for an OTB device */
-  getServiceNameStatistics = (serviceName: string): Promise<OtbDeviceStatistics> => {
+  getStatisticsByServiceName = (serviceName: string): Promise<OtbDeviceStatistics[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/statistics`);
   };
 
   /** List of tasks scheduled for this service */
-  getServiceNameTasks = (serviceName: string): Promise<string> => {
+  listTasksByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/tasks`);
   };
 
   /** Get this object properties */
-  getServiceNameTasksTaskId = (serviceName: string, taskId: string): Promise<OverTheBoxTask> => {
+  getTasksByServiceNameAndTaskId = (
+    serviceName: string,
+    taskId: string
+  ): Promise<OverTheBoxTask> => {
     return this.ovh.request('GET', `/overTheBox/${serviceName}/tasks/${taskId}`);
   };
 }
 
-export default OverTheBoxHandler;
+export { OverTheBoxHandler };

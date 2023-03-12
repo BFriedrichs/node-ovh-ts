@@ -6,5 +6,5 @@ import { OrderCartGenericProductPricing } from './OrderCartGenericProductPricing
 export type OrderCartWebHostingProductInformation = {
   description: HostingWebCapabilities;
   planCode: string;
-  prices: OrderCartGenericProductPricing;
+  prices: OrderCartGenericProductPricing[];
 };

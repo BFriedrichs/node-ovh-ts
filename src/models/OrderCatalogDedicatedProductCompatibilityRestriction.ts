@@ -4,5 +4,5 @@ import { OrderCatalogDedicatedProductCompatibilityRestrictionSection } from './O
 
 export type OrderCatalogDedicatedProductCompatibilityRestriction = {
   name: string;
-  sections: OrderCatalogDedicatedProductCompatibilityRestrictionSection;
+  sections: OrderCatalogDedicatedProductCompatibilityRestrictionSection[];
 };

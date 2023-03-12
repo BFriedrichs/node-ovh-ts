@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { SslOperationStatusEnum } from './SslOperationStatusEnum';
 import { SslOperationFunctionEnum } from './SslOperationFunctionEnum';
+import { SslOperationStatusEnum } from './SslOperationStatusEnum';
 
 export type SslOperation = {
   doneDate: Date | null;

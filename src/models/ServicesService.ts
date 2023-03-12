@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServiceRenewType } from './ServiceRenewType';
 import { ServiceStateEnum } from './ServiceStateEnum';
 import { ServiceRenewalTypeEnum } from './ServiceRenewalTypeEnum';
+import { ServiceRenewType } from './ServiceRenewType';
 
 export type ServicesService = {
   canDeleteAtExpiration: boolean;
@@ -13,7 +13,7 @@ export type ServicesService = {
   domain: string;
   engagedUpTo: Date | null;
   expiration: Date;
-  possibleRenewPeriod: number | null;
+  possibleRenewPeriod: number[] | null;
   renew: ServiceRenewType | null;
   renewalType: ServiceRenewalTypeEnum;
   serviceId: number;

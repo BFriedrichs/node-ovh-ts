@@ -4,7 +4,7 @@ import { CloudProjectNewProjectStatusEnum } from './CloudProjectNewProjectStatus
 import { CloudProjectNewProjectCredit } from './CloudProjectNewProjectCredit';
 
 export type CloudProjectNewProject = {
-  agreements: number | null;
+  agreements: number[] | null;
   credit: CloudProjectNewProjectCredit | null;
   description: string | null;
   orderId: number | null;

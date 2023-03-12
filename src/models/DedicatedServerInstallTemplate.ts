@@ -1,3 +1,3 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-export type DedicatedServerInstallTemplate = { ovh: string | null; personal: string | null };
+export type DedicatedServerInstallTemplate = { ovh: string[] | null; personal: string[] | null };

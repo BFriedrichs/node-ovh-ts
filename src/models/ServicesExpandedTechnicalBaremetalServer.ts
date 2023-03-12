@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesExpandedTechnicalBaremetalServerVrack } from './ServicesExpandedTechnicalBaremetalServerVrack';
-import { ServicesExpandedTechnicalBaremetalServerBandwidth } from './ServicesExpandedTechnicalBaremetalServerBandwidth';
-import { ServicesExpandedTechnicalBaremetalServerServer } from './ServicesExpandedTechnicalBaremetalServerServer';
-import { ServicesExpandedTechnicalBaremetalServerGpu } from './ServicesExpandedTechnicalBaremetalServerGpu';
 import { ServicesExpandedTechnicalBaremetalServerStorage } from './ServicesExpandedTechnicalBaremetalServerStorage';
 import { ServicesExpandedTechnicalBaremetalServerMemory } from './ServicesExpandedTechnicalBaremetalServerMemory';
+import { ServicesExpandedTechnicalBaremetalServerBandwidth } from './ServicesExpandedTechnicalBaremetalServerBandwidth';
+import { ServicesExpandedTechnicalBaremetalServerVrack } from './ServicesExpandedTechnicalBaremetalServerVrack';
+import { ServicesExpandedTechnicalBaremetalServerGpu } from './ServicesExpandedTechnicalBaremetalServerGpu';
+import { ServicesExpandedTechnicalBaremetalServerServer } from './ServicesExpandedTechnicalBaremetalServerServer';
 
 export type ServicesExpandedTechnicalBaremetalServer = {
   bandwidth: ServicesExpandedTechnicalBaremetalServerBandwidth | null;

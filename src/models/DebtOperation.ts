@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { DebtEntryOperationEnum } from './DebtEntryOperationEnum';
-import { DebtEntryStatusEnum } from './DebtEntryStatusEnum';
 import { OrderPrice } from './OrderPrice';
+import { DebtEntryStatusEnum } from './DebtEntryStatusEnum';
 
 export type DebtOperation = {
   amount: OrderPrice;

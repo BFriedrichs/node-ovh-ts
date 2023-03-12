@@ -1,8 +1,8 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { IpLoadbalancingStickinessTCPEnum } from './IpLoadbalancingStickinessTCPEnum';
 import { IpLoadbalancingBalanceTCPEnum } from './IpLoadbalancingBalanceTCPEnum';
 import { IpLoadbalancingBackendProbe } from './IpLoadbalancingBackendProbe';
+import { IpLoadbalancingStickinessTCPEnum } from './IpLoadbalancingStickinessTCPEnum';
 
 export type IpLoadbalancingBackendTcpBackendTcp = {
   balance: IpLoadbalancingBalanceTCPEnum | null;

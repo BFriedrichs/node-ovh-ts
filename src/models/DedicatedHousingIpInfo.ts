@@ -3,5 +3,5 @@
 export type DedicatedHousingIpInfo = {
   gateway: string | null;
   network: string;
-  reservedAddresses: string | null;
+  reservedAddresses: string[] | null;
 };

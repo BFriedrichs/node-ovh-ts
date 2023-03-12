@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesExpandedRoute } from './ServicesExpandedRoute';
 import { OrderPrice } from './OrderPrice';
+import { ServicesExpandedRoute } from './ServicesExpandedRoute';
 
 export type MeRepricingService = {
-  addons: MeRepricingService;
+  addons: MeRepricingService[];
   applicationDate: Date;
   description: string;
   displayName: string;

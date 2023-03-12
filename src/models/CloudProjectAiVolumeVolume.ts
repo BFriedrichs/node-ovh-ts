@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectAiVolumeStandalone } from './CloudProjectAiVolumeStandalone';
-import { CloudProjectAiVolumePublicGit } from './CloudProjectAiVolumePublicGit';
-import { CloudProjectAiVolumeDataStore } from './CloudProjectAiVolumeDataStore';
 import { CloudProjectAiVolumePublicSwift } from './CloudProjectAiVolumePublicSwift';
-import { CloudProjectAiVolumePermissionEnum } from './CloudProjectAiVolumePermissionEnum';
 import { CloudProjectAiVolumePrivateSwift } from './CloudProjectAiVolumePrivateSwift';
+import { CloudProjectAiVolumePublicGit } from './CloudProjectAiVolumePublicGit';
+import { CloudProjectAiVolumeStandalone } from './CloudProjectAiVolumeStandalone';
+import { CloudProjectAiVolumeDataStore } from './CloudProjectAiVolumeDataStore';
+import { CloudProjectAiVolumePermissionEnum } from './CloudProjectAiVolumePermissionEnum';
 
 export type CloudProjectAiVolumeVolume = {
   cache: boolean;

@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseOrderableWindowsCompatibilityInfos } from './LicenseOrderableWindowsCompatibilityInfos';
 import { LicenseLicenseTypeEnum } from './LicenseLicenseTypeEnum';
+import { LicenseOrderableWindowsCompatibilityInfos } from './LicenseOrderableWindowsCompatibilityInfos';
 
 export type LicenseWindowsOrderConfiguration = {
-  orderableVersions: LicenseOrderableWindowsCompatibilityInfos;
+  orderableVersions: LicenseOrderableWindowsCompatibilityInfos[];
   serviceType: LicenseLicenseTypeEnum;
 };

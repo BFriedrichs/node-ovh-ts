@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { LicensePleskOrderConfiguration } from '../models/LicensePleskOrderConfiguration';
+import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
+import { LicenseOptionLabel } from '../models/LicenseOptionLabel';
+import { LicenseOption } from '../models/LicenseOption';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseTask } from '../models/LicenseTask';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicensePleskPlesk } from '../models/LicensePleskPlesk';
+import { LicenseActionType } from '../models/LicenseActionType';
 import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
 import { ServicesService } from '../models/ServicesService';
-import { LicenseOption } from '../models/LicenseOption';
-import { LicenseOptionLabel } from '../models/LicenseOptionLabel';
-import { LicenseActionType } from '../models/LicenseActionType';
-import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { LicensePleskOrderConfiguration } from '../models/LicensePleskOrderConfiguration';
-import { LicenseTask } from '../models/LicenseTask';
-import { LicensePleskPlesk } from '../models/LicensePleskPlesk';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import OVHBase from '../ovh';
 
 class LicensePleskHandler {
@@ -21,39 +21,39 @@ class LicensePleskHandler {
   }
 
   /** List available services */
-  getPlesk = (): Promise<string> => {
+  listPlesks = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/plesk');
   };
 
   /** Get the orderable Plesk versions and their associated compatibilities */
-  getPleskOrderableVersions = (): Promise<LicensePleskOrderConfiguration> => {
+  getPleskOrderableVersions = (): Promise<LicensePleskOrderConfiguration[]> => {
     return this.ovh.request('GET', '/license/plesk/orderableVersions');
   };
 
   /** Get this object properties */
-  getPleskServiceName = (serviceName: string): Promise<LicensePleskPlesk> => {
+  getPleskByServiceName = (serviceName: string): Promise<LicensePleskPlesk> => {
     return this.ovh.request('GET', `/license/plesk/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putPleskServiceName = (serviceName: string, body: LicensePleskPlesk): Promise<void> => {
+  updatePleskByServiceName = (serviceName: string, body: LicensePleskPlesk): Promise<void> => {
     return this.ovh.request('PUT', `/license/plesk/${serviceName}`, body);
   };
 
   /** Returns an array of ips where the license can be moved to */
-  getPleskServiceNameAllowedDestinationIp = (serviceName: string): Promise<string> => {
+  getPleskAllowedDestinationIpByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/license/plesk/${serviceName}/allowedDestinationIp`);
   };
 
   /** Will tell if the ip can accept the license */
-  getPleskServiceNameCanLicenseBeMovedTo = (
+  getPleskCanLicenseBeMovedToByServiceName = (
     serviceName: string
   ): Promise<LicenseChangeIpStatus> => {
     return this.ovh.request('GET', `/license/plesk/${serviceName}/canLicenseBeMovedTo`);
   };
 
   /** Move this license to another Ip */
-  postPleskServiceNameChangeIp = (
+  postPleskChangeIpByServiceName = (
     serviceName: string,
     body: { destinationIp: string }
   ): Promise<LicenseTask> => {
@@ -61,7 +61,7 @@ class LicensePleskHandler {
   };
 
   /** Confirm termination of your service */
-  postPleskServiceNameConfirmTermination = (
+  confirmPleskTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -74,12 +74,12 @@ class LicensePleskHandler {
   };
 
   /** options attached to this license */
-  getPleskServiceNameOption = (serviceName: string): Promise<LicenseOptionLabel> => {
+  getPleskOptionByServiceName = (serviceName: string): Promise<LicenseOptionLabel[]> => {
     return this.ovh.request('GET', `/license/plesk/${serviceName}/option`);
   };
 
   /** release this Option */
-  deletePleskServiceNameOptionLabel = (
+  deletePleskOptionByServiceNameAndLabel = (
     label: LicenseOptionLabel,
     serviceName: string
   ): Promise<LicenseTask> => {
@@ -87,7 +87,7 @@ class LicensePleskHandler {
   };
 
   /** Get this object properties */
-  getPleskServiceNameOptionLabel = (
+  getPleskOptionByServiceNameAndLabel = (
     label: LicenseOptionLabel,
     serviceName: string
   ): Promise<LicenseOption> => {
@@ -95,29 +95,35 @@ class LicensePleskHandler {
   };
 
   /** Get this object properties */
-  getPleskServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getPleskServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/license/plesk/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putPleskServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updatePleskServiceInfosByServiceName = (
+    serviceName: string,
+    body: ServicesService
+  ): Promise<void> => {
     return this.ovh.request('PUT', `/license/plesk/${serviceName}/serviceInfos`, body);
   };
 
   /** tasks linked to this license */
-  getPleskServiceNameTasks = (serviceName: string): Promise<number> => {
+  getPleskTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/license/plesk/${serviceName}/tasks`);
   };
 
   /** Get this object properties */
-  getPleskServiceNameTasksTaskId = (serviceName: string, taskId: number): Promise<LicenseTask> => {
+  getPleskTasksByServiceNameAndTaskId = (
+    serviceName: string,
+    taskId: number
+  ): Promise<LicenseTask> => {
     return this.ovh.request('GET', `/license/plesk/${serviceName}/tasks/${taskId}`);
   };
 
   /** Terminate your service */
-  postPleskServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postPleskTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/license/plesk/${serviceName}/terminate`);
   };
 }
 
-export default LicensePleskHandler;
+export { LicensePleskHandler };

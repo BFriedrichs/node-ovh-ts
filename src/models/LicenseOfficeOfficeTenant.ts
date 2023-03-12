@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseOfficeServiceStateEnum } from './LicenseOfficeServiceStateEnum';
 import { LicenseOfficeServiceTypeEnum } from './LicenseOfficeServiceTypeEnum';
+import { LicenseOfficeServiceStateEnum } from './LicenseOfficeServiceStateEnum';
 
 export type LicenseOfficeOfficeTenant = {
   address: string;

@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { ServicesService } from '../models/ServicesService';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { LicenseOfficeOfficeTask } from '../models/LicenseOfficeOfficeTask';
 import { LicenseOfficeOfficeTenant } from '../models/LicenseOfficeOfficeTenant';
-import { LicenseOfficePrepaidOfficeUser } from '../models/LicenseOfficePrepaidOfficeUser';
 import { LicenseOfficeStatistics } from '../models/LicenseOfficeStatistics';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseOfficePrepaidOfficeUser } from '../models/LicenseOfficePrepaidOfficeUser';
+import { LicenseOfficeOfficeTask } from '../models/LicenseOfficeOfficeTask';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class LicenseOfficePrepaidHandler {
@@ -17,17 +17,19 @@ class LicenseOfficePrepaidHandler {
   }
 
   /** List available services */
-  getOfficePrepaid = (): Promise<string> => {
+  listOfficePrepaids = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/officePrepaid');
   };
 
   /** Get this object properties */
-  getOfficePrepaidServiceName = (serviceName: string): Promise<LicenseOfficePrepaidOfficeUser> => {
+  getOfficePrepaidByServiceName = (
+    serviceName: string
+  ): Promise<LicenseOfficePrepaidOfficeUser> => {
     return this.ovh.request('GET', `/license/officePrepaid/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putOfficePrepaidServiceName = (
+  updateOfficePrepaidByServiceName = (
     serviceName: string,
     body: LicenseOfficePrepaidOfficeUser
   ): Promise<void> => {
@@ -35,7 +37,7 @@ class LicenseOfficePrepaidHandler {
   };
 
   /** Change or reset  user's password */
-  postOfficePrepaidServiceNameChangePassword = (
+  updateOfficePrepaidPasswordByServiceName = (
     serviceName: string,
     body: { notifyEmail?: string; password?: string; shouldSendMail: boolean }
   ): Promise<LicenseOfficeOfficeTask> => {
@@ -43,7 +45,7 @@ class LicenseOfficePrepaidHandler {
   };
 
   /** Confirm termination of your service */
-  postOfficePrepaidServiceNameConfirmTermination = (
+  confirmOfficePrepaidTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -60,14 +62,14 @@ class LicenseOfficePrepaidHandler {
   };
 
   /** Retrieve the parent tenant of this office user */
-  getOfficePrepaidServiceNameParentTenant = (
+  getOfficePrepaidParentTenantByServiceName = (
     serviceName: string
   ): Promise<LicenseOfficeOfficeTenant> => {
     return this.ovh.request('GET', `/license/officePrepaid/${serviceName}/parentTenant`);
   };
 
   /** Modify the parent tenant of this office user */
-  putOfficePrepaidServiceNameParentTenant = (
+  putOfficePrepaidParentTenantByServiceName = (
     serviceName: string,
     body: { displayName?: string }
   ): Promise<void> => {
@@ -75,12 +77,12 @@ class LicenseOfficePrepaidHandler {
   };
 
   /** Get this object properties */
-  getOfficePrepaidServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getOfficePrepaidServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/license/officePrepaid/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putOfficePrepaidServiceNameServiceInfos = (
+  updateOfficePrepaidServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -88,12 +90,12 @@ class LicenseOfficePrepaidHandler {
   };
 
   /** Tasks associated to this user's tenant */
-  getOfficePrepaidServiceNameTenantPendingTask = (serviceName: string): Promise<number> => {
+  getOfficePrepaidTenantPendingTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/license/officePrepaid/${serviceName}/tenantPendingTask`);
   };
 
   /** Get this object properties */
-  getOfficePrepaidServiceNameTenantPendingTaskId = (
+  getOfficePrepaidTenantPendingTaskByServiceNameAndId = (
     id: number,
     serviceName: string
   ): Promise<LicenseOfficeOfficeTask> => {
@@ -101,23 +103,23 @@ class LicenseOfficePrepaidHandler {
   };
 
   /** Shows the subscriptions' usage statistics for the given time period */
-  getOfficePrepaidServiceNameTenantUsageStatistics = (
+  getOfficePrepaidTenantUsageStatisticsByServiceName = (
     serviceName: string
-  ): Promise<LicenseOfficeStatistics> => {
+  ): Promise<LicenseOfficeStatistics[]> => {
     return this.ovh.request('GET', `/license/officePrepaid/${serviceName}/tenantUsageStatistics`);
   };
 
   /** Terminate your service */
-  postOfficePrepaidServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postOfficePrepaidTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/license/officePrepaid/${serviceName}/terminate`);
   };
 
   /** Unconfigure the office user */
-  postOfficePrepaidServiceNameUnconfigure = (
+  postOfficePrepaidUnconfigureByServiceName = (
     serviceName: string
   ): Promise<LicenseOfficeOfficeTask> => {
     return this.ovh.request('POST', `/license/officePrepaid/${serviceName}/unconfigure`);
   };
 }
 
-export default LicenseOfficePrepaidHandler;
+export { LicenseOfficePrepaidHandler };

@@ -5,7 +5,7 @@ import { CloudLoadbalancingLoadbalancerListenerCreate } from './CloudLoadbalanci
 
 export type CloudLoadbalancingLoadbalancerCreate = {
   flavorId?: string;
-  listeners: CloudLoadbalancingLoadbalancerListenerCreate;
+  listeners: CloudLoadbalancingLoadbalancerListenerCreate[];
   name: string;
   networkInformation?: CloudLoadbalancingLoadbalancerNetworkInformationCreate;
 };

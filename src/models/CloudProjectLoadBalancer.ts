@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectLoadbalancerConfigurationVersion } from './CloudProjectLoadbalancerConfigurationVersion';
-import { CloudProjectLoadbalancerSizeEnum } from './CloudProjectLoadbalancerSizeEnum';
-import { CloudProjectLoadbalancerStatusEnum } from './CloudProjectLoadbalancerStatusEnum';
-import { CloudProjectLoadbalancerNetworkingNetworking } from './CloudProjectLoadbalancerNetworkingNetworking';
 import { CloudProjectLoadbalancerAddress } from './CloudProjectLoadbalancerAddress';
 import { CloudProjectLoadbalancerAddresses } from './CloudProjectLoadbalancerAddresses';
+import { CloudProjectLoadbalancerStatusEnum } from './CloudProjectLoadbalancerStatusEnum';
+import { CloudProjectLoadbalancerConfigurationVersion } from './CloudProjectLoadbalancerConfigurationVersion';
+import { CloudProjectLoadbalancerNetworkingNetworking } from './CloudProjectLoadbalancerNetworkingNetworking';
+import { CloudProjectLoadbalancerSizeEnum } from './CloudProjectLoadbalancerSizeEnum';
 
 export type CloudProjectLoadBalancer = {
   address: CloudProjectLoadbalancerAddress;

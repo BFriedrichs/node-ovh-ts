@@ -3,7 +3,7 @@
 import { CloudBillingViewRegionalizedResource } from './CloudBillingViewRegionalizedResource';
 
 export type CloudBillingViewTypedResources = {
-  resources: CloudBillingViewRegionalizedResource;
+  resources: CloudBillingViewRegionalizedResource[];
   totalPrice: number;
   type: string;
 };

@@ -4,6 +4,6 @@ import { LicenseLicenseTypeEnum } from './LicenseLicenseTypeEnum';
 import { LicenseOrderableWorkLightCompatibilityInfos } from './LicenseOrderableWorkLightCompatibilityInfos';
 
 export type LicenseWorkLightOrderConfiguration = {
-  orderableVersions: LicenseOrderableWorkLightCompatibilityInfos;
+  orderableVersions: LicenseOrderableWorkLightCompatibilityInfos[];
   serviceType: LicenseLicenseTypeEnum;
 };

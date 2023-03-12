@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { ServiceResource } from './ServiceResource';
 import { ServiceBillingStateEnum } from './ServiceBillingStateEnum';
 import { ServicePlan } from './ServicePlan';
-import { ServiceResource } from './ServiceResource';
-import { ServiceRenew } from './ServiceRenew';
 import { ServiceRoute } from './ServiceRoute';
+import { ServiceRenew } from './ServiceRenew';
 
 export type ServiceListService = {
   creationDate: Date;

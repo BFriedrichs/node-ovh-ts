@@ -12,5 +12,5 @@ export type SmsBatchParams = {
   senderForResponse: boolean;
   slotID: string;
   tag: string;
-  to: string;
+  to: string[];
 };

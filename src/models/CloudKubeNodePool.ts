@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudKubeNodePoolTemplate } from './CloudKubeNodePoolTemplate';
 import { CloudKubeNodePoolStatusEnum } from './CloudKubeNodePoolStatusEnum';
 import { CloudKubeNodePoolAutoscaling } from './CloudKubeNodePoolAutoscaling';
 import { CloudKubeNodePoolSizeStatusEnum } from './CloudKubeNodePoolSizeStatusEnum';
+import { CloudKubeNodePoolTemplate } from './CloudKubeNodePoolTemplate';
 
 export type CloudKubeNodePool = {
   antiAffinity: boolean;

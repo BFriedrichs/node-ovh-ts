@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DeskaasPasswordPolicy } from '../models/DeskaasPasswordPolicy';
-import { ServicesService } from '../models/ServicesService';
-import { DeskaasTaskStateEnum } from '../models/DeskaasTaskStateEnum';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
 import { DeskaasDeskaas } from '../models/DeskaasDeskaas';
+import { DeskaasUser } from '../models/DeskaasUser';
 import { DeskaasTask } from '../models/DeskaasTask';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
-import { DeskaasUser } from '../models/DeskaasUser';
+import { DeskaasTaskStateEnum } from '../models/DeskaasTaskStateEnum';
+import { DeskaasPasswordPolicy } from '../models/DeskaasPasswordPolicy';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class DeskaasHandler {
@@ -18,17 +18,17 @@ class DeskaasHandler {
   }
 
   /** List available services */
-  get = (): Promise<string> => {
+  lists = (): Promise<string[]> => {
     return this.ovh.request('GET', '/deskaas');
   };
 
   /** Get this object properties */
-  getServiceName = (serviceName: string): Promise<DeskaasDeskaas> => {
+  getByServiceName = (serviceName: string): Promise<DeskaasDeskaas> => {
     return this.ovh.request('GET', `/deskaas/${serviceName}`);
   };
 
   /** Change the Virtual Desktop alias */
-  postServiceNameChangeAlias = (
+  updateAliasByServiceName = (
     serviceName: string,
     body: { alias: string }
   ): Promise<DeskaasTask> => {
@@ -36,15 +36,15 @@ class DeskaasHandler {
   };
 
   /** Launch a contact change procedure */
-  postServiceNameChangeContact = (
+  launchChangeContactByServiceName = (
     serviceName: string,
     body: { contactAdmin?: string; contactBilling?: string; contactTech?: string }
-  ): Promise<number> => {
+  ): Promise<number[]> => {
     return this.ovh.request('POST', `/deskaas/${serviceName}/changeContact`, body);
   };
 
   /** Confirm termination of your service */
-  postServiceNameConfirmTermination = (
+  confirmTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -57,52 +57,52 @@ class DeskaasHandler {
   };
 
   /** New console access */
-  postServiceNameConsole = (serviceName: string): Promise<DeskaasTask> => {
+  postConsoleByServiceName = (serviceName: string): Promise<DeskaasTask> => {
     return this.ovh.request('POST', `/deskaas/${serviceName}/console`);
   };
 
   /** Get the current password policy for your Desktop As A Service */
-  getServiceNamePasswordPolicy = (serviceName: string): Promise<DeskaasPasswordPolicy> => {
+  getPasswordPolicyByServiceName = (serviceName: string): Promise<DeskaasPasswordPolicy> => {
     return this.ovh.request('GET', `/deskaas/${serviceName}/passwordPolicy`);
   };
 
   /** Reboot the Operating system of the Cloud Desktop. */
-  postServiceNameReboot = (serviceName: string): Promise<DeskaasTask> => {
+  postRebootByServiceName = (serviceName: string): Promise<DeskaasTask> => {
     return this.ovh.request('POST', `/deskaas/${serviceName}/reboot`);
   };
 
   /** Refresh the Operating system of the Desktop As A Service. All your personnal data are kept. */
-  postServiceNameRefresh = (serviceName: string): Promise<DeskaasTask> => {
+  postRefreshByServiceName = (serviceName: string): Promise<DeskaasTask> => {
     return this.ovh.request('POST', `/deskaas/${serviceName}/refresh`);
   };
 
   /** Get this object properties */
-  getServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/deskaas/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putServiceNameServiceInfos = (serviceName: string, body: ServicesService): Promise<void> => {
+  updateServiceInfosByServiceName = (serviceName: string, body: ServicesService): Promise<void> => {
     return this.ovh.request('PUT', `/deskaas/${serviceName}/serviceInfos`, body);
   };
 
   /** Tasks associated with this Desktop As A Service */
-  getServiceNameTask = (serviceName: string): Promise<number> => {
+  getTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/deskaas/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getServiceNameTaskTaskId = (serviceName: string, taskId: number): Promise<DeskaasTask> => {
+  getTaskByServiceNameAndTaskId = (serviceName: string, taskId: number): Promise<DeskaasTask> => {
     return this.ovh.request('GET', `/deskaas/${serviceName}/task/${taskId}`);
   };
 
   /** Terminate your service */
-  postServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/deskaas/${serviceName}/terminate`);
   };
 
   /** Upgrading the Desktop As A Service to another profile. The Virtual Desktop will not be available during upgrade and has to be restarted. You cannot downgrade a Virtual Desktop */
-  postServiceNameUpgrade = (
+  postUpgradeByServiceName = (
     serviceName: string,
     body: { newReference?: string; planCode?: string }
   ): Promise<DeskaasTask> => {
@@ -110,12 +110,12 @@ class DeskaasHandler {
   };
 
   /** Get this object properties */
-  getServiceNameUser = (serviceName: string): Promise<DeskaasUser> => {
+  getUserByServiceName = (serviceName: string): Promise<DeskaasUser> => {
     return this.ovh.request('GET', `/deskaas/${serviceName}/user`);
   };
 
   /** Change Desktop As A Service user password */
-  postServiceNameUserChangePassword = (
+  updateUserPasswordByServiceName = (
     serviceName: string,
     body: { password?: string }
   ): Promise<DeskaasTask> => {
@@ -123,7 +123,7 @@ class DeskaasHandler {
   };
 
   /** Change Desktop As A Service user properties */
-  postServiceNameUserChangeProperties = (
+  updateUserPropertiesByServiceName = (
     serviceName: string,
     body: { email?: string }
   ): Promise<DeskaasTask> => {
@@ -131,14 +131,17 @@ class DeskaasHandler {
   };
 
   /** Tasks associated with this User */
-  getServiceNameUserTask = (serviceName: string): Promise<number> => {
+  getUserTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/deskaas/${serviceName}/user/task`);
   };
 
   /** Get this object properties */
-  getServiceNameUserTaskTaskId = (serviceName: string, taskId: number): Promise<DeskaasTask> => {
+  getUserTaskByServiceNameAndTaskId = (
+    serviceName: string,
+    taskId: number
+  ): Promise<DeskaasTask> => {
     return this.ovh.request('GET', `/deskaas/${serviceName}/user/task/${taskId}`);
   };
 }
 
-export default DeskaasHandler;
+export { DeskaasHandler };

@@ -4,6 +4,6 @@ import { DedicatedCloudVmFilerDisk } from './DedicatedCloudVmFilerDisk';
 
 export type DedicatedCloudVmFiler = {
   committed: number;
-  disks: DedicatedCloudVmFilerDisk;
+  disks: DedicatedCloudVmFilerDisk[];
   name: string;
 };

@@ -6,7 +6,7 @@ export type CloudStackStack = {
   commit: string;
   description: string;
   gitRepository: string;
-  instructions: CloudStackInstructionGuide;
+  instructions: CloudStackInstructionGuide[];
   name: string;
   release: string;
   uuid: string;

@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { BillingOrderFollowUpStatusEnum } from './BillingOrderFollowUpStatusEnum';
 import { BillingOrderFollowUpHistory } from './BillingOrderFollowUpHistory';
+import { BillingOrderFollowUpStatusEnum } from './BillingOrderFollowUpStatusEnum';
 import { BillingOrderFollowUpStepEnum } from './BillingOrderFollowUpStepEnum';
 
 export type BillingOrderFollowUp = {
-  history: BillingOrderFollowUpHistory;
+  history: BillingOrderFollowUpHistory[];
   status: BillingOrderFollowUpStatusEnum;
   step: BillingOrderFollowUpStepEnum;
 };

@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { EmailExchangeObjectStateEnum } from './EmailExchangeObjectStateEnum';
-import { EmailExchangeCountryCodeEnum } from './EmailExchangeCountryCodeEnum';
-import { EmailExchangeOvhLicenceEnum } from './EmailExchangeOvhLicenceEnum';
-import { EmailExchangeMailingFilterEnum } from './EmailExchangeMailingFilterEnum';
 import { EmailExchangeRenewPeriodEnum } from './EmailExchangeRenewPeriodEnum';
+import { EmailExchangeObjectStateEnum } from './EmailExchangeObjectStateEnum';
+import { EmailExchangeOvhLicenceEnum } from './EmailExchangeOvhLicenceEnum';
+import { EmailExchangeCountryCodeEnum } from './EmailExchangeCountryCodeEnum';
 import { EmailExchangeSpamAndVirusConfiguration } from './EmailExchangeSpamAndVirusConfiguration';
+import { EmailExchangeMailingFilterEnum } from './EmailExchangeMailingFilterEnum';
 
 export type EmailExchangeAccount = {
   SAMAccountName: string | null;
@@ -42,7 +42,7 @@ export type EmailExchangeAccount = {
   litigationPeriod: number | null;
   login: string;
   mailSenderDisplay: string | null;
-  mailingFilter: EmailExchangeMailingFilterEnum | null;
+  mailingFilter: EmailExchangeMailingFilterEnum[] | null;
   mobile: string | null;
   numberOfAliases: number;
   office: string | null;

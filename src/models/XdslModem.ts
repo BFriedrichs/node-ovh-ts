@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { XdslModemCapabilities } from './XdslModemCapabilities';
-import { XdslXdslModemConfigMTUSizeEnum } from './XdslXdslModemConfigMTUSizeEnum';
-import { XdslXdslModemConfigACSBackendEnum } from './XdslXdslModemConfigACSBackendEnum';
 import { XdslXdslModemConfigEasyFirewallLevelEnum } from './XdslXdslModemConfigEasyFirewallLevelEnum';
+import { XdslXdslModemConfigMTUSizeEnum } from './XdslXdslModemConfigMTUSizeEnum';
+import { XdslModemCapabilities } from './XdslModemCapabilities';
+import { XdslXdslModemConfigACSBackendEnum } from './XdslXdslModemConfigACSBackendEnum';
 
 export type XdslModem = {
   acsBackend: XdslXdslModemConfigACSBackendEnum;

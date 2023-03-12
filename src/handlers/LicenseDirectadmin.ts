@@ -1,15 +1,15 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
-import { ServicesService } from '../models/ServicesService';
-import { LicenseDirectAdminOrderConfiguration } from '../models/LicenseDirectAdminOrderConfiguration';
 import { LicenseDirectAdminOsEnum } from '../models/LicenseDirectAdminOsEnum';
-import { LicenseActionType } from '../models/LicenseActionType';
 import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicenseActionType } from '../models/LicenseActionType';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import { LicenseTask } from '../models/LicenseTask';
 import { LicenseDirectadminDirectAdmin } from '../models/LicenseDirectadminDirectAdmin';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseDirectAdminOrderConfiguration } from '../models/LicenseDirectAdminOrderConfiguration';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
+import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class LicenseDirectadminHandler {
@@ -20,22 +20,22 @@ class LicenseDirectadminHandler {
   }
 
   /** List available services */
-  getDirectadmin = (): Promise<string> => {
+  listDirectadmins = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/directadmin');
   };
 
   /** Get the orderable DirectAdmin versions */
-  getDirectadminOrderableVersions = (): Promise<LicenseDirectAdminOrderConfiguration> => {
+  getDirectadminOrderableVersions = (): Promise<LicenseDirectAdminOrderConfiguration[]> => {
     return this.ovh.request('GET', '/license/directadmin/orderableVersions');
   };
 
   /** Get this object properties */
-  getDirectadminServiceName = (serviceName: string): Promise<LicenseDirectadminDirectAdmin> => {
+  getDirectadminByServiceName = (serviceName: string): Promise<LicenseDirectadminDirectAdmin> => {
     return this.ovh.request('GET', `/license/directadmin/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putDirectadminServiceName = (
+  updateDirectadminByServiceName = (
     serviceName: string,
     body: LicenseDirectadminDirectAdmin
   ): Promise<void> => {
@@ -43,19 +43,19 @@ class LicenseDirectadminHandler {
   };
 
   /** Returns an array of ips where the license can be moved to */
-  getDirectadminServiceNameAllowedDestinationIp = (serviceName: string): Promise<string> => {
+  getDirectadminAllowedDestinationIpByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/license/directadmin/${serviceName}/allowedDestinationIp`);
   };
 
   /** Will tell if the ip can accept the license */
-  getDirectadminServiceNameCanLicenseBeMovedTo = (
+  getDirectadminCanLicenseBeMovedToByServiceName = (
     serviceName: string
   ): Promise<LicenseChangeIpStatus> => {
     return this.ovh.request('GET', `/license/directadmin/${serviceName}/canLicenseBeMovedTo`);
   };
 
   /** Move this license to another Ip */
-  postDirectadminServiceNameChangeIp = (
+  postDirectadminChangeIpByServiceName = (
     serviceName: string,
     body: { destinationIp: string }
   ): Promise<LicenseTask> => {
@@ -63,7 +63,7 @@ class LicenseDirectadminHandler {
   };
 
   /** Change the Operating System for a license */
-  postDirectadminServiceNameChangeOs = (
+  updateDirectadminOsByServiceName = (
     serviceName: string,
     body: { os: LicenseDirectAdminOsEnum }
   ): Promise<LicenseTask> => {
@@ -71,7 +71,7 @@ class LicenseDirectadminHandler {
   };
 
   /** Confirm termination of your service */
-  postDirectadminServiceNameConfirmTermination = (
+  confirmDirectadminTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -84,12 +84,12 @@ class LicenseDirectadminHandler {
   };
 
   /** Get this object properties */
-  getDirectadminServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getDirectadminServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/license/directadmin/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putDirectadminServiceNameServiceInfos = (
+  updateDirectadminServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -97,12 +97,12 @@ class LicenseDirectadminHandler {
   };
 
   /** tasks linked to this license */
-  getDirectadminServiceNameTasks = (serviceName: string): Promise<number> => {
+  getDirectadminTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/license/directadmin/${serviceName}/tasks`);
   };
 
   /** Get this object properties */
-  getDirectadminServiceNameTasksTaskId = (
+  getDirectadminTasksByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<LicenseTask> => {
@@ -110,9 +110,9 @@ class LicenseDirectadminHandler {
   };
 
   /** Terminate your service */
-  postDirectadminServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postDirectadminTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/license/directadmin/${serviceName}/terminate`);
   };
 }
 
-export default LicenseDirectadminHandler;
+export { LicenseDirectadminHandler };

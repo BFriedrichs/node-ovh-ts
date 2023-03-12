@@ -6,7 +6,7 @@ import { TelephonyPhoneConfigurationLevelEnum } from './TelephonyPhoneConfigurat
 export type TelephonyPhoneConfigurationProperty = {
   default: string | null;
   description: string | null;
-  enum: string | null;
+  enum: string[] | null;
   group: string | null;
   level: TelephonyPhoneConfigurationLevelEnum | null;
   maxlength: number | null;

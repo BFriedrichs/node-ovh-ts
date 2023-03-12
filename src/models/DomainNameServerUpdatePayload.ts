@@ -2,4 +2,4 @@
 
 import { DomainNameServerNameServer } from './DomainNameServerNameServer';
 
-export type DomainNameServerUpdatePayload = { nameServers?: DomainNameServerNameServer };
+export type DomainNameServerUpdatePayload = { nameServers?: DomainNameServerNameServer[] };

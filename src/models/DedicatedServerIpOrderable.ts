@@ -3,6 +3,6 @@
 import { DedicatedServerIpOrderableDetails } from './DedicatedServerIpOrderableDetails';
 
 export type DedicatedServerIpOrderable = {
-  ipv4: DedicatedServerIpOrderableDetails | null;
-  ipv6: DedicatedServerIpOrderableDetails | null;
+  ipv4: DedicatedServerIpOrderableDetails[] | null;
+  ipv6: DedicatedServerIpOrderableDetails[] | null;
 };

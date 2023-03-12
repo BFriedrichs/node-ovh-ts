@@ -1,10 +1,10 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectInstancesUsage } from './CloudProjectInstancesUsage';
 import { CloudProjectSnapshotsUsage } from './CloudProjectSnapshotsUsage';
-import { OrderPrice } from './OrderPrice';
 import { CloudProjectVolumesUsage } from './CloudProjectVolumesUsage';
+import { CloudProjectInstancesUsage } from './CloudProjectInstancesUsage';
 import { CloudProjectStorageUsage } from './CloudProjectStorageUsage';
+import { OrderPrice } from './OrderPrice';
 
 export type CloudProjectCurrentUsage = {
   instances: CloudProjectInstancesUsage;

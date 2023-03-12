@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedCloudVlanTypeEnum } from './DedicatedCloudVlanTypeEnum';
 import { DedicatedCloudVlanStateEnum } from './DedicatedCloudVlanStateEnum';
+import { DedicatedCloudVlanTypeEnum } from './DedicatedCloudVlanTypeEnum';
 
 export type DedicatedCloudVlan = {
   name: string;

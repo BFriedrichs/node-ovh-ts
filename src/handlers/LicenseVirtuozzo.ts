@@ -1,16 +1,16 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
+import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
+import { LicenseOptionLabel } from '../models/LicenseOptionLabel';
+import { LicenseOption } from '../models/LicenseOption';
+import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { LicenseVirtuozzoVirtuozzo } from '../models/LicenseVirtuozzoVirtuozzo';
+import { LicenseTask } from '../models/LicenseTask';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicenseVirtuozzoOrderConfiguration } from '../models/LicenseVirtuozzoOrderConfiguration';
+import { LicenseActionType } from '../models/LicenseActionType';
 import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
 import { ServicesService } from '../models/ServicesService';
-import { LicenseVirtuozzoOrderConfiguration } from '../models/LicenseVirtuozzoOrderConfiguration';
-import { LicenseOption } from '../models/LicenseOption';
-import { LicenseVirtuozzoVirtuozzo } from '../models/LicenseVirtuozzoVirtuozzo';
-import { LicenseOptionLabel } from '../models/LicenseOptionLabel';
-import { LicenseActionType } from '../models/LicenseActionType';
-import { LicenseChangeIpStatus } from '../models/LicenseChangeIpStatus';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { LicenseTask } from '../models/LicenseTask';
-import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
 import OVHBase from '../ovh';
 
 class LicenseVirtuozzoHandler {
@@ -21,22 +21,22 @@ class LicenseVirtuozzoHandler {
   }
 
   /** List available services */
-  getVirtuozzo = (): Promise<string> => {
+  listVirtuozzos = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/virtuozzo');
   };
 
   /** Get the orderable Virtuozzo versions */
-  getVirtuozzoOrderableVersions = (): Promise<LicenseVirtuozzoOrderConfiguration> => {
+  getVirtuozzoOrderableVersions = (): Promise<LicenseVirtuozzoOrderConfiguration[]> => {
     return this.ovh.request('GET', '/license/virtuozzo/orderableVersions');
   };
 
   /** Get this object properties */
-  getVirtuozzoServiceName = (serviceName: string): Promise<LicenseVirtuozzoVirtuozzo> => {
+  getVirtuozzoByServiceName = (serviceName: string): Promise<LicenseVirtuozzoVirtuozzo> => {
     return this.ovh.request('GET', `/license/virtuozzo/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putVirtuozzoServiceName = (
+  updateVirtuozzoByServiceName = (
     serviceName: string,
     body: LicenseVirtuozzoVirtuozzo
   ): Promise<void> => {
@@ -44,19 +44,19 @@ class LicenseVirtuozzoHandler {
   };
 
   /** Returns an array of ips where the license can be moved to */
-  getVirtuozzoServiceNameAllowedDestinationIp = (serviceName: string): Promise<string> => {
+  getVirtuozzoAllowedDestinationIpByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/license/virtuozzo/${serviceName}/allowedDestinationIp`);
   };
 
   /** Will tell if the ip can accept the license */
-  getVirtuozzoServiceNameCanLicenseBeMovedTo = (
+  getVirtuozzoCanLicenseBeMovedToByServiceName = (
     serviceName: string
   ): Promise<LicenseChangeIpStatus> => {
     return this.ovh.request('GET', `/license/virtuozzo/${serviceName}/canLicenseBeMovedTo`);
   };
 
   /** Move this license to another Ip */
-  postVirtuozzoServiceNameChangeIp = (
+  postVirtuozzoChangeIpByServiceName = (
     serviceName: string,
     body: { destinationIp: string }
   ): Promise<LicenseTask> => {
@@ -64,7 +64,7 @@ class LicenseVirtuozzoHandler {
   };
 
   /** Confirm termination of your service */
-  postVirtuozzoServiceNameConfirmTermination = (
+  confirmVirtuozzoTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -77,12 +77,12 @@ class LicenseVirtuozzoHandler {
   };
 
   /** Options linked to this license */
-  getVirtuozzoServiceNameOption = (serviceName: string): Promise<LicenseOptionLabel> => {
+  getVirtuozzoOptionByServiceName = (serviceName: string): Promise<LicenseOptionLabel[]> => {
     return this.ovh.request('GET', `/license/virtuozzo/${serviceName}/option`);
   };
 
   /** release this Option */
-  deleteVirtuozzoServiceNameOptionLabel = (
+  deleteVirtuozzoOptionByServiceNameAndLabel = (
     label: LicenseOptionLabel,
     serviceName: string
   ): Promise<LicenseTask> => {
@@ -90,7 +90,7 @@ class LicenseVirtuozzoHandler {
   };
 
   /** Get this object properties */
-  getVirtuozzoServiceNameOptionLabel = (
+  getVirtuozzoOptionByServiceNameAndLabel = (
     label: LicenseOptionLabel,
     serviceName: string
   ): Promise<LicenseOption> => {
@@ -98,12 +98,12 @@ class LicenseVirtuozzoHandler {
   };
 
   /** Get this object properties */
-  getVirtuozzoServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getVirtuozzoServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/license/virtuozzo/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putVirtuozzoServiceNameServiceInfos = (
+  updateVirtuozzoServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -111,12 +111,12 @@ class LicenseVirtuozzoHandler {
   };
 
   /** tasks linked to this license */
-  getVirtuozzoServiceNameTasks = (serviceName: string): Promise<number> => {
+  getVirtuozzoTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/license/virtuozzo/${serviceName}/tasks`);
   };
 
   /** Get this object properties */
-  getVirtuozzoServiceNameTasksTaskId = (
+  getVirtuozzoTasksByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<LicenseTask> => {
@@ -124,9 +124,9 @@ class LicenseVirtuozzoHandler {
   };
 
   /** Terminate your service */
-  postVirtuozzoServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postVirtuozzoTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/license/virtuozzo/${serviceName}/terminate`);
   };
 }
 
-export default LicenseVirtuozzoHandler;
+export { LicenseVirtuozzoHandler };

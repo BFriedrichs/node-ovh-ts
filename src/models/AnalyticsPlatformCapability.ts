@@ -1,17 +1,17 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { AnalyticsPlatformCapabilityRequirement } from './AnalyticsPlatformCapabilityRequirement';
-import { AnalyticsNodeCapability } from './AnalyticsNodeCapability';
 import { AnalyticsComponent } from './AnalyticsComponent';
+import { AnalyticsNodeCapability } from './AnalyticsNodeCapability';
+import { AnalyticsPlatformCapabilityRequirement } from './AnalyticsPlatformCapabilityRequirement';
 
 export type AnalyticsPlatformCapability = {
-  availableRegion: string;
+  availableRegion: string[];
   bastionNode: AnalyticsNodeCapability;
-  components: AnalyticsComponent;
+  components: AnalyticsComponent[];
   edgeNode: AnalyticsNodeCapability;
   hdfsReplicationFactor: number;
   masterNode: AnalyticsNodeCapability;
-  requirements: AnalyticsPlatformCapabilityRequirement | null;
+  requirements: AnalyticsPlatformCapabilityRequirement[] | null;
   utilityNode: AnalyticsNodeCapability;
   version: string;
   versionDescription: string;

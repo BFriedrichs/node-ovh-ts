@@ -4,5 +4,5 @@ import { CloudInstanceInstanceMetricsValue } from './CloudInstanceInstanceMetric
 
 export type CloudInstanceInstanceMetrics = {
   unit: string;
-  values: CloudInstanceInstanceMetricsValue;
+  values: CloudInstanceInstanceMetricsValue[];
 };

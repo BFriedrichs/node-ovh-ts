@@ -7,7 +7,7 @@ export type BillingOrderPaymentMean = {
   htmlForm: string | null;
   httpMethod: string;
   logo: string | null;
-  parameters: BillingOrderPaymentMeanHttpParameter;
+  parameters: BillingOrderPaymentMeanHttpParameter[];
   subType: string | null;
   url: string;
 };

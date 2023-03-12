@@ -1,13 +1,13 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { LicenseSqlserverSqlServer } from '../models/LicenseSqlserverSqlServer';
-import { ServicesService } from '../models/ServicesService';
-import { LicenseActionType } from '../models/LicenseActionType';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { LicenseTask } from '../models/LicenseTask';
-import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
-import { LicenseSqlServerOrderConfiguration } from '../models/LicenseSqlServerOrderConfiguration';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicenseSqlServerOrderConfiguration } from '../models/LicenseSqlServerOrderConfiguration';
+import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
+import { LicenseActionType } from '../models/LicenseActionType';
+import { LicenseTask } from '../models/LicenseTask';
+import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class LicenseSqlserverHandler {
@@ -18,22 +18,22 @@ class LicenseSqlserverHandler {
   }
 
   /** List available services */
-  getSqlserver = (): Promise<string> => {
+  listSqlservers = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/sqlserver');
   };
 
   /** Get the orderable Sql Server versions */
-  getSqlserverOrderableVersions = (): Promise<LicenseSqlServerOrderConfiguration> => {
+  getSqlserverOrderableVersions = (): Promise<LicenseSqlServerOrderConfiguration[]> => {
     return this.ovh.request('GET', '/license/sqlserver/orderableVersions');
   };
 
   /** Get this object properties */
-  getSqlserverServiceName = (serviceName: string): Promise<LicenseSqlserverSqlServer> => {
+  getSqlserverByServiceName = (serviceName: string): Promise<LicenseSqlserverSqlServer> => {
     return this.ovh.request('GET', `/license/sqlserver/${serviceName}`);
   };
 
   /** Confirm termination of your service */
-  postSqlserverServiceNameConfirmTermination = (
+  confirmSqlserverTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -46,12 +46,12 @@ class LicenseSqlserverHandler {
   };
 
   /** Get this object properties */
-  getSqlserverServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getSqlserverServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/license/sqlserver/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putSqlserverServiceNameServiceInfos = (
+  updateSqlserverServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -59,12 +59,12 @@ class LicenseSqlserverHandler {
   };
 
   /** Tasks linked to this license */
-  getSqlserverServiceNameTasks = (serviceName: string): Promise<number> => {
+  getSqlserverTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/license/sqlserver/${serviceName}/tasks`);
   };
 
   /** Get this object properties */
-  getSqlserverServiceNameTasksTaskId = (
+  getSqlserverTasksByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<LicenseTask> => {
@@ -72,9 +72,9 @@ class LicenseSqlserverHandler {
   };
 
   /** Terminate your service */
-  postSqlserverServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postSqlserverTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/license/sqlserver/${serviceName}/terminate`);
   };
 }
 
-export default LicenseSqlserverHandler;
+export { LicenseSqlserverHandler };

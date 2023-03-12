@@ -3,6 +3,6 @@
 import { CloudProjectDatabaseServiceDataPoint } from './CloudProjectDatabaseServiceDataPoint';
 
 export type CloudProjectDatabaseServiceHostMetric = {
-  dataPoints: CloudProjectDatabaseServiceDataPoint;
+  dataPoints: CloudProjectDatabaseServiceDataPoint[];
   hostname: string;
 };

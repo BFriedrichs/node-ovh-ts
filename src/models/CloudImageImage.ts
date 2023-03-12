@@ -11,7 +11,7 @@ export type CloudImageImage = {
   region: string;
   size: number;
   status: string;
-  tags: string | null;
+  tags: string[] | null;
   type: string;
   user: string;
   visibility: string;

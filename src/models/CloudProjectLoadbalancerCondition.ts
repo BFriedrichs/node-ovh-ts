@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectLoadbalancerConditionTypeEnum } from './CloudProjectLoadbalancerConditionTypeEnum';
 import { CloudProjectLoadbalancerConditionMatchEnum } from './CloudProjectLoadbalancerConditionMatchEnum';
+import { CloudProjectLoadbalancerConditionTypeEnum } from './CloudProjectLoadbalancerConditionTypeEnum';
 
 export type CloudProjectLoadbalancerCondition = {
   key: string | null;
@@ -9,5 +9,5 @@ export type CloudProjectLoadbalancerCondition = {
   name?: string;
   negate: boolean | null;
   type?: CloudProjectLoadbalancerConditionTypeEnum;
-  values?: string;
+  values?: string[];
 };

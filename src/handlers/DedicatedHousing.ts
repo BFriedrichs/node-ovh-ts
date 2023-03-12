@@ -1,14 +1,14 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedServerBackupFtpAcl } from '../models/DedicatedServerBackupFtpAcl';
-import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
-import { ServicesService } from '../models/ServicesService';
-import { DedicatedHousingHousing } from '../models/DedicatedHousingHousing';
-import { DedicatedHousingTask } from '../models/DedicatedHousingTask';
-import { DedicatedServerBackupFtp } from '../models/DedicatedServerBackupFtp';
 import { DedicatedHousingTaskFunctionEnum } from '../models/DedicatedHousingTaskFunctionEnum';
-import { DedicatedServerTask } from '../models/DedicatedServerTask';
+import { DedicatedServerBackupFtp } from '../models/DedicatedServerBackupFtp';
+import { DedicatedHousingTask } from '../models/DedicatedHousingTask';
+import { DedicatedHousingHousing } from '../models/DedicatedHousingHousing';
+import { DedicatedTaskStatusEnum } from '../models/DedicatedTaskStatusEnum';
 import { DedicatedHousingApcOrderable } from '../models/DedicatedHousingApcOrderable';
+import { ServicesService } from '../models/ServicesService';
+import { DedicatedServerBackupFtpAcl } from '../models/DedicatedServerBackupFtpAcl';
+import { DedicatedServerTask } from '../models/DedicatedServerTask';
 import OVHBase from '../ovh';
 
 class DedicatedHousingHandler {
@@ -19,41 +19,43 @@ class DedicatedHousingHandler {
   }
 
   /** List available services */
-  getHousing = (): Promise<string> => {
+  listHousings = (): Promise<string[]> => {
     return this.ovh.request('GET', '/dedicated/housing');
   };
 
   /** Get this object properties */
-  getHousingServiceName = (serviceName: string): Promise<DedicatedHousingHousing> => {
+  getHousingByServiceName = (serviceName: string): Promise<DedicatedHousingHousing> => {
     return this.ovh.request('GET', `/dedicated/housing/${serviceName}`);
   };
 
   /** Terminate your Backup FTP service, ALL DATA WILL BE PERMANENTLY DELETED */
-  deleteHousingServiceNameFeaturesBackupFTP = (
+  deleteHousingFeaturesBackupFTPByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerTask> => {
     return this.ovh.request('DELETE', `/dedicated/housing/${serviceName}/features/backupFTP`);
   };
 
   /** Get this object properties */
-  getHousingServiceNameFeaturesBackupFTP = (
+  getHousingFeaturesBackupFTPByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerBackupFtp> => {
     return this.ovh.request('GET', `/dedicated/housing/${serviceName}/features/backupFTP`);
   };
 
   /** Create a new Backup FTP space */
-  postHousingServiceNameFeaturesBackupFTP = (serviceName: string): Promise<DedicatedServerTask> => {
+  createHousingFeaturesBackupFTPByServiceName = (
+    serviceName: string
+  ): Promise<DedicatedServerTask> => {
     return this.ovh.request('POST', `/dedicated/housing/${serviceName}/features/backupFTP`);
   };
 
   /** List of IP blocks (and protocols to allow on these blocks) authorized on your backup FTP */
-  getHousingServiceNameFeaturesBackupFTPAccess = (serviceName: string): Promise<string> => {
+  listHousingFeaturesBackupFTPAccessByServiceName = (serviceName: string): Promise<string[]> => {
     return this.ovh.request('GET', `/dedicated/housing/${serviceName}/features/backupFTP/access`);
   };
 
   /** Create a new Backup FTP ACL */
-  postHousingServiceNameFeaturesBackupFTPAccess = (
+  createHousingFeaturesBackupFTPAccessByServiceName = (
     serviceName: string,
     body: { cifs: boolean; ftp?: boolean; ipBlock: string; nfs: boolean }
   ): Promise<DedicatedServerTask> => {
@@ -65,7 +67,7 @@ class DedicatedHousingHandler {
   };
 
   /** Revoke this ACL */
-  deleteHousingServiceNameFeaturesBackupFTPAccessIpBlock = (
+  deleteHousingFeaturesBackupFTPAccessByServiceNameAndIpBlock = (
     ipBlock: string,
     serviceName: string
   ): Promise<DedicatedServerTask> => {
@@ -76,7 +78,7 @@ class DedicatedHousingHandler {
   };
 
   /** Get this object properties */
-  getHousingServiceNameFeaturesBackupFTPAccessIpBlock = (
+  getHousingFeaturesBackupFTPAccessByServiceNameAndIpBlock = (
     ipBlock: string,
     serviceName: string
   ): Promise<DedicatedServerBackupFtpAcl> => {
@@ -87,7 +89,7 @@ class DedicatedHousingHandler {
   };
 
   /** Alter this object properties */
-  putHousingServiceNameFeaturesBackupFTPAccessIpBlock = (
+  updateHousingFeaturesBackupFTPAccessByServiceNameAndIpBlock = (
     ipBlock: string,
     serviceName: string,
     body: DedicatedServerBackupFtpAcl
@@ -100,9 +102,9 @@ class DedicatedHousingHandler {
   };
 
   /** Get all IP blocks that can be used in the ACL */
-  getHousingServiceNameFeaturesBackupFTPAuthorizableBlocks = (
+  getHousingFeaturesBackupFTPAuthorizableBlocksByServiceName = (
     serviceName: string
-  ): Promise<string> => {
+  ): Promise<string[]> => {
     return this.ovh.request(
       'GET',
       `/dedicated/housing/${serviceName}/features/backupFTP/authorizableBlocks`
@@ -110,7 +112,7 @@ class DedicatedHousingHandler {
   };
 
   /** Change your Backup FTP password */
-  postHousingServiceNameFeaturesBackupFTPPassword = (
+  updateHousingFeaturesBackupFTPPasswordByServiceName = (
     serviceName: string
   ): Promise<DedicatedServerTask> => {
     return this.ovh.request(
@@ -120,19 +122,19 @@ class DedicatedHousingHandler {
   };
 
   /** Is an APC orderable for this housing bay */
-  getHousingServiceNameOrderableAPC = (
+  getHousingOrderableAPCByServiceName = (
     serviceName: string
   ): Promise<DedicatedHousingApcOrderable> => {
     return this.ovh.request('GET', `/dedicated/housing/${serviceName}/orderable/APC`);
   };
 
   /** Get this object properties */
-  getHousingServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getHousingServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/dedicated/housing/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putHousingServiceNameServiceInfos = (
+  updateHousingServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -140,12 +142,12 @@ class DedicatedHousingHandler {
   };
 
   /** View task list */
-  getHousingServiceNameTask = (serviceName: string): Promise<number> => {
+  getHousingTaskByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/dedicated/housing/${serviceName}/task`);
   };
 
   /** Get this object properties */
-  getHousingServiceNameTaskTaskId = (
+  getHousingTaskByServiceNameAndTaskId = (
     serviceName: string,
     taskId: number
   ): Promise<DedicatedHousingTask> => {
@@ -153,9 +155,12 @@ class DedicatedHousingHandler {
   };
 
   /** this action stop the task progression if it's possible */
-  postHousingServiceNameTaskTaskIdCancel = (serviceName: string, taskId: number): Promise<void> => {
+  postHousingTaskCancelByServiceNameAndTaskId = (
+    serviceName: string,
+    taskId: number
+  ): Promise<void> => {
     return this.ovh.request('POST', `/dedicated/housing/${serviceName}/task/${taskId}/cancel`);
   };
 }
 
-export default DedicatedHousingHandler;
+export { DedicatedHousingHandler };

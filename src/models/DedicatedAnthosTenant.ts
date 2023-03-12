@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { DedicatedAnthosStorage } from './DedicatedAnthosStorage';
 import { DedicatedAnthosTenantStatusEnum } from './DedicatedAnthosTenantStatusEnum';
+import { DedicatedAnthosStorage } from './DedicatedAnthosStorage';
 
 export type DedicatedAnthosTenant = {
   accessUrl: string;

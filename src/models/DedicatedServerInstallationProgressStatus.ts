@@ -4,5 +4,5 @@ import { DedicatedServerInstallationProgressSteps } from './DedicatedServerInsta
 
 export type DedicatedServerInstallationProgressStatus = {
   elapsedTime: number;
-  progress: DedicatedServerInstallationProgressSteps | null;
+  progress: DedicatedServerInstallationProgressSteps[] | null;
 };

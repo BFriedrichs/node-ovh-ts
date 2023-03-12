@@ -1,9 +1,9 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
 import { MeMigrationStepStatusEnum } from './MeMigrationStepStatusEnum';
+import { MeMigrationStepDebt } from './MeMigrationStepDebt';
 import { MeMigrationStepContracts } from './MeMigrationStepContracts';
 import { MeMigrationStepNameEnum } from './MeMigrationStepNameEnum';
-import { MeMigrationStepDebt } from './MeMigrationStepDebt';
 import { MeMigrationStepOrders } from './MeMigrationStepOrders';
 
 export type MeMigrationStep = {

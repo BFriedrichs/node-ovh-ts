@@ -1,12 +1,12 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
-import { ServicesService } from '../models/ServicesService';
-import { LicenseActionType } from '../models/LicenseActionType';
-import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
-import { LicenseTask } from '../models/LicenseTask';
 import { LicenseRedhatRedHat } from '../models/LicenseRedhatRedHat';
 import { ServiceTerminationFutureUseEnum } from '../models/ServiceTerminationFutureUseEnum';
+import { ServiceTerminationReasonEnum } from '../models/ServiceTerminationReasonEnum';
+import { LicenseTaskStateEnum } from '../models/LicenseTaskStateEnum';
+import { LicenseTask } from '../models/LicenseTask';
+import { LicenseActionType } from '../models/LicenseActionType';
+import { ServicesService } from '../models/ServicesService';
 import OVHBase from '../ovh';
 
 class LicenseRedhatHandler {
@@ -17,22 +17,22 @@ class LicenseRedhatHandler {
   }
 
   /** List available services */
-  getRedhat = (): Promise<string> => {
+  listRedhats = (): Promise<string[]> => {
     return this.ovh.request('GET', '/license/redhat');
   };
 
   /** Get this object properties */
-  getRedhatServiceName = (serviceName: string): Promise<LicenseRedhatRedHat> => {
+  getRedhatByServiceName = (serviceName: string): Promise<LicenseRedhatRedHat> => {
     return this.ovh.request('GET', `/license/redhat/${serviceName}`);
   };
 
   /** Alter this object properties */
-  putRedhatServiceName = (serviceName: string, body: LicenseRedhatRedHat): Promise<void> => {
+  updateRedhatByServiceName = (serviceName: string, body: LicenseRedhatRedHat): Promise<void> => {
     return this.ovh.request('PUT', `/license/redhat/${serviceName}`, body);
   };
 
   /** Confirm termination of your service */
-  postRedhatServiceNameConfirmTermination = (
+  confirmRedhatTerminationByServiceName = (
     serviceName: string,
     body: {
       commentary?: string;
@@ -45,12 +45,12 @@ class LicenseRedhatHandler {
   };
 
   /** Get this object properties */
-  getRedhatServiceNameServiceInfos = (serviceName: string): Promise<ServicesService> => {
+  getRedhatServiceInfosByServiceName = (serviceName: string): Promise<ServicesService> => {
     return this.ovh.request('GET', `/license/redhat/${serviceName}/serviceInfos`);
   };
 
   /** Alter this object properties */
-  putRedhatServiceNameServiceInfos = (
+  updateRedhatServiceInfosByServiceName = (
     serviceName: string,
     body: ServicesService
   ): Promise<void> => {
@@ -58,19 +58,22 @@ class LicenseRedhatHandler {
   };
 
   /** tasks linked to this license */
-  getRedhatServiceNameTasks = (serviceName: string): Promise<number> => {
+  getRedhatTasksByServiceName = (serviceName: string): Promise<number[]> => {
     return this.ovh.request('GET', `/license/redhat/${serviceName}/tasks`);
   };
 
   /** Get this object properties */
-  getRedhatServiceNameTasksTaskId = (serviceName: string, taskId: number): Promise<LicenseTask> => {
+  getRedhatTasksByServiceNameAndTaskId = (
+    serviceName: string,
+    taskId: number
+  ): Promise<LicenseTask> => {
     return this.ovh.request('GET', `/license/redhat/${serviceName}/tasks/${taskId}`);
   };
 
   /** Terminate your service */
-  postRedhatServiceNameTerminate = (serviceName: string): Promise<string> => {
+  postRedhatTerminateByServiceName = (serviceName: string): Promise<string> => {
     return this.ovh.request('POST', `/license/redhat/${serviceName}/terminate`);
   };
 }
 
-export default LicenseRedhatHandler;
+export { LicenseRedhatHandler };

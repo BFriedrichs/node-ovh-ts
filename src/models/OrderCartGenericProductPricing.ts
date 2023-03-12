@@ -1,11 +1,11 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { OrderCartGenericProductPricingTypeEnum } from './OrderCartGenericProductPricingTypeEnum';
 import { OrderCartGenericProductPricingCapacitiesEnum } from './OrderCartGenericProductPricingCapacitiesEnum';
 import { OrderPrice } from './OrderPrice';
+import { OrderCartGenericProductPricingTypeEnum } from './OrderCartGenericProductPricingTypeEnum';
 
 export type OrderCartGenericProductPricing = {
-  capacities: OrderCartGenericProductPricingCapacitiesEnum;
+  capacities: OrderCartGenericProductPricingCapacitiesEnum[];
   description: string;
   duration: number;
   interval: number;

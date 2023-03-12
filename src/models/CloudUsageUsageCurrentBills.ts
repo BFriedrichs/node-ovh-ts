@@ -2,4 +2,4 @@
 
 import { CloudUsageUsageBill } from './CloudUsageUsageBill';
 
-export type CloudUsageUsageCurrentBills = { bills: CloudUsageUsageBill };
+export type CloudUsageUsageCurrentBills = { bills: CloudUsageUsageBill[] };

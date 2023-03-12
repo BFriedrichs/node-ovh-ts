@@ -6,6 +6,6 @@ export type DbaasLogsHelper = {
   description: string;
   engineId: string;
   helperId: string;
-  sections: DbaasLogsHelperSection;
+  sections: DbaasLogsHelperSection[];
   title: string;
 };

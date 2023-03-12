@@ -5,7 +5,7 @@ import { CloudLoadbalancingListenerProtocolEnum } from './CloudLoadbalancingList
 
 export type CloudLoadbalancingLoadbalancerListenerCreate = {
   name: string;
-  pools: CloudLoadbalancingLoadbalancerPoolCreate;
+  pools: CloudLoadbalancingLoadbalancerPoolCreate[];
   port?: number;
   protocol?: CloudLoadbalancingListenerProtocolEnum;
   secretId: string;

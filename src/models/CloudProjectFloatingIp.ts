@@ -1,7 +1,7 @@
 /* WARNING: This file is auto-generated . Do not edit manually. */
 
-import { CloudProjectFloatingIpAssociatedEntity } from './CloudProjectFloatingIpAssociatedEntity';
 import { CloudProjectFloatingIpStatusEnum } from './CloudProjectFloatingIpStatusEnum';
+import { CloudProjectFloatingIpAssociatedEntity } from './CloudProjectFloatingIpAssociatedEntity';
 
 export type CloudProjectFloatingIp = {
   associatedEntity: CloudProjectFloatingIpAssociatedEntity | null;

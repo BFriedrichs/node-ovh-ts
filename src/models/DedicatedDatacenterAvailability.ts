@@ -3,7 +3,7 @@
 import { DedicatedAvailabilityDatacenter } from './DedicatedAvailabilityDatacenter';
 
 export type DedicatedDatacenterAvailability = {
-  datacenters: DedicatedAvailabilityDatacenter;
+  datacenters: DedicatedAvailabilityDatacenter[];
   fqn: string;
   gpu: string | null;
   memory: string | null;

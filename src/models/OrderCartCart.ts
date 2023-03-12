@@ -4,6 +4,6 @@ export type OrderCartCart = {
   cartId: string;
   description: string;
   expire: Date | null;
-  items: number;
+  items: number[];
   readOnly: boolean;
 };
